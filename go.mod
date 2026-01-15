@@ -1,3 +1,3 @@
-module github.com/Nikhil Yadav/cve
+module github.com/yadavnikhil17102004/CVE_Map_hehe
 
-go 1.23.0
+go 1.25.5
