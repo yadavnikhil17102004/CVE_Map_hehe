@@ -19,34 +19,22 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Go Environment
-        uses: actions/setup-go@v5
-        with:
-          go-version: "1.25.x"
-          cache: true
-
-      - name: Compile Exploit Engine
-        run: |
-          go build -o cvemapping cvemapping.go
-          chmod +x cvemapping
-
-      - name: Execute Scraper for Current Year (JSON Export)
+      - name: Build and Execute Scraper Engines
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
-          # Fetch all repos relating to the current year CVEs, export them as static JSON
+          go build cvemapping.go
+          go build nvd_scraper.go
+
           YEAR=$(date +%Y)
-          echo "Scraping CVE exploits for the year $YEAR..."
-          echo '"CVE-'"$YEAR"'-"' | ./cvemapping -github-token "$GITHUB_TOKEN" -page all -year "$YEAR" -export-json
-
-      - name: Execute Scraper for Previous Year (JSON Export)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # Fetch all repos relating to the last year to ensure late publications are caught
           LAST_YEAR=$(date -d "last year" +%Y)
-          echo "Scraping CVE exploits for the year $LAST_YEAR..."
-          echo '"CVE-'"$LAST_YEAR"'-"' | ./cvemapping -github-token "$GITHUB_TOKEN" -page all -year "$LAST_YEAR" -export-json
+
+          echo "Firing Main Engine..."
+          ./cvemapping -github-token "$GITHUB_TOKEN" -export-json -year "$YEAR"
+          ./cvemapping -github-token "$GITHUB_TOKEN" -export-json -year "$LAST_YEAR"
+
+          echo "Firing NVD Engine..."
+          ./nvd_scraper
 
       - name: Move Data to Web Directory
         run: |
