@@ -31,8 +31,8 @@ jobs:
           LAST_YEAR=$(date -d "last year" +%Y)
 
           echo "Firing Main Engine..."
-          echo "CVE-$YEAR-" | ./cvemapping -github-token "$GITHUB_TOKEN" -export-json -year "$YEAR"
-          echo "CVE-$LAST_YEAR-" | ./cvemapping -github-token "$GITHUB_TOKEN" -export-json -year "$LAST_YEAR"
+          echo "CVE-$YEAR-" | ./cvemapping -github-token "$GITHUB_TOKEN" -export-json -year "$YEAR" -page all
+          echo "CVE-$LAST_YEAR-" | ./cvemapping -github-token "$GITHUB_TOKEN" -export-json -year "$LAST_YEAR" -page all
 
           echo "Firing NVD Intelligence Engine v2.0..."
           ./nvd_scraper
