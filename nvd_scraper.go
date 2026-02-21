@@ -220,7 +220,14 @@ func fetchWindow(from, to time.Time, dict map[string]CVEIntel, apiKey string) er
 // Phase 2: Collect missing/unscored CVE IDs from data files
 // ============================================================
 
+// collectMissingCVEs scans all data/*.json files for CVE IDs that are
+// either absent from the dictionary or have score == 0 (UNSCORED).
+// Returns at most maxPerRun entries to keep each scraper cycle fast.
 func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
+	const maxPerRun = 200 // drain gradually — prevents 60+ min backfill runs
+
+	validCVE := regexp.MustCompile(`^CVE-\d{4}-\d{4,}$`) // strict format only
+
 	pattern := filepath.Join(dataDir, "*.json")
 	files, err := filepath.Glob(pattern)
 	if err != nil {
@@ -232,7 +239,6 @@ func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
 	var missing []string
 
 	for _, f := range files {
-		// Skip nvd_intel.json itself
 		if filepath.Base(f) == "nvd_intel.json" {
 			continue
 		}
@@ -246,14 +252,20 @@ func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
 		}
 		for _, cve := range df.CVEs {
 			id := cve.CVEID
+			if !validCVE.MatchString(id) {
+				continue // skip OTHER-XXXX, GHSA-*, etc.
+			}
 			if seen[id] {
 				continue
 			}
 			seen[id] = true
-			// Only backfill if: not in dict, OR score is 0 (unscored)
 			existing, ok := dict[id]
 			if !ok || existing.Score == 0 {
 				missing = append(missing, id)
+				if len(missing) >= maxPerRun {
+					log.Printf("  [i] Capped at %d CVEs/run. Remainder will be fetched in subsequent runs.", maxPerRun)
+					return missing
+				}
 			}
 		}
 	}
