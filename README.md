@@ -50,11 +50,27 @@ Usage of cvemapping:
         Year to search for CVEs (e.g., 2024, 2020)
 ```
 
-## 🌐 Dataset Web Viewer
+## 🌐 Threat Intelligence Dashboard
 
-This engine automatically dumps CVE datasets into the `data/` directory. These can be served immediately via the included static renderer:
+The engine automatically exports highly-minified, raw JSON datasets directly to the `web/data` structure. Instead of serving this yourself, **GitHub Pages natively hosts the entire platform**.
 
-1. Generate JSON data via the `-export-json` flag.
-2. Move JSON files into `web/data/`.
-3. Serve the `web/` directory using any standard static HTTP server.
-4. Profit.
+**View the Live Dashboard:**
+👉 `https://yadavnikhil17102004.github.io/CVE_Map_hehe/`
+
+### 📡 Public Open API (JSON)
+
+Because the datasets are statically built and pushed via GitHub Actions, mapping data acts as a zero-cost API CDN. You can natively pull the raw intelligence into your own security tools.
+
+**Endpoint Format:**
+
+```bash
+curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/{YYYY}.json
+```
+
+**Example (Fetch 2024 intel):**
+
+```bash
+curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/2024.json | jq '.cves[] | .cve_id'
+```
+
+_(The dashboard Javascript natively wraps the official US National Vulnerability Database API to pull CVSS metrics in real-time)._

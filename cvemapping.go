@@ -160,6 +160,9 @@ func main() {
 		} else {
 			// Use standard pagination (total_count <= 1000)
 			log.Printf("Total count is %d (<= 1000), using standard pagination", totalCount)
+			
+			// Pre-allocate the slice capacity to precisely match the total count to stop GC thrashing
+			allRepos = make([]*GitHubRepository, 0, totalCount)
 			allRepos = append(allRepos, repos.Items...)
 			pageNum := 2
 			
@@ -217,6 +220,8 @@ func main() {
 			// Capture total_count and incomplete_results from first page
 			if pageNum == 1 {
 				totalCount = repos.TotalCount
+				// Pre-allocate the slice capacity to precisely match the total count
+				allRepos = make([]*GitHubRepository, 0, totalCount)
 				if repos.IncompleteResults {
 					log.Printf("Warning: GitHub API returned incomplete results (total_count: %d)", totalCount)
 				}
@@ -350,7 +355,10 @@ func fetchRepositoriesForMonth(baseQuery string, token string, year int, month i
 
 // Function to fetch repositories directly from GitHub API
 func fetchGitHubRepositories(query, token string, page int) (*GitHubSearchResponse, error) {
-	client := &http.Client{}
+	// Set an absolute 30-second timeout to prevent the execution hanging on dropped connections
+	client := &http.Client{
+		Timeout: 30 * time.Second,
+	}
 	
 	// URL encode the query string
 	encodedQuery := url.QueryEscape(query)
@@ -372,18 +380,48 @@ func fetchGitHubRepositories(query, token string, page int) (*GitHubSearchRespon
 
 	if resp.StatusCode == http.StatusForbidden {
 		retryAfter := resp.Header.Get("Retry-After")
-		if retryAfter != "" {
-			seconds, err := strconv.Atoi(retryAfter)
-			if err == nil {
-				log.Printf("Hit Secondary Rate Limit (403). Sleeping for %d seconds based on Retry-After header...", seconds)
-				time.Sleep(time.Duration(seconds+1) * time.Second)
-				return fetchGitHubRepositories(query, token, page)
+		
+		// Bounded retry system to prevent recursive stack overflows natively
+		maxRetries := 3
+		for i := 0; i < maxRetries; i++ {
+			if retryAfter != "" {
+				seconds, err := strconv.Atoi(retryAfter)
+				if err == nil {
+					log.Printf("Hit Secondary Rate Limit (403). Sleeping for %d seconds based on Retry-After header...", seconds)
+					time.Sleep(time.Duration(seconds+1) * time.Second)
+					
+					// Re-execute request
+					respRetry, err := client.Do(req)
+					if err == nil && respRetry.StatusCode != http.StatusForbidden {
+						resp.Body.Close()
+						resp = respRetry
+						break
+					}
+					if respRetry != nil {
+						respRetry.Body.Close()
+					}
+				}
+			} else {
+				// If no Retry-After header exists, implement standard fallback backoff
+				log.Printf("Hit Rate Limit (403). Sleeping for 60 seconds... (Attempt %d/%d)", i+1, maxRetries)
+				time.Sleep(60 * time.Second)
+				
+				respRetry, err := client.Do(req)
+				if err == nil && respRetry.StatusCode != http.StatusForbidden {
+					resp.Body.Close()
+					resp = respRetry
+					break
+				}
+				if respRetry != nil {
+					retryAfter = respRetry.Header.Get("Retry-After")
+					respRetry.Body.Close()
+				}
+			}
+			
+			if i == maxRetries-1 {
+				return nil, fmt.Errorf("failed to bypass 403 Secondary Rate limit after %d recursive attempts", maxRetries)
 			}
 		}
-		// If no Retry-After header exists, implement a standard backoff
-		log.Printf("Hit Rate Limit (403). Sleeping for 60 seconds...")
-		time.Sleep(60 * time.Second)
-		return fetchGitHubRepositories(query, token, page)
 	}
 
 	if resp.StatusCode != http.StatusOK {
@@ -592,12 +630,20 @@ func exportToJSON(repos []*GitHubRepository, year string) error {
 	catchAllKey := fmt.Sprintf("OTHER-%s", year)
 
 	for _, repo := range repos {
-		// Find CVE in the repository name, full name, description, or topics
-		searchText := repo.Name + " " + repo.FullName + " " + repo.Description
+		// Use strings.Builder to completely eradicate GC allocation loops on multi-string concatenation
+		var sb strings.Builder
+		sb.WriteString(repo.Name)
+		sb.WriteString(" ")
+		sb.WriteString(repo.FullName)
+		sb.WriteString(" ")
+		sb.WriteString(repo.Description)
+		
 		for _, topic := range repo.Topics {
-			searchText += " " + topic
+			sb.WriteString(" ")
+			sb.WriteString(topic)
 		}
 
+		searchText := sb.String()
 		matches := cveRegex.FindAllString(searchText, -1)
 		cveRepo := toCVERepository(repo)
 
@@ -651,9 +697,9 @@ func exportToJSON(repos []*GitHubRepository, year string) error {
 		CVEs: cveEntries,
 	}
 
-	// Write JSON file
+	// Write JSON file (Swap MarshalIndent for Marshal to create zero-bloat minified output)
 	jsonFile := fmt.Sprintf("%s/%s.json", dataDir, year)
-	jsonData, err := json.MarshalIndent(yearData, "", "  ")
+	jsonData, err := json.Marshal(yearData)
 	if err != nil {
 		return fmt.Errorf("failed to marshal JSON: %w", err)
 	}
