@@ -36,12 +36,6 @@ jobs:
           echo "Firing NVD Engine..."
           ./nvd_scraper
 
-      - name: Move Data to Web Directory
-        run: |
-          mkdir -p web/data
-          # Copy JSON files into the frontend directory
-          cp data/*.json web/data/ 2>/dev/null || true
-
       - name: Commit & Push New Datasets
         run: |
           git config --global user.name "Nikhil Yadav (Bot)"
