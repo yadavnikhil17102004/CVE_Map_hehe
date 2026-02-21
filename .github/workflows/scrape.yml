@@ -22,6 +22,7 @@ jobs:
       - name: Build and Execute Scraper Engines
         env:
           GITHUB_TOKEN: ${{ secrets.SYNC_TOKEN }}
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
         run: |
           go build cvemapping.go
           go build nvd_scraper.go
@@ -33,7 +34,7 @@ jobs:
           echo "CVE-$YEAR-" | ./cvemapping -github-token "$GITHUB_TOKEN" -export-json -year "$YEAR"
           echo "CVE-$LAST_YEAR-" | ./cvemapping -github-token "$GITHUB_TOKEN" -export-json -year "$LAST_YEAR"
 
-          echo "Firing NVD Engine..."
+          echo "Firing NVD Intelligence Engine v2.0..."
           ./nvd_scraper
 
       - name: Commit & Push New Datasets
