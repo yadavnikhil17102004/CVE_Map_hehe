@@ -97,13 +97,19 @@ func main() {
 		log.Fatal("GitHub token is required")
 	}
 
-	// Read input from stdin (for "CVE-<year>-*" pattern)
-	reader := bufio.NewReader(os.Stdin)
-	input, err := reader.ReadString('\n')
-	if err != nil {
-		log.Fatalf("Error reading input: %v", err)
+	var input string
+	if *year != "" {
+		// Generate the input natively to bypass standard input pipeline bugs
+		input = fmt.Sprintf("CVE-%s-", *year)
+	} else {
+		// Fallback to STDIN read for manual CLI usage
+		reader := bufio.NewReader(os.Stdin)
+		in, err := reader.ReadString('\n')
+		if err != nil && err.Error() != "EOF" {
+			log.Fatalf("Error reading input: %v", err)
+		}
+		input = strings.TrimSpace(in)
 	}
-	input = strings.TrimSpace(input) // Remove newline character
 
 	var allRepos []*GitHubRepository
 	var totalCount int
