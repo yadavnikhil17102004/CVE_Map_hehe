@@ -222,10 +222,8 @@ func fetchWindow(from, to time.Time, dict map[string]CVEIntel, apiKey string) er
 
 // collectMissingCVEs scans all data/*.json files for CVE IDs that are
 // either absent from the dictionary or have score == 0 (UNSCORED).
-// Returns at most maxPerRun entries to keep each scraper cycle fast.
+// Non-standard IDs (OTHER-*, GHSA-*, etc.) are filtered out.
 func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
-	const maxPerRun = 200 // drain gradually — prevents 60+ min backfill runs
-
 	validCVE := regexp.MustCompile(`^CVE-\d{4}-\d{4,}$`) // strict format only
 
 	pattern := filepath.Join(dataDir, "*.json")
