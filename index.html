@@ -464,8 +464,29 @@ function setLoading(msg) {
     </div>`;
 }
 
-function setEmpty(msg) {
-  document.getElementById('cve-list').innerHTML = `
+function setEmpty(msg, query = '') {
+  const isCVE = /^cve-\d{4}-\d{4,}$/i.test(query.trim());
+  const cveid  = query.trim().toUpperCase();
+  document.getElementById('cve-list').innerHTML = isCVE ? `
+    <div class="flex flex-col items-center justify-center py-10 text-dim text-sm gap-3">
+      <span class="material-symbols-outlined text-3xl text-border">search_off</span>
+      <p class="text-center max-w-sm leading-relaxed">
+        <span class="font-mono text-white text-xs">${cveid}</span> isn't in our exploit index yet —
+        no GitHub PoC repos have been scraped for it.
+      </p>
+      <div class="flex gap-2 flex-wrap justify-center mt-1">
+        <a href="https://nvd.nist.gov/vuln/detail/${cveid}" target="_blank"
+          class="flex items-center gap-1.5 px-3 py-1.5 rounded border border-primary text-primary
+                 hover:bg-primary hover:text-white text-[11px] font-bold uppercase transition-all">
+          <span class="material-symbols-outlined text-sm">open_in_new</span>View on NVD
+        </a>
+        <a href="https://github.com/search?q=${cveid}&type=repositories" target="_blank"
+          class="flex items-center gap-1.5 px-3 py-1.5 rounded border border-border text-gray-400
+                 hover:border-gray-500 hover:text-white text-[11px] font-bold uppercase transition-all">
+          <span class="material-symbols-outlined text-sm">code</span>Search GitHub
+        </a>
+      </div>
+    </div>` : `
     <div class="flex flex-col items-center justify-center py-14 text-dim text-sm gap-2">
       <span class="material-symbols-outlined text-2xl">cloud_off</span>
       <p class="text-center max-w-xs">${msg}</p>
@@ -648,7 +669,7 @@ async function globalSearch(q) {
   document.getElementById('result-count').textContent =
     `${sorted.length.toLocaleString()} across all years`;
 
-  if (!sorted.length) { setEmpty(`No CVEs match "${q}" across any year.`); return; }
+  if (!sorted.length) { setEmpty(`No CVEs match "${q}" across any year.`, q); return; }
   renderRows(sorted, true);
 }
 
@@ -681,7 +702,7 @@ function renderList(q = '') {
   document.getElementById('result-count').textContent =
     `${sorted.length.toLocaleString()} result${sorted.length!==1?'s':''}`;
 
-  if (!sorted.length) { setEmpty('No CVEs match your search.'); return; }
+  if (!sorted.length) { setEmpty('No CVEs match your search.', q); return; }
   renderRows(sorted, false);
 }
 
