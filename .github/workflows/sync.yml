@@ -1,0 +1,104 @@
+name: Upstream Sync & Sanitize
+
+on:
+  schedule:
+    # Runs every 6 hours
+    - cron: "0 */6 * * *"
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  sync_and_filter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout target repository (CVE_Map_hehe)
+        uses: actions/checkout@v4
+        with:
+          # We need full history to rewrite it
+          fetch-depth: 0
+          token: ${{ secrets.SYNC_TOKEN }}
+          submodules: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install git-filter-repo
+        run: pip install git-filter-repo
+
+      - name: Configure Git Author
+        run: |
+          git config --global user.name "Nikhil Yadav"
+          git config --global user.email "yadavnikhil17102004@gmail.com"
+
+      - name: Add Upstream Remote
+        run: |
+          git remote add upstream https://github.com/rix4uni/cvemapping.git
+          git fetch upstream
+
+      - name: Check for new commits
+        id: check_commits
+        run: |
+          UPSTREAM_HEAD=$(git ls-remote https://github.com/rix4uni/cvemapping.git refs/heads/main | awk '{print $1}')
+
+          CURRENT_SYNCED="none"
+          if [ -f ".github/UPSTREAM_HEAD.txt" ]; then
+            CURRENT_SYNCED=$(cat .github/UPSTREAM_HEAD.txt)
+          fi
+
+          echo "Upstream HEAD: $UPSTREAM_HEAD"
+          echo "Currently Synced: $CURRENT_SYNCED"
+
+          if [ "$UPSTREAM_HEAD" = "$CURRENT_SYNCED" ]; then
+            echo "No new commits. Everything is up to date."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "New commits found in upstream. Syncing..."
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "UPSTREAM_HEAD=$UPSTREAM_HEAD" >> $GITHUB_ENV
+          fi
+
+      - name: Execute Fast Filter and Restore Action
+        if: steps.check_commits.outputs.has_changes == 'true'
+        run: |
+          # 1. Backup our .github folder
+          cp -r .github /tmp/.github_backup
+
+          # Save the authenticated remote URL to bypass filter-repo wiping origin
+          ORIGIN_URL=$(git config --get remote.origin.url)
+
+          # 2. Reset local main exactly to upstream/main
+          git fetch upstream main
+          GIT_LFS_SKIP_SMUDGE=1 git reset --hard FETCH_HEAD
+
+          # 3. Create replacement rules
+          echo "rix4uni/cvemapping==>yadavnikhil17102004/CVE_Map_hehe" > replacements.txt
+          echo "rix4uni==>Nikhil Yadav" >> replacements.txt
+          echo "Hacker Target==>Nikhil Yadav" >> replacements.txt
+
+          # 4. Run the memory filter
+          git filter-repo \
+            --path .github/workflows/actions.yml --invert-paths \
+            --path 2020/CVE-2020-27955/big-bug-lfs-file.dat --invert-paths \
+            --path .gitmodules --invert-paths \
+            --name-callback 'return b"Nikhil Yadav"' \
+            --email-callback 'return b"yadavnikhil17102004@gmail.com"' \
+            --replace-text replacements.txt \
+            --force
+            
+          # 5. Restore .github and update the tracking hash
+          cp -r /tmp/.github_backup .github
+          echo "${{ env.UPSTREAM_HEAD }}" > .github/UPSTREAM_HEAD.txt
+
+          # 6. Persist Custom README
+          cp .github/CUSTOM_README.md README.md
+
+          # 7. Add and commit the Github action and custom documentation
+          git add .github/ README.md
+          git commit -m "ci: Maintain automated upstream synchronization workflow and custom documentation"
+
+          # 7. Force push (Bypassing broken upstream LFS objects)
+          git config lfs.allowincompletepush true
+          git push "$ORIGIN_URL" main --force
