@@ -1,1 +1,0 @@
-# Fig/Table Area
