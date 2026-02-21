@@ -1,0 +1,69 @@
+name: Continuous Exploit Scraper
+
+on:
+  schedule:
+    # Runs every 6 hours to stay ahead
+    - cron: "0 */6 * * *"
+  # Allows manual triggers from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  scrape_and_aggregate:
+    runs-on: ubuntu-latest
+
+    # We need permission to push the parsed JSON arrays back to the repo
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go Environment
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.25.x"
+          cache: true
+
+      - name: Compile Exploit Engine
+        run: |
+          go build -o cvemapping cvemapping.go
+          chmod +x cvemapping
+
+      - name: Execute Scraper for Current Year (JSON Export)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Fetch all repos relating to the current year CVEs, export them as static JSON
+          YEAR=$(date +%Y)
+          echo "Scraping CVE exploits for the year $YEAR..."
+          echo '"CVE-'"$YEAR"'-"' | ./cvemapping -github-token "$GITHUB_TOKEN" -page all -year "$YEAR" -export-json
+
+      - name: Execute Scraper for Previous Year (JSON Export)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Fetch all repos relating to the last year to ensure late publications are caught
+          LAST_YEAR=$(date -d "last year" +%Y)
+          echo "Scraping CVE exploits for the year $LAST_YEAR..."
+          echo '"CVE-'"$LAST_YEAR"'-"' | ./cvemapping -github-token "$GITHUB_TOKEN" -page all -year "$LAST_YEAR" -export-json
+
+      - name: Move Data to Web Directory
+        run: |
+          mkdir -p web/data
+          # Copy JSON files into the frontend directory
+          cp data/*.json web/data/ 2>/dev/null || true
+
+      - name: Commit & Push New Datasets
+        run: |
+          git config --global user.name "Nikhil Yadav (Bot)"
+          git config --global user.email "yadavnikhil17102004@gmail.com"
+          git add data/ web/data/ || true
+
+          # Only commit if there are changes
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "chore(data): Automated upstream exploit sync [skip ci]"
+            git push
+          else
+            echo "No new CVEs discovered. Skipping push."
+          fi

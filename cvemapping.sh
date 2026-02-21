@@ -8,9 +8,7 @@ DISCORD_WEBHOOK_URL="${DISCORD_WEBHOOK_URL:?Webhook URL not set}"
 # Function to run the main logic
 run_check() {
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] Running check..." >&2
-  
-  git clone https://github.com/yadavnikhil17102004/CVE_Map_hehe.git --depth 1
-
+  git clone https://github.com/yadavnikhil17102004/CVE_Map_hehe.git cvemapping --depth 1
   # Check if cvemapping.txt exists before running (first run check)
   IS_FIRST_RUN=false
   if [ ! -f cvemapping.txt ]; then
