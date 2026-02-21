@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CVE Map | Exploit Intelligence</title>
+    <meta
+      name="description"
+      content="A live, continuous aggregation of GitHub CVE exploits and proofs-of-concept."
+    />
+    <!-- Google Fonts for Modern Typography -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg-color: #0b0c10;
+        --surface: #1f2833;
+        --primary: #66fcf1;
+        --secondary: #45a29e;
+        --text-light: #c5c6c7;
+        --text-white: #ffffff;
+        --glass-bg: rgba(31, 40, 51, 0.4);
+        --glass-border: rgba(102, 252, 241, 0.1);
+        --danger: #ff4c4c;
+        --warning: #fca311;
+        --success: #38b000;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+      }
+
+      body {
+        background-color: var(--bg-color);
+        color: var(--text-light);
+        line-height: 1.6;
+        min-height: 100vh;
+        background-image:
+          radial-gradient(
+            circle at 15% 50%,
+            rgba(69, 162, 158, 0.08) 0%,
+            transparent 50%
+          ),
+          radial-gradient(
+            circle at 85% 30%,
+            rgba(102, 252, 241, 0.05) 0%,
+            transparent 50%
+          );
+        background-attachment: fixed;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+
+      /* ---------------- Header ---------------- */
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid var(--glass-border);
+        margin-bottom: 2rem;
+        animation: fadeInDown 0.8s ease;
+      }
+
+      .logo h1 {
+        color: var(--text-white);
+        font-size: 2.5rem;
+        font-weight: 800;
+        letter-spacing: -1px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+
+      .logo h1 span {
+        color: var(--primary);
+        text-shadow: 0 0 15px rgba(102, 252, 241, 0.4);
+      }
+
+      .logo p {
+        font-size: 0.95rem;
+        color: var(--secondary);
+        margin-top: 5px;
+        font-weight: 500;
+      }
+
+      .api-badge {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        padding: 0.6rem 1.2rem;
+        border-radius: 50px;
+        font-size: 0.85rem;
+        color: var(--primary);
+        backdrop-filter: blur(10px);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: all 0.3s ease;
+      }
+
+      .api-badge:hover {
+        background: rgba(102, 252, 241, 0.1);
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+      }
+
+      /* ---------------- Stats Row ---------------- */
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+        animation: fadeIn 1s ease 0.2s both;
+      }
+
+      .stat-card {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 16px;
+        padding: 1.5rem;
+        backdrop-filter: blur(12px);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+        transition:
+          transform 0.3s ease,
+          border-color 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .stat-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 4px;
+        height: 100%;
+        background: var(--primary);
+        box-shadow: 0 0 10px var(--primary);
+      }
+
+      .stat-card:hover {
+        transform: translateY(-5px);
+        border-color: rgba(102, 252, 241, 0.3);
+      }
+
+      .stat-title {
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: var(--secondary);
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
+
+      .stat-value {
+        font-size: 3rem;
+        font-weight: 800;
+        color: var(--text-white);
+        line-height: 1;
+      }
+
+      /* ---------------- Main Content Layout ---------------- */
+      .main-layout {
+        display: grid;
+        grid-template-columns: 350px 1fr;
+        gap: 2rem;
+        animation: fadeIn 1s ease 0.4s both;
+      }
+
+      @media (max-width: 992px) {
+        .main-layout {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* ---------------- Sidebar / Filters ---------------- */
+      .sidebar {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+
+      .search-box {
+        position: relative;
+        width: 100%;
+      }
+
+      .search-box input {
+        width: 100%;
+        background: var(--surface);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        padding: 1rem 1rem 1rem 3rem;
+        color: var(--text-white);
+        font-size: 1rem;
+        outline: none;
+        transition: all 0.3s;
+      }
+
+      .search-box input:focus {
+        border-color: var(--primary);
+        box-shadow: 0 0 0 3px rgba(102, 252, 241, 0.1);
+      }
+
+      .search-box svg {
+        position: absolute;
+        left: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        fill: var(--secondary);
+      }
+
+      .year-selector {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        backdrop-filter: blur(12px);
+      }
+
+      .year-selector h3 {
+        color: var(--text-white);
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+      }
+
+      .year-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+
+      .year-btn {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        padding: 0.6rem;
+        border-radius: 8px;
+        color: var(--text-light);
+        cursor: pointer;
+        transition: all 0.2s;
+        font-weight: 500;
+      }
+
+      .year-btn:hover {
+        background: rgba(102, 252, 241, 0.1);
+        border-color: var(--primary);
+        color: var(--text-white);
+      }
+
+      .year-btn.active {
+        background: var(--primary);
+        color: var(--bg-color);
+        border-color: var(--primary);
+        box-shadow: 0 0 15px rgba(102, 252, 241, 0.3);
+      }
+
+      /* ---------------- NVD Metadata Panel ---------------- */
+      .nvd-panel {
+        background: linear-gradient(
+          135deg,
+          rgba(31, 40, 51, 0.8),
+          rgba(11, 12, 16, 0.9)
+        );
+        border: 1px solid rgba(252, 163, 17, 0.2);
+        border-radius: 12px;
+        padding: 1.5rem;
+        backdrop-filter: blur(12px);
+        display: none; /* Hidden until a CVE is clicked */
+        animation: slideUp 0.4s ease;
+      }
+
+      .nvd-panel.visible {
+        display: block;
+      }
+
+      .nvd-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      }
+
+      .nvd-title {
+        color: var(--text-white);
+        font-weight: 700;
+        font-size: 1.2rem;
+      }
+
+      .cvss-badge {
+        padding: 0.4rem 0.8rem;
+        border-radius: 6px;
+        font-weight: 800;
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+      }
+
+      .cvss-critical {
+        background: rgba(255, 76, 76, 0.2);
+        color: var(--danger);
+        border: 1px solid var(--danger);
+        box-shadow: 0 0 10px rgba(255, 76, 76, 0.3);
+      }
+      .cvss-high {
+        background: rgba(252, 163, 17, 0.2);
+        color: var(--warning);
+        border: 1px solid var(--warning);
+      }
+      .cvss-medium {
+        background: rgba(255, 255, 255, 0.1);
+        color: var(--text-white);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+
+      .nvd-desc {
+        font-size: 0.9rem;
+        color: var(--text-light);
+        line-height: 1.5;
+      }
+
+      .nvd-loading {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--secondary);
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+
+      /* ---------------- Data Table View ---------------- */
+      .data-view {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 16px;
+        padding: 2rem;
+        backdrop-filter: blur(12px);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+        min-height: 600px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .data-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+      }
+
+      .data-header h2 {
+        color: var(--text-white);
+        font-weight: 600;
+      }
+
+      /* Table Array */
+      .cve-list {
+        list-style: none;
+        overflow-y: auto;
+        flex-grow: 1;
+        padding-right: 10px;
+      }
+
+      /* Custom Scrollbar */
+      .cve-list::-webkit-scrollbar {
+        width: 6px;
+      }
+      .cve-list::-webkit-scrollbar-track {
+        background: var(--surface);
+        border-radius: 10px;
+      }
+      .cve-list::-webkit-scrollbar-thumb {
+        background: var(--secondary);
+        border-radius: 10px;
+      }
+      .cve-list::-webkit-scrollbar-thumb:hover {
+        background: var(--primary);
+      }
+
+      .cve-item {
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: 12px;
+        margin-bottom: 1rem;
+        transition: all 0.2s;
+      }
+
+      .cve-item:hover {
+        background: rgba(102, 252, 241, 0.05);
+        border-color: rgba(102, 252, 241, 0.2);
+        transform: translateX(5px);
+      }
+
+      .cve-main {
+        padding: 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      .cve-id {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: var(--text-white);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .cve-id span {
+        /* Exploit count badge */
+        background: rgba(102, 252, 241, 0.15);
+        color: var(--primary);
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 50px;
+        font-weight: 600;
+        border: 1px solid rgba(102, 252, 241, 0.3);
+      }
+
+      .repo-meta {
+        font-size: 0.9rem;
+        color: var(--secondary);
+        font-weight: 500;
+      }
+
+      /* Repo Expand List */
+      .repo-list {
+        display: none;
+        padding: 0 1.2rem 1.2rem 1.2rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        margin-top: 0.5rem;
+        padding-top: 1rem;
+        animation: fadeInDown 0.3s ease;
+      }
+
+      .cve-item.expanded .repo-list {
+        display: block;
+      }
+
+      .repo-card {
+        background: rgba(0, 0, 0, 0.2);
+        border-left: 3px solid var(--secondary);
+        padding: 1rem;
+        border-radius: 0 8px 8px 0;
+        margin-bottom: 0.8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 0.2s;
+      }
+
+      .repo-card:hover {
+        border-left-color: var(--primary);
+        background: rgba(102, 252, 241, 0.03);
+      }
+
+      .repo-info h4 {
+        color: var(--text-light);
+        font-size: 0.95rem;
+        margin-bottom: 4px;
+      }
+
+      .repo-info p {
+        font-size: 0.8rem;
+        color: rgba(197, 198, 199, 0.6);
+        max-width: 500px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .repo-stats {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+      }
+
+      .star-count {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: var(--warning);
+        font-size: 0.85rem;
+        font-weight: 600;
+      }
+
+      .clone-btn {
+        background: rgba(69, 162, 158, 0.1);
+        color: var(--primary);
+        border: 1px solid var(--secondary);
+        padding: 0.4rem 1rem;
+        border-radius: 6px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.2s;
+      }
+
+      .clone-btn:hover {
+        background: var(--primary);
+        color: var(--bg-color);
+        box-shadow: 0 0 10px rgba(102, 252, 241, 0.4);
+      }
+
+      /* ---------------- Utilities ---------------- */
+      .loading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        color: var(--primary);
+        font-weight: 600;
+        gap: 15px;
+      }
+
+      .spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid rgba(102, 252, 241, 0.1);
+        border-top: 3px solid var(--primary);
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      @keyframes slideUp {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <div class="logo">
+          <h1>CVE<span>MAP</span></h1>
+          <p>Aggregated GitHub Exploits & PoCs Dashboard</p>
+        </div>
+        <div
+          class="api-badge"
+          title="Use the public JSON API endpoints natively in your apps"
+          onclick="
+            alert(
+              'Public API Endpoints: \nhttps://yadavnikhil17102004.github.io/CVE_Map_hehe/data/{YYYY}.json',
+            )
+          "
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+            ></path>
+            <path
+              d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+            ></path>
+          </svg>
+          Public API JSON
+        </div>
+      </header>
+
+      <!-- Stats Overview -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-title">Indexed Exploits (Select Year)</div>
+          <div class="stat-value" id="stat-cve-count">0</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-title">GitHub Repos Mapped</div>
+          <div class="stat-value" id="stat-repo-count">0</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-title">Most Mapped Output</div>
+          <div
+            class="stat-value"
+            id="stat-top-cve"
+            style="font-size: 1.8rem; margin-top: 15px"
+          >
+            -
+          </div>
+        </div>
+      </div>
+
+      <div class="main-layout">
+        <!-- Sidebar Controls -->
+        <div class="sidebar">
+          <!-- NVD Intel Panel -->
+          <div class="nvd-panel" id="nvd-panel">
+            <div id="nvd-loading" class="nvd-loading" style="display: none">
+              <div
+                class="spinner"
+                style="width: 20px; height: 20px; border-width: 2px"
+              ></div>
+              Fetching NVD Intel...
+            </div>
+            <div id="nvd-content">
+              <div class="nvd-header">
+                <div class="nvd-title" id="nvd-title">CVE-XXXX-XXXX</div>
+                <div class="cvss-badge cvss-critical" id="nvd-cvss">9.8</div>
+              </div>
+              <div class="nvd-desc" id="nvd-desc">
+                Click any CVE to automatically fetch official National
+                Vulnerability Database severity scores and descriptions via the
+                public API.
+              </div>
+            </div>
+          </div>
+
+          <div class="search-box">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              ></path>
+            </svg>
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Search CVEs or Repositories..."
+            />
+          </div>
+
+          <div class="year-selector">
+            <h3>Explore Timeline</h3>
+            <div class="year-grid" id="year-grid">
+              <!-- Javascript will populate years -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Data View -->
+        <div class="data-view">
+          <div class="data-header">
+            <h2 id="current-view-title">Loading Pipeline...</h2>
+          </div>
+
+          <div id="loading-spinner" class="loading">
+            <div class="spinner"></div>
+            Executing Engine Sync...
+          </div>
+
+          <ul class="cve-list" id="cve-list" style="display: none">
+            <!-- CVE Items will be injected here -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // App State
+      let currentData = null;
+      let currentYear = new Date().getFullYear();
+      let searchTimeout = null;
+
+      // Initialize App
+      document.addEventListener("DOMContentLoaded", () => {
+        initYearSelector();
+        loadYearData(currentYear);
+
+        // Bind Search
+        document
+          .getElementById("search-input")
+          .addEventListener("input", (e) => {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+              renderCVEList(e.target.value);
+            }, 300);
+          });
+      });
+
+      // Setup Year Grid (e.g., 2014 to Current Year)
+      function initYearSelector() {
+        const grid = document.getElementById("year-grid");
+        const endYear = new Date().getFullYear();
+        const startYear = 1999;
+
+        // Show recent years up top
+        for (let y = endYear; y >= endYear - 11; y--) {
+          const btn = document.createElement("button");
+          btn.className = `year-btn ${y === currentYear ? "active" : ""}`;
+          btn.innerText = y;
+          btn.onclick = () => {
+            document
+              .querySelectorAll(".year-btn")
+              .forEach((b) => b.classList.remove("active"));
+            btn.classList.add("active");
+            currentYear = y;
+            loadYearData(y);
+          };
+          grid.appendChild(btn);
+        }
+      }
+
+      // Fetch JSON Data from Github Pages / Local
+      async function loadYearData(year) {
+        const listContainer = document.getElementById("cve-list");
+        const spinner = document.getElementById("loading-spinner");
+        const title = document.getElementById("current-view-title");
+
+        listContainer.style.display = "none";
+        spinner.style.display = "flex";
+        title.innerText = `Fetching Intelligence [${year}]...`;
+
+        try {
+          // Fetch the generated dataset (Fallback to raw GH if local dev fails)
+          const res = await fetch(`data/${year}.json`);
+          if (!res.ok) throw new Error("Dataset not found");
+
+          currentData = await res.json();
+
+          // Update stats
+          updateStats(currentData);
+
+          // Render List
+          title.innerText = `Compiled Exploits & Proofs-of-Concept (${year})`;
+          renderCVEList();
+
+          spinner.style.display = "none";
+          listContainer.style.display = "block";
+        } catch (err) {
+          console.error(err);
+          spinner.style.display = "none";
+          title.innerText = `No exploits indexed for ${year} yet.`;
+        }
+      }
+
+      // Update Dashboard Stats Counters
+      function updateStats(data) {
+        if (!data || !data.cves) {
+          document.getElementById("stat-cve-count").innerText = "0";
+          document.getElementById("stat-repo-count").innerText = "0";
+          return;
+        }
+
+        document.getElementById("stat-cve-count").innerText = data.cves.length;
+
+        let totalRepos = 0;
+        let topCVE = null;
+        let maxRepos = 0;
+
+        data.cves.forEach((cve) => {
+          totalRepos += cve.repositories.length;
+          if (cve.repositories.length > maxRepos) {
+            maxRepos = cve.repositories.length;
+            topCVE = cve.cve_id;
+          }
+        });
+
+        document.getElementById("stat-repo-count").innerText = totalRepos;
+        document.getElementById("stat-top-cve").innerText = topCVE || "-";
+      }
+
+      // Fetch Official NVD Metadata via Public API
+      async function fetchNVDMetadata(cveId) {
+        const panel = document.getElementById("nvd-panel");
+        const content = document.getElementById("nvd-content");
+        const loader = document.getElementById("nvd-loading");
+
+        panel.classList.add("visible");
+        content.style.display = "none";
+        loader.style.display = "flex";
+
+        try {
+          // Hitting the Free NIST NVD REST API 2.0
+          const response = await fetch(
+            `https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=${cveId}`,
+          );
+          const data = await response.json();
+
+          if (data.vulnerabilities && data.vulnerabilities.length > 0) {
+            const vuln = data.vulnerabilities[0].cve;
+
+            document.getElementById("nvd-title").innerText = vuln.id;
+
+            // Extract Description
+            const desc =
+              vuln.descriptions.find((d) => d.lang === "en")?.value ||
+              "No official description available.";
+            document.getElementById("nvd-desc").innerText = desc;
+
+            // Extract CVSS Score (V3.1 -> V3.0 -> V2)
+            let cvssData = null;
+            if (vuln.metrics) {
+              if (vuln.metrics.cvssMetricV31)
+                cvssData = vuln.metrics.cvssMetricV31[0].cvssData;
+              else if (vuln.metrics.cvssMetricV30)
+                cvssData = vuln.metrics.cvssMetricV30[0].cvssData;
+              else if (vuln.metrics.cvssMetricV2)
+                cvssData = vuln.metrics.cvssMetricV2[0].cvssData;
+            }
+
+            const badge = document.getElementById("nvd-cvss");
+            if (cvssData) {
+              const score = cvssData.baseScore;
+              badge.innerText = `${score} ${cvssData.baseSeverity || ""}`;
+
+              // Style badge based on severity
+              badge.className = "cvss-badge";
+              if (score >= 9.0) badge.classList.add("cvss-critical");
+              else if (score >= 7.0) badge.classList.add("cvss-high");
+              else badge.classList.add("cvss-medium");
+            } else {
+              badge.innerText = "N/A";
+              badge.className = "cvss-badge cvss-medium";
+            }
+          } else {
+            throw new Error("CVE not found in NVD database.");
+          }
+        } catch (err) {
+          console.error("NVD Fetch Error:", err);
+          document.getElementById("nvd-title").innerText = cveId;
+          document.getElementById("nvd-desc").innerText =
+            "Failed to pull metadata from the National Vulnerability Database. The API might be rate-limiting requests or the CVE is too new.";
+          document.getElementById("nvd-cvss").innerText = "UNK";
+          document.getElementById("nvd-cvss").className =
+            "cvss-badge cvss-medium";
+        } finally {
+          loader.style.display = "none";
+          content.style.display = "block";
+        }
+      }
+
+      // Render the Array into HTML
+      function renderCVEList(searchTerm = "") {
+        const list = document.getElementById("cve-list");
+        list.innerHTML = "";
+
+        if (!currentData || !currentData.cves) {
+          list.innerHTML =
+            '<li class="cve-main" style="color:var(--danger)">No data constructed for this timeframe.</li>';
+          return;
+        }
+
+        const query = searchTerm.toLowerCase();
+
+        // Filter
+        const filtered = currentData.cves.filter((cve) => {
+          if (!query) return true;
+          if (cve.cve_id.toLowerCase().includes(query)) return true;
+
+          // Search inside repos
+          return cve.repositories.some(
+            (r) =>
+              r.name.toLowerCase().includes(query) ||
+              (r.description && r.description.toLowerCase().includes(query)),
+          );
+        });
+
+        // Render
+        filtered.forEach((cve) => {
+          const li = document.createElement("li");
+          li.className = "cve-item";
+
+          // Count total stars for quick sorting visibility
+          const totalStars = cve.repositories.reduce(
+            (sum, repo) => sum + repo.stargazers_count,
+            0,
+          );
+
+          // Main Heading Bar
+          const mainDiv = document.createElement("div");
+          mainDiv.className = "cve-main";
+          mainDiv.innerHTML = `
+                    <div class="cve-id">
+                        ${cve.cve_id} 
+                        <span>${cve.repositories.length} Exploits</span>
+                    </div>
+                    <div class="repo-meta">
+                        ⭐ ${totalStars} Total Github Stars
+                    </div>
+                `;
+
+          // Sub-list of repositories
+          const repoListDiv = document.createElement("div");
+          repoListDiv.className = "repo-list";
+
+          cve.repositories.forEach((repo) => {
+            repoListDiv.innerHTML += `
+                        <div class="repo-card">
+                            <div class="repo-info">
+                                <h4>${repo.full_name}</h4>
+                                <p title="${repo.description || "No description provided"}">${repo.description || "No description provided"}</p>
+                            </div>
+                            <div class="repo-stats">
+                                <span class="star-count">⭐ ${repo.stargazers_count}</span>
+                                <a href="${repo.clone_url.replace(".git", "")}" target="_blank" class="clone-btn">View GitHub</a>
+                            </div>
+                        </div>
+                    `;
+          });
+
+          li.appendChild(mainDiv);
+          li.appendChild(repoListDiv);
+
+          // Toggle click to open list and fetch NVD data
+          mainDiv.onclick = () => {
+            const isExpanded = li.classList.contains("expanded");
+            // Close others
+            document
+              .querySelectorAll(".cve-item")
+              .forEach((el) => el.classList.remove("expanded"));
+
+            if (!isExpanded) {
+              li.classList.add("expanded");
+              // Execute external API pull seamlessly on click
+              fetchNVDMetadata(cve.cve_id);
+            }
+          };
+
+          list.appendChild(li);
+        });
+
+        if (filtered.length === 0) {
+          list.innerHTML =
+            '<li class="cve-main" style="color:var(--warning)">No exploits found matching your search.</li>';
+        }
+      }
+    </script>
+  </body>
+</html>
