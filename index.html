@@ -244,10 +244,21 @@
               CVE ID <span class="material-symbols-outlined text-[11px] sort-icon">unfold_more</span>
             </button>
           </div>
-          <div class="col-span-2 text-center">
-            <button onclick="setSort('type')" class="flex items-center gap-1 hover:text-primary transition-colors mx-auto" id="sort-type">
-              Type <span class="material-symbols-outlined text-[11px] sort-icon">unfold_more</span>
-            </button>
+          <div class="col-span-2 text-center relative">
+            <select id="type-filter" onchange="setTypeFilter(this.value)"
+              class="w-full bg-transparent text-[10px] font-bold uppercase tracking-wider text-gray-500
+                     cursor-pointer hover:text-primary transition-colors outline-none border-0
+                     appearance-none text-center">
+              <option value="all"      class="bg-[#161b22] text-gray-300 normal-case font-normal tracking-normal">▾ All Types</option>
+              <option value="RCE"      class="bg-[#161b22] text-red-400 normal-case font-normal tracking-normal">RCE</option>
+              <option value="Zero-Day" class="bg-[#161b22] text-cyan-400 normal-case font-normal tracking-normal">Zero-Day</option>
+              <option value="LPE"      class="bg-[#161b22] text-yellow-400 normal-case font-normal tracking-normal">LPE</option>
+              <option value="Inject"   class="bg-[#161b22] text-purple-400 normal-case font-normal tracking-normal">Inject</option>
+              <option value="DoS"      class="bg-[#161b22] text-orange-400 normal-case font-normal tracking-normal">DoS</option>
+              <option value="Bypass"   class="bg-[#161b22] text-indigo-400 normal-case font-normal tracking-normal">Bypass</option>
+              <option value="PoC"      class="bg-[#161b22] text-teal-400 normal-case font-normal tracking-normal">PoC</option>
+              <option value="Exploit"  class="bg-[#161b22] text-blue-400 normal-case font-normal tracking-normal">Exploit</option>
+            </select>
           </div>
           <div class="col-span-3 text-right">
             <button onclick="setSort('activity')" class="flex items-center gap-1 hover:text-primary transition-colors ml-auto" id="sort-activity">
@@ -301,8 +312,9 @@ let trendChart    = null;
 let sevChart      = null;
 let searchTimer   = null;
 let maxStars      = 1;
-let sortKey       = 'stars'; // 'id' | 'type' | 'activity' | 'stars'
+let sortKey       = 'stars'; // 'id' | 'activity' | 'stars'
 let sortDir       = 'desc';  // 'asc' | 'desc'
+let typeFilter    = 'all';   // exploit type filter
 let yearCache     = {};      // cache of all fetched year data for global search
 const YEARS       = Array.from({length: new Date().getFullYear() - 2014}, (_,i) => 2015 + i);
 
@@ -537,8 +549,18 @@ function setSort(key) {
   else   renderList('');
 }
 
+function setTypeFilter(val) {
+  typeFilter = val;
+  // Visually highlight the header when a filter is active
+  const sel = document.getElementById('type-filter');
+  if (sel) sel.classList.toggle('text-primary', val !== 'all');
+  const q = document.getElementById('search-input')?.value.trim() || '';
+  if (q) globalSearch(q);
+  else   renderList('');
+}
+
 function updateSortUI() {
-  ['id','type','activity','stars'].forEach(k => {
+  ['id','activity','stars'].forEach(k => {  // 'type' removed — it's now a filter
     const btn = document.getElementById(`sort-${k}`);
     if (!btn) return;
     const icon = btn.querySelector('.sort-icon');
@@ -612,7 +634,12 @@ async function globalSearch(q) {
     });
   });
 
-  const sorted = sortList(results);
+  // Apply type filter
+  const filtered = typeFilter === 'all'
+    ? results
+    : results.filter(c => getType(c.cve_id, c.repositories||[])[0] === typeFilter);
+
+  const sorted = sortList(filtered);
   maxStars = sorted.length
     ? Math.max(1, ...sorted.map(c =>
         (c.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0)))
@@ -638,6 +665,11 @@ function renderList(q = '') {
         (r.description||'').toLowerCase().includes(query)
       )
     );
+  }
+
+  // Apply type filter
+  if (typeFilter !== 'all') {
+    list = list.filter(c => getType(c.cve_id, c.repositories||[])[0] === typeFilter);
   }
 
   const sorted = sortList(list);
