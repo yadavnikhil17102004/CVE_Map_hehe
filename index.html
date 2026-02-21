@@ -237,12 +237,28 @@
           </div>
         </div>
 
-        <!-- Column headers -->
+        <!-- Column headers (sortable) -->
         <div class="grid grid-cols-12 gap-2 px-4 py-2 text-[10px] font-bold text-gray-500 uppercase tracking-wider border-b border-border/50 bg-surface-2/20">
-          <div class="col-span-5">CVE ID</div>
-          <div class="col-span-2 text-center">Type</div>
-          <div class="col-span-3 text-right">Activity</div>
-          <div class="col-span-2 text-right hidden md:block">Stars</div>
+          <div class="col-span-5">
+            <button onclick="setSort('id')" class="flex items-center gap-1 hover:text-primary transition-colors" id="sort-id">
+              CVE ID <span class="material-symbols-outlined text-[11px] sort-icon">unfold_more</span>
+            </button>
+          </div>
+          <div class="col-span-2 text-center">
+            <button onclick="setSort('type')" class="flex items-center gap-1 hover:text-primary transition-colors mx-auto" id="sort-type">
+              Type <span class="material-symbols-outlined text-[11px] sort-icon">unfold_more</span>
+            </button>
+          </div>
+          <div class="col-span-3 text-right">
+            <button onclick="setSort('activity')" class="flex items-center gap-1 hover:text-primary transition-colors ml-auto" id="sort-activity">
+              Activity <span class="material-symbols-outlined text-[11px] sort-icon">unfold_more</span>
+            </button>
+          </div>
+          <div class="col-span-2 text-right hidden md:block">
+            <button onclick="setSort('stars')" class="flex items-center gap-1 hover:text-primary transition-colors ml-auto" id="sort-stars">
+              Stars <span class="material-symbols-outlined text-[11px] sort-icon">unfold_more</span>
+            </button>
+          </div>
         </div>
 
         <!-- CVE Rows -->
@@ -285,6 +301,10 @@ let trendChart    = null;
 let sevChart      = null;
 let searchTimer   = null;
 let maxStars      = 1;
+let sortKey       = 'stars'; // 'id' | 'type' | 'activity' | 'stars'
+let sortDir       = 'desc';  // 'asc' | 'desc'
+let yearCache     = {};      // cache of all fetched year data for global search
+const YEARS       = Array.from({length: new Date().getFullYear() - 2014}, (_,i) => 2015 + i);
 
 // ============================================================
 // BOOT
@@ -300,13 +320,22 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   await loadYear(currentYear);
 
-  // Wire search inputs
+  // Wire search inputs — global cross-year search when query is typed
   ['search-input','search-mobile'].forEach(id => {
     const el = document.getElementById(id);
     if (!el) return;
     el.addEventListener('input', e => {
       clearTimeout(searchTimer);
-      searchTimer = setTimeout(() => renderList(e.target.value.trim()), 220);
+      const q = e.target.value.trim();
+      // Sync both inputs
+      ['search-input','search-mobile'].forEach(sid => {
+        const sel = document.getElementById(sid);
+        if (sel && sel !== e.target) sel.value = q;
+      });
+      searchTimer = setTimeout(() => {
+        if (q) globalSearch(q);
+        else   renderList('');
+      }, 280);
     });
   });
 });
@@ -496,6 +525,106 @@ function isNew(repos) {
   return (repos||[]).some(r => r.pushed_at && new Date(r.pushed_at).getTime() > cutoff);
 }
 
+// ============================================================
+// SORT
+// ============================================================
+function setSort(key) {
+  if (sortKey === key) sortDir = sortDir === 'desc' ? 'asc' : 'desc';
+  else { sortKey = key; sortDir = 'desc'; }
+  updateSortUI();
+  const q = document.getElementById('search-input')?.value.trim() || '';
+  if (q) globalSearch(q);
+  else   renderList('');
+}
+
+function updateSortUI() {
+  ['id','type','activity','stars'].forEach(k => {
+    const btn = document.getElementById(`sort-${k}`);
+    if (!btn) return;
+    const icon = btn.querySelector('.sort-icon');
+    if (k === sortKey) {
+      btn.classList.add('text-primary');
+      btn.classList.remove('text-gray-500');
+      icon.textContent = sortDir === 'desc' ? 'arrow_downward' : 'arrow_upward';
+    } else {
+      btn.classList.remove('text-primary');
+      btn.classList.add('text-gray-500');
+      icon.textContent = 'unfold_more';
+    }
+  });
+}
+
+function sortList(list) {
+  const mul = sortDir === 'desc' ? -1 : 1;
+  return [...list].sort((a, b) => {
+    if (sortKey === 'id') {
+      return mul * a.cve_id.localeCompare(b.cve_id);
+    }
+    if (sortKey === 'type') {
+      const [la] = getType(a.cve_id, a.repositories||[]);
+      const [lb] = getType(b.cve_id, b.repositories||[]);
+      return mul * la.localeCompare(lb);
+    }
+    if (sortKey === 'activity') {
+      return mul * ((a.repositories?.length||0) - (b.repositories?.length||0));
+    }
+    // default: stars
+    const sa = (a.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0);
+    const sb = (b.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0);
+    return mul * (sa - sb);
+  });
+}
+
+// ============================================================
+// GLOBAL CROSS-YEAR SEARCH
+// ============================================================
+async function globalSearch(q) {
+  setLoading(`Searching all years for "${q}"...`);
+  document.getElementById('result-count').textContent = 'searching...';
+
+  // Fetch any uncached years
+  const fetches = YEARS.map(async y => {
+    if (yearCache[y]) return;
+    try {
+      const r = await fetch(`data/${y}.json`);
+      if (r.ok) yearCache[y] = await r.json();
+    } catch(_) {}
+  });
+  await Promise.all(fetches);
+
+  // Search across all years
+  const query = q.toLowerCase();
+  const results = []; // { cve_id, repositories, _year }
+
+  YEARS.forEach(y => {
+    const ydata = yearCache[y];
+    if (!ydata?.cves) return;
+    ydata.cves.forEach(cve => {
+      if (
+        cve.cve_id.toLowerCase().includes(query) ||
+        (cve.repositories||[]).some(r =>
+          (r.full_name||'').toLowerCase().includes(query) ||
+          (r.description||'').toLowerCase().includes(query)
+        )
+      ) {
+        results.push({ ...cve, _year: y });
+      }
+    });
+  });
+
+  const sorted = sortList(results);
+  maxStars = sorted.length
+    ? Math.max(1, ...sorted.map(c =>
+        (c.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0)))
+    : 1;
+
+  document.getElementById('result-count').textContent =
+    `${sorted.length.toLocaleString()} across all years`;
+
+  if (!sorted.length) { setEmpty(`No CVEs match "${q}" across any year.`); return; }
+  renderRows(sorted, true);
+}
+
 function renderList(q = '') {
   if (!currentData?.cves) return;
   const query = q.toLowerCase();
@@ -511,25 +640,20 @@ function renderList(q = '') {
     );
   }
 
-  // Sort: total stars desc
-  const sorted = [...list].sort((a,b) => {
-    const sa = (a.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0);
-    const sb = (b.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0);
-    return sb - sa;
-  });
-
+  const sorted = sortList(list);
   maxStars = sorted.length
-    ? Math.max(1,(sorted[0].repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0))
+    ? Math.max(1, ...sorted.map(c =>
+        (c.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0)))
     : 1;
 
   document.getElementById('result-count').textContent =
     `${sorted.length.toLocaleString()} result${sorted.length!==1?'s':''}`;
 
-  if (!sorted.length) {
-    setEmpty('No CVEs match your search.');
-    return;
-  }
+  if (!sorted.length) { setEmpty('No CVEs match your search.'); return; }
+  renderRows(sorted, false);
+}
 
+function renderRows(sorted, showYear) {
   document.getElementById('cve-list').innerHTML = sorted.map(cve => {
     const repos   = cve.repositories || [];
     const stars   = repos.reduce((s,r)=>s+(r.stargazers_count||0),0);
@@ -551,6 +675,7 @@ function renderList(q = '') {
       <div class="col-span-5 flex items-center gap-2 min-w-0">
         <div class="w-1.5 h-1.5 rounded-full shrink-0 ${dot}${active?' pulse':''}"></div>
         <span class="font-mono font-medium text-xs text-white truncate">${cve.cve_id}</span>
+        ${showYear && cve._year ? `<span class="shrink-0 px-1 py-0.5 rounded text-[8px] font-bold bg-surface-2 text-dim border border-border">${cve._year}</span>` : ''}
         ${newTag ? '<span class="shrink-0 px-1 py-0.5 rounded text-[9px] font-bold bg-gray-700 text-gray-300">New</span>' : ''}
         ${hot ? '<span class="material-symbols-outlined text-[11px] text-primary shrink-0">local_fire_department</span>' : ''}
       </div>
