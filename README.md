@@ -1,76 +1,76 @@
-# 🗺️ CVE Map (Hehe)
+<div align="center">
+  <h1>🗺️  C V E &nbsp; M A P</h1>
+  <p><b>Continuous, Autonomous Vulnerability Intelligence Aggregation</b></p>
+  <br>
 
-> _Continuous, automated aggregation of every GitHub CVE exploit Proof-of-Concept. Updated every 6 hours._
+[![Engine](https://img.shields.io/badge/Engine-Go_1.25-00ADD8?style=for-the-badge&logo=go)](https://golang.org/)
+[![UI](https://img.shields.io/badge/Frontend-Glassmorphism-66FCF1?style=for-the-badge)](https://yadavnikhil17102004.github.io/CVE_Map_hehe/)
+[![NVD](https://img.shields.io/badge/Intelligence-NVD_API-red?style=for-the-badge)](https://nvd.nist.gov/)
+[![Action](https://img.shields.io/badge/Sync-Every_6_Hours-success?style=for-the-badge&logo=githubactions)](https://github.com/features/actions)
 
-## ⚡ What is this?
+</div>
 
-A lightning-fast native Go engine that scrapes the GitHub API for documented CVE exploits across the internet and indexes them into static JSON datasets.
+<br>
 
-**Why?** Because manual exploit hunting during an engagement is slow, and speed is king.
+## ⚡ Executive Summary
 
-## 🛠 Features
+**CVE Map** is a blistering-fast, native Go engine designed to autonomously scrape the GitHub API for documented CVE Proofs-of-Concept and live exploits across the internet. It compresses this raw data into highly optimized JSON signatures and visualizes the threat landscape via a live, native tracking dashboard.
 
-- **Automated Upstream Sync:** Powered by a custom, ultra-fast in-memory GitHub Actions pipeline that deterministically syncs vulnerability mappings into this timeline.
-- **Zero-Bloat JSON Exports:** Clean, static datasets mapping CVE IDs directly to GitHub repositories.
-- **Cross-Platform Go Binary:** Simple compilation, simple execution.
+**Why?** Because manual exploit hunting during an engagement is too slow. Speed is king. Time is access.
 
-## 🚀 Installation
+### 🌐 [Access the Live Threat Dashboard Here](https://yadavnikhil17102004.github.io/CVE_Map_hehe/)
 
-**Standard Go Install:**
+---
 
-```bash
-go install github.com/yadavnikhil17102004/CVE_Map_hehe@latest
-```
+## 🛠 Active Capabilities
 
-**Compile from Source:**
+- **Autonomous Aggregation:** An independent GitHub Actions workflow awakes every 6 hours, compiling the custom Go engine from source and hammering the GitHub indices for the latest uploaded exploits.
+- **Zero-Latency NVD Integration:** The internal `nvd_scraper.go` engine mass-downloads and compresses the entire **US National Vulnerability Database (NVD)** directly into a localized hashmap. The frontend dashboard operates purely on static memory arrays—no API keys, no network rate limits, instantaneous UI.
+- **O(N log N) Engine Design:** The engine leverages native `sort.SliceStable`, pre-allocated memory pools, and `strings.Builder` concatenation to parse thousands of repositories with zero garbage-collection thrashing.
+- **Glassmorphism Web UI:** The `/web` directory serves a premium, Javascript-driven GUI natively through GitHub Pages, allowing granular search sorting by specific CVE ID, repository name, or year.
 
-```bash
-git clone --depth 1 https://github.com/yadavnikhil17102004/CVE_Map_hehe.git
-cd CVE_Map_hehe
-go install
-```
+---
 
-## 💥 Usage
+## 📡 Public CDN & Intelligence API
 
-Feed the engine a specific CVE range to aggressively aggregate all associated repositories:
+Because the `scrape.yml` automated workflow builds and commits raw JSON dictionaries directly into the structural tree, **GitHub Pages natively hosts the databases as a zero-cost API CDN**.
 
-```bash
-# Export all 2024 CVE PoCs to static JSON for website processing
-echo '"CVE-2024-"' | cvemapping -github-token "YOUR_GITHUB_TOKEN" -page all -year 2024 -export-json
+You can pull the raw, highly-minified intelligence datasets directly into your own tools.
 
-# Command Line Interface Options
-Usage of cvemapping:
-  -export-json
-        Export data to JSON files instead of cloning (Highly Recommended)
-  -github-token string
-        GitHub API User Token for high-rate limit authentication
-  -page string
-        Page number to fetch, or 'all' (default "1")
-  -year string
-        Year to search for CVEs (e.g., 2024, 2020)
-```
+### Query The Exploit Database (JSON)
 
-## 🌐 Threat Intelligence Dashboard
-
-The engine automatically exports highly-minified, raw JSON datasets directly to the `web/data` structure. Instead of serving this yourself, **GitHub Pages natively hosts the entire platform**.
-
-**View the Live Dashboard:**
-👉 `https://yadavnikhil17102004.github.io/CVE_Map_hehe/`
-
-### 📡 Public Open API (JSON)
-
-Because the datasets are statically built and pushed via GitHub Actions, mapping data acts as a zero-cost API CDN. You can natively pull the raw intelligence into your own security tools.
-
-**Endpoint Format:**
+Access the core exploit arrays categorized by year:
 
 ```bash
-curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/{YYYY}.json
-```
-
-**Example (Fetch 2024 intel):**
-
-```bash
+# Fetch 2024 Exploit Mappings
 curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/2024.json | jq '.cves[] | .cve_id'
 ```
 
-_(The dashboard Javascript natively wraps the official US National Vulnerability Database API to pull CVSS metrics in real-time)._
+### Query The NVD Hashmap Dictionary
+
+Access our proprietary snapshot of the NIST vulnerability descriptions and CVSS scores:
+
+```bash
+# Structure: { "CVE-ID": { "s": "CVSS_Score", "v": "Severity", "d": "Description" } }
+curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/nvd_intel.json | jq '."CVE-2024-38063"'
+```
+
+---
+
+## 🚀 Activation & Deployment
+
+If you have forked or cloned this repository, follow these steps to ignite the engine on your own infrastructure:
+
+1. **Activate the Scraper:**
+   - Go to your repository's **Settings** -> **Actions** -> **General**.
+   - Ensure `Allow all actions and reusable workflows` is enabled.
+   - Go to your **Actions** tab, select the `Continuous Exploit Scraper` workflow, and smash **Run workflow**.
+2. **Activate the Dashboard (GitHub Pages):**
+   - Go to **Settings** -> **Pages**.
+   - Set the Source to `Deploy from a branch`.
+   - Set the Branch to `main` and the folder to `/` (Root).
+   - Click Save. Your dashboard will go live at `https://<your-username>.github.io/<repo-name>/`.
+
+---
+
+> _"Secure by design is nice, but secure by penetration testing is truth."_

@@ -698,26 +698,37 @@
     </div>
 
     <script>
-      // App State
-      let currentData = null;
-      let currentYear = new Date().getFullYear();
-      let searchTimeout = null;
+        // App State
+        let currentData = null;
+        let proprietaryNVDLayer = null; // Stored NIST HashMap
+        let currentYear = new Date().getFullYear();
+        let searchTimeout = null;
 
-      // Initialize App
-      document.addEventListener("DOMContentLoaded", () => {
-        initYearSelector();
-        loadYearData(currentYear);
+        // Initialize App
+        document.addEventListener('DOMContentLoaded', async () => {
+            initYearSelector();
+            
+            // Prime the NIST Proprietary Database
+            try {
+                const res = await fetch(`data/nvd_intel.json`);
+                if (res.ok) {
+                    proprietaryNVDLayer = await res.json();
+                    console.log("[i] Autonomous NVD dictionary loaded. " + Object.keys(proprietaryNVDLayer).length + " threat signatures primed in memory.");
+                }
+            } catch (err) {
+                console.error("[-] Failed to preload local NVD intelligence structure.");
+            }
 
-        // Bind Search
-        document
-          .getElementById("search-input")
-          .addEventListener("input", (e) => {
-            clearTimeout(searchTimeout);
-            searchTimeout = setTimeout(() => {
-              renderCVEList(e.target.value);
-            }, 300);
-          });
-      });
+            loadYearData(currentYear);
+
+            // Bind Search
+            document.getElementById('search-input').addEventListener('input', (e) => {
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(() => {
+                    renderCVEList(e.target.value);
+                }, 300);
+            });
+        });
 
       // Setup Year Grid (e.g., 2014 to Current Year)
       function initYearSelector() {
@@ -801,75 +812,45 @@
         document.getElementById("stat-top-cve").innerText = topCVE || "-";
       }
 
-      // Fetch Official NVD Metadata via Public API
-      async function fetchNVDMetadata(cveId) {
-        const panel = document.getElementById("nvd-panel");
-        const content = document.getElementById("nvd-content");
-        const loader = document.getElementById("nvd-loading");
-
-        panel.classList.add("visible");
-        content.style.display = "none";
-        loader.style.display = "flex";
-
-        try {
-          // Hitting the Free NIST NVD REST API 2.0
-          const response = await fetch(
-            `https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=${cveId}`,
-          );
-          const data = await response.json();
-
-          if (data.vulnerabilities && data.vulnerabilities.length > 0) {
-            const vuln = data.vulnerabilities[0].cve;
-
-            document.getElementById("nvd-title").innerText = vuln.id;
-
-            // Extract Description
-            const desc =
-              vuln.descriptions.find((d) => d.lang === "en")?.value ||
-              "No official description available.";
-            document.getElementById("nvd-desc").innerText = desc;
-
-            // Extract CVSS Score (V3.1 -> V3.0 -> V2)
-            let cvssData = null;
-            if (vuln.metrics) {
-              if (vuln.metrics.cvssMetricV31)
-                cvssData = vuln.metrics.cvssMetricV31[0].cvssData;
-              else if (vuln.metrics.cvssMetricV30)
-                cvssData = vuln.metrics.cvssMetricV30[0].cvssData;
-              else if (vuln.metrics.cvssMetricV2)
-                cvssData = vuln.metrics.cvssMetricV2[0].cvssData;
-            }
-
-            const badge = document.getElementById("nvd-cvss");
-            if (cvssData) {
-              const score = cvssData.baseScore;
-              badge.innerText = `${score} ${cvssData.baseSeverity || ""}`;
-
-              // Style badge based on severity
-              badge.className = "cvss-badge";
-              if (score >= 9.0) badge.classList.add("cvss-critical");
-              else if (score >= 7.0) badge.classList.add("cvss-high");
-              else badge.classList.add("cvss-medium");
-            } else {
-              badge.innerText = "N/A";
-              badge.className = "cvss-badge cvss-medium";
-            }
-          } else {
-            throw new Error("CVE not found in NVD database.");
-          }
-        } catch (err) {
-          console.error("NVD Fetch Error:", err);
-          document.getElementById("nvd-title").innerText = cveId;
-          document.getElementById("nvd-desc").innerText =
-            "Failed to pull metadata from the National Vulnerability Database. The API might be rate-limiting requests or the CVE is too new.";
-          document.getElementById("nvd-cvss").innerText = "UNK";
-          document.getElementById("nvd-cvss").className =
-            "cvss-badge cvss-medium";
-        } finally {
-          loader.style.display = "none";
-          content.style.display = "block";
+        // Fetch Official NVD Metadata instantly from the local hashmap
+        async function fetchNVDMetadata(cveId) {
+            const panel = document.getElementById('nvd-panel');
+            const content = document.getElementById('nvd-content');
+            const loader = document.getElementById('nvd-loading');
+            
+            panel.classList.add('visible');
+            content.style.display = 'none';
+            loader.style.display = 'flex';
+            
+            setTimeout(() => {
+                if (proprietaryNVDLayer && proprietaryNVDLayer[cveId]) {
+                    const intel = proprietaryNVDLayer[cveId];
+                    
+                    document.getElementById('nvd-title').innerText = cveId;
+                    document.getElementById('nvd-desc').innerText = intel.d || "No official description available.";
+                    
+                    const badge = document.getElementById('nvd-cvss');
+                    if (intel.s > 0) {
+                        badge.innerText = `${intel.s} ${intel.v || ''}`;
+                        badge.className = 'cvss-badge';
+                        if (intel.s >= 9.0) badge.classList.add('cvss-critical');
+                        else if (intel.s >= 7.0) badge.classList.add('cvss-high');
+                        else badge.classList.add('cvss-medium');
+                    } else {
+                        badge.innerText = "N/A";
+                        badge.className = 'cvss-badge cvss-medium';
+                    }
+                } else {
+                    document.getElementById('nvd-title').innerText = cveId;
+                    document.getElementById('nvd-desc').innerText = "Vulnerability exists in GitHub exploits, but is not currently indexed in the active NVD threat database.";
+                    document.getElementById('nvd-cvss').innerText = "UNK";
+                    document.getElementById('nvd-cvss').className = 'cvss-badge cvss-medium';
+                }
+                
+                loader.style.display = 'none';
+                content.style.display = 'block';
+            }, 50); // Add a 50ms pulse to make the UI feel reactive
         }
-      }
 
       // Render the Array into HTML
       function renderCVEList(searchTerm = "") {
