@@ -17,9 +17,9 @@ import (
 // ============================================================
 
 type NVD2Response struct {
-	ResultsPerPage int              `json:"resultsPerPage"`
-	StartIndex     int              `json:"startIndex"`
-	TotalResults   int              `json:"totalResults"`
+	ResultsPerPage  int             `json:"resultsPerPage"`
+	StartIndex      int             `json:"startIndex"`
+	TotalResults    int             `json:"totalResults"`
 	Vulnerabilities []Vulnerability `json:"vulnerabilities"`
 }
 
@@ -28,18 +28,15 @@ type Vulnerability struct {
 }
 
 type CVE2 struct {
-	ID               string        `json:"id"`
-	Published        string        `json:"published"`
-	LastModified     string        `json:"lastModified"`
-	VulnStatus       string        `json:"vulnStatus"`
-	Descriptions     []LangValue   `json:"descriptions"`
-	Metrics          Metrics2      `json:"metrics"`
-	Weaknesses       []Weakness    `json:"weaknesses"`
-	References       []Reference   `json:"references"`
-	// CISA KEV fields — only populated if in the catalog
-	CisaExploitAdd        string `json:"cisaExploitAdd,omitempty"`
-	CisaActionDue         string `json:"cisaActionDue,omitempty"`
-	CisaVulnerabilityName string `json:"cisaVulnerabilityName,omitempty"`
+	ID                    string      `json:"id"`
+	Published             string      `json:"published"`
+	LastModified          string      `json:"lastModified"`
+	VulnStatus            string      `json:"vulnStatus"`
+	Descriptions          []LangValue `json:"descriptions"`
+	Metrics               Metrics2    `json:"metrics"`
+	Weaknesses            []Weakness  `json:"weaknesses"`
+	CisaExploitAdd        string      `json:"cisaExploitAdd,omitempty"`
+	CisaVulnerabilityName string      `json:"cisaVulnerabilityName,omitempty"`
 }
 
 type LangValue struct {
@@ -48,14 +45,14 @@ type LangValue struct {
 }
 
 type Metrics2 struct {
-	CVSSMetricV31 []CVSSMetricEntry `json:"cvssMetricV31"`
-	CVSSMetricV30 []CVSSMetricEntry `json:"cvssMetricV30"`
+	CVSSMetricV31 []CVSSMetricEntry   `json:"cvssMetricV31"`
+	CVSSMetricV30 []CVSSMetricEntry   `json:"cvssMetricV30"`
 	CVSSMetricV2  []CVSSMetricV2Entry `json:"cvssMetricV2"`
 }
 
 type CVSSMetricEntry struct {
-	Source string   `json:"source"`
-	Type   string   `json:"type"` // "Primary" (NIST) or "Secondary" (CNA)
+	Source   string   `json:"source"`
+	Type     string   `json:"type"` // "Primary" (NIST) or "Secondary" (CNA)
 	CVSSData CVSSData `json:"cvssData"`
 }
 
@@ -76,15 +73,9 @@ type CVSSMetricV2Entry struct {
 }
 
 type Weakness struct {
-	Source      string       `json:"source"`
-	Type        string       `json:"type"`
-	Description []LangValue  `json:"description"`
-}
-
-type Reference struct {
-	URL    string   `json:"url"`
-	Source string   `json:"source"`
-	Tags   []string `json:"tags"`
+	Source      string      `json:"source"`
+	Type        string      `json:"type"`
+	Description []LangValue `json:"description"`
 }
 
 // ============================================================
@@ -92,15 +83,25 @@ type Reference struct {
 // ============================================================
 
 type CVEIntel struct {
-	Score    float64 `json:"s"`            // CVSS base score
-	Severity string  `json:"v"`            // CRITICAL / HIGH / MEDIUM / LOW
-	Desc     string  `json:"d"`            // English description
-	Vector   string  `json:"c,omitempty"`  // CVSS vector string (e.g. AV:N/AC:L/...)
-	CWE      string  `json:"w,omitempty"`  // Primary CWE (e.g. CWE-502)
-	KEV      bool    `json:"k,omitempty"`  // true if in CISA Known Exploited Vulnerabilities
-	Source   string  `json:"r,omitempty"`  // "NIST" or "CNA:<org>"
-	Published string `json:"p,omitempty"` // YYYY-MM-DD
-	Status   string  `json:"u,omitempty"` // vulnStatus (Analyzed, Modified, Awaiting Analysis…)
+	Score     float64 `json:"s"`            // CVSS base score
+	Severity  string  `json:"v"`            // CRITICAL / HIGH / MEDIUM / LOW
+	Desc      string  `json:"d"`            // English description
+	Vector    string  `json:"c,omitempty"`  // CVSS vector string
+	CWE       string  `json:"w,omitempty"`  // Primary CWE (e.g. CWE-502)
+	KEV       bool    `json:"k,omitempty"`  // true if in CISA Known Exploited Vulnerabilities
+	Source    string  `json:"r,omitempty"`  // "NIST" or "CNA"
+	Published string  `json:"p,omitempty"`  // YYYY-MM-DD
+	Status    string  `json:"u,omitempty"`  // vulnStatus
+}
+
+// ============================================================
+// Minimal data file structs (to read our own JSON)
+// ============================================================
+
+type DataFile struct {
+	CVEs []struct {
+		CVEID string `json:"cve_id"`
+	} `json:"cves"`
 }
 
 // ============================================================
@@ -109,67 +110,70 @@ type CVEIntel struct {
 
 func main() {
 	start := time.Now()
-	log.Println("[+] NVD Intelligence Engine v2.0 — Booting...")
+	log.Println("[+] NVD Intelligence Engine v2.1 — Booting...")
 
 	apiKey := os.Getenv("NVD_API_KEY")
 	if apiKey != "" {
-		log.Println("[i] NVD_API_KEY detected — operating at elevated rate limit (50 req/30s).")
+		log.Println("[i] NVD_API_KEY detected — elevated rate limit (50 req/30s).")
 	} else {
-		log.Println("[i] No NVD_API_KEY. Operating at unauthenticated rate (5 req/30s).")
+		log.Println("[i] No NVD_API_KEY — unauthenticated rate (5 req/30s). Add key to speed up.")
 	}
 
-	// Make sure both possible output directories exist
-	for _, dir := range []string{"data", filepath.Join("web", "data")} {
-		os.MkdirAll(dir, 0755)
-	}
+	os.MkdirAll("data", 0755)
 	intelFile := filepath.Join("data", "nvd_intel.json")
 
-	// Load existing dictionary so we accumulate across runs
+	// Load existing dictionary (accumulate across runs)
 	dictionary := make(map[string]CVEIntel)
 	if raw, err := os.ReadFile(intelFile); err == nil {
 		if err := json.Unmarshal(raw, &dictionary); err != nil {
 			log.Printf("[-] Warning: existing intel file unparseable — rebuilding fresh.")
 		} else {
-			log.Printf("[i] Loaded %d existing signatures from %s.", len(dictionary), intelFile)
+			log.Printf("[i] Loaded %d existing signatures.", len(dictionary))
 		}
 	}
 
-	// Fetch last 180 days by modification date — catches all recent activity
-	// and accumulates over time into a growing dictionary
+	// ── Phase 1: 180-day modification window ─────────────────
+	// Catches new CVEs and updated scores on existing ones.
+	log.Println("[+] Phase 1: Fetching last 180 days from NVD (new/modified CVEs)...")
 	now := time.Now().UTC()
 	windows := []struct{ start, end time.Time }{
 		{now.AddDate(0, 0, -90), now.AddDate(0, 0, -45)},
 		{now.AddDate(0, 0, -45), now},
 	}
-
 	for i, w := range windows {
-		log.Printf("[+] Fetching window %d/2: %s → %s",
-			i+1,
-			w.start.Format("2006-01-02"),
-			w.end.Format("2006-01-02"),
-		)
+		log.Printf("  Window %d/2: %s → %s", i+1,
+			w.start.Format("2006-01-02"), w.end.Format("2006-01-02"))
 		if err := fetchWindow(w.start, w.end, dictionary, apiKey); err != nil {
-			log.Printf("[-] Window %d failed: %v", i+1, err)
+			log.Printf("  [-] Window %d failed: %v", i+1, err)
 		}
 	}
 
-	// Serialize
+	// ── Phase 2: Targeted backfill ───────────────────────────
+	// Read all data/*.json, find CVE IDs that are missing or
+	// have score=0 (UNSCORED), fetch them individually from NVD.
+	log.Println("[+] Phase 2: Targeted backfill for unscored CVEs in data files...")
+	missing := collectMissingCVEs("data", dictionary)
+	log.Printf("  Found %d CVEs to backfill (missing or unscored).", len(missing))
+	if len(missing) > 0 {
+		fetchTargeted(missing, dictionary, apiKey)
+	}
+
+	// ── Write output ─────────────────────────────────────────
 	out, err := json.Marshal(dictionary)
 	if err != nil {
 		log.Fatalf("[-] FATAL: Failed to serialize dictionary: %v", err)
 	}
-
 	if err := os.WriteFile(intelFile, out, 0644); err != nil {
 		log.Fatalf("[-] FATAL: Failed to write %s: %v", intelFile, err)
 	}
 
 	elapsed := time.Since(start).Round(time.Millisecond)
-	log.Printf("[+] Done in %s. Dictionary: %d threat signatures → %s (%.1f KB)",
+	log.Printf("[+] Done in %s. Dictionary: %d signatures → %s (%.1f KB)",
 		elapsed, len(dictionary), intelFile, float64(len(out))/1024.0)
 }
 
 // ============================================================
-// Fetch a time window with full pagination
+// Phase 1: Fetch a time window with full pagination
 // ============================================================
 
 func fetchWindow(from, to time.Time, dict map[string]CVEIntel, apiKey string) error {
@@ -177,27 +181,23 @@ func fetchWindow(from, to time.Time, dict map[string]CVEIntel, apiKey string) er
 	startIdx := 0
 	total := -1
 	cveIDRegex := regexp.MustCompile(`^CVE-\d{4}-\d{4,}$`)
-
 	added := 0
+
 	for total == -1 || startIdx < total {
 		url := fmt.Sprintf(
 			"https://services.nvd.nist.gov/rest/json/cves/2.0?lastModStartDate=%s&lastModEndDate=%s&startIndex=%d&resultsPerPage=%d",
 			from.Format("2006-01-02T15:04:05.000"),
 			to.Format("2006-01-02T15:04:05.000"),
-			startIdx,
-			pageSize,
+			startIdx, pageSize,
 		)
-
 		resp, err := nvdGet(url, apiKey)
 		if err != nil {
 			return fmt.Errorf("GET failed at startIndex=%d: %w", startIdx, err)
 		}
-
 		if total == -1 {
 			total = resp.TotalResults
-			log.Printf("  -> %d CVEs in this window. Paginating...", total)
+			log.Printf("  -> %d CVEs in window.", total)
 		}
-
 		for _, vuln := range resp.Vulnerabilities {
 			cve := vuln.CVE
 			if !cveIDRegex.MatchString(cve.ID) {
@@ -206,23 +206,94 @@ func fetchWindow(from, to time.Time, dict map[string]CVEIntel, apiKey string) er
 			dict[cve.ID] = extractIntel(cve)
 			added++
 		}
-
 		startIdx += len(resp.Vulnerabilities)
 		if len(resp.Vulnerabilities) == 0 {
 			break
 		}
+		rateSleep(apiKey)
+	}
+	log.Printf("  -> Updated %d signatures.", added)
+	return nil
+}
 
-		// Rate-limit sleep:
-		// Unauthenticated: 5 req / 30s  → sleep 6.5s to be safe
-		// Authenticated:   50 req / 30s → sleep 0.65s
-		if apiKey != "" {
-			time.Sleep(700 * time.Millisecond)
-		} else {
-			time.Sleep(6500 * time.Millisecond)
+// ============================================================
+// Phase 2: Collect missing/unscored CVE IDs from data files
+// ============================================================
+
+func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
+	pattern := filepath.Join(dataDir, "*.json")
+	files, err := filepath.Glob(pattern)
+	if err != nil {
+		log.Printf("[-] Glob error: %v", err)
+		return nil
+	}
+
+	seen := make(map[string]bool)
+	var missing []string
+
+	for _, f := range files {
+		// Skip nvd_intel.json itself
+		if filepath.Base(f) == "nvd_intel.json" {
+			continue
+		}
+		raw, err := os.ReadFile(f)
+		if err != nil {
+			continue
+		}
+		var df DataFile
+		if err := json.Unmarshal(raw, &df); err != nil {
+			continue
+		}
+		for _, cve := range df.CVEs {
+			id := cve.CVEID
+			if seen[id] {
+				continue
+			}
+			seen[id] = true
+			// Only backfill if: not in dict, OR score is 0 (unscored)
+			existing, ok := dict[id]
+			if !ok || existing.Score == 0 {
+				missing = append(missing, id)
+			}
 		}
 	}
-	log.Printf("  -> Processed %d signatures from this window.", added)
-	return nil
+	return missing
+}
+
+// ============================================================
+// Phase 2: Fetch individual CVEs by ID
+// ============================================================
+
+func fetchTargeted(cveIDs []string, dict map[string]CVEIntel, apiKey string) {
+	fetched := 0
+	failed := 0
+
+	for i, id := range cveIDs {
+		url := fmt.Sprintf(
+			"https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=%s", id)
+
+		resp, err := nvdGet(url, apiKey)
+		if err != nil {
+			log.Printf("  [-] Failed to fetch %s: %v", id, err)
+			failed++
+			rateSleep(apiKey) // still sleep on error to respect rate limit
+			continue
+		}
+
+		if len(resp.Vulnerabilities) > 0 {
+			dict[id] = extractIntel(resp.Vulnerabilities[0].CVE)
+			fetched++
+		}
+
+		// Progress log every 50
+		if (i+1)%50 == 0 {
+			log.Printf("  -> Backfilled %d/%d CVEs so far...", i+1, len(cveIDs))
+		}
+
+		rateSleep(apiKey)
+	}
+
+	log.Printf("  -> Backfill complete: %d fetched, %d failed.", fetched, failed)
 }
 
 // ============================================================
@@ -230,7 +301,7 @@ func fetchWindow(from, to time.Time, dict map[string]CVEIntel, apiKey string) er
 // ============================================================
 
 func nvdGet(url, apiKey string) (*NVD2Response, error) {
-	client := &http.Client{Timeout: 60 * time.Second}
+	client := &http.Client{Timeout: 30 * time.Second}
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		return nil, err
@@ -247,7 +318,9 @@ func nvdGet(url, apiKey string) (*NVD2Response, error) {
 	defer resp.Body.Close()
 
 	if resp.StatusCode == 403 {
-		return nil, fmt.Errorf("HTTP 403: rate limit hit — increase sleep between requests")
+		// Rate limited — back off and retry once
+		time.Sleep(35 * time.Second)
+		return nvdGet(url, apiKey)
 	}
 	if resp.StatusCode != 200 {
 		return nil, fmt.Errorf("HTTP %d", resp.StatusCode)
@@ -257,12 +330,22 @@ func nvdGet(url, apiKey string) (*NVD2Response, error) {
 	if err != nil {
 		return nil, err
 	}
-
 	var result NVD2Response
 	if err := json.Unmarshal(body, &result); err != nil {
 		return nil, fmt.Errorf("JSON parse error: %w", err)
 	}
 	return &result, nil
+}
+
+// rateSleep respects NVD rate limits:
+// Authenticated:   50 req/30s → sleep 650ms
+// Unauthenticated: 5 req/30s  → sleep 6500ms
+func rateSleep(apiKey string) {
+	if apiKey != "" {
+		time.Sleep(650 * time.Millisecond)
+	} else {
+		time.Sleep(6500 * time.Millisecond)
+	}
 }
 
 // ============================================================
@@ -272,7 +355,7 @@ func nvdGet(url, apiKey string) (*NVD2Response, error) {
 func extractIntel(cve CVE2) CVEIntel {
 	intel := CVEIntel{}
 
-	// --- Description (English) ---
+	// Description
 	for _, d := range cve.Descriptions {
 		if d.Lang == "en" {
 			intel.Desc = d.Value
@@ -283,8 +366,7 @@ func extractIntel(cve CVE2) CVEIntel {
 		intel.Desc = "No description available."
 	}
 
-	// --- CVSS Score — priority: NIST Primary > CNA Secondary > v2 fallback ---
-	// Try v3.1 first
+	// CVSS Score — priority: NIST Primary > CNA Secondary > v2 fallback
 	scoreSet := false
 	for _, m := range append(cve.Metrics.CVSSMetricV31, cve.Metrics.CVSSMetricV30...) {
 		if m.Type == "Primary" && m.CVSSData.BaseScore > 0 {
@@ -296,7 +378,6 @@ func extractIntel(cve CVE2) CVEIntel {
 			break
 		}
 	}
-	// If NIST hasn't scored yet, use the CNA (Secondary) score
 	if !scoreSet {
 		for _, m := range append(cve.Metrics.CVSSMetricV31, cve.Metrics.CVSSMetricV30...) {
 			if m.Type == "Secondary" && m.CVSSData.BaseScore > 0 {
@@ -309,7 +390,6 @@ func extractIntel(cve CVE2) CVEIntel {
 			}
 		}
 	}
-	// Last resort: CVSS v2
 	if !scoreSet {
 		for _, m := range cve.Metrics.CVSSMetricV2 {
 			if m.CVSSData.BaseScore > 0 {
@@ -322,7 +402,7 @@ func extractIntel(cve CVE2) CVEIntel {
 		}
 	}
 
-	// --- CWE — prefer NIST Primary classification ---
+	// CWE — prefer NIST Primary
 	for _, w := range cve.Weaknesses {
 		if w.Type == "Primary" {
 			for _, d := range w.Description {
@@ -336,7 +416,6 @@ func extractIntel(cve CVE2) CVEIntel {
 			}
 		}
 	}
-	// Fallback to any CWE
 	if intel.CWE == "" {
 		for _, w := range cve.Weaknesses {
 			for _, d := range w.Description {
@@ -351,15 +430,15 @@ func extractIntel(cve CVE2) CVEIntel {
 		}
 	}
 
-	// --- CISA KEV ---
+	// CISA KEV
 	intel.KEV = cve.CisaExploitAdd != ""
 
-	// --- Published date (YYYY-MM-DD) ---
+	// Published date
 	if len(cve.Published) >= 10 {
 		intel.Published = cve.Published[:10]
 	}
 
-	// --- VulnStatus ---
+	// Status
 	intel.Status = cve.VulnStatus
 
 	return intel
