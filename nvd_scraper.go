@@ -260,10 +260,6 @@ func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
 			existing, ok := dict[id]
 			if !ok || existing.Score == 0 {
 				missing = append(missing, id)
-				if len(missing) >= maxPerRun {
-					log.Printf("  [i] Capped at %d CVEs/run. Remainder will be fetched in subsequent runs.", maxPerRun)
-					return missing
-				}
 			}
 		}
 	}
@@ -275,31 +271,35 @@ func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
 // ============================================================
 
 func fetchTargeted(cveIDs []string, dict map[string]CVEIntel, apiKey string) {
+	const phaseBudget = 8 * time.Minute // keeps total run under ~10 min
+	deadline := time.Now().Add(phaseBudget)
+
 	fetched := 0
-	failed := 0
+	failed  := 0
 
 	for i, id := range cveIDs {
-		url := fmt.Sprintf(
-			"https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=%s", id)
+		// Time-based stop — any remainder picked up on the next 6h cycle
+		if time.Now().After(deadline) {
+			remaining := len(cveIDs) - i
+			log.Printf("  [i] 8-min budget reached. %d CVEs remaining — will continue in next run.", remaining)
+			break
+		}
 
+		url := fmt.Sprintf("https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=%s", id)
 		resp, err := nvdGet(url, apiKey)
 		if err != nil {
 			log.Printf("  [-] Failed to fetch %s: %v", id, err)
 			failed++
-			rateSleep(apiKey) // still sleep on error to respect rate limit
+			rateSleep(apiKey)
 			continue
 		}
-
 		if len(resp.Vulnerabilities) > 0 {
 			dict[id] = extractIntel(resp.Vulnerabilities[0].CVE)
 			fetched++
 		}
-
-		// Progress log every 50
 		if (i+1)%50 == 0 {
 			log.Printf("  -> Backfilled %d/%d CVEs so far...", i+1, len(cveIDs))
 		}
-
 		rateSleep(apiKey)
 	}
 
