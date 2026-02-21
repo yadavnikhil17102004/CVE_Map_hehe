@@ -435,16 +435,17 @@ function setEmpty(msg) {
 // STATS
 // ============================================================
 function updateStats(data, year) {
-  document.getElementById('table-title').innerHTML =
+  const el = id => document.getElementById(id); // safe getter
+
+  el('table-title').innerHTML =
     `<span class="w-1.5 h-5 bg-primary rounded-sm inline-block mr-2"></span>
      Compiled Exploits &amp; Proofs-of-Concept (${year})`;
-  document.getElementById('trend-label').textContent = `Exploit Trends (${year})`;
+  el('trend-label').textContent = `Exploit Trends (${year})`;
 
   if (!data?.cves?.length) {
-    document.getElementById('stat-cves').textContent = '0';
-    document.getElementById('stat-repos').textContent = '0';
-    document.getElementById('stat-top').textContent = '—';
-    document.getElementById('status-msg').textContent = `No data for ${year}.`;
+    el('stat-cves').textContent = '0';
+    el('stat-repos').textContent = '0';
+    el('stat-top').textContent = '—';
     return;
   }
 
@@ -453,20 +454,10 @@ function updateStats(data, year) {
   const top = [...cves].sort((a,b) =>
     (b.repositories?.length||0) - (a.repositories?.length||0)
   )[0];
-  const topStars = [...cves].sort((a,b) => {
-    const sa = (a.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0);
-    const sb = (b.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0);
-    return sb - sa;
-  })[0];
 
-  document.getElementById('stat-cves').textContent = cves.length.toLocaleString();
-  document.getElementById('stat-repos').textContent = totalRepos.toLocaleString();
-  document.getElementById('stat-top').textContent = top?.cve_id || '—';
-  document.getElementById('stat-cves-sub').textContent = `CVEs tracked`;
-  document.getElementById('stat-repos-sub').textContent = `exploit repos`;
-  document.getElementById('status-msg').textContent =
-    `${totalRepos} exploit repos indexed for ${year}. Scanner operational.`;
-  document.getElementById('grade').textContent = totalRepos > 50 ? 'A+' : 'B+';
+  el('stat-cves').textContent = cves.length.toLocaleString();
+  el('stat-repos').textContent = totalRepos.toLocaleString();
+  el('stat-top').textContent = top?.cve_id || '—';
 }
 
 // ============================================================
