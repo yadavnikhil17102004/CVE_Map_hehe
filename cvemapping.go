@@ -5,17 +5,19 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
 	"net/url"
 	"os"
 	"os/exec"
+	"path/filepath"
 	"regexp"
+	"sort"
 	"strconv"
 	"strings"
+	"sync"
 	"time"
-	"path/filepath"
 )
 
 type RepoDetails struct {
@@ -261,13 +263,26 @@ func main() {
 		// Clone the repositories (existing behavior)
 		reposToClone := processRepos(allRepos, *year)
 
-		// Clone the repositories
+		// Clone the repositories concurrently using a worker pool
+		var wg sync.WaitGroup
+		sem := make(chan struct{}, 10) // Limit to 10 concurrent clones
+
 		for _, repo := range reposToClone {
-			err := cloneRepo(repo.CloneURL, repo.CVEName, repo.StargazersCount, *year)
-			if err != nil {
-				log.Printf("Error cloning repo %s: %v", repo.CloneURL, err)
-			}
+			wg.Add(1)
+			sem <- struct{}{} // Acquire semaphore token
+			
+			go func(r RepoDetails) {
+				defer wg.Done()
+				defer func() { <-sem }() // Release semaphore token
+				
+				err := cloneRepo(r.CloneURL, r.CVEName, r.StargazersCount, *year)
+				if err != nil {
+					log.Printf("Error cloning repo %s: %v", r.CloneURL, err)
+				}
+			}(repo)
 		}
+		
+		wg.Wait()
 	}
 }
 
@@ -355,8 +370,24 @@ func fetchGitHubRepositories(query, token string, page int) (*GitHubSearchRespon
 	}
 	defer resp.Body.Close()
 
+	if resp.StatusCode == http.StatusForbidden {
+		retryAfter := resp.Header.Get("Retry-After")
+		if retryAfter != "" {
+			seconds, err := strconv.Atoi(retryAfter)
+			if err == nil {
+				log.Printf("Hit Secondary Rate Limit (403). Sleeping for %d seconds based on Retry-After header...", seconds)
+				time.Sleep(time.Duration(seconds+1) * time.Second)
+				return fetchGitHubRepositories(query, token, page)
+			}
+		}
+		// If no Retry-After header exists, implement a standard backoff
+		log.Printf("Hit Rate Limit (403). Sleeping for 60 seconds...")
+		time.Sleep(60 * time.Second)
+		return fetchGitHubRepositories(query, token, page)
+	}
+
 	if resp.StatusCode != http.StatusOK {
-		body, _ := ioutil.ReadAll(resp.Body)
+		body, _ := io.ReadAll(resp.Body)
 		return nil, fmt.Errorf("failed to fetch repositories, status: %d, response: %s", resp.StatusCode, string(body))
 	}
 
@@ -598,13 +629,9 @@ func exportToJSON(repos []*GitHubRepository, year string) error {
 
 		// Sort repositories by stargazers count (descending)
 		sortedRepos := uniqueRepos
-		for i := 0; i < len(sortedRepos)-1; i++ {
-			for j := i + 1; j < len(sortedRepos); j++ {
-				if sortedRepos[i].StargazersCount < sortedRepos[j].StargazersCount {
-					sortedRepos[i], sortedRepos[j] = sortedRepos[j], sortedRepos[i]
-				}
-			}
-		}
+		sort.SliceStable(sortedRepos, func(i, j int) bool {
+			return sortedRepos[i].StargazersCount > sortedRepos[j].StargazersCount
+		})
 
 		cveEntries = append(cveEntries, CVEEntry{
 			CVEID:        cveID,
@@ -613,13 +640,9 @@ func exportToJSON(repos []*GitHubRepository, year string) error {
 	}
 
 	// Sort CVEs by ID
-	for i := 0; i < len(cveEntries)-1; i++ {
-		for j := i + 1; j < len(cveEntries); j++ {
-			if cveEntries[i].CVEID > cveEntries[j].CVEID {
-				cveEntries[i], cveEntries[j] = cveEntries[j], cveEntries[i]
-			}
-		}
-	}
+	sort.SliceStable(cveEntries, func(i, j int) bool {
+		return cveEntries[i].CVEID < cveEntries[j].CVEID
+	})
 
 	// Create year data structure
 	yearInt, _ := strconv.Atoi(year)
@@ -635,7 +658,7 @@ func exportToJSON(repos []*GitHubRepository, year string) error {
 		return fmt.Errorf("failed to marshal JSON: %w", err)
 	}
 
-	err = ioutil.WriteFile(jsonFile, jsonData, 0644)
+	err = os.WriteFile(jsonFile, jsonData, 0644)
 	if err != nil {
 		return fmt.Errorf("failed to write JSON file: %w", err)
 	}
