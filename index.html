@@ -1,952 +1,713 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CVE Map | Exploit Intelligence</title>
-    <meta
-      name="description"
-      content="A live, continuous aggregation of GitHub CVE exploits and proofs-of-concept."
-    />
-    <!-- Google Fonts for Modern Typography -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      :root {
-        --bg-color: #0b0c10;
-        --surface: #1f2833;
-        --primary: #66fcf1;
-        --secondary: #45a29e;
-        --text-light: #c5c6c7;
-        --text-white: #ffffff;
-        --glass-bg: rgba(31, 40, 51, 0.4);
-        --glass-border: rgba(102, 252, 241, 0.1);
-        --danger: #ff4c4c;
-        --warning: #fca311;
-        --success: #38b000;
-      }
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>CVE Map — Aggregated GitHub Exploits Dashboard</title>
+  <meta name="description" content="Real-time intelligence dashboard tracking CVE exploits and Proofs-of-Concept across GitHub repositories."/>
 
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: "Inter", sans-serif;
-      }
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-      body {
-        background-color: var(--bg-color);
-        color: var(--text-light);
-        line-height: 1.6;
-        min-height: 100vh;
-        background-image:
-          radial-gradient(
-            circle at 15% 50%,
-            rgba(69, 162, 158, 0.08) 0%,
-            transparent 50%
-          ),
-          radial-gradient(
-            circle at 85% 30%,
-            rgba(102, 252, 241, 0.05) 0%,
-            transparent 50%
-          );
-        background-attachment: fixed;
-      }
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#06b6d4",
+            "primary-glow": "rgba(6,182,212,0.4)",
+            "bg-dark": "#0f1115",
+            "surface": "#161b22",
+            "surface-2": "#1f2937",
+            "border": "#30363d",
+            "dim": "#8b949e",
+            "success": "#2ea043",
+            "warning": "#d29922",
+            "danger": "#f85149",
+          },
+          fontFamily: {
+            mono: ['JetBrains Mono', 'monospace'],
+            sans: ['Inter', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
 
-      .container {
-        max-width: 1400px;
-        margin: 0 auto;
-        padding: 2rem 1.5rem;
-      }
+  <style>
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: #0d1117; }
+    ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #484f58; }
 
-      /* ---------------- Header ---------------- */
-      header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 2rem;
-        border-bottom: 1px solid var(--glass-border);
-        margin-bottom: 2rem;
-        animation: fadeInDown 0.8s ease;
-      }
+    .glass {
+      background: rgba(22,27,34,0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(48,54,61,0.7);
+    }
+    .cve-row { cursor: pointer; transition: background 0.12s, border-color 0.12s; }
+    .cve-row:hover { background: rgba(31,41,55,0.9); }
+    .spin { animation: spin 1s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:0.5;} }
+  </style>
+</head>
 
-      .logo h1 {
-        color: var(--text-white);
-        font-size: 2.5rem;
-        font-weight: 800;
-        letter-spacing: -1px;
-        display: flex;
-        align-items: center;
-        gap: 15px;
-      }
+<body class="dark bg-bg-dark text-gray-200 font-sans antialiased h-screen flex flex-col overflow-hidden">
 
-      .logo h1 span {
-        color: var(--primary);
-        text-shadow: 0 0 15px rgba(102, 252, 241, 0.4);
-      }
+<!-- ===== HEADER ===== -->
+<header class="h-14 border-b border-border flex items-center justify-between px-5 bg-surface shrink-0 z-20">
+  <div class="flex items-center gap-2">
+    <span class="material-symbols-outlined text-primary text-2xl">radar</span>
+    <h1 class="font-mono font-bold text-lg tracking-tight text-white">
+      CVE <span class="text-primary">MAP</span>
+    </h1>
+    <span class="text-[10px] ml-1 px-2 py-0.5 rounded-full bg-surface-2 text-dim hidden sm:inline">
+      Aggregated GitHub Exploits &amp; PoCs Dashboard
+    </span>
+  </div>
+  <div class="flex items-center gap-3">
+    <div class="relative hidden md:block">
+      <span class="material-symbols-outlined absolute left-2.5 top-1/2 -translate-y-1/2 text-gray-500 text-sm">search</span>
+      <input id="search-input"
+        class="bg-surface-2 border border-border focus:border-primary focus:ring-1 focus:ring-primary rounded pl-8 pr-3 py-1.5 text-xs text-white placeholder-gray-500 w-56 transition-all outline-none"
+        placeholder="Search CVEs or Repositories..." type="text"/>
+    </div>
+    <a id="api-link" href="data/2026.json" target="_blank"
+      class="flex items-center gap-1.5 px-2.5 py-1.5 rounded border border-border text-xs font-medium hover:bg-surface-2 transition-colors text-gray-300">
+      <span class="material-symbols-outlined text-sm">terminal</span>
+      Public API JSON
+    </a>
+    <div class="h-7 w-7 rounded-full bg-gradient-to-tr from-primary to-purple-500 flex items-center justify-center text-white font-bold text-[10px]">JS</div>
+  </div>
+</header>
 
-      .logo p {
-        font-size: 0.95rem;
-        color: var(--secondary);
-        margin-top: 5px;
-        font-weight: 500;
-      }
+<!-- ===== LAYOUT ===== -->
+<div class="flex flex-1 overflow-hidden">
 
-      .api-badge {
-        background: var(--glass-bg);
-        border: 1px solid var(--glass-border);
-        padding: 0.6rem 1.2rem;
-        border-radius: 50px;
-        font-size: 0.85rem;
-        color: var(--primary);
-        backdrop-filter: blur(10px);
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        transition: all 0.3s ease;
-      }
+  <!-- LEFT SIDEBAR -->
+  <aside class="w-56 bg-surface border-r border-border overflow-y-auto shrink-0 p-4 gap-5 z-10 hidden lg:flex flex-col">
 
-      .api-badge:hover {
-        background: rgba(102, 252, 241, 0.1);
-        transform: translateY(-2px);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-        cursor: pointer;
-      }
+    <!-- Year Timeline -->
+    <div>
+      <h3 class="text-[10px] font-semibold uppercase tracking-wider text-dim mb-2.5 flex items-center gap-1.5">
+        <span class="material-symbols-outlined text-sm">calendar_month</span> Explore Timeline
+      </h3>
+      <div id="year-grid" class="grid grid-cols-3 gap-1.5"></div>
+    </div>
 
-      /* ---------------- Stats Row ---------------- */
-      .stats-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 1.5rem;
-        margin-bottom: 3rem;
-        animation: fadeIn 1s ease 0.2s both;
-      }
+    <hr class="border-border"/>
 
-      .stat-card {
-        background: var(--glass-bg);
-        border: 1px solid var(--glass-border);
-        border-radius: 16px;
-        padding: 1.5rem;
-        backdrop-filter: blur(12px);
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
-        transition:
-          transform 0.3s ease,
-          border-color 0.3s ease;
-        position: relative;
-        overflow: hidden;
-      }
-
-      .stat-card::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 4px;
-        height: 100%;
-        background: var(--primary);
-        box-shadow: 0 0 10px var(--primary);
-      }
-
-      .stat-card:hover {
-        transform: translateY(-5px);
-        border-color: rgba(102, 252, 241, 0.3);
-      }
-
-      .stat-title {
-        font-size: 0.85rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        color: var(--secondary);
-        margin-bottom: 10px;
-        font-weight: 600;
-      }
-
-      .stat-value {
-        font-size: 3rem;
-        font-weight: 800;
-        color: var(--text-white);
-        line-height: 1;
-      }
-
-      /* ---------------- Main Content Layout ---------------- */
-      .main-layout {
-        display: grid;
-        grid-template-columns: 350px 1fr;
-        gap: 2rem;
-        animation: fadeIn 1s ease 0.4s both;
-      }
-
-      @media (max-width: 992px) {
-        .main-layout {
-          grid-template-columns: 1fr;
-        }
-      }
-
-      /* ---------------- Sidebar / Filters ---------------- */
-      .sidebar {
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-      }
-
-      .search-box {
-        position: relative;
-        width: 100%;
-      }
-
-      .search-box input {
-        width: 100%;
-        background: var(--surface);
-        border: 1px solid var(--glass-border);
-        border-radius: 12px;
-        padding: 1rem 1rem 1rem 3rem;
-        color: var(--text-white);
-        font-size: 1rem;
-        outline: none;
-        transition: all 0.3s;
-      }
-
-      .search-box input:focus {
-        border-color: var(--primary);
-        box-shadow: 0 0 0 3px rgba(102, 252, 241, 0.1);
-      }
-
-      .search-box svg {
-        position: absolute;
-        left: 1rem;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 20px;
-        height: 20px;
-        fill: var(--secondary);
-      }
-
-      .year-selector {
-        background: var(--glass-bg);
-        border: 1px solid var(--glass-border);
-        border-radius: 12px;
-        padding: 1.5rem;
-        backdrop-filter: blur(12px);
-      }
-
-      .year-selector h3 {
-        color: var(--text-white);
-        margin-bottom: 1rem;
-        font-size: 1.1rem;
-      }
-
-      .year-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-      }
-
-      .year-btn {
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid rgba(255, 255, 255, 0.05);
-        padding: 0.6rem;
-        border-radius: 8px;
-        color: var(--text-light);
-        cursor: pointer;
-        transition: all 0.2s;
-        font-weight: 500;
-      }
-
-      .year-btn:hover {
-        background: rgba(102, 252, 241, 0.1);
-        border-color: var(--primary);
-        color: var(--text-white);
-      }
-
-      .year-btn.active {
-        background: var(--primary);
-        color: var(--bg-color);
-        border-color: var(--primary);
-        box-shadow: 0 0 15px rgba(102, 252, 241, 0.3);
-      }
-
-      /* ---------------- NVD Metadata Panel ---------------- */
-      .nvd-panel {
-        background: linear-gradient(
-          135deg,
-          rgba(31, 40, 51, 0.8),
-          rgba(11, 12, 16, 0.9)
-        );
-        border: 1px solid rgba(252, 163, 17, 0.2);
-        border-radius: 12px;
-        padding: 1.5rem;
-        backdrop-filter: blur(12px);
-        display: none; /* Hidden until a CVE is clicked */
-        animation: slideUp 0.4s ease;
-      }
-
-      .nvd-panel.visible {
-        display: block;
-      }
-
-      .nvd-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 1rem;
-        padding-bottom: 0.5rem;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-      }
-
-      .nvd-title {
-        color: var(--text-white);
-        font-weight: 700;
-        font-size: 1.2rem;
-      }
-
-      .cvss-badge {
-        padding: 0.4rem 0.8rem;
-        border-radius: 6px;
-        font-weight: 800;
-        font-size: 0.9rem;
-        letter-spacing: 0.5px;
-      }
-
-      .cvss-critical {
-        background: rgba(255, 76, 76, 0.2);
-        color: var(--danger);
-        border: 1px solid var(--danger);
-        box-shadow: 0 0 10px rgba(255, 76, 76, 0.3);
-      }
-      .cvss-high {
-        background: rgba(252, 163, 17, 0.2);
-        color: var(--warning);
-        border: 1px solid var(--warning);
-      }
-      .cvss-medium {
-        background: rgba(255, 255, 255, 0.1);
-        color: var(--text-white);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-      }
-
-      .nvd-desc {
-        font-size: 0.9rem;
-        color: var(--text-light);
-        line-height: 1.5;
-      }
-
-      .nvd-loading {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        color: var(--secondary);
-        font-size: 0.9rem;
-        font-weight: 500;
-      }
-
-      /* ---------------- Data Table View ---------------- */
-      .data-view {
-        background: var(--glass-bg);
-        border: 1px solid var(--glass-border);
-        border-radius: 16px;
-        padding: 2rem;
-        backdrop-filter: blur(12px);
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
-        min-height: 600px;
-        display: flex;
-        flex-direction: column;
-      }
-
-      .data-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 1.5rem;
-      }
-
-      .data-header h2 {
-        color: var(--text-white);
-        font-weight: 600;
-      }
-
-      /* Table Array */
-      .cve-list {
-        list-style: none;
-        overflow-y: auto;
-        flex-grow: 1;
-        padding-right: 10px;
-      }
-
-      /* Custom Scrollbar */
-      .cve-list::-webkit-scrollbar {
-        width: 6px;
-      }
-      .cve-list::-webkit-scrollbar-track {
-        background: var(--surface);
-        border-radius: 10px;
-      }
-      .cve-list::-webkit-scrollbar-thumb {
-        background: var(--secondary);
-        border-radius: 10px;
-      }
-      .cve-list::-webkit-scrollbar-thumb:hover {
-        background: var(--primary);
-      }
-
-      .cve-item {
-        background: rgba(255, 255, 255, 0.02);
-        border: 1px solid rgba(255, 255, 255, 0.05);
-        border-radius: 12px;
-        margin-bottom: 1rem;
-        transition: all 0.2s;
-      }
-
-      .cve-item:hover {
-        background: rgba(102, 252, 241, 0.05);
-        border-color: rgba(102, 252, 241, 0.2);
-        transform: translateX(5px);
-      }
-
-      .cve-main {
-        padding: 1.2rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        cursor: pointer;
-      }
-
-      .cve-id {
-        font-size: 1.2rem;
-        font-weight: 700;
-        color: var(--text-white);
-        display: flex;
-        align-items: center;
-        gap: 10px;
-      }
-
-      .cve-id span {
-        /* Exploit count badge */
-        background: rgba(102, 252, 241, 0.15);
-        color: var(--primary);
-        font-size: 0.75rem;
-        padding: 0.2rem 0.6rem;
-        border-radius: 50px;
-        font-weight: 600;
-        border: 1px solid rgba(102, 252, 241, 0.3);
-      }
-
-      .repo-meta {
-        font-size: 0.9rem;
-        color: var(--secondary);
-        font-weight: 500;
-      }
-
-      /* Repo Expand List */
-      .repo-list {
-        display: none;
-        padding: 0 1.2rem 1.2rem 1.2rem;
-        border-top: 1px solid rgba(255, 255, 255, 0.05);
-        margin-top: 0.5rem;
-        padding-top: 1rem;
-        animation: fadeInDown 0.3s ease;
-      }
-
-      .cve-item.expanded .repo-list {
-        display: block;
-      }
-
-      .repo-card {
-        background: rgba(0, 0, 0, 0.2);
-        border-left: 3px solid var(--secondary);
-        padding: 1rem;
-        border-radius: 0 8px 8px 0;
-        margin-bottom: 0.8rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        transition: all 0.2s;
-      }
-
-      .repo-card:hover {
-        border-left-color: var(--primary);
-        background: rgba(102, 252, 241, 0.03);
-      }
-
-      .repo-info h4 {
-        color: var(--text-light);
-        font-size: 0.95rem;
-        margin-bottom: 4px;
-      }
-
-      .repo-info p {
-        font-size: 0.8rem;
-        color: rgba(197, 198, 199, 0.6);
-        max-width: 500px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-
-      .repo-stats {
-        display: flex;
-        gap: 15px;
-        align-items: center;
-      }
-
-      .star-count {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        color: var(--warning);
-        font-size: 0.85rem;
-        font-weight: 600;
-      }
-
-      .clone-btn {
-        background: rgba(69, 162, 158, 0.1);
-        color: var(--primary);
-        border: 1px solid var(--secondary);
-        padding: 0.4rem 1rem;
-        border-radius: 6px;
-        font-size: 0.8rem;
-        font-weight: 600;
-        text-decoration: none;
-        transition: all 0.2s;
-      }
-
-      .clone-btn:hover {
-        background: var(--primary);
-        color: var(--bg-color);
-        box-shadow: 0 0 10px rgba(102, 252, 241, 0.4);
-      }
-
-      /* ---------------- Utilities ---------------- */
-      .loading {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        color: var(--primary);
-        font-weight: 600;
-        gap: 15px;
-      }
-
-      .spinner {
-        width: 40px;
-        height: 40px;
-        border: 3px solid rgba(102, 252, 241, 0.1);
-        border-top: 3px solid var(--primary);
-        border-radius: 50%;
-        animation: spin 1s linear infinite;
-      }
-
-      @keyframes spin {
-        0% {
-          transform: rotate(0deg);
-        }
-        100% {
-          transform: rotate(360deg);
-        }
-      }
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      @keyframes fadeInDown {
-        from {
-          opacity: 0;
-          transform: translateY(-10px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-      @keyframes slideUp {
-        from {
-          opacity: 0;
-          transform: translateY(10px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <!-- Header -->
-      <header>
-        <div class="logo">
-          <h1>CVE<span>MAP</span></h1>
-          <p>Aggregated GitHub Exploits & PoCs Dashboard</p>
+    <!-- NVD Severity Guide -->
+    <div>
+      <h3 class="text-[10px] font-semibold uppercase tracking-wider text-dim mb-2.5 flex items-center gap-1.5">
+        <span class="material-symbols-outlined text-sm">security</span> NVD Intelligence
+      </h3>
+      <div class="space-y-1.5">
+        <div class="flex items-center justify-between text-xs p-2 rounded bg-red-500/10 border border-red-900/30">
+          <span class="text-gray-300 font-medium">Critical</span>
+          <span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-danger text-white">9.0 - 10.0</span>
         </div>
-        <div
-          class="api-badge"
-          title="Use the public JSON API endpoints natively in your apps"
-          onclick="
-            alert(
-              'Public API Endpoints: \nhttps://yadavnikhil17102004.github.io/CVE_Map_hehe/data/{YYYY}.json',
-            )
-          "
-        >
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
-            ></path>
-            <path
-              d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
-            ></path>
-          </svg>
-          Public API JSON
+        <div class="flex items-center justify-between text-xs p-2 rounded bg-orange-500/10 border border-orange-900/30">
+          <span class="text-gray-300 font-medium">High</span>
+          <span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-orange-500 text-white">7.0 - 8.9</span>
         </div>
-      </header>
-
-      <!-- Stats Overview -->
-      <div class="stats-grid">
-        <div class="stat-card">
-          <div class="stat-title">Indexed Exploits (Select Year)</div>
-          <div class="stat-value" id="stat-cve-count">0</div>
+        <div class="flex items-center justify-between text-xs p-2 rounded bg-yellow-500/10 border border-yellow-900/30">
+          <span class="text-gray-300 font-medium">Medium</span>
+          <span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-warning text-white">4.0 - 6.9</span>
         </div>
-        <div class="stat-card">
-          <div class="stat-title">GitHub Repos Mapped</div>
-          <div class="stat-value" id="stat-repo-count">0</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-title">Most Mapped Output</div>
-          <div
-            class="stat-value"
-            id="stat-top-cve"
-            style="font-size: 1.8rem; margin-top: 15px"
-          >
-            -
-          </div>
-        </div>
-      </div>
-
-      <div class="main-layout">
-        <!-- Sidebar Controls -->
-        <div class="sidebar">
-          <!-- NVD Intel Panel -->
-          <div class="nvd-panel" id="nvd-panel">
-            <div id="nvd-loading" class="nvd-loading" style="display: none">
-              <div
-                class="spinner"
-                style="width: 20px; height: 20px; border-width: 2px"
-              ></div>
-              Fetching NVD Intel...
-            </div>
-            <div id="nvd-content">
-              <div class="nvd-header">
-                <div class="nvd-title" id="nvd-title">CVE-XXXX-XXXX</div>
-                <div class="cvss-badge cvss-critical" id="nvd-cvss">9.8</div>
-              </div>
-              <div class="nvd-desc" id="nvd-desc">
-                Click any CVE to automatically fetch official National
-                Vulnerability Database severity scores and descriptions via the
-                public API.
-              </div>
-            </div>
-          </div>
-
-          <div class="search-box">
-            <svg viewBox="0 0 24 24">
-              <path
-                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
-              ></path>
-            </svg>
-            <input
-              type="text"
-              id="search-input"
-              placeholder="Search CVEs or Repositories..."
-            />
-          </div>
-
-          <div class="year-selector">
-            <h3>Explore Timeline</h3>
-            <div class="year-grid" id="year-grid">
-              <!-- Javascript will populate years -->
-            </div>
-          </div>
-        </div>
-
-        <!-- Data View -->
-        <div class="data-view">
-          <div class="data-header">
-            <h2 id="current-view-title">Loading Pipeline...</h2>
-          </div>
-
-          <div id="loading-spinner" class="loading">
-            <div class="spinner"></div>
-            Executing Engine Sync...
-          </div>
-
-          <ul class="cve-list" id="cve-list" style="display: none">
-            <!-- CVE Items will be injected here -->
-          </ul>
+        <div class="flex items-center justify-between text-xs p-2 rounded bg-green-500/10 border border-green-900/30">
+          <span class="text-gray-300 font-medium">Low</span>
+          <span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-success text-white">0.1 - 3.9</span>
         </div>
       </div>
     </div>
 
-    <script>
-        // App State
-        let currentData = null;
-        let proprietaryNVDLayer = null; // Stored NIST HashMap
-        let currentYear = new Date().getFullYear();
-        let searchTimeout = null;
+    <hr class="border-border"/>
 
-        // Initialize App
-        document.addEventListener('DOMContentLoaded', async () => {
-            initYearSelector();
-            
-            // Prime the NIST Proprietary Database
-            try {
-                const res = await fetch(`data/nvd_intel.json`);
-                if (res.ok) {
-                    proprietaryNVDLayer = await res.json();
-                    console.log("[i] Autonomous NVD dictionary loaded. " + Object.keys(proprietaryNVDLayer).length + " threat signatures primed in memory.");
-                }
-            } catch (err) {
-                console.error("[-] Failed to preload local NVD intelligence structure.");
-            }
+    <!-- Severity Donut -->
+    <div class="mt-auto">
+      <h3 class="text-[10px] font-semibold uppercase tracking-wider text-dim mb-2">Severity Distribution</h3>
+      <div class="h-36 relative">
+        <canvas id="severityChart"></canvas>
+        <div class="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
+          <span id="sev-total" class="font-mono font-bold text-sm text-white">—</span>
+          <span class="text-[9px] text-dim">CVEs</span>
+        </div>
+      </div>
+      <div class="mt-2 grid grid-cols-2 gap-x-2 gap-y-1 text-[9px] text-dim">
+        <div class="flex items-center gap-1"><span class="w-2 h-2 rounded-sm bg-danger inline-block"></span>Critical</div>
+        <div class="flex items-center gap-1"><span class="w-2 h-2 rounded-sm bg-orange-500 inline-block"></span>High</div>
+        <div class="flex items-center gap-1"><span class="w-2 h-2 rounded-sm bg-warning inline-block"></span>Medium</div>
+        <div class="flex items-center gap-1"><span class="w-2 h-2 rounded-sm bg-gray-600 inline-block"></span>Unscored</div>
+      </div>
+    </div>
+  </aside>
 
-            loadYearData(currentYear);
+  <!-- MAIN CONTENT -->
+  <main class="flex-1 overflow-y-auto bg-bg-dark">
+    <div class="p-4 md:p-5 space-y-4 max-w-7xl mx-auto">
 
-            // Bind Search
-            document.getElementById('search-input').addEventListener('input', (e) => {
-                clearTimeout(searchTimeout);
-                searchTimeout = setTimeout(() => {
-                    renderCVEList(e.target.value);
-                }, 300);
-            });
-        });
+      <!-- STATS CARDS -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div class="glass p-4 rounded-lg border-l-4 border-l-primary flex flex-col gap-1.5 group hover:bg-surface-2/50 transition-all">
+          <div class="flex justify-between items-center">
+            <h3 class="text-[10px] font-bold uppercase tracking-wider text-dim">Indexed Exploits (Select Year)</h3>
+            <span class="material-symbols-outlined text-primary text-lg opacity-50 group-hover:opacity-100 transition">bug_report</span>
+          </div>
+          <div class="flex items-baseline gap-2">
+            <span id="stat-cves" class="text-4xl font-mono font-bold text-white">—</span>
+            <span id="stat-cves-sub" class="text-xs text-dim font-mono"></span>
+          </div>
+        </div>
 
-      // Setup Year Grid (e.g., 2014 to Current Year)
-      function initYearSelector() {
-        const grid = document.getElementById("year-grid");
-        const endYear = new Date().getFullYear();
-        const startYear = 1999;
+        <div class="glass p-4 rounded-lg border-l-4 border-l-purple-500 flex flex-col gap-1.5 group hover:bg-surface-2/50 transition-all">
+          <div class="flex justify-between items-center">
+            <h3 class="text-[10px] font-bold uppercase tracking-wider text-dim">Total Repos Mapped</h3>
+            <span class="material-symbols-outlined text-purple-500 text-lg opacity-50 group-hover:opacity-100 transition">folder_data</span>
+          </div>
+          <div class="flex items-baseline gap-2">
+            <span id="stat-repos" class="text-4xl font-mono font-bold text-white">—</span>
+            <span id="stat-repos-sub" class="text-xs text-dim font-mono"></span>
+          </div>
+        </div>
 
-        // Show recent years up top
-        for (let y = endYear; y >= endYear - 11; y--) {
-          const btn = document.createElement("button");
-          btn.className = `year-btn ${y === currentYear ? "active" : ""}`;
-          btn.innerText = y;
-          btn.onclick = () => {
-            document
-              .querySelectorAll(".year-btn")
-              .forEach((b) => b.classList.remove("active"));
-            btn.classList.add("active");
-            currentYear = y;
-            loadYearData(y);
-          };
-          grid.appendChild(btn);
+        <div class="glass p-4 rounded-lg border-l-4 border-l-danger flex flex-col gap-2 group hover:bg-surface-2/50 transition-all">
+          <div class="flex justify-between items-center">
+            <h3 class="text-[10px] font-bold uppercase tracking-wider text-dim">Most Targeted Output</h3>
+            <span class="material-symbols-outlined text-danger text-lg opacity-50 group-hover:opacity-100 transition">warning</span>
+          </div>
+          <span id="stat-top" class="font-mono font-bold text-danger text-xl truncate">—</span>
+          <div class="w-full bg-gray-800 h-1 rounded-full overflow-hidden">
+            <div class="bg-danger h-full w-3/4"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CHARTS ROW -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-3">
+        <div class="lg:col-span-2 glass p-4 rounded-lg">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="text-xs font-bold text-white flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-primary text-base">ssid_chart</span>
+              <span id="trend-label">Exploit Trends</span>
+            </h3>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-surface-2 text-dim border border-border">By Month</span>
+          </div>
+          <div class="h-40 w-full">
+            <canvas id="trendChart"></canvas>
+          </div>
+        </div>
+
+        <div class="glass p-4 rounded-lg flex flex-col justify-center items-center text-center gap-2">
+          <div class="h-20 w-20 rounded-full border-4 border-primary flex items-center justify-center"
+            style="box-shadow:0 0 20px rgba(6,182,212,0.3)">
+            <span id="grade" class="text-xl font-mono font-bold text-white">A+</span>
+          </div>
+          <h4 class="text-sm font-bold text-white">System Status</h4>
+          <p id="status-msg" class="text-xs text-dim leading-relaxed">Loading intelligence feed...</p>
+          <a id="raw-data-link" href="data/" target="_blank"
+            class="text-[10px] font-bold text-primary hover:text-white border border-primary hover:bg-primary px-3 py-1.5 rounded transition-all uppercase tracking-wide">
+            View Raw Data
+          </a>
+        </div>
+      </div>
+
+      <!-- CVE TABLE -->
+      <div class="glass rounded-lg overflow-hidden flex flex-col" style="min-height:380px">
+        <div class="px-4 py-3 border-b border-border flex items-center justify-between bg-surface-2/30">
+          <h2 id="table-title" class="text-sm font-bold text-white flex items-center gap-2">
+            <span class="w-1.5 h-5 bg-primary rounded-sm"></span>
+            Compiled Exploits &amp; Proofs-of-Concept
+          </h2>
+          <div class="flex gap-2 items-center">
+            <!-- Mobile search -->
+            <input id="search-mobile"
+              class="md:hidden bg-surface-2 border border-border focus:border-primary rounded px-2 py-1 text-xs text-white placeholder-gray-500 w-36 outline-none"
+              placeholder="Search..." type="text"/>
+            <span id="result-count" class="text-[10px] text-dim font-mono hidden md:block"></span>
+          </div>
+        </div>
+
+        <!-- Column headers -->
+        <div class="grid grid-cols-12 gap-2 px-4 py-2 text-[10px] font-bold text-gray-500 uppercase tracking-wider border-b border-border/50 bg-surface-2/20">
+          <div class="col-span-5">CVE ID</div>
+          <div class="col-span-2 text-center">Type</div>
+          <div class="col-span-3 text-right">Activity</div>
+          <div class="col-span-2 text-right hidden md:block">Stars</div>
+        </div>
+
+        <!-- CVE Rows -->
+        <div id="cve-list" class="overflow-y-auto flex-1 divide-y divide-border/25">
+          <div class="flex items-center justify-center py-16 text-dim text-sm">
+            <span class="material-symbols-outlined spin text-primary mr-2">autorenew</span>
+            Loading threat intelligence...
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- RIGHT: NVD DETAIL PANEL -->
+  <aside id="nvd-panel"
+    class="w-72 bg-surface border-l border-border shrink-0 hidden xl:flex flex-col p-4 gap-4 overflow-y-auto">
+    <div class="flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider text-dim">
+      <span class="material-symbols-outlined text-sm text-primary">shield</span>
+      NVD Intel
+    </div>
+    <div id="nvd-body">
+      <div class="text-center py-10 text-dim flex flex-col items-center gap-2">
+        <span class="material-symbols-outlined text-3xl text-border">lock</span>
+        <p class="text-xs">Click any CVE to load<br/>intelligence data</p>
+      </div>
+    </div>
+  </aside>
+
+</div><!-- end layout -->
+
+<script>
+// ============================================================
+// STATE
+// ============================================================
+let currentData   = null;   // { year, cves: [{cve_id, repositories:[...]}] }
+let nvdLayer      = null;   // { "CVE-XXXX-NNNN": { s, v, d } }
+let currentYear   = new Date().getFullYear();
+let trendChart    = null;
+let sevChart      = null;
+let searchTimer   = null;
+let maxStars      = 1;
+
+// ============================================================
+// BOOT
+// ============================================================
+document.addEventListener('DOMContentLoaded', async () => {
+  buildYearGrid();
+
+  // Silently pre-load the NVD proprietary intel dict
+  try {
+    const r = await fetch('data/nvd_intel.json');
+    if (r.ok) nvdLayer = await r.json();
+  } catch(_) {}
+
+  await loadYear(currentYear);
+
+  // Wire search inputs
+  ['search-input','search-mobile'].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.addEventListener('input', e => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => renderList(e.target.value.trim()), 220);
+    });
+  });
+});
+
+// ============================================================
+// YEAR GRID
+// ============================================================
+function buildYearGrid() {
+  const grid = document.getElementById('year-grid');
+  const now = new Date().getFullYear();
+  const years = [];
+  for (let y = now; y >= 2015; y--) years.push(y);
+  grid.innerHTML = years.map(y => `
+    <button data-y="${y}" onclick="selectYear(${y})"
+      class="year-btn px-1.5 py-1 rounded text-[11px] font-mono border transition-all
+      ${y === currentYear
+        ? 'bg-primary/10 border-primary text-primary'
+        : 'bg-surface-2 border-transparent text-gray-400 hover:border-gray-600'}">
+      ${y}
+    </button>`).join('');
+}
+
+function selectYear(y) {
+  currentYear = y;
+  document.querySelectorAll('.year-btn').forEach(b => {
+    const active = +b.dataset.y === y;
+    b.className = `year-btn px-1.5 py-1 rounded text-[11px] font-mono border transition-all
+      ${active ? 'bg-primary/10 border-primary text-primary' : 'bg-surface-2 border-transparent text-gray-400 hover:border-gray-600'}`;
+  });
+  loadYear(y);
+}
+
+// ============================================================
+// LOAD YEAR DATA
+// ============================================================
+async function loadYear(year) {
+  setLoading(`Fetching ${year} threat data...`);
+  try {
+    const r = await fetch(`data/${year}.json`);
+    if (!r.ok) throw new Error('not found');
+    currentData = await r.json();
+  } catch (_) {
+    currentData = null;
+    setEmpty(`No exploit data found for ${year}. The scraper may not have run yet for this year.`);
+    updateStats(null, year);
+    return;
+  }
+  updateStats(currentData, year);
+  renderList('');
+  buildTrendChart(currentData, year);
+  buildSevChart(currentData);
+  document.getElementById('api-link').href = `data/${year}.json`;
+}
+
+function setLoading(msg) {
+  document.getElementById('cve-list').innerHTML = `
+    <div class="flex items-center justify-center py-16 text-dim text-sm">
+      <span class="material-symbols-outlined spin text-primary mr-2">autorenew</span>${msg}
+    </div>`;
+}
+
+function setEmpty(msg) {
+  document.getElementById('cve-list').innerHTML = `
+    <div class="flex flex-col items-center justify-center py-14 text-dim text-sm gap-2">
+      <span class="material-symbols-outlined text-2xl">cloud_off</span>
+      <p class="text-center max-w-xs">${msg}</p>
+    </div>`;
+}
+
+// ============================================================
+// STATS
+// ============================================================
+function updateStats(data, year) {
+  document.getElementById('table-title').innerHTML =
+    `<span class="w-1.5 h-5 bg-primary rounded-sm inline-block mr-2"></span>
+     Compiled Exploits &amp; Proofs-of-Concept (${year})`;
+  document.getElementById('trend-label').textContent = `Exploit Trends (${year})`;
+
+  if (!data?.cves?.length) {
+    document.getElementById('stat-cves').textContent = '0';
+    document.getElementById('stat-repos').textContent = '0';
+    document.getElementById('stat-top').textContent = '—';
+    document.getElementById('status-msg').textContent = `No data for ${year}.`;
+    return;
+  }
+
+  const cves = data.cves;
+  const totalRepos = cves.reduce((s, c) => s + (c.repositories?.length || 0), 0);
+  const top = [...cves].sort((a,b) =>
+    (b.repositories?.length||0) - (a.repositories?.length||0)
+  )[0];
+  const topStars = [...cves].sort((a,b) => {
+    const sa = (a.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0);
+    const sb = (b.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0);
+    return sb - sa;
+  })[0];
+
+  document.getElementById('stat-cves').textContent = cves.length.toLocaleString();
+  document.getElementById('stat-repos').textContent = totalRepos.toLocaleString();
+  document.getElementById('stat-top').textContent = top?.cve_id || '—';
+  document.getElementById('stat-cves-sub').textContent = `CVEs tracked`;
+  document.getElementById('stat-repos-sub').textContent = `exploit repos`;
+  document.getElementById('status-msg').textContent =
+    `${totalRepos} exploit repos indexed for ${year}. Scanner operational.`;
+  document.getElementById('grade').textContent = totalRepos > 50 ? 'A+' : 'B+';
+}
+
+// ============================================================
+// CVE LIST RENDER
+// ============================================================
+function getType(cveId, repos) {
+  const text = [cveId, ...(repos||[]).map(r=>(r.description||'')+(r.full_name||''))].join(' ').toLowerCase();
+  if (/\brce\b|remote.?code.?exec|code.?execution/.test(text))
+    return ['RCE','bg-red-900/30 text-red-400 border-red-800/50'];
+  if (/zero.?day|0day/.test(text))
+    return ['Zero-Day','bg-cyan-900/30 text-cyan-400 border-cyan-800/50'];
+  if (/\blpe\b|privilege.?escal|local.?privesc/.test(text))
+    return ['LPE','bg-yellow-900/30 text-yellow-400 border-yellow-800/50'];
+  if (/inject|sqli|\bxss\b|\bssti\b/.test(text))
+    return ['Inject','bg-purple-900/30 text-purple-400 border-purple-800/50'];
+  if (/\bdos\b|denial.of.service|flood|crash/.test(text))
+    return ['DoS','bg-orange-900/30 text-orange-400 border-orange-800/50'];
+  if (/bypass|auth.bypass/.test(text))
+    return ['Bypass','bg-indigo-900/30 text-indigo-400 border-indigo-800/50'];
+  if (/\bpoc\b|proof.of.concept|writeup/.test(text))
+    return ['PoC','bg-teal-900/30 text-teal-400 border-teal-800/50'];
+  return ['Exploit','bg-blue-900/30 text-blue-400 border-blue-800/50'];
+}
+
+function getSevDot(cveId) {
+  const s = nvdLayer?.[cveId]?.s || 0;
+  if (s >= 9.0) return 'bg-danger shadow-[0_0_6px_rgba(248,81,73,0.7)]';
+  if (s >= 7.0) return 'bg-orange-500';
+  if (s >= 4.0) return 'bg-warning';
+  if (s > 0)    return 'bg-success';
+  return 'bg-gray-600';
+}
+
+function isNew(repos) {
+  const cutoff = Date.now() - 7 * 864e5;
+  return (repos||[]).some(r => r.pushed_at && new Date(r.pushed_at).getTime() > cutoff);
+}
+
+function renderList(q = '') {
+  if (!currentData?.cves) return;
+  const query = q.toLowerCase();
+
+  let list = currentData.cves;
+  if (query) {
+    list = list.filter(c =>
+      c.cve_id.toLowerCase().includes(query) ||
+      (c.repositories||[]).some(r =>
+        (r.full_name||'').toLowerCase().includes(query) ||
+        (r.description||'').toLowerCase().includes(query)
+      )
+    );
+  }
+
+  // Sort: total stars desc
+  const sorted = [...list].sort((a,b) => {
+    const sa = (a.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0);
+    const sb = (b.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0);
+    return sb - sa;
+  });
+
+  maxStars = sorted.length
+    ? Math.max(1,(sorted[0].repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0))
+    : 1;
+
+  document.getElementById('result-count').textContent =
+    `${sorted.length.toLocaleString()} result${sorted.length!==1?'s':''}`;
+
+  if (!sorted.length) {
+    setEmpty('No CVEs match your search.');
+    return;
+  }
+
+  document.getElementById('cve-list').innerHTML = sorted.map(cve => {
+    const repos   = cve.repositories || [];
+    const stars   = repos.reduce((s,r)=>s+(r.stargazers_count||0),0);
+    const count   = repos.length;
+    const pct     = Math.min(100, Math.round(stars/maxStars*100));
+    const [label, cls] = getType(cve.cve_id, repos);
+    const dot     = getSevDot(cve.cve_id);
+    const newTag  = isNew(repos);
+    const hot     = stars >= maxStars * 0.45 && stars > 5;
+    const active  = count >= 3;
+
+    const rowBase = hot
+      ? 'bg-primary/5 border-l-2 border-l-primary'
+      : active ? 'bg-red-900/5 border-l-2 border-l-danger' : '';
+
+    return `<div onclick="showNVD('${cve.cve_id}')"
+      class="cve-row grid grid-cols-12 gap-2 px-4 py-2.5 items-center border border-transparent hover:border-border ${rowBase}">
+
+      <div class="col-span-5 flex items-center gap-2 min-w-0">
+        <div class="w-1.5 h-1.5 rounded-full shrink-0 ${dot}${active?' pulse':''}"></div>
+        <span class="font-mono font-medium text-xs text-white truncate">${cve.cve_id}</span>
+        ${newTag ? '<span class="shrink-0 px-1 py-0.5 rounded text-[9px] font-bold bg-gray-700 text-gray-300">New</span>' : ''}
+        ${hot ? '<span class="material-symbols-outlined text-[11px] text-primary shrink-0">local_fire_department</span>' : ''}
+      </div>
+
+      <div class="col-span-2 text-center">
+        <span class="px-1.5 py-0.5 rounded text-[10px] font-medium border ${cls}">${label}</span>
+      </div>
+
+      <div class="col-span-3 text-right">
+        <span class="text-[11px] text-dim">${count} exploit${count!==1?'s':''} · ★ ${stars.toLocaleString()}</span>
+      </div>
+
+      <div class="col-span-2 hidden md:flex items-center">
+        <div class="w-full bg-gray-800 rounded-full h-1">
+          <div class="h-1 rounded-full ${stars > maxStars*0.7 ? 'bg-danger' : stars > maxStars*0.4 ? 'bg-warning' : 'bg-primary'}" style="width:${pct}%"></div>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ============================================================
+// NVD DETAIL PANEL
+// ============================================================
+function showNVD(cveId) {
+  const intel = nvdLayer?.[cveId];
+  const score = intel?.s || 0;
+  const sev   = intel?.v || '';
+  const desc  = intel?.d || null;
+
+  let badgeCls = 'bg-gray-700 text-gray-300';
+  if (score >= 9.0)      badgeCls = 'bg-danger text-white';
+  else if (score >= 7.0) badgeCls = 'bg-orange-500 text-white';
+  else if (score >= 4.0) badgeCls = 'bg-warning text-white';
+  else if (score > 0)    badgeCls = 'bg-success text-white';
+
+  const cveObj = currentData?.cves?.find(c => c.cve_id === cveId);
+  const repos  = (cveObj?.repositories || []).slice(0, 8);
+
+  document.getElementById('nvd-body').innerHTML = `
+    <div class="space-y-3">
+
+      <div class="p-3 rounded-lg bg-surface-2 border border-border">
+        <div class="font-mono text-xs font-bold text-primary mb-1.5">${cveId}</div>
+        <span class="px-2 py-0.5 rounded text-[10px] font-bold ${badgeCls}">
+          ${score > 0 ? `CVSS ${score} · ${sev}` : 'UNSCORED'}
+        </span>
+      </div>
+
+      <div>
+        <div class="text-[10px] font-semibold uppercase tracking-wider text-dim mb-1">Description</div>
+        <p class="text-xs text-gray-300 leading-relaxed">
+          ${desc ||
+            '<span class="text-dim italic">Not yet in the local NVD snapshot. Will update on next scraper run.</span>'}
+        </p>
+      </div>
+
+      <div>
+        <div class="text-[10px] font-semibold uppercase tracking-wider text-dim mb-1.5">
+          Exploit Repos (${repos.length}${cveObj?.repositories?.length > 8 ? '+' : ''})
+        </div>
+        <div class="space-y-1.5 max-h-60 overflow-y-auto">
+          ${repos.map(r => `
+            <a href="${r.html_url}" target="_blank"
+              class="flex items-start justify-between gap-2 p-2 rounded bg-surface-2 border border-border hover:border-primary transition-colors group">
+              <div class="min-w-0">
+                <div class="font-mono text-[10px] text-white truncate group-hover:text-primary transition-colors">
+                  ${r.full_name}
+                </div>
+                <div class="text-[9px] text-dim truncate mt-0.5">${r.description || 'No description'}</div>
+              </div>
+              <div class="text-[9px] text-dim shrink-0">★ ${(r.stargazers_count||0).toLocaleString()}</div>
+            </a>`).join('')}
+        </div>
+      </div>
+
+      <a href="https://nvd.nist.gov/vuln/detail/${cveId}" target="_blank"
+        class="flex items-center justify-center gap-1.5 w-full py-2 text-[10px] font-bold text-primary
+               hover:text-white border border-primary hover:bg-primary rounded transition-all uppercase tracking-wide">
+        <span class="material-symbols-outlined text-sm">open_in_new</span>
+        View on NIST NVD
+      </a>
+    </div>`;
+}
+
+// ============================================================
+// TREND CHART (from real pushed_at timestamps)
+// ============================================================
+function buildTrendChart(data, year) {
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const counts = new Array(12).fill(0);
+
+  (data?.cves || []).forEach(cve => {
+    (cve.repositories || []).forEach(r => {
+      if (r.pushed_at) {
+        const d = new Date(r.pushed_at);
+        if (d.getFullYear() === year) counts[d.getMonth()]++;
+      }
+    });
+  });
+
+  const now = new Date();
+  const lastIdx = (year < now.getFullYear()) ? 11 : now.getMonth();
+  const labels = months.slice(0, lastIdx + 1);
+  const values = counts.slice(0, lastIdx + 1);
+
+  if (trendChart) trendChart.destroy();
+  const ctx = document.getElementById('trendChart').getContext('2d');
+  const grad = ctx.createLinearGradient(0, 0, 0, 200);
+  grad.addColorStop(0, 'rgba(6,182,212,0.45)');
+  grad.addColorStop(1, 'rgba(6,182,212,0.0)');
+
+  trendChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{
+        label: 'Exploit Repos',
+        data: values,
+        borderColor: '#06b6d4',
+        backgroundColor: grad,
+        borderWidth: 2,
+        tension: 0.4,
+        fill: true,
+        pointBackgroundColor: '#0f1115',
+        pointBorderColor: '#06b6d4',
+        pointBorderWidth: 2,
+        pointRadius: 3,
+        pointHoverRadius: 5,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: 'rgba(22,27,34,0.95)',
+          titleColor: '#fff', bodyColor: '#06b6d4',
+          borderColor: '#30363d', borderWidth: 1,
+          displayColors: false,
+          callbacks: { label: c => `${c.raw} new repos indexed` }
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          grid: { color: 'rgba(48,54,61,0.4)' },
+          ticks: { color:'#8b949e', font:{ family:'JetBrains Mono', size:9 }, stepSize:1 }
+        },
+        x: {
+          grid: { display:false },
+          ticks: { color:'#8b949e', font:{ family:'JetBrains Mono', size:9 } }
         }
       }
+    }
+  });
+}
 
-      // Fetch JSON Data from Github Pages / Local
-      async function loadYearData(year) {
-        const listContainer = document.getElementById("cve-list");
-        const spinner = document.getElementById("loading-spinner");
-        const title = document.getElementById("current-view-title");
+// ============================================================
+// SEVERITY DONUT (from NVD intel + current year CVEs)
+// ============================================================
+function buildSevChart(data) {
+  let critical=0, high=0, medium=0, unscored=0;
 
-        listContainer.style.display = "none";
-        spinner.style.display = "flex";
-        title.innerText = `Fetching Intelligence [${year}]...`;
+  (data?.cves || []).forEach(c => {
+    const s = nvdLayer?.[c.cve_id]?.s || 0;
+    if      (s >= 9.0) critical++;
+    else if (s >= 7.0) high++;
+    else if (s >= 0.1) medium++;
+    else               unscored++;
+  });
 
-        try {
-          // Fetch the generated dataset (Fallback to raw GH if local dev fails)
-          const res = await fetch(`data/${year}.json`);
-          if (!res.ok) throw new Error("Dataset not found");
+  const total = (data?.cves||[]).length;
+  document.getElementById('sev-total').textContent = total || '—';
 
-          currentData = await res.json();
-
-          // Update stats
-          updateStats(currentData);
-
-          // Render List
-          title.innerText = `Compiled Exploits & Proofs-of-Concept (${year})`;
-          renderCVEList();
-
-          spinner.style.display = "none";
-          listContainer.style.display = "block";
-        } catch (err) {
-          console.error(err);
-          spinner.style.display = "none";
-          title.innerText = `No exploits indexed for ${year} yet.`;
+  if (sevChart) sevChart.destroy();
+  const ctx = document.getElementById('severityChart').getContext('2d');
+  sevChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: ['Critical','High','Med/Low','Unscored'],
+      datasets: [{
+        data: [critical, high, medium, unscored],
+        backgroundColor: ['#f85149','#f97316','#d29922','#30363d'],
+        borderWidth: 0,
+        hoverOffset: 4,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: '72%',
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: 'rgba(22,27,34,0.95)',
+          titleColor:'#fff', bodyColor:'#ccc',
+          borderColor:'#30363d', borderWidth:1
         }
       }
+    }
+  });
+}
+</script>
 
-      // Update Dashboard Stats Counters
-      function updateStats(data) {
-        if (!data || !data.cves) {
-          document.getElementById("stat-cve-count").innerText = "0";
-          document.getElementById("stat-repo-count").innerText = "0";
-          return;
-        }
-
-        document.getElementById("stat-cve-count").innerText = data.cves.length;
-
-        let totalRepos = 0;
-        let topCVE = null;
-        let maxRepos = 0;
-
-        data.cves.forEach((cve) => {
-          totalRepos += cve.repositories.length;
-          if (cve.repositories.length > maxRepos) {
-            maxRepos = cve.repositories.length;
-            topCVE = cve.cve_id;
-          }
-        });
-
-        document.getElementById("stat-repo-count").innerText = totalRepos;
-        document.getElementById("stat-top-cve").innerText = topCVE || "-";
-      }
-
-        // Fetch Official NVD Metadata instantly from the local hashmap
-        async function fetchNVDMetadata(cveId) {
-            const panel = document.getElementById('nvd-panel');
-            const content = document.getElementById('nvd-content');
-            const loader = document.getElementById('nvd-loading');
-            
-            panel.classList.add('visible');
-            content.style.display = 'none';
-            loader.style.display = 'flex';
-            
-            setTimeout(() => {
-                if (proprietaryNVDLayer && proprietaryNVDLayer[cveId]) {
-                    const intel = proprietaryNVDLayer[cveId];
-                    
-                    document.getElementById('nvd-title').innerText = cveId;
-                    document.getElementById('nvd-desc').innerText = intel.d || "No official description available.";
-                    
-                    const badge = document.getElementById('nvd-cvss');
-                    if (intel.s > 0) {
-                        badge.innerText = `${intel.s} ${intel.v || ''}`;
-                        badge.className = 'cvss-badge';
-                        if (intel.s >= 9.0) badge.classList.add('cvss-critical');
-                        else if (intel.s >= 7.0) badge.classList.add('cvss-high');
-                        else badge.classList.add('cvss-medium');
-                    } else {
-                        badge.innerText = "N/A";
-                        badge.className = 'cvss-badge cvss-medium';
-                    }
-                } else {
-                    document.getElementById('nvd-title').innerText = cveId;
-                    document.getElementById('nvd-desc').innerText = "Vulnerability exists in GitHub exploits, but is not currently indexed in the active NVD threat database.";
-                    document.getElementById('nvd-cvss').innerText = "UNK";
-                    document.getElementById('nvd-cvss').className = 'cvss-badge cvss-medium';
-                }
-                
-                loader.style.display = 'none';
-                content.style.display = 'block';
-            }, 50); // Add a 50ms pulse to make the UI feel reactive
-        }
-
-      // Render the Array into HTML
-      function renderCVEList(searchTerm = "") {
-        const list = document.getElementById("cve-list");
-        list.innerHTML = "";
-
-        if (!currentData || !currentData.cves) {
-          list.innerHTML =
-            '<li class="cve-main" style="color:var(--danger)">No data constructed for this timeframe.</li>';
-          return;
-        }
-
-        const query = searchTerm.toLowerCase();
-
-        // Filter
-        const filtered = currentData.cves.filter((cve) => {
-          if (!query) return true;
-          if (cve.cve_id.toLowerCase().includes(query)) return true;
-
-          // Search inside repos
-          return cve.repositories.some(
-            (r) =>
-              r.name.toLowerCase().includes(query) ||
-              (r.description && r.description.toLowerCase().includes(query)),
-          );
-        });
-
-        // Render
-        filtered.forEach((cve) => {
-          const li = document.createElement("li");
-          li.className = "cve-item";
-
-          // Count total stars for quick sorting visibility
-          const totalStars = cve.repositories.reduce(
-            (sum, repo) => sum + repo.stargazers_count,
-            0,
-          );
-
-          // Main Heading Bar
-          const mainDiv = document.createElement("div");
-          mainDiv.className = "cve-main";
-          mainDiv.innerHTML = `
-                    <div class="cve-id">
-                        ${cve.cve_id} 
-                        <span>${cve.repositories.length} Exploits</span>
-                    </div>
-                    <div class="repo-meta">
-                        ⭐ ${totalStars} Total Github Stars
-                    </div>
-                `;
-
-          // Sub-list of repositories
-          const repoListDiv = document.createElement("div");
-          repoListDiv.className = "repo-list";
-
-          cve.repositories.forEach((repo) => {
-            repoListDiv.innerHTML += `
-                        <div class="repo-card">
-                            <div class="repo-info">
-                                <h4>${repo.full_name}</h4>
-                                <p title="${repo.description || "No description provided"}">${repo.description || "No description provided"}</p>
-                            </div>
-                            <div class="repo-stats">
-                                <span class="star-count">⭐ ${repo.stargazers_count}</span>
-                                <a href="${repo.clone_url.replace(".git", "")}" target="_blank" class="clone-btn">View GitHub</a>
-                            </div>
-                        </div>
-                    `;
-          });
-
-          li.appendChild(mainDiv);
-          li.appendChild(repoListDiv);
-
-          // Toggle click to open list and fetch NVD data
-          mainDiv.onclick = () => {
-            const isExpanded = li.classList.contains("expanded");
-            // Close others
-            document
-              .querySelectorAll(".cve-item")
-              .forEach((el) => el.classList.remove("expanded"));
-
-            if (!isExpanded) {
-              li.classList.add("expanded");
-              // Execute external API pull seamlessly on click
-              fetchNVDMetadata(cve.cve_id);
-            }
-          };
-
-          list.appendChild(li);
-        });
-
-        if (filtered.length === 0) {
-          list.innerHTML =
-            '<li class="cve-main" style="color:var(--warning)">No exploits found matching your search.</li>';
-        }
-      }
-    </script>
-  </body>
+</body>
 </html>
