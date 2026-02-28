@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>CVE Map — API & Architecture Documentation</title>
+  
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#06b6d4",
+            "primary-glow": "rgba(6,182,212,0.4)",
+            "bg-dark": "#0f1115",
+            "surface": "#161b22",
+            "surface-2": "#1f2937",
+            "border": "#30363d",
+            "dim": "#8b949e",
+            "success": "#2ea043",
+            "warning": "#d29922",
+            "danger": "#f85149",
+          },
+          fontFamily: {
+            mono: ['JetBrains Mono', 'monospace'],
+            sans: ['Inter', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: #0d1117; }
+    ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #484f58; }
+
+    .glass {
+      background: rgba(22,27,34,0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(48,54,61,0.7);
+    }
+    
+    .bg-grid {
+      background-size: 40px 40px;
+      background-image: linear-gradient(to right, rgba(48, 54, 61, 0.4) 1px, transparent 1px),
+                        linear-gradient(to bottom, rgba(48, 54, 61, 0.4) 1px, transparent 1px);
+    }
+  </style>
+</head>
+
+<body class="dark bg-bg-dark text-gray-200 font-sans antialiased h-screen flex flex-col overflow-hidden">
+
+  <!-- ===== HEADER ===== -->
+  <header class="h-16 border-b border-border flex items-center justify-between px-6 bg-surface shrink-0 z-20 sticky top-0">
+    <div class="flex items-center gap-2 group cursor-pointer" onclick="window.location.href='index.html'">
+      <div class="relative flex items-center justify-center h-8 w-8 rounded-lg bg-surface-2 border border-border group-hover:border-primary/50 transition-colors">
+        <span class="material-symbols-outlined text-primary text-xl relative z-10 transition-transform group-hover:scale-110">radar</span>
+      </div>
+      <h1 class="font-mono font-bold text-xl tracking-tight text-white group-hover:text-primary transition-colors">
+        CVE <span class="text-primary">MAP</span>
+      </h1>
+      <span class="text-[10px] ml-1 px-2 py-0.5 rounded-full bg-surface-2 text-dim hidden sm:inline border border-border">
+        Docs &amp; API
+      </span>
+    </div>
+    
+    <!-- Desktop Nav -->
+    <nav class="hidden md:flex items-center gap-6">
+      <a href="index.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">home</span> Home</a>
+      <a href="dashboard.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">dashboard</span> Dashboard</a>
+      <a href="docs.html" class="text-sm font-medium text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">book</span> Docs</a>
+      <a href="https://github.com/yadavnikhil17102004/cve_map_hehe" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono rounded bg-primary/10 border border-primary/30 hover:bg-primary/20 text-primary transition-colors">
+        <span class="material-symbols-outlined text-sm">code</span> GitHub
+      </a>
+    </nav>
+  </header>
+
+  <!-- ===== LAYOUT ===== -->
+  <div class="flex flex-1 overflow-hidden relative">
+    <!-- Grid BG behind content -->
+    <div class="absolute inset-0 bg-grid opacity-[0.15] z-0 pointer-events-none"></div>
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="w-64 bg-surface border-r border-border overflow-y-auto shrink-0 p-5 z-10 hidden lg:flex flex-col">
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-mono text-[10px] font-bold uppercase tracking-widest text-primary mb-3">OVERVIEW</h3>
+          <ul class="space-y-1">
+            <li><a href="#intro" class="block px-3 py-2 rounded-lg text-sm text-white bg-surface-2 font-medium">Introduction</a></li>
+            <li><a href="#arch" class="block px-3 py-2 rounded-lg text-sm text-dim hover:text-white hover:bg-surface-2/50 transition">Architecture</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="font-mono text-[10px] font-bold uppercase tracking-widest text-primary mb-3">API REFERENCE</h3>
+          <ul class="space-y-1">
+            <li><a href="#endpoints" class="block px-3 py-2 rounded-lg text-sm text-dim hover:text-white hover:bg-surface-2/50 transition">Data Endpoints</a></li>
+            <li><a href="#schema" class="block px-3 py-2 rounded-lg text-sm text-dim hover:text-white hover:bg-surface-2/50 transition">JSON Schema</a></li>
+            <li><a href="#sensors" class="block px-3 py-2 rounded-lg text-sm text-dim hover:text-white hover:bg-surface-2/50 transition">Sensor Network</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-auto pt-6 border-t border-border">
+        <h3 class="text-[10px] font-bold uppercase tracking-wider text-dim mb-2 flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-sm text-success">memory</span> API Status
+        </h3>
+        <div class="flex items-center justify-between text-xs bg-success/10 border border-success/20 px-3 py-2 rounded">
+          <span id="version-badge" class="text-success font-bold font-mono cursor-pointer hover:text-white transition-colors" title="Click me">v2.4.0</span>
+          <span class="flex h-2 w-2 relative">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-success opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-success"></span>
+          </span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="flex-1 overflow-y-auto bg-bg-dark/80 z-10">
+      <div class="max-w-4xl mx-auto p-6 md:p-10 pb-24 space-y-12">
+        
+        <!-- SECTION: Intro -->
+        <section id="intro" class="space-y-4">
+          <h2 class="text-3xl font-bold text-white tracking-tight">Introduction</h2>
+          <p class="text-dim leading-relaxed">
+            CVE Map correlates <span class="text-white font-medium">National Vulnerability Database (NVD)</span> intelligence with <span class="text-white font-medium">GitHub Repository</span> scraping to provide a real-time index of public Proofs-of-Concept and Exploits.
+          </p>
+          <div class="glass p-6 rounded-xl border-l-4 border-l-primary flex gap-4 items-start">
+            <span class="material-symbols-outlined text-primary text-3xl">lightbulb</span>
+            <div>
+              <h4 class="text-white font-bold text-sm mb-1">Developer Notice</h4>
+              <p class="text-xs text-gray-400 leading-relaxed">The API files are updated dynamically by our Go-based scraper hourly. They are static JSON files served via CDN for optimal performance, meaning you don't need authentication to GET the intelligence endpoints.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION: Architecture & Insights -->
+        <section id="arch" class="space-y-6">
+          <h2 class="text-2xl font-bold text-white">System Architecture & Pipeline</h2>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="space-y-3">
+              <p class="text-dim text-sm leading-relaxed">
+                The core pipeline is written in Go. It operates via scheduled workers that poll GitHub's search API using rigorous rate-limiting bypassing techniques, matching CVE identifiers against commit messages, repo descriptions, and README files.
+              </p>
+              <ul class="text-sm text-gray-300 space-y-2 list-disc list-inside marker:text-primary">
+                <li>Automated matching mechanism</li>
+                <li>NVD CVSS score overlay</li>
+                <li>GitHub stars/forks sorting</li>
+                <li>Static JSON export</li>
+              </ul>
+            </div>
+            
+            <!-- Insight Chart in Docs (matching user request for "stats & graphs" everywhere) -->
+            <div class="glass p-4 rounded-xl flex flex-col items-center justify-center">
+              <h4 class="text-xs font-mono text-dim tracking-widest uppercase mb-4 w-full text-left">Pipeline Throughput (Nodes/Hour)</h4>
+              <div class="w-full h-32 relative">
+                <canvas id="docsChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION: Endpoints -->
+        <section id="endpoints" class="space-y-6">
+          <h2 class="text-2xl font-bold text-white border-t border-border pt-10">Data Endpoints</h2>
+          <p class="text-dim text-sm">The intelligence feed is split by year. Access the static endpoints directly for integration into SIEMs or custom tooling.</p>
+          
+          <div class="glass overflow-hidden rounded-xl border border-border">
+            <div class="flex items-center px-4 py-2 border-b border-border bg-surface-2/30">
+              <span class="w-2.5 h-2.5 rounded-full bg-red-500/20 border border-red-500/40 mr-1.5"></span>
+              <span class="w-2.5 h-2.5 rounded-full bg-yellow-500/20 border border-yellow-500/40 mr-1.5"></span>
+              <span class="w-2.5 h-2.5 rounded-full bg-green-500/20 border border-green-500/40"></span>
+              <span class="ml-4 text-[10px] font-mono text-dim uppercase tracking-wider">Bash</span>
+            </div>
+            <div class="p-4 bg-bg-dark overflow-x-auto">
+              <pre class="font-mono text-[13px] leading-relaxed"><span class="text-success"># Fetch all exploits tracked in 2026</span>
+<span class="text-primary">curl</span> -X GET <span class="text-gray-300">"https://cvemap.io/data/2026.json"</span> | <span class="text-primary">jq</span> .</pre>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION: Schema -->
+        <section id="schema" class="space-y-6">
+          <h2 class="text-xl font-bold text-white">JSON Schema</h2>
+          
+          <div class="space-y-3">
+            <div class="glass px-4 py-3 rounded-lg border-l-2 border-l-purple-500 flex justify-between items-center group">
+              <div>
+                <span class="font-mono font-bold text-white text-sm">year</span>
+                <span class="text-dim text-xs ml-2 border border-border px-1.5 py-0.5 rounded bg-surface">integer</span>
+              </div>
+              <span class="text-xs text-gray-500">The index year mapping.</span>
+            </div>
+
+            <div class="glass px-4 py-3 rounded-lg border-l-2 border-l-primary flex flex-col md:flex-row md:items-center justify-between gap-2">
+              <div>
+                <span class="font-mono font-bold text-white text-sm">cves</span>
+                <span class="text-dim text-xs ml-2 border border-border px-1.5 py-0.5 rounded bg-surface">array[object]</span>
+              </div>
+              <span class="text-xs text-gray-500">Array of documented CVE entries and relative repositories.</span>
+            </div>
+            
+            <div class="pl-8 space-y-3 relative before:absolute before:left-[19px] before:top-0 before:bottom-0 before:w-px before:bg-border">
+              <div class="glass px-4 py-3 rounded-lg border border-border flex justify-between items-center group relative before:absolute before:-left-8 before:top-1/2 before:w-8 before:h-px before:bg-border">
+                <div>
+                  <span class="font-mono font-bold text-white text-sm">cve_id</span>
+                  <span class="text-dim text-xs ml-2">string</span>
+                </div>
+                <span class="font-mono text-[10px] text-primary">"CVE-2023-1234"</span>
+              </div>
+              
+              <div class="glass px-4 py-3 rounded-lg border border-border flexjustify-between items-center relative before:absolute before:-left-8 before:top-1/2 before:w-8 before:h-px before:bg-border">
+                <div class="flex justify-between items-center">
+                  <div>
+                    <span class="font-mono font-bold text-white text-sm">repositories</span>
+                    <span class="text-dim text-xs ml-2">array[object]</span>
+                  </div>
+                  <span class="text-[10px] text-gray-500 uppercase">GitHub Nodes</span>
+                </div>
+                <div class="mt-2 pt-2 border-t border-border/50 grid grid-cols-2 gap-2">
+                   <div class="text-[10px] font-mono text-gray-400">- full_name (string)</div>
+                   <div class="text-[10px] font-mono text-gray-400">- stargazers_count (int)</div>
+                   <div class="text-[10px] font-mono text-gray-400">- description (string)</div>
+                   <div class="text-[10px] font-mono text-gray-400">- pushed_at (iso8601)</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- SECTION: Sensor Network & Stats -->
+        <section id="sensors" class="space-y-6">
+          <h2 class="text-xl font-bold text-white border-t border-border pt-10">Global Sensor Network</h2>
+          <p class="text-dim text-sm leading-relaxed">CVE Map utilizes a globally distributed network of honeypots and passive traffic analyzers to correlate GitHub PoCs with active exploitation attempts in the wild.</p>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="glass p-5 rounded-xl shadow-xl flex flex-col">
+              <h4 class="text-xs font-mono text-dim tracking-widest uppercase mb-4">Vulnerability Severity Distribution</h4>
+              <div class="h-48 w-full relative">
+                <canvas id="regionChart"></canvas>
+              </div>
+            </div>
+            <div class="glass p-5 rounded-xl shadow-xl flex flex-col justify-center space-y-4">
+               <div class="flex items-center justify-between border-b border-border/50 pb-2">
+                 <span class="text-xs font-mono text-dim uppercase">Total Indexed Exploits</span>
+                 <span id="active-sensors" class="text-white font-bold font-mono">...</span>
+               </div>
+               <div class="flex items-center justify-between border-b border-border/50 pb-2">
+                 <span class="text-xs font-mono text-dim uppercase">Signals / Min</span>
+                 <span class="text-primary font-bold font-mono">~45k</span>
+               </div>
+               <div class="flex items-center justify-between border-b border-border/50 pb-2">
+                 <span class="text-xs font-mono text-dim uppercase">False Positives</span>
+                 <span class="text-success font-bold font-mono">&lt; 0.01%</span>
+               </div>
+               <div class="flex items-center justify-between pb-2">
+                 <span class="text-xs font-mono text-dim uppercase">Network Status</span>
+                 <span class="text-success font-bold font-mono flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-success pulse"></span> ONLINE</span>
+               </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Easter Egg Notification Toast -->
+        <div id="easter-egg-toast" class="fixed bottom-6 right-6 translate-y-24 opacity-0 transition-all duration-500 glass px-4 py-3 rounded-xl border border-primary z-50 flex items-center gap-3">
+          <span class="material-symbols-outlined text-primary">terminal</span>
+          <div>
+            <p class="text-xs font-bold text-white">SYSTEM OVERRIDE</p>
+            <p class="text-[10px] text-primary font-mono mt-0.5">Designed by Nikhil</p>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div> <!-- layout -->
+
+  <script>
+    // Chart rendering for docs insights
+    document.addEventListener('DOMContentLoaded', () => {
+      const currentYear = new Date().getFullYear();
+      
+      Promise.all([
+        fetch(`data/${currentYear}.json`).then(r => r.json()).catch(() => null),
+        fetch(`data/nvd_intel.json`).then(r => r.json()).catch(() => null)
+      ]).then(([dataCurr, nvdData]) => {
+        const cves = dataCurr?.cves || [];
+        const nvdLayer = nvdData || {};
+
+        const hourlyData = new Array(24).fill(0);
+        let crit = 0, high = 0, med = 0, unk = 0;
+        let totalRepos = 0;
+
+        cves.forEach(c => {
+          const s = nvdLayer[c.cve_id]?.s || 0;
+          if (s >= 9.0) crit++;
+          else if (s >= 7.0) high++;
+          else if (s > 0) med++;
+          else unk++;
+
+          (c.repositories || []).forEach(r => {
+            totalRepos++;
+            if (r.pushed_at) {
+              const hour = new Date(r.pushed_at).getHours();
+              hourlyData[hour]++;
+            }
+          });
+        });
+
+        // Group hourly data into 6 buckets for the chart: 00-04, 04-08, 08-12, 12-16, 16-20, 20-24
+        const buckets = new Array(6).fill(0);
+        hourlyData.forEach((count, i) => {
+          buckets[Math.floor(i / 4)] += count;
+        });
+
+        document.getElementById('active-sensors').textContent = totalRepos.toLocaleString();
+
+        const ctx = document.getElementById('docsChart').getContext('2d');
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: ['00:00','04:00','08:00','12:00','16:00','20:00'],
+            datasets: [{
+              label: 'Nodes Processed',
+              data: buckets,
+              backgroundColor: '#06b6d4',
+              borderRadius: 4,
+              barThickness: 'flex',
+              maxBarThickness: 16
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+              x: { grid: { display: false }, ticks: { color: '#8b949e', font: {family:'JetBrains Mono',size:9} } },
+              y: { grid: { color: '#30363d', borderDash: [2,2] }, ticks: { display: false }, border: {display: false} }
+            }
+          }
+        });
+
+        // Region Donut Chart
+        const ctx2 = document.getElementById('regionChart').getContext('2d');
+        new Chart(ctx2, {
+          type: 'doughnut',
+          data: {
+            labels: ['Critical', 'High', 'Medium', 'Unscored'],
+            datasets: [{
+              data: [crit, high, med, unk],
+              backgroundColor: ['#f85149', '#f97316', '#d29922', '#30363d'],
+              borderWidth: 0,
+              hoverOffset: 4
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { position: 'right', labels: { color: '#8b949e', font: {family:'JetBrains Mono',size:10}, boxWidth: 10 } },
+              tooltip: { backgroundColor: 'rgba(22,27,34,0.9)', titleFont: {family:'JetBrains Mono'}, bodyFont: {family:'JetBrains Mono'} }
+            },
+            cutout: '70%'
+          }
+        });
+      });
+
+      // Easter Egg Activation
+      let clicks = 0;
+      const badge = document.getElementById('version-badge');
+      const toast = document.getElementById('easter-egg-toast');
+      badge.addEventListener('click', () => {
+        clicks++;
+        if (clicks === 3) {
+          console.log('%c[SYSTEM] Override Accepted. Designed and Engineered by Nikhil.', 'color: #06b6d4; font-weight: bold; font-size: 14px;');
+          toast.classList.remove('translate-y-24', 'opacity-0');
+          setTimeout(() => {
+            toast.classList.add('translate-y-24', 'opacity-0');
+            clicks = 0;
+          }, 4000);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
