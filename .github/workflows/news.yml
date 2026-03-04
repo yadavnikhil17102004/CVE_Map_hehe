@@ -1,0 +1,33 @@
+name: Hourly News Intelligence Scraper
+
+on:
+  schedule:
+    # Runs at the top of every hour to keep threat intelligence ultra-fresh
+    - cron: "0 * * * *"
+  # Allows manual triggers from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  scrape_news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Build and Execute News Scraper
+        run: |
+          go build news_scraper.go
+          echo "Firing Live News Scraper..."
+          ./news_scraper
+
+      - name: Commit & Push New Data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          # Only commit the news file to prevent race conditions with the CVE scraper
+          git add data/news.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "data: hourly live news feed intelligence update"
+          git push

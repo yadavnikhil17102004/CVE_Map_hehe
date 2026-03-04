@@ -48,7 +48,7 @@
     
     .ticker-content {
       display: inline-block;
-      animation: ticker 40s linear infinite;
+      animation: ticker 120s linear infinite;
     }
     
     @keyframes ticker {
@@ -181,21 +181,33 @@
             
             const borderClass = guessSeverityColor(article.title);
 
+            const bgImage = article.image_url 
+                ? `background-image: url('${article.image_url}');` 
+                : `background: linear-gradient(135deg, rgba(6,182,212,0.1), rgba(0,0,0,0.8));`;
+
             return `
-            <a href="${article.link}" target="_blank" class="glass rounded-xl p-5 flex flex-col gap-3 group transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5 ${borderClass}">
-                <div class="flex items-center justify-between">
-                    <span class="text-[10px] font-mono font-bold text-primary bg-primary/10 px-2 py-0.5 rounded border border-primary/20">${article.source}</span>
-                    <span class="text-xs text-dim font-mono">${age}</span>
+            <a href="${article.link}" target="_blank" class="glass rounded-xl flex flex-col overflow-hidden group transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/10 border ${borderClass}">
+                
+                <!-- 16:9 Image Banner -->
+                <div class="h-44 w-full relative bg-cover bg-center border-b border-border/50 shrink-0" style="${bgImage}">
+                    <div class="absolute inset-0 bg-gradient-to-t from-bg-dark/95 via-bg-dark/40 to-transparent"></div>
+                    
+                    <span class="absolute bottom-3 left-4 text-[10px] font-mono font-bold text-primary bg-primary/10 backdrop-blur-md px-2 py-0.5 rounded border border-primary/20 z-10">${article.source}</span>
+                    <span class="absolute bottom-3 right-4 text-[10px] text-gray-300 font-mono bg-black/60 backdrop-blur-md px-2 py-0.5 rounded border border-border/50 z-10">${age}</span>
                 </div>
-                <h3 class="text-sm font-bold text-white group-hover:text-primary transition-colors leading-snug">
-                    ${article.title}
-                </h3>
-                <p class="text-[11px] text-gray-400 line-clamp-3 leading-relaxed flex-1">
-                    ${article.description}
-                </p>
-                <div class="mt-2 pt-3 border-t border-border/50 flex items-center gap-1 text-xs text-dim group-hover:text-white transition-colors">
-                    <span class="material-symbols-outlined text-[14px]">arrow_outward</span>
-                    Read Full Alert
+                
+                <!-- Content Body -->
+                <div class="p-5 flex flex-col flex-1 gap-3">
+                    <h3 class="text-sm font-bold text-white group-hover:text-primary transition-colors leading-snug">
+                        ${article.title}
+                    </h3>
+                    <p class="text-[11px] text-gray-400 line-clamp-3 leading-relaxed flex-1">
+                        ${article.description}
+                    </p>
+                    <div class="mt-2 pt-3 border-t border-border/50 flex items-center gap-1 text-xs text-dim group-hover:text-white transition-colors mt-auto">
+                        <span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+                        Read Full Alert
+                    </div>
                 </div>
             </a>
             `;

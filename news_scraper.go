@@ -10,6 +10,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strings"
 	"sync"
@@ -23,6 +24,7 @@ type NewsItem struct {
 	Description string `json:"description"`
 	PubDate     string `json:"pub_date"`
 	Source      string `json:"source"`
+	ImageURL    string `json:"image_url"`
 }
 
 type NewsData struct {
@@ -42,10 +44,23 @@ type Channel struct {
 }
 
 type Item struct {
-	Title       string `xml:"title"`
-	Link        string `xml:"link"`
-	Description string `xml:"description"`
-	PubDate     string `xml:"pubDate"`
+	Title       string        `xml:"title"`
+	Link        string        `xml:"link"`
+	Description string        `xml:"description"`
+	Content     string        `xml:"encoded"`
+	PubDate     string        `xml:"pubDate"`
+	Enclosure   *Enclosure    `xml:"enclosure"`
+	Media       *MediaContent `xml:"content"`
+}
+
+type Enclosure struct {
+	URL  string `xml:"url,attr"`
+	Type string `xml:"type,attr"`
+}
+
+type MediaContent struct {
+	URL    string `xml:"url,attr"`
+	Medium string `xml:"medium,attr"`
 }
 
 const (
@@ -54,9 +69,15 @@ const (
 )
 
 var feeds = map[string]string{
-	"BleepingComputer": "https://www.bleepingcomputer.com/feed/",
-	"The Hacker News":  "https://feeds.feedburner.com/TheHackersNews",
+	"BleepingComputer":    "https://www.bleepingcomputer.com/feed/",
+	"The Hacker News":     "https://feeds.feedburner.com/TheHackersNews",
+	"CISA Advisories":     "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+	"Zero Day Initiative": "https://www.zerodayinitiative.com/rss/published/",
+	"GitHub Security":     "https://github.blog/security/feed/",
+	"Cyber Security News": "https://cybersecuritynews.com/feed/",
 }
+
+var imgRegex = regexp.MustCompile(`(?i)<img[^>]+src="([^">]+)"`)
 
 func main() {
 	start := time.Now()
@@ -102,7 +123,7 @@ func main() {
 
 	// Write to JSON file
 	outFile := filepath.Join("data", "news.json")
-	outJSON, err := json.Marshal(data)
+	outJSON, err := json.MarshalIndent(data, "", "  ") // Indent for readability
 	if err != nil {
 		log.Fatalf("[-] FATAL: Failed to serialize news items: %v", err)
 	}
@@ -155,8 +176,27 @@ func fetchAndParseRSS(sourceName, url string) ([]NewsItem, error) {
 		if i >= maxItemsPerSrc {
 			break
 		}
-		
-		// Clean up the description (often contains HTML from RSS feeds)
+
+		// Try to extract an image URL
+		imageURL := ""
+		if item.Media != nil && item.Media.URL != "" {
+			imageURL = item.Media.URL
+		} else if item.Enclosure != nil && item.Enclosure.URL != "" && strings.HasPrefix(item.Enclosure.Type, "image/") {
+			imageURL = item.Enclosure.URL
+		} else {
+			// Regex parse description or content for an image
+			matches := imgRegex.FindStringSubmatch(item.Content)
+			if len(matches) > 1 {
+				imageURL = matches[1]
+			} else {
+				matches = imgRegex.FindStringSubmatch(item.Description)
+				if len(matches) > 1 {
+					imageURL = matches[1]
+				}
+			}
+		}
+
+		// Clean up the description
 		cleanDesc := cleanHTML(item.Description)
 		if len(cleanDesc) > 200 {
 			cleanDesc = cleanDesc[:197] + "..." // Truncate cleanly for UI
@@ -168,6 +208,7 @@ func fetchAndParseRSS(sourceName, url string) ([]NewsItem, error) {
 			Description: strings.TrimSpace(cleanDesc),
 			PubDate:     item.PubDate,
 			Source:      sourceName,
+			ImageURL:    imageURL,
 		})
 	}
 
@@ -182,6 +223,7 @@ func parseTime(dateStr string) time.Time {
 		time.RFC1123,
 		time.RFC822,
 		time.RFC822Z,
+		time.RFC3339,
 	}
 
 	for _, layout := range layouts {
@@ -209,7 +251,7 @@ func cleanHTML(s string) string {
 			builder.WriteRune(runeValue)
 		}
 	}
-	
+
 	// Clean up newlines
 	clean := strings.ReplaceAll(builder.String(), "\n", " ")
 	clean = strings.ReplaceAll(clean, "\r", "")
