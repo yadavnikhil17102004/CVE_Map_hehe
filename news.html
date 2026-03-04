@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>CVE Map — Live Threat Intelligence</title>
+  <meta name="description" content="Real-time Cybersecurity News and Threat Intelligence Feed aggregator."/>
+  <meta name="keywords" content="Cybersecurity news, threat intelligence, zero day, exploit, hack, feed, live, CVE"/>
+  
+  <meta property="og:title" content="CVE Map — Live Threat Intelligence"/>
+  <meta property="og:description" content="Real-time Cybersecurity News and Threat Intelligence Feed aggregator."/>
+  <meta property="og:type" content="website"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet"/>
+  
+  <link rel="stylesheet" href="style.css"/>
+  
+  <style>
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: #0d1117; }
+    ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #484f58; }
+
+    .glass {
+      background: rgba(22,27,34,0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(48,54,61,0.7);
+    }
+    
+    .bg-grid {
+      background-size: 40px 40px;
+      background-image: linear-gradient(to right, rgba(48, 54, 61, 0.4) 1px, transparent 1px),
+                        linear-gradient(to bottom, rgba(48, 54, 61, 0.4) 1px, transparent 1px);
+    }
+
+    /* CSS Marquee animation for the ticker */
+    .ticker-container {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+    }
+    
+    .ticker-content {
+      display: inline-block;
+      animation: ticker 40s linear infinite;
+    }
+    
+    @keyframes ticker {
+      0% { transform: translateX(100vw); }
+      100% { transform: translateX(-100%); }
+    }
+  </style>
+</head>
+
+<body class="dark bg-bg-dark text-gray-200 font-sans antialiased h-screen flex flex-col overflow-hidden">
+
+  <!-- ===== HEADER ===== -->
+  <header class="h-16 border-b border-border flex items-center justify-between px-6 bg-surface shrink-0 z-20 sticky top-0">
+    <div class="flex items-center gap-2 group cursor-pointer" onclick="window.location.href='index.html'">
+      <div class="relative flex items-center justify-center h-8 w-8 rounded-lg bg-surface-2 border border-border group-hover:border-primary/50 transition-colors">
+        <span class="material-symbols-outlined text-primary text-xl relative z-10 transition-transform group-hover:scale-110">radar</span>
+      </div>
+      <h1 class="font-mono font-bold text-xl tracking-tight text-white group-hover:text-primary transition-colors">
+        CVE <span class="text-primary">MAP</span>
+      </h1>
+      <span class="text-[10px] ml-1 px-2 py-0.5 rounded-full bg-surface-2 text-dim hidden sm:inline border border-border">
+        Live Intel
+      </span>
+    </div>
+    
+    <!-- Desktop Nav -->
+    <nav class="hidden md:flex items-center gap-6">
+      <a href="index.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">home</span> Home</a>
+      <a href="dashboard.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">dashboard</span> Dashboard</a>
+      <a href="news.html" class="text-sm font-medium text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">public</span> News</a>
+      <a href="docs.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">book</span> Docs</a>
+      <a href="https://github.com/yadavnikhil17102004/cve_map_hehe" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono rounded bg-primary/10 border border-primary/30 hover:bg-primary/20 text-primary transition-colors">
+        <span class="material-symbols-outlined text-sm">code</span> GitHub
+      </a>
+    </nav>
+  </header>
+
+  <!-- ===== LIVE TICKER ===== -->
+  <div class="h-8 bg-black border-b border-border flex items-center z-10 shrink-0">
+    <div class="bg-danger text-white text-[10px] font-bold font-mono px-3 h-full flex items-center tracking-wider z-10 shrink-0">
+      <span class="relative flex h-2 w-2 mr-2">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
+      </span>
+      LATEST INTELLIGENCE
+    </div>
+    <div class="ticker-container flex-1 bg-surface-2/30 h-full flex items-center">
+      <div id="live-ticker" class="ticker-content text-xs font-mono text-gray-300">
+        <!-- Javascript populates this -->
+        Loading live feed stream from global sensors...
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== LAYOUT ===== -->
+  <div class="flex flex-1 overflow-hidden relative">
+    <div class="absolute inset-0 bg-grid opacity-[0.15] z-0 pointer-events-none"></div>
+
+    <main class="flex-1 overflow-y-auto bg-bg-dark/80 z-10 p-6 md:p-8">
+      
+      <!-- Controls -->
+      <div class="max-w-[1400px] mx-auto mb-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+             <span class="material-symbols-outlined text-primary text-3xl">local_fire_department</span>
+             Global Threat News
+          </h2>
+          <p class="text-xs text-dim mt-1 font-mono">Aggregating vulnerability & breach signals in real-time.</p>
+        </div>
+        
+        <div class="flex items-center gap-3">
+          <div class="relative">
+            <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-dim text-sm">search</span>
+            <input type="text" id="news-search" placeholder="Search keywords..." class="bg-surface border border-border text-sm text-white rounded-lg pl-9 pr-4 py-2 w-64 focus:outline-none focus:border-primary transition-colors placeholder-dim">
+          </div>
+        </div>
+      </div>
+
+      <!-- Loading / Status -->
+      <div id="news-loading" class="text-center py-20">
+        <span class="material-symbols-outlined text-4xl text-dim animate-pulse mb-4">radar</span>
+        <p class="font-mono text-primary text-sm animate-pulse tracking-widest uppercase">Syncing Sensor Data...</p>
+      </div>
+
+      <!-- Masonry Grid for Articles -->
+      <div id="news-grid" class="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 pb-20 hidden">
+        <!-- JS fills this -->
+      </div>
+      
+    </main>
+  </div> <!-- layout -->
+
+  <script>
+    let allArticles = [];
+
+    // Simple time formatter
+    function timeAgo(date) {
+      const diff = (Date.now() - date.getTime()) / 1000;
+      if (diff < 3600)  return Math.max(1, Math.round(diff / 60)) + 'm ago';
+      if (diff < 86400) return Math.round(diff / 3600) + 'h ago';
+      if (diff < 604800) return Math.round(diff / 86400) + 'd ago';
+      return date.toLocaleDateString('en-US', { month:'short', day:'numeric' });
+    }
+
+    function guessSeverityColor(title) {
+        const t = title.toLowerCase();
+        if (t.includes('critical') || t.includes('0-day') || t.includes('zero-day') || t.includes('actively exploited')) return 'border-danger/40 group-hover:border-danger/70';
+        if (t.includes('rce') || t.includes('breach') || t.includes('data leak') || t.includes('ransomware')) return 'border-warning/40 group-hover:border-warning/70';
+        return 'border-border group-hover:border-primary/50';
+    }
+
+    function renderFeed(filterQuery = "") {
+        const grid = document.getElementById('news-grid');
+        const search = filterQuery.toLowerCase();
+        
+        const filtered = allArticles.filter(a => {
+            return a.title.toLowerCase().includes(search) || 
+                   a.description.toLowerCase().includes(search) || 
+                   a.source.toLowerCase().includes(search);
+        });
+
+        if (filtered.length === 0) {
+            grid.innerHTML = '<div class="col-span-full text-center py-10 text-dim"><span class="material-symbols-outlined text-4xl mb-2">scan_delete</span><p>No intelligence matched your query.</p></div>';
+            return;
+        }
+
+        grid.innerHTML = filtered.map(article => {
+            let age = "";
+            try { age = timeAgo(new Date(article.pub_date)); } catch(e) { age = article.pub_date; }
+            
+            const borderClass = guessSeverityColor(article.title);
+
+            return `
+            <a href="${article.link}" target="_blank" class="glass rounded-xl p-5 flex flex-col gap-3 group transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5 ${borderClass}">
+                <div class="flex items-center justify-between">
+                    <span class="text-[10px] font-mono font-bold text-primary bg-primary/10 px-2 py-0.5 rounded border border-primary/20">${article.source}</span>
+                    <span class="text-xs text-dim font-mono">${age}</span>
+                </div>
+                <h3 class="text-sm font-bold text-white group-hover:text-primary transition-colors leading-snug">
+                    ${article.title}
+                </h3>
+                <p class="text-[11px] text-gray-400 line-clamp-3 leading-relaxed flex-1">
+                    ${article.description}
+                </p>
+                <div class="mt-2 pt-3 border-t border-border/50 flex items-center gap-1 text-xs text-dim group-hover:text-white transition-colors">
+                    <span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+                    Read Full Alert
+                </div>
+            </a>
+            `;
+        }).join('');
+    }
+
+    function renderTicker() {
+        if(allArticles.length === 0) return;
+        const ticker = document.getElementById('live-ticker');
+        const latest = allArticles.slice(0, 8); // Top 8 items for ticker
+        
+        let tickerHTML = latest.map(a => `<span class="text-primary mr-2">»</span><span class="text-white font-bold mr-2">${a.source}:</span>${a.title}`).join('<span class="mx-8 text-border">|</span>');
+        
+        // Duplicate it to make continuous seamless scrolling easier visually
+        ticker.innerHTML = tickerHTML + '<span class="mx-8 text-border">|</span>' + tickerHTML;
+    }
+
+    async function init() {
+      try {
+        const res = await fetch('data/news.json');
+        if (!res.ok) throw new Error('API Error');
+        const data = await res.json();
+        allArticles = data.articles || [];
+        
+        document.getElementById('news-loading').classList.add('hidden');
+        document.getElementById('news-grid').classList.remove('hidden');
+        
+        renderFeed();
+        renderTicker();
+
+        // Search listener
+        document.getElementById('news-search').addEventListener('input', (e) => {
+            renderFeed(e.target.value);
+        });
+
+      } catch (err) {
+        document.getElementById('news-loading').innerHTML = '<span class="material-symbols-outlined text-4xl text-danger mb-4">error</span><p class="font-mono text-danger text-sm">System Offline: Unable to connect to intelligence backend.</p>';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>
