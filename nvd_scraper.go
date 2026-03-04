@@ -310,8 +310,11 @@ func fetchTargeted(cveIDs []string, dict map[string]CVEIntel, apiKey string) {
 // HTTP helper
 // ============================================================
 
+// nvdClient is a shared HTTP client so that TCP/TLS connections are reused
+// across the many sequential NVD requests, reducing latency and overhead.
+var nvdClient = &http.Client{Timeout: 30 * time.Second}
+
 func nvdGet(url, apiKey string) (*NVD2Response, error) {
-	client := &http.Client{Timeout: 30 * time.Second}
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		return nil, err
@@ -321,7 +324,7 @@ func nvdGet(url, apiKey string) (*NVD2Response, error) {
 		req.Header.Set("apiKey", apiKey)
 	}
 
-	resp, err := client.Do(req)
+	resp, err := nvdClient.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -377,8 +380,10 @@ func extractIntel(cve CVE2) CVEIntel {
 	}
 
 	// CVSS Score — priority: NIST Primary > CNA Secondary > v2 fallback
+	// Combine v3.1 and v3.0 metrics once to avoid two separate slice allocations.
 	scoreSet := false
-	for _, m := range append(cve.Metrics.CVSSMetricV31, cve.Metrics.CVSSMetricV30...) {
+	allV3 := append(cve.Metrics.CVSSMetricV31, cve.Metrics.CVSSMetricV30...)
+	for _, m := range allV3 {
 		if m.Type == "Primary" && m.CVSSData.BaseScore > 0 {
 			intel.Score    = m.CVSSData.BaseScore
 			intel.Severity = m.CVSSData.BaseSeverity
@@ -389,7 +394,7 @@ func extractIntel(cve CVE2) CVEIntel {
 		}
 	}
 	if !scoreSet {
-		for _, m := range append(cve.Metrics.CVSSMetricV31, cve.Metrics.CVSSMetricV30...) {
+		for _, m := range allV3 {
 			if m.Type == "Secondary" && m.CVSSData.BaseScore > 0 {
 				intel.Score    = m.CVSSData.BaseScore
 				intel.Severity = m.CVSSData.BaseSeverity
