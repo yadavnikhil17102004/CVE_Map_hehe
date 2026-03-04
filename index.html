@@ -150,64 +150,23 @@
         <div class="flex items-center justify-between mb-4 pb-3 border-b border-border/50">
           <h3 class="text-sm font-bold text-white flex items-center gap-2">
             <span class="material-symbols-outlined text-danger">local_fire_department</span>
-            Trending Payloads
+            Live Cyber News
           </h3>
+          <span class="text-[10px] text-dim uppercase tracking-wider font-mono flex items-center gap-1">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-danger opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-danger"></span>
+            </span> LIVE
+          </span>
         </div>
         
-        <div class="flex-1 space-y-4 overflow-hidden relative">
+        <div id="news-feed-container" class="flex-1 space-y-4 overflow-hidden relative">
           <!-- Gradient mask for fading out bottom list -->
           <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-surface via-surface/80 to-transparent z-10 pointer-events-none rounded-b-xl -m-1"></div>
           
-          <!-- Mock items mimicking dashboard -->
-          <div class="flex gap-3 relative z-0">
-            <div class="w-8 h-8 rounded bg-red-900/30 border border-red-800/50 flex items-center justify-center shrink-0">
-              <span class="text-danger text-[10px] font-bold font-mono">RCE</span>
-            </div>
-            <div>
-              <p class="text-xs font-mono text-white">CVE-2023-4863</p>
-              <p class="text-[10px] text-dim truncate w-48 mt-0.5">libwebp heap buffer overflow</p>
-              <div class="flex items-center gap-2 mt-1.5">
-                <span class="text-[9px] text-gray-500">★ 1,240</span>
-                <span class="w-1.5 h-1.5 rounded-full bg-danger pulse"></span>
-              </div>
-            </div>
-          </div>
+          <div class="text-center py-4 text-dim text-xs" id="news-loading">Loading live intelligence...</div>
           
-          <div class="flex gap-3 relative z-0">
-            <div class="w-8 h-8 rounded bg-cyan-900/30 border border-cyan-800/50 flex items-center justify-center shrink-0">
-              <span class="text-primary text-[10px] font-bold font-mono">0DAY</span>
-            </div>
-            <div>
-              <p class="text-xs font-mono text-white">CVE-2024-21412</p>
-              <p class="text-[10px] text-dim truncate w-48 mt-0.5">Microsoft Defender SmartScreen Bypass</p>
-              <div class="flex items-center gap-2 mt-1.5">
-                <span class="text-[9px] text-gray-500">★ 892</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex gap-3 relative z-0 opacity-80">
-            <div class="w-8 h-8 rounded bg-yellow-900/30 border border-yellow-800/50 flex items-center justify-center shrink-0">
-              <span class="text-warning text-[10px] font-bold font-mono">LPE</span>
-            </div>
-            <div>
-              <p class="text-xs font-mono text-white">CVE-2023-4911</p>
-              <p class="text-[10px] text-dim truncate w-48 mt-0.5">Looney Tunables - glibc</p>
-              <div class="flex items-center gap-2 mt-1.5">
-                <span class="text-[9px] text-gray-500">★ 3,421</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="flex gap-3 relative z-0 opacity-40">
-            <div class="w-8 h-8 rounded bg-purple-900/30 border border-purple-800/50 flex items-center justify-center shrink-0">
-              <span class="text-purple-400 text-[10px] font-bold font-mono">INJ</span>
-            </div>
-            <div>
-              <p class="text-xs font-mono text-white">CVE-2024-XXXX</p>
-              <p class="text-[10px] text-dim truncate w-48 mt-0.5">SQLi in unknown</p>
-            </div>
-          </div>
+          <div id="news-feed" class="space-y-4 pb-16"></div>
 
         </div>
       </div>
@@ -228,8 +187,49 @@
   </footer>
 
   <script>
-    // Mock Chart rendering for landing page "Preview" to reflect dashboard vibe
+    // Load Live News on Home Page
+    async function loadLiveNews() {
+      try {
+        const res = await fetch('data/news.json');
+        if (!res.ok) throw new Error('Not found');
+        const data = await res.json();
+        
+        const feed = document.getElementById('news-feed');
+        document.getElementById('news-loading').classList.add('hidden');
+        
+        if (!data.articles || data.articles.length === 0) {
+           feed.innerHTML = '<div class="text-center py-4 text-dim text-xs">No active alerts.</div>';
+           return;
+        }
+
+        const colors = ['bg-danger/20 border-danger/50 text-danger', 'bg-warning/20 border-warning/50 text-warning', 'bg-primary/20 border-primary/50 text-primary', 'bg-purple-900/30 border-purple-800/50 text-purple-400'];
+
+        feed.innerHTML = data.articles.slice(0, 5).map((article, i) => {
+          const colorSet = colors[i % colors.length];
+          const opacityStyle = i > 1 ? `opacity: ${1 - (i*0.2)}` : ''; // Fade out older items
+          
+          return `
+            <a href="${article.link}" target="_blank" class="flex gap-3 relative z-0 group hover:opacity-100 transition-opacity" style="${opacityStyle}">
+              <div class="w-8 h-8 rounded border flex items-center justify-center shrink-0 ${colorSet}">
+                <span class="material-symbols-outlined text-[14px]">article</span>
+              </div>
+              <div class="overflow-hidden">
+                <p class="text-xs font-mono text-white group-hover:text-primary transition-colors truncate w-56 sm:w-64">${article.title}</p>
+                <p class="text-[10px] text-dim truncate w-56 sm:w-64 mt-0.5">${article.source}</p>
+              </div>
+            </a>
+          `;
+        }).join('');
+
+      } catch (err) {
+        document.getElementById('news-loading').textContent = 'Unable to fetch news stream at this time.';
+      }
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
+      loadLiveNews();
+      // ... existing chart code below
+
       const ctx = document.getElementById('landingChart').getContext('2d');
       const gradient = ctx.createLinearGradient(0, 0, 0, 400);
       gradient.addColorStop(0, 'rgba(6, 182, 212, 0.5)'); // Primary color
