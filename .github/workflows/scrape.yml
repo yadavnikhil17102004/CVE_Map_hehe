@@ -26,6 +26,7 @@ jobs:
         run: |
           go build cvemapping.go
           go build nvd_scraper.go
+          go build news_scraper.go
 
           YEAR=$(date +%Y)
           LAST_YEAR=$(date -d "last year" +%Y)
@@ -36,6 +37,9 @@ jobs:
 
           echo "Firing NVD Intelligence Engine v2.0..."
           ./nvd_scraper
+
+          echo "Firing Live News Scraper..."
+          ./news_scraper
 
       - name: Commit & Push New Datasets
         run: |

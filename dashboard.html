@@ -418,49 +418,74 @@ async function loadYear(year) {
 }
 
 // ============================================================
-// RECENT EXPLOIT ACTIVITY FEED
+// RECENT EXPLOIT ACTIVITY FEED (Now Live Cyber News)
 // ============================================================
-function buildActivityFeed(data) {
+async function buildActivityFeed() {
   const feed = document.getElementById('activity-feed');
-  if (!data?.cves) { feed.innerHTML = '<div class="text-center py-4 text-dim text-xs">No data.</div>'; return; }
+  
+  // Title update
+  const titleEl = feed.previousElementSibling;
+  if(titleEl) {
+    titleEl.innerHTML = `
+      <h4 class="text-xs font-bold text-white flex items-center gap-2">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+        </span>
+        Live Cyber News
+      </h4>
+      <span class="text-[10px] text-dim uppercase tracking-wider font-mono">Live</span>
+    `;
+  }
 
-  // Collect all repos with their CVE ID and sort by pushed_at desc
-  const allRepos = [];
-  data.cves.forEach(cve => {
-    (cve.repositories || []).forEach(r => {
-      if (r.pushed_at) allRepos.push({ cveId: cve.cve_id, repo: r });
-    });
-  });
-  allRepos.sort((a,b) => new Date(b.repo.pushed_at) - new Date(a.repo.pushed_at));
+  try {
+    const res = await fetch('data/news.json');
+    if (!res.ok) throw new Error('Not found');
+    const data = await res.json();
+    
+    if (!data.articles || data.articles.length === 0) {
+      feed.innerHTML = '<div class="text-center py-4 text-dim text-xs">No active alerts.</div>';
+      return;
+    }
 
-  const dotColors = ['bg-primary','bg-purple-500','bg-danger','bg-warning','bg-success','bg-gray-500'];
-  const textColors = ['text-primary','text-purple-400','text-danger','text-warning','text-success','text-gray-400'];
+    const dotColors = ['bg-primary','bg-purple-500','bg-danger','bg-warning','bg-success','bg-gray-500'];
+    const textColors = ['text-primary','text-purple-400','text-danger','text-warning','text-success','text-gray-400'];
 
-  const items = allRepos.slice(0, 7);
-  if (!items.length) { feed.innerHTML = '<div class="text-center py-4 text-dim text-xs">No recent activity.</div>'; return; }
+    const items = data.articles.slice(0, 7);
 
-  feed.innerHTML = items.map((item, i) => {
-    const { cveId, repo } = item;
-    const color = dotColors[i % dotColors.length];
-    const tcolor = textColors[i % textColors.length];
-    const isLast = i === items.length - 1;
-    const age = timeAgo(new Date(repo.pushed_at));
+    feed.innerHTML = items.map((article, i) => {
+      const color = dotColors[i % dotColors.length];
+      const tcolor = textColors[i % textColors.length];
+      const isLast = i === items.length - 1;
+      
+      // Attempt to format date nicely
+      let age = "";
+      try {
+        const d = new Date(article.pub_date);
+        age = timeAgo(d);
+      } catch(e) { age = "Recently"; }
 
-    return `
-      <div class="flex gap-2.5 group">
-        <div class="flex flex-col items-center mt-0.5 shrink-0">
-          <div class="w-2 h-2 rounded-full ${color}"></div>
-          ${!isLast ? '<div class="w-px flex-1 bg-border/50 mt-1 min-h-[12px]"></div>' : ''}
-        </div>
-        <div class="pb-2 min-w-0">
-          <p class="text-xs text-gray-300 font-mono leading-snug">
-            <span class="${tcolor} font-bold">${cveId}</span>
-            mapped in <span class="text-white truncate">${repo.full_name}</span>
-          </p>
-          <span class="text-[10px] text-dim">${age}</span>
-        </div>
-      </div>`;
-  }).join('');
+      return `
+        <a href="${article.link}" target="_blank" class="flex gap-2.5 group hover:bg-surface-2/50 p-1 -mx-1 rounded transition-colors block">
+          <div class="flex flex-col items-center mt-1 shrink-0">
+            <div class="w-2 h-2 rounded-full ${color}"></div>
+            ${!isLast ? '<div class="w-px flex-1 bg-border/50 mt-1 min-h-[16px]"></div>' : ''}
+          </div>
+          <div class="pb-1 min-w-0 flex-1">
+            <p class="text-[11px] text-gray-300 font-sans leading-snug group-hover:text-white transition-colors truncate">
+              ${article.title}
+            </p>
+            <div class="flex justify-between items-center mt-0.5">
+               <span class="text-[9px] font-mono ${tcolor}">${article.source}</span>
+               <span class="text-[9px] text-dim">${age}</span>
+            </div>
+          </div>
+        </a>`;
+    }).join('');
+
+  } catch (err) {
+    feed.innerHTML = '<div class="text-center py-4 text-dim text-xs">Unable to load news feed.</div>';
+  }
 }
 
 function timeAgo(date) {
@@ -720,8 +745,36 @@ function renderList(q = '') {
   renderRows(sorted, false);
 }
 
+let currentRenderList = [];
+let renderChunkSize = 50;
+let renderIndex = 0;
+let observer = null;
+
 function renderRows(sorted, showYear) {
-  document.getElementById('cve-list').innerHTML = sorted.map(cve => {
+  // Reset state for new searches or data loads
+  currentRenderList = sorted;
+  renderIndex = 0;
+  const listEl = document.getElementById('cve-list');
+  listEl.innerHTML = ''; // clear old rows
+  
+  // Cleanup old observer if it exists
+  if (observer) {
+    observer.disconnect();
+    observer = null;
+  }
+
+  // Render initial chunk
+  renderNextChunk(showYear);
+}
+
+function renderNextChunk(showYear) {
+  const listEl = document.getElementById('cve-list');
+  const chunk = currentRenderList.slice(renderIndex, renderIndex + renderChunkSize);
+  
+  if (chunk.length === 0) return; // Nothing left to render
+
+  // Build HTML for the chunk
+  const chunkHtml = chunk.map(cve => {
     const repos   = cve.repositories || [];
     const stars   = repos.reduce((s,r)=>s+(r.stargazers_count||0),0);
     const count   = repos.length;
@@ -762,6 +815,30 @@ function renderRows(sorted, showYear) {
       </div>
     </div>`;
   }).join('');
+
+  // Remove old observer trigger if present
+  const oldTrigger = document.getElementById('scroll-trigger');
+  if (oldTrigger) oldTrigger.remove();
+
+  // Append new rows
+  listEl.insertAdjacentHTML('beforeend', chunkHtml);
+  renderIndex += chunk.length;
+
+  // Add observer target if there are still rows left
+  if (renderIndex < currentRenderList.length) {
+    const triggerHtml = `<div id="scroll-trigger" class="h-4 w-full opacity-0"></div>`;
+    listEl.insertAdjacentHTML('beforeend', triggerHtml);
+    
+    // Setup observer
+    const triggerEl = document.getElementById('scroll-trigger');
+    observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        renderNextChunk(showYear);
+      }
+    }, { root: listEl, threshold: 0.1 });
+    
+    observer.observe(triggerEl);
+  }
 }
 
 // ============================================================

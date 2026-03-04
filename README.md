@@ -47,10 +47,13 @@ The scraped data is served as static JSON via GitHub Pages — use it in your ow
 
 ```bash
 # All CVE exploit mappings for a given year
-curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/2025.json | jq '.cves[].cve_id'
+curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/2026.json | jq '.cves[].cve_id'
 
 # NVD intel for a specific CVE (score, severity, vector, CWE, CISA KEV)
 curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/nvd_intel.json | jq '."CVE-2025-55182"'
+
+# Live Cybersecurity News Feed
+curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/news.json | jq '.articles[] | .title'
 ```
 
 ### Data Schema
@@ -115,9 +118,13 @@ GitHub Actions (every 6h)
 │                       Handles >1000 results via monthly chunking
 │                       Exports → data/{year}.json
 │
-└── nvd_scraper.go    → Phase 1: NVD 180-day modification window
-                        Phase 2: Targeted backfill for unscored CVEs
-                        Exports → data/nvd_intel.json
+├── nvd_scraper.go    → Phase 1: NVD 180-day modification window
+│                       Phase 2: Targeted backfill for unscored CVEs
+│                       Exports → data/nvd_intel.json
+│
+└── news_scraper.go   → Scrapes top cybersecurity RSS feeds concurrently
+                        Cleans formatting and normalizes structure
+                        Exports → data/news.json
 
 GitHub Pages serves all JSON as a zero-cost CDN
 Dashboard (index.html) fetches JSON → renders UI client-side
