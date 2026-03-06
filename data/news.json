@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-03-06T20:23:54Z",
+  "last_updated": "2026-03-06T21:22:47Z",
   "articles": [
+    {
+      "title": "How to scan for vulnerabilities with GitHub Security Lab’s open source AI-powered framework",
+      "link": "https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/",
+      "description": "GitHub Security Lab Taskflow Agent is very effective at finding Auth Bypasses, IDORs, Token Leaks, and other high-impact vulnerabilities. The post How to scan for vulnerabilities with GitHub Securi...",
+      "pub_date": "Fri, 06 Mar 2026 21:09:04 +0000",
+      "source": "GitHub Security",
+      "image_url": "https://github.blog/wp-content/uploads/2026/03/ai-high-level-overview5.excalidraw.png?resize=1024%2C779"
+    },
     {
       "title": "Cognizant TriZetto breach exposes health data of 3.4 million patients",
       "link": "https://www.bleepingcomputer.com/news/security/cognizant-trizetto-breach-exposes-health-data-of-34-million-patients/",
@@ -192,6 +200,22 @@
       "pub_date": "Fri, 06 Mar 2026 12:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1dAatoZKBR1txy7hG-8XLixhMv5jhZEjgT_asHnTfyxS1KK9tOrJNwk2MSbXOL1ZoH8-18chWJUuLnegz6ByTRQuljhmqPu9W_BxQSQR7n45B1M3D1XHrwkne4uzqurGVkqDhyphenhyphendkfISqLjawr0HzRQX7ZhfXa-jB3hJ5V0oMr3TOebv_rcpcw9I3ym6v1/s1600/cisa.jpg"
+    },
+    {
+      "title": "ZDI-26-152: Docker Desktop Docker Plugins Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-152/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop. An attacker must first obtain the ability to execute low-privileged code on the target ...",
+      "pub_date": "Fri, 06 Mar 2026 00:00:00 -0600",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-151: Delta Electronics CNCSoft-G2 DPAX File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-151/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics CNCSoft-G2. User interaction is required to exploit this vulnerability in that th...",
+      "pub_date": "Fri, 06 Mar 2026 00:00:00 -0600",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "Chinese state hackers target telcos with new malware toolkit",
@@ -426,22 +450,6 @@
       "image_url": ""
     },
     {
-      "title": "ZDI-26-137: Trend Micro Apex One Console Directory Traversal Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-137/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trend Micro Apex One. Authentication is not required to exploit this vulnerability. The ZDI has ass...",
-      "pub_date": "Tue, 03 Mar 2026 00:00:00 -0600",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-136: Trend Micro Apex One Console Directory Traversal Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-136/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trend Micro Apex One. Authentication is not required to exploit this vulnerability. The ZDI has ass...",
-      "pub_date": "Tue, 03 Mar 2026 00:00:00 -0600",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
       "title": "AI-supported vulnerability triage with the GitHub Security Lab Taskflow Agent",
       "link": "https://github.blog/security/ai-supported-vulnerability-triage-with-the-github-security-lab-taskflow-agent/",
       "description": "Learn how we are using the newly released GitHub Security Lab Taskflow Agent to triage categories of vulnerabilities in GitHub Actions and JavaScript projects. The post AI-supported vulnerability t...",
@@ -512,14 +520,6 @@
       "pub_date": "Tue, 23 Sep 2025 00:29:50 +0000",
       "source": "GitHub Security",
       "image_url": ""
-    },
-    {
-      "title": "Safeguarding VS Code against prompt injections",
-      "link": "https://github.blog/security/vulnerability-research/safeguarding-vs-code-against-prompt-injections/",
-      "description": "When a chat conversation is poisoned by indirect prompt injection, it can result in the exposure of GitHub tokens, confidential files, or even the execution of arbitrary code without the user's exp...",
-      "pub_date": "Mon, 25 Aug 2025 16:01:12 +0000",
-      "source": "GitHub Security",
-      "image_url": "https://github.blog/wp-content/uploads/2025/08/img1.png?resize=751%2C1024"
     },
     {
       "title": "Delta Electronics CNCSoft-G2",
