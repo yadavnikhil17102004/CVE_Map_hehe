@@ -25,6 +25,23 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
 
   <style>
+    /* CSS Marquee animation for the ticker */
+    .ticker-container {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+    }
+    
+    .ticker-content {
+      display: inline-block;
+      animation: ticker 120s linear infinite;
+    }
+    
+    @keyframes ticker {
+      0% { transform: translateX(100vw); }
+      100% { transform: translateX(-100%); }
+    }
     ::-webkit-scrollbar { width: 5px; height: 5px; }
     ::-webkit-scrollbar-track { background: #0d1117; }
     ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
@@ -92,6 +109,22 @@
     <div class="h-7 w-7 rounded-full bg-gradient-to-tr from-primary to-purple-500 flex items-center justify-center text-white font-bold text-[10px]">JS</div>
   </div>
 </header>
+
+<!-- ===== LIVE TICKER ===== -->
+<div class="h-8 bg-black border-b border-border flex items-center z-10 shrink-0">
+  <div class="bg-danger text-white text-[10px] font-bold font-mono px-3 h-full flex items-center tracking-wider z-10 shrink-0">
+    <span class="relative flex h-2 w-2 mr-2">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
+    </span>
+    LATEST INTELLIGENCE
+  </div>
+  <div class="ticker-container flex-1 bg-surface-2/30 h-full flex items-center">
+    <div id="live-ticker" class="ticker-content text-xs font-mono text-gray-300">
+      Loading global cyber intelligence feed...
+    </div>
+  </div>
+</div>
 
 <!-- ===== LAYOUT ===== -->
 <div class="flex flex-1 overflow-hidden">
@@ -337,6 +370,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   } catch(_) {}
 
   await loadYear(currentYear);
+  loadLiveNews(); // Load live news and ticker on init
 
   // Wire search inputs — global cross-year search when query is typed
   ['search-input','search-mobile'].forEach(id => {
@@ -405,16 +439,18 @@ async function loadYear(year) {
   renderList('');
   buildTrendChart(currentData, year);
   buildSevChart(currentData);
-  buildActivityFeed(currentData);
+  // buildActivityFeed(currentData); // Removed, now handled by loadLiveNews()
   document.getElementById('api-link').href = `data/${year}.json`;
 }
 
 // ============================================================
 // RECENT EXPLOIT ACTIVITY FEED (Now Live Cyber News)
 // ============================================================
-async function buildActivityFeed() {
+async function loadLiveNews() {
   const feed = document.getElementById('activity-feed');
-  
+  const ticker = document.getElementById('live-ticker');
+  if(!feed) return;
+
   // Title update
   const titleEl = feed.previousElementSibling;
   if(titleEl) {
@@ -437,9 +473,16 @@ async function buildActivityFeed() {
     
     if (!data.articles || data.articles.length === 0) {
       feed.innerHTML = '<div class="text-center py-4 text-dim text-xs">No active alerts.</div>';
+      ticker.innerHTML = '<span class="text-dim">No active signals on the wire.</span>';
       return;
     }
 
+    // Render Ticker
+    const latest = data.articles.slice(0, 10);
+    let tickerHTML = latest.map(a => `<span class="text-primary mr-2">»</span><span class="text-white font-bold mr-2">${a.source}:</span>${a.title}`).join('<span class="mx-8 text-border">|</span>');
+    ticker.innerHTML = tickerHTML + '<span class="mx-8 text-border">|</span>' + tickerHTML;
+
+    // Render Side Feed
     const items = data.articles.slice(0, 7);
 
     feed.innerHTML = items.map((article, i) => {
@@ -479,7 +522,8 @@ async function buildActivityFeed() {
     }).join('');
 
   } catch (err) {
-    feed.innerHTML = '<div class="text-center py-4 text-dim text-xs">Unable to load news feed.</div>';
+    feed.innerHTML = '<div class="text-center py-4 text-danger text-[10px] font-mono">SENSOR ERROR</div>';
+    ticker.innerHTML = '<span class="text-danger">CONNECTION ERROR - UNABLE TO SYNC VULNERABILITY SENSORS</span>';
   }
 }
 
