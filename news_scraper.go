@@ -24,6 +24,7 @@ type NewsItem struct {
 	Description string `json:"description"`
 	PubDate     string `json:"pub_date"`
 	Source      string `json:"source"`
+	Tier        int    `json:"tier"`
 	ImageURL    string `json:"image_url"`
 }
 
@@ -68,13 +69,28 @@ const (
 	maxItemsPerSrc = 15 // Limit how many items we keep per source so the feed isn't huge
 )
 
-var feeds = map[string]string{
-	"BleepingComputer":    "https://www.bleepingcomputer.com/feed/",
-	"The Hacker News":     "https://feeds.feedburner.com/TheHackersNews",
-	"CISA Advisories":     "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-	"Zero Day Initiative": "https://www.zerodayinitiative.com/rss/published/",
-	"GitHub Security":     "https://github.blog/security/feed/",
-	"Cyber Security News": "https://cybersecuritynews.com/feed/",
+type FeedSource struct {
+	URL  string
+	Tier int
+}
+
+var feeds = map[string]FeedSource{
+	// Tier 1: Raw vulnerability feeds
+	"CISA Advisories":      {"https://www.cisa.gov/cybersecurity-advisories/all.xml", 1},
+	"Rapid7":               {"https://blog.rapid7.com/rss/", 1},
+	// Tier 2: PoC / exploit code databases
+	"Packet Storm":         {"https://rss.packetstormsecurity.com/files/", 2},
+	// Tier 3: Research & writeups
+	"The Hacker News":      {"https://feeds.feedburner.com/TheHackersNews", 3},
+	"BleepingComputer":     {"https://www.bleepingcomputer.com/feed/", 3},
+	"Cyber Security News":  {"https://cybersecuritynews.com/feed/", 3},
+	// Tier 4: Bleeding-edge
+	"GitHub Security":      {"https://github.blog/security/feed/", 4},
+	"Zero Day Initiative":  {"https://www.zerodayinitiative.com/rss/published/", 4},
+	// Tier 5: The REAL Hacker Feed
+	"r/netsec":             {"https://www.reddit.com/r/netsec/.rss", 5},
+	"r/ExploitDev":         {"https://www.reddit.com/r/ExploitDev/.rss", 5},
+	"r/bugbounty":          {"https://www.reddit.com/r/bugbounty/.rss", 5},
 }
 
 var imgRegex = regexp.MustCompile(`(?i)<img[^>]+src="([^">]+)"`)
@@ -91,11 +107,11 @@ func main() {
 	var wg sync.WaitGroup
 
 	// Fetch all feeds concurrently
-	for sourceName, rssURL := range feeds {
+	for sourceName, sourceInfo := range feeds {
 		wg.Add(1)
-		go func(name, url string) {
+		go func(name string, info FeedSource) {
 			defer wg.Done()
-			items, err := fetchAndParseRSS(name, url)
+			items, err := fetchAndParseRSS(name, info)
 			if err != nil {
 				log.Printf("[-] Failed to fetch %s: %v", name, err)
 				return
@@ -103,7 +119,7 @@ func main() {
 			mu.Lock()
 			allItems = append(allItems, items...)
 			mu.Unlock()
-		}(sourceName, rssURL)
+		}(sourceName, sourceInfo)
 	}
 
 	wg.Wait()
@@ -137,13 +153,13 @@ func main() {
 }
 
 // Worker to fetch and parse an RSS feed
-func fetchAndParseRSS(sourceName, url string) ([]NewsItem, error) {
+func fetchAndParseRSS(sourceName string, source FeedSource) ([]NewsItem, error) {
 	log.Printf("  -> Fetching %s...", sourceName)
 
 	ctx, cancel := context.WithTimeout(context.Background(), timeout)
 	defer cancel()
 
-	req, err := http.NewRequestWithContext(ctx, "GET", url, nil)
+	req, err := http.NewRequestWithContext(ctx, "GET", source.URL, nil)
 	if err != nil {
 		return nil, err
 	}
@@ -208,6 +224,7 @@ func fetchAndParseRSS(sourceName, url string) ([]NewsItem, error) {
 			Description: strings.TrimSpace(cleanDesc),
 			PubDate:     item.PubDate,
 			Source:      sourceName,
+			Tier:        source.Tier,
 			ImageURL:    imageURL,
 		})
 	}

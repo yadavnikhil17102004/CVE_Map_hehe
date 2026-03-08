@@ -191,16 +191,20 @@
            return;
         }
 
-        const colors = ['bg-danger/20 border-danger/50 text-danger', 'bg-warning/20 border-warning/50 text-warning', 'bg-primary/20 border-primary/50 text-primary', 'bg-purple-900/30 border-purple-800/50 text-purple-400'];
-
         feed.innerHTML = data.articles.slice(0, 5).map((article, i) => {
-          const colorSet = colors[i % colors.length];
           const opacityStyle = i > 1 ? `opacity: ${1 - (i*0.2)}` : ''; // Fade out older items
           
+          let colorSet = 'bg-surface-2 border-border text-gray-300';
+          let icon = 'article';
+          if (article.tier === 4) { colorSet = 'bg-danger/20 border-danger/50 text-danger'; icon = 'warning'; }
+          else if (article.tier === 5) { colorSet = 'bg-purple-900/30 border-purple-800/50 text-purple-400'; icon = 'forum'; }
+          else if (article.tier === 2) { colorSet = 'bg-blue-900/30 border-blue-800/50 text-blue-400'; icon = 'code'; }
+          else if (article.tier === 3) { colorSet = 'bg-primary/20 border-primary/50 text-primary'; }
+
           return `
             <a href="${article.link}" target="_blank" class="flex gap-3 relative z-0 group hover:opacity-100 transition-opacity" style="${opacityStyle}">
               <div class="w-8 h-8 rounded border flex items-center justify-center shrink-0 ${colorSet}">
-                <span class="material-symbols-outlined text-[14px]">article</span>
+                <span class="material-symbols-outlined text-[14px]">${icon}</span>
               </div>
               <div class="overflow-hidden">
                 <p class="text-xs font-mono text-white group-hover:text-primary transition-colors truncate w-56 sm:w-64">${article.title}</p>

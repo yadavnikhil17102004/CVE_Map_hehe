@@ -55,6 +55,13 @@
       0% { transform: translateX(100vw); }
       100% { transform: translateX(-100%); }
     }
+
+    /* Missing Tailwind classes for Masonry layout */
+    .columns-1 { columns: 1; }
+    @media (min-width: 768px) { .md\:columns-2 { columns: 2; } }
+    @media (min-width: 1024px) { .lg\:columns-3 { columns: 3; } }
+    @media (min-width: 1280px) { .xl\:columns-4 { columns: 4; } }
+    .break-inside-avoid { break-inside: avoid; }
   </style>
 </head>
 
@@ -120,6 +127,14 @@
         </div>
         
         <div class="flex items-center gap-3">
+          <select id="tier-filter" class="bg-surface border border-border text-sm text-dim rounded-lg px-3 py-2 focus:outline-none focus:border-primary transition-colors cursor-pointer appearance-none text-center">
+            <option value="all">All Intelligence</option>
+            <option value="1">Tier 1: Raw Vulns</option>
+            <option value="2">Tier 2: PoC Databases</option>
+            <option value="3">Tier 3: Writeups</option>
+            <option value="4">Tier 4: Bleeding-Edge</option>
+            <option value="5">Tier 5: Hacker Social</option>
+          </select>
           <div class="relative">
             <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-dim text-sm">search</span>
             <input type="text" id="news-search" placeholder="Search keywords..." class="bg-surface border border-border text-sm text-white rounded-lg pl-9 pr-4 py-2 w-64 focus:outline-none focus:border-primary transition-colors placeholder-dim">
@@ -133,8 +148,8 @@
         <p class="font-mono text-primary text-sm animate-pulse tracking-widest uppercase">Syncing Sensor Data...</p>
       </div>
 
-      <!-- Masonry Grid for Articles -->
-      <div id="news-grid" class="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 pb-20 hidden">
+      <!-- Masonry Layout for Articles -->
+      <div id="news-grid" class="max-w-[1400px] mx-auto columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-8 pb-24 hidden">
         <!-- JS fills this -->
       </div>
       
@@ -143,6 +158,7 @@
 
   <script>
     let allArticles = [];
+    let activeTier = 'all';
 
     // Simple time formatter
     function timeAgo(date) {
@@ -153,11 +169,15 @@
       return date.toLocaleDateString('en-US', { month:'short', day:'numeric' });
     }
 
-    function guessSeverityColor(title) {
-        const t = title.toLowerCase();
-        if (t.includes('critical') || t.includes('0-day') || t.includes('zero-day') || t.includes('actively exploited')) return 'border-danger/40 group-hover:border-danger/70';
-        if (t.includes('rce') || t.includes('breach') || t.includes('data leak') || t.includes('ransomware')) return 'border-warning/40 group-hover:border-warning/70';
-        return 'border-border group-hover:border-primary/50';
+    function getTierStyling(tier) {
+        if (tier === 1) return { border: 'border-border group-hover:border-gray-500', badge: 'bg-surface-2 text-gray-300 border-border', label: 'T1 RAW' };
+        if (tier === 2) return { border: 'border-blue-900/40 group-hover:border-blue-500/70', badge: 'bg-blue-900/20 text-blue-400 border-blue-800/50', label: 'T2 PoC' };
+        if (tier === 3) return { border: 'border-teal-900/40 group-hover:border-teal-500/70', badge: 'bg-teal-900/20 text-teal-400 border-teal-800/50', label: 'T3 INTEL' };
+        if (tier === 4) return { border: 'border-danger/40 group-hover:border-danger shadow-[0_0_15px_rgba(248,81,73,0.1)] group-hover:shadow-[0_0_25px_rgba(248,81,73,0.3)]', badge: 'bg-danger/20 text-danger border-danger/50 animate-pulse', label: 'T4 0-DAY' };
+        if (tier === 5) return { border: 'border-purple-900/40 group-hover:border-purple-500/70', badge: 'bg-purple-900/20 text-purple-400 border-purple-800/50', label: 'T5 CHATTER' };
+        
+        // Fallback styling for untiered/legacy data
+        return { border: 'border-border group-hover:border-primary/50', badge: 'bg-primary/10 text-primary border-primary/20', label: 'INTEL' };
     }
 
     function renderFeed(filterQuery = "") {
@@ -165,13 +185,15 @@
         const search = filterQuery.toLowerCase();
         
         const filtered = allArticles.filter(a => {
-            return a.title.toLowerCase().includes(search) || 
-                   a.description.toLowerCase().includes(search) || 
-                   a.source.toLowerCase().includes(search);
+            const matchesSearch = a.title.toLowerCase().includes(search) || 
+                                  a.description.toLowerCase().includes(search) || 
+                                  a.source.toLowerCase().includes(search);
+            const matchesTier = activeTier === 'all' || a.tier == activeTier;
+            return matchesSearch && matchesTier;
         });
 
         if (filtered.length === 0) {
-            grid.innerHTML = '<div class="col-span-full text-center py-10 text-dim"><span class="material-symbols-outlined text-4xl mb-2">scan_delete</span><p>No intelligence matched your query.</p></div>';
+            grid.innerHTML = '<div class="col-span-full text-center py-10 text-dim"><span class="material-symbols-outlined text-4xl mb-2">scan_delete</span><p>No intelligence matched your filters.</p></div>';
             return;
         }
 
@@ -179,34 +201,38 @@
             let age = "";
             try { age = timeAgo(new Date(article.pub_date)); } catch(e) { age = article.pub_date; }
             
-            const borderClass = guessSeverityColor(article.title);
+            const styles = getTierStyling(article.tier);
+            const borderClass = styles.border;
 
             const bgImage = article.image_url 
                 ? `background-image: url('${article.image_url}');` 
-                : `background: linear-gradient(135deg, rgba(6,182,212,0.1), rgba(0,0,0,0.8));`;
+                : `background: linear-gradient(135deg, rgba(6,182,212,0.05), rgba(0,0,0,0.8));`;
 
             return `
-            <a href="${article.link}" target="_blank" class="glass rounded-xl flex flex-col overflow-hidden group transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/10 border ${borderClass}">
+            <a href="${article.link}" target="_blank" class="glass rounded-xl overflow-hidden group transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl ${borderClass} break-inside-avoid mb-8 w-full block relative bg-gradient-to-b from-transparent to-bg-dark/50">
                 
                 <!-- 16:9 Image Banner -->
-                <div class="h-44 w-full relative bg-cover bg-center border-b border-border/50 shrink-0" style="${bgImage}">
+                <div class="h-44 w-full relative bg-cover bg-center border-b border-border/50 shrink-0 transition-transform duration-700 group-hover:scale-[1.02]" style="${bgImage}">
                     <div class="absolute inset-0 bg-gradient-to-t from-bg-dark/95 via-bg-dark/40 to-transparent"></div>
                     
-                    <span class="absolute bottom-3 left-4 text-[10px] font-mono font-bold text-primary bg-primary/10 backdrop-blur-md px-2 py-0.5 rounded border border-primary/20 z-10">${article.source}</span>
-                    <span class="absolute bottom-3 right-4 text-[10px] text-gray-300 font-mono bg-black/60 backdrop-blur-md px-2 py-0.5 rounded border border-border/50 z-10">${age}</span>
+                    <span class="absolute top-4 left-5 text-[9px] font-mono font-bold backdrop-blur-md px-2 py-1 rounded border z-10 shadow-lg ${styles.badge}">${styles.label}</span>
+                    <span class="absolute bottom-3 left-5 text-[10px] font-mono font-bold text-gray-300 bg-black/60 backdrop-blur-md px-2 py-0.5 rounded border border-border/50 z-10">${article.source}</span>
+                    <span class="absolute bottom-3 right-5 text-[10px] text-gray-400 font-mono z-10 tracking-wide">${age}</span>
                 </div>
                 
                 <!-- Content Body -->
-                <div class="p-5 flex flex-col flex-1 gap-3">
-                    <h3 class="text-sm font-bold text-white group-hover:text-primary transition-colors leading-snug">
+                <div class="p-6 flex flex-col flex-1 gap-4 relative">
+                    <h3 class="text-sm font-bold text-white group-hover:text-primary transition-colors leading-relaxed tracking-wide">
                         ${article.title}
                     </h3>
-                    <p class="text-[11px] text-gray-400 line-clamp-3 leading-relaxed flex-1">
+                    <p class="text-[12px] text-gray-400 line-clamp-3 leading-relaxed flex-1 font-light">
                         ${article.description}
                     </p>
-                    <div class="mt-2 pt-3 border-t border-border/50 flex items-center gap-1 text-xs text-dim group-hover:text-white transition-colors mt-auto">
-                        <span class="material-symbols-outlined text-[14px]">arrow_outward</span>
-                        Read Full Alert
+                    <div class="mt-2 pt-4 border-t border-border/40 flex items-center justify-between text-xs text-dim group-hover:text-gray-300 transition-colors mt-auto">
+                        <span class="flex items-center gap-2 font-mono text-[10px] uppercase tracking-wider">
+                            ${article.tier === 4 ? '<span class="text-danger flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-danger animate-pulse"></span> High Priority Event</span>' : 'Analyze intelligence'}
+                        </span>
+                        <span class="material-symbols-outlined text-[16px] group-hover:text-primary transition-colors group-hover:translate-x-0.5 group-hover:-translate-y-0.5">arrow_outward</span>
                     </div>
                 </div>
             </a>
@@ -241,6 +267,12 @@
         // Search listener
         document.getElementById('news-search').addEventListener('input', (e) => {
             renderFeed(e.target.value);
+        });
+
+        // Tier Filter listener
+        document.getElementById('tier-filter').addEventListener('change', (e) => {
+            activeTier = e.target.value;
+            renderFeed(document.getElementById('news-search').value);
         });
 
       } catch (err) {

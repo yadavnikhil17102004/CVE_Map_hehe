@@ -267,8 +267,8 @@
             </select>
           </div>
           <div class="col-span-3 text-right">
-            <button onclick="setSort('activity')" class="flex items-center gap-1 hover:text-primary transition-colors ml-auto" id="sort-activity">
-              Activity <span class="material-symbols-outlined text-[11px] sort-icon">unfold_more</span>
+            <button onclick="setSort('date')" class="flex items-center gap-1 hover:text-primary transition-colors ml-auto" id="sort-date">
+              Latest <span class="material-symbols-outlined text-[11px] sort-icon">arrow_downward</span>
             </button>
           </div>
           <div class="col-span-2 text-right hidden md:block">
@@ -318,7 +318,7 @@ let trendChart    = null;
 let sevChart      = null;
 let searchTimer   = null;
 let maxStars      = 1;
-let sortKey       = 'stars'; // 'id' | 'activity' | 'stars'
+let sortKey       = 'date'; // 'id' | 'activity' | 'stars' | 'date'
 let sortDir       = 'desc';  // 'asc' | 'desc'
 let typeFilter    = 'all';   // exploit type filter
 let yearCache     = {};      // cache of all fetched year data for global search
@@ -440,14 +440,9 @@ async function buildActivityFeed() {
       return;
     }
 
-    const dotColors = ['bg-primary','bg-purple-500','bg-danger','bg-warning','bg-success','bg-gray-500'];
-    const textColors = ['text-primary','text-purple-400','text-danger','text-warning','text-success','text-gray-400'];
-
     const items = data.articles.slice(0, 7);
 
     feed.innerHTML = items.map((article, i) => {
-      const color = dotColors[i % dotColors.length];
-      const tcolor = textColors[i % textColors.length];
       const isLast = i === items.length - 1;
       
       // Attempt to format date nicely
@@ -457,10 +452,18 @@ async function buildActivityFeed() {
         age = timeAgo(d);
       } catch(e) { age = "Recently"; }
 
+      let dotClass = 'bg-gray-500';
+      let textClass = 'text-gray-400';
+      if (article.tier === 4) { dotClass = 'bg-danger animate-pulse'; textClass = 'text-danger font-bold'; }
+      else if (article.tier === 5) { dotClass = 'bg-purple-500'; textClass = 'text-purple-400'; }
+      else if (article.tier === 2) { dotClass = 'bg-blue-500'; textClass = 'text-blue-400'; }
+      else if (article.tier === 3) { dotClass = 'bg-teal-500'; textClass = 'text-teal-400'; }
+      else if (article.tier === 1) { dotClass = 'bg-gray-300'; textClass = 'text-gray-300'; }
+
       return `
         <a href="${article.link}" target="_blank" class="flex gap-2.5 group hover:bg-surface-2/50 p-1 -mx-1 rounded transition-colors block">
           <div class="flex flex-col items-center mt-1 shrink-0">
-            <div class="w-2 h-2 rounded-full ${color}"></div>
+            <div class="w-2 h-2 rounded-full ${dotClass}"></div>
             ${!isLast ? '<div class="w-px flex-1 bg-border/50 mt-1 min-h-[16px]"></div>' : ''}
           </div>
           <div class="pb-1 min-w-0 flex-1">
@@ -468,7 +471,7 @@ async function buildActivityFeed() {
               ${article.title}
             </p>
             <div class="flex justify-between items-center mt-0.5">
-               <span class="text-[9px] font-mono ${tcolor}">${article.source}</span>
+               <span class="text-[9px] font-mono ${textClass}">${article.source}</span>
                <span class="text-[9px] text-dim">${age}</span>
             </div>
           </div>
@@ -612,7 +615,7 @@ function setTypeFilter(val) {
 }
 
 function updateSortUI() {
-  ['id','activity','stars'].forEach(k => {  // 'type' removed — it's now a filter
+  ['id','activity','stars','date'].forEach(k => {  // 'type' removed — it's now a filter
     const btn = document.getElementById(`sort-${k}`);
     if (!btn) return;
     const icon = btn.querySelector('.sort-icon');
@@ -641,6 +644,11 @@ function sortList(list) {
     }
     if (sortKey === 'activity') {
       return mul * ((a.repositories?.length||0) - (b.repositories?.length||0));
+    }
+    if (sortKey === 'date') {
+      const da = Math.max(0, ...(a.repositories||[]).map(r => r.pushed_at ? new Date(r.pushed_at).getTime() : 0));
+      const db = Math.max(0, ...(b.repositories||[]).map(r => r.pushed_at ? new Date(r.pushed_at).getTime() : 0));
+      return mul * (da - db);
     }
     // default: stars
     const sa = (a.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0);
@@ -770,6 +778,8 @@ function renderNextChunk(showYear) {
     const repos   = cve.repositories || [];
     const stars   = repos.reduce((s,r)=>s+(r.stargazers_count||0),0);
     const count   = repos.length;
+    const latestEpoch = Math.max(0, ...repos.map(r => r.pushed_at ? new Date(r.pushed_at).getTime() : 0));
+    const timeStr = latestEpoch ? timeAgo(new Date(latestEpoch)) : '—';
     const pct     = Math.min(100, Math.round(stars/maxStars*100));
     const [label, cls] = getType(cve.cve_id, repos);
     const dot     = getSevDot(cve.cve_id);
@@ -797,13 +807,11 @@ function renderNextChunk(showYear) {
       </div>
 
       <div class="col-span-3 text-right">
-        <span class="text-[11px] text-dim">${count} exploit${count!==1?'s':''} · ★ ${stars.toLocaleString()}</span>
+        <span class="text-[11px] text-dim">${timeStr}</span>
       </div>
 
       <div class="col-span-2 hidden md:flex items-center">
-        <div class="w-full bg-gray-800 rounded-full h-1">
-          <div class="h-1 rounded-full ${stars > maxStars*0.7 ? 'bg-danger' : stars > maxStars*0.4 ? 'bg-warning' : 'bg-primary'}" style="width:${pct}%"></div>
-        </div>
+        <span class="text-[10px] text-dim font-mono">★ ${stars.toLocaleString()}</span>
       </div>
     </div>`;
   }).join('');
