@@ -5,7 +5,6 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
-	"io"
 	"log"
 	"net/http"
 	"os"
@@ -67,6 +66,10 @@ const (
 	timeout        = 15 * time.Second
 	maxItemsPerSrc = 15 // Limit how many items we keep per source so the feed isn't huge
 )
+
+// rssClient is a shared HTTP client so TCP/TLS connections are reused across
+// concurrent feed fetches, reducing per-goroutine overhead.
+var rssClient = &http.Client{Timeout: timeout}
 
 var feeds = map[string]string{
 	"BleepingComputer":    "https://www.bleepingcomputer.com/feed/",
@@ -147,11 +150,11 @@ func fetchAndParseRSS(sourceName, url string) ([]NewsItem, error) {
 	if err != nil {
 		return nil, err
 	}
-	// Act like a browser to prevent 403s
-	req.Header.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36")
+	// Use a transparent scraper User-Agent instead of impersonating a specific
+	// browser or OS, which avoids misrepresenting the request origin.
+	req.Header.Set("User-Agent", "CVEMap-NewsScraper/1.0 (+https://github.com/yadavnikhil17102004/CVE_Map_hehe)")
 
-	client := &http.Client{}
-	resp, err := client.Do(req)
+	resp, err := rssClient.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -161,13 +164,10 @@ func fetchAndParseRSS(sourceName, url string) ([]NewsItem, error) {
 		return nil, fmt.Errorf("HTTP %d", resp.StatusCode)
 	}
 
-	body, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, err
-	}
-
+	// Stream-parse the XML directly from the response body instead of
+	// reading the entire payload into memory first.
 	var rss RSS
-	if err := xml.Unmarshal(body, &rss); err != nil {
+	if err := xml.NewDecoder(resp.Body).Decode(&rss); err != nil {
 		return nil, fmt.Errorf("XML parse error: %v", err)
 	}
 
