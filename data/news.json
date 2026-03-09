@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T17:42:05Z",
+  "last_updated": "2026-03-09T18:41:24Z",
   "articles": [
     {
       "title": "MaaS VIP Keylogger Campaign Uses Steganography and In-Memory Execution to Steal Credentials at Scale",
@@ -402,6 +402,14 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2021-22054 Omnissa Workspace ONE Server-Side Request Fo...",
+      "pub_date": "Mon, 09 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Delta Electronics CNCSoft-G2",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-064-01",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker achieving remote code execution on the device. The following versions of Delta Electronics CNCSoft-G2 are...",
@@ -418,9 +426,33 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/03/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-21385 Qualcomm Multiple Chipsets Memory Corruption V...",
+      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Everon OCPP Backends",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-08",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
+      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "ePower epower.ie",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-07",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
+      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Hitachi Energy RTU500 Product",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-03",
+      "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. Successful exploitation of these vulnerabilities can result in the exposure...",
       "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -442,9 +474,9 @@
       "image_url": ""
     },
     {
-      "title": "Mitsubishi Electric MELSEC iQ-F Series EtherNet/IP module and Ethernet module",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-62-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a remote attacker to cause a denial-of-service condition by continuously sending UDP packets to the affected products....",
+      "title": "Labkotec LID-3300IP",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to gain unauthorized control over system operations, leading to disruption of normal functionality and potentia...",
       "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -458,50 +490,10 @@
       "image_url": ""
     },
     {
-      "title": "Labkotec LID-3300IP",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-05",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to gain unauthorized control over system operations, leading to disruption of normal functionality and potentia...",
+      "title": "Mitsubishi Electric MELSEC iQ-F Series EtherNet/IP module and Ethernet module",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-62-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a remote attacker to cause a denial-of-service condition by continuously sending UDP packets to the affected products....",
       "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Hitachi Energy RTU500 Product",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-03",
-      "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. Successful exploitation of these vulnerabilities can result in the exposure...",
-      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Everon OCPP Backends",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-08",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
-      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/03/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-21385 Qualcomm Multiple Chipsets Memory Corruption V...",
-      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Mobility46 mobility46.se",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-08",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
-      "pub_date": "Thu, 26 Feb 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "EV Energy ev.energy",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-07",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
-      "pub_date": "Thu, 26 Feb 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
@@ -514,9 +506,17 @@
       "image_url": ""
     },
     {
-      "title": "SWITCH EV swtchenergy.com",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-06",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to impersonate charging stations, hijack sessions, suppress or misroute legitimate traffic to cause large-sc...",
+      "title": "Pelco, Inc. Sarix Pro 3 Series IP Cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to gain unauthorized access to sensitive device data, bypass surveillance controls, and expose facilities to pr...",
+      "pub_date": "Thu, 26 Feb 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "EV Energy ev.energy",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-07",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
       "pub_date": "Thu, 26 Feb 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
