@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-03-11T17:43:21Z",
+  "last_updated": "2026-03-11T18:43:59Z",
   "articles": [
+    {
+      "title": "CISA orders feds to patch n8n RCE flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies on Wednesday to patch their systems against an actively exploited n8n vulnerability. [...]",
+      "pub_date": "Wed, 11 Mar 2026 14:21:15 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Medtech giant Stryker offline after Iran-linked wiper malware attack",
       "link": "https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/",
@@ -16,6 +24,14 @@
       "pub_date": "Wed, 11 Mar 2026 13:09:42 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Researchers Trick Perplexity's Comet AI Browser Into Phishing Scam in Under Four Minutes",
+      "link": "https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html",
+      "description": "Agentic web browsers that leverage artificial intelligence (AI) capabilities to autonomously execute actions across multiple websites on behalf of a user could be trained and tricked into falling p...",
+      "pub_date": "Wed, 11 Mar 2026 22:08:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHkDTAnMilk2AM0Yg71UjZJul-Q0y_QvAqY97sCemt73LNrjo7Rwp7uHjmFpSmeV75WwsRN5tRMdcgACXJFnv7FMOqb9qAnaOoyek1f0KubQtDtdkWZAh6g8ZZXNSwLLmAZYONBXIM-xa9QNbO9qQDI4REUUobzfhTuBJED4ilM5CBA0AmQ6zfyUWpvQDo/s1600/agent.png"
     },
     {
       "title": "Stryker Cyber Attack – Hackers Claim System Breach and Device Wipe",
@@ -298,28 +314,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-By3tHSMSOxuaRiOmtalZ7sltfDCZ-ZfA-SYEQ6RVae4iQoVJVeUZU380kIIgrdAnFkX516x6OdctG7NCgL3zNSSENMqgc1iNcSC48aIJ3sx7eAK1-5rGqPu00i5rfPpvxOQ9I9R-v1fPL-i_i0kreyvQ3a0WuneswNUZgnhaTKq6fFu3me-1TopHYcl1/s1600/Ukrainian-malware.jpg"
     },
     {
-      "title": "Microsoft to enable Windows hotpatch security updates by default",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/",
-      "description": "Microsoft will turn on hotpatch security updates by default for all eligible Windows devices managed through Microsoft Intune and the Microsoft Graph API, beginning with the May 2026 Windows securi...",
-      "pub_date": "Tue, 10 Mar 2026 06:35:33 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Threat Actors Mass-Scan Salesforce Experience Cloud via Modified AuraInspector Tool",
       "link": "https://thehackernews.com/2026/03/threat-actors-mass-scan-salesforce.html",
       "description": "Salesforce has warned of an increase in threat actor activity that's aimed at exploiting misconfigurations in publicly accessible Experience Cloud sites by making use of a customized version of an ...",
       "pub_date": "Tue, 10 Mar 2026 12:47:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg3WBGF42HjwJCk1bkljwrz8qAZRBc_WKGgu7SuNluRZBhSEGh3JelP6R_I9w64bbi9soVTwDerZux7tknJmttdOS024pbnsAG8a16SYaBubeRlhDIYboq-SBO53ARQ77uWWAUGX6yTZ8AaeWOQMydWFRP-nbunFtTDsmCpqcUvgFBsTpxHYqSi050MtYl/s1600/salesforce.jpg"
-    },
-    {
-      "title": "CISA Flags SolarWinds, Ivanti, and Workspace One Vulnerabilities as Actively Exploited",
-      "link": "https://thehackernews.com/2026/03/cisa-flags-solarwinds-ivanti-and.html",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added three security flaws to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation....",
-      "pub_date": "Tue, 10 Mar 2026 11:47:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZ3Jqmj7G6SohXnwkh-xbheyTYoylchcxew5kAJKo9InrbQ0QqVtNQ2hgFc5UuSyQ7sljAfkAlfMzlclT3LQetQdmpqqm3vyb9sZQO2QogQ55M8CpUjCAPMWXEYbtQHbT93Cg7cpWNH2Zq5RtU1T515FT_OAfFKj50HXF8Uwb1VgkLHIhjd-vNZWPRKQdf/s1600/cisa-kev.jpg"
     },
     {
       "title": "ZDI-26-186: Fortinet FortiClient Link Following Local Privilege Escalation Vulnerability",
@@ -522,6 +522,14 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2025-68613 n8n Improper Control of Dynamically-Managed Code...",
+      "pub_date": "Wed, 11 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Honeywell IQ4x BMS Controller",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-069-03",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthorized attacker to access controller management settings, control components, disclose information, or cause a d...",
@@ -626,17 +634,9 @@
       "image_url": ""
     },
     {
-      "title": "Portwell Engineering Toolkits",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-04",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to escalate privileges or cause a denial-of-service condition. The following versions of Portwell Engine...",
-      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Hitachi Energy Relion REB500 Product",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-02",
-      "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect the Relion REB500 product versions listed in this document. Authenticated users with certain roles can exploit the vulnerabi...",
+      "title": "Mitsubishi Electric MELSEC iQ-F Series EtherNet/IP module and Ethernet module",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-62-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a remote attacker to cause a denial-of-service condition by continuously sending UDP packets to the affected products....",
       "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
