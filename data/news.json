@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-03-11T05:42:28Z",
+  "last_updated": "2026-03-11T06:42:03Z",
   "articles": [
+    {
+      "title": "Gogs Vulnerability Enables Attackers to Silently Overwrite Large File Storage Objects",
+      "link": "https://cybersecuritynews.com/gogs-overwrite-vulnerability/",
+      "description": "A critical security flaw has been discovered in a popular open-source, self-hosted Git service, allowing attackers to overwrite Large File Storage (LFS) objects secretly. Tracked as CVE-2026-25921,...",
+      "pub_date": "Wed, 11 Mar 2026 05:54:27 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkv9qeKu0sGyMelPmw_Fahs96xbvRJu0cp3_Qabv-fBIhzAjUGsWB8gnOziAqOntK0XayyCPjA6uhR9v8p746ppAo8jSdTAf2Vh-6JlR9ABVX2YUvFCsxCTZZk1qkj_cSopq-MR9UicjL9Ugxtvqs8W9y-3wJnLFzAOSu82bKN8Hwo7waUBlBNlN5FCKU/s1600/Gogs%20Vulnerability%20Enables%20Attackers%20to%20silently%20overwrite%20Large%20File%20Storage%20objects%20%281%29.webp?ssl=1"
+    },
+    {
+      "title": "Microsoft .NET 0-Day Vulnerability Enables Denial-of-Service Attacks",
+      "link": "https://cybersecuritynews.com/microsoft-net-0-day-vulnerability/",
+      "description": "An emergency security update has been released to address a newly disclosed .NET Framework vulnerability, tracked as CVE-2026-26127. This security flaw allows unauthenticated, remote attackers to t...",
+      "pub_date": "Wed, 11 Mar 2026 05:50:58 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFc53J2Ee7fYjp7VclX9JqxvQV6xIegTaxvyMicMe_AA2jeSWjFicFji76jqG5p0W2S-_iMdHHTQQYiK4y0YWbIznHwwuMujxJbVFjYg3XTmvUSU6LXEf_vmF_hc8JY5N-anal566AL-5BpfiX9egypx49hye38mRHuDEQs7h7ITnwobh4UdYRGSD-Ge4/s1600/Microsoft%20.NET%200-Day%20Vulnerability%20Enables%20Denial%20of%20Service%20Attacks%20%281%29.webp?ssl=1"
+    },
+    {
+      "title": "Five Malicious Rust Crates and AI Bot Exploit CI/CD Pipelines to Steal Developer Secrets",
+      "link": "https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html",
+      "description": "Cybersecurity researchers have discovered five malicious Rust crates that masquerade as time-related utilities to transmit .env file data to the threat actors. The Rust packages, published to crate...",
+      "pub_date": "Wed, 11 Mar 2026 10:42:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzAdo0qx6xgUYxpWZkp4v30357zGX7ojSkN1vbfazb6D_JiXd9ksAHFNZJzY6pleKYV_HeYZcgJ48U36zUMPSJFR9bPUvFz18THXzTTnvhembJW9wrCypxj_2ttelgwbBwOD__5Yr-WGIBw1XthSLi6UZy3QtLZfmt7j_P8fOxZmm0PQwPAMCtNKkQzz1n/s1600/rust.jpg"
+    },
     {
       "title": "Microsoft SQL Server Zero-Day Vulnerability Allows Attackers to Escalate Privileges",
       "link": "https://cybersecuritynews.com/microsoft-sql-server-zero-day-vulnerability/",
@@ -122,14 +146,6 @@
       "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaIVyEgQyF0oV2Hjyib3VBciKaqRTcD-0i3iyXB-p6Z-bbx-gxH4uojZVqG-XwdDC2doRfH8_m0UVRktYvquHTx4TdRFqSx4HQaMMQeObZueMxklVXM7SOFFtz89JwpE1RQF-DCMGKnYT_NJXPi9-K_E67BwEvmAOKtELKfpow9UNBow15aOqs1lSnaHw/s1600/OpenAI%20to%20acquire%20Promptfoo%20to%20Fix%20Vulnerabilities%20in%20AI%20systems%20%281%29.webp?ssl=1"
     },
     {
-      "title": "Ivanti Desktop and Server Management Vulnerability Allows Attackers to Escalate Privileges",
-      "link": "https://cybersecuritynews.com/ivanti-desktop-and-server-management-vulnerability/",
-      "description": "Ivanti has issued a security update for its Desktop and Server Management (DSM) software, addressing a high-severity vulnerability that could allow a local authenticated attacker to escalate their ...",
-      "pub_date": "Tue, 10 Mar 2026 17:02:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmUJn2SFwXmM_YKgDFEopAOYWe9nkuXw5FL8RLJN9PVN4SQvJAwZ43gN660MX4GveA-BEF4RGxVnLkFA0POsYiUtIWW-Bc1fPGlfzPxF_x6OmcnBEWQZfxJiZ0gdVtp2vM2qeUVw0m3PBJy2X5TEWipC7P7SSFYzE7m12qDWYSjj0SKvYwx0CV-ZOxFHuq/s16000/Ivanti%20Desktop%20and%20Server%20Management%20Vulnerability.webp?ssl=1"
-    },
-    {
       "title": "FortiGate Devices Exploited to Breach Networks and Steal Service Account Credentials",
       "link": "https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html",
       "description": "Cybersecurity researchers are calling attention to a new campaign where threat actors are abusing FortiGate Next-Generation Firewall (NGFW) appliances as entry points to breach victim networks.\u0026nbs...",
@@ -168,14 +184,6 @@
       "pub_date": "Tue, 10 Mar 2026 11:01:57 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Kali Linux Enhances AI-driven Penetration Testing with Local Ollama, 5ire, and MCP Kali Server",
-      "link": "https://cybersecuritynews.com/kali-linux-ai-driven-penetration-testing/",
-      "description": "The Kali Linux team has published a new entry in its growing LLM-driven security series, this time eliminating all reliance on third-party cloud services by running large language models entirely o...",
-      "pub_date": "Tue, 10 Mar 2026 14:11:15 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ7AQfsJBhnRxk7hlw-yYB8mLj5IGjvwdJxnoFFtQtBlFOZTxSHSiGpBSaduu9puow74oN1_xOl_FPyZdW58QpyTnTXJLWOTjlH-k-1ecSd047rdN7wnn3qUjleSdLQgfd1Yoa5__AlIcm8w3EC2peTeF9jGyAjSdEeeKuUgNuvsIXGtjHH6NXXd_00st5/s16000/Kali%20Linux%20AI-driven%20Penetration%20Testing.webp?ssl=1"
     },
     {
       "title": "The New Turing Test: How Threats Use Geometry to Prove 'Humanness'",
@@ -432,14 +440,6 @@
       "pub_date": "Mon, 09 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
-    },
-    {
-      "title": "OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity Issues",
-      "link": "https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html",
-      "description": "OpenAI on Friday began rolling out Codex Security, an artificial intelligence (AI)-powered security agent that's designed to find, validate, and propose fixes for vulnerabilities. The feature is av...",
-      "pub_date": "Sat, 07 Mar 2026 21:58:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzxRjA2uB_r2z4AtvhADiDGrxTc62766WI5jApivjtuLfb2aS2kz9RWk7f9P3Lm7Nj5HH3u-7Etx4-8xr_Y4PflexsuMsAzXjvPoPLSQaSt1O-t4U3yBAnKm4HLm-64dbHDsWF-EXYVMvaMrMnhfbhV_qn2cvwmJE6x-U42aTjGbIOTNOXxpiH3x15C6Ag/s1600/codex.jpg"
     },
     {
       "title": "How to scan for vulnerabilities with GitHub Security Lab’s open source AI-powered framework",
