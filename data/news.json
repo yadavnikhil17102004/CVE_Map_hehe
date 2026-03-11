@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-03-11T08:32:09Z",
+  "last_updated": "2026-03-11T09:35:34Z",
   "articles": [
+    {
+      "title": "Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days",
+      "link": "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
+      "description": "Microsoft on Tuesday released patches for a set of 84 new security vulnerabilities affecting various software components, including two that have been listed as publicly known. Of these, eight are ...",
+      "pub_date": "Wed, 11 Mar 2026 14:45:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipDVdeJebBFVnXLhsh2P4nBqmuh4R-UtLH7ZFvyw1W95zBU4YX4GF6I1WZ7g3ALEq596lEFr6q8iuGZ_PG2D12h67cLuNhCnSplkg_kDNbKyvTJnByhz2WAeAL9YHXCpJp0D3UOnhuydFZ6-jfXi6DLx5upod8egCtZ2lZhmbUzIprEusPyz0efzBMFzFI/s1600/windows-patch.jpg"
+    },
+    {
+      "title": "UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours",
+      "link": "https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html",
+      "description": "A threat actor known as UNC6426 leveraged keys stolen following the supply chain compromise of the nx npm package last year to completely breach a victim's cloud environment within a span of 72 hou...",
+      "pub_date": "Wed, 11 Mar 2026 13:01:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFUREkqLhVFM9jnUqkHPMEmAj2KBdTrXOX_m8t7zEUdK4NE16BBL0XQHZ9q4KPVDfKecgf4KE64vzAW9XDvn6axd6fIU9WZy5Lqe348eT7rKvmsLU3ByDPajxWFlkTt6CQTNkmNv8e57XrvWAaM-YaXtD0QP1-grx4XPtV_Osxw-vjtPfw4A70O5x41yvq/s1600/aws.jpg"
+    },
     {
       "title": "Gogs Vulnerability Enables Attackers to Silently Overwrite Large File Storage Objects",
       "link": "https://cybersecuritynews.com/gogs-overwrite-vulnerability/",
@@ -416,22 +432,6 @@
       "pub_date": "Mon, 09 Mar 2026 17:15:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1VI1qz4KwHldnHqAJcopF23x8Jtybzn4Obme0AQPvuP_SDx-vwFks8V70CSb-Gn_BBlONDV7BoK3IrxzxGfUd_3va58XjeoXX81Ix1E7JkcgC2kikZ-nWAawWhE0uU8bURJs1ggtbIG1N_F8VsYIYyjDe5NuF3SAholWy_u6Evu5ROpWGAaIShHZMNiA/s1600/bit.jpg"
-    },
-    {
-      "title": "Chrome Extension Turns Malicious After Ownership Transfer, Enabling Code Injection and Data Theft",
-      "link": "https://thehackernews.com/2026/03/chrome-extension-turns-malicious-after.html",
-      "description": "Two Google Chrome extensions have turned malicious after what appears to be a case of ownership transfer, offering attackers a way to push malware to downstream customers, inject arbitrary code, an...",
-      "pub_date": "Mon, 09 Mar 2026 15:58:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH49NW0X18R8bc0fzFm6aPt92f15pxPq-HLMfyFmsApiXvZEsCn4z9qNQErHHvW34SFXKUPWy7mK70hM06Ld6Cxa4DioW7xjV9jnMamMF3DDKIQ39VwJhvq7l4bO79yzGp8huA6ewRk-XdWvJSeYT8fs16PdOa9BSxdbzw0hIwC1PVxh9uY5L0Wx3nNMAL/s1600/chrome-malware.jpg"
-    },
-    {
-      "title": "Web Server Exploits and Mimikatz Used in Attacks Targeting Asian Critical Infrastructure",
-      "link": "https://thehackernews.com/2026/03/web-server-exploits-and-mimikatz-used.html",
-      "description": "High-value organizations located in South, Southeast, and East Asia have been targeted by a Chinese threat actor as part of a years-long campaign. The activity, which has targeted aviation, energy,...",
-      "pub_date": "Mon, 09 Mar 2026 12:51:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBw-CldP1FbyOXvJqoX3p-J6QQbtYRACj95MIqX7KakiKKyLMYE4lYpQm6eY7S5sGhsAp8vYbM2ZwPJT59JdjSnGyybDhNucYaymCijGQfyx_cJwkpBZGQ7Mgk2kiCALQU4qZ6i6q0SPo2cBEQHt8j6XX8RQo3kvQ9mj1W3DVP2ZoNF7ZkF7dsdJD9gVZI/s1600/critical.png"
     },
     {
       "title": "ZDI-26-172: Unraid Authentication Request Path Traversal Authentication Bypass Vulnerability",
