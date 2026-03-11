@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-03-11T12:40:52Z",
+  "last_updated": "2026-03-11T14:01:02Z",
   "articles": [
+    {
+      "title": "Microsoft Active Directory Domain Services Vulnerability Let Attackers Escalate Privileges",
+      "link": "https://cybersecuritynews.com/active-directory-domain-services-vulnerability-2/",
+      "description": "An “Important” security update released on March 10, 2026, addresses a high-severity flaw in Active Directory Domain Services (AD DS).Tracked as CVE-2026-25177, this vulnerability has a CVSS sc...",
+      "pub_date": "Wed, 11 Mar 2026 13:30:25 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh82FyVfeAG-XeS3lmn50pWBy46-qOSDVskT3Pngsxx-CuuKdDtXNw-FjGBA8t6u1YRwAv5BLlO_cX0VLmNepcLxadH5e_ErF63G_pY7hKwOlp0E2YwI9woXjhGC6q8GziTL-Zolui5LrH95msIxmg1pLq4otASFIjh2fA3UQRSX3UKs-OyytXaKR_KUMs/s1600/Microsoft%20Active%20Directory%20Domain%20Services%20Vulnerability%20Let%20Attackers%20Escalate%20Privileges%20%281%29.webp?ssl=1"
+    },
+    {
+      "title": "Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools",
+      "link": "https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/",
+      "description": "Meta is introducing new anti-scam protections across its platforms, deploying systems and user-facing warnings to protect users against scammers. [...]",
+      "pub_date": "Wed, 11 Mar 2026 09:29:29 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Meta Disables 150K Accounts Linked to Southeast Asia Scam Centers in Global Crackdown",
+      "link": "https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html",
+      "description": "Meta on Wednesday said it disabled over 150,000 accounts associated with scam centers in Southeast Asia as part of a coordinated effort in partnership with authorities from Thailand, the U.S., the ...",
+      "pub_date": "Wed, 11 Mar 2026 18:45:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdiU2byr8OVn_Cvv66sMyUa0QaabpGv0bB1Y7u7BxMAryr4PRdDTQLlPMTavhwTj3aaVkNf9lPeXxnygBDTmm5MDETpEcbyJjpN2dt0yx-8MuEwwWXbZm4g0a6BTFfLOekUzBnjPR2qYkIyOP4K3tHRd8am6YbhYIcbSXYVdTt983cyMtYKbd8BgBsy0lu/s1600/whatsapp.gif"
+    },
     {
       "title": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
       "link": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
@@ -160,14 +184,6 @@
       "pub_date": "Tue, 10 Mar 2026 13:41:41 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Microsoft Patch Tuesday March 2026 – 78 Vulnerabilities Fixed, Including One 0-day",
-      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-march-2026/",
-      "description": "Microsoft released its March 2026 Patch Tuesday security update on March 10, 2026, addressing 78 vulnerabilities across Windows, Microsoft Office, Azure, SQL Server, and .NET. The update includes o...",
-      "pub_date": "Tue, 10 Mar 2026 17:31:07 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuS-kgaLfwOSaiAiwUcAfHOE6IAUYbbUedBqQouJQYbxMaYd3l7Z3gyLZa7gpmVRcOGetYd-AnduTcHwrW1IKR3C3M-MVndYX5TvUr-CkAMGqzqlxrQdCJ4O_PCKaACrBy4M1r_DbytYW3O0P8VJqINWfVM6mJ4U848gGUwzX7ZY1nFaMW5SQYr7NdWYsa/s16000/Microsoft%20Patch%20Tuesday%20March%202026.webp?ssl=1"
     },
     {
       "title": "HPE warns of critical AOS-CX flaw allowing admin password resets",
@@ -410,28 +426,12 @@
       "image_url": ""
     },
     {
-      "title": "Google: Cloud attacks exploit flaws more than weak credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/google-cloud-attacks-exploit-flaws-more-than-weak-credentials/",
-      "description": "Hackers are increasingly exploiting newly disclosed vulnerabilities in third-party software to gain initial access to cloud environments, with the window for attacks shrinking from weeks to just da...",
-      "pub_date": "Mon, 09 Mar 2026 17:45:34 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Malicious npm Package Posing as OpenClaw Installer Deploys RAT, Steals macOS Credentials",
       "link": "https://thehackernews.com/2026/03/malicious-npm-package-posing-as.html",
       "description": "Cybersecurity researchers have discovered a malicious npm package that masquerades as an OpenClaw installer to deploy a remote access trojan (RAT) and steal sensitive data from compromised hosts. T...",
       "pub_date": "Tue, 10 Mar 2026 00:01:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWahQ89p408qBpZO2cmP-m44fNG_BRHT34hjfmDGn2WhALZRls9d94ap8uK0ZYXj1JjAgxdDogTHv_1PHloweK3RtglJheCsgulTB0-KrYOgUFI3Gvp4FJiPaV33FVa8I5bl-v92O1IephSEiV_FMU010of5pnmgMQ0ZmBuvY4yC0Bl0ndth42P924uxR/s1600/openclaw.jpg"
-    },
-    {
-      "title": "UNC4899 Breached Crypto Firm After Developer AirDropped Trojanized File to Work Device",
-      "link": "https://thehackernews.com/2026/03/unc4899-used-airdrop-file-transfer-and.html",
-      "description": "The North Korean threat actor known as UNC4899 is suspected to be behind a sophisticated cloud compromise campaign targeting a cryptocurrency organization in 2025 to steal millions of dollars in cr...",
-      "pub_date": "Mon, 09 Mar 2026 20:20:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu3lqP8aiEKLJA-l7TChGGULVqWhyphenhyphenMc67vwAHHEK4LkpR5ZlZuFIYWFmmPqdA8VQpGbFPvjwGvDHxkhXmC9xhTWlRCccD9PyU3A08-ahTc87j__u6g7RvgkwNo85LmbffhVRly_r4Sd9iiVdEvjtVvpcw0NiwOM1NfjNFQXx5xquwbd9E1zUUr09SYv_-A/s1600/crypto.jpg"
     },
     {
       "title": "ZDI-26-172: Unraid Authentication Request Path Traversal Authentication Bypass Vulnerability",
