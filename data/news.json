@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-03-12T09:35:48Z",
+  "last_updated": "2026-03-12T10:31:55Z",
   "articles": [
+    {
+      "title": "Cisco IOS XR Software Vulnerability Allow Attacker to Execute Commands as Root",
+      "link": "https://cybersecuritynews.com/cisco-ios-xr-software-vulnerability-root/",
+      "description": "Cisco has issued a high-severity security advisory warning organizations about two critical privilege-escalation vulnerabilities in its IOS XR Software. If exploited, these flaws could allow an aut...",
+      "pub_date": "Thu, 12 Mar 2026 10:19:30 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFKXhhkJjNn-AJxnuDI6KRUW0Mrsuy-XVc0s1_kM7kQc9_HT_rO00l75TJ2wVSR3T_iTJtyO_s0I5mTlX8kJp_I5ez028fWWqjQCN1Y-kskBXHUba4fA7I17tHYgLem9m28jRn2QIDbu7UVRauziyT9qis_gtM9Z1a6zN3__cljPK_6pN74ri6elWMvLo/s1600/Cisco%20IOS%20XR%20Software%20Vulnerability%20Allow%20attacker%20to%20execute%20commands%20as%20root%20%20%20%281%29.webp?ssl=1"
+    },
+    {
+      "title": "Splunk RCE Vulnerability Allows Attackers to Execute Arbitrary Shell Commands",
+      "link": "https://cybersecuritynews.com/splunk-rce-vulnerability-2/",
+      "description": "A critical security advisory has been released, warning users of a high-severity vulnerability affecting both Enterprise and Cloud platforms. Tracked as CVE-2026-20163, this flaw carries a CVSS sco...",
+      "pub_date": "Thu, 12 Mar 2026 09:43:33 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitJyInPOoMbboDTw6OMNqiu-PtB6ASwAFFPTFdNxXzQk7z3j9RiObeBXSGY6wDZFc3Kp7cnOyJy4FwRaDnzEKQbjG2W35bvGXCbqYiQdbIdOEsNGUum42EyY6h58zpx2ZCfEGMfdnnT3RTnabrquvyK_mPwLZPYBGc4NNaseYMsMbAGLv22D4wFvXraUg/s1600/Splunk%20RCE%20Vulnerability%20Allow%20Attackers%20to%20execute%20arbitrary%20shell%20commands%20%281%29.webp?ssl=1"
+    },
     {
       "title": "SolarWinds Web Help Desk Deserialization Vulnerability Enables Command Execution",
       "link": "https://cybersecuritynews.com/solarwinds-web-help-desk-deserialization-vulnerability/",
@@ -138,14 +154,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMTLKLDP1BIQuPb3-fnJrl5cpfhjHBhFF0Onswskul1eyu4fTPyEpOzUa13oWHQsl-83zPhaSVWBfIDj_RIeaQFrbr9VwCDLVXfUp-QDt5V6Dtd91VvXCO5O0Zm9hPTLOUhbXPQKb6tKdWecJ_ejME8fZX8rQRsRFkg67WdzlSv-g0mOuvhcsFKh9eeG-A/s1600/n8n.jpg"
     },
     {
-      "title": "Microsoft Active Directory Domain Services Vulnerability Let Attackers Escalate Privileges",
-      "link": "https://cybersecuritynews.com/active-directory-domain-services-vulnerability-2/",
-      "description": "An “Important” security update released on March 10, 2026, addresses a high-severity flaw in Active Directory Domain Services (AD DS).Tracked as CVE-2026-25177, this vulnerability has a CVSS sc...",
-      "pub_date": "Wed, 11 Mar 2026 13:30:25 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh82FyVfeAG-XeS3lmn50pWBy46-qOSDVskT3Pngsxx-CuuKdDtXNw-FjGBA8t6u1YRwAv5BLlO_cX0VLmNepcLxadH5e_ErF63G_pY7hKwOlp0E2YwI9woXjhGC6q8GziTL-Zolui5LrH95msIxmg1pLq4otASFIjh2fA3UQRSX3UKs-OyytXaKR_KUMs/s1600/Microsoft%20Active%20Directory%20Domain%20Services%20Vulnerability%20Let%20Attackers%20Escalate%20Privileges%20%281%29.webp?ssl=1"
-    },
-    {
       "title": "Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools",
       "link": "https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/",
       "description": "Meta is introducing new anti-scam protections across its platforms, deploying systems and user-facing warnings to protect users against scammers. [...]",
@@ -168,14 +176,6 @@
       "pub_date": "Wed, 11 Mar 2026 17:56:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcrrEElPNhJ9Cn51FnZPkh9XKFRVQzKwXGWqMzaKySW388TL56lNUbySAgOs9nxMbwCHVmFwxE3UvCVt_H9MtWZfS2euZz9zF-Wrh0mnVf-3kefawk-MvoqjSZd3MOcKzHVgjYWnkWy9iE2Ns-6kauXtWE4K9LJHQdBStJVJHjGCRS4om2dZIHDv7rw3zh/s1600/software-update.jpg"
-    },
-    {
-      "title": "Microsoft Releases Cumulative Updates for Windows 11 25H2/24H2 and 23H2",
-      "link": "https://cybersecuritynews.com/microsoft-cumulative-updates-windows-11/",
-      "description": "Microsoft has released its latest round of cumulative updates for March 2026, delivering essential security fixes and system improvements for Windows 11 users. These mandatory updates target Window...",
-      "pub_date": "Wed, 11 Mar 2026 12:14:08 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis09qUGhyxC6SXb380BoZOSjztEB_yCDo8NSAje9FzvQ4F_9xNfoAJXkKfgHIMzS47AzR_GTqZCg1ez9QmsUflcvAWYzXxvMctNngjOZ1_FRvcJUtPDCiHIHU7P0uYWpeB5_kidYuJ7T0uDAevOfRNyloy480UO-o8ANMwNgoxb_wxxGNac5_eRrGsJh0/s1600/Microsoft%20Releases%20cumulative%20updates%20for%20Windows%2011%2025H224H2%20and%2023H2%20%281%29.webp?ssl=1"
     },
     {
       "title": "What Boards Must Demand in the Age of AI-Automated Exploitation",
