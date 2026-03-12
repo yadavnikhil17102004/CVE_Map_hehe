@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-03-12T15:52:07Z",
+  "last_updated": "2026-03-12T16:52:49Z",
   "articles": [
+    {
+      "title": "Attackers Hijack Microsoft 365 Accounts Through OAuth Device Code Abuse Without Stealing Passwords",
+      "link": "https://cybersecuritynews.com/oauth-device-code-phishing-attack/",
+      "description": "Analysts at ANY.RUN has identified a sharp spike in phishing campaigns exploiting Microsoft\u0026#8217;s OAuth Device Authorization Grant flow, with more than 180 malicious URLs detected within a single...",
+      "pub_date": "Thu, 12 Mar 2026 16:25:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWpvMVEfhmKMCkWwXfyPmb-BvjTybs46dVpE0U3fQhFO1Wrbaw2MZk__vtw7YDRpGmWxFdYjGmvXFv35ALTPiTdbJ6OgO0rriuJyp9PKeUL0XWiFRxWoQRbx0ZwZlbu49bJrv43OyxZ5KSRZONexBmESKYfQSiFZDi8_g7-iOqoJ1ZGJ4oRDreD0-vrw/s16000/Exposing%20OAuth%20Device%20Code%20Phishing%20in%20Microsoft.webp?ssl=1"
+    },
+    {
+      "title": "US disrupts SocksEscort proxy network powered by Linux malware",
+      "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/",
+      "description": "Law enforcement agencies in the U.S. and Europe along with private partners have disrupted the SocksEscort cybercrime proxy network that used only edge devices compromised via the AVRecon malware f...",
+      "pub_date": "Thu, 12 Mar 2026 12:19:56 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Google paid $17.1 million for vulnerability reports in 2025",
       "link": "https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/",
@@ -154,14 +170,6 @@
       "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUFJ3KBbUuhSaQ0Fy9rdctRHshZFQKqhKBQuIUZ0_Wal6nkp3yIDDzVAXHlqnxlczwt1FWV2tU8A9OmkqRaeOrvRC7R5PdNXyOAqiT2vUzAZwJSHsAXxkQLDTTup0EKuImPVRKQppltN-fzyugQYxfStUSsxFvVIQ1v2_k4BFXAYPlpcah2FOjpwJsYKQ/s1600/GitLab%20Security%20Update%20-%20Patch%20for%20XSS%20and%20API%20DoS%20Vulnerabilities%20%281%29.webp?ssl=1"
     },
     {
-      "title": "Hackers Leveraging Cloudflare Anti-Bot Features to Steal Microsoft 365 Credentials",
-      "link": "https://cybersecuritynews.com/cloudflare-anti-bot-features-microsoft-365/",
-      "description": "A sophisticated Microsoft 365 credential harvesting campaign that weaponizes Cloudflare\u0026#8217;s own protective features to evade detection and silently steal user login data. The campaign demonstra...",
-      "pub_date": "Thu, 12 Mar 2026 07:19:57 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWGDFVspawGIuu7Bv1Ze4loJVo9BfnZPA4Ay-jXWuB1_iOpnm-fWwyxPQlALw7DGtWWF0nQnL1oHfNGlska88acj_IYkk5ufjZljAkc6kmlA269XSdjdfjacxW57YkXVegWLe6AlylKgYIoqtPBZOuZ4OqgMuIZ_8dmPwpC7N7LwzZXWHBXeKWeLeglfR1/s16000/Cloudflare%20Anti-Bot%20Features%20Microsoft%20365.webp?ssl=1"
-    },
-    {
       "title": "CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed",
       "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical security flaw impacting n8n to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of...",
@@ -302,14 +310,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/new-zombie-zip-technique-lets-malware-slip-past-security-tools/",
       "description": "A new technique dubbed \"Zombie ZIP\" helps conceal payloads in compressed files specially created to avoid detection from security solutions such as antivirus and endpoint detection and response (E...",
       "pub_date": "Tue, 10 Mar 2026 16:05:39 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft releases Windows 10 KB5078885 extended security update",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/",
-      "description": "Microsoft has released the Windows 10 KB5078885 extended security update to fix the March 2026 Patch Tuesday vulnerabilities, including 2 zero-days and an issue that prevent some devices from shut...",
-      "pub_date": "Tue, 10 Mar 2026 14:23:35 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -522,6 +522,54 @@
       "image_url": ""
     },
     {
+      "title": "Siemens SIDIS Prime",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-03",
+      "description": "View CSAF Summary SIDIS Prime before V4.0.800 is affected by multiple vulnerabilities in the components OpenSSL, SQLite, and several Node.js packages as described below. Siemens has released a new ...",
+      "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens RUGGEDCOM APE1808 Devices",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-02",
+      "description": "View CSAF Summary Fortinet has published information on vulnerabilities in FORTIOS. This advisory lists the related Siemens Industrial products. Siemens has released a new version for RUGGEDCOM APE...",
+      "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens SIMATIC",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-04",
+      "description": "View CSAF Summary SIMATIC S7-1500 devices contain a vulnerability that could allow an attacker to inject code by tricking a legitimate user into importing a specially crafted trace file in the web ...",
+      "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Trane Tracer SC, Tracer SC+, and Tracer Concierge",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, execute arbitrary commands, or perform a denial-of-service on the produ...",
+      "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens Heliox EV Chargers",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-05",
+      "description": "View CSAF Summary Heliox EV Chargers listed below contain improper access control vulnerability that could allow an attacker to reach unauthorized services via the charging cable. Siemens has relea...",
+      "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Inductive Automation Ignition Software",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-06",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute malicious code with OS application service account permissions that the authenticated, privileged ...",
+      "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2025-68613 n8n Improper Control of Dynamically-Managed Code...",
@@ -582,54 +630,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/03/05/cisa-adds-five-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added five new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2017-7921 Hikvision Multiple Products Improper Authentic...",
       "pub_date": "Thu, 05 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Labkotec LID-3300IP",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-05",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to gain unauthorized control over system operations, leading to disruption of normal functionality and potentia...",
-      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Mobiliti e-mobi.hu",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-06",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
-      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/03/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-21385 Qualcomm Multiple Chipsets Memory Corruption V...",
-      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Hitachi Energy RTU500 Product",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-03",
-      "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. Successful exploitation of these vulnerabilities can result in the exposure...",
-      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Everon OCPP Backends",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-08",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
-      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ePower epower.ie",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-07",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
-      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
