@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-03-12T17:43:39Z",
+  "last_updated": "2026-03-12T18:42:21Z",
   "articles": [
+    {
+      "title": "Rust-Based VENON Malware Targets 33 Brazilian Banks with Credential-Stealing Overlays",
+      "link": "https://thehackernews.com/2026/03/rust-based-venon-malware-targets-33.html",
+      "description": "Cybersecurity researchers have disclosed details of a new banking malware targeting Brazilian users that's written in Rust, marking a significant departure from other known Delphi-based malware fam...",
+      "pub_date": "Thu, 12 Mar 2026 23:01:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjBG0q0txzazIOX6qmjJRAOlDmf27AY4QSQqf6Yqm4RUF6iNRgbo4T9mFhUoYDved5zs0MBrJYPTjpGhvs0ZWjUhlckqK97St9FlJrVT2BOKfslWcA_42FOySa0HT7razFyzHt2AKP76uwVzjDvYTwkNTs2M-TeC7Ospf0uLvbI6OGYhWh7Lf33DA9gCUt/s1600/banking-trojan.jpg"
+    },
+    {
+      "title": "Hive0163 Uses AI-Assisted Slopoly Malware for Persistent Access in Ransomware Attacks",
+      "link": "https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html",
+      "description": "Cybersecurity researchers have disclosed details of a suspected artificial intelligence (AI)-generated malware codenamed Slopoly put to use by a financially motivated threat actor named Hive0163. \"...",
+      "pub_date": "Thu, 12 Mar 2026 22:32:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAvQYbgT2Bzyhv6lldqV781Ec5C2EKl2Y-ezdEDwakAZnizcub5ZIyJxZKg-fouq4L04gr_sNDHb5JPVhoOYYRKLnzo_TQqAiOFCPycF2EfjVA2wpA3ak9ZgfUFXCi_O9Pwx2GdtCDo3u6PFlheeR9IC2OMfGF5XZ8Cr-53uP01xsQxEGDQ8AO3rbvka8e/s1600/ransomware-ai.jpg"
+    },
     {
       "title": "Veeam warns of critical flaws exposing backup servers to RCE attacks",
       "link": "https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/",
@@ -290,14 +306,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFUREkqLhVFM9jnUqkHPMEmAj2KBdTrXOX_m8t7zEUdK4NE16BBL0XQHZ9q4KPVDfKecgf4KE64vzAW9XDvn6axd6fIU9WZy5Lqe348eT7rKvmsLU3ByDPajxWFlkTt6CQTNkmNv8e57XrvWAaM-YaXtD0QP1-grx4XPtV_Osxw-vjtPfw4A70O5x41yvq/s1600/aws.jpg"
     },
     {
-      "title": "Five Malicious Rust Crates and AI Bot Exploit CI/CD Pipelines to Steal Developer Secrets",
-      "link": "https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html",
-      "description": "Cybersecurity researchers have discovered five malicious Rust crates that masquerade as time-related utilities to transmit .env file data to the threat actors. The Rust packages, published to crate...",
-      "pub_date": "Wed, 11 Mar 2026 10:42:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzAdo0qx6xgUYxpWZkp4v30357zGX7ojSkN1vbfazb6D_JiXd9ksAHFNZJzY6pleKYV_HeYZcgJ48U36zUMPSJFR9bPUvFz18THXzTTnvhembJW9wrCypxj_2ttelgwbBwOD__5Yr-WGIBw1XthSLi6UZy3QtLZfmt7j_P8fOxZmm0PQwPAMCtNKkQzz1n/s1600/rust.jpg"
-    },
-    {
       "title": "New ‘BlackSanta’ EDR killer spotted targeting HR departments",
       "link": "https://www.bleepingcomputer.com/news/security/new-blacksanta-edr-killer-spotted-targeting-hr-departments/",
       "description": "For more than a year, a Russian-speaking threat actor targeted human resource (HR) departments with malware that delivers a new EDR killer named BlackSanta. [...]",
@@ -312,14 +320,6 @@
       "pub_date": "Tue, 10 Mar 2026 17:27:59 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "FortiGate Devices Exploited to Breach Networks and Steal Service Account Credentials",
-      "link": "https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html",
-      "description": "Cybersecurity researchers are calling attention to a new campaign where threat actors are abusing FortiGate Next-Generation Firewall (NGFW) appliances as entry points to breach victim networks.\u0026nbs...",
-      "pub_date": "Tue, 10 Mar 2026 21:51:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaob2yqCn3sfdJzP_Cg84pqsU3I0R7XKt1LiMZLkgr3o3IHIWwarYiLwvqGKig4ZFF4-Hdc2hq79QyM_xSbyGp2CsGZNA4X1ZHjxaY0NUeiFjBEMtbQHD45QQzSTtGTzJP8z7EfsJYnikYmV4dipwkSniPMgPaboch1EP4S-lmtjvrJ9eY-WcfWHMsOB89/s1600/fortinet-exploit.jpg"
     },
     {
       "title": "ZDI-26-186: Fortinet FortiClient Link Following Local Privilege Escalation Vulnerability",
