@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-03-13T16:31:28Z",
+  "last_updated": "2026-03-13T17:28:56Z",
   "articles": [
+    {
+      "title": "Poland's nuclear research centre targeted by cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/",
+      "description": "Poland's National Centre for Nuclear Research (NCBJ) says hackers targeted its IT infrastructure, but the attack was detected and blocked before causing any impact. [...]",
+      "pub_date": "Fri, 13 Mar 2026 13:11:37 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft investigates classic Outlook sync and connection issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/",
+      "description": "​Microsoft is investigating several issues causing email synchronization and connection problems when using the classic Outlook desktop client. [...]",
+      "pub_date": "Fri, 13 Mar 2026 12:53:02 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "INTERPOL Dismantles 45,000 Malicious IPs, Arrests 94 in Global Cybercrime",
       "link": "https://thehackernews.com/2026/03/interpol-dismantles-45000-malicious-ips.html",
@@ -258,14 +274,6 @@
       "image_url": ""
     },
     {
-      "title": "Apple patches older iPhones and iPads against Coruna exploits",
-      "link": "https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/",
-      "description": "​Apple has released security updates to patch older iPhones and iPads against a set of vulnerabilities targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. [...]",
-      "pub_date": "Thu, 12 Mar 2026 09:43:46 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "How to Scale Phishing Detection in Your SOC: 3 Steps for CISOs",
       "link": "https://thehackernews.com/2026/03/how-to-scale-phishing-detection-in-your.html",
       "description": "Phishing has quietly turned into one of the hardest enterprise threats to expose early. Instead of crude lures and obvious payloads, modern campaigns rely on trusted infrastructure, legitimate-look...",
@@ -280,14 +288,6 @@
       "pub_date": "Thu, 12 Mar 2026 18:44:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXV4c7kTpbuiCqYlpV1_7JzOZ3Pz-M51G5q4u6vUoAjUZF32E3z0pJ7mNpG3gz4N9ai7SaQ-nDNpYJWfLc7e8CeYKCeNJQH8OAljb8V6HB_r4s1MWBYCoduTSf4iPbtpSqnIxpp2uXGGikUKEXUVlhEtFeB_Ddaw83fcaC9tmy-mBCWNRBzNnFoNyJTxDV/s1600/tday.jpg"
-    },
-    {
-      "title": "US charges another ransomware negotiator linked to BlackCat attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/",
-      "description": "The U.S. Department of Justice charged another former DigitalMint employee for his involvement in an insider scheme in which ransomware negotiators secretly partnered with the BlackCat (ALPHV) rans...",
-      "pub_date": "Thu, 12 Mar 2026 07:31:57 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Attackers Don't Just Send Phishing Emails. They Weaponize Your SOC's Workload",
@@ -522,6 +522,14 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-3909 Google Skia Out-of-Bounds Write Vulnerability C...",
+      "pub_date": "Fri, 13 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Siemens SIDIS Prime",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-03",
       "description": "View CSAF Summary SIDIS Prime before V4.0.800 is affected by multiple vulnerabilities in the components OpenSSL, SQLite, and several Node.js packages as described below. Siemens has released a new ...",
@@ -554,17 +562,17 @@
       "image_url": ""
     },
     {
-      "title": "Siemens Heliox EV Chargers",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-05",
-      "description": "View CSAF Summary Heliox EV Chargers listed below contain improper access control vulnerability that could allow an attacker to reach unauthorized services via the charging cable. Siemens has relea...",
+      "title": "Inductive Automation Ignition Software",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-06",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute malicious code with OS application service account permissions that the authenticated, privileged ...",
       "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Inductive Automation Ignition Software",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-06",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute malicious code with OS application service account permissions that the authenticated, privileged ...",
+      "title": "Siemens Heliox EV Chargers",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-05",
+      "description": "View CSAF Summary Heliox EV Chargers listed below contain improper access control vulnerability that could allow an attacker to reach unauthorized services via the charging cable. Siemens has relea...",
       "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -618,14 +626,6 @@
       "image_url": ""
     },
     {
-      "title": "Delta Electronics CNCSoft-G2",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-064-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker achieving remote code execution on the device. The following versions of Delta Electronics CNCSoft-G2 are...",
-      "pub_date": "Thu, 05 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "CISA Adds Five Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/03/05/cisa-adds-five-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added five new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2017-7921 Hikvision Multiple Products Improper Authentic...",
@@ -634,10 +634,10 @@
       "image_url": ""
     },
     {
-      "title": "Mitsubishi Electric MELSEC iQ-F Series EtherNet/IP module and Ethernet module",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-62-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a remote attacker to cause a denial-of-service condition by continuously sending UDP packets to the affected products....",
-      "pub_date": "Tue, 03 Mar 26 12:00:00 +0000",
+      "title": "Delta Electronics CNCSoft-G2",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-064-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker achieving remote code execution on the device. The following versions of Delta Electronics CNCSoft-G2 are...",
+      "pub_date": "Thu, 05 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
