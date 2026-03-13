@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-03-13T04:05:39Z",
+  "last_updated": "2026-03-13T05:42:53Z",
   "articles": [
+    {
+      "title": "Veeam Patches 7 Critical Backup \u0026 Replication Flaws Allowing Remote Code Execution",
+      "link": "https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html",
+      "description": "Veeam has released security updates to address multiple critical vulnerabilities in its Backup \u0026amp; Replication software that, if successfully exploited, could result in remote code execution. The...",
+      "pub_date": "Fri, 13 Mar 2026 09:45:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVixoCttO0Li1BNrJG6s8rsycHEzgVh52YFA_RHnrq4QMjt3fPQuKCJfw8rqCMZtgrSGrXxpPvTyhWQ_rD0D44_3TvBfNC0Eq_VRSWIqDFpDFdKdHMwQIidTX8E4Kc4iiWt3xcwhW_YC8oKLTZFMWN-uyCUjtIavnhXRHbs3gJOLuTUI1zg79tkK4gpsaQ/s1600/veeam.png"
+    },
+    {
+      "title": "Critical CrackArmor Vulnerabilities Expose 12.6 Million Linux Servers to Complete Root Takeover",
+      "link": "https://cybersecuritynews.com/crackarmor-vulnerability/",
+      "description": "Nine critical vulnerabilities have been discovered in AppArmor, which is a widely used mandatory access control framework for Linux. These vulnerabilities, collectively referred to as \u0026#8220;CrackA...",
+      "pub_date": "Fri, 13 Mar 2026 04:05:35 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzxL1VjjbtPAQjQcIkMqYcHyDwAJr_WK1z2zNxcCN0g6-Wkwwil5MnUIE6KOMA1u9_Zspxl_Jm_nDM2lhCB-RjiIh5O0e9t86P_KrABNDyCRkNCCqUpboAR_ZRf3oZVmQFPRlj5DY5iFG2SfVJQODRAscr_RVC7sDfF0u14lW0_zHnNCvdZp8BxBebu0AY/s16000/CrackArmor.webp?ssl=1"
+    },
     {
       "title": "OpenSSH GSSAPI Vulnerability Allow an Attacker to Crash SSH Child Processes",
       "link": "https://cybersecuritynews.com/openssh-gssapi-vulnerability/",
@@ -202,14 +218,6 @@
       "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitJyInPOoMbboDTw6OMNqiu-PtB6ASwAFFPTFdNxXzQk7z3j9RiObeBXSGY6wDZFc3Kp7cnOyJy4FwRaDnzEKQbjG2W35bvGXCbqYiQdbIdOEsNGUum42EyY6h58zpx2ZCfEGMfdnnT3RTnabrquvyK_mPwLZPYBGc4NNaseYMsMbAGLv22D4wFvXraUg/s1600/Splunk%20RCE%20Vulnerability%20Allow%20Attackers%20to%20execute%20arbitrary%20shell%20commands%20%281%29.webp?ssl=1"
     },
     {
-      "title": "SolarWinds Web Help Desk Deserialization Vulnerability Enables Command Execution",
-      "link": "https://cybersecuritynews.com/solarwinds-web-help-desk-deserialization-vulnerability/",
-      "description": "Cybersecurity authorities have flagged a severe security flaw in SolarWinds Web Help Desk that requires immediate attention from system administrators. Tracked as CVE-2025-26399, this vulnerability...",
-      "pub_date": "Thu, 12 Mar 2026 09:33:10 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDHIp5YtOtwftPHy47In8RVPiF85rmqMp28AQHlDUJLLdMb4WVzthcYmLDPfG2FRI0wlZSjDSR3fa33KHbtRopk5yDtYh9Me5PzV8INNpcYIgugNHWpBVxQQrjx_7RgLyodgdU5-RI1sSAmBQIqovRHSC6gDIbCigcZ1DICgVyR-fVLH-GhcR0CgLwDwQ/s1600/SolarWinds%20Web%20Help%20Desk%20Deserialization%20Vulnerability%20Enables%20Command%20Execution%20%281%29.webp?ssl=1"
-    },
-    {
       "title": "Six Android Malware Families Target Pix Payments, Banking Apps, and Crypto Wallets",
       "link": "https://thehackernews.com/2026/03/six-android-malware-families-target-pix.html",
       "description": "Cybersecurity researchers have discovered half-a-dozen new Android malware families that come with capabilities to steal data from compromised devices and conduct financial fraud. The Android malwa...",
@@ -312,14 +320,6 @@
       "pub_date": "Wed, 11 Mar 2026 14:45:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipDVdeJebBFVnXLhsh2P4nBqmuh4R-UtLH7ZFvyw1W95zBU4YX4GF6I1WZ7g3ALEq596lEFr6q8iuGZ_PG2D12h67cLuNhCnSplkg_kDNbKyvTJnByhz2WAeAL9YHXCpJp0D3UOnhuydFZ6-jfXi6DLx5upod8egCtZ2lZhmbUzIprEusPyz0efzBMFzFI/s1600/windows-patch.jpg"
-    },
-    {
-      "title": "UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours",
-      "link": "https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html",
-      "description": "A threat actor known as UNC6426 leveraged keys stolen following the supply chain compromise of the nx npm package last year to completely breach a victim's cloud environment within a span of 72 hou...",
-      "pub_date": "Wed, 11 Mar 2026 13:01:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFUREkqLhVFM9jnUqkHPMEmAj2KBdTrXOX_m8t7zEUdK4NE16BBL0XQHZ9q4KPVDfKecgf4KE64vzAW9XDvn6axd6fIU9WZy5Lqe348eT7rKvmsLU3ByDPajxWFlkTt6CQTNkmNv8e57XrvWAaM-YaXtD0QP1-grx4XPtV_Osxw-vjtPfw4A70O5x41yvq/s1600/aws.jpg"
     },
     {
       "title": "ZDI-26-186: Fortinet FortiClient Link Following Local Privilege Escalation Vulnerability",
