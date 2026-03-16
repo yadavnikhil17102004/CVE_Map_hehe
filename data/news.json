@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-03-16T12:53:34Z",
+  "last_updated": "2026-03-16T14:17:19Z",
   "articles": [
+    {
+      "title": "Shadow AI is everywhere. Here’s how to find and secure it.",
+      "link": "https://www.bleepingcomputer.com/news/security/shadow-ai-is-everywhere-heres-how-to-find-and-secure-it/",
+      "description": "Shadow AI is quietly spreading across SaaS environments as employees adopt new AI tools without IT oversight. Nudge Security explains how security teams can discover AI apps, monitor usage, and gov...",
+      "pub_date": "Mon, 16 Mar 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Betterleaks – A New Open-Source Tool to Scan Directories, Files, and Git Repositories",
+      "link": "https://cybersecuritynews.com/betterleaks-tool/",
+      "description": "The creator of the widely popular Gitleaks tool has launched a new open-source secrets scanner called Betterleaks. Sponsored by Aikido Security, this modern tool is a faster, highly configurable su...",
+      "pub_date": "Mon, 16 Mar 2026 13:40:25 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1ctqxJqALdVWZ_x_dUu0j71L0cqi8yJHkhd03UrfspgN51GwQudzJxrKDTwHJ1VfEG47Jcx6_Ao4VYEkDBLxBsdMgl2s2zFobSuo4m5uwAbUZVpjHZ2EC27f7suvUGRpaSyL2qez0zruaTzzIGN05FgoMlxjbNEkmhN89oHlSawUsuiPXP9IK8ZfrBwU/s1600/Betterleaks%20-%20A%20new%20open-source%20tool%20to%20scan%20directories,%20files,%20and%20git%20repositories%20%281%29.webp?ssl=1"
+    },
+    {
+      "title": "Konni APT Hijacks KakaoTalk Accounts to Spread Malware in Multi-Stage Spear-Phishing Campaign",
+      "link": "https://cybersecuritynews.com/konni-apt-hijacks-kakaotalk-accounts/",
+      "description": "A threat group known as Konni APT has been caught running a multi-stage attack campaign that starts with targeted spear-phishing emails and ends with hijacking victims\u0026#8217; KakaoTalk messaging ac...",
+      "pub_date": "Mon, 16 Mar 2026 13:20:42 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOlsrFNEBA2rw9a5CNy5czA-OeBJofI4_z-QzTwcTLuFG9ehyinGhrN7XHR32Igh7t6lSQmZo3X-CKCEjVRQ_0o1Iesy1LQ8lmnSjw0xglqoMhfrgAb-TuF9MIB_iPkobFNKxQ4hSDKiltvZ0odD1LdRkr-ADaAt4KQrAcE2ItIB94BSKXp0cuitwH-5k/s16000/Konni%20APT%20Hijacks%20KakaoTalk%20Accounts%20to%20Spread%20Malware%20in%20Multi-Stage%20Spear-Phishing%20Campaign.webp?ssl=1"
+    },
+    {
+      "title": "Microsoft pulls Samsung app blocking Windows C: drive from Store",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/",
+      "description": "​Microsoft has removed the Samsung Galaxy Connect app from the Microsoft Store because it was causing issues on specific Samsung Galaxy Book 4 and desktop models running Windows 11. [...]",
+      "pub_date": "Mon, 16 Mar 2026 09:14:32 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Why Security Validation Is Becoming Agentic",
       "link": "https://thehackernews.com/2026/03/why-security-validation-is-becoming.html",
@@ -146,22 +178,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4d-2XpiCS0UYnMWh32sQEJP9LnlN_m7m2hok9CnY_vu05XXwWn4INodYCvrEdweEzpho7XqcuOFvEPnnEWlHCRa_q3HY3V5O_ii35MVWAimRwsgrpNQrvGqeUchhZ48FRUl91zTpYQdLMRxVvRjV_T8GEm-J9mnMesefzlgeaoE_EU7Ba32liTr63SsQq/s1600/open.jpg"
     },
     {
-      "title": "Malicious npm Packages Posing as Solara Executor Target Discord, Browsers, and Crypto Wallets",
-      "link": "https://cybersecuritynews.com/malicious-npm-packages-target-discord-browsers-and-crypto-wallets/",
-      "description": "JFrog security researchers Guy Korolevski and Meitar Palas uncovered a sophisticated supply chain attack on the npm ecosystem on March 12, 2026, in which threat actors disguised an information-stea...",
-      "pub_date": "Sat, 14 Mar 2026 08:20:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSDcohv85sZ1_z1EE7OQWxch-Nl1MkBOh8hMrSThcA7idfNX62EhVN3sZhAewGWthY4KC2MBg5zgrerd2hCBfnrLukleP0hse3r8TMi4M7ePOh80TXVJ6rotm24tAfnkwVW2J5PX6HGxiBWMupo16b4NESxun6fGZGBsG7eb3QXIJnI-L72kpOgTCLwddR/s1600/Malicious%20npm%20Campaign%20Impersonates%20Solara%20Executor%20to%20Steal%20Discord%20and%20Crypto%20Wallet%20Data%20%282%29%20%281%29.webp?ssl=1"
-    },
-    {
-      "title": "GlassWorm Campaign Uses 72 Malicious Open VSX Extensions to Broaden Reach",
-      "link": "https://cybersecuritynews.com/glassworm-campaign-uses-72-malicious-open-vsx-extensions/",
-      "description": "In a major escalation of supply chain attacks, the GlassWorm malware campaign has evolved to infect developer environments using transitive dependencies. On March 13, 2026, the Socket Research Team...",
-      "pub_date": "Sat, 14 Mar 2026 07:28:42 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJiCpgN5whP1_7rtq2w68M7xQUGynuagISOPM7Db74FSwQ6WEHr5pw1SvVVNbKqG73gkXr9-ALKpHV5p7ONjPZTqRDLEWL4-ihDx8uJqEZMA553OJ3Uwk82t2bZ3Fp7m-x8mlZ5nJF6cMvjaiZE_MnK4CuDgy1hkUtMVRMgwCTMqehkpDxuNy455th7e-p/s1600/GlassWorm%20Spreads%20via%2072%20Malicious%20Open%20VSX%20Extensions%20Hidden%20in%20Transitive%20Dependencies%20%281%29%20%281%29%20%281%29.webp?ssl=1"
-    },
-    {
       "title": "Microsoft: Windows 11 users can't access C: drive on some Samsung PCs",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/",
       "description": "Microsoft is investigating a new issue affecting some Samsung laptops running Windows 11 after installing the February 2026 security updates, in which users lose access to their C:\u0026#092; drive and ...",
@@ -304,22 +320,6 @@
       "pub_date": "Fri, 13 Mar 2026 09:45:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVixoCttO0Li1BNrJG6s8rsycHEzgVh52YFA_RHnrq4QMjt3fPQuKCJfw8rqCMZtgrSGrXxpPvTyhWQ_rD0D44_3TvBfNC0Eq_VRSWIqDFpDFdKdHMwQIidTX8E4Kc4iiWt3xcwhW_YC8oKLTZFMWN-uyCUjtIavnhXRHbs3gJOLuTUI1zg79tkK4gpsaQ/s1600/veeam.png"
-    },
-    {
-      "title": "Canadian retail giant Loblaw notifies customers of data breach",
-      "link": "https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/",
-      "description": "Still, out of an abundance of caution, Loblaw says it has automatically logged out all customers from their accounts. Account holders who need to access the company's digital services will have to ...",
-      "pub_date": "Thu, 12 Mar 2026 17:32:21 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "England Hockey investigating ransomware data breach",
-      "link": "https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/",
-      "description": "England Hockey, the governing body for field hockey in England, is investigating a potential data breach after the AiLock ransomware gang listed it as a victim on its data leak site. [...]",
-      "pub_date": "Thu, 12 Mar 2026 16:37:16 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "ZDI-26-186: Fortinet FortiClient Link Following Local Privilege Escalation Vulnerability",
