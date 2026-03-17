@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T19:51:13Z",
+  "last_updated": "2026-03-17T20:31:38Z",
   "articles": [
     {
       "title": "Europe sanctions Chinese and Iranian firms for cyberattacks",
@@ -192,6 +192,14 @@
       "pub_date": "Tue, 17 Mar 2026 10:53:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHrElxuBmshJ8wNl7qURDxcn2YLWxn07Uco53YCLhDLFqoS-exUpqGau4x9eFOvHq_KXg3ifLU3wVbZvhZExQ2XJJeWePG6zqRjrug6hAdOZaGcs78e68M7J23XMJWCXegidndqdayfGyPZt8mpLTExvPl_YJS8Nn5mPn4aEzlUKdU0B8J6-NtRX8_ncw7/s1600/cisa-ftp.jpg"
+    },
+    {
+      "title": "ZDI-26-216: (Pwn2Own) QNAP TS-453E smbd domain_name Argument Injection Authentication Bypass Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-216/",
+      "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of QNAP TS-453E devices. Authentication is not required to exploit this vulnerability. The ZD...",
+      "pub_date": "Tue, 17 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push Malware Into Python Repos",
@@ -397,14 +405,6 @@
       "title": "ZDI-26-202: (Pwn2Own) QNAP TS-453E  Hyper Data Protector Plugin query_original_file_size SQL Injection Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-202/",
       "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of QNAP TS-453E. Although authentication is required to exploit this vulnerability, the exis...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-201: (Pwn2Own) QNAP TS-453E Hyper Data Protector Plugin Hard-Coded Credentials Authentication Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-201/",
-      "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of QNAP TS-453E devices. Authentication is not required to exploit this vulnerability. The ZD...",
       "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
