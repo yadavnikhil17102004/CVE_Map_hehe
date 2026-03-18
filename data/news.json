@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T21:28:02Z",
+  "last_updated": "2026-03-18T22:26:13Z",
   "articles": [
     {
       "title": "CISA orders feds to patch Zimbra XSS flaw exploited in attacks",
@@ -523,6 +523,22 @@
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2025-66376 Synacor Zimbra Collaboration Suite (ZCS) Cross-S...",
+      "pub_date": "Wed, 18 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "CISA Urges Endpoint Management System Hardening After Cyberattack Against US Organization",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-urges-endpoint-management-system-hardening-after-cyberattack-against-us-organization",
+      "description": "CISA is aware of malicious cyber activity targeting endpoint management systems of U.S. organizations based on the March 11, 2026 cyberattack against U.S.-based medical technology firm Stryker Corp...",
+      "pub_date": "Wed, 18 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog-0",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-20963 Microsoft SharePoint Deserialization of Untruste...",
       "pub_date": "Wed, 18 Mar 26 12:00:00 +0000",
@@ -530,10 +546,10 @@
       "image_url": ""
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2025-66376 Synacor Zimbra Collaboration Suite (ZCS) Cross-S...",
-      "pub_date": "Wed, 18 Mar 26 12:00:00 +0000",
+      "title": "Siemens SICAM SIAPP SDK",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-076-04",
+      "description": "View CSAF Summary The SICAM SIAPP SDK contains multiple vulnerabilities that could allow an attacker to disrupt the customer-developed SIAPP or its simulation environment. Potential impacts include...",
+      "pub_date": "Tue, 17 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
@@ -557,14 +573,6 @@
       "title": "Schneider Electric EcoStruxure Data Center Expert",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-076-03",
       "description": "View CSAF Summary Schneider Electric is aware of a hard-coded credentials vulnerability in its EcoStruxure IT Data Center Expert (DCE) product that requires administrator credentials and enabling a...",
-      "pub_date": "Tue, 17 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens SICAM SIAPP SDK",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-076-04",
-      "description": "View CSAF Summary The SICAM SIAPP SDK contains multiple vulnerabilities that could allow an attacker to disrupt the customer-developed SIAPP or its simulation environment. Potential impacts include...",
       "pub_date": "Tue, 17 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -630,14 +638,6 @@
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-03",
       "description": "View CSAF Summary SIDIS Prime before V4.0.800 is affected by multiple vulnerabilities in the components OpenSSL, SQLite, and several Node.js packages as described below. Siemens has released a new ...",
       "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2025-68613 n8n Improper Control of Dynamically-Managed Code...",
-      "pub_date": "Wed, 11 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
