@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-03-18T17:54:57Z",
+  "last_updated": "2026-03-18T18:50:23Z",
   "articles": [
+    {
+      "title": "ConnectWise patches new flaw allowing ScreenConnect hijacking",
+      "link": "https://www.bleepingcomputer.com/news/security/connectwise-patches-new-flaw-allowing-screenconnect-hijacking/",
+      "description": "ConnectWise is warning ScreenConnect customers of a cryptographic signature verification vulnerability that could lead to unauthorized access and privilege escalation. [...]",
+      "pub_date": "Wed, 18 Mar 2026 14:10:35 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Cisco Firewall 0-day Vulnerability Exploited in the Wild to Deploy Interlock Ransomware",
       "link": "https://cybersecuritynews.com/cisco-firewall-0-day-ransomware/",
@@ -290,14 +298,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft: Enabling Teams Meeting add-in breaks Outlook Classic",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enabling-teams-meeting-add-in-breaks-outlook-classic/",
-      "description": "Microsoft is working to address a known issue that renders the classic Outlook email client unusable for users who have enabled the Microsoft Teams Meeting Add-in. [...]",
-      "pub_date": "Tue, 17 Mar 2026 06:37:19 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Konni Deploys EndRAT Through Phishing, Uses KakaoTalk to Propagate Malware",
       "link": "https://thehackernews.com/2026/03/konni-deploys-endrat-through-spear.html",
       "description": "North Korean threat actors have been observed sending phishing to compromise targets and obtain access to a victim's KakaoTalk desktop application to distribute malicious payloads to certain contac...",
@@ -522,17 +522,25 @@
       "image_url": ""
     },
     {
-      "title": "Siemens SICAM SIAPP SDK",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-076-04",
-      "description": "View CSAF Summary The SICAM SIAPP SDK contains multiple vulnerabilities that could allow an attacker to disrupt the customer-developed SIAPP or its simulation environment. Potential impacts include...",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2025-66376 Synacor Zimbra Collaboration Suite (ZCS) Cross-S...",
+      "pub_date": "Wed, 18 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "CODESYS in Festo Automation Suite",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-076-01",
+      "description": "View CSAF Summary 3. TECHNICAL DETAILS The following versions of CODESYS in Festo Automation Suite are affected:  FESTO Software Festo Automation Suite (versions prior to 2.8.0.138) installed with ...",
       "pub_date": "Tue, 17 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Schneider Electric EcoStruxure Data Center Expert",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-076-03",
-      "description": "View CSAF Summary Schneider Electric is aware of a hard-coded credentials vulnerability in its EcoStruxure IT Data Center Expert (DCE) product that requires administrator credentials and enabling a...",
+      "title": "Siemens SICAM SIAPP SDK",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-076-04",
+      "description": "View CSAF Summary The SICAM SIAPP SDK contains multiple vulnerabilities that could allow an attacker to disrupt the customer-developed SIAPP or its simulation environment. Potential impacts include...",
       "pub_date": "Tue, 17 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -546,9 +554,9 @@
       "image_url": ""
     },
     {
-      "title": "CODESYS in Festo Automation Suite",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-076-01",
-      "description": "View CSAF Summary 3. TECHNICAL DETAILS The following versions of CODESYS in Festo Automation Suite are affected:  FESTO Software Festo Automation Suite (versions prior to 2.8.0.138) installed with ...",
+      "title": "Schneider Electric EcoStruxure Data Center Expert",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-076-03",
+      "description": "View CSAF Summary Schneider Electric is aware of a hard-coded credentials vulnerability in its EcoStruxure IT Data Center Expert (DCE) product that requires administrator credentials and enabling a...",
       "pub_date": "Tue, 17 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -570,33 +578,17 @@
       "image_url": ""
     },
     {
-      "title": "Siemens SIDIS Prime",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-03",
-      "description": "View CSAF Summary SIDIS Prime before V4.0.800 is affected by multiple vulnerabilities in the components OpenSSL, SQLite, and several Node.js packages as described below. Siemens has released a new ...",
-      "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens RUGGEDCOM APE1808 Devices",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-02",
-      "description": "View CSAF Summary Fortinet has published information on vulnerabilities in FORTIOS. This advisory lists the related Siemens Industrial products. Siemens has released a new version for RUGGEDCOM APE...",
-      "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens SIMATIC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-04",
-      "description": "View CSAF Summary SIMATIC S7-1500 devices contain a vulnerability that could allow an attacker to inject code by tricking a legitimate user into importing a specially crafted trace file in the web ...",
-      "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "Trane Tracer SC, Tracer SC+, and Tracer Concierge",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-01",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, execute arbitrary commands, or perform a denial-of-service on the produ...",
+      "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Inductive Automation Ignition Software",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-06",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute malicious code with OS application service account permissions that the authenticated, privileged ...",
       "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -610,9 +602,25 @@
       "image_url": ""
     },
     {
-      "title": "Inductive Automation Ignition Software",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-06",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute malicious code with OS application service account permissions that the authenticated, privileged ...",
+      "title": "Siemens SIMATIC",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-04",
+      "description": "View CSAF Summary SIMATIC S7-1500 devices contain a vulnerability that could allow an attacker to inject code by tricking a legitimate user into importing a specially crafted trace file in the web ...",
+      "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens RUGGEDCOM APE1808 Devices",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-02",
+      "description": "View CSAF Summary Fortinet has published information on vulnerabilities in FORTIOS. This advisory lists the related Siemens Industrial products. Siemens has released a new version for RUGGEDCOM APE...",
+      "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens SIDIS Prime",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-03",
+      "description": "View CSAF Summary SIDIS Prime before V4.0.800 is affected by multiple vulnerabilities in the components OpenSSL, SQLite, and several Node.js packages as described below. Siemens has released a new ...",
       "pub_date": "Thu, 12 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -629,14 +637,6 @@
       "title": "Honeywell IQ4x BMS Controller",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-069-03",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthorized attacker to access controller management settings, control components, disclose information, or cause a d...",
-      "pub_date": "Tue, 10 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Ceragon Siklu MultiHaul and EtherHaul Series",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-069-04",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in arbitrary file upload to the target equipment. The following versions of Ceragon Siklu MultiHaul and EtherHaul Series...",
       "pub_date": "Tue, 10 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
