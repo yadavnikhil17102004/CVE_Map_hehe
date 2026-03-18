@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-03-18T11:39:58Z",
+  "last_updated": "2026-03-18T12:52:38Z",
   "articles": [
+    {
+      "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE",
+      "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+      "description": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitr...",
+      "pub_date": "Wed, 18 Mar 2026 18:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm7eXnUZ_n354WSYj7Qjrk3sBFZkhyQ41VtRezIQRVo3KqzZJDE_A7CqshkkQ6RCiOyS1zuS8liODqSRGhURLUozRKEDZ6BmKyOxBVy8K0EF5TQB5QlyC7c1Cv0mHSj0BNwtGAS-PgOUobvSWJ1b82qWBHCMEocTyoOayx69DzM_gveQSuD1zbjYAjziX7/s1600/linux.jpg"
+    },
+    {
+      "title": "Critical Telnetd Vulnerability Enables Remote Attacker to Execute Arbitrary Code via Port 23",
+      "link": "https://cybersecuritynews.com/telnetd-vulnerability-enables-remote-attack/",
+      "description": "A critical buffer overflow vulnerability in the GNU Inetutils telnetd daemon. Tracked as CVE-2026-32746, this flaw allows an unauthenticated remote attacker to execute arbitrary code and gain root ...",
+      "pub_date": "Wed, 18 Mar 2026 12:27:06 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDn0GntOQEPGL4gmp9n_CtVmu1PPhwvHEiGlQSWtb-suWy5E06gv8oW6BxIpAI65SnV4sTKYnE9ta0pW7xr_6VSGSxlYyDT5Lu_6U4YdN6oV9EN05df4zXf_QuTY2RpWBvSoJeEx_rZ9dJmF9XZFQt0yOabt3qhcppD5aNkyGB7jJBHomHIjLYPtIBScGs/s16000/Telnetd%20Vulnerability%20Enables%20Remote%20Attack.webp?ssl=1"
+    },
+    {
+      "title": "ForceMemo Hijacks GitHub Accounts, Backdoors Hundreds of Python Repos via Force-Push",
+      "link": "https://cybersecuritynews.com/forcememo-hijacks-github-accounts/",
+      "description": "A new malware campaign tracked as ForceMemo is quietly compromising hundreds of GitHub accounts and injecting hidden malicious code into Python repositories, leaving almost no visible trace. The ea...",
+      "pub_date": "Wed, 18 Mar 2026 12:23:06 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzqUqNsIh2mzj2K8jbFZvXQPW6OXwrvXlFT7NBZDSSLTETwNEcf_sGMH4cWWqlRUHfzOwmy4zsb2Q_WdQoGoNcUQ-D-KVpX-XncJ2L3ybhcHVYtRZgGfmcs6mahkP0Z8KaghRvAKtEbDJXO_1bd7dIt2TiHxRWPc8Kkc95f7gbGYJpbwrBF_R2gMSOiLw/s16000/ForceMemo%20Hijacks%20GitHub%20Accounts,%20Backdoors%20Hundreds%20of%20Python%20Repos%20via%20Force-Push.webp?ssl=1"
+    },
+    {
+      "title": "Iran-Linked Cyber Campaigns Converge With Electronic and Psychological Warfare as Regional Conflict Escalates",
+      "link": "https://cybersecuritynews.com/iran-linked-cyber-campaigns-converge-with-electronic/",
+      "description": "On February 28, 2026, a joint US-Israeli military operation launched strikes inside Iran, opening a conflict that rapidly extended into cyberspace. Iran responded with ballistic missiles and drone ...",
+      "pub_date": "Wed, 18 Mar 2026 12:01:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqqvoHhZPVoyRl30_PFI_zZlFglS2o3X1XWPNaq4YNS8OA9_DndrCXVq9DLncM0dZolrMBQG55z4m6BNKyMHKzCoOk_XDwOX4KX7-KSxZczKz4VpbuZZuAS_JFnbWDjQJ5vpb-W06EArKc0CxrwIpeqOg1dLQ5t-pK3yViVvh3tKHU3KdfhVo1p6XE0YU/s16000/Iran-Linked%20Cyber%20Campaigns%20Converge%20With%20Electronic%20and%20Psychological%20Warfare%20as%20Regional%20Conflict%20Escalates.webp?ssl=1"
+    },
+    {
+      "title": "Claude Code Security and Magecart: Getting the Threat Model Right",
+      "link": "https://thehackernews.com/2026/03/claude-code-security-and-magecart.html",
+      "description": "When a Magecart payload hides inside the EXIF data of a dynamically loaded third-party favicon, no repository scanner will catch it – because the malicious code never actually touches your repo. ...",
+      "pub_date": "Wed, 18 Mar 2026 17:28:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggz_kaHz2bigOo1y7BON5yhR9pCor4YwRAVV2PhMpW80pO5LnEQpI6Nzwyb1vAXqsORLe3-nM6npur3xdVzjvgFuv0_weLt2k3aganHfRUGHnvg258ymm460jOPDouqbnhZiOWNgkTEov8Iy1Ldb53EQg94GZMocgH3nwILAvMzDaNsyK7WaSrc1k7Rts/s1600/ref.jpg"
+    },
+    {
+      "title": "9 Critical IP KVM Flaws Enable Unauthenticated Root Access Across Four Vendors",
+      "link": "https://thehackernews.com/2026/03/9-critical-ip-kvm-flaws-enable.html",
+      "description": "Cybersecurity researchers have warned about the risks posed by low-cost IP KVM (Keyboard, Video, Mouse over Internet Protocol) devices, which can grant attackers extensive control over compromised ...",
+      "pub_date": "Wed, 18 Mar 2026 17:12:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1w0kzOmqTtztN-mHI2uI1lo8OnX3r0r6sB1FuwEKJAIX3zudBP_BkZiFk5f3RbtXjTiARWWhhKkLp2szjQk5-IVk_sOHkyGlIAof66_UIY595IhcdGZQR2xjTHKQSqWAV0bkjCPlfqBdJqokmSkZID1kQxcI8M-LX2aWSDErd63Y86_UTo321Fm45dcDC/s1600/ip.jpg"
+    },
     {
       "title": "Vidar Stealer 2.0 Spreads Through Fake Game Cheats Promoted on GitHub and Reddit",
       "link": "https://cybersecuritynews.com/vidar-stealer-2-0-spreads-through-fake-game-cheats/",
@@ -74,36 +122,12 @@
       "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7fQi3RNeo_MFsoG2PmV9I4fakWcCwkMYNdfNApImWsi0XLs7GVeYJZz6KRZfCY7vUCCqcOYYdEttKxjjPw6Ytus2Wqh4ilDUc_pHtlRP7l5ixa-5A9CtEWYHVneAxaS162KUdflaQXPxSqoleLisb7ADvtHf1WacDGqVCSkmUdisyMdPWgyqvV1rVeQA/s1600/Critical%20FortiClient%20SQL%20Injection%20vulnerability%20Enables%20Arbitrary%20Database%20Access%20%20%20%281%29.webp?ssl=1"
     },
     {
-      "title": "Ubuntu Desktop Systems Vulnerability Enables Attackers to Gain Full Root Access",
-      "link": "https://cybersecuritynews.com/ubuntu-desktop-systems-vulnerability/",
-      "description": "A Local Privilege Escalation (LPE) vulnerability in default installations of Ubuntu Desktop 24.04 and later allows an unprivileged local attacker to gain full root access. Tracked as CVE-2026-3888,...",
-      "pub_date": "Wed, 18 Mar 2026 06:37:52 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjw3l0nFmPb4KTlbzX1adLEtnraTg8IqJBgu_8wZ52-j2I6gpagXDGyLjYAhm5MqL-bA7NEJqwUxgXBF65KgguCHZDw1GMdeh361FV-31dYtVVt3qOpWZxS9wbuHUKslAqVv_K-hjHL9IQNpbLvD_38MrbNvrEmlMZv2_xUbUWdWtBYgR0FH4ocagKpDXcz/s16000/Ubuntu%20Desktop%20Systems%20Vulnerability.webp?ssl=1"
-    },
-    {
       "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
       "link": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
       "description": "Apple on Tuesday released its first round of Background Security Improvements to address a security flaw in WebKit that affects iOS, iPadOS, and macOS. The vulnerability, tracked as CVE-2026-20643 ...",
       "pub_date": "Wed, 18 Mar 2026 12:01:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrIGrK9v7gHMVWn2ApD_KeHXedmQ6FwRObZ4ZqEQssbaUU_8qjOSYBBRzZPzK0J8eHdH37Ws_n1u-ESXKJ1WEb4jjFcLn1Tdoj4n0z0wrfFj7X5DKIK8dzKYZ9uLDV2dg6HecUyRdUDkYR1LKkvhkGWBh_anbKF83bvLXUJBeTTwjCDeJ0V2hRAEN1bxhv/s1600/apple-hacking.jpg"
-    },
-    {
-      "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23",
-      "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
-      "description": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitr...",
-      "pub_date": "Wed, 18 Mar 2026 10:36:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm7eXnUZ_n354WSYj7Qjrk3sBFZkhyQ41VtRezIQRVo3KqzZJDE_A7CqshkkQ6RCiOyS1zuS8liODqSRGhURLUozRKEDZ6BmKyOxBVy8K0EF5TQB5QlyC7c1Cv0mHSj0BNwtGAS-PgOUobvSWJ1b82qWBHCMEocTyoOayx69DzM_gveQSuD1zbjYAjziX7/s1600/linux.jpg"
-    },
-    {
-      "title": "Microsoft Teams Support Call Leads to Quick Assist Compromise in New Vishing Attack",
-      "link": "https://cybersecuritynews.com/microsoft-teams-support-call/",
-      "description": "Microsoft Detection and Response Team details a sophisticated voice phishing (vishing) campaign that successfully compromised a corporate environment in November 2025. Unlike conventional intrusion...",
-      "pub_date": "Wed, 18 Mar 2026 03:27:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5zw6lnQ0Nv42CbVRWrpTy1ZdSz4X4NbtLfVCsepXhyphenhyphenYrTZ5hAtGWLu60WDP1Z_FIDtqsNZPUWk25nhLbQL9RcmCEOVnoNUlnmavOPYvTg4CjbyBwDoPLbC_Z0uIY_FwJ3BHSfUcSLlYWkyK9HUuKwnEvNOTH24h0AoKEexX3F-X_PXrAbq-ChSBKrNq1g/s16000/Microsoft%20Teams%20Support%20Call.webp?ssl=1"
     },
     {
       "title": "Apple pushes first Background Security Improvements update to fix WebKit flaw",
@@ -128,14 +152,6 @@
       "pub_date": "Tue, 17 Mar 2026 14:41:59 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Iranian Cyber Ops Maintain US Network Footholds, Target Cameras for Regional Surveillance",
-      "link": "https://cybersecuritynews.com/iranian-cyber-ops-maintain-us-network-footholds/",
-      "description": "Iran\u0026#8217;s cyber operations took a sharp turn in early 2026, with state-linked threat actors quietly embedding themselves inside US and Canadian networks while also targeting internet-connected s...",
-      "pub_date": "Tue, 17 Mar 2026 18:17:33 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFBdrPlXdx6U2_ApQvHSG21ikhmjTM7YudlPf2tyw1qQMui9dwtbWx3PTZqQSHLUIxaulQRNwy_Q58Mk8oUmx2jGY7_rp1y77y-p3ufhxbLqnCYDfqvuX3gkY-pBccTm1W6JsyOPaeiPbAtCCPqprzAITQik5RnOZEfGtFa44HBktwcvmxH_v5slTy5yo/s16000/Iranian%20Cyber%20Ops%20Maintain%20US%20Network%20Footholds,%20Target%20Cameras%20for%20Regional%20Surveillance.webp?ssl=1"
     },
     {
       "title": "AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE",
@@ -320,22 +336,6 @@
       "pub_date": "Mon, 16 Mar 2026 17:11:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFYjqyJvKKEaCGLTQo4-iMO_9Iq0V0lJVBlggKNorjB_DmPjq0sw_wl0EJ1oklawc4r9V7Axxk_J1WW1HEbIZwKRo8ui7thLccLTtcD6ePD0EcbJCvXWa0eAv0BYdV1cYO2HcDEIbB5GMNxUnV0TGTD3O2YAnOUcPqFJvTPPbYhufQ-sBuh1K01E6Szx9O/s1600/macos-clickfix.jpg"
-    },
-    {
-      "title": "DRILLAPP Backdoor Targets Ukraine, Abuses Microsoft Edge Debugging for Stealth Espionage",
-      "link": "https://thehackernews.com/2026/03/drillapp-backdoor-targets-ukraine.html",
-      "description": "Ukrainian entities have emerged as the target of a new campaign likely orchestrated by threat actors linked to Russia, according to a report from S2 Grupo's LAB52 threat intelligence team. The camp...",
-      "pub_date": "Mon, 16 Mar 2026 14:37:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLAzfBgcfc_bSkMovfPss0X0ONO4MhDVIOKyB_FgCnAZ4NOfVM3MdIMfIr0QMDCqKBvJaAz0mRIPYV075qfnurW27qWCCmjlcnDX-DOnb-kHulHrvk-k_cZCchJfEfxBdhkUf3GCbboHdQzxOCv3sEzSvgKaOoCNRgD20y7ZywYWsYtjjnh8dDLMbqJnvr/s1600/uk-cyberattacks.jpg"
-    },
-    {
-      "title": "Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent Malware Abuse",
-      "link": "https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html",
-      "description": "Google is testing a new security feature as part of Android Advanced Protection Mode (AAPM) that prevents certain kinds of apps from using the accessibility services API. The change, incorporated i...",
-      "pub_date": "Mon, 16 Mar 2026 11:13:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqvueuqNoIDsAH4vpBnbAGr2wz0tlhGECqZdmLWdnSPn-mZNpKuAIMPRyOR4B9C9RDKQKYKskTM-idN3OQ5zligs_i092dM4LLMP5jo1v2UHOe2hK9hV2GuX_5RvWrrmSh8b0FbKiVB7-5vuISiT_-ko5MbCTZs1YjLqFjUDZG8QFHIrV6MDlr1R1RdbM7/s1600/android-security.jpg"
     },
     {
       "title": "ZDI-26-215: KeePassXC OpenSSL Configuration Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
