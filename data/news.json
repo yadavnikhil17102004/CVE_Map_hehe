@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-03-19T09:36:04Z",
+  "last_updated": "2026-03-19T10:32:54Z",
   "articles": [
+    {
+      "title": "New ‘Perseus’ Android malware checks user notes for secrets",
+      "link": "https://www.bleepingcomputer.com/news/security/new-perseus-android-malware-checks-user-notes-for-secrets/",
+      "description": "A new Android malware called Perseus is checking user-curated notes to steal  sensitive information, like passwords, recovery phrases, or financial data. [...]",
+      "pub_date": "Thu, 19 Mar 2026 06:13:23 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Critical Microsoft SharePoint flaw now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/critical-microsoft-sharepoint-flaw-now-exploited-in-attacks/",
+      "description": "A critical Microsoft SharePoint vulnerability patched in January is now being exploited in attacks, the Cybersecurity and Infrastructure Security Agency (CISA) warned. [...]",
+      "pub_date": "Thu, 19 Mar 2026 06:06:38 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Backdoored Open VSX Extension Used GitHub Downloader to Deploy RAT and Stealer",
+      "link": "https://cybersecuritynews.com/backdoored-open-vsx-extension-used-github-downloader/",
+      "description": "A popular code editor extension listed on the Open VSX registry was discovered carrying hidden malware that silently fetches and runs a remote access trojan (RAT) and a full infostealer directly on...",
+      "pub_date": "Thu, 19 Mar 2026 09:56:05 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQxlScXqclkBPIeDvT05FSwtlrPvkCEW6OFQWtlIEVHhrOxxHBOAoV9apKQbar3-kH5ZFvgJltpqjGGZrZx7fon6RY6ly0fphtcpwxjzQsowjd4295gKBHjTHsNLbbTMIRPiPlrXNTQKmkQ3C2VtkPACKo03HbZnJuxUzNncfUxCGAL-y12-DNeok0aGs/s16000/Backdoored%20Open%20VSX%20Extension%20Used%20GitHub%20Downloader%20to%20Deploy%20RAT%20and%20Stealer.webp?ssl=1"
+    },
+    {
+      "title": "DarkSword iOS Exploit Kit Uses 6 Flaws, 3 Zero-Days for Full Device Takeover",
+      "link": "https://thehackernews.com/2026/03/darksword-ios-exploit-kit-uses-6-flaws.html",
+      "description": "A new exploit kit for Apple iOS devices designed to steal sensitive data from is being wielded by multiple threat actors since at least November 2025, according to reports from Google Threat Intell...",
+      "pub_date": "Thu, 19 Mar 2026 14:44:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEho7JmQ9e8aVTFWYRYkZD_7n8d_IVUkFzCBPFnqGvDe_32LG-Te8BFovDqiVjMusP3eUTgXzn5iDoVgLTSnR1RR44UHLh6fuegsRokauImqaCbIL2KqUJcjlmViSKAAaSpZ5d7-L1CjYhizgV92pUQFLKo2DqE1sPijXfWNv24vIjcWCHVoF-G1p7vPciP_/s1600/dark.jpg"
+    },
     {
       "title": "Iran-Linked Botnet Exposed After Open Directory Leak Reveals 15-Node Relay Network",
       "link": "https://cybersecuritynews.com/iran-linked-botnet-exposed-after-open-directory-leak/",
@@ -136,14 +168,6 @@
       "pub_date": "Wed, 18 Mar 2026 11:32:39 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Apple WebKit Vulnerability Enables Malicious Web Content Bypass on iOS and macOS",
-      "link": "https://cybersecuritynews.com/apple-webkit-vulnerability/",
-      "description": "Apple has released critical security patches to address a high-severity WebKit vulnerability that allows maliciously crafted web content to bypass the Same Origin Policy. Released on March 17, 2026...",
-      "pub_date": "Wed, 18 Mar 2026 15:28:22 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxxnF0kdxQ-g63OcQ61y8dNvEgwsB_K1fh5_COUzVuL1RXmaHIc__3iZE7p6sMkvF3MpkmLNDSKqPyRlYUrSaLZUA5hJuuuEA9Jtks78UoOLzZ77b8StxdlmG5p5hvtZceY9u7iWjpU6DSs7SpWiKS5T5sgP2oxaO9hDPHtLfjOt60pvLOtkitditQKtU/s1600/Apple%20WebKit%20Vulnerability%20Enables%20malicious%20web%20content%20Bypass%20on%20on%20iOS%20and%20macOS%20%281%29%20%281%29.webp?ssl=1"
     },
     {
       "title": "The Refund Fraud Economy: Exploiting Major Retailers and Payment Platforms ",
@@ -282,22 +306,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft stops force-installing the Microsoft 365 Copilot app",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-stops-force-installing-the-microsoft-365-copilot-app/",
-      "description": "Microsoft has stopped automatically installing the Microsoft 365 Copilot app on Windows devices that have the Microsoft 365 desktop client apps. [...]",
-      "pub_date": "Tue, 17 Mar 2026 09:54:37 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "LeakNet ransomware uses ClickFix, Deno runtime in stealthy attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/leaknet-ransomware-uses-clickfix-and-deno-runtime-for-stealthy-attacks/",
-      "description": "The LeakNet ransomware gang is now using the ClickFix technique for initial access into corporate environments and deploys a malware loader based on the open-source Deno runtime for JavaScript and...",
-      "pub_date": "Tue, 17 Mar 2026 08:09:35 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "AI is Everywhere, But CISOs are Still Securing It with Yesterday's Skills and Tools, Study Finds",
       "link": "https://thehackernews.com/2026/03/ai-is-everywhere-but-cisos-are-still.html",
       "description": "A majority of security leaders are struggling to defend AI systems with tools and skills that are not fit for the challenge, according to the AI and Adversarial Testing Benchmark Report 2026 from P...",
@@ -328,14 +336,6 @@
       "pub_date": "Tue, 17 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
-    },
-    {
-      "title": "GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push Malware Into Python Repos",
-      "link": "https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html",
-      "description": "The GlassWorm malware campaign is being used to fuel an ongoing attack that leverages the stolen GitHub tokens to inject malware into hundreds of Python repositories. \"The attack targets Python pro...",
-      "pub_date": "Tue, 17 Mar 2026 01:07:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm7L4zUQpR3yqvBYQOLElALmeqWJoxMkXDZVmvs0LgAMwPCH6yuBMCeP_IJwLfkM_4SFI5mXmBQKNWu8JgME_4yZ271ZLEeJe_l-mZ-H4gsw2XaZecZoUhvlaaxdWjcDnn3zrl4boAnxhfXUNogrGpM83ucMCez0IN1A9xKn2XlrUEfVcBgFdFuC7pWdsX/s1600/githun-malware.jpg"
     },
     {
       "title": "ZDI-26-215: KeePassXC OpenSSL Configuration Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
