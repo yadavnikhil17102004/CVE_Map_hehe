@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-03-19T20:28:59Z",
+  "last_updated": "2026-03-19T21:28:39Z",
   "articles": [
+    {
+      "title": "Navia discloses data breach impacting 2.7 million people",
+      "link": "https://www.bleepingcomputer.com/news/security/navia-discloses-data-breach-impacting-27-million-people/",
+      "description": "Navia Benefit Solutions, Inc. (Navia) is informing nearly 2.7 million individuals of a data breach that exposed their sensitive information to attackers. [...]",
+      "pub_date": "Thu, 19 Mar 2026 16:43:54 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "New ‘PolyShell’ flaw allows unauthenticated RCE on Magento e-stores",
       "link": "https://www.bleepingcomputer.com/news/security/new-polyshell-flaw-allows-unauthenticated-rce-on-magento-e-stores/",
@@ -8,6 +16,14 @@
       "pub_date": "Thu, 19 Mar 2026 16:01:03 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Speagle Malware Hijacks Cobra DocGuard to Steal Data via Compromised Servers",
+      "link": "https://thehackernews.com/2026/03/speagle-malware-hijacks-cobra-docguard.html",
+      "description": "Cybersecurity researchers have flagged a new malware dubbed Speagle that hijacks the functionality and infrastructure of a legitimate program called Cobra DocGuard. \"Speagle is designed to surrepti...",
+      "pub_date": "Fri, 20 Mar 2026 00:46:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZSgCN7uAT0GxA_9D78X0Q9nRTRmUKPnhIvtgPrg32f62joth8HoaFjuZ68g1l10CVcTjQXiaw3ueNoItw0YN8edclDT-c6IHodK_nSRjPFqUH2hTfceviQi1UZ_6Mo2NvGlkVNIdx3CvxpobdFm3jVUuvvdIDcn5LIKQFNNFe7MScF824trW9pajXcM3l/s1600/locks.jpg"
     },
     {
       "title": "54 EDR Killers Use BYOVD to Exploit 34 Signed Vulnerable Drivers and Disable Security",
@@ -202,6 +218,46 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNz_gKNFLCIU1bf3r5ndKEJY42xA-0VYcdfKSV7dFnLR49717u_2GSnPWzDJk4OkX-VbcUgnij6CUo-ZJvV4-uWiUuXsS0FtuAA8RBYnElk3ELRm_ODa1MhwK9GcjjuIN3rqi51_BBFYvMYCbcJGifTrfv4bUHYZmkcJSnKGDT7NnLBHU4GtaxMvW9F7Pr/s1600/cida-patches.jpg"
     },
     {
+      "title": "ZDI-26-221: GIMP XPM File Parsing Integer Overflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-221/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
+      "pub_date": "Thu, 19 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-220: GIMP PSP File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-220/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
+      "pub_date": "Thu, 19 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-219: GIMP JP2 File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-219/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
+      "pub_date": "Thu, 19 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-218: GIMP ANI File Parsing Integer Overflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-218/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
+      "pub_date": "Thu, 19 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-217: GIMP PSD File Parsing Integer Overflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-217/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
+      "pub_date": "Thu, 19 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
       "title": "Aura confirms data breach exposing 900,000 marketing contacts",
       "link": "https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/",
       "description": "Identity protection company Aura has confirmed that an unauthorized party gained access to nearly 900,000 customer records containing names and email addresses. [...]",
@@ -258,14 +314,6 @@
       "image_url": ""
     },
     {
-      "title": "The Refund Fraud Economy: Exploiting Major Retailers and Payment Platforms ",
-      "link": "https://www.bleepingcomputer.com/news/security/the-refund-fraud-economy-exploiting-major-retailers-and-payment-platforms/",
-      "description": "Refund fraud is now a business, with methods and tutorials sold to exploit return policies for profit. Flare shows how fraudsters turn refunds and chargebacks into a repeatable profit model. [...]",
-      "pub_date": "Wed, 18 Mar 2026 10:05:15 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE",
       "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
       "description": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitr...",
@@ -312,14 +360,6 @@
       "pub_date": "Wed, 18 Mar 2026 12:01:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrIGrK9v7gHMVWn2ApD_KeHXedmQ6FwRObZ4ZqEQssbaUU_8qjOSYBBRzZPzK0J8eHdH37Ws_n1u-ESXKJ1WEb4jjFcLn1Tdoj4n0z0wrfFj7X5DKIK8dzKYZ9uLDV2dg6HecUyRdUDkYR1LKkvhkGWBh_anbKF83bvLXUJBeTTwjCDeJ0V2hRAEN1bxhv/s1600/apple-hacking.jpg"
-    },
-    {
-      "title": "AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE",
-      "link": "https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html",
-      "description": "Cybersecurity researchers have disclosed details of a new method for exfiltrating sensitive data from artificial intelligence (AI) code execution environments using domain name system (DNS) queries...",
-      "pub_date": "Tue, 17 Mar 2026 22:09:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlC6FiLJ9YVGC1W0eo-MmFsPTu2DNqMSdo-QKnv1gdH_HpaKV3zPaWZrQTGNdklpv62BXb3ECiBqlkR1BzLbfz0tFWfMKNM1vZq88yf90XpycB2OSDq3NScWav6ZO_4IVjCWaJRJLwvthFo-7VJ-Uc8qijyycpXfkQRHcPr9pf-QVgGzyOeBFnwfOGnmLN/s1600/lang-ai.jpg"
     },
     {
       "title": " Investing in the people shaping open source and securing the future together",
@@ -405,46 +445,6 @@
       "title": "ZDI-26-207: (Pwn2Own) Canon imageCLASS MF654Cdw dtdc_addr_importSub Stack-based Buffer Overflow Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-207/",
       "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulner...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-206: (Pwn2Own) Canon imageCLASS MF654Cdw TTF Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-206/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulner...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-205: (Pwn2Own) Canon imageCLASS MF654Cdw PJCC Request Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-205/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulner...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-204: (Pwn2Own) Canon imageCLASS MF654Cdw XPS Parser Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-204/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulner...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-203: (Pwn2Own) Canon imageCLASS MF654Cdw XML SOAP Request Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-203/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulner...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-202: (Pwn2Own) QNAP TS-453E  Hyper Data Protector Plugin query_original_file_size SQL Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-202/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of QNAP TS-453E. Although authentication is required to exploit this vulnerability, the exis...",
       "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
