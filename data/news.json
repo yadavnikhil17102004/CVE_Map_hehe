@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-03-21T10:19:14Z",
+  "last_updated": "2026-03-21T11:17:12Z",
   "articles": [
+    {
+      "title": "Oracle Patches Critical CVE-2026-21992 Enabling Unauthenticated RCE in Identity Manager",
+      "link": "https://thehackernews.com/2026/03/oracle-patches-critical-cve-2026-21992.html",
+      "description": "Oracle has released security updates to address a critical security flaw impacting Identity Manager and Web Services Manager that could be exploited to achieve remote code execution. The vulnerabil...",
+      "pub_date": "Sat, 21 Mar 2026 15:54:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxIh9aqIMPc6elNLcqZwmxGq0BHfA3NS2kkxawAr-H7SzPJKmvc7tXrykcm664TGFkJUIb_BmGpJV0CkEjIxVoRfTCrc8br5bi_TL93Nv_g7J_c9ccucZL4e55lp_zyywwBeAzDIoA1bnI95ELRLCbOyVf0WX0CGgGHLun2uQFKhqeMKf16nBOeJTO7O77/s1600/oracle-flaw-hack.jpg"
+    },
     {
       "title": "Malicious Script Injection in Trivy Compromise Enables Credential Theft",
       "link": "https://cybersecuritynews.com/malicious-script-injection-in-trivy/",
@@ -312,14 +320,6 @@
       "pub_date": "Thu, 19 Mar 2026 16:28:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8B3hISiw4s7wL5Eruja2BnTYM2QNrpsi6FnTtzznVz-Vu1pERgS-lZuIVKrps6nlxaauzfCXNfiiSInowjXHDhZ3UgoGD7OlFtwijFG0w5MtfnGu920etTBYP0tHnauL6Owztp_K0I8DUXlMSWd2LZz57O8NFm83E8H5QZ7Kb7RCOja4c-viaPrf9lC8/s1600/bi.jpg"
-    },
-    {
-      "title": "DarkSword iOS Exploit Kit Uses 6 Flaws, 3 Zero-Days for Full Device Takeover",
-      "link": "https://thehackernews.com/2026/03/darksword-ios-exploit-kit-uses-6-flaws.html",
-      "description": "A new exploit kit for Apple iOS devices designed to steal sensitive data from is being wielded by multiple threat actors since at least November 2025, according to reports from Google Threat Intell...",
-      "pub_date": "Thu, 19 Mar 2026 14:44:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEho7JmQ9e8aVTFWYRYkZD_7n8d_IVUkFzCBPFnqGvDe_32LG-Te8BFovDqiVjMusP3eUTgXzn5iDoVgLTSnR1RR44UHLh6fuegsRokauImqaCbIL2KqUJcjlmViSKAAaSpZ5d7-L1CjYhizgV92pUQFLKo2DqE1sPijXfWNv24vIjcWCHVoF-G1p7vPciP_/s1600/dark.jpg"
     },
     {
       "title": "ZDI-26-221: GIMP XPM File Parsing Integer Overflow Remote Code Execution Vulnerability",
