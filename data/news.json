@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T22:24:43Z",
+  "last_updated": "2026-03-23T23:25:20Z",
   "articles": [
     {
       "title": "Mazda discloses security breach exposing employee and partner data",
@@ -218,6 +218,30 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuTlyFHjxX97gPhHFjyvPGAPsLFbWQSHzAofYEPTsqZS1Xyc4KjjMDOqW-N7Iku9d1cuOJLI7EMdA-kA5X86I2neC5efkXETfsIVOZcIEVfLxWKFEnR3qXfgpLxXvG3ZKixxV_bmEDxXIN_65QzgRKguXIJkQhzY50ROEEV5irUXNeuekFatz88Yk_BONZ/s1600/kace.jpg"
     },
     {
+      "title": "ZDI-26-225: (Pwn2Own) Samsung Galaxy S25 Samsung Account Open Redirect Security Bypass Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-225/",
+      "description": "This vulnerability allows remote attackers to bypass security on affected installations of Samsung Galaxy S25. Authentication is not required to exploit this vulnerability. The ZDI has assigned a C...",
+      "pub_date": "Mon, 23 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-224: (Pwn2Own) Samsung Galaxy S25 Samsung Account Cross-Site Scripting Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-224/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary script on affected installations of Samsung Galaxy S25. Authentication is not required to exploit this vulnerability. The ZDI has ass...",
+      "pub_date": "Mon, 23 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-223: (Pwn2Own) Samsung Galaxy S25 Smart Touch Call Application Protection Mechanism Failure Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-223/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Samsung Galaxy S25. User interaction is required to exploit this vulnerability in that the ...",
+      "pub_date": "Mon, 23 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
       "title": "ZDI-26-222: (Pwn2Own) Canon imageCLASS MF654Cdw BJNP Memory Corruption Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-222/",
       "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulner...",
@@ -429,30 +453,6 @@
       "title": "ZDI-26-211: Delta Electronics ASDA-Soft PAR File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-211/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics ASDA-Soft. User interaction is required to exploit this vulnerability in that the...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-210: (Pwn2Own) Samsung Galaxy S25 Samsung Members Security Feature Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-210/",
-      "description": "This vulnerability allows remote attackers to bypass a security feature on affected installations of Samsung Galaxy S25. Authentication is not required to exploit this vulnerability. The ZDI has as...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-209: (Pwn2Own) Samsung Galaxy S25 Samsung Members Open Redirect Security Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-209/",
-      "description": "This vulnerability allows remote attackers to bypass security on affected installations of Samsung Galaxy S25. Authentication is not required to exploit this vulnerability. The ZDI has assigned a C...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-208: (Pwn2Own) Canon imageCLASS MF654Cdw TTF Parsing Integer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-208/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulner...",
       "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
