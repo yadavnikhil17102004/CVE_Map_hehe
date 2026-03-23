@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-03-23T12:47:07Z",
+  "last_updated": "2026-03-23T14:10:22Z",
   "articles": [
+    {
+      "title": "Trivy Supply Chain Attack Expands as Compromised Docker Images Hit Docker Hub",
+      "link": "https://cybersecuritynews.com/trivy-supply-chain-attack-expands-as-compromised-docker/",
+      "description": "A supply chain attack targeting Trivy, the widely used open-source vulnerability scanner, has grown well beyond its initial scope. What started as a GitHub Actions compromise has now extended to Do...",
+      "pub_date": "Mon, 23 Mar 2026 13:36:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Trivy-Supply-Chain-Attack-Expands-as-Compromised-Docker-Images-Hit-Docker-Hub.webp"
+    },
+    {
+      "title": "⚡ Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches Numbers \u0026 More",
+      "link": "https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html",
+      "description": "Another week, another reminder that the internet is still a mess. Systems people thought were secure are being broken in simple ways, showing many still ignore basic advisories. This edition covers...",
+      "pub_date": "Mon, 23 Mar 2026 18:44:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe8A2RKkUN6BATGKH_48mi3J6DYVutxBllcmOiNl7N3xeqPx9sySaIFdxMxfIp5VQksSCBdRKtpNpiWUcTo5VNClmu6dbs6hoM9Ljx3QXAWEnAjKAG0Vc8JHLxGWfZkq3ORe4PgT-RgpBxhPnfMtr8UOhnjXToH-WOa6h3IVUM3HQqvgmWmMTPjKsqTkSN/s1600/recap-bl.jpg"
+    },
     {
       "title": "Microsoft Exchange Online service change causes email access issues",
       "link": "https://www.bleepingcomputer.com/news/microsoft/new-exchange-online-virtual-account-blocks-email-access-via-mobile-mac-apps/",
@@ -8,6 +24,14 @@
       "pub_date": "Mon, 23 Mar 2026 08:17:18 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "We Found Eight Attack Vectors Inside AWS Bedrock. Here's What Attackers Can Do with Them",
+      "link": "https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html",
+      "description": "AWS Bedrock is Amazon's platform for building AI-powered applications. It gives developers access to foundation models and the tools to connect those models directly to enterprise data and systems....",
+      "pub_date": "Mon, 23 Mar 2026 17:25:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNP5vhVrLuEm9El_BgbLywUuexUg6KzaMreEfpqeSpQnonIKWfB4fcCX_bXrkxTwUoqXqxjrXZdZbppYseQBmTTSXeZT3PLsXoUIKdVUxawVdz4e33n_E6iPxNLCL3mAypW2di8w755oQGTcP1dFoBaOXV9D7LuASxn-43LJ1JCxtOtTFZ_qUsBzlY878/s1600/xmcyber.jpg"
     },
     {
       "title": "Windows 11 Emergency Update to Fix ‘No Internet’ Sign-In Errors for OneDrive, Teams, and More",
@@ -114,6 +138,14 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuTlyFHjxX97gPhHFjyvPGAPsLFbWQSHzAofYEPTsqZS1Xyc4KjjMDOqW-N7Iku9d1cuOJLI7EMdA-kA5X86I2neC5efkXETfsIVOZcIEVfLxWKFEnR3qXfgpLxXvG3ZKixxV_bmEDxXIN_65QzgRKguXIJkQhzY50ROEEV5irUXNeuekFatz88Yk_BONZ/s1600/kace.jpg"
     },
     {
+      "title": "ZDI-26-222: (Pwn2Own) Canon imageCLASS MF654Cdw BJNP Memory Corruption Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-222/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulner...",
+      "pub_date": "Mon, 23 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
       "title": "Crunchyroll Data Breach — Threat Actor Claims Exfiltration of 100 GB of User Data",
       "link": "https://cybersecuritynews.com/crunchyroll-data-breach/",
       "description": "A threat actor has allegedly exfiltrated approximately 100 GB of personally identifiable information (PII) from Crunchyroll, the Sony-owned anime streaming giant, after gaining access through a com...",
@@ -176,14 +208,6 @@
       "pub_date": "Sat, 21 Mar 2026 15:54:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxIh9aqIMPc6elNLcqZwmxGq0BHfA3NS2kkxawAr-H7SzPJKmvc7tXrykcm664TGFkJUIb_BmGpJV0CkEjIxVoRfTCrc8br5bi_TL93Nv_g7J_c9ccucZL4e55lp_zyywwBeAzDIoA1bnI95ELRLCbOyVf0WX0CGgGHLun2uQFKhqeMKf16nBOeJTO7O77/s1600/oracle-flaw-hack.jpg"
-    },
-    {
-      "title": "Hackers Compromise Trivy Scanner to Inject malicious Scripts and Steal Login Credentials",
-      "link": "https://cybersecuritynews.com/malicious-script-injection-in-trivy/",
-      "description": "A sophisticated supply chain attack targeting the official Trivy GitHub Action (aquasecurity/trivy-action) has compromised continuous integration and continuous deployment (CI/CD) pipelines globall...",
-      "pub_date": "Sat, 21 Mar 2026 08:53:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj70ztOEGq1NNGnA3VVmyE9BfyU7kgAE9O2qxckyePZhCFcsaz0AZl4mYugVTyOsUYZC37YsHY48Vvgx9UKLTiIHH7_qMf1rUWQGuKmuSjefZROnAfaH9ySOKTSGT6acg6EQpBSicyx6gviH2rmIngErF7xcEowVxb3b30GqlymXUmSDv8QJRxoWgaKuciU/s1600/Malicious%20Script%20Injection%20in%20Trivy%20Compromise%20Enables%20Credential%20Theft%20%281%29.webp?ssl=1"
     },
     {
       "title": "Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages",
@@ -306,22 +330,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinuGXmHjiDQoCgH14v3lddFUEZQ96DLgTZ_Q8k7l7lpnGTX4zzeJ78e0MLRH8L3Bah3_zMnLI4kVNn3RDbnlzXpzchm5mg_1SDo0mCETmOylAS9qCPuMVRhtAfVWDzHUDwK2fRNiACoXo3oPWR8VV0E3m5svUSuDATtF4O_CIC05Vco5m3dN9MR9D7V-JP/s1600/botnet-malware.jpg"
     },
     {
-      "title": "Apple Warns Older iPhones Vulnerable to Coruna, DarkSword Exploit Kit Attacks",
-      "link": "https://thehackernews.com/2026/03/apple-warns-older-iphones-vulnerable-to.html",
-      "description": "Apple is urging users who are still running an outdated version of iOS to update their iPhones to secure against web-based attacks carried out via powerful exploit kits like Coruna and DarkSword. T...",
-      "pub_date": "Fri, 20 Mar 2026 10:46:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPwgJpN_6bTBVT2q2xpQB_QFewyV2cp-Acaxnjpc4-KQKGpQZiz339xOYJ9ew_UlCgScvvWA940DyAf2E_HomGHQXljbHclluIiK57hJKo00KBdTXh8BeVi0toqDVevMaRY_fSlTzyYkkJjdKU0pA7iKX6_yTwsOveceby7OB08v9V2GAoasiLsl1Cu2DS/s1600/apple-logo.jpg"
-    },
-    {
-      "title": "Speagle Malware Hijacks Cobra DocGuard to Steal Data via Compromised Servers",
-      "link": "https://thehackernews.com/2026/03/speagle-malware-hijacks-cobra-docguard.html",
-      "description": "Cybersecurity researchers have flagged a new malware dubbed Speagle that hijacks the functionality and infrastructure of a legitimate program called Cobra DocGuard. \"Speagle is designed to surrepti...",
-      "pub_date": "Fri, 20 Mar 2026 00:46:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZSgCN7uAT0GxA_9D78X0Q9nRTRmUKPnhIvtgPrg32f62joth8HoaFjuZ68g1l10CVcTjQXiaw3ueNoItw0YN8edclDT-c6IHodK_nSRjPFqUH2hTfceviQi1UZ_6Mo2NvGlkVNIdx3CvxpobdFm3jVUuvvdIDcn5LIKQFNNFe7MScF824trW9pajXcM3l/s1600/locks.jpg"
-    },
-    {
       "title": "ZDI-26-221: GIMP XPM File Parsing Integer Overflow Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-221/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
@@ -436,14 +444,6 @@
     {
       "title": "ZDI-26-208: (Pwn2Own) Canon imageCLASS MF654Cdw TTF Parsing Integer Overflow Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-208/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulner...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-207: (Pwn2Own) Canon imageCLASS MF654Cdw dtdc_addr_importSub Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-207/",
       "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulner...",
       "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
