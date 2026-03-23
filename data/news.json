@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-03-23T08:54:36Z",
+  "last_updated": "2026-03-23T09:56:08Z",
   "articles": [
+    {
+      "title": "FBI warns of Handala hackers using Telegram in malware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/",
+      "description": "The U.S. Federal Bureau of Investigation (FBI) warned network defenders that Iranian hackers linked to the country's Ministry of Intelligence and Security (MOIS) are using Telegram in malware attac...",
+      "pub_date": "Mon, 23 Mar 2026 05:45:55 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New CanisterWorm Steals npm Tokens and Spreads Through Compromised Publisher Accounts",
+      "link": "https://cybersecuritynews.com/new-canisterworm-steals-npm-tokens/",
+      "description": "A new wave of supply chain attacks is hitting the npm ecosystem through a self-propagating malware campaign known as CanisterWorm. The threat, linked to a group tracked as \u0026#8220;TeamPCP,\u0026#8221; co...",
+      "pub_date": "Mon, 23 Mar 2026 09:40:45 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8lX9Id6F_xZC6ozRBBnRGVo1pf9ZKBbzWNi478eklWNW7dX2cZNnCHCslj-rWR1T1GW7p5nAISTRBA59kSKldoFX0mF9LdIuM-dMDBeDsckfueu7QrOT4f2Gc_kmYG7IBO0pZqS0DU7-UR_DAW-YG9oBGU0bi-rnhIWG1C1TsqYsPdFt7SdiV5X5_BhQ/s16000/New%20CanisterWorm%20Steals%20npm%20Tokens%20and%20Spreads%20Through%20Compromised%20Publisher%20Accounts.webp?ssl=1"
+    },
+    {
+      "title": "CISA Warns of Apple Vulnerabilities Linked to DarkSword iOS Exploit Chain Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/apple-vulnerabilities-darksword-ios-exploit/",
+      "description": "An urgent warning regarding three critical Apple vulnerabilities that threat actors are actively exploiting in the wild. These security flaws, officially tracked as CVE-2025-31277, CVE-2025-43510, ...",
+      "pub_date": "Mon, 23 Mar 2026 09:03:58 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyY5FL2j_BDti2i1JSMHmqvIKP5_V9et0l6DMu1Wf5wv-m88wlqjAFPek8YsOqVF77Rze8NqBwIoz5I50kfntxWGtcKiS7mcEukzEaMZndZkLNW2fGN4Hg7h_walXzxihWR5tcb686zK2zlRSJU_UGmIJigIKBPcrP4JJ7ZiieR8g5hExvV01vQhD9DaQ/s1600/CISA%20Warns%20of%20Apple%20Vulnerabilities%20Linked%20to%20DarkSword%20iOS%20Exploit%20Chain%20Exploited%20in%20Attacks%20%281%29.webp?ssl=1"
+    },
     {
       "title": "CISA orders feds to patch DarkSword iOS flaws exploited attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/",
@@ -8,6 +32,14 @@
       "pub_date": "Mon, 23 Mar 2026 04:37:28 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper",
+      "link": "https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html",
+      "description": "Cybersecurity researchers have uncovered malicious artifacts distributed via Docker Hub following the Trivy supply chain attack, highlighting the widening blast radius across developer environments...",
+      "pub_date": "Mon, 23 Mar 2026 14:01:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3tECPxIu-t1cl5YE211vm5q8dB99cO4mW6hbz0jCRbtDjalNgI7gX42M9MQAkty0IsWyxB3cJDMOpKbqQlLSKMnjbGaBOJHB9QslmSQB6-96o4RlaFLKuTHEAq8HpO-KbprLYPIjSR64H9twUcA-fuV0CrB2qw7RlzNWhQUHEmyKboascQm-Udl5GPdwA/s1600/docker.jpg"
     },
     {
       "title": "New KB5085516 emergency update fixes Microsoft account sign-in",
@@ -186,22 +218,6 @@
       "image_url": ""
     },
     {
-      "title": "Anthropic Launches Projects Feature for Claude Cowork Desktop",
-      "link": "https://cybersecuritynews.com/projects-feature-claude-cowork-desktop/",
-      "description": "Anthropic is expanding Claude Cowork Desktop with a new Projects feature designed to keep files, instructions, and task context organized inside a single workspace. For paid users, the update makes...",
-      "pub_date": "Fri, 20 Mar 2026 17:08:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Projects-Feature-Claude-Cowork-Desktop.webp"
-    },
-    {
-      "title": "Windows 11 March Update Breaks Microsoft Teams and OneDrive Sign-Ins",
-      "link": "https://cybersecuritynews.com/windows-11-march-update-breaks-teams/",
-      "description": "Microsoft has acknowledged a significant bug introduced by its March 2026 cumulative update that is preventing users from signing into Microsoft Teams Free, OneDrive, and several other Microsoft ap...",
-      "pub_date": "Fri, 20 Mar 2026 15:49:45 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjnNut4Ry6yWJAYfCkPT-_sxclk6l-rqrQ4NWwGNp2Lg2qReLtEXWFkpMEp6rUeDpbkyC18O485goaAor9Wa6F5NAMIMSCGZy7T9Bv3kpCV9-iA1ksEYa25UoyXqhCahxSC-SAGO035ULqmzEa_UEuoU7hExQFLH1ZyUUmRlH6U1etfCZZyd_hKENzBZbe/s16000/Windows%2011%20March%20Update%20Breaks%20Teams.webp?ssl=1"
-    },
-    {
       "title": "Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure",
       "link": "https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html",
       "description": "A critical security flaw impacting Langflow has come under active exploitation within 20 hours of public disclosure, highlighting the speed at which threat actors weaponize newly published vulnerab...",
@@ -274,14 +290,6 @@
       "image_url": ""
     },
     {
-      "title": "Ex-data analyst stole company data in $2.5M extortion scheme",
-      "link": "https://www.bleepingcomputer.com/news/security/data-analyst-found-guilty-of-extorting-brightly-software-of-25-million/",
-      "description": "A North Carolina man was found guilty of extorting a D.C.-based technology company while still being employed as a data analyst contractor. [...]",
-      "pub_date": "Fri, 20 Mar 2026 02:57:46 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "DoJ Disrupts 3 Million-Device IoT Botnets Behind Record 31.4 Tbps Global DDoS Attacks",
       "link": "https://thehackernews.com/2026/03/doj-disrupts-3-million-device-iot.html",
       "description": "The U.S. Department of Justice (DoJ) on Thursday announced the disruption of command-and-control (C2) infrastructure used by several Internet of Things (IoT) botnets like AISURU, Kimwolf, JackSkid,...",
@@ -312,14 +320,6 @@
       "pub_date": "Fri, 20 Mar 2026 00:22:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIi1shGpEknr4-CSa7F-hGXgqRLy4TeRhG2CLzUE9WOs7c-XA-TRmAFhxGmJePCWAjYzRvtRW5ukvGvKluq5hOfv8F8QmzqTUxVjElk6zf3ovVxZIvqUdn1A2Z02kv7t8efDgyyZEUljfWZRxOZqAynFB92c66-ywA8vxkCUXiJ75g4U2vJUlOlzblxU_z/s1600/edr.jpg"
-    },
-    {
-      "title": "ThreatsDay Bulletin: FortiGate RaaS, Citrix Exploits, MCP Abuse, LiveChat Phish \u0026 More",
-      "link": "https://thehackernews.com/2026/03/threatsday-bulletin-fortigate-raas.html",
-      "description": "ThreatsDay Bulletin is back on The Hacker News, and this week feels off in a familiar way. Nothing loud, nothing breaking everything at once. Just a lot of small things that shouldn\u0026rsquo;t work an...",
-      "pub_date": "Thu, 19 Mar 2026 19:55:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo8NYPjdG8isSFFKDJkDtz603as8VZqTtFenMMZGF6GB_abFJsu8Kj6alv-Bnk_K0k9sXEqyPo2WxK12jRPz9cMIEvzX7whTVEESRW_n8mQguCvj5nQzTjXdmcvmPKP6GMFJuropryXpS7Uyi0VKDAmdGFFu4OqeHFnYVkhDCNO86SgTRMcLu6O_ZtJKen/s1600/tdays.jpg"
     },
     {
       "title": "ZDI-26-221: GIMP XPM File Parsing Integer Overflow Remote Code Execution Vulnerability",
