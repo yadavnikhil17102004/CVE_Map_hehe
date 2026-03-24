@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-03-24T18:52:22Z",
+  "last_updated": "2026-03-24T19:49:22Z",
   "articles": [
+    {
+      "title": "TeamPCP Backdoors LiteLLM Versions 1.82.7–1.82.8 Likely via Trivy CI/CD Compromise",
+      "link": "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html",
+      "description": "TeamPCP, the threat actor behind the recent compromises of Trivy and KICS, has now compromised a popular Python package named litellm, pushing two malicious versions containing a credential harvest...",
+      "pub_date": "Tue, 24 Mar 2026 23:51:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmubYXPf6QmmyAgoyu58-O141BOTc-D3aKKUtKXg1IFX6pn4Wav7yspHRPiWKScygEd1vsHmeH5zQLjwG38pOlDggYgjBN7MzUTrb_3jQv_lXum7s7PXGo8aqvSws4QEkrC587wgBhgF5tmPEmhK_OCeTLm8YlcWxyw2-nQMiM9VS8VdC22-tDkVM5MEsb/s1600/lite.jpg"
+    },
     {
       "title": "HackerOne Data Breach – Employees Data Stolen Following Navia Hack",
       "link": "https://cybersecuritynews.com/hackerone-data-breach/",
@@ -360,14 +368,6 @@
       "pub_date": "Mon, 23 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
-    },
-    {
-      "title": "FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks",
-      "link": "https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html",
-      "description": "Threat actors affiliated with Russian Intelligence Services are conducting phishing campaigns to compromise commercial messaging applications (CMAs) like WhatsApp and Signal to seize control of acc...",
-      "pub_date": "Sat, 21 Mar 2026 18:47:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiMsZnvgdoACYJn8WjDy_Lpvpy1iqvGpj-vb4hYfYTLujLp_5dm8WZKjl64LYwY4-MON0-1k8-F2K3KDu0QG7isYjhaMvre0E0vrqJCSP49r2j374JPbV6WvkTG8lwqwrxquX-3xrReaA3G-NQGvskSnlOtM1XRj1J3MdPuCK9lXC6vf8ZkrCizN6ohcLC/s1600/signal-whatsapp.jpg"
     },
     {
       "title": "ZDI-26-221: GIMP XPM File Parsing Integer Overflow Remote Code Execution Vulnerability",
