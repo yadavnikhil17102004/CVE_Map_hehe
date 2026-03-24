@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-03-24T12:53:22Z",
+  "last_updated": "2026-03-24T14:16:03Z",
   "articles": [
+    {
+      "title": "Zero Trust: Bridging the Gap Between Authentication and Trust",
+      "link": "https://www.bleepingcomputer.com/news/security/zero-trust-bridging-the-gap-between-authentication-and-trust/",
+      "description": "Passing MFA doesn't mean a session is safe, attackers can hijack tokens and bypass identity checks. Specops Software explains why Zero Trust must verify both user identity and device health. [...]",
+      "pub_date": "Tue, 24 Mar 2026 10:02:12 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "HackerOne discloses employee data breach after Navia hack",
+      "link": "https://www.bleepingcomputer.com/news/security/hackerone-discloses-employee-data-breach-after-navia-hack/",
+      "description": "Bug bounty platform HackerOne is notifying hundreds of employees that their data was stolen after attackers hacked Navia, one of its U.S. benefits administrators. [...]",
+      "pub_date": "Tue, 24 Mar 2026 10:01:02 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Infinite Campus warns of breach after ShinyHunters claims data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/infinite-campus-warns-of-breach-after-shinyhunters-claims-data-theft/",
+      "description": "Infinite Campus, a widely used K-12 student information system, is warning customers of a data breach following an extortion attempt by a threat actor. [...]",
+      "pub_date": "Tue, 24 Mar 2026 09:48:38 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Yanluowang ransomware access broker gets 81 months in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/yanluowang-ransomware-access-broker-gets-81-months-in-prison/",
+      "description": "A Russian national was sentenced to nearly 7 years in prison after pleading guilty to acting as an initial access broker (IAB) for Yanluowang ransomware attacks. [...]",
+      "pub_date": "Tue, 24 Mar 2026 09:06:03 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "APT Hackers Attacking RDP Servers to Deploy Malicious Payloads and Establish Persistence",
       "link": "https://cybersecuritynews.com/apt-hackers-attacking-rdp-servers/",
@@ -266,14 +298,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3tECPxIu-t1cl5YE211vm5q8dB99cO4mW6hbz0jCRbtDjalNgI7gX42M9MQAkty0IsWyxB3cJDMOpKbqQlLSKMnjbGaBOJHB9QslmSQB6-96o4RlaFLKuTHEAq8HpO-KbprLYPIjSR64H9twUcA-fuV0CrB2qw7RlzNWhQUHEmyKboascQm-Udl5GPdwA/s1600/docker.jpg"
     },
     {
-      "title": "New KB5085516 emergency update fixes Microsoft account sign-in",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/new-kb5085516-emergency-update-fixes-microsoft-account-sign-in/",
-      "description": "Microsoft has released an emergency update to address a major issue that breaks sign-ins with Microsoft accounts across multiple Microsoft apps, including Teams and OneDrive. [...]",
-      "pub_date": "Mon, 23 Mar 2026 04:04:30 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems",
       "link": "https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html",
       "description": "Threat actors are suspected to be exploiting a maximum-severity security flaw impacting Quest KACE Systems Management Appliance (SMA), according to Arctic Wolf. The cybersecurity company said it ob...",
@@ -311,30 +335,6 @@
       "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulner...",
       "pub_date": "Mon, 23 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "VoidStealer malware steals Chrome master key via debugger trick",
-      "link": "https://www.bleepingcomputer.com/news/security/voidstealer-malware-steals-chrome-master-key-via-debugger-trick/",
-      "description": "An information stealer called VoidStealer uses a new approach to bypass Chrome's Application-Bound Encryption (ABE) and extract the master key for decrypting sensitive data stored in the browser. [...",
-      "pub_date": "Sun, 22 Mar 2026 10:32:46 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Trivy vulnerability scanner breach pushed infostealer via GitHub Actions",
-      "link": "https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/",
-      "description": "The Trivy vulnerability scanner was compromised in a supply-chain attack by threat actors known as TeamPCP, which distributed credential-stealing malware through official releases and GitHub Action...",
-      "pub_date": "Sat, 21 Mar 2026 13:30:41 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Google adds ‘Advanced Flow’ for safe APK sideloading on Android",
-      "link": "https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/",
-      "description": "Google has announced a new mechanism in Android called Advanced Flow that will allow sideloading APKs from unverified developers for power users in a more secure way. [...]",
-      "pub_date": "Sat, 21 Mar 2026 10:18:23 -0400",
-      "source": "BleepingComputer",
       "image_url": ""
     },
     {
