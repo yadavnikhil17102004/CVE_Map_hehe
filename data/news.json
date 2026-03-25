@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-03-25T14:14:29Z",
+  "last_updated": "2026-03-25T16:02:36Z",
   "articles": [
+    {
+      "title": "Citrix urges admins to patch NetScaler flaws as soon as possible",
+      "link": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-netscaler-flaws-as-soon-as-possible/",
+      "description": "Citrix has patched two NetScaler ADC and NetScaler Gateway vulnerabilities, one of which is very similar to the CitrixBleed and CitrixBleed2 flaws exploited in zero-day attacks in recent years. [...]",
+      "pub_date": "Wed, 25 Mar 2026 11:52:10 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "SmartApeSG ClickFix Campaign Delivers Remcos, NetSupport RAT, StealC and Sectop RAT",
+      "link": "https://cybersecuritynews.com/smartapesg-clickfix-campaign-delivers-remcos/",
+      "description": "A threat campaign known as SmartApeSG — also tracked under the names ZPHP and HANEYMANEY — has been observed pushing multiple strains of malware through a social engineering technique called Cl...",
+      "pub_date": "Wed, 25 Mar 2026 15:47:14 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/SmartApeSG-ClickFix-Campaign-Delivers-Remcos-NetSupport-RAT-StealC-and-Sectop-RAT.webp"
+    },
+    {
+      "title": "Firefox 149.0 Released With Free Built-in VPN With 50 GB Monthly Data Limit",
+      "link": "https://cybersecuritynews.com/firefox-149-0-built-in-vpn/",
+      "description": "Mozilla has officially rolled out Firefox 149.0 to the Release channel on March 24, 2026, delivering a massive update focused heavily on user privacy and security hardening. The standout addition i...",
+      "pub_date": "Wed, 25 Mar 2026 15:44:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Firefox-149.0-Released-With-free-built-in-VPN-With-50-GB-monthly-Data-Limit-1.webp"
+    },
+    {
+      "title": "Node.js Patches Multiple Vulnerabilities That Enable DoS Attacks and Process Crashes",
+      "link": "https://cybersecuritynews.com/node-js-patches-multiple-vulnerabilities/",
+      "description": "The Node.js project released a critical security update on March 24, 2026, for the Long-Term Support (LTS) branch, designating version 20.20.2 \u0026#8216;Iron\u0026#8217; as a security release. The update r...",
+      "pub_date": "Wed, 25 Mar 2026 15:41:26 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Node.js-Patches-Multiple-Vulnerabilities.webp"
+    },
+    {
+      "title": "2026 Cybersecurity Excellence Awards Winners Announced during RSA Conference as AI Security Dominates",
+      "link": "https://cybersecuritynews.com/cybersecurity-excellence-awards-2026/",
+      "description": "San Francisco, USA, March 25th, 2026, CyberNewswire Cybersecurity Insiders today announced the winners of the 2026 Cybersecurity Excellence Awards during RSA Conference, recognizing leading cyberse...",
+      "pub_date": "Wed, 25 Mar 2026 15:28:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-49PhgNV7zylf7az7oe0rU7iYrCkufSmmBZLy-uuZNqxvvRXFJWUgyVLtqFk2wNbTLx9aRSWkpBLSd9sA-Q2CaF36hJoZ1FpziaHZ0xD2nm6yH1L3dn0i4XgdG_cO-DhqEUJO57tXHYkWDrvkGpggyxJsIoUTz7a8jc0nqZAYKie0Uu9Y8LX5mLM7cHo/s16000/TTT%20-%202026-03-25T195627.010.webp?ssl=1"
+    },
+    {
+      "title": "New Research Maps How Infostealer Infections Turn Into Dark Web Exposure in 48 Hours",
+      "link": "https://cybersecuritynews.com/new-research-maps-how-infostealer-infections/",
+      "description": "The digital threat landscape has reached a point where a single careless download by one employee can hand criminal groups direct access to an entire corporate network in under two days. New resear...",
+      "pub_date": "Wed, 25 Mar 2026 14:58:19 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/New-Research-Maps-How-Infostealer-Infections-Turn-Into-Dark-Web-Exposure-in-48-Hours.webp"
+    },
+    {
+      "title": "GlassWorm Malware Uses Solana Dead Drops to Deliver RAT and Steal Browser, Crypto Data",
+      "link": "https://thehackernews.com/2026/03/glassworm-malware-uses-solana-dead.html",
+      "description": "Cybersecurity researchers have flagged a new evolution of the GlassWorm campaign that delivers a multi-stage framework capable of comprehensive data theft and installing a remote access trojan (RAT...",
+      "pub_date": "Wed, 25 Mar 2026 19:56:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvLAu4RdpX-vvdNOKVtvqBhpnDMoSdpatgQ3X32zeCmcAhOUZxJo37kHAf-0sBO3tTY8Pc6i4Jr9CWHwZ1nR7ikRy86CVMizlgDH40OF0kr3P7otHCE9-3ghivGFG1bBoRrWsW-gD-OAqt7DI6pRuPA_NtnUkoQbW_FPB1NdgNmQwdhiFLqiWo1dHnsu2P/s1600/main-s.jpg"
+    },
+    {
+      "title": "AI-Assisted ‘OpenClaw Trap’ Campaign Uses Trojanized GitHub Repos to Target Developers and Gamers",
+      "link": "https://cybersecuritynews.com/ai-assisted-openclaw-trap-campaign-uses-trojanized-github-repos/",
+      "description": "A newly discovered malware campaign has been quietly spreading through fake GitHub repositories, targeting software developers, gamers, Roblox players, and crypto users at the same time. Tracked in...",
+      "pub_date": "Wed, 25 Mar 2026 14:19:09 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/AI-Assisted-‘OpenClaw-Trap-Campaign-Uses-Trojanized-GitHub-Repos-to-Target-Developers-and-Gamers.webp"
+    },
     {
       "title": "Paid AI Accounts Are Now a Hot Underground Commodity ",
       "link": "https://www.bleepingcomputer.com/news/security/paid-ai-accounts-are-now-a-hot-underground-commodity/",
@@ -74,22 +138,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifvDHwUAT0Y5sILbpMYi15pftc8kD-oPKrtaUucJ0PLeFRnxKsA14uMC3zCpTPZwj0w7GBTqFQCMfmwzzy_tv-RYTVBijk_x2KWzKkS68n9QfolIhr2B3rSMTGJWg3qt9ZbTYWDiyHmKNT6yD47XPMyS2aj8DF_lyKGKKGWfIsohBlWJvjS_Z3j_XqMZQ/s1600/ms-phish-kit.jpg"
     },
     {
-      "title": "Multiple TP-Link Vulnerabilities Allow Attackers to Execute Arbitrary Commands on System",
-      "link": "https://cybersecuritynews.com/multiple-tp-link-vulnerabilities/",
-      "description": "TP-Link has recently issued a critical security advisory addressing multiple high-severity vulnerabilities impacting its Archer NX series routers. These flaws, which affect the Archer NX200, NX210,...",
-      "pub_date": "Wed, 25 Mar 2026 11:16:22 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Multiple-TP-Link-Vulnerabilities-Allow-Attackers-to-execute-arbitrary-commands-on-System-1.webp"
-    },
-    {
-      "title": "Russian Initial Access Broker Sentenced to Prison for Enabling Ransomware Attacks on U.S. Firms",
-      "link": "https://cybersecuritynews.com/russian-initial-access-broker-sentenced/",
-      "description": "Aleksei Volkov, a 26-year-old Russian national, has been sentenced to 81 months in federal prison for operating as an Initial Access Broker (IAB). His illicit activities directly enabled major cybe...",
-      "pub_date": "Wed, 25 Mar 2026 11:11:51 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Russian-Initial-Access-Broker-Sentenced-to-Prison-for-Enabling-Major-Ransomware-Attacks-on-U.S.-Firms-1.webp"
-    },
-    {
       "title": "TP-Link warns users to patch critical router auth bypass flaw",
       "link": "https://www.bleepingcomputer.com/news/security/tp-link-warns-users-to-patch-critical-router-auth-bypass-flaw/",
       "description": "TP-Link has patched several vulnerabilities in its Archer NX router series, including a critical-severity flaw that may allow attackers to bypass authentication and upload new firmware. [...]",
@@ -98,44 +146,12 @@
       "image_url": ""
     },
     {
-      "title": "Five Malicious npm Packages Target Crypto Developers, Exfiltrate Wallet Keys via Telegram",
-      "link": "https://cybersecuritynews.com/five-malicious-npm-packages/",
-      "description": "The cryptocurrency development community is facing a serious supply chain threat after five malicious npm packages were discovered stealing private wallet keys and forwarding them directly to a Tel...",
-      "pub_date": "Wed, 25 Mar 2026 11:08:40 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Five-Malicious-npm-Packages-Target-Crypto-Developers-Exfiltrate-Wallet-Keys-via-Telegram.webp"
-    },
-    {
-      "title": "ClawHub Vulnerability Let Attackers Manipulate Rankings to Become the #1 Skill",
-      "link": "https://cybersecuritynews.com/clawhub-vulnerability-manipulate-rankings-to-become-the-1-skill/",
-      "description": "Security research team has uncovered a critical vulnerability in ClawHub, the public skills registry for the OpenClaw agentic ecosystem. This flaw allowed attackers to artificially inflate the down...",
-      "pub_date": "Wed, 25 Mar 2026 09:31:54 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/clawhub.webp"
-    },
-    {
-      "title": "Google Authenticator’s Hidden Passkey Architecture Could Open New Passwordless Attack Paths",
-      "link": "https://cybersecuritynews.com/google-authenticators-hidden-passkey-architecture/",
-      "description": "Passwordless authentication was supposed to mark the end of account takeovers. Designed to replace traditional passwords with cryptographic keys tied to physical devices, it promised a future where...",
-      "pub_date": "Wed, 25 Mar 2026 09:19:39 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Google-Authenticators-Hidden-Passkey-Architecture-Could-Open-New-Passwordless-Attack-Paths.webp"
-    },
-    {
       "title": "Manager of botnet used in ransomware attacks gets 2 years in prison",
       "link": "https://www.bleepingcomputer.com/news/security/russian-man-sentenced-for-operating-botnet-used-in-ransomware-attacks/",
       "description": "A Russian national has been sentenced to two years in prison after admitting that the phishing botnet he managed was used to launch BitPaymer ransomware attacks against 72 U.S. companies. [...]",
       "pub_date": "Wed, 25 Mar 2026 04:47:29 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "FCC Banned Foreign-made Consumer Routers Over Security Risks",
-      "link": "https://cybersecuritynews.com/fcc-blocks-new-consumer-router/",
-      "description": "The Federal Communications Commission (FCC) announced a major update to its Covered List, officially prohibiting the approval of new consumer-grade network routers produced in foreign countries. Th...",
-      "pub_date": "Wed, 25 Mar 2026 07:50:56 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/FCC-Blocks-Consumer-Routers.webp"
     },
     {
       "title": "FCC Bans New Foreign-Made Routers Over Supply Chain and Cyber Risk Concerns",
@@ -306,14 +322,6 @@
       "image_url": ""
     },
     {
-      "title": "OpenAI rolls out ChatGPT Library to store your personal files",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-chatgpt-library-to-store-your-personal-files/",
-      "description": "OpenAI is rolling out a new feature called 'Library' for ChatGPT, which allows you to store your personal files or images on OpenAI's cloud storage, so you can reference those items in a future cha...",
-      "pub_date": "Mon, 23 Mar 2026 19:47:14 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "North Korean Hackers Abuse VS Code Auto-Run Tasks to Deploy StoatWaffle Malware",
       "link": "https://thehackernews.com/2026/03/north-korean-hackers-abuse-vs-code-auto.html",
       "description": "The North Korean threat actors behind the Contagious Interview campaign, also tracked as WaterPlum, have been attributed to a malware family tracked as StoatWaffle that's distributed via malicious ...",
@@ -328,14 +336,6 @@
       "pub_date": "Mon, 23 Mar 2026 16:00:00 +0000",
       "source": "GitHub Security",
       "image_url": ""
-    },
-    {
-      "title": "⚡ Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches Numbers \u0026 More",
-      "link": "https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html",
-      "description": "Another week, another reminder that the internet is still a mess. Systems people thought were secure are being broken in simple ways, showing many still ignore basic advisories. This edition covers...",
-      "pub_date": "Mon, 23 Mar 2026 18:44:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe8A2RKkUN6BATGKH_48mi3J6DYVutxBllcmOiNl7N3xeqPx9sySaIFdxMxfIp5VQksSCBdRKtpNpiWUcTo5VNClmu6dbs6hoM9Ljx3QXAWEnAjKAG0Vc8JHLxGWfZkq3ORe4PgT-RgpBxhPnfMtr8UOhnjXToH-WOa6h3IVUM3HQqvgmWmMTPjKsqTkSN/s1600/recap-bl.jpg"
     },
     {
       "title": "ZDI-26-225: (Pwn2Own) Samsung Galaxy S25 Samsung Account Open Redirect Security Bypass Vulnerability",
