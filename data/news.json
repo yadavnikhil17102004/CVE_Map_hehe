@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-03-25T18:45:21Z",
+  "last_updated": "2026-03-25T19:40:53Z",
   "articles": [
+    {
+      "title": "Open Directory Malware Campaign Uses Obfuscated VBS, PNG Loaders and RAT Payloads",
+      "link": "https://cybersecuritynews.com/open-directory-malware-campaign/",
+      "description": "A sophisticated multi-stage malware campaign has surfaced, deploying obfuscated Visual Basic Script (VBS) files, PNG-embedded loaders, and remote access trojans (RATs) to target systems without lea...",
+      "pub_date": "Wed, 25 Mar 2026 19:39:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Open-Directory-Malware-Campaign-Uses-Obfuscated-VBS-PNG-Loaders-and-RAT-Payloads.webp"
+    },
+    {
+      "title": "Mirai-Based Botnets Evolve Into Massive DDoS and Proxy Abuse Threat",
+      "link": "https://cybersecuritynews.com/mirai-based-botnets-evolve-into-massive-ddos/",
+      "description": "The internet has seen a sharp rise in botnet-driven threats over the past year, with much of the activity tracing back to one of the most influential malware families in modern history — Mirai. F...",
+      "pub_date": "Wed, 25 Mar 2026 19:38:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Mirai-Based-Botnets-Evolve-Into-Massive-DDoS-and-Proxy-Abuse-Threat.webp"
+    },
     {
       "title": "New Torg Grabber infostealer malware targets 728 crypto wallets",
       "link": "https://www.bleepingcomputer.com/news/security/new-torg-grabber-infostealer-malware-targets-728-crypto-wallets/",
@@ -104,22 +120,6 @@
       "pub_date": "Wed, 25 Mar 2026 10:02:12 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "F5 NGINX Plus and Open Source Vulnerability Allow Attackers to Execute Code Using MP4 file",
-      "link": "https://cybersecuritynews.com/f5-nginx-plus-and-open-source-vulnerability/",
-      "description": "A high-severity vulnerability has been disclosed affecting both NGINX Open Source and NGINX Plus. Tracked formally as CVE-2026-32647, this security flaw carries a CVSS v4.0 base score of 8.5 and a ...",
-      "pub_date": "Wed, 25 Mar 2026 13:22:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/F5-NGINX-Plus-and-Open-Source-Vulnerability-Allow-Attackers-to-Execute-Code-Using-MP4-file-1.webp"
-    },
-    {
-      "title": "Firefox 149 Released With Patch for 37 Vulnerabilities that Enables Remote Attacks",
-      "link": "https://cybersecuritynews.com/firefox-149-released/",
-      "description": "Mozilla released Firefox 149 on March 24, 2026, delivering one of the largest security advisories in the browser\u0026#8217;s recent history, addressing 37 vulnerabilities spanning memory corruption, sa...",
-      "pub_date": "Wed, 25 Mar 2026 13:11:42 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Firefox-149-Released.webp"
     },
     {
       "title": "Kali Linux 2026.1 released with 8 new tools, new BackTrack mode",
@@ -522,6 +522,14 @@
       "image_url": "https://github.blog/wp-content/uploads/2025/09/image1_7a2639.png?resize=982%2C210"
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33017 Langflow Code Injection Vulnerability  This type...",
+      "pub_date": "Wed, 25 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Pharos Controls Mosaic Show Controller",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-083-01",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated attacker to execute arbitrary commands with root privileges. The following versions of Pharos Controls...",
@@ -570,17 +578,17 @@
       "image_url": ""
     },
     {
-      "title": "Schneider Electric Modicon Controllers M241, M251, M258, and LMC058",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability may risk a Cross-site Scripting or an open redirect attack which could result in an account takeover scenario or the execution of cod...",
+      "title": "Schneider Electric EcoStruxure Automation Expert",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-03",
+      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Automation Expert product. The EcoStruxure™ Automation Expert product is plant automation software designed ...",
       "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Schneider Electric EcoStruxure PME and EPO",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-04",
-      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure Power Monitoring Expert (PME) and EcoStruxure Power Operation (EPO) products. EcoStruxure Power Monitoring Expert...",
+      "title": "Schneider Electric Modicon Controllers M241, M251, M258, and LMC058",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability may risk a Cross-site Scripting or an open redirect attack which could result in an account takeover scenario or the execution of cod...",
       "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -594,33 +602,9 @@
       "image_url": ""
     },
     {
-      "title": "CTEK Chargeportal",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-06",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
-      "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "IGL-Technologies eParking.fi",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-07",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
-      "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "Schneider Electric Modicon M241, M251, and M262",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-01",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the product. The following versions of Schneider Electric Modicon M...",
-      "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Mitsubishi Electric CNC Series",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the affected products. Th...",
       "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -634,9 +618,25 @@
       "image_url": ""
     },
     {
-      "title": "Schneider Electric EcoStruxure Automation Expert",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-03",
-      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Automation Expert product. The EcoStruxure™ Automation Expert product is plant automation software designed ...",
+      "title": "Schneider Electric EcoStruxure PME and EPO",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-04",
+      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure Power Monitoring Expert (PME) and EcoStruxure Power Operation (EPO) products. EcoStruxure Power Monitoring Expert...",
+      "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Mitsubishi Electric CNC Series",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the affected products. Th...",
+      "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "IGL-Technologies eParking.fi",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-07",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
       "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
