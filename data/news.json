@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-03-25T10:40:56Z",
+  "last_updated": "2026-03-25T11:36:34Z",
   "articles": [
+    {
+      "title": "Multiple TP-Link Vulnerabilities Allow Attackers to Execute Arbitrary Commands on System",
+      "link": "https://cybersecuritynews.com/multiple-tp-link-vulnerabilities/",
+      "description": "TP-Link has recently issued a critical security advisory addressing multiple high-severity vulnerabilities impacting its Archer NX series routers. These flaws, which affect the Archer NX200, NX210,...",
+      "pub_date": "Wed, 25 Mar 2026 11:16:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Multiple-TP-Link-Vulnerabilities-Allow-Attackers-to-execute-arbitrary-commands-on-System-1.webp"
+    },
+    {
+      "title": "Russian Initial Access Broker Sentenced to Prison for Enabling Ransomware Attacks on U.S. Firms",
+      "link": "https://cybersecuritynews.com/russian-initial-access-broker-sentenced/",
+      "description": "Aleksei Volkov, a 26-year-old Russian national, has been sentenced to 81 months in federal prison for operating as an Initial Access Broker (IAB). His illicit activities directly enabled major cybe...",
+      "pub_date": "Wed, 25 Mar 2026 11:11:51 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Russian-Initial-Access-Broker-Sentenced-to-Prison-for-Enabling-Major-Ransomware-Attacks-on-U.S.-Firms-1.webp"
+    },
+    {
+      "title": "TP-Link warns users to patch critical router auth bypass flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/tp-link-warns-users-to-patch-critical-router-auth-bypass-flaw/",
+      "description": "TP-Link has patched several vulnerabilities in its Archer NX router series, including a critical-severity flaw that may allow attackers to bypass authentication and upload new firmware. [...]",
+      "pub_date": "Wed, 25 Mar 2026 07:11:00 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Five Malicious npm Packages Target Crypto Developers, Exfiltrate Wallet Keys via Telegram",
+      "link": "https://cybersecuritynews.com/five-malicious-npm-packages/",
+      "description": "The cryptocurrency development community is facing a serious supply chain threat after five malicious npm packages were discovered stealing private wallet keys and forwarding them directly to a Tel...",
+      "pub_date": "Wed, 25 Mar 2026 11:08:40 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Five-Malicious-npm-Packages-Target-Crypto-Developers-Exfiltrate-Wallet-Keys-via-Telegram.webp"
+    },
     {
       "title": "ClawHub Vulnerability Let Attackers Manipulate Rankings to Become the #1 Skill",
       "link": "https://cybersecuritynews.com/clawhub-vulnerability-manipulate-rankings-to-become-the-1-skill/",
@@ -106,36 +138,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/HackerOne-Data-Breach.webp"
     },
     {
-      "title": "Dell Wyse Management Vulnerabilities Enables Complete System Compromise",
-      "link": "https://cybersecuritynews.com/dell-wyse-management-vulnerabilities/",
-      "description": "A recent security analysis has revealed how chaining seemingly minor logic flaws in Dell Wyse Management Suite (WMS) On-Premises can result in a complete system compromise. Security researchers dem...",
-      "pub_date": "Tue, 24 Mar 2026 17:52:38 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Dell-Wyse-Management-Vulnerabilities-Enables-complete-system-compromise-2.webp"
-    },
-    {
       "title": "Firefox now has a free built-in VPN with 50GB monthly data limit",
       "link": "https://www.bleepingcomputer.com/news/security/firefox-now-has-a-free-built-in-vpn-with-50gb-monthly-data-limit/",
       "description": "Mozilla released Firefox 149 with added privacy protection through a built-in VPN tool offering up to 50GB of monthly traffic. [...]",
       "pub_date": "Tue, 24 Mar 2026 13:23:01 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Tycoon2FA Operators Resume Cloud Account Phishing After Infrastructure Disruption",
-      "link": "https://cybersecuritynews.com/tycoon2fa-operators-resume-cloud-account/",
-      "description": "Cybercriminals behind Tycoon2FA, a phishing-as-a-service (PhaaS) platform, have resumed targeting cloud accounts with near-full force despite a coordinated law enforcement takedown on March 4, 2026...",
-      "pub_date": "Tue, 24 Mar 2026 17:22:57 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Tycoon2FA-Operators-Resume-Cloud-Account-Phishing-After-Infrastructure-Disruption.webp"
-    },
-    {
-      "title": "CanisterWorm Gets Destructive as TeamPCP Deploys Iran-Focused Kubernetes Wiper",
-      "link": "https://cybersecuritynews.com/canisterworm-gets-destructive-as-teampcp/",
-      "description": "A threat actor known as TeamPCP has taken a sharp turn toward destruction with a new payload that goes far beyond credential theft or backdoor installation. The group, tracked as a cloud-native att...",
-      "pub_date": "Tue, 24 Mar 2026 17:06:13 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/CanisterWorm-Gets-Destructive-as-TeamPCP-Deploys-Iran-Focused-Kubernetes-Wiper.webp"
     },
     {
       "title": "Tax Search Ads Deliver ScreenConnect Malware Using Huawei Driver to Disable EDR",
@@ -278,14 +286,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-platform-returns-after-recent-police-disruption/",
       "description": "The Tycoon2FA phishing-as-a-service (PhaaS) platform that Europol and partners disrupted on March 4 has already returned to previously observed activity levels. [...]",
       "pub_date": "Mon, 23 Mar 2026 17:52:58 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "TeamPCP deploys Iran-targeted wiper in Kubernetes attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/teampcp-deploys-iran-targeted-wiper-in-kubernetes-attacks/",
-      "description": "The TeamPCP hacking group is targeting Kubernetes clusters with a malicious script that wipes all machines when it detects systems configured for Iran. [...]",
-      "pub_date": "Mon, 23 Mar 2026 16:09:10 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
