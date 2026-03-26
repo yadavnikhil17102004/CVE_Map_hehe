@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-03-26T12:56:16Z",
+  "last_updated": "2026-03-26T14:23:13Z",
   "articles": [
+    {
+      "title": "Fake Screenshot Lures Used to Infect Web3 Support Staff With Multi-Stage Malware",
+      "link": "https://cybersecuritynews.com/fake-screenshot-lures-used/",
+      "description": "A threat group known as APT-Q-27 has been running an active campaign against Web3 customer support teams, using fake screenshot links in live chat windows to silently install a persistent backdoor ...",
+      "pub_date": "Thu, 26 Mar 2026 14:18:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Fake-Screenshot-Lures-Used-to-Infect-Web3-Support-Staff-With-Multi-Stage-Malware.webp"
+    },
+    {
+      "title": "TikTok for Business accounts targeted in new phishing campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/tiktok-for-business-accounts-targeted-in-new-phishing-campaign/",
+      "description": "Threat actors are targeting TikTok for Business accounts in a phishing campaign that prevents security bots from analyzing malicious pages. [...]",
+      "pub_date": "Thu, 26 Mar 2026 10:09:17 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "WhatsApp rolls out more AI features, iOS multi-account support",
+      "link": "https://www.bleepingcomputer.com/news/software/whatsapp-rolls-out-more-ai-features-ios-multi-account-support/",
+      "description": "WhatsApp is rolling out multiple features designed to make the app easier to use, including AI-powered message replies and photo retouching, support for two accounts on iOS, and chat history transf...",
+      "pub_date": "Thu, 26 Mar 2026 10:06:27 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Inside a Modern Fraud Attack: From Bot Signups to Account Takeovers",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-a-modern-fraud-attack-from-bot-signups-to-account-takeovers/",
+      "description": "Multi-stage fraud attacks chain bots, proxies, and stolen credentials from signup to takeover. IPQS shows why correlating IP, device, identity, and behavior is critical to stop it. [...]",
+      "pub_date": "Thu, 26 Mar 2026 10:00:10 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Silver Fox Abuses Stolen EV Certificates in AtlasCross RAT Malware Campaign",
+      "link": "https://cybersecuritynews.com/silver-fox-abuses-stolen-ev-certificates/",
+      "description": "The Chinese-nexus advanced persistent threat group Silver Fox, also tracked as Void Arachne and SwimSnake, is actively targeting Chinese-speaking users and professionals with a sophisticated AtlasC...",
+      "pub_date": "Thu, 26 Mar 2026 13:36:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Silver-Fox-Abuses-Stolen-EV-Certificates.webp"
+    },
+    {
+      "title": "[Webinar] Stop Guessing. Learn to Validate Your Defenses Against Real Attacks",
+      "link": "https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html",
+      "description": "Most teams have security tools in place. Alerts are firing, dashboards look clean, threat intel is flowing in. On the surface, everything feels under control. But one question usually stays unanswe...",
+      "pub_date": "Thu, 26 Mar 2026 18:42:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCypzkb6uvHuNx6LKknUqtvQFoqsr6aalztDeBKT1aaUASzfjZMZAZqExx1k0w5iKWl08lx3MxbM_FwWxAvBdZODEerioaMp8OHVvhSjC8VL3uAW9_NMniMl_niggBVhVMdDFu2324YyhW5TrK4fua1PXlrb0DweOULvNgi5mlQUZUct_dIX3OePrfqks/s1600/validate.jpg"
+    },
+    {
+      "title": "Claude Extension Flaw Enabled Zero-Click XSS Prompt Injection via Any Website",
+      "link": "https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html",
+      "description": "Cybersecurity researchers have disclosed a vulnerability in Anthropic's Claude Google Chrome Extension that could have been exploited to trigger malicious prompts simply by visiting a web page. The...",
+      "pub_date": "Thu, 26 Mar 2026 18:41:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvKbsVkCFVvziyQ564TDmmBjGzy6lzKUcC_rmt-GZWOiCshA_YGAhsMjib7OhvNS_8OX6micW6hWSY4lWh6IoGcyy_tCywr9Tr-qhyI4Wau32zV80zS3OJRVnbSZtHQqWO-RvoznJ34HjG6M5CDlKIXXTyAuZvVS235fZ9juweln5KS77w1w80Jk113rAW/s1600/claude.jpg"
+    },
+    {
+      "title": "Coruna iOS exploit framework linked to Triangulation attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/coruna-ios-exploit-framework-linked-to-triangulation-attacks/",
+      "description": "The Coruna exploit kit is an evolution of the framework used in the Operation Triangulation espionage campaign, which in 2023 targeted iPhones via zero-click iMessage exploits. [...]",
+      "pub_date": "Thu, 26 Mar 2026 09:10:14 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Russia arrests suspected owner of LeakBase cybercrime forum",
       "link": "https://www.bleepingcomputer.com/news/security/russia-arrests-suspected-owner-and-admin-of-leakbase-cybercrime-forum/",
@@ -8,6 +72,14 @@
       "pub_date": "Thu, 26 Mar 2026 08:50:17 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Masters of Imitation: How Hackers and Art Forgers Perfect the Art of Deception",
+      "link": "https://thehackernews.com/2026/03/masters-of-imitation-how-hackers-and.html",
+      "description": "Unmasking impostors is something the art world has faced for decades, and there are valuable lessons from the works of Elmyr de Hory that can apply to the world of defensive cybersecurity. During t...",
+      "pub_date": "Thu, 26 Mar 2026 17:28:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicYccGrhSqLyV14fb0UKZKIns-G-9cU181ytP5rPJvhMDJLPbmBBgiTIBALloFdEy_87wloWgNeE3zCfQEYoS7uPOLec7Uk40LT9KFOiov2psTWX4XIabr-UJql5ILHDQn0o8Tc8H7PwJSF9y8Yh3hR_iolMcCXBpGxgcwFtPAbYDtzXo26DZspMORcKs/s1600/core.jpg"
     },
     {
       "title": "Synology DiskStation Manager Vulnerability Allow Remote Attackers to Execute Arbitrary Commands",
@@ -26,12 +98,12 @@
       "image_url": ""
     },
     {
-      "title": "[Webinar] Stop Guessing. Learn to Validate Your Defenses Against Real Attacks",
-      "link": "https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html",
-      "description": "Most teams have security tools in place. Alerts are firing, dashboards look clean, threat intel is flowing in. On the surface, everything feels under control. But one question usually stays unanswe...",
-      "pub_date": "Thu, 26 Mar 2026 16:37:00 +0530",
+      "title": "ThreatsDay Bulletin: PQC Push, AI Vuln Hunting, Pirated Traps, Phishing Kits \u0026 20 More Stories",
+      "link": "https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html",
+      "description": "Some weeks in security feel loud. This one feels sneaky. Less big dramatic fireworks, more of that slow creeping sense that too many people are getting way too comfortable abusing things they proba...",
+      "pub_date": "Thu, 26 Mar 2026 17:15:00 +0530",
       "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCypzkb6uvHuNx6LKknUqtvQFoqsr6aalztDeBKT1aaUASzfjZMZAZqExx1k0w5iKWl08lx3MxbM_FwWxAvBdZODEerioaMp8OHVvhSjC8VL3uAW9_NMniMl_niggBVhVMdDFu2324YyhW5TrK4fua1PXlrb0DweOULvNgi5mlQUZUct_dIX3OePrfqks/s1600/validate.jpg"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOuz5FhCwEEsebWV1fHdF2VE-lnNBee6FrzMYsTdEODBsw07F76vTo3-UJKUz7QENWIUU_J7IdNj2vlhZbbdL5Chz6Vt6SyEbIwH-vw3J76SlUT02eZwbGHG5egcJNFeaKBd3sdLrp7egajwLniaeBMwZdXAMv3la2Ywzxin4gLiZK6lHbdPSzUDFCuWHF/s1600/tday-main.jpg"
     },
     {
       "title": "Coruna iOS Kit Reuses 2023 Triangulation Exploit Code in New Mass Attacks",
@@ -130,22 +202,6 @@
       "image_url": ""
     },
     {
-      "title": "China-Linked Hackers Breach Southeast Asian Military Systems in Long-Running Spy Campaign",
-      "link": "https://cybersecuritynews.com/china-linked-hackers-breach-southeast-asian-military-systems/",
-      "description": "A sophisticated and long-running cyber espionage campaign, tracked as CL-STA-1087, has been quietly targeting military organizations across Southeast Asia since at least 2020. The operation, asses...",
-      "pub_date": "Wed, 25 Mar 2026 19:43:45 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/China-Linked-Hackers-Breach-Southeast-Asian-Military-Systems-in-Long-Running-Spy-Campaign.webp"
-    },
-    {
-      "title": "Open Directory Malware Campaign Uses Obfuscated VBS, PNG Loaders and RAT Payloads",
-      "link": "https://cybersecuritynews.com/open-directory-malware-campaign/",
-      "description": "A sophisticated multi-stage malware campaign has surfaced, deploying obfuscated Visual Basic Script (VBS) files, PNG-embedded loaders, and remote access trojans (RATs) to target systems without lea...",
-      "pub_date": "Wed, 25 Mar 2026 19:39:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Open-Directory-Malware-Campaign-Uses-Obfuscated-VBS-PNG-Loaders-and-RAT-Payloads.webp"
-    },
-    {
       "title": "New Torg Grabber infostealer malware targets 728 crypto wallets",
       "link": "https://www.bleepingcomputer.com/news/security/new-torg-grabber-infostealer-malware-targets-728-crypto-wallets/",
       "description": "A new info-stealing malware called Torg Grabber is stealing sensitive data from 850 browser extensions, more than 700 of them for cryptocurrency wallets. [...]",
@@ -242,44 +298,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCWdGgQ4RKWsSD83uBmdU0Vfi3E1vEi1qS7ImOYUXa9S6eDs5ShKP0tz3sZL5FPdt6lzwG4scb7HQPjGnsdPDFNWxZ2k8yK-whH4uU9_Ez3Nt5178ETgKceu4LpAPntUZZ7utBkHBd261B5Ltt2weQVT94qjY4wcRRGfSpv1sAZLjAVDc_oSNMPiISo4dU/s1600/routers.jpg"
     },
     {
-      "title": "PTC warns of imminent threat from critical Windchill, FlexPLM RCE bug",
-      "link": "https://www.bleepingcomputer.com/news/security/ptc-warns-of-imminent-threat-from-critical-windchill-flexplm-rce-bug/",
-      "description": "PTC Inc. is warning of a critical vulnerability in Windchill and FlexPLM, widely used product lifecycle management (PLM) solutions, that could allow remote code execution. [...]",
-      "pub_date": "Tue, 24 Mar 2026 19:04:36 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Popular LiteLLM PyPI package backdoored to steal credentials, auth tokens",
-      "link": "https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/",
-      "description": "The TeamPCP hacking group continues its supply-chain rampage, now compromising the massively popular \"LiteLLM\" Python package on PyPI and claiming to have stolen data from hundreds of thousands of ...",
-      "pub_date": "Tue, 24 Mar 2026 18:29:01 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "FCC bans new routers made outside the USA over security risks",
-      "link": "https://www.bleepingcomputer.com/news/security/fcc-bans-new-routers-made-outside-the-usa-over-security-risks/",
-      "description": "The Federal Communications Commission has updated its Covered List to include all consumer routers made in foreign countries, banning the sale of new models in the U.S. [...]",
-      "pub_date": "Tue, 24 Mar 2026 16:41:30 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "TeamPCP Backdoors LiteLLM Versions 1.82.7–1.82.8 via Trivy CI/CD Compromise",
       "link": "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html",
       "description": "TeamPCP, the threat actor behind the recent compromises of Trivy and KICS, has now compromised a popular Python package named litellm, pushing two malicious versions containing a credential harvest...",
       "pub_date": "Tue, 24 Mar 2026 23:51:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj52VkG6lfgHeRYSGJwB7xAkCm5_4uKyAUtZ3NiyGrlOTFU_zejzA3uU0HPKiFCCvp1PSXhtiSqTROkqIvJ3kur9VTYMRRQRV4M9_0p2PVw28DxOUbH_3CnZBgsLtiv3_0BBmyP792ONBzcl_yEwteI6uQ2GkLkj59el1hZwmHJEyZLo5wwLgbr5rEDi-r6/s1600/litellm.jpg"
-    },
-    {
-      "title": "Firefox now has a free built-in VPN with 50GB monthly data limit",
-      "link": "https://www.bleepingcomputer.com/news/security/firefox-now-has-a-free-built-in-vpn-with-50gb-monthly-data-limit/",
-      "description": "Mozilla released Firefox 149 with added privacy protection through a built-in VPN tool offering up to 50GB of monthly traffic. [...]",
-      "pub_date": "Tue, 24 Mar 2026 13:23:01 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Tax Search Ads Deliver ScreenConnect Malware Using Huawei Driver to Disable EDR",
@@ -296,30 +320,6 @@
       "pub_date": "Tue, 24 Mar 2026 22:06:05 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNlBFOfxbwROPKI6W1sccbKKW4Dx3IGIQi1AnDrQqKxY1xaVxZv9gip61deVh8UNN1xLX6l3fOEm8pKGrHLSddhT8WS7w70a5FDT3eyew3xxDjCOC8QCYK7hERW2ILTYMfS9Giq4asN2G4SvYITRiVeqlZcN53LG8OG7hkQ5C6J8bAVokCe0a0oBkuNMlS/s1600/Cover-v1.gif"
-    },
-    {
-      "title": "Hackers Use Fake Resumes to Steal Enterprise Credentials and Deploy Crypto Miner",
-      "link": "https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html",
-      "description": "An ongoing phishing campaign is targeting French-speaking corporate environments with fake resumes that lead to the deployment of cryptocurrency miners and information stealers. \"The campaign uses ...",
-      "pub_date": "Tue, 24 Mar 2026 22:05:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbL1vWsuHhVXpRJ6YeAB7bUhrZmz7Ba3LRQ7MsrXsIVCXfxCMUs4nedbI26D5FpMqQ0uL6APhIlu12GJdDMWZ9AbGiz7qu5gUinMjsmh6yxiuqZvUzSrzj7Iy-Ax4UoCl1BZAGb6kRE_XPaTbmKHK6zTvsRWWeNcrhh4toMR5Fi2o4et0H938i6UPN1r8M/s1600/malware-resume.jpg"
-    },
-    {
-      "title": "The Hidden Cost of Cybersecurity Specialization: Losing Foundational Skills",
-      "link": "https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html",
-      "description": "Cybersecurity has changed fast. Roles are more\u0026nbsp;specialized, and tooling is more advanced. On paper, this should make organizations more secure. But in practice, many teams struggle with the sa...",
-      "pub_date": "Tue, 24 Mar 2026 17:31:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQpYFvavgLT2A2jdfoBL7Wp9ezuo1HDTIJiE8s2Pa5KXH-TOCWZqUGhcg6xb2WBpXtHUpH-tqYI3zUXmr-rWNM_crdZHIda5PaWdxskk39iOZqxz0ltvvh-VenOPTRqpUxX8J2uLL86_eljgWE-AOZPbm7OSrhsj23k7usKY2BTvHDTsscJ8GyQClclZA/s1600/cloud-network.jpg"
-    },
-    {
-      "title": "Ghost Campaign Uses 7 npm Packages to Steal Crypto Wallets and Credentials",
-      "link": "https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html",
-      "description": "Cybersecurity researchers have uncovered a new set of malicious npm packages that are designed to steal cryptocurrency wallets and sensitive data. The activity is being tracked by ReversingLabs as ...",
-      "pub_date": "Tue, 24 Mar 2026 17:30:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlh6CuYJhvsInqih03x9cvHFvmbF-F8DFJF_Y9VQMslT9g5yp_jhDewDUjcvUlAMzyKbfOHz0eMdFqHdIGwbtOY0MOHDGr_lA1TraO34SwYiKrieNnOQsAo5DbKhpJCp2X60_0epyBiBDs-KRgFjhR0QEPMmTRBCvJCiiQaJg7MaRCLf3EHcrIdluUrmJ-/s1600/1000062391.jpg"
     },
     {
       "title": "ZDI-26-226: (0Day) Microsoft Azure MCP AzureCliService Command Injection Remote Code Execution Vulnerability",
