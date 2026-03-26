@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-03-26T16:05:23Z",
+  "last_updated": "2026-03-26T17:55:24Z",
   "articles": [
+    {
+      "title": "CISA Warns of Langflow Code Injection Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/langflow-code-injection-vulnerability/",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has officially added a critical security flaw affecting the Langflow platform to its Known Exploited Vulnerabilities (KEV) catalog on Mar...",
+      "pub_date": "Thu, 26 Mar 2026 16:33:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/CISA-Warns-of-Langflow-Code-Injection-Vulnerability-Exploited-in-Attacks-1.webp"
+    },
+    {
+      "title": "IDrive for Windows Vulnerability Let Attackers Escalate Privileges",
+      "link": "https://cybersecuritynews.com/idrive-for-windows-vulnerability/",
+      "description": "A critical local privilege escalation vulnerability has been identified in the IDrive Cloud Backup Client for Windows. Tracked as CVE-2026-1995, this local privilege escalation vulnerability affec...",
+      "pub_date": "Thu, 26 Mar 2026 16:24:04 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/IDrive-for-Windows-Vulnerability-Let-Attackers-Escalate-Privileges-1.webp"
+    },
+    {
+      "title": "GhostClaw AI Assisted Malware Attacking macOS Users to Deploy Credential-Stealing Payloads",
+      "link": "https://cybersecuritynews.com/ghostclaw-ai-assisted-malware/",
+      "description": "A new malware campaign called GhostClaw is actively targeting macOS users through fake GitHub repositories and AI-assisted development workflows. The campaign uses social engineering disguised as l...",
+      "pub_date": "Thu, 26 Mar 2026 16:17:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/GhostClaw-AI-Assisted-Malware-Attacking-macOS-Users-to-Deploy-Credential-Stealing-Payloads.webp"
+    },
+    {
+      "title": "LeakBase Hacker Forum Admin Arrested in Russia by Law Enforcement Authorities",
+      "link": "https://cybersecuritynews.com/leakbase-hacker-forum-admin-arrested/",
+      "description": "Russian law enforcement has arrested the suspected administrator of LeakBase, a prominent international hacker forum. The operation, coordinated by the Russian Ministry of Internal Affairs (MVD) al...",
+      "pub_date": "Thu, 26 Mar 2026 16:17:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/LeakBase-Hacker-Forum-Admin-Arrested-in-Russia-by-Law-enforcement-authorities-1.webp"
+    },
+    {
+      "title": "Hackers Plant Stealthy BPFdoor Backdoors in Telecom Networks for Long-Term Access",
+      "link": "https://cybersecuritynews.com/bpfdoor-backdoors-telecom-networks/",
+      "description": "A months-long investigation by Rapid7 Labs has exposed a sophisticated, state-sponsored espionage campaign by the China-nexus threat actor Red Menshen, which has embedded some of the most covert di...",
+      "pub_date": "Thu, 26 Mar 2026 16:14:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/BPFdoor-Backdoors-Telecom-Networks.webp"
+    },
+    {
+      "title": "Tax Audit Phishing Campaign Tied to Silver Fox Shifts From RATs to Python Stealers",
+      "link": "https://cybersecuritynews.com/tax-audit-phishing-campaign/",
+      "description": "A China-based threat actor known as Silver Fox, also tracked as Void Arachne, has significantly evolved its attack approach since early 2025, shifting from deploying remote access trojans to distri...",
+      "pub_date": "Thu, 26 Mar 2026 16:11:01 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Tax-Audit-Phishing-Campaign-Tied-to-Silver-Fox-Shifts-From-RATs-to-Python-Stealers.webp"
+    },
     {
       "title": "A year of open source vulnerability trends: CVEs, advisories, and malware",
       "link": "https://github.blog/security/supply-chain-security/a-year-of-open-source-vulnerability-trends-cves-advisories-and-malware/",
@@ -136,54 +184,6 @@
       "pub_date": "Thu, 26 Mar 2026 16:37:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqfaEjph6_gMDAtZu968xynsgU3AggksTWUUL37NpNq6eQdTXMgQcv4JLSpNNMHSFGkKoHV6K7vmqLZ7bXIkXrHB5jF98F_sN48HDQo0nligJdOjeJ5lOzlUFrVzCKwt2MZDSsOVdfmCAaJV5ofwJN_5yIpTSpAFaZ9GrrytaoivkIr27YA0xqj1DzmbPx/s1600/coruna.jpg"
-    },
-    {
-      "title": "Cisco Secure Firewall Vulnerability Allows Remote Code Execution as Root User",
-      "link": "https://cybersecuritynews.com/critical-cisco-secure-firewall-vulnerability/",
-      "description": "Cisco has released an urgent security advisory addressing a critical vulnerability in its Secure Firewall Management Center (FMC) software. This severe flaw allows unauthenticated remote attackers ...",
-      "pub_date": "Thu, 26 Mar 2026 11:04:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Cisco-Secure-Firewall-Management-Vulnerability-Allows-remote-attacker-to-execute-arbitrary-code-as-root-1.webp"
-    },
-    {
-      "title": "Microsoft Entra ID New Feature Removes MFA Limitations for Users",
-      "link": "https://cybersecuritynews.com/microsoft-entra-id-mfa-limitations/",
-      "description": "Multifactor authentication operates as a critical defense mechanism for securing user identities against targeted cyber attacks. Microsoft reports that implementing MFA effectively reduces the risk...",
-      "pub_date": "Thu, 26 Mar 2026 10:47:49 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Microsoft-Entra-ID-New-feature-Removes-MFA-limitations-for-Users-1-1-1.webp"
-    },
-    {
-      "title": "OpenAI Launches AI Safety Bug Bounty to Detect AI-Specific Vulnerabilities",
-      "link": "https://cybersecuritynews.com/openai-safety-bug-bounty/",
-      "description": "OpenAI has announced the launch of a public Safety Bug Bounty program to identify AI abuse and safety risks across its products. Hosted on Bugcrowd, the new initiative marks a significant step in t...",
-      "pub_date": "Thu, 26 Mar 2026 09:55:01 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/OpenAI-Safety-Bug-Bounty.webp"
-    },
-    {
-      "title": "New Kiss Loader Malware Uses Early Bird APC Injection in Emerging Attack Campaign",
-      "link": "https://cybersecuritynews.com/new-kiss-loader-malware-uses-early-bird-apc-injection/",
-      "description": "A newly discovered malware loader called Kiss Loader has emerged as a serious threat, using advanced code injection techniques to quietly infiltrate Windows systems without raising alarms. First sp...",
-      "pub_date": "Thu, 26 Mar 2026 09:16:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/New-Kiss-Loader-Malware-Uses-Early-Bird-APC-Injection-in-Emerging-Attack-Campaign.webp"
-    },
-    {
-      "title": "Fake npm Install Messages Hide RAT Malware in New Open Source Supply Chain Campaign",
-      "link": "https://cybersecuritynews.com/fake-npm-install-messages-hide-rat-malware/",
-      "description": "A new and carefully crafted software supply chain campaign is targeting developers through the npm package registry, using fake installation messages to hide malicious activity. The campaign, which...",
-      "pub_date": "Thu, 26 Mar 2026 07:45:42 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Fake-npm-Install-Messages-Hide-RAT-Malware-in-New-Open-Source-Supply-Chain-Campaign.webp"
-    },
-    {
-      "title": "Fake VS Code Security Alerts on GitHub Used to Push Malware in Widespread Phishing Campaign",
-      "link": "https://cybersecuritynews.com/fake-vs-code-security-alerts-on-github/",
-      "description": "A large-scale phishing campaign is targeting software developers on GitHub, using fake Visual Studio Code security alerts posted in GitHub Discussions to trick users into downloading malicious soft...",
-      "pub_date": "Thu, 26 Mar 2026 07:00:54 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Fake-VS-Code-Security-Alerts-on-GitHub-Used-to-Push-Malware-in-Widespread-Phishing-Campaign.webp"
     },
     {
       "title": "WebRTC Skimmer Bypasses CSP to Steal Payment Data from E-Commerce Sites",
@@ -523,6 +523,38 @@
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33634 Aqua Security Trivy Embedded Malicious Code Vuln...",
+      "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "PTC Windchill Product Lifecycle Management",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-03",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to achieve remote code execution. The following versions of PTC Windchill Product Lifecycle Management are af...",
+      "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "OpenCode Systems OC Messaging and USSD Gateway",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated low-privileged user to gain access to SMS messages outside of their authorized tenant scope via a crafte...",
+      "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "WAGO GmbH \u0026 Co. KG Industrial Managed Switches",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-01",
+      "description": "View CSAF Summary An unauthenticated remote attacker can exploit a hidden function in the CLI prompt to escape the restricted interface, leading to full compromise of the device. The following vers...",
+      "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33017 Langflow Code Injection Vulnerability  This type...",
       "pub_date": "Wed, 25 Mar 26 12:00:00 +0000",
@@ -578,14 +610,6 @@
       "image_url": ""
     },
     {
-      "title": "Schneider Electric EcoStruxure Automation Expert",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-03",
-      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Automation Expert product. The EcoStruxure™ Automation Expert product is plant automation software designed ...",
-      "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "Schneider Electric Modicon Controllers M241, M251, M258, and LMC058",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-02",
       "description": "View CSAF Summary Successful exploitation of this vulnerability may risk a Cross-site Scripting or an open redirect attack which could result in an account takeover scenario or the execution of cod...",
@@ -594,41 +618,9 @@
       "image_url": ""
     },
     {
-      "title": "Automated Logic WebCTRL Premium Server",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-08",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to read, intercept, or modify communications. The following versions of Automated Logic WebCTRL Premium Se...",
-      "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Schneider Electric Modicon M241, M251, and M262",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the product. The following versions of Schneider Electric Modicon M...",
-      "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/19/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\u0026nbsp;  CVE-2026-20131 Cisco Secure Firewall Management Center (F...",
-      "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Schneider Electric EcoStruxure PME and EPO",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-04",
-      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure Power Monitoring Expert (PME) and EcoStruxure Power Operation (EPO) products. EcoStruxure Power Monitoring Expert...",
-      "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Mitsubishi Electric CNC Series",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the affected products. Th...",
+      "title": "CTEK Chargeportal",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-06",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
       "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -637,6 +629,14 @@
       "title": "IGL-Technologies eParking.fi",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-07",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
+      "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Mitsubishi Electric CNC Series",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the affected products. Th...",
       "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
