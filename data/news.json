@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-03-26T14:23:13Z",
+  "last_updated": "2026-03-26T16:05:23Z",
   "articles": [
+    {
+      "title": "A year of open source vulnerability trends: CVEs, advisories, and malware",
+      "link": "https://github.blog/security/supply-chain-security/a-year-of-open-source-vulnerability-trends-cves-advisories-and-malware/",
+      "description": "Reviewed advisories hit a four-year low, malware advisories surged, and CNA publishing grew—here’s what changed and what it means for your triage and response.  The post A year of open source v...",
+      "pub_date": "Thu, 26 Mar 2026 16:00:00 +0000",
+      "source": "GitHub Security",
+      "image_url": "https://github.blog/wp-content/uploads/2026/03/1-GHADB-Feeds-vs-Backfill.png?resize=4290%2C2640"
+    },
+    {
+      "title": "UK sanctions Xinbi marketplace linked to Asian scam centers",
+      "link": "https://www.bleepingcomputer.com/news/security/uk-sanctions-xinbi-marketplace-linked-to-asian-scam-centers/",
+      "description": "The United Kingdom's Foreign, Commonwealth and Development Office (FCDO) has sanctioned Xinbi, a Chinese-language cryptocurrency-based online marketplace that sells stolen data and satellite int...",
+      "pub_date": "Thu, 26 Mar 2026 11:42:43 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New Torg Grabber Stealer Moves From Telegram Exfiltration to Encrypted REST API C2",
+      "link": "https://cybersecuritynews.com/new-torg-grabber-stealer-moves-from-telegram/",
+      "description": "A new Malware-as-a-Service (MaaS) credential stealer named Torg Grabber has surfaced, showing remarkable development pace over just three months. Starting with simple Telegram-based data exfiltrati...",
+      "pub_date": "Thu, 26 Mar 2026 14:40:53 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/New-Torg-Grabber-Stealer-Moves-From-Telegram-Exfiltration-to-Encrypted-REST-API-C2.webp"
+    },
     {
       "title": "Fake Screenshot Lures Used to Infect Web3 Support Staff With Multi-Stage Malware",
       "link": "https://cybersecuritynews.com/fake-screenshot-lures-used/",
@@ -170,14 +194,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDIJhct-gQspWhgoCYGYYTokFv7FUIEMJqaILu_8IfMO3siPXFxR9g6eek-vKmgpFFO5QKCLBvl7pK8gFOGf8ZQuR6wVxOeBOxDm43bCBdmLDhPTyIGhoFssJGBUn9in_jfKwIvcyf9TERfomsZOjcPs4CKnYsYyW_jLaX3jbgm-LT4TORzq4g3ik0cB10/s1600/cards.jpg"
     },
     {
-      "title": "Ghost SPN Attack Lets Hackers Conduct Stealthy Kerberoasting Under the Radar",
-      "link": "https://cybersecuritynews.com/ghost-spn-attack/",
-      "description": "A sophisticated evolution of Kerberoasting dubbed the \u0026#8220;Ghost SPN\u0026#8221; attack that allows adversaries to extract Active Directory credentials while erasing all traces of their activity, rend...",
-      "pub_date": "Thu, 26 Mar 2026 05:09:28 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Ghost-SPN-Attack.webp"
-    },
-    {
       "title": "GitHub adds AI-powered bug detection to expand security coverage",
       "link": "https://www.bleepingcomputer.com/news/security/github-adds-ai-powered-bug-detection-to-expand-security-coverage/",
       "description": "GitHub is adopting AI-based scanning for its Code Security tool to expand vulnerability detections beyond the CodeQL static analysis and cover more languages and frameworks. [...]",
@@ -278,14 +294,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/tp-link-warns-users-to-patch-critical-router-auth-bypass-flaw/",
       "description": "TP-Link has patched several vulnerabilities in its Archer NX router series, including a critical-severity flaw that may allow attackers to bypass authentication and upload new firmware. [...]",
       "pub_date": "Wed, 25 Mar 2026 07:11:00 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Manager of botnet used in ransomware attacks gets 2 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/russian-man-sentenced-for-operating-botnet-used-in-ransomware-attacks/",
-      "description": "A Russian national has been sentenced to two years in prison after admitting that the phishing botnet he managed was used to launch BitPaymer ransomware attacks against 72 U.S. companies. [...]",
-      "pub_date": "Wed, 25 Mar 2026 04:47:29 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -512,14 +520,6 @@
       "pub_date": "Tue, 07 Oct 2025 16:00:00 +0000",
       "source": "GitHub Security",
       "image_url": ""
-    },
-    {
-      "title": "CodeQL zero to hero part 5: Debugging queries",
-      "link": "https://github.blog/security/vulnerability-research/codeql-zero-to-hero-part-5-debugging-queries/",
-      "description": "Learn to debug and fix your CodeQL queries. The post CodeQL zero to hero part 5: Debugging queries appeared first on The GitHub Blog.",
-      "pub_date": "Mon, 29 Sep 2025 15:00:00 +0000",
-      "source": "GitHub Security",
-      "image_url": "https://github.blog/wp-content/uploads/2025/09/image1_7a2639.png?resize=982%2C210"
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
