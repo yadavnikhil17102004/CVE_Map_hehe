@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-03-27T08:42:56Z",
+  "last_updated": "2026-03-27T09:46:23Z",
   "articles": [
+    {
+      "title": "Red Hat Warns of Malware Code Embedded in Popular Linux Tool Allow Unauthorized Access to Systems",
+      "link": "https://cybersecuritynews.com/linux-tool-malware-embedded/",
+      "description": "Red Hat has issued a critical security warning regarding malicious code discovered in recent versions of the \u0026#8220;xz\u0026#8221; compression tools and libraries. Tracked as CVE-2024-3094, this highly ...",
+      "pub_date": "Fri, 27 Mar 2026 09:30:27 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Red-Hat-Warns-of-Malware-code-embedded-in-popular-Linux-tool-allow-unauthorized-Access-to-Systems-1.webp"
+    },
+    {
+      "title": "Windows 11 KB5079391 update rolls out Smart App Control improvements",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5079391-update-rolls-out-smart-app-control-improvements/",
+      "description": "​Microsoft has released the KB5079391 preview cumulative update for Windows 11 24H2 and 25H2, which includes 29 changes, such as Smart App Control and Display improvements. [...]",
+      "pub_date": "Fri, 27 Mar 2026 05:20:59 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Critical Citrix NetScaler and Gateway Vulnerabilities Let Remote Attackers Leak Sensitive Information",
       "link": "https://cybersecuritynews.com/citrix-netscaler-and-gateway-vulnerabilities/",
@@ -16,6 +32,14 @@
       "pub_date": "Fri, 27 Mar 2026 04:20:11 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "LangChain, LangGraph Flaws Expose Files, Secrets, Databases in Widely Used AI Frameworks",
+      "link": "https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html",
+      "description": "Cybersecurity researchers have disclosed three security vulnerabilities impacting LangChain and LangGraph that, if successfully exploited, could expose filesystem data, environment secrets, and con...",
+      "pub_date": "Fri, 27 Mar 2026 13:37:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkhroYg33geYKogEf838RfX0FRNjBX23ucPFzrxtbtf2CyTxoGZZ4RbTArZX672fygWxhNN2MOX-SXaPzWJPOeRTrnLCzYzQZ2e-7HO98AIbj-wEXbrPWSwzIOW2NbNhpWfayHyPYHyJGTRxZmDCHhR_qk79vyb29q1_p-hBCWvY2GsAPu0296IOlq_uQv/s1600/langchain.jpg"
     },
     {
       "title": "Fake Cloudflare CAPTCHA Pages Spread Infiniti Stealer Malware on macOS Systems",
@@ -88,14 +112,6 @@
       "pub_date": "Thu, 26 Mar 2026 19:38:53 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Leak-Bazaar-Turns-Stolen-Corporate-Data-Into-a-Structured-Criminal-Marketplace.webp"
-    },
-    {
-      "title": "VoidLink Rootkit Uses eBPF and Kernel Modules to Hide Deep Inside Linux Systems",
-      "link": "https://cybersecuritynews.com/voidlink-rootkit-uses-ebpf-and-kernel-modules/",
-      "description": "A new and technically advanced rootkit called VoidLink has emerged as a serious threat to Linux systems, blending Loadable Kernel Modules (LKMs) with extended Berkeley Packet Filter (eBPF) programs...",
-      "pub_date": "Thu, 26 Mar 2026 19:26:03 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/VoidLink-Rootkit-Uses-eBPF-and-Kernel-Modules-to-Hide-Deep-Inside-Linux-Systems.webp"
     },
     {
       "title": "CISA: New Langflow flaw actively exploited to hijack AI workflows",
@@ -266,14 +282,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj9UqvCgUXI-P9n0pHIj0a2d6gtlUe5ioSOzReAYnBthLWrwGhD0B9EKIlrrhiA8gsF61npoVKP8y1HftTKWD9xgTg0qBOHw2N3qn0Gak0BUAV9Jt2s8BmhzR9cLjOE5ynzKm8obB3G-fECJQ3bN1G8GVv2wgyKkLZ5JpYQKUyuVtTa2z27pHL9IN-th1k/s1600/leakbase.jpg"
     },
     {
-      "title": "Citrix urges admins to patch NetScaler flaws as soon as possible",
-      "link": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-netscaler-flaws-as-soon-as-possible/",
-      "description": "Citrix has patched two NetScaler ADC and NetScaler Gateway vulnerabilities, one of which is very similar to the CitrixBleed and CitrixBleed2 flaws exploited in zero-day attacks in recent years. [...]",
-      "pub_date": "Wed, 25 Mar 2026 11:52:10 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "GlassWorm Malware Uses Solana Dead Drops to Deliver RAT and Steal Browser, Crypto Data",
       "link": "https://thehackernews.com/2026/03/glassworm-malware-uses-solana-dead.html",
       "description": "Cybersecurity researchers have flagged a new evolution of the GlassWorm campaign that delivers a multi-stage framework capable of comprehensive data theft and installing a remote access trojan (RAT...",
@@ -320,14 +328,6 @@
       "pub_date": "Tue, 24 Mar 2026 23:51:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj52VkG6lfgHeRYSGJwB7xAkCm5_4uKyAUtZ3NiyGrlOTFU_zejzA3uU0HPKiFCCvp1PSXhtiSqTROkqIvJ3kur9VTYMRRQRV4M9_0p2PVw28DxOUbH_3CnZBgsLtiv3_0BBmyP792ONBzcl_yEwteI6uQ2GkLkj59el1hZwmHJEyZLo5wwLgbr5rEDi-r6/s1600/litellm.jpg"
-    },
-    {
-      "title": "Tax Search Ads Deliver ScreenConnect Malware Using Huawei Driver to Disable EDR",
-      "link": "https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html",
-      "description": "A large-scale malvertising campaign active since January 2026 has been observed targeting U.S.-based individuals searching for tax-related documents to serve rogue installers for ConnectWise Screen...",
-      "pub_date": "Tue, 24 Mar 2026 22:35:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHstwfvuhTqeOC7VWnSCBcxuxkGXQo_98_9hK16L_vSpzSRSYHXlBOeg2O61FYeF2rcfwnXFxzQHEkDyXYB6C_GtMIB-qEfIM_K3vMu-C_OHBNk5eOdwofhao0How3UZLVM1bQ4R5MzrGMSpIk74c_b0UI8ri7Itube7MGnrwEEoEHy-kOq1unklYy9zR5/s1600/tax-docs.jpg"
     },
     {
       "title": "ZDI-26-226: (0Day) Microsoft Azure MCP AzureCliService Command Injection Remote Code Execution Vulnerability",
