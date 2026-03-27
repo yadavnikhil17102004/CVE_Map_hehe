@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-03-27T20:29:52Z",
+  "last_updated": "2026-03-27T21:27:20Z",
   "articles": [
+    {
+      "title": "Backdoored Telnyx PyPI package pushes malware hidden in WAV audio",
+      "link": "https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/",
+      "description": "TeamPCP hackers compromised the Telnyx package on the Python Package Index today, uploading malicious versions that deliver credential-stealing malware hidden inside a WAV file. [...]",
+      "pub_date": "Fri, 27 Mar 2026 17:13:26 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits",
       "link": "https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html",
@@ -290,14 +298,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicYccGrhSqLyV14fb0UKZKIns-G-9cU181ytP5rPJvhMDJLPbmBBgiTIBALloFdEy_87wloWgNeE3zCfQEYoS7uPOLec7Uk40LT9KFOiov2psTWX4XIabr-UJql5ILHDQn0o8Tc8H7PwJSF9y8Yh3hR_iolMcCXBpGxgcwFtPAbYDtzXo26DZspMORcKs/s1600/core.jpg"
     },
     {
-      "title": "Suspected RedLine infostealer malware admin extradited to US",
-      "link": "https://www.bleepingcomputer.com/news/security/suspected-redline-infostealer-administrator-extradited-to-us/",
-      "description": "An Armenian suspect was extradited to the United States to face criminal charges for allegedly helping manage RedLine, one of the most prolific infostealer malware operations in recent years. [...]",
-      "pub_date": "Thu, 26 Mar 2026 07:51:59 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "ThreatsDay Bulletin: PQC Push, AI Vuln Hunting, Pirated Traps, Phishing Kits \u0026 20 More Stories",
       "link": "https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html",
       "description": "Some weeks in security feel loud. This one feels sneaky. Less big dramatic fireworks, more of that slow creeping sense that too many people are getting way too comfortable abusing things they proba...",
@@ -523,16 +523,16 @@
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33634 Aqua Security Trivy Embedded Malicious Code Vuln...",
-      "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2025-53521 F5 BIG-IP Remote Code Execution Vulnerability  T...",
+      "pub_date": "Fri, 27 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "PTC Windchill Product Lifecycle Management",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-03",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to achieve remote code execution. The following versions of PTC Windchill Product Lifecycle Management are af...",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33634 Aqua Security Trivy Embedded Malicious Code Vuln...",
       "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -541,6 +541,14 @@
       "title": "OpenCode Systems OC Messaging and USSD Gateway",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-02",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated low-privileged user to gain access to SMS messages outside of their authorized tenant scope via a crafte...",
+      "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "PTC Windchill Product Lifecycle Management",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-03",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to achieve remote code execution. The following versions of PTC Windchill Product Lifecycle Management are af...",
       "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -610,14 +618,6 @@
       "image_url": ""
     },
     {
-      "title": "Schneider Electric Modicon Controllers M241, M251, M258, and LMC058",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability may risk a Cross-site Scripting or an open redirect attack which could result in an account takeover scenario or the execution of cod...",
-      "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "CTEK Chargeportal",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-06",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
@@ -626,17 +626,17 @@
       "image_url": ""
     },
     {
-      "title": "IGL-Technologies eParking.fi",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-07",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
+      "title": "Schneider Electric Modicon Controllers M241, M251, M258, and LMC058",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability may risk a Cross-site Scripting or an open redirect attack which could result in an account takeover scenario or the execution of cod...",
       "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Mitsubishi Electric CNC Series",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the affected products. Th...",
+      "title": "Automated Logic WebCTRL Premium Server",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-08",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to read, intercept, or modify communications. The following versions of Automated Logic WebCTRL Premium Se...",
       "pub_date": "Thu, 19 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
