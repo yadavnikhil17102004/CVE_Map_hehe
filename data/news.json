@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-03-27T06:08:20Z",
+  "last_updated": "2026-03-27T07:55:45Z",
   "articles": [
+    {
+      "title": "Fake Cloudflare CAPTCHA Pages Spread Infiniti Stealer Malware on macOS Systems",
+      "link": "https://cybersecuritynews.com/fake-cloudflare-captcha-pages-spread-infiniti-stealer/",
+      "description": "A new macOS malware that was undocumented previously, is quietly tricking users through fake Cloudflare human verification pages. Called Infiniti Stealer, this threat uses a well-known social engin...",
+      "pub_date": "Fri, 27 Mar 2026 07:50:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Fake-Cloudflare-CAPTCHA-Pages-Spread-Infiniti-Stealer-Malware-on-macOS-Systems.webp"
+    },
+    {
+      "title": "New Windows Error Reporting Vulnerability Lets Attackers Escalate to Gain SYSTEM Access",
+      "link": "https://cybersecuritynews.com/new-windows-error-reporting-vulnerability/",
+      "description": "A newly analyzed local privilege escalation vulnerability in the Windows Error Reporting (WER) service allows attackers to easily gain full SYSTEM access. The flaw, tracked as CVE-2026-20817, was c...",
+      "pub_date": "Fri, 27 Mar 2026 07:14:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/New-Windows-Error-Reporting-Vulnerability-Lets-Attackers-Escalate-to-Gain-SYSTEM-Access-1-1.webp"
+    },
+    {
+      "title": "ISC Warns of High-Severity Kea DHCP Flaw That Can Crash Services Remotely",
+      "link": "https://cybersecuritynews.com/isc-warns-kea-dhcp-flaw/",
+      "description": "The Internet Systems Consortium (ISC) has released a critical security advisory warning network administrators of a high-severity vulnerability affecting the Kea DHCP server. Tracked as CVE-2026-36...",
+      "pub_date": "Fri, 27 Mar 2026 07:08:38 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/ISC-Warns-of-High-Severity-Kea-DHCP-Flaw-That-Can-Crash-Services-Remotely-1.webp"
+    },
     {
       "title": "Anthropic’s Leaked Drafts Expose Powerful New AI Model “Claude Mythos”",
       "link": "https://cybersecuritynews.com/anthropic-claude-mythos/",
@@ -80,30 +104,6 @@
       "pub_date": "Thu, 26 Mar 2026 16:33:49 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/CISA-Warns-of-Langflow-Code-Injection-Vulnerability-Exploited-in-Attacks-1.webp"
-    },
-    {
-      "title": "IDrive for Windows Vulnerability Let Attackers Escalate Privileges",
-      "link": "https://cybersecuritynews.com/idrive-for-windows-vulnerability/",
-      "description": "A critical local privilege escalation vulnerability has been identified in the IDrive Cloud Backup Client for Windows. Tracked as CVE-2026-1995, this local privilege escalation vulnerability affec...",
-      "pub_date": "Thu, 26 Mar 2026 16:24:04 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/IDrive-for-Windows-Vulnerability-Let-Attackers-Escalate-Privileges-1.webp"
-    },
-    {
-      "title": "GhostClaw AI Assisted Malware Attacking macOS Users to Deploy Credential-Stealing Payloads",
-      "link": "https://cybersecuritynews.com/ghostclaw-ai-assisted-malware/",
-      "description": "A new malware campaign called GhostClaw is actively targeting macOS users through fake GitHub repositories and AI-assisted development workflows. The campaign uses social engineering disguised as l...",
-      "pub_date": "Thu, 26 Mar 2026 16:17:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/GhostClaw-AI-Assisted-Malware-Attacking-macOS-Users-to-Deploy-Credential-Stealing-Payloads.webp"
-    },
-    {
-      "title": "LeakBase Hacker Forum Admin Arrested in Russia by Law Enforcement Authorities",
-      "link": "https://cybersecuritynews.com/leakbase-hacker-forum-admin-arrested/",
-      "description": "Russian law enforcement has arrested the suspected administrator of LeakBase, a prominent international hacker forum. The operation, coordinated by the Russian Ministry of Internal Affairs (MVD) al...",
-      "pub_date": "Thu, 26 Mar 2026 16:17:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/LeakBase-Hacker-Forum-Admin-Arrested-in-Russia-by-Law-enforcement-authorities-1.webp"
     },
     {
       "title": "A year of open source vulnerability trends: CVEs, advisories, and malware",
