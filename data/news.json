@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-03-28T14:25:51Z",
+  "last_updated": "2026-03-28T15:24:29Z",
   "articles": [
+    {
+      "title": "Cybersecurity Companies’ Stocks Fall as Anthropic Tests Powerful New Model",
+      "link": "https://cybersecuritynews.com/cybersecurity-stocks-anthropic/",
+      "description": "Cybersecurity stocks declined sharply on Friday following revelations that Anthropic has begun testing \u0026#8220;Mythos,\u0026#8221; an extraordinarily powerful new AI model with advanced vulnerability-dis...",
+      "pub_date": "Sat, 28 Mar 2026 15:05:18 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Cybersecurity-Stocks-Anthropic.webp"
+    },
+    {
+      "title": "New Infinity Stealer malware grabs macOS data via ClickFix lures",
+      "link": "https://www.bleepingcomputer.com/news/security/new-infinity-stealer-malware-grabs-macos-data-via-clickfix-lures/",
+      "description": "A new info-stealing malware named Infinity Stealer is targeting macOS systems with a Python payload packaged as an executable using the open-source Nuitka compiler. [...]",
+      "pub_date": "Sat, 28 Mar 2026 10:35:10 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "CISA Warns of F5 BIG-IP Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/f5-big-ip-vulnerability-actively-exploited/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a newly disclosed vulnerability affecting F5 BIG-IP systems to its Known Exploited Vulnerabilities (KEV) catalog, warning ...",
+      "pub_date": "Sat, 28 Mar 2026 14:26:19 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/F5-BIG-IP-Vulnerability-Actively-Exploited.webp"
+    },
     {
       "title": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug",
       "link": "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html",
@@ -170,28 +194,12 @@
       "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJv8GgnB0jKpxEYfxBkJReUTx2ZGiRq27q9hoYLjsPWhplZCv9-pIiw6vFPsGReNG8UAYqJ68B-iBe2hpSLfhfsxpNJ_2hjfeQtXjPgL3NMAZn-QWHrol3rmdpuYDA-0_mvCZCAYstaJQFFbAlVZkNLpzHskCN8sWteB9Lw_XJ5tbov1e0tnrta6td_24/s16000/Hackers%20Use%20Phishing%20ZIP%20Files%20to%20Deploy%20PXA%20Stealer%20Against%20Financial%20Firms.webp?ssl=1"
     },
     {
-      "title": "Telnyx PyPI Package With 742,000 downloads Compromised in TeamPCP Supply Chain Attack",
-      "link": "https://cybersecuritynews.com/telnyx-pypi-package-compromised/",
-      "description": "The official Telnyx Python SDK on PyPI was compromised this morning as part of an escalating, weeks-long supply chain campaign orchestrated by the threat actor group TeamPCP. Malicious versions 4.8...",
-      "pub_date": "Fri, 27 Mar 2026 10:18:14 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Telnyx-PyPI-Package-Compromised.webp"
-    },
-    {
       "title": "Bearlyfy Hits Russian Firms with Custom GenieLocker Ransomware",
       "link": "https://thehackernews.com/2026/03/bearlyfy-hits-70-russian-firms-with.html",
       "description": "A pro-Ukrainian group called Bearlyfy has been attributed to more than 70 cyber attacks targeting Russian companies since it first surfaced in the threat landscape in January 2025, with recent atta...",
       "pub_date": "Fri, 27 Mar 2026 15:34:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJa_h_fZ55AqNWxz1cuJLjlOtmxDcBXqTxZ8URxFwRfQ1OsNpcQKZOafbe7MxL72WZ3c7ashklJn4nlUj6FD87PPAznL0bzBhlpRIpUTtHqluiAjZBZgMEPTvwPyBeSrsnrSTnmbuPTwpQQDl2xLHPpynscV2zy7sk_SMU3u_gNkbzAaoT16Lr8SZXQgJs/s1600/russian-ransomware.jpg"
-    },
-    {
-      "title": "Red Hat Warns of Malware Code Embedded in Popular Linux Tool Allow Unauthorized Access to Systems",
-      "link": "https://cybersecuritynews.com/linux-tool-malware-embedded/",
-      "description": "Red Hat has issued a critical security warning regarding malicious code discovered in recent versions of the \u0026#8220;xz\u0026#8221; compression tools and libraries. Tracked as CVE-2024-3094, this highly ...",
-      "pub_date": "Fri, 27 Mar 2026 09:30:27 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Red-Hat-Warns-of-Malware-code-embedded-in-popular-Linux-tool-allow-unauthorized-Access-to-Systems-1.webp"
     },
     {
       "title": "Windows 11 KB5079391 update rolls out Smart App Control improvements",
@@ -302,14 +310,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/coruna-ios-exploit-framework-linked-to-triangulation-attacks/",
       "description": "The Coruna exploit kit is an evolution of the framework used in the Operation Triangulation espionage campaign, which in 2023 targeted iPhones via zero-click iMessage exploits. [...]",
       "pub_date": "Thu, 26 Mar 2026 09:10:14 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Russia arrests suspected owner of LeakBase cybercrime forum",
-      "link": "https://www.bleepingcomputer.com/news/security/russia-arrests-suspected-owner-and-admin-of-leakbase-cybercrime-forum/",
-      "description": "Russian police arrested a Taganrog resident believed to be the owner of LeakBase, a major online forum used by cybercriminals to buy and sell stolen data and hacking tools. [...]",
-      "pub_date": "Thu, 26 Mar 2026 08:50:17 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
