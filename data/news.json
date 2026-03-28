@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-03-28T06:49:36Z",
+  "last_updated": "2026-03-28T07:40:14Z",
   "articles": [
+    {
+      "title": "TA446 Deploys Leaked DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign",
+      "link": "https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html",
+      "description": "Proofpoint has disclosed details of a targeted email campaign in which threat actors with ties to Russia are leveraging the recently disclosed DarkSword exploit kit to target iOS devices. The activ...",
+      "pub_date": "Sat, 28 Mar 2026 12:37:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAX955shB28AQ8BgXC9lMJBSEWWtw5FVp3L9rxuVnBSsDMpj5Ssjh7cqxd7eJI_bES6b82XDHvxrH0U_cyEXwbS05QkUbSDPzP8ZGcjy2QD2-gY9utPDfcJ6EBO-nk3VayGUBUnesxmmGOH-AanOtkxxhPGyZ-5azN_kzflpKoqfW7U2m35ookIyuEYvFo/s1600/iphone-exploit.jpg"
+    },
+    {
+      "title": "CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation",
+      "link": "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities (KEV...",
+      "pub_date": "Sat, 28 Mar 2026 12:37:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOCtHFfd9TZrhTa9APggVpivUkp_7HLw49145Q93B-76BiG0kkbGOPgViPII25Inn9b8710FjsB1sG716DO1Qh3ikSV88oqwdhSCJ7V2FTWgPq1xaA_UqMVwIEi4zmLnAmXQmbdG2fWAVBx6H_OiHqCOzghwBkuQYy4mYUCIdIyBi54ojbF3rc_OGIPlGc/s1600/f5.jpg"
+    },
     {
       "title": "European Commission Confirms Cyberattack Following AWS Account Hack",
       "link": "https://cybersecuritynews.com/european-commission-aws-hack/",
@@ -312,22 +328,6 @@
       "pub_date": "Thu, 26 Mar 2026 16:37:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqfaEjph6_gMDAtZu968xynsgU3AggksTWUUL37NpNq6eQdTXMgQcv4JLSpNNMHSFGkKoHV6K7vmqLZ7bXIkXrHB5jF98F_sN48HDQo0nligJdOjeJ5lOzlUFrVzCKwt2MZDSsOVdfmCAaJV5ofwJN_5yIpTSpAFaZ9GrrytaoivkIr27YA0xqj1DzmbPx/s1600/coruna.jpg"
-    },
-    {
-      "title": "WebRTC Skimmer Bypasses CSP to Steal Payment Data from E-Commerce Sites",
-      "link": "https://thehackernews.com/2026/03/webrtc-skimmer-bypasses-csp-to-steal.html",
-      "description": "Cybersecurity researchers have discovered a new payment skimmer that uses WebRTC data channels as a means to receive payloads and exfiltrate data, effectively bypassing security controls. \"Instead ...",
-      "pub_date": "Thu, 26 Mar 2026 12:23:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDIJhct-gQspWhgoCYGYYTokFv7FUIEMJqaILu_8IfMO3siPXFxR9g6eek-vKmgpFFO5QKCLBvl7pK8gFOGf8ZQuR6wVxOeBOxDm43bCBdmLDhPTyIGhoFssJGBUn9in_jfKwIvcyf9TERfomsZOjcPs4CKnYsYyW_jLaX3jbgm-LT4TORzq4g3ik0cB10/s1600/cards.jpg"
-    },
-    {
-      "title": "LeakBase Admin Arrested in Russia Over Massive Stolen Credential Marketplace",
-      "link": "https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html",
-      "description": "The alleged administrator of the LeakBase cybercrime forum has been arrested by Russian law enforcement authorities, state media reported Thursday. According to TASS and MVD Media, a news website l...",
-      "pub_date": "Wed, 25 Mar 2026 23:05:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj9UqvCgUXI-P9n0pHIj0a2d6gtlUe5ioSOzReAYnBthLWrwGhD0B9EKIlrrhiA8gsF61npoVKP8y1HftTKWD9xgTg0qBOHw2N3qn0Gak0BUAV9Jt2s8BmhzR9cLjOE5ynzKm8obB3G-fECJQ3bN1G8GVv2wgyKkLZ5JpYQKUyuVtTa2z27pHL9IN-th1k/s1600/leakbase.jpg"
     },
     {
       "title": "ZDI-26-226: (0Day) Microsoft Azure MCP AzureCliService Command Injection Remote Code Execution Vulnerability",
