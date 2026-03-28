@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-03-28T01:23:36Z",
+  "last_updated": "2026-03-28T04:12:34Z",
   "articles": [
+    {
+      "title": "European Commission Confirms Cyberattack Following AWS Account Hack",
+      "link": "https://cybersecuritynews.com/european-commission-aws-hack/",
+      "description": "The European Commission has officially confirmed a cyberattack following a targeted cyberattack that compromised its Amazon Web Services (AWS) account. Discovered on March 24, the intrusion specifi...",
+      "pub_date": "Sat, 28 Mar 2026 03:20:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/European-Commission-AWS-Hack.webp"
+    },
+    {
+      "title": "Windows 11 and Server 2025 Update to Block Untrusted Cross-Signed Kernel Drivers by Default",
+      "link": "https://cybersecuritynews.com/windows-11-and-server-2025-update/",
+      "description": "Microsoft is taking a major step to harden the Windows operating system against kernel-level threats by removing trust for drivers signed by the deprecated cross-signed root program. Starting with ...",
+      "pub_date": "Sat, 28 Mar 2026 02:48:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Windows-11-and-Server-2025-Update-to-Block-Untrusted-Cross-Signed-Kernel-Drivers-by-Default-1-1.webp"
+    },
+    {
+      "title": "CISA Adds Aquasecurity Trivy Scanner Vulnerability to KEV Catalog",
+      "link": "https://cybersecuritynews.com/aquasecurity-trivy-scanner-vulnerability/",
+      "description": "CISA has officially added a critical vulnerability affecting Aquasecurity\u0026#8217;s Trivy scanner to its Known Exploited Vulnerabilities (KEV) catalog. Tracked as CVE-2026-33634, this alarming securi...",
+      "pub_date": "Sat, 28 Mar 2026 02:24:07 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/CISA-Adds-Aquasecurity-Trivy-Scanner-Vulnerability-to-KEV-Catalog-1.webp"
+    },
     {
       "title": "Backdoored Telnyx PyPI package pushes malware hidden in WAV audio",
       "link": "https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/",
@@ -154,14 +178,6 @@
       "image_url": ""
     },
     {
-      "title": "Critical Citrix NetScaler and Gateway Vulnerabilities Let Remote Attackers Leak Sensitive Information",
-      "link": "https://cybersecuritynews.com/citrix-netscaler-and-gateway-vulnerabilities/",
-      "description": "Cloud Software Group has issued a critical security bulletin detailing two newly discovered vulnerabilities affecting customer-managed NetScaler ADC and NetScaler Gateway appliances. These flaws, t...",
-      "pub_date": "Fri, 27 Mar 2026 08:26:09 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Critical-Citrix-NetScaler-and-Gateway-Vulnerabilities-Let-Remote-Attackers-Leak-sensitive-information-1.webp"
-    },
-    {
       "title": "Dutch Police discloses security breach after phishing attack",
       "link": "https://www.bleepingcomputer.com/news/security/dutch-police-discloses-security-breach-after-phishing-attack/",
       "description": "The Dutch National Police (Politie) says a security breach resulting from a successful phishing attack has had a limited impact and hasn't affected citizens' data. [...]",
@@ -176,22 +192,6 @@
       "pub_date": "Fri, 27 Mar 2026 13:37:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkhroYg33geYKogEf838RfX0FRNjBX23ucPFzrxtbtf2CyTxoGZZ4RbTArZX672fygWxhNN2MOX-SXaPzWJPOeRTrnLCzYzQZ2e-7HO98AIbj-wEXbrPWSwzIOW2NbNhpWfayHyPYHyJGTRxZmDCHhR_qk79vyb29q1_p-hBCWvY2GsAPu0296IOlq_uQv/s1600/langchain.jpg"
-    },
-    {
-      "title": "Fake Cloudflare CAPTCHA Pages Spread Infiniti Stealer Malware on macOS Systems",
-      "link": "https://cybersecuritynews.com/fake-cloudflare-captcha-pages-spread-infiniti-stealer/",
-      "description": "A new macOS malware that was undocumented previously, is quietly tricking users through fake Cloudflare human verification pages. Called Infiniti Stealer, this threat uses a well-known social engin...",
-      "pub_date": "Fri, 27 Mar 2026 07:50:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Fake-Cloudflare-CAPTCHA-Pages-Spread-Infiniti-Stealer-Malware-on-macOS-Systems.webp"
-    },
-    {
-      "title": "New Windows Error Reporting Vulnerability Lets Attackers Escalate to Gain SYSTEM Access",
-      "link": "https://cybersecuritynews.com/new-windows-error-reporting-vulnerability/",
-      "description": "A newly analyzed local privilege escalation vulnerability in the Windows Error Reporting (WER) service allows attackers to easily gain full SYSTEM access. The flaw, tracked as CVE-2026-20817, was c...",
-      "pub_date": "Fri, 27 Mar 2026 07:14:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/New-Windows-Error-Reporting-Vulnerability-Lets-Attackers-Escalate-to-Gain-SYSTEM-Access-1-1.webp"
     },
     {
       "title": "Ajax football club hack exposed fan data, enabled ticket hijack",
