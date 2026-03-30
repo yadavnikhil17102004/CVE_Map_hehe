@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T19:50:55Z",
+  "last_updated": "2026-03-30T20:37:19Z",
   "articles": [
     {
       "title": "Critical Citrix NetScaler memory flaw actively exploited in attacks",
@@ -194,6 +194,30 @@
       "image_url": ""
     },
     {
+      "title": "ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-249/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine.  An attacker must first obtain the ability to execute low-privileged code on the target syst...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-248: NoMachine External Control of File Path Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-248/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target syste...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-247: NoMachine External Control of File Path Arbitrary File Deletion Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-247/",
+      "description": "This vulnerability allows local attackers to delete arbitrary files on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
       "title": "ZDI-26-246: (0Day) aws-mcp-server Command Injection Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-246/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of aws-mcp-server. Authentication is not required to exploit this vulnerability. The ZDI has assigned ...",
@@ -285,30 +309,6 @@
       "title": "ZDI-26-235: Digilent DASYLab DSA File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-235/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Digilent DASYLab. User interaction is required to exploit this vulnerability in that the target mus...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-234: Digilent DASYLab DSA File Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-234/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Digilent DASYLab. User interaction is required to exploit this vulnerability in that the target mus...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-233: Digilent DASYLab DSA File Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-233/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Digilent DASYLab. User interaction is required to exploit this vulnerability in that the target mus...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-232: (Pwn2Own) Red Hat Enterprise Linux vmwgfx Driver Integer Overflow Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-232/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Red Hat Enterprise Linux. An attacker must first obtain the ability to execute low-privileged code on t...",
       "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
