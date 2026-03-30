@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-03-30T10:09:25Z",
+  "last_updated": "2026-03-30T11:50:39Z",
   "articles": [
+    {
+      "title": "The State of Secrets Sprawl 2026: 9 Takeaways for CISOs",
+      "link": "https://thehackernews.com/2026/03/the-state-of-secrets-sprawl-2026-9.html",
+      "description": "Secrets sprawl isn't slowing down: in 2025, it accelerated faster than most security teams anticipated. GitGuardian's State of Secrets Sprawl 2026 report analyzed billions of commits across public ...",
+      "pub_date": "Mon, 30 Mar 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4tVpFBDvdU-vz8vM1T6SJZwd3AiySFqEyonUutxGPNimXEqTVOKN-pCI_lF5Ti2GngFUPtEphVI4Qep03CBciF7NhaWEIKYdDfkVY-VleTTcqYJvcMTKrd-EJ4kh2zLk3cY7pqqxI7bfEghuxGAV7lwUPjTD6nTa5dKj5e8_RJD9UjHn12015puG8P4o/s1600/key.gif"
+    },
+    {
+      "title": "Critical Grafana Vulnerabilities Let Attackers Achieve Remote Code Execution",
+      "link": "https://cybersecuritynews.com/grafana-vulnerabilities-rce/",
+      "description": "Urgent security updates for Grafana version 12.4.2 address two critical vulnerabilities that could allow attackers to achieve full remote code execution (RCE) and execute denial-of-service (DoS) at...",
+      "pub_date": "Mon, 30 Mar 2026 11:16:05 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Critical-Grafana-Vulnerabilities-Let-Attackers-achieve-remote-code-execution.webp"
+    },
+    {
+      "title": "Critical n8n Vulnerability Let Attackers Achieve Remote Code Execution",
+      "link": "https://cybersecuritynews.com/n8n-vulnerability/",
+      "description": "A critical security flaw in n8n, a widely used open-source workflow automation platform, exposes host servers to Remote Code Execution (RCE) attacks. Tracked as CVE-2026-33660, this critical vulner...",
+      "pub_date": "Mon, 30 Mar 2026 11:08:42 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Critical-n8n-Vulnerability-Let-Attackers-achieve-remote-code-execution.webp"
+    },
+    {
+      "title": "Hackers now exploit critical F5 BIG-IP flaw in attacks, patch now",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-f5-big-ip-flaw-in-attacks-patch-now/",
+      "description": "F5 has reclassified a BIG-IP APM denial-of-service (DoS) vulnerability as a critical-severity remote code execution (RCE) flaw, warning that attackers are exploiting it to deploy webshells on unpat...",
+      "pub_date": "Mon, 30 Mar 2026 06:59:38 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "TeamPCP Supply Chain Attack Allegedly Compromised Databricks Platform",
+      "link": "https://cybersecuritynews.com/databricks-teampcp-supply-chain/",
+      "description": "Databricks is currently investigating an alleged security compromise connected to the massive TeamPCP software supply chain attack after being alerted by threat intelligence researchers. According ...",
+      "pub_date": "Mon, 30 Mar 2026 10:58:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Databricks-TeamPCP-Supply-Chain.webp"
+    },
     {
       "title": "Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels",
       "link": "https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html",
@@ -106,14 +146,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft Issues Critical WinRE and Setup Updates Ahead of 2026 Secure Boot Certificate Expiration",
-      "link": "https://cybersecuritynews.com/microsoft-critical-winre-update/",
-      "description": "Microsoft has rolled out two new dynamic updates, KB5081494 and KB5083482, designed for Windows 11 versions 24H2 and 25H2. Released on March 26, 2026, these patches deliver essential enhancements t...",
-      "pub_date": "Sun, 29 Mar 2026 14:39:06 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Microsoft-Critical-WinRE-Update.webp"
-    },
-    {
       "title": "File read flaw in Smart Slider plugin impacts 500K WordPress sites",
       "link": "https://www.bleepingcomputer.com/news/security/file-read-flaw-in-smart-slider-plugin-impacts-500k-wordpress-sites/",
       "description": "A vulnerability in the Smart Slider 3 WordPress plugin, active on more than 800,000 websites, can be exploited to allow subscriber-level users access to arbitrary files on the server. [...]",
@@ -122,28 +154,12 @@
       "image_url": ""
     },
     {
-      "title": "Hackers Probe Citrix NetScaler Instances Ahead of Likely CVE-2026-3055 Exploitation",
-      "link": "https://cybersecuritynews.com/citrix-netscaler-instances-exploited/",
-      "description": "Cybersecurity researchers are sounding the alarm over imminent in-the-wild exploitation of a recently disclosed critical vulnerability in Citrix NetScaler ADC and Gateway appliances. Threat intelli...",
-      "pub_date": "Sun, 29 Mar 2026 06:56:08 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Citrix-NetScaler-Instances-Exploited-1.webp"
-    },
-    {
       "title": "Iran-Linked Hackers Breach FBI Director’s Personal Email, Hit Stryker With Wiper Attack",
       "link": "https://thehackernews.com/2026/03/iran-linked-hackers-breach-fbi.html",
       "description": "Threat actors with ties to Iran successfully broke into the personal email account of Kash Patel, the director of the U.S. Federal Bureau of Investigation (FBI), and leaked a cache of photos and ot...",
       "pub_date": "Sat, 28 Mar 2026 21:10:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB5PedpQX_DQaCrJ76V6gQtAUKvDiV1udgR3vPrPp8k7dcP8jACbAPITTEwRpl7dS05Dz_hYFlt2v4H6KTukko0Sg8vRZpDGgWNbGzVqQDwcntdMVmhb3x5v0q3d0gRcbedgOxZLiVeiDCaxb8TNO8dEaE7Bn54TCqxKvbb7Ct_5Wxsxx5WSn2bqEIJqB4/s1600/iran-hacking.jpg"
-    },
-    {
-      "title": "Cybersecurity Companies’ Stocks Fall as Anthropic Tests Powerful New Model",
-      "link": "https://cybersecuritynews.com/cybersecurity-stocks-anthropic/",
-      "description": "Cybersecurity stocks declined sharply on Friday following revelations that Anthropic has begun testing \u0026#8220;Mythos,\u0026#8221; an extraordinarily powerful new AI model with advanced vulnerability-dis...",
-      "pub_date": "Sat, 28 Mar 2026 15:05:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Cybersecurity-Stocks-Anthropic.webp"
     },
     {
       "title": "New Infinity Stealer malware grabs macOS data via ClickFix lures",
@@ -298,14 +314,6 @@
       "image_url": ""
     },
     {
-      "title": "CISA: New Langflow flaw actively exploited to hijack AI workflows",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-new-langflow-flaw-actively-exploited-to-hijack-ai-workflows/",
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are actively exploiting a critical vulnerability identified as CVE-2026-33017, which affects the Langflow frame...",
-      "pub_date": "Thu, 26 Mar 2026 15:17:43 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "China-Linked Red Menshen Uses Stealthy BPFDoor Implants to Spy via Telecom Networks",
       "link": "https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html",
       "description": "A long-term and ongoing campaign attributed to a China-nexus threat actor has embedded itself in telecom networks to conduct espionage against government networks. The strategic positioning activit...",
@@ -320,14 +328,6 @@
       "pub_date": "Thu, 26 Mar 2026 16:00:00 +0000",
       "source": "GitHub Security",
       "image_url": "https://github.blog/wp-content/uploads/2026/03/1-GHADB-Feeds-vs-Backfill.png?resize=4290%2C2640"
-    },
-    {
-      "title": "[Webinar] Stop Guessing. Learn to Validate Your Defenses Against Real Attacks",
-      "link": "https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html",
-      "description": "Most teams have security tools in place. Alerts are firing, dashboards look clean, threat intel is flowing in. On the surface, everything feels under control. But one question usually stays unanswe...",
-      "pub_date": "Thu, 26 Mar 2026 18:42:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCypzkb6uvHuNx6LKknUqtvQFoqsr6aalztDeBKT1aaUASzfjZMZAZqExx1k0w5iKWl08lx3MxbM_FwWxAvBdZODEerioaMp8OHVvhSjC8VL3uAW9_NMniMl_niggBVhVMdDFu2324YyhW5TrK4fua1PXlrb0DweOULvNgi5mlQUZUct_dIX3OePrfqks/s1600/validate.jpg"
     },
     {
       "title": "ZDI-26-226: (0Day) Microsoft Azure MCP AzureCliService Command Injection Remote Code Execution Vulnerability",
