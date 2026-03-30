@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-03-30T08:18:23Z",
+  "last_updated": "2026-03-30T10:09:25Z",
   "articles": [
+    {
+      "title": "Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels",
+      "link": "https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html",
+      "description": "Cybersecurity researchers have discovered a remote access toolkit of Russian-origin that's distributed via malicious Windows shortcut (LNK) files that are disguised as private key folders. The CTRL...",
+      "pub_date": "Mon, 30 Mar 2026 15:28:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh05CEOtp0cIlsi1qDK4HRH2PPOFyvB5jca65pAQVsnCfBHZ-wRGt0s8VhvzO_l-4Q9H_xGKQsO_efVGzJ46ElLQNaq_FEp6wPUou4aqTvEKMPlEEGOTyEtISTj0VkC5QmO38HuxWehNDTUkdvCVCCp-GrIPWJyFt4dTLp1TIbqW8hAiVEJ-vxnoKUexR6-/s1600/ctrl-ctrl.jpg"
+    },
+    {
+      "title": "Microsoft pulls KB5079391 Windows update over install issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-windows-kb5079391-update-over-0x80073712-install-errors/",
+      "description": "Microsoft has pulled a buggy Windows 11 non-security preview update to investigate a known issue that triggers 0x80073712 errors during installation. [...]",
+      "pub_date": "Mon, 30 Mar 2026 05:38:45 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Critical Fortinet Forticlient EMS Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/forticlient-ems-vulnerability-exploited/",
+      "description": "A critical SQL injection vulnerability in Fortinet’s FortiClient Endpoint Management Server (EMS), tracked as CVE-2026-21643, is actively being exploited in the wild. Threat actors have been leve...",
+      "pub_date": "Mon, 30 Mar 2026 09:32:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Forticlient-EMS-Vulnerability-Exploited.webp"
+    },
     {
       "title": "India Set to Ban Sale of Hikvision, TP-Link, CCTV Products From April",
       "link": "https://cybersecuritynews.com/india-ban-cctv-products/",
@@ -128,14 +152,6 @@
       "pub_date": "Sat, 28 Mar 2026 10:35:10 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "CISA Warns of F5 BIG-IP Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/f5-big-ip-vulnerability-actively-exploited/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a newly disclosed vulnerability affecting F5 BIG-IP systems to its Known Exploited Vulnerabilities (KEV) catalog, warning ...",
-      "pub_date": "Sat, 28 Mar 2026 14:26:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/F5-BIG-IP-Vulnerability-Actively-Exploited.webp"
     },
     {
       "title": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug",
@@ -306,28 +322,12 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/03/1-GHADB-Feeds-vs-Backfill.png?resize=4290%2C2640"
     },
     {
-      "title": "UK sanctions Xinbi marketplace linked to Asian scam centers",
-      "link": "https://www.bleepingcomputer.com/news/security/uk-sanctions-xinbi-marketplace-linked-to-asian-scam-centers/",
-      "description": "The United Kingdom's Foreign, Commonwealth and Development Office (FCDO) has sanctioned Xinbi, a Chinese-language cryptocurrency-based online marketplace that sells stolen data and satellite int...",
-      "pub_date": "Thu, 26 Mar 2026 11:42:43 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "[Webinar] Stop Guessing. Learn to Validate Your Defenses Against Real Attacks",
       "link": "https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html",
       "description": "Most teams have security tools in place. Alerts are firing, dashboards look clean, threat intel is flowing in. On the surface, everything feels under control. But one question usually stays unanswe...",
       "pub_date": "Thu, 26 Mar 2026 18:42:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCypzkb6uvHuNx6LKknUqtvQFoqsr6aalztDeBKT1aaUASzfjZMZAZqExx1k0w5iKWl08lx3MxbM_FwWxAvBdZODEerioaMp8OHVvhSjC8VL3uAW9_NMniMl_niggBVhVMdDFu2324YyhW5TrK4fua1PXlrb0DweOULvNgi5mlQUZUct_dIX3OePrfqks/s1600/validate.jpg"
-    },
-    {
-      "title": "Claude Extension Flaw Enabled Zero-Click XSS Prompt Injection via Any Website",
-      "link": "https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html",
-      "description": "Cybersecurity researchers have disclosed a vulnerability in Anthropic's Claude Google Chrome Extension that could have been exploited to trigger malicious prompts simply by visiting a web page. The...",
-      "pub_date": "Thu, 26 Mar 2026 18:41:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvKbsVkCFVvziyQ564TDmmBjGzy6lzKUcC_rmt-GZWOiCshA_YGAhsMjib7OhvNS_8OX6micW6hWSY4lWh6IoGcyy_tCywr9Tr-qhyI4Wau32zV80zS3OJRVnbSZtHQqWO-RvoznJ34HjG6M5CDlKIXXTyAuZvVS235fZ9juweln5KS77w1w80Jk113rAW/s1600/claude.jpg"
     },
     {
       "title": "ZDI-26-226: (0Day) Microsoft Azure MCP AzureCliService Command Injection Remote Code Execution Vulnerability",
