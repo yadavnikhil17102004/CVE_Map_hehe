@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-03-30T17:45:57Z",
+  "last_updated": "2026-03-30T18:50:04Z",
   "articles": [
+    {
+      "title": "Critical Citrix NetScaler memory flaw actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-citrix-netscaler-memory-flaw-actively-exploited-in-attacks/",
+      "description": "Hackers are exploiting a critical severity vulnerability, tracked as CVE-2026-3055, in Citrix  NetScaler ADC and NetScaler Gateway appliances to obtain sensitive data. [...]",
+      "pub_date": "Mon, 30 Mar 2026 14:28:37 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "12 Best AWS Monitoring Tools in 2026",
+      "link": "https://cybersecuritynews.com/best-aws-monitoring-tools/",
+      "description": "Amazon Web Services (AWS) is a cloud computing platform for businesses of all sizes and types. AWS\u0026#8217;s architecture is robust and scalable, but dependability, performance, and security must be ...",
+      "pub_date": "Mon, 30 Mar 2026 18:08:15 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXtEMBmKiMjZuGafHG4z4GOtW0FOlxeXs1u23bMx6CMXOa_9z6ddIVVNMw6bRtcHlJrMPO3-LAY5eD1v7CTUX-nQoDJn73oq6g0-b1L5RBWzwytTApOMaUNOrHyywVxKtP-M7ao4rHnEgP7Wf33_-ZGxaVTJRW7OEglYV2Qtmd978DfDt6dtgf0qCNoYko/s16000/Best%20AWS%20Monitoring%20Tool.webp?ssl=1"
+    },
     {
       "title": "Exposed Server Reveals TheGentlemen Ransomware Toolkit, Victim Credentials, and Ngrok Tokens",
       "link": "https://cybersecuritynews.com/exposed-server-reveals-thegentlemen-ransomware-toolkit/",
@@ -114,14 +130,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFh5EaxE3C26MNKxziPoKvAK16f1ctGNYf_S1E7IY1tfyazizZwtmHaqHaTHSqBwWAMtENhtk5K1GzWLRln80K-vm2S9lkVeE3tpfQeVTaptm_T8kNoeCFLDbJLKMwqNsmD9y2iUDnLUJw4b6BQpST8M5h3dk7yRGyBcrl29nD8rw045i5roI91mRrEQs/s1600/soc.jpg"
     },
     {
-      "title": "Stored XSS Bug in Jira Work Management Could Lead to Full Organization Takeover",
-      "link": "https://cybersecuritynews.com/stored-xss-bug-in-jira-work-management/",
-      "description": "A popular collaboration tool within the Atlassian ecosystem is widely used by organizations to track projects, manage approvals, and manage daily tasks. Recently, security researchers at Snapsec un...",
-      "pub_date": "Mon, 30 Mar 2026 12:42:10 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Stored-XSS-Bug-in-Jira-Work-Management-Could-Lead-to-Full-Organization-Takeover-1.webp"
-    },
-    {
       "title": "Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels",
       "link": "https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html",
       "description": "Cybersecurity researchers have discovered a remote access toolkit of Russian-origin that's distributed via malicious Windows shortcut (LNK) files that are disguised as private key folders. The CTRL...",
@@ -175,6 +183,22 @@
       "description": "The European Commission has confirmed a data breach after its Europa.eu web platform was hacked in a cyberattack claimed by the ShinyHunters extortion gang. [...]",
       "pub_date": "Mon, 30 Mar 2026 02:42:58 -0400",
       "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-246: (0Day) aws-mcp-server Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-246/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of aws-mcp-server. Authentication is not required to exploit this vulnerability. The ZDI has assigned ...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-245: (0Day) aws-mcp-server AWS CLI Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-245/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of aws-mcp-server. Authentication is not required to exploit this vulnerability. The ZDI has assigned ...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
@@ -277,22 +301,6 @@
       "title": "ZDI-26-232: (Pwn2Own) Red Hat Enterprise Linux vmwgfx Driver Integer Overflow Local Privilege Escalation Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-232/",
       "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Red Hat Enterprise Linux. An attacker must first obtain the ability to execute low-privileged code on t...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-231: Apple macOS Exposure of Sensitive Information to Unauthorized Sphere Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-231/",
-      "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-230: Apple macOS CoreMedia Framework Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-230/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must vis...",
       "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
@@ -430,14 +438,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/anti-piracy-coalition-takes-down-animeplay-app-with-5-million-users/",
       "description": "The Alliance for Creativity and Entertainment (ACE) announced the shutdown of AnimePlay, a major anime streaming platform with over 5 million users. [...]",
       "pub_date": "Fri, 27 Mar 2026 06:40:17 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Windows 11 KB5079391 update rolls out Smart App Control improvements",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5079391-update-rolls-out-smart-app-control-improvements/",
-      "description": "​Microsoft has released the KB5079391 preview cumulative update for Windows 11 24H2 and 25H2, which includes 29 changes, such as Smart App Control and Display improvements. [...]",
-      "pub_date": "Fri, 27 Mar 2026 05:20:59 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
