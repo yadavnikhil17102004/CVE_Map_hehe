@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-03-30T13:00:16Z",
+  "last_updated": "2026-03-30T14:42:44Z",
   "articles": [
+    {
+      "title": "Apple adds macOS Terminal warning to block ClickFix attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/apple-adds-macos-terminal-warning-to-block-clickfix-attacks/",
+      "description": "Apple has introduced a security feature in macOS Tahoe 26.4 that blocks pasting and executing potentially harmful commands in Terminal and alerts users to possible risks. [...]",
+      "pub_date": "Mon, 30 Mar 2026 10:32:34 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New Homoglyph Attack Techniques Help Cybercriminals Spoof Trusted Domains",
+      "link": "https://cybersecuritynews.com/new-homoglyph-attack-techniques/",
+      "description": "Cybercriminals have found a clever way to trick people by swapping real letters in website addresses with characters that look almost the same. These are called homoglyph attacks, and they are beco...",
+      "pub_date": "Mon, 30 Mar 2026 14:28:09 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/New-Homoglyph-Attack-Techniques-Help-Cybercriminals-Spoof-Trusted-Domains.webp"
+    },
+    {
+      "title": "Hackers Backdoor Telnyx Python SDK on PyPI to Steal Cloud and Dev Credentials",
+      "link": "https://cybersecuritynews.com/hackers-backdoor-telnyx-python-sdk/",
+      "description": "A widely used Python package was quietly turned into a weapon, and most developers who got hit had no idea it happened. On March 27, 2026, a threat actor known as TeamPCP uploaded two malicious ver...",
+      "pub_date": "Mon, 30 Mar 2026 14:15:55 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Hackers-Backdoor-Telnyx-Python-SDK-on-PyPI-to-Steal-Cloud-and-Dev-Credentials.webp"
+    },
+    {
+      "title": "How to Evaluate AI SOC Agents: 7 Questions Gartner Says You Should Be Asking",
+      "link": "https://www.bleepingcomputer.com/news/security/how-to-evaluate-ai-soc-agents-7-questions-gartner-says-you-should-be-asking/",
+      "description": "AI SOC agents can reduce alert fatigue, but most teams fail to measure real outcomes. Prophet Security breaks down Gartner's questions for evaluating AI SOC agents and separating real impact from h...",
+      "pub_date": "Mon, 30 Mar 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Open VSX’s New Scanner Vulnerability Allows Malicious Extension Goes Live",
+      "link": "https://cybersecuritynews.com/open-vsxs-new-scanner-vulnerability/",
+      "description": "A serious security flaw was recently found in Open VSX, the extension marketplace used by popular code editors like Cursor and Windsurf, as well as the broader VS Code fork ecosystem. The vulnerabi...",
+      "pub_date": "Mon, 30 Mar 2026 13:58:51 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Open-VSXs-New-Scanner-Vulnerability-Allows-Malicious-Extension-Goes-Live.webp"
+    },
+    {
+      "title": "⚡ Weekly Recap: Telecom Sleeper Cells, LLM Jailbreaks, Apple Forces U.K. Age Checks and More",
+      "link": "https://thehackernews.com/2026/03/weekly-recap-telecom-sleeper-cells-llm.html",
+      "description": "Some weeks are loud. This one was quieter but not in a good way. Long-running operations are finally hitting courtrooms, old attack methods are showing up in new places, and research that stopped b...",
+      "pub_date": "Mon, 30 Mar 2026 19:26:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2e5F9xrNGflqGG3Z7UcoPHMKZnF1j1FJBpwnPfV0MBCUweDKegb97Kcry4OK2kQgx0bQ91Lhem0BdasOpiN9UoKz7rNTAVgBuJzbM9jCaF4APqUsXlkiZfbC35xNWAd0z7T0qZoTN3GdVW9exy7BcEIjV64hinG5pxmbX69KdF_u7qXUpuEZZX_R8vaMP/s1600/recapss.jpg"
+    },
+    {
+      "title": "BlankGrabber Stealer Uses Fake Certificate Loader to Hide Malware Delivery Chain",
+      "link": "https://cybersecuritynews.com/blankgrabber-stealer-uses-fake-certificate-loader/",
+      "description": "A Python-based information stealer known as BlankGrabber has been caught using a deceptive certificate loader trick to hide a multi-stage malware delivery chain. First identified in 2023, this thre...",
+      "pub_date": "Mon, 30 Mar 2026 13:11:55 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/BlankGrabber-Stealer-Uses-Fake-Certificate-Loader-to-Hide-Malware-Delivery-Chain.webp"
+    },
+    {
+      "title": "3 SOC Process Fixes That Unlock Tier 1 Productivity",
+      "link": "https://thehackernews.com/2026/03/3-soc-process-fixes-that-unlock-tier-1.html",
+      "description": "What is really slowing Tier 1 down: the threat itself or the process around it? In many SOCs, the biggest delays do not come from the threat alone. They come from fragmented workflows, manual triag...",
+      "pub_date": "Mon, 30 Mar 2026 18:30:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFh5EaxE3C26MNKxziPoKvAK16f1ctGNYf_S1E7IY1tfyazizZwtmHaqHaTHSqBwWAMtENhtk5K1GzWLRln80K-vm2S9lkVeE3tpfQeVTaptm_T8kNoeCFLDbJLKMwqNsmD9y2iUDnLUJw4b6BQpST8M5h3dk7yRGyBcrl29nD8rw045i5roI91mRrEQs/s1600/soc.jpg"
+    },
     {
       "title": "Stored XSS Bug in Jira Work Management Could Lead to Full Organization Takeover",
       "link": "https://cybersecuritynews.com/stored-xss-bug-in-jira-work-management/",
@@ -82,36 +146,12 @@
       "image_url": ""
     },
     {
-      "title": "Critical Fortinet Forticlient EMS Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/forticlient-ems-vulnerability-exploited/",
-      "description": "A critical SQL injection vulnerability in Fortinet’s FortiClient Endpoint Management Server (EMS), tracked as CVE-2026-21643, is actively being exploited in the wild. Threat actors have been leve...",
-      "pub_date": "Mon, 30 Mar 2026 09:32:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Forticlient-EMS-Vulnerability-Exploited.webp"
-    },
-    {
-      "title": "India Set to Ban Sale of Hikvision, TP-Link, CCTV Products From April",
-      "link": "https://cybersecuritynews.com/india-ban-cctv-products/",
-      "description": "Starting April 1, 2026, the Indian government will effectively ban Chinese video surveillance giants, including Hikvision, Dahua, and TP-Link, from selling internet-connected CCTV cameras in the co...",
-      "pub_date": "Mon, 30 Mar 2026 08:09:26 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/India-Ban-CCTV-Products.webp"
-    },
-    {
       "title": "Critical Fortinet Forticlient EMS flaw now exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/",
       "description": "Attackers are now actively exploiting a critical vulnerability in Fortinet's FortiClient EMS platform, according to threat intelligence company Defused. [...]",
       "pub_date": "Mon, 30 Mar 2026 03:48:17 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "New “Prompt Poaching” Attack Steals Users’ AI Conversations via Malicious Browser Extensions",
-      "link": "https://cybersecuritynews.com/prompt-poaching-attack/",
-      "description": "For many users, engaging with an AI assistant requires opening a dedicated browser tab, which inherently isolates the AI from other browsing activities. While this separation improves privacy, it r...",
-      "pub_date": "Mon, 30 Mar 2026 07:45:55 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/New-Prompt-Poaching-Attack-Steals-Users-AI-Conversations-via-Malicious-Browser-Extensions.webp"
     },
     {
       "title": "Three China-Linked Clusters Target Southeast Asian Government in 2025 Cyber Campaign",
@@ -130,12 +170,124 @@
       "image_url": ""
     },
     {
-      "title": "VoidLink Malware Framework Shows that AI-assisted Malware is Not Experimental Anymore",
-      "link": "https://cybersecuritynews.com/voidlink-malware-framework-2/",
-      "description": "For years, cybersecurity professionals debated whether AI could truly be weaponized to build dangerous malware at scale. That debate is now settled. VoidLink, a Linux-based malware framework discov...",
-      "pub_date": "Mon, 30 Mar 2026 06:41:25 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/VoidLink-Malware-Framework-Shows-that-AI-assisted-Malware-is-Not-Experimental-Anymore.webp"
+      "title": "ZDI-26-244: (Pwn2Own) QNAP QHora-322 miro_webserver_controllers_api_login_singIn Authentication Bypass Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-244/",
+      "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability. The ...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-243: (Pwn2Own) QNAP TS-453E write_file_to_svr External Control of File Path Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-243/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of QNAP TS-453E devices. Although authentication is required to exploit this vulnerability, ...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-242: (Pwn2Own) QNAP TS-453E server_handlers.pyc rr2s.kwargs Error Message Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-242/",
+      "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of QNAP TS-453E devices. Although authentication is required to exploit this vulnera...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-241: (Pwn2Own) QNAP QHora-322 qvpn_db_mgr username SQL Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-241/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of QNAP QHora-322 routers. Although authentication is required to exploit this vulnerability, the exis...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-240: (Pwn2Own) QNAP QHora-322 qvpn_db_mgr role_type Improper Neutralization of Escape Sequences Authentication Bypass Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-240/",
+      "description": "This vulnerability allows remote attackers to bypass authentication on affected QNAP QHora-322 routers. Although authentication is required to exploit this vulnerability, the existing authenticatio...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-239: (Pwn2Own) QNAP QHora-322 login.newAuthMiddleware.Authenticator Authentication Bypass Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-239/",
+      "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability. The ZDI has as...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-238: Linux Kernel AoE Driver Use-After-Free Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-238/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-237: (Pwn2Own) QNAP QHora-322  ip6_wanifset Improper Restriction of Communication Channel to Intended Endpoints Firewall Bypass Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-237/",
+      "description": "This vulnerability allows network-adjacent attackers to bypass firewall rules on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability. The ...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-236: Digilent DASYLab DSB File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-236/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Digilent DASYLab. User interaction is required to exploit this vulnerability in that the target mus...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-235: Digilent DASYLab DSA File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-235/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Digilent DASYLab. User interaction is required to exploit this vulnerability in that the target mus...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-234: Digilent DASYLab DSA File Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-234/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Digilent DASYLab. User interaction is required to exploit this vulnerability in that the target mus...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-233: Digilent DASYLab DSA File Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-233/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Digilent DASYLab. User interaction is required to exploit this vulnerability in that the target mus...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-232: (Pwn2Own) Red Hat Enterprise Linux vmwgfx Driver Integer Overflow Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-232/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Red Hat Enterprise Linux. An attacker must first obtain the ability to execute low-privileged code on t...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-231: Apple macOS Exposure of Sensitive Information to Unauthorized Sphere Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-231/",
+      "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-230: Apple macOS CoreMedia Framework Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-230/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must vis...",
+      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "FBI confirms hack of Director Patel's personal email inbox",
@@ -290,52 +442,12 @@
       "image_url": ""
     },
     {
-      "title": "Dutch Police discloses security breach after phishing attack",
-      "link": "https://www.bleepingcomputer.com/news/security/dutch-police-discloses-security-breach-after-phishing-attack/",
-      "description": "The Dutch National Police (Politie) says a security breach resulting from a successful phishing attack has had a limited impact and hasn't affected citizens' data. [...]",
-      "pub_date": "Fri, 27 Mar 2026 04:20:11 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "LangChain, LangGraph Flaws Expose Files, Secrets, Databases in Widely Used AI Frameworks",
-      "link": "https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html",
-      "description": "Cybersecurity researchers have disclosed three security vulnerabilities impacting LangChain and LangGraph that, if successfully exploited, could expose filesystem data, environment secrets, and con...",
-      "pub_date": "Fri, 27 Mar 2026 13:37:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkhroYg33geYKogEf838RfX0FRNjBX23ucPFzrxtbtf2CyTxoGZZ4RbTArZX672fygWxhNN2MOX-SXaPzWJPOeRTrnLCzYzQZ2e-7HO98AIbj-wEXbrPWSwzIOW2NbNhpWfayHyPYHyJGTRxZmDCHhR_qk79vyb29q1_p-hBCWvY2GsAPu0296IOlq_uQv/s1600/langchain.jpg"
-    },
-    {
-      "title": "Ajax football club hack exposed fan data, enabled ticket hijack",
-      "link": "https://www.bleepingcomputer.com/news/security/ajax-football-club-hack-exposed-fan-data-enabled-ticket-hijack/",
-      "description": "Dutch professional football club Ajax Amsterdam (AFC Ajax) disclosed that a hacker exploited vulnerabilities in its IT systems and accessed data belonging to a few hundred people. [...]",
-      "pub_date": "Thu, 26 Mar 2026 16:37:25 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "China-Linked Red Menshen Uses Stealthy BPFDoor Implants to Spy via Telecom Networks",
-      "link": "https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html",
-      "description": "A long-term and ongoing campaign attributed to a China-nexus threat actor has embedded itself in telecom networks to conduct espionage against government networks. The strategic positioning activit...",
-      "pub_date": "Thu, 26 Mar 2026 23:10:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDsXRdaBMsOY-JUezvB02i5xzt_pSMJYGGGmt3ujh5C7VDZ7YLODicjiwDHF0vR9Y6P7XfPJJ-sIzu3aElQOfOExYn15O9tjCrOubY531cg1hKVN7U1aGCq5avhsEBdxu0qCTuwgXQEHS4mkHExgUQbsR8iU2CS7fBZAlTyXlD9o0hmU0oJ8jCip_fok4G/s1600/tower-hack.jpg"
-    },
-    {
       "title": "A year of open source vulnerability trends: CVEs, advisories, and malware",
       "link": "https://github.blog/security/supply-chain-security/a-year-of-open-source-vulnerability-trends-cves-advisories-and-malware/",
       "description": "Reviewed advisories hit a four-year low, malware advisories surged, and CNA publishing grew—here’s what changed and what it means for your triage and response.  The post A year of open source v...",
       "pub_date": "Thu, 26 Mar 2026 16:00:00 +0000",
       "source": "GitHub Security",
       "image_url": "https://github.blog/wp-content/uploads/2026/03/1-GHADB-Feeds-vs-Backfill.png?resize=4290%2C2640"
-    },
-    {
-      "title": "ZDI-26-226: (0Day) Microsoft Azure MCP AzureCliService Command Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-226/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Azure. Authentication is not required to exploit this vulnerability. The ZDI has assigned...",
-      "pub_date": "Tue, 24 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
     },
     {
       "title": "GitHub expands application security coverage with AI‑powered detections",
@@ -346,123 +458,11 @@
       "image_url": ""
     },
     {
-      "title": "ZDI-26-225: (Pwn2Own) Samsung Galaxy S25 Samsung Account Open Redirect Security Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-225/",
-      "description": "This vulnerability allows remote attackers to bypass security on affected installations of Samsung Galaxy S25. Authentication is not required to exploit this vulnerability. The ZDI has assigned a C...",
-      "pub_date": "Mon, 23 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-224: (Pwn2Own) Samsung Galaxy S25 Samsung Account Cross-Site Scripting Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-224/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary script on affected installations of Samsung Galaxy S25. Authentication is not required to exploit this vulnerability. The ZDI has ass...",
-      "pub_date": "Mon, 23 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-223: (Pwn2Own) Samsung Galaxy S25 Smart Touch Call Application Protection Mechanism Failure Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-223/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Samsung Galaxy S25. User interaction is required to exploit this vulnerability in that the ...",
-      "pub_date": "Mon, 23 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-222: (Pwn2Own) Canon imageCLASS MF654Cdw BJNP Memory Corruption Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-222/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulner...",
-      "pub_date": "Mon, 23 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-221: GIMP XPM File Parsing Integer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-221/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
-      "pub_date": "Thu, 19 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-220: GIMP PSP File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-220/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
-      "pub_date": "Thu, 19 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-219: GIMP JP2 File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-219/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
-      "pub_date": "Thu, 19 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-218: GIMP ANI File Parsing Integer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-218/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
-      "pub_date": "Thu, 19 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-217: GIMP PSD File Parsing Integer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-217/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
-      "pub_date": "Thu, 19 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
       "title": "Investing in the people shaping open source and securing the future together",
       "link": "https://github.blog/security/supply-chain-security/investing-in-the-people-shaping-open-source-and-securing-the-future-together/",
       "description": "See how GitHub is investing in open source security funding maintainers, partnering with Alpha-Omega, and expanding access to help reduce burden and strengthen software supply chains. The post Inve...",
       "pub_date": "Tue, 17 Mar 2026 16:00:00 +0000",
       "source": "GitHub Security",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-216: (Pwn2Own) QNAP TS-453E smbd domain_name Argument Injection Authentication Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-216/",
-      "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of QNAP TS-453E devices. Authentication is not required to exploit this vulnerability. The ZD...",
-      "pub_date": "Tue, 17 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-215: KeePassXC OpenSSL Configuration Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-215/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of KeePassXC. An attacker must first obtain the ability to execute low-privileged code on the target syste...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-214: GIMP HDR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-214/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-213: GIMP LBM File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-213/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-212: Schneider Electric EcoStruxure Data Center Expert Hard-coded Password Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-212/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Schneider Electric EcoStruxure Data Center Expert. Authentication is required to exploit this vulne...",
-      "pub_date": "Mon, 16 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
