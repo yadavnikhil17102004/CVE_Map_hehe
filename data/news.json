@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-03-30T16:01:43Z",
+  "last_updated": "2026-03-30T17:45:57Z",
   "articles": [
+    {
+      "title": "Exposed Server Reveals TheGentlemen Ransomware Toolkit, Victim Credentials, and Ngrok Tokens",
+      "link": "https://cybersecuritynews.com/exposed-server-reveals-thegentlemen-ransomware-toolkit/",
+      "description": "A misconfigured server hosted on a Russian bulletproof hosting provider has exposed the complete operational toolkit of a TheGentlemen ransomware affiliate, including harvested victim credentials a...",
+      "pub_date": "Mon, 30 Mar 2026 17:30:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Exposed-Server-Reveals-TheGentlemen-Ransomware-Toolkit-Victim-Credentials-and-Ngrok-Tokens.webp"
+    },
+    {
+      "title": "North Korean IT Worker Allegedly Used Stolen Identity and AI Resume in Job Application Scam",
+      "link": "https://cybersecuritynews.com/north-korean-it-worker-allegedly-used-stolen-identity/",
+      "description": "A suspected North Korean operative tried to sneak into a remote job at a cybersecurity firm by using a stolen identity, a fake AI-generated resume, and a VoIP phone number. The case, uncovered in J...",
+      "pub_date": "Mon, 30 Mar 2026 16:52:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/North-Korean-IT-Worker-Allegedly-Used-Stolen-Identity-and-AI-Resume-in-Job-Application-Scam.webp"
+    },
+    {
+      "title": "CrySome RAT Emerges as Advanced .NET Malware With AV Killer and HVNC Capabilities",
+      "link": "https://cybersecuritynews.com/crysome-rat-emerges-as-advanced-net-malware/",
+      "description": "A new and dangerous piece of malware has surfaced in the threat landscape, and it is built to stay hidden, stay running, and stay in control of any system it infects. CrySome RAT is written in C# a...",
+      "pub_date": "Mon, 30 Mar 2026 16:30:44 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/CrySome-RAT-Emerges-as-Advanced-.NET-Malware-With-AV-Killer-and-HVNC-Capabilities.webp"
+    },
     {
       "title": "New ClickFix Variant Uses Rundll32 and WebDAV to Evade PowerShell Detection",
       "link": "https://cybersecuritynews.com/new-clickfix-variant-uses-rundll32/",
@@ -8,6 +32,14 @@
       "pub_date": "Mon, 30 Mar 2026 16:01:26 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/New-ClickFix-Variant-Uses-Rundll32-and-WebDAV-to-Evade-PowerShell-Detection.webp"
+    },
+    {
+      "title": "DeepLoad Malware Uses ClickFix and WMI Persistence to Steal Browser Credentials",
+      "link": "https://thehackernews.com/2026/03/deepload-malware-uses-clickfix-and-wmi.html",
+      "description": "A new campaign has leveraged the ClickFix social engineering tactic as a way to distribute a previously undocumented malware loader referred to as DeepLoad. \"It likely uses AI-assisted obfuscation ...",
+      "pub_date": "Mon, 30 Mar 2026 21:17:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2icgdVOmzM5pZsm88HvvmzcWKRBBXvG94z4fSZMEVPzb7GDoJ_MGDckeaK2dYVEoId5bhMbBtB0bTc0xWJshdOQ-fJEUH5nPIo028Cpm1bmmR1Qlrv5M6atg6oMz0wc0hX4phKfXivitHkWqMiE_Rl7PaD0qIrGMyaq9D_QwAMm62Bw5iaMBlHvwAnIa_/s1600/deepload.jpg"
     },
     {
       "title": "TA446 Hackers Deploying DarkSword Exploit Kit to Attack iOS Users",
@@ -90,14 +122,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Stored-XSS-Bug-in-Jira-Work-Management-Could-Lead-to-Full-Organization-Takeover-1.webp"
     },
     {
-      "title": "CanisterWorm Malware Attacking Docker/K8s/Redis to Gain Access and Steal Secrets",
-      "link": "https://cybersecuritynews.com/canisterworm-malware-attacking-docker/",
-      "description": "A financially motivated cybercrime group has been quietly compromising cloud environments since late 2025, and its activities are now drawing serious concern across the security community. The grou...",
-      "pub_date": "Mon, 30 Mar 2026 12:29:26 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/CanisterWorm-Malware-Attacking-Docker-K8s-Redis-to-Gain-Access-and-Steal-Secrets.webp"
-    },
-    {
       "title": "Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels",
       "link": "https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html",
       "description": "Cybersecurity researchers have discovered a remote access toolkit of Russian-origin that's distributed via malicious Windows shortcut (LNK) files that are disguised as private key folders. The CTRL...",
@@ -106,28 +130,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh05CEOtp0cIlsi1qDK4HRH2PPOFyvB5jca65pAQVsnCfBHZ-wRGt0s8VhvzO_l-4Q9H_xGKQsO_efVGzJ46ElLQNaq_FEp6wPUou4aqTvEKMPlEEGOTyEtISTj0VkC5QmO38HuxWehNDTUkdvCVCCp-GrIPWJyFt4dTLp1TIbqW8hAiVEJ-vxnoKUexR6-/s1600/ctrl-ctrl.jpg"
     },
     {
-      "title": "Vim Vulnerability Let Attackers Execute Arbitrary Command Via Weaponized Files",
-      "link": "https://cybersecuritynews.com/vim-vulnerability/",
-      "description": "A high-severity security flaw has been discovered in Vim, one of the most widely used text editors among developers. This vulnerability allows attackers to execute arbitrary operating system comma...",
-      "pub_date": "Mon, 30 Mar 2026 12:08:12 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Vim-Vulnerability-Let-Attackers-Execute-arbitrary-command-Via-Weaponized-Files.webp"
-    },
-    {
       "title": "The State of Secrets Sprawl 2026: 9 Takeaways for CISOs",
       "link": "https://thehackernews.com/2026/03/the-state-of-secrets-sprawl-2026-9.html",
       "description": "Secrets sprawl isn't slowing down: in 2025, it accelerated faster than most security teams anticipated. GitGuardian's State of Secrets Sprawl 2026 report analyzed billions of commits across public ...",
       "pub_date": "Mon, 30 Mar 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4tVpFBDvdU-vz8vM1T6SJZwd3AiySFqEyonUutxGPNimXEqTVOKN-pCI_lF5Ti2GngFUPtEphVI4Qep03CBciF7NhaWEIKYdDfkVY-VleTTcqYJvcMTKrd-EJ4kh2zLk3cY7pqqxI7bfEghuxGAV7lwUPjTD6nTa5dKj5e8_RJD9UjHn12015puG8P4o/s1600/key.gif"
-    },
-    {
-      "title": "Critical Grafana Vulnerabilities Let Attackers Achieve Remote Code Execution",
-      "link": "https://cybersecuritynews.com/grafana-vulnerabilities-rce/",
-      "description": "Urgent security updates for Grafana version 12.4.2 address two critical vulnerabilities that could allow attackers to achieve full remote code execution (RCE) and execute denial-of-service (DoS) at...",
-      "pub_date": "Mon, 30 Mar 2026 11:16:05 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Critical-Grafana-Vulnerabilities-Let-Attackers-achieve-remote-code-execution.webp"
     },
     {
       "title": "Hackers now exploit critical F5 BIG-IP flaw in attacks, patch now",
@@ -424,14 +432,6 @@
       "pub_date": "Fri, 27 Mar 2026 06:40:17 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Bearlyfy Hits Russian Firms with Custom GenieLocker Ransomware",
-      "link": "https://thehackernews.com/2026/03/bearlyfy-hits-70-russian-firms-with.html",
-      "description": "A pro-Ukrainian group called Bearlyfy has been attributed to more than 70 cyber attacks targeting Russian companies since it first surfaced in the threat landscape in January 2025, with recent atta...",
-      "pub_date": "Fri, 27 Mar 2026 15:34:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJa_h_fZ55AqNWxz1cuJLjlOtmxDcBXqTxZ8URxFwRfQ1OsNpcQKZOafbe7MxL72WZ3c7ashklJn4nlUj6FD87PPAznL0bzBhlpRIpUTtHqluiAjZBZgMEPTvwPyBeSrsnrSTnmbuPTwpQQDl2xLHPpynscV2zy7sk_SMU3u_gNkbzAaoT16Lr8SZXQgJs/s1600/russian-ransomware.jpg"
     },
     {
       "title": "Windows 11 KB5079391 update rolls out Smart App Control improvements",
