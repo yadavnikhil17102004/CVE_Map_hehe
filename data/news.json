@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-03-30T14:42:44Z",
+  "last_updated": "2026-03-30T16:01:43Z",
   "articles": [
+    {
+      "title": "New ClickFix Variant Uses Rundll32 and WebDAV to Evade PowerShell Detection",
+      "link": "https://cybersecuritynews.com/new-clickfix-variant-uses-rundll32/",
+      "description": "A new and more dangerous version of the ClickFix attack technique has been found actively targeting Windows users. Unlike older versions that used PowerShell or mshta to run malicious commands, thi...",
+      "pub_date": "Mon, 30 Mar 2026 16:01:26 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/New-ClickFix-Variant-Uses-Rundll32-and-WebDAV-to-Evade-PowerShell-Detection.webp"
+    },
+    {
+      "title": "TA446 Hackers Deploying DarkSword Exploit Kit to Attack iOS Users",
+      "link": "https://cybersecuritynews.com/ta446-hackers-deploying-darksword-exploit-kit/",
+      "description": "A known threat group called TA446 has been caught using a newly discovered exploit kit called DarkSword to target iOS users. This development marks a significant shift in the group\u0026#8217;s tactics,...",
+      "pub_date": "Mon, 30 Mar 2026 15:43:07 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/TA446-Hackers-Deploying-DarkSword-Exploit-Kit-to-Attack-iOS-Users.webp"
+    },
     {
       "title": "Apple adds macOS Terminal warning to block ClickFix attacks",
       "link": "https://www.bleepingcomputer.com/news/security/apple-adds-macos-terminal-warning-to-block-clickfix-attacks/",
@@ -82,6 +98,14 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/CanisterWorm-Malware-Attacking-Docker-K8s-Redis-to-Gain-Access-and-Steal-Secrets.webp"
     },
     {
+      "title": "Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels",
+      "link": "https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html",
+      "description": "Cybersecurity researchers have discovered a remote access toolkit of Russian-origin that's distributed via malicious Windows shortcut (LNK) files that are disguised as private key folders. The CTRL...",
+      "pub_date": "Mon, 30 Mar 2026 17:48:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh05CEOtp0cIlsi1qDK4HRH2PPOFyvB5jca65pAQVsnCfBHZ-wRGt0s8VhvzO_l-4Q9H_xGKQsO_efVGzJ46ElLQNaq_FEp6wPUou4aqTvEKMPlEEGOTyEtISTj0VkC5QmO38HuxWehNDTUkdvCVCCp-GrIPWJyFt4dTLp1TIbqW8hAiVEJ-vxnoKUexR6-/s1600/ctrl-ctrl.jpg"
+    },
+    {
       "title": "Vim Vulnerability Let Attackers Execute Arbitrary Command Via Weaponized Files",
       "link": "https://cybersecuritynews.com/vim-vulnerability/",
       "description": "A high-severity security flaw has been discovered in Vim, one of the most widely used text editors among developers. This vulnerability allows attackers to execute arbitrary operating system comma...",
@@ -106,36 +130,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Critical-Grafana-Vulnerabilities-Let-Attackers-achieve-remote-code-execution.webp"
     },
     {
-      "title": "Critical n8n Vulnerability Let Attackers Achieve Remote Code Execution",
-      "link": "https://cybersecuritynews.com/n8n-vulnerability/",
-      "description": "A critical security flaw in n8n, a widely used open-source workflow automation platform, exposes host servers to Remote Code Execution (RCE) attacks. Tracked as CVE-2026-33660, this critical vulner...",
-      "pub_date": "Mon, 30 Mar 2026 11:08:42 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Critical-n8n-Vulnerability-Let-Attackers-achieve-remote-code-execution.webp"
-    },
-    {
       "title": "Hackers now exploit critical F5 BIG-IP flaw in attacks, patch now",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-f5-big-ip-flaw-in-attacks-patch-now/",
       "description": "F5 has reclassified a BIG-IP APM denial-of-service (DoS) vulnerability as a critical-severity remote code execution (RCE) flaw, warning that attackers are exploiting it to deploy webshells on unpat...",
       "pub_date": "Mon, 30 Mar 2026 06:59:38 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "TeamPCP Supply Chain Attack Allegedly Compromised Databricks Platform",
-      "link": "https://cybersecuritynews.com/databricks-teampcp-supply-chain/",
-      "description": "Databricks is currently investigating an alleged security compromise connected to the massive TeamPCP software supply chain attack after being alerted by threat intelligence researchers. According ...",
-      "pub_date": "Mon, 30 Mar 2026 10:58:36 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Databricks-TeamPCP-Supply-Chain.webp"
-    },
-    {
-      "title": "Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels",
-      "link": "https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html",
-      "description": "Cybersecurity researchers have discovered a remote access toolkit of Russian-origin that's distributed via malicious Windows shortcut (LNK) files that are disguised as private key folders. The CTRL...",
-      "pub_date": "Mon, 30 Mar 2026 15:28:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh05CEOtp0cIlsi1qDK4HRH2PPOFyvB5jca65pAQVsnCfBHZ-wRGt0s8VhvzO_l-4Q9H_xGKQsO_efVGzJ46ElLQNaq_FEp6wPUou4aqTvEKMPlEEGOTyEtISTj0VkC5QmO38HuxWehNDTUkdvCVCCp-GrIPWJyFt4dTLp1TIbqW8hAiVEJ-vxnoKUexR6-/s1600/ctrl-ctrl.jpg"
     },
     {
       "title": "Microsoft pulls KB5079391 Windows update over install issues",
