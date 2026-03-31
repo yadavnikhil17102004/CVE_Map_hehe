@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-03-31T11:42:38Z",
+  "last_updated": "2026-03-31T12:58:58Z",
   "articles": [
+    {
+      "title": "Google Unveils Ransomware Detection and File Restoration for Google Drive",
+      "link": "https://cybersecuritynews.com/google-drive-ransomware-detection-2/",
+      "description": "Google has officially moved its ransomware detection and file restoration features for Google Drive into General Availability. Originally launched in beta in September 2025, the updated security co...",
+      "pub_date": "Tue, 31 Mar 2026 12:47:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Google-unveils-Ransomware-Detection-and-File-Restoration-for-Google-Drive.webp"
+    },
+    {
+      "title": "Hackers Deploy Telegram-Based ResokerRAT With Screenshot and Persistence Features",
+      "link": "https://cybersecuritynews.com/hackers-deploy-telegram-based-resokerrat/",
+      "description": "A new remote access trojan known as ResokerRAT has come to light, using Telegram\u0026#8217;s bot API as its core communication channel to silently monitor and control infected Windows machines. What ma...",
+      "pub_date": "Tue, 31 Mar 2026 12:39:05 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Hackers-Deploy-Telegram-Based-ResokerRAT-With-Screenshot-and-Persistence-Features.webp"
+    },
+    {
+      "title": "Microsoft fixes Outlook Classic crashes caused by Teams Meeting add-in",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-classic-crashes-caused-by-teams-meeting-add-in/",
+      "description": "​Microsoft has resolved a known issue that rendered the classic Outlook email client unusable for users who enabled the Microsoft Teams Meeting Add-in. [...]",
+      "pub_date": "Tue, 31 Mar 2026 08:04:15 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Silver Fox Expands Asia Cyber Campaign with AtlasCross RAT and Fake Domains",
+      "link": "https://thehackernews.com/2026/03/silver-fox-expands-asia-cyber-campaign.html",
+      "description": "Chinese-speaking users are the target of an active campaign that uses typosquatted domains impersonating trusted software brands to deliver a previously undocumented remote access trojan named Atla...",
+      "pub_date": "Tue, 31 Mar 2026 17:16:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgQmoJ2iwUTLR-DicdD0xa7_oYXgpGalL3L_-4LyX9YMApiotQC-omFlhdcQByUQat1YJdd7ElMqhp8FDYpoaljcvVmCFPXS4yRRh0_KnKa6FgqoEpiaKHJhoecKKap1MgoPWw1a6H7LfJrYo9m_YXqh3BaoES1tPEmuCbgO3snV34jtkrK7j8t4Qk30jj/s1600/cyberattacks-asia.jpg"
+    },
+    {
+      "title": "The AI Arms Race – Why Unified Exposure Management Is Becoming a Boardroom Priority",
+      "link": "https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html",
+      "description": "The cybersecurity landscape is accelerating at an unprecedented rate. What is emerging is not simply a rise in the number of vulnerabilities or tools, but a dramatic increase in speed. Speed of att...",
+      "pub_date": "Tue, 31 Mar 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1pgefAVGqPo1F0pVFtbxdewmfgaNvrqH-R-BydTTpenzbOZGvoJMA7wwiXzhDBcxvhEm91tK9CsPBiB24g7WHylYCzuO8XI9tCraDla-ePrNFsli1YYrtjQr6dxN7mQHbuw57EtS1mrUeS3GfNYCuM-7s1MDbW5oUS2tY0kkV8_TNP3jDKPPgUXSJTr8/s1600/ai-power.jpg"
+    },
     {
       "title": "Anthropic’s Claude Code Source Code Reportedly Leaked Via Their npm Registry",
       "link": "https://cybersecuritynews.com/claude-code-source-code-leaked/",
@@ -74,28 +114,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Cybercriminals-Abuse-IRS-and-Tax-Filing-Lures-to-Push-Malware-in-New-Campaigns.webp"
     },
     {
-      "title": "New DeepLoad Malware Uses ClickFix and AI-Generated Evasion to Breach Enterprise Networks",
-      "link": "https://cybersecuritynews.com/new-deepload-malware-uses-clickfix/",
-      "description": "A newly discovered malware named DeepLoad is targeting enterprise environments, turning a single user action into persistent, credential-stealing access that survives reboots and outlasts standard ...",
-      "pub_date": "Tue, 31 Mar 2026 08:21:03 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/New-DeepLoad-Malware-Uses-ClickFix-and-AI-Generated-Evasion-to-Breach-Enterprise-Networks.webp"
-    },
-    {
       "title": "Dutch Finance Ministry takes treasury banking portal offline after breach",
       "link": "https://www.bleepingcomputer.com/news/security/dutch-finance-ministry-takes-treasury-banking-portal-offline-after-breach/",
       "description": "The Dutch Ministry of Finance took some of its systems offline, including the digital portal for treasury banking, while investigating a cyberattack detected two weeks ago. [...]",
       "pub_date": "Tue, 31 Mar 2026 03:52:15 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Hackers Deploy RoadK1ll Pivoting Malware to Turn Compromised Hosts Into Network Relays",
-      "link": "https://cybersecuritynews.com/hackers-deploy-roadk1ll-pivoting-malware/",
-      "description": "A new piece of malware called RoadK1ll has been found silently converting compromised machines into controllable network relay points. Unlike most malware that arrives loaded with commands and atta...",
-      "pub_date": "Tue, 31 Mar 2026 07:41:27 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Hackers-Deploy-RoadK1ll-Pivoting-Malware-to-Turn-Compromised-Hosts-Into-Network-Relays.webp"
     },
     {
       "title": "CISA orders feds to patch actively exploited Citrix flaw by Thursday",
@@ -108,7 +132,7 @@
     {
       "title": "Axios Supply Chain Attack Pushes Cross-Platform RAT via Compromised npm Account",
       "link": "https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html",
-      "description": "The popular HTTP client known as Axios has suffered a supply chain attack after two newly published versions of the npm package introduced a malicious dependency. Versions 1.14.1 and 0.30.4 of Axio...",
+      "description": "The popular HTTP client known as Axios has suffered a supply chain attack after two newly published versions of the npm package introduced a malicious dependency that delivers a trojan capable of t...",
       "pub_date": "Tue, 31 Mar 2026 11:38:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdY8iKA7o-K-4HkIjPMiBRWAn5vCvSNDu1sm09t10vWMzXO6cIblLHQyu1no-KBhq4W7EWS03zqvI4n_k9mYWCDsCVoiX4cwsV9T862WTq1yGb6VkX1ZGTa7MKZE43llbF9n2Py1mC2yhCIfRlXGkvya_NQ9lX7vZ32YW8pHZlw1dPZcI9eCrgysiWqSSR/s1600/Axios-attack.jpg"
@@ -386,14 +410,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB5PedpQX_DQaCrJ76V6gQtAUKvDiV1udgR3vPrPp8k7dcP8jACbAPITTEwRpl7dS05Dz_hYFlt2v4H6KTukko0Sg8vRZpDGgWNbGzVqQDwcntdMVmhb3x5v0q3d0gRcbedgOxZLiVeiDCaxb8TNO8dEaE7Bn54TCqxKvbb7Ct_5Wxsxx5WSn2bqEIJqB4/s1600/iran-hacking.jpg"
     },
     {
-      "title": "New Infinity Stealer malware grabs macOS data via ClickFix lures",
-      "link": "https://www.bleepingcomputer.com/news/security/new-infinity-stealer-malware-grabs-macos-data-via-clickfix-lures/",
-      "description": "A new info-stealing malware named Infinity Stealer is targeting macOS systems with a Python payload packaged as an executable using the open-source Nuitka compiler. [...]",
-      "pub_date": "Sat, 28 Mar 2026 10:35:10 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug",
       "link": "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html",
       "description": "A recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber and watchTowr. The vulnerab...",
@@ -424,22 +440,6 @@
       "pub_date": "Fri, 27 Mar 2026 22:52:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiN7dxzt-3rxkQ1A-6Sd9EzxINF3V70WAx4hsUUNPofdWcCO6hp0vEHavIsQsCUyXY7hOUOk7kDGIt2zN__gnigtzyYJyc31aiwpivHd4GEMPh0CHZHIBm58PtiyDXn7XNzI4hoZzmqVpErPty3VvEoyZCC4heyU0FE0uvM8_Ad_mWtXpSj5bcLIcTBwLNi/s1600/apple.jpg"
-    },
-    {
-      "title": "TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files",
-      "link": "https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html",
-      "description": "TeamPCP, the threat actor behind the supply chain attack targeting Trivy, KICS, and litellm, has now compromised the telnyx Python package by pushing two malicious versions to steal sensitive data....",
-      "pub_date": "Fri, 27 Mar 2026 22:23:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1CMUCCEUOX5JczcW-qUC2Bw8_3GmKNoLItyUq-AeuCUvFrJJL0t6aW5EhyJzNT5OyQJulbqwy847fK_EEBieTmTHEKn33suBcHss0AflwRWkPdmqT7FUbX5Rahkwz09g0Fw2GDZr00dAqHeEouzWvFVKMLgNshyO2HQ6QcD5qtbNu59djr1cdm0iV_ksj/s1600/wave.jpg"
-    },
-    {
-      "title": "Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks",
-      "link": "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html",
-      "description": "Cybersecurity researchers have disclosed details of a now-patched bug impacting Open VSX's pre-publish scanning pipeline to cause the tool to allow a malicious Microsoft Visual Studio Code (VS Code...",
-      "pub_date": "Fri, 27 Mar 2026 19:27:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxyuzdQgdhyphenhyphenfWqx9GyfXC7_Bop28GdU7Bvyj3ZEvEBm8HbchBOMZFiLIGHSVFM9OdfCaKJSyAZzY3F3soB37-VtKEcY_KShCnzB2D-t8DJ5mbSl4MlbMgCV8uSMf9LaTds8vn_rccuiUIzq0mC5lxYK7HstyftiOEqYGCJC8PP5sCF_UariwUHXuvqYXkt/s1600/open-code.jpg"
     },
     {
       "title": "A year of open source vulnerability trends: CVEs, advisories, and malware",
