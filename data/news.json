@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-03-31T06:12:18Z",
+  "last_updated": "2026-03-31T08:03:50Z",
   "articles": [
+    {
+      "title": "Dutch Finance Ministry takes treasury banking portal offline after breach",
+      "link": "https://www.bleepingcomputer.com/news/security/dutch-finance-ministry-takes-treasury-banking-portal-offline-after-breach/",
+      "description": "The Dutch Ministry of Finance took some of its systems offline, including the digital portal for treasury banking, while investigating a cyberattack detected two weeks ago. [...]",
+      "pub_date": "Tue, 31 Mar 2026 03:52:15 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Deploy RoadK1ll Pivoting Malware to Turn Compromised Hosts Into Network Relays",
+      "link": "https://cybersecuritynews.com/hackers-deploy-roadk1ll-pivoting-malware/",
+      "description": "A new piece of malware called RoadK1ll has been found silently converting compromised machines into controllable network relay points. Unlike most malware that arrives loaded with commands and atta...",
+      "pub_date": "Tue, 31 Mar 2026 07:41:27 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Hackers-Deploy-RoadK1ll-Pivoting-Malware-to-Turn-Compromised-Hosts-Into-Network-Relays.webp"
+    },
+    {
+      "title": "CISA orders feds to patch actively exploited Citrix flaw by Thursday",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-citrix-flaw-by-thursday/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch their Citrix NetScaler appliances against an actively exploited vulnerability by Thursday. [...]",
+      "pub_date": "Tue, 31 Mar 2026 03:05:25 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "GhostSocks Turns Victim Systems Into Residential Proxies for Evasive Cyberattacks",
+      "link": "https://cybersecuritynews.com/ghostsocks-turns-victim-systems/",
+      "description": "A new malware called GhostSocks has been quietly spreading through compromised systems, turning home and office devices into residential proxies that threat actors use to conceal their malicious tr...",
+      "pub_date": "Tue, 31 Mar 2026 06:31:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/GhostSocks-Turns-Victim-Systems-Into-Residential-Proxies-for-Evasive-Cyberattacks.webp"
+    },
+    {
+      "title": "Axios Supply Chain Attack Pushes Cross-Platform RAT via Compromised npm Account",
+      "link": "https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html",
+      "description": "The popular HTTP client known as Axios has suffered a supply chain attack after two newly published versions of the npm package introduced a malicious dependency. Versions 1.14.1 and 0.30.4 of Axio...",
+      "pub_date": "Tue, 31 Mar 2026 11:38:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdY8iKA7o-K-4HkIjPMiBRWAn5vCvSNDu1sm09t10vWMzXO6cIblLHQyu1no-KBhq4W7EWS03zqvI4n_k9mYWCDsCVoiX4cwsV9T862WTq1yGb6VkX1ZGTa7MKZE43llbF9n2Py1mC2yhCIfRlXGkvya_NQ9lX7vZ32YW8pHZlw1dPZcI9eCrgysiWqSSR/s1600/Axios-attack.jpg"
+    },
     {
       "title": "Notepad++ v8.9.3 Released Addressing cURL Security Vulnerability and Crash Issues",
       "link": "https://cybersecuritynews.com/notepad-v8-9-3-released/",
@@ -106,28 +146,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2icgdVOmzM5pZsm88HvvmzcWKRBBXvG94z4fSZMEVPzb7GDoJ_MGDckeaK2dYVEoId5bhMbBtB0bTc0xWJshdOQ-fJEUH5nPIo028Cpm1bmmR1Qlrv5M6atg6oMz0wc0hX4phKfXivitHkWqMiE_Rl7PaD0qIrGMyaq9D_QwAMm62Bw5iaMBlHvwAnIa_/s1600/deepload.jpg"
     },
     {
-      "title": "TA446 Hackers Deploying DarkSword Exploit Kit to Attack iOS Users",
-      "link": "https://cybersecuritynews.com/ta446-hackers-deploying-darksword-exploit-kit/",
-      "description": "A known threat group called TA446 has been caught using a newly discovered exploit kit called DarkSword to target iOS users. This development marks a significant shift in the group\u0026#8217;s tactics,...",
-      "pub_date": "Mon, 30 Mar 2026 15:43:07 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/TA446-Hackers-Deploying-DarkSword-Exploit-Kit-to-Attack-iOS-Users.webp"
-    },
-    {
       "title": "Apple adds macOS Terminal warning to block ClickFix attacks",
       "link": "https://www.bleepingcomputer.com/news/security/apple-adds-macos-terminal-warning-to-block-clickfix-attacks/",
       "description": "Apple has introduced a security feature in macOS Tahoe 26.4 that blocks pasting and executing potentially harmful commands in Terminal and alerts users to possible risks. [...]",
       "pub_date": "Mon, 30 Mar 2026 10:32:34 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "New Homoglyph Attack Techniques Help Cybercriminals Spoof Trusted Domains",
-      "link": "https://cybersecuritynews.com/new-homoglyph-attack-techniques/",
-      "description": "Cybercriminals have found a clever way to trick people by swapping real letters in website addresses with characters that look almost the same. These are called homoglyph attacks, and they are beco...",
-      "pub_date": "Mon, 30 Mar 2026 14:28:09 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/New-Homoglyph-Attack-Techniques-Help-Cybercriminals-Spoof-Trusted-Domains.webp"
     },
     {
       "title": "How to Evaluate AI SOC Agents: 7 Questions Gartner Says You Should Be Asking",
@@ -410,36 +434,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1CMUCCEUOX5JczcW-qUC2Bw8_3GmKNoLItyUq-AeuCUvFrJJL0t6aW5EhyJzNT5OyQJulbqwy847fK_EEBieTmTHEKn33suBcHss0AflwRWkPdmqT7FUbX5Rahkwz09g0Fw2GDZr00dAqHeEouzWvFVKMLgNshyO2HQ6QcD5qtbNu59djr1cdm0iV_ksj/s1600/wave.jpg"
     },
     {
-      "title": "Fake VS Code alerts on GitHub spread malware to developers",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-vs-code-alerts-on-github-spread-malware-to-developers/",
-      "description": "A large-scale campaign is targeting developers on GitHub with fake Visual Studio Code (VS Code) security alerts posted in the Discussions section of various projects, to trick users into downloadin...",
-      "pub_date": "Fri, 27 Mar 2026 12:51:52 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Agentic GRC: Teams Get the Tech. The Mindset Shift Is What's Missing.",
-      "link": "https://www.bleepingcomputer.com/news/security/agentic-grc-teams-get-the-tech-the-mindset-shift-is-whats-missing/",
-      "description": "Agentic GRC automates workflows, forcing teams to rethink their role beyond operations. Anecdotes explains why the biggest challenge is shifting from execution to risk leadership. [...]",
-      "pub_date": "Fri, 27 Mar 2026 10:02:12 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks",
       "link": "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html",
       "description": "Cybersecurity researchers have disclosed details of a now-patched bug impacting Open VSX's pre-publish scanning pipeline to cause the tool to allow a malicious Microsoft Visual Studio Code (VS Code...",
       "pub_date": "Fri, 27 Mar 2026 19:27:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxyuzdQgdhyphenhyphenfWqx9GyfXC7_Bop28GdU7Bvyj3ZEvEBm8HbchBOMZFiLIGHSVFM9OdfCaKJSyAZzY3F3soB37-VtKEcY_KShCnzB2D-t8DJ5mbSl4MlbMgCV8uSMf9LaTds8vn_rccuiUIzq0mC5lxYK7HstyftiOEqYGCJC8PP5sCF_UariwUHXuvqYXkt/s1600/open-code.jpg"
-    },
-    {
-      "title": "AitM Phishing Targets TikTok Business Accounts Using Cloudflare Turnstile Evasion",
-      "link": "https://thehackernews.com/2026/03/aitm-phishing-targets-tiktok-business.html",
-      "description": "Threat actors are using adversary-in-the-middle (AitM) phishing pages to seize control of TikTok for Business accounts in a new campaign, according to a report from Push Security. Business accounts...",
-      "pub_date": "Fri, 27 Mar 2026 17:33:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9MSv7TxvzRXdcpb_tW0hSC0Jq5_7-VYEhbddL8im1K25nOcjSr0T3_Y2f9zG8Q9l7K3U_zOXBKWgnHAO9rWvYG9158OKLKcZif_lq7e5fpqwxrW3IdPWzgTko6ogQSQg77hmiWszgf3OOT7baBY8vI8XcPt0h8R_0p7oBX2WmVQUSgsJXfPQmCzOGTMX9/s1600/tiktok-b.jpg"
     },
     {
       "title": "A year of open source vulnerability trends: CVEs, advisories, and malware",
