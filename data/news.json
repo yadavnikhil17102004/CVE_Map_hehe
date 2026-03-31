@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-03-31T22:27:14Z",
+  "last_updated": "2026-03-31T23:28:05Z",
   "articles": [
+    {
+      "title": "Google now allows you to change your @gmail.com address",
+      "link": "https://www.bleepingcomputer.com/news/google/google-now-allows-you-to-change-your-gmailcom-address/",
+      "description": "Google is rolling out a new feature in the U.S. that allows users to change their @gmail address or create a new alias. [...]",
+      "pub_date": "Tue, 31 Mar 2026 19:13:56 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Proton launches new \"Meet\" privacy-focused conferencing platform",
+      "link": "https://www.bleepingcomputer.com/news/security/proton-launches-new-meet-privacy-focused-conferencing-platform/",
+      "description": "Proton has announced a new video conferencing service named Meet and positioned it as a privacy-focused alternative to mainstream services like Google Meet, Zoom, and Microsoft Teams. [...]",
+      "pub_date": "Tue, 31 Mar 2026 18:42:07 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "GIGABYTE Control Center vulnerable to arbitrary file write flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/gigabyte-control-center-vulnerable-to-arbitrary-file-write-flaw/",
+      "description": "The GIGABYTE Control Center is vulnerable to an arbitrary file-write flaw that could allow a remote, unauthenticated attacker to access files on vulnerable hosts. [...]",
+      "pub_date": "Tue, 31 Mar 2026 18:28:02 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Claude AI finds Vim, Emacs RCE bugs that trigger on file open",
       "link": "https://www.bleepingcomputer.com/news/security/claude-ai-finds-vim-emacs-rce-bugs-that-trigger-on-file-open/",
@@ -58,6 +82,30 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLtnrJRJvkUE-IMtV6DuDmg7t1XhaGyItG6cXmd2cz0-3sd8fgZi5jHZE9valO1-CdJjGcqkkeHxNPM2Y7lLK0lrtJXOEwXscylBbYfyCXtvvAfGeFR5Q7Zwv0Mxsg-iiEjbaN2junJWYJmJmUEBuFDjRXH_X9gYYwR4Jyu-79dMfL1MQPLpKU6O6PtN_R/s1600/google-vertex.jpg"
     },
     {
+      "title": "Hackers Weaponize Legitimate Windows Tools to Disable Antivirus Before Ransomware Attacks",
+      "link": "https://cybersecuritynews.com/hackers-weaponize-legitimate-windows-tools/",
+      "description": "Ransomware attacks have gone far beyond simple malicious code. Today, attackers operate with the precision of a well-planned business, using trusted Windows tools to quietly tear down defenses befo...",
+      "pub_date": "Tue, 31 Mar 2026 13:02:27 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Hackers-Weaponize-Legitimate-Windows-Tools-to-Disable-Antivirus-Before-Ransomware-Attacks.webp"
+    },
+    {
+      "title": "Google Unveils Ransomware Detection and File Restoration for Google Drive",
+      "link": "https://cybersecuritynews.com/google-drive-ransomware-detection-2/",
+      "description": "Google has officially moved its ransomware detection and file restoration features for Google Drive into General Availability. Originally launched in beta in September 2025, the updated security co...",
+      "pub_date": "Tue, 31 Mar 2026 12:47:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Google-unveils-Ransomware-Detection-and-File-Restoration-for-Google-Drive.webp"
+    },
+    {
+      "title": "Hackers Deploy Telegram-Based ResokerRAT With Screenshot and Persistence Features",
+      "link": "https://cybersecuritynews.com/hackers-deploy-telegram-based-resokerrat/",
+      "description": "A new remote access trojan known as ResokerRAT has come to light, using Telegram\u0026#8217;s bot API as its core communication channel to silently monitor and control infected Windows machines. What ma...",
+      "pub_date": "Tue, 31 Mar 2026 12:39:05 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Hackers-Deploy-Telegram-Based-ResokerRAT-With-Screenshot-and-Persistence-Features.webp"
+    },
+    {
       "title": "Microsoft fixes Outlook Classic crashes caused by Teams Meeting add-in",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-classic-crashes-caused-by-teams-meeting-add-in/",
       "description": "​Microsoft has resolved a known issue that rendered the classic Outlook email client unusable for users who enabled the Microsoft Teams Meeting Add-in. [...]",
@@ -82,12 +130,68 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgQmoJ2iwUTLR-DicdD0xa7_oYXgpGalL3L_-4LyX9YMApiotQC-omFlhdcQByUQat1YJdd7ElMqhp8FDYpoaljcvVmCFPXS4yRRh0_KnKa6FgqoEpiaKHJhoecKKap1MgoPWw1a6H7LfJrYo9m_YXqh3BaoES1tPEmuCbgO3snV34jtkrK7j8t4Qk30jj/s1600/cyberattacks-asia.jpg"
     },
     {
+      "title": "Anthropic’s Claude Code Source Code Reportedly Leaked Via Their npm Registry",
+      "link": "https://cybersecuritynews.com/claude-code-source-code-leaked/",
+      "description": "Anthropic\u0026#8217;s proprietary Claude Code CLI tool has had its full TypeScript source code inadvertently exposed through a misconfigured npm package, after a security researcher discovered a leaked...",
+      "pub_date": "Tue, 31 Mar 2026 11:29:13 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Claude-Code-Source-Code-Leaked.webp"
+    },
+    {
+      "title": "WordPress Plugin Vulnerability Exposes Sensitive Data From 800,000+ Sites",
+      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exposes/",
+      "description": "A high-severity security flaw has been disclosed in Smart Slider 3, one of the most widely used WordPress slider builder plugins. With over 800,000 active installations, this vulnerability leaves a...",
+      "pub_date": "Tue, 31 Mar 2026 10:59:06 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/WordPress-Plugin-Vulnerability-Exposes-Sensitive-Data-from-800000-Sites.webp"
+    },
+    {
+      "title": "EvilTokens Emerges as New Phishing-as-a-Service Platform for Microsoft Account Takeover",
+      "link": "https://cybersecuritynews.com/eviltokens-emerges-as-new-phishing-as-a-service-platform/",
+      "description": "A new and dangerous phishing toolkit has entered the cybercrime scene. In early 2026, a Phishing-as-a-Service platform called EvilTokens began circulating in underground cybercrime communities, off...",
+      "pub_date": "Tue, 31 Mar 2026 10:58:41 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/EvilTokens-Emerges-as-New-Phishing-as-a-Service-Platform-for-Microsoft-Account-Takeover.webp"
+    },
+    {
+      "title": "ChatGPT Vulnerability Let Attackers Silently Exfiltrate User Prompts and Other Sensitive Data",
+      "link": "https://cybersecuritynews.com/chatgpt-vulnerability/",
+      "description": "Users routinely trust AI assistants with highly sensitive information, including medical records, financial documents, and proprietary business code. Check Point Research recently disclosed a criti...",
+      "pub_date": "Tue, 31 Mar 2026 10:48:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/ChatGPT-Vulnerability-Let-Attackers-Silently-Exfiltrate-user-Prompts-and-Other-Sensitive-Data-.png"
+    },
+    {
+      "title": "CareCloud Data Breach – Hackers Accessed IT Infrastructure and Stole Patient Data",
+      "link": "https://cybersecuritynews.com/carecloud-data-breach/",
+      "description": "A prominent healthcare technology provider has formally disclosed a significant cybersecurity incident involving unauthorized access to its IT infrastructure. An unauthorized actor compromised one ...",
+      "pub_date": "Tue, 31 Mar 2026 10:40:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/CareCloud-Data-Breach-hackers-accessed-IT-infrastructure-and-stole-patient-data.webp"
+    },
+    {
       "title": "Hacker charged with stealing $53 million from Uranium crypto exchange",
       "link": "https://www.bleepingcomputer.com/news/security/hacker-charged-with-stealing-53-million-from-uranium-crypto-exchange/",
       "description": "U.S. prosecutors have charged a Maryland man with stealing more than $53 million after hacking the Uranium Finance crypto exchange twice and laundering the proceeds through a cryptocurrency mixer. ...",
       "pub_date": "Tue, 31 Mar 2026 05:15:45 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Apple New macOS Tahoe Feature Warns Users on ClickFix Attacks",
+      "link": "https://cybersecuritynews.com/clickfix-protection-macos-tahoe-26-4/",
+      "description": "Apple has introduced a new security mechanism in the macOS Tahoe 26.4 release candidate to protect users against social engineering campaigns known as ClickFix attacks. Discovered by users testing ...",
+      "pub_date": "Tue, 31 Mar 2026 09:03:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Apple-new-macOS-Tahoe-feature-Warns-Users-on-ClickFix-attacks.webp"
+    },
+    {
+      "title": "CISA Warns of Citrix NetScaler Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/citrix-netscaler-vulnerability-exploited/",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning regarding a critical vulnerability affecting Citrix NetScaler products. Identified as CVE-2026-3055, this se...",
+      "pub_date": "Tue, 31 Mar 2026 08:58:33 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/CISA-Warns-of-Citrix-NetScaler-vulnerability-Actively-Exploited-in-Attacks-.webp"
     },
     {
       "title": "Dutch Finance Ministry takes treasury banking portal offline after breach",
@@ -112,6 +216,14 @@
       "pub_date": "Tue, 31 Mar 2026 11:38:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdY8iKA7o-K-4HkIjPMiBRWAn5vCvSNDu1sm09t10vWMzXO6cIblLHQyu1no-KBhq4W7EWS03zqvI4n_k9mYWCDsCVoiX4cwsV9T862WTq1yGb6VkX1ZGTa7MKZE43llbF9n2Py1mC2yhCIfRlXGkvya_NQ9lX7vZ32YW8pHZlw1dPZcI9eCrgysiWqSSR/s1600/Axios-attack.jpg"
+    },
+    {
+      "title": "ZDI-26-250: Linux Kernel Analog Device Driver Improper Validation of Array Index Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-250/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
+      "pub_date": "Tue, 31 Mar 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "Healthcare tech firm CareCloud says hackers stole patient data",
@@ -162,14 +274,6 @@
       "image_url": ""
     },
     {
-      "title": "How to Evaluate AI SOC Agents: 7 Questions Gartner Says You Should Be Asking",
-      "link": "https://www.bleepingcomputer.com/news/security/how-to-evaluate-ai-soc-agents-7-questions-gartner-says-you-should-be-asking/",
-      "description": "AI SOC agents can reduce alert fatigue, but most teams fail to measure real outcomes. Prophet Security breaks down Gartner's questions for evaluating AI SOC agents and separating real impact from h...",
-      "pub_date": "Mon, 30 Mar 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "⚡ Weekly Recap: Telecom Sleeper Cells, LLM Jailbreaks, Apple Forces U.K. Age Checks and More",
       "link": "https://thehackernews.com/2026/03/weekly-recap-telecom-sleeper-cells-llm.html",
       "description": "Some weeks are loud. This one was quieter but not in a good way. Long-running operations are finally hitting courtrooms, old attack methods are showing up in new places, and research that stopped b...",
@@ -200,22 +304,6 @@
       "pub_date": "Mon, 30 Mar 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4tVpFBDvdU-vz8vM1T6SJZwd3AiySFqEyonUutxGPNimXEqTVOKN-pCI_lF5Ti2GngFUPtEphVI4Qep03CBciF7NhaWEIKYdDfkVY-VleTTcqYJvcMTKrd-EJ4kh2zLk3cY7pqqxI7bfEghuxGAV7lwUPjTD6nTa5dKj5e8_RJD9UjHn12015puG8P4o/s1600/key.gif"
-    },
-    {
-      "title": "Hackers exploiting critical F5 BIG-IP flaw in attacks, patch now",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-f5-big-ip-flaw-in-attacks-patch-now/",
-      "description": "F5 has reclassified a BIG-IP APM denial-of-service (DoS) vulnerability as a critical-severity remote code execution (RCE) flaw, warning that attackers are exploiting it to deploy webshells on unpat...",
-      "pub_date": "Mon, 30 Mar 2026 06:59:38 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft pulls KB5079391 Windows update over install issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-windows-kb5079391-update-over-0x80073712-install-errors/",
-      "description": "Microsoft has pulled a buggy Windows 11 non-security preview update to investigate a known issue that triggers 0x80073712 errors during installation. [...]",
-      "pub_date": "Mon, 30 Mar 2026 05:38:45 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Three China-Linked Clusters Target Southeast Asian Government in 2025 Cyber Campaign",
@@ -332,14 +420,6 @@
     {
       "title": "ZDI-26-236: Digilent DASYLab DSB File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-236/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Digilent DASYLab. User interaction is required to exploit this vulnerability in that the target mus...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-235: Digilent DASYLab DSA File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-235/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Digilent DASYLab. User interaction is required to exploit this vulnerability in that the target mus...",
       "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
