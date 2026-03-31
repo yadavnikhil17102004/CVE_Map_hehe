@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-03-31T01:45:12Z",
+  "last_updated": "2026-03-31T04:30:55Z",
   "articles": [
+    {
+      "title": "Notepad++ v8.9.3 Released Addressing cURL Security Vulnerability and Crash Issues",
+      "link": "https://cybersecuritynews.com/notepad-v8-9-3-released/",
+      "description": "Notepad++ has officially released version 8.9.3, delivering critical security patches, structural performance enhancements, and resolutions for persistent crash issues. This update finalizes the te...",
+      "pub_date": "Tue, 31 Mar 2026 04:09:17 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Notepad-v8.9.3-Released.webp"
+    },
+    {
+      "title": "Axios NPM Packages Compromised to Inject Malicious Codes in an Active Supply Chain Attack",
+      "link": "https://cybersecuritynews.com/axios-npm-packages-compromised/",
+      "description": "A sophisticated supply chain attack has targeted Axios, one of the most heavily adopted HTTP clients within the JavaScript ecosystem, by introducing a malicious transitive dependency into the offic...",
+      "pub_date": "Tue, 31 Mar 2026 03:39:45 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Axios-NPM-Packages-Compromised.webp"
+    },
+    {
+      "title": "Claude AI Discovers Zero-Day RCE Vulnerabilities in Vim and Emacs",
+      "link": "https://cybersecuritynews.com/claude-ai-0-day-rce-vim/",
+      "description": "Anthropic’s Claude AI successfully discovered zero-day Remote Code Execution (RCE) flaws in both Vim and GNU Emacs. The discoveries highlight a massive paradigm shift in bug hunting, demonstratin...",
+      "pub_date": "Tue, 31 Mar 2026 03:24:06 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Claude-AI-0-Day-RCE-Vim.webp"
+    },
     {
       "title": "Healthcare tech firm CareCloud says hackers stole patient data",
       "link": "https://www.bleepingcomputer.com/news/security/healthcare-tech-firm-carecloud-says-hackers-stole-patient-data/",
@@ -106,14 +130,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/New-Homoglyph-Attack-Techniques-Help-Cybercriminals-Spoof-Trusted-Domains.webp"
     },
     {
-      "title": "Hackers Backdoor Telnyx Python SDK on PyPI to Steal Cloud and Dev Credentials",
-      "link": "https://cybersecuritynews.com/hackers-backdoor-telnyx-python-sdk/",
-      "description": "A widely used Python package was quietly turned into a weapon, and most developers who got hit had no idea it happened. On March 27, 2026, a threat actor known as TeamPCP uploaded two malicious ver...",
-      "pub_date": "Mon, 30 Mar 2026 14:15:55 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Hackers-Backdoor-Telnyx-Python-SDK-on-PyPI-to-Steal-Cloud-and-Dev-Credentials.webp"
-    },
-    {
       "title": "How to Evaluate AI SOC Agents: 7 Questions Gartner Says You Should Be Asking",
       "link": "https://www.bleepingcomputer.com/news/security/how-to-evaluate-ai-soc-agents-7-questions-gartner-says-you-should-be-asking/",
       "description": "AI SOC agents can reduce alert fatigue, but most teams fail to measure real outcomes. Prophet Security breaks down Gartner's questions for evaluating AI SOC agents and separating real impact from h...",
@@ -122,28 +138,12 @@
       "image_url": ""
     },
     {
-      "title": "Open VSX’s New Scanner Vulnerability Allows Malicious Extension Goes Live",
-      "link": "https://cybersecuritynews.com/open-vsxs-new-scanner-vulnerability/",
-      "description": "A serious security flaw was recently found in Open VSX, the extension marketplace used by popular code editors like Cursor and Windsurf, as well as the broader VS Code fork ecosystem. The vulnerabi...",
-      "pub_date": "Mon, 30 Mar 2026 13:58:51 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Open-VSXs-New-Scanner-Vulnerability-Allows-Malicious-Extension-Goes-Live.webp"
-    },
-    {
       "title": "⚡ Weekly Recap: Telecom Sleeper Cells, LLM Jailbreaks, Apple Forces U.K. Age Checks and More",
       "link": "https://thehackernews.com/2026/03/weekly-recap-telecom-sleeper-cells-llm.html",
       "description": "Some weeks are loud. This one was quieter but not in a good way. Long-running operations are finally hitting courtrooms, old attack methods are showing up in new places, and research that stopped b...",
       "pub_date": "Mon, 30 Mar 2026 19:26:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2e5F9xrNGflqGG3Z7UcoPHMKZnF1j1FJBpwnPfV0MBCUweDKegb97Kcry4OK2kQgx0bQ91Lhem0BdasOpiN9UoKz7rNTAVgBuJzbM9jCaF4APqUsXlkiZfbC35xNWAd0z7T0qZoTN3GdVW9exy7BcEIjV64hinG5pxmbX69KdF_u7qXUpuEZZX_R8vaMP/s1600/recapss.jpg"
-    },
-    {
-      "title": "BlankGrabber Stealer Uses Fake Certificate Loader to Hide Malware Delivery Chain",
-      "link": "https://cybersecuritynews.com/blankgrabber-stealer-uses-fake-certificate-loader/",
-      "description": "A Python-based information stealer known as BlankGrabber has been caught using a deceptive certificate loader trick to hide a multi-stage malware delivery chain. First identified in 2023, this thre...",
-      "pub_date": "Mon, 30 Mar 2026 13:11:55 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/BlankGrabber-Stealer-Uses-Fake-Certificate-Loader-to-Hide-Malware-Delivery-Chain.webp"
     },
     {
       "title": "3 SOC Process Fixes That Unlock Tier 1 Productivity",
