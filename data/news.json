@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-01T08:11:56Z",
+  "last_updated": "2026-04-01T10:01:13Z",
   "articles": [
+    {
+      "title": "Windows 11 Emergency Update to Fix Installation Loop Issues",
+      "link": "https://cybersecuritynews.com/windows-11-emergency-update/",
+      "description": "Microsoft just released an emergency out-of-band update to resolve a persistent installation failure affecting Windows 11 users. Released on March 31, 2026, update KB5086672 specifically targets sy...",
+      "pub_date": "Wed, 01 Apr 2026 09:59:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-11-emergency-update-to-fix-installation-loop-issues-.webp"
+    },
+    {
+      "title": "North Korean Hackers Compromise Widely Used Axios Package to Infect Windows, macOS, and Linux Systems",
+      "link": "https://cybersecuritynews.com/north-korean-hackers-compromise-widely-used-axios-package/",
+      "description": "A major software supply chain attack has struck the JavaScript ecosystem after threat actors slipped a malicious dependency into the widely used axios NPM package. The poisoned releases, axios 1.14...",
+      "pub_date": "Wed, 01 Apr 2026 09:00:01 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/North-Korean-Hackers-Compromise-Widely-Used-Axios-Package-to-Infect-Windows-macOS-and-Linux-Systems.webp"
+    },
+    {
+      "title": "Hackers Backdoor Telnyx Python SDK on PyPI to Steal Credentials Across Windows, macOS, and Linux",
+      "link": "https://cybersecuritynews.com/hackers-backdoor-telnyx-python-sdk-on-pypi/",
+      "description": "A threat actor group known as TeamPCP has been caught backdooring the Telnyx Python SDK on PyPI — a popular cloud communications library with over 700,000 downloads in February alone. On March 27...",
+      "pub_date": "Wed, 01 Apr 2026 08:48:26 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Backdoor-Telnyx-Python-SDK-on-PyPI-to-Steal-Credentials-Across-Windows-macOS-and-Linux.webp"
+    },
     {
       "title": "New npm Supply Chain Attack Uses undicy-http to Deploy Screen-Streaming RAT and Browser Injector",
       "link": "https://cybersecuritynews.com/new-npm-supply-chain-attack-uses-undicy-http/",
@@ -178,14 +202,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Google-unveils-Ransomware-Detection-and-File-Restoration-for-Google-Drive.webp"
     },
     {
-      "title": "Hackers Deploy Telegram-Based ResokerRAT With Screenshot and Persistence Features",
-      "link": "https://cybersecuritynews.com/hackers-deploy-telegram-based-resokerrat/",
-      "description": "A new remote access trojan known as ResokerRAT has come to light, using Telegram\u0026#8217;s bot API as its core communication channel to silently monitor and control infected Windows machines. What ma...",
-      "pub_date": "Tue, 31 Mar 2026 12:39:05 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Hackers-Deploy-Telegram-Based-ResokerRAT-With-Screenshot-and-Persistence-Features.webp"
-    },
-    {
       "title": "Microsoft fixes Outlook Classic crashes caused by Teams Meeting add-in",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-classic-crashes-caused-by-teams-meeting-add-in/",
       "description": "​Microsoft has resolved a known issue that rendered the classic Outlook email client unusable for users who enabled the Microsoft Teams Meeting Add-in. [...]",
@@ -208,22 +224,6 @@
       "pub_date": "Tue, 31 Mar 2026 17:16:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgQmoJ2iwUTLR-DicdD0xa7_oYXgpGalL3L_-4LyX9YMApiotQC-omFlhdcQByUQat1YJdd7ElMqhp8FDYpoaljcvVmCFPXS4yRRh0_KnKa6FgqoEpiaKHJhoecKKap1MgoPWw1a6H7LfJrYo9m_YXqh3BaoES1tPEmuCbgO3snV34jtkrK7j8t4Qk30jj/s1600/cyberattacks-asia.jpg"
-    },
-    {
-      "title": "Anthropic’s Claude Code Source Code Reportedly Leaked Via Their npm Registry",
-      "link": "https://cybersecuritynews.com/claude-code-source-code-leaked/",
-      "description": "Anthropic\u0026#8217;s proprietary Claude Code CLI tool has had its full TypeScript source code inadvertently exposed through a misconfigured npm package, after a security researcher discovered a leaked...",
-      "pub_date": "Tue, 31 Mar 2026 11:29:13 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Claude-Code-Source-Code-Leaked.webp"
-    },
-    {
-      "title": "WordPress Plugin Vulnerability Exposes Sensitive Data From 800,000+ Sites",
-      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exposes/",
-      "description": "A high-severity security flaw has been disclosed in Smart Slider 3, one of the most widely used WordPress slider builder plugins. With over 800,000 active installations, this vulnerability leaves a...",
-      "pub_date": "Tue, 31 Mar 2026 10:59:06 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/WordPress-Plugin-Vulnerability-Exposes-Sensitive-Data-from-800000-Sites.webp"
     },
     {
       "title": "Hacker charged with stealing $53 million from Uranium crypto exchange",
