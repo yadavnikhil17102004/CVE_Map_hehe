@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-04-01T11:44:35Z",
+  "last_updated": "2026-04-01T13:00:30Z",
   "articles": [
+    {
+      "title": "Russian Hackers Using Remote Access Toolkit “CTRL” for  RDP Hijacking",
+      "link": "https://cybersecuritynews.com/ctrl-for-rdp-hijacking/",
+      "description": "A newly disclosed Russian-linked remote access toolkit called “CTRL” is being used to hijack Remote Desktop Protocol sessions and steal credentials from Windows systems. According to Censys ARC...",
+      "pub_date": "Wed, 01 Apr 2026 12:58:01 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Russian-Hackers-Using-remote-access-toolkit-CTRL-for-RDP-hijacking-.webp"
+    },
+    {
+      "title": "New Chrome Zero-Day Vulnerability Actively Exploited in Attacks — Patch Now",
+      "link": "https://cybersecuritynews.com/chrome-zero-day-vulnerability-exploited/",
+      "description": "Google has released an emergency security update for its Chrome browser, patching a zero-day vulnerability that is already being actively exploited in the wild. The Stable channel has been updated ...",
+      "pub_date": "Wed, 01 Apr 2026 12:53:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Chrome-Zero-Day-Vulnerability.webp"
+    },
+    {
+      "title": "HSBC India Asks Customers to use All-Uppercase Passwords",
+      "link": "https://cybersecuritynews.com/hsbc-india-uppercase-passwords/",
+      "description": "Beginning April 6, 2026, HSBC India will require its internet banking customers to enter their passwords in uppercase letters only. The mandate, communicated via official customer emails, has spark...",
+      "pub_date": "Wed, 01 Apr 2026 12:32:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/HSBC-India-Uppercase-Passwords.webp"
+    },
+    {
+      "title": "Hackers Use EtherRAT and EtherHiding to Hide Malware Infrastructure on Ethereum",
+      "link": "https://cybersecuritynews.com/hackers-use-etherrat-and-etherhiding/",
+      "description": "A sophisticated backdoor called EtherRAT is actively targeting organizations across multiple sectors by hiding its command infrastructure inside the Ethereum blockchain — a move that makes it uni...",
+      "pub_date": "Wed, 01 Apr 2026 12:21:06 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-EtherRAT-and-EtherHiding-to-Hide-Malware-Infrastructure-on-Ethereum.webp"
+    },
     {
       "title": "FBI warns against using Chinese mobile apps due to privacy risks",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-against-using-chinese-mobile-apps-over-to-data-security-risks/",
@@ -74,44 +106,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/North-Korean-Hackers-Compromise-Widely-Used-Axios-Package-to-Infect-Windows-macOS-and-Linux-Systems.webp"
     },
     {
-      "title": "Hackers Backdoor Telnyx Python SDK on PyPI to Steal Credentials Across Windows, macOS, and Linux",
-      "link": "https://cybersecuritynews.com/hackers-backdoor-telnyx-python-sdk-on-pypi/",
-      "description": "A threat actor group known as TeamPCP has been caught backdooring the Telnyx Python SDK on PyPI — a popular cloud communications library with over 700,000 downloads in February alone. On March 27...",
-      "pub_date": "Wed, 01 Apr 2026 08:48:26 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Backdoor-Telnyx-Python-SDK-on-PyPI-to-Steal-Credentials-Across-Windows-macOS-and-Linux.webp"
-    },
-    {
-      "title": "New npm Supply Chain Attack Uses undicy-http to Deploy Screen-Streaming RAT and Browser Injector",
-      "link": "https://cybersecuritynews.com/new-npm-supply-chain-attack-uses-undicy-http/",
-      "description": "A malicious npm package named undicy-http has surfaced inside the Node.js developer ecosystem, quietly compromising machines of developers who mistakenly install it. The package impersonates und...",
-      "pub_date": "Wed, 01 Apr 2026 07:55:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-npm-Supply-Chain-Attack-Uses-undicy-http-to-Deploy-Screen-Streaming-RAT-and-Browser-Injector.webp"
-    },
-    {
       "title": "Google Attributes Axios npm Supply Chain Attack to North Korean Group UNC1069",
       "link": "https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html",
       "description": "Google has formally attributed the supply chain compromise of the popular Axios npm package to a financially motivated North Korean threat activity cluster tracked as UNC1069. \"We have attributed t...",
       "pub_date": "Wed, 01 Apr 2026 13:14:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4u0-_Mq5eI-6nWqV9d-E4BTvsdeDTEcK8Bo7pHnANyD6m8b8d5dPcx86sb1P-PjfLce84hgNF8ja8y2tvnYjlmvE4VGzyvAyGqd6TGOxYei3Oz-F_IvVEDxAvamRe4acysr0FqtfWgbLbDhBQxy6ovy2_V47P2d-1qDZig0pcPPnxTCEGfTzKnUXnJEgU/s1600/axios-northkorea.jpg"
-    },
-    {
-      "title": "PNG Vulnerabilities Allow Attackers to Trigger Process Crashes, Leak Sensitive Information",
-      "link": "https://cybersecuritynews.com/png-vulnerabilities/",
-      "description": "Two high-severity vulnerabilities have been discovered in libpng, the widely used reference library for reading and writing PNG images. These flaws allow attackers to trigger process crashes, leak ...",
-      "pub_date": "Wed, 01 Apr 2026 07:21:04 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/PNG-Vulnerabilities-allow-attackers-to-trigger-process-crashes-leak-sensitive-information.webp"
-    },
-    {
-      "title": "XLoader Malware Upgrades Obfuscation Tactics and Hides C2 Traffic Behind Decoy Servers",
-      "link": "https://cybersecuritynews.com/xloader-malware-upgrades-obfuscation-tactics/",
-      "description": "A well-known information-stealing malware called XLoader has received significant upgrades in its latest versions, making it considerably harder to detect and analyze than before. Originally derive...",
-      "pub_date": "Wed, 01 Apr 2026 06:46:51 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/XLoader-Malware-Upgrades-Obfuscation-Tactics-and-Hides-C2-Traffic-Behind-Decoy-Servers.webp"
     },
     {
       "title": "Google Drive ransomware detection now on by default for paying users",
