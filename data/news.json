@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-04-01T06:23:29Z",
+  "last_updated": "2026-04-01T08:11:56Z",
   "articles": [
+    {
+      "title": "New npm Supply Chain Attack Uses undicy-http to Deploy Screen-Streaming RAT and Browser Injector",
+      "link": "https://cybersecuritynews.com/new-npm-supply-chain-attack-uses-undicy-http/",
+      "description": "A malicious npm package named undicy-http has surfaced inside the Node.js developer ecosystem, quietly compromising machines of developers who mistakenly install it. The package impersonates und...",
+      "pub_date": "Wed, 01 Apr 2026 07:55:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-npm-Supply-Chain-Attack-Uses-undicy-http-to-Deploy-Screen-Streaming-RAT-and-Browser-Injector.webp"
+    },
+    {
+      "title": "Google Attributes Axios npm Supply Chain Attack to North Korean Group UNC1069",
+      "link": "https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html",
+      "description": "Google has formally attributed the supply chain compromise of the popular Axios npm package to a financially motivated North Korean threat activity cluster tracked as UNC1069. \"We have attributed t...",
+      "pub_date": "Wed, 01 Apr 2026 13:14:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4u0-_Mq5eI-6nWqV9d-E4BTvsdeDTEcK8Bo7pHnANyD6m8b8d5dPcx86sb1P-PjfLce84hgNF8ja8y2tvnYjlmvE4VGzyvAyGqd6TGOxYei3Oz-F_IvVEDxAvamRe4acysr0FqtfWgbLbDhBQxy6ovy2_V47P2d-1qDZig0pcPPnxTCEGfTzKnUXnJEgU/s1600/axios-northkorea.jpg"
+    },
+    {
+      "title": "PNG Vulnerabilities Allow Attackers to Trigger Process Crashes, Leak Sensitive Information",
+      "link": "https://cybersecuritynews.com/png-vulnerabilities/",
+      "description": "Two high-severity vulnerabilities have been discovered in libpng, the widely used reference library for reading and writing PNG images. These flaws allow attackers to trigger process crashes, leak ...",
+      "pub_date": "Wed, 01 Apr 2026 07:21:04 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/PNG-Vulnerabilities-allow-attackers-to-trigger-process-crashes-leak-sensitive-information.webp"
+    },
+    {
+      "title": "XLoader Malware Upgrades Obfuscation Tactics and Hides C2 Traffic Behind Decoy Servers",
+      "link": "https://cybersecuritynews.com/xloader-malware-upgrades-obfuscation-tactics/",
+      "description": "A well-known information-stealing malware called XLoader has received significant upgrades in its latest versions, making it considerably harder to detect and analyze than before. Originally derive...",
+      "pub_date": "Wed, 01 Apr 2026 06:46:51 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/XLoader-Malware-Upgrades-Obfuscation-Tactics-and-Hides-C2-Traffic-Behind-Decoy-Servers.webp"
+    },
+    {
+      "title": "Google Drive ransomware detection now on by default for paying users",
+      "link": "https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/",
+      "description": "Google announced that the AI-powered Google Drive ransomware detection feature has reached general availability and is now enabled by default for all paying users. [...]",
+      "pub_date": "Wed, 01 Apr 2026 02:35:34 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms",
+      "link": "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html",
+      "description": "Anthropic on Tuesday confirmed that internal code for its popular artificial intelligence (AI) coding assistant, Claude Code, had been inadvertently released due to a human error. \"No sensitive cus...",
+      "pub_date": "Wed, 01 Apr 2026 11:42:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj39e4BXzk1M6BK7XEJcfogVbdwnYJjie08kNTAeW5T46Tn8UvbbaYGrrEpgw1Pa4IpJYeGe8AR7T_UCp4_vWYTcG-c5DY0HNlHW-8SbYkscVvjAKjKR3gHmlWAQONEx8kg_ANVfOr8OsQ7uTm-XWHW1PNfusxBj-Tn2kn-V2EedPykA3ESB66doPXxGzT8/s1600/claude-code.jpg"
+    },
     {
       "title": "New Windows 11 emergency update fixes preview update install issues",
       "link": "https://www.bleepingcomputer.com/news/microsoft/new-windows-11-kb5086672-emergency-update-fixes-install-issues/",
@@ -178,30 +226,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/WordPress-Plugin-Vulnerability-Exposes-Sensitive-Data-from-800000-Sites.webp"
     },
     {
-      "title": "EvilTokens Emerges as New Phishing-as-a-Service Platform for Microsoft Account Takeover",
-      "link": "https://cybersecuritynews.com/eviltokens-emerges-as-new-phishing-as-a-service-platform/",
-      "description": "A new and dangerous phishing toolkit has entered the cybercrime scene. In early 2026, a Phishing-as-a-Service platform called EvilTokens began circulating in underground cybercrime communities, off...",
-      "pub_date": "Tue, 31 Mar 2026 10:58:41 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/EvilTokens-Emerges-as-New-Phishing-as-a-Service-Platform-for-Microsoft-Account-Takeover.webp"
-    },
-    {
-      "title": "ChatGPT Vulnerability Let Attackers Silently Exfiltrate User Prompts and Other Sensitive Data",
-      "link": "https://cybersecuritynews.com/chatgpt-vulnerability/",
-      "description": "Users routinely trust AI assistants with highly sensitive information, including medical records, financial documents, and proprietary business code. Check Point Research recently disclosed a criti...",
-      "pub_date": "Tue, 31 Mar 2026 10:48:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/ChatGPT-Vulnerability-Let-Attackers-Silently-Exfiltrate-user-Prompts-and-Other-Sensitive-Data-.png"
-    },
-    {
-      "title": "CareCloud Data Breach – Hackers Accessed IT Infrastructure and Stole Patient Data",
-      "link": "https://cybersecuritynews.com/carecloud-data-breach/",
-      "description": "A prominent healthcare technology provider has formally disclosed a significant cybersecurity incident involving unauthorized access to its IT infrastructure. An unauthorized actor compromised one ...",
-      "pub_date": "Tue, 31 Mar 2026 10:40:56 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/CareCloud-Data-Breach-hackers-accessed-IT-infrastructure-and-stole-patient-data.webp"
-    },
-    {
       "title": "Hacker charged with stealing $53 million from Uranium crypto exchange",
       "link": "https://www.bleepingcomputer.com/news/security/hacker-charged-with-stealing-53-million-from-uranium-crypto-exchange/",
       "description": "U.S. prosecutors have charged a Maryland man with stealing more than $53 million after hacking the Uranium Finance crypto exchange twice and laundering the proceeds through a cryptocurrency mixer. ...",
@@ -246,14 +270,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/healthcare-tech-firm-carecloud-says-hackers-stole-patient-data/",
       "description": "Healthcare IT firm CareCloud has disclosed a data breach incident that exposed sensitive data and caused a network disruption lasting approximately eight hours. [...]",
       "pub_date": "Mon, 30 Mar 2026 17:44:31 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "New RoadK1ll WebSocket implant used to pivot on breached networks",
-      "link": "https://www.bleepingcomputer.com/news/security/new-roadk1ll-websocket-implant-used-to-pivot-on-breached-networks/",
-      "description": "A newly identified malicious implant named RoadK1ll is enabling threat actors to quietly move from a compromised host to other systems on the network. [...]",
-      "pub_date": "Mon, 30 Mar 2026 16:49:22 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -424,22 +440,6 @@
       "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
-    },
-    {
-      "title": "Iran-Linked Hackers Breach FBI Director’s Personal Email, Hit Stryker With Wiper Attack",
-      "link": "https://thehackernews.com/2026/03/iran-linked-hackers-breach-fbi.html",
-      "description": "Threat actors with ties to Iran successfully broke into the personal email account of Kash Patel, the director of the U.S. Federal Bureau of Investigation (FBI), and leaked a cache of photos and ot...",
-      "pub_date": "Sat, 28 Mar 2026 21:10:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB5PedpQX_DQaCrJ76V6gQtAUKvDiV1udgR3vPrPp8k7dcP8jACbAPITTEwRpl7dS05Dz_hYFlt2v4H6KTukko0Sg8vRZpDGgWNbGzVqQDwcntdMVmhb3x5v0q3d0gRcbedgOxZLiVeiDCaxb8TNO8dEaE7Bn54TCqxKvbb7Ct_5Wxsxx5WSn2bqEIJqB4/s1600/iran-hacking.jpg"
-    },
-    {
-      "title": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug",
-      "link": "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html",
-      "description": "A recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber and watchTowr. The vulnerab...",
-      "pub_date": "Sat, 28 Mar 2026 14:41:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwI3gfUe4wDxvIuUsVXUVcyiZ6TWg7HIh7UgKbWXN8e5p6VbJM5hHvR0gCKbVRD3tx311R5b9TWnt0OrLNfpoSBrP1tv06PBWrUXtwzAZAvHVHo8a1uZXzqZBDkpCeGgHWI9tRrk39_n_YZgO7CeX6MXHo4kFSu_lFd5ZmAuiTdrg-x8w0svB3lF-2U1LV/s1600/citrix-exploit.jpg"
     },
     {
       "title": "A year of open source vulnerability trends: CVEs, advisories, and malware",
