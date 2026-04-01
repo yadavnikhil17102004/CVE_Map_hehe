@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-01T18:50:44Z",
+  "last_updated": "2026-04-01T19:53:59Z",
   "articles": [
+    {
+      "title": "New EvilTokens service fuels Microsoft device code phishing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/",
+      "description": "A new malicious kit called EvilTokens integrates device code phishing capabilities, allowing attackers to hijack Microsoft accounts and provide advanced features for business email compromise attac...",
+      "pub_date": "Wed, 01 Apr 2026 15:42:25 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Securing the open source supply chain across GitHub",
+      "link": "https://github.blog/security/supply-chain-security/securing-the-open-source-supply-chain-across-github/",
+      "description": "Recent attacks on open source focus on exfiltrating secrets; here are the prevention steps you can take today, plus a look at the security capabilities GitHub is working on. The post Securing the o...",
+      "pub_date": "Wed, 01 Apr 2026 19:20:12 +0000",
+      "source": "GitHub Security",
+      "image_url": ""
+    },
     {
       "title": "'NoVoice' Android malware on Google Play infected 2.3 million devices",
       "link": "https://www.bleepingcomputer.com/news/security/novoice-android-malware-on-google-play-infected-23-million-devices/",
@@ -282,14 +298,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLtnrJRJvkUE-IMtV6DuDmg7t1XhaGyItG6cXmd2cz0-3sd8fgZi5jHZE9valO1-CdJjGcqkkeHxNPM2Y7lLK0lrtJXOEwXscylBbYfyCXtvvAfGeFR5Q7Zwv0Mxsg-iiEjbaN2junJWYJmJmUEBuFDjRXH_X9gYYwR4Jyu-79dMfL1MQPLpKU6O6PtN_R/s1600/google-vertex.jpg"
     },
     {
-      "title": "Microsoft fixes Outlook Classic crashes caused by Teams Meeting add-in",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-classic-crashes-caused-by-teams-meeting-add-in/",
-      "description": "​Microsoft has resolved a known issue that rendered the classic Outlook email client unusable for users who enabled the Microsoft Teams Meeting Add-in. [...]",
-      "pub_date": "Tue, 31 Mar 2026 08:04:15 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "The AI Arms Race – Why Unified Exposure Management Is Becoming a Boardroom Priority",
       "link": "https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html",
       "description": "The cybersecurity landscape is accelerating at an unprecedented rate. What is emerging is not simply a rise in the number of vulnerabilities or tools, but a dramatic increase in speed. Speed of att...",
@@ -514,11 +522,11 @@
       "image_url": ""
     },
     {
-      "title": "How a top bug bounty researcher got their start in security",
-      "link": "https://github.blog/security/how-a-top-bug-bounty-researcher-got-their-start-in-security/",
-      "description": "For this year’s Cybersecurity Awareness Month, the GitHub Bug Bounty team is excited to feature another spotlight on a talented security researcher — @xiridium! The post How a top bug bounty re...",
-      "pub_date": "Tue, 07 Oct 2025 16:00:00 +0000",
-      "source": "GitHub Security",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-5281 Google Dawn Use-After-Free Vulnerability  This ty...",
+      "pub_date": "Wed, 01 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
       "image_url": ""
     },
     {
@@ -554,14 +562,6 @@
       "image_url": ""
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33634 Aqua Security Trivy Embedded Malicious Code Vuln...",
-      "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "OpenCode Systems OC Messaging and USSD Gateway",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-02",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated low-privileged user to gain access to SMS messages outside of their authorized tenant scope via a crafte...",
@@ -581,6 +581,14 @@
       "title": "PTC Windchill Product Lifecycle Management",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-03",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to achieve remote code execution. The following versions of PTC Windchill Product Lifecycle Management are af...",
+      "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33634 Aqua Security Trivy Embedded Malicious Code Vuln...",
       "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -629,14 +637,6 @@
       "title": "CISA Adds Five Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added five new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2025-31277 Apple Multiple Products Buffer Overflow Vulne...",
-      "pub_date": "Fri, 20 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Russian Intelligence Services Target Commercial Messaging Application Accounts",
-      "link": "https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-target-commercial-messaging-application-accounts",
-      "description": "CISA and the Federal Bureau of Investigation released a Public Service Announcement (PSA) warning about ongoing phishing campaigns by cyber actors associated with the Russian Intelligence Services ...",
       "pub_date": "Fri, 20 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
