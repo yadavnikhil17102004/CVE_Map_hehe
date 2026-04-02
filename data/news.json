@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-02T14:19:03Z",
+  "last_updated": "2026-04-02T15:53:41Z",
   "articles": [
+    {
+      "title": "Qilin Ransomware Uses Malicious DLL to Kill Almost Every Vendor’s EDR Solutions",
+      "link": "https://cybersecuritynews.com/qilin-ransomware-kill-edr/",
+      "description": "Qilin ransomware group is deploying a sophisticated, multi-stage infection chain via a malicious msimg32.dll that can disable over 300 endpoint detection and response (EDR) drivers from virtually e...",
+      "pub_date": "Thu, 02 Apr 2026 15:42:35 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Qilin-Ransomware-Kill-EDR.webp"
+    },
+    {
+      "title": "Residential proxies evaded IP reputation checks in 78% of 4B sessions",
+      "link": "https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/",
+      "description": "Researchers warn that residential proxies used to route malicious traffic are a big problem for IP reputation systems, as there is no clear distinction between attackers and legitimate users. [...]",
+      "pub_date": "Thu, 02 Apr 2026 11:21:02 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "OpenSSH 10.3 Fixes Shell Injection and Multiple SSH Security Issues",
+      "link": "https://cybersecuritynews.com/openssh-10-3-release/",
+      "description": "The OpenSSH project released version 10.3 and 10.3p1 on April 2, 2026, addressing a shell injection vulnerability and introducing several security-hardening changes that administrators should revie...",
+      "pub_date": "Thu, 02 Apr 2026 14:54:30 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/OpenSSH-10.3-Release.webp"
+    },
+    {
+      "title": "Hackers Abuse DOCX, RTF, JS, and Python in Stealthy Boeing RFQ Malware Campaign",
+      "link": "https://cybersecuritynews.com/hackers-abuse-docx-rtf-js-and-python-in-boeing-rfq/",
+      "description": "A seemingly routine procurement email has become the entry point for a sophisticated six-stage malware attack targeting industrial suppliers and procurement teams. The campaign, tracked as NKFZ5966...",
+      "pub_date": "Thu, 02 Apr 2026 14:53:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Abuse-DOCX-RTF-JS-and-Python-in-Stealthy-Boeing-RFQ-Malware-Campaign.webp"
+    },
+    {
+      "title": "CISA Warns of Chrome 0-Day Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/chrome-0-day-flaw-exploited/",
+      "description": "A critical warning has been issued over a newly discovered zero-day vulnerability in Google Chrome, raising serious concerns for users worldwide. This flaw is actively exploited in the wild, allowi...",
+      "pub_date": "Thu, 02 Apr 2026 14:31:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CISA-Warns-of-Chrome-0-Day-Vulnerability-Actively-Exploited-in-Attacks.webp"
+    },
     {
       "title": "Adversaries Exploit Vacant Homes to Intercept Mail in Hybrid Cybercrime",
       "link": "https://www.bleepingcomputer.com/news/security/adversaries-exploit-vacant-homes-to-intercept-mail-in-hybrid-cybercrime/",
@@ -106,44 +146,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Cisco-Smart-Software-Manager-Vulnerability-Let-Attackers-Execute-Arbitrary-Commands.webp"
     },
     {
-      "title": "Oracle Lays Off 30,000 Employees to Ramp Up Investment in AI Technologies",
-      "link": "https://cybersecuritynews.com/oracle-lays-off-30000-employees/",
-      "description": "Oracle has executed a massive workforce reduction, eliminating between 20,000 and 30,000 employees globally to free up cash flow for its aggressive artificial intelligence infrastructure investment...",
-      "pub_date": "Thu, 02 Apr 2026 10:06:55 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Oracle-Lays-Off-30000-Employees.webp"
-    },
-    {
       "title": "WhatsApp Alerts 200 Users After Fake iOS App Installed Spyware; Italian Firm Faces Action",
       "link": "https://thehackernews.com/2026/04/whatsapp-alerts-200-users-after-fake.html",
       "description": "Meta-owned messaging platform WhatsApp said it alerted about 200 users who were tricked into installing a bogus version of its iOS app that was infected with\u0026nbsp;spyware. According to reports from...",
       "pub_date": "Thu, 02 Apr 2026 15:21:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH1Qe0E88MYHp7xg6ApE5TypZK__02tmUnhvX60svA9npwirnTJbAb-Wl4rvLo3gq3kX1l9JUXDgXZJ0yPGNZlUo8n5DG1-pqONNFQIA2epqNdU7tNGZSJPJCthWLHtnDdO8jWQ5YzwY7TWUn_9SJP5pu0vHX2i3-L0zM5dZscSR4wAUPWAN1fm-3zgOGE/s1600/whatsapp-alert.jpg"
-    },
-    {
-      "title": "Critical PX4 Autopilot Vulnerability Let Attackers Gain Control Over the Drones",
-      "link": "https://cybersecuritynews.com/px4-autopilot-vulnerability/",
-      "description": "A newly discovered critical vulnerability in the widely used PX4 Autopilot software could allow malicious actors to take complete control over drone operations. The Cybersecurity and Infrastructure...",
-      "pub_date": "Thu, 02 Apr 2026 09:36:23 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-PX4-Autopilot-Vulnerability-Let-Attackers-Gain-Drones-1.webp"
-    },
-    {
-      "title": "FBI Warns of Chinese Mobile Apps May Expose User Data to Cyberattacks",
-      "link": "https://cybersecuritynews.com/fbi-warns-of-chinese-mobile-apps/",
-      "description": "Millions of Americans use mobile apps daily without thinking much about where their data actually goes. The Federal Bureau of Investigation has stepped forward to address that. On March 31, 2026, t...",
-      "pub_date": "Thu, 02 Apr 2026 09:35:10 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/FBI-Warns-of-Chinese-Mobile-Apps-May-Expose-User-Data-to-Cyberattacks.webp"
-    },
-    {
-      "title": "TA416 Expands Espionage Operations Across Europe With Web Bug Recon and Malware Delivery",
-      "link": "https://cybersecuritynews.com/ta416-expands-espionage-operations-across-europe/",
-      "description": "TA416 has returned to Europe with a fresh wave of espionage emails aimed at government and diplomatic staff. The campaign mixes quiet reconnaissance with malware delivery, showing how a patient thr...",
-      "pub_date": "Thu, 02 Apr 2026 09:16:31 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/TA416-Expands-Espionage-Operations-Across-Europe-With-Web-Bug-Recon-and-Malware-Delivery.webp"
     },
     {
       "title": "Microsoft links Classic Outlook issue to email delivery problems",
@@ -168,6 +176,14 @@
       "pub_date": "Thu, 02 Apr 2026 12:39:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOPIq2XjzxLFTE4iwZWuKsLifOBVn0sVZv2vDEl0D3eXsyiW8ePJH7ukb29zq7gb7-7fJy8WjCRC5e-sYoMLXT4ZE-12llaj0H76qjygPmEl7cuGiC4jrLaMdDX5M55YsuYhdtbn8k5gCosH-JwHU3H-b7ho_5Lvg4pjoKf2Lz39lOumTGuxldWK1YQvfJ/s1600/apple-update.jpg"
+    },
+    {
+      "title": "ZDI-26-251: Foxit PDF Reader Update Service Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-251/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Foxit PDF Reader. An attacker must first obtain the ability to execute low-privileged code on the targe...",
+      "pub_date": "Thu, 02 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "New CrystalRAT malware adds RAT, stealer and prankware features",
@@ -296,14 +312,6 @@
       "pub_date": "Wed, 01 Apr 2026 13:14:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4u0-_Mq5eI-6nWqV9d-E4BTvsdeDTEcK8Bo7pHnANyD6m8b8d5dPcx86sb1P-PjfLce84hgNF8ja8y2tvnYjlmvE4VGzyvAyGqd6TGOxYei3Oz-F_IvVEDxAvamRe4acysr0FqtfWgbLbDhBQxy6ovy2_V47P2d-1qDZig0pcPPnxTCEGfTzKnUXnJEgU/s1600/axios-northkorea.jpg"
-    },
-    {
-      "title": "Google Drive ransomware detection now on by default for paying users",
-      "link": "https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/",
-      "description": "Google announced that the AI-powered Google Drive ransomware detection feature has reached general availability and is now enabled by default for all paying users. [...]",
-      "pub_date": "Wed, 01 Apr 2026 02:35:34 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms",
@@ -437,14 +445,6 @@
       "title": "ZDI-26-237: (Pwn2Own) QNAP QHora-322  ip6_wanifset Improper Restriction of Communication Channel to Intended Endpoints Firewall Bypass Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-237/",
       "description": "This vulnerability allows network-adjacent attackers to bypass firewall rules on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability. The ...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-236: Digilent DASYLab DSB File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-236/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Digilent DASYLab. User interaction is required to exploit this vulnerability in that the target mus...",
       "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
