@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-02T06:07:40Z",
+  "last_updated": "2026-04-02T08:00:45Z",
   "articles": [
+    {
+      "title": "Critical Cisco IMC Vulnerability Let Attackers Bypass Authentication",
+      "link": "https://cybersecuritynews.com/cisco-imc-vulnerability-2/",
+      "description": "Cisco has recently disclosed a critical security flaw affecting its Integrated Management Controller (IMC), prompting the release of urgent software updates. The vulnerability, officially tracked a...",
+      "pub_date": "Thu, 02 Apr 2026 07:26:41 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Cisco-Integrated-Management-Controller-Vulnerability-Let-Attackers-Bypass-Authentication.webp"
+    },
+    {
+      "title": "Apple Expands iOS 18.7.7 Update to More Devices to Block DarkSword Exploit",
+      "link": "https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html",
+      "description": "Apple\u0026nbsp;on\u0026nbsp;Wednesday expanded the availability of iOS 18.7.7\u0026nbsp;and iPadOS 18.7.7\u0026nbsp;to a broader range of devices to protect users from the risk posed by a recently disclosed exploit k...",
+      "pub_date": "Thu, 02 Apr 2026 12:39:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOPIq2XjzxLFTE4iwZWuKsLifOBVn0sVZv2vDEl0D3eXsyiW8ePJH7ukb29zq7gb7-7fJy8WjCRC5e-sYoMLXT4ZE-12llaj0H76qjygPmEl7cuGiC4jrLaMdDX5M55YsuYhdtbn8k5gCosH-JwHU3H-b7ho_5Lvg4pjoKf2Lz39lOumTGuxldWK1YQvfJ/s1600/apple-update.jpg"
+    },
+    {
+      "title": "Remcos RAT Infection Chain Hides Behind Obfuscated Scripts and Trusted Windows Binaries",
+      "link": "https://cybersecuritynews.com/remcos-rat-infection-chain-hides-behind-obfuscated/",
+      "description": "Cybercriminals are getting better at hiding their tracks, and a recently uncovered Remcos RAT campaign is proof of that. This attack does not rely on a single malicious file dropped onto a system. ...",
+      "pub_date": "Thu, 02 Apr 2026 07:06:06 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Remcos-RAT-Infection-Chain-Hides-Behind-Obfuscated-Scripts-and-Trusted-Windows-Binaries.webp"
+    },
+    {
+      "title": "Symantec DLP Agent Vulnerability Let Attackers Escalate Privileges",
+      "link": "https://cybersecuritynews.com/symantec-dlp-agent-vulnerability/",
+      "description": "A high-severity security flaw has been identified in the Symantec Data Loss Prevention (DLP) Agent for Windows. Tracked as CVE-2026-3991, this vulnerability allows a low-privileged local attacker t...",
+      "pub_date": "Thu, 02 Apr 2026 06:46:14 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Symantec-DLP-Agent-Vulnerability-Let-Attackers-Escalate-Privileges.webp"
+    },
+    {
+      "title": "Starbucks Breach – Attacks Allegedly Claim 10GB of Stolen Source Code",
+      "link": "https://cybersecuritynews.com/starbucks-breach/",
+      "description": "The threat group ShadowByt3s has claimed responsibility for a new cyberattack on Starbucks, allegedly stealing 10GB of proprietary source code and operational firmware. The data was reportedly scra...",
+      "pub_date": "Thu, 02 Apr 2026 06:28:12 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/starbucks-breach.webp"
+    },
     {
       "title": "10 Best VPN For Privacy In 2026",
       "link": "https://cybersecuritynews.com/best-vpn-for-privacy/",
@@ -120,38 +160,6 @@
       "pub_date": "Wed, 01 Apr 2026 10:05:15 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Google Cloud’s Vertex AI platform Vulnerability Allow Attackers to Access Sensitive Data",
-      "link": "https://cybersecuritynews.com/google-clouds-vertex-ai-platform-vulnerability/",
-      "description": "Artificial intelligence agents are rapidly becoming integral to enterprise workflows, but they also introduce new attack surfaces. Security researchers recently uncovered a significant vulnerabilit...",
-      "pub_date": "Wed, 01 Apr 2026 13:06:14 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Google-Clouds-Vertex-AI-platform-Vulnerability-Allow-Attackers-to-Access-Sensitive-Data-1.webp"
-    },
-    {
-      "title": "Hackers Actively Exploiting Critical WebLogic RCE Vulnerabilities in Attacks",
-      "link": "https://cybersecuritynews.com/hackers-exploiting-weblogic-rce-vulnerabilities/",
-      "description": "A recent cybersecurity study reveals that threat actors are moving faster than ever to weaponize new software flaws. According to data collected from a high-interaction honeypot, hackers are active...",
-      "pub_date": "Wed, 01 Apr 2026 13:01:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Actively-Exploiting-Critical-WebLogic-RCE-Vulnerabilities-in-Attacks.webp"
-    },
-    {
-      "title": "Russian Hackers Using Remote Access Toolkit “CTRL” for  RDP Hijacking",
-      "link": "https://cybersecuritynews.com/ctrl-for-rdp-hijacking/",
-      "description": "A newly disclosed Russian-linked remote access toolkit called “CTRL” is being used to hijack Remote Desktop Protocol sessions and steal credentials from Windows systems. According to Censys ARC...",
-      "pub_date": "Wed, 01 Apr 2026 12:58:01 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/03/Russian-Hackers-Using-remote-access-toolkit-CTRL-for-RDP-hijacking-.webp"
-    },
-    {
-      "title": "New Chrome Zero-Day Vulnerability Actively Exploited in Attacks — Patch Now",
-      "link": "https://cybersecuritynews.com/chrome-zero-day-vulnerability-exploited/",
-      "description": "Google has released an emergency security update for its Chrome browser, patching a zero-day vulnerability that is already being actively exploited in the wild. The Stable channel has been updated ...",
-      "pub_date": "Wed, 01 Apr 2026 12:53:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Chrome-Zero-Day-Vulnerability.webp"
     },
     {
       "title": "Block the Prompt, Not the Work: The End of \"Doctor No\"",
@@ -328,14 +336,6 @@
       "pub_date": "Tue, 31 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
-    },
-    {
-      "title": "OpenAI Patches ChatGPT Data Exfiltration Flaw and Codex GitHub Token Vulnerability",
-      "link": "https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html",
-      "description": "A previously unknown vulnerability in OpenAI ChatGPT allowed sensitive conversation data to be exfiltrated without user knowledge or consent, according to new findings from Check Point. \"A single m...",
-      "pub_date": "Mon, 30 Mar 2026 23:35:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSleuSc-PdTH7u0CSOLasljqQ-HO4A5sIqzvVeeVlGlqynCVYSdgU1c-7zoVavi1OADQiN3-_KS93PbMbmc4daNULqCXV21ChjnRUvqXIPT9mnLRCmbHdVy0YeaMnRuzGBAo8JoJPE5Wnzl3Sf0b_3d1-OV6VB3PKhKy_olGs9mi1YLIOJnAl7uQkYkdjI/s1600/cpr.jpg"
     },
     {
       "title": "ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
