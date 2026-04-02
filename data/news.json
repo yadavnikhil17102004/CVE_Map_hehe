@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-02T12:54:38Z",
+  "last_updated": "2026-04-02T14:19:03Z",
   "articles": [
+    {
+      "title": "Adversaries Exploit Vacant Homes to Intercept Mail in Hybrid Cybercrime",
+      "link": "https://www.bleepingcomputer.com/news/security/adversaries-exploit-vacant-homes-to-intercept-mail-in-hybrid-cybercrime/",
+      "description": "Threat actors are exploiting vacant homes as \"drop addresses\" to intercept mail and enable fraud. Flare shows how postal services and fake identities are abused to turn mail into a fraud vector. [...]",
+      "pub_date": "Thu, 02 Apr 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "NoVoice on Google Play with 22 Exploits Attacks Millions of Android Users",
+      "link": "https://cybersecuritynews.com/novoice-on-google-play/",
+      "description": "A dangerous Android rootkit named NoVoice has been hiding inside over 50 apps on Google Play, compromising more than 2.3 million devices worldwide. Tracked as Operation NoVoice, the malware uses 22...",
+      "pub_date": "Thu, 02 Apr 2026 13:50:07 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/NoVoice-on-Google-Play-with-22-Exploits-Attacks-Millions-of-Android-Users.webp"
+    },
+    {
+      "title": "New Progress ShareFile flaws can be chained in pre-auth RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-progress-sharefile-flaws-can-be-chained-in-pre-auth-rce-attacks/",
+      "description": "Two vulnerabilities in Progress ShareFile, an enterprise-grade secure file transfer solution, can be chained to enable unauthenticated file exfiltration from affected environments. [...]",
+      "pub_date": "Thu, 02 Apr 2026 09:33:11 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Medtech giant Stryker fully operational after data-wiping attack",
+      "link": "https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-fully-operational-after-data-wiping-attack/",
+      "description": "Stryker Corporation, one of the world's leading medical technology companies, says it's fully operational three weeks after many of its systems were wiped out in a cyberattack claimed by the Irania...",
+      "pub_date": "Thu, 02 Apr 2026 09:28:39 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "ThreatsDay Bulletin: Pre-Auth Chains, Android Rootkits, CloudTrail Evasion \u0026 10 More Stories",
+      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-pre-auth-chains.html",
+      "description": "The\u0026nbsp;latest ThreatsDay Bulletin is basically a cheat sheet for everything breaking on the internet right now. No\u0026nbsp;corporate fluff or boring lectures here, just a quick and honest look at th...",
+      "pub_date": "Thu, 02 Apr 2026 18:15:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht9hzOUmn8npVxC_AyWUe1DLsv1VkWHox2PmDxZnVuG_XnQt7R5l7CZHlYu9m9BcwAib4L0j0x877sDuCF2shmSH3ef0Me-m0sbKDtu-ZEw5RLqLGNsjGJ0o-b_CuKtFg86fMFb-GKVBud7S8PfpsoL4HCqEZypO1NcWfx6ljXcUhC5O4GIjRbhRcG-fIi/s1600/threatsday.jpg"
+    },
     {
       "title": "Microsoft Details Steps to Mitigate the Axios npm Supply Chain Compromise",
       "link": "https://cybersecuritynews.com/microsoft-details-steps-to-mitigate-the-axios/",
@@ -34,7 +74,7 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5yI578d17vaAxuCMW2SLrz3ibI4ibSfdDCfum-B3VZ0Ukyd79Eue2VR8ofUCBpISSXsL8biYdRFyuMm78T6PTU7U1w_6jJK3qV7ohPRSt3NGDTtAkseitLCaEZVHqcVIhFZABPlyAP8KPV-JMlnlq42Flgl7lB2Rs5hkIQYVYtc0Z15Yd0WKaYSu7CLM/s1600/devsecops.jpg"
     },
     {
-      "title": "New ZAP PTK Add-On Maps Browser-Based Security Findings as Native Alert Into ZAP",
+      "title": "New ZAP PTK Add-On Maps Browser Security Findings as Native Alert Into ZAP",
       "link": "https://cybersecuritynews.com/zap-ptk-add-on/",
       "description": "The Zed Attack Proxy (ZAP) team has rolled out version 0.3.0 of the OWASP PenTest Kit (PTK) add-on, introducing a transformative workflow upgrade for application security testing. This new release ...",
       "pub_date": "Thu, 02 Apr 2026 11:27:45 +0000",
@@ -112,14 +152,6 @@
       "pub_date": "Thu, 02 Apr 2026 05:12:12 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Microsoft Copilot Terms of Service Label Copilot is for Entertainment Purposes Only",
-      "link": "https://cybersecuritynews.com/microsoft-copilot-terms-of-service/",
-      "description": "Microsoft\u0026#8217;s terms of service for its Copilot AI assistant include a notable disclaimer that has sparked renewed scrutiny from security and enterprise communities: the product is intended sole...",
-      "pub_date": "Thu, 02 Apr 2026 08:45:20 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Copilot-Terms-of-Service.webp"
     },
     {
       "title": "Over 14,000 F5 BIG-IP APM instances still exposed to RCE attacks",
@@ -282,30 +314,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj39e4BXzk1M6BK7XEJcfogVbdwnYJjie08kNTAeW5T46Tn8UvbbaYGrrEpgw1Pa4IpJYeGe8AR7T_UCp4_vWYTcG-c5DY0HNlHW-8SbYkscVvjAKjKR3gHmlWAQONEx8kg_ANVfOr8OsQ7uTm-XWHW1PNfusxBj-Tn2kn-V2EedPykA3ESB66doPXxGzT8/s1600/claude-code.jpg"
     },
     {
-      "title": "New Windows 11 emergency update fixes preview update install issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/new-windows-11-kb5086672-emergency-update-fixes-install-issues/",
-      "description": "Microsoft released an emergency update to fix the March 2026 KB5079391 non-security preview update, which was pulled over the weekend due to installation issues. [...]",
-      "pub_date": "Wed, 01 Apr 2026 01:33:43 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Claude Code source code accidentally leaked in NPM package",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/",
-      "description": "Anthropic says it accidentally leaked the source code for Claude Code, which is closed source, but the company says no customer data or credentials were exposed. [...]",
-      "pub_date": "Tue, 31 Mar 2026 20:32:25 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Google now allows you to change your @gmail.com address",
-      "link": "https://www.bleepingcomputer.com/news/google/google-now-allows-you-to-change-your-gmailcom-address/",
-      "description": "Google is rolling out a new feature in the U.S. that allows users to change their @gmail address or create a new alias. [...]",
-      "pub_date": "Tue, 31 Mar 2026 19:13:56 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Android Developer Verification Rollout Begins Ahead of September Enforcement",
       "link": "https://thehackernews.com/2026/03/android-developer-verification-rollout.html",
       "description": "Google on Monday said it's officially rolling out Android developer verification to all developers to combat the problem of bad actors distributing harmful apps while \"hiding behind anonymity.\" The...",
@@ -320,14 +328,6 @@
       "pub_date": "Tue, 31 Mar 2026 21:33:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYf7jS0dDRAhfWGLbRiA4eQt-Q3BL8gcG_bDoNQ1dfcZt3Ike4qAlE9lUiSH__y3kdi-MI2kfu-O-PdDf6iCov7VIVBPEkRVJOhx88uNgXTuI-rztvbwFXE9BKwJEsNSKux0yynwxlsDMCzCwyngLOSxWTAZjDFYKvpjyEsnPbRYbGtmC6zGmrMpP-SnqA/s1600/trueconf.jpg"
-    },
-    {
-      "title": "Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts",
-      "link": "https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html",
-      "description": "Cybersecurity researchers have disclosed a security \"blind spot\" in Google Cloud's Vertex AI platform that could allow artificial intelligence (AI) agents to be weaponized by an attacker to gain un...",
-      "pub_date": "Tue, 31 Mar 2026 18:39:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLtnrJRJvkUE-IMtV6DuDmg7t1XhaGyItG6cXmd2cz0-3sd8fgZi5jHZE9valO1-CdJjGcqkkeHxNPM2Y7lLK0lrtJXOEwXscylBbYfyCXtvvAfGeFR5Q7Zwv0Mxsg-iiEjbaN2junJWYJmJmUEBuFDjRXH_X9gYYwR4Jyu-79dMfL1MQPLpKU6O6PtN_R/s1600/google-vertex.jpg"
     },
     {
       "title": "ZDI-26-250: Linux Kernel Analog Device Driver Improper Validation of Array Index Local Privilege Escalation Vulnerability",
