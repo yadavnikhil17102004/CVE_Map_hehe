@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-02T20:27:58Z",
+  "last_updated": "2026-04-02T21:29:50Z",
   "articles": [
+    {
+      "title": "Claude Code leak used to push infostealer malware on GitHub",
+      "link": "https://www.bleepingcomputer.com/news/security/claude-code-leak-used-to-push-infostealer-malware-on-github/",
+      "description": "Threat actors are exploiting the recent Claude Code source code leak by using fake GitHub repositories to deliver Vidar information-stealing malware. [...]",
+      "pub_date": "Thu, 02 Apr 2026 16:30:55 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials",
+      "link": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
+      "description": "A\u0026nbsp;large-scale credential harvesting operation\u0026nbsp;has been\u0026nbsp;observed exploiting the React2Shell vulnerability as an initial infection vector to steal database credentials, SSH private key...",
+      "pub_date": "Fri, 03 Apr 2026 01:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8T48UROZtSjRXtkxVcNT2VmXbB1texWQPAqLbm06uwmJ8VsYFb_HeXOnZx9uz9QL-LB3aWdwcLm9TbuRler7w7jjXJlL_tQweQualaW4XEVav7Ysulqx_CJyc9a0P1dO1a69W_eQhroxV1LA_p5VB9T38Xubc3zXHgwd-4sAAc2whuv4ElnC5WtFSn7SH/s1600/nextjs.jpg"
+    },
     {
       "title": "Drift loses $280 million as hackers seize Security Council powers",
       "link": "https://www.bleepingcomputer.com/news/security/drift-loses-280-million-as-hackers-seize-security-council-powers/",
@@ -314,14 +330,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyWMOJn1hR_Pua9p7XXWPbTqgrYvXyaNEXlnlLUQ0duD4P-W9fGyvbuprkiN0IMEE5_2vzt5mc603V4l_G5eH5KpKFgmk-lARuEXxcQVIgCNb-NPJghF3wvF9Wf8mF3kEJUY0TA6a3aBDw87MC9RivwM9ZVRfLRpwwNqaP67cU8nvtO8RKGsi5OsFIgSVn/s1600/chrome-exploit.jpg"
     },
     {
-      "title": "FBI warns against using Chinese mobile apps due to privacy risks",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-against-using-chinese-mobile-apps-over-to-data-security-risks/",
-      "description": "The U.S. Federal Bureau of Investigation (FBI) warned Americans against using foreign-developed mobile applications, particularly those created by Chinese developers. [...]",
-      "pub_date": "Wed, 01 Apr 2026 07:39:10 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "3 Reasons Attackers Are Using Your Trusted Tools Against You (And Why You Don’t See It Coming)",
       "link": "https://thehackernews.com/2026/04/3-reasons-attackers-are-using-your.html",
       "description": "For years, cybersecurity has followed a familiar model: block malware, stop the attack. Now, attackers are moving on to what’s next. Threat actors now use malware less frequently in favor of what...",
@@ -344,14 +352,6 @@
       "pub_date": "Wed, 01 Apr 2026 11:42:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj39e4BXzk1M6BK7XEJcfogVbdwnYJjie08kNTAeW5T46Tn8UvbbaYGrrEpgw1Pa4IpJYeGe8AR7T_UCp4_vWYTcG-c5DY0HNlHW-8SbYkscVvjAKjKR3gHmlWAQONEx8kg_ANVfOr8OsQ7uTm-XWHW1PNfusxBj-Tn2kn-V2EedPykA3ESB66doPXxGzT8/s1600/claude-code.jpg"
-    },
-    {
-      "title": "Android Developer Verification Rollout Begins Ahead of September Enforcement",
-      "link": "https://thehackernews.com/2026/03/android-developer-verification-rollout.html",
-      "description": "Google on Monday said it's officially rolling out Android developer verification to all developers to combat the problem of bad actors distributing harmful apps while \"hiding behind anonymity.\" The...",
-      "pub_date": "Tue, 31 Mar 2026 23:58:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipVNIw-uYi9MySm3LytKQD-PQgAh4NdQleZDyr_EC4zBRuNzOf2qjlvwgPMg8qsq1sopzgKv1gOlJuQCEs9dq8jwQVdonLibQPm_hJX8ZzOwfgyF6cuoixyotcpY-CvQp3E8fBAzqDRbWmfaCzuc96CH5FwzH7FJaaiVgYjgoC-x6RZOlgfHxFuwqQeq7G/s1600/android-dev.jpg"
     },
     {
       "title": "ZDI-26-250: Linux Kernel Analog Device Driver Improper Validation of Array Index Local Privilege Escalation Vulnerability",
