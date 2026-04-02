@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-04-02T16:49:40Z",
+  "last_updated": "2026-04-02T17:43:11Z",
   "articles": [
+    {
+      "title": "How Elite SOCs Cut Escalation Rates by Arming Tier 1 With Better Threat Intelligence",
+      "link": "https://cybersecuritynews.com/reduce-soc-escalation-rates-tier-1-alert-triage/",
+      "description": "In a mature Security Operations Center, escalation is supposed to work like a scalpel, precise, intentional, and reserved for alerts that genuinely demand deeper expertise. But across many teams to...",
+      "pub_date": "Thu, 02 Apr 2026 16:58:08 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj86JqrcEeNUH_-_kcGnXuzJdDJOBTJAUjlZ0Wja0GbRMTeBkGZTXS-EPi9h_taZK9s-PLQ3T0FYY5AtDJo_MhS4WAQSAP7xfKWJm0io1KGttVyfmqUKQkHH5PAGMMzmbeRSod5AbQvuc59q8uGayemHJdcpQ0B8X2QU8CghWOWS69Jr_zoxf_QNw5uYA/s16000/Elite%20SOCs%20Reduce%20Escalations%20With%20Better%20Threat%20Intelligence%20(1).webp?ssl=1"
+    },
     {
       "title": "Hackers Clone CERT-UA Site to Trick Victims Into Installing Go-Based RAT",
       "link": "https://cybersecuritynews.com/hackers-clone-cert-ua-site/",
@@ -138,14 +146,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5yI578d17vaAxuCMW2SLrz3ibI4ibSfdDCfum-B3VZ0Ukyd79Eue2VR8ofUCBpISSXsL8biYdRFyuMm78T6PTU7U1w_6jJK3qV7ohPRSt3NGDTtAkseitLCaEZVHqcVIhFZABPlyAP8KPV-JMlnlq42Flgl7lB2Rs5hkIQYVYtc0Z15Yd0WKaYSu7CLM/s1600/devsecops.jpg"
     },
     {
-      "title": "New ZAP PTK Add-On Maps Browser Security Findings as Native Alert Into ZAP",
-      "link": "https://cybersecuritynews.com/zap-ptk-add-on/",
-      "description": "The Zed Attack Proxy (ZAP) team has rolled out version 0.3.0 of the OWASP PenTest Kit (PTK) add-on, introducing a transformative workflow upgrade for application security testing. This new release ...",
-      "pub_date": "Thu, 02 Apr 2026 11:27:45 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/ZAP-PTK-Add-On.webp"
-    },
-    {
       "title": "Critical Cisco IMC auth bypass gives attackers Admin access",
       "link": "https://www.bleepingcomputer.com/news/security/critical-cisco-imc-auth-bypass-gives-attackers-admin-access/",
       "description": "Cisco has patched several critical and high-severity vulnerabilities, including an Integrated Management Controller (IMC) authentication bypass that enables attackers to gain Admin access. [...]",
@@ -252,7 +252,7 @@
     {
       "title": "'NoVoice' Android malware on Google Play infected 2.3 million devices",
       "link": "https://www.bleepingcomputer.com/news/security/novoice-android-malware-on-google-play-infected-23-million-devices/",
-      "description": "A new Android malware named NoVoice was found on Google Play, hidden in more than 50 apps that were downloaded at least 2.3 million times. [...]",
+      "description": "A new Android malware dubbed NoVoice exploited known vulnerabilities to gain root access and has been distributed through more than 50 apps on Google Play Store, with at least 2.3 million downloads...",
       "pub_date": "Wed, 01 Apr 2026 14:07:21 -0400",
       "source": "BleepingComputer",
       "image_url": ""
@@ -522,6 +522,14 @@
       "image_url": ""
     },
     {
+      "title": "Siemens SICAM 8 Products",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-01",
+      "description": "View CSAF Summary Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICOR...",
+      "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Yokogawa CENTUM VP",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-02",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to login as the PROG user and modify permissions. The following versions of Yokogawa CENTUM VP are affected: ...",
@@ -530,17 +538,17 @@
       "image_url": ""
     },
     {
-      "title": "Hitachi Energy Ellipse",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-03",
-      "description": "View CSAF Summary Hitachi Energy is aware of a Jasper Report vulnerability that affects the Ellipse product versions mentioned in this document below. This vulnerability can be exploited to carry o...",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/02/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added\u0026nbsp;one\u0026nbsp;new\u0026nbsp;vulnerability\u0026nbsp;to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\u0026nbsp;  CVE-2026-3502\u0026nbsp;TrueConf\u0026nbsp...",
       "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Siemens SICAM 8 Products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-01",
-      "description": "View CSAF Summary Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICOR...",
+      "title": "Hitachi Energy Ellipse",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-03",
+      "description": "View CSAF Summary Hitachi Energy is aware of a Jasper Report vulnerability that affects the Ellipse product versions mentioned in this document below. This vulnerability can be exploited to carry o...",
       "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -622,14 +630,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33017 Langflow Code Injection Vulnerability  This type...",
       "pub_date": "Wed, 25 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Pharos Controls Mosaic Show Controller",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-083-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated attacker to execute arbitrary commands with root privileges. The following versions of Pharos Controls...",
-      "pub_date": "Tue, 24 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
