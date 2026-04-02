@@ -1,13 +1,45 @@
 {
-  "last_updated": "2026-04-02T11:40:17Z",
+  "last_updated": "2026-04-02T12:54:38Z",
   "articles": [
+    {
+      "title": "Microsoft Details Steps to Mitigate the Axios npm Supply Chain Compromise",
+      "link": "https://cybersecuritynews.com/microsoft-details-steps-to-mitigate-the-axios/",
+      "description": "A widely used JavaScript library called Axios was at the center of a serious supply chain attack that came to light on March 31, 2026. Two updated versions of the Axios npm package — version 1.14...",
+      "pub_date": "Thu, 02 Apr 2026 12:37:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Details-Steps-to-Mitigate-the-Axios-npm-Supply-Chain-Compromise.webp"
+    },
+    {
+      "title": "Apple Expands iOS 18.7.7 Update to More Devices to Shield Users from DarkSword Exploit",
+      "link": "https://cybersecuritynews.com/apple-expands-ios-18-7-7-update/",
+      "description": "Apple has taken the rare step of expanding the availability of iOS 18.7.7 and iPadOS 18.7.7 to a broader set of devices on April 1, 2026, pushing critical backported security patches to millions of...",
+      "pub_date": "Thu, 02 Apr 2026 11:54:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Apple-Expands-shield-labeled-iOS-18.7.7-to-protect-users-from-DarkSword-Exploit.webp"
+    },
+    {
+      "title": "Researchers Uncover Mining Operation Using ISO Lures to Spread RATs and Crypto Miners",
+      "link": "https://thehackernews.com/2026/04/researchers-uncover-mining-operation.html",
+      "description": "A\u0026nbsp;financially motivated operation\u0026nbsp;codenamed REF1695\u0026nbsp;has been\u0026nbsp;observed leveraging fake installers to deploy remote access trojans (RATs) and cryptocurrency miners since November\u0026...",
+      "pub_date": "Thu, 02 Apr 2026 17:12:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpKoZinOy6MS9s0nTi1TV12H46KUmgkxu0kGinPE7yyq7Vpo9lmmcz30e5ve0yCk2T0ETCedeV6aXs0iEjI1rOykcXwBPa2a11yb75bjgjad7WKkKgsUAv0lO1tuZ8vVnYZtuiUHKqwM6Z6bxGtheJIhuWW5W6lKjo0FaHZf7ewPO_SFuKAjPKMh_sqDB2/s1600/monero.jpg"
+    },
+    {
+      "title": "The State of Trusted Open Source Report",
+      "link": "https://thehackernews.com/2026/04/the-state-of-trusted-open-source-report.html",
+      "description": "In December\u0026nbsp;2025, we shared the first-ever The State of Trusted Open\u0026nbsp;Source report, featuring insights from our product data and customer base on open source consumption across our catalo...",
+      "pub_date": "Thu, 02 Apr 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5yI578d17vaAxuCMW2SLrz3ibI4ibSfdDCfum-B3VZ0Ukyd79Eue2VR8ofUCBpISSXsL8biYdRFyuMm78T6PTU7U1w_6jJK3qV7ohPRSt3NGDTtAkseitLCaEZVHqcVIhFZABPlyAP8KPV-JMlnlq42Flgl7lB2Rs5hkIQYVYtc0Z15Yd0WKaYSu7CLM/s1600/devsecops.jpg"
+    },
     {
       "title": "New ZAP PTK Add-On Maps Browser-Based Security Findings as Native Alert Into ZAP",
       "link": "https://cybersecuritynews.com/zap-ptk-add-on/",
-      "description": "The OWASP Zed Attack Proxy (ZAP) team has rolled out version 0.3.0 of the OWASP PenTest Kit (PTK) add-on, introducing a transformative workflow upgrade for application security testing. This new re...",
+      "description": "The Zed Attack Proxy (ZAP) team has rolled out version 0.3.0 of the OWASP PenTest Kit (PTK) add-on, introducing a transformative workflow upgrade for application security testing. This new release ...",
       "pub_date": "Thu, 02 Apr 2026 11:27:45 +0000",
       "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-ZAP-PTK-Add-On-Maps-Browser-Based-Security-Findings-as-Native-Alert-Into-ZAP.webp"
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/ZAP-PTK-Add-On.webp"
     },
     {
       "title": "WhatsApp Warns Users Targeted by Spyware Attack via Weaponized Version of the App",
@@ -96,22 +128,6 @@
       "pub_date": "Thu, 02 Apr 2026 04:25:50 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "New WhatsApp Attack Chain Uses VBS Scripts, Cloud Downloads, and MSI Backdoors",
-      "link": "https://cybersecuritynews.com/new-whatsapp-attack-chain-uses-vbs-scripts/",
-      "description": "A new malware campaign is actively using WhatsApp to deliver harmful files directly to Windows users, exploiting the widespread trust placed in everyday messaging apps. The threat actors send malic...",
-      "pub_date": "Thu, 02 Apr 2026 08:24:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-WhatsApp-Attack-Chain-Uses-VBS-Scripts-Cloud-Downloads-and-MSI-Backdoors.webp"
-    },
-    {
-      "title": "Critical Cisco IMC Vulnerability Let Attackers Bypass Authentication",
-      "link": "https://cybersecuritynews.com/cisco-imc-vulnerability-2/",
-      "description": "Cisco has recently disclosed a critical security flaw affecting its Integrated Management Controller (IMC), prompting the release of urgent software updates. The vulnerability, officially tracked a...",
-      "pub_date": "Thu, 02 Apr 2026 07:26:41 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Cisco-Integrated-Management-Controller-Vulnerability-Let-Attackers-Bypass-Authentication.webp"
     },
     {
       "title": "Apple Expands iOS 18.7.7 Update to More Devices to Block DarkSword Exploit",
@@ -312,22 +328,6 @@
       "pub_date": "Tue, 31 Mar 2026 18:39:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLtnrJRJvkUE-IMtV6DuDmg7t1XhaGyItG6cXmd2cz0-3sd8fgZi5jHZE9valO1-CdJjGcqkkeHxNPM2Y7lLK0lrtJXOEwXscylBbYfyCXtvvAfGeFR5Q7Zwv0Mxsg-iiEjbaN2junJWYJmJmUEBuFDjRXH_X9gYYwR4Jyu-79dMfL1MQPLpKU6O6PtN_R/s1600/google-vertex.jpg"
-    },
-    {
-      "title": "The AI Arms Race – Why Unified Exposure Management Is Becoming a Boardroom Priority",
-      "link": "https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html",
-      "description": "The cybersecurity landscape is accelerating at an unprecedented rate. What is emerging is not simply a rise in the number of vulnerabilities or tools, but a dramatic increase in speed. Speed of att...",
-      "pub_date": "Tue, 31 Mar 2026 17:20:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1pgefAVGqPo1F0pVFtbxdewmfgaNvrqH-R-BydTTpenzbOZGvoJMA7wwiXzhDBcxvhEm91tK9CsPBiB24g7WHylYCzuO8XI9tCraDla-ePrNFsli1YYrtjQr6dxN7mQHbuw57EtS1mrUeS3GfNYCuM-7s1MDbW5oUS2tY0kkV8_TNP3jDKPPgUXSJTr8/s1600/ai-power.jpg"
-    },
-    {
-      "title": "Silver Fox Expands Asia Cyber Campaign with AtlasCross RAT and Fake Domains",
-      "link": "https://thehackernews.com/2026/03/silver-fox-expands-asia-cyber-campaign.html",
-      "description": "Chinese-speaking users are the target of an active campaign that uses typosquatted domains impersonating trusted software brands to deliver a previously undocumented remote access trojan named Atla...",
-      "pub_date": "Tue, 31 Mar 2026 17:16:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgQmoJ2iwUTLR-DicdD0xa7_oYXgpGalL3L_-4LyX9YMApiotQC-omFlhdcQByUQat1YJdd7ElMqhp8FDYpoaljcvVmCFPXS4yRRh0_KnKa6FgqoEpiaKHJhoecKKap1MgoPWw1a6H7LfJrYo9m_YXqh3BaoES1tPEmuCbgO3snV34jtkrK7j8t4Qk30jj/s1600/cyberattacks-asia.jpg"
     },
     {
       "title": "ZDI-26-250: Linux Kernel Analog Device Driver Improper Validation of Array Index Local Privilege Escalation Vulnerability",
