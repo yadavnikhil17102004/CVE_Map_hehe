@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-02T15:53:41Z",
+  "last_updated": "2026-04-02T16:49:40Z",
   "articles": [
+    {
+      "title": "Hackers Clone CERT-UA Site to Trick Victims Into Installing Go-Based RAT",
+      "link": "https://cybersecuritynews.com/hackers-clone-cert-ua-site/",
+      "description": "A threat group recently set up a convincing fake version of Ukraine\u0026#8217;s official cybersecurity authority website to trick targets into downloading a dangerous remote access tool. The campaign, ...",
+      "pub_date": "Thu, 02 Apr 2026 16:15:03 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Clone-CERT-UA-Site-to-Trick-Victims-Into-Installing-Go-Based-RAT.webp"
+    },
+    {
+      "title": "New Akira Lookalike Ransomware Campaign Targeting Windows Users in South America",
+      "link": "https://cybersecuritynews.com/new-akira-lookalike-ransomware-campaign/",
+      "description": "A new and dangerous ransomware campaign has surfaced across South America, targeting Windows users with a carefully crafted strain that closely imitates the well-known Akira ransomware. While the t...",
+      "pub_date": "Thu, 02 Apr 2026 16:12:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Akira-Lookalike-Ransomware-Campaign-Targeting-Windows-Users-in-South-America.webp"
+    },
     {
       "title": "Qilin Ransomware Uses Malicious DLL to Kill Almost Every Vendor’s EDR Solutions",
       "link": "https://cybersecuritynews.com/qilin-ransomware-kill-edr/",
@@ -16,6 +32,14 @@
       "pub_date": "Thu, 02 Apr 2026 11:21:02 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise",
+      "link": "https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html",
+      "description": "Cisco\u0026nbsp;has released updates to address a critical security flaw in the Integrated Management Controller (IMC) that, if successfully exploited, could allow an unauthenticated, remote attacker to...",
+      "pub_date": "Thu, 02 Apr 2026 20:51:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH6wuST9R8voZTpCC-v5LSwd4O7vlbuRDhXMzcSw9iu0k2JvFOao-3Jr2o9iCs0jqX3pIqHvcYo_n-5Ad80WXeQXKV_DTgJUN0A6nl9f73BA1U0wRoZBqgySfDR6Uk7KD8jXzw2BFLGvusf-96qsINw9jT4PnglZohYM2VhSsdHcpw-cl6vwAekfE-KD_H/s1600/cisco-exploit.jpg"
     },
     {
       "title": "OpenSSH 10.3 Fixes Shell Injection and Multiple SSH Security Issues",
@@ -122,28 +146,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/ZAP-PTK-Add-On.webp"
     },
     {
-      "title": "WhatsApp Warns Users Targeted by Spyware Attack via Weaponized Version of the App",
-      "link": "https://cybersecuritynews.com/whatsapp-warns-users/",
-      "description": "Meta has officially alerted approximately 200 WhatsApp users, primarily located in Italy, that their devices were compromised by a weaponized, fraudulent version of the messaging application. This ...",
-      "pub_date": "Thu, 02 Apr 2026 11:05:58 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/WhatsApp-Warns-200-Users.webp"
-    },
-    {
       "title": "Critical Cisco IMC auth bypass gives attackers Admin access",
       "link": "https://www.bleepingcomputer.com/news/security/critical-cisco-imc-auth-bypass-gives-attackers-admin-access/",
       "description": "Cisco has patched several critical and high-severity vulnerabilities, including an Integrated Management Controller (IMC) authentication bypass that enables attackers to gain Admin access. [...]",
       "pub_date": "Thu, 02 Apr 2026 07:01:14 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Cisco Smart Software Manager Vulnerability Let Attackers Execute Arbitrary Commands",
-      "link": "https://cybersecuritynews.com/cisco-smart-software-manager-vulnerability/",
-      "description": "Cisco has issued an urgent security warning regarding a critical vulnerability in its Smart Software Manager On-Prem (SSM On-Prem) platform. Enterprise organizations widely use this tool to manage ...",
-      "pub_date": "Thu, 02 Apr 2026 10:13:06 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Cisco-Smart-Software-Manager-Vulnerability-Let-Attackers-Execute-Arbitrary-Commands.webp"
     },
     {
       "title": "WhatsApp Alerts 200 Users After Fake iOS App Installed Spyware; Italian Firm Faces Action",
@@ -176,6 +184,22 @@
       "pub_date": "Thu, 02 Apr 2026 12:39:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOPIq2XjzxLFTE4iwZWuKsLifOBVn0sVZv2vDEl0D3eXsyiW8ePJH7ukb29zq7gb7-7fJy8WjCRC5e-sYoMLXT4ZE-12llaj0H76qjygPmEl7cuGiC4jrLaMdDX5M55YsuYhdtbn8k5gCosH-JwHU3H-b7ho_5Lvg4pjoKf2Lz39lOumTGuxldWK1YQvfJ/s1600/apple-update.jpg"
+    },
+    {
+      "title": "ZDI-26-253: Microsoft Visual Studio Code mcp.json Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-253/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Visual Studio Code. User interaction is required to exploit this vulnerability in that th...",
+      "pub_date": "Thu, 02 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-252: Mozilla Firefox IonMonkey Switch Statement Optimization Type Confusion Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-252/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must...",
+      "pub_date": "Thu, 02 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "ZDI-26-251: Foxit PDF Reader Update Service Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
@@ -330,14 +354,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipVNIw-uYi9MySm3LytKQD-PQgAh4NdQleZDyr_EC4zBRuNzOf2qjlvwgPMg8qsq1sopzgKv1gOlJuQCEs9dq8jwQVdonLibQPm_hJX8ZzOwfgyF6cuoixyotcpY-CvQp3E8fBAzqDRbWmfaCzuc96CH5FwzH7FJaaiVgYjgoC-x6RZOlgfHxFuwqQeq7G/s1600/android-dev.jpg"
     },
     {
-      "title": "TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks",
-      "link": "https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html",
-      "description": "A high-severity security flaw in the TrueConf client video conferencing software has been exploited in the wild as a zero-day as part of a campaign targeting government entities in Southeast Asia d...",
-      "pub_date": "Tue, 31 Mar 2026 21:33:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYf7jS0dDRAhfWGLbRiA4eQt-Q3BL8gcG_bDoNQ1dfcZt3Ike4qAlE9lUiSH__y3kdi-MI2kfu-O-PdDf6iCov7VIVBPEkRVJOhx88uNgXTuI-rztvbwFXE9BKwJEsNSKux0yynwxlsDMCzCwyngLOSxWTAZjDFYKvpjyEsnPbRYbGtmC6zGmrMpP-SnqA/s1600/trueconf.jpg"
-    },
-    {
       "title": "ZDI-26-250: Linux Kernel Analog Device Driver Improper Validation of Array Index Local Privilege Escalation Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-250/",
       "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
@@ -434,22 +450,6 @@
       "image_url": ""
     },
     {
-      "title": "ZDI-26-238: Linux Kernel AoE Driver Use-After-Free Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-238/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-237: (Pwn2Own) QNAP QHora-322  ip6_wanifset Improper Restriction of Communication Channel to Intended Endpoints Firewall Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-237/",
-      "description": "This vulnerability allows network-adjacent attackers to bypass firewall rules on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability. The ...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
       "title": "A year of open source vulnerability trends: CVEs, advisories, and malware",
       "link": "https://github.blog/security/supply-chain-security/a-year-of-open-source-vulnerability-trends-cves-advisories-and-malware/",
       "description": "Reviewed advisories hit a four-year low, malware advisories surged, and CNA publishing grew—here’s what changed and what it means for your triage and response.  The post A year of open source v...",
@@ -519,6 +519,30 @@
       "description": "For this year’s Cybersecurity Awareness Month, the GitHub Bug Bounty team is excited to put the spotlight on a talented security researcher—André Storfjord Kristiansen! The post Top security r...",
       "pub_date": "Wed, 22 Oct 2025 16:00:00 +0000",
       "source": "GitHub Security",
+      "image_url": ""
+    },
+    {
+      "title": "Yokogawa CENTUM VP",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to login as the PROG user and modify permissions. The following versions of Yokogawa CENTUM VP are affected: ...",
+      "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Hitachi Energy Ellipse",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-03",
+      "description": "View CSAF Summary Hitachi Energy is aware of a Jasper Report vulnerability that affects the Ellipse product versions mentioned in this document below. This vulnerability can be exploited to carry o...",
+      "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens SICAM 8 Products",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-01",
+      "description": "View CSAF Summary Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICOR...",
+      "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
       "image_url": ""
     },
     {
@@ -610,34 +634,10 @@
       "image_url": ""
     },
     {
-      "title": "Schneider Electric Plant iT/Brewmaxx",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-083-03",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could risk privilege escalation, which could result in remote code execution. The following versions of Schneider Electric Plant i...",
-      "pub_date": "Tue, 24 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Schneider Electric EcoStruxure Foxboro DCS",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-083-02",
-      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure Foxboro DCS Control Software on Foxboro DCS workstations and servers. Control Core Services and all runtime softw...",
-      "pub_date": "Tue, 24 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "Grassroots DICOM (GDCM)",
       "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-083-01",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send a specially crafted file, and when parsed, could result in a denial-of-service condition. The followi...",
       "pub_date": "Tue, 24 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Five Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added five new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2025-31277 Apple Multiple Products Buffer Overflow Vulne...",
-      "pub_date": "Fri, 20 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
