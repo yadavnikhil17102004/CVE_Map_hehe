@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-03T06:07:41Z",
+  "last_updated": "2026-04-03T07:57:42Z",
   "articles": [
+    {
+      "title": "Microsoft now force upgrades unmanaged Windows 11 24H2 PCs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-force-upgrades-unmanaged-windows-11-24h2-pcs/",
+      "description": "Starting this week, Microsoft has begun force-upgrading unmanaged devices running Windows 11 24H2 Home and Pro editions to Windows 11 25H2. [...]",
+      "pub_date": "Fri, 03 Apr 2026 03:55:40 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Compromised 700+ Next.js Hosts by Exploiting React2Shell Vulnerability",
+      "link": "https://cybersecuritynews.com/700-next-js-hosts-exploited/",
+      "description": "A massive automated credential theft campaign is actively targeting web applications worldwide. Cybersecurity researchers at Cisco Talos have uncovered an operation by a hacker group tracked as UAT...",
+      "pub_date": "Fri, 03 Apr 2026 07:38:26 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Compromised-700-Next.js-hosts-by-Exploiting-React2Shell-Vulnerability.webp"
+    },
+    {
+      "title": "CERT-EU Confirms Trivy Supply Chain Attack Led to European Commission AWS Breach",
+      "link": "https://cybersecuritynews.com/european-commission-breach-trivy/",
+      "description": "The European Commission’s primary web platform, \u0026#8220;europa.eu,\u0026#8221; recently suffered a severe data breach stemming from a supply-chain compromise involving the popular open-source vulnerabi...",
+      "pub_date": "Fri, 03 Apr 2026 07:25:19 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/European-Commission-Breach-Trivy.webp"
+    },
+    {
+      "title": "North Korea-Linked Hackers Compromise Axios npm Package in Major Supply Chain Attack",
+      "link": "https://cybersecuritynews.com/north-korea-linked-hackers-compromise-axios-npm-package/",
+      "description": "A North Korea-linked threat group has successfully hijacked one of the most widely used JavaScript libraries on the internet, injecting malware into millions of potential development environments. ...",
+      "pub_date": "Fri, 03 Apr 2026 06:42:35 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/North-Korea-Linked-Hackers-Compromise-Axios-npm-Package-in-Major-Supply-Chain-Attack.webp"
+    },
+    {
+      "title": "CERT-EU: European Commission hack exposes data of 30 EU entities",
+      "link": "https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/",
+      "description": "The European Union's Cybersecurity Service (CERT-EU) has attributed the European Commission cloud hack to the TeamPCP threat group, saying the resulting breach exposed the data of at least 29 ot...",
+      "pub_date": "Fri, 03 Apr 2026 02:33:34 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "North Korea-Related Campaign Abuses GitHub as C2 in New LNK Phishing Attacks",
       "link": "https://cybersecuritynews.com/north-korea-related-campaign-abuses-github/",
@@ -82,14 +122,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Akira-Lookalike-Ransomware-Campaign-Targeting-Windows-Users-in-South-America.webp"
     },
     {
-      "title": "Qilin Ransomware Uses Malicious DLL to Kill Almost Every Vendor’s EDR Solutions",
-      "link": "https://cybersecuritynews.com/qilin-ransomware-kill-edr/",
-      "description": "Qilin ransomware group is deploying a sophisticated, multi-stage infection chain via a malicious msimg32.dll that can disable over 300 endpoint detection and response (EDR) drivers from virtually e...",
-      "pub_date": "Thu, 02 Apr 2026 15:42:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Qilin-Ransomware-Kill-EDR.webp"
-    },
-    {
       "title": "Residential proxies evaded IP reputation checks in 78% of 4B sessions",
       "link": "https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/",
       "description": "Researchers warn that residential proxies used to route malicious traffic are a big problem for IP reputation systems, as there is no clear distinction between attackers and legitimate users. [...]",
@@ -104,22 +136,6 @@
       "pub_date": "Thu, 02 Apr 2026 20:51:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH6wuST9R8voZTpCC-v5LSwd4O7vlbuRDhXMzcSw9iu0k2JvFOao-3Jr2o9iCs0jqX3pIqHvcYo_n-5Ad80WXeQXKV_DTgJUN0A6nl9f73BA1U0wRoZBqgySfDR6Uk7KD8jXzw2BFLGvusf-96qsINw9jT4PnglZohYM2VhSsdHcpw-cl6vwAekfE-KD_H/s1600/cisco-exploit.jpg"
-    },
-    {
-      "title": "OpenSSH 10.3 Fixes Shell Injection and Multiple SSH Security Issues",
-      "link": "https://cybersecuritynews.com/openssh-10-3-release/",
-      "description": "The OpenSSH project released version 10.3 and 10.3p1 on April 2, 2026, addressing a shell injection vulnerability and introducing several security-hardening changes that administrators should revie...",
-      "pub_date": "Thu, 02 Apr 2026 14:54:30 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/OpenSSH-10.3-Release.webp"
-    },
-    {
-      "title": "Hackers Abuse DOCX, RTF, JS, and Python in Stealthy Boeing RFQ Malware Campaign",
-      "link": "https://cybersecuritynews.com/hackers-abuse-docx-rtf-js-and-python-in-boeing-rfq/",
-      "description": "A seemingly routine procurement email has become the entry point for a sophisticated six-stage malware attack targeting industrial suppliers and procurement teams. The campaign, tracked as NKFZ5966...",
-      "pub_date": "Thu, 02 Apr 2026 14:53:54 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Abuse-DOCX-RTF-JS-and-Python-in-Stealthy-Boeing-RFQ-Malware-Campaign.webp"
     },
     {
       "title": "Adversaries Exploit Vacant Homes to Intercept Mail in Hybrid Cybercrime",
@@ -274,14 +290,6 @@
       "image_url": ""
     },
     {
-      "title": "'NoVoice' Android malware on Google Play infected 2.3 million devices",
-      "link": "https://www.bleepingcomputer.com/news/security/novoice-android-malware-on-google-play-infected-23-million-devices/",
-      "description": "A new Android malware dubbed NoVoice exploited known vulnerabilities to gain root access and has been distributed through more than 50 apps on Google Play Store, with at least 2.3 million downloads...",
-      "pub_date": "Wed, 01 Apr 2026 14:07:21 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails",
       "link": "https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html",
       "description": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new phishing campaign in which the cybersecurity agency itself was impersonated to distribute a remote administr...",
@@ -296,14 +304,6 @@
       "pub_date": "Wed, 01 Apr 2026 19:40:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgq1lOqG2e9eetuSt3ne59NkxH-r0lCjnTmodLlbXt29w5AH_utoClwW1RfvpY5rC7vqb1rVBR4ApELx1ROFvmuMpPpk_9R7tshflL0WwPRuD25vu1gzaFuuldwTzAbcb1m7y7TBsTLr863BQhLHdJGwRUmVzuLayR1gTnkmG_XCraID8EuzUzeeVLtgp7p/s1600/whatsapp-exploit.jpg"
-    },
-    {
-      "title": "Routine Access Is Powering Modern Intrusions, a New Threat Report Finds",
-      "link": "https://www.bleepingcomputer.com/news/security/routine-access-is-powering-modern-intrusions-a-new-threat-report-finds/",
-      "description": "Modern intrusions increasingly start with valid credentials and routine access, not exploits. Blackpoint Cyber's upcoming threat report shows how VPN abuse, RMM tools, and social engineering drive ...",
-      "pub_date": "Wed, 01 Apr 2026 10:05:15 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Block the Prompt, Not the Work: The End of \"Doctor No\"",
