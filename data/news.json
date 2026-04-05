@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-05T04:31:35Z",
+  "last_updated": "2026-04-05T06:10:47Z",
   "articles": [
+    {
+      "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
+      "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
+      "description": "Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL expl...",
+      "pub_date": "Sun, 05 Apr 2026 10:37:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9axxKrcvcFkL99SIB2AlrcEW2RIZ1Ff8PollH7XYSWrYSOgoPXKlF5rsdgyr9BSWVUa5oP07faI_DvxNyUk_rpuz5i2xuiEdlU-e929rCWpkLjDGRs4EBjzfBWQRJVtrWNtR-EKvWsR-PPO-Yfei5ONMyumlI12R7OHmIrsyzJtB5SJRTCSuKiyJQnTfK/s1600/database.jpg"
+    },
+    {
+      "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS",
+      "link": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
+      "description": "Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the\u0026nbsp;wild. The\u0026nbsp;vulnerability, tracked\u0026nbsp;as CVE-2026-3...",
+      "pub_date": "Sun, 05 Apr 2026 10:02:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh61_DDvLhdLZ8tHMrmQ8XlQ1vWwnEk-2lmYFnjw_1ZvJ4IUB4G7ffXU8pSd7JDknP0bqyaVVOTb1HJ62ujlQ_zfG3Lc7XMtLKUuZTO6v4jgrdqon90wrix6EaQNKtou3yz7Txf3ni5JOVn-D1-OcHB7e-UDxQI2ifZOBHAeDwFBnwAfanSeFn8EyP8oilj/s1600/fortinet.jpg"
+    },
     {
       "title": "Axios npm hack used fake Teams error fix to hijack maintainer account",
       "link": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
@@ -336,22 +352,6 @@
       "pub_date": "Wed, 01 Apr 2026 19:20:12 +0000",
       "source": "GitHub Security",
       "image_url": ""
-    },
-    {
-      "title": "CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails",
-      "link": "https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html",
-      "description": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new phishing campaign in which the cybersecurity agency itself was impersonated to distribute a remote administr...",
-      "pub_date": "Wed, 01 Apr 2026 21:40:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4SwwNEiRJL3-C8lgR_Sj7XKNGuxhA-uAdcUZBQRRzmC16xbgg4bYkHTBz2VTfXOle8Su66hHz8vDXIOOQ2nFXlNo8wOIVWYGmVW-c9X4Luqx1-qFCiLmOMzUzwW8T5g0S73q4sr66bEAhjy9BrGmiz_pj52J3ug92X8hO5gMR6j9v_Fg8Iqu8lzqczge3/s1600/cert.jpg"
-    },
-    {
-      "title": "Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass",
-      "link": "https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html",
-      "description": "Microsoft is calling attention to a new campaign that has leveraged WhatsApp messages to distribute malicious Visual Basic Script (VBS) files. The activity, beginning in late February 2026, leverag...",
-      "pub_date": "Wed, 01 Apr 2026 19:40:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgq1lOqG2e9eetuSt3ne59NkxH-r0lCjnTmodLlbXt29w5AH_utoClwW1RfvpY5rC7vqb1rVBR4ApELx1ROFvmuMpPpk_9R7tshflL0WwPRuD25vu1gzaFuuldwTzAbcb1m7y7TBsTLr863BQhLHdJGwRUmVzuLayR1gTnkmG_XCraID8EuzUzeeVLtgp7p/s1600/whatsapp-exploit.jpg"
     },
     {
       "title": "ZDI-26-250: Linux Kernel Analog Device Driver Improper Validation of Array Index Local Privilege Escalation Vulnerability",
