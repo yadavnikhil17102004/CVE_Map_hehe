@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-06T10:01:58Z",
+  "last_updated": "2026-04-06T11:42:05Z",
   "articles": [
+    {
+      "title": "Google’s Bug Bounty Program Hits All-Time High With $17 Million in 2025 Payouts",
+      "link": "https://cybersecuritynews.com/googles-bug-bounty-program-high-reward/",
+      "description": "Google’s Vulnerability Reward Program (VRP) celebrated its 15th anniversary in 2025 by breaking every payout record in its history. The tech giant awarded a staggering $17 million to external sec...",
+      "pub_date": "Mon, 06 Apr 2026 11:29:40 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Googles-Bug-Bounty-Program-Hits-All-Time-High-With-17-Million-in-2025-Payouts-1.webp"
+    },
+    {
+      "title": "Apache Traffic Server Vulnerabilities Let Attackers Trigger DoS Attack",
+      "link": "https://cybersecuritynews.com/apache-traffic-server-dos-vulnerabilities/",
+      "description": "The Apache Software Foundation has released emergency security updates to address two severe vulnerabilities in the Apache Traffic Server (ATS). ATS operates as a high-performance web proxy cache t...",
+      "pub_date": "Mon, 06 Apr 2026 11:21:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Apache-Traffic-Server-Vulnerability-Let-Attackers-Trigger-DoS-Attack.webp"
+    },
+    {
+      "title": "Critical Dgraph Database Vulnerability Let Attackers Bypass Authentication",
+      "link": "https://cybersecuritynews.com/dgraph-database-vulnerability/",
+      "description": "A maximum-severity vulnerability in Dgraph, a popular open-source graph database. Tracked as CVE-2026-34976, this critical flaw carries a perfect CVSS score of 10.0. It allows unauthenticated remot...",
+      "pub_date": "Mon, 06 Apr 2026 11:15:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Dgraph-Database-Vulnerability-Let-Attackers-Bypass-Authentication-.webp"
+    },
+    {
+      "title": "Hackers Compromised ILSpy WordPress Domain to Deliver Malware",
+      "link": "https://cybersecuritynews.com/ilspy-wordpress-domain-malware/",
+      "description": "A new supply chain attack targeting developers after threat actors compromised the official WordPress domain for ILSpy on April 6, 2026. Instead of providing the legitimate software, the hijacked w...",
+      "pub_date": "Mon, 06 Apr 2026 11:12:35 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Compromised-ILSpy-WordPress-domain-to-deliver-malware.webp"
+    },
+    {
+      "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools",
+      "link": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+      "description": "Threat actors associated\u0026nbsp;with Qilin\u0026nbsp;and Warlock ransomware operations\u0026nbsp;have been\u0026nbsp;observed using the bring your own vulnerable driver\u0026nbsp;(BYOVD) technique to silence security to...",
+      "pub_date": "Mon, 06 Apr 2026 15:37:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtrUKOrJ2Y_pSYHNcKDjbrBsZa2igYlNorTwmH31JNSjdA7VP84kXj23nmkk7DTqlrCUsfCjNo6xt-niyZeKeCR7VtBzMWW9eNUKzU0WGnpmw2yYjHBdboP2uF2UA8CCsdclyeDlRJcU7DEOD8OrFthlhQX-OkgePmyT__ZDQA4IXgRYbnNtp21MoleCTU/s1600/lock-ransomware.jpg"
+    },
     {
       "title": "Hackers Use Poisoned Axios Package and Phantom Dependency to Spread Cross-Platform Malware",
       "link": "https://cybersecuritynews.com/hackers-use-poisoned-axios-package-and-phantom-dependency/",
@@ -36,7 +76,7 @@
     {
       "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
       "link": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
-      "description": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identity of the main threat actors associated with the now-defunct REvil (aka Sodinokibi) ransomwar...",
+      "description": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil (aka Sodinokibi) ransomw...",
       "pub_date": "Mon, 06 Apr 2026 12:29:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsBHK8DX9E30isZVcn1e-a6p8bmNUAki0SmUh1Tkt9dP8L3D4_WcwT64CI5OVuh1brb1Z4pff7onp90K76ktHbs6-H6Kr0rq9Q2f03oW91e3mA5dN5XdLDyWNns5NcfXw7BKFzH28SbpaFo9l8TmMeZ7Mt6o1ePanKeFYGa8V1S9Rez_E30SIAx2yvfuNl/s1600/revil-ransomware.jpg"
@@ -56,30 +96,6 @@
       "pub_date": "Mon, 06 Apr 2026 05:45:36 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/36-Malicious-npm-Strapi-Packages-Used-to-Deploy-Redis-RCE-and-Persistent-C2-Malware.webp"
-    },
-    {
-      "title": "CISA Adds TrueConf Vulnerability to KEV Catalog Following Active Exploitation",
-      "link": "https://cybersecuritynews.com/cisa-trueconf-vulnerability-kev-catalog/",
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has officially added a critical vulnerability affecting TrueConf software to its Known Exploited Vulnerabilities (KEV) catalog. Tracked a...",
-      "pub_date": "Mon, 06 Apr 2026 03:44:11 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CISA-Adds-TrueConf-Vulnerability-to-KEV-Catalog-Following-Active-Exploitation-1.webp"
-    },
-    {
-      "title": "2,000+ FortiClient EMS Instances Exposed Online Amid Active RCE Vulnerability Exploits in the Wild",
-      "link": "https://cybersecuritynews.com/forticlient-ems-instances-exposed-online/",
-      "description": "The Shadowserver Foundation has issued an urgent warning to FortiClient Enterprise Management Server (EMS) administrators after identifying over 2,000 publicly accessible instances globally, two of...",
-      "pub_date": "Mon, 06 Apr 2026 03:41:09 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/FortiClient-EMS-Instances-Exposed-Online.webp"
-    },
-    {
-      "title": "Google DeepMind Researchers Warn Hackers Can Hijack AI Agents Through Malicious Web Content",
-      "link": "https://cybersecuritynews.com/hackers-hijack-ai-agents/",
-      "description": "Researchers at Google DeepMind have published a comprehensive study revealing that autonomous AI agents browsing the web are deeply vulnerable to a new class of attacks called \u0026#8220;AI Agent Traps...",
-      "pub_date": "Mon, 06 Apr 2026 02:52:08 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Hijack-AI-Agents.webp"
     },
     {
       "title": "Traffic violation scams switch to QR codes in new phishing texts",
@@ -144,14 +160,6 @@
       "pub_date": "Sat, 04 Apr 2026 10:17:38 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Critical Fortinet FortiClient EMS 0-Day Vulnerability Actively Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/fortinet-forticlient-ems-0-day/",
-      "description": "Fortinet has issued an emergency hotfix after security researchers disclosed a critical zero-day vulnerability in FortiClient EMS that is already being actively exploited by threat actors. Tracked ...",
-      "pub_date": "Sat, 04 Apr 2026 13:04:09 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Fortinet-FortiClient-EMS-0-Day.webp"
     },
     {
       "title": "LinkedIn secretly scans for 6,000+ Chrome extensions, collects data",
@@ -312,14 +320,6 @@
       "pub_date": "Thu, 02 Apr 2026 17:12:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpKoZinOy6MS9s0nTi1TV12H46KUmgkxu0kGinPE7yyq7Vpo9lmmcz30e5ve0yCk2T0ETCedeV6aXs0iEjI1rOykcXwBPa2a11yb75bjgjad7WKkKgsUAv0lO1tuZ8vVnYZtuiUHKqwM6Z6bxGtheJIhuWW5W6lKjo0FaHZf7ewPO_SFuKAjPKMh_sqDB2/s1600/monero.jpg"
-    },
-    {
-      "title": "The State of Trusted Open Source Report",
-      "link": "https://thehackernews.com/2026/04/the-state-of-trusted-open-source-report.html",
-      "description": "In December\u0026nbsp;2025, we shared the first-ever The State of Trusted Open\u0026nbsp;Source report, featuring insights from our product data and customer base on open source consumption across our catalo...",
-      "pub_date": "Thu, 02 Apr 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5yI578d17vaAxuCMW2SLrz3ibI4ibSfdDCfum-B3VZ0Ukyd79Eue2VR8ofUCBpISSXsL8biYdRFyuMm78T6PTU7U1w_6jJK3qV7ohPRSt3NGDTtAkseitLCaEZVHqcVIhFZABPlyAP8KPV-JMlnlq42Flgl7lB2Rs5hkIQYVYtc0Z15Yd0WKaYSu7CLM/s1600/devsecops.jpg"
     },
     {
       "title": "ZDI-26-253: Microsoft Visual Studio Code mcp.json Command Injection Remote Code Execution Vulnerability",
