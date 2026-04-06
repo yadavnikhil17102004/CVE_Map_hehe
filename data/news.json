@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-04-06T06:26:36Z",
+  "last_updated": "2026-04-06T08:19:21Z",
   "articles": [
+    {
+      "title": "New ResokerRAT Uses Telegram Bot API to Control Infected Windows Systems",
+      "link": "https://cybersecuritynews.com/new-resokerrat-uses-telegram-bot/",
+      "description": "A new Remote Access Trojan (RAT) called ResokerRAT has been found targeting Windows systems by abusing Telegram\u0026#8217;s widely used Bot API to receive commands and send stolen data back to attacker...",
+      "pub_date": "Mon, 06 Apr 2026 07:12:12 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-ResokerRAT-Uses-Telegram-Bot-API-to-Control-Infected-Windows-Systems.webp"
+    },
+    {
+      "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
+      "link": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
+      "description": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identity of the main threat actors associated with the now-defunct REvil (aka Sodinokibi) ransomwar...",
+      "pub_date": "Mon, 06 Apr 2026 12:29:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsBHK8DX9E30isZVcn1e-a6p8bmNUAki0SmUh1Tkt9dP8L3D4_WcwT64CI5OVuh1brb1Z4pff7onp90K76ktHbs6-H6Kr0rq9Q2f03oW91e3mA5dN5XdLDyWNns5NcfXw7BKFzH28SbpaFo9l8TmMeZ7Mt6o1ePanKeFYGa8V1S9Rez_E30SIAx2yvfuNl/s1600/revil-ransomware.jpg"
+    },
+    {
+      "title": "METATRON – Open-Source AI Penetration Testing Assistant Brings Local LLM Analysis to Linux",
+      "link": "https://cybersecuritynews.com/metatron-ai-penetration-testing/",
+      "description": "A new open-source penetration testing framework called METATRON is gaining attention in the security research community for its fully offline, AI-driven approach to vulnerability assessment. Built ...",
+      "pub_date": "Mon, 06 Apr 2026 06:38:13 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/METATRON-AI-Penetration-Testing.webp"
+    },
+    {
+      "title": "36 Malicious npm Strapi Packages Used to Deploy Redis RCE and Persistent C2 Malware",
+      "link": "https://cybersecuritynews.com/36-malicious-npm-strapi-packages/",
+      "description": "A coordinated supply chain attack has been uncovered targeting developers who build applications on Strapi, a widely used open-source content management system. Thirty-six malicious npm packages di...",
+      "pub_date": "Mon, 06 Apr 2026 05:45:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/36-Malicious-npm-Strapi-Packages-Used-to-Deploy-Redis-RCE-and-Persistent-C2-Malware.webp"
+    },
+    {
+      "title": "CISA Adds TrueConf Vulnerability to KEV Catalog Following Active Exploitation",
+      "link": "https://cybersecuritynews.com/cisa-trueconf-vulnerability-kev-catalog/",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has officially added a critical vulnerability affecting TrueConf software to its Known Exploited Vulnerabilities (KEV) catalog. Tracked a...",
+      "pub_date": "Mon, 06 Apr 2026 03:44:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CISA-Adds-TrueConf-Vulnerability-to-KEV-Catalog-Following-Active-Exploitation-1.webp"
+    },
+    {
+      "title": "2,000+ FortiClient EMS Instances Exposed Online Amid Active RCE Vulnerability Exploits in the Wild",
+      "link": "https://cybersecuritynews.com/forticlient-ems-instances-exposed-online/",
+      "description": "The Shadowserver Foundation has issued an urgent warning to FortiClient Enterprise Management Server (EMS) administrators after identifying over 2,000 publicly accessible instances globally, two of...",
+      "pub_date": "Mon, 06 Apr 2026 03:41:09 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/FortiClient-EMS-Instances-Exposed-Online.webp"
+    },
+    {
+      "title": "Google DeepMind Researchers Warn Hackers Can Hijack AI Agents Through Malicious Web Content",
+      "link": "https://cybersecuritynews.com/hackers-hijack-ai-agents/",
+      "description": "Researchers at Google DeepMind have published a comprehensive study revealing that autonomous AI agents browsing the web are deeply vulnerable to a new class of attacks called \u0026#8220;AI Agent Traps...",
+      "pub_date": "Mon, 06 Apr 2026 02:52:08 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Hijack-AI-Agents.webp"
+    },
     {
       "title": "Traffic violation scams switch to QR codes in new phishing texts",
       "link": "https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/",
@@ -64,6 +120,38 @@
       "pub_date": "Sat, 04 Apr 2026 10:17:38 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Critical Fortinet FortiClient EMS 0-Day Vulnerability Actively Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/fortinet-forticlient-ems-0-day/",
+      "description": "Fortinet has issued an emergency hotfix after security researchers disclosed a critical zero-day vulnerability in FortiClient EMS that is already being actively exploited by threat actors. Tracked ...",
+      "pub_date": "Sat, 04 Apr 2026 13:04:09 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Fortinet-FortiClient-EMS-0-Day.webp"
+    },
+    {
+      "title": "New Progress ShareFile Bugs Let Attackers Take Over Servers Without Logging In",
+      "link": "https://cybersecuritynews.com/progress-sharefile-vulnerability/",
+      "description": "A dangerous attack chain in Progress ShareFile that can allow attackers to take over exposed on-premises servers without first logging in. The issues affect customer-managed ShareFile Storage Zones...",
+      "pub_date": "Sat, 04 Apr 2026 11:52:18 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Progress-ShareFile-Bugs-Let-Attackers-Take-Over-Servers-Without-Logging-In.webp"
+    },
+    {
+      "title": "Hackers Weaponize Claude Code Leak to Spread Vidar and GhostSocks Malware",
+      "link": "https://cybersecuritynews.com/claude-code-leak-to-spread-vidar-and-ghostsocks-malware/",
+      "description": "The cybersecurity community is on high alert following a massive source code leak from Anthropic. On March 31, 2026, the company accidentally exposed the complete source code for Claude Code, its f...",
+      "pub_date": "Sat, 04 Apr 2026 09:32:58 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Code-Leak-Exploited-by-Hackers-to-Deliver-Vidar-and-GhostSocks-2-1.webp"
+    },
+    {
+      "title": "Top Node.js Maintainers Targeted in Sophisticated Social Engineering Scheme",
+      "link": "https://cybersecuritynews.com/top-node-js-maintainers-targeted-social-engineering-scheme/",
+      "description": "A highly coordinated social engineering campaign is actively targeting top open-source developers in the Node.js and npm ecosystem. Following the recent compromise of the popular package Axios, whi...",
+      "pub_date": "Sat, 04 Apr 2026 09:07:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Launch-Social-Engineering-Offensive-Against-Key-Node.js-Maintainers-1-1-1.webp"
     },
     {
       "title": "LinkedIn secretly scans for 6,000+ Chrome extensions, collects data",
@@ -232,14 +320,6 @@
       "pub_date": "Thu, 02 Apr 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5yI578d17vaAxuCMW2SLrz3ibI4ibSfdDCfum-B3VZ0Ukyd79Eue2VR8ofUCBpISSXsL8biYdRFyuMm78T6PTU7U1w_6jJK3qV7ohPRSt3NGDTtAkseitLCaEZVHqcVIhFZABPlyAP8KPV-JMlnlq42Flgl7lB2Rs5hkIQYVYtc0Z15Yd0WKaYSu7CLM/s1600/devsecops.jpg"
-    },
-    {
-      "title": "WhatsApp Alerts 200 Users After Fake iOS App Installed Spyware; Italian Firm Faces Action",
-      "link": "https://thehackernews.com/2026/04/whatsapp-alerts-200-users-after-fake.html",
-      "description": "Meta-owned messaging platform WhatsApp said it alerted about 200 users who were tricked into installing a bogus version of its iOS app that was infected with\u0026nbsp;spyware. According to reports from...",
-      "pub_date": "Thu, 02 Apr 2026 15:21:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH1Qe0E88MYHp7xg6ApE5TypZK__02tmUnhvX60svA9npwirnTJbAb-Wl4rvLo3gq3kX1l9JUXDgXZJ0yPGNZlUo8n5DG1-pqONNFQIA2epqNdU7tNGZSJPJCthWLHtnDdO8jWQ5YzwY7TWUn_9SJP5pu0vHX2i3-L0zM5dZscSR4wAUPWAN1fm-3zgOGE/s1600/whatsapp-alert.jpg"
     },
     {
       "title": "ZDI-26-253: Microsoft Visual Studio Code mcp.json Command Injection Remote Code Execution Vulnerability",
