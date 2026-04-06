@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-06T16:38:01Z",
+  "last_updated": "2026-04-06T17:38:35Z",
   "articles": [
+    {
+      "title": "Microsoft links Medusa ransomware affiliate to zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/",
+      "description": "Microsoft says that Storm-1175, a China-based financially motivated cybercriminal group known for deploying Medusa ransomware payloads, has been deploying n-day and zero-day exploits in high-veloci...",
+      "pub_date": "Mon, 06 Apr 2026 12:56:01 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "CISA Warns of Fortinet 0-Day Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/cisa-warns-fortinet-vulnerability/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2026-35616, a critical improper access control vulnerability in Fortinet FortiClient Enterprise Management Server (EM...",
+      "pub_date": "Mon, 06 Apr 2026 16:37:57 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CISA-Warns-Fortinet-Vulnerability.webp"
+    },
     {
       "title": "Drift $280M crypto theft linked to 6-month in-person operation",
       "link": "https://www.bleepingcomputer.com/news/security/drift-280m-crypto-theft-linked-to-6-month-in-person-operation/",
@@ -8,6 +24,14 @@
       "pub_date": "Mon, 06 Apr 2026 12:35:03 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "DPRK-Linked Hackers Use GitHub as C2 in Multi-Stage Attacks Targeting South Korea",
+      "link": "https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html",
+      "description": "Threat\u0026nbsp;actors likely associated with the Democratic People's Republic of Korea (DPRK) have been observed using GitHub as command-and-control (C2) infrastructure in multi-stage attacks targetin...",
+      "pub_date": "Mon, 06 Apr 2026 21:54:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh23Q23hk6n_d_f9evdsf7JVcn5OswTUqwd0B8EvWdftPQXN4K1V6nHICk_MvzLf4jUfCCHpUmaZIzECekbKf3PQ2w2gRlY-AphdBRZgyJHq7XQsyIS_vp6iT_fVLoDQ1TFA4DBLT32Q1sTY_WHjGRtzaYMOqMNThcg8JodZ-Aozj2OO21DQLj2agEojjdp/s1600/github.jpg"
     },
     {
       "title": "CISA orders feds to patch exploited Fortinet EMS flaw by Friday",
@@ -128,14 +152,6 @@
       "pub_date": "Mon, 06 Apr 2026 15:37:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtrUKOrJ2Y_pSYHNcKDjbrBsZa2igYlNorTwmH31JNSjdA7VP84kXj23nmkk7DTqlrCUsfCjNo6xt-niyZeKeCR7VtBzMWW9eNUKzU0WGnpmw2yYjHBdboP2uF2UA8CCsdclyeDlRJcU7DEOD8OrFthlhQX-OkgePmyT__ZDQA4IXgRYbnNtp21MoleCTU/s1600/lock-ransomware.jpg"
-    },
-    {
-      "title": "Hackers Use Poisoned Axios Package and Phantom Dependency to Spread Cross-Platform Malware",
-      "link": "https://cybersecuritynews.com/hackers-use-poisoned-axios-package-and-phantom-dependency/",
-      "description": "One of the most widely used JavaScript libraries in the world was turned into a weapon on March 30, 2026, when attackers poisoned the Axios npm package and silently deployed malware on developer ma...",
-      "pub_date": "Mon, 06 Apr 2026 09:58:04 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-Poisoned-Axios-Package-and-Phantom-Dependency-to-Spread-Cross-Platform-Malware.webp"
     },
     {
       "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
@@ -336,22 +352,6 @@
       "pub_date": "Fri, 03 Apr 2026 14:05:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUiYsLIirEMJ6RmQKL7LnI8V0CmqL2qggZITpbnhuDXgXPAsXZ7cGv1KBjp1VBfeBVjUHypgPIC1DENjD735MO9gZQVPZO_xI424cuWoRowXBNflIs3rteCoCpdMPeTo5y2-I67CKALepuLYF-OfTplaTVBtextDcgCTW81sGmhT710Uu-37ouNh6MJjfk/s1600/drift-1.png"
-    },
-    {
-      "title": "Microsoft now force upgrades unmanaged Windows 11 24H2 PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-force-upgrades-unmanaged-windows-11-24h2-pcs/",
-      "description": "Starting this week, Microsoft has begun force-upgrading unmanaged devices running Windows 11 24H2 Home and Pro editions to Windows 11 25H2. [...]",
-      "pub_date": "Fri, 03 Apr 2026 03:55:40 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials",
-      "link": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
-      "description": "A\u0026nbsp;large-scale credential harvesting operation\u0026nbsp;has been\u0026nbsp;observed exploiting the React2Shell vulnerability as an initial infection vector to steal database credentials, SSH private key...",
-      "pub_date": "Fri, 03 Apr 2026 01:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8T48UROZtSjRXtkxVcNT2VmXbB1texWQPAqLbm06uwmJ8VsYFb_HeXOnZx9uz9QL-LB3aWdwcLm9TbuRler7w7jjXJlL_tQweQualaW4XEVav7Ysulqx_CJyc9a0P1dO1a69W_eQhroxV1LA_p5VB9T38Xubc3zXHgwd-4sAAc2whuv4ElnC5WtFSn7SH/s1600/nextjs.jpg"
     },
     {
       "title": "ZDI-26-253: Microsoft Visual Studio Code mcp.json Command Injection Remote Code Execution Vulnerability",
