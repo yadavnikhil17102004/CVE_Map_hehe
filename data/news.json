@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-06T14:07:23Z",
+  "last_updated": "2026-04-06T15:39:20Z",
   "articles": [
+    {
+      "title": "Trojanized PyPI AI Proxy Uses Stolen Claude Prompt to Exfiltrates Data",
+      "link": "https://cybersecuritynews.com/trojanized-pypi-ai-proxy-uses-stolen-claude-prompt/",
+      "description": "A malicious Python package has been discovered on PyPI that disguises itself as a privacy-focused AI inference tool while quietly stealing sensitive user data in the background. Named hermes-px, t...",
+      "pub_date": "Mon, 06 Apr 2026 15:26:27 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Trojanized-PyPI-AI-Proxy-Uses-Stolen-Claude-Prompt-to-Exfiltrates-Data.webp"
+    },
+    {
+      "title": "Hackers Drain $286 Million From Drift Protocol in Suspected North Korea-Linked Exploit",
+      "link": "https://cybersecuritynews.com/hackers-drain-286-million-from-drift-protocol/",
+      "description": "The largest decentralized perpetual futures exchange on the Solana blockchain — became the target of a massive and well-orchestrated theft on April 1, 2026, Drift Protocol. Unknown attackers mana...",
+      "pub_date": "Mon, 06 Apr 2026 15:05:10 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Drain-286-Million-From-Drift-Protocol-in-Suspected-North-Korea-Linked-Exploit.webp"
+    },
+    {
+      "title": "New GitHub Actions Attack Chain Uses Fake CI Updates to Exfiltrate Secrets and Tokens",
+      "link": "https://cybersecuritynews.com/new-github-actions-attack-chain-uses-fake-ci-updates/",
+      "description": "A new attack campaign is actively targeting open-source repositories on GitHub by carefully disguising malicious code as completely routine CI build configuration updates. The campaign, prt-scan ex...",
+      "pub_date": "Mon, 06 Apr 2026 14:34:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-GitHub-Actions-Attack-Chain-Uses-Fake-CI-Updates-to-Exfiltrate-Secrets-and-Tokens.webp"
+    },
     {
       "title": "DPRK Cyber Program Uses Modular Malware Strategy to Evade Attribution and Survive Takedowns",
       "link": "https://cybersecuritynews.com/dprk-cyber-program-uses-modular-malware-strategy/",
@@ -16,6 +40,22 @@
       "pub_date": "Mon, 06 Apr 2026 10:02:12 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Multi-OS Cyberattacks: How SOCs Close a Critical Risk in 3 Steps",
+      "link": "https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html",
+      "description": "Your attack surface no\u0026nbsp;longer lives\u0026nbsp;on one operating system, and neither do the campaigns targeting\u0026nbsp;it. In enterprise environments, attackers move across Windows endpoints, executive...",
+      "pub_date": "Mon, 06 Apr 2026 18:30:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixIItKplcozAxhBXqaAcKz33D_p67WELaaBHZDIxGe7-qkKNWIITVvI4a3jSB_A17z89_XvJMprYsmkylYUvuWW4GeMWTWgBCWLWc3i_zPx4XtlW1PJDcbt1doyrUQlE1oeYbSNrmk1XZx-ROkvMyVvaLuryZ8k7MSnBbGEtQLledLStXEcyoapR4wAiA/s1600/cyberattacks.jpg"
+    },
+    {
+      "title": "⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More",
+      "link": "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
+      "description": "This\u0026nbsp;week had real hits. The\u0026nbsp;key software got tampered with. Active\u0026nbsp;bugs showed up in the tools people use every day. Some\u0026nbsp;attacks didn’t even need much effort because the pat...",
+      "pub_date": "Mon, 06 Apr 2026 18:16:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZyEpyaWHYHm8-TyNZQgYtoAqrsAUDZ0_onxgp1BUSV0khgAkwy7S9fMT75sRAm2blJXN6xw6i4r0fXP_hayN2Afrr7ul6egJc2nvFJUoWqmy0iJCr5JdK9-915pCFpEtRdlOMb-BYexGAPQPdKnGjWPbPlfGFx5qOo5Dhzfjes7_k-s5bYgFDEyMCT5BJ/s1600/recaps.jpg"
     },
     {
       "title": "North Korean IT Worker Unmasked After Refusing to Insult Kim Jong Un in Job Interview",
@@ -82,36 +122,44 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-Poisoned-Axios-Package-and-Phantom-Dependency-to-Spread-Cross-Platform-Malware.webp"
     },
     {
-      "title": "Critical Claude Code Flaw Silently Bypasses Developer-Configured Security Rules",
-      "link": "https://cybersecuritynews.com/claude-code-vulnerability/",
-      "description": "A high-severity security bypass vulnerability in Anthropic\u0026#8217;s Claude Code AI coding agent allows malicious actors to silently evade user-configured deny rules through a simple command-padding ...",
-      "pub_date": "Mon, 06 Apr 2026 09:16:26 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Code-Vulnerability.webp"
-    },
-    {
-      "title": "Hackers Using Fake “Microsoft Teams” Domains to Attack Users Via Malicious Payload",
-      "link": "https://cybersecuritynews.com/hackers-using-fake-microsoft-teams-domains-attack-via-malicious-payload/",
-      "description": "Cybercriminals are launching a sophisticated new wave of attacks using fake Microsoft Teams domains. According to recent threat intelligence shared by SEAL Org, hackers are actively tricking corpo...",
-      "pub_date": "Mon, 06 Apr 2026 09:04:09 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Using-Fake-Microsoft-Teams-Domains-to-Attack-Users-Via-Malicious-Payload.webp"
-    },
-    {
-      "title": "New ResokerRAT Uses Telegram Bot API to Control Infected Windows Systems",
-      "link": "https://cybersecuritynews.com/new-resokerrat-uses-telegram-bot/",
-      "description": "A new Remote Access Trojan (RAT) called ResokerRAT has been found targeting Windows systems by abusing Telegram\u0026#8217;s widely used Bot API to receive commands and send stolen data back to attacker...",
-      "pub_date": "Mon, 06 Apr 2026 07:12:12 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-ResokerRAT-Uses-Telegram-Bot-API-to-Control-Infected-Windows-Systems.webp"
-    },
-    {
       "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
       "link": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
       "description": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil (aka Sodinokibi) ransomw...",
       "pub_date": "Mon, 06 Apr 2026 12:29:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsBHK8DX9E30isZVcn1e-a6p8bmNUAki0SmUh1Tkt9dP8L3D4_WcwT64CI5OVuh1brb1Z4pff7onp90K76ktHbs6-H6Kr0rq9Q2f03oW91e3mA5dN5XdLDyWNns5NcfXw7BKFzH28SbpaFo9l8TmMeZ7Mt6o1ePanKeFYGa8V1S9Rez_E30SIAx2yvfuNl/s1600/revil-ransomware.jpg"
+    },
+    {
+      "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-257/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Labcenter Electronics Proteus. User interaction is required to exploit this vulnerability in that t...",
+      "pub_date": "Mon, 06 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-256: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-256/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Labcenter Electronics Proteus. User interaction is required to exploit this vulnerability in that t...",
+      "pub_date": "Mon, 06 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-255: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-255/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Labcenter Electronics Proteus. User interaction is required to exploit this vulnerability in that t...",
+      "pub_date": "Mon, 06 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-254: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Type Confusion Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-254/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Labcenter Electronics Proteus. User interaction is required to exploit this vulnerability in that t...",
+      "pub_date": "Mon, 06 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "Traffic violation scams switch to QR codes in new phishing texts",
@@ -306,22 +354,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8T48UROZtSjRXtkxVcNT2VmXbB1texWQPAqLbm06uwmJ8VsYFb_HeXOnZx9uz9QL-LB3aWdwcLm9TbuRler7w7jjXJlL_tQweQualaW4XEVav7Ysulqx_CJyc9a0P1dO1a69W_eQhroxV1LA_p5VB9T38Xubc3zXHgwd-4sAAc2whuv4ElnC5WtFSn7SH/s1600/nextjs.jpg"
     },
     {
-      "title": "Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise",
-      "link": "https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html",
-      "description": "Cisco\u0026nbsp;has released updates to address a critical security flaw in the Integrated Management Controller (IMC) that, if successfully exploited, could allow an unauthenticated, remote attacker to...",
-      "pub_date": "Thu, 02 Apr 2026 20:51:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH6wuST9R8voZTpCC-v5LSwd4O7vlbuRDhXMzcSw9iu0k2JvFOao-3Jr2o9iCs0jqX3pIqHvcYo_n-5Ad80WXeQXKV_DTgJUN0A6nl9f73BA1U0wRoZBqgySfDR6Uk7KD8jXzw2BFLGvusf-96qsINw9jT4PnglZohYM2VhSsdHcpw-cl6vwAekfE-KD_H/s1600/cisco-exploit.jpg"
-    },
-    {
-      "title": "ThreatsDay Bulletin: Pre-Auth Chains, Android Rootkits, CloudTrail Evasion \u0026 10 More Stories",
-      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-pre-auth-chains.html",
-      "description": "The\u0026nbsp;latest ThreatsDay Bulletin is basically a cheat sheet for everything breaking on the internet right now. No\u0026nbsp;corporate fluff or boring lectures here, just a quick and honest look at th...",
-      "pub_date": "Thu, 02 Apr 2026 18:15:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht9hzOUmn8npVxC_AyWUe1DLsv1VkWHox2PmDxZnVuG_XnQt7R5l7CZHlYu9m9BcwAib4L0j0x877sDuCF2shmSH3ef0Me-m0sbKDtu-ZEw5RLqLGNsjGJ0o-b_CuKtFg86fMFb-GKVBud7S8PfpsoL4HCqEZypO1NcWfx6ljXcUhC5O4GIjRbhRcG-fIi/s1600/threatsday.jpg"
-    },
-    {
       "title": "ZDI-26-253: Microsoft Visual Studio Code mcp.json Command Injection Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-253/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Visual Studio Code. User interaction is required to exploit this vulnerability in that th...",
@@ -418,38 +450,6 @@
       "image_url": ""
     },
     {
-      "title": "ZDI-26-242: (Pwn2Own) QNAP TS-453E server_handlers.pyc rr2s.kwargs Error Message Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-242/",
-      "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of QNAP TS-453E devices. Although authentication is required to exploit this vulnera...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-241: (Pwn2Own) QNAP QHora-322 qvpn_db_mgr username SQL Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-241/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of QNAP QHora-322 routers. Although authentication is required to exploit this vulnerability, the exis...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-240: (Pwn2Own) QNAP QHora-322 qvpn_db_mgr role_type Improper Neutralization of Escape Sequences Authentication Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-240/",
-      "description": "This vulnerability allows remote attackers to bypass authentication on affected QNAP QHora-322 routers. Although authentication is required to exploit this vulnerability, the existing authenticatio...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-239: (Pwn2Own) QNAP QHora-322 login.newAuthMiddleware.Authenticator Authentication Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-239/",
-      "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability. The ZDI has as...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
       "title": "A year of open source vulnerability trends: CVEs, advisories, and malware",
       "link": "https://github.blog/security/supply-chain-security/a-year-of-open-source-vulnerability-trends-cves-advisories-and-malware/",
       "description": "Reviewed advisories hit a four-year low, malware advisories surged, and CNA publishing grew—here’s what changed and what it means for your triage and response.  The post A year of open source v...",
@@ -519,6 +519,14 @@
       "description": "For this year’s Cybersecurity Awareness Month, the GitHub Bug Bounty team is excited to put the spotlight on a talented security researcher—André Storfjord Kristiansen! The post Top security r...",
       "pub_date": "Wed, 22 Oct 2025 16:00:00 +0000",
       "source": "GitHub Security",
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-35616 - Fortinet FortiClient EMS Improper Access Contr...",
+      "pub_date": "Mon, 06 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
       "image_url": ""
     },
     {
@@ -630,14 +638,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33017 Langflow Code Injection Vulnerability  This type...",
       "pub_date": "Wed, 25 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Grassroots DICOM (GDCM)",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-083-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send a specially crafted file, and when parsed, could result in a denial-of-service condition. The followi...",
-      "pub_date": "Tue, 24 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
