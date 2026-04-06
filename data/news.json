@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-06T08:19:21Z",
+  "last_updated": "2026-04-06T10:01:58Z",
   "articles": [
+    {
+      "title": "Hackers Use Poisoned Axios Package and Phantom Dependency to Spread Cross-Platform Malware",
+      "link": "https://cybersecuritynews.com/hackers-use-poisoned-axios-package-and-phantom-dependency/",
+      "description": "One of the most widely used JavaScript libraries in the world was turned into a weapon on March 30, 2026, when attackers poisoned the Axios npm package and silently deployed malware on developer ma...",
+      "pub_date": "Mon, 06 Apr 2026 09:58:04 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-Poisoned-Axios-Package-and-Phantom-Dependency-to-Spread-Cross-Platform-Malware.webp"
+    },
+    {
+      "title": "Critical Claude Code Flaw Silently Bypasses Developer-Configured Security Rules",
+      "link": "https://cybersecuritynews.com/claude-code-vulnerability/",
+      "description": "A high-severity security bypass vulnerability in Anthropic\u0026#8217;s Claude Code AI coding agent allows malicious actors to silently evade user-configured deny rules through a simple command-padding ...",
+      "pub_date": "Mon, 06 Apr 2026 09:16:26 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Code-Vulnerability.webp"
+    },
+    {
+      "title": "Hackers Using Fake “Microsoft Teams” Domains to Attack Users Via Malicious Payload",
+      "link": "https://cybersecuritynews.com/hackers-using-fake-microsoft-teams-domains-attack-via-malicious-payload/",
+      "description": "Cybercriminals are launching a sophisticated new wave of attacks using fake Microsoft Teams domains. According to recent threat intelligence shared by SEAL Org, hackers are actively tricking corpo...",
+      "pub_date": "Mon, 06 Apr 2026 09:04:09 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Using-Fake-Microsoft-Teams-Domains-to-Attack-Users-Via-Malicious-Payload.webp"
+    },
     {
       "title": "New ResokerRAT Uses Telegram Bot API to Control Infected Windows Systems",
       "link": "https://cybersecuritynews.com/new-resokerrat-uses-telegram-bot/",
@@ -128,30 +152,6 @@
       "pub_date": "Sat, 04 Apr 2026 13:04:09 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Fortinet-FortiClient-EMS-0-Day.webp"
-    },
-    {
-      "title": "New Progress ShareFile Bugs Let Attackers Take Over Servers Without Logging In",
-      "link": "https://cybersecuritynews.com/progress-sharefile-vulnerability/",
-      "description": "A dangerous attack chain in Progress ShareFile that can allow attackers to take over exposed on-premises servers without first logging in. The issues affect customer-managed ShareFile Storage Zones...",
-      "pub_date": "Sat, 04 Apr 2026 11:52:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Progress-ShareFile-Bugs-Let-Attackers-Take-Over-Servers-Without-Logging-In.webp"
-    },
-    {
-      "title": "Hackers Weaponize Claude Code Leak to Spread Vidar and GhostSocks Malware",
-      "link": "https://cybersecuritynews.com/claude-code-leak-to-spread-vidar-and-ghostsocks-malware/",
-      "description": "The cybersecurity community is on high alert following a massive source code leak from Anthropic. On March 31, 2026, the company accidentally exposed the complete source code for Claude Code, its f...",
-      "pub_date": "Sat, 04 Apr 2026 09:32:58 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Code-Leak-Exploited-by-Hackers-to-Deliver-Vidar-and-GhostSocks-2-1.webp"
-    },
-    {
-      "title": "Top Node.js Maintainers Targeted in Sophisticated Social Engineering Scheme",
-      "link": "https://cybersecuritynews.com/top-node-js-maintainers-targeted-social-engineering-scheme/",
-      "description": "A highly coordinated social engineering campaign is actively targeting top open-source developers in the Node.js and npm ecosystem. Following the recent compromise of the popular package Axios, whi...",
-      "pub_date": "Sat, 04 Apr 2026 09:07:39 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Launch-Social-Engineering-Offensive-Against-Key-Node.js-Maintainers-1-1-1.webp"
     },
     {
       "title": "LinkedIn secretly scans for 6,000+ Chrome extensions, collects data",
