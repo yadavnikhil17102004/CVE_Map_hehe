@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-04-07T15:01:09Z",
+  "last_updated": "2026-04-07T16:47:23Z",
   "articles": [
+    {
+      "title": "Russian Hackers Exploiting Home and Small-office Routers in Massive DNS hijacking Attack",
+      "link": "https://cybersecuritynews.com/russian-hackers-exploiting-routers/",
+      "description": "A large-scale campaign by Forest Blizzard, a Russian military-linked threat actor, targeting home and small-office routers to hijack DNS traffic and intercept encrypted communications with over 200...",
+      "pub_date": "Tue, 07 Apr 2026 16:36:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Russian-Hackers-Exploiting-Routers.webp"
+    },
+    {
+      "title": "Authorities disrupt router DNS hijacks used to steal Microsoft 365 logins",
+      "link": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-dns-hijacks-used-to-steal-microsoft-365-logins/",
+      "description": "An international operation from law enforcement authorities in partnership with private companies has disrupted FrostArmada, an APT28 campaign hijacking local traffic from MikroTik and TP-Link rout...",
+      "pub_date": "Tue, 07 Apr 2026 11:51:22 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access",
+      "link": "https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html",
+      "description": "A high-severity security vulnerability has been disclosed in Docker Engine that could permit an attacker to bypass authorization plugins\u0026nbsp;(AuthZ) under specific circumstances. The vulnerability...",
+      "pub_date": "Tue, 07 Apr 2026 20:45:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1fiR51KBq7hNIR1D2V9e0jituEJTVutYd8b9v6KR0YdA30xWCSKJo3nfIykSdYSjZNe7gvNj3Wf3HidhZ24n-piDo8LhrE6ctyZrcLYNcJwCSP0KEe7G0Fl_xJm676Dv-4bFEh63Vv_xZ1zb9qOKhfeWFN5IexOHligHBCTHyVLAMDl0aeL2olDxnjfch/s1600/ai-chat.jpg"
+    },
+    {
+      "title": "Fake Software Installers Used to Drop RATs and Monero Miners in Long-Running Malware Campaign",
+      "link": "https://cybersecuritynews.com/fake-software-installers-used-to-drop-rats/",
+      "description": "A financially motivated threat actor has been running a quiet malware campaign since at least late 2023, tricking users into downloading fake software installers that secretly deliver remote access...",
+      "pub_date": "Tue, 07 Apr 2026 14:55:41 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Fake-Software-Installers-Used-to-Drop-RATs-and-Monero-Miners-in-Long-Running-Malware-Campaign.webp"
+    },
     {
       "title": "Why Your Automated Pentesting Tool Just Hit a Wall",
       "link": "https://www.bleepingcomputer.com/news/security/why-your-automated-pentesting-tool-just-hit-a-wall/",
@@ -8,6 +40,30 @@
       "pub_date": "Tue, 07 Apr 2026 10:01:11 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "New GPUBreach Attack Enables System-Wide Compromise Up to a Root Shell",
+      "link": "https://cybersecuritynews.com/gpubreach-attack/",
+      "description": "A severe vulnerability, dubbed GPUBreach, that allows attackers to achieve a full system compromise, including a root shell. Scheduled for presentation at the IEEE Symposium on Security and Privacy...",
+      "pub_date": "Tue, 07 Apr 2026 13:01:42 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/GPUBreach-Attack.webp"
+    },
+    {
+      "title": "From Alert Overload to Rapid Response: Why Threat Intelligence Is a Top Solution for Fast MTTR ",
+      "link": "https://cybersecuritynews.com/alert-overload-threat-intelligence-mttr/",
+      "description": "Reducing Mean Time to Respond (MTTR) is one of the most persistent challenges for modern SOC teams.\u0026#160; Despite investments in SIEM, EDR, and automation, many organizations still struggle to inve...",
+      "pub_date": "Tue, 07 Apr 2026 12:51:37 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidTy0jk0GQKHDbsOE6R6FwoCqcyq3iBE6qdPJ_Q2n_kJvXkySzt12do5O9JkNqjPRShWEziWgd2RapEZ6YDzsozz_gk_PM-yrwqaXMz-YjD_f3GWUpa7cHHFicqDuRw2bCwRqreOBeUdhYjrT6eEYvGEyrB1NtKY99LOiUZD89RhejVOTACNyhYj8vsA/s16000/Threat%20Intelligence%20for%20Faster%20MTTR%20and%20Response.webp?ssl=1"
+    },
+    {
+      "title": "Critical Android “Zero-Interaction” Vulnerability Enables DoS Attacks",
+      "link": "https://cybersecuritynews.com/android-zero-interaction-vulnerability/",
+      "description": "Google has released its highly anticipated Android Security Bulletin for April 2026, bringing essential security patches to millions of Android devices worldwide. \u0026#160;The most pressing issue in t...",
+      "pub_date": "Tue, 07 Apr 2026 12:49:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Android-Zero-Interaction-Vulnerability-Enables-DoS-Attacks.webp"
     },
     {
       "title": "Over 1,000 Exposed ComfyUI Instances Targeted in Cryptomining Botnet Campaign",
@@ -18,6 +74,22 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNAquH2CuNdKvNbKqIsmTqg2Rpb5SRn8zxBKdQliREzpq_Byd0ye0aD8IFVa1JUj09QnQVJVnAVET30DX0jRBK1LBXJ-16QC_GoiYDH2ibCfoYcttx3McOurmn9e4cSugeNgEQa-oVqR13I9K1h6ktgggudmT3u88I_iN_ksHQvuS2N0u0uGlUNTW_Tv9l/s1600/compfyui.jpg"
     },
     {
+      "title": "Threat Actors Abuse LogMeIn Resolve and ScreenConnect in Multi-Stage Phishing Attacks",
+      "link": "https://cybersecuritynews.com/threat-actors-abuse-logmein-resolve-and-screenconnect/",
+      "description": "A carefully crafted phishing campaign has been targeting organizations across the United States, using trusted remote monitoring and management (RMM) tools to slip past security defenses and gain u...",
+      "pub_date": "Tue, 07 Apr 2026 12:44:18 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Threat-Actors-Abuse-LogMeIn-Resolve-and-ScreenConnect-in-Multi-Stage-Phishing-Attacks.png"
+    },
+    {
+      "title": "BlueHammer PoC for Windows Defender Exploited by Researchers to Escalate Privileges",
+      "link": "https://cybersecuritynews.com/bluehammer-poc-for-windows-defender/",
+      "description": "A proof-of-concept (PoC) exploit dubbed BlueHammer has been publicly released by security researcher Nightmare Eclipse (also known as Chaotic Eclipse), targeting a zero-day local privilege escalati...",
+      "pub_date": "Tue, 07 Apr 2026 12:32:17 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/BlueHammer-PoC-for-Windows-Defender.webp"
+    },
+    {
       "title": "[Webinar] How to Close Identity Gaps in 2026 Before AI Exploits Enterprise Risk",
       "link": "https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html",
       "description": "In\u0026nbsp;the rapid evolution of\u0026nbsp;the 2026 threat landscape, a frustrating paradox has emerged for CISOs and security\u0026nbsp;leaders: Identity programs are maturing, yet the risk is actually increa...",
@@ -26,12 +98,36 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRHgJL0SczODx5PAnF85b8b0mRpiOOkIQdOWvhivyXu6H8UeZKH9ZUdaeW5IuU59q2hjMNioQWQ5vk1Km8yinGGc8GA079qvhTtFsp9PV76Kmp-3lpKh2zi3vgd_-6dFcOI6i1YHs7VkJ-p-HvOEuOwkjooBVSvYFOrVqXqNhZShZy3IUeD6BVHVvUIj50/s1600/webinar-cerby.jpg"
     },
     {
+      "title": "Flowise AI Agent Builder Injection Vulnerability Exploited in Attacks, 15,000+ Instances Exposed",
+      "link": "https://cybersecuritynews.com/flowise-ai-agent-builder-vulnerability-exploited/",
+      "description": "Threat actors are actively exploiting a maximum-severity remote code execution (RCE) vulnerability in Flowise, an open-source platform used for building AI agents and customized large language mode...",
+      "pub_date": "Tue, 07 Apr 2026 12:04:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Flowise-AI-Agent-Builder-Injection-Vulnerability-Exploited-in-Attacks-15000-instances-Exposed.webp"
+    },
+    {
       "title": "The Hidden Cost of Recurring Credential Incidents",
       "link": "https://thehackernews.com/2026/04/the-hidden-cost-of-recurring-credential.html",
       "description": "When talking about credential security, the focus usually lands on breach prevention. This\u0026nbsp;makes sense\u0026nbsp;when IBM’s 2025 Cost of a Data Breach\u0026nbsp;Report puts the average cost of a breac...",
       "pub_date": "Tue, 07 Apr 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKmTyBv8aWjZuBbedJ5TZkS6Y66K940b-vB3d1MoHwX2AXWb8xmabo8pN7pcFBicVbmRmK22bzd9nX3XceGzlcmkfej9nF5VJk1srniaJ2F28JEmeFynSREG8A_XMQBSSba4Rb6nn41RCXPT6p5a23xaEoM9Jxb4yvqStcl9j9cofRrotYh2dvxtrM7uc/s1600/out.jpg"
+    },
+    {
+      "title": "Iran-Linked Hackers Launch Password Spray Campaign Against Microsoft 365 Tenants in Middle East",
+      "link": "https://cybersecuritynews.com/iran-linked-hackers-launch-password-spray-campaign/",
+      "description": "Microsoft 365 tenants in the Middle East are facing a new password spray campaign tied to an Iran-linked threat actor. Rather than starting with malware files or software exploits, the attackers ar...",
+      "pub_date": "Tue, 07 Apr 2026 10:33:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Iran-Linked-Hackers-Launch-Password-Spray-Campaign-Against-Microsoft-365-Tenants-in-Middle-East.webp"
+    },
+    {
+      "title": "Microsoft Releases New Defender Update for Windows 11, 10, and Server Installation Images",
+      "link": "https://cybersecuritynews.com/microsoft-new-defender-update-for-windows/",
+      "description": "Microsoft has officially rolled out its latest security intelligence update for Microsoft Defender Antivirus, delivering crucial protections for Windows 11, Windows 10, and Windows Server installat...",
+      "pub_date": "Tue, 07 Apr 2026 08:50:01 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Releases-New-Defender-Update-for-Windows-11-10-and-Server-Installation-Images.webp"
     },
     {
       "title": "New GPUBreach Attack Enables Full CPU Privilege Escalation via GDDR6 Bit-Flips",
@@ -250,26 +346,10 @@
       "image_url": ""
     },
     {
-      "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
-      "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
-      "description": "Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL expl...",
-      "pub_date": "Sun, 05 Apr 2026 10:37:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9axxKrcvcFkL99SIB2AlrcEW2RIZ1Ff8PollH7XYSWrYSOgoPXKlF5rsdgyr9BSWVUa5oP07faI_DvxNyUk_rpuz5i2xuiEdlU-e929rCWpkLjDGRs4EBjzfBWQRJVtrWNtR-EKvWsR-PPO-Yfei5ONMyumlI12R7OHmIrsyzJtB5SJRTCSuKiyJQnTfK/s1600/database.jpg"
-    },
-    {
       "title": "Axios npm hack used fake Teams error fix to hijack maintainer account",
       "link": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
       "description": "The maintainers of the popular Axios HTTP client have published a detailed post-mortem describing how one of its developers was targeted by a social engineering campaign believed to have been condu...",
       "pub_date": "Sat, 04 Apr 2026 16:30:42 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Device code phishing attacks surge 37x as new kits spread online",
-      "link": "https://www.bleepingcomputer.com/news/security/device-code-phishing-attacks-surge-37x-as-new-kits-spread-online/",
-      "description": "Device code phishing attacks that abuse the OAuth 2.0 Device Authorization Grant flow to hijack accounts have surged more than 37 times this year. [...]",
-      "pub_date": "Sat, 04 Apr 2026 10:17:38 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -442,26 +522,18 @@
       "image_url": ""
     },
     {
+      "title": "Mitsubishi Electric GENESIS64 and ICONICS Suite products",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-097-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a local attacker to disclose SQL Server credentials used by the affected products and use them to disclose, tamper wit...",
+      "pub_date": "Tue, 07 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/04/06/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-35616 - Fortinet FortiClient EMS Improper Access Contr...",
       "pub_date": "Mon, 06 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens SICAM 8 Products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-01",
-      "description": "View CSAF Summary Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICOR...",
-      "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Yokogawa CENTUM VP",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to login as the PROG user and modify permissions. The following versions of Yokogawa CENTUM VP are affected: ...",
-      "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
@@ -474,9 +546,25 @@
       "image_url": ""
     },
     {
+      "title": "Siemens SICAM 8 Products",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-01",
+      "description": "View CSAF Summary Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICOR...",
+      "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Hitachi Energy Ellipse",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-03",
       "description": "View CSAF Summary Hitachi Energy is aware of a Jasper Report vulnerability that affects the Ellipse product versions mentioned in this document below. This vulnerability can be exploited to carry o...",
+      "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Yokogawa CENTUM VP",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to login as the PROG user and modify permissions. The following versions of Yokogawa CENTUM VP are affected: ...",
       "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -550,14 +638,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33634 Aqua Security Trivy Embedded Malicious Code Vuln...",
       "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33017 Langflow Code Injection Vulnerability  This type...",
-      "pub_date": "Wed, 25 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
