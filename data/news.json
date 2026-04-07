@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-07T06:15:14Z",
+  "last_updated": "2026-04-07T08:07:11Z",
   "articles": [
+    {
+      "title": "Microsoft Warns Storm-1175 Exploits Web-Facing Assets 0-Day Flaws in Medusa Ransomware Attacks",
+      "link": "https://cybersecuritynews.com/microsoft-warns-storm-1175-exploits-web-facing-assets-0-day-flaws/",
+      "description": "A new ransomware campaign is putting organizations on high alert. A financially motivated threat group known as Storm-1175 has been running fast-paced attacks targeting vulnerable, internet-facing ...",
+      "pub_date": "Tue, 07 Apr 2026 07:49:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Warns-Storm-1175-Exploits-Web-Facing-Assets-0-Day-Flaws-in-Medusa-Ransomware-Attacks.webp"
+    },
+    {
+      "title": "50,000 WordPress Sites Exposed to Critical Ninja Forms File Upload RCE Vulnerability",
+      "link": "https://cybersecuritynews.com/50000-wordpress-sites-exposed/",
+      "description": "A critical security flaw in the popular WordPress plugin \u0026#8220;Ninja Forms \u0026#8211; File Upload\u0026#8221; has left approximately 50,000 websites vulnerable to complete takeover. Tracked as CVE-2026-07...",
+      "pub_date": "Tue, 07 Apr 2026 07:35:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/50000-WordPress-Sites-Exposed-to-Critical-Ninja-Forms-File-Upload-RCE-Vulnerability.webp"
+    },
+    {
+      "title": "OpenAI Codex Command Injection Vulnerability Let Attackers Steal GitHub User Access Tokens",
+      "link": "https://cybersecuritynews.com/openai-codex-command-injection-vulnerability/",
+      "description": "The integration of AI coding agents has introduced new, high-impact attack surfaces for development teams. Phantom Labs at BeyondTrust recently discovered a critical command-injection vulnerability...",
+      "pub_date": "Tue, 07 Apr 2026 07:02:51 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/OpenAI-Codex-Command-Injection-Vulnerability-Let-Attackers-Steal-GitHub-User-Access-Tokens.webp"
+    },
+    {
+      "title": "Hackers Use Fake TradingView Premium Posts on Reddit to Deliver Vidar and AMOS Stealers",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-tradingview-premium-posts/",
+      "description": "A threat actor has been running an active campaign on Reddit, using fake posts that promise free TradingView Premium access to deliver two malware families — Vidar on Windows and AMOS on macOS. T...",
+      "pub_date": "Tue, 07 Apr 2026 06:59:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-Fake-TradingView-Premium-Posts-on-Reddit-to-Deliver-Vidar-and-AMOS-Stealers.webp"
+    },
+    {
+      "title": "China-Linked Storm-1175 Exploits Zero-Days to Rapidly Deploy Medusa Ransomware",
+      "link": "https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html",
+      "description": "A\u0026nbsp;China-based threat actor known for deploying Medusa ransomware has been linked to the weaponization of a combination of zero-day and N-day vulnerabilities to orchestrate \"high-velocity\" atta...",
+      "pub_date": "Tue, 07 Apr 2026 12:05:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN-ulbNH0WxLgcWOo1fnNpmYNLvHo4VW23VmfdGvDlcbd9IvuUBKMp1hY21B2NlBxtCNa5FCPEzjxPaLpOhz2uXR22uAmgHF0n-wJMb6DZmPFPjlC2QsYb0Vi4qvqmVzPcOmMr8NbwGSYYrceDknuVJ6xnzcDUUrmwO_ObAeq_Pmwf8AHeFlcQFwwpb-H3/s1600/medusa.jpg"
+    },
     {
       "title": "Flowise AI Agent Builder Under Active CVSS 10.0 RCE Exploitation; 12,000+ Instances Exposed",
       "link": "https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html",
@@ -162,44 +202,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZyEpyaWHYHm8-TyNZQgYtoAqrsAUDZ0_onxgp1BUSV0khgAkwy7S9fMT75sRAm2blJXN6xw6i4r0fXP_hayN2Afrr7ul6egJc2nvFJUoWqmy0iJCr5JdK9-915pCFpEtRdlOMb-BYexGAPQPdKnGjWPbPlfGFx5qOo5Dhzfjes7_k-s5bYgFDEyMCT5BJ/s1600/recaps.jpg"
     },
     {
-      "title": "North Korean IT Worker Unmasked After Refusing to Insult Kim Jong Un in Job Interview",
-      "link": "https://cybersecuritynews.com/north-korean-it-worker-unmasked/",
-      "description": "A viral video circulating in cybersecurity and crypto circles has exposed a novel and surprisingly simple technique for unmasking North Korean state-sponsored IT workers attempting to infiltrate We...",
-      "pub_date": "Mon, 06 Apr 2026 12:43:07 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/North-Korean-IT-Worker-Unmasked.webp"
-    },
-    {
       "title": "How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers",
       "link": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
       "description": "The\u0026nbsp;most active piece of enterprise infrastructure in the company is the developer workstation. That\u0026nbsp;laptop is where credentials are created, tested, cached, copied, and reused across ser...",
       "pub_date": "Mon, 06 Apr 2026 17:15:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbMDHeEKBkLDrqXHQ8NZfqd3KdR2hzLuhCEQuQKp0yXA20kmu7JR385GZdV94U615EVunwKkJkDSHlqeoEiu5pB4uElhCSO_vOXWsVUUJvgNkmZE1Z22o_yIapvMEOwvqaG7B31S4ojGPnDwGVqd7zgdtg53IS0AsTkHJRBOvdwf726Fypp5CP7m-3rtc/s1600/liteLLM-breach.gif"
-    },
-    {
-      "title": "Google’s Bug Bounty Program Hits All-Time High With $17 Million in 2025 Payouts",
-      "link": "https://cybersecuritynews.com/googles-bug-bounty-program-high-reward/",
-      "description": "Google’s Vulnerability Reward Program (VRP) celebrated its 15th anniversary in 2025 by breaking every payout record in its history. The tech giant awarded a staggering $17 million to external sec...",
-      "pub_date": "Mon, 06 Apr 2026 11:29:40 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Googles-Bug-Bounty-Program-Hits-All-Time-High-With-17-Million-in-2025-Payouts-1.webp"
-    },
-    {
-      "title": "Apache Traffic Server Vulnerabilities Let Attackers Trigger DoS Attack",
-      "link": "https://cybersecuritynews.com/apache-traffic-server-dos-vulnerabilities/",
-      "description": "The Apache Software Foundation has released emergency security updates to address two severe vulnerabilities in the Apache Traffic Server (ATS). ATS operates as a high-performance web proxy cache t...",
-      "pub_date": "Mon, 06 Apr 2026 11:21:11 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Apache-Traffic-Server-Vulnerability-Let-Attackers-Trigger-DoS-Attack.webp"
-    },
-    {
-      "title": "Critical Dgraph Database Vulnerability Let Attackers Bypass Authentication",
-      "link": "https://cybersecuritynews.com/dgraph-database-vulnerability/",
-      "description": "A maximum-severity vulnerability in Dgraph, a popular open-source graph database. Tracked as CVE-2026-34976, this critical flaw carries a perfect CVSS score of 10.0. It allows unauthenticated remot...",
-      "pub_date": "Mon, 06 Apr 2026 11:15:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Dgraph-Database-Vulnerability-Let-Attackers-Bypass-Authentication-.webp"
     },
     {
       "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools",
@@ -344,14 +352,6 @@
       "pub_date": "Fri, 03 Apr 2026 16:34:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzgZRu55MSbdanW8-1PyCciQIyWUcB9Dv4WhQQEELGJqahN5q7MyrDJKQ77e-9-fNetZJZiaJKERrgMWTGcQ-4TKhzhWE6veQp5w3wxhUnjq3NPMifbpdn1VLYpx5nngu4GsgPknNfAV8CNTGq_L_PBri4s3xz4hp8yt7OPin9Q-Kq_xcBNqzbgHx5SkrU/s1600/supplychain.jpg"
-    },
-    {
-      "title": "Why Third-Party Risk Is the Biggest Gap in Your Clients' Security Posture",
-      "link": "https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html",
-      "description": "The next major\u0026nbsp;breach hitting your clients probably won't come\u0026nbsp;from inside their\u0026nbsp;walls. It'll come through a vendor they trust, a SaaS tool their finance team signed up for, or a sub...",
-      "pub_date": "Fri, 03 Apr 2026 16:30:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVOZWf-jO2_HykRTz3eVXj5HliZeT5oLJzIB9b4aX4fX_0nV9zUgCHL_WU9qxq7Uipi77Sf7I0DfRNGpmI0DwAZTusda6siewFmPGUnLjPIrsUDwagoy7PyaUlpR6anmdXp3OoTMB5aYEBlwKUt_zqRF0rxNQLub2TFqfqitAQdKXMA0ZPBwEV2hzJr1I/s1600/cynomi.jpg"
     },
     {
       "title": "ZDI-26-253: Microsoft Visual Studio Code mcp.json Command Injection Remote Code Execution Vulnerability",
