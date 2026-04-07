@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-07T16:47:23Z",
+  "last_updated": "2026-04-07T17:52:03Z",
   "articles": [
+    {
+      "title": "Hackers Use ClickFix Lure to Drop Node.js-Based Windows RAT With Tor-Powered C2",
+      "link": "https://cybersecuritynews.com/hackers-use-clickfix-lure/",
+      "description": "A fresh wave of cyberattacks is targeting Windows users through a deceptive social engineering technique called ClickFix. Attackers use a fake browser verification page to trick users into running ...",
+      "pub_date": "Tue, 07 Apr 2026 17:14:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-ClickFix-Lure-to-Drop-Node.js-Based-Windows-RAT-With-Tor-Powered-C2.webp"
+    },
+    {
+      "title": "Max severity Flowise RCE vulnerability now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/max-severity-flowise-rce-vulnerability-now-exploited-in-attacks/",
+      "description": "Hackers are exploiting a maximum-severity vulnerability, tracked as CVE-2025-59528, in the open-source platform Flowise for building custom LLM apps and agentic systems to execute arbitrary code. [...",
+      "pub_date": "Tue, 07 Apr 2026 13:02:05 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Russian State-Linked APT28 Exploits SOHO Routers in Global DNS Hijacking Campaign",
+      "link": "https://thehackernews.com/2026/04/russian-state-linked-apt28-exploits.html",
+      "description": "The Russia-linked threat actor known\u0026nbsp;as APT28 (aka Forest Blizzard) has been linked to a new campaign that has compromised insecure MikroTik and TP-Link routers and modified their settings to ...",
+      "pub_date": "Tue, 07 Apr 2026 22:18:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6xcrxyaKNQYXfVN-AHFfiSrJ_8SwW3v7MgKlJNBi-E5WIwT3ZNrNm4fcT0JZKHHLH9fbtMKdYhG_2DBHxkIy7-EydaWvEeeo4LDRPgAJ1K8i-YFeD9a0gPnw92xfN4FU3k7rQUhizsFLL8fiAo2YOw-ql-Ru07KtBUoA__B_fGYW4I6jnnn-OPwxoXnCx/s1600/router.jpg"
+    },
     {
       "title": "Russian Hackers Exploiting Home and Small-office Routers in Massive DNS hijacking Attack",
       "link": "https://cybersecuritynews.com/russian-hackers-exploiting-routers/",
@@ -8,6 +32,14 @@
       "pub_date": "Tue, 07 Apr 2026 16:36:32 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Russian-Hackers-Exploiting-Routers.webp"
+    },
+    {
+      "title": "[Webinar] How to Close Identity Gaps in 2026 Before AI Exploits Enterprise Risk",
+      "link": "https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html",
+      "description": "In\u0026nbsp;the rapid evolution of\u0026nbsp;the 2026 threat landscape, a frustrating paradox has emerged for CISOs and security\u0026nbsp;leaders: Identity programs are maturing, yet the risk is actually increa...",
+      "pub_date": "Tue, 07 Apr 2026 21:59:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRHgJL0SczODx5PAnF85b8b0mRpiOOkIQdOWvhivyXu6H8UeZKH9ZUdaeW5IuU59q2hjMNioQWQ5vk1Km8yinGGc8GA079qvhTtFsp9PV76Kmp-3lpKh2zi3vgd_-6dFcOI6i1YHs7VkJ-p-HvOEuOwkjooBVSvYFOrVqXqNhZShZy3IUeD6BVHVvUIj50/s1600/webinar-cerby.jpg"
     },
     {
       "title": "Authorities disrupt router DNS hijacks used to steal Microsoft 365 logins",
@@ -90,14 +122,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/BlueHammer-PoC-for-Windows-Defender.webp"
     },
     {
-      "title": "[Webinar] How to Close Identity Gaps in 2026 Before AI Exploits Enterprise Risk",
-      "link": "https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html",
-      "description": "In\u0026nbsp;the rapid evolution of\u0026nbsp;the 2026 threat landscape, a frustrating paradox has emerged for CISOs and security\u0026nbsp;leaders: Identity programs are maturing, yet the risk is actually increa...",
-      "pub_date": "Tue, 07 Apr 2026 17:47:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRHgJL0SczODx5PAnF85b8b0mRpiOOkIQdOWvhivyXu6H8UeZKH9ZUdaeW5IuU59q2hjMNioQWQ5vk1Km8yinGGc8GA079qvhTtFsp9PV76Kmp-3lpKh2zi3vgd_-6dFcOI6i1YHs7VkJ-p-HvOEuOwkjooBVSvYFOrVqXqNhZShZy3IUeD6BVHVvUIj50/s1600/webinar-cerby.jpg"
-    },
-    {
       "title": "Flowise AI Agent Builder Injection Vulnerability Exploited in Attacks, 15,000+ Instances Exposed",
       "link": "https://cybersecuritynews.com/flowise-ai-agent-builder-vulnerability-exploited/",
       "description": "Threat actors are actively exploiting a maximum-severity remote code execution (RCE) vulnerability in Flowise, an open-source platform used for building AI agents and customized large language mode...",
@@ -120,14 +144,6 @@
       "pub_date": "Tue, 07 Apr 2026 10:33:24 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Iran-Linked-Hackers-Launch-Password-Spray-Campaign-Against-Microsoft-365-Tenants-in-Middle-East.webp"
-    },
-    {
-      "title": "Microsoft Releases New Defender Update for Windows 11, 10, and Server Installation Images",
-      "link": "https://cybersecuritynews.com/microsoft-new-defender-update-for-windows/",
-      "description": "Microsoft has officially rolled out its latest security intelligence update for Microsoft Defender Antivirus, delivering crucial protections for Windows 11, Windows 10, and Windows Server installat...",
-      "pub_date": "Tue, 07 Apr 2026 08:50:01 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Releases-New-Defender-Update-for-Windows-11-10-and-Server-Installation-Images.webp"
     },
     {
       "title": "New GPUBreach Attack Enables Full CPU Privilege Escalation via GDDR6 Bit-Flips",
@@ -330,26 +346,10 @@
       "image_url": ""
     },
     {
-      "title": "$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation",
-      "link": "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
-      "description": "Drift\u0026nbsp;has revealed that the April 1, 2026, attack that led to\u0026nbsp;the theft of $285\u0026nbsp;million was the culmination of a months-long targeted and meticulously planned social engineering oper...",
-      "pub_date": "Sun, 05 Apr 2026 23:55:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2eFUAGb2m5vs6mOwArunSX0lzBpR8Ag24yQhUtaYxrcHx2V46YcocY9oei-HH89QSB-HTxXta3bLH70_n6zMCRD949ttVsKlt4WnzSZ0rl1v4Suj3A7xftqjQSEXDq_cfLCIcMuENqoFeD9zBW0qZXr1owIEQEqzSNkaKfHFsGF35-lseSZbc0MGLRRWu/s1600/drift-hack.jpg"
-    },
-    {
       "title": "Hackers exploit React2Shell in automated credential theft campaign",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/",
       "description": "Hackers are running a large-scale campaign to steal credentials in an automated way after exploiting React2Shell (CVE-2025-55182) in vulnerable Next.js apps. [...]",
       "pub_date": "Sun, 05 Apr 2026 10:17:23 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Axios npm hack used fake Teams error fix to hijack maintainer account",
-      "link": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
-      "description": "The maintainers of the popular Axios HTTP client have published a detailed post-mortem describing how one of its developers was targeted by a social engineering campaign believed to have been condu...",
-      "pub_date": "Sat, 04 Apr 2026 16:30:42 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -530,6 +530,14 @@
       "image_url": ""
     },
     {
+      "title": "Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
+      "description": "Advisory at a Glance    Title Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure   Original Publication April 7, 2026   Executive Summary  Iran...",
+      "pub_date": "Tue, 07 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/04/06/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-35616 - Fortinet FortiClient EMS Improper Access Contr...",
@@ -546,17 +554,17 @@
       "image_url": ""
     },
     {
-      "title": "Siemens SICAM 8 Products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-01",
-      "description": "View CSAF Summary Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICOR...",
+      "title": "Hitachi Energy Ellipse",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-03",
+      "description": "View CSAF Summary Hitachi Energy is aware of a Jasper Report vulnerability that affects the Ellipse product versions mentioned in this document below. This vulnerability can be exploited to carry o...",
       "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Hitachi Energy Ellipse",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-03",
-      "description": "View CSAF Summary Hitachi Energy is aware of a Jasper Report vulnerability that affects the Ellipse product versions mentioned in this document below. This vulnerability can be exploited to carry o...",
+      "title": "Siemens SICAM 8 Products",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-01",
+      "description": "View CSAF Summary Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICOR...",
       "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -629,14 +637,6 @@
       "title": "PTC Windchill Product Lifecycle Management",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-03",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to achieve remote code execution. The following versions of PTC Windchill Product Lifecycle Management are af...",
-      "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33634 Aqua Security Trivy Embedded Malicious Code Vuln...",
       "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
