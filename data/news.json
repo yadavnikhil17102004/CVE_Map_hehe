@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-07T08:07:11Z",
+  "last_updated": "2026-04-07T10:01:15Z",
   "articles": [
+    {
+      "title": "Microsoft Releases New Defender Update for Windows 11, 10, and Server Installation Images",
+      "link": "https://cybersecuritynews.com/microsoft-new-defender-update-for-windows/",
+      "description": "Microsoft has officially rolled out its latest security intelligence update for Microsoft Defender Antivirus, delivering crucial protections for Windows 11, Windows 10, and Windows Server installat...",
+      "pub_date": "Tue, 07 Apr 2026 08:50:01 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Releases-New-Defender-Update-for-Windows-11-10-and-Server-Installation-Images.webp"
+    },
+    {
+      "title": "New GPUBreach Attack Enables Full CPU Privilege Escalation via GDDR6 Bit-Flips",
+      "link": "https://thehackernews.com/2026/04/new-gpubreach-attack-enables-full-cpu.html",
+      "description": "New academic research has identified multiple RowHammer attacks against high-performance graphics processing units (GPUs) that could be exploited to escalate privileges and, in some cases, even tak...",
+      "pub_date": "Tue, 07 Apr 2026 14:08:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD7E4oEicfW1OaHztWEuM4qrsJFnHRPJ41f8R-2VeKUFV3Y59XaBUctumc2R91miQ3dMPnwkEcpPMqFErKmPRJhS3VRceve1GOSGGUsP6WHGIfoQAuVV10JVy312CxGYvmb2xA_eQtuO69bNb-1NzYln9P4xbsFDoPgWG3BEdri4sRRj415XQr1NENZBh0/s1600/grpu.jpg"
+    },
     {
       "title": "Microsoft Warns Storm-1175 Exploits Web-Facing Assets 0-Day Flaws in Medusa Ransomware Attacks",
       "link": "https://cybersecuritynews.com/microsoft-warns-storm-1175-exploits-web-facing-assets-0-day-flaws/",
@@ -18,7 +34,7 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/50000-WordPress-Sites-Exposed-to-Critical-Ninja-Forms-File-Upload-RCE-Vulnerability.webp"
     },
     {
-      "title": "OpenAI Codex Command Injection Vulnerability Let Attackers Steal GitHub User Access Tokens",
+      "title": "OpenAI Codex Vulnerability Allows Attackers to Steal GitHub Access Tokens",
       "link": "https://cybersecuritynews.com/openai-codex-command-injection-vulnerability/",
       "description": "The integration of AI coding agents has introduced new, high-impact attack surfaces for development teams. Phantom Labs at BeyondTrust recently discovered a critical command-injection vulnerability...",
       "pub_date": "Tue, 07 Apr 2026 07:02:51 +0000",
@@ -168,14 +184,6 @@
       "pub_date": "Mon, 06 Apr 2026 14:34:20 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-GitHub-Actions-Attack-Chain-Uses-Fake-CI-Updates-to-Exfiltrate-Secrets-and-Tokens.webp"
-    },
-    {
-      "title": "DPRK Cyber Program Uses Modular Malware Strategy to Evade Attribution and Survive Takedowns",
-      "link": "https://cybersecuritynews.com/dprk-cyber-program-uses-modular-malware-strategy/",
-      "description": "North Korea\u0026#8217;s cyber program has fundamentally shifted how it builds and deploys malware. Rather than relying on one all-purpose hacking tool, the regime has assembled a fragmented ecosystem o...",
-      "pub_date": "Mon, 06 Apr 2026 14:06:36 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/DPRK-Cyber-Program-Uses-Modular-Malware-Strategy-to-Evade-Attribution-and-Survive-Takedowns.webp"
     },
     {
       "title": "Why Simple Breach Monitoring is No Longer Enough",
@@ -344,14 +352,6 @@
       "pub_date": "Fri, 03 Apr 2026 21:02:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_2zEf8l08MTElI1sGlJPVVWtscud2RAXdsivOvcby3pO4NUWMBioT3FNaFL7Bw0GeEqnX_WqY10FVqXhVNBTOrl0UMPoyun7AvshwpvfJIdfdJ0yJ1V2mz7ZHQDE9motXuuW6urvTJYu0kLGvpZf10Qx1hNeobD4YV25tJY9nvNoW9Sqd8nSsWK7NWQP0/s1600/php-linux.jpg"
-    },
-    {
-      "title": "UNC1069 Social Engineering of Axios Maintainer Led to npm Supply Chain Attack",
-      "link": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
-      "description": "The\u0026nbsp;maintainer of the Axios npm package has confirmed that the supply chain compromise was the result of a highly-targeted social engineering campaign orchestrated by North Korean threat actor...",
-      "pub_date": "Fri, 03 Apr 2026 16:34:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzgZRu55MSbdanW8-1PyCciQIyWUcB9Dv4WhQQEELGJqahN5q7MyrDJKQ77e-9-fNetZJZiaJKERrgMWTGcQ-4TKhzhWE6veQp5w3wxhUnjq3NPMifbpdn1VLYpx5nngu4GsgPknNfAV8CNTGq_L_PBri4s3xz4hp8yt7OPin9Q-Kq_xcBNqzbgHx5SkrU/s1600/supplychain.jpg"
     },
     {
       "title": "ZDI-26-253: Microsoft Visual Studio Code mcp.json Command Injection Remote Code Execution Vulnerability",
