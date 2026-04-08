@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-04-08T22:31:52Z",
+  "last_updated": "2026-04-08T23:31:38Z",
   "articles": [
+    {
+      "title": "Hackers use pixel-large SVG trick to hide credit card stealer",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-pixel-large-svg-trick-to-hide-credit-card-stealer/",
+      "description": "A massive campaign impacting nearly 100 online stores using the Magento e-commerce platform hides credit card-stealing code in a pixel-sized Scalable Vector Graphics (SVG) image. [...]",
+      "pub_date": "Wed, 08 Apr 2026 18:34:26 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Google: New UNC6783 hackers steal corporate Zendesk support tickets",
       "link": "https://www.bleepingcomputer.com/news/security/google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets/",
@@ -50,46 +58,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVrpJtAgJfASiMYseJhDzJoT1ly7iXa_e_Y_4TBhGIkVGCJ_ZLDM-tGb1Y9NWcOpOcH-xUZUfDiM0fuvUIabEa_5xSbgGjgL8U4FPE99W-V6-oFRAG1ziEZeiJPYrkSZZrwu0jQDjhdUfKsiSxPgZbyZgF1A-cUOqUK3aJpSOQgeSZWogg1X9r77IANDey/s1600/ddos-for-hire.jpg"
     },
     {
-      "title": "Microsoft 365 Network-Level Disruption Affecting Exchange Online, Teams, and Core Suite Services",
-      "link": "https://cybersecuritynews.com/microsoft-365-network-level-disruption/",
-      "description": "A network-level disruption struck multiple Microsoft 365 services on Wednesday evening, knocking out or degrading access to Exchange Online, Microsoft Teams, and the broader Microsoft 365 suite for...",
-      "pub_date": "Wed, 08 Apr 2026 15:57:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-365-Network-Level-Disruption.webp"
-    },
-    {
-      "title": "Hackers Used EvilTokens, ClickFix Campaign to Attack Claude Code Users with AMOS Stealer",
-      "link": "https://cybersecuritynews.com/eviltokens-amos-march-2026-threat-campaigns/",
-      "description": "Two significant threat campaigns from March 2026, one abusing Microsoft\u0026#8217;s OAuth authentication flow to silently hijack enterprise accounts, and another deploying the AMOS infostealer against ...",
-      "pub_date": "Wed, 08 Apr 2026 15:47:09 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsYCH404m7lvLvw2L8MFdeW5gERoWVAKc8yrFbb8_GGZXt-7kusay9R5Cd8kaa6y0grLkIrOBvPtjTMNLi0ZeDDOu-ClK3alSILL47xB56_rkRWqq-lzBpyQCbvjtoZyF8c_8bs2ufOoW2umeoJlVtCmIzRBZqGe_AR8h5ty_kMjXMxsBr13dxZM9Qgg/s16000/EvilTokens%20and%20AMOS%20redefine%20modern%20phishing%20attacks.webp?ssl=1"
-    },
-    {
-      "title": "IBM Identity and Verify Access Vulnerabilities Allow Remote Attacker to Access Sensitive Data",
-      "link": "https://cybersecuritynews.com/ibm-identity-and-verify-access-vulnerabilities/",
-      "description": "A critical security bulletin highlights multiple vulnerabilities in Verify Identity Access and Security Verify Access products. If left unpatched, these widespread security flaws could allow malici...",
-      "pub_date": "Wed, 08 Apr 2026 14:54:44 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/IBM-Identity-and-Verify-Access-Vulnerabilities-Allow-remote-attacker-to-access-sensitive-Data.webp"
-    },
-    {
-      "title": "Hackers Actively Attacking Adobe Reader Users Using Sophisticated 0-Day Exploit",
-      "link": "https://cybersecuritynews.com/adobe-reader-0-day-exploit/",
-      "description": "A highly sophisticated, unpatched zero-day exploit is actively targeting users of Adobe Reader. Detected by the EXPMON threat-hunting system, this malicious PDF file is designed to steal sensitive ...",
-      "pub_date": "Wed, 08 Apr 2026 14:52:33 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Actively-Attacking-Adobe-Reader-Users-Using-Sophisticated-0-Day-Exploit.webp"
-    },
-    {
-      "title": "Anthropic Unveils Claude Mythos Preview With Powerful Zero-Day Detection Capabilities",
-      "link": "https://cybersecuritynews.com/claude-mythos-zero-day-detection/",
-      "description": "Anthropic has introduced Claude Mythos Preview, an advanced language model with extraordinary capabilities for discovering and autonomously exploiting undiscovered zero-day vulnerabilities. To ens...",
-      "pub_date": "Wed, 08 Apr 2026 14:45:38 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Anthropic-Unveils-Claude-Mythos-Preview-With-Powerful-Zero-Day-Discovery-Capabilities.webp"
-    },
-    {
       "title": "Is a $30,000 GPU Good at Password Cracking?",
       "link": "https://www.bleepingcomputer.com/news/security/is-a-30-000-gpu-good-at-password-cracking/",
       "description": "A $30,000 AI GPU doesn't outperform consumer GPUs at password cracking. Specops explains why attackers don't need exotic hardware to break weak passwords. [...]",
@@ -106,52 +74,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBiilqDko4PDmo2Iu-E-25PRzUJ2LygbHdv1RsdA31AkJBL9QB3AzdxV_4j-jo2Xf9wXwlienf17HO_uJyiue3JOWNfTFdln4gXJcounilzPxOsIXpN5g6imDW3ta0jt4Ck3UYinAmWwHZqfxYhjuaFnOIowTmZbNedv3AmS7Qlze1-tD2gkJBuUxTzSml/s1600/nato.jpg"
     },
     {
-      "title": "Microsoft Confirms Recent Windows 11 Update Breaks Start Menu Search Function",
-      "link": "https://cybersecuritynews.com/windows-11-update-breaks-start-menu-function/",
-      "description": "Microsoft has acknowledged a server-side issue that disrupted Start Menu search functionality for a subset of Windows 11 23H2 users, and has since deployed a fix to address the problem without requ...",
-      "pub_date": "Wed, 08 Apr 2026 11:52:30 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-11-Update-Breaks-Start-Menu-Function.webp"
-    },
-    {
       "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
       "link": "https://thehackernews.com/2026/04/shrinking-iam-attack-surface-through.html",
       "description": "The Fragmented State of Modern Enterprise\u0026nbsp;Identity Enterprise IAM is approaching a breaking point. As\u0026nbsp;organizations scale, identity becomes increasingly fragmented across thousands of app...",
       "pub_date": "Wed, 08 Apr 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBk9NZe_ohGdUGAoq15K_dOgD1oLAfVbW296B80LqWpzR3Cal5Zerxl9gJCmrK9g9WROjalAzzvElgqRAm-2WtyxAJLfisSZ7b5S_HwDR4QvJnuO5H3g3W3Qd-_OAG-lcmsjCQ3K0bj5_5BRcY-B8euArXK8_lAvFxJf0h6CyHW0ZfXtCgZPqRA7ShNbU/s1600/orchid.jpg"
-    },
-    {
-      "title": "Google Expands Chrome Lazy Loading to Video and Audio in New Browser Update",
-      "link": "https://cybersecuritynews.com/google-chrome-lazy-loading/",
-      "description": "Google is bringing a major performance enhancement to its browser by expanding native lazy loading capabilities to include video and audio elements. By adding the loading=\"lazy\" attribute directl...",
-      "pub_date": "Wed, 08 Apr 2026 11:09:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Google-Expands-Chrome-Lazy-Loading-to-Video-and-Audio-in-New-Browser-Update.webp"
-    },
-    {
-      "title": "Amazon S3 Files, Turns S3 Buckets as File System to Access Your Data",
-      "link": "https://cybersecuritynews.com/amazon-s3-buckets-as-file-system/",
-      "description": "Amazon Web Services (AWS) has introduced a major update to its cloud storage infrastructure with the launch of Amazon S3 Files. This new feature allows organizations to access their Amazon S3 bucke...",
-      "pub_date": "Wed, 08 Apr 2026 10:45:03 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Amazon-S3-Files-Turns-S3-buckets-as-file-system-to-Access-your-Data-1.webp"
-    },
-    {
-      "title": "Docker Vulnerability Let Attackers Bypass Authorization and Gain Host Access",
-      "link": "https://cybersecuritynews.com/docker-vulnerability-bypass-authorization/",
-      "description": "A newly discovered high-severity vulnerability in Docker Engine could allow attackers to bypass authorization plugins and potentially gain unauthorized access to the underlying host system. Tracked...",
-      "pub_date": "Wed, 08 Apr 2026 10:43:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Docker-Vulnerability-Let-Attackers-Bypass-authorization-and-Gain-Host-Access-1.webp"
-    },
-    {
-      "title": "AWS and Anthropic Advancing AI-powered Cybersecurity With Claude Mythos",
-      "link": "https://cybersecuritynews.com/aws-and-anthropic-ai-powered-cybersecurity/",
-      "description": "As cyber threats evolve at an unprecedented pace, Amazon Web Services (AWS) and Anthropic have teamed up to introduce the next generation of artificial intelligence for cybersecurity. Announced as ...",
-      "pub_date": "Wed, 08 Apr 2026 10:36:20 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/AWS-and-Anthropic-Advancing-AI-powered-cybersecurity-With-Claude-Mythos-1.webp"
     },
     {
       "title": "Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems",
@@ -310,14 +238,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/german-authorities-identify-revil-and-gangcrab-ransomware-bosses/",
       "description": "The Federal Police in Germany (BKA) has identified two Russian nationals as the leaders of GandCrab and REvil ransomware operations between 2019 and 2021. [...]",
       "pub_date": "Mon, 06 Apr 2026 19:54:04 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "New GPUBreach attack enables system takeover via GPU rowhammer",
-      "link": "https://www.bleepingcomputer.com/news/security/new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer/",
-      "description": "A new attack, dubbed GPUBreach, can induce Rowhammer bit-flips on GPU GDDR6 memories to escalate privileges and lead to a full system compromise. [...]",
-      "pub_date": "Mon, 06 Apr 2026 17:44:15 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
