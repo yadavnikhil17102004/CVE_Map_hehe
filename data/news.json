@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-04-08T13:04:12Z",
+  "last_updated": "2026-04-08T15:03:00Z",
   "articles": [
+    {
+      "title": "IBM Identity and Verify Access Vulnerabilities Allow Remote Attacker to Access Sensitive Data",
+      "link": "https://cybersecuritynews.com/ibm-identity-and-verify-access-vulnerabilities/",
+      "description": "A critical security bulletin highlights multiple vulnerabilities in Verify Identity Access and Security Verify Access products. If left unpatched, these widespread security flaws could allow malici...",
+      "pub_date": "Wed, 08 Apr 2026 14:54:44 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/IBM-Identity-and-Verify-Access-Vulnerabilities-Allow-remote-attacker-to-access-sensitive-Data.webp"
+    },
+    {
+      "title": "Hackers Actively Attacking Adobe Reader Users Using Sophisticated 0-Day Exploit",
+      "link": "https://cybersecuritynews.com/adobe-reader-0-day-exploit/",
+      "description": "A highly sophisticated, unpatched zero-day exploit is actively targeting users of Adobe Reader. Detected by the EXPMON threat-hunting system, this malicious PDF file is designed to steal sensitive ...",
+      "pub_date": "Wed, 08 Apr 2026 14:52:33 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Actively-Attacking-Adobe-Reader-Users-Using-Sophisticated-0-Day-Exploit.webp"
+    },
+    {
+      "title": "Anthropic Unveils Claude Mythos Preview With Powerful Zero-Day Detection Capabilities",
+      "link": "https://cybersecuritynews.com/claude-mythos-zero-day-detection/",
+      "description": "Anthropic has introduced Claude Mythos Preview, an advanced language model with extraordinary capabilities for discovering and autonomously exploiting undiscovered zero-day vulnerabilities. To ens...",
+      "pub_date": "Wed, 08 Apr 2026 14:45:38 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Anthropic-Unveils-Claude-Mythos-Preview-With-Powerful-Zero-Day-Discovery-Capabilities.webp"
+    },
+    {
+      "title": "Is a $30,000 GPU Good at Password Cracking?",
+      "link": "https://www.bleepingcomputer.com/news/security/is-a-30-000-gpu-good-at-password-cracking/",
+      "description": "A $30,000 AI GPU doesn't outperform consumer GPUs at password cracking. Specops explains why attackers don't need exotic hardware to break weak passwords. [...]",
+      "pub_date": "Wed, 08 Apr 2026 10:00:10 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Microsoft Confirms Recent Windows 11 Update Breaks Start Menu Search Function",
       "link": "https://cybersecuritynews.com/windows-11-update-breaks-start-menu-function/",
@@ -82,14 +114,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/OpenSSL-Vulnerabilities-Expose-Data.webp"
     },
     {
-      "title": "FBI Disrupts Russian Router Hijacking Operation Compromised Thousands of Users",
-      "link": "https://cybersecuritynews.com/fbi-disrupts-russian-router-hijacking/",
-      "description": "The U.S. Justice Department and the FBI have successfully dismantled a massive cyberespionage network in a court-authorized takedown dubbed \u0026#8220;Operation Masquerade.\u0026#8221; Announced on April 7,...",
-      "pub_date": "Wed, 08 Apr 2026 07:13:41 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Russian-Router-Hijacking-Operation.webp"
-    },
-    {
       "title": "Microsoft rolls out fix for broken Windows Start Menu search",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-broken-windows-start-menu-search/",
       "description": "Microsoft has pushed a server-side fix for a known issue that broke the Windows Start Menu search feature on some Windows 11 23H2 devices. [...]",
@@ -104,22 +128,6 @@
       "pub_date": "Wed, 08 Apr 2026 09:53:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBiMBUkucAS1NG7NHlk46hGqNyjv5iU5w1Z6HVNXgQywcDfTSOdtQWSqYA5ccSojgRB45ScYHFfyPWqe_9QbOZYo6u6V5qUAcRQIm4CfIDvkRqhs7rtPhmD7yNR4bn_StYbNZm2UWqXfeqXCUeDL1eneK7VyGnHfGbk3EatILzs_fKtRN6VxF8vnKDgQL_/s1600/plc.jpg"
-    },
-    {
-      "title": "Claude Finds 13-Year-Old 0-Day RCE Vulnerability in Apache ActiveMQ in 10 Minutes",
-      "link": "https://cybersecuritynews.com/claude-apache-activemq/",
-      "description": "A critical remote code execution (RCE) vulnerability has been disclosed in Apache ActiveMQ Classic, a flaw that sat undetected for over a decade and was ultimately discovered not by a human researc...",
-      "pub_date": "Wed, 08 Apr 2026 04:15:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Apache-ActiveMQ.webp"
-    },
-    {
-      "title": "CUPS Vulnerability Chain Enables Remote Attacker to Execute Malicious Code as Root User",
-      "link": "https://cybersecuritynews.com/cups-vulnerability-remote-attack/",
-      "description": "A critical vulnerability chain in the Common Unix Printing System (CUPS) that allows unauthenticated remote attackers to execute arbitrary malicious code with root system privileges. Security resea...",
-      "pub_date": "Wed, 08 Apr 2026 03:51:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CUPS-Vulnerability-Chain-Enables-Remote-Attacker-to-Execute-Malicious-Code-as-Root-User.webp"
     },
     {
       "title": "Hackers exploit critical flaw in Ninja Forms WordPress plugin",
@@ -294,14 +302,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/",
       "description": "Microsoft says that Storm-1175, a China-based financially motivated cybercriminal group known for deploying Medusa ransomware payloads, has been deploying n-day and zero-day exploits in high-veloci...",
       "pub_date": "Mon, 06 Apr 2026 12:56:01 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Drift $280M crypto theft linked to 6-month in-person operation",
-      "link": "https://www.bleepingcomputer.com/news/security/drift-280m-crypto-theft-linked-to-6-month-in-person-operation/",
-      "description": "The Drift Protocol says that the $280+ million hack it suffered last week was the result of a long-term, carefully planned operation that included building \"a functioning operational presence insid...",
-      "pub_date": "Mon, 06 Apr 2026 12:35:03 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
