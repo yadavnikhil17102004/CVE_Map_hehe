@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-08T16:53:02Z",
+  "last_updated": "2026-04-08T18:00:49Z",
   "articles": [
+    {
+      "title": "13-year-old bug in ActiveMQ lets hackers remotely execute commands",
+      "link": "https://www.bleepingcomputer.com/news/security/13-year-old-bug-in-activemq-lets-hackers-remotely-execute-commands/",
+      "description": "Security researchers discovered a remote code execution (RCE) vulnerability in Apache ActiveMQ Classic that has gone undetected for 13 years and could be exploited to execute arbitrary commands. [...]",
+      "pub_date": "Wed, 08 Apr 2026 13:26:40 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Masjesu Botnet Emerges as DDoS-for-Hire Service Targeting Global IoT Devices",
+      "link": "https://thehackernews.com/2026/04/masjesu-botnet-emerges-as-ddos-for-hire.html",
+      "description": "Cybersecurity researchers have lifted the curtain on a stealthy botnet that's designed for distributed denial-of-service (DDoS)\u0026nbsp;attacks. Called Masjesu, the botnet has been advertised via Tele...",
+      "pub_date": "Wed, 08 Apr 2026 22:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVrpJtAgJfASiMYseJhDzJoT1ly7iXa_e_Y_4TBhGIkVGCJ_ZLDM-tGb1Y9NWcOpOcH-xUZUfDiM0fuvUIabEa_5xSbgGjgL8U4FPE99W-V6-oFRAG1ziEZeiJPYrkSZZrwu0jQDjhdUfKsiSxPgZbyZgF1A-cUOqUK3aJpSOQgeSZWogg1X9r77IANDey/s1600/ddos-for-hire.jpg"
+    },
     {
       "title": "Microsoft 365 Network-Level Disruption Affecting Exchange Online, Teams, and Core Suite Services",
       "link": "https://cybersecuritynews.com/microsoft-365-network-level-disruption/",
@@ -306,22 +322,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft links Medusa ransomware affiliate to zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/",
-      "description": "Microsoft says that Storm-1175, a China-based financially motivated cybercriminal group known for deploying Medusa ransomware payloads, has been deploying n-day and zero-day exploits in high-veloci...",
-      "pub_date": "Mon, 06 Apr 2026 12:56:01 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "DPRK-Linked Hackers Use GitHub as C2 in Multi-Stage Attacks Targeting South Korea",
-      "link": "https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html",
-      "description": "Threat\u0026nbsp;actors likely associated with the Democratic People's Republic of Korea (DPRK) have been observed using GitHub as command-and-control (C2) infrastructure in multi-stage attacks targetin...",
-      "pub_date": "Mon, 06 Apr 2026 21:54:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh23Q23hk6n_d_f9evdsf7JVcn5OswTUqwd0B8EvWdftPQXN4K1V6nHICk_MvzLf4jUfCCHpUmaZIzECekbKf3PQ2w2gRlY-AphdBRZgyJHq7XQsyIS_vp6iT_fVLoDQ1TFA4DBLT32Q1sTY_WHjGRtzaYMOqMNThcg8JodZ-Aozj2OO21DQLj2agEojjdp/s1600/github.jpg"
-    },
-    {
       "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-257/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Labcenter Electronics Proteus. User interaction is required to exploit this vulnerability in that t...",
@@ -522,6 +522,14 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/08/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-1340 Ivanti Endpoint Manager Mobile (EPMM) Code Inject...",
+      "pub_date": "Wed, 08 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Mitsubishi Electric GENESIS64 and ICONICS Suite products",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-097-01",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a local attacker to disclose SQL Server credentials used by the affected products and use them to disclose, tamper wit...",
@@ -546,17 +554,17 @@
       "image_url": ""
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/02/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added\u0026nbsp;one\u0026nbsp;new\u0026nbsp;vulnerability\u0026nbsp;to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\u0026nbsp;  CVE-2026-3502\u0026nbsp;TrueConf\u0026nbsp...",
+      "title": "Hitachi Energy Ellipse",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-03",
+      "description": "View CSAF Summary Hitachi Energy is aware of a Jasper Report vulnerability that affects the Ellipse product versions mentioned in this document below. This vulnerability can be exploited to carry o...",
       "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Hitachi Energy Ellipse",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-03",
-      "description": "View CSAF Summary Hitachi Energy is aware of a Jasper Report vulnerability that affects the Ellipse product versions mentioned in this document below. This vulnerability can be exploited to carry o...",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/02/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added\u0026nbsp;one\u0026nbsp;new\u0026nbsp;vulnerability\u0026nbsp;to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\u0026nbsp;  CVE-2026-3502\u0026nbsp;TrueConf\u0026nbsp...",
       "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -629,14 +637,6 @@
       "title": "WAGO GmbH \u0026 Co. KG Industrial Managed Switches",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-01",
       "description": "View CSAF Summary An unauthenticated remote attacker can exploit a hidden function in the CLI prompt to escape the restricted interface, leading to full compromise of the device. The following vers...",
-      "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "PTC Windchill Product Lifecycle Management",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-03",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to achieve remote code execution. The following versions of PTC Windchill Product Lifecycle Management are af...",
       "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
