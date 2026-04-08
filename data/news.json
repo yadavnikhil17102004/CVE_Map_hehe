@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-04-08T06:16:54Z",
+  "last_updated": "2026-04-08T08:08:27Z",
   "articles": [
+    {
+      "title": "Indian Bank Warns Users of Fake LPG Payment and KYC Update Scams to Steal Banking Info",
+      "link": "https://cybersecuritynews.com/fake-lpg-payment-and-kyc-update/",
+      "description": "Indian Bank has issued an urgent cybersecurity advisory warning its customers about a rapidly spreading wave of fraudulent LPG payment and KYC update messages that are being used to steal banking c...",
+      "pub_date": "Wed, 08 Apr 2026 08:02:42 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Fake-LPG-Payment-and-KYC-Update.webp"
+    },
+    {
+      "title": "Multiple OpenSSL Vulnerabilities Exposes Sensitive Data in RSA KEM Handling",
+      "link": "https://cybersecuritynews.com/openssl-vulnerabilities-expose-data/",
+      "description": "OpenSSL has released a broad April 2026 security update that fixes seven vulnerabilities across supported branches, led by CVE-2026-31790, a moderate-severity flaw in RSA KEM RSASVE encapsulation t...",
+      "pub_date": "Wed, 08 Apr 2026 07:40:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/OpenSSL-Vulnerabilities-Expose-Data.webp"
+    },
+    {
+      "title": "FBI Disrupts Russian Router Hijacking Operation Compromised Thousands of Users",
+      "link": "https://cybersecuritynews.com/fbi-disrupts-russian-router-hijacking/",
+      "description": "The U.S. Justice Department and the FBI have successfully dismantled a massive cyberespionage network in a court-authorized takedown dubbed \u0026#8220;Operation Masquerade.\u0026#8221; Announced on April 7,...",
+      "pub_date": "Wed, 08 Apr 2026 07:13:41 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Russian-Router-Hijacking-Operation.webp"
+    },
+    {
+      "title": "Microsoft rolls out fix for broken Windows Start Menu search",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-broken-windows-start-menu-search/",
+      "description": "Microsoft has pushed a server-side fix for a known issue that broke the Windows Start Menu search feature on some Windows 11 23H2 devices. [...]",
+      "pub_date": "Wed, 08 Apr 2026 03:00:55 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Iran-Linked Hackers Disrupt U.S. Critical Infrastructure by Targeting Internet-Exposed PLCs",
       "link": "https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html",
@@ -10,7 +42,7 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBiMBUkucAS1NG7NHlk46hGqNyjv5iU5w1Z6HVNXgQywcDfTSOdtQWSqYA5ccSojgRB45ScYHFfyPWqe_9QbOZYo6u6V5qUAcRQIm4CfIDvkRqhs7rtPhmD7yNR4bn_StYbNZm2UWqXfeqXCUeDL1eneK7VyGnHfGbk3EatILzs_fKtRN6VxF8vnKDgQL_/s1600/plc.jpg"
     },
     {
-      "title": "Claude Uncovers 13-Year-Old 0-Day RCE Flaw in Apache ActiveMQ in Just 10 Minutes",
+      "title": "Claude Finds 13-Year-Old 0-Day RCE Vulnerability in Apache ActiveMQ in 10 Minutes",
       "link": "https://cybersecuritynews.com/claude-apache-activemq/",
       "description": "A critical remote code execution (RCE) vulnerability has been disclosed in Apache ActiveMQ Classic, a flaw that sat undetected for over a decade and was ultimately discovered not by a human researc...",
       "pub_date": "Wed, 08 Apr 2026 04:15:34 +0000",
@@ -98,14 +130,6 @@
       "image_url": ""
     },
     {
-      "title": "Hackers Use ClickFix Lure to Drop Node.js-Based Windows RAT With Tor-Powered C2",
-      "link": "https://cybersecuritynews.com/hackers-use-clickfix-lure/",
-      "description": "A fresh wave of cyberattacks is targeting Windows users through a deceptive social engineering technique called ClickFix. Attackers use a fake browser verification page to trick users into running ...",
-      "pub_date": "Tue, 07 Apr 2026 17:14:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-ClickFix-Lure-to-Drop-Node.js-Based-Windows-RAT-With-Tor-Powered-C2.webp"
-    },
-    {
       "title": "Max severity Flowise RCE vulnerability now exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/max-severity-flowise-rce-vulnerability-now-exploited-in-attacks/",
       "description": "Hackers are exploiting a maximum-severity vulnerability, tracked as CVE-2025-59528, in the open-source platform Flowise for building custom LLM apps and agentic systems to execute arbitrary code. [...",
@@ -120,14 +144,6 @@
       "pub_date": "Tue, 07 Apr 2026 22:18:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6xcrxyaKNQYXfVN-AHFfiSrJ_8SwW3v7MgKlJNBi-E5WIwT3ZNrNm4fcT0JZKHHLH9fbtMKdYhG_2DBHxkIy7-EydaWvEeeo4LDRPgAJ1K8i-YFeD9a0gPnw92xfN4FU3k7rQUhizsFLL8fiAo2YOw-ql-Ru07KtBUoA__B_fGYW4I6jnnn-OPwxoXnCx/s1600/router.jpg"
-    },
-    {
-      "title": "Russian Hackers Exploiting Home and Small-office Routers in Massive DNS hijacking Attack",
-      "link": "https://cybersecuritynews.com/russian-hackers-exploiting-routers/",
-      "description": "A large-scale campaign by Forest Blizzard, a Russian military-linked threat actor, targeting home and small-office routers to hijack DNS traffic and intercept encrypted communications with over 200...",
-      "pub_date": "Tue, 07 Apr 2026 16:36:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Russian-Hackers-Exploiting-Routers.webp"
     },
     {
       "title": "[Webinar] How to Close Identity Gaps in 2026 Before AI Exploits Enterprise Risk",
@@ -152,14 +168,6 @@
       "pub_date": "Tue, 07 Apr 2026 20:45:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1fiR51KBq7hNIR1D2V9e0jituEJTVutYd8b9v6KR0YdA30xWCSKJo3nfIykSdYSjZNe7gvNj3Wf3HidhZ24n-piDo8LhrE6ctyZrcLYNcJwCSP0KEe7G0Fl_xJm676Dv-4bFEh63Vv_xZ1zb9qOKhfeWFN5IexOHligHBCTHyVLAMDl0aeL2olDxnjfch/s1600/ai-chat.jpg"
-    },
-    {
-      "title": "Fake Software Installers Used to Drop RATs and Monero Miners in Long-Running Malware Campaign",
-      "link": "https://cybersecuritynews.com/fake-software-installers-used-to-drop-rats/",
-      "description": "A financially motivated threat actor has been running a quiet malware campaign since at least late 2023, tricking users into downloading fake software installers that secretly deliver remote access...",
-      "pub_date": "Tue, 07 Apr 2026 14:55:41 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Fake-Software-Installers-Used-to-Drop-RATs-and-Monero-Miners-in-Long-Running-Malware-Campaign.webp"
     },
     {
       "title": "Why Your Automated Pentesting Tool Just Hit a Wall",
@@ -280,14 +288,6 @@
       "pub_date": "Mon, 06 Apr 2026 21:54:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh23Q23hk6n_d_f9evdsf7JVcn5OswTUqwd0B8EvWdftPQXN4K1V6nHICk_MvzLf4jUfCCHpUmaZIzECekbKf3PQ2w2gRlY-AphdBRZgyJHq7XQsyIS_vp6iT_fVLoDQ1TFA4DBLT32Q1sTY_WHjGRtzaYMOqMNThcg8JodZ-Aozj2OO21DQLj2agEojjdp/s1600/github.jpg"
-    },
-    {
-      "title": "CISA orders feds to patch exploited Fortinet EMS flaw by Friday",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-fortinet-flaw-exploited-in-attacks-by-friday/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered federal agencies to secure FortiClient Enterprise Management Server (EMS) instances against an actively exploited vulnerabil...",
-      "pub_date": "Mon, 06 Apr 2026 12:02:14 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Multi-OS Cyberattacks: How SOCs Close a Critical Risk in 3 Steps",
