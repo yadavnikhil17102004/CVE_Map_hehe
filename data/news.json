@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-08T18:00:49Z",
+  "last_updated": "2026-04-08T19:54:29Z",
   "articles": [
+    {
+      "title": "New macOS stealer campaign uses Script Editor in ClickFix attack",
+      "link": "https://www.bleepingcomputer.com/news/security/new-macos-stealer-campaign-uses-script-editor-in-clickfix-attack/",
+      "description": "A new campaign delivering the Atomic Stealer malware to macOS users abuses the Script Editor in a variation of the ClickFix attack that tricked users into executing commands in Terminal. [...]",
+      "pub_date": "Wed, 08 Apr 2026 14:55:43 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "CISA orders feds to patch exploited Ivanti EPMM flaw by Sunday",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-ivanti-epmm-flaw-by-sunday/",
+      "description": "CISA has given U.S. government agencies four days to secure their systems against a critical-severity vulnerability in Ivanti Endpoint Manager Mobile (EPMM) that has been exploited in attacks si...",
+      "pub_date": "Wed, 08 Apr 2026 14:15:27 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New Chaos Variant Targets Misconfigured Cloud Deployments, Adds SOCKS Proxy",
+      "link": "https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html",
+      "description": "Cybersecurity researchers have flagged a new variant\u0026nbsp;ofmalware\u0026nbsp;called Chaosthat'scapable of\u0026nbsp;hitting misconfigured cloud deployments, marking an expansion of the botnet's targeting in...",
+      "pub_date": "Wed, 08 Apr 2026 23:21:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjO6ntnqBUePhV2XQEQmTFh-IjdPR64u_T9ODhO3RY_BAv_8YohhRCwMg6OO9UKlvJJCd7rs1c391fbNZ59qDsSujaFJuso3h_94xKo2BX2L5Jj-osBqZ3VglM5kbgzt6OJGtkiNx4Am6NbgzrHtUa7fbdnfei8_xeJao4yvlMp3HkCurz9aNJkg9Xv934/s1600/cloud.jpg"
+    },
     {
       "title": "13-year-old bug in ActiveMQ lets hackers remotely execute commands",
       "link": "https://www.bleepingcomputer.com/news/security/13-year-old-bug-in-activemq-lets-hackers-remotely-execute-commands/",
@@ -294,30 +318,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit/",
       "description": "Exploit code has been released for an unpatched Windows privilege escalation flaw reported privately to Microsoft, allowing attackers to gain SYSTEM or elevated administrator permissions. [...]",
       "pub_date": "Mon, 06 Apr 2026 15:19:27 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft fixes Classic Outlook bug causing email delivery issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-classic-outlook-bug-causing-email-delivery-issues/",
-      "description": "Microsoft has resolved a known issue that was preventing some Classic Outlook users from sending emails via Outlook.com. [...]",
-      "pub_date": "Mon, 06 Apr 2026 15:19:24 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Iran-Linked Password-Spraying Campaign Targets 300+ Israeli Microsoft 365 Organizations",
-      "link": "https://thehackernews.com/2026/04/iran-linked-password-spraying-campaign.html",
-      "description": "An\u0026nbsp;Iran-nexus threat actor is suspected to be behind a password-spraying campaign targeting Microsoft 365 environments in Israel and the U.A.E. amid\u0026nbsp;ongoing conflict in the Middle\u0026nbsp;Ea...",
-      "pub_date": "Tue, 07 Apr 2026 00:07:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgf4g-Zhhi4P6IHkSqUlU3EzCQNKPJ1nV3mWfQAtS6gfGu6H7wuq5OgVXGvF1IM2afayopX3b0zj4bjVDYaO7dBc4rl0A0Y6GND1VkbLdug_ULVW6a6P7iNlhUFGwMsRSDHqbodsc8EeLcg2nXxDPXO0h8RABu_jr9o-5cx8g5GTXxFgDOx9PTRQIFECpL/s1600/iran.jpg"
-    },
-    {
-      "title": "Microsoft removes Support and Recovery Assistant from Windows",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-support-and-recovery-assistant-from-windows/",
-      "description": "Microsoft has deprecated and removed the Support and Recovery Assistant (SaRA) command-line utility from all in-support versions of Windows updates starting March 10. [...]",
-      "pub_date": "Mon, 06 Apr 2026 13:45:57 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
