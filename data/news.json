@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-04-08T10:01:11Z",
+  "last_updated": "2026-04-08T11:47:03Z",
   "articles": [
+    {
+      "title": "Google Expands Chrome Lazy Loading to Video and Audio in New Browser Update",
+      "link": "https://cybersecuritynews.com/google-chrome-lazy-loading/",
+      "description": "Google is bringing a major performance enhancement to its browser by expanding native lazy loading capabilities to include video and audio elements. By adding the loading=\"lazy\" attribute directl...",
+      "pub_date": "Wed, 08 Apr 2026 11:09:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Google-Expands-Chrome-Lazy-Loading-to-Video-and-Audio-in-New-Browser-Update.webp"
+    },
+    {
+      "title": "Amazon S3 Files, Turns S3 Buckets as File System to Access Your Data",
+      "link": "https://cybersecuritynews.com/amazon-s3-buckets-as-file-system/",
+      "description": "Amazon Web Services (AWS) has introduced a major update to its cloud storage infrastructure with the launch of Amazon S3 Files. This new feature allows organizations to access their Amazon S3 bucke...",
+      "pub_date": "Wed, 08 Apr 2026 10:45:03 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Amazon-S3-Files-Turns-S3-buckets-as-file-system-to-Access-your-Data-1.webp"
+    },
+    {
+      "title": "Docker Vulnerability Let Attackers Bypass Authorization and Gain Host Access",
+      "link": "https://cybersecuritynews.com/docker-vulnerability-bypass-authorization/",
+      "description": "A newly discovered high-severity vulnerability in Docker Engine could allow attackers to bypass authorization plugins and potentially gain unauthorized access to the underlying host system. Tracked...",
+      "pub_date": "Wed, 08 Apr 2026 10:43:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Docker-Vulnerability-Let-Attackers-Bypass-authorization-and-Gain-Host-Access-1.webp"
+    },
+    {
+      "title": "AWS and Anthropic Advancing AI-powered Cybersecurity With Claude Mythos",
+      "link": "https://cybersecuritynews.com/aws-and-anthropic-ai-powered-cybersecurity/",
+      "description": "As cyber threats evolve at an unprecedented pace, Amazon Web Services (AWS) and Anthropic have teamed up to introduce the next generation of artificial intelligence for cybersecurity. Announced as ...",
+      "pub_date": "Wed, 08 Apr 2026 10:36:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/AWS-and-Anthropic-Advancing-AI-powered-cybersecurity-With-Claude-Mythos-1.webp"
+    },
     {
       "title": "Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems",
       "link": "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html",
@@ -90,14 +122,6 @@
       "image_url": ""
     },
     {
-      "title": "New BPFDoor Variants Use Stateless C2 and ICMP Relays to Evade Detection",
-      "link": "https://cybersecuritynews.com/new-bpfdoor-variants-use-stateless-c2/",
-      "description": "A dangerous Linux backdoor called BPFDoor has returned in a more powerful form, with researchers uncovering new variants built to stay invisible inside critical network infrastructure. Linked to a ...",
-      "pub_date": "Tue, 07 Apr 2026 20:52:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-BPFDoor-Variants-Use-Stateless-C2-and-ICMP-Relays-to-Evade-Detection.webp"
-    },
-    {
       "title": "FBI: Americans lost a record $21 billion to cybercrime last year",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-a-record-21-billion-to-cybercrime-last-year/",
       "description": "U.S. victims lost nearly $21 billion to cyber-enabled crimes last year, driven primarily by investment scams, business email compromise, tech support fraud, and data breaches, the Federal Bureau o...",
@@ -106,36 +130,12 @@
       "image_url": ""
     },
     {
-      "title": "Hackers Exploit Kubernetes Misconfigurations to Move From Containers to Cloud Accounts",
-      "link": "https://cybersecuritynews.com/hackers-exploit-kubernetes-misconfigurations/",
-      "description": "Kubernetes has become one of the most widely used platforms for managing containerized applications in enterprise environments. But as its adoption has grown, so has the attention it draws from mal...",
-      "pub_date": "Tue, 07 Apr 2026 20:11:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Exploit-Kubernetes-Misconfigurations-to-Move-From-Containers-to-Cloud-Accounts.webp"
-    },
-    {
-      "title": "Hackers Use Fake Gemini npm Package to Steal Tokens From Claude, Cursor, and Other AI Tools",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-gemini-npm-package/",
-      "description": "A new supply chain attack has surfaced targeting software developers who work with AI coding tools. On March 20, 2026, a threat actor published a malicious npm package named gemini-ai-checker und...",
-      "pub_date": "Tue, 07 Apr 2026 19:46:57 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-Fake-Gemini-npm-Package-to-Steal-Tokens-From-Claude-Cursor-and-Other-AI-Tools.webp"
-    },
-    {
       "title": "Snowflake customers hit in data theft attacks after SaaS integrator breach",
       "link": "https://www.bleepingcomputer.com/news/security/snowflake-customers-hit-in-data-theft-attacks-after-saas-integrator-breach/",
       "description": "Over a dozen companies have suffered data theft attacks after a SaaS integration provider was breached and authentication tokens stolen. [...]",
       "pub_date": "Tue, 07 Apr 2026 15:39:18 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Hackers Exploit Next.js React2Shell Flaw to Steal Credentials From 766 Hosts in 24 Hours",
-      "link": "https://cybersecuritynews.com/hackers-exploit-next-js-react2shell-flaw/",
-      "description": "A dangerous cyberattack campaign is actively hitting web applications across the internet at a frightening speed. Hackers are exploiting a critical security flaw called React2Shell, targeting websi...",
-      "pub_date": "Tue, 07 Apr 2026 18:40:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Exploit-Next.js-React2Shell-Flaw-to-Steal-Credentials-From-766-Hosts-in-24-Hours.webp"
     },
     {
       "title": "US warns of Iranian hackers targeting critical infrastructure",
