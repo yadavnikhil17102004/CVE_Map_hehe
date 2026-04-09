@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-09T13:04:58Z",
+  "last_updated": "2026-04-09T15:15:16Z",
   "articles": [
+    {
+      "title": "New ClickFix Campaign Uses macOS Script Editor to Deliver Atomic Stealer",
+      "link": "https://cybersecuritynews.com/new-clickfix-campaign-uses-macos-script-editor/",
+      "description": "A newly discovered ClickFix campaign is targeting macOS users through a technique that completely bypasses Terminal, using Script Editor to drop the Atomic Stealer infostealer onto compromised syst...",
+      "pub_date": "Thu, 09 Apr 2026 15:01:04 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-ClickFix-Campaign-Uses-macOS-Script-Editor-to-Deliver-Atomic-Stealer.webp"
+    },
+    {
+      "title": "Hackers Use ClickFix and Malicious DMG Files to Deliver notnullOSX on macOS",
+      "link": "https://cybersecuritynews.com/hackers-use-clickfix-to-deliver-notnullosx/",
+      "description": "A new macOS info-stealer named notnullOSX has surfaced, targeting crypto holders with wallets above $10,000. Written in Go, it uses two parallel attack paths — ClickFix social engineering and mal...",
+      "pub_date": "Thu, 09 Apr 2026 14:23:37 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-ClickFix-and-Malicious-DMG-Files-to-Deliver-notnullOSX-on-macOS.webp"
+    },
+    {
+      "title": "When attackers already have the keys, MFA is just another door to open",
+      "link": "https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/",
+      "description": "Stolen credentials turn authentication systems into the attack surface. Token shows how wearable biometric authentication verifies the user—not the session—blocking phishing relays and MFA bypa...",
+      "pub_date": "Thu, 09 Apr 2026 10:02:12 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New STX RAT Uses Hidden Remote Desktop and Infostealer Features to Evade Detection",
+      "link": "https://cybersecuritynews.com/new-stx-rat-uses-hidden-remote-desktop/",
+      "description": "A newly discovered remote access trojan called STX RAT has emerged as a serious cybersecurity threat in 2026, combining hidden remote desktop access with credential-stealing features to quietly com...",
+      "pub_date": "Thu, 09 Apr 2026 13:38:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-STX-RAT-Uses-Hidden-Remote-Desktop-and-Infostealer-Features-to-Evade-Detection.webp"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories",
+      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html",
+      "description": "Thursday. Another week, another batch of things that probably should've been caught sooner but\u0026nbsp;weren't. This\u0026nbsp;one's got some range — old vulnerabilities getting new life, a few \"why was ...",
+      "pub_date": "Thu, 09 Apr 2026 18:27:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6d4nK1zoWjzSmbdUmGPSycMwGmzcYM2XRrFH_ueobgO_8j7hwRdv8Ct856gg_k29HqAOw1-HGCtPpxyGDcuQIKY53ATLKb8bQCsJR5b_Jf8VqX1igItYBIe4iQazqSRe5fmFrFXS1fCcKdz6enbI6zYngIztjJ_UI262_ynNGJrd1EB_OUV1ZKYVl04-h/s1600/threatsdays-main.jpg"
+    },
     {
       "title": "Webinar: From noise to signal - What threat actors are targeting next",
       "link": "https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/",
@@ -106,36 +146,12 @@
       "image_url": ""
     },
     {
-      "title": "Hackers Claim to Have Stolen 10 Petabytes of Data from China’s Tianjin Supercomputer Center",
-      "link": "https://cybersecuritynews.com/supercomputing-center-data-breach/",
-      "description": "Hackers are claiming that one of China’s most strategically important computing facilities suffered a massive cyber intrusion, with more than 10 petabytes of sensitive information allegedly taken...",
-      "pub_date": "Thu, 09 Apr 2026 08:16:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/China-Supercomputing-Center-Data-Breach.webp"
-    },
-    {
       "title": "Hackers steal $3.6 million from crypto ATM giant Bitcoin Depot",
       "link": "https://www.bleepingcomputer.com/news/security/crypto-atm-giant-bitcoin-depot-says-hackers-stole-36-million-from-its-wallets/",
       "description": "Bitcoin Depot, which operates one of the largest Bitcoin ATM networks, says attackers stole $3.665 million worth of Bitcoin from its crypto wallets after breaching its systems last month. [...]",
       "pub_date": "Thu, 09 Apr 2026 03:44:55 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Microsoft Suspends Developer Accounts of High-Profile Open-Source Projects",
-      "link": "https://cybersecuritynews.com/microsoft-suspends-developer-accounts/",
-      "description": "Microsoft has suspended the Windows Hardware Program developer accounts of two critical open-source security projects, VeraCrypt and WireGuard, blocking their ability to sign drivers and push updat...",
-      "pub_date": "Thu, 09 Apr 2026 07:28:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Suspends-Developer-Accounts-1.webp"
-    },
-    {
-      "title": "New RoningLoader Campaign Uses DLL Side-Loading and Code Injection to Evade Detection",
-      "link": "https://cybersecuritynews.com/new-roningloader-campaign-uses-dll-side-loading/",
-      "description": "A threat actor known as DragonBreath has launched a stealthy campaign using a multi-stage malware loader called RoningLoader. The malware targets Chinese-speaking users by disguising itself as trus...",
-      "pub_date": "Thu, 09 Apr 2026 07:21:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-RoningLoader-Campaign-Uses-DLL-Side-Loading-and-Code-Injection-to-Evade-Detection.webp"
     },
     {
       "title": "Microsoft suspends dev accounts for high-profile open source projects",
@@ -274,14 +290,6 @@
       "image_url": ""
     },
     {
-      "title": "Snowflake customers hit in data theft attacks after SaaS integrator breach",
-      "link": "https://www.bleepingcomputer.com/news/security/snowflake-customers-hit-in-data-theft-attacks-after-saas-integrator-breach/",
-      "description": "Over a dozen companies have suffered data theft attacks after a SaaS integration provider was breached and authentication tokens stolen. [...]",
-      "pub_date": "Tue, 07 Apr 2026 15:39:18 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Russian State-Linked APT28 Exploits SOHO Routers in Global DNS Hijacking Campaign",
       "link": "https://thehackernews.com/2026/04/russian-state-linked-apt28-exploits.html",
       "description": "The Russia-linked threat actor known\u0026nbsp;as APT28 (aka Forest Blizzard) has been linked to a new campaign that has compromised insecure MikroTik and TP-Link routers and modified their settings to ...",
@@ -312,14 +320,6 @@
       "pub_date": "Tue, 07 Apr 2026 18:16:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNAquH2CuNdKvNbKqIsmTqg2Rpb5SRn8zxBKdQliREzpq_Byd0ye0aD8IFVa1JUj09QnQVJVnAVET30DX0jRBK1LBXJ-16QC_GoiYDH2ibCfoYcttx3McOurmn9e4cSugeNgEQa-oVqR13I9K1h6ktgggudmT3u88I_iN_ksHQvuS2N0u0uGlUNTW_Tv9l/s1600/compfyui.jpg"
-    },
-    {
-      "title": "The Hidden Cost of Recurring Credential Incidents",
-      "link": "https://thehackernews.com/2026/04/the-hidden-cost-of-recurring-credential.html",
-      "description": "When talking about credential security, the focus usually lands on breach prevention. This\u0026nbsp;makes sense\u0026nbsp;when IBM’s 2025 Cost of a Data Breach\u0026nbsp;Report puts the average cost of a breac...",
-      "pub_date": "Tue, 07 Apr 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKmTyBv8aWjZuBbedJ5TZkS6Y66K940b-vB3d1MoHwX2AXWb8xmabo8pN7pcFBicVbmRmK22bzd9nX3XceGzlcmkfej9nF5VJk1srniaJ2F28JEmeFynSREG8A_XMQBSSba4Rb6nn41RCXPT6p5a23xaEoM9Jxb4yvqStcl9j9cofRrotYh2dvxtrM7uc/s1600/out.jpg"
     },
     {
       "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
