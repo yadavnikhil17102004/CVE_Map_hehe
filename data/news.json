@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-09T15:15:16Z",
+  "last_updated": "2026-04-09T16:59:06Z",
   "articles": [
+    {
+      "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns",
+      "link": "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html",
+      "description": "A previously undocumented threat cluster\u0026nbsp;dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities t...",
+      "pub_date": "Thu, 09 Apr 2026 21:53:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4smwzOHJUhoy2YQYZQpTIp9u5xk7vywCOtewG6WfLl1S3h1EO25k8GY6WSHovGYwTn4vo9uMFcoNX6XDa0-BC0mXJrTdSHtWGJDP1GIXqGvRnlqnqyPwzxxPFyjLx9yxEn1oeWs4r8fqq5xlS__yUA3nwf0DpZBiUh86FUx71PRBGbAP0gaNFAILqYgbT/s1600/phish.jpg"
+    },
+    {
+      "title": "Smart Slider updates hijacked to push malicious WordPress, Joomla versions",
+      "link": "https://www.bleepingcomputer.com/news/security/smart-slider-updates-hijacked-to-push-malicious-wordpress-joomla-versions/",
+      "description": "Hackers hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla, and pushed a malicious version with multiple backdoors. [...]",
+      "pub_date": "Thu, 09 Apr 2026 12:15:26 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "New ClickFix Campaign Uses macOS Script Editor to Deliver Atomic Stealer",
       "link": "https://cybersecuritynews.com/new-clickfix-campaign-uses-macos-script-editor/",
@@ -282,14 +298,6 @@
       "image_url": ""
     },
     {
-      "title": "FBI: Americans lost a record $21 billion to cybercrime last year",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-a-record-21-billion-to-cybercrime-last-year/",
-      "description": "U.S. victims lost nearly $21 billion to cyber-enabled crimes last year, driven primarily by investment scams, business email compromise, tech support fraud, and data breaches, the Federal Bureau o...",
-      "pub_date": "Tue, 07 Apr 2026 16:41:52 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Russian State-Linked APT28 Exploits SOHO Routers in Global DNS Hijacking Campaign",
       "link": "https://thehackernews.com/2026/04/russian-state-linked-apt28-exploits.html",
       "description": "The Russia-linked threat actor known\u0026nbsp;as APT28 (aka Forest Blizzard) has been linked to a new campaign that has compromised insecure MikroTik and TP-Link routers and modified their settings to ...",
@@ -312,14 +320,6 @@
       "pub_date": "Tue, 07 Apr 2026 20:45:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1fiR51KBq7hNIR1D2V9e0jituEJTVutYd8b9v6KR0YdA30xWCSKJo3nfIykSdYSjZNe7gvNj3Wf3HidhZ24n-piDo8LhrE6ctyZrcLYNcJwCSP0KEe7G0Fl_xJm676Dv-4bFEh63Vv_xZ1zb9qOKhfeWFN5IexOHligHBCTHyVLAMDl0aeL2olDxnjfch/s1600/ai-chat.jpg"
-    },
-    {
-      "title": "Over 1,000 Exposed ComfyUI Instances Targeted in Cryptomining Botnet Campaign",
-      "link": "https://thehackernews.com/2026/04/over-1000-exposed-comfyui-instances.html",
-      "description": "An active campaign has been observed targeting internet-exposed instances running ComfyUI, a popular stable diffusion platform, to enlist them into a cryptocurrency mining and proxy\u0026nbsp;botnet. \"A...",
-      "pub_date": "Tue, 07 Apr 2026 18:16:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNAquH2CuNdKvNbKqIsmTqg2Rpb5SRn8zxBKdQliREzpq_Byd0ye0aD8IFVa1JUj09QnQVJVnAVET30DX0jRBK1LBXJ-16QC_GoiYDH2ibCfoYcttx3McOurmn9e4cSugeNgEQa-oVqR13I9K1h6ktgggudmT3u88I_iN_ksHQvuS2N0u0uGlUNTW_Tv9l/s1600/compfyui.jpg"
     },
     {
       "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
@@ -522,6 +522,22 @@
       "image_url": ""
     },
     {
+      "title": "Contemporary Controls BASC 20T",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-099-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to enumerate the functionality of each component associated with the PLC, reconfigure, rename, delete, perfor...",
+      "pub_date": "Thu, 09 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "GPL Odorizers GPL750",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-099-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a low privileged remote attacker to manipulate register values, which would result in too much or too little odorant bein...",
+      "pub_date": "Thu, 09 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/04/08/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-1340 Ivanti Endpoint Manager Mobile (EPMM) Code Inject...",
@@ -554,6 +570,14 @@
       "image_url": ""
     },
     {
+      "title": "Yokogawa CENTUM VP",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to login as the PROG user and modify permissions. The following versions of Yokogawa CENTUM VP are affected: ...",
+      "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Hitachi Energy Ellipse",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-03",
       "description": "View CSAF Summary Hitachi Energy is aware of a Jasper Report vulnerability that affects the Ellipse product versions mentioned in this document below. This vulnerability can be exploited to carry o...",
@@ -573,14 +597,6 @@
       "title": "Siemens SICAM 8 Products",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-01",
       "description": "View CSAF Summary Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICOR...",
-      "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Yokogawa CENTUM VP",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to login as the PROG user and modify permissions. The following versions of Yokogawa CENTUM VP are affected: ...",
       "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -622,22 +638,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2025-53521 F5 BIG-IP Remote Code Execution Vulnerability  T...",
       "pub_date": "Fri, 27 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "OpenCode Systems OC Messaging and USSD Gateway",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated low-privileged user to gain access to SMS messages outside of their authorized tenant scope via a crafte...",
-      "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "WAGO GmbH \u0026 Co. KG Industrial Managed Switches",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-01",
-      "description": "View CSAF Summary An unauthenticated remote attacker can exploit a hidden function in the CLI prompt to escape the restricted interface, leading to full compromise of the device. The following vers...",
-      "pub_date": "Thu, 26 Mar 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
