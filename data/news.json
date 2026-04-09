@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-04-09T19:16:07Z",
+  "last_updated": "2026-04-09T20:41:51Z",
   "articles": [
+    {
+      "title": "Healthcare IT solutions provider ChipSoft hit by ransomware attack",
+      "link": "https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/",
+      "description": "Dutch healthcare software vendor ChipSoft has been impacted by a ransomware attack that forced the company to take offline its website and digital services for patients and healthcare providers. [...]",
+      "pub_date": "Thu, 09 Apr 2026 15:46:44 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Google Chrome adds infostealer protection against session cookie theft",
       "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
@@ -8,6 +16,14 @@
       "pub_date": "Thu, 09 Apr 2026 14:33:29 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallets",
+      "link": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
+      "description": "Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit\u0026nbsp;(SDK) called\u0026nbsp;EngageLab\u0026nbsp;SDK that could have put millions ...",
+      "pub_date": "Thu, 09 Apr 2026 22:56:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigi73Eo-lmEoLh8BcTJmWW5GrmLrm49pUkkl8zyxIg1YTEncbgCaY-wXarkWZuipJhJEubcJx-VEiHOv_NrMtPw1BoEU3Ni8gXNcKcbWX4TqBU8pikOAkRdCl-r_XvLz4oXmQ2IpY25bWzLFkXh_hezhx0jgUYiuRvrYVxhW-6x5J7m84HH_VeRtRzTGbW/s1600/vul-app.jpg"
     },
     {
       "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns",
@@ -26,12 +42,36 @@
       "image_url": ""
     },
     {
+      "title": "New ClickFix Campaign Uses macOS Script Editor to Deliver Atomic Stealer",
+      "link": "https://cybersecuritynews.com/new-clickfix-campaign-uses-macos-script-editor/",
+      "description": "A newly discovered ClickFix campaign is targeting macOS users through a technique that completely bypasses Terminal, using Script Editor to drop the Atomic Stealer infostealer onto compromised syst...",
+      "pub_date": "Thu, 09 Apr 2026 15:01:04 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-ClickFix-Campaign-Uses-macOS-Script-Editor-to-Deliver-Atomic-Stealer.webp"
+    },
+    {
+      "title": "Hackers Use ClickFix and Malicious DMG Files to Deliver notnullOSX on macOS",
+      "link": "https://cybersecuritynews.com/hackers-use-clickfix-to-deliver-notnullosx/",
+      "description": "A new macOS info-stealer named notnullOSX has surfaced, targeting crypto holders with wallets above $10,000. Written in Go, it uses two parallel attack paths — ClickFix social engineering and mal...",
+      "pub_date": "Thu, 09 Apr 2026 14:23:37 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-ClickFix-and-Malicious-DMG-Files-to-Deliver-notnullOSX-on-macOS.webp"
+    },
+    {
       "title": "When attackers already have the keys, MFA is just another door to open",
       "link": "https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/",
       "description": "Stolen credentials turn authentication systems into the attack surface. Token shows how wearable biometric authentication verifies the user—not the session—blocking phishing relays and MFA bypa...",
       "pub_date": "Thu, 09 Apr 2026 10:02:12 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "New STX RAT Uses Hidden Remote Desktop and Infostealer Features to Evade Detection",
+      "link": "https://cybersecuritynews.com/new-stx-rat-uses-hidden-remote-desktop/",
+      "description": "A newly discovered remote access trojan called STX RAT has emerged as a serious cybersecurity threat in 2026, combining hidden remote desktop access with credential-stealing features to quietly com...",
+      "pub_date": "Thu, 09 Apr 2026 13:38:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-STX-RAT-Uses-Hidden-Remote-Desktop-and-Infostealer-Features-to-Evade-Detection.webp"
     },
     {
       "title": "ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories",
@@ -50,12 +90,28 @@
       "image_url": ""
     },
     {
+      "title": "Hackers Use Fake Security Software to Deliver LucidRook Malware in Taiwan Attacks",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-security-software-to-deliver-lucidrook/",
+      "description": "A newly identified malware called LucidRook has been spotted targeting organizations across Taiwan, hiding inside what appears to be legitimate security software. The attackers went out of their wa...",
+      "pub_date": "Thu, 09 Apr 2026 12:02:07 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-Fake-Security-Software-to-Deliver-LucidRook-Malware-in-Taiwan-Attacks.webp"
+    },
+    {
       "title": "The Hidden Security Risks of Shadow AI in Enterprises",
       "link": "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
       "description": "As\u0026nbsp;AI tools become more accessible, employees are adopting them without formal approval from IT and security teams. While\u0026nbsp;these tools may boost productivity, automate tasks, or fill gaps ...",
       "pub_date": "Thu, 09 Apr 2026 17:01:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO6OQHlRJgIjpCieiOfi48Mexu0Puimw_dz6w0h1spC2ZjcqifD2YPod5wd1AtUhr-e7CtAAoZ0bnRGnCH-BZRz4pDlB5Db2hJ4vFqsq5jc42UI4VTGXkxD8gNX1Ods9PpQZL4lk84RNL6EDSeI4YFCdjBgKSqKGimsqcsjekAAmr8CGYr3a2wPkchNYA/s1600/keeper.jpg"
+    },
+    {
+      "title": "Hackers Impersonate Linux Foundation Leader in Slack to Target Open Source Developers",
+      "link": "https://cybersecuritynews.com/hackers-impersonate-linux-foundation-leader/",
+      "description": "Open source developers are facing a growing and sophisticated threat — one that does not rely on complex exploits or hidden vulnerabilities but instead uses something far simpler: trust. A social...",
+      "pub_date": "Thu, 09 Apr 2026 11:26:52 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Impersonate-Linux-Foundation-Leader-in-Slack-to-Target-Open-Source-Developers.webp"
     },
     {
       "title": "Adobe Reader Zero-Day Exploited via Malicious PDFs Since December 2025",
@@ -66,6 +122,14 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwKu6NdwE0kgawNywNJK7cGCEdRfzOKwsH9AeIT7zJ49RPq_KJAG3SyjH44SS8Zsd-gAUFDFKnfdpaFH8sAZT9wevB2fS0QVk-gCp8xg7j1XcwGJzv05xpoMN4O-oiEd1v3U3kuqW8cTGk0QlHPPS5GgifHq5DBgrE9R_6GxqxYb1erEN_qvAnUG6VFkx0/s1600/adobe.jpg"
     },
     {
+      "title": "CISA Warns of Critical Ivanti EPMM Code Injection Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/ivanti-epmm-code-injection-vulnerability/",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning regarding a critical security flaw in Ivanti Endpoint Manager Mobile (EPMM). The agency recently added this ...",
+      "pub_date": "Thu, 09 Apr 2026 10:54:46 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CISA-Warns-of-Critical-Ivanti-EPMM-Code-Injection-Vulnerability-Exploited-in-Attacks.webp"
+    },
+    {
       "title": "Bitter-Linked Hack-for-Hire Campaign Targets Journalists Across MENA Region",
       "link": "https://thehackernews.com/2026/04/bitter-linked-hack-for-hire-campaign.html",
       "description": "An\u0026nbsp;apparent hack-for-hire campaign likely orchestrated by a threat actor with suspected ties to the Indian government targeted journalists, activists, and government officials across the Middl...",
@@ -74,12 +138,44 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlfEPPxKdPdQANFPwRrggWpWL4wPe22B_Hdr5FpqDGHKTwN95xiQVwqqN896q_CkYvn-wrbDTXMl6wZ_aMD0YwEyRAI_9lzSZj_cg9-RhoNXMh-j16cA0n4CIT5y29FkOWFrQoV8oCv5OtZhMlhAKwqcgirImTOXoVzsJY76y6l-EWn86dAJfYNBy1ejW4/s1600/phone-hacking.jpg"
     },
     {
+      "title": "GitLab Patches Multiple Vulnerabilities That Enables DoS and Code Injection Attacks",
+      "link": "https://cybersecuritynews.com/gitlab-patches-multiple-vulnerabilities-2/",
+      "description": "GitLab has released urgent security updates (versions 18.10.3, 18.9.5, and 18.8.9) for its Community Edition (CE) and Enterprise Edition (EE) to address high-severity flaws that enable Denial-of-Se...",
+      "pub_date": "Thu, 09 Apr 2026 10:33:15 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/GitLab-patches-Multiple-Vulnerabilities-That-Enables-DoS-and-Code-Injection-Attacksity-Allows-Data-Access-by-Attackers.webp"
+    },
+    {
       "title": "Eurail says December data breach impacts 300,000 individuals",
       "link": "https://www.bleepingcomputer.com/news/security/eurail-says-december-data-breach-impacts-300-000-individuals/",
       "description": "Eurail B.V., a European travel operator that provides digital passes covering 33 national railways, says attackers stole the personal information of over 300,000 individuals in a December 2025 data...",
       "pub_date": "Thu, 09 Apr 2026 06:31:54 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Multiple SonicWall Vulnerabilities Enable SQL Injection and Privilege Escalation Attacks",
+      "link": "https://cybersecuritynews.com/sonicwall-vulnerabilities-sql-injection/",
+      "description": "SonicWall has released a critical security advisory addressing four vulnerabilities affecting its Secure Mobile Access (SMA) 1000 series appliances. These security flaws could allow remote attacker...",
+      "pub_date": "Thu, 09 Apr 2026 10:23:27 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Multiple-SonicWall-Vulnerabilities-Enables-SQL-injection-and-privilege-escalation-Attacks-1.webp"
+    },
+    {
+      "title": "Palo Alto Cortex Microsoft Teams Integration Vulnerability Enables Data Access for Attackers",
+      "link": "https://cybersecuritynews.com/palo-alto-cortex-microsoft-teams-integration/",
+      "description": "Palo Alto Networks released an urgent update to patch a high-severity flaw (CVE-2026-0234) affecting the Microsoft Teams integration in Cortex XSOAR and Cortex XSIAM. This flaw could allow unautho...",
+      "pub_date": "Thu, 09 Apr 2026 10:20:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Palo-Alto-Networks-Cortex-XSOAR-Microsoft-Teams-Vulnerability-Allows-Data-Access-by-Attackers.webp"
+    },
+    {
+      "title": "New Phishing Attack Via Google Storage Deploys Remcos RAT",
+      "link": "https://cybersecuritynews.com/new-phishing-attack-via-google-storage/",
+      "description": "A newly identified phishing campaign is using Google Cloud Storage to deliver Remcos RAT, a powerful remote access trojan, to unsuspecting victims across the globe. Attackers are abusing the trust ...",
+      "pub_date": "Thu, 09 Apr 2026 10:14:05 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Phishing-Attack-Via-Google-Storage-Deploys-Remcos-RAT.webp"
     },
     {
       "title": "Hackers exploiting Acrobat Reader zero-day flaw since December",
@@ -202,14 +298,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiJCapdeJ9Q-yAbFZ7EG69FNg_jPvK7YptY2C7TN6txlcPM_bvVrcbqN1bi-vy2IFi8Ai485K-DZblHR8XwZxdch90kWSv48wjvZF7oj0wy0IMd-B7VPuSiUbSFSJKAlErnSUZWjyVOf-Fyy-LqlxLbGLA7rxIkxlgc6_WRyCNH3XWDLb5GtnmjvxFjUrt/s1600/pack.jpg"
     },
     {
-      "title": "Microsoft rolls out fix for broken Windows Start Menu search",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-broken-windows-start-menu-search/",
-      "description": "Microsoft has pushed a server-side fix for a known issue that broke the Windows Start Menu search feature on some Windows 11 23H2 devices. [...]",
-      "pub_date": "Wed, 08 Apr 2026 03:00:55 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Iran-Linked Hackers Disrupt U.S. Critical Infrastructure by Targeting Internet-Exposed PLCs",
       "link": "https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html",
       "description": "Iran-affiliated cyber actors are targeting internet-facing operational technology (OT) devices across critical infrastructures in the U.S., including programmable logic controllers (PLCs), cybersec...",
@@ -232,14 +320,6 @@
       "pub_date": "Tue, 07 Apr 2026 21:59:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRHgJL0SczODx5PAnF85b8b0mRpiOOkIQdOWvhivyXu6H8UeZKH9ZUdaeW5IuU59q2hjMNioQWQ5vk1Km8yinGGc8GA079qvhTtFsp9PV76Kmp-3lpKh2zi3vgd_-6dFcOI6i1YHs7VkJ-p-HvOEuOwkjooBVSvYFOrVqXqNhZShZy3IUeD6BVHVvUIj50/s1600/webinar-cerby.jpg"
-    },
-    {
-      "title": "Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access",
-      "link": "https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html",
-      "description": "A high-severity security vulnerability has been disclosed in Docker Engine that could permit an attacker to bypass authorization plugins\u0026nbsp;(AuthZ) under specific circumstances. The vulnerability...",
-      "pub_date": "Tue, 07 Apr 2026 20:45:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1fiR51KBq7hNIR1D2V9e0jituEJTVutYd8b9v6KR0YdA30xWCSKJo3nfIykSdYSjZNe7gvNj3Wf3HidhZ24n-piDo8LhrE6ctyZrcLYNcJwCSP0KEe7G0Fl_xJm676Dv-4bFEh63Vv_xZ1zb9qOKhfeWFN5IexOHligHBCTHyVLAMDl0aeL2olDxnjfch/s1600/ai-chat.jpg"
     },
     {
       "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
