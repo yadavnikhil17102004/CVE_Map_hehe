@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-04-10T12:52:11Z",
+  "last_updated": "2026-04-10T14:13:30Z",
   "articles": [
+    {
+      "title": "Analysis of one billion CISA KEV remediation records exposes limits of human-scale security",
+      "link": "https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/",
+      "description": "Analysis of 1 billion CISA KEV remediation records reveal a breaking point for human-scale security. Qualys shows most critical flaws are exploited before defenders can patch them. [...]",
+      "pub_date": "Fri, 10 Apr 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Use Fake BTS World Tour Ticket Sites to Scam Fans Across Multiple Countries",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-bts-world-tour-ticket-sites/",
+      "description": "Cybercriminals are capitalizing on the excitement around BTS\u0026#8217;s long-awaited return to the world stage by setting up fraudulent ticket websites that steal money from unsuspecting fans. The cam...",
+      "pub_date": "Fri, 10 Apr 2026 13:43:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-Fake-BTS-World-Tour-Ticket-Sites-to-Scam-Fans-Across-Multiple-Countries.webp"
+    },
+    {
+      "title": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs",
+      "link": "https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html",
+      "description": "Cybersecurity researchers have flagged yet another evolution of the\u0026nbsp;ongoing GlassWorm campaign, which employs a new Zig dropper that's designed to stealthily infect all integrated development ...",
+      "pub_date": "Fri, 10 Apr 2026 18:53:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioOU2XpKmyRPz5kTr4GhD1YLJ2t7F6yv7bQD1upkiwmGwmzirnDAz92GvtjckyoBhBjaRqeR9XPm6e0yHdKLowfDDgZNkRlCvCneJEncgiviFu7PgD4wQg3Bo5JDhgg6JTytg_fY2M-iKeykCLebOdStW4A76JKnPbEQazihNOhKOdM9Ou8keMBh4IY4jo/s1600/software.jpg"
+    },
+    {
+      "title": "Censys Warns 5,219 Rockwell/Allen-Bradley PLCs Are Exposed Amid Iranian APT Activity",
+      "link": "https://cybersecuritynews.com/censys-warns-5219-rockwell-allen-bradley-plcs/",
+      "description": "The FBI, CISA, NSA, EPA, DOE, and U.S. Cyber Command jointly disclosed on April 7, 2026, that Iranian-affiliated advanced persistent threat (APT) actors are actively targeting internet-facing Rockw...",
+      "pub_date": "Fri, 10 Apr 2026 13:16:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Censys-Warns-5219-Rockwell-Allen-Bradley-PLCs-Are-Exposed-Amid-Iranian-APT-Activity.webp"
+    },
+    {
+      "title": "Supply chain attack at CPUID pushes malware with CPU-Z/HWMonitor",
+      "link": "https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/",
+      "description": "Hackers gained access to an API for the CPUID project and changed the download links on the official website to serve malicious executables for the popular CPU-Z and HWMonitor tools. [...]",
+      "pub_date": "Fri, 10 Apr 2026 09:12:42 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Exploit GitHub Copilot Flaw to Exfiltrate Sensitive Data",
+      "link": "https://cybersecuritynews.com/hackers-exploit-github-copilot-flaw/",
+      "description": "A recently disclosed high-severity vulnerability in GitHub Copilot Chat allowed attackers to silently siphon sensitive data from private repositories. Tracked as CVE-2025-59145 with a near-perfect ...",
+      "pub_date": "Fri, 10 Apr 2026 12:55:15 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Exploit-GitHub-Copilot-Flaw-to-Exfiltrate-Sensitive-Data-.webp"
+    },
+    {
+      "title": "HPE Aruba Private 5G Platform Vulnerability Enables Credential Theft Attacks",
+      "link": "https://cybersecuritynews.com/hpe-aruba-private-5g-platform-vulnerability/",
+      "description": "Hewlett-Packard Enterprise (HPE) has disclosed a security flaw in its Aruba Networking Private 5G Core On-Prem platform. This vulnerability allows attackers to steal user credentials by exploiting ...",
+      "pub_date": "Fri, 10 Apr 2026 12:54:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/HPE-Aruba-Private-5G-Platform-Vulnerability-Enables-credential-Theft-Attacks-.webp"
+    },
     {
       "title": "Hackers Impersonate Secure Messaging Apps to Deploy ProSpy in Middle East Espionage Attacks",
       "link": "https://cybersecuritynews.com/hackers-impersonate-secure-messaging-apps-to-deploy-prospy/",
@@ -74,44 +130,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CPUID-Website-Compromise.webp"
     },
     {
-      "title": "Trojanized OpenVSX Extension Spreads GlassWorm Across VS Code, Cursor, and Windsurf",
-      "link": "https://cybersecuritynews.com/trojanized-openvsx-extension-spreads-glassworm/",
-      "description": "A fake developer extension published on the OpenVSX marketplace is silently spreading a known malware strain called GlassWorm to every code editor installed on a developer\u0026#8217;s machine. The mali...",
-      "pub_date": "Fri, 10 Apr 2026 08:12:26 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Trojanized-OpenVSX-Extension-Spreads-GlassWorm-Across-VS-Code-Cursor-and-Windsurf.webp"
-    },
-    {
-      "title": "Mallory Launches AI-Native Threat Intelligence Platform, Turning Global Threat Data Into Prioritized Action",
-      "link": "https://cybersecuritynews.com/mallory-ai-threat-intelligence-platform/",
-      "description": "Austin, Texas, United States, April 9th, 2026, CyberNewswire Built by a veteran security team and led by a former Google and Mandiant executive, Mallory delivers intelligence that drives action for...",
-      "pub_date": "Fri, 10 Apr 2026 08:08:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglYSud5T06tRxMe1Nfz867mC2nkqr1JIqrxNArWGF4ddZM3QBH1XKwqcmpOTkLxc9Sq-6PshjcgAbc-XonE58iL2uIBf8_bm2ppD06_xU4kZevzFheZqfHOQAvZIvu_04YeDhGYmyXUYfEDz-CwX_-bFOrR9zFRgKZWP1jUDmf9Tijvy9wFhAp2omkXAo/s16000/TTT%20-%202026-04-09T201421.280.webp?ssl=1"
-    },
-    {
       "title": "Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows",
       "link": "https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html",
       "description": "Google has\u0026nbsp;made Device Bound Session Credentials\u0026nbsp;(DBSC) generally available to all Windows users of its Chrome web browser, months after\u0026nbsp;it began\u0026nbsp;testing the security feature in...",
       "pub_date": "Fri, 10 Apr 2026 13:28:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC-kFnk6uDzN76983rxMJBgJzi5ByxqZ0SM5RAfG1171e3I_lRUCBHIZ0kmMRkxERMiWEO9WRX3D6mkadUuRhw69KYHi4VzPrIa4s4IVilNmFANa2EMbuk1blKF_4ChwqIBuTb4FLj_dqhTDUDsivEnw8OmDL85giaaJTiqATwZArXUq6_3_X7tfd_RLbV/s1600/chrome-cookies.jpg"
-    },
-    {
-      "title": "Juniper Networks Default Password Vulnerability Let Attacker Take Full Control of the Device",
-      "link": "https://cybersecuritynews.com/juniper-networks-default-password-vulnerability/",
-      "description": "A critical security alert warns of a severe default password vulnerability affecting Support Insights Virtual Lightweight Collector (vLWC) appliances. This flaw enables unauthenticated network-base...",
-      "pub_date": "Fri, 10 Apr 2026 07:40:36 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Juniper-Networks-Default-Password-vulnerability-Let-Attacker-take-full-control-of-the-device-.webp"
-    },
-    {
-      "title": "DesckVB RAT Uses Obfuscated JavaScript and Fileless .NET Loader to Evade Detection",
-      "link": "https://cybersecuritynews.com/desckvb-rat-uses-obfuscated-javascript/",
-      "description": "A new Remote Access Trojan known as DesckVB has been targeting systems in 2026, using obfuscated JavaScript and a fileless .NET loader to stay hidden from traditional security tools. The malware gi...",
-      "pub_date": "Fri, 10 Apr 2026 07:40:07 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/DesckVB-RAT-Uses-Obfuscated-JavaScript-and-Fileless-.NET-Loader-to-Evade-Detection.webp"
     },
     {
       "title": "Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure",
@@ -266,22 +290,6 @@
       "image_url": ""
     },
     {
-      "title": "Hackers use pixel-large SVG trick to hide credit card stealer",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-pixel-large-svg-trick-to-hide-credit-card-stealer/",
-      "description": "A massive campaign impacting nearly 100 online stores using the Magento e-commerce platform hides credit card-stealing code in a pixel-sized Scalable Vector Graphics (SVG) image. [...]",
-      "pub_date": "Wed, 08 Apr 2026 18:34:26 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Google: New UNC6783 hackers steal corporate Zendesk support tickets",
-      "link": "https://www.bleepingcomputer.com/news/security/google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets/",
-      "description": "A threat actor tracked as UNC6783 is compromising business process outsourcing (BPO) providers to gain access to high-value companies across multiple sectors. [...]",
-      "pub_date": "Wed, 08 Apr 2026 17:46:27 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "New Chaos Variant Targets Misconfigured Cloud Deployments, Adds SOCKS Proxy",
       "link": "https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html",
       "description": "Cybersecurity researchers have flagged a new variant\u0026nbsp;ofmalware\u0026nbsp;called Chaosthat'scapable of\u0026nbsp;hitting misconfigured cloud deployments, marking an expansion of the botnet's targeting in...",
@@ -312,14 +320,6 @@
       "pub_date": "Wed, 08 Apr 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBk9NZe_ohGdUGAoq15K_dOgD1oLAfVbW296B80LqWpzR3Cal5Zerxl9gJCmrK9g9WROjalAzzvElgqRAm-2WtyxAJLfisSZ7b5S_HwDR4QvJnuO5H3g3W3Qd-_OAG-lcmsjCQ3K0bj5_5BRcY-B8euArXK8_lAvFxJf0h6CyHW0ZfXtCgZPqRA7ShNbU/s1600/orchid.jpg"
-    },
-    {
-      "title": "Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems",
-      "link": "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html",
-      "description": "Artificial Intelligence (AI) company Anthropic announced a new cybersecurity initiative\u0026nbsp;called Project\u0026nbsp;Glasswing\u0026nbsp;that\u0026nbsp;will use a preview version of its new frontier model, Claud...",
-      "pub_date": "Wed, 08 Apr 2026 14:46:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihvGfSh39Lhl5ird3iuR-T4gkaVejmXgtJ4VwbkLxAqG2hBZWkqQ8LR5k8wfuapt8oUdtifp8Le-uA6Xep8kGe3BRCx5qM1vY9DiMCnMgTFeFK8bc0wBSUR62TjZgPZ9dviGiM8-4-xW1N-ZGSDxIY0uJLFmEKDt1Z9rbttd7Lg_mma6Kt_2qk89vjq9Ed/s1600/claude-mythos.png"
     },
     {
       "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
