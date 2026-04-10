@@ -359,13 +359,14 @@ func fetchRepositoriesForMonth(baseQuery string, token string, year int, month i
 	return allRepos, totalCount, nil
 }
 
+// githubClient is a shared HTTP client so TCP/TLS connections are reused
+// across the many sequential GitHub API requests, reducing latency and overhead.
+var githubClient = &http.Client{
+	Timeout: 30 * time.Second,
+}
+
 // Function to fetch repositories directly from GitHub API
 func fetchGitHubRepositories(query, token string, page int) (*GitHubSearchResponse, error) {
-	// Set an absolute 30-second timeout to prevent the execution hanging on dropped connections
-	client := &http.Client{
-		Timeout: 30 * time.Second,
-	}
-	
 	// URL encode the query string
 	encodedQuery := url.QueryEscape(query)
 	
@@ -378,7 +379,7 @@ func fetchGitHubRepositories(query, token string, page int) (*GitHubSearchRespon
 	}
 	req.Header.Set("Authorization", "token "+token)
 
-	resp, err := client.Do(req)
+	resp, err := githubClient.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -397,7 +398,7 @@ func fetchGitHubRepositories(query, token string, page int) (*GitHubSearchRespon
 					time.Sleep(time.Duration(seconds+1) * time.Second)
 					
 					// Re-execute request
-					respRetry, err := client.Do(req)
+					respRetry, err := githubClient.Do(req)
 					if err == nil && respRetry.StatusCode != http.StatusForbidden {
 						resp.Body.Close()
 						resp = respRetry
@@ -412,7 +413,7 @@ func fetchGitHubRepositories(query, token string, page int) (*GitHubSearchRespon
 				log.Printf("Hit Rate Limit (403). Sleeping for 60 seconds... (Attempt %d/%d)", i+1, maxRetries)
 				time.Sleep(60 * time.Second)
 				
-				respRetry, err := client.Do(req)
+				respRetry, err := githubClient.Do(req)
 				if err == nil && respRetry.StatusCode != http.StatusForbidden {
 					resp.Body.Close()
 					resp = respRetry
