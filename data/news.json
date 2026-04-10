@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-04-10T11:41:36Z",
+  "last_updated": "2026-04-10T12:52:11Z",
   "articles": [
+    {
+      "title": "Hackers Impersonate Secure Messaging Apps to Deploy ProSpy in Middle East Espionage Attacks",
+      "link": "https://cybersecuritynews.com/hackers-impersonate-secure-messaging-apps-to-deploy-prospy/",
+      "description": "A targeted mobile espionage campaign has been quietly operating across the Middle East since at least 2022, using fake versions of widely trusted secure messaging apps to plant a powerful Android s...",
+      "pub_date": "Fri, 10 Apr 2026 12:43:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Impersonate-Secure-Messaging-Apps-to-Deploy-ProSpy-in-Middle-East-Espionage-Attacks.webp"
+    },
+    {
+      "title": "AI Router Vulnerabilities Allow Attackers to Inject Malicious Code and Steal Sensitive Data",
+      "link": "https://cybersecuritynews.com/ai-router-vulnerabilities/",
+      "description": "A critical and largely overlooked attack surface in the AI agent ecosystem, third-party API routers that can be weaponized to silently hijack tool calls, drain cryptocurrency wallets, and exfiltrat...",
+      "pub_date": "Fri, 10 Apr 2026 12:15:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/AI-Router-Vulnerabilities.webp"
+    },
+    {
+      "title": "Hackers Abuse GitHub and GitLab to Host Malware and Credential Phishing Campaigns",
+      "link": "https://cybersecuritynews.com/hackers-abuse-github-and-gitlab/",
+      "description": "Cybercriminals are now turning two of the most trusted developer platforms in the world — GitHub and GitLab — into tools for spreading malware and stealing login credentials from unsuspecting u...",
+      "pub_date": "Fri, 10 Apr 2026 12:04:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Abuse-GitHub-and-GitLab-to-Host-Malware-and-Credential-Phishing-Campaigns.webp"
+    },
+    {
+      "title": "Microsoft: Canadian employees targeted in payroll pirate attacks",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/",
+      "description": "A financially motivated threat actor tracked as Storm-2755 is stealing Canadian employees' salary payments after hijacking their accounts in payroll pirate attacks. [...]",
+      "pub_date": "Fri, 10 Apr 2026 07:56:14 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Browser Extensions Are the New AI Consumption Channel That No One Is Talking About",
       "link": "https://thehackernews.com/2026/04/browser-extensions-are-new-ai.html",
@@ -82,36 +114,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/DesckVB-RAT-Uses-Obfuscated-JavaScript-and-Fileless-.NET-Loader-to-Evade-Detection.webp"
     },
     {
-      "title": "React Server Components Vulnerability Enables DoS Attacks",
-      "link": "https://cybersecuritynews.com/react-server-components-vulnerability-2/",
-      "description": "A high-severity vulnerability has been discovered in React Server Components, exposing modern web applications to Denial of Service (DoS) attacks. Tracked as CVE-2026-23869, this flaw allows unauth...",
-      "pub_date": "Fri, 10 Apr 2026 07:39:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/React-Server-Components-Vulnerability-Enables-DoS-Attacks.webp"
-    },
-    {
       "title": "Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure",
       "link": "https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html",
       "description": "A critical security vulnerability\u0026nbsp;in Marimo, an open-source Python notebook for data science and analysis, has been exploited within 10 hours of public disclosure, according\u0026nbsp;to findings f...",
       "pub_date": "Fri, 10 Apr 2026 13:07:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLOQ2mcgefzP_nej8R2XYY5eLnbFWle2koFcBGH6gyLGu10rBVnI3f3oHUmafvlbNJFc8N50ghG-0d_MP-oLzJcZpObdY8MU67qbCc36iWMApPM0Z6QfMrklCirpFSnyXZeMyHIdD4NyfixepzOZ72qiadKBmUvdkNuzPs-QbZnuSUMBaxA0sWYmTT63v-/s1600/marimo.jpg"
-    },
-    {
-      "title": "Hackers Use SVG Onload Trick to Hide Magecart Skimmer on Magento Checkout Pages",
-      "link": "https://cybersecuritynews.com/svg-onload-trick-magecart-skimmer/",
-      "description": "A massive Magecart campaign compromising 99 Magento e-commerce stores using an innovative evasion technique. Discovered on April 7, 2026, the attack relies on invisible Scalable Vector Graphics (SV...",
-      "pub_date": "Fri, 10 Apr 2026 06:58:52 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Magento-Checkout-Pages.webp"
-    },
-    {
-      "title": "Single Line of Code Can jailbreak 11 AI models Including ChatGPT, Claude, and Gemini",
-      "link": "https://cybersecuritynews.com/single-line-of-code-can-jailbreak-11-ai-models/",
-      "description": "A newly detailed jailbreak technique known as \u0026#8220;sockpuppeting\u0026#8221; allows attackers to bypass the safety guardrails of 11 major large language models (LLMs) using a single line of code. Unli...",
-      "pub_date": "Fri, 10 Apr 2026 06:40:44 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Single-Line-of-Code-Can-jailbreak-11-AI-models-Including-ChatGPT-Claude-and-Gemini.webp"
     },
     {
       "title": "Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers",
@@ -270,14 +278,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/google-new-unc6783-hackers-steal-corporate-zendesk-support-tickets/",
       "description": "A threat actor tracked as UNC6783 is compromising business process outsourcing (BPO) providers to gain access to high-value companies across multiple sectors. [...]",
       "pub_date": "Wed, 08 Apr 2026 17:46:27 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "New macOS stealer campaign uses Script Editor in ClickFix attack",
-      "link": "https://www.bleepingcomputer.com/news/security/new-macos-stealer-campaign-uses-script-editor-in-clickfix-attack/",
-      "description": "A new campaign delivering the Atomic Stealer malware to macOS users abuses the Script Editor in a variation of the ClickFix attack that tricked users into executing commands in Terminal. [...]",
-      "pub_date": "Wed, 08 Apr 2026 14:55:43 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
