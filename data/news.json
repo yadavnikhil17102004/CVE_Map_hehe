@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-04-10T15:43:01Z",
+  "last_updated": "2026-04-10T16:41:59Z",
   "articles": [
+    {
+      "title": "Nearly 4,000 US industrial devices exposed to Iranian cyberattacks",
+      "link": "https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/",
+      "description": "The attack surface targeted by Iranian-linked hackers in cyberattacks against U.S. critical infrastructure networks includes thousands of Internet-exposed programmable logic controllers (PLCs) manu...",
+      "pub_date": "Fri, 10 Apr 2026 11:52:45 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Analysis of one billion CISA KEV remediation records exposes limits of human-scale security",
       "link": "https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/",
@@ -8,6 +16,14 @@
       "pub_date": "Fri, 10 Apr 2026 10:01:11 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Hackers Use Fake BTS World Tour Ticket Sites to Scam Fans Across Multiple Countries",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-bts-world-tour-ticket-sites/",
+      "description": "Cybercriminals are capitalizing on the excitement around BTS\u0026#8217;s long-awaited return to the world stage by setting up fraudulent ticket websites that steal money from unsuspecting fans. The cam...",
+      "pub_date": "Fri, 10 Apr 2026 13:43:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-Fake-BTS-World-Tour-Ticket-Sites-to-Scam-Fans-Across-Multiple-Countries.webp"
     },
     {
       "title": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs",
@@ -18,12 +34,60 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioOU2XpKmyRPz5kTr4GhD1YLJ2t7F6yv7bQD1upkiwmGwmzirnDAz92GvtjckyoBhBjaRqeR9XPm6e0yHdKLowfDDgZNkRlCvCneJEncgiviFu7PgD4wQg3Bo5JDhgg6JTytg_fY2M-iKeykCLebOdStW4A76JKnPbEQazihNOhKOdM9Ou8keMBh4IY4jo/s1600/software.jpg"
     },
     {
-      "title": "Supply chain attack at CPUID pushes malware with CPU-Z/HWMonitor",
+      "title": "Censys Warns 5,219 Rockwell/Allen-Bradley PLCs Are Exposed Amid Iranian APT Activity",
+      "link": "https://cybersecuritynews.com/censys-warns-5219-rockwell-allen-bradley-plcs/",
+      "description": "The FBI, CISA, NSA, EPA, DOE, and U.S. Cyber Command jointly disclosed on April 7, 2026, that Iranian-affiliated advanced persistent threat (APT) actors are actively targeting internet-facing Rockw...",
+      "pub_date": "Fri, 10 Apr 2026 13:16:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Censys-Warns-5219-Rockwell-Allen-Bradley-PLCs-Are-Exposed-Amid-Iranian-APT-Activity.webp"
+    },
+    {
+      "title": "CPUID hacked to deliver malware via CPU-Z, HWMonitor downloads",
       "link": "https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/",
       "description": "Hackers gained access to an API for the CPUID project and changed the download links on the official website to serve malicious executables for the popular CPU-Z and HWMonitor tools. [...]",
       "pub_date": "Fri, 10 Apr 2026 09:12:42 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Hackers Exploit GitHub Copilot Flaw to Exfiltrate Sensitive Data",
+      "link": "https://cybersecuritynews.com/hackers-exploit-github-copilot-flaw/",
+      "description": "A recently disclosed high-severity vulnerability in GitHub Copilot Chat allowed attackers to silently siphon sensitive data from private repositories. Tracked as CVE-2025-59145 with a near-perfect ...",
+      "pub_date": "Fri, 10 Apr 2026 12:55:15 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Exploit-GitHub-Copilot-Flaw-to-Exfiltrate-Sensitive-Data-.webp"
+    },
+    {
+      "title": "HPE Aruba Private 5G Platform Vulnerability Enables Credential Theft Attacks",
+      "link": "https://cybersecuritynews.com/hpe-aruba-private-5g-platform-vulnerability/",
+      "description": "Hewlett-Packard Enterprise (HPE) has disclosed a security flaw in its Aruba Networking Private 5G Core On-Prem platform. This vulnerability allows attackers to steal user credentials by exploiting ...",
+      "pub_date": "Fri, 10 Apr 2026 12:54:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/HPE-Aruba-Private-5G-Platform-Vulnerability-Enables-credential-Theft-Attacks-.webp"
+    },
+    {
+      "title": "Hackers Impersonate Secure Messaging Apps to Deploy ProSpy in Middle East Espionage Attacks",
+      "link": "https://cybersecuritynews.com/hackers-impersonate-secure-messaging-apps-to-deploy-prospy/",
+      "description": "A targeted mobile espionage campaign has been quietly operating across the Middle East since at least 2022, using fake versions of widely trusted secure messaging apps to plant a powerful Android s...",
+      "pub_date": "Fri, 10 Apr 2026 12:43:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Impersonate-Secure-Messaging-Apps-to-Deploy-ProSpy-in-Middle-East-Espionage-Attacks.webp"
+    },
+    {
+      "title": "AI Router Vulnerabilities Allow Attackers to Inject Malicious Code and Steal Sensitive Data",
+      "link": "https://cybersecuritynews.com/ai-router-vulnerabilities/",
+      "description": "A critical and largely overlooked attack surface in the AI agent ecosystem, third-party API routers that can be weaponized to silently hijack tool calls, drain cryptocurrency wallets, and exfiltrat...",
+      "pub_date": "Fri, 10 Apr 2026 12:15:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/AI-Router-Vulnerabilities.webp"
+    },
+    {
+      "title": "Hackers Abuse GitHub and GitLab to Host Malware and Credential Phishing Campaigns",
+      "link": "https://cybersecuritynews.com/hackers-abuse-github-and-gitlab/",
+      "description": "Cybercriminals are now turning two of the most trusted developer platforms in the world — GitHub and GitLab — into tools for spreading malware and stealing login credentials from unsuspecting u...",
+      "pub_date": "Fri, 10 Apr 2026 12:04:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Abuse-GitHub-and-GitLab-to-Host-Malware-and-Credential-Phishing-Campaigns.webp"
     },
     {
       "title": "Microsoft: Canadian employees targeted in payroll pirate attacks",
@@ -48,6 +112,30 @@
       "pub_date": "Fri, 10 Apr 2026 06:44:08 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "MuddyWater Turns to Russian Malware-as-a-Service in New ChainShell Campaign",
+      "link": "https://cybersecuritynews.com/muddywater-turns-to-russian-malware-as-a-service/",
+      "description": "Iranian state-backed hacking group MuddyWater has made a decisive operational shift, adopting a Russian-built Malware-as-a-Service platform to power a new campaign against Israeli targets. The oper...",
+      "pub_date": "Fri, 10 Apr 2026 10:09:40 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/MuddyWater-Turns-to-Russian-Malware-as-a-Service-in-New-ChainShell-Campaign.webp"
+    },
+    {
+      "title": "Multiple TP-Link Vulnerabilities Allow Attackers to Seize Control of the Device",
+      "link": "https://cybersecuritynews.com/multiple-tp-link-vulnerabilities-seize-control-of-the-device/",
+      "description": "Cybersecurity researchers have identified five distinct security flaws in the TP-Link Archer AX53 v1.0 router. Tracked under multiple CVE identifiers, these vulnerabilities impact the router\u0026#8217;...",
+      "pub_date": "Fri, 10 Apr 2026 09:16:08 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Multiple-TP-Link-Vulnerabilities-allow-attackers-to-seize-control-of-the-device.webp"
+    },
+    {
+      "title": "CPUID Website Compromised to Deliver Weaponized  HWMonitor and CPU-Z Tools",
+      "link": "https://cybersecuritynews.com/cpuid-website-compromised/",
+      "description": "The cpuid-dot-com website, home to widely used system utilities CPU-Z and HWMonitor, is at the center of an active supply chain security incident. Users downloading HWMonitor 1.63 or CPU-Z ZIPs sin...",
+      "pub_date": "Fri, 10 Apr 2026 08:25:45 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CPUID-Website-Compromise.webp"
     },
     {
       "title": "Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows",
@@ -198,14 +286,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/crypto-atm-giant-bitcoin-depot-says-hackers-stole-36-million-from-its-wallets/",
       "description": "Bitcoin Depot, which operates one of the largest Bitcoin ATM networks, says attackers stole $3.665 million worth of Bitcoin from its crypto wallets after breaching its systems last month. [...]",
       "pub_date": "Thu, 09 Apr 2026 03:44:55 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft suspends dev accounts for high-profile open source projects",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/",
-      "description": "Microsoft has suspended developer accounts used to maintain multiple high-profile open-source projects without proper notification and no way to quickly reinstate them, effectively blocking them fr...",
-      "pub_date": "Thu, 09 Apr 2026 02:46:26 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
