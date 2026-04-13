@@ -352,10 +352,13 @@ func fetchWindow(from, to time.Time, dict map[string]CVEIntel, apiKey string) er
 // ============================================================
 
 // collectMissingCVEs scans all data/*.json files for CVE IDs that are
-// either absent from the dictionary or have score == 0 (UNSCORED).
+// either absent from the dictionary, have score == 0 (UNSCORED), or are
+// Deferred with a publish date older than 30 days (NVD usually scores within
+// 2-4 weeks, so stale Deferred entries are worth retrying).
 // Non-standard IDs (OTHER-*, GHSA-*, etc.) are filtered out.
 func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
 	validCVE := regexp.MustCompile(`^CVE-\d{4}-\d{4,}$`) // strict format only
+	cutoff := time.Now().AddDate(0, 0, -30)
 
 	pattern := filepath.Join(dataDir, "*.json")
 	files, err := filepath.Glob(pattern)
@@ -392,6 +395,14 @@ func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
 			existing, ok := dict[id]
 			if !ok || existing.Score == 0 {
 				missing = append(missing, id)
+				continue
+			}
+			// Retry stale Deferred entries (NVD usually scores within 2-4 weeks)
+			if existing.Status == "Deferred" && existing.Published != "" {
+				pub, err := time.Parse("2006-01-02", existing.Published)
+				if err == nil && pub.Before(cutoff) {
+					missing = append(missing, id)
+				}
 			}
 		}
 	}
