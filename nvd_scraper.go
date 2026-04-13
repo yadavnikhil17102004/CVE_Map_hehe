@@ -187,6 +187,12 @@ func fetchEPSS(cveIDs []string) map[string]float64 {
 		body, _ := io.ReadAll(resp.Body)
 		resp.Body.Close()
 
+		if resp.StatusCode != 200 {
+			log.Printf("  [-] EPSS HTTP %d for batch starting at index %d", resp.StatusCode, i)
+			time.Sleep(5 * time.Second)
+			continue
+		}
+
 		var epssResp EPSSResponse
 		if err := json.Unmarshal(body, &epssResp); err != nil {
 			log.Printf("  [-] EPSS parse error: %v", err)
