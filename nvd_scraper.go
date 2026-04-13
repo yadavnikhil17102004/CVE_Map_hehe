@@ -393,7 +393,7 @@ func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
 			}
 			seen[id] = true
 			existing, ok := dict[id]
-			if !ok || existing.Score == 0 {
+			if (!ok || existing.Score == 0) && existing.Status != "Deferred" {
 				missing = append(missing, id)
 				continue
 			}
