@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-13T19:07:49Z",
+  "last_updated": "2026-04-13T20:44:44Z",
   "articles": [
+    {
+      "title": "Stolen Rockstar Games analytics data leaked by extortion gang",
+      "link": "https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/",
+      "description": "Rockstar Games has suffered a data breach linked to a recent security incident at Anodot, with the ShinyHunters extortion gang now leaking the stolen data on its data leak site. [...]",
+      "pub_date": "Mon, 13 Apr 2026 16:08:10 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Critical flaw in wolfSSL library enables forged certificate use",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/",
+      "description": "A critical vulnerability in the wolfSSL SSL/TLS library can weaken security via improper verification of the hash algorithm or its size when checking Elliptic Curve Digital Signature Algorithm (ECD...",
+      "pub_date": "Mon, 13 Apr 2026 15:56:03 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "FBI takedown of W3LL phishing service leads to developer arrest",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/",
@@ -24,6 +40,14 @@
       "pub_date": "Mon, 13 Apr 2026 13:30:10 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025",
+      "link": "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
+      "description": "Banks and financial institutions in Latin American countries like Brazil and Mexico have continued to be the target of a malware family called JanelaRAT. A modified version of BX RAT, JanelaRAT is ...",
+      "pub_date": "Mon, 13 Apr 2026 22:45:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMP1knUStbLpgNZ-k52a4ctZyxeERGEeqqVfX75PVTgtdu6XpoIlhHiFAwa4nTwg0089TuczQY5YZOgHOQk-TpVZNxs0piNVCPHsgBPSreTcKQ8gwISSDK7JI4oipfjfrnehwPCqWcyBnxobYaKM7TTu5SN23pUJ5K9fCbORLy2g_ZsSzkmxkp8VVdghfP/s1600/1000066319.jpg"
     },
     {
       "title": "Adobe rolls out emergency fix for Acrobat, Reader zero-day flaw",
@@ -210,36 +234,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPUQqw4JQlrmSih69TSpC28TmE2G1rOMs1k_jrdeQbXFFNV6nPvlVQh9oMIwtOLiVJVUxYZFZ0RDiXmLDOPXpF-pbaStwjml7hxE-OITfsVlk2wA-nKUOpcn9R7FjQe03OInZdN2p8GmkFXAvYBbDeU_IDX1wuQ4iqc46lM6SraDPXhbEcCt-LNL0YTck/s1600/slider.jpg"
     },
     {
-      "title": "New ‘LucidRook’ malware used in targeted attacks on NGOs, universities",
-      "link": "https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/",
-      "description": "A new Lua-based malware, called LucidRook, is being used in spear-phishing campaigns targeting non-governmental organizations and universities in Taiwan. [...]",
-      "pub_date": "Thu, 09 Apr 2026 18:04:31 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "New VENOM phishing attacks steal senior executives' Microsoft logins",
-      "link": "https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/",
-      "description": "Threat actors using a previously undocumented phishing-as-a-service (PhaaS) platform called \"VENOM\" are targeting credentials of C-suite executives across multiple industries. [...]",
-      "pub_date": "Thu, 09 Apr 2026 17:37:04 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallet Installs",
       "link": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
       "description": "Details have emerged about a now-patched security vulnerability in a widely used third-party Android software development kit\u0026nbsp;(SDK) called\u0026nbsp;EngageLab\u0026nbsp;SDK that could have put millions ...",
       "pub_date": "Thu, 09 Apr 2026 22:56:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigi73Eo-lmEoLh8BcTJmWW5GrmLrm49pUkkl8zyxIg1YTEncbgCaY-wXarkWZuipJhJEubcJx-VEiHOv_NrMtPw1BoEU3Ni8gXNcKcbWX4TqBU8pikOAkRdCl-r_XvLz4oXmQ2IpY25bWzLFkXh_hezhx0jgUYiuRvrYVxhW-6x5J7m84HH_VeRtRzTGbW/s1600/vul-app.jpg"
-    },
-    {
-      "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns",
-      "link": "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html",
-      "description": "A previously undocumented threat cluster\u0026nbsp;dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities t...",
-      "pub_date": "Thu, 09 Apr 2026 21:53:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4smwzOHJUhoy2YQYZQpTIp9u5xk7vywCOtewG6WfLl1S3h1EO25k8GY6WSHovGYwTn4vo9uMFcoNX6XDa0-BC0mXJrTdSHtWGJDP1GIXqGvRnlqnqyPwzxxPFyjLx9yxEn1oeWs4r8fqq5xlS__yUA3nwf0DpZBiUh86FUx71PRBGbAP0gaNFAILqYgbT/s1600/phish.jpg"
     },
     {
       "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
