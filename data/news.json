@@ -1,6 +1,86 @@
 {
-  "last_updated": "2026-04-13T13:06:30Z",
+  "last_updated": "2026-04-13T15:09:55Z",
   "articles": [
+    {
+      "title": "Mozilla Criticizes Microsoft for Installing Copilot on Windows Without User Consent",
+      "link": "https://cybersecuritynews.com/mozilla-criticizes-microsoft-for-copilot/",
+      "description": "Mozilla has publicly criticized Microsoft for deploying its AI assistant, Copilot, onto Windows systems without user consent, a practice the Firefox maker describes as prioritizing corporate revenu...",
+      "pub_date": "Mon, 13 Apr 2026 14:53:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Mozilla-Criticizes-Microsoft-for-Copilot.webp"
+    },
+    {
+      "title": "How Threat Intelligence Drives a Real ROI Boost for Your SOC ",
+      "link": "https://cybersecuritynews.com/how-threat-intelligence-drives-a-real-roi-boost-for-your-soc/",
+      "description": "Proving the ROI the company gets from SOC operations is a persistent challenge for SOC leaders and CISOs.  Financial leadership may\u0026#160;view\u0026#160;investing money into security as\u0026#160;something...",
+      "pub_date": "Mon, 13 Apr 2026 14:51:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgde0i2eEUhSaGr8A93C_1uxLy08Fc-ILMCFNr7m4DYcJNN-pOlEen42IjIjmSCx11vPl2bFe5vO-8hGESrqInRIhO1T4hsHfrYHBiJ8ACfC1ajZSCQhdhyphenhyphenPsAtw9H7W700Lx08yapP6vpGNsbZzt2keJFWE4QTB92LbjIyrQJGAyT-GTIj-rYBimRnoQ/s16000/Threat%20Intelligence%20Boosts%20ROI%20and%20Strengthens%20Your%20SOC.webp?ssl=1"
+    },
+    {
+      "title": "Nginx 1.29.8 and FreeNginx Released With Critical Security Updates",
+      "link": "https://cybersecuritynews.com/nginx-1-29-8-and-freenginx-released/",
+      "description": "Web server administrators must prioritize updating their infrastructure, as Nginx 1.29.8 and the parallel FreeNginx project have officially released critical updates. Released on April 7, 2026, the...",
+      "pub_date": "Mon, 13 Apr 2026 14:32:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Nginx-1.29.8-and-FreeNginx-Released-With-Critical-Security-Updates.webp"
+    },
+    {
+      "title": "Marimo RCE Vulnerability Exploited in the Within 10 Hours of Disclosure",
+      "link": "https://cybersecuritynews.com/marimo-rce-vulnerability-exploited/",
+      "description": "A critical vulnerability was disclosed in Marimo, an open-source reactive Python notebook platform. Less than 10 hours later, attackers successfully weaponized the flaw to steal sensitive cloud cre...",
+      "pub_date": "Mon, 13 Apr 2026 14:29:40 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Marimo-RCE-Vulnerability-Exploited-in-the-Within-10-Hours-of-Disclosure.webp"
+    },
+    {
+      "title": "Critical Axios Vulnerability Allows Remote Code Execution – PoC Released",
+      "link": "https://cybersecuritynews.com/axios-vulnerability-poc-released/",
+      "description": "The cybersecurity community is on high alert after the disclosure of a critical security flaw in Axios, a widely used promise-based HTTP client for Node.js and browsers. Security researcher Jason ...",
+      "pub_date": "Mon, 13 Apr 2026 14:26:38 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Axios-Vulnerability-Allows-Remote-Code-Execution-PoC-Released.webp"
+    },
+    {
+      "title": "Hackers Abuse MSBuild LOLBin to Evade Detection and Launch Fileless Windows Attacks",
+      "link": "https://cybersecuritynews.com/hackers-abuse-msbuild-lolbin/",
+      "description": "Cybercriminals are increasingly turning to tools that already live inside Windows to carry out attacks — and MSBuild.exe has become one of their favorites. This Microsoft-signed build utility, tr...",
+      "pub_date": "Mon, 13 Apr 2026 14:21:46 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Abuse-MSBuild-LOLBin-to-Evade-Detection-and-Launch-Fileless-Windows-Attacks.webp"
+    },
+    {
+      "title": "Apache Tomcat Vulnerabilities Enables Bypass of EncryptInterceptor",
+      "link": "https://cybersecuritynews.com/apache-tomcat-vulnerabilities-encryptinterceptor/",
+      "description": "The Apache Software Foundation has released emergency security updates to address multiple vulnerabilities in Apache Tomcat. The latest advisories highlight a critical patching error that inadverte...",
+      "pub_date": "Mon, 13 Apr 2026 14:19:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Apache-Tomcat-Vulnerabilities-Bypass-of-EncryptInterceptor-.webp"
+    },
+    {
+      "title": "The silent “Storm”: New infostealer hijacks sessions, decrypts server-side",
+      "link": "https://www.bleepingcomputer.com/news/security/the-silent-storm-new-infostealer-hijacks-sessions-decrypts-server-side/",
+      "description": "New \"Storm\" infostealer skips local decryption, sending browser data to attacker servers. Varonis shows how server-side decryption enables session hijacking, bypassing passwords and MFA. [...]",
+      "pub_date": "Mon, 13 Apr 2026 10:05:15 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Iran-Linked CyberAv3ngers Sets Sights on Water Utilities and Industrial Controllers",
+      "link": "https://cybersecuritynews.com/iran-linked-cyberav3ngers-sets-sights/",
+      "description": "An Iran-backed cyber threat group called CyberAv3ngers has grown from a noise-making hacktivist outfit into a serious threat targeting critical infrastructure across the United States. The group, f...",
+      "pub_date": "Mon, 13 Apr 2026 13:36:52 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Iran-Linked-CyberAv3ngers-Sets-Sights-on-Water-Utilities-and-Industrial-Controllers.webp"
+    },
+    {
+      "title": "⚡ Weekly Recap: Fiber Optic Spying, Windows Rootkit, AI Vulnerability Hunting and More",
+      "link": "https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html",
+      "description": "Monday\u0026nbsp;is back, and the weekend’s backlog of chaos is officially hitting the fan. We\u0026nbsp;are tracking a critical zero-day that has been quietly living in your PDFs for months, plus some agg...",
+      "pub_date": "Mon, 13 Apr 2026 18:31:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZNd-YcwKXoD_PmPblT00GaI9GQJvtJTHZk-5RBS1QEtLRupE9KKh-ogAP61b-cLzJm90PHDoRVnhiUzxlqcn-3gB2EtBG2TYxt8erP8UmLj3t1L_9Ykh3vfbCXFBXAoeylbbTeK7jxJIDmqCqThPziWi0XOzbyMZ-UEWGl_PhP4xePoRbsm_RqpUKmQNW/s1600/recaps-main.jpg"
+    },
     {
       "title": "Hackers Hide VIPERTUNNEL Python Backdoor Inside Fake DLL and Obfuscated Loader Chain",
       "link": "https://cybersecuritynews.com/hackers-hide-vipertunnel-python-backdoor/",
@@ -26,14 +106,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/APT37-Abuses-Facebook-Telegram-and-Tampered-Installer-in-New-Targeted-Intrusion-Attack.webp"
     },
     {
-      "title": "Basic-Fit Data Breach Exposes Millions of Users Across Multiple Countries",
-      "link": "https://cybersecuritynews.com/basic-fit-data-breach/",
-      "description": "Europe\u0026#8217;s largest budget fitness chain by club count, Basic-Fit, has confirmed a significant data breach affecting approximately 1 million members across multiple countries, with around 200,00...",
-      "pub_date": "Mon, 13 Apr 2026 10:34:31 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Basic-Fit-Data-Breach.webp"
-    },
-    {
       "title": "North Korea's APT37 Uses Facebook Social Engineering to Deliver RokRAT Malware",
       "link": "https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html",
       "description": "The North Korean hacking group tracked\u0026nbsp;as APT37 (aka ScarCruft) has been attributed to a fresh multi-stage, social engineering campaign in which threat actors approached targets on Facebook an...",
@@ -42,52 +114,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm-HTAVB66ntSv8R4Bgh9szlrPPh6ah0eJGTDheDntj2w9bW9XzWcgs2CAGsN_C8DS7T4M7V8q18_DtgMZu3mJONEewq_oWlpefdtwp6BgudRjw2Z68jXoP8tHCdxSyvZ-xvVuPlh-xpxEeIRHk1v2mq5KqZxS1z316ncG5j2Q9HQe_bJhIJE4XWONvyYL/s1600/telegram.jpg"
     },
     {
-      "title": "Adobe Patches Acrobat Reader 0-Day Vulnerability Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/adobe-0-day-vulnerability-exploited/",
-      "description": "Adobe has issued an emergency security patch to neutralize a critical zero-day vulnerability in Acrobat Reader that is currently being exploited in the wild. Tracked as CVE-2026-34621, this severe...",
-      "pub_date": "Mon, 13 Apr 2026 08:23:25 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Adobe-Patches-Acrobat-Reader-0-Day-Vulnerability-Exploited-in-the-Wild.webp"
-    },
-    {
-      "title": "Elon Musk Announces to Launch XChat With Self-Destruct Message Features",
-      "link": "https://cybersecuritynews.com/elon-musk-launch-xchat/",
-      "description": "Elon Musk has officially rolled out XChat, a major security overhaul to the direct messaging infrastructure on the X platform. Designed to rival secure messengers like Signal and Telegram, XChat in...",
-      "pub_date": "Mon, 13 Apr 2026 08:15:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Elon-Musk-Announces-to-Launch-XChat-With-self-destruct-message-Features.webp"
-    },
-    {
-      "title": "Microsoft Confirms Recent Windows 11 Updates Break Push Button Reset",
-      "link": "https://cybersecuritynews.com/windows-11-updates-break-push-button-reset/",
-      "description": "Microsoft has officially acknowledged that recent security updates for Windows 11 are causing the \u0026#8220;Reset this PC\u0026#8221; (Push-button reset) recovery feature to fail. The issue was confirmed i...",
-      "pub_date": "Mon, 13 Apr 2026 08:09:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-confirms-Recent-Windows-11-updates-break-Push-Button-Reset-1.webp"
-    },
-    {
-      "title": "Critical WordPress Plugin Flaw Lets Attackers Bypass Authentication and Gain Admin Access",
-      "link": "https://cybersecuritynews.com/wordpress-plugin-flaw-lets-attackers-bypass-authentication/",
-      "description": "A critical security flaw found in a widely used WordPress plugin is putting thousands of websites at serious risk worldwide. Tracked as CVE-2026-1492, this vulnerability affects the User Registrati...",
-      "pub_date": "Mon, 13 Apr 2026 07:17:58 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-WordPress-Plugin-Flaw-Lets-Attackers-Bypass-Authentication-and-Gain-Admin-Access.webp"
-    },
-    {
       "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
       "link": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
       "description": "OpenAI revealed a GitHub Actions workflow used to sign its macOS apps led to the download of the malicious Axios library on March 31, but noted that no user data or internal system was compromised....",
       "pub_date": "Mon, 13 Apr 2026 12:20:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE5gb0KURzHAgdXMKzxbNFW1AJ8G2ezWXrHrLReEmbX6BKaG3-tIjiDVcjk-4nIZ3Kg2_564qiWXVVGcERIi4vaUvjqG-BuENXb7i6P3M2rdOHz-S9DOcKIHZ-pa1odUyUdTI-lLify_9CRXYcZu3hyY2LXeTMp1wMRr7mnu7yQdIIjGrFXCAecG4-XVpS/s1600/openai.jpg"
-    },
-    {
-      "title": "WhatsApp’s ‘End-to-End Encryption by Default’ Claim Called Major Consumer Fraud by Pavel Durov",
-      "link": "https://cybersecuritynews.com/whatsapp-end-to-end-encryption-pavel-durov/",
-      "description": "Telegram founder Pavel Durov has accused WhatsApp of perpetrating what he calls \u0026#8220;the biggest consumer fraud in history,\u0026#8221; alleging that the platform\u0026#8217;s widely marketed end-to-end en...",
-      "pub_date": "Mon, 13 Apr 2026 02:46:24 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/WhatsApp-End-to-End-Encryption-Pavel-Durov.webp"
     },
     {
       "title": "Critical Marimo pre-auth RCE flaw now under active exploitation",
@@ -114,28 +146,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg1374h3OcQ3MPg1BngGcQC6U8eVWUh3Ye84l6WpQKxC1a8_x1Mpp0K8-0DDfJU0YtVqWoUZcNE-bJ_bsfraWWWfafJoP8pF7jDlcb8L4LqNDYWtbhoaDcSbpcmEwNjDi0hzkie5VVRmqntS8uZe4hrAd4IDcc0CO95Bsj8y1rP7LhfPsCkvQIkOtx-B7D/s1600/adobe-adobe.jpg"
     },
     {
-      "title": "OpenAI Warns macOS Users to Update ChatGPT and Codex Immediately",
-      "link": "https://cybersecuritynews.com/openai-macos-users/",
-      "description": "OpenAI has disclosed a security incident tied to the compromise of Axios, a widely used third-party JavaScript developer library, as part of a broader software supply chain attack detected on March...",
-      "pub_date": "Sat, 11 Apr 2026 16:56:52 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/OpenAI-macOS-Users.webp"
-    },
-    {
       "title": "Over 20,000 crypto fraud victims identified in international crackdown",
       "link": "https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/",
       "description": "An international law enforcement action led by the U.K.'s National Crime Agency (NCA) has identified over 20,000 victims of cryptocurrency fraud across Canada, the United Kingdom, and the United St...",
       "pub_date": "Sat, 11 Apr 2026 10:20:40 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "The Complete Guide To SPF Flattening For Office 365, Google Workspace, And Saas Senders ",
-      "link": "https://cybersecuritynews.com/the-complete-guide-to-spf-flattening-for-office-365-google-workspace-and-saas-senders/",
-      "description": "Modern email ecosystems rely heavily on authentication to ensure messages are trusted and delivered successfully, and Sender Policy Framework (SPF) plays a critical role in this process. However, a...",
-      "pub_date": "Sat, 11 Apr 2026 13:59:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_OEGNJkYEF4S17Nez9EBr8qHsxGkUIgovdVHWFuEhpy_zFB9I0zROBHLIYhjz91qjN83p-vN9ThkuEx8m6izkP_-l06_I5-q_LwcsUHs8To_63OZCIWmtEEY1EV4KtlQOmP6j15I6W8M-p01Ka9-T6puXM2T7WWTyHhrE67iEIiU5FmbGto_IU5Wdf48/s16000/TTT%20-%202026-04-12T193530.224.webp?ssl=1"
     },
     {
       "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data",
@@ -304,22 +320,6 @@
       "pub_date": "Thu, 09 Apr 2026 18:27:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6d4nK1zoWjzSmbdUmGPSycMwGmzcYM2XRrFH_ueobgO_8j7hwRdv8Ct856gg_k29HqAOw1-HGCtPpxyGDcuQIKY53ATLKb8bQCsJR5b_Jf8VqX1igItYBIe4iQazqSRe5fmFrFXS1fCcKdz6enbI6zYngIztjJ_UI262_ynNGJrd1EB_OUV1ZKYVl04-h/s1600/threatsdays-main.jpg"
-    },
-    {
-      "title": "Webinar: From noise to signal - What threat actors are targeting next",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/",
-      "description": "Threat actors often signal their intentions before launching attacks, from dark web chatter to access-broker listings and credential requests. Join our upcoming webinar with Flare Systems to learn ...",
-      "pub_date": "Thu, 09 Apr 2026 08:20:28 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "The Hidden Security Risks of Shadow AI in Enterprises",
-      "link": "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
-      "description": "As\u0026nbsp;AI tools become more accessible, employees are adopting them without formal approval from IT and security teams. While\u0026nbsp;these tools may boost productivity, automate tasks, or fill gaps ...",
-      "pub_date": "Thu, 09 Apr 2026 17:01:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO6OQHlRJgIjpCieiOfi48Mexu0Puimw_dz6w0h1spC2ZjcqifD2YPod5wd1AtUhr-e7CtAAoZ0bnRGnCH-BZRz4pDlB5Db2hJ4vFqsq5jc42UI4VTGXkxD8gNX1Ods9PpQZL4lk84RNL6EDSeI4YFCdjBgKSqKGimsqcsjekAAmr8CGYr3a2wPkchNYA/s1600/keeper.jpg"
     },
     {
       "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
