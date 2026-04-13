@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-13T07:10:53Z",
+  "last_updated": "2026-04-13T09:29:30Z",
   "articles": [
+    {
+      "title": "Adobe Patches Acrobat Reader 0-Day Vulnerability Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/adobe-0-day-vulnerability-exploited/",
+      "description": "Adobe has issued an emergency security patch to neutralize a critical zero-day vulnerability in Acrobat Reader that is currently being exploited in the wild. Tracked as CVE-2026-34621, this severe...",
+      "pub_date": "Mon, 13 Apr 2026 08:23:25 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Adobe-Patches-Acrobat-Reader-0-Day-Vulnerability-Exploited-in-the-Wild.webp"
+    },
+    {
+      "title": "Elon Musk Announces to Launch XChat With Self-Destruct Message Features",
+      "link": "https://cybersecuritynews.com/elon-musk-launch-xchat/",
+      "description": "Elon Musk has officially rolled out XChat, a major security overhaul to the direct messaging infrastructure on the X platform. Designed to rival secure messengers like Signal and Telegram, XChat in...",
+      "pub_date": "Mon, 13 Apr 2026 08:15:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Elon-Musk-Announces-to-Launch-XChat-With-self-destruct-message-Features.webp"
+    },
+    {
+      "title": "Microsoft Confirms Recent Windows 11 Updates Break Push Button Reset",
+      "link": "https://cybersecuritynews.com/windows-11-updates-break-push-button-reset/",
+      "description": "Microsoft has officially acknowledged that recent security updates for Windows 11 are causing the \u0026#8220;Reset this PC\u0026#8221; (Push-button reset) recovery feature to fail. The issue was confirmed i...",
+      "pub_date": "Mon, 13 Apr 2026 08:09:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-confirms-Recent-Windows-11-updates-break-Push-Button-Reset-1.webp"
+    },
+    {
+      "title": "Critical WordPress Plugin Flaw Lets Attackers Bypass Authentication and Gain Admin Access",
+      "link": "https://cybersecuritynews.com/wordpress-plugin-flaw-lets-attackers-bypass-authentication/",
+      "description": "A critical security flaw found in a widely used WordPress plugin is putting thousands of websites at serious risk worldwide. Tracked as CVE-2026-1492, this vulnerability affects the User Registrati...",
+      "pub_date": "Mon, 13 Apr 2026 07:17:58 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-WordPress-Plugin-Flaw-Lets-Attackers-Bypass-Authentication-and-Gain-Admin-Access.webp"
+    },
+    {
+      "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
+      "link": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
+      "description": "OpenAI\u0026nbsp;revealed a GitHub Actions workflow used to sign its macOS apps, which downloaded the malicious Axios library on March 31, but noted that no user data or\u0026nbsp;internal system\u0026nbsp;was co...",
+      "pub_date": "Mon, 13 Apr 2026 12:20:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE5gb0KURzHAgdXMKzxbNFW1AJ8G2ezWXrHrLReEmbX6BKaG3-tIjiDVcjk-4nIZ3Kg2_564qiWXVVGcERIi4vaUvjqG-BuENXb7i6P3M2rdOHz-S9DOcKIHZ-pa1odUyUdTI-lLify_9CRXYcZu3hyY2LXeTMp1wMRr7mnu7yQdIIjGrFXCAecG4-XVpS/s1600/openai.jpg"
+    },
     {
       "title": "WhatsApp’s ‘End-to-End Encryption by Default’ Claim Called Major Consumer Fraud by Pavel Durov",
       "link": "https://cybersecuritynews.com/whatsapp-end-to-end-encryption-pavel-durov/",
@@ -90,44 +130,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Ransomware-Gangs-Expand-Use-of-EDR-Killers-Beyond-Vulnerable-Drivers-ESET-Warns-1.webp"
     },
     {
-      "title": "Hacker Uses Claude and ChatGPT to Breach Multiple Government Agencies",
-      "link": "https://cybersecuritynews.com/hacker-uses-claude-and-chatgpt-to-breach/",
-      "description": "A single threat actor compromised nine Mexican government agencies and stole hundreds of millions of citizen records in a highly sophisticated cyberattack. The campaign, which ran from late Decembe...",
-      "pub_date": "Sat, 11 Apr 2026 03:40:28 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hacker-Uses-Claude-and-ChatGPT-to-Breach-Multiple-Government-Agencies-1.webp"
-    },
-    {
-      "title": "Anthropic Launches Claude Beta for Word, Bringing AI-Powered Editing to Microsoft Docs",
-      "link": "https://cybersecuritynews.com/claude-beta-for-word/",
-      "description": "Anthropic has officially launched Claude for Word in public beta, bringing its AI assistant directly into Microsoft Word as a native sidebar add-in for Team and Enterprise users on both Mac and Win...",
-      "pub_date": "Sat, 11 Apr 2026 02:10:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Beta-for-Word.webp"
-    },
-    {
       "title": "ChatGPT rolls out new $100 Pro subscription to challenge Claude",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/",
       "description": "OpenAI has rolled out a new Pro subscription that costs $100 and is in line with Claude's pricing, which also has a $100 subscription, in addition to the $200 Max monthly plan. [...]",
       "pub_date": "Fri, 10 Apr 2026 22:08:16 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "EngageSDK Vulnerability Exposes Millions of Crypto Wallet Users to Cyberattacks",
-      "link": "https://cybersecuritynews.com/engagesdk-vulnerability-exposes-millions/",
-      "description": "A serious security flaw found inside a widely used Android library called EngageSDK has put over 30 million cryptocurrency wallet users at risk of financial theft and personal data exposure. The vu...",
-      "pub_date": "Fri, 10 Apr 2026 17:58:02 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/EngageSDK-Vulnerability-Exposes-Millions-of-Crypto-Wallet-Users-to-Cyberattacks.webp"
-    },
-    {
-      "title": "Hackers Use AiTM Session Hijacking to Redirect Employee Salaries in New Storm-2755 Campaign",
-      "link": "https://cybersecuritynews.com/hackers-use-aitm-session-hijacking/",
-      "description": "A financially motivated threat group called Storm-2755 has launched a campaign that quietly reroutes employee salary payments to attacker-controlled bank accounts. Targeting Canadian workers, the g...",
-      "pub_date": "Fri, 10 Apr 2026 17:44:07 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-AiTM-Session-Hijacking-to-Redirect-Employee-Salaries-in-New-Storm-2755-Campaign.webp"
     },
     {
       "title": "Nearly 4,000 US industrial devices exposed to Iranian cyberattacks",
@@ -312,14 +320,6 @@
       "pub_date": "Thu, 09 Apr 2026 16:10:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlfEPPxKdPdQANFPwRrggWpWL4wPe22B_Hdr5FpqDGHKTwN95xiQVwqqN896q_CkYvn-wrbDTXMl6wZ_aMD0YwEyRAI_9lzSZj_cg9-RhoNXMh-j16cA0n4CIT5y29FkOWFrQoV8oCv5OtZhMlhAKwqcgirImTOXoVzsJY76y6l-EWn86dAJfYNBy1ejW4/s1600/phone-hacking.jpg"
-    },
-    {
-      "title": "New Chaos Variant Targets Misconfigured Cloud Deployments, Adds SOCKS Proxy",
-      "link": "https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html",
-      "description": "Cybersecurity researchers have flagged a new variant\u0026nbsp;ofmalware\u0026nbsp;called Chaosthat'scapable of\u0026nbsp;hitting misconfigured cloud deployments, marking an expansion of the botnet's targeting in...",
-      "pub_date": "Wed, 08 Apr 2026 23:21:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjO6ntnqBUePhV2XQEQmTFh-IjdPR64u_T9ODhO3RY_BAv_8YohhRCwMg6OO9UKlvJJCd7rs1c391fbNZ59qDsSujaFJuso3h_94xKo2BX2L5Jj-osBqZ3VglM5kbgzt6OJGtkiNx4Am6NbgzrHtUa7fbdnfei8_xeJao4yvlMp3HkCurz9aNJkg9Xv934/s1600/cloud.jpg"
     },
     {
       "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
