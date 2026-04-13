@@ -325,12 +325,14 @@ let yearCache     = {};      // cache of all fetched year data for global search
 let nvdCache      = {};      // per-year NVD intel cache
 
 async function loadNvdIntel(year) {
-  if (nvdCache[year]) return nvdCache[year];
+  if (year in nvdCache) return nvdCache[year];
   try {
     const r = await fetch(`data/nvd_intel_${year}.json`);
-    if (r.ok) nvdCache[year] = await r.json();
-  } catch(_) {}
-  return nvdCache[year] || {};
+    nvdCache[year] = r.ok ? await r.json() : {};
+  } catch(_) {
+    nvdCache[year] = {};
+  }
+  return nvdCache[year];
 }
 const YEARS       = Array.from({length: new Date().getFullYear() - 2014}, (_,i) => 2015 + i);
 
@@ -394,6 +396,7 @@ function selectYear(y) {
 // LOAD YEAR DATA
 // ============================================================
 async function loadYear(year) {
+  nvdLayer = null;   // clear stale intel before new fetch
   setLoading(`Fetching ${year} threat data...`);
   try {
     const r = await fetch(`data/${year}.json`);

@@ -9,6 +9,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"strings"
 	"time"
 )
 
@@ -138,8 +139,14 @@ func writeIntelByYear(dictionary map[string]CVEIntel) {
 		}
 	}
 	// Also write full file for public API consumers
-	full, _ := json.Marshal(dictionary)
-	os.WriteFile(filepath.Join("data", "nvd_intel.json"), full, 0644)
+	full, err := json.Marshal(dictionary)
+	if err != nil {
+		log.Printf("[-] Failed to marshal full intel: %v", err)
+	} else if err := os.WriteFile(filepath.Join("data", "nvd_intel.json"), full, 0644); err != nil {
+		log.Printf("[-] Failed to write nvd_intel.json fallback: %v", err)
+	} else {
+		log.Printf("[+] Wrote nvd_intel.json fallback (%.1f KB)", float64(len(full))/1024.0)
+	}
 }
 
 // ============================================================
@@ -266,7 +273,8 @@ func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
 	var missing []string
 
 	for _, f := range files {
-		if filepath.Base(f) == "nvd_intel.json" {
+		base := filepath.Base(f)
+		if base == "nvd_intel.json" || strings.HasPrefix(base, "nvd_intel_") || base == "news.json" {
 			continue
 		}
 		raw, err := os.ReadFile(f)
