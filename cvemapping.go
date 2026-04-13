@@ -70,6 +70,8 @@ type CVERepository struct {
 	Topics          []string `json:"topics"`
 	Owner           Owner    `json:"owner"`
 	CloneURL        string   `json:"clone_url"`
+	HasCode         bool     `json:"has_code"`  // true if GitHub reports a primary language
+	AgeDays         int      `json:"age_days"`  // days since repo creation at scrape time
 }
 
 type CVEEntry struct {
@@ -619,6 +621,13 @@ func toCVERepository(repo *GitHubRepository) CVERepository {
 		Topics:          repo.Topics,
 		Owner:           repo.Owner,
 		CloneURL:        repo.CloneURL,
+		HasCode:         repo.Language != "",
+		AgeDays:         func() int {
+			if t, err := time.Parse(time.RFC3339, repo.CreatedAt); err == nil {
+				return int(time.Since(t).Hours() / 24)
+			}
+			return 0
+		}(),
 	}
 }
 
