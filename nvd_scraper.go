@@ -38,8 +38,9 @@ type CVE2 struct {
 	Descriptions          []LangValue `json:"descriptions"`
 	Metrics               Metrics2    `json:"metrics"`
 	Weaknesses            []Weakness  `json:"weaknesses"`
-	CisaExploitAdd        string      `json:"cisaExploitAdd,omitempty"`
-	CisaVulnerabilityName string      `json:"cisaVulnerabilityName,omitempty"`
+	CisaExploitAdd        string          `json:"cisaExploitAdd,omitempty"`
+	CisaVulnerabilityName string          `json:"cisaVulnerabilityName,omitempty"`
+	Configurations        []Configuration `json:"configurations"`
 }
 
 type LangValue struct {
@@ -81,21 +82,35 @@ type Weakness struct {
 	Description []LangValue `json:"description"`
 }
 
+type Configuration struct {
+	Nodes []ConfigNode `json:"nodes"`
+}
+
+type ConfigNode struct {
+	CPEMatch []CPEMatch `json:"cpeMatch"`
+}
+
+type CPEMatch struct {
+	Criteria   string `json:"criteria"`  // e.g. "cpe:2.3:a:apache:log4j:*:..."
+	Vulnerable bool   `json:"vulnerable"`
+}
+
 // ============================================================
 // Our compact output format — what lands in nvd_intel.json
 // ============================================================
 
 type CVEIntel struct {
-	Score     float64 `json:"s"`            // CVSS base score
-	Severity  string  `json:"v"`            // CRITICAL / HIGH / MEDIUM / LOW
-	Desc      string  `json:"d"`            // English description
-	Vector    string  `json:"c,omitempty"`  // CVSS vector string
-	CWE       string  `json:"w,omitempty"`  // Primary CWE (e.g. CWE-502)
-	KEV       bool    `json:"k,omitempty"`  // true if in CISA Known Exploited Vulnerabilities
-	Source    string  `json:"r,omitempty"`  // "NIST" or "CNA"
-	Published string  `json:"p,omitempty"`  // YYYY-MM-DD
-	Status    string  `json:"u,omitempty"`  // vulnStatus
-	EPSS      float64 `json:"e,omitempty"` // EPSS probability 0.0–1.0
+	Score     float64  `json:"s"`            // CVSS base score
+	Severity  string   `json:"v"`            // CRITICAL / HIGH / MEDIUM / LOW
+	Desc      string   `json:"d"`            // English description
+	Vector    string   `json:"c,omitempty"`  // CVSS vector string
+	CWE       string   `json:"w,omitempty"`  // Primary CWE (e.g. CWE-502)
+	KEV       bool     `json:"k,omitempty"`  // true if in CISA Known Exploited Vulnerabilities
+	Source    string   `json:"r,omitempty"`  // "NIST" or "CNA"
+	Published string   `json:"p,omitempty"`  // YYYY-MM-DD
+	Status    string   `json:"u,omitempty"`  // vulnStatus
+	EPSS      float64  `json:"e,omitempty"`  // EPSS probability 0.0–1.0
+	Products  []string `json:"q,omitempty"`  // "vendor:product" pairs from CPE data
 }
 
 type EPSSResponse struct {
@@ -474,6 +489,37 @@ func rateSleep(apiKey string) {
 }
 
 // ============================================================
+// CPE product extraction
+// ============================================================
+
+// extractProducts parses CPE criteria strings and returns unique "vendor:product" pairs.
+func extractProducts(configs []Configuration) []string {
+	seen := make(map[string]bool)
+	var products []string
+	// CPE 2.3 format: cpe:2.3:part:vendor:product:version:...
+	cpeRegex := regexp.MustCompile(`^cpe:2\.3:[aoh]:([^:]+):([^:]+):`)
+	for _, config := range configs {
+		for _, node := range config.Nodes {
+			for _, match := range node.CPEMatch {
+				if !match.Vulnerable {
+					continue
+				}
+				m := cpeRegex.FindStringSubmatch(match.Criteria)
+				if m == nil {
+					continue
+				}
+				key := m[1] + ":" + m[2]
+				if !seen[key] {
+					seen[key] = true
+					products = append(products, key)
+				}
+			}
+		}
+	}
+	return products
+}
+
+// ============================================================
 // Extract intel from a CVE2 entry
 // ============================================================
 
@@ -565,6 +611,9 @@ func extractIntel(cve CVE2) CVEIntel {
 
 	// Status
 	intel.Status = cve.VulnStatus
+
+	// CPE product mapping
+	intel.Products = extractProducts(cve.Configurations)
 
 	return intel
 }
