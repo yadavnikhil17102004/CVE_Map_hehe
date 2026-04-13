@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-13T09:29:30Z",
+  "last_updated": "2026-04-13T11:11:09Z",
   "articles": [
+    {
+      "title": "APT37 Abuses Facebook, Telegram, and Tampered Installer in New Targeted Intrusion Attack",
+      "link": "https://cybersecuritynews.com/apt37-abuses-facebook-telegram/",
+      "description": "A North Korean state-sponsored threat group known as APT37 has launched a new targeted intrusion campaign using social media platforms, encrypted messaging apps, and a carefully tampered software i...",
+      "pub_date": "Mon, 13 Apr 2026 10:37:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/APT37-Abuses-Facebook-Telegram-and-Tampered-Installer-in-New-Targeted-Intrusion-Attack.webp"
+    },
+    {
+      "title": "Basic-Fit Data Breach Exposes Millions of Users Across Multiple Countries",
+      "link": "https://cybersecuritynews.com/basic-fit-data-breach/",
+      "description": "Europe\u0026#8217;s largest budget fitness chain by club count, Basic-Fit, has confirmed a significant data breach affecting approximately 1 million members across multiple countries, with around 200,00...",
+      "pub_date": "Mon, 13 Apr 2026 10:34:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Basic-Fit-Data-Breach.webp"
+    },
+    {
+      "title": "North Korea's APT37 Uses Facebook Social Engineering to Deliver RokRAT Malware",
+      "link": "https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html",
+      "description": "The North Korean hacking group tracked\u0026nbsp;as APT37 (aka ScarCruft) has been attributed to a fresh multi-stage, social engineering campaign in which threat actors approached targets on Facebook an...",
+      "pub_date": "Mon, 13 Apr 2026 14:45:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm-HTAVB66ntSv8R4Bgh9szlrPPh6ah0eJGTDheDntj2w9bW9XzWcgs2CAGsN_C8DS7T4M7V8q18_DtgMZu3mJONEewq_oWlpefdtwp6BgudRjw2Z68jXoP8tHCdxSyvZ-xvVuPlh-xpxEeIRHk1v2mq5KqZxS1z316ncG5j2Q9HQe_bJhIJE4XWONvyYL/s1600/telegram.jpg"
+    },
     {
       "title": "Adobe Patches Acrobat Reader 0-Day Vulnerability Exploited in the Wild",
       "link": "https://cybersecuritynews.com/adobe-0-day-vulnerability-exploited/",
@@ -36,7 +60,7 @@
     {
       "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
       "link": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
-      "description": "OpenAI\u0026nbsp;revealed a GitHub Actions workflow used to sign its macOS apps, which downloaded the malicious Axios library on March 31, but noted that no user data or\u0026nbsp;internal system\u0026nbsp;was co...",
+      "description": "OpenAI revealed a GitHub Actions workflow used to sign its macOS apps led to the download of the malicious Axios library on March 31, but noted that no user data or internal system was compromised....",
       "pub_date": "Mon, 13 Apr 2026 12:20:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE5gb0KURzHAgdXMKzxbNFW1AJ8G2ezWXrHrLReEmbX6BKaG3-tIjiDVcjk-4nIZ3Kg2_564qiWXVVGcERIi4vaUvjqG-BuENXb7i6P3M2rdOHz-S9DOcKIHZ-pa1odUyUdTI-lLify_9CRXYcZu3hyY2LXeTMp1wMRr7mnu7yQdIIjGrFXCAecG4-XVpS/s1600/openai.jpg"
@@ -106,28 +130,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Google-Launches-Gmail-End-to-End-Encryption-for-Android-and-iOS-1.webp"
     },
     {
-      "title": "Google Unveils Device-Bound Chrome Sessions in Anti-Cookie-Theft Move",
-      "link": "https://cybersecuritynews.com/device-bound-chrome-sessions-in-anti-cookie-theft-move/",
-      "description": "Google officially announced the public rollout of Device Bound Session Credentials (DBSC) for Windows users on Chrome 146. According to the Google Account Security and Chrome teams, this major secu...",
-      "pub_date": "Sat, 11 Apr 2026 06:52:58 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Google-Unveils-Device-Bound-Chrome-Sessions-in-Anti-Cookie-Theft-Move-1.webp"
-    },
-    {
       "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data",
       "link": "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
       "description": "Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law\u0026nbsp;enforcement and police departments have been attributed to the use of an advertising-based global geol...",
       "pub_date": "Sat, 11 Apr 2026 11:32:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJjyKn2cWWKQvAjaegOP6UqdtgG4Cr6nQdwobWhvYvaSKO-VGcFFSSAvT6ngpo8T9n0BitFhLNKPv669Qp3I_2ZajEs3DbveUT5qhc4zVWHRbjJH4fv0_84_FNhPFnN7EPFa9szLDP6B5G-1owBpAGGFILLSX4q8ZobwLXjI9CPn0DfExp6y0_33OdtmkV/s1600/location-data.jpg"
-    },
-    {
-      "title": "Ransomware Gangs Expand Use of EDR Killers Beyond Vulnerable Drivers, ESET Warns",
-      "link": "https://cybersecuritynews.com/ransomware-gangs-expand-use-of-edr-killers/",
-      "description": "In recent years, Endpoint Detection and Response (EDR) killers have become a standard, highly effective weapon in modern ransomware intrusions. Before launching their file-encrypting malware, cyber...",
-      "pub_date": "Sat, 11 Apr 2026 05:13:11 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Ransomware-Gangs-Expand-Use-of-EDR-Killers-Beyond-Vulnerable-Drivers-ESET-Warns-1.webp"
     },
     {
       "title": "ChatGPT rolls out new $100 Pro subscription to challenge Claude",
@@ -312,14 +320,6 @@
       "pub_date": "Thu, 09 Apr 2026 16:45:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwKu6NdwE0kgawNywNJK7cGCEdRfzOKwsH9AeIT7zJ49RPq_KJAG3SyjH44SS8Zsd-gAUFDFKnfdpaFH8sAZT9wevB2fS0QVk-gCp8xg7j1XcwGJzv05xpoMN4O-oiEd1v3U3kuqW8cTGk0QlHPPS5GgifHq5DBgrE9R_6GxqxYb1erEN_qvAnUG6VFkx0/s1600/adobe.jpg"
-    },
-    {
-      "title": "Bitter-Linked Hack-for-Hire Campaign Targets Journalists Across MENA Region",
-      "link": "https://thehackernews.com/2026/04/bitter-linked-hack-for-hire-campaign.html",
-      "description": "An\u0026nbsp;apparent hack-for-hire campaign likely orchestrated by a threat actor with suspected ties to the Indian government targeted journalists, activists, and government officials across the Middl...",
-      "pub_date": "Thu, 09 Apr 2026 16:10:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlfEPPxKdPdQANFPwRrggWpWL4wPe22B_Hdr5FpqDGHKTwN95xiQVwqqN896q_CkYvn-wrbDTXMl6wZ_aMD0YwEyRAI_9lzSZj_cg9-RhoNXMh-j16cA0n4CIT5y29FkOWFrQoV8oCv5OtZhMlhAKwqcgirImTOXoVzsJY76y6l-EWn86dAJfYNBy1ejW4/s1600/phone-hacking.jpg"
     },
     {
       "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
