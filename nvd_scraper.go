@@ -105,6 +105,44 @@ type DataFile struct {
 }
 
 // ============================================================
+// writeIntelByYear — split dictionary into per-year files
+// ============================================================
+
+// writeIntelByYear splits the dictionary into data/nvd_intel_{year}.json files.
+// It also writes data/nvd_intel.json as a full fallback for the public API.
+func writeIntelByYear(dictionary map[string]CVEIntel) {
+	byYear := make(map[string]map[string]CVEIntel)
+	yearRegex := regexp.MustCompile(`^CVE-(\d{4})-`)
+	for id, intel := range dictionary {
+		m := yearRegex.FindStringSubmatch(id)
+		if m == nil {
+			continue
+		}
+		y := m[1]
+		if byYear[y] == nil {
+			byYear[y] = make(map[string]CVEIntel)
+		}
+		byYear[y][id] = intel
+	}
+	for year, slice := range byYear {
+		out, err := json.Marshal(slice)
+		if err != nil {
+			log.Printf("[-] Failed to marshal year %s: %v", year, err)
+			continue
+		}
+		path := filepath.Join("data", fmt.Sprintf("nvd_intel_%s.json", year))
+		if err := os.WriteFile(path, out, 0644); err != nil {
+			log.Printf("[-] Failed to write %s: %v", path, err)
+		} else {
+			log.Printf("[+] Wrote %s (%d CVEs, %.1f KB)", path, len(slice), float64(len(out))/1024.0)
+		}
+	}
+	// Also write full file for public API consumers
+	full, _ := json.Marshal(dictionary)
+	os.WriteFile(filepath.Join("data", "nvd_intel.json"), full, 0644)
+}
+
+// ============================================================
 // Main
 // ============================================================
 
@@ -120,11 +158,10 @@ func main() {
 	}
 
 	os.MkdirAll("data", 0755)
-	intelFile := filepath.Join("data", "nvd_intel.json")
 
 	// Load existing dictionary (accumulate across runs)
 	dictionary := make(map[string]CVEIntel)
-	if raw, err := os.ReadFile(intelFile); err == nil {
+	if raw, err := os.ReadFile(filepath.Join("data", "nvd_intel.json")); err == nil {
 		if err := json.Unmarshal(raw, &dictionary); err != nil {
 			log.Printf("[-] Warning: existing intel file unparseable — rebuilding fresh.")
 		} else {
@@ -159,17 +196,9 @@ func main() {
 	}
 
 	// ── Write output ─────────────────────────────────────────
-	out, err := json.Marshal(dictionary)
-	if err != nil {
-		log.Fatalf("[-] FATAL: Failed to serialize dictionary: %v", err)
-	}
-	if err := os.WriteFile(intelFile, out, 0644); err != nil {
-		log.Fatalf("[-] FATAL: Failed to write %s: %v", intelFile, err)
-	}
-
+	writeIntelByYear(dictionary)
 	elapsed := time.Since(start).Round(time.Millisecond)
-	log.Printf("[+] Done in %s. Dictionary: %d signatures → %s (%.1f KB)",
-		elapsed, len(dictionary), intelFile, float64(len(out))/1024.0)
+	log.Printf("[+] Done in %s. Dictionary: %d signatures.", elapsed, len(dictionary))
 }
 
 // ============================================================
