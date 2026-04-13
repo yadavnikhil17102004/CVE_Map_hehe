@@ -863,6 +863,7 @@ function showNVD(cveId) {
   const src    = intel?.r || null;      // "NIST" | "CNA" | "CVSSv2"
   const pub    = intel?.p || null;      // "YYYY-MM-DD"
   const status = intel?.u || null;      // "Analyzed", "Awaiting Analysis", etc.
+  const epss   = intel?.e;             // EPSS probability 0.0–1.0 (undefined if absent)
 
   let badgeCls = 'bg-gray-700 text-gray-300';
   if      (score >= 9.0) badgeCls = 'bg-danger text-white';
@@ -905,6 +906,16 @@ function showNVD(cveId) {
 
         <!-- CVSS Vector -->
         ${vector ? `<div class="font-mono text-[9px] text-dim bg-black/30 rounded px-2 py-1 break-all">${vector}</div>` : ''}
+
+        <!-- EPSS Score -->
+        ${epss !== undefined ? (() => {
+          const epssPercent = (epss * 100).toFixed(2);
+          const epssColor = epss >= 0.7 ? 'text-red-400' : epss >= 0.3 ? 'text-yellow-400' : 'text-green-400';
+          return `<div class="flex items-center justify-between py-1 border-t border-border mt-1">
+            <span class="text-dim text-xs">EPSS Score</span>
+            <span class="font-mono text-xs font-bold ${epssColor}">${epssPercent}% exploitation probability</span>
+          </div>`;
+        })() : ''}
       </div>
 
       <!-- Description -->

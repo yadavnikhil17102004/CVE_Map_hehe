@@ -9,6 +9,8 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"sort"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -93,6 +95,19 @@ type CVEIntel struct {
 	Source    string  `json:"r,omitempty"`  // "NIST" or "CNA"
 	Published string  `json:"p,omitempty"`  // YYYY-MM-DD
 	Status    string  `json:"u,omitempty"`  // vulnStatus
+	EPSS      float64 `json:"e,omitempty"` // EPSS probability 0.0–1.0
+}
+
+type EPSSResponse struct {
+	Status     string      `json:"status"`
+	StatusCode int         `json:"status-code"`
+	Data       []EPSSEntry `json:"data"`
+}
+
+type EPSSEntry struct {
+	CVE        string `json:"cve"`
+	EPSS       string `json:"epss"`       // returned as string e.g. "0.97345"
+	Percentile string `json:"percentile"` // not used
 }
 
 // ============================================================
@@ -149,6 +164,45 @@ func writeIntelByYear(dictionary map[string]CVEIntel) {
 	}
 }
 
+// fetchEPSS fetches EPSS scores for up to 100 CVE IDs at a time.
+// Returns a map of CVE ID → EPSS probability (0.0–1.0).
+func fetchEPSS(cveIDs []string) map[string]float64 {
+	result := make(map[string]float64)
+	client := &http.Client{Timeout: 30 * time.Second}
+
+	for i := 0; i < len(cveIDs); i += 100 {
+		end := i + 100
+		if end > len(cveIDs) {
+			end = len(cveIDs)
+		}
+		batch := cveIDs[i:end]
+		url := "https://api.first.org/data/1.0/epss?cve=" + strings.Join(batch, ",")
+
+		resp, err := client.Get(url)
+		if err != nil {
+			log.Printf("  [-] EPSS fetch error: %v", err)
+			time.Sleep(2 * time.Second)
+			continue
+		}
+		body, _ := io.ReadAll(resp.Body)
+		resp.Body.Close()
+
+		var epssResp EPSSResponse
+		if err := json.Unmarshal(body, &epssResp); err != nil {
+			log.Printf("  [-] EPSS parse error: %v", err)
+			continue
+		}
+		for _, entry := range epssResp.Data {
+			score, err := strconv.ParseFloat(entry.EPSS, 64)
+			if err == nil {
+				result[entry.CVE] = score
+			}
+		}
+		time.Sleep(1 * time.Second) // be polite to FIRST.org
+	}
+	return result
+}
+
 // ============================================================
 // Main
 // ============================================================
@@ -201,6 +255,24 @@ func main() {
 	if len(missing) > 0 {
 		fetchTargeted(missing, dictionary, apiKey)
 	}
+
+	// ── Phase 3: EPSS enrichment ─────────────────────────────
+	log.Println("[+] Phase 3: Fetching EPSS scores from FIRST.org...")
+	allIDs := make([]string, 0, len(dictionary))
+	for id := range dictionary {
+		allIDs = append(allIDs, id)
+	}
+	sort.Strings(allIDs)
+	epssScores := fetchEPSS(allIDs)
+	enriched := 0
+	for id, intel := range dictionary {
+		if score, ok := epssScores[id]; ok {
+			intel.EPSS = score
+			dictionary[id] = intel
+			enriched++
+		}
+	}
+	log.Printf("  -> EPSS scores applied to %d/%d CVEs.", enriched, len(dictionary))
 
 	// ── Write output ─────────────────────────────────────────
 	writeIntelByYear(dictionary)
