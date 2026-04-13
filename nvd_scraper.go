@@ -15,6 +15,8 @@ import (
 	"time"
 )
 
+var cpeRegex = regexp.MustCompile(`^cpe:2\.3:[aoh]:([^:]+):([^:]+):`)
+
 // ============================================================
 // NVD 2.0 API — Response Structs
 // ============================================================
@@ -497,7 +499,6 @@ func extractProducts(configs []Configuration) []string {
 	seen := make(map[string]bool)
 	var products []string
 	// CPE 2.3 format: cpe:2.3:part:vendor:product:version:...
-	cpeRegex := regexp.MustCompile(`^cpe:2\.3:[aoh]:([^:]+):([^:]+):`)
 	for _, config := range configs {
 		for _, node := range config.Nodes {
 			for _, match := range node.CPEMatch {
