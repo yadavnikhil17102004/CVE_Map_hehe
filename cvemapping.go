@@ -604,6 +604,20 @@ func deduplicateRepositories(repos []*GitHubRepository) []*GitHubRepository {
 	return deduplicated
 }
 
+// repoAgeDays returns the number of days since a repo was created.
+// Returns 0 for parse errors or future-dated timestamps (clock skew).
+func repoAgeDays(createdAt string) int {
+	t, err := time.Parse(time.RFC3339, createdAt)
+	if err != nil {
+		return 0
+	}
+	days := int(time.Since(t).Hours() / 24)
+	if days < 0 {
+		return 0
+	}
+	return days
+}
+
 // Convert GitHubRepository to CVERepository
 func toCVERepository(repo *GitHubRepository) CVERepository {
 	return CVERepository{
@@ -622,12 +636,7 @@ func toCVERepository(repo *GitHubRepository) CVERepository {
 		Owner:           repo.Owner,
 		CloneURL:        repo.CloneURL,
 		HasCode:         repo.Language != "",
-		AgeDays:         func() int {
-			if t, err := time.Parse(time.RFC3339, repo.CreatedAt); err == nil {
-				return int(time.Since(t).Hours() / 24)
-			}
-			return 0
-		}(),
+		AgeDays:         repoAgeDays(repo.CreatedAt),
 	}
 }
 
