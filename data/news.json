@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-04-14T11:53:23Z",
+  "last_updated": "2026-04-14T13:07:56Z",
   "articles": [
+    {
+      "title": "Hackers Leave Credential Stuffing Botnet Wide Open With Full Worker Access and Root Passwords",
+      "link": "https://cybersecuritynews.com/hackers-leave-credential-stuffing-botnet-wide-open/",
+      "description": "A live credential stuffing botnet targeting Twitter/X accounts has been found completely exposed to the internet, with no password required to access its control panel, worker server credentials, o...",
+      "pub_date": "Tue, 14 Apr 2026 13:00:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Leave-Credential-Stuffing-Botnet-Wide-Open-With-Full-Worker-Access-and-Root-Passwords.webp"
+    },
+    {
+      "title": "Codex Hacks Samsung TV to Root by Exploiting World-Writable Driver Interfaces",
+      "link": "https://cybersecuritynews.com/codex-hacks-samsung-tv/",
+      "description": "OpenAI\u0026#8217;s Codex AI model successfully escalated privileges to root on a real Samsung Smart TV by exploiting world-writable kernel driver interfaces — a finding that raises serious questions ...",
+      "pub_date": "Tue, 14 Apr 2026 12:30:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Codex-Hacks-Samsung-TV-to-Root-by-Exploiting-World-Writable-Driver-Interfaces.png"
+    },
+    {
+      "title": "CISA Warns of Fortinet SQL Injection Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/fortinet-sql-injection-vulnerability-exploited/",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning regarding a critical security flaw in Fortinet products. On April 13, 2026, the agency added a severe SQL in...",
+      "pub_date": "Tue, 14 Apr 2026 12:14:13 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CISA-Warns-of-Fortinet-SQL-Injection-Vulnerability-Actively-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "New Janela RAT Campaign Uses Fake MSI Installers and Malicious Browser Extensions to Steal Data",
+      "link": "https://cybersecuritynews.com/new-janela-rat-campaign-uses-fake-msi-installers/",
+      "description": "A new malware campaign involving a Remote Access Trojan called Janela RAT has been actively targeting financial institutions and cryptocurrency platforms across Latin America. The threat actors beh...",
+      "pub_date": "Tue, 14 Apr 2026 12:07:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Janela-RAT-Campaign-Uses-Fake-MSI-Installers-and-Malicious-Browser-Extensions-to-Steal-Data.webp"
+    },
     {
       "title": "Hackers Weaponize Obsidian Shell Commands Plugin to Launch Cross-Platform Malware Attacks",
       "link": "https://cybersecuritynews.com/hackers-weaponize-obsidian-shell-commands-plugin/",
@@ -60,18 +92,10 @@
     {
       "title": "Researcher Reverse Engineered 0-Day Used to Disable CrowdStrike EDR",
       "link": "https://cybersecuritynews.com/0-day-disable-crowdstrike-edr/",
-      "description": "A cybersecurity researcher has uncovered a new Bring Your Own Vulnerable Driver (BYOVD) attack that can turn off top-tier endpoint security solutions, including CrowdStrike Falcon. By reverse-engin...",
+      "description": "A new Bring Your Own Vulnerable Driver (BYOVD) attack that can turn off top-tier endpoint security solutions, including CrowdStrike Falcon. By reverse-engineering a previously unknown zero-day kern...",
       "pub_date": "Tue, 14 Apr 2026 09:39:26 +0000",
       "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Researcher-Reverse-Engineered-0-Day-Used-to-Disable-CrowdStrike-EDR.webp"
-    },
-    {
-      "title": "Hackers Use 108 Chrome Extensions to Steal User Data Through Shared C2 Infrastructure",
-      "link": "https://cybersecuritynews.com/chrome-extensions-steal-user-data/",
-      "description": "A widespread cyber espionage campaign leveraging 108 malicious Google Chrome extensions. According to a recent report by Socket, these extensions are explicitly designed to steal sensitive user dat...",
-      "pub_date": "Tue, 14 Apr 2026 09:34:06 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Chrome-Extensions-Steal-User-Data.webp"
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/0-Day-Disable-CrowdStrike-EDR.webp"
     },
     {
       "title": "108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users",
@@ -96,22 +120,6 @@
       "pub_date": "Tue, 14 Apr 2026 11:09:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkkewWzrjyqzejet7cyCWdTUMfgjGZgkDpis6rUlh7qnyPpmcN1k_vVdKvziAZq2cOkFQDrJNM8E6WE8Cl7oPNdq94MOXJLa0nkbEmAFCB_MnjLQzTy-WjHGa6yuLhm7dPzuW3YEQeFIfOT1Tr25NgALeTL6vFDhzmJrCRMLL0GBpOhkwQm_Zirk_9aNjr/s1600/warning.jpg"
-    },
-    {
-      "title": "Hackers Use Fake Proxifier Installer on GitHub to Spread ClipBanker Crypto-Stealing Malware",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-proxifier-installer-on-github/",
-      "description": "A dangerous malware campaign has been silently targeting cryptocurrency users by hiding inside a fake version of Proxifier, a popular proxy software tool. Threat actors set up a GitHub repository d...",
-      "pub_date": "Tue, 14 Apr 2026 04:56:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-Fake-Proxifier-Installer-on-GitHub-to-Spread-ClipBanker-Crypto-Stealing-Malware.webp"
-    },
-    {
-      "title": "Rockstar’s GTA Game Hacked – Attackers published 78.6 Million Records Online",
-      "link": "https://cybersecuritynews.com/rockstars-gta-game-hacked/",
-      "description": "Rockstar Games has confirmed a data breach after the notorious hacking group ShinyHunters exploited a third-party integration to access the company\u0026#8217;s internal Snowflake data warehouse, ultima...",
-      "pub_date": "Tue, 14 Apr 2026 02:01:51 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Rockstars-GTA-Game-Hacked.webp"
     },
     {
       "title": "European Gym giant Basic-Fit data breach affects 1 million members",
@@ -168,14 +176,6 @@
       "pub_date": "Mon, 13 Apr 2026 22:45:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMP1knUStbLpgNZ-k52a4ctZyxeERGEeqqVfX75PVTgtdu6XpoIlhHiFAwa4nTwg0089TuczQY5YZOgHOQk-TpVZNxs0piNVCPHsgBPSreTcKQ8gwISSDK7JI4oipfjfrnehwPCqWcyBnxobYaKM7TTu5SN23pUJ5K9fCbORLy2g_ZsSzkmxkp8VVdghfP/s1600/1000066319.jpg"
-    },
-    {
-      "title": "Claude AI Reportedly Down for Hundreds of Users With Intermittent 500 Errors",
-      "link": "https://cybersecuritynews.com/claude-ai-reportedly-down/",
-      "description": "Anthropic\u0026#8217;s Claude AI is facing a fresh wave of user-reported disruptions on April 13, 2026, with hundreds of users encountering intermittent HTTP 500 internal server errors across claude.ai,...",
-      "pub_date": "Mon, 13 Apr 2026 16:52:07 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-AI-Reportedly-Down.webp"
     },
     {
       "title": "Adobe rolls out emergency fix for Acrobat, Reader zero-day flaw",
