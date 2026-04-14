@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-14T08:22:45Z",
+  "last_updated": "2026-04-14T10:09:02Z",
   "articles": [
+    {
+      "title": "Analysis of 216M Security Findings Shows a 4x Increase In Critical Risk (2026 Report)",
+      "link": "https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html",
+      "description": "OX Security recently analyzed 216 million security findings across 250 organizations over a 90-day period. The\u0026nbsp;primary takeaway: while raw alert volume grew by 52% year-over-year, prioritized ...",
+      "pub_date": "Tue, 14 Apr 2026 15:30:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4H3KkiSOm6TbNn7e0Ceu3-etqqeLci47PtX9T-0WGgdGScHfd2tfFamA6oyOi62wWwKF7KwF_wcqNACSvRVJvH__1YKoP_fP7T5LFdDqX8jxFph0NSaVJjFEVhb0bjNvn5IWayqMwKyRNbp9mmW7f2JLs7I3pTF8yLuhCOHsbnpNVLrEVq6Uq63j8508/s1600/derailed.jpg"
+    },
+    {
+      "title": "108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users",
+      "link": "https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html",
+      "description": "Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with ...",
+      "pub_date": "Tue, 14 Apr 2026 14:05:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEOmjr311c0yBDI593joFXQLaRdpm6DY67lbFv83YcYlRHaJkpocwXjDZDsV9F9DM-SavZwCOZ-fg10ncUJyW3ODlfBjqG6aK_ytdBfvXFGLswxeJ69oiZXfhGKdCgVO0Angg_qlYB6oAZYo-JQRKn4toBGWcS7OTDwPV0rkus7eNw-9BllIGJa2nkeKXn/s1600/chrome-telegram.jpg"
+    },
     {
       "title": "ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers",
       "link": "https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html",
@@ -224,22 +240,6 @@
       "pub_date": "Fri, 10 Apr 2026 16:30:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj9DUEjhk2fpOJYkJSEMuXQKjwHL1MhXzLniQFjNXvUV_iJEcMwk4MacWDYrrCg096uqXg7pJVZYgagJF58e28tr2lOkZsGqpXbnKfnDVStpGIz2fBGvXayNRfbWWaJ2QueaZoYp72PNJHF6g0W4FPBhbw75r_Dm2cuRr1zCmHFHges6gPQ55gr3hI17TM/s1600/layerx.jpg"
-    },
-    {
-      "title": "Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows",
-      "link": "https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html",
-      "description": "Google has\u0026nbsp;made Device Bound Session Credentials\u0026nbsp;(DBSC) generally available to all Windows users of its Chrome web browser, months after\u0026nbsp;it began\u0026nbsp;testing the security feature in...",
-      "pub_date": "Fri, 10 Apr 2026 13:28:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC-kFnk6uDzN76983rxMJBgJzi5ByxqZ0SM5RAfG1171e3I_lRUCBHIZ0kmMRkxERMiWEO9WRX3D6mkadUuRhw69KYHi4VzPrIa4s4IVilNmFANa2EMbuk1blKF_4ChwqIBuTb4FLj_dqhTDUDsivEnw8OmDL85giaaJTiqATwZArXUq6_3_X7tfd_RLbV/s1600/chrome-cookies.jpg"
-    },
-    {
-      "title": "Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure",
-      "link": "https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html",
-      "description": "A critical security vulnerability\u0026nbsp;in Marimo, an open-source Python notebook for data science and analysis, has been exploited within 10 hours of public disclosure, according\u0026nbsp;to findings f...",
-      "pub_date": "Fri, 10 Apr 2026 13:07:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLOQ2mcgefzP_nej8R2XYY5eLnbFWle2koFcBGH6gyLGu10rBVnI3f3oHUmafvlbNJFc8N50ghG-0d_MP-oLzJcZpObdY8MU67qbCc36iWMApPM0Z6QfMrklCirpFSnyXZeMyHIdD4NyfixepzOZ72qiadKBmUvdkNuzPs-QbZnuSUMBaxA0sWYmTT63v-/s1600/marimo.jpg"
     },
     {
       "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
