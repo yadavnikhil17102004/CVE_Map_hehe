@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-15T16:54:32Z",
+  "last_updated": "2026-04-15T18:00:51Z",
   "articles": [
+    {
+      "title": "Signed software abused to deploy antivirus-killing scripts",
+      "link": "https://www.bleepingcomputer.com/news/security/signed-software-abused-to-deploy-antivirus-killing-scripts/",
+      "description": "A digitally signed adware tool has deployed payloads running with SYSTEM privileges that disabled antivirus protections on thousands of endpoints, some in the educational, utilities, government, an...",
+      "pub_date": "Wed, 15 Apr 2026 13:59:30 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails",
+      "link": "https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html",
+      "description": "Threat actors\u0026nbsp;have been\u0026nbsp;observed weaponizing n8n, a popular artificial intelligence (AI) workflow automation platform, to facilitate sophisticated phishing campaigns and deliver malicious...",
+      "pub_date": "Wed, 15 Apr 2026 22:39:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSXMJaHSQp1aJ8l7rKKtfILQtDMLWTUVOPwWqizQ-nRzb5JbG1BJOFKTs0NYGVQ0fBFTzLkjaY0bntn7UDnlyy502mDQJzvqFhTJwmYlctN551StWLJf8hnET4i8ZrwWvtzhswLW_2GoSI1zlMVRnI89aVrFU1lbes9p7fpYFjT9V7OxAmbmMW3UR-hv9_/s1600/webhook.jpg"
+    },
     {
       "title": "Microsoft pays $2.3M for cloud and AI flaws at Zero Day Quest",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pays-23-million-for-cloud-and-ai-flaws-at-zero-day-quest/",
@@ -18,60 +34,12 @@
       "image_url": ""
     },
     {
-      "title": "Google, Microsoft, Meta Tracking You Even if You Opt Out – New Research",
-      "link": "https://cybersecuritynews.com/google-microsoft-meta-tracking-even-you-opt-out/",
-      "description": "In a massive blow to consumer privacy, a new forensic audit reveals that tech giants Google, Microsoft, and Meta are systematically ignoring legally defined privacy opt-out signals. According to th...",
-      "pub_date": "Wed, 15 Apr 2026 14:16:38 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Google-Microsoft-Meta-Tracking-You-Even-if-You-Opt-Out-New-Research-.webp"
-    },
-    {
-      "title": "Microsoft Releases Cumulative Update KB5083769 for Windows 11, Version 25H2 and 24H2",
-      "link": "https://cybersecuritynews.com/microsoft-cumulative-update-windows-11/",
-      "description": "Microsoft has officially released the April 2026 Patch Tuesday cumulative update, KB5083769, for Windows 11 versions 25H2 and 24H2. Released on April 14, 2026, this mandatory security update addres...",
-      "pub_date": "Wed, 15 Apr 2026 14:14:05 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Releases-cumulative-update-KB5083769-for-Windows-11-version-25H2-and-24H2-.webp"
-    },
-    {
-      "title": "Windows Active Directory Vulnerability Allow Attackers to Execute Malicious Code",
-      "link": "https://cybersecuritynews.com/windows-active-directory-vulnerability/",
-      "description": "Microsoft has released urgent security updates to address a critical vulnerability in Windows Active Directory that allows attackers to execute malicious code. Disclosed on April 14, 2026, the vuln...",
-      "pub_date": "Wed, 15 Apr 2026 14:11:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-Active-Directory-Vulnerability-Allow-Attackers-to-execute-Malicious-code.webp"
-    },
-    {
-      "title": "New PHP Composer Vulnerability Let Attackers Execute Arbitrary Commands",
-      "link": "https://cybersecuritynews.com/php-composer-vulnerability/",
-      "description": "PHP Composer released urgent security updates to address two critical command injection vulnerabilities. PHP Composer is an essential dependency management tool used globally by developers, making ...",
-      "pub_date": "Wed, 15 Apr 2026 14:08:50 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-s-Vulnerability-Let-Attackers-Execute-arbitrary-commands.webp"
-    },
-    {
-      "title": "Adobe Acrobat Reader Vulnerabilities Let Attackers Execute Arbitrary Code",
-      "link": "https://cybersecuritynews.com/adobe-acrobat-reader-vulnerabilities-patch/",
-      "description": "Adobe has released a critical security bulletin on April 14, 2026, to address multiple vulnerabilities in Adobe Acrobat and Reader for Windows and macOS. According to the official advisory, success...",
-      "pub_date": "Wed, 15 Apr 2026 14:05:46 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Adobe-Acrobat-Reader-Vulnerability-Let-Attackers-Execute-Arbitrary-Code.webp"
-    },
-    {
       "title": "Rolling Networks: Securing the Transportation Sector",
       "link": "https://www.bleepingcomputer.com/news/security/rolling-networks-securing-the-transportation-sector/",
       "description": "Modern trucks are rolling networks packed with sensors, connectivity, and attack surfaces, creating new cyber risks. NMFTA's Cybersecurity Conference brings industry leaders together to tackle emer...",
       "pub_date": "Wed, 15 Apr 2026 10:00:10 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "MuddyWater-Style Hackers Scan 12,000+ Systems Before Hitting Middle East Critical Sectors",
-      "link": "https://cybersecuritynews.com/muddywater-style-hackers-scan-12000-systems/",
-      "description": "A sophisticated cyber campaign bearing strong operational similarities to the MuddyWater threat group has been caught sweeping more than 12,000 internet-exposed systems across multiple regions befo...",
-      "pub_date": "Wed, 15 Apr 2026 13:08:56 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/MuddyWater-Style-Hackers-Scan-12000-Systems-Before-Hitting-Middle-East-Critical-Sectors.webp"
     },
     {
       "title": "Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover",
@@ -82,28 +50,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-efZdYJpyjLdBQDLfJxWi6aiElSTIIzesGLR7SNMM0laIvBdFHioyAfxmOQkhV-bBV5SqCxRRhocp4-Q3EezvtE5Xp2aeNcFrP6d89jhOY2QiCVhhyMCMCVy39cE5YcTvg_7_tvXAEwI4N1g_eRKNzWwYtLH-k80d5he55NN2UK0sNNkbb0l35ix6MOBR/s1600/nui.png"
     },
     {
-      "title": "Hackers Using Google Cloud Storage to Bypass Email Filters and Deliver Remcos RAT",
-      "link": "https://cybersecuritynews.com/hackers-using-google-cloud-storage-to-bypass-email-filters/",
-      "description": "Cybercriminals are always looking for smarter ways to bypass security, and their latest method is both simple and effective. Instead of building suspicious new websites, attackers now use Google Cl...",
-      "pub_date": "Wed, 15 Apr 2026 12:47:15 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Using-Google-Cloud-Storage-to-Bypass-Email-Filters-and-Deliver-Remcos-RAT.webp"
-    },
-    {
       "title": "April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More",
       "link": "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html",
       "description": "A number\u0026nbsp;of critical vulnerabilities impacting products from Adobe, Fortinet, Microsoft, and SAP have taken center stage in April's Patch Tuesday\u0026nbsp;releases. Topping the list is an SQL inje...",
       "pub_date": "Wed, 15 Apr 2026 18:07:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-FBwJYevQ8Ner9ypyp5-H1XIPfa5guhQXC-W4llTZuBI072vjCoxKh9PUexQBZGJIeuZXoBAKboz9xz5Gzd0p1SiT5UME0wd0lTTOS6EIh3nJ6vsAeMzGmT0P38ry2ySiLc-je0e0YAZAPDYmhw3jSfqbExcsQW5nL8syaClAcSfZziU-KPneawQFfo6p/s1600/patches.jpg"
-    },
-    {
-      "title": "Hackers Hide Backdoor in Trusted WordPress Plugins for 8 Months Before Activating Malware",
-      "link": "https://cybersecuritynews.com/hackers-hide-backdoor-in-trusted-wordpress-plugins/",
-      "description": "A group of trusted WordPress plugins quietly carried a hidden backdoor for eight full months, and nobody noticed until the damage had already been done. The attack, uncovered in April 2026, did not...",
-      "pub_date": "Wed, 15 Apr 2026 12:14:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Hide-Backdoor-in-Trusted-WordPress-Plugins-for-8-Months-Before-Activating-Malware.webp"
     },
     {
       "title": "Microsoft: April updates trigger BitLocker key prompts on some servers",
@@ -114,28 +66,12 @@
       "image_url": ""
     },
     {
-      "title": "Hackers Create Hidden Mailbox Rules in Microsoft 365 to Intercept Sensitive Business Emails",
-      "link": "https://cybersecuritynews.com/hackers-create-hidden-mailbox-rules-in-microsoft-365/",
-      "description": "Cybercriminals have found a quiet way to sit inside a corporate email account and read everything being sent and received — without the account owner ever knowing. Attackers are now abusing a bui...",
-      "pub_date": "Wed, 15 Apr 2026 11:34:45 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Create-Hidden-Mailbox-Rules-in-Microsoft-365-to-Intercept-Sensitive-Business-Emails.webp"
-    },
-    {
       "title": "Deterministic + Agentic AI: The Architecture Exposure Validation Requires",
       "link": "https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html",
       "description": "Few technologies have moved from experimentation to boardroom mandate as quickly as AI. Across\u0026nbsp;industries, leadership teams have embraced its broader potential, and boards, investors, and exec...",
       "pub_date": "Wed, 15 Apr 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3s5QStAA0bgcCWhxktRnDbuCjGGiFi6NUz1Z9zVK8-4CkZ8FS82Sc5Qg_9-wKK98yThRDobcnyJcD63TIzW4OUTXzNrXTD6PXHoNMBJpgt02mi7K24qVMxfq_8zsG6kBupb8S0DygwxK2F33miTnFivZKSguCqCv82v3mxOAYWnHrcFHF7Y1iTPgV9i6u/s1600/validation-main.jpg"
-    },
-    {
-      "title": "Agentic LLM Browsers Expose New Attack Surface for Prompt Injection and Data Theft",
-      "link": "https://cybersecuritynews.com/agentic-llm-browsers-expose-new-attack-surface/",
-      "description": "Artificial intelligence is changing how people browse the internet. AI-powered browsers no longer just show web pages — they read content, take actions, and complete tasks for the user. These too...",
-      "pub_date": "Wed, 15 Apr 2026 10:45:11 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Agentic-LLM-Browsers-Expose-New-Attack-Surface-for-Prompt-Injection-and-Data-Theft.webp"
     },
     {
       "title": "Microsoft fixes bug behind Windows Server 2025 automatic upgrades",
@@ -306,14 +242,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiON8Ew8R1EO7t3yoLoTFdM2hQsDW9AtBPPBcNuPup6ZmpGta3VyYlkhiqqRlW5CDWpnU_3IJ-EAbnV6nrfzJ4V3mdWIng75afS2TPvZOs-_MLc0a5lxiLwR5H-EWmi1C0ctYCBZSBNbF9CCGcdm7BrNaWunTp8QvBkmqJwq0Yvde9bQxbhooyIYaXRiebP/s1600/ad-fraud.jpg"
     },
     {
-      "title": "5 Ways Zero Trust Maximizes Identity Security",
-      "link": "https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/",
-      "description": "Stolen credentials remain a top breach vector, often leading to unchecked privilege escalation. Specops explains how identity-first Zero Trust limits access, enforces device trust, and blocks later...",
-      "pub_date": "Tue, 14 Apr 2026 10:02:12 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Mirax Android RAT Turns Devices into SOCKS5 Proxies, Reaching 220,000 via Meta Ads",
       "link": "https://thehackernews.com/2026/04/mirax-android-rat-turns-devices-into.html",
       "description": "A nascent Android remote access trojan\u0026nbsp;called Mirax has been observed actively targeting Spanish-speaking countries, with campaigns reaching more than 220,000 accounts on Facebook, Instagram, ...",
@@ -360,14 +288,6 @@
       "pub_date": "Mon, 13 Apr 2026 22:45:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMP1knUStbLpgNZ-k52a4ctZyxeERGEeqqVfX75PVTgtdu6XpoIlhHiFAwa4nTwg0089TuczQY5YZOgHOQk-TpVZNxs0piNVCPHsgBPSreTcKQ8gwISSDK7JI4oipfjfrnehwPCqWcyBnxobYaKM7TTu5SN23pUJ5K9fCbORLy2g_ZsSzkmxkp8VVdghfP/s1600/1000066319.jpg"
-    },
-    {
-      "title": "FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts",
-      "link": "https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html",
-      "description": "The U.S. Federal Bureau of Investigation (FBI), in partnership with the Indonesian National Police, has dismantled the infrastructure associated with a global phishing operation that leveraged an o...",
-      "pub_date": "Mon, 13 Apr 2026 20:16:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb77IQHAfOvWFPWb_cgV_YJGdRtNJJJWBcjYH6M6cCawBv2tQdybani7Qet_LGwH1tTBHJ2P3Lr6gWdY0sz3547YLzkSLWX3T2l84-A7ndRK3T55QblpJ-j2ovE9Lq0CoNb6ckWziwD2UjKP_awFJXbGr3yuZ1IMPndUyCo_WfoJ9nnyTPFf-K4HVy5A8g/s1600/well-fbi.jpg"
     },
     {
       "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
