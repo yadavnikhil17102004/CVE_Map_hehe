@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15T20:51:01Z",
+  "last_updated": "2026-04-15T21:44:16Z",
   "articles": [
     {
       "title": "WordPress plugin suite hacked to push malware to thousands of sites",
@@ -176,6 +176,86 @@
       "pub_date": "Wed, 15 Apr 2026 14:10:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKhAYMS4CZDglUzVBKPpIJJJjC7LSHIE8r8HSYTDvQtfuqIlLk-jorWPPNvMPaiuWSriWM2WP-cyKqr_TRwlOG65EY9ZZWuRYsrzcn05wg3mkQd_-j103HEjHaUryyOF7jWj6IuAM6VwCUloPq_9RMt959E-yG8qF4n1acw3OfY73fWw4p90V0ClaY4hjo/s1600/windows-update.jpg"
+    },
+    {
+      "title": "ZDI-26-271: Avast Premium Security Gen Self Protection Driver Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-271/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Avast Premium Security. An attacker must first obtain the ability to execute low-privileged code on the...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-270: TrendAI Apex One Console Directory Traversal Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-270/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trend Micro Apex One. Authentication is not required to exploit this vulnerability. The ZDI has ass...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-269: TrendAI Apex One Console Directory Traversal Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-269/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trend Micro Apex One. Authentication is not required to exploit this vulnerability. The ZDI has ass...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-268: Samsung MagicINFO 9 Server Incorrect Default Permissions Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-268/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Samsung MagicINFO 9 Server. An attacker must first obtain the ability to execute low-privileged code on...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-267: Malwarebytes Anti-Malware Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-267/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Malwarebytes Anti-Malware. An attacker must first obtain the ability to execute low-privileged code on ...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-266: Fortinet FortiWeb cat_cgi_paths Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-266/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Fortinet FortiWeb. Authentication is required to exploit this vulnerability. The ZDI has assigned a...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-265: Fortinet FortiWeb cgi_buf_alloc Integer Overflow Denial-of-Service Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-265/",
+      "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Fortinet FortiWeb. Authentication is required to exploit this vulnerability. The ZDI ...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-264: Adobe ColdFusion fetchCFSettingFile Directory Traversal Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-264/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe ColdFusion. Authentication is not required to exploit this vulnerability. The ZDI has...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-263: Adobe ColdFusion subscribeToEndpoints Authentication Bypass Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-263/",
+      "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Adobe ColdFusion. Authentication is not required to exploit this vulnerability. The ZDI has assigned...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-262: Adobe ColdFusion deleteVersion Directory Traversal Arbitrary File Deletion Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-262/",
+      "description": "This vulnerability allows remote attackers to delete arbitrary files on affected installations of Adobe ColdFusion. Although authentication is required to exploit this vulnerability, the existing a...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "ZDI-26-261: (0Day) Docker Desktop credentialHelper Directory Traversal Privilege Escalation Vulnerability",
@@ -378,91 +458,11 @@
       "image_url": ""
     },
     {
-      "title": "ZDI-26-256: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-256/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Labcenter Electronics Proteus. User interaction is required to exploit this vulnerability in that t...",
-      "pub_date": "Mon, 06 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-255: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-255/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Labcenter Electronics Proteus. User interaction is required to exploit this vulnerability in that t...",
-      "pub_date": "Mon, 06 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-254: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Type Confusion Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-254/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Labcenter Electronics Proteus. User interaction is required to exploit this vulnerability in that t...",
-      "pub_date": "Mon, 06 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-253: Microsoft Visual Studio Code mcp.json Command Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-253/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Visual Studio Code. User interaction is required to exploit this vulnerability in that th...",
-      "pub_date": "Thu, 02 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-252: Mozilla Firefox IonMonkey Switch Statement Optimization Type Confusion Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-252/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must...",
-      "pub_date": "Thu, 02 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-251: Foxit PDF Reader Update Service Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-251/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Foxit PDF Reader. An attacker must first obtain the ability to execute low-privileged code on the targe...",
-      "pub_date": "Thu, 02 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
       "title": "Securing the open source supply chain across GitHub",
       "link": "https://github.blog/security/supply-chain-security/securing-the-open-source-supply-chain-across-github/",
       "description": "Recent attacks on open source focus on exfiltrating secrets; here are the prevention steps you can take today, plus a look at the security capabilities GitHub is working on. The post Securing the o...",
       "pub_date": "Wed, 01 Apr 2026 19:20:12 +0000",
       "source": "GitHub Security",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-250: Linux Kernel Analog Device Driver Improper Validation of Array Index Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-250/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
-      "pub_date": "Tue, 31 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-249/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine.  An attacker must first obtain the ability to execute low-privileged code on the target syst...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-248: NoMachine External Control of File Path Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-248/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target syste...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-247: NoMachine External Control of File Path Arbitrary File Deletion Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-247/",
-      "description": "This vulnerability allows local attackers to delete arbitrary files on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
