@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-04-15T15:00:30Z",
+  "last_updated": "2026-04-15T16:54:32Z",
   "articles": [
+    {
+      "title": "Microsoft pays $2.3M for cloud and AI flaws at Zero Day Quest",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pays-23-million-for-cloud-and-ai-flaws-at-zero-day-quest/",
+      "description": "Microsoft has awarded $2.3 million to security researchers after receiving nearly 700 submissions during this year's Zero Day Quest hacking contest. [...]",
+      "pub_date": "Wed, 15 Apr 2026 12:20:21 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "CISA flags Windows Task Host vulnerability as exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/",
@@ -144,6 +152,38 @@
       "pub_date": "Wed, 15 Apr 2026 14:10:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKhAYMS4CZDglUzVBKPpIJJJjC7LSHIE8r8HSYTDvQtfuqIlLk-jorWPPNvMPaiuWSriWM2WP-cyKqr_TRwlOG65EY9ZZWuRYsrzcn05wg3mkQd_-j103HEjHaUryyOF7jWj6IuAM6VwCUloPq_9RMt959E-yG8qF4n1acw3OfY73fWw4p90V0ClaY4hjo/s1600/windows-update.jpg"
+    },
+    {
+      "title": "ZDI-26-261: (0Day) Docker Desktop credentialHelper Directory Traversal Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-261/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop. An attacker must first obtain the ability to escape the container and execute high-priv...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-260: (0Day) Docker Desktop System Editor Uncontrolled Search Path Element  Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-260/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop. An attacker must first obtain the ability to escape the container and execute high-priv...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-259: (0Day) Docker Desktop cli-plugins Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-259/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop for Windows. An attacker must first obtain the ability to escape the container and execu...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-258: (0Day) Docker Desktop extension-manager Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-258/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop for Windows. An attacker must first obtain the ability to execute high-privileged code w...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams",
@@ -314,14 +354,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkkewWzrjyqzejet7cyCWdTUMfgjGZgkDpis6rUlh7qnyPpmcN1k_vVdKvziAZq2cOkFQDrJNM8E6WE8Cl7oPNdq94MOXJLa0nkbEmAFCB_MnjLQzTy-WjHGa6yuLhm7dPzuW3YEQeFIfOT1Tr25NgALeTL6vFDhzmJrCRMLL0GBpOhkwQm_Zirk_9aNjr/s1600/warning.jpg"
     },
     {
-      "title": "European Gym giant Basic-Fit data breach affects 1 million members",
-      "link": "https://www.bleepingcomputer.com/news/security/european-gym-giant-basic-fit-data-breach-affects-1-million-members/",
-      "description": "Dutch fitness giant Basic-Fit announced that hackers breached its systems and gained access to information belonging to a million of its customers. [...]",
-      "pub_date": "Mon, 13 Apr 2026 17:50:01 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025",
       "link": "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
       "description": "Banks and financial institutions in Latin American countries like Brazil and Mexico have continued to be the target of a malware family called JanelaRAT. A modified version of BX RAT, JanelaRAT is ...",
@@ -429,38 +461,6 @@
       "title": "ZDI-26-247: NoMachine External Control of File Path Arbitrary File Deletion Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-247/",
       "description": "This vulnerability allows local attackers to delete arbitrary files on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-246: (0Day) aws-mcp-server Command Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-246/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of aws-mcp-server. Authentication is not required to exploit this vulnerability. The ZDI has assigned ...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-245: (0Day) aws-mcp-server AWS CLI Command Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-245/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of aws-mcp-server. Authentication is not required to exploit this vulnerability. The ZDI has assigned ...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-244: (Pwn2Own) QNAP QHora-322 miro_webserver_controllers_api_login_singIn Authentication Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-244/",
-      "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability. The ...",
-      "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-243: (Pwn2Own) QNAP TS-453E write_file_to_svr External Control of File Path Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-243/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of QNAP TS-453E devices. Although authentication is required to exploit this vulnerability, ...",
       "pub_date": "Mon, 30 Mar 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
