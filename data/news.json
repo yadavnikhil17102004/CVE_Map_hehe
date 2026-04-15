@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-15T21:44:16Z",
+  "last_updated": "2026-04-15T22:35:33Z",
   "articles": [
+    {
+      "title": "Critical Nginx UI auth bypass flaw now actively exploited in the wild",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/",
+      "description": "A critical vulnerability in Nginx UI with Model Context Protocol (MCP) support is now being exploited in the wild for full server takeover without authentication. [...]",
+      "pub_date": "Wed, 15 Apr 2026 18:35:09 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New AgingFly malware used in attacks on Ukraine govt, hospitals",
+      "link": "https://www.bleepingcomputer.com/news/security/new-agingfly-malware-used-in-attacks-on-ukraine-govt-hospitals/",
+      "description": "A new malware family named 'AgingFly' has been identified in attacks against local governments and hospitals that steal authentication data from Chromium-based browsers and WhatsApp messenger. [...]",
+      "pub_date": "Wed, 15 Apr 2026 17:57:17 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "WordPress plugin suite hacked to push malware to thousands of sites",
       "link": "https://www.bleepingcomputer.com/news/security/wordpress-plugin-suite-hacked-to-push-malware-to-thousands-of-sites/",
@@ -178,113 +194,121 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKhAYMS4CZDglUzVBKPpIJJJjC7LSHIE8r8HSYTDvQtfuqIlLk-jorWPPNvMPaiuWSriWM2WP-cyKqr_TRwlOG65EY9ZZWuRYsrzcn05wg3mkQd_-j103HEjHaUryyOF7jWj6IuAM6VwCUloPq_9RMt959E-yG8qF4n1acw3OfY73fWw4p90V0ClaY4hjo/s1600/windows-update.jpg"
     },
     {
-      "title": "ZDI-26-271: Avast Premium Security Gen Self Protection Driver Exposed Dangerous Function Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-271/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Avast Premium Security. An attacker must first obtain the ability to execute low-privileged code on the...",
+      "title": "ZDI-26-292: QNAP TS-453E QVRPro excpostgres  Exposed Dangerous Method Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-292/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of QNAP TS-453E devices. Authentication is not required to exploit this vulnerability. The Z...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
-      "title": "ZDI-26-270: TrendAI Apex One Console Directory Traversal Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-270/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trend Micro Apex One. Authentication is not required to exploit this vulnerability. The ZDI has ass...",
+      "title": "ZDI-26-291: NI LabVIEW LVCLASS File Parsing Memory Corruption Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-291/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NI LabVIEW. User interaction is required to exploit this vulnerability in that the target must visi...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
-      "title": "ZDI-26-269: TrendAI Apex One Console Directory Traversal Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-269/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trend Micro Apex One. Authentication is not required to exploit this vulnerability. The ZDI has ass...",
+      "title": "ZDI-26-290: NI LabVIEW LVLIB File Parsing Memory Corruption Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-290/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NI LabVIEW. User interaction is required to exploit this vulnerability in that the target must visi...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
-      "title": "ZDI-26-268: Samsung MagicINFO 9 Server Incorrect Default Permissions Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-268/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Samsung MagicINFO 9 Server. An attacker must first obtain the ability to execute low-privileged code on...",
+      "title": "ZDI-26-289: Linux Kernel ETS Scheduler Race Condition Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-289/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
-      "title": "ZDI-26-267: Malwarebytes Anti-Malware Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-267/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Malwarebytes Anti-Malware. An attacker must first obtain the ability to execute low-privileged code on ...",
+      "title": "ZDI-26-288: DriveLock Directory Traversal Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-288/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of DriveLock. Authentication is required to exploit this vulnerability. The ZDI has assigned a...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
-      "title": "ZDI-26-266: Fortinet FortiWeb cat_cgi_paths Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-266/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Fortinet FortiWeb. Authentication is required to exploit this vulnerability. The ZDI has assigned a...",
+      "title": "ZDI-26-287: DriveLock Directory Traversal Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-287/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of DriveLock. Authentication is not required to exploit this vulnerability. The ZDI has assign...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
-      "title": "ZDI-26-265: Fortinet FortiWeb cgi_buf_alloc Integer Overflow Denial-of-Service Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-265/",
-      "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Fortinet FortiWeb. Authentication is required to exploit this vulnerability. The ZDI ...",
+      "title": "ZDI-26-286: DriveLock SQL Injection Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-286/",
+      "description": "This vulnerability allows remote attackers to escalate privileges on affected installations of DriveLock. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS ratin...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
-      "title": "ZDI-26-264: Adobe ColdFusion fetchCFSettingFile Directory Traversal Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-264/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe ColdFusion. Authentication is not required to exploit this vulnerability. The ZDI has...",
+      "title": "ZDI-26-285: DriveLock Directory Traversal Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-285/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of DriveLock. Authentication is not required to exploit this vulnerability. The ZDI has assign...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
-      "title": "ZDI-26-263: Adobe ColdFusion subscribeToEndpoints Authentication Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-263/",
-      "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Adobe ColdFusion. Authentication is not required to exploit this vulnerability. The ZDI has assigned...",
+      "title": "ZDI-26-284: DriveLock Directory Traversal Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-284/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of DriveLock. Authentication is not required to exploit this vulnerability. The ZDI has assign...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
-      "title": "ZDI-26-262: Adobe ColdFusion deleteVersion Directory Traversal Arbitrary File Deletion Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-262/",
-      "description": "This vulnerability allows remote attackers to delete arbitrary files on affected installations of Adobe ColdFusion. Although authentication is required to exploit this vulnerability, the existing a...",
+      "title": "ZDI-26-283: GStreamer qtdemux Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-283/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. Interaction with this library is required to exploit this vulnerability but attack vecto...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
-      "title": "ZDI-26-261: (0Day) Docker Desktop credentialHelper Directory Traversal Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-261/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop. An attacker must first obtain the ability to escape the container and execute high-priv...",
+      "title": "ZDI-26-282: GIMP HDR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-282/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
-      "title": "ZDI-26-260: (0Day) Docker Desktop System Editor Uncontrolled Search Path Element  Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-260/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop. An attacker must first obtain the ability to escape the container and execute high-priv...",
+      "title": "ZDI-26-281: Microsoft vcpkg OpenSSL Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-281/",
+      "description": "This vulnerability allows local attackers to escalate privileges on applications built using the Microsoft vcpkg port of OpenSSL. An attacker must first obtain the ability to execute low-privileged...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
-      "title": "ZDI-26-259: (0Day) Docker Desktop cli-plugins Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-259/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop for Windows. An attacker must first obtain the ability to escape the container and execu...",
+      "title": "ZDI-26-280: (Pwn2Own) HP DeskJet 2855e JobStatusEvent Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-280/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of HP DeskJet 2855e printers. Authentication is not required to exploit this vulnerability. ...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
-      "title": "ZDI-26-258: (0Day) Docker Desktop extension-manager Exposed Dangerous Function Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-258/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop for Windows. An attacker must first obtain the ability to execute high-privileged code w...",
+      "title": "ZDI-26-279: Microsoft Windows Snipping Tool Improper Input Validation Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-279/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target mu...",
+      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-278: Microsoft Windows win32kfull Improper Locking Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-278/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the targ...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
@@ -350,22 +374,6 @@
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5083769-and-kb5082052-released/",
       "description": "Microsoft has released Windows 11 KB5083769 and KB5082052 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
       "pub_date": "Tue, 14 Apr 2026 13:46:31 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft April 2026 Patch Tuesday fixes 167 flaws, 2 zero-days",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2026-patch-tuesday-fixes-167-flaws-2-zero-days/",
-      "description": "Today is Microsoft's April 2026 Patch Tuesday with security updates for 167 flaws, including 2 zero-day vulnerabilities. [...]",
-      "pub_date": "Tue, 14 Apr 2026 13:41:13 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Fake Ledger Live app on Apple’s App Store stole $9.5M in crypto",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-ledger-live-app-on-apples-app-store-stole-95m-in-crypto/",
-      "description": "A malicious Ledger Live app for macOS available from Apple's App Store has drained approximately $9.5 million in cryptocurrency from 50 victims in just a few days this month. [...]",
-      "pub_date": "Tue, 14 Apr 2026 12:37:01 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -448,14 +456,6 @@
       "pub_date": "Mon, 13 Apr 2026 22:45:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMP1knUStbLpgNZ-k52a4ctZyxeERGEeqqVfX75PVTgtdu6XpoIlhHiFAwa4nTwg0089TuczQY5YZOgHOQk-TpVZNxs0piNVCPHsgBPSreTcKQ8gwISSDK7JI4oipfjfrnehwPCqWcyBnxobYaKM7TTu5SN23pUJ5K9fCbORLy2g_ZsSzkmxkp8VVdghfP/s1600/1000066319.jpg"
-    },
-    {
-      "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-257/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Labcenter Electronics Proteus. User interaction is required to exploit this vulnerability in that t...",
-      "pub_date": "Mon, 06 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
     },
     {
       "title": "Securing the open source supply chain across GitHub",
