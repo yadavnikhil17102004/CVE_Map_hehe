@@ -1,6 +1,102 @@
 {
-  "last_updated": "2026-04-15T13:05:46Z",
+  "last_updated": "2026-04-15T15:00:30Z",
   "articles": [
+    {
+      "title": "CISA flags Windows Task Host vulnerability as exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/",
+      "description": "CISA warned U.S. government agencies to secure their systems against a Windows Task Host privilege escalation vulnerability that could allow attackers to gain SYSTEM privileges. [...]",
+      "pub_date": "Wed, 15 Apr 2026 10:51:05 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Google, Microsoft, Meta Tracking You Even if You Opt Out – New Research",
+      "link": "https://cybersecuritynews.com/google-microsoft-meta-tracking-even-you-opt-out/",
+      "description": "In a massive blow to consumer privacy, a new forensic audit reveals that tech giants Google, Microsoft, and Meta are systematically ignoring legally defined privacy opt-out signals. According to th...",
+      "pub_date": "Wed, 15 Apr 2026 14:16:38 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Google-Microsoft-Meta-Tracking-You-Even-if-You-Opt-Out-New-Research-.webp"
+    },
+    {
+      "title": "Microsoft Releases Cumulative Update KB5083769 for Windows 11, Version 25H2 and 24H2",
+      "link": "https://cybersecuritynews.com/microsoft-cumulative-update-windows-11/",
+      "description": "Microsoft has officially released the April 2026 Patch Tuesday cumulative update, KB5083769, for Windows 11 versions 25H2 and 24H2. Released on April 14, 2026, this mandatory security update addres...",
+      "pub_date": "Wed, 15 Apr 2026 14:14:05 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Releases-cumulative-update-KB5083769-for-Windows-11-version-25H2-and-24H2-.webp"
+    },
+    {
+      "title": "Windows Active Directory Vulnerability Allow Attackers to Execute Malicious Code",
+      "link": "https://cybersecuritynews.com/windows-active-directory-vulnerability/",
+      "description": "Microsoft has released urgent security updates to address a critical vulnerability in Windows Active Directory that allows attackers to execute malicious code. Disclosed on April 14, 2026, the vuln...",
+      "pub_date": "Wed, 15 Apr 2026 14:11:19 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-Active-Directory-Vulnerability-Allow-Attackers-to-execute-Malicious-code.webp"
+    },
+    {
+      "title": "New PHP Composer Vulnerability Let Attackers Execute Arbitrary Commands",
+      "link": "https://cybersecuritynews.com/php-composer-vulnerability/",
+      "description": "PHP Composer released urgent security updates to address two critical command injection vulnerabilities. PHP Composer is an essential dependency management tool used globally by developers, making ...",
+      "pub_date": "Wed, 15 Apr 2026 14:08:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-s-Vulnerability-Let-Attackers-Execute-arbitrary-commands.webp"
+    },
+    {
+      "title": "Adobe Acrobat Reader Vulnerabilities Let Attackers Execute Arbitrary Code",
+      "link": "https://cybersecuritynews.com/adobe-acrobat-reader-vulnerabilities-patch/",
+      "description": "Adobe has released a critical security bulletin on April 14, 2026, to address multiple vulnerabilities in Adobe Acrobat and Reader for Windows and macOS. According to the official advisory, success...",
+      "pub_date": "Wed, 15 Apr 2026 14:05:46 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Adobe-Acrobat-Reader-Vulnerability-Let-Attackers-Execute-Arbitrary-Code.webp"
+    },
+    {
+      "title": "Rolling Networks: Securing the Transportation Sector",
+      "link": "https://www.bleepingcomputer.com/news/security/rolling-networks-securing-the-transportation-sector/",
+      "description": "Modern trucks are rolling networks packed with sensors, connectivity, and attack surfaces, creating new cyber risks. NMFTA's Cybersecurity Conference brings industry leaders together to tackle emer...",
+      "pub_date": "Wed, 15 Apr 2026 10:00:10 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "MuddyWater-Style Hackers Scan 12,000+ Systems Before Hitting Middle East Critical Sectors",
+      "link": "https://cybersecuritynews.com/muddywater-style-hackers-scan-12000-systems/",
+      "description": "A sophisticated cyber campaign bearing strong operational similarities to the MuddyWater threat group has been caught sweeping more than 12,000 internet-exposed systems across multiple regions befo...",
+      "pub_date": "Wed, 15 Apr 2026 13:08:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/MuddyWater-Style-Hackers-Scan-12000-Systems-Before-Hitting-Middle-East-Critical-Sectors.webp"
+    },
+    {
+      "title": "Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover",
+      "link": "https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html",
+      "description": "A recently disclosed critical security flaw impacting nginx-ui, an open-source, web-based Nginx management tool, has come under active exploitation in the\u0026nbsp;wild. The vulnerability in question i...",
+      "pub_date": "Wed, 15 Apr 2026 18:26:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-efZdYJpyjLdBQDLfJxWi6aiElSTIIzesGLR7SNMM0laIvBdFHioyAfxmOQkhV-bBV5SqCxRRhocp4-Q3EezvtE5Xp2aeNcFrP6d89jhOY2QiCVhhyMCMCVy39cE5YcTvg_7_tvXAEwI4N1g_eRKNzWwYtLH-k80d5he55NN2UK0sNNkbb0l35ix6MOBR/s1600/nui.png"
+    },
+    {
+      "title": "Hackers Using Google Cloud Storage to Bypass Email Filters and Deliver Remcos RAT",
+      "link": "https://cybersecuritynews.com/hackers-using-google-cloud-storage-to-bypass-email-filters/",
+      "description": "Cybercriminals are always looking for smarter ways to bypass security, and their latest method is both simple and effective. Instead of building suspicious new websites, attackers now use Google Cl...",
+      "pub_date": "Wed, 15 Apr 2026 12:47:15 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Using-Google-Cloud-Storage-to-Bypass-Email-Filters-and-Deliver-Remcos-RAT.webp"
+    },
+    {
+      "title": "April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More",
+      "link": "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html",
+      "description": "A number\u0026nbsp;of critical vulnerabilities impacting products from Adobe, Fortinet, Microsoft, and SAP have taken center stage in April's Patch Tuesday\u0026nbsp;releases. Topping the list is an SQL inje...",
+      "pub_date": "Wed, 15 Apr 2026 18:07:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-FBwJYevQ8Ner9ypyp5-H1XIPfa5guhQXC-W4llTZuBI072vjCoxKh9PUexQBZGJIeuZXoBAKboz9xz5Gzd0p1SiT5UME0wd0lTTOS6EIh3nJ6vsAeMzGmT0P38ry2ySiLc-je0e0YAZAPDYmhw3jSfqbExcsQW5nL8syaClAcSfZziU-KPneawQFfo6p/s1600/patches.jpg"
+    },
+    {
+      "title": "Hackers Hide Backdoor in Trusted WordPress Plugins for 8 Months Before Activating Malware",
+      "link": "https://cybersecuritynews.com/hackers-hide-backdoor-in-trusted-wordpress-plugins/",
+      "description": "A group of trusted WordPress plugins quietly carried a hidden backdoor for eight full months, and nobody noticed until the damage had already been done. The attack, uncovered in April 2026, did not...",
+      "pub_date": "Wed, 15 Apr 2026 12:14:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Hide-Backdoor-in-Trusted-WordPress-Plugins-for-8-Months-Before-Activating-Malware.webp"
+    },
     {
       "title": "Microsoft: April updates trigger BitLocker key prompts on some servers",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-windows-servers-ask-for-bitlocker-key-after-april-updates/",
@@ -10,12 +106,28 @@
       "image_url": ""
     },
     {
+      "title": "Hackers Create Hidden Mailbox Rules in Microsoft 365 to Intercept Sensitive Business Emails",
+      "link": "https://cybersecuritynews.com/hackers-create-hidden-mailbox-rules-in-microsoft-365/",
+      "description": "Cybercriminals have found a quiet way to sit inside a corporate email account and read everything being sent and received — without the account owner ever knowing. Attackers are now abusing a bui...",
+      "pub_date": "Wed, 15 Apr 2026 11:34:45 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Create-Hidden-Mailbox-Rules-in-Microsoft-365-to-Intercept-Sensitive-Business-Emails.webp"
+    },
+    {
       "title": "Deterministic + Agentic AI: The Architecture Exposure Validation Requires",
       "link": "https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html",
       "description": "Few technologies have moved from experimentation to boardroom mandate as quickly as AI. Across\u0026nbsp;industries, leadership teams have embraced its broader potential, and boards, investors, and exec...",
       "pub_date": "Wed, 15 Apr 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3s5QStAA0bgcCWhxktRnDbuCjGGiFi6NUz1Z9zVK8-4CkZ8FS82Sc5Qg_9-wKK98yThRDobcnyJcD63TIzW4OUTXzNrXTD6PXHoNMBJpgt02mi7K24qVMxfq_8zsG6kBupb8S0DygwxK2F33miTnFivZKSguCqCv82v3mxOAYWnHrcFHF7Y1iTPgV9i6u/s1600/validation-main.jpg"
+    },
+    {
+      "title": "Agentic LLM Browsers Expose New Attack Surface for Prompt Injection and Data Theft",
+      "link": "https://cybersecuritynews.com/agentic-llm-browsers-expose-new-attack-surface/",
+      "description": "Artificial intelligence is changing how people browse the internet. AI-powered browsers no longer just show web pages — they read content, take actions, and complete tasks for the user. These too...",
+      "pub_date": "Wed, 15 Apr 2026 10:45:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Agentic-LLM-Browsers-Expose-New-Attack-Surface-for-Prompt-Injection-and-Data-Theft.webp"
     },
     {
       "title": "Microsoft fixes bug behind Windows Server 2025 automatic upgrades",
@@ -210,22 +322,6 @@
       "image_url": ""
     },
     {
-      "title": "Stolen Rockstar Games analytics data leaked by extortion gang",
-      "link": "https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/",
-      "description": "Rockstar Games has suffered a data breach linked to a recent security incident at Anodot, with the ShinyHunters extortion gang now leaking the stolen data on its data leak site. [...]",
-      "pub_date": "Mon, 13 Apr 2026 16:08:10 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Critical flaw in wolfSSL library enables forged certificate use",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/",
-      "description": "A critical vulnerability in the wolfSSL SSL/TLS library can weaken security via improper verification of the hash algorithm or its size when checking Elliptic Curve Digital Signature Algorithm (ECD...",
-      "pub_date": "Mon, 13 Apr 2026 15:56:03 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025",
       "link": "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
       "description": "Banks and financial institutions in Latin American countries like Brazil and Mexico have continued to be the target of a malware family called JanelaRAT. A modified version of BX RAT, JanelaRAT is ...",
@@ -240,22 +336,6 @@
       "pub_date": "Mon, 13 Apr 2026 20:16:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb77IQHAfOvWFPWb_cgV_YJGdRtNJJJWBcjYH6M6cCawBv2tQdybani7Qet_LGwH1tTBHJ2P3Lr6gWdY0sz3547YLzkSLWX3T2l84-A7ndRK3T55QblpJ-j2ovE9Lq0CoNb6ckWziwD2UjKP_awFJXbGr3yuZ1IMPndUyCo_WfoJ9nnyTPFf-K4HVy5A8g/s1600/well-fbi.jpg"
-    },
-    {
-      "title": "⚡ Weekly Recap: Fiber Optic Spying, Windows Rootkit, AI Vulnerability Hunting and More",
-      "link": "https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html",
-      "description": "Monday\u0026nbsp;is back, and the weekend’s backlog of chaos is officially hitting the fan. We\u0026nbsp;are tracking a critical zero-day that has been quietly living in your PDFs for months, plus some agg...",
-      "pub_date": "Mon, 13 Apr 2026 18:31:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZNd-YcwKXoD_PmPblT00GaI9GQJvtJTHZk-5RBS1QEtLRupE9KKh-ogAP61b-cLzJm90PHDoRVnhiUzxlqcn-3gB2EtBG2TYxt8erP8UmLj3t1L_9Ykh3vfbCXFBXAoeylbbTeK7jxJIDmqCqThPziWi0XOzbyMZ-UEWGl_PhP4xePoRbsm_RqpUKmQNW/s1600/recaps-main.jpg"
-    },
-    {
-      "title": "Your MTTD Looks Great. Your Post-Alert Gap Doesn't",
-      "link": "https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html",
-      "description": "Anthropic restricted its Mythos Preview model last week after it autonomously found and exploited zero-day vulnerabilities in every major operating system and browser. Palo\u0026nbsp;Alto Networks' Wend...",
-      "pub_date": "Mon, 13 Apr 2026 17:11:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6yIgStY_TVvAIztG3gjTOWA2HNY1juzcSFQVACCzI1G1EU97z9wTsAO9HJECkmv0RcAYSxu4xSALf9jELTrtC9ruDKbMS5DPq2U2TYXLtvxZ1F4sRaQ2KIe-FfGpB8kZEhs1LEuOvaEnvGO-50RM227cjDVRFdBaXeC8r5WPOQHG3n2SB8ui3USopqHM/s1600/pro.jpg"
     },
     {
       "title": "ZDI-26-257: (0Day) Labcenter Electronics Proteus PDSPRJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
