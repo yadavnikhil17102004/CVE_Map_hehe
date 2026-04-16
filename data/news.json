@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-04-16T08:24:10Z",
+  "last_updated": "2026-04-16T10:09:52Z",
   "articles": [
+    {
+      "title": "Hackers Abuse n8n AI Workflow Automation to Deliver Malware Through Trusted Webhooks",
+      "link": "https://cybersecuritynews.com/hackers-abuse-n8n-ai-workflow-automation/",
+      "description": "Cybercriminals have found a new way to sneak malware past traditional security filters by hijacking a legitimate AI workflow automation tool called n8n. Rather than building their own infrastructur...",
+      "pub_date": "Thu, 16 Apr 2026 10:07:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Abuse-n8n-AI-Workflow-Automation-to-Deliver-Malware-Through-Trusted-Webhooks.webp"
+    },
+    {
+      "title": "Cisco Webex Services Vulnerability Let Remote Attacker Impersonate Any User",
+      "link": "https://cybersecuritynews.com/cisco-webex-services-vulnerability/",
+      "description": "Cisco has issued a critical security advisory warning of a severe vulnerability in its cloud-based Webex Services. Tracked as CVE-2026-20184, this flaw carries a maximum Common Vulnerability Scorin...",
+      "pub_date": "Thu, 16 Apr 2026 09:37:35 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Cisco-Webex-Services-Vulnerability-Let-remote-attacker-impersonate-any-user.webp"
+    },
+    {
+      "title": "Nginx-ui Vulnerability Actively Exploited in Attack – Enables Full Server Takeover",
+      "link": "https://cybersecuritynews.com/nginx-ui-vulnerability-exploited/",
+      "description": "A critical authentication bypass vulnerability in Nginx UI, tracked as CVE-2026-33032 with a maximum CVSS score of 9.8, is currently being actively exploited in the wild. This flaw allows unauthent...",
+      "pub_date": "Thu, 16 Apr 2026 09:27:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Nginx-ui-Vulnerability-Actively-Exploited-in-Attack-Enables-Full-Server-Takeover-.webp"
+    },
+    {
+      "title": "31 High-Impact Vulnerabilities Exploited in March as Interlock Hits Cisco FMC Zero-Day",
+      "link": "https://cybersecuritynews.com/vulnerabilities-exploited-as-interlock-hits-cisco-fmc/",
+      "description": "March 2026 turned out to be one of the more active months for vulnerability exploitation this year. Security researchers tracked 31 high-impact vulnerabilities that were actively used against real-...",
+      "pub_date": "Thu, 16 Apr 2026 08:51:58 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/31-High-Impact-Vulnerabilities-Exploited-in-March-as-Interlock-Hits-Cisco-FMC-Zero-Day.webp"
+    },
+    {
+      "title": "New Chrome Privacy Analysis Shows How Fingerprinting and Header Leaks Can Expose Users",
+      "link": "https://cybersecuritynews.com/new-chrome-privacy-analysis/",
+      "description": "Google Chrome is the most widely used browser in the world, yet a sweeping new analysis reveals it offers users almost no protection against fingerprinting and data leaks that quietly expose their ...",
+      "pub_date": "Thu, 16 Apr 2026 08:36:37 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Chrome-Privacy-Analysis-Shows-How-Fingerprinting-and-Header-Leaks-Can-Expose-Users.webp"
+    },
+    {
+      "title": "US nationals behind DPRK IT worker 'laptop farm' sent to prison",
+      "link": "https://www.bleepingcomputer.com/news/security/us-nationals-behind-north-korean-it-worker-laptop-farm-sent-to-prison/",
+      "description": "Two U.S. nationals have been sent to prison for helping North Korean remote information technology (IT) workers to pose as U.S. residents and get hired by over 100 companies across the country, inc...",
+      "pub_date": "Thu, 16 Apr 2026 04:32:13 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Splunk Enterprise and Cloud Platform Vulnerability Enables Remote Code Execution Attacks",
       "link": "https://cybersecuritynews.com/splunk-enterprise-and-cloud-platform-vulnerability/",
@@ -52,7 +100,7 @@
     {
       "title": "Hackers Abuse Google Discover With AI-Generated Content to Push Malicious Notifications",
       "link": "https://cybersecuritynews.com/hackers-abuse-google-discover-with-ai-generated-content/",
-      "description": "A newly identified threat operation is exploiting one of the most widely used content discovery tools on Android and Chrome devices — Google\u0026#8217;s Discovery feed — to deliver malicious push n...",
+      "description": "A newly identified threat operation is exploiting one of the most widely used content discovery tools on Android and Chrome devices, \u0026#8216;Google\u0026#8217;s Discovery feed\u0026#8217; to deliver malicious...",
       "pub_date": "Thu, 16 Apr 2026 04:34:27 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Abuse-Google-Discover-With-AI-Generated-Content-to-Push-Malicious-Notifications.webp"
@@ -112,46 +160,6 @@
       "pub_date": "Wed, 15 Apr 2026 10:51:05 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Google, Microsoft, Meta Tracking You Even if You Opt Out – New Research",
-      "link": "https://cybersecuritynews.com/google-microsoft-meta-tracking-even-you-opt-out/",
-      "description": "In a massive blow to consumer privacy, a new forensic audit reveals that tech giants Google, Microsoft, and Meta are systematically ignoring legally defined privacy opt-out signals. According to th...",
-      "pub_date": "Wed, 15 Apr 2026 14:16:38 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Google-Microsoft-Meta-Tracking-You-Even-if-You-Opt-Out-New-Research-.webp"
-    },
-    {
-      "title": "Microsoft Releases Cumulative Update KB5083769 for Windows 11, Version 25H2 and 24H2",
-      "link": "https://cybersecuritynews.com/microsoft-cumulative-update-windows-11/",
-      "description": "Microsoft has officially released the April 2026 Patch Tuesday cumulative update, KB5083769, for Windows 11 versions 25H2 and 24H2. Released on April 14, 2026, this mandatory security update addres...",
-      "pub_date": "Wed, 15 Apr 2026 14:14:05 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Releases-cumulative-update-KB5083769-for-Windows-11-version-25H2-and-24H2-.webp"
-    },
-    {
-      "title": "Windows Active Directory Vulnerability Allows Attackers to Execute Malicious Code",
-      "link": "https://cybersecuritynews.com/windows-active-directory-vulnerability/",
-      "description": "Microsoft has released urgent security updates to address a critical vulnerability in Windows Active Directory that allows attackers to execute malicious code. Disclosed on April 14, 2026, the vuln...",
-      "pub_date": "Wed, 15 Apr 2026 14:11:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-Active-Directory-Vulnerability-Allow-Attackers-to-execute-Malicious-code.webp"
-    },
-    {
-      "title": "New PHP Composer Vulnerability Let Attackers Execute Arbitrary Commands",
-      "link": "https://cybersecuritynews.com/php-composer-vulnerability/",
-      "description": "PHP Composer released urgent security updates to address two critical command injection vulnerabilities. PHP Composer is an essential dependency management tool used globally by developers, making ...",
-      "pub_date": "Wed, 15 Apr 2026 14:08:50 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-s-Vulnerability-Let-Attackers-Execute-arbitrary-commands.webp"
-    },
-    {
-      "title": "Adobe Acrobat Reader Vulnerabilities Let Attackers Execute Arbitrary Code",
-      "link": "https://cybersecuritynews.com/adobe-acrobat-reader-vulnerabilities-patch/",
-      "description": "Adobe has released a critical security bulletin on April 14, 2026, to address multiple vulnerabilities in Adobe Acrobat and Reader for Windows and macOS. According to the official advisory, success...",
-      "pub_date": "Wed, 15 Apr 2026 14:05:46 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Adobe-Acrobat-Reader-Vulnerability-Let-Attackers-Execute-Arbitrary-Code.webp"
     },
     {
       "title": "Rolling Networks: Securing the Transportation Sector",
@@ -374,14 +382,6 @@
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5082200-extended-security-update/",
       "description": "Microsoft has released the Windows 10 KB5082200 extended security update to fix the April 2026 Patch Tuesday vulnerabilities, including 2 zero-days. [...]",
       "pub_date": "Tue, 14 Apr 2026 14:09:39 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "McGraw-Hill confirms data breach following extortion threat",
-      "link": "https://www.bleepingcomputer.com/news/security/mcgraw-hill-confirms-data-breach-following-extortion-threat/",
-      "description": "Education company McGraw-Hill has confirmed in a statement to BleepingComputer that hackers exploited a Salesforce misconfiguration and accessed its internal data. [...]",
-      "pub_date": "Tue, 14 Apr 2026 14:07:07 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
