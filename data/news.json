@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-16T20:40:32Z",
+  "last_updated": "2026-04-16T21:36:23Z",
   "articles": [
     {
       "title": "New Microsoft Defender “RedSun” zero-day PoC grants SYSTEM privileges",
@@ -522,17 +522,25 @@
       "image_url": "https://github.blog/wp-content/uploads/2025/12/fuzz1.png?resize=1024%2C425"
     },
     {
-      "title": "Horner Automation Cscape and XL4, XL7 PLC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain unauthorized access to systems and services. The following versions of Horner Automation Cscape and X...",
+      "title": "AVEVA Pipeline Simulation",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-04",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated attacker to modify simulation parameters, training configuration and training records. The following v...",
       "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Anviz Multiple Products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-03",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to conduct reconnaissance, capture or decrypt sensitive data, alter device configurations, gain unauthorized...",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-34197 Apache ActiveMQ Improper Input Validation Vulner...",
+      "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Horner Automation Cscape and XL4, XL7 PLC",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain unauthorized access to systems and services. The following versions of Horner Automation Cscape and X...",
       "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -546,9 +554,9 @@
       "image_url": ""
     },
     {
-      "title": "AVEVA Pipeline Simulation",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-04",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated attacker to modify simulation parameters, training configuration and training records. The following v...",
+      "title": "Anviz Multiple Products",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-03",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to conduct reconnaissance, capture or decrypt sensitive data, alter device configurations, gain unauthorized...",
       "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -570,17 +578,17 @@
       "image_url": ""
     },
     {
-      "title": "Contemporary Controls BASC 20T",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-099-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to enumerate the functionality of each component associated with the PLC, reconfigure, rename, delete, perfor...",
+      "title": "GPL Odorizers GPL750",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-099-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a low privileged remote attacker to manipulate register values, which would result in too much or too little odorant bein...",
       "pub_date": "Thu, 09 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "GPL Odorizers GPL750",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-099-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a low privileged remote attacker to manipulate register values, which would result in too much or too little odorant bein...",
+      "title": "Contemporary Controls BASC 20T",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-099-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to enumerate the functionality of each component associated with the PLC, reconfigure, rename, delete, perfor...",
       "pub_date": "Thu, 09 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -621,14 +629,6 @@
       "title": "Siemens SICAM 8 Products",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-01",
       "description": "View CSAF Summary Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICOR...",
-      "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Yokogawa CENTUM VP",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to login as the PROG user and modify permissions. The following versions of Yokogawa CENTUM VP are affected: ...",
       "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
