@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-04-16T19:01:49Z",
+  "last_updated": "2026-04-16T20:40:32Z",
   "articles": [
+    {
+      "title": "New Microsoft Defender “RedSun” zero-day PoC grants SYSTEM privileges",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-defender-redsun-zero-day-poc-grants-system-privileges/",
+      "description": "A researcher known as \"Chaotic Eclipse\" has published a proof-of-concept exploit for a second Microsoft Defender zero-day, dubbed \"RedSun,\" in the past two weeks, protesting how the company works w...",
+      "pub_date": "Thu, 16 Apr 2026 16:19:31 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic",
       "link": "https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html",
@@ -8,6 +16,14 @@
       "pub_date": "Thu, 16 Apr 2026 23:22:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaSAtFbXFX7aYFcwPPrHEMwEZ4VJp2mJQuYo3B3Q2Zrot1co_ilMUWffYOUUFHFRO6zwHHjlMCMOJcbnc_iF69KLU_1LpMhcfFk5YV8A4cdIchhqR1NQGEvyzpHGidnbvqwq2Tg_Y77VwMCpeSSluD8sPRcusqiraqLMCvUCA-QvUv5nCuh2Ns1U2jxNR1/s1600/powmix.jpg"
+    },
+    {
+      "title": "SpankRAT Exploits Windows Explorer Processes for Stealth and Delayed Detection",
+      "link": "https://cybersecuritynews.com/spankrat-exploits-windows-process/",
+      "description": "A newly identified two-component Remote Access Trojan (RAT) toolkit built in Rust, dubbed SpankRAT, is being used by threat actors to abuse legitimate Windows processes, bypass reputation-based sec...",
+      "pub_date": "Thu, 16 Apr 2026 17:31:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/SpankRAT-Exploits-Windows-Process.webp"
     },
     {
       "title": "Hackers exploit Marimo flaw to deploy NKAbuse malware from Hugging Face",
@@ -50,6 +66,14 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzTV_mwPjmV14aBlnHuLOX2yEZR6VGpmadgiPHtNBJV0KVNG_Oj2tnqE1cb3U9RhBXN-Mytte3jKs2n2dQwBhX2dYDETy5es4cGUkbW5bdIaV_hx8i3gWQhdaa7se1_Q8NY9t0q90EjUBNXt56_MxjT4YVV-R8D14jV3LequHu0llA84NnEK3PeU56Q54X/s1600/bull-main.jpg"
     },
     {
+      "title": "Microsoft 365 Web Services Hit by Google Chrome 147 Compatibility Issue",
+      "link": "https://cybersecuritynews.com/microsoft-365-chrome-147-issue/",
+      "description": "Microsoft is actively investigating a widespread authentication issue affecting users attempting to access Microsoft 365 web-based services through Google Chrome version 147. The problem, first rep...",
+      "pub_date": "Thu, 16 Apr 2026 12:54:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-365-Chrome-147-Issue.webp"
+    },
+    {
       "title": "Cisco says critical Webex Services flaw requires customer action",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-says-critical-webex-services-flaw-requires-customer-action/",
       "description": "Cisco has released security updates to patch four critical vulnerabilities, including a fixed improper certificate validation flaw in the company's cloud-based Webex Services platform that requires...",
@@ -66,12 +90,52 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6vJpO9kksCQDpSksNkqDFNUCbXD70dMGYqI6P9S_XPMY5d8BR8PVdrsVQP1ZJO_-nzL6eQShM3Cap9heQ5kAglsPjfxwIcXPSsf_cfgUVnGQ2XzIWVOuo7JhxMjnHYDN6r9KlQ6LqZJisRZkjatnWChuzUkSlXRa1hFseUPq28PZ5gjGR7L2WzTFdZ3fM/s1600/ghost.jpg"
     },
     {
+      "title": "Two U.S. Nationals Sentenced for Running Laptop Farm for DPRK Remote Workers",
+      "link": "https://cybersecuritynews.com/two-u-s-nationals-sentenced/",
+      "description": "Two American nationals have been sentenced to federal prison for operating a sophisticated \u0026#8220;laptop farm\u0026#8221; scheme. The operation successfully infiltrated over 100 U.S. companies, generati...",
+      "pub_date": "Thu, 16 Apr 2026 11:49:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Two-U.S.-Nationals-Sentenced-for-Running-Laptop-Farms-in-5-Million-DPRK-Remote-Worker-Scheme.webp"
+    },
+    {
+      "title": "New UAC-0247 Campaign Steals Browser and WhatsApp Data From Hospitals and Governments",
+      "link": "https://cybersecuritynews.com/new-uac-0247-campaign-steals-browser-and-whatsapp-data/",
+      "description": "A threat cluster tracked as UAC-0247 has been running an active campaign since early 2026, targeting local governments and municipal healthcare institutions across Ukraine, including clinical hospi...",
+      "pub_date": "Thu, 16 Apr 2026 11:32:40 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-UAC-0247-Campaign-Steals-Browser-and-WhatsApp-Data-From-Hospitals-and-Governments.webp"
+    },
+    {
+      "title": "Critical Cisco ISE Vulnerabilities Let Remote Attackers Execute Malicious Code",
+      "link": "https://cybersecuritynews.com/cisco-ise-vulnerabilities/",
+      "description": "Cisco has issued an urgent security advisory warning of multiple vulnerabilities in its Identity Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC). According to the official Cisco ...",
+      "pub_date": "Thu, 16 Apr 2026 11:32:26 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Cisco-ISE-Vulnerabilities-Let-Remote-Attackers-Execute-Malicious-Code.webp"
+    },
+    {
       "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
       "link": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
       "description": "Cisco has announced patches to address four critical security flaws impacting Identity Services and Webex Services that could result in arbitrary code execution and allow an attacker to impersonate...",
       "pub_date": "Thu, 16 Apr 2026 16:57:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihdjDVphpsoBIBjhimILabg28ZsD4p-xNzJol1uD3SSIRBvkp-juko45B2sjKpQmJi-h2tHZf2yWAvuCOZRs3m3q4w5sj7x-MyXWosuKglLblipF_94T8f8OQ8_peVgqZTrnjxF8dPRLfv63K8zrbQYqh898b31p_2C37UO0DNAuR8cESZeo4XTFlsDs0C/s1600/cisco-flaws.jpg"
+    },
+    {
+      "title": "McGraw Hill Confirms Data Breach Exposing 13.5 Million Users’ Personal Data",
+      "link": "https://cybersecuritynews.com/mcgraw-hill-confirms-data-breach/",
+      "description": "Education publishing giant McGraw-Hill has confirmed a data breach following an extortion attempt, with more than 100GB of stolen data now publicly distributed online, exposing the personal informa...",
+      "pub_date": "Thu, 16 Apr 2026 11:21:55 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/McGraw-Hill-Confirms-Data-Breach.webp"
+    },
+    {
+      "title": "Fake Proton VPN Sites and Gaming Mods Spread NWHStealer in New Windows Malware Campaign",
+      "link": "https://cybersecuritynews.com/fake-proton-vpn-sites-and-gaming-mods/",
+      "description": "A newly identified information-stealing malware called NWHStealer is quietly making its way onto Windows systems through a well-disguised campaign that uses fake VPN websites, gaming mods, and hard...",
+      "pub_date": "Thu, 16 Apr 2026 10:50:45 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Fake-Proton-VPN-Sites-and-Gaming-Mods-Spread-NWHStealer-in-New-Windows-Malware-Campaign.webp"
     },
     {
       "title": "Data breach at edtech giant McGraw Hill affects 13.5 million accounts",
@@ -96,6 +160,30 @@
       "pub_date": "Thu, 16 Apr 2026 15:50:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNoBvtFhZbLfNE2AsVSzuOt5V9YMzAumIA2M9c7QVbp_i-xMwDIgVtDgCIi2bCYgH_PviS8P-Ap1k-8aVmHABqLzNGE9g014MM1gnfJEJPKbKczoCjPoI6PxZ77bNlz2dSlv8XqoVFyZZqQ6SWBue3rpRegb_k62HJkfMl39GHTBIIzZOGrv_iKbxOYV8E/s1600/el.jpg"
+    },
+    {
+      "title": "Hackers Abuse n8n AI Workflow Automation to Deliver Malware Through Trusted Webhooks",
+      "link": "https://cybersecuritynews.com/hackers-abuse-n8n-ai-workflow-automation/",
+      "description": "Cybercriminals have found a new way to sneak malware past traditional security filters by hijacking a legitimate AI workflow automation tool called n8n. Rather than building their own infrastructur...",
+      "pub_date": "Thu, 16 Apr 2026 10:07:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Abuse-n8n-AI-Workflow-Automation-to-Deliver-Malware-Through-Trusted-Webhooks.webp"
+    },
+    {
+      "title": "Cisco Webex Services Vulnerability Let Remote Attacker Impersonate Any User",
+      "link": "https://cybersecuritynews.com/cisco-webex-services-vulnerability/",
+      "description": "Cisco has issued a critical security advisory warning of a severe vulnerability in its cloud-based Webex Services. Tracked as CVE-2026-20184, this flaw carries a maximum Common Vulnerability Scorin...",
+      "pub_date": "Thu, 16 Apr 2026 09:37:35 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Cisco-Webex-Services-Vulnerability-Let-remote-attacker-impersonate-any-user.webp"
+    },
+    {
+      "title": "Nginx-ui Vulnerability Actively Exploited in Attack – Enables Full Server Takeover",
+      "link": "https://cybersecuritynews.com/nginx-ui-vulnerability-exploited/",
+      "description": "A critical authentication bypass vulnerability in Nginx UI, tracked as CVE-2026-33032 with a maximum CVSS score of 9.8, is currently being actively exploited in the wild. This flaw allows unauthent...",
+      "pub_date": "Thu, 16 Apr 2026 09:27:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Nginx-ui-Vulnerability-Actively-Exploited-in-Attack-Enables-Full-Server-Takeover-.webp"
     },
     {
       "title": "US nationals behind DPRK IT worker 'laptop farm' sent to prison",
@@ -174,14 +262,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/",
       "description": "CISA warned U.S. government agencies to secure their systems against a Windows Task Host privilege escalation vulnerability that could allow attackers to gain SYSTEM privileges. [...]",
       "pub_date": "Wed, 15 Apr 2026 10:51:05 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Rolling Networks: Securing the Transportation Sector",
-      "link": "https://www.bleepingcomputer.com/news/security/rolling-networks-securing-the-transportation-sector/",
-      "description": "Modern trucks are rolling networks packed with sensors, connectivity, and attack surfaces, creating new cyber risks. NMFTA's Cybersecurity Conference brings industry leaders together to tackle emer...",
-      "pub_date": "Wed, 15 Apr 2026 10:00:10 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
