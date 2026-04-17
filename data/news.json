@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-04-17T18:46:58Z",
+  "last_updated": "2026-04-17T19:53:28Z",
   "articles": [
+    {
+      "title": "Payouts King ransomware uses QEMU VMs to bypass endpoint security",
+      "link": "https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/",
+      "description": "The Payouts King ransomware is using the QEMU emulator as a reverse SSH backdoor to run hidden virtual machines on compromised systems and bypass endpoint security. [...]",
+      "pub_date": "Fri, 17 Apr 2026 15:10:19 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Target TP-Link Routers With Mirai Malware in CVE-2023-33538 Exploitation Attempts",
+      "link": "https://cybersecuritynews.com/hackers-target-tp-link-routers/",
+      "description": "A known security flaw in several end-of-life TP-Link Wi-Fi routers is being actively targeted by hackers trying to install Mirai-based botnet malware on vulnerable devices. The vulnerability, track...",
+      "pub_date": "Fri, 17 Apr 2026 17:53:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Target-TP-Link-Routers-With-Mirai-Malware-in-CVE-2023-33538-Exploitation-Attempts.webp"
+    },
+    {
+      "title": "Email-Borne Worm Surge Drives New Threat Wave Across Industrial Control Systems",
+      "link": "https://cybersecuritynews.com/email-borne-worm-surge-drives-new-threat/",
+      "description": "A global wave of email-borne worms hit industrial control systems (ICS) in the fourth quarter of 2025, marking one of the most concerning threat shifts seen across operational technology (OT) envir...",
+      "pub_date": "Fri, 17 Apr 2026 16:04:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Email-Borne-Worm-Surge-Drives-New-Threat-Wave-Across-Industrial-Control-Systems.webp"
+    },
+    {
+      "title": "Fake Zoom SDK Update Delivers Sapphire Sleet Malware in New macOS Intrusion Chain",
+      "link": "https://cybersecuritynews.com/fake-zoom-sdk-update-delivers-sapphire-sleet-malware/",
+      "description": "A North Korean threat actor known as Sapphire Sleet has launched a new campaign against macOS users, using a fake Zoom SDK update to trick victims into running malicious files that steal passwords,...",
+      "pub_date": "Fri, 17 Apr 2026 15:17:57 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Fake-Zoom-SDK-Update-Delivers-Sapphire-Sleet-Malware-in-New-macOS-Intrusion-Chain.webp"
+    },
     {
       "title": "Grinex exchange blames \"Western intelligence\" for $13.7M crypto hack",
       "link": "https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-intelligence-for-137m-crypto-hack/",
@@ -10,12 +42,44 @@
       "image_url": ""
     },
     {
+      "title": "Attackers Weaponize CVE-2026-39987 to Spread Blockchain-Based Backdoor Via Hugging Face",
+      "link": "https://cybersecuritynews.com/attackers-spread-blockchain-based-backdoor-via-hugging-face/",
+      "description": "A critical vulnerability in the marimo Python notebook platform is now being actively used by attackers to deploy a blockchain-powered backdoor on developer systems. The flaw, tracked as CVE-2026-3...",
+      "pub_date": "Fri, 17 Apr 2026 14:14:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Attackers-Weaponize-CVE-2026-39987-to-Spread-Blockchain-Based-Backdoor-Via-Hugging-Face.webp"
+    },
+    {
+      "title": "Fake Ledger Hardware Wallets on Chinese Marketplaces Steal Crypto Seeds and PINs",
+      "link": "https://cybersecuritynews.com/fake-ledger-hardware-wallets/",
+      "description": "A Brazilian cybersecurity researcher has exposed a sophisticated, large-scale supply chain scam involving counterfeit Ledger Nano S Plus hardware wallets sold through a Chinese marketplace, devices...",
+      "pub_date": "Fri, 17 Apr 2026 14:07:45 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Fake-Ledger-Hardware-Wallets-1.webp"
+    },
+    {
       "title": "Inside an Underground Guide: How Threat Actors Vet Stolen Credit Card Shops",
       "link": "https://www.bleepingcomputer.com/news/security/inside-an-underground-guide-how-threat-actors-vet-stolen-credit-card-shops/",
       "description": "In cybercrime markets, trust isn't assumed, it's verified. Flare reveals how underground guides teach actors to evaluate carding shops based on data quality, reputation, and survivability. [...]",
       "pub_date": "Fri, 17 Apr 2026 10:01:11 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Anthropic Releases Claude Opus 4.7 with Automated Real-Time Cybersecurity Safeguards",
+      "link": "https://cybersecuritynews.com/anthropic-releases-claude-opus-4-7/",
+      "description": "Anthropic has launched Claude Opus 4.7, its latest flagship model, combining improved coding and vision capabilities with automated real-time safeguards to detect and block high-risk cybersecurity ...",
+      "pub_date": "Fri, 17 Apr 2026 13:28:15 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Anthropic-releases-Claude-Opus-4.7-with-automated-Real-time-cybersecurity-safeguards-1.webp"
+    },
+    {
+      "title": "Hackers Use ATHR to Run AI-Powered Vishing, Credential Theft, and Phone-Based Phishing at Scale",
+      "link": "https://cybersecuritynews.com/hackers-use-athr-to-run-ai-powered-vishing-credential-theft/",
+      "description": "A new cybercrime platform called ATHR is making it much easier for attackers to run large-scale phone-based phishing operations, also known as vishing. Instead of relying on malicious links or infe...",
+      "pub_date": "Fri, 17 Apr 2026 13:26:42 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-ATHR-to-Run-AI-Powered-Vishing-Credential-Theft-and-Phone-Based-Phishing-at-Scale.webp"
     },
     {
       "title": "Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched",
@@ -40,6 +104,30 @@
       "pub_date": "Fri, 17 Apr 2026 16:17:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj84jgyS7JCiumwEWR-XKLRuLv_sljuCRx-alsYQHKikYlefpZeL1Wqh3GEALkiLdX886cZVY22LQA_ETSoYLrNdEJ4115IkJtXq5v1EMvQdvU-_xS61E89OwwSWXvE-F6Lw6_DH17w0wHHnBfUgqFxsy5cI1rTzinKIgA-X3q08jMLOOci5fkkUbCeIeId/s1600/google-ads-android.jpg"
+    },
+    {
+      "title": "Payouts King Rises as New Ransomware Threat Linked to Former BlackBasta Affiliates",
+      "link": "https://cybersecuritynews.com/payouts-king-rises-as-new-ransomware-threat/",
+      "description": "A relatively unknown ransomware group called Payouts King has emerged as a serious cybersecurity threat, carrying the torch of the now-defunct BlackBasta operation. Since its appearance in April 20...",
+      "pub_date": "Fri, 17 Apr 2026 10:44:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Payouts-King-Rises-as-New-Ransomware-Threat-Linked-to-Former-BlackBasta-Affiliates.webp"
+    },
+    {
+      "title": "CISA Warns of Apache ActiveMQ Input Validation Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/apache-activemq-vulnerability-exploited-2/",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning regarding a critical security defect in Apache ActiveMQ. On April 16, 2026, the agency officially added the ...",
+      "pub_date": "Fri, 17 Apr 2026 10:36:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CISA-Warns-of-Apache-ActiveMQ-input-validation-Vulnerability-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "Leaked Windows Defender 0-Day Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/windows-defender-0-day-vulnerability-exploited/",
+      "description": "An active in-the-wild exploitation of three recently leaked Windows Defender privilege escalation vulnerabilities, with threat actors deploying proof-of-concept exploit code sourced directly from p...",
+      "pub_date": "Fri, 17 Apr 2026 10:24:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-Defender-0-Day-Vulnerability-Exploited.webp"
     },
     {
       "title": "CISA flags Apache ActiveMQ flaw as actively exploited in attacks",
@@ -168,14 +256,6 @@
       "pub_date": "Thu, 16 Apr 2026 18:35:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzTV_mwPjmV14aBlnHuLOX2yEZR6VGpmadgiPHtNBJV0KVNG_Oj2tnqE1cb3U9RhBXN-Mytte3jKs2n2dQwBhX2dYDETy5es4cGUkbW5bdIaV_hx8i3gWQhdaa7se1_Q8NY9t0q90EjUBNXt56_MxjT4YVV-R8D14jV3LequHu0llA84NnEK3PeU56Q54X/s1600/bull-main.jpg"
-    },
-    {
-      "title": "Cisco says critical Webex Services flaw requires customer action",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-says-critical-webex-services-flaw-requires-customer-action/",
-      "description": "Cisco has released security updates to patch four critical vulnerabilities, including a fixed improper certificate validation flaw in the company's cloud-based Webex Services platform that requires...",
-      "pub_date": "Thu, 16 Apr 2026 08:01:42 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment",
