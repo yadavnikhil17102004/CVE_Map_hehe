@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-04-17T08:22:58Z",
+  "last_updated": "2026-04-17T10:07:25Z",
   "articles": [
+    {
+      "title": "CISA flags Apache ActiveMQ flaw as actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/",
+      "description": "CISA warned that attackers are now exploiting a high-severity Apache ActiveMQ vulnerability, which was patched earlier this month after going undetected for 13 years. [...]",
+      "pub_date": "Fri, 17 Apr 2026 05:30:15 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Microsoft: Some Windows servers enter reboot loops after April patches",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/",
@@ -8,14 +16,6 @@
       "pub_date": "Fri, 17 Apr 2026 03:59:47 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Hackers Target Israeli Desalination Plants With ZionSiphon Sabotage Malware",
-      "link": "https://cybersecuritynews.com/hackers-target-israeli-desalination-plants/",
-      "description": "A newly discovered piece of malware called ZionSiphon has raised serious concerns about the security of critical water infrastructure in Israel. The malware was built with a clear focus: to infiltr...",
-      "pub_date": "Fri, 17 Apr 2026 07:41:14 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Target-Israeli-Desalination-Plants-With-ZionSiphon-Sabotage-Malware.webp"
     },
     {
       "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions",
@@ -50,44 +50,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgePkLgywRZdW-d26RoQHpyVUy3nKssYfrZuFEdZ-fjRzJHTpESHBPlLvUII_vjjeLVTn4G_TB_oH76mfzh5t4PoKyz_ZhXWBOnCAkssRVXvb_lAMkEdhlK4G9YE6IWvxUUDQ9KDeZSzurWEPKDoQAVozBVjwrRYtSjy6pSbenOhhctqh3NxELjQXeF7H7S/s1600/europol.jpg"
     },
     {
-      "title": "Hackers Target Trucking and Freight Firms to Steal Real-World Cargo Shipments",
-      "link": "https://cybersecuritynews.com/hackers-target-trucking-and-freight-firms/",
-      "description": "A new wave of cyber attacks is hitting trucking carriers and freight brokers, and the goal is not just data theft. Criminals are breaking into logistics companies digitally to steal physical cargo ...",
-      "pub_date": "Fri, 17 Apr 2026 05:40:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Target-Trucking-and-Freight-Firms-to-Steal-Real-World-Cargo-Shipments.webp"
-    },
-    {
-      "title": "Microsoft Confirms Windows 11 Updates May Force Users to Enter BitLocker Recovery Key",
-      "link": "https://cybersecuritynews.com/windows-11-update-bitlocker/",
-      "description": "Microsoft has officially acknowledged a known issue affecting Windows 11 users following the release of its April 2026 Patch Tuesday cumulative updates. Devices running certain BitLocker Group Poli...",
-      "pub_date": "Fri, 17 Apr 2026 05:23:25 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-11-Updates-Force-BitLocker-Recovery-Key.webp"
-    },
-    {
-      "title": "Microsoft Defender 0-Day Vulnerability “RedSun” Enables Full SYSTEM Access",
-      "link": "https://cybersecuritynews.com/defender-0-day-redsun/",
-      "description": "A newly disclosed zero-day vulnerability in Microsoft Defender, dubbed \u0026#8220;RedSun,\u0026#8221; allows an unprivileged user to escalate privileges to full SYSTEM-level access on fully patched Windows ...",
-      "pub_date": "Fri, 17 Apr 2026 05:08:02 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Defender-0-Day-RedSun-Exploit.webp"
-    },
-    {
       "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation",
       "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
       "description": "A recently disclosed high-severity security flaw in Apache ActiveMQ\u0026nbsp;Classic has come under active exploitation in the wild, per the U.S. Cybersecurity and Infrastructure Security Agency\u0026nbsp;(...",
       "pub_date": "Fri, 17 Apr 2026 08:52:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKAY7CueGuHevAtV544WN7RTKISrobQLFpjfi4kjdzP1I2BA3rnll69dv1kfvHYSCcU5tQISA0OOgcQVibKrl4o0AvtUyM9crfZuSb1XFH03iLtPglZeHn1e6S8urWxf_4CEH9-tCZdT9BBrvXOFygCxjO_AUmUXnzm4d37Q80fPw3lEn6Hb0_LWlP9XM5/s1600/apachemq.jpg"
-    },
-    {
-      "title": "EU’s New Age Verification App Can Be Hacked Within 2 Minutes, Researchers Claim",
-      "link": "https://cybersecuritynews.com/eus-age-verification-app/",
-      "description": "The European Commission\u0026#8217;s newly launched Digital Age Verification App, unveiled on April 14, 2026, to protect minors from harmful online content, has already been compromised, with UK-based s...",
-      "pub_date": "Fri, 17 Apr 2026 03:04:41 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/EUs-Age-Verification-App.webp"
     },
     {
       "title": "Operation PowerOFF identifies 75k DDoS users, takes down 53 domains",
@@ -120,14 +88,6 @@
       "pub_date": "Thu, 16 Apr 2026 23:22:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaSAtFbXFX7aYFcwPPrHEMwEZ4VJp2mJQuYo3B3Q2Zrot1co_ilMUWffYOUUFHFRO6zwHHjlMCMOJcbnc_iF69KLU_1LpMhcfFk5YV8A4cdIchhqR1NQGEvyzpHGidnbvqwq2Tg_Y77VwMCpeSSluD8sPRcusqiraqLMCvUCA-QvUv5nCuh2Ns1U2jxNR1/s1600/powmix.jpg"
-    },
-    {
-      "title": "SpankRAT Exploits Windows Explorer Processes for Stealth and Delayed Detection",
-      "link": "https://cybersecuritynews.com/spankrat-exploits-windows-process/",
-      "description": "A newly identified two-component Remote Access Trojan (RAT) toolkit built in Rust, dubbed SpankRAT, is being used by threat actors to abuse legitimate Windows processes, bypass reputation-based sec...",
-      "pub_date": "Thu, 16 Apr 2026 17:31:29 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/SpankRAT-Exploits-Windows-Process.webp"
     },
     {
       "title": "Hackers exploit Marimo flaw to deploy NKAbuse malware from Hugging Face",
@@ -170,14 +130,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzTV_mwPjmV14aBlnHuLOX2yEZR6VGpmadgiPHtNBJV0KVNG_Oj2tnqE1cb3U9RhBXN-Mytte3jKs2n2dQwBhX2dYDETy5es4cGUkbW5bdIaV_hx8i3gWQhdaa7se1_Q8NY9t0q90EjUBNXt56_MxjT4YVV-R8D14jV3LequHu0llA84NnEK3PeU56Q54X/s1600/bull-main.jpg"
     },
     {
-      "title": "Microsoft 365 Web Services Hit by Google Chrome 147 Compatibility Issue",
-      "link": "https://cybersecuritynews.com/microsoft-365-chrome-147-issue/",
-      "description": "Microsoft is actively investigating a widespread authentication issue affecting users attempting to access Microsoft 365 web-based services through Google Chrome version 147. The problem, first rep...",
-      "pub_date": "Thu, 16 Apr 2026 12:54:28 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-365-Chrome-147-Issue.webp"
-    },
-    {
       "title": "Cisco says critical Webex Services flaw requires customer action",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-says-critical-webex-services-flaw-requires-customer-action/",
       "description": "Cisco has released security updates to patch four critical vulnerabilities, including a fixed improper certificate validation flaw in the company's cloud-based Webex Services platform that requires...",
@@ -192,30 +144,6 @@
       "pub_date": "Thu, 16 Apr 2026 17:25:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6vJpO9kksCQDpSksNkqDFNUCbXD70dMGYqI6P9S_XPMY5d8BR8PVdrsVQP1ZJO_-nzL6eQShM3Cap9heQ5kAglsPjfxwIcXPSsf_cfgUVnGQ2XzIWVOuo7JhxMjnHYDN6r9KlQ6LqZJisRZkjatnWChuzUkSlXRa1hFseUPq28PZ5gjGR7L2WzTFdZ3fM/s1600/ghost.jpg"
-    },
-    {
-      "title": "Two U.S. Nationals Sentenced for Running Laptop Farm for DPRK Remote Workers",
-      "link": "https://cybersecuritynews.com/two-u-s-nationals-sentenced/",
-      "description": "Two American nationals have been sentenced to federal prison for operating a sophisticated \u0026#8220;laptop farm\u0026#8221; scheme. The operation successfully infiltrated over 100 U.S. companies, generati...",
-      "pub_date": "Thu, 16 Apr 2026 11:49:24 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Two-U.S.-Nationals-Sentenced-for-Running-Laptop-Farms-in-5-Million-DPRK-Remote-Worker-Scheme.webp"
-    },
-    {
-      "title": "New UAC-0247 Campaign Steals Browser and WhatsApp Data From Hospitals and Governments",
-      "link": "https://cybersecuritynews.com/new-uac-0247-campaign-steals-browser-and-whatsapp-data/",
-      "description": "A threat cluster tracked as UAC-0247 has been running an active campaign since early 2026, targeting local governments and municipal healthcare institutions across Ukraine, including clinical hospi...",
-      "pub_date": "Thu, 16 Apr 2026 11:32:40 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-UAC-0247-Campaign-Steals-Browser-and-WhatsApp-Data-From-Hospitals-and-Governments.webp"
-    },
-    {
-      "title": "Critical Cisco ISE Vulnerabilities Let Remote Attackers Execute Malicious Code",
-      "link": "https://cybersecuritynews.com/cisco-ise-vulnerabilities/",
-      "description": "Cisco has issued an urgent security advisory warning of multiple vulnerabilities in its Identity Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC). According to the official Cisco ...",
-      "pub_date": "Thu, 16 Apr 2026 11:32:26 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Cisco-ISE-Vulnerabilities-Let-Remote-Attackers-Execute-Malicious-Code.webp"
     },
     {
       "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
@@ -272,14 +200,6 @@
       "pub_date": "Thu, 16 Apr 2026 11:50:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH3uHu3ez1qUhePM8e1rCVaEUwBzhu09tblZcAl6jlOEYHN1Zq2-rm-dyEOArGNUm63UjM-_Qs8XwFKUa46UxOwufTn4BmRlfv1xiwlxkk3XboMQu8d4fHpy5Vb5y_0zcpXw5Alg-V_Ud85gINtfz6pfOZWWcco9Dy0jkeRCPCF-ssY2zJjRge1d3PJf_c/s1600/uk.jpg"
-    },
-    {
-      "title": "Critical Nginx UI auth bypass flaw now actively exploited in the wild",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/",
-      "description": "A critical vulnerability in Nginx UI with Model Context Protocol (MCP) support is now being exploited in the wild for full server takeover without authentication. [...]",
-      "pub_date": "Wed, 15 Apr 2026 18:35:09 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails",
