@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-17T10:07:25Z",
+  "last_updated": "2026-04-17T11:43:45Z",
   "articles": [
+    {
+      "title": "Payouts King Rises as New Ransomware Threat Linked to Former BlackBasta Affiliates",
+      "link": "https://cybersecuritynews.com/payouts-king-rises-as-new-ransomware-threat/",
+      "description": "A relatively unknown ransomware group called Payouts King has emerged as a serious cybersecurity threat, carrying the torch of the now-defunct BlackBasta operation. Since its appearance in April 20...",
+      "pub_date": "Fri, 17 Apr 2026 10:44:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Payouts-King-Rises-as-New-Ransomware-Threat-Linked-to-Former-BlackBasta-Affiliates.webp"
+    },
+    {
+      "title": "CISA Warns of Apache ActiveMQ Input Validation Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/apache-activemq-vulnerability-exploited-2/",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning regarding a critical security defect in Apache ActiveMQ. On April 16, 2026, the agency officially added the ...",
+      "pub_date": "Fri, 17 Apr 2026 10:36:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CISA-Warns-of-Apache-ActiveMQ-input-validation-Vulnerability-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "Leaked Windows Defender 0-Day Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/windows-defender-0-day-vulnerability-exploited/",
+      "description": "An active in-the-wild exploitation of three recently leaked Windows Defender privilege escalation vulnerabilities, with threat actors deploying proof-of-concept exploit code sourced directly from p...",
+      "pub_date": "Fri, 17 Apr 2026 10:24:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-Defender-0-Day-Vulnerability-Exploited.webp"
+    },
     {
       "title": "CISA flags Apache ActiveMQ flaw as actively exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/",
@@ -10,12 +34,44 @@
       "image_url": ""
     },
     {
+      "title": "Microsoft Confirms Windows Servers Enter Reboot Loops Following April Patches",
+      "link": "https://cybersecuritynews.com/windows-servers-enter-reboot-loops/",
+      "description": "Microsoft has confirmed a critical known issue affecting Windows Server 2025 domain controllers following the deployment of the April 2026 Patch Tuesday cumulative update, KB5082063, where affected...",
+      "pub_date": "Fri, 17 Apr 2026 08:51:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-Servers-Enter-Reboot-Loops.webp"
+    },
+    {
+      "title": "Windows Snipping Tool Vulnerability Allows Attacker to Perform Spoofing Over a Network",
+      "link": "https://cybersecuritynews.com/windows-snipping-tool-vulnerability/",
+      "description": "Microsoft has addressed a moderate-severity security flaw in the Windows Snipping Tool that could allow malicious actors to steal user credentials. Tracked as CVE-2026-33829, this spoofing vulnerab...",
+      "pub_date": "Fri, 17 Apr 2026 08:41:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-Snipping-Tool-Allows-attacker-to-perform-spoofing-over-a-network-1.webp"
+    },
+    {
+      "title": "One-Click RCE in Azure Windows Admin Center Allow Attacker to Execute Arbitrary Commands",
+      "link": "https://cybersecuritynews.com/azure-windows-admin-center-rce/",
+      "description": "Windows Admin Center is a locally deployed, browser-based management tool used by IT administrators to manage Windows servers, clients, and clusters from a centralized graphical interface. This new...",
+      "pub_date": "Fri, 17 Apr 2026 08:30:37 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/One-Click-RCE-in-Azure-Windows-Admin-Center-Allow-Attacker-to-execute-arbitrary-commands-1-1.webp"
+    },
+    {
       "title": "Microsoft: Some Windows servers enter reboot loops after April patches",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/",
       "description": "Microsoft warns that some Windows domain controllers are entering restart loops after installing the April 2026 security updates. [...]",
       "pub_date": "Fri, 17 Apr 2026 03:59:47 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Hackers Target Israeli Desalination Plants With ZionSiphon Sabotage Malware",
+      "link": "https://cybersecuritynews.com/hackers-target-israeli-desalination-plants/",
+      "description": "A newly discovered piece of malware called ZionSiphon has raised serious concerns about the security of critical water infrastructure in Israel. The malware was built with a clear focus: to infiltr...",
+      "pub_date": "Fri, 17 Apr 2026 07:41:14 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Target-Israeli-Desalination-Plants-With-ZionSiphon-Sabotage-Malware.webp"
     },
     {
       "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions",
@@ -48,6 +104,30 @@
       "pub_date": "Fri, 17 Apr 2026 11:16:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgePkLgywRZdW-d26RoQHpyVUy3nKssYfrZuFEdZ-fjRzJHTpESHBPlLvUII_vjjeLVTn4G_TB_oH76mfzh5t4PoKyz_ZhXWBOnCAkssRVXvb_lAMkEdhlK4G9YE6IWvxUUDQ9KDeZSzurWEPKDoQAVozBVjwrRYtSjy6pSbenOhhctqh3NxELjQXeF7H7S/s1600/europol.jpg"
+    },
+    {
+      "title": "Hackers Target Trucking and Freight Firms to Steal Real-World Cargo Shipments",
+      "link": "https://cybersecuritynews.com/hackers-target-trucking-and-freight-firms/",
+      "description": "A new wave of cyber attacks is hitting trucking carriers and freight brokers, and the goal is not just data theft. Criminals are breaking into logistics companies digitally to steal physical cargo ...",
+      "pub_date": "Fri, 17 Apr 2026 05:40:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Target-Trucking-and-Freight-Firms-to-Steal-Real-World-Cargo-Shipments.webp"
+    },
+    {
+      "title": "Microsoft Confirms Windows 11 Updates May Force Users to Enter BitLocker Recovery Key",
+      "link": "https://cybersecuritynews.com/windows-11-update-bitlocker/",
+      "description": "Microsoft has officially acknowledged a known issue affecting Windows 11 users following the release of its April 2026 Patch Tuesday cumulative updates. Devices running certain BitLocker Group Poli...",
+      "pub_date": "Fri, 17 Apr 2026 05:23:25 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-11-Updates-Force-BitLocker-Recovery-Key.webp"
+    },
+    {
+      "title": "Microsoft Defender 0-Day Vulnerability “RedSun” Enables Full SYSTEM Access",
+      "link": "https://cybersecuritynews.com/defender-0-day-redsun/",
+      "description": "A newly disclosed zero-day vulnerability in Microsoft Defender, dubbed \u0026#8220;RedSun,\u0026#8221; allows an unprivileged user to escalate privileges to full SYSTEM-level access on fully patched Windows ...",
+      "pub_date": "Fri, 17 Apr 2026 05:08:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Defender-0-Day-RedSun-Exploit.webp"
     },
     {
       "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation",
@@ -160,14 +240,6 @@
       "pub_date": "Thu, 16 Apr 2026 06:35:09 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Hidden Passenger? How Taboola Routes Logged-In Banking Sessions to Temu",
-      "link": "https://thehackernews.com/2026/04/hidden-passenger-how-taboola-routes.html",
-      "description": "A\u0026nbsp;bank approved a Taboola pixel. That\u0026nbsp;pixel quietly redirected logged-in users to a Temu tracking endpoint. This\u0026nbsp;occurred without the bank’s knowledge, without user consent, and wi...",
-      "pub_date": "Thu, 16 Apr 2026 16:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaSzIRGweO7UJkqOLQTUDsqPy53XtIWCzyLklGJLfFxhneZiFpxg8zJRXukUqEsT4TbdFwUZbvTfwuexfGuiYjcDQ-iZDjqwZ2lDlCIhgopZWevBpdi4rr6GxgXpU6MmFnzdMpq_WGdA9PRfaNw_7eDAOugAV1tccfmREgbXveM1N15G2_L9lFxCq1Pv0/s1600/reflectiz.jpg"
     },
     {
       "title": "Obsidian Plugin Abuse Delivers PHANTOMPULSE RAT in Targeted Finance, Crypto Attacks",
@@ -360,6 +432,14 @@
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
+    },
+    {
+      "title": "OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams",
+      "link": "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html",
+      "description": "OpenAI on Tuesday\u0026nbsp;unveiled GPT-5.4-Cyber, a variant of its latest flagship\u0026nbsp;model, GPT‑5.4, that's specifically optimized for defensive cybersecurity use cases, days after rival Anthropi...",
+      "pub_date": "Wed, 15 Apr 2026 10:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrjpxBjlnOwelWhtbcyO3kBGpQwkfPkbL7RytRsDo26AL5rMz4inD_rjZLSfjy5R6skvnpiOA5M1LoDaAW1bCz4Isy4RMffGJVzgm4kYy5N-V1ijfLhVHefPcneHVGZyXZRjbLZZBHQRe3_QKhKfb5hss3a5hFveU8v2WkKHq-2wUmY_ocysIGGMP8GxdV/s1600/gpt.jpg"
     },
     {
       "title": "Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game",
