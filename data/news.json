@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-04-17T06:53:46Z",
+  "last_updated": "2026-04-17T08:22:58Z",
   "articles": [
+    {
+      "title": "Microsoft: Some Windows servers enter reboot loops after April patches",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/",
+      "description": "Microsoft warns that some Windows domain controllers are entering restart loops after installing the April 2026 security updates. [...]",
+      "pub_date": "Fri, 17 Apr 2026 03:59:47 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Target Israeli Desalination Plants With ZionSiphon Sabotage Malware",
+      "link": "https://cybersecuritynews.com/hackers-target-israeli-desalination-plants/",
+      "description": "A newly discovered piece of malware called ZionSiphon has raised serious concerns about the security of critical water infrastructure in Israel. The malware was built with a clear focus: to infiltr...",
+      "pub_date": "Fri, 17 Apr 2026 07:41:14 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Target-Israeli-Desalination-Plants-With-ZionSiphon-Sabotage-Malware.webp"
+    },
+    {
+      "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions",
+      "link": "https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html",
+      "description": "The National Institute of Standards and Technology (NIST) has announced changes to the way it handles cybersecurity vulnerabilities and exposures (CVEs) listed in its National Vulnerability Databas...",
+      "pub_date": "Fri, 17 Apr 2026 12:44:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrjR1nq2z66LZ-KZoSSgEdNs30l3Wv4kqz4R4acFd3CW2tqG0EDILlATrje1-tvZhdjnU9rSRO4cQNmlQGelsfBGGiMl_m9kxotVRlBDFyMISCJIFUPN78Aam2GAYPL0Nljz4aU5XrrWz2QuxBz-cZvY7vr2zSQJNdgrz3IWLldTPG_n_9tJx22A3TBQzZ/s1600/nist-cve.jpg"
+    },
+    {
+      "title": "Man gets 30 months for selling thousands of hacked DraftKings accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/man-gets-30-months-for-selling-thousands-of-hacked-draftkings-accounts/",
+      "description": "23-year-old Kamerin Stokes of Memphis, Tennessee, was sentenced to 30 months in prison for selling access to tens of thousands of hacked DraftKings accounts. [...]",
+      "pub_date": "Fri, 17 Apr 2026 03:10:32 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Recently leaked Windows zero-days now exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/recently-leaked-windows-zero-days-now-exploited-in-attacks/",
@@ -194,14 +226,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihdjDVphpsoBIBjhimILabg28ZsD4p-xNzJol1uD3SSIRBvkp-juko45B2sjKpQmJi-h2tHZf2yWAvuCOZRs3m3q4w5sj7x-MyXWosuKglLblipF_94T8f8OQ8_peVgqZTrnjxF8dPRLfv63K8zrbQYqh898b31p_2C37UO0DNAuR8cESZeo4XTFlsDs0C/s1600/cisco-flaws.jpg"
     },
     {
-      "title": "McGraw Hill Confirms Data Breach Exposing 13.5 Million Users’ Personal Data",
-      "link": "https://cybersecuritynews.com/mcgraw-hill-confirms-data-breach/",
-      "description": "Education publishing giant McGraw-Hill has confirmed a data breach following an extortion attempt, with more than 100GB of stolen data now publicly distributed online, exposing the personal informa...",
-      "pub_date": "Thu, 16 Apr 2026 11:21:55 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/McGraw-Hill-Confirms-Data-Breach.webp"
-    },
-    {
       "title": "Data breach at edtech giant McGraw Hill affects 13.5 million accounts",
       "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-edtech-giant-mcgraw-hill-affects-135-million-accounts/",
       "description": "The ShinyHunters extortion group has leaked data from 13.5 million McGraw Hill user accounts, stolen after breaching the company's Salesforce environment earlier this month. [...]",
@@ -254,22 +278,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/",
       "description": "A critical vulnerability in Nginx UI with Model Context Protocol (MCP) support is now being exploited in the wild for full server takeover without authentication. [...]",
       "pub_date": "Wed, 15 Apr 2026 18:35:09 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "New AgingFly malware used in attacks on Ukraine govt, hospitals",
-      "link": "https://www.bleepingcomputer.com/news/security/new-agingfly-malware-used-in-attacks-on-ukraine-govt-hospitals/",
-      "description": "A new malware family named 'AgingFly' has been identified in attacks against local governments and hospitals that steal authentication data from Chromium-based browsers and WhatsApp messenger. [...]",
-      "pub_date": "Wed, 15 Apr 2026 17:57:17 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "WordPress plugin suite hacked to push malware to thousands of sites",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-plugin-suite-hacked-to-push-malware-to-thousands-of-sites/",
-      "description": "More than 30 WordPress plugins in the EssentialPlugin package have been compromised with malicious code that allows unauthorized access to websites running them. [...]",
-      "pub_date": "Wed, 15 Apr 2026 16:33:50 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -432,14 +440,6 @@
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
-    },
-    {
-      "title": "OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams",
-      "link": "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html",
-      "description": "OpenAI on Tuesday\u0026nbsp;unveiled GPT-5.4-Cyber, a variant of its latest flagship\u0026nbsp;model, GPT‑5.4, that's specifically optimized for defensive cybersecurity use cases, days after rival Anthropi...",
-      "pub_date": "Wed, 15 Apr 2026 10:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrjpxBjlnOwelWhtbcyO3kBGpQwkfPkbL7RytRsDo26AL5rMz4inD_rjZLSfjy5R6skvnpiOA5M1LoDaAW1bCz4Isy4RMffGJVzgm4kYy5N-V1ijfLhVHefPcneHVGZyXZRjbLZZBHQRe3_QKhKfb5hss3a5hFveU8v2WkKHq-2wUmY_ocysIGGMP8GxdV/s1600/gpt.jpg"
     },
     {
       "title": "Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game",
