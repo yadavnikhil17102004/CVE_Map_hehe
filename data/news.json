@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-20T09:51:23Z",
+  "last_updated": "2026-04-20T11:14:26Z",
   "articles": [
+    {
+      "title": "Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain",
+      "link": "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
+      "description": "Cybersecurity researchers have discovered a critical \"by design\" weakness in the Model Context Protocol's (MCP) architecture that could pave the way for remote code execution and have a cascading e...",
+      "pub_date": "Mon, 20 Apr 2026 16:12:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbUnokdbuoiv9j36ekgZbT7VQVSUJBbB4xzoXJKD8iTTO76tSRyhXGdOk2aZKX-RU_WeGyRzHfAf0zwva_cSY7JL5a7Fhmrtzjd-p-kg6JK75nE-nQiSESaDAHlyTN8be1iUFxp9xCq94-1JwZ16pwYZJkKxIFwqa8vNmfxZl8OCXRWnT0GKWOpYVPgbMb/s1600/mcp.jpg"
+    },
+    {
+      "title": "New RDP Alert After April 2026 Security Update Warns of Unknown Connections",
+      "link": "https://cybersecuritynews.com/rdp-alert/",
+      "description": "Microsoft has rolled out a significant behavioral change to the Windows Remote Desktop Connection application (MSTSC) as part of its April 2026 Patch Tuesday security update, introducing new warnin...",
+      "pub_date": "Mon, 20 Apr 2026 10:14:35 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/RDP-Alert.webp"
+    },
+    {
+      "title": "Hackers Use FUD Crypt to Generate Microsoft-Signed Malware With Built-In Persistence and C2",
+      "link": "https://cybersecuritynews.com/hackers-use-fud-crypt/",
+      "description": "A newly uncovered malware-as-a-service platform called FUD Crypt is giving cybercriminals an easy way to build sophisticated Windows malware without writing a single line of code. The platform, ope...",
+      "pub_date": "Mon, 20 Apr 2026 10:08:14 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-FUD-Crypt-to-Generate-Microsoft-Signed-Malware-With-Built-In-Persistence-and-C2.webp"
+    },
     {
       "title": "Microsoft pulls service update causing Teams launch failures",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-client-launch-failures-caused-by-service-update/",
@@ -12,7 +36,7 @@
     {
       "title": "Public Notion Pages Leaks Profile Photos and Email address of Editors",
       "link": "https://cybersecuritynews.com/notion-pages-exposes-editors-data/",
-      "description": "Notion, a widely used productivity and collaboration platform, is facing intense scrutiny from the cybersecurity community. Security researchers have revealed that public Notion pages silently expo...",
+      "description": "Notion, a popular productivity and collaboration platform, is under significant scrutiny from the cybersecurity community. Security researchers have revealed that public Notion pages silently expos...",
       "pub_date": "Mon, 20 Apr 2026 09:26:03 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Public-Notion-Pages-Exposes-Leaks-Profile-Photos-and-Email-address-of-Editors.webp"
@@ -144,22 +168,6 @@
       "pub_date": "Sat, 18 Apr 2026 09:45:54 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Apple Works on Fix for iPhone Passcode Bug Linked to Missing Czech Keyboard Character",
-      "link": "https://cybersecuritynews.com/apple-works-on-fix-for-iphone-passcode-bug/",
-      "description": "Apple is reportedly developing a software fix for a frustrating iOS 26 bug that has left some users entirely locked out of their iPhones for months. According to a recent report by The Register, Cu...",
-      "pub_date": "Sat, 18 Apr 2026 12:50:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Apple-Works-on-Fix-for-iPhone-Passcode-Bug-Linked-to-Missing-Czech-Keyboard-Character-1-1.webp"
-    },
-    {
-      "title": "Researcher Uses Claude Opus to Build a Working Chrome Exploit Chain",
-      "link": "https://cybersecuritynews.com/claude-opus-to-build-a-working-chrome-exploit-chain/",
-      "description": "Amidst the heated debate surrounding Anthropic’s recent announcement of its Mythos and Project Glasswing models, a security researcher has demonstrated the tangible cybersecurity implications of ...",
-      "pub_date": "Sat, 18 Apr 2026 12:16:39 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Researcher-Uses-Claude-Opus-to-Build-a-Working-Chrome-Exploit-Chain-1.webp"
     },
     {
       "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
@@ -312,14 +320,6 @@
       "pub_date": "Thu, 16 Apr 2026 15:50:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNoBvtFhZbLfNE2AsVSzuOt5V9YMzAumIA2M9c7QVbp_i-xMwDIgVtDgCIi2bCYgH_PviS8P-Ap1k-8aVmHABqLzNGE9g014MM1gnfJEJPKbKczoCjPoI6PxZ77bNlz2dSlv8XqoVFyZZqQ6SWBue3rpRegb_k62HJkfMl39GHTBIIzZOGrv_iKbxOYV8E/s1600/el.jpg"
-    },
-    {
-      "title": "UAC-0247 Targets Ukrainian Clinics and Government in Data-Theft Malware Campaign",
-      "link": "https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html",
-      "description": "The Computer Emergencies Response Team of Ukraine (CERT-UA)\u0026nbsp;has disclosed details of a new\u0026nbsp;campaign that has\u0026nbsp;targeted governments and municipal healthcare institutions, mainly clinic...",
-      "pub_date": "Thu, 16 Apr 2026 11:50:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH3uHu3ez1qUhePM8e1rCVaEUwBzhu09tblZcAl6jlOEYHN1Zq2-rm-dyEOArGNUm63UjM-_Qs8XwFKUa46UxOwufTn4BmRlfv1xiwlxkk3XboMQu8d4fHpy5Vb5y_0zcpXw5Alg-V_Ud85gINtfz6pfOZWWcco9Dy0jkeRCPCF-ssY2zJjRge1d3PJf_c/s1600/uk.jpg"
     },
     {
       "title": "ZDI-26-292: QNAP TS-453E QVRPro excpostgres  Exposed Dangerous Method Remote Code Execution Vulnerability",
