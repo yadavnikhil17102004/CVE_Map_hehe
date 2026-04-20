@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-20T01:57:25Z",
+  "last_updated": "2026-04-20T04:56:38Z",
   "articles": [
+    {
+      "title": "Critical Vulnerability In Flowise Allows Remote Command Execution Via MCP Adapters",
+      "link": "https://cybersecuritynews.com/flowise-vulnerability/",
+      "description": "A critical vulnerability in Flowise and multiple AI frameworks has been discovered by OX Security, exposing millions of users to remote code execution (RCE). The flaw stems from the Model Context P...",
+      "pub_date": "Mon, 20 Apr 2026 04:15:57 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Vulnerability-In-Flowise-Allows-Remote-Command-Execution-Via-MCP-Adapters.webp"
+    },
+    {
+      "title": "Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials",
+      "link": "https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html",
+      "description": "Web infrastructure provider Vercel has disclosed a security breach that allows bad actors to gain unauthorized access to \"certain\" internal Vercel systems. The incident stemmed from the compromise ...",
+      "pub_date": "Mon, 20 Apr 2026 09:05:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcLAcekric_be3bGt2lBu4NxiCcd3FZap2VzD0r9Z8zGegVjwixsexsGVGVmwvLwpaercKHyq9BFA7WV2a_DApLP7qpjg17hE8bu63FHsBoW1wFV0BJmATkuKIM1YU2bf8v9gRPM_tyw8RNINMSXiwzM5jbxjamO8HYm-VsVxgB0lbyRKr4kNuzzRY-JXq/s1600/breach.jpg"
+    },
+    {
+      "title": "Vercel Confirms Data Breach — Hackers Claim Access to Internal Systems",
+      "link": "https://cybersecuritynews.com/vercel-data-breach/",
+      "description": "Vercel has disclosed a significant security incident after threat actors gained unauthorized access to internal systems, with a hacker group reportedly attempting to sell stolen data for $2 million...",
+      "pub_date": "Mon, 20 Apr 2026 02:29:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Vercel-Data-Breach.webp"
+    },
     {
       "title": "Vercel confirms breach as hackers claim to be selling stolen data",
       "link": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
@@ -24,6 +48,22 @@
       "pub_date": "Sun, 19 Apr 2026 10:17:43 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Microsoft Teams Right-Click Paste Broken Following Edge Browser Update",
+      "link": "https://cybersecuritynews.com/teams-right-click-paste-broken/",
+      "description": "A confirmed bug in Microsoft Teams desktop client version 26072.519.4556.7438 is disabling the right-click paste option for users on Windows and macOS, with Microsoft attributing the root cause to ...",
+      "pub_date": "Sun, 19 Apr 2026 06:48:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Teams-Right-Click-Paste-Broken.webp"
+    },
+    {
+      "title": "OpenAI Expands Cyber Defense Program With GPT-5.4-Cyber Access for Trusted Organizations",
+      "link": "https://cybersecuritynews.com/gpt-5-4-cyber-defense-program/",
+      "description": "OpenAI has officially launched the expanded phase of its Trusted Access for Cyber program. Granting select organizations access to its specialized GPT-5.4-Cyber model to strengthen digital defe...",
+      "pub_date": "Sun, 19 Apr 2026 06:35:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/OpenAI-Expands-Cyber-Defense-Program-With-GPT-5.4-Cyber-Access-for-Trusted-Organizations.webp"
     },
     {
       "title": "Critical flaw in Protobuf library enables JavaScript code execution",
@@ -50,6 +90,38 @@
       "image_url": ""
     },
     {
+      "title": "Apple Works on Fix for iPhone Passcode Bug Linked to Missing Czech Keyboard Character",
+      "link": "https://cybersecuritynews.com/apple-works-on-fix-for-iphone-passcode-bug/",
+      "description": "Apple is reportedly developing a software fix for a frustrating iOS 26 bug that has left some users entirely locked out of their iPhones for months. According to a recent report by The Register, Cu...",
+      "pub_date": "Sat, 18 Apr 2026 12:50:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Apple-Works-on-Fix-for-iPhone-Passcode-Bug-Linked-to-Missing-Czech-Keyboard-Character-1-1.webp"
+    },
+    {
+      "title": "Researcher Uses Claude Opus to Build a Working Chrome Exploit Chain",
+      "link": "https://cybersecuritynews.com/claude-opus-to-build-a-working-chrome-exploit-chain/",
+      "description": "Amidst the heated debate surrounding Anthropic’s recent announcement of its Mythos and Project Glasswing models, a security researcher has demonstrated the tangible cybersecurity implications of ...",
+      "pub_date": "Sat, 18 Apr 2026 12:16:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Researcher-Uses-Claude-Opus-to-Build-a-Working-Chrome-Exploit-Chain-1.webp"
+    },
+    {
+      "title": "Fiverr Allegedly Leaks User Information to Google Indexing, Researchers Say",
+      "link": "https://cybersecuritynews.com/fiverr-allegedly-leaks-user-information-to-google/",
+      "description": "Freelance service platform Fiverr is facing a significant privacy incident after researchers discovered that sensitive customer files are publicly accessible and indexed by Google search. According...",
+      "pub_date": "Sat, 18 Apr 2026 09:02:26 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Fiverr-Allegedly-Leaks-User-Information-to-Google-Indexing-Researchers-Say-1.webp"
+    },
+    {
+      "title": "Nexcorium-Associated Mirai Variant Uses TBK DVR Exploit to Scale Botnet Operations",
+      "link": "https://cybersecuritynews.com/nexcorium-associated-mirai-variant-uses-tbk-dvr-exploit/",
+      "description": "A new iteration of the notorious Mirai botnet, dubbed Nexcorium, has emerged in the wild, aggressively targeting internet-connected video recording devices. According to recent threat research publ...",
+      "pub_date": "Sat, 18 Apr 2026 08:42:55 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Nexcorium-Mirai-Variant-Weaponizes-TBK-DVR-Vulnerability-in-Fresh-IoT-Botnet-Push-1-2-1.webp"
+    },
+    {
       "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
       "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
       "description": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not\u0026nbsp;phishing. Not\u0026nbsp;weak passwords. Unmanaged non-human identities that nobody was\u0026nbsp;watch...",
@@ -72,6 +144,22 @@
       "pub_date": "Sat, 18 Apr 2026 11:31:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6cxZZMfiWctk3Me9QO6UlzVRFab0SPGMTzThjpcPHCXm49bQ0rRvtG2W6gicJw4Mi1QUuv-yTDMK5GKJju3QicyjYJwdbA86Ok8w2oU5Vg28l4s0HAVv7_c03dStaM7OPd4Yq0khmm9MeQVUYnCYThMx4JvkCnZZ5PEtCXAA90vKfsAumsMAIw085JIsz/s1600/botnet-ddos.jpg"
+    },
+    {
+      "title": "Nearly 6 Million Internet-Facing FTP Servers Still Exposed in 2026, Censys Warns",
+      "link": "https://cybersecuritynews.com/ftp-servers-exposed/",
+      "description": "According to a recent April 2026 report by security researcher Himaja Motheram at Censys, just under 6 million internet-facing hosts are still running the File Transfer Protocol (FTP). While this m...",
+      "pub_date": "Sat, 18 Apr 2026 02:43:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Nearly-6-Million-Internet-Facing-FTP-Servers-Still-Exposed-in-2026-Censys-Warns.webp"
+    },
+    {
+      "title": "PoC Exploit Released for FortiSandbox Vulnerability that Allows Attacker to Execute Commands",
+      "link": "https://cybersecuritynews.com/poc-exploit-fortisandbox-vulnerability/",
+      "description": "A proof-of-concept (PoC) exploit has been publicly released for a critical vulnerability in Fortinet\u0026#8217;s FortiSandbox product, tracked as\u0026#160;CVE-2026-39808. The flaw allows an unauthenticated...",
+      "pub_date": "Sat, 18 Apr 2026 02:38:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/PoC-Exploit-Released-for-FortiSandbox-Vulnerability-that-Allows-attacker-to-execute-commands.webp"
     },
     {
       "title": "Payouts King ransomware uses QEMU VMs to bypass endpoint security",
@@ -232,14 +320,6 @@
       "pub_date": "Wed, 15 Apr 2026 22:39:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSXMJaHSQp1aJ8l7rKKtfILQtDMLWTUVOPwWqizQ-nRzb5JbG1BJOFKTs0NYGVQ0fBFTzLkjaY0bntn7UDnlyy502mDQJzvqFhTJwmYlctN551StWLJf8hnET4i8ZrwWvtzhswLW_2GoSI1zlMVRnI89aVrFU1lbes9p7fpYFjT9V7OxAmbmMW3UR-hv9_/s1600/webhook.jpg"
-    },
-    {
-      "title": "Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover",
-      "link": "https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html",
-      "description": "A recently disclosed critical security flaw impacting nginx-ui, an open-source, web-based Nginx management tool, has come under active exploitation in the\u0026nbsp;wild. The vulnerability in question i...",
-      "pub_date": "Wed, 15 Apr 2026 18:26:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-efZdYJpyjLdBQDLfJxWi6aiElSTIIzesGLR7SNMM0laIvBdFHioyAfxmOQkhV-bBV5SqCxRRhocp4-Q3EezvtE5Xp2aeNcFrP6d89jhOY2QiCVhhyMCMCVy39cE5YcTvg_7_tvXAEwI4N1g_eRKNzWwYtLH-k80d5he55NN2UK0sNNkbb0l35ix6MOBR/s1600/nui.png"
     },
     {
       "title": "ZDI-26-292: QNAP TS-453E QVRPro excpostgres  Exposed Dangerous Method Remote Code Execution Vulnerability",
