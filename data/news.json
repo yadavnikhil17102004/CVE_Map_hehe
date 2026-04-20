@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-20T17:55:48Z",
+  "last_updated": "2026-04-20T18:56:19Z",
   "articles": [
+    {
+      "title": "Seiko USA website defaced as hacker claims customer data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/",
+      "description": "The Seiko USA website was defaced over the weekend, displaying a message from attackers claiming they stole its Shopify customer database and threatening to leak it unless a ransom is paid. [...]",
+      "pub_date": "Mon, 20 Apr 2026 14:22:31 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
+      "link": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
+      "description": "A critical security vulnerability has been disclosed in SGLang that, if successfully exploited, could result in remote code execution on susceptible systems. The vulnerability, tracked as CVE-2026-...",
+      "pub_date": "Mon, 20 Apr 2026 22:44:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHmSpfy0MbO4mTB5B4TYrJzfBNO0HD2Z194J1U3YlwUQpQsTGompmNqR7_Rx4nbgPXHs3Mel7tBcZDXOVeYDXev1luKnr5VUzbmPornwB-bcciiA_Zvmam5q9lwPK5b9K-my0_a1VBjA-2Pjmb31yWEiyBAl_ipNM5gvJM19yxcT-Q468-8VL8KrfCYHen/s1600/sgll.jpg"
+    },
     {
       "title": "Researchers Say Iranian MOIS Uses Multiple Hacker Personas for One Coordinated Cyber Campaign",
       "link": "https://cybersecuritynews.com/iranian-mois-uses-multiple-hacker-personas/",
@@ -258,14 +274,6 @@
       "image_url": ""
     },
     {
-      "title": "Inside an Underground Guide: How Threat Actors Vet Stolen Credit Card Shops",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-an-underground-guide-how-threat-actors-vet-stolen-credit-card-shops/",
-      "description": "In cybercrime markets, trust isn't assumed, it's verified. Flare reveals how underground guides teach actors to evaluate carding shops based on data quality, reputation, and survivability. [...]",
-      "pub_date": "Fri, 17 Apr 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched",
       "link": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
       "description": "Huntress is warning that threat actors are exploiting three recently disclosed security flaws in Microsoft Defender to gain elevated privileges in compromised systems. The activity involves\u0026nbsp;th...",
@@ -312,14 +320,6 @@
       "pub_date": "Thu, 16 Apr 2026 23:22:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaSAtFbXFX7aYFcwPPrHEMwEZ4VJp2mJQuYo3B3Q2Zrot1co_ilMUWffYOUUFHFRO6zwHHjlMCMOJcbnc_iF69KLU_1LpMhcfFk5YV8A4cdIchhqR1NQGEvyzpHGidnbvqwq2Tg_Y77VwMCpeSSluD8sPRcusqiraqLMCvUCA-QvUv5nCuh2Ns1U2jxNR1/s1600/powmix.jpg"
-    },
-    {
-      "title": "ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories",
-      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html",
-      "description": "You\u0026nbsp;know that feeling when you open your feed on a Thursday morning and it's just... a\u0026nbsp;lot? Yeah. This\u0026nbsp;week delivered. We've got hackers getting creative in ways that are almost impr...",
-      "pub_date": "Thu, 16 Apr 2026 18:35:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzTV_mwPjmV14aBlnHuLOX2yEZR6VGpmadgiPHtNBJV0KVNG_Oj2tnqE1cb3U9RhBXN-Mytte3jKs2n2dQwBhX2dYDETy5es4cGUkbW5bdIaV_hx8i3gWQhdaa7se1_Q8NY9t0q90EjUBNXt56_MxjT4YVV-R8D14jV3LequHu0llA84NnEK3PeU56Q54X/s1600/bull-main.jpg"
     },
     {
       "title": "ZDI-26-292: QNAP TS-453E QVRPro excpostgres  Exposed Dangerous Method Remote Code Execution Vulnerability",
@@ -522,25 +522,17 @@
       "image_url": "https://github.blog/wp-content/uploads/2025/12/fuzz1.png?resize=1024%2C425"
     },
     {
+      "title": "​​Supply Chain Compromise Impacts Axios Node Package Manager​ ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this alert to provide guidance in response to the software supply chain compromise of the Axios node package manager (npm)....",
+      "pub_date": "Mon, 20 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "AVEVA Pipeline Simulation",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-04",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated attacker to modify simulation parameters, training configuration and training records. The following v...",
-      "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/16/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-34197 Apache ActiveMQ Improper Input Validation Vulner...",
-      "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Horner Automation Cscape and XL4, XL7 PLC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain unauthorized access to systems and services. The following versions of Horner Automation Cscape and X...",
       "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -554,9 +546,25 @@
       "image_url": ""
     },
     {
+      "title": "Horner Automation Cscape and XL4, XL7 PLC",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain unauthorized access to systems and services. The following versions of Horner Automation Cscape and X...",
+      "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Anviz Multiple Products",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-03",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to conduct reconnaissance, capture or decrypt sensitive data, alter device configurations, gain unauthorized...",
+      "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-34197 Apache ActiveMQ Improper Input Validation Vulner...",
       "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -602,17 +610,17 @@
       "image_url": ""
     },
     {
-      "title": "Mitsubishi Electric GENESIS64 and ICONICS Suite products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-097-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a local attacker to disclose SQL Server credentials used by the affected products and use them to disclose, tamper wit...",
+      "title": "Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
+      "description": "Advisory at a Glance    Title Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure   Original Publication April 7, 2026   Executive Summary  Iran...",
       "pub_date": "Tue, 07 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure",
-      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
-      "description": "Advisory at a Glance    Title Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure   Original Publication April 7, 2026   Executive Summary  Iran...",
+      "title": "Mitsubishi Electric GENESIS64 and ICONICS Suite products",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-097-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a local attacker to disclose SQL Server credentials used by the affected products and use them to disclose, tamper wit...",
       "pub_date": "Tue, 07 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -626,17 +634,9 @@
       "image_url": ""
     },
     {
-      "title": "Siemens SICAM 8 Products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-01",
-      "description": "View CSAF Summary Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICOR...",
-      "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/02/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added\u0026nbsp;one\u0026nbsp;new\u0026nbsp;vulnerability\u0026nbsp;to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\u0026nbsp;  CVE-2026-3502\u0026nbsp;TrueConf\u0026nbsp...",
+      "title": "Hitachi Energy Ellipse",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-03",
+      "description": "View CSAF Summary Hitachi Energy is aware of a Jasper Report vulnerability that affects the Ellipse product versions mentioned in this document below. This vulnerability can be exploited to carry o...",
       "pub_date": "Thu, 02 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
