@@ -1,8 +1,72 @@
 {
-  "last_updated": "2026-04-20T13:11:07Z",
+  "last_updated": "2026-04-20T15:11:54Z",
   "articles": [
     {
-      "title": "NSA Confirms Use of Anthropic’s Mythos Despite Pentagon Blacklist",
+      "title": "Microsoft: Teams increasingly abused in helpdesk impersonation attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-increasingly-abused-in-helpdesk-impersonation-attacks/",
+      "description": "Microsoft is warning of threat actors increasingly abusing external Microsoft Teams collaboration and relying on legitimate tools for access and lateral movement on enterprise networks. [...]",
+      "pub_date": "Mon, 20 Apr 2026 11:11:24 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Attackers Turn QEMU Into a Stealth Backdoor for Credential Theft and Ransomware",
+      "link": "https://cybersecuritynews.com/attackers-turn-qemu-into-a-stealth-backdoor/",
+      "description": "Threat actors are now weaponizing QEMU, a legitimate open-source machine emulator and virtualizer, as a covert backdoor to steal credentials and deliver ransomware without triggering endpoint secur...",
+      "pub_date": "Mon, 20 Apr 2026 14:42:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Attackers-Turn-QEMU-Into-a-Stealth-Backdoor-for-Credential-Theft-and-Ransomware.webp"
+    },
+    {
+      "title": "The backup myth that is putting businesses at risk",
+      "link": "https://www.bleepingcomputer.com/news/security/the-backup-myth-that-is-putting-businesses-at-risk/",
+      "description": "Backups protect data, but don't keep your business running during downtime. Datto shows why BCDR is essential to keep operations running during ransomware and outages. [...]",
+      "pub_date": "Mon, 20 Apr 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New JanaWare Ransomware Targets Turkish Users Through Customized Adwind RAT",
+      "link": "https://cybersecuritynews.com/new-janaware-ransomware-targets-turkish-users-2/",
+      "description": "A new ransomware strain known as JanaWare has been quietly targeting home users and small to medium-sized businesses in Turkey, using a customized version of the well-known Adwind Remote Access Tro...",
+      "pub_date": "Mon, 20 Apr 2026 13:57:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-JanaWare-Ransomware-Targets-Turkish-Users-Through-Customized-Adwind-RAT-1.webp"
+    },
+    {
+      "title": "Microsoft Teams Desktop Client Faces Launch Failures After Update Triggers Caching Regression",
+      "link": "https://cybersecuritynews.com/microsoft-teams-desktop-client/",
+      "description": "Microsoft is actively working to resolve a service disruption that has left a subset of Teams desktop client users unable to launch the application, with the company now monitoring the rollback of ...",
+      "pub_date": "Mon, 20 Apr 2026 13:57:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Teams-Desktop-Client.webp"
+    },
+    {
+      "title": "⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge \u0026 More",
+      "link": "https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html",
+      "description": "Monday’s recap shows the same pattern in different places. A third-party tool becomes a way in, then leads to internal access. A trusted download path is briefly swapped to deliver malware. Brows...",
+      "pub_date": "Mon, 20 Apr 2026 19:11:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirkQSoHlNZvcdjrevc7r-D8mPj49i3XRimQjk-HtEVDYVX4vKEcW4JLiTblV5oI8MtUib2Q5iFerdt0x4_mGDvMJqsDd2wX6QNQxM25Wnrq-MRYADw1YuJly5yoSTIz_ToqlWsAKA2hLwru4Crx8aSguTETpDl4mjRfrCg0G8Cca5Rk0Am6FCwRCNPIqBy/s1600/recap-april.jpg"
+    },
+    {
+      "title": "British Scattered Spider hacker pleads guilty to crypto theft charges",
+      "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-pleads-guilty-to-crypto-theft-charges/",
+      "description": "A British man, believed to be the leader of the Scattered Spider cybercrime collective, has pleaded guilty in the United States to charges of wire fraud and aggravated identity theft. [...]",
+      "pub_date": "Mon, 20 Apr 2026 09:33:42 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New Windows 11 Dev Build Improves Secure Boot Monitoring and Storage Controls",
+      "link": "https://cybersecuritynews.com/windows-11-dev-secure-boot-controls/",
+      "description": "Microsoft has released Windows 11 Insider Preview Build 26300.8170 to the Dev Channel, introducing notable improvements to Secure Boot visibility, storage management, and the Feedback Hub experienc...",
+      "pub_date": "Mon, 20 Apr 2026 13:16:35 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Windows-11-Dev-Build-Improves-Secure-Boot-Monitoring-and-Storage-Controls-1.webp"
+    },
+    {
+      "title": "NSA Reportedly Using Anthropic’s Mythos Despite Pentagon Blacklist",
       "link": "https://cybersecuritynews.com/nsa-confirms-anthropics-mythos-use/",
       "description": "The National Security Agency is reportedly deploying Anthropic’s advanced AI model, Mythos Preview. Meanwhile, the Department of Defense has labeled the company a “supply chain risk,” highlig...",
       "pub_date": "Mon, 20 Apr 2026 12:06:11 +0000",
@@ -90,22 +154,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/NIST-Shifts-to-Risk-Based-NVD-Model-as-CVE-Submissions-Surge-263-Since-2020-.webp"
     },
     {
-      "title": "Google Uses Gemini AI to Stop Malicious Ads From Threat Actors – 8.3 billion ads Blocked",
-      "link": "https://cybersecuritynews.com/gemini-ai-stop-malicious-ads/",
-      "description": "Threat actors are increasingly leveraging generative AI to launch sophisticated advertising scams at an unprecedented scale. In response, Google has integrated its advanced Gemini AI models into it...",
-      "pub_date": "Mon, 20 Apr 2026 08:02:03 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Google-Uses-Gemini-AI-to-Stop-Malicious-Ads-From-Threat-Actors-8.3-billion-ads-Blocked.webp"
-    },
-    {
-      "title": "Hackers Use CVE-2024-3721 to Infect TBK DVRs With Nexcorium DDoS Malware",
-      "link": "https://cybersecuritynews.com/hackers-use-cve-2024-3721-to-infect-tbk-dvrs/",
-      "description": "A newly identified botnet campaign is actively exploiting a critical flaw in TBK digital video recorders to deploy a dangerous piece of malware known as Nexcorium, a Mirai-based threat built to lau...",
-      "pub_date": "Mon, 20 Apr 2026 07:55:31 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-CVE-2024-3721-to-Infect-TBK-DVRs-With-Nexcorium-DDoS-Malware.webp"
-    },
-    {
       "title": "Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems",
       "link": "https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html",
       "description": "Cybersecurity researchers have flagged a new malware called ZionSiphon that appears to be specifically designed to target Israeli water treatment and desalination systems. The malware has been code...",
@@ -114,28 +162,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihoHF4qP6hw3msdH8s3stwjZR1a2Aqp6kSB97wFpmQefaNtVM8lc-Eu0Gv3jeMK2qa9aLGjSSZp3cJGNaE3eft6h17HnKqPGlhLbfkVzLqfv3VW-SEDLToW6z8SGiDeSE8jXdHyNqxqG_a4B34PjM3rbiOddEvQlgOFfbow8n6V_qGB-70uEj9fRrNLVOt/s1600/water.jpg"
     },
     {
-      "title": "Critical Vulnerability In Flowise Allows Remote Command Execution Via MCP Adapters",
-      "link": "https://cybersecuritynews.com/flowise-vulnerability/",
-      "description": "A critical vulnerability in Flowise and multiple AI frameworks has been discovered by OX Security, exposing millions of users to remote code execution (RCE). The flaw stems from the Model Context P...",
-      "pub_date": "Mon, 20 Apr 2026 04:15:57 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Vulnerability-In-Flowise-Allows-Remote-Command-Execution-Via-MCP-Adapters.webp"
-    },
-    {
       "title": "Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials",
       "link": "https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html",
       "description": "Web infrastructure provider Vercel has disclosed a security breach that allows bad actors to gain unauthorized access to \"certain\" internal Vercel systems. The incident stemmed from the compromise ...",
       "pub_date": "Mon, 20 Apr 2026 09:05:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcLAcekric_be3bGt2lBu4NxiCcd3FZap2VzD0r9Z8zGegVjwixsexsGVGVmwvLwpaercKHyq9BFA7WV2a_DApLP7qpjg17hE8bu63FHsBoW1wFV0BJmATkuKIM1YU2bf8v9gRPM_tyw8RNINMSXiwzM5jbxjamO8HYm-VsVxgB0lbyRKr4kNuzzRY-JXq/s1600/breach.jpg"
-    },
-    {
-      "title": "Vercel Confirms Data Breach — Hackers Claim Access to Internal Systems",
-      "link": "https://cybersecuritynews.com/vercel-data-breach/",
-      "description": "Vercel has disclosed a significant security incident after threat actors gained unauthorized access to internal systems, with a hacker group reportedly attempting to sell stolen data for $2 million...",
-      "pub_date": "Mon, 20 Apr 2026 02:29:11 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Vercel-Data-Breach.webp"
     },
     {
       "title": "Vercel confirms breach as hackers claim to be selling stolen data",
@@ -242,36 +274,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ8x3Yg0CYomOu1IpHfhfmiqJtgaMSnnoE2tJR6RdXGIy1rLRTORge-ukCLYkEj6xzeGTvmuy-68qfU4me_nG7pvwZi21h7ycQFwY3OXCH1_p_g35BAYeaHdz3uRKJD2mQCjUIcxha2WzMePpup2VHarxZVxy3QNtaRAjET-2FK7GemiuvyI8MpNPFVyEQ/s1600/defender.jpg"
     },
     {
-      "title": "Webinar: From phishing to fallout — Why MSPs must rethink both security and recovery",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery/",
-      "description": "Cyberattacks are evolving faster than many MSP and corporate defenses can keep up, with phishing driving much of today's cybercrime. Join our upcoming webinar to learn how to combine security and r...",
-      "pub_date": "Fri, 17 Apr 2026 08:20:28 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul",
       "link": "https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html",
       "description": "Google this week announced a new set of Play policy updates to strengthen user privacy and protect businesses against fraud, even as it revealed it blocked or removed over 8.3 billion ads globally ...",
       "pub_date": "Fri, 17 Apr 2026 16:17:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj84jgyS7JCiumwEWR-XKLRuLv_sljuCRx-alsYQHKikYlefpZeL1Wqh3GEALkiLdX886cZVY22LQA_ETSoYLrNdEJ4115IkJtXq5v1EMvQdvU-_xS61E89OwwSWXvE-F6Lw6_DH17w0wHHnBfUgqFxsy5cI1rTzinKIgA-X3q08jMLOOci5fkkUbCeIeId/s1600/google-ads-android.jpg"
-    },
-    {
-      "title": "CISA flags Apache ActiveMQ flaw as actively exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/",
-      "description": "CISA warned that attackers are now exploiting a high-severity Apache ActiveMQ vulnerability, which was patched earlier this month after going undetected for 13 years. [...]",
-      "pub_date": "Fri, 17 Apr 2026 05:30:15 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft: Some Windows servers enter reboot loops after April patches",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/",
-      "description": "Microsoft warns that some Windows domain controllers are entering restart loops after installing the April 2026 security updates. [...]",
-      "pub_date": "Fri, 17 Apr 2026 03:59:47 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions",
@@ -312,14 +320,6 @@
       "pub_date": "Thu, 16 Apr 2026 18:35:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzTV_mwPjmV14aBlnHuLOX2yEZR6VGpmadgiPHtNBJV0KVNG_Oj2tnqE1cb3U9RhBXN-Mytte3jKs2n2dQwBhX2dYDETy5es4cGUkbW5bdIaV_hx8i3gWQhdaa7se1_Q8NY9t0q90EjUBNXt56_MxjT4YVV-R8D14jV3LequHu0llA84NnEK3PeU56Q54X/s1600/bull-main.jpg"
-    },
-    {
-      "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
-      "link": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
-      "description": "Cisco has announced patches to address four critical security flaws impacting Identity Services and Webex Services that could result in arbitrary code execution and allow an attacker to impersonate...",
-      "pub_date": "Thu, 16 Apr 2026 16:57:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihdjDVphpsoBIBjhimILabg28ZsD4p-xNzJol1uD3SSIRBvkp-juko45B2sjKpQmJi-h2tHZf2yWAvuCOZRs3m3q4w5sj7x-MyXWosuKglLblipF_94T8f8OQ8_peVgqZTrnjxF8dPRLfv63K8zrbQYqh898b31p_2C37UO0DNAuR8cESZeo4XTFlsDs0C/s1600/cisco-flaws.jpg"
     },
     {
       "title": "ZDI-26-292: QNAP TS-453E QVRPro excpostgres  Exposed Dangerous Method Remote Code Execution Vulnerability",
