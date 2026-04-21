@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T16:51:26Z",
+  "last_updated": "2026-04-21T17:54:37Z",
   "articles": [
     {
       "title": "BreachLock Named Representative Vendor in the 2026 Gartner Market Guide for Adversarial Exposure Validation",
@@ -18,7 +18,7 @@
       "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYVz0o_JJEVhnksw-u1bdgOWuyECndAVIsRI6OqnkcF1bbkFxwh56s9yiaptqIJlslrB-o9IBpIsAdjHYw6f4sJ8u0GJPa8Gmwe6P6koCBJV5IpChqpx6lt8XmUtJA82JbIWcj67zh2313gH9ky_7fFsRQfcqyZDaNIsjP1kyAO7eM3q-D-oDMZi4VLq8/s16000/TTT%20-%202026-04-21T201515.248.webp?ssl=1"
     },
     {
-      "title": "22 BRIDGE:BREAK Flaws Expose 20,000 Lantronix and Silex Serial-to-IP Converters",
+      "title": "22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters",
       "link": "https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html",
       "description": "Cybersecurity researchers have identified 22 new vulnerabilities in popular models of serial-to-IP converters from Lantronix and Silex that could be exploited to hijack susceptible devices and tamp...",
       "pub_date": "Tue, 21 Apr 2026 21:16:00 +0530",
@@ -522,10 +522,98 @@
       "image_url": "https://github.blog/wp-content/uploads/2025/12/fuzz1.png?resize=1024%2C425"
     },
     {
-      "title": "​​Supply Chain Compromise Impacts Axios Node Package Manager​ ",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this alert to provide guidance in response to the software supply chain compromise of the Axios node package manager (npm)....",
-      "pub_date": "Mon, 20 Apr 26 12:00:00 +0000",
+      "title": "Silex Technology SD-330AC and AMC Manager",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-10",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, cause a denial-of-service, or configuration information may be altered without ...",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-02",
+      "description": "View CSAF Summary RUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) contains a vulnerability that could allow an attacker to escalate their own privileges. Siemens has released a new version...",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens TPM 2.0",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-01",
+      "description": "View CSAF Summary The products listed below contain a vulnerability that could allow an attacker to perform an out-of-bound read, potentially leading to information disclosure or denial of service ...",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "SenseLive X3050",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-12",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to take complete control of the device. The following versions of SenseLive X3050 are affected:  X3050 V1....",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens Analytics Toolkit",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-04",
+      "description": "View CSAF Summary Multiple Siemens applications are affected by improper certificate validation in Siemens Analytics Toolkit. This could allow an unauthenticated remote attacker to perform man in t...",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens SCALANCE",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-07",
+      "description": "View CSAF Summary SCALANCE W-700 IEEE 802.11n family before V6.6.0 are affected by multiple vulnerabilities. Siemens has released a new version for SCALANCE W-700 IEEE 802.11n family and recommends...",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Hardy Barth Salia EV Charge Controller",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-05",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed; a buffer overflow condition may allow remote code execution. The following versions of Hard...",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens SINEC NMS",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-03",
+      "description": "View CSAF Summary Siemens SINEC NMS when used with User Management Component (UMC) contains an authentication bypass vulnerability due to insufficient validation of user identity. This could allow ...",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Zero Motorcycles Firmware",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-06",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to pair via Bluetooth with a motorcycle, gaining unauthorized access to all Bluetooth functions, including ch...",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens SINEC NMS",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-09",
+      "description": "View CSAF Summary SINEC NMS before V4.0 SP3 contains an Authorization Bypass vulnerability that could allow an attacker to bypass authorization checks, leading to the ability to reset the password ...",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens Industrial Edge Management",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-11",
+      "description": "View CSAF Summary Industrial Edge Management contains an authorization bypass vulnerability that could be exploited by an unauthenticated remote attacker to circumvent authentication and to access ...",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller (SAC)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-08",
+      "description": "View CSAF Summary RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains a vulnerability that could allow an attacker to achieve arbitrary code execution and to create a denial of service cond...",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
@@ -538,106 +626,18 @@
       "image_url": ""
     },
     {
+      "title": "​​Supply Chain Compromise Impacts Axios Node Package Manager​ ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this alert to provide guidance in response to the software supply chain compromise of the Axios node package manager (npm)....",
+      "pub_date": "Mon, 20 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "AVEVA Pipeline Simulation",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-04",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated attacker to modify simulation parameters, training configuration and training records. The following v...",
       "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Delta Electronics ASDA-Soft",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code. The following versions of Delta Electronics ASDA-Soft are affected:  ASDA-Soft \u0026lt...",
-      "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Horner Automation Cscape and XL4, XL7 PLC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain unauthorized access to systems and services. The following versions of Horner Automation Cscape and X...",
-      "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Anviz Multiple Products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-03",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to conduct reconnaissance, capture or decrypt sensitive data, alter device configurations, gain unauthorized...",
-      "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/16/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-34197 Apache ActiveMQ Improper Input Validation Vulner...",
-      "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/14/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2009-0238 Microsoft Office Remote Code Execution Vulnerab...",
-      "pub_date": "Tue, 14 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/13/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2012-1854 Microsoft Visual Basic for Applications Insec...",
-      "pub_date": "Mon, 13 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "GPL Odorizers GPL750",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-099-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a low privileged remote attacker to manipulate register values, which would result in too much or too little odorant bein...",
-      "pub_date": "Thu, 09 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Contemporary Controls BASC 20T",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-099-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to enumerate the functionality of each component associated with the PLC, reconfigure, rename, delete, perfor...",
-      "pub_date": "Thu, 09 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/08/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-1340 Ivanti Endpoint Manager Mobile (EPMM) Code Inject...",
-      "pub_date": "Wed, 08 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure",
-      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
-      "description": "Advisory at a Glance    Title Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure   Original Publication April 7, 2026   Executive Summary  Iran...",
-      "pub_date": "Tue, 07 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Mitsubishi Electric GENESIS64 and ICONICS Suite products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-097-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a local attacker to disclose SQL Server credentials used by the affected products and use them to disclose, tamper wit...",
-      "pub_date": "Tue, 07 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-35616 - Fortinet FortiClient EMS Improper Access Contr...",
-      "pub_date": "Mon, 06 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
