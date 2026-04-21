@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-21T08:28:51Z",
+  "last_updated": "2026-04-21T10:13:41Z",
   "articles": [
+    {
+      "title": "Former ransomware negotiator pleads guilty to BlackCat attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/",
+      "description": "41-year-old Angelo Martino, a former employee of cybersecurity incident response company DigitalMint, has pleaded guilty to targeting U.S. companies in BlackCat (ALPHV) ransomware attacks in 2023. ...",
+      "pub_date": "Tue, 21 Apr 2026 06:12:21 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "NGate Android malware uses HandyPay NFC app to steal card data",
+      "link": "https://www.bleepingcomputer.com/news/security/ngate-android-malware-uses-handypay-nfc-app-to-steal-card-data/",
+      "description": "A new variant of the NGate malware that steals NFC payment data is targeting Android users by hiding in a trojanized version of HandyPay, a legitimate mobile payments processing tool. [...]",
+      "pub_date": "Tue, 21 Apr 2026 05:00:00 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Claude Code, Gemini CLI, and GitHub Copilot Vulnerable to Prompt Injection via GitHub Comments",
+      "link": "https://cybersecuritynews.com/prompt-injection-via-github-comments/",
+      "description": "A critical cross-vendor vulnerability class dubbed \u0026#8220;Comment and Control\u0026#8221; is a new category of prompt injection attacks that weaponizes GitHub pull request titles, issue bodies, and is...",
+      "pub_date": "Tue, 21 Apr 2026 08:33:42 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Prompt-Injection-to-Credential-Theft.webp"
+    },
     {
       "title": "SideWinder Uses Fake Chrome PDF Viewer and Zimbra Clone to Steal Government Webmail Credentials",
       "link": "https://cybersecuritynews.com/sidewinder-uses-fake-chrome-pdf-viewer-and-zimbra-clone/",
@@ -122,14 +146,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHmSpfy0MbO4mTB5B4TYrJzfBNO0HD2Z194J1U3YlwUQpQsTGompmNqR7_Rx4nbgPXHs3Mel7tBcZDXOVeYDXev1luKnr5VUzbmPornwB-bcciiA_Zvmam5q9lwPK5b9K-my0_a1VBjA-2Pjmb31yWEiyBAl_ipNM5gvJM19yxcT-Q468-8VL8KrfCYHen/s1600/sgll.jpg"
     },
     {
-      "title": "Researchers Say Iranian MOIS Uses Multiple Hacker Personas for One Coordinated Cyber Campaign",
-      "link": "https://cybersecuritynews.com/iranian-mois-uses-multiple-hacker-personas/",
-      "description": "Iran\u0026#8217;s Ministry of Intelligence and Security (MOIS) has been running a long and carefully organized cyber campaign using three separate hacker identities. These identities, known as Homeland ...",
-      "pub_date": "Mon, 20 Apr 2026 16:48:17 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Researchers-Say-Iranian-MOIS-Uses-Multiple-Hacker-Personas-for-One-Coordinated-Cyber-Campaign.webp"
-    },
-    {
       "title": "Microsoft: Teams increasingly abused in helpdesk impersonation attacks",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-increasingly-abused-in-helpdesk-impersonation-attacks/",
       "description": "Microsoft is warning of threat actors increasingly abusing external Microsoft Teams collaboration and relying on legitimate tools for access and lateral movement on enterprise networks. [...]",
@@ -238,22 +254,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/",
       "description": "The National Institute of Standards and Technology will stop assigning severity scores to lower-priority vulnerabilities due to the growing workload from rising submission volumes. [...]",
       "pub_date": "Sun, 19 Apr 2026 10:17:43 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Critical flaw in Protobuf library enables JavaScript code execution",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/",
-      "description": "Proof-of-concept exploit code has been published for a critical remote code execution flaw in protobuf.js, a widely used JavaScript implementation of Google's Protocol Buffers. [...]",
-      "pub_date": "Sat, 18 Apr 2026 11:09:44 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft Teams right-click paste broken by Edge update bug",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/",
-      "description": "Microsoft is warning that a recent Microsoft Edge browser update introduced a bug that breaks right-click paste in chats in the Microsoft Teams desktop client. [...]",
-      "pub_date": "Sat, 18 Apr 2026 10:11:21 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
