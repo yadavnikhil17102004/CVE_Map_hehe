@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-21T01:52:35Z",
+  "last_updated": "2026-04-21T04:43:42Z",
   "articles": [
+    {
+      "title": "PoC Exploit Released for Windows Snipping Tool NTLM Hash Leak Vulnerability",
+      "link": "https://cybersecuritynews.com/windows-snipping-tool-ntlm-hash/",
+      "description": "A proof-of-concept (PoC) exploit has been publicly released for a newly disclosed vulnerability in Microsoft\u0026#8217;s Snipping Tool that allows attackers to silently steal users\u0026#8217; Net-NTLM cred...",
+      "pub_date": "Tue, 21 Apr 2026 04:15:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-Snipping-Tool-PoC.webp"
+    },
+    {
+      "title": "iTerm2 Flaw Abuses SSH Integration Escape Sequences to Turn Text Into Code Execution",
+      "link": "https://cybersecuritynews.com/iterm2-flaw-abuses-ssh-integration/",
+      "description": "Cybersecurity researchers, working in partnership with OpenAI, have uncovered a fascinating and severe vulnerability in iTerm2, a widely used macOS terminal emulator. According to Califio, the flaw...",
+      "pub_date": "Tue, 21 Apr 2026 03:23:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/iTerm2-Flaw-Abuses-SSH-Integration-Escape-Sequences-to-Turn-Text-Into-Code-Execution.webp"
+    },
+    {
+      "title": "British National Admits Hacking Companies and Stealing Millions in Virtual Currency",
+      "link": "https://cybersecuritynews.com/british-national-stealing-millions-in-virtual-currency/",
+      "description": "A British man has pleaded guilty in the United States to his role in a large cybercrime scheme that used SMS phishing, company network intrusions, and SIM swapping to steal at least $1 million in v...",
+      "pub_date": "Tue, 21 Apr 2026 03:19:57 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/British-National-Admits-Hacking-Companies-and-Stealing-Millions-in-Virtual-Currency.webp"
+    },
+    {
+      "title": "Critical Gardyn Smart Gardens Vulnerabilities Let Attackers Control Devices Remotely",
+      "link": "https://cybersecuritynews.com/gardyn-smart-gardens-vulnerabilities/",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a critical warning about severe vulnerabilities in Gardyn Home Kit smart garden systems. Carrying a maximum severity score of ...",
+      "pub_date": "Tue, 21 Apr 2026 03:14:27 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Gardyn-Smart-Gardens-vulnerabilities-Let-Attackers-Control-Devices-Remotely.webp"
+    },
+    {
+      "title": "Critical Anthropic’s MCP Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/anthropics-mcp-vulnerability/",
+      "description": "A critical flaw in Anthropic’s Model Context Protocol (MCP) exposes over 150 million downloads to potential compromise. The vulnerability could enable full system takeover across up to 200,000 s...",
+      "pub_date": "Tue, 21 Apr 2026 02:37:35 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Anthropics-MCP-Vulnerability-Enables-Remote-Code-Execution-Attacks.webp"
+    },
     {
       "title": "KelpDAO suffers $290 million heist tied to Lazarus hackers",
       "link": "https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/",
@@ -82,14 +122,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Lovable-AI-App-Builder-Customer-Data.webp"
     },
     {
-      "title": "Attackers Abuse Microsoft Teams and Quick Assist in New Helpdesk Impersonation Attack Chain",
-      "link": "https://cybersecuritynews.com/attackers-abuse-microsoft-teams-and-quick-assist/",
-      "description": "A new and deceptive attack campaign has emerged where threat actors are impersonating IT helpdesk personnel through Microsoft Teams to trick employees into granting remote access to their systems. ...",
-      "pub_date": "Mon, 20 Apr 2026 15:47:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Attackers-Abuse-Microsoft-Teams-and-Quick-Assist-in-New-Helpdesk-Impersonation-Attack-Chain.webp"
-    },
-    {
       "title": "Microsoft: Teams increasingly abused in helpdesk impersonation attacks",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-increasingly-abused-in-helpdesk-impersonation-attacks/",
       "description": "Microsoft is warning of threat actors increasingly abusing external Microsoft Teams collaboration and relying on legitimate tools for access and lateral movement on enterprise networks. [...]",
@@ -98,36 +130,12 @@
       "image_url": ""
     },
     {
-      "title": "Attackers Turn QEMU Into a Stealth Backdoor for Credential Theft and Ransomware",
-      "link": "https://cybersecuritynews.com/attackers-turn-qemu-into-a-stealth-backdoor/",
-      "description": "Threat actors are now weaponizing QEMU, a legitimate open-source machine emulator and virtualizer, as a covert backdoor to steal credentials and deliver ransomware without triggering endpoint secur...",
-      "pub_date": "Mon, 20 Apr 2026 14:42:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Attackers-Turn-QEMU-Into-a-Stealth-Backdoor-for-Credential-Theft-and-Ransomware.webp"
-    },
-    {
       "title": "The backup myth that is putting businesses at risk",
       "link": "https://www.bleepingcomputer.com/news/security/the-backup-myth-that-is-putting-businesses-at-risk/",
       "description": "Backups protect data, but don't keep your business running during downtime. Datto shows why BCDR is essential to keep operations running during ransomware and outages. [...]",
       "pub_date": "Mon, 20 Apr 2026 10:01:11 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "New JanaWare Ransomware Targets Turkish Users Through Customized Adwind RAT",
-      "link": "https://cybersecuritynews.com/new-janaware-ransomware-targets-turkish-users-2/",
-      "description": "A new ransomware strain known as JanaWare has been quietly targeting home users and small to medium-sized businesses in Turkey, using a customized version of the well-known Adwind Remote Access Tro...",
-      "pub_date": "Mon, 20 Apr 2026 13:57:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-JanaWare-Ransomware-Targets-Turkish-Users-Through-Customized-Adwind-RAT-1.webp"
-    },
-    {
-      "title": "Microsoft Teams Desktop Client Faces Launch Failures After Update Triggers Caching Regression",
-      "link": "https://cybersecuritynews.com/microsoft-teams-desktop-client/",
-      "description": "Microsoft is actively working to resolve a service disruption that has left a subset of Teams desktop client users unable to launch the application, with the company now monitoring the rollback of ...",
-      "pub_date": "Mon, 20 Apr 2026 13:57:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Teams-Desktop-Client.webp"
     },
     {
       "title": "⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge \u0026 More",
@@ -144,14 +152,6 @@
       "pub_date": "Mon, 20 Apr 2026 09:33:42 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "New Windows 11 Dev Build Improves Secure Boot Monitoring and Storage Controls",
-      "link": "https://cybersecuritynews.com/windows-11-dev-secure-boot-controls/",
-      "description": "Microsoft has released Windows 11 Insider Preview Build 26300.8170 to the Dev Channel, introducing notable improvements to Secure Boot visibility, storage management, and the Feedback Hub experienc...",
-      "pub_date": "Mon, 20 Apr 2026 13:16:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Windows-11-Dev-Build-Improves-Secure-Boot-Monitoring-and-Storage-Controls-1.webp"
     },
     {
       "title": "Microsoft tests Windows Explorer speed, performance improvements",
