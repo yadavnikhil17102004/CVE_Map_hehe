@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-21T11:55:46Z",
+  "last_updated": "2026-04-21T13:08:16Z",
   "articles": [
+    {
+      "title": "CISA Warns of Cisco Catalyst SD-WAN Manager Vulnerabilities Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/cisco-sd-wan-manager-vulnerabilities/",
+      "description": "CISA has added three critical Cisco Catalyst SD-WAN Manager vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies and organizations to act immediately. All t...",
+      "pub_date": "Tue, 21 Apr 2026 13:01:25 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CISA-Warns-of-Cisco-Catalyst-SD-WAN-Manager-Vulnerabilities-Exploited-in-Attacks-.webp"
+    },
+    {
+      "title": "6000+ Apache ActiveMQ Instances Vulnerable to CVE-2026-34197 Exposed Online",
+      "link": "https://cybersecuritynews.com/apache-activemq-instances-exposed/",
+      "description": "More than 6,000 internet-exposed Apache ActiveMQ instances are still vulnerable to CVE-2026-34197. This newly tracked security flaw has now been added to the U.S. Cybersecurity and Infrastructure...",
+      "pub_date": "Tue, 21 Apr 2026 12:32:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/6000-Apache-ActiveMQ-Instances-Vulnerable-to-CVE-2026-34197-Exposed-Online-1.webp"
+    },
+    {
+      "title": "CISA flags new SD-WAN flaw as actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks/",
+      "description": "​CISA has given U.S. government agencies four days to secure their systems against another Catalyst SD-WAN Manager vulnerability it flagged as actively exploited in attacks. [...]",
+      "pub_date": "Tue, 21 Apr 2026 08:30:50 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Use Nightmare-Eclipse Tools After Compromising FortiGate SSL VPN Access",
+      "link": "https://cybersecuritynews.com/nightmare-eclipse-tools-fortigate-ssl-vpn/",
+      "description": "A real-world intrusion campaign leveraging publicly available Nightmare-Eclipse privilege escalation tooling, BlueHammer, RedSun, and UnDefend, following what appears to be unauthorized access thro...",
+      "pub_date": "Tue, 21 Apr 2026 12:05:38 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Nightmare-Eclipse-Tools-FortiGate-SSL-VPN.webp"
+    },
+    {
+      "title": "Gentlemen RaaS Attacking Windows, Linux With additional locker written in C for ESXi",
+      "link": "https://cybersecuritynews.com/gentlemen-raas-attacking-windows-linux/",
+      "description": "A new ransomware-as-a-service (RaaS) operation known as \u0026#8220;The Gentlemen\u0026#8221; has emerged as a serious threat to corporate networks worldwide. Since appearing around mid-2025, this group has ...",
+      "pub_date": "Tue, 21 Apr 2026 11:57:46 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Gentlemen-RaaS-Attacking-Windows-Linux-With-additional-locker-written-in-C-for-ESXi.webp"
+    },
     {
       "title": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
       "link": "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
@@ -28,7 +68,7 @@
     {
       "title": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
       "link": "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
-      "description": "Cybersecurity researchers have discovered a new iteration of an Android malware family calledNGate that has been found to abuse a legitimate application called\u0026nbsp;HandyPay instead of NFCGate. \"Th...",
+      "description": "Cybersecurity researchers have discovered a new iteration of an Android malware family called\u0026nbsp;NGate\u0026nbsp;that has been found to abuse a legitimate application called\u0026nbsp;HandyPay instead of N...",
       "pub_date": "Tue, 21 Apr 2026 16:10:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcErEs-NVQwFX9tnOmYqQrfDjLm6WUB5jr8ltsA6bMOlVwmDwzBb5RbYAidS2jxdCPQ9RJtsgl453b7KbY8z_6tOjs0VIA7vF8LjM2OJqkZW8c1IM6TYwToxxp4dk8O0KiozATn5L4U40n2HK-Nya7tcimt1exRy9ZtYnri0XyMuM55W5AbC_8EAE0oDQC/s1600/android-nfc.jpg"
@@ -104,38 +144,6 @@
       "pub_date": "Tue, 21 Apr 2026 11:53:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzjZ6Llk3l-F3OFNRpNKvTziH1GObU6niwTMke4hEeI5bVXCcILs3kb25Dehkk1VCBf8NzEEPMLxElgbqLzAq0I1GuFAsDojdbVw-R6CGW6-qMXPaeiKXzQqn9JUL-VoPCVMx8h7FrOXIovnLwLv7T-O2wLdc4kIDA0bftbBDp9kwoDmqq6iYYlaZF6Qaz/s1600/cisa-kev.jpg"
-    },
-    {
-      "title": "PoC Exploit Released for Windows Snipping Tool NTLM Hash Leak Vulnerability",
-      "link": "https://cybersecuritynews.com/windows-snipping-tool-ntlm-hash/",
-      "description": "A proof-of-concept (PoC) exploit has been publicly released for a newly disclosed vulnerability in Microsoft\u0026#8217;s Snipping Tool that allows attackers to silently steal users\u0026#8217; Net-NTLM cred...",
-      "pub_date": "Tue, 21 Apr 2026 04:15:29 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-Snipping-Tool-PoC.webp"
-    },
-    {
-      "title": "iTerm2 Flaw Abuses SSH Integration Escape Sequences to Turn Text Into Code Execution",
-      "link": "https://cybersecuritynews.com/iterm2-flaw-abuses-ssh-integration/",
-      "description": "Cybersecurity researchers, working in partnership with OpenAI, have uncovered a fascinating and severe vulnerability in iTerm2, a widely used macOS terminal emulator. According to Califio, the flaw...",
-      "pub_date": "Tue, 21 Apr 2026 03:23:22 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/iTerm2-Flaw-Abuses-SSH-Integration-Escape-Sequences-to-Turn-Text-Into-Code-Execution.webp"
-    },
-    {
-      "title": "British National Admits Hacking Companies and Stealing Millions in Virtual Currency",
-      "link": "https://cybersecuritynews.com/british-national-stealing-millions-in-virtual-currency/",
-      "description": "A British man has pleaded guilty in the United States to his role in a large cybercrime scheme that used SMS phishing, company network intrusions, and SIM swapping to steal at least $1 million in v...",
-      "pub_date": "Tue, 21 Apr 2026 03:19:57 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/British-National-Admits-Hacking-Companies-and-Stealing-Millions-in-Virtual-Currency.webp"
-    },
-    {
-      "title": "Critical Gardyn Smart Gardens Vulnerabilities Let Attackers Control Devices Remotely",
-      "link": "https://cybersecuritynews.com/gardyn-smart-gardens-vulnerabilities/",
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a critical warning about severe vulnerabilities in Gardyn Home Kit smart garden systems. Carrying a maximum severity score of ...",
-      "pub_date": "Tue, 21 Apr 2026 03:14:27 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Gardyn-Smart-Gardens-vulnerabilities-Let-Attackers-Control-Devices-Remotely.webp"
     },
     {
       "title": "KelpDAO suffers $290 million heist tied to Lazarus hackers",
@@ -270,14 +278,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
       "description": "Cloud development platform Vercel has disclosed a security incident after threat actors claimed to have breached its systems and are attempting to sell stolen data. [...]",
       "pub_date": "Sun, 19 Apr 2026 13:32:45 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Apple account change alerts abused to send phishing emails",
-      "link": "https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/",
-      "description": "Apple account change notifications are being abused to send fake iPhone purchase phishing scams within legitimate emails sent from Apple's servers, increasing legitimacy and potentially allowing th...",
-      "pub_date": "Sun, 19 Apr 2026 12:03:01 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
