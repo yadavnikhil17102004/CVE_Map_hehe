@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-04-21T10:13:41Z",
+  "last_updated": "2026-04-21T11:55:46Z",
   "articles": [
+    {
+      "title": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
+      "link": "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
+      "description": "The cybersecurity industry has spent the last several years chasing sophisticated threats like zero-days, supply chain compromises, and AI-generated exploits. However, the most reliable entry point...",
+      "pub_date": "Tue, 21 Apr 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin_RithPNlLYdgxg906-M63Q0-Kv83Kl-WNjK8x5OjKiSgcDMaljvqb7XkLPoEeUDEMRdi4Cqh9DH-pv9QP1ViNjUi3q3qn5r_Lig04a3zO9TgkgiQqSLC50mE6q-6hr94bo4UnXnP5QksLGeAgSOemxUOZaXIw9Z2UHpZuinm7pqF9N0xtJNVovfojx0/s1600/door.jpg"
+    },
+    {
+      "title": "Actively exploited Apache ActiveMQ flaw impacts 6,400 servers",
+      "link": "https://www.bleepingcomputer.com/news/security/actively-exploited-apache-activemq-flaw-impacts-6-400-servers/",
+      "description": "Nonprofit security organization Shadowserver found that over 6,400 Apache ActiveMQ servers exposed online are vulnerable to ongoing attacks exploiting a high-severity code injection vulnerability. ...",
+      "pub_date": "Tue, 21 Apr 2026 07:17:51 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "AI-Powered Exploitation May Collapse the Patch Window for Defenders",
+      "link": "https://cybersecuritynews.com/ai-powered-exploitation-may-collapse/",
+      "description": "Artificial intelligence is reshaping cybercrime in ways that defenders can no longer treat as distant or theoretical. New frontier AI models are showing a growing ability to find software flaws, un...",
+      "pub_date": "Tue, 21 Apr 2026 10:59:17 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/AI-Powered-Exploitation-May-Collapse-the-Patch-Window-for-Defenders.webp"
+    },
+    {
+      "title": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
+      "link": "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
+      "description": "Cybersecurity researchers have discovered a new iteration of an Android malware family calledNGate that has been found to abuse a legitimate application called\u0026nbsp;HandyPay instead of NFCGate. \"Th...",
+      "pub_date": "Tue, 21 Apr 2026 16:10:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcErEs-NVQwFX9tnOmYqQrfDjLm6WUB5jr8ltsA6bMOlVwmDwzBb5RbYAidS2jxdCPQ9RJtsgl453b7KbY8z_6tOjs0VIA7vF8LjM2OJqkZW8c1IM6TYwToxxp4dk8O0KiozATn5L4U40n2HK-Nya7tcimt1exRy9ZtYnri0XyMuM55W5AbC_8EAE0oDQC/s1600/android-nfc.jpg"
+    },
+    {
+      "title": "12 Browser Extensions Mimic as TikTok Video Downloaders Compromised 130k Users",
+      "link": "https://cybersecuritynews.com/browser-extensions-as-tiktok-video-downloaders/",
+      "description": "A massive malware campaign known as \u0026#8220;StealTok\u0026#8221; involves at least 12 interrelated browser extensions. These extensions masquerade as TikTok video downloaders but secretly track user acti...",
+      "pub_date": "Tue, 21 Apr 2026 10:23:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/12-Browser-Extensions-Mimic-as-TikTok-video-downloaders-Compromised-130k-Users-.webp"
+    },
+    {
+      "title": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution",
+      "link": "https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html",
+      "description": "Cybersecurity researchers have discovered a vulnerability in Google's agentic integrated development environment (IDE), Antigravity, that could be exploited to achieve code execution. The flaw, sin...",
+      "pub_date": "Tue, 21 Apr 2026 15:52:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsCaDWCQOL4W8DvgT0eI2Q12HA0ThHQO8TZ-X02vqHH4lZfIeUUZ9yeQAHESn6Oe5AoqLEpTuRL9Gco-SPynh5K0fW8D0KFLEvnHnd48MHKL5OUFnw4lOPsAqBg2N8zlCEnoJMM7ZrtxyVuwhytN3SebEbluda4uN12VG2OVi6fV4SItz_57pdCGe7U0ai/s1600/ide.jpg"
+    },
+    {
+      "title": "Hackers Could Weaponize GGUF Models to Achieve RCE on SGLang Inference Servers",
+      "link": "https://cybersecuritynews.com/hackers-weaponize-gguf-models/",
+      "description": "A critical vulnerability in the SGLang inference server that allows threat actors to execute arbitrary code. Tracked as CVE-2026-5760, this flaw allows hackers to weaponize standard GGUF machine le...",
+      "pub_date": "Tue, 21 Apr 2026 10:20:08 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Could-Weaponize-GGUF-Models-to-Achieve-RCE-on-SGLang-Inference-Servers-1.webp"
+    },
+    {
+      "title": "CISA Warns Axios npm Package Was Compromised in Major Supply Chain Attack",
+      "link": "https://cybersecuritynews.com/cisa-warns-axios-npm-supply-chain/",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has released a critical alert regarding a severe software supply chain compromise. The attack targets Axios, a massively popular HTTP cli...",
+      "pub_date": "Tue, 21 Apr 2026 10:15:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CISA-Warns-Axios-npm-Package-Was-Compromised-in-Major-Supply-Chain-Attack-1.webp"
+    },
     {
       "title": "Former ransomware negotiator pleads guilty to BlackCat attacks",
       "link": "https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/",
@@ -74,14 +138,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Gardyn-Smart-Gardens-vulnerabilities-Let-Attackers-Control-Devices-Remotely.webp"
     },
     {
-      "title": "Critical Anthropic’s MCP Vulnerability Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/anthropics-mcp-vulnerability/",
-      "description": "A critical flaw in Anthropic’s Model Context Protocol (MCP) exposes over 150 million downloads to potential compromise. The vulnerability could enable full system takeover across up to 200,000 s...",
-      "pub_date": "Tue, 21 Apr 2026 02:37:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Anthropics-MCP-Vulnerability-Enables-Remote-Code-Execution-Attacks.webp"
-    },
-    {
       "title": "KelpDAO suffers $290 million heist tied to Lazarus hackers",
       "link": "https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/",
       "description": "State-sponsored North Korean hackers are likely behind the $290 million crypto-heist that impacted the KelpDAO DeFi project on Saturday. [...]",
@@ -98,36 +154,12 @@
       "image_url": ""
     },
     {
-      "title": "Gh0st RAT and CloverPlus Adware Delivered Together in New Dual-Payload Malware Campaign",
-      "link": "https://cybersecuritynews.com/gh0st-rat-and-cloverplus-adware-delivered-together/",
-      "description": "A newly identified malware campaign is raising serious concerns across the cybersecurity community by delivering two very different threats at the same time. Attackers are now using a single, obfus...",
-      "pub_date": "Mon, 20 Apr 2026 20:39:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Gh0st-RAT-and-CloverPlus-Adware-Delivered-Together-in-New-Dual-Payload-Malware-Campaign.webp"
-    },
-    {
-      "title": "Hackers Use AppDomain Hijacking to Turn Trusted Intel Utility Into Malware Launcher",
-      "link": "https://cybersecuritynews.com/hackers-use-appdomain-hijacking/",
-      "description": "Security researchers have uncovered a highly sophisticated attack campaign that weaponizes a legitimate, digitally signed Intel utility to secretly deploy malware, all without touching a single lin...",
-      "pub_date": "Mon, 20 Apr 2026 20:31:23 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-AppDomain-Hijacking-to-Turn-Trusted-Intel-Utility-Into-Malware-Launcher.webp"
-    },
-    {
       "title": "The Gentlemen ransomware now uses SystemBC for bot-powered attacks",
       "link": "https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/",
       "description": "A SystemBC proxy malware botnet of more than 1,570 hosts, believed to be corporate victims, has been discovered following an investigation into a Gentlemen ransomware attack carried out by a gang ...",
       "pub_date": "Mon, 20 Apr 2026 16:02:37 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "North Korea-Linked UNC1069 Uses Fake Zoom and Teams Meetings to Hack Crypto Professionals",
-      "link": "https://cybersecuritynews.com/north-korea-linked-unc1069-uses-fake-zoom-and-teams-meetings/",
-      "description": "A North Korean threat group known as UNC1069 has been running a sophisticated campaign that tricks cryptocurrency and Web3 professionals into joining fake online meetings, only to infect their comp...",
-      "pub_date": "Mon, 20 Apr 2026 18:57:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/North-Korea-Linked-UNC1069-Uses-Fake-Zoom-and-Teams-Meetings-to-Hack-Crypto-Professionals.webp"
     },
     {
       "title": "Seiko USA website defaced as hacker claims customer data theft",
@@ -250,14 +282,6 @@
       "image_url": ""
     },
     {
-      "title": "NIST to stop rating non-priority flaws due to volume increase",
-      "link": "https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/",
-      "description": "The National Institute of Standards and Technology will stop assigning severity scores to lower-priority vulnerabilities due to the growing workload from rising submission volumes. [...]",
-      "pub_date": "Sun, 19 Apr 2026 10:17:43 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
       "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
       "description": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not\u0026nbsp;phishing. Not\u0026nbsp;weak passwords. Unmanaged non-human identities that nobody was\u0026nbsp;watch...",
@@ -296,30 +320,6 @@
       "pub_date": "Fri, 17 Apr 2026 16:17:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj84jgyS7JCiumwEWR-XKLRuLv_sljuCRx-alsYQHKikYlefpZeL1Wqh3GEALkiLdX886cZVY22LQA_ETSoYLrNdEJ4115IkJtXq5v1EMvQdvU-_xS61E89OwwSWXvE-F6Lw6_DH17w0wHHnBfUgqFxsy5cI1rTzinKIgA-X3q08jMLOOci5fkkUbCeIeId/s1600/google-ads-android.jpg"
-    },
-    {
-      "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions",
-      "link": "https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html",
-      "description": "The National Institute of Standards and Technology (NIST) has announced changes to the way it handles cybersecurity vulnerabilities and exposures (CVEs) listed in its National Vulnerability Databas...",
-      "pub_date": "Fri, 17 Apr 2026 12:44:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrjR1nq2z66LZ-KZoSSgEdNs30l3Wv4kqz4R4acFd3CW2tqG0EDILlATrje1-tvZhdjnU9rSRO4cQNmlQGelsfBGGiMl_m9kxotVRlBDFyMISCJIFUPN78Aam2GAYPL0Nljz4aU5XrrWz2QuxBz-cZvY7vr2zSQJNdgrz3IWLldTPG_n_9tJx22A3TBQzZ/s1600/nist-cve.jpg"
-    },
-    {
-      "title": "Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts",
-      "link": "https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html",
-      "description": "An international law enforcement operation has taken down 53 domains and arrested four people in connection with commercial distributed denial-of-service (DDoS) operations that were used by more th...",
-      "pub_date": "Fri, 17 Apr 2026 11:16:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgePkLgywRZdW-d26RoQHpyVUy3nKssYfrZuFEdZ-fjRzJHTpESHBPlLvUII_vjjeLVTn4G_TB_oH76mfzh5t4PoKyz_ZhXWBOnCAkssRVXvb_lAMkEdhlK4G9YE6IWvxUUDQ9KDeZSzurWEPKDoQAVozBVjwrRYtSjy6pSbenOhhctqh3NxELjQXeF7H7S/s1600/europol.jpg"
-    },
-    {
-      "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation",
-      "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
-      "description": "A recently disclosed high-severity security flaw in Apache ActiveMQ\u0026nbsp;Classic has come under active exploitation in the wild, per the U.S. Cybersecurity and Infrastructure Security Agency\u0026nbsp;(...",
-      "pub_date": "Fri, 17 Apr 2026 08:52:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKAY7CueGuHevAtV544WN7RTKISrobQLFpjfi4kjdzP1I2BA3rnll69dv1kfvHYSCcU5tQISA0OOgcQVibKrl4o0AvtUyM9crfZuSb1XFH03iLtPglZeHn1e6S8urWxf_4CEH9-tCZdT9BBrvXOFygCxjO_AUmUXnzm4d37Q80fPw3lEn6Hb0_LWlP9XM5/s1600/apachemq.jpg"
     },
     {
       "title": "ZDI-26-292: QNAP TS-453E QVRPro excpostgres  Exposed Dangerous Method Remote Code Execution Vulnerability",
