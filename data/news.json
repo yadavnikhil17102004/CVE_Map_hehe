@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-22T16:51:34Z",
+  "last_updated": "2026-04-22T17:54:34Z",
   "articles": [
+    {
+      "title": "Microsoft Warns Jasper Sleet Uses Fake IT Worker Identities to Infiltrate Cloud Environments",
+      "link": "https://cybersecuritynews.com/microsoft-warns-jasper-sleet-uses-fake-it-worker-identities/",
+      "description": "A North Korea-linked threat group is quietly getting hired by real companies. Jasper Sleet, a threat actor tied to North Korea, has been building fake professional identities and using them to land...",
+      "pub_date": "Wed, 22 Apr 2026 17:44:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Warns-Jasper-Sleet-Uses-Fake-IT-Worker-Identities-to-Infiltrate-Cloud-Environments.webp"
+    },
+    {
+      "title": "Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens",
+      "link": "https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html",
+      "description": "Cybersecurity researchers have flagged a fresh set of packages that have been compromised by bad actors to deliver a self-propagating worm that spreads through stolen developer npm tokens. The supp...",
+      "pub_date": "Wed, 22 Apr 2026 23:03:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIdq7inTckksldfLXx5JPM1spcmvj-W0C5jvCNGSfvUlWfhmFERkPhE9WNRTkTib4uZFsKKn2lBvxnhsZbEaOnGKI4pkSKu8kpyBn7VEsY3BbVN5ZklAoliWNZC-b526mJbr5xiYxKwRFXB8pnV2K-H5ww5mG3_1GrWjgvrsnqJ2EJu1gZJ15-D29njRY9/s1600/npm.jpg"
+    },
+    {
+      "title": "Claude Mythos AI Model Uncovers 271 Zero-Day Vulnerabilities in Firefox",
+      "link": "https://cybersecuritynews.com/claude-mythos-271-zero-days/",
+      "description": "Anthropic\u0026#8217;s latest frontier AI model, Claude Mythos Preview, has identified a staggering 271 zero-day vulnerabilities in Mozilla Firefox marking a seismic shift in AI-powered cybersecurity de...",
+      "pub_date": "Wed, 22 Apr 2026 17:01:10 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Mythos-271-Zero-Days.webp"
+    },
     {
       "title": "New Auraboros RAT Exposes Live Audio Streaming, Keylogging, and Cookie Hijacking in Open C2 Panel",
       "link": "https://cybersecuritynews.com/new-auraboros-rat-exposes-live-audio-streaming-keylogging/",
@@ -170,28 +194,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQ3NMjiDO5jGFykZtDgbq7FvB0nT8CMXMucn5cumu_V80blg8Wt6cklpQnCeG-EuX6oGvqmQKRJxFlmynTBatMk0zgDDsdurGDcs5rXScEF_jVNV10bEqJSJcj5YsAtLS_Pag8LRPrUZr4w9M-JJldxaYYMxtf3zrGia8QjUq-PtjLk_g4-qkkINXx4uGY/s1600/sandbox.jpg"
     },
     {
-      "title": "Microsoft-Signed Binary Used to Sneak LOTUSLITE Into India-Focused Espionage Campaign",
-      "link": "https://cybersecuritynews.com/microsoft-signed-binary-used-to-sneak-lotuslite/",
-      "description": "A state-linked threat group has been caught running a quiet but carefully planned espionage operation against India\u0026#8217;s banking sector, using a trusted Microsoft-signed file to slip malware pas...",
-      "pub_date": "Wed, 22 Apr 2026 06:57:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Signed-Binary-Used-to-Sneak-LOTUSLITE-Into-India-Focused-Espionage-Campaign.webp"
-    },
-    {
       "title": "Over 1,300 Microsoft SharePoint servers vulnerable to spoofing attacks",
       "link": "https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/",
       "description": "Over 1,300 Microsoft SharePoint servers exposed online remain unpatched against a spoofing vulnerability that was exploited as a zero-day and is still being abused in ongoing attacks. [...]",
       "pub_date": "Wed, 22 Apr 2026 02:53:02 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Microsoft Emergency .NET 10.0.7 Update to Patch Elevation of Privilege Vulnerability",
-      "link": "https://cybersecuritynews.com/emergency-net-10-0-7-update-patch/",
-      "description": "Microsoft has issued an emergency out-of-band (OOB) security update for .NET 10, releasing version 10.0.7 on April 21, 2026, to address a critical elevation of privilege vulnerability discovered in...",
-      "pub_date": "Wed, 22 Apr 2026 04:29:04 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Emergency-.NET-10.0.7-Update-Patch.webp"
     },
     {
       "title": "French govt agency confirms breach as hacker offers to sell data",
@@ -336,14 +344,6 @@
       "pub_date": "Tue, 21 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
-    },
-    {
-      "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
-      "link": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
-      "description": "A critical security vulnerability has been disclosed in SGLang that, if successfully exploited, could result in remote code execution on susceptible systems. The vulnerability, tracked as CVE-2026-...",
-      "pub_date": "Mon, 20 Apr 2026 22:44:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHmSpfy0MbO4mTB5B4TYrJzfBNO0HD2Z194J1U3YlwUQpQsTGompmNqR7_Rx4nbgPXHs3Mel7tBcZDXOVeYDXev1luKnr5VUzbmPornwB-bcciiA_Zvmam5q9lwPK5b9K-my0_a1VBjA-2Pjmb31yWEiyBAl_ipNM5gvJM19yxcT-Q468-8VL8KrfCYHen/s1600/sgll.jpg"
     },
     {
       "title": "ZDI-26-292: QNAP TS-453E QVRPro excpostgres  Exposed Dangerous Method Remote Code Execution Vulnerability",
