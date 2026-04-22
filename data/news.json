@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-22T11:54:33Z",
+  "last_updated": "2026-04-22T13:08:02Z",
   "articles": [
+    {
+      "title": "New npm supply-chain attack self-spreads to steal auth tokens",
+      "link": "https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/",
+      "description": "A new supply chain attack targeting the Node Package Manager (npm) ecosystem is stealing developer credentials and attempting to spread through packages published from compromised accounts. [...]",
+      "pub_date": "Wed, 22 Apr 2026 08:57:42 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New DinDoor Backdoor Abuses Deno Runtime and MSI Installers to Evade Detection",
+      "link": "https://cybersecuritynews.com/new-dindoor-backdoor-abuses-deno-runtime/",
+      "description": "A newly identified backdoor called DinDoor is using the legitimate Deno JavaScript runtime and MSI installer files to quietly slip past security defenses and compromise targeted systems. The malwar...",
+      "pub_date": "Wed, 22 Apr 2026 12:41:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-DinDoor-Backdoor-Abuses-Deno-Runtime-and-MSI-Installers-to-Evade-Detection.webp"
+    },
+    {
+      "title": "Microsoft Teams to get efficiency mode on PCs with limited resources",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-gets-efficiency-mode-for-hardware-constrained-devices/",
+      "description": "Microsoft is preparing to roll out a new Efficiency Mode for Microsoft Teams for systems with limited CPU and memory resources to improve app responsiveness. [...]",
+      "pub_date": "Wed, 22 Apr 2026 08:24:38 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Compromised Namastex npm Packages Deliver TeamPCP-Style CanisterWorm Malware",
       "link": "https://cybersecuritynews.com/compromised-namastex-npm-packages/",
@@ -170,14 +194,6 @@
       "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinvEJyK4iKrk74qUztD7b3NYduUdnVYMB3uiSFdo5Ei-yYlqtm4PhH5hFrjC2YVzDsbLl4UMKKF16xN6Y0wnnC_CZ5upRwtQyJlJlr-u5vT-piML445dkGEu3yhXOnjhGXYvHIIIMUTvisMxKu8yJUBz6VXcsNqgizSNjc_N1HslxAWxVnEGKr3Fqdcyw/s16000/TTT%20-%202026-04-21T202408.150.webp?ssl=1"
     },
     {
-      "title": "The Ungoverned Workforce: Cybersecurity Insiders Finds 92% Lack Visibility Into AI Identities",
-      "link": "https://cybersecuritynews.com/the-ungoverned-workforce-cybersecurity-insiders-finds-92-lack-visibility-into-ai-identities/",
-      "description": "Washington D.C., USA, April 21st, 2026, CyberNewswire Cybersecurity Insiders, in collaboration with Saviynt, has released new research indicating that AI identities are increasingly operating withi...",
-      "pub_date": "Tue, 21 Apr 2026 16:22:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYVz0o_JJEVhnksw-u1bdgOWuyECndAVIsRI6OqnkcF1bbkFxwh56s9yiaptqIJlslrB-o9IBpIsAdjHYw6f4sJ8u0GJPa8Gmwe6P6koCBJV5IpChqpx6lt8XmUtJA82JbIWcj67zh2313gH9ky_7fFsRQfcqyZDaNIsjP1kyAO7eM3q-D-oDMZi4VLq8/s16000/TTT%20-%202026-04-21T201515.248.webp?ssl=1"
-    },
-    {
       "title": "22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters",
       "link": "https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html",
       "description": "Cybersecurity researchers have identified 22 new vulnerabilities in popular models of serial-to-IP converters from Lantronix and Silex that could be exploited to hijack susceptible devices and tamp...",
@@ -310,22 +326,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/",
       "description": "State-sponsored North Korean hackers are likely behind the $290 million crypto-heist that impacted the KelpDAO DeFi project on Saturday. [...]",
       "pub_date": "Mon, 20 Apr 2026 18:23:52 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "China's Apple App Store infiltrated by crypto-stealing wallet apps",
-      "link": "https://www.bleepingcomputer.com/news/security/chinas-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps/",
-      "description": "A set of 26 malicious apps on Apple App Store impersonate popular wallets, such as Metamask, Coinbase, Trust Wallet, and OneKey, to steal recovery or seed phrases and drain them of cryptocurrency a...",
-      "pub_date": "Mon, 20 Apr 2026 17:52:54 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "The Gentlemen ransomware now uses SystemBC for bot-powered attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/",
-      "description": "A SystemBC proxy malware botnet of more than 1,570 hosts, believed to be corporate victims, has been discovered following an investigation into a Gentlemen ransomware attack carried out by a gang ...",
-      "pub_date": "Mon, 20 Apr 2026 16:02:37 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
