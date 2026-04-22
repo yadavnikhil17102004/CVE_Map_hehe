@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-22T19:02:29Z",
+  "last_updated": "2026-04-22T20:44:11Z",
   "articles": [
+    {
+      "title": "New Mirai campaign exploits RCE flaw in EoL D-Link routers",
+      "link": "https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/",
+      "description": "A new Mirai-based malware campaign is actively exploiting CVE-2025-29635, a high-severity command-injection vulnerability affecting D-Link DIR-823X routers, to enlist devices into the botnet. [...]",
+      "pub_date": "Wed, 22 Apr 2026 16:04:46 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Cybercriminals Exploit French Fintech Accounts to Move Stolen Money Before Detection",
+      "link": "https://cybersecuritynews.com/cybercriminals-exploit-french-fintech-accounts/",
+      "description": "Organized fraud networks are now using a new method to move stolen money in France. They create fake business accounts on freelancer fintech platforms and use those accounts as mule accounts to lau...",
+      "pub_date": "Wed, 22 Apr 2026 19:45:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Cybercriminals-Exploit-French-Fintech-Accounts-to-Move-Stolen-Money-Before-Detection.webp"
+    },
     {
       "title": "Kyber ransomware gang toys with post-quantum encryption on Windows",
       "link": "https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/",
@@ -178,14 +194,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYMuDYXH3vQ6ycJCKfikptBR0jdQdnf-s36gDb0LYx3gvMwQOQLrt072KY5GZ0T2GRhyphenhyphenrfIg5qcCqjE0J_PtKQ1P409j_veWwKYoGsGssQcTotxI2-Dl8akDSyPif_j4LgFL3kWI6pvWKX5QBjsnIZIHdFzlAIRgxspuS4W0Ywe-Z63zmIyL7X39CG_3Ng/s1600/dotnet.jpg"
     },
     {
-      "title": "1,370+ Microsoft SharePoint Servers Vulnerable to Spoofing Attacks Exposed Online",
-      "link": "https://cybersecuritynews.com/1370-sharepoint-servers-vulnerable/",
-      "description": "A critical spoofing vulnerability in Microsoft SharePoint Server, tracked as CVE-2026-32201, remains unpatched on over 1,370 internet-facing IP addresses worldwide, according to fresh scanning data...",
-      "pub_date": "Wed, 22 Apr 2026 09:02:55 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/1370-SharePoint-Servers-Vulnerable.webp"
-    },
-    {
       "title": "Microsoft releases emergency patches for critical ASP.NET flaw",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-security-updates-for-critical-aspnet-flaw/",
       "description": "Microsoft has released out-of-band (OOB) security updates to patch a critical ASP.NET Core privilege escalation vulnerability. [...]",
@@ -304,14 +312,6 @@
       "pub_date": "Tue, 21 Apr 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin_RithPNlLYdgxg906-M63Q0-Kv83Kl-WNjK8x5OjKiSgcDMaljvqb7XkLPoEeUDEMRdi4Cqh9DH-pv9QP1ViNjUi3q3qn5r_Lig04a3zO9TgkgiQqSLC50mE6q-6hr94bo4UnXnP5QksLGeAgSOemxUOZaXIw9Z2UHpZuinm7pqF9N0xtJNVovfojx0/s1600/door.jpg"
-    },
-    {
-      "title": "Actively exploited Apache ActiveMQ flaw impacts 6,400 servers",
-      "link": "https://www.bleepingcomputer.com/news/security/actively-exploited-apache-activemq-flaw-impacts-6-400-servers/",
-      "description": "Nonprofit security organization Shadowserver found that over 6,400 Apache ActiveMQ servers exposed online are vulnerable to ongoing attacks exploiting a high-severity code injection vulnerability. ...",
-      "pub_date": "Tue, 21 Apr 2026 07:17:51 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution",
@@ -522,6 +522,14 @@
       "image_url": "https://github.blog/wp-content/uploads/2025/12/fuzz1.png?resize=1024%2C425"
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33825 Microsoft Defender Insufficient Granularity of A...",
+      "pub_date": "Wed, 22 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Silex Technology SD-330AC and AMC Manager",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-10",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, cause a denial-of-service, or configuration information may be altered without ...",
@@ -630,14 +638,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
       "description": "The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this alert to provide guidance in response to the software supply chain compromise of the Axios node package manager (npm)....",
       "pub_date": "Mon, 20 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "AVEVA Pipeline Simulation",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-04",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated attacker to modify simulation parameters, training configuration and training records. The following v...",
-      "pub_date": "Thu, 16 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
