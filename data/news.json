@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-22T10:13:50Z",
+  "last_updated": "2026-04-22T11:54:33Z",
   "articles": [
+    {
+      "title": "Compromised Namastex npm Packages Deliver TeamPCP-Style CanisterWorm Malware",
+      "link": "https://cybersecuritynews.com/compromised-namastex-npm-packages/",
+      "description": "A serious supply chain threat has surfaced in the npm ecosystem. Malicious versions of packages belonging to Namastex.ai have been found carrying CanisterWorm malware, a self-propagating backdoor t...",
+      "pub_date": "Wed, 22 Apr 2026 11:05:51 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Compromised-Namastex-npm-Packages-Deliver-TeamPCP-Style-CanisterWorm-Malware.webp"
+    },
+    {
+      "title": "Massive SIM Farm-as-a-Service Network Exposes 87 Control Panels Across 17 Countries",
+      "link": "https://cybersecuritynews.com/sim-farm-as-a-service-network/",
+      "description": "A global investigation has uncovered an industrial-scale mobile proxy ecosystem powered by a shared control platform called ProxySmart, with 87 exposed control panels spanning 17 countries and at l...",
+      "pub_date": "Wed, 22 Apr 2026 11:02:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/SIM-Farm-as-a-Service-Network.webp"
+    },
+    {
+      "title": "Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack",
+      "link": "https://thehackernews.com/2026/04/lotus-wiper-malware-targets-venezuelan.html",
+      "description": "Cybersecurity researchers have discovered a previously undocumented data wiper that has been used in attacks targeting Venezuela at the end of last year and the start of 2026. Dubbed Lotus Wiper, t...",
+      "pub_date": "Wed, 22 Apr 2026 16:25:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhANfDCr_4asg41Zj98h_tyRYig7XZGWHyCgPXHcVUvax_31CDUNrmrUp9rBFZK0u0Ai97i5pUlapu4ePRoBQAzvxt-KX3u80dTOjzyPPOOGzuCUmBZgaczzHisujoEXmfO08HtxqTbkAYBRI7JdBKffmATJHHM4uDe2RDsPyC11CkgenulBnQ7ZhyH8m-t/s1600/wiper-malware.jpg"
+    },
+    {
+      "title": "Toxic Combinations: When Cross-App Permissions Stack into Risk",
+      "link": "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html",
+      "description": "On January 31, 2026, researchers disclosed that Moltbook, a social network built for AI agents, had left its database wide open, exposing 35,000 email addresses and 1.5 million agent API tokens acr...",
+      "pub_date": "Wed, 22 Apr 2026 16:11:36 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeaSL6v6uahfzJpHJb0ATKZ7cbexnfYIayT74IyU1S-7f3T-4gfnWowlobm5RH4ZYrsIdeNq_OOHGxp2LbU-aELaO9RbYa15MfKN38-ZQPGhrgH0PYCsVIucG95SSw-WCzzo9eUhITn4A3txsa8H59XhTcAaOObC0r-Es_7i0RH8aDo_qhZ45MfaOTVF2t/s1600/reco.png"
+    },
+    {
+      "title": "Microsoft traces Universal Print issues to Graph API code change",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-graph-api-code-change-causes-universal-print-share-issues/",
+      "description": "Microsoft says that an ongoing Universal Print sharing issue that prevents users from creating some printer shares is due to a Microsoft Graph API code change. [...]",
+      "pub_date": "Wed, 22 Apr 2026 06:15:09 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "New GoGra malware for Linux uses Microsoft Graph API for comms",
       "link": "https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/",
@@ -144,22 +184,6 @@
       "pub_date": "Tue, 21 Apr 2026 21:16:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguDEDMst3MIdrJaNrbo9p_7mjaF2nB_5UuQZR2JhNRNPw8h619BhPWYUZ0yYD-ix_jIluuAwjip4ho4huSuYqr4lXcperdn-4_tFKZ6yivKeOuDJd9O-1EDiwIvD1sPwRGL6keOFr5muqqXp2GWdOlpmi9_uQyREP_iiEz0ZoX-W4ACBSxYarYPb4CJTIY/s1600/hardware.jpg"
-    },
-    {
-      "title": "Where Most SOCs Stall: Building SOC Maturity with Threat Intelligence Feeds ",
-      "link": "https://cybersecuritynews.com/soc-maturity-threat-intelligence/",
-      "description": "SOC maturity comes down to the quality of decisions. Yet in many teams, those decisions are still made based on fragmented intelligence and outdated indicators. This is where progress stalls: threa...",
-      "pub_date": "Tue, 21 Apr 2026 15:34:39 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-Ap8Gyn1OHxDlKZSLL-Z_TLdR_Kon1Fru021udZ-kd5oAnBJfX6RaClBum2ZnZmCKmyp6ep4eKBXZHrk8G9ih178wJtgNbjg268Jf7ZV5zhP1Sz2Xl5GaNOmCgeWIcs5Wx9WT4_h06FVRqGCC3W-q3hdwSogeStLHVb7XfpyvCNuexl2VrEGQ5kDeXA/s16000/SOC%20Maturity%20with%20Threat%20Intelligence%20Feeds%20(1).webp?ssl=1"
-    },
-    {
-      "title": "New NGate Malware Developed Using AI Hides in NFC Payment Apps",
-      "link": "https://cybersecuritynews.com/new-ngate-malware-developed/",
-      "description": "A new and more dangerous version of the NGate malware has been found hiding inside a trojanized NFC payment application. This time, threat actors appear to have used artificial intelligence to help...",
-      "pub_date": "Tue, 21 Apr 2026 15:27:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-NGate-Malware-Developed-Using-AI-Hides-in-NFC-Payment-Apps.webp"
     },
     {
       "title": "Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023",
@@ -306,14 +330,6 @@
       "image_url": ""
     },
     {
-      "title": "Seiko USA website defaced as hacker claims customer data theft",
-      "link": "https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/",
-      "description": "The Seiko USA website was defaced over the weekend, displaying a message from attackers claiming they stole its Shopify customer database and threatening to leak it unless a ransom is paid. [...]",
-      "pub_date": "Mon, 20 Apr 2026 14:22:31 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
       "link": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
       "description": "A critical security vulnerability has been disclosed in SGLang that, if successfully exploited, could result in remote code execution on susceptible systems. The vulnerability, tracked as CVE-2026-...",
@@ -328,22 +344,6 @@
       "pub_date": "Mon, 20 Apr 2026 19:11:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirkQSoHlNZvcdjrevc7r-D8mPj49i3XRimQjk-HtEVDYVX4vKEcW4JLiTblV5oI8MtUib2Q5iFerdt0x4_mGDvMJqsDd2wX6QNQxM25Wnrq-MRYADw1YuJly5yoSTIz_ToqlWsAKA2hLwru4Crx8aSguTETpDl4mjRfrCg0G8Cca5Rk0Am6FCwRCNPIqBy/s1600/recap-april.jpg"
-    },
-    {
-      "title": "Why Most AI Deployments Stall After the Demo",
-      "link": "https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html",
-      "description": "The fastest way to fall in love with an AI tool is to watch the demo. Everything moves quickly. Prompts land cleanly. The system produces impressive outputs in seconds. It feels like the beginning ...",
-      "pub_date": "Mon, 20 Apr 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihbqFqPAZp1E63toW329kiZdn6SI22yIZDqIGwAsO9Q2_Xi8g6qCWwj0dH2A4LupHGVzobsdiP9dcvAoSzXSKkte4q0yLnAN2V5wsntPma9PIiv4SzNQnU3wkFCztV-N8Dn36S_oP9tq3obvAVOUUPegjGguA1SUVYR2ptZigH9ET-5dTVZU966eoLh9A/s1600/tines.jpg"
-    },
-    {
-      "title": "Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain",
-      "link": "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
-      "description": "Cybersecurity researchers have discovered a critical \"by design\" weakness in the Model Context Protocol's (MCP) architecture that could pave the way for remote code execution and have a cascading e...",
-      "pub_date": "Mon, 20 Apr 2026 16:12:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbUnokdbuoiv9j36ekgZbT7VQVSUJBbB4xzoXJKD8iTTO76tSRyhXGdOk2aZKX-RU_WeGyRzHfAf0zwva_cSY7JL5a7Fhmrtzjd-p-kg6JK75nE-nQiSESaDAHlyTN8be1iUFxp9xCq94-1JwZ16pwYZJkKxIFwqa8vNmfxZl8OCXRWnT0GKWOpYVPgbMb/s1600/mcp.jpg"
     },
     {
       "title": "ZDI-26-292: QNAP TS-453E QVRPro excpostgres  Exposed Dangerous Method Remote Code Execution Vulnerability",
