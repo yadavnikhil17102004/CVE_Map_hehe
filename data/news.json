@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-04-22T17:54:34Z",
+  "last_updated": "2026-04-22T19:02:29Z",
   "articles": [
+    {
+      "title": "Kyber ransomware gang toys with post-quantum encryption on Windows",
+      "link": "https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/",
+      "description": "A new Kyber ransomware operation is targeting Windows systems and VMware ESXi endpoints in recent attacks, with one variant implementing Kyber1024 post-quantum encryption. [...]",
+      "pub_date": "Wed, 22 Apr 2026 14:52:29 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Use Lotus Wiper to Destroy Drives and Delete Files in Energy Sector Attack",
+      "link": "https://cybersecuritynews.com/hackers-use-lotus-wiper-to-destroy-drives/",
+      "description": "A newly discovered malware called Lotus Wiper has been used in a targeted destructive attack against the energy and utilities sector in Venezuela. Unlike ransomware, this threat does not ask for mo...",
+      "pub_date": "Wed, 22 Apr 2026 18:12:38 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Use-Lotus-Wiper-to-Destroy-Drives-and-Delete-Files-in-Energy-Sector-Attack.webp"
+    },
+    {
+      "title": "Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain",
+      "link": "https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html",
+      "description": "Cybersecurity researchers have warned of malicious images pushed to the official \"checkmarx/kics\" Docker Hub repository. In an alert published today, software supply chain security company Socket r...",
+      "pub_date": "Wed, 22 Apr 2026 23:25:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimocxAyADkuC5qBKZquZhHtUaDSArR1yrr0eRW7dQ_qo4yJpHxj2VYF0qQBxxYfhwOv5g3PJ6raoVwGHrns8DiRFppR_OPFhc2NUoVxlMc0W3fwVyR8J0daGZ_a8IOSuqL1kXJmY6Sj1bvqJ7OwkZfJQB2Cha4WldeRwCcAopoTllcER15ca3eFwsibt6i/s1600/kics.jpg"
+    },
     {
       "title": "Microsoft Warns Jasper Sleet Uses Fake IT Worker Identities to Infiltrate Cloud Environments",
       "link": "https://cybersecuritynews.com/microsoft-warns-jasper-sleet-uses-fake-it-worker-identities/",
@@ -178,14 +202,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQHPkb7rlS_ueovJaV3s5KxgSQFfHhuZhvW8R8L9wG8j-trZvnmusj4EGvkOPah_XSqgJDLIiRWozv7RtA3o_1VaHYWnaH77PH2kOg2FYkc60uIc6WTf6frjbUp3IwhtB038_wojAl7G5OxcC4aSy5kLF48ssz_3xqLCD7bDbg6_i-RdY8tLvjxlj4Xc0o/s1600/indian-banks.jpg"
     },
     {
-      "title": "CrowdStrike LogScale Vulnerability Allows Remote Attackers to Read Arbitrary Files from Server",
-      "link": "https://cybersecuritynews.com/crowdstrike-logscale-vulnerability/",
-      "description": "CrowdStrike has issued an urgent security advisory for a critical unauthenticated path-traversal vulnerability (CVE-2026-40050) affecting its LogScale platform, warning that a remote attacker could...",
-      "pub_date": "Wed, 22 Apr 2026 07:47:14 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CrowdStrike-LogScale-Vulnerability.webp"
-    },
-    {
       "title": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape",
       "link": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
       "description": "A critical security vulnerability has been disclosed in a Python-based sandbox called Terrarium that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-5752, is rated ...",
@@ -304,22 +320,6 @@
       "pub_date": "Tue, 21 Apr 2026 15:52:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsCaDWCQOL4W8DvgT0eI2Q12HA0ThHQO8TZ-X02vqHH4lZfIeUUZ9yeQAHESn6Oe5AoqLEpTuRL9Gco-SPynh5K0fW8D0KFLEvnHnd48MHKL5OUFnw4lOPsAqBg2N8zlCEnoJMM7ZrtxyVuwhytN3SebEbluda4uN12VG2OVi6fV4SItz_57pdCGe7U0ai/s1600/ide.jpg"
-    },
-    {
-      "title": "Former ransomware negotiator pleads guilty to BlackCat attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/",
-      "description": "41-year-old Angelo Martino, a former employee of cybersecurity incident response company DigitalMint, has pleaded guilty to targeting U.S. companies in BlackCat (ALPHV) ransomware attacks in 2023. ...",
-      "pub_date": "Tue, 21 Apr 2026 06:12:21 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
-      "link": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including three flaws impacting Cisc...",
-      "pub_date": "Tue, 21 Apr 2026 11:53:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzjZ6Llk3l-F3OFNRpNKvTziH1GObU6niwTMke4hEeI5bVXCcILs3kb25Dehkk1VCBf8NzEEPMLxElgbqLzAq0I1GuFAsDojdbVw-R6CGW6-qMXPaeiKXzQqn9JUL-VoPCVMx8h7FrOXIovnLwLv7T-O2wLdc4kIDA0bftbBDp9kwoDmqq6iYYlaZF6Qaz/s1600/cisa-kev.jpg"
     },
     {
       "title": "ZDI-26-295: (0Day) PublicCMS getXml Server-Side Request Forgery Information Disclosure Vulnerability",
