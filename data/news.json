@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23T21:38:46Z",
+  "last_updated": "2026-04-23T22:36:30Z",
   "articles": [
     {
       "title": "Hackers exploit file upload bug in Breeze Cache WordPress plugin",
@@ -226,6 +226,38 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8iikjICH9h-OY06K3jZBcEcwtWEuusLcRgwG1T5SvE39V2ZfqSe7Z7N3NFXzfxgYicI_yo8bvme9f4RYazoU-5dUmoTKJMgdmW38AuWgFEWKNBTxgqQJAgpwZUOS926Ue1qCGUW7ou2wStgU-vRsle4Ky8pcp2I2mT_Sm3eyUw__JZaO-BrBZ80z3Zhvx/s1600/apple-signal.jpg"
     },
     {
+      "title": "ZDI-26-299: Docker Desktop Enhanced Container Isolation Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-299/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop. An attacker must first obtain the ability to execute low-privileged code within a conta...",
+      "pub_date": "Thu, 23 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-298: Siemens SINEC NMS Authentication Bypass Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-298/",
+      "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Siemens SINEC NMS. Authentication is not required to exploit this vulnerability. The ZDI has assigne...",
+      "pub_date": "Thu, 23 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-297: Siemens SINEC NMS Improper Authentication Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-297/",
+      "description": "This vulnerability allows remote attackers to escalate privileges on affected installations of Siemens SINEC NMS. Authentication is required to exploit this vulnerability. The ZDI has assigned a CV...",
+      "pub_date": "Thu, 23 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-296: Delta Electronics ASDA-Soft PAR File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-296/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics ASDA-Soft. User interaction is required to exploit this vulnerability in that the...",
+      "pub_date": "Thu, 23 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
       "title": "Apple fixes bug that let the FBI recover deleted Signal messages",
       "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
       "description": "Apple has released out-of-band security updates for iPhone and iPad devices to fix a Notification Services flaw that could allow notifications marked for deletion to remain stored on the device. [...]",
@@ -405,38 +437,6 @@
       "title": "ZDI-26-285: DriveLock Directory Traversal Information Disclosure Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-285/",
       "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of DriveLock. Authentication is not required to exploit this vulnerability. The ZDI has assign...",
-      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-284: DriveLock Directory Traversal Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-284/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of DriveLock. Authentication is not required to exploit this vulnerability. The ZDI has assign...",
-      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-283: GStreamer qtdemux Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-283/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. Interaction with this library is required to exploit this vulnerability but attack vecto...",
-      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-282: GIMP HDR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-282/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a ma...",
-      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-281: Microsoft vcpkg OpenSSL Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-281/",
-      "description": "This vulnerability allows local attackers to escalate privileges on applications built using the Microsoft vcpkg port of OpenSSL. An attacker must first obtain the ability to execute low-privileged...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
