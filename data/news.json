@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-04-23T06:57:47Z",
+  "last_updated": "2026-04-23T08:52:16Z",
   "articles": [
+    {
+      "title": "Apple Patches iOS Flaw That Stored Deleted Signal Notifications in FBI Forensic Case",
+      "link": "https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html",
+      "description": "Apple has rolled out a software fix for iOS and iPadOS to address a Notification Services flaw that stored notifications marked for deletion on the device. The vulnerability, tracked as CVE-2026-28...",
+      "pub_date": "Thu, 23 Apr 2026 13:36:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8iikjICH9h-OY06K3jZBcEcwtWEuusLcRgwG1T5SvE39V2ZfqSe7Z7N3NFXzfxgYicI_yo8bvme9f4RYazoU-5dUmoTKJMgdmW38AuWgFEWKNBTxgqQJAgpwZUOS926Ue1qCGUW7ou2wStgU-vRsle4Ky8pcp2I2mT_Sm3eyUw__JZaO-BrBZ80z3Zhvx/s1600/apple-signal.jpg"
+    },
     {
       "title": "Critical Pack2TheRoot Vulnerability Let Attackers Gain Root Access or Compromise the System",
       "link": "https://cybersecuritynews.com/pack2theroot-vulnerability/",
@@ -312,14 +320,6 @@
       "pub_date": "Tue, 21 Apr 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin_RithPNlLYdgxg906-M63Q0-Kv83Kl-WNjK8x5OjKiSgcDMaljvqb7XkLPoEeUDEMRdi4Cqh9DH-pv9QP1ViNjUi3q3qn5r_Lig04a3zO9TgkgiQqSLC50mE6q-6hr94bo4UnXnP5QksLGeAgSOemxUOZaXIw9Z2UHpZuinm7pqF9N0xtJNVovfojx0/s1600/door.jpg"
-    },
-    {
-      "title": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution",
-      "link": "https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html",
-      "description": "Cybersecurity researchers have discovered a vulnerability in Google's agentic integrated development environment (IDE), Antigravity, that could be exploited to achieve code execution. The flaw, sin...",
-      "pub_date": "Tue, 21 Apr 2026 15:52:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsCaDWCQOL4W8DvgT0eI2Q12HA0ThHQO8TZ-X02vqHH4lZfIeUUZ9yeQAHESn6Oe5AoqLEpTuRL9Gco-SPynh5K0fW8D0KFLEvnHnd48MHKL5OUFnw4lOPsAqBg2N8zlCEnoJMM7ZrtxyVuwhytN3SebEbluda4uN12VG2OVi6fV4SItz_57pdCGe7U0ai/s1600/ide.jpg"
     },
     {
       "title": "ZDI-26-295: (0Day) PublicCMS getXml Server-Side Request Forgery Information Disclosure Vulnerability",
