@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-23T15:45:45Z",
+  "last_updated": "2026-04-23T17:11:42Z",
   "articles": [
+    {
+      "title": "Bitwarden CLI Compromised in Supply Chain Attack via GitHub Actions",
+      "link": "https://cybersecuritynews.com/bitwarden-cli-compromised/",
+      "description": "Socket has confirmed that Bitwarden CLI version 2026.4.0 was compromised as part of the ongoing Checkmarx supply chain campaign, exposing millions of users and thousands of enterprises to credentia...",
+      "pub_date": "Thu, 23 Apr 2026 16:24:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Bitwarden-CLI-Compromised.webp"
+    },
+    {
+      "title": "New Checkmarx supply-chain breach affects KICS analysis tool",
+      "link": "https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/",
+      "description": "Hackers have compromised Docker images, VSCode and Open VSX extensions for the Checkmarx KICS analysis tool to harvest sensitive data from developer environments. [...]",
+      "pub_date": "Thu, 23 Apr 2026 12:05:12 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Cosmetics giant Rituals discloses data breach affecting customers",
       "link": "https://www.bleepingcomputer.com/news/security/cosmetics-giant-rituals-discloses-data-breach-affecting-customers/",
@@ -178,14 +194,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Checkmarx-KICS-Compromised.webp"
     },
     {
-      "title": "109 Fake GitHub Repositories Used to Deliver SmartLoader and StealC Malware",
-      "link": "https://cybersecuritynews.com/109-fake-github-repositories-used/",
-      "description": "A large-scale malware distribution campaign has been uncovered involving 109 fake GitHub repositories that were used to trick users into downloading two dangerous malware tools named SmartLoader an...",
-      "pub_date": "Wed, 22 Apr 2026 21:03:41 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/109-Fake-GitHub-Repositories-Used-to-Deliver-SmartLoader-and-StealC-Malware.webp"
-    },
-    {
       "title": "Apple fixes bug that let the FBI recover deleted Signal messages",
       "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
       "description": "Apple has released out-of-band security updates for iPhone and iPad devices to fix a Notification Services flaw that could allow notifications marked for deletion to remain stored on the device. [...]",
@@ -286,14 +294,6 @@
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-graph-api-code-change-causes-universal-print-share-issues/",
       "description": "Microsoft says that an ongoing Universal Print sharing issue that prevents users from creating some printer shares is due to a Microsoft Graph API code change. [...]",
       "pub_date": "Wed, 22 Apr 2026 06:15:09 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "New GoGra malware for Linux uses Microsoft Graph API for comms",
-      "link": "https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/",
-      "description": "A Linux variant of the GoGra backdoor uses legitimate Microsoft infrastructure, relying on an Outlook inbox for stealthy payload delivery. [...]",
-      "pub_date": "Wed, 22 Apr 2026 06:00:00 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -522,12 +522,68 @@
       "image_url": "https://github.blog/wp-content/uploads/2025/12/fuzz1.png?resize=1024%2C425"
     },
     {
+      "title": "Carlson Software VASCO-B GNSS Receiver",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation. The following versions of Carlson Soft...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to bypass authentication and have remote access to sensitive information on the device. The following version...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "FIRESTARTER Backdoor",
+      "link": "https://www.cisa.gov/news-events/analysis-reports/ar26-113a",
+      "description": "Malware Analysis Report at a Glance    Malware Name FIRESTARTER   Original Publication April 23, 2026   Executive Summary  The Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sam...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Yadea T5 Electric Bicycle",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft. The following versions of Yadea T5 ...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Defending Against China-Nexus Covert Networks of Compromised Devices",
       "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
       "description": "Defending against china-nexus covert networks of compromised devices executive summary Defending against China-nexus covert networks of compromised devices\u0026nbsp; Explaining the widespread shift i...",
       "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": "https://www.cisa.gov/sites/default/files/styles/large/public/2026-04/A%20diagram%20illustrating%20the%20basic%20setup%20of%20a%20covert%20network..png?itok=3Bfm4nKj"
+    },
+    {
+      "title": "Milesight Cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-03",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution. The following versions of Milesight Cameras are affected:  M...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Intrado 911 Emergency Gateway (EGW)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-06",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read, modify, or delete files. The following versions of Intrado 911 Emergency Gateway (EGW) are affected:...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "SpiceJet Online Booking System",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-04",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information. The following versions of SpiceJet Online Booking System are affected: ...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -538,17 +594,9 @@
       "image_url": ""
     },
     {
-      "title": "Silex Technology SD-330AC and AMC Manager",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-10",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, cause a denial-of-service, or configuration information may be altered without ...",
-      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-02",
-      "description": "View CSAF Summary RUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) contains a vulnerability that could allow an attacker to escalate their own privileges. Siemens has released a new version...",
+      "title": "Siemens SINEC NMS",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-09",
+      "description": "View CSAF Summary SINEC NMS before V4.0 SP3 contains an Authorization Bypass vulnerability that could allow an attacker to bypass authorization checks, leading to the ability to reset the password ...",
       "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -562,49 +610,9 @@
       "image_url": ""
     },
     {
-      "title": "SenseLive X3050",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-12",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to take complete control of the device. The following versions of SenseLive X3050 are affected:  X3050 V1....",
-      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Analytics Toolkit",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-04",
-      "description": "View CSAF Summary Multiple Siemens applications are affected by improper certificate validation in Siemens Analytics Toolkit. This could allow an unauthenticated remote attacker to perform man in t...",
-      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens SCALANCE",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-07",
-      "description": "View CSAF Summary SCALANCE W-700 IEEE 802.11n family before V6.6.0 are affected by multiple vulnerabilities. Siemens has released a new version for SCALANCE W-700 IEEE 802.11n family and recommends...",
-      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Hardy Barth Salia EV Charge Controller",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-05",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed; a buffer overflow condition may allow remote code execution. The following versions of Hard...",
-      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "Siemens Industrial Edge Management",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-11",
       "description": "View CSAF Summary Industrial Edge Management contains an authorization bypass vulnerability that could be exploited by an unauthenticated remote attacker to circumvent authentication and to access ...",
-      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Zero Motorcycles Firmware",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-06",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to pair via Bluetooth with a motorcycle, gaining unauthorized access to all Bluetooth functions, including ch...",
       "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -618,26 +626,18 @@
       "image_url": ""
     },
     {
-      "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller (SAC)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-08",
-      "description": "View CSAF Summary RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains a vulnerability that could allow an attacker to achieve arbitrary code execution and to create a denial of service cond...",
+      "title": "SenseLive X3050",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-12",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to take complete control of the device. The following versions of SenseLive X3050 are affected:  X3050 V1....",
       "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Siemens SINEC NMS",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-09",
-      "description": "View CSAF Summary SINEC NMS before V4.0 SP3 contains an Authorization Bypass vulnerability that could allow an attacker to bypass authorization checks, leading to the ability to reset the password ...",
+      "title": "Siemens SCALANCE",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-07",
+      "description": "View CSAF Summary SCALANCE W-700 IEEE 802.11n family before V6.6.0 are affected by multiple vulnerabilities. Siemens has released a new version for SCALANCE W-700 IEEE 802.11n family and recommends...",
       "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Eight Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\u0026nbsp;    CVE-2023-27351 PaperCut NG/MF Improper Authenticat...",
-      "pub_date": "Mon, 20 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
