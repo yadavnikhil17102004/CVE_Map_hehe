@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-04-23T08:52:16Z",
+  "last_updated": "2026-04-23T10:17:15Z",
   "articles": [
+    {
+      "title": "Vercel Confirms Security Breach – Set of Customer Account Compromised",
+      "link": "https://cybersecuritynews.com/vercel-confirms-security-breach/",
+      "description": "Web infrastructure platform Vercel has disclosed a significant security incident involving unauthorized access to internal systems, tracing the attack chain back to a compromise of Context.ai, a th...",
+      "pub_date": "Thu, 23 Apr 2026 10:03:40 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Vercel-Confirms-Security-Breach.webp"
+    },
+    {
+      "title": "New Tropic Trooper Attack Uses Custom Beacon Listener and VS Code Tunnels for Remote Access",
+      "link": "https://cybersecuritynews.com/new-tropic-trooper-attack-uses-custom-beacon-listener/",
+      "description": "A sophisticated cyberattack campaign linked to the well-known threat group Tropic Trooper has recently surfaced, leveraging military-themed document lures to target Chinese-speaking individuals in ...",
+      "pub_date": "Thu, 23 Apr 2026 10:01:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Tropic-Trooper-Attack-Uses-Custom-Beacon-Listener-and-VS-Code-Tunnels-for-Remote-Access.webp"
+    },
+    {
+      "title": "China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors",
+      "link": "https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html",
+      "description": "Mongolian governmental institutions have emerged as the target of a previously undocumented China-aligned advanced persistent threat (APT) group tracked as GopherWhisper. \"The group wields a wide a...",
+      "pub_date": "Thu, 23 Apr 2026 14:34:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcPZEHQ2ePgeeD1JO3nqkHDxu5XWd53XZ8GsPxgX5Gl3vY-isf7bdT1_8ZGbMGOwic5gJKYXp0G5rIiSacQvidnb3_voREgqsyanhwo0uQs1HLNXACrsV2tLmHXlxA4FizErdbwb5o35MEDIrZKMkDsAAzIVPt0g6pTMbsZSN7SIwTEozmgX7MO26XxapY/s1600/chinese-hacking.jpg"
+    },
+    {
+      "title": "Vercel Finds More Compromised Accounts in Context.ai-Linked Breach",
+      "link": "https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html",
+      "description": "Vercel on Wednesday revealed that it has identified an additional set of customer accounts that were compromised as part of a security incident that enabled unauthorized access to its internal syst...",
+      "pub_date": "Thu, 23 Apr 2026 14:10:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzwM3USZlfhbZvEZWWJp8Qa4g-UzetuH1vkGUsyr3Ju00B8gC8z791k1Gv-WZ_pMB1VQtX1xLFj-ETJg33razqLHCpoOzMcbb65ucw8jruZ_ltVmaO4bky9WmoFSXfgquEn8HVbLx_I02h0BDOXPBn61_jdnRYKSleCpfUR8G4pkEpsn592IvR3D3qgt0X/s1600/vercel-breach.jpg"
+    },
     {
       "title": "Apple Patches iOS Flaw That Stored Deleted Signal Notifications in FBI Forensic Case",
       "link": "https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html",
@@ -112,22 +144,6 @@
       "pub_date": "Wed, 22 Apr 2026 23:03:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIdq7inTckksldfLXx5JPM1spcmvj-W0C5jvCNGSfvUlWfhmFERkPhE9WNRTkTib4uZFsKKn2lBvxnhsZbEaOnGKI4pkSKu8kpyBn7VEsY3BbVN5ZklAoliWNZC-b526mJbr5xiYxKwRFXB8pnV2K-H5ww5mG3_1GrWjgvrsnqJ2EJu1gZJ15-D29njRY9/s1600/npm.jpg"
-    },
-    {
-      "title": "Claude Mythos AI Model Uncovers 271 Zero-Day Vulnerabilities in Firefox",
-      "link": "https://cybersecuritynews.com/claude-mythos-271-zero-days/",
-      "description": "Anthropic\u0026#8217;s latest frontier AI model, Claude Mythos Preview, has identified a staggering 271 zero-day vulnerabilities in Mozilla Firefox marking a seismic shift in AI-powered cybersecurity de...",
-      "pub_date": "Wed, 22 Apr 2026 17:01:10 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Mythos-271-Zero-Days.webp"
-    },
-    {
-      "title": "New Auraboros RAT Exposes Live Audio Streaming, Keylogging, and Cookie Hijacking in Open C2 Panel",
-      "link": "https://cybersecuritynews.com/new-auraboros-rat-exposes-live-audio-streaming-keylogging/",
-      "description": "A previously undocumented remote access trojan (RAT) framework called Auraboros C2 has surfaced, exposing an alarming level of open access to victim data, live surveillance capabilities, and browse...",
-      "pub_date": "Wed, 22 Apr 2026 16:31:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Auraboros-RAT-Exposes-Live-Audio-Streaming-Keylogging-and-Cookie-Hijacking-in-Open-C2-Panel.webp"
     },
     {
       "title": "Harvester Deploys Linux GoGra Backdoor in South Asia Using Microsoft Graph API",
@@ -304,22 +320,6 @@
       "pub_date": "Tue, 21 Apr 2026 18:30:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZct3ObvKWOQuvm1iZXNZ2nc7pHglILHvCbnLW1HDwUNdkgjuBap_OEBwgsXuxXBkIqmlYLgcccvPt28Knlm3jG5B3MOsXk40-bBUlhVLU3BqjWwSlxuSbiyfwHj-S15tikmwmgH37VhkaM5lMC2sL7bod_uOo0VxatuOekhYxdmkci38SzbsnZHkN-ho/s1600/boosters.jpg"
-    },
-    {
-      "title": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
-      "link": "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
-      "description": "Cybersecurity researchers have discovered a new iteration of an Android malware family called\u0026nbsp;NGate\u0026nbsp;that has been found to abuse a legitimate application called\u0026nbsp;HandyPay instead of N...",
-      "pub_date": "Tue, 21 Apr 2026 18:15:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcErEs-NVQwFX9tnOmYqQrfDjLm6WUB5jr8ltsA6bMOlVwmDwzBb5RbYAidS2jxdCPQ9RJtsgl453b7KbY8z_6tOjs0VIA7vF8LjM2OJqkZW8c1IM6TYwToxxp4dk8O0KiozATn5L4U40n2HK-Nya7tcimt1exRy9ZtYnri0XyMuM55W5AbC_8EAE0oDQC/s1600/android-nfc.jpg"
-    },
-    {
-      "title": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
-      "link": "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
-      "description": "The cybersecurity industry has spent the last several years chasing sophisticated threats like zero-days, supply chain compromises, and AI-generated exploits. However, the most reliable entry point...",
-      "pub_date": "Tue, 21 Apr 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin_RithPNlLYdgxg906-M63Q0-Kv83Kl-WNjK8x5OjKiSgcDMaljvqb7XkLPoEeUDEMRdi4Cqh9DH-pv9QP1ViNjUi3q3qn5r_Lig04a3zO9TgkgiQqSLC50mE6q-6hr94bo4UnXnP5QksLGeAgSOemxUOZaXIw9Z2UHpZuinm7pqF9N0xtJNVovfojx0/s1600/door.jpg"
     },
     {
       "title": "ZDI-26-295: (0Day) PublicCMS getXml Server-Side Request Forgery Information Disclosure Vulnerability",
