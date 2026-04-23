@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-23T17:11:42Z",
+  "last_updated": "2026-04-23T18:58:18Z",
   "articles": [
+    {
+      "title": "AI-Assisted Lazarus Campaign Targets Developers With Backdoored Coding Challenges",
+      "link": "https://cybersecuritynews.com/ai-assisted-lazarus-campaign-targets/",
+      "description": "A North Korean state-sponsored threat group is running an active campaign that tricks software developers into installing malware through fake job interviews and rigged coding tests. The group, tra...",
+      "pub_date": "Thu, 23 Apr 2026 18:16:15 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/AI-Assisted-Lazarus-Campaign-Targets-Developers-With-Backdoored-Coding-Challenges.webp"
+    },
+    {
+      "title": "UNC6692 Impersonates IT Helpdesk via Microsoft Teams to Deploy SNOW Malware",
+      "link": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
+      "description": "A previously undocumented threat activity cluster known as UNC6692 has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts....",
+      "pub_date": "Thu, 23 Apr 2026 23:46:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHoBLtF5qmS63UuZJdrs4DtwoJRc6V3OK_4vUjCp-mHUs99AlJkzxcQgZH-tD0dFneYJHfBEumdGw42jcqcYHYiqmNHBtHZVB7m83pxPakcbupcdcRmDzg2fedK4doHPUwOfGoqY2a44VUwgK1g8cyZSgpMmpzcbWuBrzxvdalA9bkt8_26WkdIfZy6qqa/s1600/helpdesk.jpg"
+    },
     {
       "title": "Bitwarden CLI Compromised in Supply Chain Attack via GitHub Actions",
       "link": "https://cybersecuritynews.com/bitwarden-cli-compromised/",
@@ -186,14 +202,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Apple-Fixes-Notification-Privacy-Flaw.webp"
     },
     {
-      "title": "Checkmarx KICS Official Docker Repo Compromised to Inject Malicious Code",
-      "link": "https://cybersecuritynews.com/checkmarx-kics-compromised/",
-      "description": "A significant supply chain attack targeting the official checkmarx/kics Docker Hub repository, where threat actors pushed trojanized images capable of harvesting and exfiltrating sensitive develope...",
-      "pub_date": "Thu, 23 Apr 2026 01:00:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Checkmarx-KICS-Compromised.webp"
-    },
-    {
       "title": "Apple fixes bug that let the FBI recover deleted Signal messages",
       "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
       "description": "Apple has released out-of-band security updates for iPhone and iPad devices to fix a Notification Services flaw that could allow notifications marked for deletion to remain stored on the device. [...]",
@@ -312,14 +320,6 @@
       "pub_date": "Wed, 22 Apr 2026 13:28:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQHPkb7rlS_ueovJaV3s5KxgSQFfHhuZhvW8R8L9wG8j-trZvnmusj4EGvkOPah_XSqgJDLIiRWozv7RtA3o_1VaHYWnaH77PH2kOg2FYkc60uIc6WTf6frjbUp3IwhtB038_wojAl7G5OxcC4aSy5kLF48ssz_3xqLCD7bDbg6_i-RdY8tLvjxlj4Xc0o/s1600/indian-banks.jpg"
-    },
-    {
-      "title": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape",
-      "link": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
-      "description": "A critical security vulnerability has been disclosed in a Python-based sandbox called Terrarium that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-5752, is rated ...",
-      "pub_date": "Wed, 22 Apr 2026 12:46:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQ3NMjiDO5jGFykZtDgbq7FvB0nT8CMXMucn5cumu_V80blg8Wt6cklpQnCeG-EuX6oGvqmQKRJxFlmynTBatMk0zgDDsdurGDcs5rXScEF_jVNV10bEqJSJcj5YsAtLS_Pag8LRPrUZr4w9M-JJldxaYYMxtf3zrGia8QjUq-PtjLk_g4-qkkINXx4uGY/s1600/sandbox.jpg"
     },
     {
       "title": "ZDI-26-295: (0Day) PublicCMS getXml Server-Side Request Forgery Information Disclosure Vulnerability",
@@ -538,6 +538,14 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-39987 Marimo Remote Code Execution Vulnerability  This...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "FIRESTARTER Backdoor",
       "link": "https://www.cisa.gov/news-events/analysis-reports/ar26-113a",
       "description": "Malware Analysis Report at a Glance    Malware Name FIRESTARTER   Original Publication April 23, 2026   Executive Summary  The Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sam...",
@@ -629,14 +637,6 @@
       "title": "SenseLive X3050",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-12",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to take complete control of the device. The following versions of SenseLive X3050 are affected:  X3050 V1....",
-      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens SCALANCE",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-07",
-      "description": "View CSAF Summary SCALANCE W-700 IEEE 802.11n family before V6.6.0 are affected by multiple vulnerabilities. Siemens has released a new version for SCALANCE W-700 IEEE 802.11n family and recommends...",
       "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
