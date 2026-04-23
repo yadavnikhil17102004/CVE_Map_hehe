@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-04-23T18:58:18Z",
+  "last_updated": "2026-04-23T20:06:05Z",
   "articles": [
+    {
+      "title": "North Korean Hackers Use Fake IT Worker Scheme to Infiltrate Companies and Evade Sanctions",
+      "link": "https://cybersecuritynews.com/north-korean-hackers-use-fake-it-worker-scheme/",
+      "description": "North Korea has been running one of the most quietly effective cyber fraud operations in recent years. State-sponsored operatives working for the Pyongyang regime have been posing as legitimate rem...",
+      "pub_date": "Thu, 23 Apr 2026 19:48:03 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/North-Korean-Hackers-Use-Fake-IT-Worker-Scheme-to-Infiltrate-Companies-and-Evade-Sanctions.webp"
+    },
+    {
+      "title": "Malicious npm Package Turns Hugging Face Into Malware CDN and Exfiltration Backend",
+      "link": "https://cybersecuritynews.com/malicious-npm-package-turns-hugging-face/",
+      "description": "A rogue npm package named js-logger-pack has been caught quietly turning Hugging Face, a widely trusted AI model hosting platform, into both a malware delivery network and a stolen data storage b...",
+      "pub_date": "Thu, 23 Apr 2026 19:30:03 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Malicious-npm-Package-Turns-Hugging-Face-Into-Malware-CDN-and-Exfiltration-Backend.webp"
+    },
+    {
+      "title": "Bitwarden CLI npm package compromised to steal developer credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/",
+      "description": "The Bitwarden CLI was briefly compromised after attackers uploaded a malicious @bitwarden/cli package to npm containing a credential-stealing payload capable of spreading to other projects. [...]",
+      "pub_date": "Thu, 23 Apr 2026 15:21:01 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Trigona ransomware attacks use custom exfiltration tool to steal data",
+      "link": "https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/",
+      "description": "Recently observed Trigona ransomware attacks are using a custom, command-line tool to steal data from compromised environments faster and more efficiently. [...]",
+      "pub_date": "Thu, 23 Apr 2026 14:59:39 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "AI-Assisted Lazarus Campaign Targets Developers With Backdoored Coding Challenges",
       "link": "https://cybersecuritynews.com/ai-assisted-lazarus-campaign-targets/",
@@ -186,22 +218,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8iikjICH9h-OY06K3jZBcEcwtWEuusLcRgwG1T5SvE39V2ZfqSe7Z7N3NFXzfxgYicI_yo8bvme9f4RYazoU-5dUmoTKJMgdmW38AuWgFEWKNBTxgqQJAgpwZUOS926Ue1qCGUW7ou2wStgU-vRsle4Ky8pcp2I2mT_Sm3eyUw__JZaO-BrBZ80z3Zhvx/s1600/apple-signal.jpg"
     },
     {
-      "title": "Critical Pack2TheRoot Vulnerability Let Attackers Gain Root Access or Compromise the System",
-      "link": "https://cybersecuritynews.com/pack2theroot-vulnerability/",
-      "description": "A high-severity privilege escalation vulnerability, dubbed Pack2TheRoot (CVE-2026-41651, CVSS 3.1: 8.8), has been publicly disclosed by Deutsche Telekom\u0026#8217;s Red Team, affecting multiple major L...",
-      "pub_date": "Thu, 23 Apr 2026 06:51:09 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Pack2TheRoot-Vulnerability.webp"
-    },
-    {
-      "title": "Apple Fixes Notification Privacy Flaw That Allowed FBI to Access Deleted Signal Messages",
-      "link": "https://cybersecuritynews.com/apple-fixes-notification-privacy-flaw/",
-      "description": "Apple released iOS 26.4.2 and iPadOS 26.4.2 on April 22, 2026, to patch a critical notification privacy vulnerability that allowed law enforcement to extract Signal message content from iPhones —...",
-      "pub_date": "Thu, 23 Apr 2026 05:56:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Apple-Fixes-Notification-Privacy-Flaw.webp"
-    },
-    {
       "title": "Apple fixes bug that let the FBI recover deleted Signal messages",
       "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
       "description": "Apple has released out-of-band security updates for iPhone and iPad devices to fix a Notification Services flaw that could allow notifications marked for deletion to remain stored on the device. [...]",
@@ -274,14 +290,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft Teams to get efficiency mode on PCs with limited resources",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-gets-efficiency-mode-for-hardware-constrained-devices/",
-      "description": "Microsoft is preparing to roll out a new Efficiency Mode for Microsoft Teams for systems with limited CPU and memory resources to improve app responsiveness. [...]",
-      "pub_date": "Wed, 22 Apr 2026 08:24:38 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack",
       "link": "https://thehackernews.com/2026/04/lotus-wiper-malware-targets-venezuelan.html",
       "description": "Cybersecurity researchers have discovered a previously undocumented data wiper that has been used in attacks targeting Venezuela at the end of last year and the start of 2026. Dubbed Lotus Wiper, t...",
@@ -296,14 +304,6 @@
       "pub_date": "Wed, 22 Apr 2026 16:11:36 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeaSL6v6uahfzJpHJb0ATKZ7cbexnfYIayT74IyU1S-7f3T-4gfnWowlobm5RH4ZYrsIdeNq_OOHGxp2LbU-aELaO9RbYa15MfKN38-ZQPGhrgH0PYCsVIucG95SSw-WCzzo9eUhITn4A3txsa8H59XhTcAaOObC0r-Es_7i0RH8aDo_qhZ45MfaOTVF2t/s1600/reco.png"
-    },
-    {
-      "title": "Microsoft traces Universal Print issues to Graph API code change",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-graph-api-code-change-causes-universal-print-share-issues/",
-      "description": "Microsoft says that an ongoing Universal Print sharing issue that prevents users from creating some printer shares is due to a Microsoft Graph API code change. [...]",
-      "pub_date": "Wed, 22 Apr 2026 06:15:09 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug",
@@ -567,7 +567,7 @@
       "description": "Defending against china-nexus covert networks of compromised devices executive summary Defending against China-nexus covert networks of compromised devices\u0026nbsp; Explaining the widespread shift i...",
       "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
-      "image_url": "https://www.cisa.gov/sites/default/files/styles/large/public/2026-04/A%20diagram%20illustrating%20the%20basic%20setup%20of%20a%20covert%20network..png?itok=3Bfm4nKj"
+      "image_url": "/sites/default/files/styles/large/public/2026-04/A%20diagram%20illustrating%20the%20basic%20setup%20of%20a%20covert%20network..png?itok=3Bfm4nKj"
     },
     {
       "title": "Milesight Cameras",
