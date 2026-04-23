@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-23T10:17:15Z",
+  "last_updated": "2026-04-23T11:55:41Z",
   "articles": [
+    {
+      "title": "CISA orders feds to patch BlueHammer flaw exploited as zero-day",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/",
+      "description": "CISA has ordered U.S. federal agencies to patch a Microsoft Defender privilege escalation flaw (dubbed BlueHammer) that has been exploited in zero-day attacks. [...]",
+      "pub_date": "Thu, 23 Apr 2026 07:05:57 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Teams Rolls Out Efficiency Mode to Optimize Performance on Low-End Devices",
+      "link": "https://cybersecuritynews.com/microsoft-teams-efficiency-mode/",
+      "description": "Microsoft is set to introduce Efficiency Mode in Microsoft Teams, a performance-enhancing feature designed to improve app responsiveness and meeting quality on hardware-constrained devices. The rol...",
+      "pub_date": "Thu, 23 Apr 2026 10:24:18 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Teams-Efficiency-Mode.webp"
+    },
     {
       "title": "Vercel Confirms Security Breach – Set of Customer Account Compromised",
       "link": "https://cybersecuritynews.com/vercel-confirms-security-breach/",
@@ -34,7 +50,7 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzwM3USZlfhbZvEZWWJp8Qa4g-UzetuH1vkGUsyr3Ju00B8gC8z791k1Gv-WZ_pMB1VQtX1xLFj-ETJg33razqLHCpoOzMcbb65ucw8jruZ_ltVmaO4bky9WmoFSXfgquEn8HVbLx_I02h0BDOXPBn61_jdnRYKSleCpfUR8G4pkEpsn592IvR3D3qgt0X/s1600/vercel-breach.jpg"
     },
     {
-      "title": "Apple Patches iOS Flaw That Stored Deleted Signal Notifications in FBI Forensic Case",
+      "title": "Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages",
       "link": "https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html",
       "description": "Apple has rolled out a software fix for iOS and iPadOS to address a Notification Services flaw that stored notifications marked for deletion on the device. The vulnerability, tracked as CVE-2026-28...",
       "pub_date": "Thu, 23 Apr 2026 13:36:00 +0530",
@@ -128,14 +144,6 @@
       "pub_date": "Wed, 22 Apr 2026 23:25:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimocxAyADkuC5qBKZquZhHtUaDSArR1yrr0eRW7dQ_qo4yJpHxj2VYF0qQBxxYfhwOv5g3PJ6raoVwGHrns8DiRFppR_OPFhc2NUoVxlMc0W3fwVyR8J0daGZ_a8IOSuqL1kXJmY6Sj1bvqJ7OwkZfJQB2Cha4WldeRwCcAopoTllcER15ca3eFwsibt6i/s1600/kics.jpg"
-    },
-    {
-      "title": "Microsoft Warns Jasper Sleet Uses Fake IT Worker Identities to Infiltrate Cloud Environments",
-      "link": "https://cybersecuritynews.com/microsoft-warns-jasper-sleet-uses-fake-it-worker-identities/",
-      "description": "A North Korea-linked threat group is quietly getting hired by real companies. Jasper Sleet, a threat actor tied to North Korea, has been building fake professional identities and using them to land...",
-      "pub_date": "Wed, 22 Apr 2026 17:44:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Warns-Jasper-Sleet-Uses-Fake-IT-Worker-Identities-to-Infiltrate-Cloud-Environments.webp"
     },
     {
       "title": "Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens",
@@ -302,14 +310,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/stopping-fraud-at-each-stage-of-the-customer-journey-without-adding-friction/",
       "description": "Fraud prevention and user experience don't have to be a tradeoff. IPQS shows how combining identity, device, and network signals stops fraud without adding friction. [...]",
       "pub_date": "Tue, 21 Apr 2026 10:02:12 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "UK probes Telegram, teen chat sites over CSAM sharing concerns",
-      "link": "https://www.bleepingcomputer.com/news/security/uk-probes-telegram-teen-chat-sites-over-csam-sharing-concerns/",
-      "description": "Ofcom, the United Kingdom's independent communications regulator, has launched an investigation into Telegram based on evidence suggesting it's being used to share child sexual abuse material (CSAM...",
-      "pub_date": "Tue, 21 Apr 2026 09:49:10 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -522,6 +522,14 @@
       "image_url": "https://github.blog/wp-content/uploads/2025/12/fuzz1.png?resize=1024%2C425"
     },
     {
+      "title": "Defending Against China-Nexus Covert Networks of Compromised Devices",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
+      "description": "Defending against china-nexus covert networks of compromised devices executive summary Defending against China-nexus covert networks of compromised devices\u0026nbsp; Explaining the widespread shift i...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": "https://www.cisa.gov/sites/default/files/styles/large/public/2026-04/A%20diagram%20illustrating%20the%20basic%20setup%20of%20a%20covert%20network..png?itok=3Bfm4nKj"
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33825 Microsoft Defender Insufficient Granularity of A...",
@@ -586,9 +594,9 @@
       "image_url": ""
     },
     {
-      "title": "Siemens SINEC NMS",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-03",
-      "description": "View CSAF Summary Siemens SINEC NMS when used with User Management Component (UMC) contains an authentication bypass vulnerability due to insufficient validation of user identity. This could allow ...",
+      "title": "Siemens Industrial Edge Management",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-11",
+      "description": "View CSAF Summary Industrial Edge Management contains an authorization bypass vulnerability that could be exploited by an unauthenticated remote attacker to circumvent authentication and to access ...",
       "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -603,16 +611,8 @@
     },
     {
       "title": "Siemens SINEC NMS",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-09",
-      "description": "View CSAF Summary SINEC NMS before V4.0 SP3 contains an Authorization Bypass vulnerability that could allow an attacker to bypass authorization checks, leading to the ability to reset the password ...",
-      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Industrial Edge Management",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-11",
-      "description": "View CSAF Summary Industrial Edge Management contains an authorization bypass vulnerability that could be exploited by an unauthenticated remote attacker to circumvent authentication and to access ...",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-03",
+      "description": "View CSAF Summary Siemens SINEC NMS when used with User Management Component (UMC) contains an authentication bypass vulnerability due to insufficient validation of user identity. This could allow ...",
       "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -626,17 +626,17 @@
       "image_url": ""
     },
     {
-      "title": "CISA Adds Eight Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\u0026nbsp;    CVE-2023-27351 PaperCut NG/MF Improper Authenticat...",
-      "pub_date": "Mon, 20 Apr 26 12:00:00 +0000",
+      "title": "Siemens SINEC NMS",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-09",
+      "description": "View CSAF Summary SINEC NMS before V4.0 SP3 contains an Authorization Bypass vulnerability that could allow an attacker to bypass authorization checks, leading to the ability to reset the password ...",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "​​Supply Chain Compromise Impacts Axios Node Package Manager​ ",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this alert to provide guidance in response to the software supply chain compromise of the Axios node package manager (npm)....",
+      "title": "CISA Adds Eight Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\u0026nbsp;    CVE-2023-27351 PaperCut NG/MF Improper Authenticat...",
       "pub_date": "Mon, 20 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
