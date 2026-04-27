@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-27T14:59:43Z",
+  "last_updated": "2026-04-27T16:43:33Z",
   "articles": [
+    {
+      "title": "FTC: Americans lost over $2.1 billion to social media scams in 2025",
+      "link": "https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/",
+      "description": "The U.S. Federal Trade Commission (FTC) warned of a massive increase in losses from social media scams since 2020, exceeding $2.1 billion in 2025. [...]",
+      "pub_date": "Mon, 27 Apr 2026 12:27:53 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Notepad++ Vulnerability Allows Attackers to Crash Application, Leak Memory Data",
+      "link": "https://cybersecuritynews.com/notepad-vulnerability-crash/",
+      "description": "A security vulnerability has been identified in Notepad++, one of the most widely used open-source text editors among developers and IT professionals. The vulnerability CVE-2026-3008, which could a...",
+      "pub_date": "Mon, 27 Apr 2026 16:06:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Notepad-Vulnerability-Crash.webp"
+    },
+    {
+      "title": "ClickUp’s Hardcoded API Key Exposes 959 Emails from Fortune 500 Giants",
+      "link": "https://cybersecuritynews.com/clickup-hardcoded-api-key-expose/",
+      "description": "A publicly accessible JavaScript file on ClickUp\u0026#8217;s homepage has been silently leaking nearly a thousand corporate and government email addresses, including employees from Fortinet, Home Depot...",
+      "pub_date": "Mon, 27 Apr 2026 15:34:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/ClickUp-Hardcoded-API-Key-Expose.webp"
+    },
+    {
+      "title": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
+      "link": "https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/",
+      "description": "An attacker pushed a malicious version of the popular elementary-data package Python Package Index (PyPI) to steal sensitive developer data and cryptocurrency wallets. [...]",
+      "pub_date": "Mon, 27 Apr 2026 11:17:37 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Critical Gemini CLI Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/gemini-cli-rce-vulnerability/",
+      "description": "Google has fixed a critical security flaw in the Gemini CLI that could allow attackers to execute remote code in certain automated workflows. The issue affects the npm package\u0026#160;@google/gemini-c...",
+      "pub_date": "Mon, 27 Apr 2026 15:13:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Gemini-CLI-Vulnerability-Enables-Remote-Code-Execution-Attacks.webp"
+    },
     {
       "title": "Home security giant ADT data breach affects 5.5 million people",
       "link": "https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/",
@@ -18,12 +58,28 @@
       "image_url": ""
     },
     {
+      "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
+      "link": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
+      "description": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. \"Bas...",
+      "pub_date": "Mon, 27 Apr 2026 19:49:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWLDpoCXOE_C970Jb9YXSPl2DIDXlL2K2ZDch28huIDzQhLoliuasxjBz3mmCWcDe2u136HN7pDJUu0XBjVkgP6lQJSQTRL4VU_jqhXNwQyb8xLdDD8-9WKQxGp7eT_7WzNpqYPplV1nvvSF5cPwsT3q88d-52g7iU_hP9pxCoU5muOhBTqnTHgGl8Scr8/s1600/Checkmarx.jpg"
+    },
+    {
       "title": "Medtronic confirms breach after hackers claim 9 million records theft",
       "link": "https://www.bleepingcomputer.com/news/security/medtronic-confirms-breach-after-hackers-claim-9-million-records-theft/",
       "description": "Medical device giant Medtronic disclosed last week that hackers breached its network and accessed data in \"certain corporate IT systems.\" [...]",
       "pub_date": "Mon, 27 Apr 2026 09:50:42 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking \u0026 More",
+      "link": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
+      "description": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed ho...",
+      "pub_date": "Mon, 27 Apr 2026 19:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1eEqmWavzJwy68cdm3DB_l6dZO3ja-RjrtStTMh8_AA5AwWVDhwqEHJIYOPo98lAQ1yDrMZL1Yl2LxeSbk25vsQQI7csJuilXZRo-frfCj9ULE507sQBgvEBM0Y_RkYAWtUteoShXMRAD70JhGRjah1cBzZCew3meQp5xP5-Jv72-ZI4veiUa-aJnMYAK/s1600/cybrecap.jpg"
     },
     {
       "title": "New Vidar Malware Campaign Uses Fake YouTube Software Downloads to Steal Corporate Credentials",
@@ -130,30 +186,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/ClickFix-Attack-Replaces-PowerShell-With-Cmdkey-and-Remote-Regsvr32-Payload-Delivery.webp"
     },
     {
-      "title": "Microsoft Outlook.com Issue Blocks Users From Accessing Emails",
-      "link": "https://cybersecuritynews.com/microsoft-outlook-com-issue-blocks-users/",
-      "description": "Microsoft has acknowledged a service degradation affecting Outlook.com, with users reporting difficulties accessing the platform as of Monday, April 27, 2026. The company\u0026#8217;s official Microsoft...",
-      "pub_date": "Mon, 27 Apr 2026 10:33:56 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Outlook.com-Issue-Blocks-Users.webp"
-    },
-    {
-      "title": "Microsoft Officially Shares Group Policy to Remove Windows 11 Copilot from Enterprise Devices",
-      "link": "https://cybersecuritynews.com/windows-11-copilot-remove/",
-      "description": "Microsoft has officially released a new Group Policy setting that allows IT administrators to silently uninstall the Microsoft Copilot app from managed Windows 11 devices, a move that signals a bro...",
-      "pub_date": "Mon, 27 Apr 2026 10:09:05 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-11-Copilot-Remove.webp"
-    },
-    {
-      "title": "Microsoft Store App Vibing.exe Allegedly Harvested Screens, Audio, and Clipboard Content",
-      "link": "https://cybersecuritynews.com/microsoft-store-app-vibing-exe-allegedly-harvested/",
-      "description": "A suspicious executable named Vibing.exe on the Microsoft Store has sparked major privacy and security alarms among cybersecurity researchers. Marketed as an interface to the \u0026#8220;AI-native world...",
-      "pub_date": "Mon, 27 Apr 2026 09:02:46 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Store-App-Vibing.exe-Allegedly-Harvested-Screens-Audio-and-Clipboard-Content.webp"
-    },
-    {
       "title": "Fake CAPTCHA IRSF Scam and 120 Keitaro Campaigns Drive Global SMS, Crypto Fraud",
       "link": "https://thehackernews.com/2026/04/fake-captcha-irsf-scam-and-120-keitaro.html",
       "description": "Cybersecurity researchers have disclosed details of a telecommunications fraud campaign that uses fake CAPTCHA verification tricks to dupe unsuspecting users into sending international text message...",
@@ -234,22 +266,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft to roll out Entra passkeys on Windows in late April",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-roll-out-entra-passkeys-on-windows-in-late-april/",
-      "description": "Microsoft will roll out passkey support for phishing-resistant passwordless authentication to Microsoft Entra‑protected resources from Windows devices starting late April. [...]",
-      "pub_date": "Fri, 24 Apr 2026 14:13:55 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "New ‘Pack2TheRoot’ flaw gives hackers root Linux access",
-      "link": "https://www.bleepingcomputer.com/news/security/new-pack2theroot-flaw-gives-hackers-root-linux-access/",
-      "description": "A new vulnerability dubbed Pack2TheRoot could be exploited in the PackageKit daemon to allow local Linux users to install or remove system packages and gain root permissions. [...]",
-      "pub_date": "Fri, 24 Apr 2026 13:28:46 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches",
       "link": "https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has revealed that an unnamed federal civilian agency's Cisco Firepower device running Adaptive Security Appliance (ASA) software was...",
@@ -304,22 +320,6 @@
       "pub_date": "Thu, 23 Apr 2026 23:46:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHoBLtF5qmS63UuZJdrs4DtwoJRc6V3OK_4vUjCp-mHUs99AlJkzxcQgZH-tD0dFneYJHfBEumdGw42jcqcYHYiqmNHBtHZVB7m83pxPakcbupcdcRmDzg2fedK4doHPUwOfGoqY2a44VUwgK1g8cyZSgpMmpzcbWuBrzxvdalA9bkt8_26WkdIfZy6qqa/s1600/helpdesk.jpg"
-    },
-    {
-      "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
-      "link": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
-      "description": "Bitwarden CLI, the command-line interface for the password manager Bitwarden, has reportedly been compromised as part of a newly discovered and ongoing Checkmarx supply chain campaign, according to...",
-      "pub_date": "Thu, 23 Apr 2026 19:12:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3GuK50sJwMRH4ad8bcUVRSBm1Wk0X5Gj1dSalza49wWxFY9g3_E32271zOeqx6vsqrWY2SWAVnnXTKiJZvKbhxynk018zLTIlZpBNhFA_QVi6kzn7vATBe419m222ZMUcTToaSn19L4DgElrI9luwUv2EJk0efy5TLDIqIUyGcOnTvVU2KKZw9AMsMipz/s1600/bitwarden.jpg"
-    },
-    {
-      "title": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories",
-      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
-      "description": "You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes. The supply chain is mess...",
-      "pub_date": "Thu, 23 Apr 2026 18:47:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCPlFIV8w3UXOQRe4cwOn8C-x6WYxvZnNAOHSUnzIg8TFswCnJNoyTFJTdzAbl_a6JNCzhbAk4yGQbhI_cjF-FATAAmJJJiLjo2cZgbMQpfhYnrH6MFv6TVEqC3sblGQPViYTDE0o3alqO3YsIzatrw7NwlTkv1g6NkiVegSWKuRuQcajEyNdAUEaTamQ-/s1600/threatsday.jpg"
     },
     {
       "title": "ZDI-26-299: Docker Desktop Enhanced Container Isolation Exposed Dangerous Function Local Privilege Escalation Vulnerability",
@@ -575,7 +575,7 @@
       "description": "Defending against china-nexus covert networks of compromised devices executive summary Defending against China-nexus covert networks of compromised devices\u0026nbsp; Explaining the widespread shift i...",
       "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
-      "image_url": "/sites/default/files/styles/large/public/2026-04/A%20diagram%20illustrating%20the%20basic%20setup%20of%20a%20covert%20network..png?itok=3Bfm4nKj"
+      "image_url": "https://www.cisa.gov/sites/default/files/styles/large/public/2026-04/A%20diagram%20illustrating%20the%20basic%20setup%20of%20a%20covert%20network..png?itok=3Bfm4nKj"
     },
     {
       "title": "Milesight Cameras",
