@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-27T18:01:23Z",
+  "last_updated": "2026-04-27T20:04:28Z",
   "articles": [
+    {
+      "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
+      "link": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
+      "description": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]",
+      "pub_date": "Mon, 27 Apr 2026 16:00:31 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Alleged Silk Typhoon hacker extradited to US for cyberespionage",
+      "link": "https://www.bleepingcomputer.com/news/security/alleged-silk-typhoon-hacker-extradited-to-us-for-cyberespionage/",
+      "description": "A Chinese national accused of carrying out cyberespionage operations for China's intelligence services has been extradited from Italy to the United States to face criminal charges. [...]",
+      "pub_date": "Mon, 27 Apr 2026 15:56:03 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "FTC: Americans lost over $2.1 billion to social media scams in 2025",
       "link": "https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/",
@@ -10,12 +26,36 @@
       "image_url": ""
     },
     {
+      "title": "Notepad++ Vulnerability Allows Attackers to Crash Application, Leak Memory Data",
+      "link": "https://cybersecuritynews.com/notepad-vulnerability-crash/",
+      "description": "A security vulnerability has been identified in Notepad++, one of the most widely used open-source text editors among developers and IT professionals. The vulnerability CVE-2026-3008, which could a...",
+      "pub_date": "Mon, 27 Apr 2026 16:06:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Notepad-Vulnerability-Crash.webp"
+    },
+    {
+      "title": "ClickUp’s Hardcoded API Key Exposes 959 Emails from Fortune 500 Giants",
+      "link": "https://cybersecuritynews.com/clickup-hardcoded-api-key-expose/",
+      "description": "A publicly accessible JavaScript file on ClickUp\u0026#8217;s homepage has been silently leaking nearly a thousand corporate and government email addresses, including employees from Fortinet, Home Depot...",
+      "pub_date": "Mon, 27 Apr 2026 15:34:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/ClickUp-Hardcoded-API-Key-Expose.webp"
+    },
+    {
       "title": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
       "link": "https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/",
       "description": "An attacker pushed a malicious version of the popular elementary-data package Python Package Index (PyPI) to steal sensitive developer data and cryptocurrency wallets. [...]",
       "pub_date": "Mon, 27 Apr 2026 11:17:37 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Critical Gemini CLI Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/gemini-cli-rce-vulnerability/",
+      "description": "Google has fixed a critical security flaw in the Gemini CLI that could allow attackers to execute remote code in certain automated workflows. The issue affects the npm package\u0026#160;@google/gemini-c...",
+      "pub_date": "Mon, 27 Apr 2026 15:13:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Gemini-CLI-Vulnerability-Enables-Remote-Code-Execution-Attacks.webp"
     },
     {
       "title": "Home security giant ADT data breach affects 5.5 million people",
@@ -58,6 +98,22 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1eEqmWavzJwy68cdm3DB_l6dZO3ja-RjrtStTMh8_AA5AwWVDhwqEHJIYOPo98lAQ1yDrMZL1Yl2LxeSbk25vsQQI7csJuilXZRo-frfCj9ULE507sQBgvEBM0Y_RkYAWtUteoShXMRAD70JhGRjah1cBzZCew3meQp5xP5-Jv72-ZI4veiUa-aJnMYAK/s1600/cybrecap.jpg"
     },
     {
+      "title": "New Vidar Malware Campaign Uses Fake YouTube Software Downloads to Steal Corporate Credentials",
+      "link": "https://cybersecuritynews.com/new-vidar-malware-uses-fake-youtube-software-downloads/",
+      "description": "A credential-stealing malware named Vidar has quietly emerged as one of the most active threats targeting corporate employees in early 2026. Threat actors are using fake software downloads promoted...",
+      "pub_date": "Mon, 27 Apr 2026 13:25:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Vidar-Malware-Campaign-Uses-Fake-YouTube-Software-Downloads-to-Steal-Corporate-Credentials.webp"
+    },
+    {
+      "title": "New Malware Uses Obfuscation and Staged Payload Delivery to Evade Detection",
+      "link": "https://cybersecuritynews.com/new-malware-uses-obfuscation-and-staged-payload/",
+      "description": "A newly discovered malware campaign is targeting government employees in Pakistan using carefully crafted spear-phishing emails that combine obfuscation and staged payload delivery to stay hidden f...",
+      "pub_date": "Mon, 27 Apr 2026 13:06:38 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Malware-Uses-Obfuscation-and-Staged-Payload-Delivery-to-Evade-Detection.webp"
+    },
+    {
       "title": "Money launderer linked to $230M crypto heist gets 70 months in prison",
       "link": "https://www.bleepingcomputer.com/news/security/money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison/",
       "description": "​22-year-old Evan Tangeman of Newport Beach, California, was sentenced to 70 months in prison for laundering funds stolen in a massive $230 million cryptocurrency heist. [...]",
@@ -72,6 +128,30 @@
       "pub_date": "Mon, 27 Apr 2026 09:00:09 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Hackers Using Fake Income Tax Department’s Notice to Deploy Malware",
+      "link": "https://cybersecuritynews.com/hackers-using-fake-income-tax-departments-notice/",
+      "description": "A new phishing campaign is actively targeting Indian taxpayers and businesses by impersonating the Income Tax Department of India. Threat actors have built convincing fake websites that look nearly...",
+      "pub_date": "Mon, 27 Apr 2026 12:37:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Using-Fake-Income-Tax-Departments-Notice-to-Deploy-Malware.webp"
+    },
+    {
+      "title": "Researchers Warn macOS textutil and KeePassXC Can Become Attack Primitives in Automation",
+      "link": "https://cybersecuritynews.com/researchers-warn-macos-textutil-and-keepassxc/",
+      "description": "Security researchers have raised a warning about two widely trusted tools, macOS textutil and KeePassXC, showing that both can become dangerous when placed inside automated pipelines that process a...",
+      "pub_date": "Mon, 27 Apr 2026 12:15:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Researchers-Warn-macOS-textutil-and-KeePassXC-Can-Become-Attack-Primitives-in-Automation.webp"
+    },
+    {
+      "title": "EU Proposes Requiring Google to Share User Search Data with Rival Search Engines",
+      "link": "https://cybersecuritynews.com/eu-proposes-google-search-data/",
+      "description": "The European Commission has formally proposed measures requiring Google to share anonymized user search data with rival search engines and AI chatbots, marking a landmark enforcement step under the...",
+      "pub_date": "Mon, 27 Apr 2026 12:08:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/EU-Proposes-Google-Search-Data.webp"
     },
     {
       "title": "Microsoft says Outlook.com outage is causing sign‑in failures",
@@ -98,12 +178,28 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi02vvwkoYlj343usA-GYXcQHZKIceJufKYFzZNyHlsGQ6lCPD8H8bHEWtzBnJsWmnlQsGq0fBLgyKTdnOoEi83L3kQ8V3EOou_vlAmMhnMDFU5P5LxA-Sz1agVhDmFrd2qKHGnYZituJuoAEsHp0ExFR4pw6VCf9VNESl7C4q5Wkefh6_8rN2MDK96yh_a/s1600/russian-cyberattack.jpg"
     },
     {
+      "title": "North Korean Hackers Attacking Drug Companies to Deploy Malware Via Weaponized Excel Files",
+      "link": "https://cybersecuritynews.com/north-korean-hackers-attacking-drug-companies/",
+      "description": "North Korean state-sponsored hackers from the Kimsuky group have launched a targeted campaign against prescription pharmaceutical companies, using a cleverly disguised malware file named White Life...",
+      "pub_date": "Mon, 27 Apr 2026 11:44:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/North-Korean-Hackers-Attacking-Drug-Companies-to-Deploy-Malware-Via-Weaponized-Excel-Files.webp"
+    },
+    {
       "title": "Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware",
       "link": "https://thehackernews.com/2026/04/researchers-uncover-73-fake-vs-code.html",
       "description": "Cybersecurity researchers have flagged dozens of Microsoft Visual Studio Code (VS Code) extensions on the Open VSX repository that are linked to a persistent information-stealing campaign dubbed Gl...",
       "pub_date": "Mon, 27 Apr 2026 16:53:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhptNKAIMY9gm1kv8ULlpPvZh-F4HFaSveiiGCF8qbXkps5m4__rCDykkMAYSG4kg6r1pDv-EDRBTloxLF1yJC5hJJyfrq4J2anUCcgfYP9-nuYuPHh16pC7j0OzTqNvC2TQwbwFcna6nUQ_ZDkZt9NJRi3N3AZnt8qyVsmfans82j_uck31bzBMl4WWdRJ/s1600/vscode.jpg"
+    },
+    {
+      "title": "ClickFix Attack Replaces PowerShell With Cmdkey and Remote Regsvr32 Payload Delivery",
+      "link": "https://cybersecuritynews.com/clickfix-attack-replaces-powershell-with-cmdkey/",
+      "description": "A new and more capable version of the ClickFix attack has been spotted in the wild, and it works a little differently from what security teams have seen before. Instead of relying on PowerShell, at...",
+      "pub_date": "Mon, 27 Apr 2026 11:18:44 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/ClickFix-Attack-Replaces-PowerShell-With-Cmdkey-and-Remote-Regsvr32-Payload-Delivery.webp"
     },
     {
       "title": "Fake CAPTCHA IRSF Scam and 120 Keitaro Campaigns Drive Global SMS, Crypto Fraud",
@@ -174,22 +270,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/",
       "description": "Cybersecurity agencies in the U.S. and U.K. are warning about a custom malware called Firestarter persisting on Cisco Firepower and Secure Firewall devices running Adaptive Security Appliance (ASA)...",
       "pub_date": "Fri, 24 Apr 2026 16:34:08 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Windows Update gets new controls to reduce forced restarts",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-update-gets-new-controls-to-reduce-forced-restarts/",
-      "description": "Microsoft is rolling out Windows Update improvements that give users more control over how updates are installed while reducing disruption from frequent or poorly timed restarts. [...]",
-      "pub_date": "Fri, 24 Apr 2026 16:08:26 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "New BlackFile extortion group linked to surge of vishing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/new-blackfile-extortion-gang-targets-retail-and-hospitality-orgs/",
-      "description": "A new financially motivated hacking group tracked as BlackFile has been linked to a wave of data theft and extortion attacks against retail and hospitality organizations since February 2026. [...]",
-      "pub_date": "Fri, 24 Apr 2026 14:26:27 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
