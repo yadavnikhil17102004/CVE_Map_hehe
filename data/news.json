@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-04-27T10:54:54Z",
+  "last_updated": "2026-04-27T12:17:34Z",
   "articles": [
+    {
+      "title": "Researchers Warn macOS textutil and KeePassXC Can Become Attack Primitives in Automation",
+      "link": "https://cybersecuritynews.com/researchers-warn-macos-textutil-and-keepassxc/",
+      "description": "Security researchers have raised a warning about two widely trusted tools, macOS textutil and KeePassXC, showing that both can become dangerous when placed inside automated pipelines that process a...",
+      "pub_date": "Mon, 27 Apr 2026 12:15:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Researchers-Warn-macOS-textutil-and-KeePassXC-Can-Become-Attack-Primitives-in-Automation.webp"
+    },
+    {
+      "title": "EU Proposes Requiring Google to Share User Search Data with Rival Search Engines",
+      "link": "https://cybersecuritynews.com/eu-proposes-google-search-data/",
+      "description": "The European Commission has formally proposed measures requiring Google to share anonymized user search data with rival search engines and AI chatbots, marking a landmark enforcement step under the...",
+      "pub_date": "Mon, 27 Apr 2026 12:08:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/EU-Proposes-Google-Search-Data.webp"
+    },
+    {
+      "title": "Microsoft says Outlook.com outage is causing sign‑in failures",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-outlookcom-outage-is-causing-sign-in-failures/",
+      "description": "Microsoft is investigating an ongoing Outlook.com outage that is causing intermittent signing issues and preventing customers from accessing their mailboxes. [...]",
+      "pub_date": "Mon, 27 Apr 2026 08:03:46 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side",
+      "link": "https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html",
+      "description": "Anthropic’s Claude Mythos Preview has dominated security discussions since its April 7 announcement. Early reporting describes a powerful cybersecurity-focused AI system capable of identifying vu...",
+      "pub_date": "Mon, 27 Apr 2026 17:28:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiR-gtpmKWvXoC5M5eOQM8k01yoiVjMDTYwRePtuLtpEPMevNdUs3BrVGykkop3OgF-DGCjpXB5T_AS84khCvVv7J-4W-7aE2ND0VuYbnyD8B6l1DUk_TVi96ab977o9i81hIIubY3l5F2A7_Qe4P4-qMTMzwnrvoXYC3cRhBU0X1VpG4F_MwstEGUQYHg/s1600/unnamed.png"
+    },
+    {
+      "title": "PhantomCore Exploits TrueConf Vulnerabilities to Breach Russian Networks",
+      "link": "https://thehackernews.com/2026/04/phantomcore-exploits-trueconf.html",
+      "description": "A pro-Ukrainian hacktivist group called PhantomCore has been attributed to attacks actively targeting servers running TrueConf video conferencing software in Russia since September 2025. That's acc...",
+      "pub_date": "Mon, 27 Apr 2026 17:24:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi02vvwkoYlj343usA-GYXcQHZKIceJufKYFzZNyHlsGQ6lCPD8H8bHEWtzBnJsWmnlQsGq0fBLgyKTdnOoEi83L3kQ8V3EOou_vlAmMhnMDFU5P5LxA-Sz1agVhDmFrd2qKHGnYZituJuoAEsHp0ExFR4pw6VCf9VNESl7C4q5Wkefh6_8rN2MDK96yh_a/s1600/russian-cyberattack.jpg"
+    },
+    {
+      "title": "North Korean Hackers Attacking Drug Companies to Deploy Malware Via Weaponized Excel Files",
+      "link": "https://cybersecuritynews.com/north-korean-hackers-attacking-drug-companies/",
+      "description": "North Korean state-sponsored hackers from the Kimsuky group have launched a targeted campaign against prescription pharmaceutical companies, using a cleverly disguised malware file named White Life...",
+      "pub_date": "Mon, 27 Apr 2026 11:44:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/North-Korean-Hackers-Attacking-Drug-Companies-to-Deploy-Malware-Via-Weaponized-Excel-Files.webp"
+    },
+    {
+      "title": "Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware",
+      "link": "https://thehackernews.com/2026/04/researchers-uncover-73-fake-vs-code.html",
+      "description": "Cybersecurity researchers have flagged dozens of Microsoft Visual Studio Code (VS Code) extensions on the Open VSX repository that are linked to a persistent information-stealing campaign dubbed Gl...",
+      "pub_date": "Mon, 27 Apr 2026 16:53:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhptNKAIMY9gm1kv8ULlpPvZh-F4HFaSveiiGCF8qbXkps5m4__rCDykkMAYSG4kg6r1pDv-EDRBTloxLF1yJC5hJJyfrq4J2anUCcgfYP9-nuYuPHh16pC7j0OzTqNvC2TQwbwFcna6nUQ_ZDkZt9NJRi3N3AZnt8qyVsmfans82j_uck31bzBMl4WWdRJ/s1600/vscode.jpg"
+    },
+    {
+      "title": "ClickFix Attack Replaces PowerShell With Cmdkey and Remote Regsvr32 Payload Delivery",
+      "link": "https://cybersecuritynews.com/clickfix-attack-replaces-powershell-with-cmdkey/",
+      "description": "A new and more capable version of the ClickFix attack has been spotted in the wild, and it works a little differently from what security teams have seen before. Instead of relying on PowerShell, at...",
+      "pub_date": "Mon, 27 Apr 2026 11:18:44 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/ClickFix-Attack-Replaces-PowerShell-With-Cmdkey-and-Remote-Regsvr32-Payload-Delivery.webp"
+    },
     {
       "title": "Microsoft Outlook.com Issue Blocks Users From Accessing Emails",
       "link": "https://cybersecuritynews.com/microsoft-outlook-com-issue-blocks-users/",
@@ -50,14 +114,6 @@
       "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhQvPoBLUE4vXzKXXhf19YMp5sgrwq_YC84uIQ1_u-342PsvMq-CLWCB3ZDU6hOxVIPwByHyI9P5hi6LtqZ-s0OsnhdvoOw0UMlMxfzebRf1hnvCyxUZ6M5reXUz0QXpTuYhBRaYKF_hbxMVh0EH0te8Ha0xsljcXOW9az3rL2BA7juG4nNpf2c_OFdLM/s16000/Best%20NDR%20Solutions.webp?ssl=1"
     },
     {
-      "title": "‘fast16’ Malware with Sabotage Capabilities Attacking Ultra Expensive Targets",
-      "link": "https://cybersecuritynews.com/fast16-malware-with-sabotage-capabilities/",
-      "description": "The fast16 malware is a recently exposed sabotage‑capable threat designed to target extremely high‑value environments and ultra‑expensive systems with precision. It does not behave like commo...",
-      "pub_date": "Mon, 27 Apr 2026 08:04:25 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/fast16-Malware-with-Sabotage-Capabilities-Attacking-Ultra-expensive-Targets.webp"
-    },
-    {
       "title": "Fake CAPTCHA IRSF Scam and 120 Keitaro Campaigns Drive Global SMS, Crypto Fraud",
       "link": "https://thehackernews.com/2026/04/fake-captcha-irsf-scam-and-120-keitaro.html",
       "description": "Cybersecurity researchers have disclosed details of a telecommunications fraud campaign that uses fake CAPTCHA verification tricks to dupe unsuspecting users into sending international text message...",
@@ -66,36 +122,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-cI0h0qDxREUkTFlIqeT_9-QNxJHPv6SqDQXpMs00i8A26QWukWlxtk1iwdZvnar80HiymWGDY9148_CiWIdL2xj-t9xC9KDM-8WdGALuTRxhdZqDcaZf2MG9adEpZLkLqsaA2uMP-3e_E0Ru-A5JSv0_dvEjAAniYpsdS71SCxFVlmB1NhkL20oangQz/s1600/sim-card.jpg"
     },
     {
-      "title": "pentest-ai-agents – 28 Claude Code Subagents for Penetration Testing",
-      "link": "https://cybersecuritynews.com/pentest-ai-agents-tool/",
-      "description": "A new open-source toolkit called pentest-ai-agents is redefining how security professionals leverage AI in penetration testing workflows, transforming Anthropic\u0026#8217;s Claude Code into a fully spe...",
-      "pub_date": "Mon, 27 Apr 2026 04:35:47 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/pentest-ai-agents.webp"
-    },
-    {
-      "title": "Nessus Agent Vulnerability on Windows Enables Arbitrary Code Execution with SYSTEM Privileges",
-      "link": "https://cybersecuritynews.com/nessus-agent-vulnerability-on-windows/",
-      "description": "A newly disclosed security vulnerability in Tenable\u0026#8217;s Nessus Agent for Windows could allow attackers to execute malicious code with the highest level of system privileges, raising serious con...",
-      "pub_date": "Mon, 27 Apr 2026 03:37:07 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Nessus-Agent-Vulnerability-on-Windows.webp"
-    },
-    {
       "title": "American utility firm Itron discloses breach of internal IT network",
       "link": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
       "description": "Itron, Inc. has disclosed, via an 8-K filing with the U.S. Securities and Exchange Commission (SEC), a cybersecurity incident in which an unauthorized third party accessed certain internal systems....",
       "pub_date": "Sun, 26 Apr 2026 10:22:34 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "73 Open VSX Sleeper Extensions Linked to GlassWorm Activate New Malware Campaign",
-      "link": "https://cybersecuritynews.com/73-open-vsx-sleeper-extensions-linked-to-glassworm-malware/",
-      "description": "The GlassWorm supply chain attack targeting the Open VSX marketplace has escalated with the discovery of 73 new \u0026#8220;sleeper\u0026#8221; extensions. Identified in April 2026, this cluster marks a dang...",
-      "pub_date": "Sun, 26 Apr 2026 04:29:58 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/73-Open-VSX-Sleeper-Extensions-Linked-to-GlassWorm-Activate-New-Malware-Campaign-1.webp"
     },
     {
       "title": "Microsoft rolls out revamped Windows Insider Program",
@@ -266,14 +298,6 @@
       "image_url": ""
     },
     {
-      "title": "Trigona ransomware attacks use custom exfiltration tool to steal data",
-      "link": "https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/",
-      "description": "Recently observed Trigona ransomware attacks are using a custom, command-line tool to steal data from compromised environments faster and more efficiently. [...]",
-      "pub_date": "Thu, 23 Apr 2026 14:59:39 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "UNC6692 Impersonates IT Help Desk via Microsoft Teams to Deploy SNOW Malware",
       "link": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
       "description": "A previously undocumented threat activity cluster known as UNC6692 has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts....",
@@ -296,30 +320,6 @@
       "pub_date": "Thu, 23 Apr 2026 18:47:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCPlFIV8w3UXOQRe4cwOn8C-x6WYxvZnNAOHSUnzIg8TFswCnJNoyTFJTdzAbl_a6JNCzhbAk4yGQbhI_cjF-FATAAmJJJiLjo2cZgbMQpfhYnrH6MFv6TVEqC3sblGQPViYTDE0o3alqO3YsIzatrw7NwlTkv1g6NkiVegSWKuRuQcajEyNdAUEaTamQ-/s1600/threatsday.jpg"
-    },
-    {
-      "title": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed",
-      "link": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
-      "description": "Imagine a world where hackers don't sleep, don't take breaks, and find weak spots in your systems instantly. Well, that world is already here. Thanks to AI, attackers are now launching automated, l...",
-      "pub_date": "Thu, 23 Apr 2026 17:33:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirgCFjBm7wVU1Nve1GwsT-mX4Fm9C2OB25FN0xsgQxB5H1y0XN-I4TrfFH3f47uWBie1-yNBz_K2tuml0FOagCnaxI5xQvqoVbpzOUU6bCoaBZLohQWPSWF4r2YSEXIQKt3FRdoSXjvAk8OTmysTV4uoPD87y-3Boh7UzcJoUFIQxkmB576KIDMtU0YHDx/s1600/miggo-webinar.jpg"
-    },
-    {
-      "title": "Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?",
-      "link": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
-      "description": "Last week, Anthropic announced Project Glasswing, an AI model so effective at discovering software vulnerabilities that they took the extraordinary step of postponing its public release. Instead, t...",
-      "pub_date": "Thu, 23 Apr 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkzSPo6TkrJjcTvsuM1O71fiiZ7gnKw4PqqtKu_TeAaZNr5qAEfsfVvoZv64F7EFULRIv8SKePHZehY_0g9AqyqlnMdTPF-OLf1S9RwmB-edOgYKEg1Llw-6m87CQBglHxbK3oS0Brnwc9_x_oi56XGuxe1V9vN0KfoY9cUmU4mplEHeqQxO-5byx79YY/s1600/picus-main.jpg"
-    },
-    {
-      "title": "China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors",
-      "link": "https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html",
-      "description": "Mongolian governmental institutions have emerged as the target of a previously undocumented China-aligned advanced persistent threat (APT) group tracked as GopherWhisper. \"The group wields a wide a...",
-      "pub_date": "Thu, 23 Apr 2026 14:34:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcPZEHQ2ePgeeD1JO3nqkHDxu5XWd53XZ8GsPxgX5Gl3vY-isf7bdT1_8ZGbMGOwic5gJKYXp0G5rIiSacQvidnb3_voREgqsyanhwo0uQs1HLNXACrsV2tLmHXlxA4FizErdbwb5o35MEDIrZKMkDsAAzIVPt0g6pTMbsZSN7SIwTEozmgX7MO26XxapY/s1600/chinese-hacking.jpg"
     },
     {
       "title": "ZDI-26-299: Docker Desktop Enhanced Container Isolation Exposed Dangerous Function Local Privilege Escalation Vulnerability",
