@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-04-27T20:04:28Z",
+  "last_updated": "2026-04-27T21:48:57Z",
   "articles": [
+    {
+      "title": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
+      "link": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
+      "description": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]",
+      "pub_date": "Mon, 27 Apr 2026 17:41:01 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
       "link": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
@@ -210,6 +218,38 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-cI0h0qDxREUkTFlIqeT_9-QNxJHPv6SqDQXpMs00i8A26QWukWlxtk1iwdZvnar80HiymWGDY9148_CiWIdL2xj-t9xC9KDM-8WdGALuTRxhdZqDcaZf2MG9adEpZLkLqsaA2uMP-3e_E0Ru-A5JSv0_dvEjAAniYpsdS71SCxFVlmB1NhkL20oangQz/s1600/sim-card.jpg"
     },
     {
+      "title": "ZDI-26-304: Foxit PDF Reader AcroForm Annotation Use-After-Free Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-304/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target mus...",
+      "pub_date": "Mon, 27 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-303: Foxit PDF Reader AcroForm Signature Use-After-Free Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-303/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the ta...",
+      "pub_date": "Mon, 27 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-302: Foxit PDF Reader AcroForm Signature Use-After-Free Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-302/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target mus...",
+      "pub_date": "Mon, 27 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-301: Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-301/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target mus...",
+      "pub_date": "Mon, 27 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
       "title": "ZDI-26-300: Flowise AccountService resetPassword Authentication Bypass Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-300/",
       "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Flowise. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS r...",
@@ -262,14 +302,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/",
       "description": "Home security giant ADT has confirmed a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]",
       "pub_date": "Fri, 24 Apr 2026 18:53:14 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Firestarter malware survives Cisco firewall updates, security patches",
-      "link": "https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/",
-      "description": "Cybersecurity agencies in the U.S. and U.K. are warning about a custom malware called Firestarter persisting on Cisco Firepower and Secure Firewall devices running Adaptive Security Appliance (ASA)...",
-      "pub_date": "Fri, 24 Apr 2026 16:34:08 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -405,38 +437,6 @@
       "title": "ZDI-26-290: NI LabVIEW LVLIB File Parsing Memory Corruption Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-290/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NI LabVIEW. User interaction is required to exploit this vulnerability in that the target must visi...",
-      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-289: Linux Kernel ETS Scheduler Race Condition Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-289/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
-      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-288: DriveLock Directory Traversal Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-288/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of DriveLock. Authentication is required to exploit this vulnerability. The ZDI has assigned a...",
-      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-287: DriveLock Directory Traversal Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-287/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of DriveLock. Authentication is not required to exploit this vulnerability. The ZDI has assign...",
-      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-286: DriveLock SQL Injection Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-286/",
-      "description": "This vulnerability allows remote attackers to escalate privileges on affected installations of DriveLock. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS ratin...",
       "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
