@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-04-28T05:51:53Z",
+  "last_updated": "2026-04-28T08:10:24Z",
   "articles": [
+    {
+      "title": "Popular PyPI Package With 1 Million Monthly Downloads Hacked to Inject Malicious Scripts",
+      "link": "https://cybersecuritynews.com/pypi-package-hacked-with-malware/",
+      "description": "A major software supply chain attack has compromised the popular Python package\u0026#160;elementary-data, exposing thousands of developers to massive credential theft. Threat actors successfully pushed...",
+      "pub_date": "Tue, 28 Apr 2026 08:06:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Popular-PyPI-Package-With-1-Million-Monthly-Downloads-Hacked-to-Inject-Malicious-Scripts-1-1.webp"
+    },
+    {
+      "title": "Windows Remote Desktop Leaves Behind Image Fragments Attackers Can Stitch Into Screenshots",
+      "link": "https://cybersecuritynews.com/windows-remote-desktop-image-fragments/",
+      "description": "Whenever someone uses Windows Remote Desktop, the operating system quietly saves visual fragments of the active session. As recently highlighted by SCYTHE Labs, attackers can easily extract these b...",
+      "pub_date": "Tue, 28 Apr 2026 07:54:06 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-Remote-Desktop-Image-Fragments.webp"
+    },
+    {
+      "title": "Multiple OpenClaw Vulnerabilities Enables Policy Bypass and Host Override",
+      "link": "https://cybersecuritynews.com/openclaw-vulnerabilities/",
+      "description": "Cybersecurity researchers have recently disclosed three moderate-severity vulnerabilities in OpenClaw, an AI agent framework previously known as Clawdbot and Moltbot. Distributed as an npm package,...",
+      "pub_date": "Tue, 28 Apr 2026 07:48:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Multiple-OpenClaw-Vulnerabilities-Enables-Policy-Bypass-and-host-override-.webp"
+    },
+    {
+      "title": "Linux ELF Malware Generator Evades ML Detection With Semantic-Preserving Changes",
+      "link": "https://cybersecuritynews.com/linux-elf-malware-generator/",
+      "description": "Researchers from the Czech Technical University in Prague have developed a new adversarial malware generator targeting Linux ELF binaries. It achieves a 67.74% evasion rate against ML-based malware...",
+      "pub_date": "Tue, 28 Apr 2026 07:46:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Linux-ELF-Malware-Generator-Evades-ML-Detection-With-Semantic-Preserving-Changes.webp"
+    },
+    {
+      "title": "OilRig Hides C2 Configuration in Google Drive Image Using LSB Steganography",
+      "link": "https://cybersecuritynews.com/oilrig-hides-c2-configuration/",
+      "description": "A well-known Iranian state-sponsored hacking group called OilRig, also tracked as APT34 and Helix Kitten, has been found hiding its command-and-control (C2) server configuration inside a regular-lo...",
+      "pub_date": "Tue, 28 Apr 2026 07:13:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/OilRig-Hides-C2-Configuration-in-Google-Drive-Image-Using-LSB-Steganography.webp"
+    },
+    {
+      "title": "New Android Banking Malware Abuses Fake KYC Workflow and WhatsApp Delivery to Hijack Accounts",
+      "link": "https://cybersecuritynews.com/new-android-banking-malware-abuses-fake-kyc/",
+      "description": "A new Android banking malware, tracked as KYCShadow, was discovered targeting bank customers across India through a carefully designed fake Know Your Customer (KYC) verification workflow. Distribut...",
+      "pub_date": "Tue, 28 Apr 2026 06:46:58 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Android-Banking-Malware-Abuses-Fake-KYC-Workflow-and-WhatsApp-Delivery-to-Hijack-Accounts.webp"
+    },
+    {
+      "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
+      "link": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
+      "description": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silver...",
+      "pub_date": "Tue, 28 Apr 2026 12:07:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4YomH2AGnUSAePfyyvEMXCbULukirvclzEJ6gnsm30Y2PApuarWfCLpKrBng3qYhhINWPwn99rVtdqKcEtbnVR9jkXkpBY-vDByDzMmZgLPPPrqyodmgqBCfR3ojF1tbyaFHQxIdr8voZgDugagnBymAchRR99uUm_0btEdWYeir8B6njw6Q1lPTcugcB/s1600/azure.jpg"
+    },
+    {
+      "title": "Fake Document Reader On Google Play With 10K Downloads Installing Anatsa Malware",
+      "link": "https://cybersecuritynews.com/fake-document-reader-on-google-play/",
+      "description": "A new fake document reader app found on the Google Play Store has been silently installing Anatsa, a powerful Android banking trojan, on thousands of user devices. The malicious application surpass...",
+      "pub_date": "Tue, 28 Apr 2026 05:56:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Fake-Document-Reader-On-Google-Play-With-10K-Downloads-Installing-Anatsa-Malware.webp"
+    },
+    {
+      "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
+      "link": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
+      "description": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild. The vulnerability in ...",
+      "pub_date": "Tue, 28 Apr 2026 11:20:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMPU-2lLUg__kJUnPm1HSRP0cTelgKBaXgKDq4ODhX0XTKI83sddz2F_EHiOmoxnTYIkIFYIbFh8JLAMp6lqfK39czq_e1G5Ixe-Y53_-kXBSk0fqVZV6jFpECe1JjAy3ZD3MmnJ71jpZHuPpbNRjB4x7SsmfHNUCMVyzQiST7CTc9m3qteMc4zJ2U_GXo/s1600/windows-exploit.jpg"
+    },
     {
       "title": "AI Coding Agent Powered by Claude Opus 4.6 Deletes Production Database in 9 Seconds",
       "link": "https://cybersecuritynews.com/ai-coding-agent-deletes-data/",
@@ -74,14 +146,6 @@
       "image_url": ""
     },
     {
-      "title": "Critical Gemini CLI Vulnerability Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/gemini-cli-rce-vulnerability/",
-      "description": "Google has fixed a critical security flaw in the Gemini CLI that could allow attackers to execute remote code in certain automated workflows. The issue affects the npm package\u0026#160;@google/gemini-c...",
-      "pub_date": "Mon, 27 Apr 2026 15:13:39 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-Gemini-CLI-Vulnerability-Enables-Remote-Code-Execution-Attacks.webp"
-    },
-    {
       "title": "Home security giant ADT data breach affects 5.5 million people",
       "link": "https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/",
       "description": "The ShinyHunters extortion group stole the personal information of 5.5 million individuals after breaching the systems of home security giant ADT earlier this month, according to data breach notifi...",
@@ -122,22 +186,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1eEqmWavzJwy68cdm3DB_l6dZO3ja-RjrtStTMh8_AA5AwWVDhwqEHJIYOPo98lAQ1yDrMZL1Yl2LxeSbk25vsQQI7csJuilXZRo-frfCj9ULE507sQBgvEBM0Y_RkYAWtUteoShXMRAD70JhGRjah1cBzZCew3meQp5xP5-Jv72-ZI4veiUa-aJnMYAK/s1600/cybrecap.jpg"
     },
     {
-      "title": "New Vidar Malware Campaign Uses Fake YouTube Software Downloads to Steal Corporate Credentials",
-      "link": "https://cybersecuritynews.com/new-vidar-malware-uses-fake-youtube-software-downloads/",
-      "description": "A credential-stealing malware named Vidar has quietly emerged as one of the most active threats targeting corporate employees in early 2026. Threat actors are using fake software downloads promoted...",
-      "pub_date": "Mon, 27 Apr 2026 13:25:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Vidar-Malware-Campaign-Uses-Fake-YouTube-Software-Downloads-to-Steal-Corporate-Credentials.webp"
-    },
-    {
-      "title": "New Malware Uses Obfuscation and Staged Payload Delivery to Evade Detection",
-      "link": "https://cybersecuritynews.com/new-malware-uses-obfuscation-and-staged-payload/",
-      "description": "A newly discovered malware campaign is targeting government employees in Pakistan using carefully crafted spear-phishing emails that combine obfuscation and staged payload delivery to stay hidden f...",
-      "pub_date": "Mon, 27 Apr 2026 13:06:38 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Malware-Uses-Obfuscation-and-Staged-Payload-Delivery-to-Evade-Detection.webp"
-    },
-    {
       "title": "Money launderer linked to $230M crypto heist gets 70 months in prison",
       "link": "https://www.bleepingcomputer.com/news/security/money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison/",
       "description": "​22-year-old Evan Tangeman of Newport Beach, California, was sentenced to 70 months in prison for laundering funds stolen in a massive $230 million cryptocurrency heist. [...]",
@@ -152,30 +200,6 @@
       "pub_date": "Mon, 27 Apr 2026 09:00:09 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Hackers Using Fake Income Tax Department’s Notice to Deploy Malware",
-      "link": "https://cybersecuritynews.com/hackers-using-fake-income-tax-departments-notice/",
-      "description": "A new phishing campaign is actively targeting Indian taxpayers and businesses by impersonating the Income Tax Department of India. Threat actors have built convincing fake websites that look nearly...",
-      "pub_date": "Mon, 27 Apr 2026 12:37:20 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Hackers-Using-Fake-Income-Tax-Departments-Notice-to-Deploy-Malware.webp"
-    },
-    {
-      "title": "Researchers Warn macOS textutil and KeePassXC Can Become Attack Primitives in Automation",
-      "link": "https://cybersecuritynews.com/researchers-warn-macos-textutil-and-keepassxc/",
-      "description": "Security researchers have raised a warning about two widely trusted tools, macOS textutil and KeePassXC, showing that both can become dangerous when placed inside automated pipelines that process a...",
-      "pub_date": "Mon, 27 Apr 2026 12:15:50 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Researchers-Warn-macOS-textutil-and-KeePassXC-Can-Become-Attack-Primitives-in-Automation.webp"
-    },
-    {
-      "title": "EU Proposes Requiring Google to Share User Search Data with Rival Search Engines",
-      "link": "https://cybersecuritynews.com/eu-proposes-google-search-data/",
-      "description": "The European Commission has formally proposed measures requiring Google to share anonymized user search data with rival search engines and AI chatbots, marking a landmark enforcement step under the...",
-      "pub_date": "Mon, 27 Apr 2026 12:08:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/EU-Proposes-Google-Search-Data.webp"
     },
     {
       "title": "Microsoft says Outlook.com outage is causing sign‑in failures",
@@ -200,14 +224,6 @@
       "pub_date": "Mon, 27 Apr 2026 17:24:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi02vvwkoYlj343usA-GYXcQHZKIceJufKYFzZNyHlsGQ6lCPD8H8bHEWtzBnJsWmnlQsGq0fBLgyKTdnOoEi83L3kQ8V3EOou_vlAmMhnMDFU5P5LxA-Sz1agVhDmFrd2qKHGnYZituJuoAEsHp0ExFR4pw6VCf9VNESl7C4q5Wkefh6_8rN2MDK96yh_a/s1600/russian-cyberattack.jpg"
-    },
-    {
-      "title": "North Korean Hackers Attacking Drug Companies to Deploy Malware Via Weaponized Excel Files",
-      "link": "https://cybersecuritynews.com/north-korean-hackers-attacking-drug-companies/",
-      "description": "North Korean state-sponsored hackers from the Kimsuky group have launched a targeted campaign against prescription pharmaceutical companies, using a cleverly disguised malware file named White Life...",
-      "pub_date": "Mon, 27 Apr 2026 11:44:20 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/North-Korean-Hackers-Attacking-Drug-Companies-to-Deploy-Malware-Via-Weaponized-Excel-Files.webp"
     },
     {
       "title": "Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware",
@@ -344,22 +360,6 @@
       "pub_date": "Fri, 24 Apr 2026 14:59:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheXZWhV-F6JpyIS7BshxCI158lslIFwx6XU9K15AoGDti8DVknLSrhAEc9HybQjSHfjfuKpGJ5by4EJamG4RV_7v8_SzlmhmSlxcfIBRaYX913E8f6-z0NQyMJ9g0VkszTUY726Csg6xWhwY16ygTe_JySvgj-JkaMyX4ZdM7yCuxRT_98lv22nywvy6r5/s1600/cyberattack.jpg"
-    },
-    {
-      "title": "LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure",
-      "link": "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html",
-      "description": "A high-severity security flaw in LMDeploy, an open-source toolkit for compressing, deploying, and serving large language models (LLMs), has come under active exploitation in the wild less than 13 h...",
-      "pub_date": "Fri, 24 Apr 2026 12:54:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjQrFbHBSUJCgc3WB8IsBaYhvbOnk7jwkU3MRHO7YVAFZBBwi7LE2OZzC_oddjsfbh_YwW7czfQ0FzCpHyztt-N8po5TkqZqsOhm_LpW4dxmzaDtGkud-vho2R409maf5r_QBAPjGUpfFShbENQ-qIpwaQ0eNmBgD7U-Pgu4uFgSzGRxt6O7kKLAg_PyVg/s1600/lmdeploy.png"
-    },
-    {
-      "title": "UNC6692 Impersonates IT Help Desk via Microsoft Teams to Deploy SNOW Malware",
-      "link": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
-      "description": "A previously undocumented threat activity cluster known as UNC6692 has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts....",
-      "pub_date": "Thu, 23 Apr 2026 23:46:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHoBLtF5qmS63UuZJdrs4DtwoJRc6V3OK_4vUjCp-mHUs99AlJkzxcQgZH-tD0dFneYJHfBEumdGw42jcqcYHYiqmNHBtHZVB7m83pxPakcbupcdcRmDzg2fedK4doHPUwOfGoqY2a44VUwgK1g8cyZSgpMmpzcbWuBrzxvdalA9bkt8_26WkdIfZy6qqa/s1600/helpdesk.jpg"
     },
     {
       "title": "ZDI-26-299: Docker Desktop Enhanced Container Isolation Exposed Dangerous Function Local Privilege Escalation Vulnerability",
