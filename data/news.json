@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-28T17:40:57Z",
+  "last_updated": "2026-04-28T19:22:49Z",
   "articles": [
+    {
+      "title": "Video service Vimeo confirms Anodot breach exposed user data",
+      "link": "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
+      "description": "Vimeo has disclosed that data belonging to some of its customers and users has been accessed without authorization following the recent breach at the Anodot data anomaly detection company. [...]",
+      "pub_date": "Tue, 28 Apr 2026 15:04:22 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
+      "link": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
+      "description": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code ...",
+      "pub_date": "Tue, 28 Apr 2026 23:49:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgztlzahKA2HwUQiNDerhbX2l415JinNIW5jaU5tgskPVHqpMhba_NorYL9SSWRzLdSPjSnsxZKQic97f8H2Bx2G0Dsjb58dcdFuZoL0c5Gno3BVvYa4vi62_PNr1Qh-kBYED7YbTPw3fqQklMmnoPV0b1KYaienKHzIAtBuktMqyVCxGU0u8Hkd-zzYeNU/s1600/github.jpg"
+    },
     {
       "title": "New BlobPhish Attack Leverages Browser Blob Objects to Steal Users’ Login Credentials",
       "link": "https://cybersecuritynews.com/blobphish-phishing-attack/",
@@ -8,6 +24,14 @@
       "pub_date": "Tue, 28 Apr 2026 17:40:18 +0000",
       "source": "Cyber Security News",
       "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi07cEmZ8n37JLWZmcGpCCqer-DrUr2uaHK97z_Zlhiz_VKntAt7LZztDpGFR8Kr6kdBbW4bq_4iqNEYdzSul4UFoMxF7MJ14OzJTiX6QNcUAhMQUF1TBiWaeNURsHKT1TkhdRBSnei0cyXJibV-K4O7tfbABM76UqOB9KSLUkLfqEd3RXQdHspj1AJdw/s16000/BlobPhish%20Browser-Based%20Phishing%20Attack.webp?ssl=1"
+    },
+    {
+      "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
+      "link": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
+      "description": "A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot). \"The ...",
+      "pub_date": "Tue, 28 Apr 2026 23:09:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQf8Wzg1Ms0KVsO546uQuwlR3w_8qW1MQZExs5TgKCGHSNNS1UEnOITq-_y8HIrA_3n_gfq7Hm0IMb-XSRJSsGL1ncRPlPoyDX7cf_wFbEGAJCPkv6ZDBzjN1Nswe9-CMR3Tmn1F5KuVyWGdOkGEIbeI9R7zGKplJPofRFBx-Ru20JOGfAFEpiZOAlDBXh/s1600/hackers.jpg"
     },
     {
       "title": "Critical GitHub.com and Enterprise Server RCE Vulnerability Enables Full Server Compromise",
@@ -274,14 +298,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWLDpoCXOE_C970Jb9YXSPl2DIDXlL2K2ZDch28huIDzQhLoliuasxjBz3mmCWcDe2u136HN7pDJUu0XBjVkgP6lQJSQTRL4VU_jqhXNwQyb8xLdDD8-9WKQxGp7eT_7WzNpqYPplV1nvvSF5cPwsT3q88d-52g7iU_hP9pxCoU5muOhBTqnTHgGl8Scr8/s1600/Checkmarx.jpg"
     },
     {
-      "title": "Medtronic confirms breach after hackers claim 9 million records theft",
-      "link": "https://www.bleepingcomputer.com/news/security/medtronic-confirms-breach-after-hackers-claim-9-million-records-theft/",
-      "description": "Medical device giant Medtronic disclosed last week that hackers breached its network and accessed data in \"certain corporate IT systems.\" [...]",
-      "pub_date": "Mon, 27 Apr 2026 09:50:42 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking \u0026 More",
       "link": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
       "description": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed ho...",
@@ -360,22 +376,6 @@
       "pub_date": "Mon, 27 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
-    },
-    {
-      "title": "Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software",
-      "link": "https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html",
-      "description": "Cybersecurity researchers have discovered a new Lua-based malware created years before the notorious Stuxnet worm that aimed to sabotage Iran's nuclear program by destroying uranium enrichment cent...",
-      "pub_date": "Sat, 25 Apr 2026 14:56:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizs_g3Pi3X0KEIbHkq8WujTF9X1RE6Fu_p8CiWmZrjsBj0MK-OTgAj5Dn8hz_8-n_3KmkNhFYDHeKUxeAnJv3nWdqwu5XlKsUEC0yq-uOESR7HkzKLJ1-FdrJtyBy05M0NZ4HkrXZ_eCvCSEX3Y4jauh6A4loJ_gY-F5aOT39ZMn4noffniWz8VgIv1zA2/s1600/fast16-exploit.jpg"
-    },
-    {
-      "title": "CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline",
-      "link": "https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four vulnerabilities impacting SimpleHelp, Samsung MagicINFO 9 Server, and D-Link DIR-823X series routers to its Kno...",
-      "pub_date": "Sat, 25 Apr 2026 10:38:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBMgO4j_Nf0B9HdU4WtN1axBdJFNJgV6Xvb8pCk0kooK6_-gNIxfURSqLIJuuzaufzvoXVTkFFg9WfMkyHvu4h_DBQK4QMJ21JYdwWtLem-CSOgTEYFhXazp4aSPJJglbiZel1V5aatqMKFCXk3scw-3UmMzQPrmTn-CbgBBjpLu_i4TBfNyS2kgZSkreW/s1600/cisa-kev.jpg"
     },
     {
       "title": "ZDI-26-299: Docker Desktop Enhanced Container Isolation Exposed Dangerous Function Local Privilege Escalation Vulnerability",
@@ -530,6 +530,14 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added\u0026nbsp;two\u0026nbsp;new\u0026nbsp;vulnerabilities\u0026nbsp;to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2024-1708\u0026nbsp;ConnectWise\u0026nbsp;...",
+      "pub_date": "Tue, 28 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2024-7399\u0026nbsp;Samsung\u0026nbsp;MagicINFO\u0026nbsp;9 Server Path...",
@@ -538,33 +546,9 @@
       "image_url": ""
     },
     {
-      "title": "FIRESTARTER Backdoor",
-      "link": "https://www.cisa.gov/news-events/analysis-reports/ar26-113a",
-      "description": "Malware Analysis Report at a Glance    Malware Name FIRESTARTER   Original Publication April 23, 2026   Executive Summary  The Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sam...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "Milesight Cameras",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-03",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution. The following versions of Milesight Cameras are affected:  M...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Intrado 911 Emergency Gateway (EGW)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-06",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read, modify, or delete files. The following versions of Intrado 911 Emergency Gateway (EGW) are affected:...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "SpiceJet Online Booking System",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-04",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information. The following versions of SpiceJet Online Booking System are affected: ...",
       "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -578,9 +562,25 @@
       "image_url": "https://www.cisa.gov/sites/default/files/styles/large/public/2026-04/A%20diagram%20illustrating%20the%20basic%20setup%20of%20a%20covert%20network..png?itok=3Bfm4nKj"
     },
     {
+      "title": "SpiceJet Online Booking System",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-04",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information. The following versions of SpiceJet Online Booking System are affected: ...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Yadea T5 Electric Bicycle",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-01",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft. The following versions of Yadea T5 ...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "FIRESTARTER Backdoor",
+      "link": "https://www.cisa.gov/news-events/analysis-reports/ar26-113a",
+      "description": "Malware Analysis Report at a Glance    Malware Name FIRESTARTER   Original Publication April 23, 2026   Executive Summary  The Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sam...",
       "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -610,6 +610,14 @@
       "image_url": ""
     },
     {
+      "title": "Intrado 911 Emergency Gateway (EGW)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-06",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read, modify, or delete files. The following versions of Intrado 911 Emergency Gateway (EGW) are affected:...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33825 Microsoft Defender Insufficient Granularity of A...",
@@ -618,9 +626,9 @@
       "image_url": ""
     },
     {
-      "title": "Siemens SINEC NMS",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-09",
-      "description": "View CSAF Summary SINEC NMS before V4.0 SP3 contains an Authorization Bypass vulnerability that could allow an attacker to bypass authorization checks, leading to the ability to reset the password ...",
+      "title": "Siemens Industrial Edge Management",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-11",
+      "description": "View CSAF Summary Industrial Edge Management contains an authorization bypass vulnerability that could be exploited by an unauthenticated remote attacker to circumvent authentication and to access ...",
       "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -629,14 +637,6 @@
       "title": "Siemens SINEC NMS",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-03",
       "description": "View CSAF Summary Siemens SINEC NMS when used with User Management Component (UMC) contains an authentication bypass vulnerability due to insufficient validation of user identity. This could allow ...",
-      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "SenseLive X3050",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-12",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to take complete control of the device. The following versions of SenseLive X3050 are affected:  X3050 V1....",
       "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
