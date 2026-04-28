@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-04-28T12:22:35Z",
+  "last_updated": "2026-04-28T15:21:27Z",
   "articles": [
+    {
+      "title": "Checkmarx confirms LAPSUS$ hackers leaked its stolen GitHub data",
+      "link": "https://www.bleepingcomputer.com/news/security/checkmarx-confirms-lapsus-hackers-leaked-its-stolen-github-data/",
+      "description": "Application security company Checkmarx has confirmed that the LAPSUS$ threat group leaked data stolen from its private GitHub repository. [...]",
+      "pub_date": "Tue, 28 Apr 2026 10:50:40 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
+      "link": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
+      "description": "Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux,...",
+      "pub_date": "Tue, 28 Apr 2026 19:31:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji1Auw0eR5oiVkEiB8JPzjSCaFsUUiAOfNHrcsOzO4DElBB4gbQ20uu3p69nojIkLsgxZOj81fa7fK_dchUAx0WINAGMq3X0VSA7LH_Isc1hPAvls76rdLeSYCn40zw8P2xAikVwxb_pclaNQXER8G7nzPO41LAl0-ELu-i60_RLl7CLCWcC9gGrEC8oXw/s1600/vect.gif"
+    },
+    {
+      "title": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-legacy-tls-in-exchange-online-starting-july/",
+      "description": "Microsoft says it will start blocking legacy TLS connections for POP and IMAP email clients in Exchange Online starting in July 2026. [...]",
+      "pub_date": "Tue, 28 Apr 2026 09:18:36 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Chinese Silk Typhoon Hacker Extradited to the U.S. from Italy",
+      "link": "https://cybersecuritynews.com/chinese-silk-typhoon-hacker-extradited/",
+      "description": "A Chinese national tied to one of the most damaging state-sponsored hacking campaigns in recent history has been extradited to the United States from Italy. Xu Zewei, 34, a citizen of the People\u0026#8...",
+      "pub_date": "Tue, 28 Apr 2026 13:09:57 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Chinese-Silk-Typhoon-Hacker-Extradited-to-the-U.S.-from-Italy.webp"
+    },
+    {
+      "title": "WhatsApp Testing Own Cloud Backup Provider for Default End-to-End Encryption",
+      "link": "https://cybersecuritynews.com/whatsapp-testing-own-cloud-backup/",
+      "description": "WhatsApp is currently developing an independent cloud backup system designed to give users more direct control over their chat histories. This upcoming feature will allow users to store their backu...",
+      "pub_date": "Tue, 28 Apr 2026 13:00:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/WhatsApp-Testing-Own-Cloud-Backup-Provider-for-default-end-to-end-encryption.webp"
+    },
+    {
+      "title": "Inside an OPSEC Playbook: How Threat Actors Evade Detection",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/",
+      "description": "Threat actors are now publishing structured OPSEC playbooks to stay undetected. Flare reveals how these guides outline layered infrastructure, identity separation, and long-term evasion strategies....",
+      "pub_date": "Tue, 28 Apr 2026 08:50:58 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
+      "link": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
+      "description": "Every security program is betting on the same assumption: once a system is connected, the problem is solved. Open a ticket, stand up a gateway, push the data through. Done. That assumption is wrong...",
+      "pub_date": "Tue, 28 Apr 2026 17:28:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrVD0Q_dTvO3tooHYWKp7i_lkLd6h30GSv_DDv4jIb_KZDY5heV39R01GFN6MWEq1JsilHFrd7EtDOBkmlkvXYAb7-w51A1SDN3AAiEAbuq7ZnNREakyHouZPVBMNhk_HnEOK8D7H5m51A2zcUvAvDjmPnrrzeZI_nQHFao1QbljV4ortyzuqbXsNR35c/s1600/everfox.jpg"
+    },
     {
       "title": "New Windows 0-Click Vulnerability Exploited to Bypass Defender SmartScreen",
       "link": "https://cybersecuritynews.com/windows-shell-security-0-click-vulnerability/",
@@ -104,22 +160,6 @@
       "pub_date": "Tue, 28 Apr 2026 07:48:32 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Multiple-OpenClaw-Vulnerabilities-Enables-Policy-Bypass-and-host-override-.webp"
-    },
-    {
-      "title": "Linux ELF Malware Generator Evades ML Detection With Semantic-Preserving Changes",
-      "link": "https://cybersecuritynews.com/linux-elf-malware-generator/",
-      "description": "Researchers from the Czech Technical University in Prague have developed a new adversarial malware generator targeting Linux ELF binaries. It achieves a 67.74% evasion rate against ML-based malware...",
-      "pub_date": "Tue, 28 Apr 2026 07:46:24 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Linux-ELF-Malware-Generator-Evades-ML-Detection-With-Semantic-Preserving-Changes.webp"
-    },
-    {
-      "title": "OilRig Hides C2 Configuration in Google Drive Image Using LSB Steganography",
-      "link": "https://cybersecuritynews.com/oilrig-hides-c2-configuration/",
-      "description": "A well-known Iranian state-sponsored hacking group called OilRig, also tracked as APT34 and Helix Kitten, has been found hiding its command-and-control (C2) server configuration inside a regular-lo...",
-      "pub_date": "Tue, 28 Apr 2026 07:13:39 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/OilRig-Hides-C2-Configuration-in-Google-Drive-Image-Using-LSB-Steganography.webp"
     },
     {
       "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
@@ -234,22 +274,6 @@
       "image_url": ""
     },
     {
-      "title": "Deepfake Voice Attacks are Outpacing Defenses: What Security Leaders Should Know",
-      "link": "https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/",
-      "description": "Three seconds of audio is all it takes to clone a voice for fraud. Adaptive Security shows how deepfake calls trick employees into sending real money—and why most defenses don't catch them. [...]",
-      "pub_date": "Mon, 27 Apr 2026 09:00:09 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft says Outlook.com outage is causing sign‑in failures",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-outlookcom-outage-is-causing-sign-in-failures/",
-      "description": "Microsoft is investigating an ongoing Outlook.com outage that is causing intermittent signing issues and preventing customers from accessing their mailboxes. [...]",
-      "pub_date": "Mon, 27 Apr 2026 08:03:46 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side",
       "link": "https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html",
       "description": "Anthropic’s Claude Mythos Preview has dominated security discussions since its April 7 announcement. Early reporting describes a powerful cybersecurity-focused AI system capable of identifying vu...",
@@ -322,14 +346,6 @@
       "image_url": ""
     },
     {
-      "title": "American utility firm Itron discloses breach of internal IT network",
-      "link": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
-      "description": "Itron, Inc. has disclosed, via an 8-K filing with the U.S. Securities and Exchange Commission (SEC), a cybersecurity incident in which an unauthorized third party accessed certain internal systems....",
-      "pub_date": "Sun, 26 Apr 2026 10:22:34 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software",
       "link": "https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html",
       "description": "Cybersecurity researchers have discovered a new Lua-based malware created years before the notorious Stuxnet worm that aimed to sabotage Iran's nuclear program by destroying uranium enrichment cent...",
@@ -344,22 +360,6 @@
       "pub_date": "Sat, 25 Apr 2026 10:38:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBMgO4j_Nf0B9HdU4WtN1axBdJFNJgV6Xvb8pCk0kooK6_-gNIxfURSqLIJuuzaufzvoXVTkFFg9WfMkyHvu4h_DBQK4QMJ21JYdwWtLem-CSOgTEYFhXazp4aSPJJglbiZel1V5aatqMKFCXk3scw-3UmMzQPrmTn-CbgBBjpLu_i4TBfNyS2kgZSkreW/s1600/cisa-kev.jpg"
-    },
-    {
-      "title": "FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches",
-      "link": "https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has revealed that an unnamed federal civilian agency's Cisco Firepower device running Adaptive Security Appliance (ASA) software was...",
-      "pub_date": "Fri, 24 Apr 2026 22:36:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL39ca_K84pnKcPSv77aXouF3t3HCOjjL1zFVEdeDE64LiUxQ2Het8xQeTeO0JZRHZE56SbG87psVmhYCbSyu5PE3FZiHrAIzm0zp8nfGKk7XwVTUUjpeZ7zDEZwuJaQkZp6Cl20WF7qkWDAuaOQW5-OtTQ1ZvjW4xhHB9HrC2O-C6pPPnE94gLqp1GZrI/s1600/cisco.jpg"
-    },
-    {
-      "title": "NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software",
-      "link": "https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html",
-      "description": "The Office of Inspector General (OIG) of the U.S. National Aeronautics and Space Administration (NASA) has revealed how a Chinese national posed as a U.S. researcher as part of a spear-phishing cam...",
-      "pub_date": "Fri, 24 Apr 2026 19:43:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHAuHNFOxvs6UDl3EnaRiFcpN6xXjeqMCeudHBwRKzbIoUCdno0MHlfe2ijlnYU7D5k0vi4nlhv9j_hkR4zeaHTq2xewCOVza2_qYZZxpy_Qy1V_IQu5nO5lDyGzeG3P_B5kSbGT5W01Ic0E_FuSlWat1zsWYCDHhYbqQ_S5Q8p1WO14UStW8EJ4PIkKuX/s1600/WANTED.jpg"
     },
     {
       "title": "ZDI-26-299: Docker Desktop Enhanced Container Isolation Exposed Dangerous Function Local Privilege Escalation Vulnerability",
