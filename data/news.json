@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-04-28T10:56:47Z",
+  "last_updated": "2026-04-28T12:22:35Z",
   "articles": [
+    {
+      "title": "New Windows 0-Click Vulnerability Exploited to Bypass Defender SmartScreen",
+      "link": "https://cybersecuritynews.com/windows-shell-security-0-click-vulnerability/",
+      "description": "A critical zero-click authentication coercion vulnerability, tracked as CVE-2026-32202, stemming from an incomplete patch for a Windows Shell security feature bypass actively weaponized by the Rus...",
+      "pub_date": "Tue, 28 Apr 2026 11:55:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-Shell-Security-0-Click-Vulnerability.webp"
+    },
+    {
+      "title": "New Silver Fox Campaign Uses Fake Tax Audit Alerts and Software Updates to Deliver Malware",
+      "link": "https://cybersecuritynews.com/new-silver-fox-campaign-uses-fake-tax-audit-alerts/",
+      "description": "Silver Fox, a China-based threat group has launched a new wave of attacks targeting businesses and individuals across Asia, using fake tax audit notifications and counterfeit software update alerts...",
+      "pub_date": "Tue, 28 Apr 2026 11:54:14 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Silver-Fox-Campaign-Uses-Fake-Tax-Audit-Alerts-and-Software-Updates-to-Deliver-Malware.webp"
+    },
+    {
+      "title": "Chinese-Backed Smishing Services Use OTT Messaging and SMS to Scale Credential Theft",
+      "link": "https://cybersecuritynews.com/chinese-backed-smishing-services-use-ott-messaging/",
+      "description": "A wave of large-scale phishing campaigns backed by Chinese-language services is quietly targeting people around the world, using everyday messaging apps to steal personal and financial credentials....",
+      "pub_date": "Tue, 28 Apr 2026 11:30:45 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Chinese-Backed-Smishing-Services-Use-OTT-Messaging-and-SMS-to-Scale-Credential-Theft.webp"
+    },
+    {
+      "title": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
+      "description": "Cybersecurity researchers have disclosed details of a critical security flaw impacting LeRobot, Hugging Face's open-source robotics platform with nearly 24,000 GitHub stars, that could be exploited...",
+      "pub_date": "Tue, 28 Apr 2026 16:48:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_yhcF_ELr7WEtcfHJTj6KXaci5hMzJMQzWlKpRwmiUDUDlRiLn5kZFpj4JkLxrqw0JBajNTAmlAxzIkQytW333ZnGJBKeGY-rBsLLrCPqATNkq3TvcBRbi61oogxsv5Z1a2REm5g7cpgfqKq_fnr2B1O1tPHDckGGiBA7YZY0Jcl7nWIzqaDYFGqEm3nZ/s1600/lerobots.jpg"
+    },
+    {
+      "title": "Microsoft Launches Copilot Agent Mode for Outlook, Inbox and Calendar Functions",
+      "link": "https://cybersecuritynews.com/copilot-agent-mode-for-outlook/",
+      "description": "Microsoft has officially launched its new \u0026#8220;agentic\u0026#8221; capabilities for Copilot in Outlook, transforming the AI from a basic drafting assistant into an autonomous digital agent. Announced ...",
+      "pub_date": "Tue, 28 Apr 2026 11:14:06 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Launches-Copilot-Agent-Mode-for-Outlook-Inbox-and-Calendar-Functions-.webp"
+    },
+    {
+      "title": "New Sandworm Tradecraft Uses SSH-over-Tor Tunnel for Long-Term Hidden Persistence",
+      "link": "https://cybersecuritynews.com/new-sandworm-tradecraft-uses-ssh-over-tor-tunnel/",
+      "description": "A state-sponsored threat group, Sandworm (also tracked as APT-C-13 and FROZENBARENTS), has launched a targeted cyberattack campaign using a combined SSH and Tor tunneling technique to maintain long...",
+      "pub_date": "Tue, 28 Apr 2026 11:09:44 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Sandworm-Tradecraft-Uses-SSH-over-Tor-Tunnel-for-Long-Term-Hidden-Persistence.webp"
+    },
     {
       "title": "After Mythos: New Playbooks For a Zero-Window Era",
       "link": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
@@ -74,14 +122,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/OilRig-Hides-C2-Configuration-in-Google-Drive-Image-Using-LSB-Steganography.webp"
     },
     {
-      "title": "New Android Banking Malware Abuses Fake KYC Workflow and WhatsApp Delivery to Hijack Accounts",
-      "link": "https://cybersecuritynews.com/new-android-banking-malware-abuses-fake-kyc/",
-      "description": "A new Android banking malware, tracked as KYCShadow, was discovered targeting bank customers across India through a carefully designed fake Know Your Customer (KYC) verification workflow. Distribut...",
-      "pub_date": "Tue, 28 Apr 2026 06:46:58 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Android-Banking-Malware-Abuses-Fake-KYC-Workflow-and-WhatsApp-Delivery-to-Hijack-Accounts.webp"
-    },
-    {
       "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
       "link": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
       "description": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silver...",
@@ -90,28 +130,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4YomH2AGnUSAePfyyvEMXCbULukirvclzEJ6gnsm30Y2PApuarWfCLpKrBng3qYhhINWPwn99rVtdqKcEtbnVR9jkXkpBY-vDByDzMmZgLPPPrqyodmgqBCfR3ojF1tbyaFHQxIdr8voZgDugagnBymAchRR99uUm_0btEdWYeir8B6njw6Q1lPTcugcB/s1600/azure.jpg"
     },
     {
-      "title": "Fake Document Reader On Google Play With 10K Downloads Installing Anatsa Malware",
-      "link": "https://cybersecuritynews.com/fake-document-reader-on-google-play/",
-      "description": "A new fake document reader app found on the Google Play Store has been silently installing Anatsa, a powerful Android banking trojan, on thousands of user devices. The malicious application surpass...",
-      "pub_date": "Tue, 28 Apr 2026 05:56:28 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Fake-Document-Reader-On-Google-Play-With-10K-Downloads-Installing-Anatsa-Malware.webp"
-    },
-    {
       "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
       "link": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
       "description": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild. The vulnerability in ...",
       "pub_date": "Tue, 28 Apr 2026 11:20:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMPU-2lLUg__kJUnPm1HSRP0cTelgKBaXgKDq4ODhX0XTKI83sddz2F_EHiOmoxnTYIkIFYIbFh8JLAMp6lqfK39czq_e1G5Ixe-Y53_-kXBSk0fqVZV6jFpECe1JjAy3ZD3MmnJ71jpZHuPpbNRjB4x7SsmfHNUCMVyzQiST7CTc9m3qteMc4zJ2U_GXo/s1600/windows-exploit.jpg"
-    },
-    {
-      "title": "AI Coding Agent Powered by Claude Opus 4.6 Deletes Production Database in 9 Seconds",
-      "link": "https://cybersecuritynews.com/ai-coding-agent-deletes-data/",
-      "description": "A Cursor AI coding agent powered by Anthropic\u0026#8217;s Claude Opus 4.6 deleted the entire production database and all volume-level backups of PocketOS, a SaaS platform serving car rental businesses ...",
-      "pub_date": "Tue, 28 Apr 2026 03:42:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/AI-Coding-Agent-Deletes-Data.webp"
     },
     {
       "title": "Robinhood account creation flaw abused to send phishing emails",
@@ -152,22 +176,6 @@
       "pub_date": "Mon, 27 Apr 2026 12:27:53 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Notepad++ Vulnerability Allows Attackers to Crash Application, Leak Memory Data",
-      "link": "https://cybersecuritynews.com/notepad-vulnerability-crash/",
-      "description": "A security vulnerability has been identified in Notepad++, one of the most widely used open-source text editors among developers and IT professionals. The vulnerability CVE-2026-3008, which could a...",
-      "pub_date": "Mon, 27 Apr 2026 16:06:56 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Notepad-Vulnerability-Crash.webp"
-    },
-    {
-      "title": "ClickUp’s Hardcoded API Key Exposes 959 Emails from Fortune 500 Giants",
-      "link": "https://cybersecuritynews.com/clickup-hardcoded-api-key-expose/",
-      "description": "A publicly accessible JavaScript file on ClickUp\u0026#8217;s homepage has been silently leaking nearly a thousand corporate and government email addresses, including employees from Fortinet, Home Depot...",
-      "pub_date": "Mon, 27 Apr 2026 15:34:31 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/ClickUp-Hardcoded-API-Key-Expose.webp"
     },
     {
       "title": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
@@ -352,14 +360,6 @@
       "pub_date": "Fri, 24 Apr 2026 19:43:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHAuHNFOxvs6UDl3EnaRiFcpN6xXjeqMCeudHBwRKzbIoUCdno0MHlfe2ijlnYU7D5k0vi4nlhv9j_hkR4zeaHTq2xewCOVza2_qYZZxpy_Qy1V_IQu5nO5lDyGzeG3P_B5kSbGT5W01Ic0E_FuSlWat1zsWYCDHhYbqQ_S5Q8p1WO14UStW8EJ4PIkKuX/s1600/WANTED.jpg"
-    },
-    {
-      "title": "Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine",
-      "link": "https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html",
-      "description": "The AI Agent Authority Gap - From Ungoverned to Delegation As discussed in our previous article, AI agents are exposing a structural gap in enterprise security, but the problem is often framed too ...",
-      "pub_date": "Fri, 24 Apr 2026 17:19:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZTTjYlof51AlGz6c8vyYmpqVPODX_zgUiWkJ-Mgq8a5d6pfOrUQqgu2A7H3dIcv7k4_AYSTxitHZiCxve_l8QG-zLLqgkLLdudvwjASI7p3CUtk6O0rntkr_mDPcUK66NPMoGEVWvS1mMKFzNKpRTAN2Wv9jLdLwcOlNAtlqfLCSCKpqHldT1e9AnnD0/s1600/or.gif"
     },
     {
       "title": "ZDI-26-299: Docker Desktop Enhanced Container Isolation Exposed Dangerous Function Local Privilege Escalation Vulnerability",
