@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-04-28T15:21:27Z",
+  "last_updated": "2026-04-28T17:40:57Z",
   "articles": [
+    {
+      "title": "New BlobPhish Attack Leverages Browser Blob Objects to Steal Users’ Login Credentials",
+      "link": "https://cybersecuritynews.com/blobphish-phishing-attack/",
+      "description": "A sophisticated, memory-resident phishing campaign called BlobPhish, active since October 2024, that exploits browser Blob URL APIs to silently steal credentials from Microsoft 365 users, major U.S...",
+      "pub_date": "Tue, 28 Apr 2026 17:40:18 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi07cEmZ8n37JLWZmcGpCCqer-DrUr2uaHK97z_Zlhiz_VKntAt7LZztDpGFR8Kr6kdBbW4bq_4iqNEYdzSul4UFoMxF7MJ14OzJTiX6QNcUAhMQUF1TBiWaeNURsHKT1TkhdRBSnei0cyXJibV-K4O7tfbABM76UqOB9KSLUkLfqEd3RXQdHspj1AJdw/s16000/BlobPhish%20Browser-Based%20Phishing%20Attack.webp?ssl=1"
+    },
+    {
+      "title": "Critical GitHub.com and Enterprise Server RCE Vulnerability Enables Full Server Compromise",
+      "link": "https://cybersecuritynews.com/github-com-and-enterprise-server-rce/",
+      "description": "A critical remote code execution (RCE) vulnerability tracked as CVE-2026-3854 in GitHub\u0026#8217;s internal git infrastructure that could have allowed any authenticated user to compromise backend serv...",
+      "pub_date": "Tue, 28 Apr 2026 17:30:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/GitHub.com-and-Enterprise-Server-RCE.webp"
+    },
+    {
+      "title": "Microsoft Confirms Remote Desktop Warnings May Display Incorrectly After April Update",
+      "link": "https://cybersecuritynews.com/remote-desktop-warnings-display-incorrectly/",
+      "description": "Microsoft has officially acknowledged a known issue in its April 2026 Windows 11 cumulative update: Remote Desktop Protocol (RDP) security warning dialogs may render incorrectly on certain system c...",
+      "pub_date": "Tue, 28 Apr 2026 16:29:44 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Remote-Desktop-Warnings-Display-Incorrectly.webp"
+    },
+    {
+      "title": "Checkmarx Confirms GitHub Repository Data Published on Dark Web",
+      "link": "https://cybersecuritynews.com/checkmarx-data-published-on-dark-web/",
+      "description": "Application security testing firm Checkmarx has confirmed a significant escalation in its ongoing security incident. Cybercriminals have officially published company data on the dark web. This new ...",
+      "pub_date": "Tue, 28 Apr 2026 16:00:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Checkmarx-Confirms-GitHub-Repository-Data-Published-on-Dark-Web-.webp"
+    },
+    {
+      "title": "US reportedly charges Scattered Spider hacker arrested in Finland",
+      "link": "https://www.bleepingcomputer.com/news/security/us-reportedly-charges-scattered-spider-hacker-arrested-in-finland/",
+      "description": "A 19-year-old dual United States and Estonian citizen arrested in Finland earlier this month faces federal charges in the U.S. alleging he was a prolific member of the notorious Scattered Spider ha...",
+      "pub_date": "Tue, 28 Apr 2026 11:39:52 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
+      "link": "https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/",
+      "description": "How we validated, fixed, and investigated a critical vulnerability in under two hours, and confirmed no exploitation. The post Securing the git push pipeline: Responding to a critical remote code e...",
+      "pub_date": "Tue, 28 Apr 2026 15:30:00 +0000",
+      "source": "GitHub Security",
+      "image_url": ""
+    },
+    {
+      "title": "Critical LiteLLM SQL Injection Vulnerability Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/litellm-sql-injection-vulnerability-exploited/",
+      "description": "A critical pre-authentication SQL injection vulnerability in LiteLLM, a widely used open-source AI gateway with over 22,000 GitHub stars, is actively being exploited in the wild. Tracked as CVE-202...",
+      "pub_date": "Tue, 28 Apr 2026 15:22:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Critical-LiteLLM-SQL-Injection-Vulnerability-Exploited-in-the-Wild-1.webp"
+    },
     {
       "title": "Checkmarx confirms LAPSUS$ hackers leaked its stolen GitHub data",
       "link": "https://www.bleepingcomputer.com/news/security/checkmarx-confirms-lapsus-hackers-leaked-its-stolen-github-data/",
@@ -90,22 +146,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_yhcF_ELr7WEtcfHJTj6KXaci5hMzJMQzWlKpRwmiUDUDlRiLn5kZFpj4JkLxrqw0JBajNTAmlAxzIkQytW333ZnGJBKeGY-rBsLLrCPqATNkq3TvcBRbi61oogxsv5Z1a2REm5g7cpgfqKq_fnr2B1O1tPHDckGGiBA7YZY0Jcl7nWIzqaDYFGqEm3nZ/s1600/lerobots.jpg"
     },
     {
-      "title": "Microsoft Launches Copilot Agent Mode for Outlook, Inbox and Calendar Functions",
-      "link": "https://cybersecuritynews.com/copilot-agent-mode-for-outlook/",
-      "description": "Microsoft has officially launched its new \u0026#8220;agentic\u0026#8221; capabilities for Copilot in Outlook, transforming the AI from a basic drafting assistant into an autonomous digital agent. Announced ...",
-      "pub_date": "Tue, 28 Apr 2026 11:14:06 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Microsoft-Launches-Copilot-Agent-Mode-for-Outlook-Inbox-and-Calendar-Functions-.webp"
-    },
-    {
-      "title": "New Sandworm Tradecraft Uses SSH-over-Tor Tunnel for Long-Term Hidden Persistence",
-      "link": "https://cybersecuritynews.com/new-sandworm-tradecraft-uses-ssh-over-tor-tunnel/",
-      "description": "A state-sponsored threat group, Sandworm (also tracked as APT-C-13 and FROZENBARENTS), has launched a targeted cyberattack campaign using a combined SSH and Tor tunneling technique to maintain long...",
-      "pub_date": "Tue, 28 Apr 2026 11:09:44 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-Sandworm-Tradecraft-Uses-SSH-over-Tor-Tunnel-for-Long-Term-Hidden-Persistence.webp"
-    },
-    {
       "title": "After Mythos: New Playbooks For a Zero-Window Era",
       "link": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
       "description": "When patching isn’t fast enough, NDR helps contain the next era of threats. If you’ve been tracking advancements in AI, you know the exploit window, the short buffer that organizations relied o...",
@@ -130,36 +170,12 @@
       "image_url": ""
     },
     {
-      "title": "Popular PyPI Package With 1 Million Monthly Downloads Hacked to Inject Malicious Scripts",
-      "link": "https://cybersecuritynews.com/pypi-package-hacked-with-malware/",
-      "description": "A major software supply chain attack has compromised the popular Python package\u0026#160;elementary-data, exposing thousands of developers to massive credential theft. Threat actors successfully pushed...",
-      "pub_date": "Tue, 28 Apr 2026 08:06:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Popular-PyPI-Package-With-1-Million-Monthly-Downloads-Hacked-to-Inject-Malicious-Scripts-1-1.webp"
-    },
-    {
       "title": "Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks",
       "link": "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
       "description": "A Chinese national accused of being a member of the Silk Typhoon hacking group has been extradited to the U.S. from Italy.\u0026nbsp; Xu Zewei, 34, was arrested in July 2025 by Italian authorities for h...",
       "pub_date": "Tue, 28 Apr 2026 13:27:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtGdvCIS6jOvz5WvlLwD34DqwHSyM4DaERfLDinlvQ4UfRqBUsjPp3o-sOVZL-gfqCHrsz53BMM3-fdFlaCLtMLshTfU9ncVM4qqkF9dzjsi9sF8XdMlbXvJSpDUSXdP_h4KN01TbwhT-10z626gUmlgrE4MlyM5lBTmZDKkB-g-xoMVgDFmM0b5sCCzQr/s1600/covid-hacker.png"
-    },
-    {
-      "title": "Windows Remote Desktop Leaves Behind Image Fragments Attackers Can Stitch Into Screenshots",
-      "link": "https://cybersecuritynews.com/windows-remote-desktop-image-fragments/",
-      "description": "Whenever someone uses Windows Remote Desktop, the operating system quietly saves visual fragments of the active session. As recently highlighted by SCYTHE Labs, attackers can easily extract these b...",
-      "pub_date": "Tue, 28 Apr 2026 07:54:06 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Windows-Remote-Desktop-Image-Fragments.webp"
-    },
-    {
-      "title": "Multiple OpenClaw Vulnerabilities Enables Policy Bypass and Host Override",
-      "link": "https://cybersecuritynews.com/openclaw-vulnerabilities/",
-      "description": "Cybersecurity researchers have recently disclosed three moderate-severity vulnerabilities in OpenClaw, an AI agent framework previously known as Clawdbot and Moltbot. Distributed as an npm package,...",
-      "pub_date": "Tue, 28 Apr 2026 07:48:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Multiple-OpenClaw-Vulnerabilities-Enables-Policy-Bypass-and-host-override-.webp"
     },
     {
       "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
@@ -176,6 +192,14 @@
       "pub_date": "Tue, 28 Apr 2026 11:20:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMPU-2lLUg__kJUnPm1HSRP0cTelgKBaXgKDq4ODhX0XTKI83sddz2F_EHiOmoxnTYIkIFYIbFh8JLAMp6lqfK39czq_e1G5Ixe-Y53_-kXBSk0fqVZV6jFpECe1JjAy3ZD3MmnJ71jpZHuPpbNRjB4x7SsmfHNUCMVyzQiST7CTc9m3qteMc4zJ2U_GXo/s1600/windows-exploit.jpg"
+    },
+    {
+      "title": "ZDI-26-305: (0Day) OpenAI Codex Sandbox Escape Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-305/",
+      "description": "This vulnerability allows remote attackers to bypass the sandbox on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must use Co...",
+      "pub_date": "Tue, 28 Apr 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "Robinhood account creation flaw abused to send phishing emails",
@@ -264,14 +288,6 @@
       "pub_date": "Mon, 27 Apr 2026 19:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1eEqmWavzJwy68cdm3DB_l6dZO3ja-RjrtStTMh8_AA5AwWVDhwqEHJIYOPo98lAQ1yDrMZL1Yl2LxeSbk25vsQQI7csJuilXZRo-frfCj9ULE507sQBgvEBM0Y_RkYAWtUteoShXMRAD70JhGRjah1cBzZCew3meQp5xP5-Jv72-ZI4veiUa-aJnMYAK/s1600/cybrecap.jpg"
-    },
-    {
-      "title": "Money launderer linked to $230M crypto heist gets 70 months in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison/",
-      "description": "​22-year-old Evan Tangeman of Newport Beach, California, was sentenced to 70 months in prison for laundering funds stolen in a massive $230 million cryptocurrency heist. [...]",
-      "pub_date": "Mon, 27 Apr 2026 09:01:38 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side",
@@ -434,14 +450,6 @@
       "image_url": ""
     },
     {
-      "title": "ZDI-26-290: NI LabVIEW LVLIB File Parsing Memory Corruption Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-290/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NI LabVIEW. User interaction is required to exploit this vulnerability in that the target must visi...",
-      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
       "title": "Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game",
       "link": "https://github.blog/security/hack-the-ai-agent-build-agentic-ai-security-skills-with-the-github-secure-code-game/",
       "description": "Learn to find and exploit real-world agentic AI vulnerabilities through five progressive challenges in this free, open source game that over 10,000 developers have already used to sharpen their sec...",
@@ -514,42 +522,18 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/01/fine-grained-pat.png?resize=1024%2C496"
     },
     {
-      "title": "Bugs that survive the heat of continuous fuzzing",
-      "link": "https://github.blog/security/vulnerability-research/bugs-that-survive-the-heat-of-continuous-fuzzing/",
-      "description": "Learn why some long-enrolled OSS-Fuzz projects still contain vulnerabilities and how you can find them. The post Bugs that survive the heat of continuous fuzzing appeared first on The GitHub Blog.",
-      "pub_date": "Mon, 29 Dec 2025 22:01:14 +0000",
-      "source": "GitHub Security",
-      "image_url": "https://github.blog/wp-content/uploads/2025/12/fuzz1.png?resize=1024%2C425"
+      "title": "NSA GRASSMARLIN",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-118-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to disclose sensitive information. The following versions of NSA GRASSMARLIN are affected:  GRASSMARLIN vers:...",
+      "pub_date": "Tue, 28 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
     },
     {
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2024-7399\u0026nbsp;Samsung\u0026nbsp;MagicINFO\u0026nbsp;9 Server Path...",
       "pub_date": "Fri, 24 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Carlson Software VASCO-B GNSS Receiver",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation. The following versions of Carlson Soft...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-05",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to bypass authentication and have remote access to sensitive information on the device. The following version...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-39987 Marimo Remote Code Execution Vulnerability  This...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
@@ -562,25 +546,17 @@
       "image_url": ""
     },
     {
-      "title": "Yadea T5 Electric Bicycle",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft. The following versions of Yadea T5 ...",
+      "title": "Milesight Cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-03",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution. The following versions of Milesight Cameras are affected:  M...",
       "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Defending Against China-Nexus Covert Networks of Compromised Devices",
-      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
-      "description": "Defending against china-nexus covert networks of compromised devices executive summary Defending against China-nexus covert networks of compromised devices\u0026nbsp; Explaining the widespread shift i...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": "https://www.cisa.gov/sites/default/files/styles/large/public/2026-04/A%20diagram%20illustrating%20the%20basic%20setup%20of%20a%20covert%20network..png?itok=3Bfm4nKj"
-    },
-    {
-      "title": "Milesight Cameras",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-03",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution. The following versions of Milesight Cameras are affected:  M...",
+      "title": "Intrado 911 Emergency Gateway (EGW)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-06",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read, modify, or delete files. The following versions of Intrado 911 Emergency Gateway (EGW) are affected:...",
       "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -594,9 +570,41 @@
       "image_url": ""
     },
     {
-      "title": "Intrado 911 Emergency Gateway (EGW)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-06",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read, modify, or delete files. The following versions of Intrado 911 Emergency Gateway (EGW) are affected:...",
+      "title": "Defending Against China-Nexus Covert Networks of Compromised Devices",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
+      "description": "Defending against china-nexus covert networks of compromised devices executive summary Defending against China-nexus covert networks of compromised devices\u0026nbsp; Explaining the widespread shift i...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": "https://www.cisa.gov/sites/default/files/styles/large/public/2026-04/A%20diagram%20illustrating%20the%20basic%20setup%20of%20a%20covert%20network..png?itok=3Bfm4nKj"
+    },
+    {
+      "title": "Yadea T5 Electric Bicycle",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft. The following versions of Yadea T5 ...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-39987 Marimo Remote Code Execution Vulnerability  This...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to bypass authentication and have remote access to sensitive information on the device. The following version...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Carlson Software VASCO-B GNSS Receiver",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation. The following versions of Carlson Soft...",
       "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -618,25 +626,17 @@
       "image_url": ""
     },
     {
-      "title": "Siemens TPM 2.0",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-01",
-      "description": "View CSAF Summary The products listed below contain a vulnerability that could allow an attacker to perform an out-of-bound read, potentially leading to information disclosure or denial of service ...",
-      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Industrial Edge Management",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-11",
-      "description": "View CSAF Summary Industrial Edge Management contains an authorization bypass vulnerability that could be exploited by an unauthenticated remote attacker to circumvent authentication and to access ...",
-      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "Siemens SINEC NMS",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-03",
       "description": "View CSAF Summary Siemens SINEC NMS when used with User Management Component (UMC) contains an authentication bypass vulnerability due to insufficient validation of user identity. This could allow ...",
+      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "SenseLive X3050",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-12",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to take complete control of the device. The following versions of SenseLive X3050 are affected:  X3050 V1....",
       "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
