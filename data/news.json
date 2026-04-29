@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-04-29T15:05:05Z",
+  "last_updated": "2026-04-29T17:19:57Z",
   "articles": [
+    {
+      "title": "SAP npm Packages Compromised to Harvest Developer and CI/CD Secrets",
+      "link": "https://cybersecuritynews.com/sap-npm-packages-compromised/",
+      "description": "A new supply chain attack dubbed \u0026#8220;mini Shai Hulud\u0026#8221; has compromised four SAP-related npm packages by injecting malicious preinstall scripts that silently execute during dependency instal...",
+      "pub_date": "Wed, 29 Apr 2026 17:02:37 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/SAP-npm-Packages-Compromised.webp"
+    },
+    {
+      "title": "Lazarus Hackers Attacking macOS Users With ‘Mach-O Man’ Malware Kit",
+      "link": "https://cybersecuritynews.com/mach-o-man-macos-malware-lazarus/",
+      "description": "North Korea\u0026#8217;s state-sponsored Lazarus Group has unleashed a newly identified, modular macOS malware kit dubbed \u0026#8220;Mach-O Man\u0026#8221; a sophisticated, four-stage attack chain targeting fint...",
+      "pub_date": "Wed, 29 Apr 2026 16:50:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHX_Ny4Oe-ek3IhTyiwyy9ORh7w4qtcgvhJHcn2Q4Lw2gqQf0KTcsdaxeBOVvvmmQ2vfolq8KhmbXTs5sYZUeUt3ATwlFaCRofH0nxhGbFp_9Uo6URXGi-BwiIPtLFTyMQcj6DJyDe5e81sar0nwmN7FDP_Wdf9rQLeIcyE9PgIFqwygS8lD_5jjdK9A/s16000/Mach-O%20Man%20Malware%20Targets%20macOS%20Crypto%20Executives%20(1).webp?ssl=1"
+    },
+    {
+      "title": "SAP npm Packages Compromised by “Mini Shai-Hulud” Credential-Stealing Malware",
+      "link": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
+      "description": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware. According to reports from Aikido Secur...",
+      "pub_date": "Wed, 29 Apr 2026 21:56:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoviEyxWTNHg8ARy1a-r9k4-LpHIhfCKGFL71YHc6H2v8XiyHbkvdsU26IC8jHa304gwz8zE9dXXWcL8NaA5X5KRLIWFDpxB1hjQU1af_B6uGEEr3i_RNOub2DSShyphenhyphenBXp0C3p6343TffijodxMsHVFQ-Dc9jPPApgk1uluKVP8NzUHtx1yd50YLkSw6z6G/s1600/saps.jpg"
+    },
+    {
+      "title": "cPanel, WHM emergency update fixes critical auth bypass bug",
+      "link": "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
+      "description": "A critical vulnerability affecting all but the latest versions of cPanel and the WebHost Manager (WHM) dashboard could be exploited to obtain access to the control panel without authentication. [...]",
+      "pub_date": "Wed, 29 Apr 2026 11:51:44 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
+      "link": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
+      "description": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM). The packag...",
+      "pub_date": "Wed, 29 Apr 2026 20:13:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoAi4Ild7Dz2KtvraUPjGBgNHYScbOo2DzPh9iUn8IirHe8VYws7uF0A4wf2803kNMgLzCWg0oOZwXcdzRUx5-sbBPiABEN05-RtXTa2vMqOSa52E4FPELQba8QcIQBPXl6hOHuyN7cHldbTMMvxnA4UhxDk1Huh2W85I0EJeWdscqF5NdwRLjbtOXn7Zj/s1600/korean-hackers.jpg"
+    },
     {
       "title": "European police dismantles €50 million crypto investment fraud ring",
       "link": "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
@@ -130,28 +170,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifGMiUJH-3-Yk7Hnve0k2mPxHZecIbCTTN7z_CosJp8GhI7hira6707ALIDB4skUc8UbRdmWtbhz4n9fe8T-h3OGzul9awiw8DFsnsSORkjKfXr4dgEGX_ncQ7dWBYGAhyU3Efo8-z_YPCEFC_bUDH8eYeX_w6QcDrOWTnpRXqOF_IATm0t-xxMJp6uYWc/s1600/windows-logo.jpg"
     },
     {
-      "title": "New VECT 2.0 Ransomware Destroys Files Over 128 KB Across Windows, Linux, and ESXi",
-      "link": "https://cybersecuritynews.com/new-vect-2-0-ransomware-destroys-files/",
-      "description": "A newly documented ransomware strain called VECT 2.0 has drawn serious attention from the cybersecurity community for a deeply damaging flaw in its design. Unlike typical ransomware that locks file...",
-      "pub_date": "Wed, 29 Apr 2026 08:43:15 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-VECT-2.0-Ransomware-Destroys-Files-Over-128-KB-Across-Windows-Linux-and-ESXi.webp"
-    },
-    {
       "title": "Microsoft says backend change broke Teams Free chat and calls",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/",
       "description": "Microsoft is working to resolve a known issue that prevents some Microsoft Teams Free users from chatting and calling others. [...]",
       "pub_date": "Wed, 29 Apr 2026 04:38:07 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "New BlueNoroff Campaign Uses Fileless PowerShell and AI-Generated Zoom Lures",
-      "link": "https://cybersecuritynews.com/new-bluenoroff-campaign-uses-fileless-powershell/",
-      "description": "A dangerous new cyber campaign from North Korea\u0026#8217;s Lazarus Group is targeting cryptocurrency and Web3 professionals using fake Zoom meeting interfaces, fileless PowerShell scripts, and AI-gene...",
-      "pub_date": "Wed, 29 Apr 2026 07:19:40 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-BlueNoroff-Campaign-Uses-Fileless-PowerShell-and-AI-Generated-Zoom-Lures.webp"
     },
     {
       "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
@@ -306,14 +330,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4YomH2AGnUSAePfyyvEMXCbULukirvclzEJ6gnsm30Y2PApuarWfCLpKrBng3qYhhINWPwn99rVtdqKcEtbnVR9jkXkpBY-vDByDzMmZgLPPPrqyodmgqBCfR3ojF1tbyaFHQxIdr8voZgDugagnBymAchRR99uUm_0btEdWYeir8B6njw6Q1lPTcugcB/s1600/azure.jpg"
     },
     {
-      "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
-      "link": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
-      "description": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild. The vulnerability in ...",
-      "pub_date": "Tue, 28 Apr 2026 11:20:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMPU-2lLUg__kJUnPm1HSRP0cTelgKBaXgKDq4ODhX0XTKI83sddz2F_EHiOmoxnTYIkIFYIbFh8JLAMp6lqfK39czq_e1G5Ixe-Y53_-kXBSk0fqVZV6jFpECe1JjAy3ZD3MmnJ71jpZHuPpbNRjB4x7SsmfHNUCMVyzQiST7CTc9m3qteMc4zJ2U_GXo/s1600/windows-exploit.jpg"
-    },
-    {
       "title": "ZDI-26-306: Oracle VirtualBox SoundBlaster 16 Race Condition Local Privilege Escalation Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-306/",
       "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the tar...",
@@ -328,22 +344,6 @@
       "pub_date": "Tue, 28 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
-    },
-    {
-      "title": "Robinhood account creation flaw abused to send phishing emails",
-      "link": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
-      "description": "Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had susp...",
-      "pub_date": "Mon, 27 Apr 2026 19:11:01 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
-      "link": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
-      "description": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. \"Bas...",
-      "pub_date": "Mon, 27 Apr 2026 19:49:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWLDpoCXOE_C970Jb9YXSPl2DIDXlL2K2ZDch28huIDzQhLoliuasxjBz3mmCWcDe2u136HN7pDJUu0XBjVkgP6lQJSQTRL4VU_jqhXNwQyb8xLdDD8-9WKQxGp7eT_7WzNpqYPplV1nvvSF5cPwsT3q88d-52g7iU_hP9pxCoU5muOhBTqnTHgGl8Scr8/s1600/Checkmarx.jpg"
     },
     {
       "title": "ZDI-26-304: Foxit PDF Reader AcroForm Annotation Use-After-Free Remote Code Execution Vulnerability",
