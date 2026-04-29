@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-04-29T17:19:57Z",
+  "last_updated": "2026-04-29T19:12:21Z",
   "articles": [
+    {
+      "title": "Hackers arrested for hijacking and selling 610,000 Roblox accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-for-hijacking-and-selling-610-000-roblox-accounts/",
+      "description": "The Ukrainian police have arrested three individuals who hacked more than 610,000 Roblox gaming accounts and sold them for a profit of $225,000. [...]",
+      "pub_date": "Wed, 29 Apr 2026 14:32:15 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "SAP npm Packages Compromised to Harvest Developer and CI/CD Secrets",
       "link": "https://cybersecuritynews.com/sap-npm-packages-compromised/",
@@ -18,12 +26,12 @@
       "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHX_Ny4Oe-ek3IhTyiwyy9ORh7w4qtcgvhJHcn2Q4Lw2gqQf0KTcsdaxeBOVvvmmQ2vfolq8KhmbXTs5sYZUeUt3ATwlFaCRofH0nxhGbFp_9Uo6URXGi-BwiIPtLFTyMQcj6DJyDe5e81sar0nwmN7FDP_Wdf9rQLeIcyE9PgIFqwygS8lD_5jjdK9A/s16000/Mach-O%20Man%20Malware%20Targets%20macOS%20Crypto%20Executives%20(1).webp?ssl=1"
     },
     {
-      "title": "SAP npm Packages Compromised by “Mini Shai-Hulud” Credential-Stealing Malware",
+      "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
       "link": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
       "description": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware. According to reports from Aikido Secur...",
       "pub_date": "Wed, 29 Apr 2026 21:56:00 +0530",
       "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoviEyxWTNHg8ARy1a-r9k4-LpHIhfCKGFL71YHc6H2v8XiyHbkvdsU26IC8jHa304gwz8zE9dXXWcL8NaA5X5KRLIWFDpxB1hjQU1af_B6uGEEr3i_RNOub2DSShyphenhyphenBXp0C3p6343TffijodxMsHVFQ-Dc9jPPApgk1uluKVP8NzUHtx1yd50YLkSw6z6G/s1600/saps.jpg"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7ILiV-4oJHtNRt3-K52GIsgOaNUuN9owB5ky-Mk8FvRE3QmcqDg33oV3sCrzjgWEyIUfwTtn110bcMYVU3Lp61ArknIlPAcmMvbgJJ5-WheKYivyblon2tp79ux9pJmnYNv_ShhIAA5of3Wx7QzQRZs2mNuSQs6lLG23LKMVonvElcNMy6MXp6yVZO73F/s1600/sap-npm-hacks.jpg"
     },
     {
       "title": "cPanel, WHM emergency update fixes critical auth bypass bug",
@@ -306,14 +314,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft asks iPhone users to reauthenticate after Outlook outage",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/",
-      "description": "After addressing a widespread outage that affected Outlook.com users worldwide on Monday, Microsoft has asked iPhone users to re-enter their credentials to regain access to their Outlook and Hotmai...",
-      "pub_date": "Tue, 28 Apr 2026 04:37:12 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks",
       "link": "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
       "description": "A Chinese national accused of being a member of the Silk Typhoon hacking group has been extradited to the U.S. from Italy.\u0026nbsp; Xu Zewei, 34, was arrested in July 2025 by Italian authorities for h...",
@@ -522,6 +522,14 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/01/fine-grained-pat.png?resize=1024%2C496"
     },
     {
+      "title": "Adapting Zero Trust Principles to Operational Technology",
+      "link": "https://www.cisa.gov/resources-tools/resources/adapting-zero-trust-principles-operational-technology",
+      "description": "Adapting Zero Trust Principles to Operational Technology CISA, in coordination with the Department of War, Department of Energy, Federal Bureau of Investigation, and Department of State, released A...",
+      "pub_date": "Wed, 29 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "NSA GRASSMARLIN",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-118-01",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to disclose sensitive information. The following versions of NSA GRASSMARLIN are affected:  GRASSMARLIN vers:...",
@@ -622,14 +630,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33825 Microsoft Defender Insufficient Granularity of A...",
       "pub_date": "Wed, 22 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Industrial Edge Management",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-11",
-      "description": "View CSAF Summary Industrial Edge Management contains an authorization bypass vulnerability that could be exploited by an unauthenticated remote attacker to circumvent authentication and to access ...",
-      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
