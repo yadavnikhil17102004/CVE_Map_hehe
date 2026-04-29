@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-04-29T21:54:16Z",
+  "last_updated": "2026-04-29T22:50:30Z",
   "articles": [
+    {
+      "title": "Official SAP npm packages compromised to steal credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
+      "description": "Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems. [...]",
+      "pub_date": "Wed, 29 Apr 2026 18:43:44 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Popular WordPress redirect plugin hid dormant backdoor for years",
+      "link": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
+      "description": "The Quick Page/Post Redirect plugin, installed on more than 70,000 WordPress sites, had a backdoor added five years ago that allows injecting arbitrary code into users' sites. [...]",
+      "pub_date": "Wed, 29 Apr 2026 18:13:15 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
@@ -272,22 +288,6 @@
       "pub_date": "Tue, 28 Apr 2026 19:31:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji1Auw0eR5oiVkEiB8JPzjSCaFsUUiAOfNHrcsOzO4DElBB4gbQ20uu3p69nojIkLsgxZOj81fa7fK_dchUAx0WINAGMq3X0VSA7LH_Isc1hPAvls76rdLeSYCn40zw8P2xAikVwxb_pclaNQXER8G7nzPO41LAl0-ELu-i60_RLl7CLCWcC9gGrEC8oXw/s1600/vect.gif"
-    },
-    {
-      "title": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-legacy-tls-in-exchange-online-starting-july/",
-      "description": "Microsoft says it will start blocking legacy TLS connections for POP and IMAP email clients in Exchange Online starting in July 2026. [...]",
-      "pub_date": "Tue, 28 Apr 2026 09:18:36 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Inside an OPSEC Playbook: How Threat Actors Evade Detection",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/",
-      "description": "Threat actors are now publishing structured OPSEC playbooks to stay undetected. Flare reveals how these guides outline layered infrastructure, identity separation, and long-term evasion strategies....",
-      "pub_date": "Tue, 28 Apr 2026 08:50:58 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
