@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-04-29T12:12:11Z",
+  "last_updated": "2026-04-29T15:05:05Z",
   "articles": [
+    {
+      "title": "European police dismantles €50 million crypto investment fraud ring",
+      "link": "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
+      "description": "Austrian and Albanian authorities dismantled a criminal ring accused of running a large-scale cryptocurrency investment fraud operation that caused estimated losses of over €50 million ($58.5 mil...",
+      "pub_date": "Wed, 29 Apr 2026 10:27:36 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Brinker Introduces a Novel Approach to Deepfake Detection",
+      "link": "https://cybersecuritynews.com/brinker-introduces-a-novel-approach-to-deepfake-detection/",
+      "description": "WILMINGTON, Delaware, April 29th, 2026, CyberNewswire Malicious intent-based deepfake detection shifts the focus from purely technical analysis to real-world risk and impact Brinker, recently named...",
+      "pub_date": "Wed, 29 Apr 2026 13:45:18 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc2uiWTqmyYDizwXs9Zgs8lDsyKIa5fqp0jW2sQEuHy9O3Uv0LVMFh64ZawwYsqhsDitpsxJ_ku1gjataaVG35qLtGVZ0c20JxJ_HZpFdvbGwmpg6C5mUGKMAQryDf3fCBI9phkUu80aifGiaG-eM7n6O2dyMyj-DOKHDFw9pWcSsew-GsYWi8MR0ymn8/s16000/TTT%20-%202026-04-29T183203.747.webp?ssl=1"
+    },
+    {
+      "title": "Learning from the Vercel breach: Shadow AI \u0026 OAuth sprawl",
+      "link": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
+      "description": "A single third-party OAuth integration can become a direct path into your environment. Push explains how the Vercel breach shows a compromised OAuth app can lead to widespread impact across downstr...",
+      "pub_date": "Wed, 29 Apr 2026 09:05:14 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Cursor AI Coding Agent Vulnerability Allow Attackers to Execute Code on Developer’s Machine",
+      "link": "https://cybersecuritynews.com/cursor-ai-coding-agent-vulnerability/",
+      "description": "A high-severity vulnerability in Cursor, one of the most widely used AI-powered coding environments today, has put developers at direct risk of remote code execution. Tracked as CVE-2026-26268, the...",
+      "pub_date": "Wed, 29 Apr 2026 12:43:53 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Cursor-AI-Coding-Agent-Vulnerability-Allow-Attackers-to-Execute-Code-on-Developers-Machine.webp"
+    },
+    {
+      "title": "GitHub fixes RCE flaw that gave access to millions of private repos",
+      "link": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
+      "description": "In early March, GitHub patched a critical remote code execution vulnerability (CVE-2026-3854) that could have allowed attackers to access millions of private repositories. [...]",
+      "pub_date": "Wed, 29 Apr 2026 08:41:17 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "SLOTAGENT Malware Uses API Hashing and Encrypted Strings to Hinder Reverse Engineering",
+      "link": "https://cybersecuritynews.com/slotagent-malware-uses-api-hashing/",
+      "description": "A newly identified malware called SLOTAGENT has drawn attention in the cybersecurity community for its strong ability to resist analysis and avoid detection. The malware does not rely on brute forc...",
+      "pub_date": "Wed, 29 Apr 2026 12:26:44 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/SLOTAGENT-Malware-Uses-API-Hashing-and-Encrypted-Strings-to-Hinder-Reverse-Engineering.webp"
+    },
+    {
+      "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
+      "link": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
+      "description": "In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain. We aren't just talki...",
+      "pub_date": "Wed, 29 Apr 2026 17:32:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8vcicU2DANrmyA4GRttWV5sb4GPYdppuZax9v279s90O_uXz10MvgxpTyOR9s-tZoccR96ph-c7hZOwXORyLBYdWEsn3zCkrT_ivf6ZVApdMY6TL6jarUO4rNjR9nfc7XPTnmc6ttcKs_9aGOsOK4RoEnliEqVYrcOtL_d7Zys-51KZosLtWtlsOX4mo/s1600/thn.jpg"
+    },
     {
       "title": "Minecraft Players Targeted by LofyStealer Using Node.js Loader and In-Memory Browser Injection",
       "link": "https://cybersecuritynews.com/minecraft-players-targeted-by-lofystealer/",
@@ -98,14 +154,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-BlueNoroff-Campaign-Uses-Fileless-PowerShell-and-AI-Generated-Zoom-Lures.webp"
     },
     {
-      "title": "cPanel Warns of Critical Authentication Flaw – Emergency Patch Released",
-      "link": "https://cybersecuritynews.com/cpanel-authentication-flaw/",
-      "description": "Web hosting control panel giant cPanel has issued an emergency security update to address a critical vulnerability affecting its core software. The security flaw directly impacts multiple authentic...",
-      "pub_date": "Wed, 29 Apr 2026 06:25:12 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/cPanel-Warns-of-Critical-Authentication-Issue-Emergency-Patch-Released.webp"
-    },
-    {
       "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
       "link": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
       "description": "In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitati...",
@@ -146,28 +194,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgztlzahKA2HwUQiNDerhbX2l415JinNIW5jaU5tgskPVHqpMhba_NorYL9SSWRzLdSPjSnsxZKQic97f8H2Bx2G0Dsjb58dcdFuZoL0c5Gno3BVvYa4vi62_PNr1Qh-kBYED7YbTPw3fqQklMmnoPV0b1KYaienKHzIAtBuktMqyVCxGU0u8Hkd-zzYeNU/s1600/github.jpg"
     },
     {
-      "title": "New BlobPhish Attack Leverages Browser Blob Objects to Steal Users’ Login Credentials",
-      "link": "https://cybersecuritynews.com/blobphish-phishing-attack/",
-      "description": "A sophisticated, memory-resident phishing campaign called BlobPhish, active since October 2024, that exploits browser Blob URL APIs to silently steal credentials from Microsoft 365 users, major U.S...",
-      "pub_date": "Tue, 28 Apr 2026 17:40:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi07cEmZ8n37JLWZmcGpCCqer-DrUr2uaHK97z_Zlhiz_VKntAt7LZztDpGFR8Kr6kdBbW4bq_4iqNEYdzSul4UFoMxF7MJ14OzJTiX6QNcUAhMQUF1TBiWaeNURsHKT1TkhdRBSnei0cyXJibV-K4O7tfbABM76UqOB9KSLUkLfqEd3RXQdHspj1AJdw/s16000/BlobPhish%20Browser-Based%20Phishing%20Attack.webp?ssl=1"
-    },
-    {
       "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
       "link": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
       "description": "A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot). \"The ...",
       "pub_date": "Tue, 28 Apr 2026 23:09:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQf8Wzg1Ms0KVsO546uQuwlR3w_8qW1MQZExs5TgKCGHSNNS1UEnOITq-_y8HIrA_3n_gfq7Hm0IMb-XSRJSsGL1ncRPlPoyDX7cf_wFbEGAJCPkv6ZDBzjN1Nswe9-CMR3Tmn1F5KuVyWGdOkGEIbeI9R7zGKplJPofRFBx-Ru20JOGfAFEpiZOAlDBXh/s1600/hackers.jpg"
-    },
-    {
-      "title": "Critical GitHub.com and Enterprise Server RCE Vulnerability Enables Full Server Compromise",
-      "link": "https://cybersecuritynews.com/github-com-and-enterprise-server-rce/",
-      "description": "A critical remote code execution (RCE) vulnerability tracked as CVE-2026-3854 in GitHub\u0026#8217;s internal git infrastructure that could have allowed any authenticated user to compromise backend serv...",
-      "pub_date": "Tue, 28 Apr 2026 17:30:24 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/GitHub.com-and-Enterprise-Server-RCE.webp"
     },
     {
       "title": "US reportedly charges Scattered Spider hacker arrested in Finland",
@@ -306,44 +338,12 @@
       "image_url": ""
     },
     {
-      "title": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
-      "link": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
-      "description": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]",
-      "pub_date": "Mon, 27 Apr 2026 17:41:01 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
-      "link": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
-      "description": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]",
-      "pub_date": "Mon, 27 Apr 2026 16:00:31 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Alleged Silk Typhoon hacker extradited to US for cyberespionage",
-      "link": "https://www.bleepingcomputer.com/news/security/alleged-silk-typhoon-hacker-extradited-to-us-for-cyberespionage/",
-      "description": "A Chinese national accused of carrying out cyberespionage operations for China's intelligence services has been extradited from Italy to the United States to face criminal charges. [...]",
-      "pub_date": "Mon, 27 Apr 2026 15:56:03 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
       "link": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
       "description": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. \"Bas...",
       "pub_date": "Mon, 27 Apr 2026 19:49:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWLDpoCXOE_C970Jb9YXSPl2DIDXlL2K2ZDch28huIDzQhLoliuasxjBz3mmCWcDe2u136HN7pDJUu0XBjVkgP6lQJSQTRL4VU_jqhXNwQyb8xLdDD8-9WKQxGp7eT_7WzNpqYPplV1nvvSF5cPwsT3q88d-52g7iU_hP9pxCoU5muOhBTqnTHgGl8Scr8/s1600/Checkmarx.jpg"
-    },
-    {
-      "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking \u0026 More",
-      "link": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
-      "description": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed ho...",
-      "pub_date": "Mon, 27 Apr 2026 19:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1eEqmWavzJwy68cdm3DB_l6dZO3ja-RjrtStTMh8_AA5AwWVDhwqEHJIYOPo98lAQ1yDrMZL1Yl2LxeSbk25vsQQI7csJuilXZRo-frfCj9ULE507sQBgvEBM0Y_RkYAWtUteoShXMRAD70JhGRjah1cBzZCew3meQp5xP5-Jv72-ZI4veiUa-aJnMYAK/s1600/cybrecap.jpg"
     },
     {
       "title": "ZDI-26-304: Foxit PDF Reader AcroForm Annotation Use-After-Free Remote Code Execution Vulnerability",
