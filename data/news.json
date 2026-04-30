@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-04-30T12:09:47Z",
+  "last_updated": "2026-04-30T15:01:53Z",
   "articles": [
+    {
+      "title": "Google Gemini CLI Vulnerabilities Allow Attackers to Execute Commands on Host Systems",
+      "link": "https://cybersecuritynews.com/google-gemini-cli-vulnerabilities/",
+      "description": "A critical remote code execution vulnerability in the Google Gemini CLI and its associated GitHub Action. Assigned a maximum severity score of CVSS 10.0, the flaw allowed unprivileged external atta...",
+      "pub_date": "Thu, 30 Apr 2026 14:04:01 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Google-Gemini-CLI-VUlnerabilities-Allow-attackers-to-execute-commands-on-host-systems.webp"
+    },
+    {
+      "title": "What Happens in the First 24 Hours After a New Asset Goes Live",
+      "link": "https://www.bleepingcomputer.com/news/security/what-happens-in-the-first-24-hours-after-a-new-asset-goes-live/",
+      "description": "When a new asset goes live, attackers start scanning within minutes. Sprocket Security shows how automated attacks move from discovery to compromise in under 24 hours. [...]",
+      "pub_date": "Thu, 30 Apr 2026 10:02:12 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
+      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
+      "description": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into ...",
+      "pub_date": "Thu, 30 Apr 2026 19:25:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwfqxUhPz38fAoq0CZr2tW8KqGW-Cr0zJloN9kS_80QO2e7yyah4N-nMKNxoSllB2tpyjKO25s2f8eFJNd2bBo50XRAVatMKnnk8ZAbRbz6kfQUhVUoD5vutOmFpYzojybY8aJZhA6KGL3sawNEyaqjlW63hAeEwrTsj8lnpou-4mThnzwCzO442aue-R0/s1600/threats.jpg"
+    },
+    {
+      "title": "New Linux ‘Copy Fail’ flaw gives hackers root on major distros",
+      "link": "https://www.bleepingcomputer.com/news/security/new-linux-copy-fail-flaw-gives-hackers-root-on-major-distros/",
+      "description": "An exploit has been published for a local privilege escalation vulnerability dubbed \"Copy Fail\" that impacts Linux kernels released since 2017, allowing an unprivileged local attacker to gain root ...",
+      "pub_date": "Thu, 30 Apr 2026 09:54:47 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Jenkins Patches High-Severity Plugin Flaws Including Path Traversal and Stored XSS",
+      "link": "https://cybersecuritynews.com/jenkins-patches-multiple-vulnerabilities-2/",
+      "description": "Jenkins project published a security advisory detailing patches for seven plugin vulnerabilities, including high-severity path traversal and Stored Cross-Site Scripting (XSS) flaws. Administrators ...",
+      "pub_date": "Thu, 30 Apr 2026 13:49:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Jenkins-Patches-High-Severity-Plugin-Flaws-Including-Path-Traversal-and-Stored-XSS.webp"
+    },
+    {
+      "title": "WordPress Plugin Hacked Since 2020 to Inject Malicious Code Silently",
+      "link": "https://cybersecuritynews.com/wordpress-plugin-hacked/",
+      "description": "A massive supply chain attack has been uncovered in the Quick Page/Post Redirect Plugin, a popular WordPress plugin with over 70,000 active installations. Security researcher Austin Ginder discover...",
+      "pub_date": "Thu, 30 Apr 2026 12:56:09 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Backdoored-WordPress-Plugin-Used-Remote-Update-Checker-for-Silent-Code-Delivery.webp"
+    },
+    {
+      "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
+      "link": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
+      "description": "Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range ...",
+      "pub_date": "Thu, 30 Apr 2026 18:06:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnv1KtLLlZSnm9a16bN-o_szrBiAIN_QljTfe09K4RzFxSqhFADtuXmRzOPZ_Poazif-VadFAnRnboCWX5yZtc5JntGopn5Fy6T1X2BexXelFOxYtEA7qULoTCkAMwEybLf42JJ_yGjSPf_T-tjYvbqxscVgZ6OyL65yKcTjC0KQL48pgYLZUmLjxfBBhd/s1600/malware-data.jpg"
+    },
     {
       "title": "Critical cPanel and WHM bug exploited as a zero-day, PoC now available",
       "link": "https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/",
@@ -8,6 +64,14 @@
       "pub_date": "Thu, 30 Apr 2026 07:40:31 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades",
+      "link": "https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html",
+      "description": "Intro A sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional acco...",
+      "pub_date": "Thu, 30 Apr 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8d19xBfapc_ToA1XOK4xdQ815tfHldoYH0Cy7zsTwOoWlFNQDdubeXMv4Udo6DaFXWJK3lG4meqdmtLAuaCMfa7R1KM_EfiGE5cZItYx6NdnqjB-R_6neMFv5iIG6SjUDkRUUiZg_j7oOaueXGZb4M-K7EmJM3MCjSvgxfok9gTFNd9Qwdf-AKu_DsP4/s1600/github-2.jpg"
     },
     {
       "title": "Police dismantles 9 crypto scam centers, arrests 276 suspects",
@@ -82,36 +146,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/ProFTPDs-SQL-injection-Vulnerability-Enables-remote-code-execution-Attacks.webp"
     },
     {
-      "title": "Malicious npm Package Brand-Squats TanStack Exfiltrate Developer Secrets",
-      "link": "https://cybersecuritynews.com/malicious-npm-package-brand-squats-tanstack/",
-      "description": "A fake npm package has been caught silently stealing sensitive developer credentials by impersonating the widely trusted TanStack library. The package, published under the unscoped name \u0026#8220;tans...",
-      "pub_date": "Thu, 30 Apr 2026 07:49:39 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Malicious-npm-Package-Brand-Squats-TanStack-Exfiltrate-Developer-Secrets.webp"
-    },
-    {
-      "title": "New EtherRAT Variant Uses Trojanized Tftpd64 Installer to Bridge Web2 Malware and Web3 Theft",
-      "link": "https://cybersecuritynews.com/new-etherrat-variant-uses-trojanized-tftpd64-installer/",
-      "description": "A new and more dangerous type of malware is quietly targeting Windows users by hiding inside a trusted software installer. Cybercriminals have combined traditional malware tactics with cryptocurren...",
-      "pub_date": "Thu, 30 Apr 2026 07:13:11 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-EtherRAT-Variant-Uses-Trojanized-Tftpd64-Installer-to-Bridge-Web2-Malware-and-Web3-Theft.webp"
-    },
-    {
       "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
       "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
       "description": "Google has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the \"google-github-actions/run-gemini-cli\" GitHub Actions workflow -- that could have...",
       "pub_date": "Thu, 30 Apr 2026 12:37:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoqSVEXaseT8C79cbC1Wjec2TiF4nMK72XiCPL3WBxqwNy9iUk5CSEqSXgwJFRug0zXq5foMAXzMYCSIP0nEnr-CxCeYFgjmVcOfPtK4nocQaGDzIFecL9SScOScUhVAgGkff6wO5ks-sqWA_KCEZnfrQhfViSGai-g0MOd2IHOYX_N03JvwIipkQ1gso7/s1600/gemini-cursor.jpg"
-    },
-    {
-      "title": "SonicWall SonicOS Vulnerabilities Allow Attackers to Bypass Access Controls and Crash Firewall",
-      "link": "https://cybersecuritynews.com/sonicwall-sonicos-vulnerabilities/",
-      "description": "SonicWall has released a security advisory addressing three vulnerabilities in its SonicOS software. Discovered by the Advanced Research Team at CrowdStrike, these flaws could allow attackers to by...",
-      "pub_date": "Thu, 30 Apr 2026 07:02:22 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/SonicWall-SonicOS-Vulnerability-allow-attackers-to-bypass-access-controls-and-Crash-Firewall.webp"
     },
     {
       "title": "Official SAP npm packages compromised to steal credentials",
@@ -258,22 +298,6 @@
       "image_url": ""
     },
     {
-      "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
-      "description": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability  tracked as CVE-2026-42208. [...]",
-      "pub_date": "Tue, 28 Apr 2026 17:07:23 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Video service Vimeo confirms Anodot breach exposed user data",
-      "link": "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
-      "description": "Vimeo has disclosed that data belonging to some of its customers and users has been accessed without authorization following the recent breach at the Anodot data anomaly detection company. [...]",
-      "pub_date": "Tue, 28 Apr 2026 15:04:22 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
       "link": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
       "description": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code ...",
@@ -304,30 +328,6 @@
       "pub_date": "Tue, 28 Apr 2026 19:31:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji1Auw0eR5oiVkEiB8JPzjSCaFsUUiAOfNHrcsOzO4DElBB4gbQ20uu3p69nojIkLsgxZOj81fa7fK_dchUAx0WINAGMq3X0VSA7LH_Isc1hPAvls76rdLeSYCn40zw8P2xAikVwxb_pclaNQXER8G7nzPO41LAl0-ELu-i60_RLl7CLCWcC9gGrEC8oXw/s1600/vect.gif"
-    },
-    {
-      "title": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
-      "link": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
-      "description": "Every security program is betting on the same assumption: once a system is connected, the problem is solved. Open a ticket, stand up a gateway, push the data through. Done. That assumption is wrong...",
-      "pub_date": "Tue, 28 Apr 2026 17:28:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrVD0Q_dTvO3tooHYWKp7i_lkLd6h30GSv_DDv4jIb_KZDY5heV39R01GFN6MWEq1JsilHFrd7EtDOBkmlkvXYAb7-w51A1SDN3AAiEAbuq7ZnNREakyHouZPVBMNhk_HnEOK8D7H5m51A2zcUvAvDjmPnrrzeZI_nQHFao1QbljV4ortyzuqbXsNR35c/s1600/everfox.jpg"
-    },
-    {
-      "title": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
-      "description": "Cybersecurity researchers have disclosed details of a critical security flaw impacting LeRobot, Hugging Face's open-source robotics platform with nearly 24,000 GitHub stars, that could be exploited...",
-      "pub_date": "Tue, 28 Apr 2026 16:48:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_yhcF_ELr7WEtcfHJTj6KXaci5hMzJMQzWlKpRwmiUDUDlRiLn5kZFpj4JkLxrqw0JBajNTAmlAxzIkQytW333ZnGJBKeGY-rBsLLrCPqATNkq3TvcBRbi61oogxsv5Z1a2REm5g7cpgfqKq_fnr2B1O1tPHDckGGiBA7YZY0Jcl7nWIzqaDYFGqEm3nZ/s1600/lerobots.jpg"
-    },
-    {
-      "title": "After Mythos: New Playbooks For a Zero-Window Era",
-      "link": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
-      "description": "When patching isn’t fast enough, NDR helps contain the next era of threats. If you’ve been tracking advancements in AI, you know the exploit window, the short buffer that organizations relied o...",
-      "pub_date": "Tue, 28 Apr 2026 16:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzc6SWl21t5zRKK4OvMIg-ZtrnsRwKm8E3dglWBxBpyC_vXdsbGazi1uRcQagObPghUhK33RtvJOFEZ5-W7jCVBV36HOC-iepqOkjgHuvAHkmeoKRvMw-IJ7Cq8KUV5iBwVg-1yLJ7XmTGLab6a4ECZ11eGP8lCOLORbJcng1onSTv_L2aDYHSVmNCMjw/s1600/corelight.jpg"
     },
     {
       "title": "ZDI-26-306: Oracle VirtualBox SoundBlaster 16 Race Condition Local Privilege Escalation Vulnerability",
