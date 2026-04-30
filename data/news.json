@@ -1,6 +1,86 @@
 {
-  "last_updated": "2026-04-30T08:07:16Z",
+  "last_updated": "2026-04-30T10:48:09Z",
   "articles": [
+    {
+      "title": "OpenAI Releases 5-Point Action Plan to Strengthen AI-Powered Cyber Defense",
+      "link": "https://cybersecuritynews.com/openai-5-point-action-plan/",
+      "description": "OpenAI has published a comprehensive cybersecurity action plan titled \u0026#8220;Cybersecurity in the Intelligence Age: An Action Plan for Democratizing AI-Powered Cyber Defense,\u0026#8221; outlining a fiv...",
+      "pub_date": "Thu, 30 Apr 2026 09:50:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/OpenAI-5-Point-Action-Plan.webp"
+    },
+    {
+      "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
+      "link": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
+      "description": "Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The high-severity vulnerability tracked...",
+      "pub_date": "Thu, 30 Apr 2026 14:54:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYpnBkrLNj-dAKcwAbvRIvfXg8YDXoO3yfrl3vvXBOBwo2zga2asWZ0at4FLcLbiqQ1N7BsYA2szKbuqeVLBkrD80tMqYguBbqvrhEude6Fe9ayQpNs-meP8h4-f6ReWVeIU0zYp31XU7K-Kgxm5OKdI77HPQWgTx41al_WH3gYkMjEoROl6zvXF8HPRf5/s1600/root.jpg"
+    },
+    {
+      "title": "CVE MCP Server Turns Claude Into a Fully Capable Security Analyst With 27 Tools Across 21 APIs",
+      "link": "https://cybersecuritynews.com/cve-mcp-server-and-claude/",
+      "description": "A new open-source project called CVE MCP Server is redefining how security teams triage vulnerabilities, transforming Anthropic\u0026#8217;s Claude AI into a fully capable security analyst by giving it ...",
+      "pub_date": "Thu, 30 Apr 2026 08:42:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CVE-MCP-Server-and-Claude.webp"
+    },
+    {
+      "title": "Claude-Generated Commit Adds PromptMink Malware to Crypto Trading Agent",
+      "link": "https://cybersecuritynews.com/claude-generated-commit-adds-promptmink-malware/",
+      "description": "A new threat has quietly taken root in the software development world, using an AI coding assistant as an unknowing participant in a supply chain attack. A malicious npm package campaign called Pro...",
+      "pub_date": "Thu, 30 Apr 2026 08:39:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Generated-Commit-Adds-PromptMink-Malware-to-Crypto-Trading-Agent.webp"
+    },
+    {
+      "title": "Qinglong Task Scheduler RCE Vulnerabilities Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/qinglong-task-scheduler-rce-vulnerabilities/",
+      "description": "In early 2026, two critical authentication bypass vulnerabilities in the popular open-source Qinglong task scheduler were actively exploited by hackers. According to Snyk security reports, unauthen...",
+      "pub_date": "Thu, 30 Apr 2026 08:18:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Qinglong-task-scheduler-RCE-vulnerabilities-Exploited-in-the-Wild.webp"
+    },
+    {
+      "title": "Novel KarstoRAT RAT Enables Webcam Monitoring, Audio Recording, and Remote Payload Execution",
+      "link": "https://cybersecuritynews.com/novel-karstorat-rat-enables-webcam-monitoring/",
+      "description": "A newly identified remote access trojan called KarstoRAT has been found in sandbox analyses and malware repositories since early 2026. The malware gives attackers a broad set of remote-control capa...",
+      "pub_date": "Thu, 30 Apr 2026 08:16:10 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Novel-KarstoRAT-RAT-Enables-Webcam-Monitoring-Audio-Recording-and-Remote-Payload-Execution.webp"
+    },
+    {
+      "title": "CISA Warns of ConnectWise ScreenConnect Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/connectwise-screenconnect-vulnerability/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning regarding a severe vulnerability in ConnectWise ScreenConnect. On April 28, 2026, CISA officially added...",
+      "pub_date": "Thu, 30 Apr 2026 08:05:47 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CISA-Warns-of-ConnectWise-ScreenConnect-Vulnerability-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "ProFTPD’s SQL Injection Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/proftpds-sql-injection-vulnerability/",
+      "description": "A critical SQL injection vulnerability in ProFTPD, one of the Internet\u0026#8217;s most widely deployed FTP servers. Tracked as CVE-2026-42167, this flaw carries a CVSS severity score of 8.1 and affec...",
+      "pub_date": "Thu, 30 Apr 2026 07:54:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/ProFTPDs-SQL-injection-Vulnerability-Enables-remote-code-execution-Attacks.webp"
+    },
+    {
+      "title": "Malicious npm Package Brand-Squats TanStack Exfiltrate Developer Secrets",
+      "link": "https://cybersecuritynews.com/malicious-npm-package-brand-squats-tanstack/",
+      "description": "A fake npm package has been caught silently stealing sensitive developer credentials by impersonating the widely trusted TanStack library. The package, published under the unscoped name \u0026#8220;tans...",
+      "pub_date": "Thu, 30 Apr 2026 07:49:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Malicious-npm-Package-Brand-Squats-TanStack-Exfiltrate-Developer-Secrets.webp"
+    },
+    {
+      "title": "New EtherRAT Variant Uses Trojanized Tftpd64 Installer to Bridge Web2 Malware and Web3 Theft",
+      "link": "https://cybersecuritynews.com/new-etherrat-variant-uses-trojanized-tftpd64-installer/",
+      "description": "A new and more dangerous type of malware is quietly targeting Windows users by hiding inside a trusted software installer. Cybercriminals have combined traditional malware tactics with cryptocurren...",
+      "pub_date": "Thu, 30 Apr 2026 07:13:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-EtherRAT-Variant-Uses-Trojanized-Tftpd64-Installer-to-Bridge-Web2-Malware-and-Web3-Theft.webp"
+    },
     {
       "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
       "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
@@ -8,6 +88,14 @@
       "pub_date": "Thu, 30 Apr 2026 12:37:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoqSVEXaseT8C79cbC1Wjec2TiF4nMK72XiCPL3WBxqwNy9iUk5CSEqSXgwJFRug0zXq5foMAXzMYCSIP0nEnr-CxCeYFgjmVcOfPtK4nocQaGDzIFecL9SScOScUhVAgGkff6wO5ks-sqWA_KCEZnfrQhfViSGai-g0MOd2IHOYX_N03JvwIipkQ1gso7/s1600/gemini-cursor.jpg"
+    },
+    {
+      "title": "SonicWall SonicOS Vulnerabilities Allow Attackers to Bypass Access Controls and Crash Firewall",
+      "link": "https://cybersecuritynews.com/sonicwall-sonicos-vulnerabilities/",
+      "description": "SonicWall has released a security advisory addressing three vulnerabilities in its SonicOS software. Discovered by the Advanced Research Team at CrowdStrike, these flaws could allow attackers to by...",
+      "pub_date": "Thu, 30 Apr 2026 07:02:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/SonicWall-SonicOS-Vulnerability-allow-attackers-to-bypass-access-controls-and-Crash-Firewall.webp"
     },
     {
       "title": "Official SAP npm packages compromised to steal credentials",
@@ -240,14 +328,6 @@
       "pub_date": "Tue, 28 Apr 2026 16:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzc6SWl21t5zRKK4OvMIg-ZtrnsRwKm8E3dglWBxBpyC_vXdsbGazi1uRcQagObPghUhK33RtvJOFEZ5-W7jCVBV36HOC-iepqOkjgHuvAHkmeoKRvMw-IJ7Cq8KUV5iBwVg-1yLJ7XmTGLab6a4ECZ11eGP8lCOLORbJcng1onSTv_L2aDYHSVmNCMjw/s1600/corelight.jpg"
-    },
-    {
-      "title": "Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks",
-      "link": "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
-      "description": "A Chinese national accused of being a member of the Silk Typhoon hacking group has been extradited to the U.S. from Italy.\u0026nbsp; Xu Zewei, 34, was arrested in July 2025 by Italian authorities for h...",
-      "pub_date": "Tue, 28 Apr 2026 13:27:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtGdvCIS6jOvz5WvlLwD34DqwHSyM4DaERfLDinlvQ4UfRqBUsjPp3o-sOVZL-gfqCHrsz53BMM3-fdFlaCLtMLshTfU9ncVM4qqkF9dzjsi9sF8XdMlbXvJSpDUSXdP_h4KN01TbwhT-10z626gUmlgrE4MlyM5lBTmZDKkB-g-xoMVgDFmM0b5sCCzQr/s1600/covid-hacker.png"
     },
     {
       "title": "ZDI-26-306: Oracle VirtualBox SoundBlaster 16 Race Condition Local Privilege Escalation Vulnerability",
