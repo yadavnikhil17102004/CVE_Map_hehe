@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-04-30T15:01:53Z",
+  "last_updated": "2026-04-30T17:11:08Z",
   "articles": [
+    {
+      "title": "FBI links cybercriminals to sharp surge in cargo theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/",
+      "description": "The U.S. Federal Bureau of Investigation (FBI) warned the transportation and logistics industry of a sharp rise in cyber-enabled cargo theft, with estimated losses in the United States and Canada r...",
+      "pub_date": "Thu, 30 Apr 2026 12:32:18 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "PyTorch Lightning Compromised in PyPI Supply Chain Attack to Steal Credentials",
+      "link": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
+      "description": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft. According to A...",
+      "pub_date": "Thu, 30 Apr 2026 22:01:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7hiQfVCFzoPBzfr5xqJ06qMjzv-zw_qiUcDTgyEM8RbEVk3PDztg9U5Vlkgvz6j7nX8ODtXwnTCC2wB78lupEmRjcxJTz74GJGSslsMQM-e5b8vG0W2gLFnbEzYAPKw05ZelkaNfy50VyLJeb-3EhwiGKfIP9qHNRpNG4MnFUnTBBOJ95vRJb-RbcFVxX/s1600/python.png"
+    },
+    {
+      "title": "Qilin Ransomware Enumerates RDP Authentication History on a Compromised Server",
+      "link": "https://cybersecuritynews.com/qilin-ransomware-enumerates-rdp-authentication/",
+      "description": "Qilin ransomware is one of the most active and damaging threats in the cyber landscape today. The group has steadily evolved its tactics since it first appeared in 2022, and its latest technique of...",
+      "pub_date": "Thu, 30 Apr 2026 16:05:25 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Qilin-Ransomware-Enumerates-RDP-Authentication-History-on-a-Compromised-Server.webp"
+    },
+    {
+      "title": "Targeted Large-Scale Campaign Attacking U.S. Organizations with Fake Event Invitations",
+      "link": "https://cybersecuritynews.com/campaign-attacking-u-s-organizations-with-fake-event-invitations/",
+      "description": "A large-scale phishing campaign is actively targeting organizations across the United States, using fake event invitations to deceive employees into handing over their corporate login credentials. ...",
+      "pub_date": "Thu, 30 Apr 2026 15:54:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Targeted-Large-Scale-Campaign-Attacking-U.S.-Organizations-with-Fake-Event-Invitations.webp"
+    },
+    {
+      "title": "New PhaaS Platform Phoenix Drives Brand-Impersonation Smishing Across Finance, Telecom, and Logistics",
+      "link": "https://cybersecuritynews.com/new-phaas-platform-phoenix/",
+      "description": "A dangerous new phishing platform called Phoenix is quietly spreading across the globe, targeting people through fake SMS messages designed to look like they come from trusted banks, telecom provid...",
+      "pub_date": "Thu, 30 Apr 2026 15:40:08 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-PhaaS-Platform-Phoenix-Drives-Brand-Impersonation-Smishing-Across-Finance-Telecom-and-Logistics.webp"
+    },
+    {
+      "title": "FBI and CISA Released Zero Trust Principles Implementation Guide for OT Environments",
+      "link": "https://cybersecuritynews.com/fbi-cisa-released-zero-trust-principles/",
+      "description": "The FBI and CISA, the Department of Energy (DOE), and defense partners published a joint intelligence document. Titled \u0026#8220;Adapting Zero Trust Principles to Operational Technology,\u0026#8221; this g...",
+      "pub_date": "Thu, 30 Apr 2026 15:30:37 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/FBI-and-CISA-Released-Zero-Trust-principles-Implementation-Guide-for-operational-technology-Environments-1.webp"
+    },
+    {
+      "title": "April KB5083769 Windows 11 update causes backup software failures",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/april-kb5083769-windows-11-update-causes-backup-software-failures/",
+      "description": "The April 2026 KB5083769 security update breaks third-party backup applications from multiple vendors on systems running Windows 11 24H2 and 25H2. [...]",
+      "pub_date": "Thu, 30 Apr 2026 11:23:03 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Popular Python Package lightning Hacked in Supply Chain Attack",
+      "link": "https://cybersecuritynews.com/python-package-lightning-hacked/",
+      "description": "The widely used PyTorch Lightning framework, which automatically executes credential-stealing malware on import, has also compromised GitHub maintainer accounts. The popular PyPI package lightning ...",
+      "pub_date": "Thu, 30 Apr 2026 15:16:35 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Python-Package-lightning-Hacked.webp"
+    },
     {
       "title": "Google Gemini CLI Vulnerabilities Allow Attackers to Execute Commands on Host Systems",
       "link": "https://cybersecuritynews.com/google-gemini-cli-vulnerabilities/",
@@ -104,46 +168,6 @@
       "pub_date": "Thu, 30 Apr 2026 08:42:56 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CVE-MCP-Server-and-Claude.webp"
-    },
-    {
-      "title": "Claude-Generated Commit Adds PromptMink Malware to Crypto Trading Agent",
-      "link": "https://cybersecuritynews.com/claude-generated-commit-adds-promptmink-malware/",
-      "description": "A new threat has quietly taken root in the software development world, using an AI coding assistant as an unknowing participant in a supply chain attack. A malicious npm package campaign called Pro...",
-      "pub_date": "Thu, 30 Apr 2026 08:39:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Generated-Commit-Adds-PromptMink-Malware-to-Crypto-Trading-Agent.webp"
-    },
-    {
-      "title": "Qinglong Task Scheduler RCE Vulnerabilities Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/qinglong-task-scheduler-rce-vulnerabilities/",
-      "description": "In early 2026, two critical authentication bypass vulnerabilities in the popular open-source Qinglong task scheduler were actively exploited by hackers. According to Snyk security reports, unauthen...",
-      "pub_date": "Thu, 30 Apr 2026 08:18:54 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Qinglong-task-scheduler-RCE-vulnerabilities-Exploited-in-the-Wild.webp"
-    },
-    {
-      "title": "Novel KarstoRAT RAT Enables Webcam Monitoring, Audio Recording, and Remote Payload Execution",
-      "link": "https://cybersecuritynews.com/novel-karstorat-rat-enables-webcam-monitoring/",
-      "description": "A newly identified remote access trojan called KarstoRAT has been found in sandbox analyses and malware repositories since early 2026. The malware gives attackers a broad set of remote-control capa...",
-      "pub_date": "Thu, 30 Apr 2026 08:16:10 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Novel-KarstoRAT-RAT-Enables-Webcam-Monitoring-Audio-Recording-and-Remote-Payload-Execution.webp"
-    },
-    {
-      "title": "CISA Warns of ConnectWise ScreenConnect Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/connectwise-screenconnect-vulnerability/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning regarding a severe vulnerability in ConnectWise ScreenConnect. On April 28, 2026, CISA officially added...",
-      "pub_date": "Thu, 30 Apr 2026 08:05:47 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/CISA-Warns-of-ConnectWise-ScreenConnect-Vulnerability-Exploited-in-Attacks.webp"
-    },
-    {
-      "title": "ProFTPD’s SQL Injection Vulnerability Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/proftpds-sql-injection-vulnerability/",
-      "description": "A critical SQL injection vulnerability in ProFTPD, one of the Internet\u0026#8217;s most widely deployed FTP servers. Tracked as CVE-2026-42167, this flaw carries a CVSS severity score of 8.1 and affec...",
-      "pub_date": "Thu, 30 Apr 2026 07:54:54 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/ProFTPDs-SQL-injection-Vulnerability-Enables-remote-code-execution-Attacks.webp"
     },
     {
       "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
@@ -274,28 +298,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifGMiUJH-3-Yk7Hnve0k2mPxHZecIbCTTN7z_CosJp8GhI7hira6707ALIDB4skUc8UbRdmWtbhz4n9fe8T-h3OGzul9awiw8DFsnsSORkjKfXr4dgEGX_ncQ7dWBYGAhyU3Efo8-z_YPCEFC_bUDH8eYeX_w6QcDrOWTnpRXqOF_IATm0t-xxMJp6uYWc/s1600/windows-logo.jpg"
     },
     {
-      "title": "Microsoft says backend change broke Teams Free chat and calls",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/",
-      "description": "Microsoft is working to resolve a known issue that prevents some Microsoft Teams Free users from chatting and calling others. [...]",
-      "pub_date": "Wed, 29 Apr 2026 04:38:07 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
       "link": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
       "description": "In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitati...",
       "pub_date": "Wed, 29 Apr 2026 11:04:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgev8o8oELGzruYVoLF6t_fn8gZnmWpTXq4Xgoq5n4Tc1H4qmyLdYJ53-8pGelRL4BrBtZqpCCsSgo_He2ItCULVwwPIgOHuN6S6zn5s9RYFASTpWxIoX8vlPmigRngBNb0ucFElbHxiz8uPWa2OkasjaBTQAG8hqeHqi_llW4WMI_gIZHjx23jm-O3ccQx/s1600/lite.jpg"
-    },
-    {
-      "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
-      "link": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
-      "description": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]",
-      "pub_date": "Tue, 28 Apr 2026 17:25:57 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
@@ -320,14 +328,6 @@
       "pub_date": "Tue, 28 Apr 2026 15:30:00 +0000",
       "source": "GitHub Security",
       "image_url": ""
-    },
-    {
-      "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
-      "link": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
-      "description": "Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux,...",
-      "pub_date": "Tue, 28 Apr 2026 19:31:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji1Auw0eR5oiVkEiB8JPzjSCaFsUUiAOfNHrcsOzO4DElBB4gbQ20uu3p69nojIkLsgxZOj81fa7fK_dchUAx0WINAGMq3X0VSA7LH_Isc1hPAvls76rdLeSYCn40zw8P2xAikVwxb_pclaNQXER8G7nzPO41LAl0-ELu-i60_RLl7CLCWcC9gGrEC8oXw/s1600/vect.gif"
     },
     {
       "title": "ZDI-26-306: Oracle VirtualBox SoundBlaster 16 Race Condition Local Privilege Escalation Vulnerability",
@@ -522,6 +522,54 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/01/fine-grained-pat.png?resize=1024%2C496"
     },
     {
+      "title": "ABB Ability Symphony Plus Engineering",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-06",
+      "description": "View CSAF Summary ABB became aware of vulnerability in the products versions listed as affected in the advisory. The ABB S+ Engineering product versions are affected by vulnerabilities in PostgreSQ...",
+      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB AWIN Gateways",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-05",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to remotely reboot the device or complete an unauthenticated query to reveal system configuration, includi...",
+      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB Edgenius Management Portal",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-03",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send a specially crafted message to the system node allowing the attacker to install and run arbitrary cod...",
+      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB System 800xA, Symphony Plus IEC 61850",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-01",
+      "description": "View CSAF Summary This vulnerability was privately reported relating to ABB’s implementation of the IEC 61850 communication stack for MMS client applications used in some Automation control syste...",
+      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB Ability OPTIMAX",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-04",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to bypass user authentication on OPTIMAX installations that make use of the Azure Active Directory Single-Sig...",
+      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB PCM600",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send specially crafted messages to the system node resulting in execution of arbitrary code. The following...",
+      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Adapting Zero Trust Principles to Operational Technology",
       "link": "https://www.cisa.gov/resources-tools/resources/adapting-zero-trust-principles-operational-technology",
       "description": "Adapting Zero Trust Principles to Operational Technology CISA, in coordination with the Department of War, Department of Energy, Federal Bureau of Investigation, and Department of State, released A...",
@@ -554,49 +602,9 @@
       "image_url": ""
     },
     {
-      "title": "Milesight Cameras",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-03",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution. The following versions of Milesight Cameras are affected:  M...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Defending Against China-Nexus Covert Networks of Compromised Devices",
-      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
-      "description": "Defending against china-nexus covert networks of compromised devices executive summary Defending against China-nexus covert networks of compromised devices\u0026nbsp; Explaining the widespread shift i...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": "https://www.cisa.gov/sites/default/files/styles/large/public/2026-04/A%20diagram%20illustrating%20the%20basic%20setup%20of%20a%20covert%20network..png?itok=3Bfm4nKj"
-    },
-    {
-      "title": "SpiceJet Online Booking System",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-04",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information. The following versions of SpiceJet Online Booking System are affected: ...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Yadea T5 Electric Bicycle",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft. The following versions of Yadea T5 ...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "FIRESTARTER Backdoor",
-      "link": "https://www.cisa.gov/news-events/analysis-reports/ar26-113a",
-      "description": "Malware Analysis Report at a Glance    Malware Name FIRESTARTER   Original Publication April 23, 2026   Executive Summary  The Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sam...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-39987 Marimo Remote Code Execution Vulnerability  This...",
+      "title": "Carlson Software VASCO-B GNSS Receiver",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation. The following versions of Carlson Soft...",
       "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -610,14 +618,6 @@
       "image_url": ""
     },
     {
-      "title": "Carlson Software VASCO-B GNSS Receiver",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation. The following versions of Carlson Soft...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "Intrado 911 Emergency Gateway (EGW)",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-06",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read, modify, or delete files. The following versions of Intrado 911 Emergency Gateway (EGW) are affected:...",
@@ -626,18 +626,18 @@
       "image_url": ""
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-33825 Microsoft Defender Insufficient Granularity of A...",
-      "pub_date": "Wed, 22 Apr 26 12:00:00 +0000",
+      "title": "SpiceJet Online Booking System",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-04",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information. The following versions of SpiceJet Online Booking System are affected: ...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Siemens SINEC NMS",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-03",
-      "description": "View CSAF Summary Siemens SINEC NMS when used with User Management Component (UMC) contains an authentication bypass vulnerability due to insufficient validation of user identity. This could allow ...",
-      "pub_date": "Tue, 21 Apr 26 12:00:00 +0000",
+      "title": "Milesight Cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-03",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution. The following versions of Milesight Cameras are affected:  M...",
+      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
