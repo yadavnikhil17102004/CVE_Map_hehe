@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-01T19:00:02Z",
+  "last_updated": "2026-05-01T20:07:38Z",
   "articles": [
+    {
+      "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
+      "link": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
+      "description": "A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts. The activit...",
+      "pub_date": "Fri, 01 May 2026 23:39:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilUS_xmTpvaJtwhFTnxsBtKSx2hWroMJKWUCKeB_CNx_9-5T85bdpqGfTZ0__XITi-i6ZnndaiiiFggf3Cgf-35KK-G6sEwvnlqom2DK6U-oH_o9GhEGNyd9kiSti-QC_dpl3v7b7IniC9kAUzV265yVbVsWAnLnH1RfQxrftUHj5MFAm03MOBw3Z6UEVb/s1600/phish.jpg"
+    },
     {
       "title": "15-year-old detained over French govt agency data breach",
       "link": "https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/",
@@ -322,14 +330,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8vcicU2DANrmyA4GRttWV5sb4GPYdppuZax9v279s90O_uXz10MvgxpTyOR9s-tZoccR96ph-c7hZOwXORyLBYdWEsn3zCkrT_ivf6ZVApdMY6TL6jarUO4rNjR9nfc7XPTnmc6ttcKs_9aGOsOK4RoEnliEqVYrcOtL_d7Zys-51KZosLtWtlsOX4mo/s1600/thn.jpg"
     },
     {
-      "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
-      "link": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
-      "description": "Every security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: \"So...",
-      "pub_date": "Wed, 29 Apr 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEher9s_mKSWufl-S-lAJfV_7PalFTxuPLyiublEI1g0S4mOPLkr21X8SDIXB8fo-hbUXOf07J8lXp7esCsDNp3d5lJ33kZam2mnpQWQ5jG1S56U5WyfuB12Igvk2bFrUHxlDu7z4NVom_3yHR21GMcQHCoF6MEg8oXdkm4iJcygaRtcBwoTh0Sd7umE0cph/s1600/xmcyber.jpg"
-    },
-    {
       "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
       "link": "https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/",
       "description": "How we validated, fixed, and investigated a critical vulnerability in under two hours, and confirmed no exploitation. The post Securing the git push pipeline: Responding to a critical remote code e...",
@@ -522,6 +522,14 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/01/fine-grained-pat.png?resize=1024%2C496"
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-31431 Linux Kernel Incorrect Resource Transfer Between...",
+      "pub_date": "Fri, 01 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Careful Adoption of Agentic AI Services",
       "link": "https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services",
       "description": "CISA, in collaboration with the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and other international and U.S. partners, released guidance for organizations on ...",
@@ -618,14 +626,6 @@
       "image_url": ""
     },
     {
-      "title": "Carlson Software VASCO-B GNSS Receiver",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation. The following versions of Carlson Soft...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "SpiceJet Online Booking System",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-04",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information. The following versions of SpiceJet Online Booking System are affected: ...",
@@ -634,9 +634,9 @@
       "image_url": ""
     },
     {
-      "title": "Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-05",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to bypass authentication and have remote access to sensitive information on the device. The following version...",
+      "title": "Carlson Software VASCO-B GNSS Receiver",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation. The following versions of Carlson Soft...",
       "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
