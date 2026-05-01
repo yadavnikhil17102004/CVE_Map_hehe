@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-01T14:48:04Z",
+  "last_updated": "2026-05-01T15:49:05Z",
   "articles": [
+    {
+      "title": "EtherRAT Campaign Uses SEO Poisoning and GitHub Facades to Target Enterprise Admins",
+      "link": "https://cybersecuritynews.com/etherrat-campaign-uses-seo-poisoning/",
+      "description": "A new and well-planned malware campaign has been actively targeting enterprise administrators, DevOps engineers, and security analysts by hijacking their everyday search habits. Rather than using m...",
+      "pub_date": "Fri, 01 May 2026 15:25:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/EtherRAT-Campaign-Uses-SEO-Poisoning-and-GitHub-Facades-to-Target-Enterprise-Admins.webp"
+    },
     {
       "title": "New Spyware Platform Lets Buyers Rebrand and Resell Android Surveillance Malware",
       "link": "https://cybersecuritynews.com/new-spyware-platform-lets-buyers-rebrand/",
@@ -154,12 +162,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Wireshark-Vulnerabilities-Code-Execution.webp"
     },
     {
-      "title": "Anthropic Launches Claude Security in Public Beta for Enterprise Customers",
-      "link": "https://cybersecuritynews.com/claude-security-public-beta/",
-      "description": "Anthropic has opened Claude Security to public beta for Claude Enterprise customers, bringing AI-powered vulnerability detection directly into production codebases without the need for custom tooli...",
-      "pub_date": "Fri, 01 May 2026 04:09:52 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Claude-Security-Public-Beta.webp"
+      "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-307/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS ...",
+      "pub_date": "Fri, 01 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "New Bluekit phishing service includes an AI assistant, 40 templates",
@@ -438,14 +446,6 @@
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-293/",
       "description": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the target mu...",
       "pub_date": "Tue, 21 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-292: QNAP TS-453E QVRPro excpostgres  Exposed Dangerous Method Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-292/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of QNAP TS-453E devices. Authentication is not required to exploit this vulnerability. The Z...",
-      "pub_date": "Wed, 15 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
