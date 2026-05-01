@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-05-01T08:54:41Z",
+  "last_updated": "2026-05-01T10:17:43Z",
   "articles": [
+    {
+      "title": "Windows 11 KB5083631 update released with 34 changes and fixes",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5083631-update-released-with-34-changes-and-fixes/",
+      "description": "Microsoft has released the KB5083631 optional cumulative update for Windows 11, which includes 34 changes, such as a new Xbox mode for Windows PCs, enhanced security and performance for batch files...",
+      "pub_date": "Fri, 01 May 2026 06:00:53 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Ransomware Victims Jump to 7,831 as AI Crime Tools Scale Global Attacks",
+      "link": "https://cybersecuritynews.com/ransomware-victims-jump-to-7831-as-ai-crime-tools/",
+      "description": "The ransomware threat has reached a new and alarming level. According to Fortinet\u0026#8217;s newly released 2026 Global Threat Landscape Report, the number of confirmed ransomware victims worldwide ju...",
+      "pub_date": "Fri, 01 May 2026 09:43:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Ransomware-Victims-Jump-to-7831-as-AI-Crime-Tools-Scale-Global-Attacks.webp"
+    },
+    {
+      "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
+      "link": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
+      "description": "A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, an...",
+      "pub_date": "Fri, 01 May 2026 15:13:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNz4euGufhcyWdY8TkRfdXBUj2XXZlzQWEb1QyI7otpos158ctsC236sEm2NAZ20sUZv4AOqrGCSTbjGsOOkMwhQv53ZjyrVXf9SVUsMfhvhQ4LzGL87j44f0kMkXRzBAoWeHDz8hywx4gbW_trN1mFk-xCCZatTf0zNsude7k-3WE9kIY_pPgza53qsdc/s1600/buffer.jpg"
+    },
+    {
+      "title": "Deep#Door Stealer Harvests Browser Passwords, Cloud Tokens, SSH Keys, and Wi-Fi Credentials",
+      "link": "https://cybersecuritynews.com/deepdoor-stealer-harvests-browser-passwords/",
+      "description": "A newly identified Python-based malware known as DEEP#DOOR has surfaced as a serious threat to Windows users, combining a fully-featured backdoor with a powerful credential-stealing engine. What ma...",
+      "pub_date": "Fri, 01 May 2026 09:26:17 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Deep-Door-Stealer-Harvests-Browser-Passwords-Cloud-Tokens-SSH-Keys-and-Wi-Fi-Credentials.webp"
+    },
     {
       "title": "China-Aligned Attackers Use ShadowPad, IOX Proxy, and WMIC in Multi-Stage Espionage Campaign",
       "link": "https://cybersecuritynews.com/china-aligned-attackers-use-multi-stage-espionage-campaign/",
@@ -106,28 +138,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/New-PhaaS-Platform-Phoenix-Drives-Brand-Impersonation-Smishing-Across-Finance-Telecom-and-Logistics.webp"
     },
     {
-      "title": "FBI and CISA Released Zero Trust Principles Implementation Guide for OT Environments",
-      "link": "https://cybersecuritynews.com/fbi-cisa-released-zero-trust-principles/",
-      "description": "The FBI and CISA, the Department of Energy (DOE), and defense partners published a joint intelligence document. Titled \u0026#8220;Adapting Zero Trust Principles to Operational Technology,\u0026#8221; this g...",
-      "pub_date": "Thu, 30 Apr 2026 15:30:37 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/FBI-and-CISA-Released-Zero-Trust-principles-Implementation-Guide-for-operational-technology-Environments-1.webp"
-    },
-    {
       "title": "April KB5083769 Windows 11 update causes backup software failures",
       "link": "https://www.bleepingcomputer.com/news/microsoft/april-kb5083769-windows-11-update-causes-backup-software-failures/",
       "description": "The April 2026 KB5083769 security update breaks third-party backup applications from multiple vendors on systems running Windows 11 24H2 and 25H2. [...]",
       "pub_date": "Thu, 30 Apr 2026 11:23:03 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Popular Python Package lightning Hacked in Supply Chain Attack",
-      "link": "https://cybersecuritynews.com/python-package-lightning-hacked/",
-      "description": "The widely used PyTorch Lightning framework, which automatically executes credential-stealing malware on import, has also compromised GitHub maintainer accounts. The popular PyPI package lightning ...",
-      "pub_date": "Thu, 30 Apr 2026 15:16:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Python-Package-lightning-Hacked.webp"
     },
     {
       "title": "What Happens in the First 24 Hours After a New Asset Goes Live",
@@ -258,14 +274,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoAi4Ild7Dz2KtvraUPjGBgNHYScbOo2DzPh9iUn8IirHe8VYws7uF0A4wf2803kNMgLzCWg0oOZwXcdzRUx5-sbBPiABEN05-RtXTa2vMqOSa52E4FPELQba8QcIQBPXl6hOHuyN7cHldbTMMvxnA4UhxDk1Huh2W85I0EJeWdscqF5NdwRLjbtOXn7Zj/s1600/korean-hackers.jpg"
     },
     {
-      "title": "European police dismantles €50 million crypto investment fraud ring",
-      "link": "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
-      "description": "Austrian and Albanian authorities dismantled a criminal ring accused of running a large-scale cryptocurrency investment fraud operation that caused estimated losses of over €50 million ($58.5 mil...",
-      "pub_date": "Wed, 29 Apr 2026 10:27:36 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
       "link": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
       "description": "In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain. We aren't just talki...",
@@ -312,14 +320,6 @@
       "pub_date": "Tue, 28 Apr 2026 23:49:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgztlzahKA2HwUQiNDerhbX2l415JinNIW5jaU5tgskPVHqpMhba_NorYL9SSWRzLdSPjSnsxZKQic97f8H2Bx2G0Dsjb58dcdFuZoL0c5Gno3BVvYa4vi62_PNr1Qh-kBYED7YbTPw3fqQklMmnoPV0b1KYaienKHzIAtBuktMqyVCxGU0u8Hkd-zzYeNU/s1600/github.jpg"
-    },
-    {
-      "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
-      "link": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
-      "description": "A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot). \"The ...",
-      "pub_date": "Tue, 28 Apr 2026 23:09:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQf8Wzg1Ms0KVsO546uQuwlR3w_8qW1MQZExs5TgKCGHSNNS1UEnOITq-_y8HIrA_3n_gfq7Hm0IMb-XSRJSsGL1ncRPlPoyDX7cf_wFbEGAJCPkv6ZDBzjN1Nswe9-CMR3Tmn1F5KuVyWGdOkGEIbeI9R7zGKplJPofRFBx-Ru20JOGfAFEpiZOAlDBXh/s1600/hackers.jpg"
     },
     {
       "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
