@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-01T06:08:54Z",
+  "last_updated": "2026-05-01T08:54:41Z",
   "articles": [
+    {
+      "title": "China-Aligned Attackers Use ShadowPad, IOX Proxy, and WMIC in Multi-Stage Espionage Campaign",
+      "link": "https://cybersecuritynews.com/china-aligned-attackers-use-multi-stage-espionage-campaign/",
+      "description": "A China-aligned threat group has been carrying out a carefully planned espionage campaign against government agencies and critical infrastructure across Asia. The group, tracked under the temporary...",
+      "pub_date": "Fri, 01 May 2026 08:17:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/China-Aligned-Attackers-Use-ShadowPad-IOX-Proxy-and-WMIC-in-Multi-Stage-Espionage-Campaign.webp"
+    },
+    {
+      "title": "US ransomware negotiators get 4 years in prison over BlackCat attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/",
+      "description": "Two former employees of cybersecurity incident response companies Sygnia and DigitalMint were sentenced to four years in prison each for targeting U.S. companies in BlackCat (ALPHV) ransomware atta...",
+      "pub_date": "Fri, 01 May 2026 03:47:11 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New Fake CAPTCHA Campaign Uses SMS Pumping Fraud to Run Up Victims’ Phone Bills",
+      "link": "https://cybersecuritynews.com/new-fake-captcha-campaign-uses-sms-pumping/",
+      "description": "A newly documented scam campaign is using fake CAPTCHA pages to silently trigger dozens of international SMS messages from victims\u0026#8217; mobile phones, leaving them with unexpected charges on thei...",
+      "pub_date": "Fri, 01 May 2026 07:44:41 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Fake-CAPTCHA-Campaign-Uses-SMS-Pumping-Fraud-to-Run-Up-Victims-Phone-Bills.webp"
+    },
     {
       "title": "Critical Wireshark Vulnerabilities Let Attackers Execute Arbitrary Code Via Malformed Packets",
       "link": "https://cybersecuritynews.com/wireshark-vulnerabilities-code-execution/",
@@ -106,14 +130,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Python-Package-lightning-Hacked.webp"
     },
     {
-      "title": "Google Gemini CLI Vulnerabilities Allow Attackers to Execute Commands on Host Systems",
-      "link": "https://cybersecuritynews.com/google-gemini-cli-vulnerabilities/",
-      "description": "A critical remote code execution vulnerability in the Google Gemini CLI and its associated GitHub Action. Assigned a maximum severity score of CVSS 10.0, the flaw allowed unprivileged external atta...",
-      "pub_date": "Thu, 30 Apr 2026 14:04:01 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Google-Gemini-CLI-VUlnerabilities-Allow-attackers-to-execute-commands-on-host-systems.webp"
-    },
-    {
       "title": "What Happens in the First 24 Hours After a New Asset Goes Live",
       "link": "https://www.bleepingcomputer.com/news/security/what-happens-in-the-first-24-hours-after-a-new-asset-goes-live/",
       "description": "When a new asset goes live, attackers start scanning within minutes. Sprocket Security shows how automated attacks move from discovery to compromise in under 24 hours. [...]",
@@ -136,14 +152,6 @@
       "pub_date": "Thu, 30 Apr 2026 09:54:47 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Jenkins Patches High-Severity Plugin Flaws Including Path Traversal and Stored XSS",
-      "link": "https://cybersecuritynews.com/jenkins-patches-multiple-vulnerabilities-2/",
-      "description": "Jenkins project published a security advisory detailing patches for seven plugin vulnerabilities, including high-severity path traversal and Stored Cross-Site Scripting (XSS) flaws. Administrators ...",
-      "pub_date": "Thu, 30 Apr 2026 13:49:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/04/Jenkins-Patches-High-Severity-Plugin-Flaws-Including-Path-Traversal-and-Stored-XSS.webp"
     },
     {
       "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
@@ -254,14 +262,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
       "description": "Austrian and Albanian authorities dismantled a criminal ring accused of running a large-scale cryptocurrency investment fraud operation that caused estimated losses of over €50 million ($58.5 mil...",
       "pub_date": "Wed, 29 Apr 2026 10:27:36 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Learning from the Vercel breach: Shadow AI \u0026 OAuth sprawl",
-      "link": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
-      "description": "A single third-party OAuth integration can become a direct path into your environment. Push explains how the Vercel breach shows a compromised OAuth app can lead to widespread impact across downstr...",
-      "pub_date": "Wed, 29 Apr 2026 09:05:14 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
