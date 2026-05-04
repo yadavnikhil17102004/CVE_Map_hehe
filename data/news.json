@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-05-04T08:23:48Z",
+  "last_updated": "2026-05-04T10:58:19Z",
   "articles": [
+    {
+      "title": "Microsoft confirms April Windows updates cause backup failures",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-backup-failures-caused-by-vulnerable-driver-block/",
+      "description": "Microsoft has confirmed that the April 2026 security updates are causing failures in third-party backup applications using the psmounterex.sys driver. [...]",
+      "pub_date": "Mon, 04 May 2026 06:40:11 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks",
+      "link": "https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html",
+      "description": "A previously unknown threat actor has been observed targeting government and military entities in Southeast Asia, alongside a smaller cluster of managed service providers (MSPs) and hosting provide...",
+      "pub_date": "Mon, 04 May 2026 14:57:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlgjtQddA9U3D-xf2UWj5GKV2R5tEwjqWWY9fwRQi_fZgG5tf140uw2P4oVfmcvPZcMYuFDo1mvqYKkgKSmgfBxVloaWTrN7vgPiH1FX8ivdh8PFBN9LvfJF13a0ajbXDLEV20pr9d2rSoQo4KWbDYSpSOFJYoPYDHizXQ3tYNGVhhysD8h3FWWpOkHytN/s1600/ccc.jpg"
+    },
+    {
+      "title": "CISA Warns of cPanel \u0026 WHM Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/cpanel-whm-vulnerability-exploited/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning regarding a critical security flaw affecting widely used web hosting management platforms. CISA recentl...",
+      "pub_date": "Mon, 04 May 2026 08:59:06 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CISA-Warns-of-cPanel-WHM-Vulnerability-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "Critical MOVEit Vulnerabilities Enables Authentication Bypass",
+      "link": "https://cybersecuritynews.com/moveit-authentication-vulnerability/",
+      "description": "Progress Software has issued a critical security bulletin for its MOVEit Automation platform. This April 2026 alert warns of two highly severe vulnerabilities that could allow attackers to bypass s...",
+      "pub_date": "Mon, 04 May 2026 08:55:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-MOVEit-Vulnerability-Enables-Authentication-Bypass.webp"
+    },
     {
       "title": "Threat Actors Use AI to Automate 0-Day Discovery and Exploitation at Machine Speed",
       "link": "https://cybersecuritynews.com/threat-actors-use-ai-to-automate-0-day-discovery/",
@@ -128,22 +160,6 @@
       "pub_date": "Sat, 02 May 2026 06:36:19 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Attackers-Deploy-AiTM-Phishing-Pages-to-Access-SharePoint-HubSpot-and-Google-Workspace-1.webp"
-    },
-    {
-      "title": "Attackers Abuse Google AppSheet, Netlify, and Telegram in Facebook Phishing Campaign",
-      "link": "https://cybersecuritynews.com/attackers-abuse-google-appsheet-netlify-and-telegram/",
-      "description": "A sophisticated cybercriminal operation dubbed \u0026#8220;AccountDumpling\u0026#8221; has compromised approximately 30,000 Facebook accounts worldwide. Discovered by Guardio Labs, this Vietnamese-linked cam...",
-      "pub_date": "Sat, 02 May 2026 05:36:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Attackers-Abuse-Google-AppSheet-Netlify-and-Telegram-in-Facebook-Phishing-Campaign-1-1.webp"
-    },
-    {
-      "title": "cPanelSniper – PoC Exploit Disclosed for cPanel Vulnerability, 44,000 Servers Compromised",
-      "link": "https://cybersecuritynews.com/cpanelsniper-poc-exploit/",
-      "description": "A weaponized proof-of-concept (PoC) exploit framework dubbed \u0026#8220;cPanelSniper\u0026#8221; has been publicly released for CVE-2026-41940, a maximum-severity authentication bypass in cPanel \u0026#38; WHM t...",
-      "pub_date": "Sat, 02 May 2026 02:57:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/cPanelSniper-PoC-Exploit.webp"
     },
     {
       "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
@@ -274,14 +290,6 @@
       "image_url": ""
     },
     {
-      "title": "New Bluekit phishing service includes an AI assistant, 40 templates",
-      "link": "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
-      "description": "A new phishing kit named Bluekit offers more than 40 templates targeting popular services and includes basic AI features for generating campaign drafts. [...]",
-      "pub_date": "Thu, 30 Apr 2026 14:58:50 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
       "link": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
       "description": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft. According to A...",
@@ -320,14 +328,6 @@
       "pub_date": "Thu, 30 Apr 2026 14:54:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYpnBkrLNj-dAKcwAbvRIvfXg8YDXoO3yfrl3vvXBOBwo2zga2asWZ0at4FLcLbiqQ1N7BsYA2szKbuqeVLBkrD80tMqYguBbqvrhEude6Fe9ayQpNs-meP8h4-f6ReWVeIU0zYp31XU7K-Kgxm5OKdI77HPQWgTx41al_WH3gYkMjEoROl6zvXF8HPRf5/s1600/root.jpg"
-    },
-    {
-      "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
-      "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
-      "description": "Google has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the \"google-github-actions/run-gemini-cli\" GitHub Actions workflow -- that could have...",
-      "pub_date": "Thu, 30 Apr 2026 12:37:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoqSVEXaseT8C79cbC1Wjec2TiF4nMK72XiCPL3WBxqwNy9iUk5CSEqSXgwJFRug0zXq5foMAXzMYCSIP0nEnr-CxCeYFgjmVcOfPtK4nocQaGDzIFecL9SScOScUhVAgGkff6wO5ks-sqWA_KCEZnfrQhfViSGai-g0MOd2IHOYX_N03JvwIipkQ1gso7/s1600/gemini-cursor.jpg"
     },
     {
       "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
