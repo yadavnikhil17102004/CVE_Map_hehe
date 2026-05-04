@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-05-04T15:06:00Z",
+  "last_updated": "2026-05-04T17:24:21Z",
   "articles": [
+    {
+      "title": "Backdoored PyTorch Lightning package drops credential stealer",
+      "link": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
+      "description": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...",
+      "pub_date": "Mon, 04 May 2026 13:15:27 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
+      "link": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
+      "description": "Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass. MOVEit Automation (formerly Centra...",
+      "pub_date": "Mon, 04 May 2026 22:04:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTvgdRkcdOwctclhM5XBvKXGGFrqpNsd7pJsR6Qk9QfhVd52KaiNWtY6kbWYbxzweFJDx5-sXo5UmIGJZ2yKbiSqntFDcYS7aDV_hUlAuNtcFzIPf_MDdqWq9eeyzZwJXx9__K5ynAXHc-7kJ6i66ifjuGrFqfLdn4-yDTvmL1oSZ-kVX2V9eoTq-xdiKa/s1600/moveit.jpg"
+    },
+    {
+      "title": "New MicroStealer Malware Actively Attacking Telecom \u0026 Education Sectors",
+      "link": "https://cybersecuritynews.com/new-microstealer-malware-actively-attacking/",
+      "description": "A new infostealer malware called MicroStealer has quietly entered the threat landscape and is already showing a worrying reach. First spotted in December 2025, the malware has picked up speed fast,...",
+      "pub_date": "Mon, 04 May 2026 16:28:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-MicroStealer-Malware-Actively-Attacking-Telecom-Education-Sectors.webp"
+    },
+    {
+      "title": "Trellix discloses data breach after source code repository hack",
+      "link": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
+      "description": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]",
+      "pub_date": "Mon, 04 May 2026 12:25:07 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Bluekit Phishing Kit Automates Domains, 2FA Lures, and Session Hijacking in One Panel",
+      "link": "https://cybersecuritynews.com/bluekit-phishing-kit-automates-domains/",
+      "description": "A newly identified phishing kit called Bluekit is changing how cybercriminals carry out phishing attacks by packing multiple attack capabilities into a single, easy-to-use operator panel. Rather th...",
+      "pub_date": "Mon, 04 May 2026 16:12:16 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Bluekit-Phishing-Kit-Automates-Domains-2FA-Lures-and-Session-Hijacking-in-One-Panel.webp"
+    },
+    {
+      "title": "Malicious Tanstack Package Uses Postinstall Script to Steal Developer Environment Files",
+      "link": "https://cybersecuritynews.com/malicious-tanstack-package-uses-postinstall-script/",
+      "description": "A malicious npm package impersonating the widely trusted TanStack project was discovered on April 29, 2026, silently stealing developer environment files the moment it was installed. The attacker r...",
+      "pub_date": "Mon, 04 May 2026 15:24:35 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-Tanstack-Package-Uses-Postinstall-Script-to-Steal-Developer-Environment-Files.webp"
+    },
     {
       "title": "New xlabs_v1 Botnet Targets Minecraft Servers Through ADB-Exposed Android Devices",
       "link": "https://cybersecuritynews.com/new-xlabs_v1-botnet-targets-minecraft-servers/",
@@ -8,6 +56,14 @@
       "pub_date": "Mon, 04 May 2026 14:35:00 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-xlabs_v1-Botnet-Targets-Minecraft-Servers-Through-ADB-Exposed-Android-Devices.webp"
+    },
+    {
+      "title": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE \u0026 More",
+      "link": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
+      "description": "This week, the shadows moved faster than the patches. While most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open d...",
+      "pub_date": "Mon, 04 May 2026 19:53:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_j3mVDqxMVjGlF1qpGV3nSUfIhHsxGDl7Nt6QQFwRUA-qOtj22zKVcE7B7UTCcjLdUrsjLPB5N7TiX8Hzjx8Hq8LPy_GdAfcO_AqMwDDWRyQ6dWdeXzFOQa1KYm8rUUDCgwCbR9kN7OCheQyc0Ijz2MuXGkY6bsqHwlBtV34Q6xH2VAPRDUjFFThKk46X/s1600/CYBERRECAP.jpg"
     },
     {
       "title": "They don’t hack, they borrow: How fraudsters target credit unions",
@@ -58,7 +114,7 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji6GV4hhCDB_wJkm6REZZfugW5H5hF8g8X27oGcUHnOSxYst1aJJspKKl6joygytGLwgKYvfDU_DD8DFHQ-vPt-_Tc1yzG8fJl_0tHuyOLgJC3eHKGFM_YZA_OIYoL7wI8lUWZrpGO_E2Sjunen7Y9g2fY7sRTi6cvk4DgBW5plToR5U-Je5GQeJsKuqY/s1600/ai-cyberattacks.png"
     },
     {
-      "title": "CISA Warns of Linux Kernel 0-Day Vulnerability Exploited in Attacks",
+      "title": "CISA Warns of Linux “Copy Fail” 0-Day Vulnerability Exploited to Root Systems",
       "link": "https://cybersecuritynews.com/linux-kernel-0-day-vulnerability-exploited/",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical Linux kernel zero-day vulnerability to its Known Exploited Vulnerabilities (KEV) catalog, warning federal agenc...",
       "pub_date": "Mon, 04 May 2026 11:57:31 +0000",
@@ -120,30 +176,6 @@
       "pub_date": "Mon, 04 May 2026 08:55:43 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-MOVEit-Vulnerability-Enables-Authentication-Bypass.webp"
-    },
-    {
-      "title": "Threat Actors Use AI to Automate 0-Day Discovery and Exploitation at Machine Speed",
-      "link": "https://cybersecuritynews.com/threat-actors-use-ai-to-automate-0-day-discovery/",
-      "description": "The way cyberattacks are launched has fundamentally changed. Threat actors are no longer spending months hunting for software flaws by hand. With artificial intelligence in their toolkit, they can ...",
-      "pub_date": "Mon, 04 May 2026 07:42:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Threat-Actors-Use-AI-to-Automate-0-Day-Discovery-and-Exploitation-at-Machine-Speed.webp"
-    },
-    {
-      "title": "FreeBSD DHCP Client Vulnerability Enables Remote Code Execution as Root",
-      "link": "https://cybersecuritynews.com/freebsd-dhcp-client-vulnerability/",
-      "description": "The FreeBSD Project has released a critical security advisory addressing a severe flaw in its default IPv4 DHCP client. Tracked as\u0026#160;CVE-2026-42511, this vulnerability allows a local network att...",
-      "pub_date": "Mon, 04 May 2026 06:25:03 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/FreeBSD-DHCP-Client-Vulnerability-Enables-Remote-Code-Execution-as-Root.webp"
-    },
-    {
-      "title": "Email Bombing and Fake IT Support Calls Fuel New Microsoft Teams Phishing Attacks",
-      "link": "https://cybersecuritynews.com/email-bombing-and-fake-it-support-calls/",
-      "description": "A new wave of cyberattacks is targeting employees through a combination of inbox flooding and fake IT support contacts on Microsoft Teams, tricking users into handing over remote access to their ow...",
-      "pub_date": "Mon, 04 May 2026 06:12:49 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Email-Bombing-and-Fake-IT-Support-Calls-Fuel-New-Microsoft-Teams-Phishing-Attacks.webp"
     },
     {
       "title": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
@@ -242,28 +274,12 @@
       "image_url": ""
     },
     {
-      "title": "Story retracted",
-      "link": "https://www.bleepingcomputer.com/news/security/story-retracted/",
-      "description": "BleepingComputer initially published a story about a new data breach at Instructure. Shortly after publication, we determined that the information was incorrect and primarily based on outdated deta...",
-      "pub_date": "Fri, 01 May 2026 12:26:28 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
       "link": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
       "description": "Cybersecurity researchers are warning of two cybercrime groups that are carrying out \"rapid, high-impact attacks\" operating almost within the confines of SaaS environments, while leaving minimal tr...",
       "pub_date": "Fri, 01 May 2026 19:56:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4FSyjacFNJX32YMLQvN6jUeVwGJfoAHPLMIhtU6aNS6hrkIUokynaWWzqxOjr1JsP0lIooaL0ppYM-iQ_rEH2ruoqMw1UAb_bq4FNjI16P6P7CpTaYSkJtp-TpCFKOce9ODtmzskcTZnuWFLYyUdfA0UeHqmRVVNB1P6Mw28a5Yuc7T1kgEx4Pcyxbcsr/s1600/vishing.jpg"
-    },
-    {
-      "title": "Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations",
-      "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/",
-      "description": "Raw threat intel isn't enough without real-world context. Criminal IP has partnered with Securonix to integrate exposure-based intelligence into ThreatQ, automating analysis and speeding up investi...",
-      "pub_date": "Fri, 01 May 2026 10:02:12 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
@@ -312,22 +328,6 @@
       "pub_date": "Thu, 30 Apr 2026 22:01:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7hiQfVCFzoPBzfr5xqJ06qMjzv-zw_qiUcDTgyEM8RbEVk3PDztg9U5Vlkgvz6j7nX8ODtXwnTCC2wB78lupEmRjcxJTz74GJGSslsMQM-e5b8vG0W2gLFnbEzYAPKw05ZelkaNfy50VyLJeb-3EhwiGKfIP9qHNRpNG4MnFUnTBBOJ95vRJb-RbcFVxX/s1600/python.png"
-    },
-    {
-      "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
-      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
-      "description": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into ...",
-      "pub_date": "Thu, 30 Apr 2026 19:25:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwfqxUhPz38fAoq0CZr2tW8KqGW-Cr0zJloN9kS_80QO2e7yyah4N-nMKNxoSllB2tpyjKO25s2f8eFJNd2bBo50XRAVatMKnnk8ZAbRbz6kfQUhVUoD5vutOmFpYzojybY8aJZhA6KGL3sawNEyaqjlW63hAeEwrTsj8lnpou-4mThnzwCzO442aue-R0/s1600/threats.jpg"
-    },
-    {
-      "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
-      "link": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
-      "description": "Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range ...",
-      "pub_date": "Thu, 30 Apr 2026 18:06:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnv1KtLLlZSnm9a16bN-o_szrBiAIN_QljTfe09K4RzFxSqhFADtuXmRzOPZ_Poazif-VadFAnRnboCWX5yZtc5JntGopn5Fy6T1X2BexXelFOxYtEA7qULoTCkAMwEybLf42JJ_yGjSPf_T-tjYvbqxscVgZ6OyL65yKcTjC0KQL48pgYLZUmLjxfBBhd/s1600/malware-data.jpg"
     },
     {
       "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
