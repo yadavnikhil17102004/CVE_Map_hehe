@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-05-04T12:20:39Z",
+  "last_updated": "2026-05-04T15:06:00Z",
   "articles": [
+    {
+      "title": "New xlabs_v1 Botnet Targets Minecraft Servers Through ADB-Exposed Android Devices",
+      "link": "https://cybersecuritynews.com/new-xlabs_v1-botnet-targets-minecraft-servers/",
+      "description": "A newly identified botnet called xlabs_v1 has been found targeting Minecraft game servers by exploiting Android devices with the Android Debug Bridge (ADB) port left open and exposed to the interne...",
+      "pub_date": "Mon, 04 May 2026 14:35:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-xlabs_v1-Botnet-Targets-Minecraft-Servers-Through-ADB-Exposed-Android-Devices.webp"
+    },
+    {
+      "title": "They don’t hack, they borrow: How fraudsters target credit unions",
+      "link": "https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/",
+      "description": "Fraudsters aren't hacking credit unions, they are exploiting normal business processes. Flare reveals how structured loan fraud methods use stolen identities to pass verification and secure funds. ...",
+      "pub_date": "Mon, 04 May 2026 09:42:51 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "DOJ Sentences Two Americans to Prison for ALPHV BlackCat Attacks on U.S. Victims",
+      "link": "https://cybersecuritynews.com/alphv-blackcat-attacks-on-u-s-victims/",
+      "description": "Two American cybersecurity professionals were sentenced to four years each in federal prison on April 30, 2026, for carrying out ransomware attacks against multiple U.S. businesses using the ALPHV ...",
+      "pub_date": "Mon, 04 May 2026 13:35:18 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/DOJ-Sentences-Two-Americans-to-Prison-for-ALPHV-BlackCat-Attacks-on-U.S.-Victims.webp"
+    },
+    {
+      "title": "Attackers Weaponize SAP npm Packages to Steal GitHub, Cloud, and AI Coding Tool Secrets",
+      "link": "https://cybersecuritynews.com/attackers-weaponize-sap-npm-packages/",
+      "description": "A new supply chain attack is targeting the SAP developer ecosystem through poisoned npm packages. The campaign uses a malicious worm called \u0026#8220;Mini Shai-Hulud,\u0026#8221; which runs silently before...",
+      "pub_date": "Mon, 04 May 2026 12:39:38 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Attackers-Weaponize-SAP-npm-Packages-to-Steal-GitHub-Cloud-and-AI-Coding-Tool-Secrets.webp"
+    },
     {
       "title": "Progress warns of critical MOVEit Automation auth bypass flaw",
       "link": "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
@@ -138,28 +170,12 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft Defender Mistakenly Flags DigiCert Root Certificates as Malware",
-      "link": "https://cybersecuritynews.com/defender-flags-digicert-root-certificates/",
-      "description": "Microsoft Defender triggered widespread false positive alerts after a faulty security update caused it to flag two legitimate DigiCert root certificates as malicious, potentially disrupting SSL/TLS...",
-      "pub_date": "Sun, 03 May 2026 16:55:13 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Defender-Flags-DigiCert-Root-Certificates.webp"
-    },
-    {
       "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
       "link": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
       "description": "Cybersecurity researchers have uncovered a large-scale fraud operation that uses Telegram's Mini App feature to run crypto scams, impersonate well-known brands, and distribute Android malware. [...]",
       "pub_date": "Sun, 03 May 2026 10:11:21 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "The Role of AI and Humanization in Strengthening Content Security and Trust",
-      "link": "https://cybersecuritynews.com/the-role-of-ai-and-humanization-in-strengthening-content-security-and-trust/",
-      "description": "The rapid integration of Large Language Models (LLMs) into enterprise environments has permanently altered the landscape of digital communication. From drafting internal policies to generating code...",
-      "pub_date": "Sun, 03 May 2026 12:01:49 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJugLWpobLzKrxnU8GRL8LEkVHL0bBmvslPcn6yofDU143Q3csmIi6fuM3dLH1HferiFSn44oOmaJd6IeuR670xxLf3ctYYSKarwiynp9VWb62H1FCswqyPH7htrKb0eJRMzn8bxR5jjCahFXyLMio1EzUOuNDrkZkk_ABltbQ3Bj8bHnWDxgJxvyiI03p/s1600/Role%20of%20AI%20and%20Humanization.webp?ssl=1"
     },
     {
       "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
@@ -176,14 +192,6 @@
       "pub_date": "Sat, 02 May 2026 17:54:00 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Trellix Source Code Breach – Hackers Gain Unauthorized Access to Repository",
-      "link": "https://cybersecuritynews.com/trellix-source-code-breach/",
-      "description": "Cybersecurity giant Trellix has disclosed a significant security incident involving unauthorized access to a portion of its source code repository. The company confirmed the breach in an official s...",
-      "pub_date": "Sat, 02 May 2026 16:38:36 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Trellix-Source-Code-Breach.webp"
     },
     {
       "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
@@ -264,14 +272,6 @@
       "pub_date": "Fri, 01 May 2026 19:32:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD3mr1fHyy1yT3u6ebxE9skoiCRtBYdZnkvdputmKF0XgZW5BKeQKkvnYswwusYFG4tvzVeWOqP3wgGtqLA7Ds9I-PYlasFVkOmaClo8IIpRGtdvuFZuKzDgvktukM1YXbTDbBAZUfk1mtWx8lHFF8N_YZXRl0ncSWtGGkzXDkm5gWMovjixeiyh6w_64W/s1600/chinese-hackers.jpg"
-    },
-    {
-      "title": "Microsoft fixes Remote Desktop warnings displaying incorrectly",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-warnings-displaying-incorrectly/",
-      "description": "Microsoft has fixed a known issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]",
-      "pub_date": "Fri, 01 May 2026 08:46:48 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
