@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-05T17:15:46Z",
+  "last_updated": "2026-05-05T19:07:35Z",
   "articles": [
+    {
+      "title": "Student hacked Taiwan high-speed rail to trigger emergency brakes",
+      "link": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
+      "description": "A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]",
+      "pub_date": "Tue, 05 May 2026 13:34:09 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Low Noise, High Confidence: Optimizing SOC Costs with Better Threat Intelligence ",
       "link": "https://cybersecuritynews.com/low-noise-high-confidence-optimizing-soc-costs-with-better-threat-intelligence/",
@@ -114,8 +122,8 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Cerberus-Stalkerware-on-Google-Play-Leverages-Accessibility-Abuse-and-Firebase-for-Remote-Control.webp"
     },
     {
-      "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Don't Check.",
-      "link": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-dont-check/",
+      "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss",
+      "link": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
       "description": "Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a fre...",
       "pub_date": "Tue, 05 May 2026 10:00:10 -0400",
       "source": "BleepingComputer",
@@ -304,14 +312,6 @@
       "pub_date": "Mon, 04 May 2026 17:27:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjfw7HlDQIzbgA8xy1bk-sUkn-TVS85DGaL4vQkuTNYu3SGabQGuPKBD7C1qkCcpxwEFfdW6I9DJoSnmMmbkAu24SN1R_B2HNYwi-niSiST1LJqwMQ7tspMjxMyHXJtZUxGZbb2Hb1k-_2ywcG5hWFhOKQubJsYXiq8hyphenhyphenFfLyVewIet_ZcdTmNZEc9-Fum/s1600/godd.png"
-    },
-    {
-      "title": "CISA says ‘Copy Fail’ flaw now exploited to root Linux systems",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
-      "description": "CISA has warned that threat actors have started exploiting the \"Copy Fail\" Linux security vulnerability in the wild, one day after Theori researchers disclosed it and shared a proof-of-concept (P...",
-      "pub_date": "Mon, 04 May 2026 07:28:15 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks",
@@ -522,6 +522,46 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/01/fine-grained-pat.png?resize=1024%2C496"
     },
     {
+      "title": "ABB B\u0026R Automation Studio",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-04",
+      "description": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this...",
+      "pub_date": "Tue, 05 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB B\u0026R Automation Runtime",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-03",
+      "description": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. An attacker who successfully ex...",
+      "pub_date": "Tue, 05 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Hitachi Energy PCM600",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-01",
+      "description": "View CSAF Summary Hitachi Energy is aware of a vulnerability that affects the Hitachi Energy PCM600 product versions listed in this document. An attacker successfully exploiting this vulnerability ...",
+      "pub_date": "Tue, 05 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Johnson Controls CEM AC2000",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a standard user to escalate privileges on the host machine. The following versions of Johnson Controls CEM AC2000 are aff...",
+      "pub_date": "Tue, 05 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB B\u0026R PVI",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-02",
+      "description": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnerability. An attack...",
+      "pub_date": "Tue, 05 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-31431 Linux Kernel Incorrect Resource Transfer Between...",
@@ -554,17 +594,25 @@
       "image_url": ""
     },
     {
-      "title": "ABB PCM600",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send specially crafted messages to the system node resulting in execution of arbitrary code. The following...",
+      "title": "ABB Edgenius Management Portal",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-03",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send a specially crafted message to the system node allowing the attacker to install and run arbitrary cod...",
       "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "ABB Edgenius Management Portal",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-03",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send a specially crafted message to the system node allowing the attacker to install and run arbitrary cod...",
+      "title": "ABB System 800xA, Symphony Plus IEC 61850",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-01",
+      "description": "View CSAF Summary This vulnerability was privately reported relating to ABB’s implementation of the IEC 61850 communication stack for MMS client applications used in some Automation control syste...",
+      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB PCM600",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send specially crafted messages to the system node resulting in execution of arbitrary code. The following...",
       "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -586,58 +634,10 @@
       "image_url": ""
     },
     {
-      "title": "ABB System 800xA, Symphony Plus IEC 61850",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-01",
-      "description": "View CSAF Summary This vulnerability was privately reported relating to ABB’s implementation of the IEC 61850 communication stack for MMS client applications used in some Automation control syste...",
-      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "Adapting Zero Trust Principles to Operational Technology",
       "link": "https://www.cisa.gov/resources-tools/resources/adapting-zero-trust-principles-operational-technology",
       "description": "Adapting Zero Trust Principles to Operational Technology CISA, in coordination with the Department of War, Department of Energy, Federal Bureau of Investigation, and Department of State, released A...",
       "pub_date": "Wed, 29 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "NSA GRASSMARLIN",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-118-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to disclose sensitive information. The following versions of NSA GRASSMARLIN are affected:  GRASSMARLIN vers:...",
-      "pub_date": "Tue, 28 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added\u0026nbsp;two\u0026nbsp;new\u0026nbsp;vulnerabilities\u0026nbsp;to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2024-1708\u0026nbsp;ConnectWise\u0026nbsp;...",
-      "pub_date": "Tue, 28 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2024-7399\u0026nbsp;Samsung\u0026nbsp;MagicINFO\u0026nbsp;9 Server Path...",
-      "pub_date": "Fri, 24 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "SpiceJet Online Booking System",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-04",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information. The following versions of SpiceJet Online Booking System are affected: ...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Carlson Software VASCO-B GNSS Receiver",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation. The following versions of Carlson Soft...",
-      "pub_date": "Thu, 23 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
