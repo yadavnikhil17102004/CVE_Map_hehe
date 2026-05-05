@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-05T07:57:27Z",
+  "last_updated": "2026-05-05T10:00:11Z",
   "articles": [
+    {
+      "title": "WhatsApp Vulnerability Lets Attackers Leverage Instagram Reels to Execute Malicious URLs",
+      "link": "https://cybersecuritynews.com/whatsapp-vulnerability-leverage-instagram-reels/",
+      "description": "Meta has disclosed a medium-severity security vulnerability in WhatsApp that could allow threat actors to exploit Instagram Reels integration to trigger arbitrary URL processing on victim devices, ...",
+      "pub_date": "Tue, 05 May 2026 09:47:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/WhatsApp-Vulnerability-Leverage-Instagram-Reels.webp"
+    },
+    {
+      "title": "Instagram’s to End Encrypted Chats for Direct Messages",
+      "link": "https://cybersecuritynews.com/instagram-end-encryption-direct-messages/",
+      "description": "Meta has announced that Instagram will officially discontinue its optional end-to-end encrypted direct message feature on May 8, 2026. The feature was initially rolled out for testing in 2021 to pr...",
+      "pub_date": "Tue, 05 May 2026 09:26:07 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Instagrams-to-End-Encrypted-Chats-for-Direct-Messages.webp"
+    },
+    {
+      "title": "ScarCruft Hacks Gaming Platform to Deploy BirdCall Malware on Android and Windows",
+      "link": "https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html",
+      "description": "The North Korea-aligned state-sponsored hacking group known as ScarCruft has compromised a video game platform in a supply chain espionage attack, trojanizing its components with a backdoor called ...",
+      "pub_date": "Tue, 05 May 2026 14:37:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-UMvuxvPI2rmCsc57tI37aod9slTjeUUo0b7InSRMTwGg3UGwzu04cKgA6DE92m455noFtcxdsXfhhDlsc2CTWg8Un_DXBCEduVeDluA81mLc7YtMGBwiuVRjSmzCVXZ2jgrbb7CKnCpVZDJJLjjW5Wj6nrjpJ6B_eV7LeaK0TLGcP_wYm1P8hUjQAnsF/s1600/gear.jpg"
+    },
+    {
+      "title": "ScarCruft hackers push BirdCall Android malware via game platform",
+      "link": "https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/",
+      "description": "The North Korean hacker group APT37 has been delivering an Android version of a backdoor called BirdCall in a supply-chain attack through a video game platform. [...]",
+      "pub_date": "Tue, 05 May 2026 05:04:13 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Beware of Fake ‘Notepad++ for Mac’ Website, Possibly Could Harm your Machine",
+      "link": "https://cybersecuritynews.com/beware-of-fake-notepad-for-mac-website/",
+      "description": "A fake website claiming to offer an official macOS version of the popular text editor Notepad++ has been making rounds online, raising serious cybersecurity concerns across the tech community. The ...",
+      "pub_date": "Tue, 05 May 2026 08:22:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Beware-of-Fake-Notepad-for-Mac-Website-Possibly-Could-Harm-your-Machine.webp"
+    },
     {
       "title": "Weaver E-cology RCE Flaw CVE-2026-22679 Actively Exploited via Debug API",
       "link": "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
@@ -122,22 +162,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Bluekit-Phishing-Kit-Automates-Domains-2FA-Lures-and-Session-Hijacking-in-One-Panel.webp"
     },
     {
-      "title": "Malicious Tanstack Package Uses Postinstall Script to Steal Developer Environment Files",
-      "link": "https://cybersecuritynews.com/malicious-tanstack-package-uses-postinstall-script/",
-      "description": "A malicious npm package impersonating the widely trusted TanStack project was discovered on April 29, 2026, silently stealing developer environment files the moment it was installed. The attacker r...",
-      "pub_date": "Mon, 04 May 2026 15:24:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-Tanstack-Package-Uses-Postinstall-Script-to-Steal-Developer-Environment-Files.webp"
-    },
-    {
-      "title": "New xlabs_v1 Botnet Targets Minecraft Servers Through ADB-Exposed Android Devices",
-      "link": "https://cybersecuritynews.com/new-xlabs_v1-botnet-targets-minecraft-servers/",
-      "description": "A newly identified botnet called xlabs_v1 has been found targeting Minecraft game servers by exploiting Android devices with the Android Debug Bridge (ADB) port left open and exposed to the interne...",
-      "pub_date": "Mon, 04 May 2026 14:35:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-xlabs_v1-Botnet-Targets-Minecraft-Servers-Through-ADB-Exposed-Android-Devices.webp"
-    },
-    {
       "title": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE \u0026 More",
       "link": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
       "description": "This week, the shadows moved faster than the patches. While most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open d...",
@@ -152,14 +176,6 @@
       "pub_date": "Mon, 04 May 2026 09:42:51 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "DOJ Sentences Two Americans to Prison for ALPHV BlackCat Attacks on U.S. Victims",
-      "link": "https://cybersecuritynews.com/alphv-blackcat-attacks-on-u-s-victims/",
-      "description": "Two American cybersecurity professionals were sentenced to four years each in federal prison on April 30, 2026, for carrying out ransomware attacks against multiple U.S. businesses using the ALPHV ...",
-      "pub_date": "Mon, 04 May 2026 13:35:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/DOJ-Sentences-Two-Americans-to-Prison-for-ALPHV-BlackCat-Attacks-on-U.S.-Victims.webp"
     },
     {
       "title": "Progress warns of critical MOVEit Automation auth bypass flaw",
@@ -282,14 +298,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ47NY9D4DSEZHqBNSGTjpmSJqwYVOzlIKGoG-0LTxSdIIDrMtyV2tOqRYcc-4kpxkE1UZ6nJhK4eXCGEsEmG6UcQeHn_YjAhRWXIAxo5yC75eUmLv3w5rur6SN6Qoee65gve-LgM0_3YGnAzQwTrQMTeTShRe_leh8_ImIlzU-Sgfy2kRqTcx5V-yG-3M/s1600/breach.jpg"
     },
     {
-      "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
-      "description": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]",
-      "pub_date": "Fri, 01 May 2026 20:18:05 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
       "link": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
       "description": "A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts. The activit...",
@@ -312,14 +320,6 @@
       "pub_date": "Fri, 01 May 2026 19:32:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD3mr1fHyy1yT3u6ebxE9skoiCRtBYdZnkvdputmKF0XgZW5BKeQKkvnYswwusYFG4tvzVeWOqP3wgGtqLA7Ds9I-PYlasFVkOmaClo8IIpRGtdvuFZuKzDgvktukM1YXbTDbBAZUfk1mtWx8lHFF8N_YZXRl0ncSWtGGkzXDkm5gWMovjixeiyh6w_64W/s1600/chinese-hackers.jpg"
-    },
-    {
-      "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
-      "link": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
-      "description": "The managed security services market is projected to grow from $38.31 billion in 2025 to $69.16 billion by 2030[1], with cybersecurity being the fastest-growing sector[2]. Despite this opportunity,...",
-      "pub_date": "Fri, 01 May 2026 16:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc4T6K9zSg5-BFr6xjfFnVhxj3Jx5R5CCUbEmTDssJXlPDiPYcCwFRAfSP_09Kcds90YN7CUwv2Y5ZhglKxLgEbyDRaudcoZXL1PfftGo5BloLB9LInZGWvVaKEdYEoHBJjyP3wwxkfEWWg4pcPTtBUnr6zCJRvre9YzZs4OagcnBVFiAbjbEGc7WY-98/s1600/cynomi.png"
     },
     {
       "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
