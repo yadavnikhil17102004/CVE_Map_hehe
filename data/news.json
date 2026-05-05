@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-05-05T02:04:59Z",
+  "last_updated": "2026-05-05T05:35:27Z",
   "articles": [
+    {
+      "title": "Microsoft Edge Stores All Saved Passwords in Cleartext Process Memory at Launch",
+      "link": "https://cybersecuritynews.com/microsoft-edge-passwords-cleartext/",
+      "description": "A security researcher has discovered that Microsoft Edge decrypts every stored password into process memory the moment the browser launches and keeps them there as cleartext, regardless of whether ...",
+      "pub_date": "Tue, 05 May 2026 03:46:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Edge-Passwords-Cleartext.webp"
+    },
+    {
+      "title": "Critical Apache HTTP Server Flaw Exposes Millions of Servers to RCE Attacks",
+      "link": "https://cybersecuritynews.com/apache-http-server-rce/",
+      "description": "The Apache Software Foundation has released a critical security update for Apache HTTP Server, patching five vulnerabilities, including a dangerous double-free flaw capable of enabling Remote Code ...",
+      "pub_date": "Tue, 05 May 2026 02:47:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Apache-HTTP-Server-RCE.webp"
+    },
     {
       "title": "Weaver E-cology critical bug exploited in attacks since March",
       "link": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
@@ -170,14 +186,6 @@
       "image_url": ""
     },
     {
-      "title": "Apache MINA Vulnerabilities Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/apache-mina-vulnerabilities/",
-      "description": "The Apache MINA project has issued urgent security updates to address two critical vulnerabilities that could allow attackers to execute arbitrary code on affected systems. Developers relying on th...",
-      "pub_date": "Mon, 04 May 2026 11:24:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Apache-MINA-Vulnerabilities-Enables-Remote-Code-Execution-Attacks-.webp"
-    },
-    {
       "title": "Microsoft confirms April Windows updates cause backup failures",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-backup-failures-caused-by-vulnerable-driver-block/",
       "description": "Microsoft has confirmed that the April 2026 security updates are causing failures in third-party backup applications using the psmounterex.sys driver. [...]",
@@ -192,14 +200,6 @@
       "pub_date": "Mon, 04 May 2026 14:57:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlgjtQddA9U3D-xf2UWj5GKV2R5tEwjqWWY9fwRQi_fZgG5tf140uw2P4oVfmcvPZcMYuFDo1mvqYKkgKSmgfBxVloaWTrN7vgPiH1FX8ivdh8PFBN9LvfJF13a0ajbXDLEV20pr9d2rSoQo4KWbDYSpSOFJYoPYDHizXQ3tYNGVhhysD8h3FWWpOkHytN/s1600/ccc.jpg"
-    },
-    {
-      "title": "CISA Warns of cPanel \u0026 WHM Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cpanel-whm-vulnerability-exploited/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning regarding a critical security flaw affecting widely used web hosting management platforms. CISA recentl...",
-      "pub_date": "Mon, 04 May 2026 08:59:06 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CISA-Warns-of-cPanel-WHM-Vulnerability-Exploited-in-Attacks.webp"
     },
     {
       "title": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
