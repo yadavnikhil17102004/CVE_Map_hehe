@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-05-05T05:35:27Z",
+  "last_updated": "2026-05-05T07:57:27Z",
   "articles": [
+    {
+      "title": "Weaver E-cology RCE Flaw CVE-2026-22679 Actively Exploited via Debug API",
+      "link": "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
+      "description": "A critical security vulnerability in Weaver (Fanwei) E-cology, an enterprise office automation (OA) and collaboration platform, has come under active exploitation in the wild. The vulnerability (CV...",
+      "pub_date": "Tue, 05 May 2026 13:07:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1jDJPLahWSAtaecpFMUCFQvqRj4uVR8js9Fh_awxf84YnfBOfN_hPeVhdNAZEJZGh7hGtuT_RjThlb_R6mYKf0WMpsf-AEkDIb6jYGqq-Gg4WQ2Sban7RZY6oV4MCCAkA8AXEI-4ItHk9jo5DpfoBTHWdVQIuI97MEaGYgc9xlojHS7eMq23Huhl0K7qg/s1600/weaver.jpg"
+    },
+    {
+      "title": "Critical Android Zero-Click Vulnerability Grants Remote Shell Access",
+      "link": "https://cybersecuritynews.com/android-zero-click-vulnerability/",
+      "description": "Google has published the May 2026 Android Security Bulletin, alerting the ecosystem to a highly severe remote code execution (RCE) flaw. Tracked as CVE-2026-0073, this critical vulnerability reside...",
+      "pub_date": "Tue, 05 May 2026 07:24:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Android-Zero-Click-Vulnerability-Grants-Remote-Shell-Access.webp"
+    },
+    {
+      "title": "Microsoft Details Phishing Campaign Targeting 35,000 Users Across 26 Countries",
+      "link": "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html",
+      "description": "Microsoft has disclosed details of a large-scale credential theft campaign that has leveraged a combination of code of conduct-themed lures and legitimate email services to direct users to attacker...",
+      "pub_date": "Tue, 05 May 2026 12:05:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAfU-GpnCdjg1P2f40nj2Y7eLLpsjWNa1TnSlNm3m9F7VkOryT5etD2BouMGxbfatdzukMzeCPXsDagasXWNbcwUPJNkDY-sBox3DkrA0bTYjAEOk4JV8OySSD1_Ni2DgEnoWih83X65e9K1foEaEUetNxoyXFJnGx4Np8VQWrZSnxo2UMmR0Y68L-qf0y/s1600/ms-hook.jpg"
+    },
+    {
+      "title": "pnpm 11 Turns On Minimum Release Age by Default to Reduce npm Supply Chain Risk",
+      "link": "https://cybersecuritynews.com/pnpm-11-turns-on-minimum-release-age/",
+      "description": "The npm ecosystem has long been a target for supply chain attacks, where threat actors exploit the open nature of public package registries to push malicious code into developer environments. With ...",
+      "pub_date": "Tue, 05 May 2026 06:05:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/pnpm-11-Turns-On-Minimum-Release-Age-by-Default-to-Reduce-npm-Supply-Chain-Risk.webp"
+    },
     {
       "title": "Microsoft Edge Stores All Saved Passwords in Cleartext Process Memory at Launch",
       "link": "https://cybersecuritynews.com/microsoft-edge-passwords-cleartext/",
@@ -36,7 +68,7 @@
     {
       "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
       "link": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
-      "description": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent ...",
+      "description": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025 with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent r...",
       "pub_date": "Mon, 04 May 2026 23:36:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqa_ifaDYXI_GirxdHpZgSiE6fjnNdCmviv3QO9JsRvy1ddAWCRfoNd032ANB7pNfFMS4hLEwkfNHPHC5MNwkhK6XRjbe_y8qzWGpXRsdqhMnnUMGguScuIYtcUNQqQlmZkY4BUXy-ue6fAlor8LOfvEZNZrOq0JrIbOc2jXXAUBarqlodfdsIshRq7dXi/s1600/phishing-org.jpg"
@@ -130,14 +162,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/DOJ-Sentences-Two-Americans-to-Prison-for-ALPHV-BlackCat-Attacks-on-U.S.-Victims.webp"
     },
     {
-      "title": "Attackers Weaponize SAP npm Packages to Steal GitHub, Cloud, and AI Coding Tool Secrets",
-      "link": "https://cybersecuritynews.com/attackers-weaponize-sap-npm-packages/",
-      "description": "A new supply chain attack is targeting the SAP developer ecosystem through poisoned npm packages. The campaign uses a malicious worm called \u0026#8220;Mini Shai-Hulud,\u0026#8221; which runs silently before...",
-      "pub_date": "Mon, 04 May 2026 12:39:38 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Attackers-Weaponize-SAP-npm-Packages-to-Steal-GitHub-Cloud-and-AI-Coding-Tool-Secrets.webp"
-    },
-    {
       "title": "Progress warns of critical MOVEit Automation auth bypass flaw",
       "link": "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
       "description": "Progress Software warned customers to patch a critical authentication bypass vulnerability in its MOVEit Automation enterprise-grade managed file transfer (MFT) application. [...]",
@@ -160,14 +184,6 @@
       "pub_date": "Mon, 04 May 2026 17:28:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji6GV4hhCDB_wJkm6REZZfugW5H5hF8g8X27oGcUHnOSxYst1aJJspKKl6joygytGLwgKYvfDU_DD8DFHQ-vPt-_Tc1yzG8fJl_0tHuyOLgJC3eHKGFM_YZA_OIYoL7wI8lUWZrpGO_E2Sjunen7Y9g2fY7sRTi6cvk4DgBW5plToR5U-Je5GQeJsKuqY/s1600/ai-cyberattacks.png"
-    },
-    {
-      "title": "CISA Warns of Linux “Copy Fail” 0-Day Vulnerability Exploited to Root Systems",
-      "link": "https://cybersecuritynews.com/linux-kernel-0-day-vulnerability-exploited/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical Linux kernel zero-day vulnerability to its Known Exploited Vulnerabilities (KEV) catalog, warning federal agenc...",
-      "pub_date": "Mon, 04 May 2026 11:57:31 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CISA-Warns-of-Linux-Kernel-0-Day-Vulnerability-Exploited-in-Attacks.webp"
     },
     {
       "title": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
@@ -304,22 +320,6 @@
       "pub_date": "Fri, 01 May 2026 16:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc4T6K9zSg5-BFr6xjfFnVhxj3Jx5R5CCUbEmTDssJXlPDiPYcCwFRAfSP_09Kcds90YN7CUwv2Y5ZhglKxLgEbyDRaudcoZXL1PfftGo5BloLB9LInZGWvVaKEdYEoHBJjyP3wwxkfEWWg4pcPTtBUnr6zCJRvre9YzZs4OagcnBVFiAbjbEGc7WY-98/s1600/cynomi.png"
-    },
-    {
-      "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
-      "link": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
-      "description": "The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks ...",
-      "pub_date": "Fri, 01 May 2026 15:26:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxhvaGpPe8ES3q62CqgJTkgm4Raiy6ugjF7dOgRUC4Sd6SsspaPB7tzYYK8lmeUi__TGffqjUeumdmUnA34ZmWJKLDG-TGoZXbyaFAaGR_49JYN9GxVGFQ13allcDdinlnrqtOUeRW6M3wdgvPyRYT_TzmYLpjYPGjYi43laVhtbrPjXs3P7dmN_DQ1Lnd/s1600/ransomware-install.jpg"
-    },
-    {
-      "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
-      "link": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
-      "description": "A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, an...",
-      "pub_date": "Fri, 01 May 2026 15:13:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNz4euGufhcyWdY8TkRfdXBUj2XXZlzQWEb1QyI7otpos158ctsC236sEm2NAZ20sUZv4AOqrGCSTbjGsOOkMwhQv53ZjyrVXf9SVUsMfhvhQ4LzGL87j44f0kMkXRzBAoWeHDz8hywx4gbW_trN1mFk-xCCZatTf0zNsude7k-3WE9kIY_pPgza53qsdc/s1600/buffer.jpg"
     },
     {
       "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
