@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-05T21:56:09Z",
+  "last_updated": "2026-05-05T22:50:51Z",
   "articles": [
+    {
+      "title": "New stealthy Quasar Linux malware targets software developers",
+      "link": "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
+      "description": "A previously undocumented Linux implant named Quasar Linux (QLNX) is targeting developers' systems with a mix of rootkit, backdoor, and credential-stealing capabilities. [...]",
+      "pub_date": "Tue, 05 May 2026 18:01:39 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Instructure hacker claims data theft from 8,800 schools, universities",
       "link": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
@@ -26,30 +34,6 @@
       "image_url": ""
     },
     {
-      "title": "Low Noise, High Confidence: Optimizing SOC Costs with Better Threat Intelligence ",
-      "link": "https://cybersecuritynews.com/low-noise-high-confidence-optimizing-soc-costs-with-better-threat-intelligence/",
-      "description": "Robust defense systems are built on a clear understanding of current threats and the ability to translate it into consistent decisions and measurable outcomes at optimal cost.  High-per...",
-      "pub_date": "Tue, 05 May 2026 17:01:09 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCMioK8NSe7LhhyphenhyphenkM-CFlsuAwrGmf3F2AgYSJlVOoJKbzJI9HU_GPRaui58vtniB-SVffT7BcbLfVrw_DOsb4RW-hMB2d2IOia1f-sHS3IWUyaj2wVBrwdvBywOB1cOMJGQaCtIzv2GVpyHV19cMwtEAvfS-xzkhFQM6rJMRb3ZIO8ZtMI7OfEBCwnYA/s16000/Reduce%20SOC%20Costs%20with%20Actionable%20Threat%20Intelligence.webp?ssl=1"
-    },
-    {
-      "title": "GnuTLS 3.8.13 Released with Fix for 12 Vulnerabilities Affecting Network Communications",
-      "link": "https://cybersecuritynews.com/gnutls-3-8-13-released/",
-      "description": "GnuTLS version 3.8.13 has been officially released to patch a dozen security vulnerabilities, including critical flaws affecting secure network communications. The update is highly recommended for ...",
-      "pub_date": "Tue, 05 May 2026 16:36:40 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GnuTLS-3.8.13-Released-with-Fix-for-12-Vulnerabilities.webp"
-    },
-    {
-      "title": "Cisco to Acquire Astrix Security to Strengthen AI Agent and Non-Human Identity Security",
-      "link": "https://cybersecuritynews.com/cisco-acquire-astrix-security/",
-      "description": "Cisco has announced its intent to acquire Astrix Security Ltd., an industry leader in Non-Human Identity (NHI) security. This strategic acquisition aims to protect enterprise environments from the ...",
-      "pub_date": "Tue, 05 May 2026 16:30:40 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Cisco-to-Acquire-Astrix-Security-to-Strengthen-AI-Agent-and-Non-Human-Identity-Security-.webp"
-    },
-    {
       "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
       "link": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
       "description": "The Apache Software Foundation (ASF) has released security updates to address several security vulnerabilities in the HTTP Server, including a severe vulnerability that could potentially lead to re...",
@@ -58,60 +42,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL7seGapCGfnl8pFznQajU2KsVPCE19qbtPTJb2sqpOuurkEKNI8ZwUui6QhYmDJODr1F5L7hrpfGBQfsCOT8oC2k_gbjmRPIFWpVZLpJzcdd9nb-UJyNNg4L9LTtEto1sSo3Fn1cIgWxgsH4Xs0GlRJgEt65_Eut7FRv7aQrkqYdJXiE9zDunU2spQOVP/s1600/apache.jpg"
     },
     {
-      "title": "Critical Weaver E-cology RCE Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/weaver-e-cology-rce-vulnerability-exploited/",
-      "description": "A critical unauthenticated remote code execution vulnerability in the Weaver E-cology platform is currently being actively exploited in the wild. CVE-2026-22679 carries a maximum CVSS score of 9.8 ...",
-      "pub_date": "Tue, 05 May 2026 16:08:11 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Weaver-E-cology-RCE-Vulnerability-Actively-Exploited-in-Attacks.webp"
-    },
-    {
       "title": "DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware",
       "link": "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
       "description": "A newly identified supply chain attack targeting DAEMON Tools software has compromised its installers to serve a malicious payload, according to findings from Kaspersky. \"These installers are distr...",
       "pub_date": "Tue, 05 May 2026 21:37:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghQDcWhFHnIEeEngbqyPFjkweCMgT7FoZRRZV0WYRuHg1cHip2O0lw2ahMc7jhJnzOCqqrLhzpM9w-O3eLpVdiCvI4C3-RD6XwqTkDxWdhzkS-W2BsbLy_SFwnjykdvvhuhjGnwPkFpOSJiapeWULhqx9er8hDH0sCCtoK51OrH4nSYqc_oAZwILcOi1A2/s1600/daemon.jpg"
-    },
-    {
-      "title": "Critical Qualcomm Chipset Vulnerabilities Enables Remote Code Execution",
-      "link": "https://cybersecuritynews.com/qualcomm-chipset-vulnerabilities/",
-      "description": "Qualcomm Technologies has released a critical security bulletin addressing multiple severe vulnerabilities in its proprietary and open-source software. These security updates are essential for prot...",
-      "pub_date": "Tue, 05 May 2026 16:01:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Qualcomm-Chipset-Vulnerabilities-Enables-Remote-Code-Execution-.webp"
-    },
-    {
-      "title": "New ScarCruft Supply Chain Attack Hits Gaming Platform With Windows and Android Backdoors",
-      "link": "https://cybersecuritynews.com/new-scarcruft-supply-chain-attack-hits-gaming-platform/",
-      "description": "A North Korea-aligned threat group known as ScarCruft has been caught running a supply chain attack against a video gaming platform serving ethnic Koreans in China\u0026#8217;s Yanbian region. The attac...",
-      "pub_date": "Tue, 05 May 2026 15:52:10 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-ScarCruft-Supply-Chain-Attack-Hits-Gaming-Platform-With-Windows-and-Android-Backdoors.webp"
-    },
-    {
-      "title": "China-Aligned SHADOW-EARTH-053 Exploits Exchange Servers to Deploy ShadowPad Malware",
-      "link": "https://cybersecuritynews.com/china-aligned-shadow-earth-053-exploits-exchange-servers/",
-      "description": "A China-aligned threat group tracked as SHADOW-EARTH-053 has been exploiting unpatched Microsoft Exchange Server vulnerabilities to conduct cyberespionage against government and defense-linked targ...",
-      "pub_date": "Tue, 05 May 2026 15:35:57 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/China-Aligned-SHADOW-EARTH-053-Exploits-Exchange-Servers-to-Deploy-ShadowPad-Malware.webp"
-    },
-    {
-      "title": "Silver Fox Uses Fake Tax Notices to Deploy ValleyRAT and New ABCDoor Backdoor",
-      "link": "https://cybersecuritynews.com/silver-fox-uses-fake-tax-notices/",
-      "description": "A Chinese-linked threat group known as Silver Fox has been running a calculated phishing campaign, tricking employees at organizations across multiple countries into opening what appear to be offic...",
-      "pub_date": "Tue, 05 May 2026 15:19:54 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Silver-Fox-Uses-Fake-Tax-Notices-to-Deploy-ValleyRAT-and-New-ABCDoor-Backdoor.webp"
-    },
-    {
-      "title": "LuxSci Launches Enterprise-Grade HIPAA-Compliant Email Security for Mid-Sized Healthcare Organizations",
-      "link": "https://cybersecuritynews.com/luxsci-launches-enterprise-grade-hipaa-compliant-email-security-for-mid-sized-healthcare-organizations/",
-      "description": "Cambridge, MA, May 5th, 2026, CyberNewswire New right-sized offering brings advanced encryption, easy API integration, and HITRUST-certified compliance to the most underserved segment in healthcare...",
-      "pub_date": "Tue, 05 May 2026 14:44:33 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjr8Bt1XoDH-WiJAYTzTPK1fkBQVwhluOSZDiKwrorDVhLVcE5L9XANY6uYLrzDgxAyjAQCgQoMQ_1DKpsCGiBPwxvOHFg75kexV2vEQbltmypiORvZnwr2guJ41XqeCakDW6qZCUM3pmSsWrlchRNJkPXwHcYJNr6QLpbd5SOAdDNS4ORe99onuxxrWFE/s16000/TTT%20-%202026-05-05T190335.819.webp?ssl=1"
     },
     {
       "title": "FTC to ban data broker Kochava from selling Americans’ location data",
@@ -128,14 +64,6 @@
       "pub_date": "Tue, 05 May 2026 19:49:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcz8_PjYKknoot4F_PnjDZ7F1HhyphenhyphenIATFohYVF1OQYLSUFwiOPknnFF3ShgQKtKtfOEUbwUcfB-xhQAbi3dBsUvKki_ooKqYmQR3KfzcC1U443sR89JlLu5oPDJcEz9GXfEo5GwtMNj8s7HGg5-qsaR0sqqkSOUBsNFcqrz9NPDPyU6lQNl2RRtADTFzK0f/s1600/chinese-hackers-2.jpg"
-    },
-    {
-      "title": "Cerberus Stalkerware on Google Play Leverages Accessibility Abuse and Firebase for Remote Control",
-      "link": "https://cybersecuritynews.com/cerberus-stalkerware-on-google-play-leverages-accessibility/",
-      "description": "A dangerous piece of Android stalkerware called Cerberus Anti-theft has been hiding in plain sight on the Google Play Store since October 4, 2023. Sold under the package name com.ssurebrec and ma...",
-      "pub_date": "Tue, 05 May 2026 14:18:10 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Cerberus-Stalkerware-on-Google-Play-Leverages-Accessibility-Abuse-and-Firebase-for-Remote-Control.webp"
     },
     {
       "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss",
@@ -288,14 +216,6 @@
       "pub_date": "Mon, 04 May 2026 19:53:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_j3mVDqxMVjGlF1qpGV3nSUfIhHsxGDl7Nt6QQFwRUA-qOtj22zKVcE7B7UTCcjLdUrsjLPB5N7TiX8Hzjx8Hq8LPy_GdAfcO_AqMwDDWRyQ6dWdeXzFOQa1KYm8rUUDCgwCbR9kN7OCheQyc0Ijz2MuXGkY6bsqHwlBtV34Q6xH2VAPRDUjFFThKk46X/s1600/CYBERRECAP.jpg"
-    },
-    {
-      "title": "They don’t hack, they borrow: How fraudsters target credit unions",
-      "link": "https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/",
-      "description": "Fraudsters aren't hacking credit unions, they are exploiting normal business processes. Flare reveals how structured loan fraud methods use stolen identities to pass verification and secure funds. ...",
-      "pub_date": "Mon, 04 May 2026 09:42:51 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "2026: The Year of AI-Assisted Attacks",
