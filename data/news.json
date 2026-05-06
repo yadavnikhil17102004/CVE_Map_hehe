@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-05-06T17:24:13Z",
+  "last_updated": "2026-05-06T19:25:31Z",
   "articles": [
+    {
+      "title": "Critical vm2 sandbox bug lets attackers execute code on hosts",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
+      "description": "A critical vulnerability in the popular Node.js sandboxing library vm2 allows escaping the sandbox and executing arbitrary code on the host system. [...]",
+      "pub_date": "Wed, 06 May 2026 14:38:38 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "CloudZ RAT Abuses Microsoft Phone Link to Steal SMS OTPs and Mobile Notifications",
+      "link": "https://cybersecuritynews.com/cloudz-rat-abuses-microsoft-phone-link/",
+      "description": "A newly discovered threat is turning a built-in Microsoft feature into a powerful spying tool. Security researchers have found a remote access tool called CloudZ that works alongside a custom plugi...",
+      "pub_date": "Wed, 06 May 2026 18:22:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CloudZ-RAT-Abuses-Microsoft-Phone-Link-to-Steal-SMS-OTPs-and-Mobile-Notifications.webp"
+    },
+    {
+      "title": "New Cisco DoS flaw requires manual reboot to revive devices",
+      "link": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
+      "description": "Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]",
+      "pub_date": "Wed, 06 May 2026 14:06:21 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "QLNX Targets Developers With Credential Theft Designed for Supply Chain Compromise",
+      "link": "https://cybersecuritynews.com/qlnx-targets-developers-with-credential-theft/",
+      "description": "A new and previously undocumented Linux threat has emerged, targeting software developers in a way that could put entire supply chains at risk. Named Quasar Linux, or QLNX, this malware operates as...",
+      "pub_date": "Wed, 06 May 2026 17:55:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/QLNX-Targets-Developers-With-Credential-Theft-Designed-for-Supply-Chain-Compromise.webp"
+    },
     {
       "title": "Member of Prolific Russian Ransomware Group Sentenced to 102 Months in Prison",
       "link": "https://cybersecuritynews.com/ransomware-group-member-sentenced/",
@@ -80,22 +112,6 @@
       "pub_date": "Wed, 06 May 2026 10:04:14 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Malicious OpenClaw DeepSeek Skill Exploits Agentic AI Workflows to Deliver RAT and Stealer",
-      "link": "https://cybersecuritynews.com/malicious-openclaw-deepseek-skill-exploits-agentic-ai/",
-      "description": "A cleverly disguised malware campaign is targeting developers and AI-driven systems by hiding inside what looks like a legitimate plugin for an open-source AI framework. Security researchers have u...",
-      "pub_date": "Wed, 06 May 2026 14:04:10 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-OpenClaw-DeepSeek-Skill-Exploits-Agentic-AI-Workflows-to-Deliver-RAT-and-Stealer.webp"
-    },
-    {
-      "title": "Iranian-Nexus Operation Targets Oman Ministries With Webshells, SQL Escalation, and Data Theft",
-      "link": "https://cybersecuritynews.com/iranian-nexus-operation-targets-oman-ministries-with-webshells/",
-      "description": "A sophisticated cyber operation linked to an Iranian-nexus threat actor has quietly worked through at least 12 Omani government ministries, stealing tens of thousands of citizen records and leaving...",
-      "pub_date": "Wed, 06 May 2026 13:40:36 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Iranian-Nexus-Operation-Targets-Oman-Ministries-With-Webshells-SQL-Escalation-and-Data-Theft.webp"
     },
     {
       "title": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
@@ -280,22 +296,6 @@
       "pub_date": "Tue, 05 May 2026 16:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJcSH4TD_VT_40WBni-IecCy9etWtsaPKvEXzvqJrDVNl0rTIg_XXWSygEBXAIP7y4saSzakCzASpQL6vtRnHRHULD71drQ3gr-y9PpzOeeQ4JzkDGorQe26Iy7zCRp0tyc_h8EYpJYEMkYjlophh6fnhGnb0ZnRqmier4jB4nMXO2A_4j2duMoSQGKbo/s1600/intruder.jpg"
-    },
-    {
-      "title": "Karakurt extortion gang ‘cold case’ negotiator gets 8.5 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/",
-      "description": "A Latvian national extradited to the United States was sentenced to 8.5 years in prison for his \"cold case\" negotiator role in the Russian Karakurt ransomware group. [...]",
-      "pub_date": "Tue, 05 May 2026 06:13:17 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "CloudZ malware abuses Microsoft Phone Link to steal SMS and OTPs",
-      "link": "https://www.bleepingcomputer.com/news/security/cloudz-malware-abuses-microsoft-phone-link-to-steal-sms-and-otps/",
-      "description": "A new version of the CloudZ remote access tool (RAT) is deploying a previously unseen malicious plugin called Pheno that hijacks the Microsoft Phone Link connection to steal sensitive codes from mo...",
-      "pub_date": "Tue, 05 May 2026 06:03:52 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "ScarCruft Hacks Gaming Platform to Deploy BirdCall Malware on Android and Windows",
@@ -522,10 +522,10 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/01/fine-grained-pat.png?resize=1024%2C496"
     },
     {
-      "title": "ABB B\u0026R Automation Studio",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-04",
-      "description": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this...",
-      "pub_date": "Tue, 05 May 26 12:00:00 +0000",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\u0026nbsp;  CVE-2026-0300\u0026nbsp;Palo Alto Networks PAN-OS Out-of-...",
+      "pub_date": "Wed, 06 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
@@ -533,6 +533,14 @@
       "title": "ABB B\u0026R Automation Runtime",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-03",
       "description": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. An attacker who successfully ex...",
+      "pub_date": "Tue, 05 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB B\u0026R Automation Studio",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-04",
+      "description": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this...",
       "pub_date": "Tue, 05 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -562,14 +570,6 @@
       "image_url": ""
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-31431 Linux Kernel Incorrect Resource Transfer Between...",
-      "pub_date": "Fri, 01 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "Careful Adoption of Agentic AI Services",
       "link": "https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services",
       "description": "CISA, in collaboration with the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and other international and U.S. partners, released guidance for organizations on ...",
@@ -578,42 +578,10 @@
       "image_url": ""
     },
     {
-      "title": "ABB AWIN Gateways",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-05",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to remotely reboot the device or complete an unauthenticated query to reveal system configuration, includi...",
-      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB Ability OPTIMAX",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-04",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to bypass user authentication on OPTIMAX installations that make use of the Azure Active Directory Single-Sig...",
-      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB Edgenius Management Portal",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-03",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send a specially crafted message to the system node allowing the attacker to install and run arbitrary cod...",
-      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB System 800xA, Symphony Plus IEC 61850",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-01",
-      "description": "View CSAF Summary This vulnerability was privately reported relating to ABB’s implementation of the IEC 61850 communication stack for MMS client applications used in some Automation control syste...",
-      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB PCM600",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send specially crafted messages to the system node resulting in execution of arbitrary code. The following...",
-      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-31431 Linux Kernel Incorrect Resource Transfer Between...",
+      "pub_date": "Fri, 01 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
@@ -634,10 +602,42 @@
       "image_url": ""
     },
     {
-      "title": "Adapting Zero Trust Principles to Operational Technology",
-      "link": "https://www.cisa.gov/resources-tools/resources/adapting-zero-trust-principles-operational-technology",
-      "description": "Adapting Zero Trust Principles to Operational Technology CISA, in coordination with the Department of War, Department of Energy, Federal Bureau of Investigation, and Department of State, released A...",
-      "pub_date": "Wed, 29 Apr 26 12:00:00 +0000",
+      "title": "ABB PCM600",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send specially crafted messages to the system node resulting in execution of arbitrary code. The following...",
+      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB System 800xA, Symphony Plus IEC 61850",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-01",
+      "description": "View CSAF Summary This vulnerability was privately reported relating to ABB’s implementation of the IEC 61850 communication stack for MMS client applications used in some Automation control syste...",
+      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB Edgenius Management Portal",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-03",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send a specially crafted message to the system node allowing the attacker to install and run arbitrary cod...",
+      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB Ability OPTIMAX",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-04",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to bypass user authentication on OPTIMAX installations that make use of the Azure Active Directory Single-Sig...",
+      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB AWIN Gateways",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-05",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to remotely reboot the device or complete an unauthenticated query to reveal system configuration, includi...",
+      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
