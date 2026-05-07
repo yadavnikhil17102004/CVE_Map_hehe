@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-05-07T08:20:18Z",
+  "last_updated": "2026-05-07T11:02:34Z",
   "articles": [
+    {
+      "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
+      "link": "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
+      "description": "Palo Alto Networks warned customers that suspected state-sponsored hackers have been exploiting a critical-severity PAN-OS firewall zero-day vulnerability for nearly a month. [...]",
+      "pub_date": "Thu, 07 May 2026 06:57:59 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "28 Fake Call History Apps on Google Play with 7.3M+ Downloads Trick Users to Steal Payments",
+      "link": "https://cybersecuritynews.com/28-fake-call-history-apps-on-google-play-with-7-3m-downloads/",
+      "description": "A new wave of fraudulent Android apps quietly racked up millions of downloads on Google Play before being taken down. These apps, now tracked under the name CallPhantom, promised users something ir...",
+      "pub_date": "Thu, 07 May 2026 10:30:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/28-Fake-Call-History-Apps-on-Google-Play-with-7.3M-Downloads-Trick-Users-to-Steal-Payments.webp"
+    },
+    {
+      "title": "Fake Claude AI website delivers new 'Beagle' Windows malware",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/",
+      "description": "A fake version for the Claude AI website offers a malicious Claude-Pro Relay download that pushes a previously undocumented backdoor for Windows named Beagle. [...]",
+      "pub_date": "Thu, 07 May 2026 06:02:35 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Malicious NuGet Packages Target Browser Credentials, SSH Keys, and Crypto Wallets",
+      "link": "https://cybersecuritynews.com/malicious-nuget-packages-target-browser-credentials/",
+      "description": "A fresh wave of malicious packages has been quietly spreading through the NuGet ecosystem, one of the most widely used registries in the .NET developer world. Five rogue packages have been discover...",
+      "pub_date": "Thu, 07 May 2026 09:49:42 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-NuGet-Packages-Target-Browser-Credentials-SSH-Keys-and-Crypto-Wallets.webp"
+    },
+    {
+      "title": "PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux",
+      "link": "https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html",
+      "description": "Cybersecurity researchers have discovered three packages on the Python Package Index (PyPI) repository that are designed to stealthily deliver a previously unknown malware family called\u0026nbsp;ZiChat...",
+      "pub_date": "Thu, 07 May 2026 14:50:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGun7lMQJXWH3IQiR3ml3RMzAbb1QJcWEtgqDrKTjPbvBhTsDPaCWmI1vTAnevTVPx0lg4xvPkOcpx_86_Znxdgpj-hynQXGEHqf94dvYwOy5VqqnqBWEWrJ3MEkQcLVBVt00Y8pUqVWj4W-hYYepmDmtX9PRQh87qZC7XbJCwdEaLsBY-vTsbkS0yqikd/s1600/pypi.jpg"
+    },
+    {
+      "title": "Critical vm2 Node.js Library Vulnerabilities Enables Arbitrary Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/vm2-node-js-library-vulnerabilities/",
+      "description": "VM2 has been hit by 11 critical vulnerabilities, putting countless applications that rely on it at risk of executing untrusted code. Affecting all versions up to 3.11.1, each flaw provides attacker...",
+      "pub_date": "Thu, 07 May 2026 08:49:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-vm2-Node.js-Library-Vulnerabilities-Enables-Arbitrary-Code-Execution-Attacks.webp"
+    },
+    {
+      "title": "Hackers Used Claude AI to Attack on Water and Drainage Utility Systems",
+      "link": "https://cybersecuritynews.com/hackers-used-claude-ai-to-attack/",
+      "description": "A new threat intelligence report has revealed that an unknown group of hackers used a commercial AI tool to target the systems of a municipal water and drainage utility in Monterrey, Mexico. The at...",
+      "pub_date": "Thu, 07 May 2026 08:29:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Used-Claude-AI-to-Attack-on-Water-and-Drainage-Utility-Systems.webp"
+    },
     {
       "title": "Critical Ollama Memory Leak Vulnerability Exposes 300,000 Servers Globally",
       "link": "https://cybersecuritynews.com/ollama-vulnerability-exposes-servers/",
@@ -58,30 +114,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Phishing-Attack-Weaponizing-Event-Invitations-to-Steal-Login-Credentials.webp"
     },
     {
-      "title": "New Salat Malware Uses QUIC and WebSocket Channels for Stealthy Remote Control",
-      "link": "https://cybersecuritynews.com/new-salat-malware-uses-quic-and-websocket/",
-      "description": "A newly identified malware called Salat is raising serious alarms across the cybersecurity community for its sophisticated design and surprisingly wide range of capabilities. Built using the Go pro...",
-      "pub_date": "Thu, 07 May 2026 00:35:42 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Salat-Malware-Uses-QUIC-and-WebSocket-Channels-for-Stealthy-Remote-Control.webp"
-    },
-    {
-      "title": "New FEMITBOT Network Uses Telegram Mini Apps to Push Crypto Fraud and Android Malware",
-      "link": "https://cybersecuritynews.com/new-femitbot-network-uses-telegram-mini-apps/",
-      "description": "A new and highly organized fraud network called FEMITBOT has emerged, exploiting Telegram\u0026#8217;s Mini App feature to run large-scale cryptocurrency scams and push malicious Android software onto u...",
-      "pub_date": "Thu, 07 May 2026 00:11:17 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-FEMITBOT-Network-Uses-Telegram-Mini-Apps-to-Push-Crypto-Fraud-and-Android-Malware.webp"
-    },
-    {
-      "title": "Darkhub Hacking-for-Hire Portal Advertises Crypto Fraud, Message Interception, and Monitoring",
-      "link": "https://cybersecuritynews.com/darkhub-hacking-for-hire-portal-advertises-crypto-fraud/",
-      "description": "A dark web platform calling itself Darkhub has surfaced on the Tor network, openly advertising hacking-for-hire services to anyone willing to pay. The platform presents itself as a one-stop shop fo...",
-      "pub_date": "Wed, 06 May 2026 23:54:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Darkhub-Hacking-for-Hire-Portal-Advertises-Crypto-Fraud-Message-Interception-and-Monitoring.webp"
-    },
-    {
       "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
       "description": "A phishing campaign delivered through Google sponsored search results is targeting credentials for ManageWP, GoDaddy's platform for managing fleets of WordPress websites. [...]",
@@ -104,14 +136,6 @@
       "pub_date": "Wed, 06 May 2026 14:38:38 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "CloudZ RAT Abuses Microsoft Phone Link to Steal SMS OTPs and Mobile Notifications",
-      "link": "https://cybersecuritynews.com/cloudz-rat-abuses-microsoft-phone-link/",
-      "description": "A newly discovered threat is turning a built-in Microsoft feature into a powerful spying tool. Security researchers have found a remote access tool called CloudZ that works alongside a custom plugi...",
-      "pub_date": "Wed, 06 May 2026 18:22:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CloudZ-RAT-Abuses-Microsoft-Phone-Link-to-Steal-SMS-OTPs-and-Mobile-Notifications.webp"
     },
     {
       "title": "New Cisco DoS flaw requires manual reboot to revive devices",
@@ -274,22 +298,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcz8_PjYKknoot4F_PnjDZ7F1HhyphenhyphenIATFohYVF1OQYLSUFwiOPknnFF3ShgQKtKtfOEUbwUcfB-xhQAbi3dBsUvKki_ooKqYmQR3KfzcC1U443sR89JlLu5oPDJcEz9GXfEo5GwtMNj8s7HGg5-qsaR0sqqkSOUBsNFcqrz9NPDPyU6lQNl2RRtADTFzK0f/s1600/chinese-hackers-2.jpg"
     },
     {
-      "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss",
-      "link": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
-      "description": "Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a fre...",
-      "pub_date": "Tue, 05 May 2026 10:00:10 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Vimeo data breach exposes personal information of 119,000 people",
-      "link": "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
-      "description": "The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Hav...",
-      "pub_date": "Tue, 05 May 2026 09:03:46 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed",
       "link": "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
       "description": "Every AI tool, workflow automation, and productivity app your employees connected to Google or Microsoft this year left something behind: a persistent OAuth token with no expiration date, no automa...",
@@ -312,14 +320,6 @@
       "pub_date": "Tue, 05 May 2026 16:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJcSH4TD_VT_40WBni-IecCy9etWtsaPKvEXzvqJrDVNl0rTIg_XXWSygEBXAIP7y4saSzakCzASpQL6vtRnHRHULD71drQ3gr-y9PpzOeeQ4JzkDGorQe26Iy7zCRp0tyc_h8EYpJYEMkYjlophh6fnhGnb0ZnRqmier4jB4nMXO2A_4j2duMoSQGKbo/s1600/intruder.jpg"
-    },
-    {
-      "title": "ScarCruft Hacks Gaming Platform to Deploy BirdCall Malware on Android and Windows",
-      "link": "https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html",
-      "description": "The North Korea-aligned state-sponsored hacking group known as ScarCruft has compromised a video game platform in a supply chain espionage attack, trojanizing its components with a backdoor called ...",
-      "pub_date": "Tue, 05 May 2026 14:37:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-UMvuxvPI2rmCsc57tI37aod9slTjeUUo0b7InSRMTwGg3UGwzu04cKgA6DE92m455noFtcxdsXfhhDlsc2CTWg8Un_DXBCEduVeDluA81mLc7YtMGBwiuVRjSmzCVXZ2jgrbb7CKnCpVZDJJLjjW5Wj6nrjpJ6B_eV7LeaK0TLGcP_wYm1P8hUjQAnsF/s1600/gear.jpg"
     },
     {
       "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
