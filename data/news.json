@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-07T18:17:54Z",
+  "last_updated": "2026-05-07T20:08:21Z",
   "articles": [
+    {
+      "title": "New PCPJack worm steals credentials, cleans TeamPCP infections",
+      "link": "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
+      "description": "A new malware framework called PCPJack is stealing credentials from exposed cloud infrastructure while actively removing TeamPCP's access to the systems. [...]",
+      "pub_date": "Thu, 07 May 2026 14:35:50 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Australia warns of ClickFix attacks pushing Vidar Stealer malware",
       "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/",
@@ -8,6 +16,22 @@
       "pub_date": "Thu, 07 May 2026 14:00:59 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
+      "link": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
+      "description": "Ivanti is warning that a new security flaw impacting Endpoint Manager Mobile (EPMM) has been explored in limited attacks in the wild. The high-severity vulnerability, CVE-2026-6973 (CVSS score: 7.2...",
+      "pub_date": "Thu, 07 May 2026 23:25:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX-v9Rdn-UppGqdbm0oFYXNg6myRCPn8r-d4BXVN0e2r2hqrYbGPUwOKafMbwKlojjbck4C8Ez6dxZ7WcLF45PNphvCo1K4OGhXl0u9fWanVMbO62iZoWMQJrplTa6VaXfI2rhQL40PoDK0ZNh2jqDJGBc9LylbIE92LWSNEIkVUhSpkGyAfV7g-DVZlU1/s1600/ivanti.jpg"
+    },
+    {
+      "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
+      "link": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
+      "description": "Cybersecurity researchers have disclosed details of a new credential theft framework dubbed PCPJack that targets exposed cloud infrastructure and ousts any artifacts linked to TeamPCP from the envi...",
+      "pub_date": "Thu, 07 May 2026 23:15:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2N74T5rZvfRcHqUhwtyI3hbxAAQnB-RQQqpiGSIJqdplaQaZcjvqLR80d3pIjwJyGtAO5V0Ji6_3w4V4Ww901x4aSGY_Id3lzqXNdGUMbprz80zXoKzHVoIBqyhVBU_LvIMyJHV5MHaMWvZuWgREFmqG4jOdBLpW4gBtgKCrnfRS4mIXemDQ9U_fRERQf/s1600/clouds.jpg"
     },
     {
       "title": "New Ivanti EPMM 0-Day Vulnerability Actively Exploited in Attacks",
@@ -258,14 +282,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjE6bniWklmqJDwZMxQ07Yrb1XNwfkmJE8SGUazlNaXgn1tcbJkvCSjtbo31oAqPZwb9U9KQ-uDMPmQbxwzthxG9J2j65qOUZAph7AAMJOeXYKbcU8jYwIIyjc_i7YnSrOKQ3jPtHAuCs_vdlyWe6O3ViLRYgza2usaIoYA2GgWxKpGGl6u05IZG_QZmP_/s1600/teams-hacker.jpg"
     },
     {
-      "title": "Webinar: Why network incidents escalate and how to fix response gaps",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/",
-      "description": "Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]",
-      "pub_date": "Wed, 06 May 2026 08:56:32 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open",
       "link": "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
       "description": "For nearly 20 years, we at The Hacker News have mostly told scary stories about cyberspace — big hacks, broken systems, and new threats. But behind every headline, there’s a quieter, better sto...",
@@ -304,22 +320,6 @@
       "pub_date": "Wed, 06 May 2026 11:44:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF11tAg5Rdf8st9TeSlgPkW_Rn1I3Xi4Xl6wJjNMThFLB0oYYl2kKURYxYxgtnEphAJkeHzRxVrm8LX_7i8RDXgdLQhq4HM5ecZCrv3biRciuLM2JufgdxHqJR3eNTcTsIBWJBAz1Nv8Gac1fhW0vZ8Kgb7RFOC7_9zkL7Uy_SCrFOKps1scenY4c_LPSH/s1600/paloalto.jpg"
-    },
-    {
-      "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
-      "link": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
-      "description": "The Apache Software Foundation (ASF) has released security updates to address several security vulnerabilities in the HTTP Server, including a severe vulnerability that could potentially lead to re...",
-      "pub_date": "Tue, 05 May 2026 21:49:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL7seGapCGfnl8pFznQajU2KsVPCE19qbtPTJb2sqpOuurkEKNI8ZwUui6QhYmDJODr1F5L7hrpfGBQfsCOT8oC2k_gbjmRPIFWpVZLpJzcdd9nb-UJyNNg4L9LTtEto1sSo3Fn1cIgWxgsH4Xs0GlRJgEt65_Eut7FRv7aQrkqYdJXiE9zDunU2spQOVP/s1600/apache.jpg"
-    },
-    {
-      "title": "DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware",
-      "link": "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
-      "description": "A newly identified supply chain attack targeting DAEMON Tools software has compromised its installers to serve a malicious payload, according to findings from Kaspersky. \"These installers are distr...",
-      "pub_date": "Tue, 05 May 2026 21:37:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghQDcWhFHnIEeEngbqyPFjkweCMgT7FoZRRZV0WYRuHg1cHip2O0lw2ahMc7jhJnzOCqqrLhzpM9w-O3eLpVdiCvI4C3-RD6XwqTkDxWdhzkS-W2BsbLy_SFwnjykdvvhuhjGnwPkFpOSJiapeWULhqx9er8hDH0sCCtoK51OrH4nSYqc_oAZwILcOi1A2/s1600/daemon.jpg"
     },
     {
       "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
