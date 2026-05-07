@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-05-07T02:06:49Z",
+  "last_updated": "2026-05-07T05:54:00Z",
   "articles": [
+    {
+      "title": "Massive 2.45B-Request DDoS Attack Used 1.2 Million IPs to Evade Rate Limits",
+      "link": "https://cybersecuritynews.com/massive-2-45b-request-ddos-attack/",
+      "description": "Distributed Denial of Service (DDoS) campaign targeted a large-scale user-generated content platform, unleashing over 2.45 billion malicious requests in just five hours. Rather than relying on bru...",
+      "pub_date": "Thu, 07 May 2026 05:00:25 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Massive-2.45B-Request-DDoS-Attack-Used-1.2-Million-IPs-to-Evade-Rate-Limits.webp"
+    },
+    {
+      "title": "vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution",
+      "link": "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html",
+      "description": "A dozen critical security vulnerabilities have been disclosed in the vm2 Node.js library that could be exploited by bad actors to break out of the sandbox and execute arbitrary code on susceptible ...",
+      "pub_date": "Thu, 07 May 2026 09:45:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGJE3Tcr425AIfztOUrdhPUiEkVY8bMrHMmO-5FZ2N3cLaW9ErdLJJS3KwjzYNvLAIcVT7xpSw8wswiDIPenyZa_ki3ZrOHJFY-cXKHPu0EGnfCGXxkEAlvE6tLogT8T_lRolQ-qI-GFqlgwqpbLD1HfmDo4HkJbV9XNDh9rcGbM3Nc8ruu5I_47DBmzsy/s1600/vm2.jpg"
+    },
+    {
+      "title": "Google Chrome 148 Released with Fix for 127 Security Vulnerabilities – Update Now!",
+      "link": "https://cybersecuritynews.com/chrome148-vulnerabilities-patched/",
+      "description": "Google has officially promoted Chrome 148 to the stable channel for Windows, Mac, and Linux, rolling out version 148.0.7778.96 for Linux and 148.0.7778.96/97 for Windows and Mac, one of the most se...",
+      "pub_date": "Thu, 07 May 2026 04:01:17 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Google-Chrome-148-Released.webp"
+    },
+    {
+      "title": "New Phishing Attack Weaponizing Event Invitations to Steal Login Credentials",
+      "link": "https://cybersecuritynews.com/new-phishing-attack-weaponizing-event-invitations/",
+      "description": "A large-scale phishing campaign has been quietly targeting organizations across the United States, using fake event invitations as bait. Rather than sending a suspicious attachment or an obvious sc...",
+      "pub_date": "Thu, 07 May 2026 00:58:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Phishing-Attack-Weaponizing-Event-Invitations-to-Steal-Login-Credentials.webp"
+    },
+    {
+      "title": "New Salat Malware Uses QUIC and WebSocket Channels for Stealthy Remote Control",
+      "link": "https://cybersecuritynews.com/new-salat-malware-uses-quic-and-websocket/",
+      "description": "A newly identified malware called Salat is raising serious alarms across the cybersecurity community for its sophisticated design and surprisingly wide range of capabilities. Built using the Go pro...",
+      "pub_date": "Thu, 07 May 2026 00:35:42 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Salat-Malware-Uses-QUIC-and-WebSocket-Channels-for-Stealthy-Remote-Control.webp"
+    },
+    {
+      "title": "New FEMITBOT Network Uses Telegram Mini Apps to Push Crypto Fraud and Android Malware",
+      "link": "https://cybersecuritynews.com/new-femitbot-network-uses-telegram-mini-apps/",
+      "description": "A new and highly organized fraud network called FEMITBOT has emerged, exploiting Telegram\u0026#8217;s Mini App feature to run large-scale cryptocurrency scams and push malicious Android software onto u...",
+      "pub_date": "Thu, 07 May 2026 00:11:17 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-FEMITBOT-Network-Uses-Telegram-Mini-Apps-to-Push-Crypto-Fraud-and-Android-Malware.webp"
+    },
+    {
+      "title": "Darkhub Hacking-for-Hire Portal Advertises Crypto Fraud, Message Interception, and Monitoring",
+      "link": "https://cybersecuritynews.com/darkhub-hacking-for-hire-portal-advertises-crypto-fraud/",
+      "description": "A dark web platform calling itself Darkhub has surfaced on the Tor network, openly advertising hacking-for-hire services to anyone willing to pay. The platform presents itself as a one-stop shop fo...",
+      "pub_date": "Wed, 06 May 2026 23:54:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Darkhub-Hacking-for-Hire-Portal-Advertises-Crypto-Fraud-Message-Interception-and-Monitoring.webp"
+    },
     {
       "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
@@ -26,12 +82,44 @@
       "image_url": ""
     },
     {
+      "title": "CloudZ RAT Abuses Microsoft Phone Link to Steal SMS OTPs and Mobile Notifications",
+      "link": "https://cybersecuritynews.com/cloudz-rat-abuses-microsoft-phone-link/",
+      "description": "A newly discovered threat is turning a built-in Microsoft feature into a powerful spying tool. Security researchers have found a remote access tool called CloudZ that works alongside a custom plugi...",
+      "pub_date": "Wed, 06 May 2026 18:22:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CloudZ-RAT-Abuses-Microsoft-Phone-Link-to-Steal-SMS-OTPs-and-Mobile-Notifications.webp"
+    },
+    {
       "title": "New Cisco DoS flaw requires manual reboot to revive devices",
       "link": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
       "description": "Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]",
       "pub_date": "Wed, 06 May 2026 14:06:21 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "QLNX Targets Developers With Credential Theft Designed for Supply Chain Compromise",
+      "link": "https://cybersecuritynews.com/qlnx-targets-developers-with-credential-theft/",
+      "description": "A new and previously undocumented Linux threat has emerged, targeting software developers in a way that could put entire supply chains at risk. Named Quasar Linux, or QLNX, this malware operates as...",
+      "pub_date": "Wed, 06 May 2026 17:55:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/QLNX-Targets-Developers-With-Credential-Theft-Designed-for-Supply-Chain-Compromise.webp"
+    },
+    {
+      "title": "Member of Prolific Russian Ransomware Group Sentenced to 102 Months in Prison",
+      "link": "https://cybersecuritynews.com/ransomware-group-member-sentenced/",
+      "description": "A Latvian national operating out of Moscow was sentenced to 102 months in federal prison for his central role in a sprawling Russian ransomware syndicate. Deniss Zolotarjovs, 35, served as a primar...",
+      "pub_date": "Wed, 06 May 2026 17:19:25 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Member-of-Prolific-Russian-Ransomware-Group-Sentenced-to-102-Months-in-Prison.webp"
+    },
+    {
+      "title": "Argo CD’s ServerSideDiff Vulnerability Enables Kubernetes Secret Extraction",
+      "link": "https://cybersecuritynews.com/argo-cds-serversidediff-vulnerability/",
+      "description": "A critical cybersecurity vulnerability has been uncovered in Argo CD, a widely used declarative GitOps continuous delivery tool for Kubernetes environments. Tracked as CVE-2026-43824, this high-sev...",
+      "pub_date": "Wed, 06 May 2026 17:17:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Argo-CDs-ServerSideDiff-Vulnerability-Enables-Kubernetes-Secret-Extraction.webp"
     },
     {
       "title": "DAEMON Tools devs confirm breach, release malware-free version",
@@ -232,14 +320,6 @@
       "pub_date": "Tue, 05 May 2026 14:37:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-UMvuxvPI2rmCsc57tI37aod9slTjeUUo0b7InSRMTwGg3UGwzu04cKgA6DE92m455noFtcxdsXfhhDlsc2CTWg8Un_DXBCEduVeDluA81mLc7YtMGBwiuVRjSmzCVXZ2jgrbb7CKnCpVZDJJLjjW5Wj6nrjpJ6B_eV7LeaK0TLGcP_wYm1P8hUjQAnsF/s1600/gear.jpg"
-    },
-    {
-      "title": "Weaver E-cology RCE Flaw CVE-2026-22679 Actively Exploited via Debug API",
-      "link": "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
-      "description": "A critical security vulnerability in Weaver (Fanwei) E-cology, an enterprise office automation (OA) and collaboration platform, has come under active exploitation in the wild. The vulnerability (CV...",
-      "pub_date": "Tue, 05 May 2026 13:07:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1jDJPLahWSAtaecpFMUCFQvqRj4uVR8js9Fh_awxf84YnfBOfN_hPeVhdNAZEJZGh7hGtuT_RjThlb_R6mYKf0WMpsf-AEkDIb6jYGqq-Gg4WQ2Sban7RZY6oV4MCCAkA8AXEI-4ItHk9jo5DpfoBTHWdVQIuI97MEaGYgc9xlojHS7eMq23Huhl0K7qg/s1600/weaver.jpg"
     },
     {
       "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
