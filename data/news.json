@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-05-07T21:48:19Z",
+  "last_updated": "2026-05-07T22:54:13Z",
   "articles": [
+    {
+      "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
+      "description": "The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and uni...",
+      "pub_date": "Thu, 07 May 2026 18:36:54 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New TCLBanker malware self-spreads over WhatsApp and Outlook",
+      "link": "https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/",
+      "description": "A new trojan named TCLBanker, which targets 59 banking, fintech, and cryptocurrency platforms, uses a trojanized MSI installer for Logitech AI Prompt Builder to infect systems. [...]",
+      "pub_date": "Thu, 07 May 2026 18:06:52 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "New PCPJack worm steals credentials, cleans TeamPCP infections",
       "link": "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
@@ -32,30 +48,6 @@
       "pub_date": "Thu, 07 May 2026 23:15:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2N74T5rZvfRcHqUhwtyI3hbxAAQnB-RQQqpiGSIJqdplaQaZcjvqLR80d3pIjwJyGtAO5V0Ji6_3w4V4Ww901x4aSGY_Id3lzqXNdGUMbprz80zXoKzHVoIBqyhVBU_LvIMyJHV5MHaMWvZuWgREFmqG4jOdBLpW4gBtgKCrnfRS4mIXemDQ9U_fRERQf/s1600/clouds.jpg"
-    },
-    {
-      "title": "New Ivanti EPMM 0-Day Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/ivanti-epmm-0-day-exploited/",
-      "description": "Ivanti has issued a critical security advisory for its Endpoint Manager Mobile (EPMM) product, disclosing multiple actively exploited vulnerabilities, including CVE-2026-6973, and urging all on-pre...",
-      "pub_date": "Thu, 07 May 2026 16:29:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Ivanti-EPMM-0-Day-Vulnerability-Exploited-1.webp"
-    },
-    {
-      "title": "CISA Warns of Palo Alto PAN-OS Vulnerability Exploited to Gain Root Access",
-      "link": "https://cybersecuritynews.com/palo-alto-pan-os-vulnerability-exploited/",
-      "description": "CISA has issued an urgent warning regarding a critical vulnerability in Palo Alto Networks PAN-OS. Tracked as CVE-2026-0300, this severe security flaw was recently added to CISA\u0026#8217;s Known Explo...",
-      "pub_date": "Thu, 07 May 2026 15:59:54 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CISA-Warns-of-Palo-Alto-PAN-OS-Vulnerability-Exploited-to-Gain-Root-Access-.webp"
-    },
-    {
-      "title": "New Cisco Network Vulnerability Let Remote Attacker Cause DoS Attack",
-      "link": "https://cybersecuritynews.com/cisco-network-vulnerability-dos-attack/",
-      "description": "Cisco has issued a critical security advisory regarding a high-severity vulnerability impacting its Crosswork Network Controller (CNC) and Network Services Orchestrator (NSO). Tracked formally as C...",
-      "pub_date": "Thu, 07 May 2026 15:44:08 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Cisco-Network-Vulnerability-Let-remote-attacker-cause-DoS-Attack.webp"
     },
     {
       "title": "Ivanti warns of new EPMM flaw exploited in zero-day attacks",
@@ -98,30 +90,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-FbTXMB7fJu_4ZxIlvKU2wHShSiMZaCQBah-p33256FjWEUsO0kd4s-LXOT_YQoS39Mj5f7nhj-ERtNF2EPNU9WG91ZWJXpl4cwYFoWz8npaMpVWzAhYjVVB-JnPyoycvPmik7Y5IsihIDXp7_mHvh4DYUz9vqkkVRYgylDqKeezcDEwqRJNs4F_2scA/s1600/paloalto-rce.jpg"
     },
     {
-      "title": "Hackers Using Fake Claude AI Installer Pages to Trick Users Into Running Malware on Their Systems",
-      "link": "https://cybersecuritynews.com/hackers-using-fake-claude-ai-installer-pages/",
-      "description": "Hackers are using convincing fake pages for Claude AI to trick users into running malware on their own systems. The campaign, known as \u0026#8220;InstallFix\u0026#8221; or the Fake Claude Installer threat, ...",
-      "pub_date": "Thu, 07 May 2026 13:00:07 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Using-Fake-Claude-AI-Installer-Pages-to-Trick-Users-Into-Running-Malware-on-Their-Systems.webp"
-    },
-    {
-      "title": "Scammers Use Short-Lived VoIP Numbers and Reuse Windows to Defeat Reputation-Based Blocking",
-      "link": "https://cybersecuritynews.com/scammers-use-short-lived-voip-numbers-and-reuse-windows/",
-      "description": "Phone-based scams are evolving faster than most security filters can keep up with. Attackers are now leaning heavily on Voice over Internet Protocol (VoIP) numbers that disappear before detection s...",
-      "pub_date": "Thu, 07 May 2026 12:53:52 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Scammers-Use-Short-Lived-VoIP-Numbers-and-Reuse-Windows-to-Defeat-Reputation-Based-Blocking.webp"
-    },
-    {
-      "title": "UAT-8302 Uses Custom Malware and Open-Source Tools to Steal Data From Government Agencies",
-      "link": "https://cybersecuritynews.com/uat-8302-uses-custom-malware-and-open-source-tools/",
-      "description": "A sophisticated China-linked hacker group known as UAT-8302 has been quietly targeting government agencies across South America and southeastern Europe, using a mix of custom malware and widely ava...",
-      "pub_date": "Thu, 07 May 2026 12:46:02 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/UAT-8302-Uses-Custom-Malware-and-Open-Source-Tools-to-Steal-Data-From-Government-Agencies.webp"
-    },
-    {
       "title": "Crypto gang member gets 6.5 years for role in $230 million heist",
       "link": "https://www.bleepingcomputer.com/news/security/crypto-gang-member-gets-65-years-for-role-in-230-million-heist/",
       "description": "A 20-year-old California man was sentenced to 78 months in prison for serving as a home invader and money launderer in a criminal ring that stole over $250 million in cryptocurrency. [...]",
@@ -138,44 +106,12 @@
       "image_url": ""
     },
     {
-      "title": "WatchGuard Agent Vulnerabilities Let Attackers Grant Full SYSTEM Privileges on Windows",
-      "link": "https://cybersecuritynews.com/watchguard-agent-vulnerabilities-windows/",
-      "description": "WatchGuard has released urgent security updates to address multiple high-severity vulnerabilities affecting the WatchGuard Agent on Windows. The most critical of these flaws allows authenticated lo...",
-      "pub_date": "Thu, 07 May 2026 11:49:12 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/WatchGuard-Agent-Vulnerabilities-Let-Attackers-Grant-Full-SYSTEM-Privileges-on-Windows.webp"
-    },
-    {
-      "title": "Critical Redis Vulnerabilities Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/redis-vulnerabilities-enables-rce/",
-      "description": "Five dangerous vulnerabilities in Redis expose Redis Cloud, Redis Software, and all open-source community editions to potential remote code execution, giving authenticated attackers a direct path t...",
-      "pub_date": "Thu, 07 May 2026 11:45:38 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Redis-Vulnerabilities-Enables-Remote-Code-Execution-Attacks-.webp"
-    },
-    {
-      "title": "Palo Alto Networks Firewall Zero-Day RCE Vulnerability Exploited in the Wild Since April",
-      "link": "https://cybersecuritynews.com/palo-alto-firewall-0-day-exploited/",
-      "description": "A critical zero-day vulnerability in Palo Alto Networks PAN-OS software has been actively exploited by a likely state-sponsored threat actor since at least April 2026, the company revealed in a sec...",
-      "pub_date": "Thu, 07 May 2026 11:38:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Palo-Alto-Firewall-0-day-Exploited.webp"
-    },
-    {
       "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories",
       "link": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
       "description": "Bad week. Turns out the easiest way to get hacked in 2026 is still the same old garbage: shady packages, fake apps, forgotten DNS junk, scam ads, and stolen logins getting dumped into Discord chann...",
       "pub_date": "Thu, 07 May 2026 17:03:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYNaH2vOiD-OgAVnO0nGCSr8j4nnvHD2n7RieJD2mDMlPev_fKoBafjhvob13LV4pOFhgMuZd6ex8zyQnCM1AyVfl6fuRG9Max2F76Ku9rWbieBvF0AtGlQd0nXlIwHDKvq5H4BJn3hGCRfE86fHs5SL05RywOADNDC9J5lG9DF8goavgxWzAh7a7isNMB/s1600/threatsday-1.jpg"
-    },
-    {
-      "title": "Hackers Abuse Google Ads to Steal Users GoDaddy ManageWP login Credentials",
-      "link": "https://cybersecuritynews.com/hackers-abuse-google-ads/",
-      "description": "Hackers are using fake Google ads to steal login credentials from ManageWP users, GoDaddy\u0026#8217;s popular platform for managing WordPress websites from a single dashboard. The campaign, which resea...",
-      "pub_date": "Thu, 07 May 2026 11:13:16 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-Google-Ads-to-Steal-Users-GoDaddy-ManageWP-login-Credentials.webp"
     },
     {
       "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
@@ -254,22 +190,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
       "description": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]",
       "pub_date": "Wed, 06 May 2026 12:43:30 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Why ransomware attacks succeed even when backups exist",
-      "link": "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
-      "description": "Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]",
-      "pub_date": "Wed, 06 May 2026 10:04:14 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
-      "description": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on  Microsoft Teams social engineering to gain access and establish persistence. [...]",
-      "pub_date": "Wed, 06 May 2026 09:02:52 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
