@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T23:42:19Z",
+  "last_updated": "2026-05-07T02:06:49Z",
   "articles": [
     {
       "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
@@ -26,14 +26,6 @@
       "image_url": ""
     },
     {
-      "title": "CloudZ RAT Abuses Microsoft Phone Link to Steal SMS OTPs and Mobile Notifications",
-      "link": "https://cybersecuritynews.com/cloudz-rat-abuses-microsoft-phone-link/",
-      "description": "A newly discovered threat is turning a built-in Microsoft feature into a powerful spying tool. Security researchers have found a remote access tool called CloudZ that works alongside a custom plugi...",
-      "pub_date": "Wed, 06 May 2026 18:22:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CloudZ-RAT-Abuses-Microsoft-Phone-Link-to-Steal-SMS-OTPs-and-Mobile-Notifications.webp"
-    },
-    {
       "title": "New Cisco DoS flaw requires manual reboot to revive devices",
       "link": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
       "description": "Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]",
@@ -42,84 +34,12 @@
       "image_url": ""
     },
     {
-      "title": "QLNX Targets Developers With Credential Theft Designed for Supply Chain Compromise",
-      "link": "https://cybersecuritynews.com/qlnx-targets-developers-with-credential-theft/",
-      "description": "A new and previously undocumented Linux threat has emerged, targeting software developers in a way that could put entire supply chains at risk. Named Quasar Linux, or QLNX, this malware operates as...",
-      "pub_date": "Wed, 06 May 2026 17:55:36 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/QLNX-Targets-Developers-With-Credential-Theft-Designed-for-Supply-Chain-Compromise.webp"
-    },
-    {
-      "title": "Member of Prolific Russian Ransomware Group Sentenced to 102 Months in Prison",
-      "link": "https://cybersecuritynews.com/ransomware-group-member-sentenced/",
-      "description": "A Latvian national operating out of Moscow was sentenced to 102 months in federal prison for his central role in a sprawling Russian ransomware syndicate. Deniss Zolotarjovs, 35, served as a primar...",
-      "pub_date": "Wed, 06 May 2026 17:19:25 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Member-of-Prolific-Russian-Ransomware-Group-Sentenced-to-102-Months-in-Prison.webp"
-    },
-    {
-      "title": "Argo CD’s ServerSideDiff Vulnerability Enables Kubernetes Secret Extraction",
-      "link": "https://cybersecuritynews.com/argo-cds-serversidediff-vulnerability/",
-      "description": "A critical cybersecurity vulnerability has been uncovered in Argo CD, a widely used declarative GitOps continuous delivery tool for Kubernetes environments. Tracked as CVE-2026-43824, this high-sev...",
-      "pub_date": "Wed, 06 May 2026 17:17:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Argo-CDs-ServerSideDiff-Vulnerability-Enables-Kubernetes-Secret-Extraction.webp"
-    },
-    {
-      "title": "Taiwan High Speed Rail Hacked Using Radio Signal Spoofing Attack That Halted Three Trains",
-      "link": "https://cybersecuritynews.com/taiwan-high-speed-rail-hacked/",
-      "description": "On the final night of the Qingming Festival holiday, three Taiwan High Speed Rail trains were forced into emergency stops due to a sophisticated radio signal spoofing attack. The malicious transmis...",
-      "pub_date": "Wed, 06 May 2026 17:16:14 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Taiwan-High-Speed-Rail-Hacked-Using-Radio-Signal-Spoofing-Attack-That-Halted-Three-Trains.webp"
-    },
-    {
-      "title": "New MajorDoMo RCE Vulnerability Exposes Servers to Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/majordomo-rce-vulnerability/",
-      "description": "A newly disclosed flaw exposes internet-facing MajorDoMo servers to unauthenticated remote code execution via a broken authentication flow and unsafe dynamic PHP evaluation. The vulnerability (CVE-...",
-      "pub_date": "Wed, 06 May 2026 17:14:37 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-CVE-2026-27174-Bug-Lets-Attackers-Execute-Code-on-Exposed-MajorDoMo-Servers.webp"
-    },
-    {
-      "title": "New Phishing-to-RMM Attacks: How Analysts Can Detect Trusted-Tool Abuse Early ",
-      "link": "https://cybersecuritynews.com/phishing-to-rmm-attacks-detection/",
-      "description": "ANY.RUN researchers uncovered a phishing-to-RMM campaign in which attackers use fake Microsoft, Adobe, and OneDrive pages to deliver legitimate remote management tools such as ScreenConnect and L...",
-      "pub_date": "Wed, 06 May 2026 16:57:58 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfJo1_jYIvV4Cuvuj9_RYB-gHtpNHbk49gupsbJ2SlmLl6C3gBnuYQSgInALoFHHWdydXP56NKEWrOIRuSIHiE0l1kfFD1v9B23c3MsP4Z9DPOkV9USdJViuoPhzRNu4bmlEyR5-PtXoQO97iu87S8b6mNAuvoNNCo6XHUK-zKFd91uV9c6iWPZ-OVvw/s16000/Detect%20Phishing-to-RMM%20Trusted%20Tool%20Abuse.webp?ssl=1"
-    },
-    {
       "title": "DAEMON Tools devs confirm breach, release malware-free version",
       "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
       "description": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]",
       "pub_date": "Wed, 06 May 2026 12:43:30 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Hackers Use Microsoft Teams to Steal Credentials and Manipulate MFA",
-      "link": "https://cybersecuritynews.com/hackers-use-teams-steal-credentials/",
-      "description": "Iranian APT group MuddyWater deployed Chaos ransomware as a \u0026#8220;false flag\u0026#8221; in a sophisticated hybrid espionage campaign targeting Western organizations, bypassing encryption in favor of d...",
-      "pub_date": "Wed, 06 May 2026 15:47:05 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-Teams-Steal-Credentials.webp"
-    },
-    {
-      "title": "New Fanwei E-cology10 Server Vulnerability Could Let Attackers Hijack Sessions and Steal Credentials",
-      "link": "https://cybersecuritynews.com/new-fanwei-e-cology10-server-vulnerability/",
-      "description": "A critical security flaw has been discovered in Fanwei E-cology10, a widely used enterprise collaboration platform built for medium and large organizations. The vulnerability, tracked as QVD-2026-1...",
-      "pub_date": "Wed, 06 May 2026 15:45:54 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Fanwei-E-cology10-Server-Vulnerability-Could-Let-Attackers-Hijack-Sessions-and-Steal-Credentials.webp"
-    },
-    {
-      "title": "Salesforce Marketing Cloud Vulnerability Opened Door to Email Data Exposure",
-      "link": "https://cybersecuritynews.com/salesforce-marketing-cloud-vulnerability/",
-      "description": "A significant set of security vulnerabilities in Salesforce Marketing Cloud (SFMC) could have allowed attackers to read and expose private email data belonging to millions of users across hundreds ...",
-      "pub_date": "Wed, 06 May 2026 14:57:44 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Salesforce-Marketing-Cloud-Vulnerability-Opened-Door-to-Email-Data-Exposure.webp"
     },
     {
       "title": "Why ransomware attacks succeed even when backups exist",
