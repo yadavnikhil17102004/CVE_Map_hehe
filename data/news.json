@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-05-08T13:13:37Z",
+  "last_updated": "2026-05-08T15:14:55Z",
   "articles": [
+    {
+      "title": "New ZiChatBot Malware Uses Zulip REST APIs as Command and Control Server",
+      "link": "https://cybersecuritynews.com/new-zichatbot-malware-uses-zulip-rest-apis/",
+      "description": "A newly discovered malware called ZiChatBot has been found quietly using the REST APIs of a legitimate team chat application called Zulip to receive and carry out commands from its operators. This ...",
+      "pub_date": "Fri, 08 May 2026 14:06:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-ZiChatBot-Malware-Uses-Zulip-REST-APIs-as-Command-and-Control-Server.webp"
+    },
+    {
+      "title": "Why More Analysts Won’t Solve Your SOC’s Alert Problem",
+      "link": "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
+      "description": "Attackers move faster than overwhelmed SOC teams can realistically investigate alerts. Prophet Security breaks down how AI can help analysts investigate alerts faster and focus on real threats. [...]",
+      "pub_date": "Fri, 08 May 2026 10:02:12 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
+      "link": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
+      "description": "The hardest part of cybersecurity isn't the technology, it’s the people. Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patien...",
+      "pub_date": "Fri, 08 May 2026 19:31:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz_1BMhUux9JB2X26ToAMnW32GttimEIwRX1fG4_LrlZjedjkjzps_Ad-eiSX-2LlJ1FFIw3g1kvH1kKrgwETmSgTk8wal5a7AJQNIY2IH3317GaUYEj-_3tko2hxjKBc1ms0WQ7UjHHTst0aKtjFz1jOPasyD8x5U_GQW4KdhKxDPHhlmYVOY9TM6vLy_/s1600/zz-webinar.jpg"
+    },
+    {
+      "title": "Hackers Leveraged Hugging Face and ClawHub With 575+ Malicious Skills to Deploy Malware",
+      "link": "https://cybersecuritynews.com/hackers-leverage-hugging-face-and-clawhub/",
+      "description": "An active malware distribution campaign abusing two prominent AI platforms Hugging Face and ClawHub to deliver trojans, cryptominers, and infostealers disguised as legitimate AI tools and agent ext...",
+      "pub_date": "Fri, 08 May 2026 13:53:18 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Leverage-Hugging-Face-and-ClawHubs.webp"
+    },
+    {
+      "title": "Fake Moustache Bypasses Age Verification System Raising Online Safety Act Concerns",
+      "link": "https://cybersecuritynews.com/fake-moustache-bypasses-age-verification-system/",
+      "description": "A 12-year-old boy grabbed an eyebrow pencil, drew a moustache on his face, held it up to his screen, and was verified as 15 years old. That single moment, shared by a parent in a UK survey, says mo...",
+      "pub_date": "Fri, 08 May 2026 13:37:45 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Fake-Moustache-Bypasses-Age-Verification-System-Raising-Online-Safety-Act-Concerns.webp"
+    },
+    {
+      "title": "Trellix source code breach claimed by RansomHouse hackers",
+      "link": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
+      "description": "The attack on the Trellix source code repository disclosed last week has been claimed by the RansomHouse threat group, which leaked a small set of images as proof of the intrusion. [...]",
+      "pub_date": "Fri, 08 May 2026 09:23:23 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New Infostealer Campaign Uses GitHub Releases for Payload Hosting and Evasion",
+      "link": "https://cybersecuritynews.com/new-infostealer-campaign-uses-github-releases/",
+      "description": "A newly discovered cyberespionage campaign is using a deceptively simple tactic to slip past security defenses: disguising malware as a humanitarian aid request while hiding the real payload on Git...",
+      "pub_date": "Fri, 08 May 2026 13:23:13 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Infostealer-Campaign-Uses-GitHub-Releases-for-Payload-Hosting-and-Evasion.webp"
+    },
     {
       "title": "Hackers Abuse Signed Logitech Installer to Deploy TCLBANKER Banking Trojan",
       "link": "https://cybersecuritynews.com/hackers-abuse-signed-logitech-installer-tclbanker/",
@@ -100,18 +156,10 @@
     {
       "title": "New Linux 'Dirty Frag' zero-day gives root on all major distros",
       "link": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
-      "description": "A new Linux zero-day vulnerability, named Dirty Frag, allows local attackers to gain root privileges on most major Linux distributions with a single command. [...]",
+      "description": "A new Linux zero-day exploit, named Dirty Frag, allows local attackers to gain root privileges on most major Linux distributions with a single command. [...]",
       "pub_date": "Fri, 08 May 2026 03:45:24 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Critical Spring Vulnerabilities Expose Arbitrary Files and GCP Secrets",
-      "link": "https://cybersecuritynews.com/spring-vulnerabilities-expose-arbitrary-file/",
-      "description": "Spring Cloud Config provides crucial server-side and client-side support for externalized configuration in distributed systems. Recently, the Spring development team disclosed four security vulnera...",
-      "pub_date": "Fri, 08 May 2026 07:35:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Spring-Vulnerabilities-Expose-Arbitrary-Files-and-GCP-Secrets.webp"
     },
     {
       "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
@@ -120,22 +168,6 @@
       "pub_date": "Fri, 08 May 2026 10:42:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnVSDBWt4hKZ-DOrZqHWPVH0JxrpcUeup9hpMpoH5Ny8bpuJ6Lviv58aH0aK2S2IJvAugaYRhM8P9wUW3tbVCu2kFMQbG5F16kI3PvS6gmR2Px8qOxcat-tK-UHV9oSDsAv9MHjvrduyndsqhicJxX1GroDTBo8it4ANI2wKIUVauhdxbgrNBQHhdgq2SW/s1600/linux.gif"
-    },
-    {
-      "title": "Dirty Frag Linux Vulnerability Let Attackers Gain Root Privileges – PoC Released",
-      "link": "https://cybersecuritynews.com/dirty-frag-linux-vulnerability/",
-      "description": "Dirty Frag is a newly disclosed, CVE-pending Linux kernel local privilege escalation (LPE) vulnerability that chains two separate page-cache write flaws, the xfrm-ESP Page-Cache Write and the RxRP...",
-      "pub_date": "Fri, 08 May 2026 04:06:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Dirty-Frag-Linux-Vulnerability.webp"
-    },
-    {
-      "title": "Multiple Critical Vulnerabilities Patched in Next.js and React Server Components",
-      "link": "https://cybersecuritynews.com/next-js-react-server-vulnerabilities/",
-      "description": "Vercel has released an extensive set of security advisories for Next.js, addressing more than a dozen vulnerabilities, including denial-of-service, middleware bypass, server-side request forgery, a...",
-      "pub_date": "Fri, 08 May 2026 03:01:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Next.js-React-Server-Vulnerabilities.webp"
     },
     {
       "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
@@ -186,14 +218,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2N74T5rZvfRcHqUhwtyI3hbxAAQnB-RQQqpiGSIJqdplaQaZcjvqLR80d3pIjwJyGtAO5V0Ji6_3w4V4Ww901x4aSGY_Id3lzqXNdGUMbprz80zXoKzHVoIBqyhVBU_LvIMyJHV5MHaMWvZuWgREFmqG4jOdBLpW4gBtgKCrnfRS4mIXemDQ9U_fRERQf/s1600/clouds.jpg"
     },
     {
-      "title": "New Ivanti EPMM 0-Day Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/ivanti-epmm-0-day-exploited/",
-      "description": "Ivanti has issued a critical security advisory for its Endpoint Manager Mobile (EPMM) product, disclosing multiple actively exploited vulnerabilities, including CVE-2026-6973, and urging all on-pre...",
-      "pub_date": "Thu, 07 May 2026 16:29:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Ivanti-EPMM-0-Day-Vulnerability-Exploited-1.webp"
-    },
-    {
       "title": "Ivanti warns of new EPMM flaw exploited in zero-day attacks",
       "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
       "description": "Ivanti warned customers today to patch a high-severity remote code execution vulnerability in Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]",
@@ -208,14 +232,6 @@
       "pub_date": "Thu, 07 May 2026 10:01:11 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
-      "link": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
-      "description": "The hardest part of cybersecurity isn't the technology, it’s the people. Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patien...",
-      "pub_date": "Thu, 07 May 2026 19:20:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz_1BMhUux9JB2X26ToAMnW32GttimEIwRX1fG4_LrlZjedjkjzps_Ad-eiSX-2LlJ1FFIw3g1kvH1kKrgwETmSgTk8wal5a7AJQNIY2IH3317GaUYEj-_3tko2hxjKBc1ms0WQ7UjHHTst0aKtjFz1jOPasyD8x5U_GQW4KdhKxDPHhlmYVOY9TM6vLy_/s1600/zz-webinar.jpg"
     },
     {
       "title": "Americans sentenced for running 'laptop farms' for North Korea",
@@ -258,28 +274,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYNaH2vOiD-OgAVnO0nGCSr8j4nnvHD2n7RieJD2mDMlPev_fKoBafjhvob13LV4pOFhgMuZd6ex8zyQnCM1AyVfl6fuRG9Max2F76Ku9rWbieBvF0AtGlQd0nXlIwHDKvq5H4BJn3hGCRfE86fHs5SL05RywOADNDC9J5lG9DF8goavgxWzAh7a7isNMB/s1600/threatsday-1.jpg"
     },
     {
-      "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
-      "link": "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
-      "description": "Palo Alto Networks warned customers that suspected state-sponsored hackers have been exploiting a critical-severity PAN-OS firewall zero-day vulnerability for nearly a month. [...]",
-      "pub_date": "Thu, 07 May 2026 06:57:59 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Day Zero Readiness: The Operational Gaps That Break Incident Response",
       "link": "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
       "description": "Having an incident response retainer, or even a pre-approved external incident response firm, is not the same as being ready for an incident. A retainer means someone will answer the phone. Operati...",
       "pub_date": "Thu, 07 May 2026 16:24:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdEBtnOnAfYEV-De3NPPeeTCPWK_gSqYM7OZ0ioRJl84OvS49Fp-GJucJfc-ADDOhyTe11dUoYbkIlA1gYW5b8E6KxYIG71gNa0pU4tmqiEyfmxAEyI1A3n2ZOzfePdcm5WdqHVnFlrSwzgNlOmWKMUOHTqUjS_qUhHBEI9CpMJ_OZrUgn-yaHjTDaXJ0/s1600/main.jpg"
-    },
-    {
-      "title": "Fake Claude AI website delivers new 'Beagle' Windows malware",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/",
-      "description": "A fake version for the Claude AI website offers a malicious Claude-Pro Relay download that pushes a previously undocumented backdoor for Windows named Beagle. [...]",
-      "pub_date": "Thu, 07 May 2026 06:02:35 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux",
