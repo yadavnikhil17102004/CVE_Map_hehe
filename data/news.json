@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-05-08T07:18:51Z",
+  "last_updated": "2026-05-08T09:08:05Z",
   "articles": [
+    {
+      "title": "Former govt contractor convicted for wiping dozens of federal databases",
+      "link": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
+      "description": "A 34-year-old Virginia man was found guilty of conspiring to destroy dozens of government databases after getting fired from his job as a federal contractor. [...]",
+      "pub_date": "Fri, 08 May 2026 04:45:04 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Mozilla Patches 423 Firefox 0-Day Vulnerabilities with Claude Mythos and Other AI Models",
+      "link": "https://cybersecuritynews.com/firefox-423-0-day-vulnerabilities/",
+      "description": "Mozilla has fixed a total of 423 Firefox security bugs in April 2026 alone, a figure nearly 20 times higher than its monthly average of about 21 bugs throughout 2025, driven by a groundbreaking age...",
+      "pub_date": "Fri, 08 May 2026 08:08:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Firefox-0-Day-Vulnerabilities.webp"
+    },
+    {
+      "title": "New Linux 'Dirty Frag' zero-day gives root on all major distros",
+      "link": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
+      "description": "A new Linux zero-day vulnerability, named Dirty Frag, allows local attackers to gain root privileges on most major Linux distributions with a single command. [...]",
+      "pub_date": "Fri, 08 May 2026 03:45:24 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Critical Spring Vulnerabilities Expose Arbitrary Files and GCP Secrets",
+      "link": "https://cybersecuritynews.com/spring-vulnerabilities-expose-arbitrary-file/",
+      "description": "Spring Cloud Config provides crucial server-side and client-side support for externalized configuration in distributed systems. Recently, the Spring development team disclosed four security vulnera...",
+      "pub_date": "Fri, 08 May 2026 07:35:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Spring-Vulnerabilities-Expose-Arbitrary-Files-and-GCP-Secrets.webp"
+    },
     {
       "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
       "link": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
@@ -178,22 +210,6 @@
       "image_url": ""
     },
     {
-      "title": "WatchGuard Agent Vulnerabilities Let Attackers Grant Full SYSTEM Privileges on Windows",
-      "link": "https://cybersecuritynews.com/watchguard-agent-vulnerabilities-windows/",
-      "description": "WatchGuard has released urgent security updates to address multiple high-severity vulnerabilities affecting the WatchGuard Agent on Windows. The most critical of these flaws allows authenticated lo...",
-      "pub_date": "Thu, 07 May 2026 11:49:12 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/WatchGuard-Agent-Vulnerabilities-Let-Attackers-Grant-Full-SYSTEM-Privileges-on-Windows.webp"
-    },
-    {
-      "title": "Critical Redis Vulnerabilities Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/redis-vulnerabilities-enables-rce/",
-      "description": "Five dangerous vulnerabilities in Redis expose Redis Cloud, Redis Software, and all open-source community editions to potential remote code execution, giving authenticated attackers a direct path t...",
-      "pub_date": "Thu, 07 May 2026 11:45:38 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Redis-Vulnerabilities-Enables-Remote-Code-Execution-Attacks-.webp"
-    },
-    {
       "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories",
       "link": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
       "description": "Bad week. Turns out the easiest way to get hacked in 2026 is still the same old garbage: shady packages, fake apps, forgotten DNS junk, scam ads, and stolen logins getting dumped into Discord chann...",
@@ -262,22 +278,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
       "description": "A critical vulnerability in the popular Node.js sandboxing library vm2 allows escaping the sandbox and executing arbitrary code on the host system. [...]",
       "pub_date": "Wed, 06 May 2026 14:38:38 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "New Cisco DoS flaw requires manual reboot to revive devices",
-      "link": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
-      "description": "Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]",
-      "pub_date": "Wed, 06 May 2026 14:06:21 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "DAEMON Tools devs confirm breach, release malware-free version",
-      "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
-      "description": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]",
-      "pub_date": "Wed, 06 May 2026 12:43:30 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
