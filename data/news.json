@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-08T05:23:51Z",
+  "last_updated": "2026-05-08T07:18:51Z",
   "articles": [
+    {
+      "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
+      "link": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
+      "description": "Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel. Dubbed Dirty Frag, it has been described as a successor to Copy Fail (CVE-2026...",
+      "pub_date": "Fri, 08 May 2026 10:42:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnVSDBWt4hKZ-DOrZqHWPVH0JxrpcUeup9hpMpoH5Ny8bpuJ6Lviv58aH0aK2S2IJvAugaYRhM8P9wUW3tbVCu2kFMQbG5F16kI3PvS6gmR2Px8qOxcat-tK-UHV9oSDsAv9MHjvrduyndsqhicJxX1GroDTBo8it4ANI2wKIUVauhdxbgrNBQHhdgq2SW/s1600/linux.gif"
+    },
     {
       "title": "Dirty Frag Linux Vulnerability Let Attackers Gain Root Privileges – PoC Released",
       "link": "https://cybersecuritynews.com/dirty-frag-linux-vulnerability/",
@@ -312,14 +320,6 @@
       "pub_date": "Wed, 06 May 2026 14:04:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGxYFVfOUbXRWanB_1qyRHBYCgWirEtqd3EO06BrIjnLqrTEOoTnXclKQsujA4YCVfI8Q5IWuriVAlckls65vvV2Am5PCEB1s_HHoFxpA779oT1qbnNB0Q8dqLU3GGbwINtDDmp8Ge3bdxQJWab3toekaGDgi1FFJ73uNysl8wEnXfgk6W88b1qSJcu2gX/s1600/link-to-windows.jpg"
-    },
-    {
-      "title": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
-      "link": "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html",
-      "description": "Palo Alto Networks has released an advisory warning that a critical buffer overflow vulnerability in its PAN-OS software has been exploited in the wild. The vulnerability, tracked as CVE-2026-0300,...",
-      "pub_date": "Wed, 06 May 2026 11:44:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF11tAg5Rdf8st9TeSlgPkW_Rn1I3Xi4Xl6wJjNMThFLB0oYYl2kKURYxYxgtnEphAJkeHzRxVrm8LX_7i8RDXgdLQhq4HM5ecZCrv3biRciuLM2JufgdxHqJR3eNTcTsIBWJBAz1Nv8Gac1fhW0vZ8Kgb7RFOC7_9zkL7Uy_SCrFOKps1scenY4c_LPSH/s1600/paloalto.jpg"
     },
     {
       "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
