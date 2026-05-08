@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-05-08T09:08:05Z",
+  "last_updated": "2026-05-08T11:04:55Z",
   "articles": [
+    {
+      "title": "Zara data breach exposed personal information of 197,000 people",
+      "link": "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
+      "description": "Hackers who gained access to the databases of Spanish fast-fashion retailer Zara stole data belonging to more than 197,000 customers, according to data breach notification service Have I Been Pwned...",
+      "pub_date": "Fri, 08 May 2026 06:42:22 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk",
+      "link": "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
+      "description": "The dark secret of enterprise security operations is that defenders have quietly institutionalized the practice of not looking. This is not just anecdotal, but rather backed by a recent report inve...",
+      "pub_date": "Fri, 08 May 2026 16:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUaPw5V89Ez9z5x8eFLFOhwPphGqXDQVGfd2sI-pX9Q1XTcpYlWEhFiZ6o12fzAyvtCFDQ0zs4AFlHl4HJNnjWH8hUXM9r_-oBl7YMEnU1F41Ho7DL23NJbgG4M3eoqF6CTZWqFtFcw0gOB8QfkCPW1_xQ-HwmvWr3GMzEeRFbC8SLgG5LsdnopTAHDOs/s1600/ai-soc.jpg"
+    },
     {
       "title": "Former govt contractor convicted for wiping dozens of federal databases",
       "link": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
@@ -10,12 +26,12 @@
       "image_url": ""
     },
     {
-      "title": "Mozilla Patches 423 Firefox 0-Day Vulnerabilities with Claude Mythos and Other AI Models",
-      "link": "https://cybersecuritynews.com/firefox-423-0-day-vulnerabilities/",
-      "description": "Mozilla has fixed a total of 423 Firefox security bugs in April 2026 alone, a figure nearly 20 times higher than its monthly average of about 21 bugs throughout 2025, driven by a groundbreaking age...",
-      "pub_date": "Fri, 08 May 2026 08:08:02 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Firefox-0-Day-Vulnerabilities.webp"
+      "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
+      "link": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
+      "description": "Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called \"darkworm.\"...",
+      "pub_date": "Fri, 08 May 2026 14:11:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixNgyNI9ObZi3Il87CVXhEWyWgcK-O1IKhQKRs7NPrNVqTMBZRw7AZpmbk5RdsPxNPmO9IyXaq6QzYBN691HBgfE8HpwnyJuE4-vaCAwHPpb6UfeSRcrMI-GRjcX53cELs31s7ps6YkGx5bAAB67w4m9GQ7ZVWjSdnaPOFczjHlsS3967ZvBh-4ZvTBWEJ/s1600/linux-pam.jpg"
     },
     {
       "title": "New Linux 'Dirty Frag' zero-day gives root on all major distros",
@@ -26,36 +42,12 @@
       "image_url": ""
     },
     {
-      "title": "Critical Spring Vulnerabilities Expose Arbitrary Files and GCP Secrets",
-      "link": "https://cybersecuritynews.com/spring-vulnerabilities-expose-arbitrary-file/",
-      "description": "Spring Cloud Config provides crucial server-side and client-side support for externalized configuration in distributed systems. Recently, the Spring development team disclosed four security vulnera...",
-      "pub_date": "Fri, 08 May 2026 07:35:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Spring-Vulnerabilities-Expose-Arbitrary-Files-and-GCP-Secrets.webp"
-    },
-    {
       "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
       "link": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
       "description": "Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel. Dubbed Dirty Frag, it has been described as a successor to Copy Fail (CVE-2026...",
       "pub_date": "Fri, 08 May 2026 10:42:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnVSDBWt4hKZ-DOrZqHWPVH0JxrpcUeup9hpMpoH5Ny8bpuJ6Lviv58aH0aK2S2IJvAugaYRhM8P9wUW3tbVCu2kFMQbG5F16kI3PvS6gmR2Px8qOxcat-tK-UHV9oSDsAv9MHjvrduyndsqhicJxX1GroDTBo8it4ANI2wKIUVauhdxbgrNBQHhdgq2SW/s1600/linux.gif"
-    },
-    {
-      "title": "Dirty Frag Linux Vulnerability Let Attackers Gain Root Privileges – PoC Released",
-      "link": "https://cybersecuritynews.com/dirty-frag-linux-vulnerability/",
-      "description": "Dirty Frag is a newly disclosed, CVE-pending Linux kernel local privilege escalation (LPE) vulnerability that chains two separate page-cache write flaws, the xfrm-ESP Page-Cache Write and the RxRP...",
-      "pub_date": "Fri, 08 May 2026 04:06:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Dirty-Frag-Linux-Vulnerability.webp"
-    },
-    {
-      "title": "Multiple Critical Vulnerabilities Patched in Next.js and React Server Components",
-      "link": "https://cybersecuritynews.com/next-js-react-server-vulnerabilities/",
-      "description": "Vercel has released an extensive set of security advisories for Next.js, addressing more than a dozen vulnerabilities, including denial-of-service, middleware bypass, server-side request forgery, a...",
-      "pub_date": "Fri, 08 May 2026 03:01:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Next.js-React-Server-Vulnerabilities.webp"
     },
     {
       "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
@@ -106,30 +98,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2N74T5rZvfRcHqUhwtyI3hbxAAQnB-RQQqpiGSIJqdplaQaZcjvqLR80d3pIjwJyGtAO5V0Ji6_3w4V4Ww901x4aSGY_Id3lzqXNdGUMbprz80zXoKzHVoIBqyhVBU_LvIMyJHV5MHaMWvZuWgREFmqG4jOdBLpW4gBtgKCrnfRS4mIXemDQ9U_fRERQf/s1600/clouds.jpg"
     },
     {
-      "title": "New Ivanti EPMM 0-Day Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/ivanti-epmm-0-day-exploited/",
-      "description": "Ivanti has issued a critical security advisory for its Endpoint Manager Mobile (EPMM) product, disclosing multiple actively exploited vulnerabilities, including CVE-2026-6973, and urging all on-pre...",
-      "pub_date": "Thu, 07 May 2026 16:29:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Ivanti-EPMM-0-Day-Vulnerability-Exploited-1.webp"
-    },
-    {
-      "title": "CISA Warns of Palo Alto PAN-OS Vulnerability Exploited to Gain Root Access",
-      "link": "https://cybersecuritynews.com/palo-alto-pan-os-vulnerability-exploited/",
-      "description": "CISA has issued an urgent warning regarding a critical vulnerability in Palo Alto Networks PAN-OS. Tracked as CVE-2026-0300, this severe security flaw was recently added to CISA\u0026#8217;s Known Explo...",
-      "pub_date": "Thu, 07 May 2026 15:59:54 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CISA-Warns-of-Palo-Alto-PAN-OS-Vulnerability-Exploited-to-Gain-Root-Access-.webp"
-    },
-    {
-      "title": "New Cisco Network Vulnerability Let Remote Attacker Cause DoS Attack",
-      "link": "https://cybersecuritynews.com/cisco-network-vulnerability-dos-attack/",
-      "description": "Cisco has issued a critical security advisory regarding a high-severity vulnerability impacting its Crosswork Network Controller (CNC) and Network Services Orchestrator (NSO). Tracked formally as C...",
-      "pub_date": "Thu, 07 May 2026 15:44:08 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Cisco-Network-Vulnerability-Let-remote-attacker-cause-DoS-Attack.webp"
-    },
-    {
       "title": "Ivanti warns of new EPMM flaw exploited in zero-day attacks",
       "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
       "description": "Ivanti warned customers today to patch a high-severity remote code execution vulnerability in Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]",
@@ -168,30 +136,6 @@
       "pub_date": "Thu, 07 May 2026 19:04:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-FbTXMB7fJu_4ZxIlvKU2wHShSiMZaCQBah-p33256FjWEUsO0kd4s-LXOT_YQoS39Mj5f7nhj-ERtNF2EPNU9WG91ZWJXpl4cwYFoWz8npaMpVWzAhYjVVB-JnPyoycvPmik7Y5IsihIDXp7_mHvh4DYUz9vqkkVRYgylDqKeezcDEwqRJNs4F_2scA/s1600/paloalto-rce.jpg"
-    },
-    {
-      "title": "Hackers Using Fake Claude AI Installer Pages to Trick Users Into Running Malware on Their Systems",
-      "link": "https://cybersecuritynews.com/hackers-using-fake-claude-ai-installer-pages/",
-      "description": "Hackers are using convincing fake pages for Claude AI to trick users into running malware on their own systems. The campaign, known as \u0026#8220;InstallFix\u0026#8221; or the Fake Claude Installer threat, ...",
-      "pub_date": "Thu, 07 May 2026 13:00:07 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Using-Fake-Claude-AI-Installer-Pages-to-Trick-Users-Into-Running-Malware-on-Their-Systems.webp"
-    },
-    {
-      "title": "Scammers Use Short-Lived VoIP Numbers and Reuse Windows to Defeat Reputation-Based Blocking",
-      "link": "https://cybersecuritynews.com/scammers-use-short-lived-voip-numbers-and-reuse-windows/",
-      "description": "Phone-based scams are evolving faster than most security filters can keep up with. Attackers are now leaning heavily on Voice over Internet Protocol (VoIP) numbers that disappear before detection s...",
-      "pub_date": "Thu, 07 May 2026 12:53:52 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Scammers-Use-Short-Lived-VoIP-Numbers-and-Reuse-Windows-to-Defeat-Reputation-Based-Blocking.webp"
-    },
-    {
-      "title": "UAT-8302 Uses Custom Malware and Open-Source Tools to Steal Data From Government Agencies",
-      "link": "https://cybersecuritynews.com/uat-8302-uses-custom-malware-and-open-source-tools/",
-      "description": "A sophisticated China-linked hacker group known as UAT-8302 has been quietly targeting government agencies across South America and southeastern Europe, using a mix of custom malware and widely ava...",
-      "pub_date": "Thu, 07 May 2026 12:46:02 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/UAT-8302-Uses-Custom-Malware-and-Open-Source-Tools-to-Steal-Data-From-Government-Agencies.webp"
     },
     {
       "title": "Crypto gang member gets 6.5 years for role in $230 million heist",
@@ -274,14 +218,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHPb4dDONnDMbu5rdNKex39FCs_4elspTEwE3dJbDsEBn1OdHrNS_0oI2V2mKCG4PjUGsBy5T4ZCec8kSdK2hTXkaq3fIIDX5XLBKfU9X4dNamC0zGfgcZ5dxPy1PNGKtAIye5IpODYmyzgMYBSRfyUcAnLhOBsHSitLujoCQABiz9b2KfYnzUhPN8rqPK/s1600/botnet-malware.jpg"
     },
     {
-      "title": "Critical vm2 sandbox bug lets attackers execute code on hosts",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
-      "description": "A critical vulnerability in the popular Node.js sandboxing library vm2 allows escaping the sandbox and executing arbitrary code on the host system. [...]",
-      "pub_date": "Wed, 06 May 2026 14:38:38 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
       "link": "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
       "description": "The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a \"false fl...",
@@ -304,22 +240,6 @@
       "pub_date": "Wed, 06 May 2026 16:27:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb87wroQ6p8nQAYNIPc9sSFlIxMecj9qcrm9KPOaAt0-DTof7kW6e6FCc1dmoBFrtyFcZQOhyphenhyphenupMl7E3GAv-6C-5OM3U3NkEo7fKnYw-SWnwzI-yDfsY4J5kM8jgqfIqoSxHp4GJpdjK9kosjlzftCwYxSsva4jnhPHH92FT5rppUXnxCnINf05kPSzb5G/s1600/Orchid.gif"
-    },
-    {
-      "title": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
-      "link": "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
-      "description": "Google has announced expanded Binary Transparency for Android as a way to safeguard the ecosystem from supply chain attacks. \"This new public ledger ensures the Google apps on your device are exact...",
-      "pub_date": "Wed, 06 May 2026 14:43:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3jZdmrzsI_G2u8N5XuvPgzGCHzkTGTIPHZg7O6QMeciCwLNFKkNmxL0c6lZkA06Z0lN2JEpama8zVQuSL-nLLFOqhFyU6AVuYug-he692ziNQNCWxxJKE7YHB28bVu0owc6CiMS19lRL9sOc6yg6GSs9XmjB1PW26cLqISDSFwiE2eXHjQyAhk9T9gOTe/s1600/android-app.jpg"
-    },
-    {
-      "title": "Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs",
-      "link": "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
-      "description": "Cybersecurity researchers have disclosed details of an intrusion that involved the use of a CloudZ remote access tool (RAT) and a previous undocumented plugin dubbed Pheno with the aim of facilitat...",
-      "pub_date": "Wed, 06 May 2026 14:04:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGxYFVfOUbXRWanB_1qyRHBYCgWirEtqd3EO06BrIjnLqrTEOoTnXclKQsujA4YCVfI8Q5IWuriVAlckls65vvV2Am5PCEB1s_HHoFxpA779oT1qbnNB0Q8dqLU3GGbwINtDDmp8Ge3bdxQJWab3toekaGDgi1FFJ73uNysl8wEnXfgk6W88b1qSJcu2gX/s1600/link-to-windows.jpg"
     },
     {
       "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
