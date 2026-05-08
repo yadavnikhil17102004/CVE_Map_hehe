@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-05-08T02:14:17Z",
+  "last_updated": "2026-05-08T05:23:51Z",
   "articles": [
+    {
+      "title": "Dirty Frag Linux Vulnerability Let Attackers Gain Root Privileges – PoC Released",
+      "link": "https://cybersecuritynews.com/dirty-frag-linux-vulnerability/",
+      "description": "Dirty Frag is a newly disclosed, CVE-pending Linux kernel local privilege escalation (LPE) vulnerability that chains two separate page-cache write flaws, the xfrm-ESP Page-Cache Write and the RxRP...",
+      "pub_date": "Fri, 08 May 2026 04:06:19 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Dirty-Frag-Linux-Vulnerability.webp"
+    },
+    {
+      "title": "Multiple Critical Vulnerabilities Patched in Next.js and React Server Components",
+      "link": "https://cybersecuritynews.com/next-js-react-server-vulnerabilities/",
+      "description": "Vercel has released an extensive set of security advisories for Next.js, addressing more than a dozen vulnerabilities, including denial-of-service, middleware bypass, server-side request forgery, a...",
+      "pub_date": "Fri, 08 May 2026 03:01:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Next.js-React-Server-Vulnerabilities.webp"
+    },
     {
       "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
       "link": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
@@ -170,28 +186,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Redis-Vulnerabilities-Enables-Remote-Code-Execution-Attacks-.webp"
     },
     {
-      "title": "Palo Alto Networks Firewall Zero-Day RCE Vulnerability Exploited in the Wild Since April",
-      "link": "https://cybersecuritynews.com/palo-alto-firewall-0-day-exploited/",
-      "description": "A critical zero-day vulnerability in Palo Alto Networks PAN-OS software has been actively exploited by a likely state-sponsored threat actor since at least April 2026, the company revealed in a sec...",
-      "pub_date": "Thu, 07 May 2026 11:38:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Palo-Alto-Firewall-0-day-Exploited.webp"
-    },
-    {
       "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories",
       "link": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
       "description": "Bad week. Turns out the easiest way to get hacked in 2026 is still the same old garbage: shady packages, fake apps, forgotten DNS junk, scam ads, and stolen logins getting dumped into Discord chann...",
       "pub_date": "Thu, 07 May 2026 17:03:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYNaH2vOiD-OgAVnO0nGCSr8j4nnvHD2n7RieJD2mDMlPev_fKoBafjhvob13LV4pOFhgMuZd6ex8zyQnCM1AyVfl6fuRG9Max2F76Ku9rWbieBvF0AtGlQd0nXlIwHDKvq5H4BJn3hGCRfE86fHs5SL05RywOADNDC9J5lG9DF8goavgxWzAh7a7isNMB/s1600/threatsday-1.jpg"
-    },
-    {
-      "title": "Hackers Abuse Google Ads to Steal Users GoDaddy ManageWP login Credentials",
-      "link": "https://cybersecuritynews.com/hackers-abuse-google-ads/",
-      "description": "Hackers are using fake Google ads to steal login credentials from ManageWP users, GoDaddy\u0026#8217;s popular platform for managing WordPress websites from a single dashboard. The campaign, which resea...",
-      "pub_date": "Thu, 07 May 2026 11:13:16 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-Google-Ads-to-Steal-Users-GoDaddy-ManageWP-login-Credentials.webp"
     },
     {
       "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
