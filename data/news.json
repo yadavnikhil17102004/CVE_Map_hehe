@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-10T11:43:04Z",
+  "last_updated": "2026-05-10T12:59:37Z",
   "articles": [
+    {
+      "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
+      "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+      "description": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memor...",
+      "pub_date": "Sun, 10 May 2026 18:11:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj92eUjjTTMJPizvUJGwq7Ych7nrXHwGRNt3hS9yjNGRJk5d3pdIKjeZhQDVuFp0DnKjP4qoieGWFjswm7nHDLBaxWC3DxFIfLfRjMSEXd0Ta04vcTrbCpS9PEXebUUbMBxBt0VOb-PKVk-7Cq0FjuMXl4VtKneb5a3ujCo872goPN22GBFFhReJtWsQJLK/s1600/oll.jpg"
+    },
     {
       "title": "New cPanel and WHM Flaws Enable Code Execution, DoS Attacks",
       "link": "https://cybersecuritynews.com/cpanel-and-whm-flaws/",
@@ -312,14 +320,6 @@
       "pub_date": "Thu, 07 May 2026 14:50:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGun7lMQJXWH3IQiR3ml3RMzAbb1QJcWEtgqDrKTjPbvBhTsDPaCWmI1vTAnevTVPx0lg4xvPkOcpx_86_Znxdgpj-hynQXGEHqf94dvYwOy5VqqnqBWEWrJ3MEkQcLVBVt00Y8pUqVWj4W-hYYepmDmtX9PRQh87qZC7XbJCwdEaLsBY-vTsbkS0yqikd/s1600/pypi.jpg"
-    },
-    {
-      "title": "vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution",
-      "link": "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html",
-      "description": "A dozen critical security vulnerabilities have been disclosed in the vm2 Node.js library that could be exploited by bad actors to break out of the sandbox and execute arbitrary code on susceptible ...",
-      "pub_date": "Thu, 07 May 2026 09:45:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGJE3Tcr425AIfztOUrdhPUiEkVY8bMrHMmO-5FZ2N3cLaW9ErdLJJS3KwjzYNvLAIcVT7xpSw8wswiDIPenyZa_ki3ZrOHJFY-cXKHPu0EGnfCGXxkEAlvE6tLogT8T_lRolQ-qI-GFqlgwqpbLD1HfmDo4HkJbV9XNDh9rcGbM3Nc8ruu5I_47DBmzsy/s1600/vm2.jpg"
     },
     {
       "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
