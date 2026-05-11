@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-11T21:59:09Z",
+  "last_updated": "2026-05-11T22:56:28Z",
   "articles": [
+    {
+      "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
+      "link": "https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/",
+      "description": "California Attorney General Rob Bonta announced a proposed $12.75 million settlement agreement with General Motors (GM) over allegations that the company violated the California Consumer Privacy Ac...",
+      "pub_date": "Mon, 11 May 2026 18:40:34 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Official CheckMarx Jenkins package compromised with infostealer",
+      "link": "https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/",
+      "description": "Checkmarx warned over the weekend that a rogue version of its Jenkins Application Security Testing (AST) plugin had been published on the Jenkins Marketplace. [...]",
+      "pub_date": "Mon, 11 May 2026 18:03:06 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New GhostLock tool abuses Windows API to block file access",
+      "link": "https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/",
+      "description": "A security researcher has released a proof-of-concept tool named GhostLock that demonstrates how a legitimate Windows file API can be abused in attacks to block access to files stored locally or ...",
+      "pub_date": "Mon, 11 May 2026 18:02:00 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack",
       "link": "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
@@ -266,14 +290,6 @@
       "image_url": ""
     },
     {
-      "title": "CISA gives feds four days to patch Ivanti flaw exploited as zero-day",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
-      "description": "CISA has given U.S. federal agencies four days to secure their networks against a high-severity vulnerability in Ivanti Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]",
-      "pub_date": "Fri, 08 May 2026 08:16:32 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
       "link": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
       "description": "A previously undocumented Linux implant codenamed Quasar Linux RAT (QLNX) is targeting developers' systems to establish a silent foothold as well as facilitate a broad range of post-compromise func...",
@@ -282,28 +298,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiholjenZRIykmReErkRiguk5xd9RV4BIEEPM0nT-o3LvMvDkCTLpd3G0NpqDGEFHp-f6QyvGRMip6CBhGlllYVlp9wS3XBVoV6xW47CDka7Ig8S_aotcuNlmAv3SYgS4hJzxjLp2nrV4SzqlTXnQLG_w68Cq0Bf5hiOoV6CaN9QZliRDa-StzsvIkJAdSF/s1600/kube.jpg"
     },
     {
-      "title": "Zara data breach exposed personal information of 197,000 people",
-      "link": "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
-      "description": "Hackers who gained access to the databases of Spanish fast-fashion retailer Zara stole data belonging to more than 197,000 customers, according to data breach notification service Have I Been Pwned...",
-      "pub_date": "Fri, 08 May 2026 06:42:22 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk",
       "link": "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
       "description": "The dark secret of enterprise security operations is that defenders have quietly institutionalized the practice of not looking. This is not just anecdotal, but rather backed by a recent report inve...",
       "pub_date": "Fri, 08 May 2026 16:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUaPw5V89Ez9z5x8eFLFOhwPphGqXDQVGfd2sI-pX9Q1XTcpYlWEhFiZ6o12fzAyvtCFDQ0zs4AFlHl4HJNnjWH8hUXM9r_-oBl7YMEnU1F41Ho7DL23NJbgG4M3eoqF6CTZWqFtFcw0gOB8QfkCPW1_xQ-HwmvWr3GMzEeRFbC8SLgG5LsdnopTAHDOs/s1600/ai-soc.jpg"
-    },
-    {
-      "title": "Former govt contractor convicted for wiping dozens of federal databases",
-      "link": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
-      "description": "A 34-year-old Virginia man was found guilty of conspiring to destroy dozens of government databases after getting fired from his job as a federal contractor. [...]",
-      "pub_date": "Fri, 08 May 2026 04:45:04 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
