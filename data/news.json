@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-05-12T05:59:18Z",
+  "last_updated": "2026-05-12T08:44:19Z",
   "articles": [
+    {
+      "title": "Critical PHP SOAP Extension Vulnerabilities Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/php-soap-extension-vulnerabilities/",
+      "description": "A serious cluster of vulnerabilities has been uncovered in PHP\u0026#8217;s core string processing and ext-soap components, putting numerous web servers at immediate risk of total takeover. While the SO...",
+      "pub_date": "Tue, 12 May 2026 08:34:45 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-PHP-SOAP-Extension-Vulnerability-Enables-Remote-Code-Execution-Attacks.webp"
+    },
+    {
+      "title": "Magecart Hackers Abuse Google Tag Manager to Inject Credit Card Skimmers",
+      "link": "https://cybersecuritynews.com/magecart-hackers-abuse-google-tag-manager/",
+      "description": "Online shoppers have long been targets of digital theft, but a recent wave of attacks has raised the stakes in a troubling new way. Hackers tied to the notorious Magecart group are now hiding credi...",
+      "pub_date": "Tue, 12 May 2026 08:30:09 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Magecart-Hackers-Abuse-Google-Tag-Manager-to-Inject-Credit-Card-Skimmers.webp"
+    },
+    {
+      "title": "TeamPCP Compromised Checkmarx Jenkins AST Plugin Following KICS Supply Chain Attack",
+      "link": "https://cybersecuritynews.com/teampcp-compromised-checkmarx-jenkins-ast-plugin/",
+      "description": "A supply chain attack that started with a relatively obscure open-source scanner has now reached one of the most widely used application security tools in the industry. In May 2026, a malicious ver...",
+      "pub_date": "Tue, 12 May 2026 07:49:27 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/TeamPCP-Compromised-Checkmarx-Jenkins-AST-Plugin-Following-KICS-Supply-Chain-Attack.webp"
+    },
+    {
+      "title": "Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak",
+      "link": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
+      "description": "American educational technology company Instructure, the parent company of Canvas, said it reached an \"agreement\" with a decentralized cybercrime extortion group after it breached its network and t...",
+      "pub_date": "Tue, 12 May 2026 13:07:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq_FVhPeK2Y77CmHxc0azDelzWwpgSb4m8GZPLeJlsr2QvCZU5ChGQK37bJ_2XsGQRaNszalreV1iNyYDzeLt1I8iqafNTvFCPFQ0czKwX3Q6Q23TqdavunyJJsy6X8vxG_jSz__X5BnFZc4AIIqr-kd0XiNcYgx3UnYaahiViFKAywuQ98a7bbtCPnwgo/s1600/ransom-breach.jpg"
+    },
+    {
+      "title": "PoC Exploit Released for Android Zero-Click Vulnerability that Enables Remote Shell Access",
+      "link": "https://cybersecuritynews.com/poc-exploit-android-zero-click-vulnerability/",
+      "description": "In a chilling blow to mobile security, Google\u0026#8217;s May 2026 Android Security Bulletin has unmasked a catastrophic zero-click vulnerability lurking within the core Android System. The CVE-2026-00...",
+      "pub_date": "Tue, 12 May 2026 07:29:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/PoC-Exploit-Released-for-Android-Zero-Click-Vulnerability-that-Enables-Remote-Shell-Access.webp"
+    },
+    {
+      "title": "TrickMo Android Banking Malware Targets Banking, Wallet, and Authenticator Apps",
+      "link": "https://cybersecuritynews.com/trickmo-android-banking-malware/",
+      "description": "A dangerous Android banking malware known as TrickMo has resurfaced with a powerful new variant, and this time it is more stealthy, more capable, and harder to stop than ever before. The threat is ...",
+      "pub_date": "Tue, 12 May 2026 07:14:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/TrickMo-Android-Banking-Malware-Targets-Banking-Wallet-and-Authenticator-Apps.webp"
+    },
+    {
+      "title": "OpenAI Daybreak Automates Vulnerability Detection and Fixing",
+      "link": "https://cybersecuritynews.com/openai-daybreak-fix-vulnerabilities/",
+      "description": "OpenAI has introduced Daybreak, a strategic initiative to change how modern software is built and defended against emerging threats. Moving away from traditional reactive patching, Daybreak focuses...",
+      "pub_date": "Tue, 12 May 2026 06:57:06 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/OpenAI-Daybreak-Automates-Detects-and-Fix-Vulnerabilities-Automatically-1.webp"
+    },
+    {
+      "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
+      "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
+      "description": "OpenAI has launched Daybreak, a new cybersecurity initiative that brings together frontier artificial intelligence (AI) model capabilities and Codex Security to help organizations identify and patc...",
+      "pub_date": "Tue, 12 May 2026 12:25:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLWuBkkGzJLNmcxzqkKdh6dI6X-juFjpMWr-k6VGVTL6G1XZUH1sna06RS5PQY0e4A1VpUjvR-dpWMCx0yQJBdjFyjnoyOek-ysMpU7cgWBkUHChyADdRozT1XHNIvUhU_ibCkggQaGESD7St4aCfyx4SWOfLjUSuoeWiJQmmb1EkimfKA27g_tVHdV-G-/s1600/openai-daybreak.jpg"
+    },
+    {
+      "title": "iOS 26.5 Brings Default End-to-End Encrypted RCS Messaging Between iPhone and Android",
+      "link": "https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html",
+      "description": "Apple on Monday officially released iOS 26.5 with support for end-to-end encryption (E2EE) to Rich Communication Services (RCS) in beta as part of a \"cross-industry effort\" to replace traditional S...",
+      "pub_date": "Tue, 12 May 2026 10:48:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8hWB1CFFk1cxzc9VF7NI2QB-oCzrDMhxoIeajumiDRPkGyEt1wzhH3A3awM8uAZlRb2OXf33nd2O4Ug_IwHlCRNED92zQwFnDvyi9ypYQgQ8gRLCzkA6pHfJ2rfKfl-mTo5ha7KH2Jnwp9S6qIYx_6H4DnUSvVGM6k-yZfPQtKkO0pcGdhC4yVwI8-NEk/s1600/e2ee-rcs.jpg"
+    },
     {
       "title": "New BitUnlocker Downgrade Attack on Windows 11 Allows Access to Encrypted Disks in 5 Minutes",
       "link": "https://cybersecuritynews.com/bitunlocker-downgrade-attack-on-windows-11/",
@@ -74,22 +146,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Popular-Go-Library-fsnotify-Raises-Supply-Chain-Alarms-After-Maintainer-Access-Changes.webp"
     },
     {
-      "title": "Google Warns of Hackers Using AI to Create Working Zero-Day Exploit",
-      "link": "https://cybersecuritynews.com/ai-zero-day-exploit/",
-      "description": "Google Threat Intelligence Group recently published an alarming report detailing the rapid industrialization of generative artificial intelligence in adversarial workflows. The most significant fin...",
-      "pub_date": "Mon, 11 May 2026 16:04:42 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/AI-Zero-Day-Exploit.webp"
-    },
-    {
-      "title": "Hackers Use PlugX-Like DLL Sideloading Chain in Fake Claude Malware Campaign",
-      "link": "https://cybersecuritynews.com/hackers-use-plugx-like-dll-sideloading-chain/",
-      "description": "Cybercriminals are getting creative with how they lure victims into downloading malware, and a new campaign involving a fake version of Anthropic\u0026#8217;s Claude AI assistant is raising serious conc...",
-      "pub_date": "Mon, 11 May 2026 15:55:58 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-PlugX-Like-DLL-Sideloading-Chain-in-Fake-Claude-Malware-Campaign.webp"
-    },
-    {
       "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
       "link": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
       "description": "Google on Monday disclosed that it identified an unknown threat actor using a zero-day exploit that it said was likely developed with an artificial intelligence (AI) system, marking the first time ...",
@@ -106,36 +162,12 @@
       "image_url": ""
     },
     {
-      "title": "Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories/",
-      "description": "Hackers are once again targeting developers and AI enthusiasts by impersonating popular open-source tools on GitHub. This time, the target is DeepSeek TUI, a legitimate terminal-based intelligent a...",
-      "pub_date": "Mon, 11 May 2026 15:11:31 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-Fake-DeepSeek-TUI-GitHub-Repositories-to-Deliver-Malware.webp"
-    },
-    {
       "title": "Why Changing Passwords Doesn’t End an Active Directory Breach",
       "link": "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/",
       "description": "Resetting a password doesn't always remove attackers from Active Directory. Specops Software explains how cached credentials and Kerberos tickets can keep attackers authenticated after a reset. [...]",
       "pub_date": "Mon, 11 May 2026 09:53:56 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program",
-      "link": "https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms/",
-      "description": "The infamous hacking group ShinyHunters has struck again, this time targeting Instructure, the company behind Canvas Learning Management System (LMS). In early May 2026, Instructure confirmed unaut...",
-      "pub_date": "Mon, 11 May 2026 13:21:11 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/ShinyHunters-Breaches-Instructure-Canvas-LMS-Through-Free-For-Teacher-Account-Program.webp"
-    },
-    {
-      "title": "Crimenetwork Takedown Exposes 22,000 Users and Over 100 Illegal Sellers",
-      "link": "https://cybersecuritynews.com/crimenetwork-exposes-22000-users/",
-      "description": "In a massive, internationally coordinated operation, the Frankfurt am Main Public Prosecutor\u0026#8217;s Office – Central Office for Combating Internet Crime (ZIT) and the Federal Criminal Police Off...",
-      "pub_date": "Mon, 11 May 2026 13:17:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Crimenetwork-Takedown-Exposes-22000-Users-and-Over-100-Illegal-Sellers.webp"
     },
     {
       "title": "Google: Hackers used AI to develop zero-day exploit for web admin tool",
@@ -152,14 +184,6 @@
       "pub_date": "Mon, 11 May 2026 18:06:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD4a3gzeAEAv4Bs5FqWbHG1cRyNqIOjygeSxxpNoChwyyMUWlbZHzkG0n8ysGpoAYuKqklfMtTKRct0OeYktaKLhdXpRH5pKH94tVaMX7iPeNDf7vZjFky3myBkFPJPl1xIdsWDlIYP30IeR7IZGhQZ5p82yHRdRO1OGkpAtTWgZcQSG3zXqh9tLbSSrgP/s1600/cyber-recap.jpg"
-    },
-    {
-      "title": "Trending Hugging Face Repo With 200k Downloads Executes Malware on Windows Machines",
-      "link": "https://cybersecuritynews.com/trending-hugging-face-repository-with-200k-downloads/",
-      "description": "A popular artificial intelligence repository on Hugging Face was recently found hiding dangerous malware that targeted Windows users. The repository, named \u0026#8220;Open-OSS/privacy-filter,\u0026#8221; ha...",
-      "pub_date": "Mon, 11 May 2026 12:35:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Trending-Hugging-Face-Repository-With-200k-Downloads-Executes-Malware-on-Windows-Machines.webp"
     },
     {
       "title": "Webinar this week: Prevention alone is not enough against modern attacks",
@@ -296,30 +320,6 @@
       "pub_date": "Fri, 08 May 2026 16:30:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiholjenZRIykmReErkRiguk5xd9RV4BIEEPM0nT-o3LvMvDkCTLpd3G0NpqDGEFHp-f6QyvGRMip6CBhGlllYVlp9wS3XBVoV6xW47CDka7Ig8S_aotcuNlmAv3SYgS4hJzxjLp2nrV4SzqlTXnQLG_w68Cq0Bf5hiOoV6CaN9QZliRDa-StzsvIkJAdSF/s1600/kube.jpg"
-    },
-    {
-      "title": "One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk",
-      "link": "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
-      "description": "The dark secret of enterprise security operations is that defenders have quietly institutionalized the practice of not looking. This is not just anecdotal, but rather backed by a recent report inve...",
-      "pub_date": "Fri, 08 May 2026 16:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUaPw5V89Ez9z5x8eFLFOhwPphGqXDQVGfd2sI-pX9Q1XTcpYlWEhFiZ6o12fzAyvtCFDQ0zs4AFlHl4HJNnjWH8hUXM9r_-oBl7YMEnU1F41Ho7DL23NJbgG4M3eoqF6CTZWqFtFcw0gOB8QfkCPW1_xQ-HwmvWr3GMzEeRFbC8SLgG5LsdnopTAHDOs/s1600/ai-soc.jpg"
-    },
-    {
-      "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
-      "link": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
-      "description": "Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called \"darkworm.\"...",
-      "pub_date": "Fri, 08 May 2026 14:11:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixNgyNI9ObZi3Il87CVXhEWyWgcK-O1IKhQKRs7NPrNVqTMBZRw7AZpmbk5RdsPxNPmO9IyXaq6QzYBN691HBgfE8HpwnyJuE4-vaCAwHPpb6UfeSRcrMI-GRjcX53cELs31s7ps6YkGx5bAAB67w4m9GQ7ZVWjSdnaPOFczjHlsS3967ZvBh-4ZvTBWEJ/s1600/linux-pam.jpg"
-    },
-    {
-      "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
-      "link": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
-      "description": "Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel. Dubbed Dirty Frag, it has been described as a successor to Copy Fail (CVE-2026...",
-      "pub_date": "Fri, 08 May 2026 10:42:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnVSDBWt4hKZ-DOrZqHWPVH0JxrpcUeup9hpMpoH5Ny8bpuJ6Lviv58aH0aK2S2IJvAugaYRhM8P9wUW3tbVCu2kFMQbG5F16kI3PvS6gmR2Px8qOxcat-tK-UHV9oSDsAv9MHjvrduyndsqhicJxX1GroDTBo8it4ANI2wKIUVauhdxbgrNBQHhdgq2SW/s1600/linux.gif"
     },
     {
       "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
