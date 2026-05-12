@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-05-12T08:44:19Z",
+  "last_updated": "2026-05-12T11:13:59Z",
   "articles": [
+    {
+      "title": "SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA",
+      "link": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/",
+      "description": "SAP has released the May 2026 security updates addressing 15 vulnerabilities across multiple products, including two critical flaws in the Commerce Cloud enterprise-grade e-commerce platform and th...",
+      "pub_date": "Tue, 12 May 2026 07:04:55 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "MistralAI PyPI Package Compromised to Inject Malicious Code – Microsoft Warns",
+      "link": "https://cybersecuritynews.com/mistralai-pypi-package-compromised/",
+      "description": "A popular AI development library has been turned into a weapon. The mistralai PyPI package, version 2.4.6, was found to contain malicious code secretly injected by attackers, putting developers and...",
+      "pub_date": "Tue, 12 May 2026 11:04:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/MistralAI-PyPI-Package-Compromised-to-Inject-Malicious-Code-Microsoft-Warns.webp"
+    },
+    {
+      "title": "Claude’s Chrome Extension Vulnerability Allows Malicious Extensions to Steal Gmail and Drive Data",
+      "link": "https://cybersecuritynews.com/claudes-chrome-extension-vulnerability/",
+      "description": "Researchers have exposed a catastrophic vulnerability hiding inside the \u0026#8220;Claude in Chrome\u0026#8221; extension. By weaponizing an otherwise harmless, zero-permission extension, invisible attacker...",
+      "pub_date": "Tue, 12 May 2026 10:40:06 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Claudes-Chrome-Extension-Vulnerability-Allows-Malicious-Extensions-to-Steal-Gmail-and-Drive-Data.webp"
+    },
+    {
+      "title": "Why Agentic AI Is Security's Next Blind Spot",
+      "link": "https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html",
+      "description": "Agentic AI is already running in production environments across many organizations today. It is executing tasks, consuming data, and taking actions — most likely without meaningful involvement fr...",
+      "pub_date": "Tue, 12 May 2026 16:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzo1TUnQJpFnJbrO50dvjG14LDr2L6gKHsIIr5P73rSCgksrt2B9eVmRGKxPVvJ1qVMF63ka4So6vj5ln9T1nBIt2MV2DcH_dnYyQp1RREL4nbtnPghY7q5SAwZCwv0bN1ZV58DyTZSLw3UN00nP7uUcX_3ZqFQmAjufAvNRFshC5AJCuMdHb2n9kzC3w/s1600/ai-agents.jpg"
+    },
+    {
+      "title": "Instructure reaches 'agreement' with ShinyHunters to stop data leak",
+      "link": "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/",
+      "description": "Instructure, the edtech giant behind the widely popular Canvas learning management system (LMS), has reached an \"agreement\" with the ShinyHunters extortion group to prevent the data stolen in a rec...",
+      "pub_date": "Tue, 12 May 2026 05:23:56 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI \u0026 More Packages",
+      "link": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
+      "description": "TeamPCP, the threat actor behind the recent\u0026nbsp;supply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardra...",
+      "pub_date": "Tue, 12 May 2026 14:20:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXIhs2kZt0YGdDcd-Io67mq1GIN_iI_71LYhuin4qqmlgUgCuZ3fGUvglg_5nh5DK8kfPP8RHki86yMyqh4rTE27PGgPBh4RQjkh91-QGoB8cav5NUsYAwcV3ZJ7aEf-uEoH3pLGQ2eWuCh8lZSWAlTIa2U5I6eeB3HZmYMn4q-YoV7Ytmkpr1tN0lC2rG/s1600/mistral.jpg"
+    },
     {
       "title": "Critical PHP SOAP Extension Vulnerabilities Enables Remote Code Execution Attacks",
       "link": "https://cybersecuritynews.com/php-soap-extension-vulnerabilities/",
@@ -90,14 +138,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-CVE-2026-41940-to-Take-Over-cPanel-and-WHM-Servers.webp"
     },
     {
-      "title": "84 TanStack npm Packages Hacked in Ongoing Supply-Chain Attack Targeting CI Credentials",
-      "link": "https://cybersecuritynews.com/tanstack-npm-packages-hacked/",
-      "description": "A significant supply-chain compromise affecting 84 npm package artifacts across the TanStack namespace. The malicious versions, published to the npm registry at approximately 19:20 and 19:26 UTC, c...",
-      "pub_date": "Tue, 12 May 2026 02:44:11 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/TanStack-npm-Packages-Hacked.webp"
-    },
-    {
       "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
       "link": "https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/",
       "description": "California Attorney General Rob Bonta announced a proposed $12.75 million settlement agreement with General Motors (GM) over allegations that the company violated the California Consumer Privacy Ac...",
@@ -136,14 +176,6 @@
       "pub_date": "Mon, 11 May 2026 23:24:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgInpdPoL0Kf1i9D6daAAGB1QPCR3E0d_ArELz-ks1Y6cJ_low0jdZYqamKMKMxC12OC-XMwUrDIWdh_xK_d7zLLQfH-rDl0-Vi_VSsFswAuJL0mEtQg-FW66c_1it8d59p2An-T3_oQJ_Q_yHLiX0PHtEq2OdLcGXwxniVKGJGLusWdjJfP7M-H9ADm8cK/s1600/cpcp.jpg"
-    },
-    {
-      "title": "Popular Go Library fsnotify Raises Supply Chain Alarms After Maintainer Access Changes",
-      "link": "https://cybersecuritynews.com/popular-go-library-fsnotify-raises-supply-chain/",
-      "description": "A widely used Go library called fsnotify has found itself at the center of a supply chain security scare after a sudden change in maintainer access triggered alarm across the open source community....",
-      "pub_date": "Mon, 11 May 2026 16:14:40 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Popular-Go-Library-fsnotify-Raises-Supply-Chain-Alarms-After-Maintainer-Access-Changes.webp"
     },
     {
       "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
@@ -288,38 +320,6 @@
       "pub_date": "Fri, 08 May 2026 20:38:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBMXgW6K0BZvt0-jhZ_smX3Uy-nsd9wb9g7Gs7d3G7uH-HIlEcNhEt9xpaKD_62iJol_LK5Expt-6qCuvIf7llqtQclB64I9zZm_i8CIC0lMJiIz8nx6r4C-Nj4cUgd3cQEtu3_lGFa7wcmR6q9otQhCLoB1Mbnmn7NgH6-djLs_ScqanZFNC-EVOwYyO7/s1600/android-calls.jpg"
-    },
-    {
-      "title": "Why More Analysts Won’t Solve Your SOC’s Alert Problem",
-      "link": "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
-      "description": "Attackers move faster than overwhelmed SOC teams can realistically investigate alerts. Prophet Security breaks down how AI can help analysts investigate alerts faster and focus on real threats. [...]",
-      "pub_date": "Fri, 08 May 2026 10:02:12 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
-      "link": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
-      "description": "The hardest part of cybersecurity isn't the technology, it’s the people. Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patien...",
-      "pub_date": "Fri, 08 May 2026 19:31:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz_1BMhUux9JB2X26ToAMnW32GttimEIwRX1fG4_LrlZjedjkjzps_Ad-eiSX-2LlJ1FFIw3g1kvH1kKrgwETmSgTk8wal5a7AJQNIY2IH3317GaUYEj-_3tko2hxjKBc1ms0WQ7UjHHTst0aKtjFz1jOPasyD8x5U_GQW4KdhKxDPHhlmYVOY9TM6vLy_/s1600/zz-webinar.jpg"
-    },
-    {
-      "title": "Trellix source code breach claimed by RansomHouse hackers",
-      "link": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
-      "description": "The attack on the Trellix source code repository disclosed last week has been claimed by the RansomHouse threat group, which leaked a small set of images as proof of the intrusion. [...]",
-      "pub_date": "Fri, 08 May 2026 09:23:23 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
-      "link": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
-      "description": "A previously undocumented Linux implant codenamed Quasar Linux RAT (QLNX) is targeting developers' systems to establish a silent foothold as well as facilitate a broad range of post-compromise func...",
-      "pub_date": "Fri, 08 May 2026 16:30:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiholjenZRIykmReErkRiguk5xd9RV4BIEEPM0nT-o3LvMvDkCTLpd3G0NpqDGEFHp-f6QyvGRMip6CBhGlllYVlp9wS3XBVoV6xW47CDka7Ig8S_aotcuNlmAv3SYgS4hJzxjLp2nrV4SzqlTXnQLG_w68Cq0Bf5hiOoV6CaN9QZliRDa-StzsvIkJAdSF/s1600/kube.jpg"
     },
     {
       "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
