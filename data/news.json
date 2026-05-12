@@ -1,6 +1,102 @@
 {
-  "last_updated": "2026-05-12T16:24:32Z",
+  "last_updated": "2026-05-12T18:51:59Z",
   "articles": [
+    {
+      "title": "Microsoft Patch Tuesday May 2026 – 120 Vulnerabilities Fixed, Including 29 Critical RCE Flaws",
+      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-may-2026/",
+      "description": "Microsoft’s May 2026 Patch Tuesday lands with a heavy enterprise focus, fixing 120 vulnerabilities across Windows, Office, Azure, developer tools, and Microsoft 365 apps, including 29 remote code...",
+      "pub_date": "Tue, 12 May 2026 18:40:46 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Patch-Tuesday-May-2026.webp"
+    },
+    {
+      "title": "Fortinet warns of critical RCE flaws in FortiSandbox and FortiAuthenticator",
+      "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
+      "description": "Fortinet has released security patches for two critical vulnerabilities in FortiSandbox and FortiAuthenticator that could enable attackers to run commands or arbitrary code. [...]",
+      "pub_date": "Tue, 12 May 2026 14:23:09 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Windows 11 KB5089549 \u0026 KB5087420 cumulative updates released",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/",
+      "description": "Microsoft has released Windows 11 KB5089549 and KB5087420 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+      "pub_date": "Tue, 12 May 2026 14:09:12 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft May 2026 Patch Tuesday fixes 120 flaws, no zero-days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days/",
+      "description": "Today is Microsoft's May 2026 Patch Tuesday, with security updates for 120 flaws and no zero-days disclosed this month. [...]",
+      "pub_date": "Tue, 12 May 2026 14:08:06 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Fortinet Patches Five Vulnerabilities Across FortiAP, FortiOS, and Enterprise Products",
+      "link": "https://cybersecuritynews.com/fortinet-enterprise-products-vulnerabilities/",
+      "description": "Fortinet released security advisories on May 12, 2026, addressing five vulnerabilities spanning its wireless access point controllers, network operating system, and enterprise management platforms,...",
+      "pub_date": "Tue, 12 May 2026 17:58:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Fortinet-Enterprise-Products-Vulnerabilities.webp"
+    },
+    {
+      "title": "Critical Fortinet FortiSandbox Vulnerability Enables Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/fortinet-fortisandbox-vulnerability/",
+      "description": "A critical security flaw in Fortinet\u0026#8217;s FortiSandbox platform is putting enterprise networks at serious risk, allowing unauthenticated attackers to execute arbitrary code or commands remotely,...",
+      "pub_date": "Tue, 12 May 2026 17:45:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Fortinet-FortiSandbox-Vulnerability.webp"
+    },
+    {
+      "title": "Open WebUI Vulnerability via File Upload Leads to 1-Click RCE Attack",
+      "link": "https://cybersecuritynews.com/open-webui-1-click-rce-attack/",
+      "description": "A single click can allow attackers to exploit a critical, unpatched flaw in Open WebUI to seize control of AI workspaces, execute remote code, hijack accounts, and steal sensitive chat histories. D...",
+      "pub_date": "Tue, 12 May 2026 17:27:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Open-WebUI-Vulnerability-via-File-Upload-leads-to-1-Click-RCE-Attack.webp"
+    },
+    {
+      "title": "Ivanti Patches Multiple Vulnerabilities in Secure Access, Xtraction, vTM and Endpoint Manager",
+      "link": "https://cybersecuritynews.com/ivanti-patches-multiple-vulnerabilities/",
+      "description": "Ivanti has released its May 2026 Patch Tuesday security updates, disclosing vulnerabilities across four products while revealing that artificial intelligence tools are already helping its engineers...",
+      "pub_date": "Tue, 12 May 2026 17:12:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Ivanti-Patches-Multiple-Vulnerabilities.webp"
+    },
+    {
+      "title": "No Blind Spots: How Top MSSPs Prevent Incidents withLive Threat Visibility",
+      "link": "https://cybersecuritynews.com/no-blind-spots-how-top-mssps-prevent-incidents-withlive-threat-visibility/",
+      "description": "Every incident that damages a client starts with a moment of invisibility: a connection the SIEM didn\u0026#8217;t flag, a domain the detection rules didn\u0026#8217;t know about, an IOC that was active fo...",
+      "pub_date": "Tue, 12 May 2026 17:09:16 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB7AvDXXfK7aaNuCKwXwHJY9zCIyBMAsuATYXv9L93Iv7Nm97sF5fXBO4JirWPR2dt6WWInaVa73R8jOuWqmrSqtYdZj-u5elvZxkJK5qhAZJSaqBS8DC5rGm9dB6natMEgP59By6lRMkGEjjVuIqaHlOED62y7ShBhq05qE8eMf48cTyP7S-lUiaLqA/s16000/How%20MSSPs%20Prevent%20Incidents%20with%20Visibility.webp?ssl=1"
+    },
+    {
+      "title": "Škoda warns of customer data breach after online shop hack",
+      "link": "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
+      "description": "Škoda Auto, a wholly owned subsidiary of the Volkswagen Group, has disclosed a data breach after attackers hacked its online shop and stole the personal information of an undisclosed number of cus...",
+      "pub_date": "Tue, 12 May 2026 13:07:01 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Android 17 to expand banking scam call and privacy protections",
+      "link": "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
+      "description": "Android 17, expected to roll out next month, will introduce several security and privacy features focused on device theft, threat detection, and banking scam calls. [...]",
+      "pub_date": "Tue, 12 May 2026 13:00:00 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
+      "link": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
+      "description": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an open-source Mail ...",
+      "pub_date": "Tue, 12 May 2026 22:14:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrSn3emm_NbwXDi3elR0wo5ErHhg-gPT4-u4zk7MHZg4u0ruMmj2_KGgPF8fz06Riv6Gu5NXMN3eBP8H5bVf6dmvOz-lvb-qrvhLlssLUzl97ZVmIWoIOmMPOGrupv864dt0d4V_dxgaaxYYNuy2z9rbZMWIOcjlwZaiifq4-ktRqlEBCJ6a_m3MFiwq65/s1600/exim.jpg"
+    },
     {
       "title": "Threat Actors Leverage Vercel’s AI Tools to Mass‑Produce Realistic Phishing Sites",
       "link": "https://cybersecuritynews.com/threat-actors-leverage-vercels-ai-tools/",
@@ -34,20 +130,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/SAP-Patches-Critical-SQL-injection-Vulnerability-in-SAP-S4HANA.webp"
     },
     {
-      "title": "Hackers Hijack Microsoft Teams Accounts to Deliver ModeloRAT",
-      "link": "https://cybersecuritynews.com/hackers-hijack-microsoft-teams/",
-      "description": "A new wave of cyberattacks is putting Microsoft Teams users on high alert across organizations worldwide. Hackers have been found hijacking Teams accounts to impersonate IT support staff and push a...",
-      "pub_date": "Tue, 12 May 2026 14:52:30 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Hijack-Microsoft-Teams-Accounts-to-Deliver-ModeloRAT.webp"
-    },
-    {
-      "title": "North Korean Hackers Weaponize Git Hooks to Deploy Cross-Platform Malware",
-      "link": "https://cybersecuritynews.com/north-korean-hackers-weaponize-git-hooks/",
-      "description": "North Korean hackers have found a new way to hide malware inside the tools that software developers rely on every single day. Instead of sending phishing emails or planting fake links, they are now...",
-      "pub_date": "Tue, 12 May 2026 13:24:33 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/North-Korean-Hackers-Weaponize-Git-Hooks-to-Deploy-Cross-Platform-Malware.webp"
+      "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
+      "link": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
+      "description": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\" \"We're dealing wit...",
+      "pub_date": "Tue, 12 May 2026 20:17:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggIbYm86Vn45Nd86Hd5IEqHufRIS5Ud3spGUy5JWHy-My-NBVocyj-aR7E3gBKibPnrWd5DRYnDfmbaHUMuaYcNn_paUIDN11VLySLNUsXwFwVIALsNo419985zWvtepK7NVp9J4W3d7uHGWkQFgqI6zY_9Y5LWe5hsTLk-c9ZMKQ4TDlUMcMh8-_vhdIH/s1600/rubygems.jpg"
     },
     {
       "title": "New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots",
@@ -56,14 +144,6 @@
       "pub_date": "Tue, 12 May 2026 18:20:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbBy7H5qvorFUmJqREACqqxVC0ogVq88dP8wLyKyUPF9fCowpUSkb7foEsEPDALt0ccCpcJc6PXCJjFmQo0oX3furU-cYPULBa0-pjpiLGV04JD6kr4G0VIrvFoJo54WmgjU1YocsquA15N3hxDmwt4i82QpYdil7F4fI0SMFVv9YCkbqqGKjIi-dEmcIx/s1600/tricks.jpg"
-    },
-    {
-      "title": "Critical “Cline” AI Agent Vulnerability Enables RCE Attacks",
-      "link": "https://cybersecuritynews.com/cline-ai-agent-vulnerability/",
-      "description": "A critical security flaw has been identified in the Cline Kanban server that allows threat actors to exfiltrate workspace data and execute arbitrary code silently and remotely. Security researcher ...",
-      "pub_date": "Tue, 12 May 2026 12:17:12 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Cline-AI-Agent-Vulnerability-Enables-RCE-Attacks.webp"
     },
     {
       "title": "Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help",
@@ -76,18 +156,10 @@
     {
       "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI \u0026 More Packages",
       "link": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
-      "description": "TeamPCP, the threat actor behind the recent\u0026nbsp;supply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardra...",
+      "description": "TeamPCP, the threat actor behind the recentsupply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI...",
       "pub_date": "Tue, 12 May 2026 17:16:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXIhs2kZt0YGdDcd-Io67mq1GIN_iI_71LYhuin4qqmlgUgCuZ3fGUvglg_5nh5DK8kfPP8RHki86yMyqh4rTE27PGgPBh4RQjkh91-QGoB8cav5NUsYAwcV3ZJ7aEf-uEoH3pLGQ2eWuCh8lZSWAlTIa2U5I6eeB3HZmYMn4q-YoV7Ytmkpr1tN0lC2rG/s1600/mistral.jpg"
-    },
-    {
-      "title": "Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials",
-      "link": "https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink/",
-      "description": "A fake Chrome browser extension pretending to be the popular TronLink crypto wallet has been caught stealing sensitive wallet credentials from unsuspecting users. The malicious extension operates s...",
-      "pub_date": "Tue, 12 May 2026 11:42:22 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-Chrome-MV3-Extension-Impersonates-TronLink-to-Steal-Crypto-Wallet-Credentials.webp"
     },
     {
       "title": "Shai Hulud attack ships signed malicious TanStack, Mistral npm packages",
@@ -104,22 +176,6 @@
       "pub_date": "Tue, 12 May 2026 07:04:55 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "MistralAI PyPI Package Compromised to Inject Malicious Code – Microsoft Warns",
-      "link": "https://cybersecuritynews.com/mistralai-pypi-package-compromised/",
-      "description": "A popular AI development library has been turned into a weapon. The mistralai PyPI package, version 2.4.6, was found to contain malicious code secretly injected by attackers, putting developers and...",
-      "pub_date": "Tue, 12 May 2026 11:04:50 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/MistralAI-PyPI-Package-Compromised-to-Inject-Malicious-Code-Microsoft-Warns.webp"
-    },
-    {
-      "title": "Claude’s Chrome Extension Vulnerability Allows Malicious Extensions to Steal Gmail and Drive Data",
-      "link": "https://cybersecuritynews.com/claudes-chrome-extension-vulnerability/",
-      "description": "Researchers have exposed a catastrophic vulnerability hiding inside the \u0026#8220;Claude in Chrome\u0026#8221; extension. By weaponizing an otherwise harmless, zero-permission extension, invisible attacker...",
-      "pub_date": "Tue, 12 May 2026 10:40:06 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Claudes-Chrome-Extension-Vulnerability-Allows-Malicious-Extensions-to-Steal-Gmail-and-Drive-Data.webp"
     },
     {
       "title": "Why Agentic AI Is Security's Next Blind Spot",
@@ -160,6 +216,86 @@
       "pub_date": "Tue, 12 May 2026 10:48:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8hWB1CFFk1cxzc9VF7NI2QB-oCzrDMhxoIeajumiDRPkGyEt1wzhH3A3awM8uAZlRb2OXf33nd2O4Ug_IwHlCRNED92zQwFnDvyi9ypYQgQ8gRLCzkA6pHfJ2rfKfl-mTo5ha7KH2Jnwp9S6qIYx_6H4DnUSvVGM6k-yZfPQtKkO0pcGdhC4yVwI8-NEk/s1600/e2ee-rcs.jpg"
+    },
+    {
+      "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-317/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Siemens Simcenter Femap. User interaction is required to exploit this vulnerability in that the tar...",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-316: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-316/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Siemens Simcenter Femap. User interaction is required to exploit this vulnerability in that the tar...",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-315: Apple macOS USD Out-Of-Bounds Read Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-315/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the USD library is required to exploit this vulnerability but...",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-314: Apple macOS USD File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-314/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the USD library is required to exploit this vulnerability but attack ...",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-313: Apple Safari Regular Expression Duplicate Named Groups Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-313/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must vi...",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-312: Apple Safari Web Inspector WebCore Style Resolver Use-After-Free Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-312/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must vi...",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-311: Apple macOS CoreSymbolication Out-Of-Bounds Read Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-311/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the CoreSymbolication framework is required to exploit this v...",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-310: Microsoft Windows splwow64 Race Condition Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-310/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the targ...",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-309: Microsoft Windows Message Queueing Double Free Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-309/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows that run Message Queueing. An attacker must first obtain the ability to execute low-p...",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-308: Ivanti Endpoint Manager RemoteControlAuth Exposed Dangerous Method Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-308/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Ivanti Endpoint Manager. Although authentication is required to exploit this vulnerability,...",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
@@ -258,68 +394,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0dlupn761jekig7BbPagwo6DtccMFQV8oESHiCBIs04DdhvoVtfwhe7OVEh8VvyFpa-VFo9GKWL8tx2ZKTSn3qA7iAFCvTfoevjyPFYNb3eAmpp4pkWk3mcQd_AulszHJoxUa6z_k_Nr_KB9Ny_hoZWy1VVA-U9BV2nPvESGGqPE5r4_AbNlid_BK-M8/s1600/picus.jpg"
     },
     {
-      "title": "TrickMo Android banker adopts TON blockchain for covert comms",
-      "link": "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/",
-      "description": "A new variant of the TrickMo Android banking malware, delivered in campaigns targeting users across Europe, introduces new commands and uses The Open Network (TON) for stealthy command-and-control ...",
-      "pub_date": "Mon, 11 May 2026 05:03:02 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
       "link": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
       "description": "A malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to ...",
       "pub_date": "Mon, 11 May 2026 12:35:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPtLFShq_XoM9Nzsl5kmSsF2UGsm6VhRoLNodcqRCdq45zqy4ekFVtamokNzEFifQknD502Wc0uFTBUdvLsBsYn4QAeVHSWLmhF2ROBMXutev8T6JjCGrrarzLhkSTUHLBq-nEWrF0WTb2epkX_3Ba5a6Gv_21R7PPQ_zCjhk7OU702Y10tJkcJiYG52D4/s1600/hugging-face-malware.jpg"
-    },
-    {
-      "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
-      "description": "Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for \"Claude mac download\" may come across sponsored search results that li...",
-      "pub_date": "Sun, 10 May 2026 13:52:15 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Police shut down reboot of Crimenetwork marketplace, arrest admin",
-      "link": "https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/",
-      "description": "German authorities have shut down a relaunch version of the criminal marketplace 'Crimenetwork' that generated more than 3.6 million euros, and arrested its operator. [...]",
-      "pub_date": "Sun, 10 May 2026 10:16:47 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
-      "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
-      "description": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memor...",
-      "pub_date": "Sun, 10 May 2026 18:11:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj92eUjjTTMJPizvUJGwq7Ych7nrXHwGRNt3hS9yjNGRJk5d3pdIKjeZhQDVuFp0DnKjP4qoieGWFjswm7nHDLBaxWC3DxFIfLfRjMSEXd0Ta04vcTrbCpS9PEXebUUbMBxBt0VOb-PKVk-7Cq0FjuMXl4VtKneb5a3ujCo872goPN22GBFFhReJtWsQJLK/s1600/oll.jpg"
-    },
-    {
-      "title": "JDownloader site hacked to replace installers with Python RAT malware",
-      "link": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
-      "description": "The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a Python-b...",
-      "pub_date": "Sat, 09 May 2026 15:27:58 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
-      "description": "A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's \"Privacy Filter\" project to deliver information-stealing malware to Windows users. [...]",
-      "pub_date": "Sat, 09 May 2026 10:26:03 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
-      "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
-      "description": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The...",
-      "pub_date": "Sat, 09 May 2026 12:46:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8HLwOMzo20kbZmflPvJJmY7su6wWOWgDLV-dJNx-k76m5ivbwVoCkFrnsLXkyO4PHAyLSkPXinjK71SDmWabyOcTlKb3juZgkXTzOVuMvZk6-LUFMhoJ-UGFvv0qEby7QmYcjTWn1m1L19VTKeB7CdmKvpvIP5ifniLO92ARSLjtf8rcXIbm8AFMZei-M/s1600/cpanel-3.jpg"
     },
     {
       "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
@@ -366,86 +446,6 @@
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-303/",
       "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the ta...",
       "pub_date": "Mon, 27 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-302: Foxit PDF Reader AcroForm Signature Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-302/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target mus...",
-      "pub_date": "Mon, 27 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-301: Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-301/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target mus...",
-      "pub_date": "Mon, 27 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-300: Flowise AccountService resetPassword Authentication Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-300/",
-      "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Flowise. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS r...",
-      "pub_date": "Mon, 27 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-299: Docker Desktop Enhanced Container Isolation Exposed Dangerous Function Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-299/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop. An attacker must first obtain the ability to execute low-privileged code within a conta...",
-      "pub_date": "Thu, 23 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-298: Siemens SINEC NMS Authentication Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-298/",
-      "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Siemens SINEC NMS. Authentication is not required to exploit this vulnerability. The ZDI has assigne...",
-      "pub_date": "Thu, 23 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-297: Siemens SINEC NMS Improper Authentication Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-297/",
-      "description": "This vulnerability allows remote attackers to escalate privileges on affected installations of Siemens SINEC NMS. Authentication is required to exploit this vulnerability. The ZDI has assigned a CV...",
-      "pub_date": "Thu, 23 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-296: Delta Electronics ASDA-Soft PAR File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-296/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics ASDA-Soft. User interaction is required to exploit this vulnerability in that the...",
-      "pub_date": "Thu, 23 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-295: (0Day) PublicCMS getXml Server-Side Request Forgery Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-295/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of PublicCMS. Authentication is not required to exploit this vulnerability. The ZDI has assign...",
-      "pub_date": "Tue, 21 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-294: (0Day) Microsoft Windows library-ms NTLM Response Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-294/",
-      "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in ...",
-      "pub_date": "Tue, 21 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-293: (0Day) Microsoft Office URI Handler NTLM Response Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-293/",
-      "description": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the target mu...",
-      "pub_date": "Tue, 21 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
