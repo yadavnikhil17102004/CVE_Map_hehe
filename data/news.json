@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-05-12T11:13:59Z",
+  "last_updated": "2026-05-12T14:00:24Z",
   "articles": [
+    {
+      "title": "North Korean Hackers Weaponize Git Hooks to Deploy Cross-Platform Malware",
+      "link": "https://cybersecuritynews.com/north-korean-hackers-weaponize-git-hooks/",
+      "description": "North Korean hackers have found a new way to hide malware inside the tools that software developers rely on every single day. Instead of sending phishing emails or planting fake links, they are now...",
+      "pub_date": "Tue, 12 May 2026 13:24:33 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/North-Korean-Hackers-Weaponize-Git-Hooks-to-Deploy-Cross-Platform-Malware.webp"
+    },
+    {
+      "title": "New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots",
+      "link": "https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html",
+      "description": "Cybersecurity researchers have flagged a new version of the TrickMo Android banking trojan that uses The Open Network (TON) for command-and-control (C2). The new variant, observed by ThreatFabric b...",
+      "pub_date": "Tue, 12 May 2026 18:20:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbBy7H5qvorFUmJqREACqqxVC0ogVq88dP8wLyKyUPF9fCowpUSkb7foEsEPDALt0ccCpcJc6PXCJjFmQo0oX3furU-cYPULBa0-pjpiLGV04JD6kr4G0VIrvFoJo54WmgjU1YocsquA15N3hxDmwt4i82QpYdil7F4fI0SMFVv9YCkbqqGKjIi-dEmcIx/s1600/tricks.jpg"
+    },
+    {
+      "title": "Critical “Cline” AI Agent Vulnerability Enables RCE Attacks",
+      "link": "https://cybersecuritynews.com/cline-ai-agent-vulnerability/",
+      "description": "A critical security flaw has been identified in the Cline Kanban server that allows threat actors to exfiltrate workspace data and execute arbitrary code silently and remotely. Security researcher ...",
+      "pub_date": "Tue, 12 May 2026 12:17:12 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Cline-AI-Agent-Vulnerability-Enables-RCE-Attacks.webp"
+    },
+    {
+      "title": "Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help",
+      "link": "https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html",
+      "description": "Why do the Riskiest SOC Alerts Go Unanswered? Security operations teams are drowning in alerts. But the real problem isn't always alert volume; it's the blind spots. The most dangerous alerts are t...",
+      "pub_date": "Tue, 12 May 2026 17:28:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA12ieHY1fiDaLvgyhGriQgzyEXJlSwwkQvcJXqP10JFEOcbwVa_EZD9H26tzLJovmlGHDHLL37-0H4y3ePSn5qDwRu6-X6I2StjAFHkiZ4_mgZOnjiKHdg2KId0sJ5OuxxWGeL7ULdNA3X_PTGcdv8_QJ4KS9RCtN-Oe3nLiOLWFwbDB46beV8jRaKG4/s1600/Radiant-webinar.jpg"
+    },
+    {
+      "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI \u0026 More Packages",
+      "link": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
+      "description": "TeamPCP, the threat actor behind the recent\u0026nbsp;supply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardra...",
+      "pub_date": "Tue, 12 May 2026 17:16:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXIhs2kZt0YGdDcd-Io67mq1GIN_iI_71LYhuin4qqmlgUgCuZ3fGUvglg_5nh5DK8kfPP8RHki86yMyqh4rTE27PGgPBh4RQjkh91-QGoB8cav5NUsYAwcV3ZJ7aEf-uEoH3pLGQ2eWuCh8lZSWAlTIa2U5I6eeB3HZmYMn4q-YoV7Ytmkpr1tN0lC2rG/s1600/mistral.jpg"
+    },
+    {
+      "title": "Malicious Chrome MV3 Extension Impersonates TronLink to Steal Crypto Wallet Credentials",
+      "link": "https://cybersecuritynews.com/malicious-chrome-mv3-extension-impersonates-tronlink/",
+      "description": "A fake Chrome browser extension pretending to be the popular TronLink crypto wallet has been caught stealing sensitive wallet credentials from unsuspecting users. The malicious extension operates s...",
+      "pub_date": "Tue, 12 May 2026 11:42:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-Chrome-MV3-Extension-Impersonates-TronLink-to-Steal-Crypto-Wallet-Credentials.webp"
+    },
+    {
+      "title": "Shai Hulud attack ships signed malicious TanStack, Mistral npm packages",
+      "link": "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
+      "description": "Hundreds of packages across npm and PyPI have been compromised in a new Shai-Hulud supply-chain campaign delivering credential-stealing malware targeting developers. [...]",
+      "pub_date": "Tue, 12 May 2026 07:29:36 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA",
       "link": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/",
@@ -42,14 +98,6 @@
       "image_url": ""
     },
     {
-      "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI \u0026 More Packages",
-      "link": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
-      "description": "TeamPCP, the threat actor behind the recent\u0026nbsp;supply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardra...",
-      "pub_date": "Tue, 12 May 2026 14:20:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXIhs2kZt0YGdDcd-Io67mq1GIN_iI_71LYhuin4qqmlgUgCuZ3fGUvglg_5nh5DK8kfPP8RHki86yMyqh4rTE27PGgPBh4RQjkh91-QGoB8cav5NUsYAwcV3ZJ7aEf-uEoH3pLGQ2eWuCh8lZSWAlTIa2U5I6eeB3HZmYMn4q-YoV7Ytmkpr1tN0lC2rG/s1600/mistral.jpg"
-    },
-    {
       "title": "Critical PHP SOAP Extension Vulnerabilities Enables Remote Code Execution Attacks",
       "link": "https://cybersecuritynews.com/php-soap-extension-vulnerabilities/",
       "description": "A serious cluster of vulnerabilities has been uncovered in PHP\u0026#8217;s core string processing and ext-soap components, putting numerous web servers at immediate risk of total takeover. While the SO...",
@@ -82,9 +130,9 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq_FVhPeK2Y77CmHxc0azDelzWwpgSb4m8GZPLeJlsr2QvCZU5ChGQK37bJ_2XsGQRaNszalreV1iNyYDzeLt1I8iqafNTvFCPFQ0czKwX3Q6Q23TqdavunyJJsy6X8vxG_jSz__X5BnFZc4AIIqr-kd0XiNcYgx3UnYaahiViFKAywuQ98a7bbtCPnwgo/s1600/ransom-breach.jpg"
     },
     {
-      "title": "PoC Exploit Released for Android Zero-Click Vulnerability that Enables Remote Shell Access",
+      "title": "PoC Exploit Released for Android 0-Click Vulnerability that Enables Remote Shell Access",
       "link": "https://cybersecuritynews.com/poc-exploit-android-zero-click-vulnerability/",
-      "description": "In a chilling blow to mobile security, Google\u0026#8217;s May 2026 Android Security Bulletin has unmasked a catastrophic zero-click vulnerability lurking within the core Android System. The CVE-2026-00...",
+      "description": "Google\u0026#8217;s May 2026 Android Security Bulletin has revealed a critical zero-click vulnerability in the core Android System. The CVE-2026-0073 flaw in Android’s adbd daemon lets nearby threat a...",
       "pub_date": "Tue, 12 May 2026 07:29:48 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/PoC-Exploit-Released-for-Android-Zero-Click-Vulnerability-that-Enables-Remote-Shell-Access.webp"
@@ -96,14 +144,6 @@
       "pub_date": "Tue, 12 May 2026 07:14:02 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/TrickMo-Android-Banking-Malware-Targets-Banking-Wallet-and-Authenticator-Apps.webp"
-    },
-    {
-      "title": "OpenAI Daybreak Automates Vulnerability Detection and Fixing",
-      "link": "https://cybersecuritynews.com/openai-daybreak-fix-vulnerabilities/",
-      "description": "OpenAI has introduced Daybreak, a strategic initiative to change how modern software is built and defended against emerging threats. Moving away from traditional reactive patching, Daybreak focuses...",
-      "pub_date": "Tue, 12 May 2026 06:57:06 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/OpenAI-Daybreak-Automates-Detects-and-Fix-Vulnerabilities-Automatically-1.webp"
     },
     {
       "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
@@ -120,22 +160,6 @@
       "pub_date": "Tue, 12 May 2026 10:48:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8hWB1CFFk1cxzc9VF7NI2QB-oCzrDMhxoIeajumiDRPkGyEt1wzhH3A3awM8uAZlRb2OXf33nd2O4Ug_IwHlCRNED92zQwFnDvyi9ypYQgQ8gRLCzkA6pHfJ2rfKfl-mTo5ha7KH2Jnwp9S6qIYx_6H4DnUSvVGM6k-yZfPQtKkO0pcGdhC4yVwI8-NEk/s1600/e2ee-rcs.jpg"
-    },
-    {
-      "title": "New BitUnlocker Downgrade Attack on Windows 11 Allows Access to Encrypted Disks in 5 Minutes",
-      "link": "https://cybersecuritynews.com/bitunlocker-downgrade-attack-on-windows-11/",
-      "description": "A new tool, BitUnlocker, reveals a practical downgrade attack against Microsoft\u0026#8217;s BitLocker encryption, allowing attackers with physical access to decrypt protected volumes on patched Windows...",
-      "pub_date": "Tue, 12 May 2026 04:12:49 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/BitUnlocker-Downgrade-Attack-on-Windows-11.webp"
-    },
-    {
-      "title": "Hackers Abuse CVE-2026-41940 to Take Over cPanel and WHM Servers",
-      "link": "https://cybersecuritynews.com/hackers-abuse-cpanel-and-whm-servers/",
-      "description": "A fatal authentication bypass vulnerability is actively affecting cPanel and WebHost Manager (WHM) servers worldwide. Tracked as CVE-2026-41940 and bearing an apocalyptic maximum severity score of ...",
-      "pub_date": "Tue, 12 May 2026 03:37:17 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-CVE-2026-41940-to-Take-Over-cPanel-and-WHM-Servers.webp"
     },
     {
       "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
@@ -296,30 +320,6 @@
       "pub_date": "Sat, 09 May 2026 12:46:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8HLwOMzo20kbZmflPvJJmY7su6wWOWgDLV-dJNx-k76m5ivbwVoCkFrnsLXkyO4PHAyLSkPXinjK71SDmWabyOcTlKb3juZgkXTzOVuMvZk6-LUFMhoJ-UGFvv0qEby7QmYcjTWn1m1L19VTKeB7CdmKvpvIP5ifniLO92ARSLjtf8rcXIbm8AFMZei-M/s1600/cpanel-3.jpg"
-    },
-    {
-      "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
-      "link": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
-      "description": "Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being ...",
-      "pub_date": "Fri, 08 May 2026 23:42:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWchpptUYeW4vXSUXfGq-uMzB1mr_dzsvX8XIWssIKzaWa4_eYbaLwec5Zos3xCoD0s8-LDcGI7Vj8DjFq6RtUY68HP21YudHYdsFS2xdyzQE7OPyuTlqyO2X9uwlSCRuVl9tAUwq0mvGuXlYkxjdmC7ynyAcIDpbejkR45ucf_L3VCDupSZMteOby7BUp/s1600/banking.jpg"
-    },
-    {
-      "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
-      "link": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
-      "description": "NVIDIA has confirmed in a statement for BleepingComputer that GeForce NOW user information has been exposed in a data breach. [...]",
-      "pub_date": "Fri, 08 May 2026 12:18:31 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads",
-      "link": "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
-      "description": "Cybersecurity researchers have discovered fraudulent apps on the official Google Play Store for Android that falsely claimed to offer access to call histories for any phone number, only to trick us...",
-      "pub_date": "Fri, 08 May 2026 20:38:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBMXgW6K0BZvt0-jhZ_smX3Uy-nsd9wb9g7Gs7d3G7uH-HIlEcNhEt9xpaKD_62iJol_LK5Expt-6qCuvIf7llqtQclB64I9zZm_i8CIC0lMJiIz8nx6r4C-Nj4cUgd3cQEtu3_lGFa7wcmR6q9otQhCLoB1Mbnmn7NgH6-djLs_ScqanZFNC-EVOwYyO7/s1600/android-calls.jpg"
     },
     {
       "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
@@ -522,6 +522,14 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/01/fine-grained-pat.png?resize=1024%2C496"
     },
     {
+      "title": "Software Bill of Materials for AI - Minimum Elements",
+      "link": "https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements",
+      "description": "CISA and the Group of Seven (G7) international partners—Germany, Canada, France, Italy, Japan, the United Kingdom, and the European Union—have released joint guidance, Software Bill of Material...",
+      "pub_date": "Tue, 12 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added\u0026nbsp;one\u0026nbsp;new vulnerability\u0026nbsp;to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-42208\u0026nbsp;BerriAI\u0026nbsp;LiteLLM\u0026nb...",
@@ -629,14 +637,6 @@
       "title": "ABB Ability OPTIMAX",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-04",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to bypass user authentication on OPTIMAX installations that make use of the Azure Active Directory Single-Sig...",
-      "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB PCM600",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send specially crafted messages to the system node resulting in execution of arbitrary code. The following...",
       "pub_date": "Thu, 30 Apr 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
