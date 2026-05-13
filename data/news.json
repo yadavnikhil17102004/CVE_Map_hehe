@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-13T14:25:37Z",
+  "last_updated": "2026-05-13T17:10:05Z",
   "articles": [
+    {
+      "title": "Windows BitLocker zero-day gives access to protected drives, PoC released",
+      "link": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
+      "description": "A cybersecurity researcher has published proof-of-concept (PoC) exploits for two unpatched Microsoft Windows vulnerabilities named YellowKey and GreenPlasma, which are a BitLocker bypass and a priv...",
+      "pub_date": "Wed, 13 May 2026 12:37:49 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Webinar tomorrow: Why security alone won't stop modern attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/",
+      "description": "Tomorrow's webinar examines why prevention alone is no longer enough against modern cyberattacks. The session explores how organizations combine security, backups, and recovery planning to improve ...",
+      "pub_date": "Wed, 13 May 2026 11:45:56 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft fixes BitLocker recovery issue only for Windows 11 users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-issue-only-for-windows-11-users/",
+      "description": "Microsoft has addressed a known issue causing some Windows 11 systems to boot into BitLocker recovery after installing the April 2026 Windows security updates. [...]",
+      "pub_date": "Wed, 13 May 2026 11:42:46 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft fixes Windows Autopatch bug installing restricted drivers",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/",
+      "description": "Microsoft has fixed a Windows Autopatch bug that caused driver updates restricted by administrative policies to be deployed on some Autopatch-managed Windows devices in the European Union. [...]",
+      "pub_date": "Wed, 13 May 2026 10:36:09 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "How Top SOCs and MSSPs Prevent Phishing Incidents Missed by Email Filters ",
+      "link": "https://cybersecuritynews.com/socs-mssps-phishing-prevention/",
+      "description": "Email filters are important, but they\u0026#160;can’t\u0026#160;remove phishing risk on their own.\u0026#160;Today’s campaigns are built to slip through the cracks, using fresh domains, CAPTCHA checks, fake l...",
+      "pub_date": "Wed, 13 May 2026 14:32:46 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR_xkDGbQx8P-_ARH30KCNd4M5hKHXCT4yMdMMkF9ACB34cG4ZyqdYqmL05Do01AJVtF8z1k71RGepUU-E3yEYAnMx16TzlEr35hdnfc_ggojWkE1jCNHU_ZH-S87nYZ0rzVvibrp96-YgKcgqSS3HlclDA2qUiLJvKni-UjR0C2mVzU3gaCz_U_XUlA/s16000/Prevent%20Phishing%20Incidents%20Missed%20by%20Email%20Filters.webp?ssl=1"
+    },
     {
       "title": "Foxconn Confirms Cyberattack After Nitrogen Ransomware Gang Claim",
       "link": "https://cybersecuritynews.com/foxconn-confirms-cyberattack/",
@@ -58,9 +98,9 @@
       "image_url": ""
     },
     {
-      "title": "[Webinar] Why Your AppSec Tools Miss the \"Lethal Path\" (and How to Fix It)",
+      "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud",
       "link": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
-      "description": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz and Okta/GitLab to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register...",
+      "description": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strateg...",
       "pub_date": "Wed, 13 May 2026 17:22:43 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-X1ZWS1wjhotRXh44H3uH6bxJmz3fwKA9tFIuYxCVV_b_BhzNKscxBa_St0ybBNSIpHYTlgBf0YvsuY1B2FUJebmGwtpkgeDh7DutT4ERpurg_iRTfDNbyWWzFOt5Z8PLGDu-kywwNTPdNVK_UDcAC8ZzdFCry5xDvx8c8l9QtNJKk6J4ZQVRIpvAfzwf/s1600/wiz.jpg"
@@ -154,14 +194,6 @@
       "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqL2GTPkUJS2O0USGbkZh_mX2tVLIZr-8ENRzqALsmNOzXIbXKVkA4ZZtwAVoFJ7M5B9fLRRmxEQAo53S3OUjZprhiKIwyNZOftqmaDO-8ULn8caovoYkmu8IwYGRt66k0FrVI7r8X7vl2i2iCvwuPSf1uv9CGOMVRz93OFfpTyYupbe8T4Bu58fMI_bI/s16000/Best%20Data%20Loss%20Prevention%20Software.webp?ssl=1"
     },
     {
-      "title": "Microsoft Teams Vulnerability Allows Hackers to Perform Spoofing Attacks",
-      "link": "https://cybersecuritynews.com/microsoft-teams-vulnerability-spoofing/",
-      "description": "A newly disclosed security vulnerability in Microsoft Teams could allow attackers to spoof local devices, raising concerns for enterprises and individual users who rely on the platform for daily co...",
-      "pub_date": "Wed, 13 May 2026 02:51:04 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Teams-Vulnerability-Spoofing.webp"
-    },
-    {
       "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
       "link": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
       "description": "The U.S. House Committee on Homeland Security is calling on Instructure executives to testify about two cyberattacks by the ShinyHunters extortion group that targeted the company's Canvas platform,...",
@@ -226,22 +258,6 @@
       "image_url": ""
     },
     {
-      "title": "Škoda warns of customer data breach after online shop hack",
-      "link": "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
-      "description": "Škoda Auto, a wholly owned subsidiary of the Volkswagen Group, has disclosed a data breach after attackers hacked its online shop and stole the personal information of an undisclosed number of cus...",
-      "pub_date": "Tue, 12 May 2026 13:07:01 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Android 17 to expand banking scam call and privacy protections",
-      "link": "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
-      "description": "Android 17, expected to roll out next month, will introduce several security and privacy features focused on device theft, threat detection, and banking scam calls. [...]",
-      "pub_date": "Tue, 12 May 2026 13:00:00 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
       "link": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
       "description": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an open-source Mail ...",
@@ -280,22 +296,6 @@
       "pub_date": "Tue, 12 May 2026 17:16:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXIhs2kZt0YGdDcd-Io67mq1GIN_iI_71LYhuin4qqmlgUgCuZ3fGUvglg_5nh5DK8kfPP8RHki86yMyqh4rTE27PGgPBh4RQjkh91-QGoB8cav5NUsYAwcV3ZJ7aEf-uEoH3pLGQ2eWuCh8lZSWAlTIa2U5I6eeB3HZmYMn4q-YoV7Ytmkpr1tN0lC2rG/s1600/mistral.jpg"
-    },
-    {
-      "title": "Shai Hulud attack ships signed malicious TanStack, Mistral npm packages",
-      "link": "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
-      "description": "Hundreds of packages across npm and PyPI have been compromised in a new Shai-Hulud supply-chain campaign delivering credential-stealing malware targeting developers. [...]",
-      "pub_date": "Tue, 12 May 2026 07:29:36 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA",
-      "link": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/",
-      "description": "SAP has released the May 2026 security updates addressing 15 vulnerabilities across multiple products, including two critical flaws in the Commerce Cloud enterprise-grade e-commerce platform and th...",
-      "pub_date": "Tue, 12 May 2026 07:04:55 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Why Agentic AI Is Security's Next Blind Spot",
