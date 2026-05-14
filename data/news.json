@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-05-14T07:37:35Z",
+  "last_updated": "2026-05-14T10:07:41Z",
   "articles": [
+    {
+      "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
+      "link": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
+      "description": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random reboots affecting Dell devices since Friday. [...]",
+      "pub_date": "Thu, 14 May 2026 06:03:39 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Lyrie.ai Launches the Global Identity Standard for the AI Agent Age \u0026 Anthropic’s Cyber Verification Program",
+      "link": "https://cybersecuritynews.com/lyrie-ai-launches-the-global-identity-standard-for-the-ai-agent-age-anthropics-cyber-verification-program/",
+      "description": "DUBAI, UAE — May 11, 2026\u0026#160;— As the internet transitions from a playground of chatbots to a workforce of autonomous agents, the question isn’t just what AI can do—it’s who the AI is. ...",
+      "pub_date": "Thu, 14 May 2026 09:36:46 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKJSmqxhTF2sWhufMjkTZBjvP98Xf4JxM5-L6Y_A2d2QKrSX7ZABgoVg8hXixMBPPvAxTfGO9Uwo-pZJpZKlOtS3-npyEE4VLtTCiWWNHLZ9Lb5883iEmreFzTr8rgHwuOU-P-ybhsbXcTjm4AKVi3kkbeVG0uazTciMySXo_1bC-E9As4SP8fd0zsEqI/s16000/TTT%20-%202026-05-14T142532.836.webp?ssl=1"
+    },
+    {
+      "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
+      "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+      "description": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting W...",
+      "pub_date": "Thu, 14 May 2026 14:55:50 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXt7ooDl2PwJY4nazAKdW9rmILsmosve2FZaO9usxTk_rkksEEvsLgY-uc_MErXvjvusuWjN7PWRM9KaRXB1OkL75gio7tcqpMsPZxaFNE9XDpYmARH3Dw_gGgddwWXHSt5VUJ-lb56F9bCVzTYghEo7qELWVv8K_W8V1BrWgssgqWkzPJxW6I31i_GyYf/s1600/windowss.jpg"
+    },
+    {
+      "title": "OpenAI Hit with Class-Action Privacy Lawsuit for Sharing ChatGPT Data with Google and Meta",
+      "link": "https://cybersecuritynews.com/openai-chatgpt-privacy-lawsuit/",
+      "description": "OpenAI Global LLC is facing a new class‑action complaint in the Southern District of California that accuses the company of quietly wiring its ChatGPT web interface with Meta’s Facebook Pixel a...",
+      "pub_date": "Thu, 14 May 2026 09:15:15 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/OpenAI-ChatGPT-Privacy-Lawsuit.webp"
+    },
+    {
+      "title": "Langflow CVE-2026-33017 Exploited to Steal AWS Keys and Deploy NATS Worker",
+      "link": "https://cybersecuritynews.com/langflow-cve-2026-33017-exploited/",
+      "description": "Attackers are now abusing a fresh Langflow vulnerability to quietly steal cloud keys and turn victim systems into workers for a new NATS based botnet. This campaign shows how a single exposed AI wo...",
+      "pub_date": "Thu, 14 May 2026 09:12:08 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Langflow-CVE-2026-33017-Exploited-to-Steal-AWS-Keys-and-Deploy-NATS-Worker.webp"
+    },
+    {
+      "title": "US charges suspected Dream Market admin arrested in Germany",
+      "link": "https://www.bleepingcomputer.com/news/security/us-charges-suspected-dream-market-admin-arrested-in-germany/",
+      "description": "The alleged main administrator of Dream Market Incognito Market, one of the largest dark web marketplaces before its shutdown, has been indicted in the United States on money laundering charges. [...]",
+      "pub_date": "Thu, 14 May 2026 04:55:46 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Packagist Urges Immediate Composer Update After GitHub Actions Token Leak",
+      "link": "https://cybersecuritynews.com/packagist-urges-immediate-composer-update/",
+      "description": "Packagist is sounding the alarm for PHP developers everywhere. A flaw in Composer, the widely used PHP dependency manager, briefly caused GitHub authentication tokens to leak into publicly visible ...",
+      "pub_date": "Thu, 14 May 2026 08:50:14 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Packagist-Urges-Immediate-Composer-Update-After-GitHub-Actions-Token-Leak.webp"
+    },
+    {
+      "title": "Seedworm APT Abuses Signed Fortemedia and SentinelOne Binaries for DLL Sideloading",
+      "link": "https://cybersecuritynews.com/seedworm-apt-abuses-signed-fortemedia/",
+      "description": "Iran-linked hackers have been quietly breaking into networks around the world, and their latest campaign is more calculated than anything we have seen from them before. The group known as Seedworm,...",
+      "pub_date": "Thu, 14 May 2026 08:14:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Seedworm-APT-Abuses-Signed-Fortemedia-and-SentinelOne-Binaries-for-DLL-Sideloading.webp"
+    },
+    {
+      "title": "Windows DNS Client Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/windows-dns-client-vulnerability/",
+      "description": "A newly disclosed vulnerability in the Microsoft Windows DNS Client could let attackers silently execute malicious code across enterprise networks, exposing a massive attack surface. Officially des...",
+      "pub_date": "Thu, 14 May 2026 07:53:38 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Windows-DNS-Client-Vulnerability-Enables-Remote-Code-Execution-Attacks.webp"
+    },
     {
       "title": "New Fragnesia Linux flaw lets attackers gain root privileges",
       "link": "https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/",
@@ -8,6 +80,14 @@
       "pub_date": "Thu, 14 May 2026 03:34:19 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
+      "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
+      "description": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug ...",
+      "pub_date": "Thu, 14 May 2026 12:36:15 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZEVPJhl5rAx5o22-s1GQ6E1KKHMlOsazAfObgwK72r5EGxr52OkNRHHQXJdHt39DQop0SAhxE_t9nMKgXxHNgYv1zyB-ZR1IqCIKUK2feTpx1swr4dZzKLpZ5uldjrOAX6qH-wYnUfRWieA2xQWPbAUB1JpXhkBGq4AA0Ft07F7MFqZSHCS9SMR6uXjoC/s1600/linux-2.jpg"
     },
     {
       "title": "Critical 18-Year-Old NGINX Vulnerability Enables Remote Code Execution Attacks",
@@ -106,30 +186,6 @@
       "image_url": ""
     },
     {
-      "title": "How Top SOCs and MSSPs Prevent Phishing Incidents Missed by Email Filters ",
-      "link": "https://cybersecuritynews.com/socs-mssps-phishing-prevention/",
-      "description": "Email filters are important, but they\u0026#160;can’t\u0026#160;remove phishing risk on their own.\u0026#160;Today’s campaigns are built to slip through the cracks, using fresh domains, CAPTCHA checks, fake l...",
-      "pub_date": "Wed, 13 May 2026 14:32:46 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR_xkDGbQx8P-_ARH30KCNd4M5hKHXCT4yMdMMkF9ACB34cG4ZyqdYqmL05Do01AJVtF8z1k71RGepUU-E3yEYAnMx16TzlEr35hdnfc_ggojWkE1jCNHU_ZH-S87nYZ0rzVvibrp96-YgKcgqSS3HlclDA2qUiLJvKni-UjR0C2mVzU3gaCz_U_XUlA/s16000/Prevent%20Phishing%20Incidents%20Missed%20by%20Email%20Filters.webp?ssl=1"
-    },
-    {
-      "title": "Foxconn Confirms Cyberattack After Nitrogen Ransomware Gang Claim",
-      "link": "https://cybersecuritynews.com/foxconn-confirms-cyberattack/",
-      "description": "Foxconn has officially confirmed a cyberattack targeting its North American operations after the Nitrogen ransomware gang publicly listed the company on its data leak site, claiming to have stolen ...",
-      "pub_date": "Wed, 13 May 2026 14:18:25 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Foxconn-Confirms-Cyberattack.webp"
-    },
-    {
-      "title": "Fragnesia Linux Vulnerability Let Attackers Gain Root Privileges – PoC Released",
-      "link": "https://cybersecuritynews.com/fragnesia-linux-vulnerability/",
-      "description": "A newly disclosed Linux kernel vulnerability dubbed Fragnesia allows any local unprivileged user to escalate privileges to root without requiring a race condition, making it one of the more reliabl...",
-      "pub_date": "Wed, 13 May 2026 13:48:15 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Fragnesia-Linux-Vulnerability.webp"
-    },
-    {
       "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
       "link": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
       "description": "Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by som...",
@@ -186,36 +242,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg70Fxtk3MEmUdZjXl_ocBSlT80rWfXtIj2kxPvypzCSlEK4cqkm8lo16NXHjvyCw9niiPk2gKSPhgTjSFTZpetxg2As7QL0AyWWHoTuvtcp1Ok-ALMfcUwaUMAyE8asDu-KjVDoUP4VLCOSDPWHru7V-ix6Xs-VSHvHDJ8KRn6NLq_EJJBm0B4xwa9vbLp/s1600/pentera.jpg"
     },
     {
-      "title": "ClickFix Evolves with 10-Year-Old Open-Source Python SOCKS5 Proxy",
-      "link": "https://cybersecuritynews.com/clickfix-evolves-with-python-socks5-proxy/",
-      "description": "A cyberattack campaign that tricks users into running malicious commands on their own computers has taken a dangerous new turn. The technique, known as \u0026#8220;ClickFix,\u0026#8221; has been circulating ...",
-      "pub_date": "Wed, 13 May 2026 11:06:52 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/ClickFix-Evolves-with-10-Year-Old-Open-Source-Python-SOCKS5-Prox.webp"
-    },
-    {
       "title": "Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws",
       "link": "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
       "description": "Microsoft on Tuesday released patches for 138 security vulnerabilities spanning its product portfolio, although none of them have been listed as publicly known or under active attack. Of the 138 fl...",
       "pub_date": "Wed, 13 May 2026 16:06:10 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk3m3CoTiKH2QVXSFAOVKKnTl-Ybt1FDE4M7BGK_ujskSYNQ8pOlcvZfyNv8CW2EJIVdMQaORcCE0H-_ufTvD6hR-LOOZ64GZPS_9bH7YrE4i0r4LrGCn7vXmG0GjpFk8aNlRR_4_GjrM-jhXBS1NzIbYiRydcmiNSXIV2eUczvgjGmp34_gNz3M5kt-Jf/s1600/windows-patch-update.jpg"
-    },
-    {
-      "title": "Critical SandboxJS Escape Vulnerability Enables Host Takeover",
-      "link": "https://cybersecuritynews.com/critical-sandboxjs-escape-vulnerability/",
-      "description": "A critical security flaw has been found in SandboxJS, a widely used JavaScript sandboxing library available on npm. The vulnerability allows attackers to break out of the sandbox entirely and run a...",
-      "pub_date": "Wed, 13 May 2026 10:30:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-SandboxJS-Escape-Vulnerability-Enables-Host-Takeover.webp"
-    },
-    {
-      "title": "iOS 26.5 Brings End-to-end Encrypted RCS Messaging Between iPhone and Android",
-      "link": "https://cybersecuritynews.com/ios-26-5-brings-end-to-end-encrypted-rcs-messaging/",
-      "description": "For years, texting between an iPhone and an Android phone meant your messages traveled without any real privacy protection. That long-standing gap is now being addressed, as Apple and Google have j...",
-      "pub_date": "Wed, 13 May 2026 09:11:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/iOS-26.5-Brings-End-to-end-Encrypted-RCS-Messaging-Between-iPhone-and-Android.webp"
     },
     {
       "title": "GemStuffer Abuses 150+ RubyGems to Exfiltrate Scraped U.K. Council Portal Data",
@@ -246,22 +278,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
       "description": "The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc £963,900 ($1.3 million) over a cyberattack that exposed the personal data o...",
       "pub_date": "Tue, 12 May 2026 16:17:19 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Webinar: Fixing the gaps in network incident response",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/",
-      "description": "IT teams often struggle to quickly coordinate responses across disparate systems during network incidents. This upcoming webinar explores how automation and AI-assisted workflows can reduce respons...",
-      "pub_date": "Tue, 12 May 2026 15:46:04 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Signal adds security warnings for social engineering, phishing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
-      "description": "Signal has introduced new in-app confirmations and warning messages as additional safeguards against phishing and social engineering attempts that could lead to various forms of fraud. [...]",
-      "pub_date": "Tue, 12 May 2026 15:40:31 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -304,22 +320,6 @@
       "pub_date": "Tue, 12 May 2026 17:16:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXIhs2kZt0YGdDcd-Io67mq1GIN_iI_71LYhuin4qqmlgUgCuZ3fGUvglg_5nh5DK8kfPP8RHki86yMyqh4rTE27PGgPBh4RQjkh91-QGoB8cav5NUsYAwcV3ZJ7aEf-uEoH3pLGQ2eWuCh8lZSWAlTIa2U5I6eeB3HZmYMn4q-YoV7Ytmkpr1tN0lC2rG/s1600/mistral.jpg"
-    },
-    {
-      "title": "Why Agentic AI Is Security's Next Blind Spot",
-      "link": "https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html",
-      "description": "Agentic AI is already running in production environments across many organizations today. It is executing tasks, consuming data, and taking actions — most likely without meaningful involvement fr...",
-      "pub_date": "Tue, 12 May 2026 16:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzo1TUnQJpFnJbrO50dvjG14LDr2L6gKHsIIr5P73rSCgksrt2B9eVmRGKxPVvJ1qVMF63ka4So6vj5ln9T1nBIt2MV2DcH_dnYyQp1RREL4nbtnPghY7q5SAwZCwv0bN1ZV58DyTZSLw3UN00nP7uUcX_3ZqFQmAjufAvNRFshC5AJCuMdHb2n9kzC3w/s1600/ai-agents.jpg"
-    },
-    {
-      "title": "Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak",
-      "link": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
-      "description": "American educational technology company Instructure, the parent company of Canvas, said it reached an \"agreement\" with a decentralized cybercrime extortion group after it breached its network and t...",
-      "pub_date": "Tue, 12 May 2026 13:07:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq_FVhPeK2Y77CmHxc0azDelzWwpgSb4m8GZPLeJlsr2QvCZU5ChGQK37bJ_2XsGQRaNszalreV1iNyYDzeLt1I8iqafNTvFCPFQ0czKwX3Q6Q23TqdavunyJJsy6X8vxG_jSz__X5BnFZc4AIIqr-kd0XiNcYgx3UnYaahiViFKAywuQ98a7bbtCPnwgo/s1600/ransom-breach.jpg"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
