@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-14T04:37:17Z",
+  "last_updated": "2026-05-14T07:37:35Z",
   "articles": [
+    {
+      "title": "New Fragnesia Linux flaw lets attackers gain root privileges",
+      "link": "https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/",
+      "description": "Linux distros are rolling out patches for a new high-severity kernel privilege escalation vulnerability (known as Fragnasia and tracked as CVE-2026-46300)  that allows attackers to run malicious co...",
+      "pub_date": "Thu, 14 May 2026 03:34:19 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Critical 18-Year-Old NGINX Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/18-year-old-nginx-rce-vulnerability/",
+      "description": "A critical heap buffer overflow vulnerability has been discovered in the source code of NGINX, present since 2008. This vulnerability has been publicly disclosed, along with a working proof-of-conc...",
+      "pub_date": "Thu, 14 May 2026 06:27:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-18-Year-Old-NGINX-Vulnerability-Enables-Remote-Code-Execution-Attacks-PoC-Releasede-Arbitrary-Code-.webp"
+    },
+    {
+      "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
+      "description": "Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years. The vulnerability, d...",
+      "pub_date": "Thu, 14 May 2026 11:30:09 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhCvxtNv7UYYMCITB2HLsBgkN83LdRXcw0wmP9gMAfXeNpmJoOJKNIaQb55b-GLDeQHx-dUBkASGDYgstnvYAE5eFuwyzMSxY804fn56OaTsGlESOab9y-kFHJ-iV5iUlWrc5j27WLduUDhW6nRSjkv5tFMKZjDbbmDdk7_NMZ3y7sipHKy7t4XuMQ9YfG/s1600/nn.gif"
+    },
+    {
+      "title": "Critical MongoDB Vulnerability Allow Attackers to Execute Arbitrary Code",
+      "link": "https://cybersecuritynews.com/mongodb-rce-vulnerability/",
+      "description": "A newly disclosed critical vulnerability in MongoDB could allow threat actors to execute arbitrary code, potentially handing them complete control over affected servers and exposing millions of rec...",
+      "pub_date": "Thu, 14 May 2026 05:54:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-MongoDB-Vulnerability-Allow-Attackers-to-Execute-Arbitrary-Code-.webp"
+    },
+    {
+      "title": "The Gentlemen RaaS Leverages Fortinet and Cisco Edge Devices for Initial Access",
+      "link": "https://cybersecuritynews.com/the-gentlemen-raas-leverages-fortinet-and-cisco-edge-devices/",
+      "description": "A ransomware group that only surfaced in mid-2025 has already made a significant mark on the threat landscape. The Gentlemen, a ransomware-as-a-service (RaaS) operation, has quickly risen to become...",
+      "pub_date": "Thu, 14 May 2026 05:44:45 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/The-Gentlemen-RaaS-Leverages-Fortinet-and-Cisco-Edge-Devices-for-Initial-Access.webp"
+    },
     {
       "title": "Windows BitLocker 0-Day Vulnerability Enables Access to Encrypted Drives",
       "link": "https://cybersecuritynews.com/windows-bitlocker-0-day-vulnerability/",
@@ -178,36 +218,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/iOS-26.5-Brings-End-to-end-Encrypted-RCS-Messaging-Between-iPhone-and-Android.webp"
     },
     {
-      "title": "New Exim BDAT GnuTLS Vulnerability Enables Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/new-exim-bdat-gnutls-vulnerability/",
-      "description": "A serious security flaw has been found in Exim, one of the most widely deployed mail transfer agents on the internet today. The vulnerability, tracked as EXIM-Security-2026-05-01.1, allows a remote...",
-      "pub_date": "Wed, 13 May 2026 08:27:13 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Exim-BDAT-GnuTLS-Vulnerability-Enables-Code-Execution-Attacks.webp"
-    },
-    {
       "title": "GemStuffer Abuses 150+ RubyGems to Exfiltrate Scraped U.K. Council Portal Data",
       "link": "https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html",
       "description": "Cybersecurity researchers are calling attention to a new campaign dubbed GemStuffer that has targeted the RubyGems repository with more than 150 gems that use the registry as a data exfiltration ch...",
       "pub_date": "Wed, 13 May 2026 13:38:54 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZpbB_p88zZf6q_DhwCbgnYn2okFYqa7pwIPmknojvkOC3heteNMp3C6bzD_6WKChB4yVK0wLyoJ_-DebN0c229j-twjPyMAC-qkfGs1tjlaEoNg30fpEDh9DIByfz_h4nKhalTC_Su-FP0AYxywL_x85ILq1t-QFPtuMa_-KbLKlfsX15kvGpPCs1OZpw/s1600/rubygemss.jpg"
-    },
-    {
-      "title": "Google Enhances Android Mobile Security with New AI-Powered Protections",
-      "link": "https://cybersecuritynews.com/google-enhances-android-mobile-security/",
-      "description": "Android smartphones have become the go-to device for billions of people around the world. From banking and messaging to storing personal photos and sensitive documents, people rely on them for almo...",
-      "pub_date": "Wed, 13 May 2026 07:59:31 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Google-Enhances-Android-Mobile-Security-with-New-AI-Powered-Protections.webp"
-    },
-    {
-      "title": "Microsoft Releases Cumulative Update for Windows 11, Version 25H2 and 24H2",
-      "link": "https://cybersecuritynews.com/microsoft-releases-cumulative-update-for-windows-11/",
-      "description": "Microsoft pushed out a significant cumulative update for Windows 11 on May 12, 2026, covering both version 25H2 and version 24H2. The update, identified as KB5089549, brings OS Builds 26200.8457 an...",
-      "pub_date": "Wed, 13 May 2026 07:01:42 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Releases-Cumulative-Update-for-Windows-11-Version-25H2-and-24H2.webp"
     },
     {
       "title": "Android Adds Intrusion Logging for Sophisticated Spyware Forensics",
@@ -246,14 +262,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
       "description": "Signal has introduced new in-app confirmations and warning messages as additional safeguards against phishing and social engineering attempts that could lead to various forms of fraud. [...]",
       "pub_date": "Tue, 12 May 2026 15:40:31 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft releases Windows 10 KB5087544 extended security update",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/",
-      "description": "Microsoft has released the Windows 10 KB5087544 extended security update to fix the May 2026 Patch Tuesday vulnerabilities and resolve an issue with the new Remote Desktop warnings. [...]",
-      "pub_date": "Tue, 12 May 2026 14:58:34 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -312,14 +320,6 @@
       "pub_date": "Tue, 12 May 2026 13:07:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq_FVhPeK2Y77CmHxc0azDelzWwpgSb4m8GZPLeJlsr2QvCZU5ChGQK37bJ_2XsGQRaNszalreV1iNyYDzeLt1I8iqafNTvFCPFQ0czKwX3Q6Q23TqdavunyJJsy6X8vxG_jSz__X5BnFZc4AIIqr-kd0XiNcYgx3UnYaahiViFKAywuQ98a7bbtCPnwgo/s1600/ransom-breach.jpg"
-    },
-    {
-      "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
-      "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
-      "description": "OpenAI has launched Daybreak, a new cybersecurity initiative that brings together frontier artificial intelligence (AI) model capabilities and Codex Security to help organizations identify and patc...",
-      "pub_date": "Tue, 12 May 2026 12:25:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLWuBkkGzJLNmcxzqkKdh6dI6X-juFjpMWr-k6VGVTL6G1XZUH1sna06RS5PQY0e4A1VpUjvR-dpWMCx0yQJBdjFyjnoyOek-ysMpU7cgWBkUHChyADdRozT1XHNIvUhU_ibCkggQaGESD7St4aCfyx4SWOfLjUSuoeWiJQmmb1EkimfKA27g_tVHdV-G-/s1600/openai-daybreak.jpg"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
