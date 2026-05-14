@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-14T10:07:41Z",
+  "last_updated": "2026-05-14T12:21:50Z",
   "articles": [
+    {
+      "title": "KongTuke hackers now use Microsoft Teams for corporate breaches",
+      "link": "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
+      "description": "Initial access broker KongTuke has moved to Microsoft Teams for social engineering attacks, taking as little as five minutes to gain persistent access to corporate networks. [...]",
+      "pub_date": "Thu, 14 May 2026 08:12:40 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Abuse Legitimate HWMonitor Binary to Load Malicious DLL Payload",
+      "link": "https://cybersecuritynews.com/hackers-abuse-legitimate-hwmonitor-binary/",
+      "description": "Hackers are once again turning familiar tools against the very users who trust them. A new attack campaign has been discovered in which threat actors weaponized HWMonitor, a widely used hardware mo...",
+      "pub_date": "Thu, 14 May 2026 12:03:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-Legitimate-HWMonitor-Binary-to-Load-Malicious-DLL-Payload.webp"
+    },
+    {
+      "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
+      "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
+      "description": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of public disc...",
+      "pub_date": "Thu, 14 May 2026 17:10:14 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2IaSkdVZD_wyJJT-sODoazviDXhw3MGkn5XHYocnTL1YfLJpgJ-1wNaAm0Rk0phyrIv8vS73SNNkPSmlxRkK9ySAQGnn_tCP9JcVKyqee6lxjlYEp0cs2C_R9cDtgCEXwsjWtx1XnafF5r_fAuDDAvg0CRMOgJk8ZMwSjRsw1Js90uR-97t-rh5yU12Oj/s1600/praison.jpg"
+    },
+    {
+      "title": "How AI Hallucinations Are Creating Real Security Risks",
+      "link": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
+      "description": "AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lack...",
+      "pub_date": "Thu, 14 May 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi45HPlwBwWVoL1fRSEGy7bjtz4Z05lAO8NWxLqPrzQ93c3j5aaj_CaK5gCrJC6aYP0ePV36n27rw33vJv5mUXf3mtdOEItJjHrSkzckVGAdTU2UMp8s-HAVjNUE7jVDeTH0UikGxNZWeB6J3qVNguP2iO5V5-qUgW3g_IqxZ9cMEZy0tS0iEsl8MnSjB0/s1600/keeper.jpg"
+    },
+    {
+      "title": "Palo Alto PAN-OS 0-Day Exploited to Execute Arbitrary Code With Root Privileges on Firewalls",
+      "link": "https://cybersecuritynews.com/pan-os-rce-flaw-exploited/",
+      "description": "A critical vulnerability in Palo Alto Networks PAN-OS is putting enterprise firewalls at risk, allowing unauthenticated attackers to execute arbitrary code with root privileges. Tracked as CVE-2026...",
+      "pub_date": "Thu, 14 May 2026 11:26:41 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/PAN-OS-RCE-Flaw-Exploited.webp"
+    },
     {
       "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
       "link": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
@@ -112,22 +152,6 @@
       "pub_date": "Thu, 14 May 2026 05:54:28 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-MongoDB-Vulnerability-Allow-Attackers-to-Execute-Arbitrary-Code-.webp"
-    },
-    {
-      "title": "The Gentlemen RaaS Leverages Fortinet and Cisco Edge Devices for Initial Access",
-      "link": "https://cybersecuritynews.com/the-gentlemen-raas-leverages-fortinet-and-cisco-edge-devices/",
-      "description": "A ransomware group that only surfaced in mid-2025 has already made a significant mark on the threat landscape. The Gentlemen, a ransomware-as-a-service (RaaS) operation, has quickly risen to become...",
-      "pub_date": "Thu, 14 May 2026 05:44:45 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/The-Gentlemen-RaaS-Leverages-Fortinet-and-Cisco-Edge-Devices-for-Initial-Access.webp"
-    },
-    {
-      "title": "Windows BitLocker 0-Day Vulnerability Enables Access to Encrypted Drives",
-      "link": "https://cybersecuritynews.com/windows-bitlocker-0-day-vulnerability/",
-      "description": "Two new unpatched Windows BitLocker zero-day vulnerabilities significantly compromise Microsoft\u0026#8217;s ecosystem. The exploits include a critical BitLocker encryption bypass called YellowKey and a...",
-      "pub_date": "Thu, 14 May 2026 03:01:04 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Windows-BitLocker-0-Day-Vulnerability.webp"
     },
     {
       "title": "West Pharmaceutical says hackers stole data, encrypted systems",
@@ -274,14 +298,6 @@
       "image_url": ""
     },
     {
-      "title": "UK fines water supplier $1.3M for exposing data of 664k customers",
-      "link": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
-      "description": "The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc £963,900 ($1.3 million) over a cyberattack that exposed the personal data o...",
-      "pub_date": "Tue, 12 May 2026 16:17:19 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
       "link": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
       "description": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an open-source Mail ...",
@@ -304,22 +320,6 @@
       "pub_date": "Tue, 12 May 2026 18:20:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbBy7H5qvorFUmJqREACqqxVC0ogVq88dP8wLyKyUPF9fCowpUSkb7foEsEPDALt0ccCpcJc6PXCJjFmQo0oX3furU-cYPULBa0-pjpiLGV04JD6kr4G0VIrvFoJo54WmgjU1YocsquA15N3hxDmwt4i82QpYdil7F4fI0SMFVv9YCkbqqGKjIi-dEmcIx/s1600/tricks.jpg"
-    },
-    {
-      "title": "Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help",
-      "link": "https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html",
-      "description": "Why do the Riskiest SOC Alerts Go Unanswered? Security operations teams are drowning in alerts. But the real problem isn't always alert volume; it's the blind spots. The most dangerous alerts are t...",
-      "pub_date": "Tue, 12 May 2026 17:28:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA12ieHY1fiDaLvgyhGriQgzyEXJlSwwkQvcJXqP10JFEOcbwVa_EZD9H26tzLJovmlGHDHLL37-0H4y3ePSn5qDwRu6-X6I2StjAFHkiZ4_mgZOnjiKHdg2KId0sJ5OuxxWGeL7ULdNA3X_PTGcdv8_QJ4KS9RCtN-Oe3nLiOLWFwbDB46beV8jRaKG4/s1600/Radiant-webinar.jpg"
-    },
-    {
-      "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI \u0026 More Packages",
-      "link": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
-      "description": "TeamPCP, the threat actor behind the recentsupply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI...",
-      "pub_date": "Tue, 12 May 2026 17:16:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXIhs2kZt0YGdDcd-Io67mq1GIN_iI_71LYhuin4qqmlgUgCuZ3fGUvglg_5nh5DK8kfPP8RHki86yMyqh4rTE27PGgPBh4RQjkh91-QGoB8cav5NUsYAwcV3ZJ7aEf-uEoH3pLGQ2eWuCh8lZSWAlTIa2U5I6eeB3HZmYMn4q-YoV7Ytmkpr1tN0lC2rG/s1600/mistral.jpg"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
