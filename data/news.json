@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-05-14T21:03:13Z",
+  "last_updated": "2026-05-14T22:50:18Z",
   "articles": [
+    {
+      "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
+      "description": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to websites. [...]",
+      "pub_date": "Thu, 14 May 2026 17:07:17 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Sandworm Hackers Pivot From Compromised IT Systems Toward Critical OT Assets",
+      "link": "https://cybersecuritynews.com/sandworm-hackers-pivot-from-compromised-it-systems/",
+      "description": "A Russian state-sponsored hacking group known as Sandworm has been caught making a calculated pivot from compromised IT networks into operational technology systems that control physical infrastruc...",
+      "pub_date": "Thu, 14 May 2026 20:14:42 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Sandworm-Hackers-Pivot-From-Compromised-IT-Systems-Toward-Critical-OT-Assets.webp"
+    },
     {
       "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
@@ -8,6 +24,14 @@
       "pub_date": "Thu, 14 May 2026 16:09:56 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Chinese APT Hackers Exploit Microsoft Exchange to Breach Energy Sector Network",
+      "link": "https://cybersecuritynews.com/chinese-apt-hackers-exploit-microsoft-exchange/",
+      "description": "A Chinese state-linked hacking group known as FamousSparrow has quietly infiltrated an Azerbaijani oil and gas company, exploiting an unpatched Microsoft Exchange server to plant multiple backdoors...",
+      "pub_date": "Thu, 14 May 2026 20:01:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Chinese-APT-Hackers-Exploit-Microsoft-Exchange-to-Breach-Energy-Sector-Network.webp"
     },
     {
       "title": "OpenAI confirms security breach in TanStack supply chain attack",
@@ -26,6 +50,22 @@
       "image_url": ""
     },
     {
+      "title": "New Malware Framework Enables Screen Control, Browser Artifact Access, and UAC Bypass",
+      "link": "https://cybersecuritynews.com/new-malware-framework-enables-screen-control/",
+      "description": "A newly uncovered malware framework is raising serious alarms across the cybersecurity community. Researchers have identified a previously unknown implant called TencShell, a sophisticated tool cap...",
+      "pub_date": "Thu, 14 May 2026 18:32:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Malware-Framework-Enables-Screen-Control-Browser-Artifact-Access-and-UAC-Bypass.webp"
+    },
+    {
+      "title": "node-ipc npm Package with 822K Weekly Downloads Compromised in Supply Chain Attack",
+      "link": "https://cybersecuritynews.com/node-ipc-npm-package-compromised/",
+      "description": "A widely used JavaScript inter-process communication library has been weaponized again. Socket and Stepsecurity have confirmed that three newly published versions of node-ipc, a package with over 8...",
+      "pub_date": "Thu, 14 May 2026 18:08:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/node-ipc-npm-Package-Compromised.webp"
+    },
+    {
       "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
       "link": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
       "description": "Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerability, tracked as C...",
@@ -34,12 +74,44 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9rok1ToP_K0gWug0GnICltZkvx6bMRyhHfTJG1AcSfrGpM_fOVc61O3Fpyen_IW-wpb4s6Hl3qZcU5nEs77SMWSpKNDR4rrlY2syVVSNEBrpHx8RkWmYaN9MZORNICc8LNhuNjXqqhxmy7JN-y389oyQnAAFoBMJC1NoQSQFaOZ2MnrpKQRfv_eYXIoWI/s1600/cisco-exploit.jpg"
     },
     {
+      "title": "Anthropic’s Mythos AI Reportedly Found macOS Vulnerabilities that Could Bypass Apple Security",
+      "link": "https://cybersecuritynews.com/anthropics-mythos-macos-vulnerabilities/",
+      "description": "Security researchers at Calif, a Palo Alto-based cybersecurity firm, have used techniques derived from an early version of Anthropic\u0026#8217;s secretive Mythos AI model to uncover two previously undo...",
+      "pub_date": "Thu, 14 May 2026 17:42:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Anthropics-Mythos-macOS-Vulnerabilities.webp"
+    },
+    {
       "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
       "link": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
       "description": "Cybersecurity researchers are sounding the alarm about what has been described as \"malicious activity\" in newly published versions of node-ipc. According to Socket and StepSecurity, three different...",
       "pub_date": "Thu, 14 May 2026 22:52:43 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTj2m9-HHmDEDzKIsalsJ_HJcwcUsIFajvcpTLP9QMyqS9F_JroTH7lXeOGZFuO6j6F-RzbIo1kBIQ0udSFQGzjN2hxO8ZfyFeHM5557BPI1sjiJ7cEMJJE62t11e07Wt1CsmAntpLHSM0XbnQDvVYNBfNdAOsob9kN6G6-mQjKX68fEE1nzy_Bn4TvxyK/s1600/node.jpg"
+    },
+    {
+      "title": "Hackers Compromise 170 npm Packages to Steal GitHub, npm, AWS, and Kubernetes Secrets",
+      "link": "https://cybersecuritynews.com/hackers-compromise-170-npm-packages/",
+      "description": "A sprawling supply chain attack has put software developers worldwide on high alert after hackers compromised more than 170 npm packages and two PyPI packages in a coordinated credential theft camp...",
+      "pub_date": "Thu, 14 May 2026 17:21:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Compromise-170-npm-Packages-to-Steal-GitHub-npm-AWS-and-Kubernetes-Secrets.webp"
+    },
+    {
+      "title": "Critical Canon MailSuite Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/canon-mailsuite-vulnerability/",
+      "description": "Enterprise email infrastructure remains one of the most critical and vulnerable targets for cybercriminals. A highly severe security flaw has just been discovered in Canon\u0026#8217;s GUARDIANWALL Mail...",
+      "pub_date": "Thu, 14 May 2026 17:03:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Canon-MailSuite-Vulnerability-Enables-Remote-Code-Execution-Attacks.webp"
+    },
+    {
+      "title": "TeamPCP and BreachForums Hackers Running $1,000 Contest for Supply Chain Attacks",
+      "link": "https://cybersecuritynews.com/hackers-1000-contest-supply-chain-attacks/",
+      "description": "The cybercrime underworld is turning open-source supply chain attacks into a twisted competition. After months of infiltrating security tools and CI/CD pipelines, the notorious hacking group TeamPC...",
+      "pub_date": "Thu, 14 May 2026 17:01:07 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/TeamPCP-and-BreachForums-Hackers-Running-1000-Contest-for-Supply-Chain-Attacks.webp"
     },
     {
       "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
@@ -56,6 +128,22 @@
       "pub_date": "Thu, 14 May 2026 11:43:41 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Amazon Quick Bug Exposed AI Chat Agents to Users Blocked by Custom Permissions",
+      "link": "https://cybersecuritynews.com/amazon-quick-bug-exposed-ai-chat-agents/",
+      "description": "Imagine locking your organization\u0026#8217;s sensitive data behind a heavy vault door, only to realize the locking mechanism is entirely missing. Security researchers at Fog Security recently uncovere...",
+      "pub_date": "Thu, 14 May 2026 15:26:19 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Amazon-Quick-Bug-Exposed-AI-Chat-Agents-to-Users-Blocked-by-Custom-Permissions.webp"
+    },
+    {
+      "title": "New Critical Exim Mailer Allows Remote Attacker to Execute Arbitrary Code",
+      "link": "https://cybersecuritynews.com/exim-mailer-arbitrary-code-execution/",
+      "description": "A critical vulnerability in the widely used Exim mail server allows unauthenticated attackers to execute arbitrary code and fully compromise exposed servers. Federico Kirschbaum, head of the Securi...",
+      "pub_date": "Thu, 14 May 2026 15:23:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-critical-Exim-mailer-Allows-remote-attacker-to-execute-arbitrary-code.webp"
     },
     {
       "title": "Cyber-Enabled Cargo Crime: How Cybercrime Tradecraft is Used to Steal Freight",
@@ -182,14 +270,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/",
       "description": "Tomorrow's webinar examines why prevention alone is no longer enough against modern cyberattacks. The session explores how organizations combine security, backups, and recovery planning to improve ...",
       "pub_date": "Wed, 13 May 2026 11:45:56 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft fixes BitLocker recovery issue only for Windows 11 users",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-issue-only-for-windows-11-users/",
-      "description": "Microsoft has addressed a known issue causing some Windows 11 systems to boot into BitLocker recovery after installing the April 2026 Windows security updates. [...]",
-      "pub_date": "Wed, 13 May 2026 11:42:46 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
