@@ -1,53 +1,29 @@
 {
-  "last_updated": "2026-05-15T09:40:15Z",
+  "last_updated": "2026-05-15T11:49:00Z",
   "articles": [
     {
-      "title": "Microsoft Details Kazuar Malware’s Modular Architecture and P2P Botnet Operations",
-      "link": "https://cybersecuritynews.com/microsoft-details-kazuar-malwares-modular-architecture/",
-      "description": "A nation-state malware known as Kazuar has resurfaced with a far more dangerous design than anyone expected. What once started as a relatively standard backdoor has now grown into a fully modular, ...",
-      "pub_date": "Fri, 15 May 2026 08:53:28 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Details-Kazuar-Malwares-Modular-Architecture-and-P2P-Botnet-Operations.webp"
+      "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
+      "link": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
+      "description": "In Your Biggest Security Risk Isn't Malware — It's What You Already Trust, we made a simple argument: the most dangerous activity inside most organizations no longer looks like an attack. It look...",
+      "pub_date": "Fri, 15 May 2026 16:30:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVcSUDrpIZyFrHqIlIGnXfIShsEamRNviaM6TguPwmQI9KkhrIXOQbQ0WVKiOkcBGkFqKTKZmK16zPChmlcCbZHIkX3K_C0sjnyXYJjpZuJXO3OiIhUe7Ez8jCNiTxh0FGYS2-RR6HKsl9pWJVgc_uXAtHXj0hgU-mLSsOh-QHft6A92KtgWPQhk1OVPA/s1600/Attack-Surface.jpg"
     },
     {
-      "title": "VMware Fusion Vulnerability Let Attackers Escalate Privilege to Root",
-      "link": "https://cybersecuritynews.com/vmware-fusion-toctou-vulnerability/",
-      "description": "A high-severity privilege escalation vulnerability has been discovered in VMware Fusion, Broadcom\u0026#8217;s popular macOS virtualization software, allowing local attackers to gain root-level access o...",
-      "pub_date": "Fri, 15 May 2026 08:24:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/VMware-Fusion-TOCTOU-Vulnerability.webp"
+      "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
+      "link": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
+      "description": "OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user data, production sys...",
+      "pub_date": "Fri, 15 May 2026 16:24:44 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1l4Vq20M4553fkDfGbO9VqLV9Au-6EefivLp8HT2W5QxJvgWf1mr6pg5xsbC5j3FCJzOOCJv_CImY1LjjFYIN_25ajki1iS_EVPvTyeVY7bC3ogcQFzHmE1Xyaz3cRXneilC0rWcb8dLbUapLI_jZ-uBaUkku48absoxM6TG16jS3xxtw9lhhtCvJmemK/s1600/chatgpt.jpg"
     },
     {
-      "title": "Hackers Abuse Scheduled Tasks to Maintain Persistence in FrostyNeighbor Attacks",
-      "link": "https://cybersecuritynews.com/hackers-abuse-scheduled-tasks-to-maintain-persistence/",
-      "description": "A state-aligned hacking group known as FrostyNeighbor has resurfaced with a fresh wave of cyberattacks targeting government organizations in Ukraine, using a carefully designed infection chain that...",
-      "pub_date": "Fri, 15 May 2026 08:04:29 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-Scheduled-Tasks-to-Maintain-Persistence-in-FrostyNeighbor-Attacks.webp"
-    },
-    {
-      "title": "79 Chrome Vulnerabilities Patched, Including 14 Critical One’s – Update Now!",
-      "link": "https://cybersecuritynews.com/79-chrome-vulnerabilities-patched/",
-      "description": "Google has rolled out a massive security update for its Chrome browser, sealing a staggering 79 vulnerabilities before threat actors can exploit them. With 14 of these flaws rated as critical, brow...",
-      "pub_date": "Fri, 15 May 2026 07:37:07 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/79-Chrome-Vulnerabilities-Patched-Including-14-Critical-Ones-Update-Now.webp"
-    },
-    {
-      "title": "Critical Microsoft Exchange Server Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/microsoft-exchange-server-vulnerability-exploited/",
-      "description": "Microsoft issued an urgent security alert regarding a newly discovered vulnerability in Exchange Server that is currently being exploited in the wild. Tracked as CVE-2026-42897, this critical spoof...",
-      "pub_date": "Fri, 15 May 2026 07:32:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Microsoft-Exchange-Server-Vulnerability-Actively-Exploited-in-Attacks.webp"
-    },
-    {
-      "title": "Critical Next.js Vulnerability Exposes Cloud Credentials, API keys, and Admin Panels",
-      "link": "https://cybersecuritynews.com/next-js-vulnerability-exposes-credentials/",
-      "description": "A high-severity vulnerability in Next.js threatens self-hosted web applications with severe data breaches. Threat actors can now exploit a Server-Side Request Forgery (SSRF) flaw to silently steal ...",
-      "pub_date": "Fri, 15 May 2026 07:22:39 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Next.js-vulnerability-Exposes-Cloud-credentials-API-keys-and-admin-panels-1.webp"
+      "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
+      "description": "On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) wh...",
+      "pub_date": "Fri, 15 May 2026 05:40:42 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
     },
     {
       "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
@@ -66,22 +42,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4XG5z00sF3uL0ZbhtZNiergQ9QVaZJydwP1pXEdPh2o29mwvTS2nPKRbxHftwnEJ1pvxMQS9TQknWqbovk-vW7BRPHUSsBhN4yL2iOwJnlmK7lzCdW9tJbKtKLbnfSZSWgfGlWQ6HO807gjR6dP61VylH1zxWtvfo3c7ui8aBecSjVz5miCG0jHoa8rUA/s1600/cisa-exploit.png"
     },
     {
-      "title": "OpenAI Confirms Security Breach Via TanStack npm Supply Chain Attack",
-      "link": "https://cybersecuritynews.com/openai-confirms-security-breach/",
-      "description": "Two employee devices at OpenAI were compromised in a sweeping software supply chain attack targeting TanStack npm, but the AI company confirmed no user data, production systems, or intellectual pro...",
-      "pub_date": "Fri, 15 May 2026 04:03:04 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/OpenAI-Confirms-Security-Breach.webp"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller 0-Day Actively Exploited to Gain Admin Access",
-      "link": "https://cybersecuritynews.com/cisco-catalyst-sd-wan-controller-0-day/",
-      "description": "A maximum-severity zero-day vulnerability in Cisco Catalyst SD-WAN Controller is being actively exploited in the wild, allowing unauthenticated remote attackers to fully bypass authentication and s...",
-      "pub_date": "Fri, 15 May 2026 02:30:10 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Cisco-Catalyst-SD-WAN-Controller-0-Day.webp"
-    },
-    {
       "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
       "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
       "description": "The TeamPCP hacker group is threatening to leak source code from the Mistral AI project unless a buyer is found for the data. [...]",
@@ -98,28 +58,12 @@
       "image_url": ""
     },
     {
-      "title": "Sandworm Hackers Pivot From Compromised IT Systems Toward Critical OT Assets",
-      "link": "https://cybersecuritynews.com/sandworm-hackers-pivot-from-compromised-it-systems/",
-      "description": "A Russian state-sponsored hacking group known as Sandworm has been caught making a calculated pivot from compromised IT networks into operational technology systems that control physical infrastruc...",
-      "pub_date": "Thu, 14 May 2026 20:14:42 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Sandworm-Hackers-Pivot-From-Compromised-IT-Systems-Toward-Critical-OT-Assets.webp"
-    },
-    {
       "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
       "description": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain administ...",
       "pub_date": "Thu, 14 May 2026 16:09:56 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Chinese APT Hackers Exploit Microsoft Exchange to Breach Energy Sector Network",
-      "link": "https://cybersecuritynews.com/chinese-apt-hackers-exploit-microsoft-exchange/",
-      "description": "A Chinese state-linked hacking group known as FamousSparrow has quietly infiltrated an Azerbaijani oil and gas company, exploiting an unpatched Microsoft Exchange server to plant multiple backdoors...",
-      "pub_date": "Thu, 14 May 2026 20:01:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Chinese-APT-Hackers-Exploit-Microsoft-Exchange-to-Breach-Energy-Sector-Network.webp"
     },
     {
       "title": "OpenAI confirms security breach in TanStack supply chain attack",
@@ -196,7 +140,7 @@
     {
       "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
       "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
-      "description": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of public disc...",
+      "description": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of its public ...",
       "pub_date": "Thu, 14 May 2026 17:10:14 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2IaSkdVZD_wyJJT-sODoazviDXhw3MGkn5XHYocnTL1YfLJpgJ-1wNaAm0Rk0phyrIv8vS73SNNkPSmlxRkK9ySAQGnn_tCP9JcVKyqee6lxjlYEp0cs2C_R9cDtgCEXwsjWtx1XnafF5r_fAuDDAvg0CRMOgJk8ZMwSjRsw1Js90uR-97t-rh5yU12Oj/s1600/praison.jpg"
@@ -282,14 +226,6 @@
       "image_url": ""
     },
     {
-      "title": "Windows BitLocker zero-day gives access to protected drives, PoC released",
-      "link": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
-      "description": "A cybersecurity researcher has published proof-of-concept (PoC) exploits for two unpatched Microsoft Windows vulnerabilities named YellowKey and GreenPlasma, which are a BitLocker bypass and a priv...",
-      "pub_date": "Wed, 13 May 2026 12:37:49 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
       "link": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
       "description": "Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by som...",
@@ -304,22 +240,6 @@
       "pub_date": "Wed, 13 May 2026 18:30:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOfGXVOYqF2EcrcnYIDCnTYdmWpV-uaZ5nV0_0ukZ8uCk19wFFOax_VvgwO8LtlIkVo8pvcSSBs8Afc66yo2PbiMDjq4UDqnytAqP-Nq8CqTOfEtqwuWRmjbUpRYzqaAXFnRiXozR34fXAPE8O6Gcix6f08Sped3oVUXcjIOTE04N8IInA0qVeG0Sc6LzB/s1600/energy-cyberattack.jpg"
-    },
-    {
-      "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud",
-      "link": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
-      "description": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strateg...",
-      "pub_date": "Wed, 13 May 2026 17:22:43 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhKoTt2TCJhCZC7cgKpISoFL1hoD6YqAXVIIIzKZEyYmvXusJXxb2WQ_cYnjRCYdKeOJj2756fnWj2had24_OCECDq5bDf7y98vuYhsKSbrbRH1WYIqpwCF47lLsvrgFGLPkhomycGiEHqDa50OjwuwIZmH6cAu1vOXoXOiTzU4Si8qq6YPfo2r4OsP4KI/s1600/wiz.png"
-    },
-    {
-      "title": "Most Remediation Programs Never Confirm the Fix Actually Worked",
-      "link": "https://thehackernews.com/2026/05/most-remediation-programs-never-confirm.html",
-      "description": "Security teams have never had better visibility into their environments and never been worse at confirming what they fix stays fixed. Mandiant's M-Trends 2026 report puts the mean time to exploit a...",
-      "pub_date": "Wed, 13 May 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg70Fxtk3MEmUdZjXl_ocBSlT80rWfXtIj2kxPvypzCSlEK4cqkm8lo16NXHjvyCw9niiPk2gKSPhgTjSFTZpetxg2As7QL0AyWWHoTuvtcp1Ok-ALMfcUwaUMAyE8asDu-KjVDoUP4VLCOSDPWHru7V-ix6Xs-VSHvHDJ8KRn6NLq_EJJBm0B4xwa9vbLp/s1600/pentera.jpg"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
