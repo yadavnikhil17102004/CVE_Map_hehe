@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-15T02:28:23Z",
+  "last_updated": "2026-05-15T06:26:12Z",
   "articles": [
+    {
+      "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
+      "link": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
+      "description": "The U.S.Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly disclosed vulnerability impacting Cisco Catalyst SD-WAN Controller to its Known Exploited Vulnerabilities (...",
+      "pub_date": "Fri, 15 May 2026 10:58:03 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4XG5z00sF3uL0ZbhtZNiergQ9QVaZJydwP1pXEdPh2o29mwvTS2nPKRbxHftwnEJ1pvxMQS9TQknWqbovk-vW7BRPHUSsBhN4yL2iOwJnlmK7lzCdW9tJbKtKLbnfSZSWgfGlWQ6HO807gjR6dP61VylH1zxWtvfo3c7ui8aBecSjVz5miCG0jHoa8rUA/s1600/cisa-exploit.png"
+    },
+    {
+      "title": "OpenAI Confirms Security Breach Via TanStack npm Supply Chain Attack",
+      "link": "https://cybersecuritynews.com/openai-confirms-security-breach/",
+      "description": "Two employee devices at OpenAI were compromised in a sweeping software supply chain attack targeting TanStack npm, but the AI company confirmed no user data, production systems, or intellectual pro...",
+      "pub_date": "Fri, 15 May 2026 04:03:04 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/OpenAI-Confirms-Security-Breach.webp"
+    },
+    {
+      "title": "Cisco Catalyst SD-WAN Controller 0-Day Actively Exploited to Gain Admin Access",
+      "link": "https://cybersecuritynews.com/cisco-catalyst-sd-wan-controller-0-day/",
+      "description": "A maximum-severity zero-day vulnerability in Cisco Catalyst SD-WAN Controller is being actively exploited in the wild, allowing unauthenticated remote attackers to fully bypass authentication and s...",
+      "pub_date": "Fri, 15 May 2026 02:30:10 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Cisco-Catalyst-SD-WAN-Controller-0-Day.webp"
+    },
     {
       "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
       "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
@@ -136,22 +160,6 @@
       "pub_date": "Thu, 14 May 2026 11:43:41 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Amazon Quick Bug Exposed AI Chat Agents to Users Blocked by Custom Permissions",
-      "link": "https://cybersecuritynews.com/amazon-quick-bug-exposed-ai-chat-agents/",
-      "description": "Imagine locking your organization\u0026#8217;s sensitive data behind a heavy vault door, only to realize the locking mechanism is entirely missing. Security researchers at Fog Security recently uncovere...",
-      "pub_date": "Thu, 14 May 2026 15:26:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Amazon-Quick-Bug-Exposed-AI-Chat-Agents-to-Users-Blocked-by-Custom-Permissions.webp"
-    },
-    {
-      "title": "New Critical Exim Mailer Allows Remote Attacker to Execute Arbitrary Code",
-      "link": "https://cybersecuritynews.com/exim-mailer-arbitrary-code-execution/",
-      "description": "A critical vulnerability in the widely used Exim mail server allows unauthenticated attackers to execute arbitrary code and fully compromise exposed servers. Federico Kirschbaum, head of the Securi...",
-      "pub_date": "Thu, 14 May 2026 15:23:54 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-critical-Exim-mailer-Allows-remote-attacker-to-execute-arbitrary-code.webp"
     },
     {
       "title": "Cyber-Enabled Cargo Crime: How Cybercrime Tradecraft is Used to Steal Freight",
@@ -312,14 +320,6 @@
       "pub_date": "Wed, 13 May 2026 16:06:10 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk3m3CoTiKH2QVXSFAOVKKnTl-Ybt1FDE4M7BGK_ujskSYNQ8pOlcvZfyNv8CW2EJIVdMQaORcCE0H-_ufTvD6hR-LOOZ64GZPS_9bH7YrE4i0r4LrGCn7vXmG0GjpFk8aNlRR_4_GjrM-jhXBS1NzIbYiRydcmiNSXIV2eUczvgjGmp34_gNz3M5kt-Jf/s1600/windows-patch-update.jpg"
-    },
-    {
-      "title": "GemStuffer Abuses 150+ RubyGems to Exfiltrate Scraped U.K. Council Portal Data",
-      "link": "https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html",
-      "description": "Cybersecurity researchers are calling attention to a new campaign dubbed GemStuffer that has targeted the RubyGems repository with more than 150 gems that use the registry as a data exfiltration ch...",
-      "pub_date": "Wed, 13 May 2026 13:38:54 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZpbB_p88zZf6q_DhwCbgnYn2okFYqa7pwIPmknojvkOC3heteNMp3C6bzD_6WKChB4yVK0wLyoJ_-DebN0c229j-twjPyMAC-qkfGs1tjlaEoNg30fpEDh9DIByfz_h4nKhalTC_Su-FP0AYxywL_x85ILq1t-QFPtuMa_-KbLKlfsX15kvGpPCs1OZpw/s1600/rubygemss.jpg"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
