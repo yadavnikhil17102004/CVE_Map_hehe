@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-05-15T13:47:02Z",
+  "last_updated": "2026-05-15T15:58:21Z",
   "articles": [
+    {
+      "title": "Avada Builder WordPress plugin flaws allow site credential theft",
+      "link": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
+      "description": "Two vulnerabilities in the Avada Builder plugin for WordPress, with an estimated one million active installations, allow hackers to read arbitrary files and extract sensitive information from the d...",
+      "pub_date": "Fri, 15 May 2026 11:56:56 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Gunra Ransomware Expands RaaS Operations After Shifting From Conti-Based Locker",
+      "link": "https://cybersecuritynews.com/gunra-ransomware-expands-raas-operations/",
+      "description": "Gunra ransomware has quickly grown from a new threat into a serious global problem, hitting dozens of organizations in less than a year. The group behind it is not just encrypting data, but also ru...",
+      "pub_date": "Fri, 15 May 2026 15:46:30 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Gunra-Ransomware-Expands-RaaS-Operations-After-Shifting-From-Conti-Based-Locker.webp"
+    },
+    {
+      "title": "OpenClaw Chain Vulnerabilities Expose 245,000 Public AI Agent Servers to Attack",
+      "link": "https://cybersecuritynews.com/openclaw-chain-vulnerabilities/",
+      "description": "A chain of four critical vulnerabilities discovered in OpenClaw, one of the fastest-growing open-source platforms for autonomous AI agents, has left an estimated 245,000 publicly accessible server ...",
+      "pub_date": "Fri, 15 May 2026 15:41:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/OpenClaw-Chain-Vulnerabilities.webp"
+    },
+    {
+      "title": "Shai-Hulud Worm Steals npm, GitHub, AWS, and Kubernetes Secrets From Developers",
+      "link": "https://cybersecuritynews.com/shai-hulud-worm-steals-npm/",
+      "description": "A dangerous new piece of malware called Shai-Hulud has emerged as one of the most alarming supply chain threats of 2026. It is a self-propagating worm that quietly tunnels through developer environ...",
+      "pub_date": "Fri, 15 May 2026 15:29:19 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Shai-Hulud-Worm-Steals-npm-GitHub-AWS-and-Kubernetes-Secrets-From-Developers.webp"
+    },
+    {
+      "title": "Hackers Abuse OAuth Device Authorization Flow to Steal Microsoft 365 Tokens",
+      "link": "https://cybersecuritynews.com/hackers-abuse-oauth-device-authorization-flow/",
+      "description": "Hackers are exploiting a little-known feature of Microsoft\u0026#8217;s authentication system to steal account credentials at scale. Device code phishing campaigns now target organizations worldwide by ...",
+      "pub_date": "Fri, 15 May 2026 14:53:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-OAuth-Device-Authorization-Flow-to-Steal-Microsoft-365-Tokens.webp"
+    },
+    {
+      "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
+      "description": "Microsoft is updating the Edge web browser to ensure it no longer loads saved passwords into process memory in clear text at startup after previously stating it was \"by design.\" [...]",
+      "pub_date": "Fri, 15 May 2026 10:49:39 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
+      "description": "Stolen browser sessions and authentication tokens are becoming more valuable than stolen passwords. Flare explains how the REMUS infostealer evolved around session theft and operational scalability...",
+      "pub_date": "Fri, 15 May 2026 10:02:12 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
+      "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
+      "description": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Qu...",
+      "pub_date": "Fri, 15 May 2026 14:00:00 +0000",
+      "source": "GitHub Security",
+      "image_url": ""
+    },
+    {
+      "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
+      "link": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
+      "description": "Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence.     The vulnerabilities, collec...",
+      "pub_date": "Fri, 15 May 2026 19:05:04 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz_tK9S8jS_n5CK694-FLGjQP5_Mmpg7z9ZRiBayWsJLsuFRIm-8j1hTlhH90779FvnvhpiFKeGP9CzI5RCPsxQEnOzAIQsPzUsAJhUWtNm9iwf9C1W9DbDmqoQ_jjHhM7huYDV210OB9o1L9NPoJ0IL6R9Xc-V4JQ91Kn-b47_2ravRJ6-qlZOVrqsuAz/s1600/openclaw.png"
+    },
     {
       "title": "Microsoft Edge, Windows 11 and LiteLLM Hacked in Pwn2Own Berlin 2026",
       "link": "https://cybersecuritynews.com/pwn2own-berlin-2026/",
@@ -58,22 +130,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Amazon-Redshift-JDBC-Driver-Vulnerabilities-Enables-Remote-Code-Execution-Attacks.webp"
     },
     {
-      "title": "Multiple cPanel Vulnerabilities Allows Access to Sensitive System Resources",
-      "link": "https://cybersecuritynews.com/cpanel-vulnerabilities/",
-      "description": "In a severe blow to web hosting environments worldwide, administrators are racing against the clock to patch a massive wave of security vulnerabilities affecting cPanel and WebHost Manager (WHM). T...",
-      "pub_date": "Fri, 15 May 2026 11:10:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Multiple-cPanel-Vulnerabilities-allows-access-to-sensitive-system-resources.webp"
-    },
-    {
-      "title": "TeamPCP Hackers Abuse CI/CD Pipelines to Steal Developer and Cloud Credentials",
-      "link": "https://cybersecuritynews.com/teampcp-hackers-abuse-ci-cd-pipelines/",
-      "description": "TeamPCP is quietly turning trusted development tools into entry points for large scale credential theft. By slipping malicious code into popular CI/CD components, the group has shown how easily att...",
-      "pub_date": "Fri, 15 May 2026 11:03:30 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/TeamPCP-Hackers-Abuse-CI-CD-Pipelines-to-Steal-Developer-and-Cloud-Credentials.webp"
-    },
-    {
       "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
       "link": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
       "description": "In Your Biggest Security Risk Isn't Malware — It's What You Already Trust, we made a simple argument: the most dangerous activity inside most organizations no longer looks like an attack. It look...",
@@ -96,22 +152,6 @@
       "pub_date": "Fri, 15 May 2026 05:40:42 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Microsoft Details Kazuar Malware’s Modular Architecture and P2P Botnet Operations",
-      "link": "https://cybersecuritynews.com/microsoft-details-kazuar-malwares-modular-architecture/",
-      "description": "A nation-state malware known as Kazuar has resurfaced with a far more dangerous design than anyone expected. What once started as a relatively standard backdoor has now grown into a fully modular, ...",
-      "pub_date": "Fri, 15 May 2026 08:53:28 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Details-Kazuar-Malwares-Modular-Architecture-and-P2P-Botnet-Operations.webp"
-    },
-    {
-      "title": "VMware Fusion Vulnerability Let Attackers Escalate Privilege to Root",
-      "link": "https://cybersecuritynews.com/vmware-fusion-toctou-vulnerability/",
-      "description": "A high-severity privilege escalation vulnerability has been discovered in VMware Fusion, Broadcom\u0026#8217;s popular macOS virtualization software, allowing local attackers to gain root-level access o...",
-      "pub_date": "Fri, 15 May 2026 08:24:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/VMware-Fusion-TOCTOU-Vulnerability.webp"
     },
     {
       "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
@@ -266,14 +306,6 @@
       "image_url": ""
     },
     {
-      "title": "New Fragnesia Linux flaw lets attackers gain root privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/",
-      "description": "Linux distros are rolling out patches for a new high-severity kernel privilege escalation vulnerability (known as Fragnasia and tracked as CVE-2026-46300)  that allows attackers to run malicious co...",
-      "pub_date": "Thu, 14 May 2026 03:34:19 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
       "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
       "description": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug ...",
@@ -290,36 +322,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhCvxtNv7UYYMCITB2HLsBgkN83LdRXcw0wmP9gMAfXeNpmJoOJKNIaQb55b-GLDeQHx-dUBkASGDYgstnvYAE5eFuwyzMSxY804fn56OaTsGlESOab9y-kFHJ-iV5iUlWrc5j27WLduUDhW6nRSjkv5tFMKZjDbbmDdk7_NMZ3y7sipHKy7t4XuMQ9YfG/s1600/nn.gif"
     },
     {
-      "title": "West Pharmaceutical says hackers stole data, encrypted systems",
-      "link": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
-      "description": "West Pharmaceutical Services disclosed that it was the target of a cyberattack that resulted in data exfiltration and system encryption. [...]",
-      "pub_date": "Wed, 13 May 2026 18:23:31 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Iranian hackers targeted major South Korean electronics maker",
-      "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
-      "description": "The Iran-linked hacking group MuddyWater (a.k.a. Seedworm, Static Kitten) launched a broad cyber-espionage campaign targeting at least nine high-profile organizations across multiple sectors and co...",
-      "pub_date": "Wed, 13 May 2026 17:59:33 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
       "link": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
       "description": "Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by som...",
       "pub_date": "Wed, 13 May 2026 19:16:02 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1Iq16GS3jdGiIU24GHBkwg6unk05ctdgYwXO5df8zRu1qko95_XhszCjq6jlEIRozLsrtZHgi5GqDZnS1Sw_KDzUzsagwP0If3VswmYHsnuYwVseU2lapxQiPpItTdAiv-CCdTFR87ZVOu65buyvmvzmdWuJPKHuPA4DSo58HQIMAV__2ymsmRe2g3UVe/s1600/windows-ai.jpg"
-    },
-    {
-      "title": "Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation",
-      "link": "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
-      "description": "A threat actor with affiliations to China has been linked to a \"multi-wave intrusion\" targeting an unnamed Azerbaijani oil and gas company between late December 2025 and late February 2026, marking...",
-      "pub_date": "Wed, 13 May 2026 18:30:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOfGXVOYqF2EcrcnYIDCnTYdmWpV-uaZ5nV0_0ukZ8uCk19wFFOax_VvgwO8LtlIkVo8pvcSSBs8Afc66yo2PbiMDjq4UDqnytAqP-Nq8CqTOfEtqwuWRmjbUpRYzqaAXFnRiXozR34fXAPE8O6Gcix6f08Sped3oVUXcjIOTE04N8IInA0qVeG0Sc6LzB/s1600/energy-cyberattack.jpg"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
@@ -512,14 +520,6 @@
       "pub_date": "Tue, 20 Jan 2026 19:52:50 +0000",
       "source": "GitHub Security",
       "image_url": "https://github.blog/wp-content/uploads/2026/01/01_sample-taskflow.png?resize=1024%2C209"
-    },
-    {
-      "title": "Community-powered security with AI: an open source framework for security research",
-      "link": "https://github.blog/security/community-powered-security-with-ai-an-open-source-framework-for-security-research/",
-      "description": "Announcing GitHub Security Lab Taskflow Agent, an open source and collaborative framework for security research with AI. The post Community-powered security with AI: an open source framework for se...",
-      "pub_date": "Wed, 14 Jan 2026 18:45:09 +0000",
-      "source": "GitHub Security",
-      "image_url": "https://github.blog/wp-content/uploads/2026/01/fine-grained-pat.png?resize=1024%2C496"
     },
     {
       "title": "Siemens Siemens ROS#",
