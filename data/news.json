@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-15T17:27:14Z",
+  "last_updated": "2026-05-15T19:19:48Z",
   "articles": [
+    {
+      "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
+      "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
+      "description": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Micros...",
+      "pub_date": "Fri, 15 May 2026 13:47:25 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Popular node-ipc npm package compromised to steal credentials",
       "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
@@ -298,14 +306,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi45HPlwBwWVoL1fRSEGy7bjtz4Z05lAO8NWxLqPrzQ93c3j5aaj_CaK5gCrJC6aYP0ePV36n27rw33vJv5mUXf3mtdOEItJjHrSkzckVGAdTU2UMp8s-HAVjNUE7jVDeTH0UikGxNZWeB6J3qVNguP2iO5V5-qUgW3g_IqxZ9cMEZy0tS0iEsl8MnSjB0/s1600/keeper.jpg"
     },
     {
-      "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
-      "link": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
-      "description": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random reboots affecting Dell devices since Friday. [...]",
-      "pub_date": "Thu, 14 May 2026 06:03:39 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
       "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
       "description": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting W...",
@@ -522,6 +522,14 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/01/01_sample-taskflow.png?resize=1024%2C209"
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-42897 Microsoft Exchange Server Cross-Site Scripting V...",
+      "pub_date": "Fri, 15 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Siemens Siemens ROS#",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08",
       "description": "View CSAF Summary ROS# contains a ROS service file_server, that before version 2.2.2 contains a path traversal vulnerability which could allow an attacker to access, i.e. read and write, arbitrary ...",
@@ -629,14 +637,6 @@
       "title": "Siemens SIMATIC S7 PLC Web Server",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-15",
       "description": "View CSAF Summary SIMATIC S7 PLCs contain multiple vulnerabilities in the web server that could allow an attacker to perform cross-site scripting attacks. Siemens has released new versions for seve...",
-      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added\u0026nbsp;one\u0026nbsp;new vulnerability\u0026nbsp;to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\u0026nbsp;  CVE-2026-20182\u0026nbsp;Cisco Catalyst SD...",
       "pub_date": "Thu, 14 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
