@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-05-15T11:49:00Z",
+  "last_updated": "2026-05-15T13:47:02Z",
   "articles": [
+    {
+      "title": "Microsoft Edge, Windows 11 and LiteLLM Hacked in Pwn2Own Berlin 2026",
+      "link": "https://cybersecuritynews.com/pwn2own-berlin-2026/",
+      "description": "Pwn2Own Berlin 2026 opened with a surge of zero-day exploits targeting modern browsers, operating systems, and emerging AI platforms. On Day One alone, security researchers successfully hacked Micr...",
+      "pub_date": "Fri, 15 May 2026 13:20:55 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Edge-Windows-11-and-LiteLLM-hacked-in-Pwn2Own-Berlin-2026-2.webp"
+    },
+    {
+      "title": "Hackers Use OrBit Rootkit to Harvest SSH and Sudo Credentials From Linux Systems",
+      "link": "https://cybersecuritynews.com/hackers-use-orbit-rootkit-to-harvest-ssh/",
+      "description": "A dangerous rootkit called OrBit has been quietly targeting Linux systems for years, stealing login credentials and hiding deep inside infected machines without triggering most security tools. New ...",
+      "pub_date": "Fri, 15 May 2026 13:14:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-OrBit-Rootkit-to-Harvest-SSH-and-Sudo-Credentials-From-Linux-Systems.webp"
+    },
+    {
+      "title": "Microsoft to automatically roll back faulty Windows drivers",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-automatically-roll-back-faulty-windows-drivers/",
+      "description": "Microsoft is introducing a new capability that will allow it to remotely roll back problematic Windows drivers delivered through Windows Update. [...]",
+      "pub_date": "Fri, 15 May 2026 08:29:48 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Warns of Attackers Using Trusted HPE Operations Agent for Malware-Free Intrusions",
+      "link": "https://cybersecuritynews.com/microsoft-warns-of-attackers-using-trusted-hpe-operations-agent/",
+      "description": "A recent intrusion uncovered by security researchers revealed a calculated attack campaign that used a legitimate enterprise management tool as a weapon. The threat actor gained access through a co...",
+      "pub_date": "Fri, 15 May 2026 12:15:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Warns-of-Attackers-Using-Trusted-HPE-Operations-Agent-for-Malware-Free-Intrusions.webp"
+    },
+    {
+      "title": "Tycoon 2FA Operators Adopt OAuth Device Code Phishing to Bypass MFA",
+      "link": "https://cybersecuritynews.com/tycoon-2fa-operators-adopt-oauth-device-code/",
+      "description": "Cybercriminals behind the Tycoon 2FA phishing kit have added a powerful new weapon to their playbook. By combining their well-known phishing infrastructure with OAuth Device Code abuse, they can no...",
+      "pub_date": "Fri, 15 May 2026 11:33:51 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Tycoon-2FA-Operators-Adopt-OAuth-Device-Code-Phishing-to-Bypass-MFA.webp"
+    },
+    {
+      "title": "PraisonAI Vulnerability Exploited Within Hours of Public Disclosure",
+      "link": "https://cybersecuritynews.com/praisonai-vulnerability-exploited/",
+      "description": "As artificial intelligence frameworks become central to enterprise operations, a critical flaw in a popular AI platform has exposed organizations to serious security risks from threat actors. Withi...",
+      "pub_date": "Fri, 15 May 2026 11:14:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/PraisonAI-Vulnerability-Exploited-Within-hours-of-Public-Disclosure.webp"
+    },
+    {
+      "title": "Amazon Redshift JDBC Driver Vulnerabilities Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/amazon-redshift-jdbc-driver-vulnerabilities/",
+      "description": "A critical vulnerability in the Amazon Redshift JDBC driver has put enterprise applications at severe risk of Remote Code Execution (RCE). Threat actors can exploit this newly disclosed flaw simply...",
+      "pub_date": "Fri, 15 May 2026 11:12:58 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Amazon-Redshift-JDBC-Driver-Vulnerabilities-Enables-Remote-Code-Execution-Attacks.webp"
+    },
+    {
+      "title": "Multiple cPanel Vulnerabilities Allows Access to Sensitive System Resources",
+      "link": "https://cybersecuritynews.com/cpanel-vulnerabilities/",
+      "description": "In a severe blow to web hosting environments worldwide, administrators are racing against the clock to patch a massive wave of security vulnerabilities affecting cPanel and WebHost Manager (WHM). T...",
+      "pub_date": "Fri, 15 May 2026 11:10:53 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Multiple-cPanel-Vulnerabilities-allows-access-to-sensitive-system-resources.webp"
+    },
+    {
+      "title": "TeamPCP Hackers Abuse CI/CD Pipelines to Steal Developer and Cloud Credentials",
+      "link": "https://cybersecuritynews.com/teampcp-hackers-abuse-ci-cd-pipelines/",
+      "description": "TeamPCP is quietly turning trusted development tools into entry points for large scale credential theft. By slipping malicious code into popular CI/CD components, the group has shown how easily att...",
+      "pub_date": "Fri, 15 May 2026 11:03:30 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/TeamPCP-Hackers-Abuse-CI-CD-Pipelines-to-Steal-Developer-and-Cloud-Credentials.webp"
+    },
     {
       "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
       "link": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
@@ -24,6 +96,22 @@
       "pub_date": "Fri, 15 May 2026 05:40:42 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Microsoft Details Kazuar Malware’s Modular Architecture and P2P Botnet Operations",
+      "link": "https://cybersecuritynews.com/microsoft-details-kazuar-malwares-modular-architecture/",
+      "description": "A nation-state malware known as Kazuar has resurfaced with a far more dangerous design than anyone expected. What once started as a relatively standard backdoor has now grown into a fully modular, ...",
+      "pub_date": "Fri, 15 May 2026 08:53:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Details-Kazuar-Malwares-Modular-Architecture-and-P2P-Botnet-Operations.webp"
+    },
+    {
+      "title": "VMware Fusion Vulnerability Let Attackers Escalate Privilege to Root",
+      "link": "https://cybersecuritynews.com/vmware-fusion-toctou-vulnerability/",
+      "description": "A high-severity privilege escalation vulnerability has been discovered in VMware Fusion, Broadcom\u0026#8217;s popular macOS virtualization software, allowing local attackers to gain root-level access o...",
+      "pub_date": "Fri, 15 May 2026 08:24:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/VMware-Fusion-TOCTOU-Vulnerability.webp"
     },
     {
       "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
@@ -214,14 +302,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
       "description": "The Iran-linked hacking group MuddyWater (a.k.a. Seedworm, Static Kitten) launched a broad cyber-espionage campaign targeting at least nine high-profile organizations across multiple sectors and co...",
       "pub_date": "Wed, 13 May 2026 17:59:33 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "New critical Exim mailer flaw allows remote code execution",
-      "link": "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
-      "description": "A critical vulnerability affecting certain configurations of the Exim open-source mail transfer agent could be exploited by an unauthenticated remote attacker to execute arbitrary code. [...]",
-      "pub_date": "Wed, 13 May 2026 16:23:50 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
