@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-05-15T06:26:12Z",
+  "last_updated": "2026-05-15T09:40:15Z",
   "articles": [
+    {
+      "title": "Microsoft Details Kazuar Malware’s Modular Architecture and P2P Botnet Operations",
+      "link": "https://cybersecuritynews.com/microsoft-details-kazuar-malwares-modular-architecture/",
+      "description": "A nation-state malware known as Kazuar has resurfaced with a far more dangerous design than anyone expected. What once started as a relatively standard backdoor has now grown into a fully modular, ...",
+      "pub_date": "Fri, 15 May 2026 08:53:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Details-Kazuar-Malwares-Modular-Architecture-and-P2P-Botnet-Operations.webp"
+    },
+    {
+      "title": "VMware Fusion Vulnerability Let Attackers Escalate Privilege to Root",
+      "link": "https://cybersecuritynews.com/vmware-fusion-toctou-vulnerability/",
+      "description": "A high-severity privilege escalation vulnerability has been discovered in VMware Fusion, Broadcom\u0026#8217;s popular macOS virtualization software, allowing local attackers to gain root-level access o...",
+      "pub_date": "Fri, 15 May 2026 08:24:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/VMware-Fusion-TOCTOU-Vulnerability.webp"
+    },
+    {
+      "title": "Hackers Abuse Scheduled Tasks to Maintain Persistence in FrostyNeighbor Attacks",
+      "link": "https://cybersecuritynews.com/hackers-abuse-scheduled-tasks-to-maintain-persistence/",
+      "description": "A state-aligned hacking group known as FrostyNeighbor has resurfaced with a fresh wave of cyberattacks targeting government organizations in Ukraine, using a carefully designed infection chain that...",
+      "pub_date": "Fri, 15 May 2026 08:04:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-Scheduled-Tasks-to-Maintain-Persistence-in-FrostyNeighbor-Attacks.webp"
+    },
+    {
+      "title": "79 Chrome Vulnerabilities Patched, Including 14 Critical One’s – Update Now!",
+      "link": "https://cybersecuritynews.com/79-chrome-vulnerabilities-patched/",
+      "description": "Google has rolled out a massive security update for its Chrome browser, sealing a staggering 79 vulnerabilities before threat actors can exploit them. With 14 of these flaws rated as critical, brow...",
+      "pub_date": "Fri, 15 May 2026 07:37:07 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/79-Chrome-Vulnerabilities-Patched-Including-14-Critical-Ones-Update-Now.webp"
+    },
+    {
+      "title": "Critical Microsoft Exchange Server Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/microsoft-exchange-server-vulnerability-exploited/",
+      "description": "Microsoft issued an urgent security alert regarding a newly discovered vulnerability in Exchange Server that is currently being exploited in the wild. Tracked as CVE-2026-42897, this critical spoof...",
+      "pub_date": "Fri, 15 May 2026 07:32:53 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Microsoft-Exchange-Server-Vulnerability-Actively-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "Critical Next.js Vulnerability Exposes Cloud Credentials, API keys, and Admin Panels",
+      "link": "https://cybersecuritynews.com/next-js-vulnerability-exposes-credentials/",
+      "description": "A high-severity vulnerability in Next.js threatens self-hosted web applications with severe data breaches. Threat actors can now exploit a Server-Side Request Forgery (SSRF) flaw to silently steal ...",
+      "pub_date": "Fri, 15 May 2026 07:22:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Next.js-vulnerability-Exposes-Cloud-credentials-API-keys-and-admin-panels-1.webp"
+    },
+    {
+      "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
+      "link": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
+      "description": "Microsoft has disclosed a new security vulnerability impacting on-premise versions of Exchange Server that it said has come under active exploitation in the wild. The vulnerability, tracked as CVE-...",
+      "pub_date": "Fri, 15 May 2026 11:49:04 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirN79ZRjEd5wnVbOTlJJsWjQ54cwSj2bM5NDzBSgAFO8f_9LrlIwQRI0ZogQX42iejmhgc1n2YcA91pFrVqtqNKKyAIXblcQ1Yx9LTs1TeNDbNN6JMUBXCKDK1W0IwnwvYl1dhQmcyTPHwakckKT_Kc9fAUDAJRj94g2pENrjy4UyTCCniOXI2rO-q66PC/s1600/Microsoft-Exchange.png"
+    },
     {
       "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
       "link": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
@@ -82,22 +138,6 @@
       "image_url": ""
     },
     {
-      "title": "New Malware Framework Enables Screen Control, Browser Artifact Access, and UAC Bypass",
-      "link": "https://cybersecuritynews.com/new-malware-framework-enables-screen-control/",
-      "description": "A newly uncovered malware framework is raising serious alarms across the cybersecurity community. Researchers have identified a previously unknown implant called TencShell, a sophisticated tool cap...",
-      "pub_date": "Thu, 14 May 2026 18:32:23 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Malware-Framework-Enables-Screen-Control-Browser-Artifact-Access-and-UAC-Bypass.webp"
-    },
-    {
-      "title": "node-ipc npm Package with 822K Weekly Downloads Compromised in Supply Chain Attack",
-      "link": "https://cybersecuritynews.com/node-ipc-npm-package-compromised/",
-      "description": "A widely used JavaScript inter-process communication library has been weaponized again. Socket and Stepsecurity have confirmed that three newly published versions of node-ipc, a package with over 8...",
-      "pub_date": "Thu, 14 May 2026 18:08:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/node-ipc-npm-Package-Compromised.webp"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
       "link": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
       "description": "Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerability, tracked as C...",
@@ -106,44 +146,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9rok1ToP_K0gWug0GnICltZkvx6bMRyhHfTJG1AcSfrGpM_fOVc61O3Fpyen_IW-wpb4s6Hl3qZcU5nEs77SMWSpKNDR4rrlY2syVVSNEBrpHx8RkWmYaN9MZORNICc8LNhuNjXqqhxmy7JN-y389oyQnAAFoBMJC1NoQSQFaOZ2MnrpKQRfv_eYXIoWI/s1600/cisco-exploit.jpg"
     },
     {
-      "title": "Anthropic’s Mythos AI Reportedly Found macOS Vulnerabilities that Could Bypass Apple Security",
-      "link": "https://cybersecuritynews.com/anthropics-mythos-macos-vulnerabilities/",
-      "description": "Security researchers at Calif, a Palo Alto-based cybersecurity firm, have used techniques derived from an early version of Anthropic\u0026#8217;s secretive Mythos AI model to uncover two previously undo...",
-      "pub_date": "Thu, 14 May 2026 17:42:02 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Anthropics-Mythos-macOS-Vulnerabilities.webp"
-    },
-    {
       "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
       "link": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
       "description": "Cybersecurity researchers are sounding the alarm about what has been described as \"malicious activity\" in newly published versions of node-ipc. According to Socket and StepSecurity, three different...",
       "pub_date": "Thu, 14 May 2026 22:52:43 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTj2m9-HHmDEDzKIsalsJ_HJcwcUsIFajvcpTLP9QMyqS9F_JroTH7lXeOGZFuO6j6F-RzbIo1kBIQ0udSFQGzjN2hxO8ZfyFeHM5557BPI1sjiJ7cEMJJE62t11e07Wt1CsmAntpLHSM0XbnQDvVYNBfNdAOsob9kN6G6-mQjKX68fEE1nzy_Bn4TvxyK/s1600/node.jpg"
-    },
-    {
-      "title": "Hackers Compromise 170 npm Packages to Steal GitHub, npm, AWS, and Kubernetes Secrets",
-      "link": "https://cybersecuritynews.com/hackers-compromise-170-npm-packages/",
-      "description": "A sprawling supply chain attack has put software developers worldwide on high alert after hackers compromised more than 170 npm packages and two PyPI packages in a coordinated credential theft camp...",
-      "pub_date": "Thu, 14 May 2026 17:21:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Compromise-170-npm-Packages-to-Steal-GitHub-npm-AWS-and-Kubernetes-Secrets.webp"
-    },
-    {
-      "title": "Critical Canon MailSuite Vulnerability Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/canon-mailsuite-vulnerability/",
-      "description": "Enterprise email infrastructure remains one of the most critical and vulnerable targets for cybercriminals. A highly severe security flaw has just been discovered in Canon\u0026#8217;s GUARDIANWALL Mail...",
-      "pub_date": "Thu, 14 May 2026 17:03:29 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Canon-MailSuite-Vulnerability-Enables-Remote-Code-Execution-Attacks.webp"
-    },
-    {
-      "title": "TeamPCP and BreachForums Hackers Running $1,000 Contest for Supply Chain Attacks",
-      "link": "https://cybersecuritynews.com/hackers-1000-contest-supply-chain-attacks/",
-      "description": "The cybercrime underworld is turning open-source supply chain attacks into a twisted competition. After months of infiltrating security tools and CI/CD pipelines, the notorious hacking group TeamPC...",
-      "pub_date": "Thu, 14 May 2026 17:01:07 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/TeamPCP-and-BreachForums-Hackers-Running-1000-Contest-for-Supply-Chain-Attacks.webp"
     },
     {
       "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
@@ -312,14 +320,6 @@
       "pub_date": "Wed, 13 May 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg70Fxtk3MEmUdZjXl_ocBSlT80rWfXtIj2kxPvypzCSlEK4cqkm8lo16NXHjvyCw9niiPk2gKSPhgTjSFTZpetxg2As7QL0AyWWHoTuvtcp1Ok-ALMfcUwaUMAyE8asDu-KjVDoUP4VLCOSDPWHru7V-ix6Xs-VSHvHDJ8KRn6NLq_EJJBm0B4xwa9vbLp/s1600/pentera.jpg"
-    },
-    {
-      "title": "Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws",
-      "link": "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
-      "description": "Microsoft on Tuesday released patches for 138 security vulnerabilities spanning its product portfolio, although none of them have been listed as publicly known or under active attack. Of the 138 fl...",
-      "pub_date": "Wed, 13 May 2026 16:06:10 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk3m3CoTiKH2QVXSFAOVKKnTl-Ybt1FDE4M7BGK_ujskSYNQ8pOlcvZfyNv8CW2EJIVdMQaORcCE0H-_ufTvD6hR-LOOZ64GZPS_9bH7YrE4i0r4LrGCn7vXmG0GjpFk8aNlRR_4_GjrM-jhXBS1NzIbYiRydcmiNSXIV2eUczvgjGmp34_gNz3M5kt-Jf/s1600/windows-patch-update.jpg"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
