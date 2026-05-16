@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T23:47:52Z",
+  "last_updated": "2026-05-16T02:10:24Z",
   "articles": [
     {
       "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
@@ -42,6 +42,38 @@
       "image_url": ""
     },
     {
+      "title": "Gunra Ransomware Expands RaaS Operations After Shifting From Conti-Based Locker",
+      "link": "https://cybersecuritynews.com/gunra-ransomware-expands-raas-operations/",
+      "description": "Gunra ransomware has quickly grown from a new threat into a serious global problem, hitting dozens of organizations in less than a year. The group behind it is not just encrypting data, but also ru...",
+      "pub_date": "Fri, 15 May 2026 15:46:30 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Gunra-Ransomware-Expands-RaaS-Operations-After-Shifting-From-Conti-Based-Locker.webp"
+    },
+    {
+      "title": "OpenClaw Chain Vulnerabilities Expose 245,000 Public AI Agent Servers to Attack",
+      "link": "https://cybersecuritynews.com/openclaw-chain-vulnerabilities/",
+      "description": "A chain of four critical vulnerabilities discovered in OpenClaw, one of the fastest-growing open-source platforms for autonomous AI agents, has left an estimated 245,000 publicly accessible server ...",
+      "pub_date": "Fri, 15 May 2026 15:41:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/OpenClaw-Chain-Vulnerabilities.webp"
+    },
+    {
+      "title": "Shai-Hulud Worm Steals npm, GitHub, AWS, and Kubernetes Secrets From Developers",
+      "link": "https://cybersecuritynews.com/shai-hulud-worm-steals-npm/",
+      "description": "A dangerous new piece of malware called Shai-Hulud has emerged as one of the most alarming supply chain threats of 2026. It is a self-propagating worm that quietly tunnels through developer environ...",
+      "pub_date": "Fri, 15 May 2026 15:29:19 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Shai-Hulud-Worm-Steals-npm-GitHub-AWS-and-Kubernetes-Secrets-From-Developers.webp"
+    },
+    {
+      "title": "Hackers Abuse OAuth Device Authorization Flow to Steal Microsoft 365 Tokens",
+      "link": "https://cybersecuritynews.com/hackers-abuse-oauth-device-authorization-flow/",
+      "description": "Hackers are exploiting a little-known feature of Microsoft\u0026#8217;s authentication system to steal account credentials at scale. Device code phishing campaigns now target organizations worldwide by ...",
+      "pub_date": "Fri, 15 May 2026 14:53:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-OAuth-Device-Authorization-Flow-to-Steal-Microsoft-365-Tokens.webp"
+    },
+    {
       "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
       "description": "Microsoft is updating the Edge web browser to ensure it no longer loads saved passwords into process memory in clear text at startup after previously stating it was \"by design.\" [...]",
@@ -74,12 +106,60 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz_tK9S8jS_n5CK694-FLGjQP5_Mmpg7z9ZRiBayWsJLsuFRIm-8j1hTlhH90779FvnvhpiFKeGP9CzI5RCPsxQEnOzAIQsPzUsAJhUWtNm9iwf9C1W9DbDmqoQ_jjHhM7huYDV210OB9o1L9NPoJ0IL6R9Xc-V4JQ91Kn-b47_2ravRJ6-qlZOVrqsuAz/s1600/openclaw.png"
     },
     {
+      "title": "Microsoft Edge, Windows 11 and LiteLLM Hacked in Pwn2Own Berlin 2026",
+      "link": "https://cybersecuritynews.com/pwn2own-berlin-2026/",
+      "description": "Pwn2Own Berlin 2026 opened with a surge of zero-day exploits targeting modern browsers, operating systems, and emerging AI platforms. On Day One alone, security researchers successfully hacked Micr...",
+      "pub_date": "Fri, 15 May 2026 13:20:55 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Edge-Windows-11-and-LiteLLM-hacked-in-Pwn2Own-Berlin-2026-2.webp"
+    },
+    {
+      "title": "Hackers Use OrBit Rootkit to Harvest SSH and Sudo Credentials From Linux Systems",
+      "link": "https://cybersecuritynews.com/hackers-use-orbit-rootkit-to-harvest-ssh/",
+      "description": "A dangerous rootkit called OrBit has been quietly targeting Linux systems for years, stealing login credentials and hiding deep inside infected machines without triggering most security tools. New ...",
+      "pub_date": "Fri, 15 May 2026 13:14:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-OrBit-Rootkit-to-Harvest-SSH-and-Sudo-Credentials-From-Linux-Systems.webp"
+    },
+    {
       "title": "Microsoft to automatically roll back faulty Windows drivers",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-automatically-roll-back-faulty-windows-drivers/",
       "description": "Microsoft is introducing a new capability that will allow it to remotely roll back problematic Windows drivers delivered through Windows Update. [...]",
       "pub_date": "Fri, 15 May 2026 08:29:48 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Microsoft Warns of Attackers Using Trusted HPE Operations Agent for Malware-Free Intrusions",
+      "link": "https://cybersecuritynews.com/microsoft-warns-of-attackers-using-trusted-hpe-operations-agent/",
+      "description": "A recent intrusion uncovered by security researchers revealed a calculated attack campaign that used a legitimate enterprise management tool as a weapon. The threat actor gained access through a co...",
+      "pub_date": "Fri, 15 May 2026 12:15:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Warns-of-Attackers-Using-Trusted-HPE-Operations-Agent-for-Malware-Free-Intrusions.webp"
+    },
+    {
+      "title": "Tycoon 2FA Operators Adopt OAuth Device Code Phishing to Bypass MFA",
+      "link": "https://cybersecuritynews.com/tycoon-2fa-operators-adopt-oauth-device-code/",
+      "description": "Cybercriminals behind the Tycoon 2FA phishing kit have added a powerful new weapon to their playbook. By combining their well-known phishing infrastructure with OAuth Device Code abuse, they can no...",
+      "pub_date": "Fri, 15 May 2026 11:33:51 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Tycoon-2FA-Operators-Adopt-OAuth-Device-Code-Phishing-to-Bypass-MFA.webp"
+    },
+    {
+      "title": "PraisonAI Vulnerability Exploited Within Hours of Public Disclosure",
+      "link": "https://cybersecuritynews.com/praisonai-vulnerability-exploited/",
+      "description": "As artificial intelligence frameworks become central to enterprise operations, a critical flaw in a popular AI platform has exposed organizations to serious security risks from threat actors. Withi...",
+      "pub_date": "Fri, 15 May 2026 11:14:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/PraisonAI-Vulnerability-Exploited-Within-hours-of-Public-Disclosure.webp"
+    },
+    {
+      "title": "Amazon Redshift JDBC Driver Vulnerabilities Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/amazon-redshift-jdbc-driver-vulnerabilities/",
+      "description": "A critical vulnerability in the Amazon Redshift JDBC driver has put enterprise applications at severe risk of Remote Code Execution (RCE). Threat actors can exploit this newly disclosed flaw simply...",
+      "pub_date": "Fri, 15 May 2026 11:12:58 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Amazon-Redshift-JDBC-Driver-Vulnerabilities-Enables-Remote-Code-Execution-Attacks.webp"
     },
     {
       "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
