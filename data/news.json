@@ -1,8 +1,16 @@
 {
-  "last_updated": "2026-05-16T07:52:45Z",
+  "last_updated": "2026-05-16T09:23:19Z",
   "articles": [
     {
-      "title": "Linux Kernel Vulnerability “ssh-keysign-pwn” Lets Attackers Read SSH Keys and Shadow Passwords",
+      "title": "Malicious JPEG Images Could Trigger PHP Memory Safety Vulnerabilities",
+      "link": "https://cybersecuritynews.com/malicious-jpeg-images-php-memory-safety-vulnerabilities/",
+      "description": "Two critical memory-safety vulnerabilities in PHP\u0026#8217;s image-processing functions could allow attackers to leak sensitive heap memory or to execute denial-of-service attacks via specially crafte...",
+      "pub_date": "Sat, 16 May 2026 09:01:53 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-JPEG-Images-Could-Trigger-PHP-Memory-Safety-Vulnerabilities-1.webp"
+    },
+    {
+      "title": "Critical Linux Kernel Flaw ‘ssh-keysign-pwn’ Exposes SSH Keys and Shadow Passwords",
       "link": "https://cybersecuritynews.com/linux-kernel-vulnerability-ssh-keysign-pwn/",
       "description": "A newly disclosed Linux kernel vulnerability is raising serious concerns across the security community, as it allows attackers to access highly sensitive data, including SSH private keys and passwo...",
       "pub_date": "Sat, 16 May 2026 07:36:44 +0000",
@@ -152,14 +160,6 @@
       "pub_date": "Fri, 15 May 2026 08:29:48 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Microsoft Warns of Attackers Using Trusted HPE Operations Agent for Malware-Free Intrusions",
-      "link": "https://cybersecuritynews.com/microsoft-warns-of-attackers-using-trusted-hpe-operations-agent/",
-      "description": "A recent intrusion uncovered by security researchers revealed a calculated attack campaign that used a legitimate enterprise management tool as a weapon. The threat actor gained access through a co...",
-      "pub_date": "Fri, 15 May 2026 12:15:36 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Warns-of-Attackers-Using-Trusted-HPE-Operations-Agent-for-Malware-Free-Intrusions.webp"
     },
     {
       "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
