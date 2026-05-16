@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-16T15:51:14Z",
+  "last_updated": "2026-05-16T16:49:35Z",
   "articles": [
+    {
+      "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
+      "link": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
+      "description": "A critical security vulnerability impacting the   Funnel Builder   plugin for WordPress has come under active exploitation in the wild to   inject malicious JavaScript code   into WooCommerce check...",
+      "pub_date": "Sat, 16 May 2026 20:50:48 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYS8AhChFEeH6IwT4x1eB5VAeGfriF4VVcwINAxXVIGyap3g0CKx0R2BdI4s99cE3Q5JHr-KUVHqdhAFNfQIrCTJ6p-vq7u5naMTwb-WFjgis4vBdR29M94wAT-Dqh46zsbo4heSJOVdFRxXzR3SgHt2ZoTPPBEbB3cu4azACiFFl7jcIGNxw1d_U7eVU9/s1600/funnel.png"
+    },
     {
       "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
       "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
@@ -8,54 +16,6 @@
       "pub_date": "Sat, 16 May 2026 10:15:37 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Microsoft Exchange, Windows 11, and Cursor Zero-Days Exploited on Pwn2Own Day 2",
-      "link": "https://cybersecuritynews.com/microsoft-exchange-windows-11-and-cursor-zero-days-exploited-pwn2own/",
-      "description": "Pwn2Own Berlin 2026 is rapidly escalating into one of the most intense offensive security contests in recent years, with Day Two delivering a fresh wave of critical zero-day exploits targeting ente...",
-      "pub_date": "Sat, 16 May 2026 10:51:26 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Exchange-Windows-11-and-Cursor-Zero-Days-Exploited-on-Pwn2Own-Day-2-1.webp"
-    },
-    {
-      "title": "JDownloader Website Compromised to Distribute Malicious Windows and Linux Installers",
-      "link": "https://cybersecuritynews.com/jdownloader-website-compromised/",
-      "description": "A widely used download manager trusted by millions has briefly turned into a malware delivery platform after attackers compromised the official JDownloader website, replacing legitimate installers ...",
-      "pub_date": "Sat, 16 May 2026 10:23:08 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/JDownloader-Website-Compromised-to-Distribute-Malicious-Windows-and-Linux-Installers-1.webp"
-    },
-    {
-      "title": "Malicious JPEG Images Could Trigger PHP Memory Safety Vulnerabilities",
-      "link": "https://cybersecuritynews.com/malicious-jpeg-images-php-memory-safety-vulnerabilities/",
-      "description": "Two critical memory-safety vulnerabilities in PHP\u0026#8217;s image-processing functions could allow attackers to leak sensitive heap memory or to execute denial-of-service attacks via specially crafte...",
-      "pub_date": "Sat, 16 May 2026 09:01:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-JPEG-Images-Could-Trigger-PHP-Memory-Safety-Vulnerabilities-1.webp"
-    },
-    {
-      "title": "Critical Linux Kernel Flaw ‘ssh-keysign-pwn’ Exposes SSH Keys and Shadow Passwords",
-      "link": "https://cybersecuritynews.com/linux-kernel-vulnerability-ssh-keysign-pwn/",
-      "description": "A newly disclosed Linux kernel vulnerability is raising serious concerns across the security community, as it allows attackers to access highly sensitive data, including SSH private keys and passwo...",
-      "pub_date": "Sat, 16 May 2026 07:36:44 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Linux-Kernel-Vulnerability-ssh-keysign-pwn-Lets-Attackers-Read-SSH-Keys-and-Shadow-Passwords-2-1.webp"
-    },
-    {
-      "title": "Google Project Zero Discloses Zero-Click Exploit Chain for Pixel 10 Devices",
-      "link": "https://cybersecuritynews.com/zero-click-exploit-chain-pixel-10-devices/",
-      "description": "A newly disclosed zero-click exploit chain targeting Google Pixel 10 devices has raised fresh concerns about Android’s low-level security. Google Project Zero researchers demonstrated how attacke...",
-      "pub_date": "Sat, 16 May 2026 04:02:15 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Google-Project-Zero-Discloses-Zero-Click-Exploit-Chain-for-Pixel-10-Devices-1.webp"
-    },
-    {
-      "title": "Android 16 VPN Bypass Lets Malicious Apps Reveal Users Real IP Address",
-      "link": "https://cybersecuritynews.com/android-16-vpn-bypass/",
-      "description": "A newly disclosed flaw in Android 16 is raising serious privacy concerns after researchers revealed that malicious apps can bypass VPN protections and expose a user’s real IP address even when st...",
-      "pub_date": "Sat, 16 May 2026 02:51:24 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Android-16-VPN-Bypass-Lets-Malicious-Apps-Reveal-Users-Real-IP-Address.webp"
     },
     {
       "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
@@ -96,38 +56,6 @@
       "pub_date": "Fri, 15 May 2026 11:56:56 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Gunra Ransomware Expands RaaS Operations After Shifting From Conti-Based Locker",
-      "link": "https://cybersecuritynews.com/gunra-ransomware-expands-raas-operations/",
-      "description": "Gunra ransomware has quickly grown from a new threat into a serious global problem, hitting dozens of organizations in less than a year. The group behind it is not just encrypting data, but also ru...",
-      "pub_date": "Fri, 15 May 2026 15:46:30 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Gunra-Ransomware-Expands-RaaS-Operations-After-Shifting-From-Conti-Based-Locker.webp"
-    },
-    {
-      "title": "OpenClaw Chain Vulnerabilities Expose 245,000 Public AI Agent Servers to Attack",
-      "link": "https://cybersecuritynews.com/openclaw-chain-vulnerabilities/",
-      "description": "A chain of four critical vulnerabilities discovered in OpenClaw, one of the fastest-growing open-source platforms for autonomous AI agents, has left an estimated 245,000 publicly accessible server ...",
-      "pub_date": "Fri, 15 May 2026 15:41:39 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/OpenClaw-Chain-Vulnerabilities.webp"
-    },
-    {
-      "title": "Shai-Hulud Worm Steals npm, GitHub, AWS, and Kubernetes Secrets From Developers",
-      "link": "https://cybersecuritynews.com/shai-hulud-worm-steals-npm/",
-      "description": "A dangerous new piece of malware called Shai-Hulud has emerged as one of the most alarming supply chain threats of 2026. It is a self-propagating worm that quietly tunnels through developer environ...",
-      "pub_date": "Fri, 15 May 2026 15:29:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Shai-Hulud-Worm-Steals-npm-GitHub-AWS-and-Kubernetes-Secrets-From-Developers.webp"
-    },
-    {
-      "title": "Hackers Abuse OAuth Device Authorization Flow to Steal Microsoft 365 Tokens",
-      "link": "https://cybersecuritynews.com/hackers-abuse-oauth-device-authorization-flow/",
-      "description": "Hackers are exploiting a little-known feature of Microsoft\u0026#8217;s authentication system to steal account credentials at scale. Device code phishing campaigns now target organizations worldwide by ...",
-      "pub_date": "Fri, 15 May 2026 14:53:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-OAuth-Device-Authorization-Flow-to-Steal-Microsoft-365-Tokens.webp"
     },
     {
       "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
@@ -320,14 +248,6 @@
       "pub_date": "Thu, 14 May 2026 12:36:15 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZEVPJhl5rAx5o22-s1GQ6E1KKHMlOsazAfObgwK72r5EGxr52OkNRHHQXJdHt39DQop0SAhxE_t9nMKgXxHNgYv1zyB-ZR1IqCIKUK2feTpx1swr4dZzKLpZ5uldjrOAX6qH-wYnUfRWieA2xQWPbAUB1JpXhkBGq4AA0Ft07F7MFqZSHCS9SMR6uXjoC/s1600/linux-2.jpg"
-    },
-    {
-      "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
-      "description": "Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years. The vulnerability, d...",
-      "pub_date": "Thu, 14 May 2026 11:30:09 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhCvxtNv7UYYMCITB2HLsBgkN83LdRXcw0wmP9gMAfXeNpmJoOJKNIaQb55b-GLDeQHx-dUBkASGDYgstnvYAE5eFuwyzMSxY804fn56OaTsGlESOab9y-kFHJ-iV5iUlWrc5j27WLduUDhW6nRSjkv5tFMKZjDbbmDdk7_NMZ3y7sipHKy7t4XuMQ9YfG/s1600/nn.gif"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
