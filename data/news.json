@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-05-17T06:15:02Z",
+  "last_updated": "2026-05-17T08:58:57Z",
   "articles": [
+    {
+      "title": "Grafana Labs Security Breach – Hackers Access GitHub and Download Codebase",
+      "link": "https://cybersecuritynews.com/grafana-labs-security-breach/",
+      "description": "A threat actor infiltrated Grafana Labs\u0026#8217; GitHub environment, stealing a privileged token to download the company\u0026#8217;s private codebase, and then attempted to extort the open-source observa...",
+      "pub_date": "Sun, 17 May 2026 08:32:42 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Grafana-Labs-Security-Breach.webp"
+    },
+    {
+      "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
+      "link": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
+      "description": "Grafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase.     \"Our investigation has de...",
+      "pub_date": "Sun, 17 May 2026 12:43:33 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNcCJY0s2GwOwFeSuqVz941pWrGK3theum-FBFyYO97JnK22OamMheCtr9yEEFfHMvurI7UBgl72blFK6Hm9u358g1V9HbZOk5vocuYMvgjfYLmf2XPNsSG1IiFxlbLvnRaotutjUB5I7sVLVTf1HTozz9FoeVxA3DJOn9wAOolL-HwmATDLlAD-Mgs-tO/s1600/grafana.jpg"
+    },
     {
       "title": "First Public macOS Kernel Exploit on Apple M5 Prepared Using Mythos Preview in Five Days",
       "link": "https://cybersecuritynews.com/first-public-macos-kernel-exploit/",
@@ -136,14 +152,6 @@
       "pub_date": "Fri, 15 May 2026 15:41:39 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/OpenClaw-Chain-Vulnerabilities.webp"
-    },
-    {
-      "title": "Shai-Hulud Worm Steals npm, GitHub, AWS, and Kubernetes Secrets From Developers",
-      "link": "https://cybersecuritynews.com/shai-hulud-worm-steals-npm/",
-      "description": "A dangerous new piece of malware called Shai-Hulud has emerged as one of the most alarming supply chain threats of 2026. It is a self-propagating worm that quietly tunnels through developer environ...",
-      "pub_date": "Fri, 15 May 2026 15:29:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Shai-Hulud-Worm-Steals-npm-GitHub-AWS-and-Kubernetes-Secrets-From-Developers.webp"
     },
     {
       "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
@@ -320,14 +328,6 @@
       "pub_date": "Thu, 14 May 2026 14:55:50 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXt7ooDl2PwJY4nazAKdW9rmILsmosve2FZaO9usxTk_rkksEEvsLgY-uc_MErXvjvusuWjN7PWRM9KaRXB1OkL75gio7tcqpMsPZxaFNE9XDpYmARH3Dw_gGgddwWXHSt5VUJ-lb56F9bCVzTYghEo7qELWVv8K_W8V1BrWgssgqWkzPJxW6I31i_GyYf/s1600/windowss.jpg"
-    },
-    {
-      "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
-      "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
-      "description": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug ...",
-      "pub_date": "Thu, 14 May 2026 12:36:15 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZEVPJhl5rAx5o22-s1GQ6E1KKHMlOsazAfObgwK72r5EGxr52OkNRHHQXJdHt39DQop0SAhxE_t9nMKgXxHNgYv1zyB-ZR1IqCIKUK2feTpx1swr4dZzKLpZ5uldjrOAX6qH-wYnUfRWieA2xQWPbAUB1JpXhkBGq4AA0Ft07F7MFqZSHCS9SMR6uXjoC/s1600/linux-2.jpg"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
