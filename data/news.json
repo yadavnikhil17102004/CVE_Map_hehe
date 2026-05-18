@@ -1,21 +1,29 @@
 {
-  "last_updated": "2026-05-18T17:27:19Z",
+  "last_updated": "2026-05-18T19:27:30Z",
   "articles": [
     {
-      "title": "Hackers Actively Exploiting Critical NGINX RCE Vulnerability in the Wild",
-      "link": "https://cybersecuritynews.com/hackers-exploiting-nginx-rce-vulnerability/",
-      "description": "Hackers are wasting no time exploiting a newly disclosed critical vulnerability in NGINX, with security researchers already observing real-world attacks just days after its public release. Security...",
-      "pub_date": "Mon, 18 May 2026 16:43:40 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Actively-Exploiting-Critical-NGINX-RCE-Vulnerability-in-the-Wild-1.webp"
+      "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
+      "link": "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
+      "description": "Many employees already use shadow AI tools at work without security review. Adaptive Security breaks down how teams can build practical AI governance without adding friction for employees. [...]",
+      "pub_date": "Mon, 18 May 2026 14:45:35 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
     },
     {
-      "title": "Critical n8n Vulnerabilities Expose Automation Nodes to Full RCE",
-      "link": "https://cybersecuritynews.com/n8n-rce-vulnerabilities/",
-      "description": "A fresh set of critical vulnerabilities in the popular workflow automation platform n8n is raising serious security concerns, as researchers warn that attackers could chain multiple flaws to achiev...",
-      "pub_date": "Mon, 18 May 2026 14:38:51 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-n8n-Vulnerabilities-Expose-Automation-Nodes-to-Full-RCE-.webp"
+      "title": "Leaked Shai-Hulud malware fuels new npm infostealer campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/",
+      "description": "The Shai-Hulud malware leaked last week is now used in new attacks on the Node Package Manager (npm) index, as infected packages emerged over the weekend. [...]",
+      "pub_date": "Mon, 18 May 2026 13:28:02 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
+      "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
+      "description": "INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects. The in...",
+      "pub_date": "Mon, 18 May 2026 22:51:18 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivxxVYex3z2F03m6RYOR72whyegN5TEzzNxZO3tTOSHNTQ4tqCeD-H-F0c3K8dInMfh1EwPQP0jtoHEA4agDOYN2sF7qxGMHnuhsWges5me7ESa8_ycNj0vHf1TeeTgqetA1yOQ5Gi6a7jsV5khO3PVNcbkrBRCTMRNRb_qPLwBUdlvZJUCDvGjtmSVuod/s1600/hackers.png"
     },
     {
       "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
@@ -66,22 +74,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2iqd3uRuOdLaM83LyZC9GOeOLeP9BnBVQQQzF7LZUeBTXfGo6e6b9c7PSC0Tkt_vhN_FUFUiDwnLXXNmzpIubE5bI0rA7dRaDhuiV35uiNTcMab7o8E_1ehn3CzUUsfno-6fYECbYzGNS1dyNof1ihn-hf4QYjLn7ZD53y_byQigukme9w-LAeBKDWXAg/s1600/patches.jpg"
     },
     {
-      "title": "Linus Torvalds Says AI Bug Reports Have Made Linux Security Mailing List Unmanageable",
-      "link": "https://cybersecuritynews.com/linus-torvalds-on-ai-bug-reports/",
-      "description": "Linus Torvalds has warned that a “continued flood” of AI‑generated bug reports is making the Linux security mailing list “almost entirely unmanageable.” The project is now tightening rul...",
-      "pub_date": "Mon, 18 May 2026 10:40:52 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Linus-Torvalds-says-AI-Bug-reports-have-made-Linux-security-mailing-list-unmanageable-.webp"
-    },
-    {
-      "title": "Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",
-      "link": "https://cybersecuritynews.com/malicious-npm-packages-steal-keys/",
-      "description": "Four malicious npm packages capable of stealing SSH keys, cloud credentials, cryptocurrency wallets, and environment variables, while one variant quietly transforms infected machines into a DDoS bo...",
-      "pub_date": "Mon, 18 May 2026 09:57:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-npm-Packages-Steal-Keys.webp"
-    },
-    {
       "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
       "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
       "description": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day fl...",
@@ -106,22 +98,6 @@
       "image_url": ""
     },
     {
-      "title": "CISA Warns of Microsoft Exchange Server Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisa-microsoft-exchange-server-vulnerability/",
-      "description": "CISA has issued a fresh warning about a newly disclosed Microsoft Exchange Server vulnerability that is already being exploited in real-world attacks, raising concerns for organizations relying on ...",
-      "pub_date": "Mon, 18 May 2026 08:32:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CISA-Warns-of-Microsoft-Exchange-Server-Vulnerability-Exploited-in-AttacksFlaws-.webp"
-    },
-    {
-      "title": "1 Million WordPress Sites Affected by Avada Builder File Read and SQL Injection Flaws",
-      "link": "https://cybersecuritynews.com/avada-builder-plugin-vulnerability/",
-      "description": "A widely used WordPress plugin powering over one million websites has been hit by two serious vulnerabilities that could allow attackers to steal sensitive data and access server files. Security r...",
-      "pub_date": "Mon, 18 May 2026 08:30:10 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/1-Million-WordPress-Sites-Affected-by-Avada-Builder-File-Read-and-SQL-Injection-Flaws-.webp"
-    },
-    {
       "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
       "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
       "description": "A recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module now has a proof-of-concept exploit that allows attackers to gain root access on some Linux systems. [...]",
@@ -138,44 +114,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis3jEEpg3n_4z5YYUwDaXETZ4KJGxCqjzrZMHUmpgvOCC7pxoSs6Rn9klL5REej9UUJJxIrOstlQDWjbTeAOUhJ7wFSoTvpLkOVx3hb5fKerxA6NkeNMDQ7bt4F-kLwEPXWZPCsVa_wXaonk9mb9CKTF4cVDToquGN57Xzw1VmszeNoEKVEvtcHMSnTCOi/s1600/fast16-stuxnet.jpg"
     },
     {
-      "title": "Microsoft Confirms Windows 11 Update Fails With Error 0x800f0922",
-      "link": "https://cybersecuritynews.com/microsoft-windows-11-update/",
-      "description": "Microsoft has officially acknowledged a critical installation failure affecting its May 2026 Patch Tuesday cumulative update for Windows 11, KB5089549, leaving users stranded with error code 0x800f...",
-      "pub_date": "Mon, 18 May 2026 06:24:38 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Windows-11-Update.webp"
-    },
-    {
-      "title": "New Windows ‘MiniPlasma’ Zero-Day Let Attackers Gain SYSTEM Access – PoC Released",
-      "link": "https://cybersecuritynews.com/windows-miniplasma-zero-day/",
-      "description": "A critical Windows privilege escalation zero-day vulnerability dubbed \u0026#8220;MiniPlasma\u0026#8221; has emerged with a public proof-of-concept exploit that allows attackers to achieve SYSTEM-level privi...",
-      "pub_date": "Mon, 18 May 2026 06:00:49 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Windows-MiniPlasma-zero-day-Let-Attackers-Gain-SYSTEM-Access-PoC-Released.webp"
-    },
-    {
       "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
       "description": "The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws. [...]",
       "pub_date": "Mon, 18 May 2026 01:33:20 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Critical WordPress Plugin Vulnerability Exposes Websites to Authentication Bypass Attacks",
-      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exposes-websites/",
-      "description": "A critical vulnerability in a widely used WordPress plugin has exposed over 200,000 websites to full account takeover, raising urgent concerns across the security community. Discovered on May 8, 20...",
-      "pub_date": "Mon, 18 May 2026 04:06:01 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Wordpress-Plugin-Vulnerability-Exposes-Websites-to-Authentication-Bypass-Attacks.webp"
-    },
-    {
-      "title": "Fast16 Malware Manipulated Nuclear Weapons Simulation Data to Sabotage Test Results",
-      "link": "https://cybersecuritynews.com/fast16-malware-manipulated-nuclear-weapons/",
-      "description": "Fast16 malware has been reclassified as a precision tool engineered not to disrupt nuclear warheads directly, but to quietly falsify the outcome of nuclear weapons test simulations and stall weapon...",
-      "pub_date": "Mon, 18 May 2026 03:43:04 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Fast16-Malware-Manipulated-Nuclear-Weapons.webp"
     },
     {
       "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
@@ -274,22 +218,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
-      "description": "Microsoft is updating the Edge web browser to ensure it no longer loads saved passwords into process memory in clear text at startup after previously stating it was \"by design.\" [...]",
-      "pub_date": "Fri, 15 May 2026 10:49:39 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
-      "description": "Stolen browser sessions and authentication tokens are becoming more valuable than stolen passwords. Flare explains how the REMUS infostealer evolved around session theft and operational scalability...",
-      "pub_date": "Fri, 15 May 2026 10:02:12 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
       "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
       "description": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Qu...",
@@ -320,14 +248,6 @@
       "pub_date": "Fri, 15 May 2026 16:24:44 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1l4Vq20M4553fkDfGbO9VqLV9Au-6EefivLp8HT2W5QxJvgWf1mr6pg5xsbC5j3FCJzOOCJv_CImY1LjjFYIN_25ajki1iS_EVPvTyeVY7bC3ogcQFzHmE1Xyaz3cRXneilC0rWcb8dLbUapLI_jZ-uBaUkku48absoxM6TG16jS3xxtw9lhhtCvJmemK/s1600/chatgpt.jpg"
-    },
-    {
-      "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
-      "link": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
-      "description": "Microsoft has disclosed a new security vulnerability impacting on-premise versions of Exchange Server that it said has come under active exploitation in the wild. The vulnerability, tracked as CVE-...",
-      "pub_date": "Fri, 15 May 2026 11:49:04 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirN79ZRjEd5wnVbOTlJJsWjQ54cwSj2bM5NDzBSgAFO8f_9LrlIwQRI0ZogQX42iejmhgc1n2YcA91pFrVqtqNKKyAIXblcQ1Yx9LTs1TeNDbNN6JMUBXCKDK1W0IwnwvYl1dhQmcyTPHwakckKT_Kc9fAUDAJRj94g2pENrjy4UyTCCniOXI2rO-q66PC/s1600/Microsoft-Exchange.png"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
