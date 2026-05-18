@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-18T14:32:30Z",
+  "last_updated": "2026-05-18T17:27:19Z",
   "articles": [
+    {
+      "title": "Hackers Actively Exploiting Critical NGINX RCE Vulnerability in the Wild",
+      "link": "https://cybersecuritynews.com/hackers-exploiting-nginx-rce-vulnerability/",
+      "description": "Hackers are wasting no time exploiting a newly disclosed critical vulnerability in NGINX, with security researchers already observing real-world attacks just days after its public release. Security...",
+      "pub_date": "Mon, 18 May 2026 16:43:40 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Actively-Exploiting-Critical-NGINX-RCE-Vulnerability-in-the-Wild-1.webp"
+    },
+    {
+      "title": "Critical n8n Vulnerabilities Expose Automation Nodes to Full RCE",
+      "link": "https://cybersecuritynews.com/n8n-rce-vulnerabilities/",
+      "description": "A fresh set of critical vulnerabilities in the popular workflow automation platform n8n is raising serious security concerns, as researchers warn that attackers could chain multiple flaws to achiev...",
+      "pub_date": "Mon, 18 May 2026 14:38:51 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-n8n-Vulnerabilities-Expose-Automation-Nodes-to-Full-RCE-.webp"
+    },
+    {
+      "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
+      "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
+      "description": "Monday opens with a trust problem. A mail server flaw is under active use. A network control system was targeted. Trusted packages were poisoned. A fake model page pushed a stealer. Then came the f...",
+      "pub_date": "Mon, 18 May 2026 19:20:17 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFzN7ITW3vwaWKn1m-BGZGI1JicT1T8d5v4LZbTvOTe7m1Xj4pk1pFECjAOvxey4XzXg7vGiU5Xzifs4qkzr9cbg2iPboHfPAHHBmi3O8OIAArhJlbr52gwKMkdqrIuIK77Pq8EzCTQM1hV5MsLuTbV4GXbXzr7miv0jA6o0Bn35RgBjc2cnd6qPq2-0Di/s1600/recapss.jpg"
+    },
     {
       "title": "Grafana says stolen GitHub token let hackers steal codebase",
       "link": "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
@@ -154,14 +178,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Fast16-Malware-Manipulated-Nuclear-Weapons.webp"
     },
     {
-      "title": "Claude Code RCE Flaw Lets Attackers Execute Commands via Malicious Deeplinks",
-      "link": "https://cybersecuritynews.com/claude-code-rce-flaw/",
-      "description": "A critical remote code execution (RCE) vulnerability has been discovered in Anthropic\u0026#8217;s Claude Code CLI tool, allowing attackers to execute arbitrary commands on a victim\u0026#8217;s machine by t...",
-      "pub_date": "Mon, 18 May 2026 03:14:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Claude-Code-RCE-Flaw-.webp"
-    },
-    {
       "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
       "link": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
       "description": "A cybersecurity researcher has released a proof-of-concept exploit for a Windows privilege escalation zero-day dubbed \"MiniPlasma\" that lets attackers gain SYSTEM privileges on fully patched Window...",
@@ -184,14 +200,6 @@
       "pub_date": "Sun, 17 May 2026 17:27:53 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdFtAiSRukEdQXVvEzXdQKy0O9SY7RCuqFLuAEIBe4rECuQuUS76qEXnxPuEcKIIFUysRNOGdBW2Mf2n1sh1W35aU0nCksWiW7v-20p1K7RhdPPDnxKh7kt_OmQaPrmtYPJ3larEwWr9iHeQMoRtlW767YpsXBFP5-5CQ2jTJUB_jWaMmt_29uLJvaGZE_/s1600/nginx.jpg"
-    },
-    {
-      "title": "Grafana Labs Security Breach – Hackers Access GitHub and Download Codebase",
-      "link": "https://cybersecuritynews.com/grafana-labs-security-breach/",
-      "description": "A threat actor infiltrated Grafana Labs\u0026#8217; GitHub environment, stealing a privileged token to download the company\u0026#8217;s private codebase, and then attempted to extort the open-source observa...",
-      "pub_date": "Sun, 17 May 2026 08:32:42 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Grafana-Labs-Security-Breach.webp"
     },
     {
       "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
@@ -320,14 +328,6 @@
       "pub_date": "Fri, 15 May 2026 11:49:04 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirN79ZRjEd5wnVbOTlJJsWjQ54cwSj2bM5NDzBSgAFO8f_9LrlIwQRI0ZogQX42iejmhgc1n2YcA91pFrVqtqNKKyAIXblcQ1Yx9LTs1TeNDbNN6JMUBXCKDK1W0IwnwvYl1dhQmcyTPHwakckKT_Kc9fAUDAJRj94g2pENrjy4UyTCCniOXI2rO-q66PC/s1600/Microsoft-Exchange.png"
-    },
-    {
-      "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
-      "link": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
-      "description": "The U.S.Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly disclosed vulnerability impacting Cisco Catalyst SD-WAN Controller to its Known Exploited Vulnerabilities (...",
-      "pub_date": "Fri, 15 May 2026 10:58:03 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4XG5z00sF3uL0ZbhtZNiergQ9QVaZJydwP1pXEdPh2o29mwvTS2nPKRbxHftwnEJ1pvxMQS9TQknWqbovk-vW7BRPHUSsBhN4yL2iOwJnlmK7lzCdW9tJbKtKLbnfSZSWgfGlWQ6HO807gjR6dP61VylH1zxWtvfo3c7ui8aBecSjVz5miCG0jHoa8rUA/s1600/cisa-exploit.png"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
