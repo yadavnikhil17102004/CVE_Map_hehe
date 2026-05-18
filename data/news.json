@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-05-18T06:48:36Z",
+  "last_updated": "2026-05-18T11:00:00Z",
   "articles": [
+    {
+      "title": "Linus Torvalds Says AI Bug Reports Have Made Linux Security Mailing List Unmanageable",
+      "link": "https://cybersecuritynews.com/linus-torvalds-on-ai-bug-reports/",
+      "description": "Linus Torvalds has warned that a “continued flood” of AI‑generated bug reports is making the Linux security mailing list “almost entirely unmanageable.” The project is now tightening rul...",
+      "pub_date": "Mon, 18 May 2026 10:40:52 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Linus-Torvalds-says-AI-Bug-reports-have-made-Linux-security-mailing-list-unmanageable-.webp"
+    },
+    {
+      "title": "Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",
+      "link": "https://cybersecuritynews.com/malicious-npm-packages-steal-keys/",
+      "description": "Four malicious npm packages capable of stealing SSH keys, cloud credentials, cryptocurrency wallets, and environment variables, while one variant quietly transforms infected machines into a DDoS bo...",
+      "pub_date": "Mon, 18 May 2026 09:57:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-npm-Packages-Steal-Keys.webp"
+    },
+    {
+      "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
+      "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
+      "description": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day fl...",
+      "pub_date": "Mon, 18 May 2026 14:27:34 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvmx8dRRiQKx4cT0aT1-zTuzdjfThwxmlbzb2ikeeqIXUXGdcJhRrq4BykcdBB572URpoAHQhSTSyahR3M7TyvOsLSCekQGCUFM8sTcdsxkrpRFrT41wF8EqKA5LjzYHpzUtro2136Iy55cKQ_wixFUSsFDnilkUNCvrDvJbHBKK3k_IelHt9lOmbW01_u/s1600/windows-exploits.jpg"
+    },
+    {
+      "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
+      "link": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
+      "description": "Cybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP. The list of identifi...",
+      "pub_date": "Mon, 18 May 2026 14:27:26 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbN7WbW1cUkMzMJl0HPvRrQQUc5MQEE3Pvrc735aG7RGwpguum4POxa4yeQjyYIyiAYBDj_Zl6Ud8esex0AnQSG2J6TVWat57BLALA4WTi3gr5mfrLC2AHloSuvzx6fg9bTxZUvO-aA5VwHjyqbYecAWm2DnM9SRyt0M1GaqYzlBBKdgUR8BXV3xIDVnVN/s1600/npm-hacking.jpg"
+    },
+    {
+      "title": "Microsoft confirms Windows 11 security update install issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/",
+      "description": "Microsoft has confirmed that the May 2026 Windows 11 security update (KB5089549) fails to install on some systems and triggers 0x800f0922 errors. [...]",
+      "pub_date": "Mon, 18 May 2026 04:33:14 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "CISA Warns of Microsoft Exchange Server Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/cisa-microsoft-exchange-server-vulnerability/",
+      "description": "CISA has issued a fresh warning about a newly disclosed Microsoft Exchange Server vulnerability that is already being exploited in real-world attacks, raising concerns for organizations relying on ...",
+      "pub_date": "Mon, 18 May 2026 08:32:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CISA-Warns-of-Microsoft-Exchange-Server-Vulnerability-Exploited-in-AttacksFlaws-.webp"
+    },
+    {
+      "title": "1 Million WordPress Sites Affected by Avada Builder File Read and SQL Injection Flaws",
+      "link": "https://cybersecuritynews.com/avada-builder-plugin-vulnerability/",
+      "description": "A widely used WordPress plugin powering over one million websites has been hit by two serious vulnerabilities that could allow attackers to steal sensitive data and access server files. Security r...",
+      "pub_date": "Mon, 18 May 2026 08:30:10 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/1-Million-WordPress-Sites-Affected-by-Avada-Builder-File-Read-and-SQL-Injection-Flaws-.webp"
+    },
+    {
+      "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
+      "description": "A recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module now has a proof-of-concept exploit that allows attackers to gain root access on some Linux systems. [...]",
+      "pub_date": "Mon, 18 May 2026 03:18:33 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations",
+      "link": "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html",
+      "description": "A new analysis of the Lua-based fast16 malware has confirmed that it was a cyber sabotage tool designed to tamper with nuclear weapons testing simulations. According to Broadcom-owned Symantec and ...",
+      "pub_date": "Mon, 18 May 2026 12:16:37 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis3jEEpg3n_4z5YYUwDaXETZ4KJGxCqjzrZMHUmpgvOCC7pxoSs6Rn9klL5REej9UUJJxIrOstlQDWjbTeAOUhJ7wFSoTvpLkOVx3hb5fKerxA6NkeNMDQ7bt4F-kLwEPXWZPCsVa_wXaonk9mb9CKTF4cVDToquGN57Xzw1VmszeNoEKVEvtcHMSnTCOi/s1600/fast16-stuxnet.jpg"
+    },
     {
       "title": "Microsoft Confirms Windows 11 Update Fails With Error 0x800f0922",
       "link": "https://cybersecuritynews.com/microsoft-windows-11-update/",
@@ -90,14 +162,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNcCJY0s2GwOwFeSuqVz941pWrGK3theum-FBFyYO97JnK22OamMheCtr9yEEFfHMvurI7UBgl72blFK6Hm9u358g1V9HbZOk5vocuYMvgjfYLmf2XPNsSG1IiFxlbLvnRaotutjUB5I7sVLVTf1HTozz9FoeVxA3DJOn9wAOolL-HwmATDLlAD-Mgs-tO/s1600/grafana.jpg"
     },
     {
-      "title": "First Public macOS Kernel Exploit on Apple M5 Prepared Using Mythos Preview in Five Days",
-      "link": "https://cybersecuritynews.com/first-public-macos-kernel-exploit/",
-      "description": "Apple\u0026#8217;s M5 silicon has reportedly been exploited for the first time in a public macOS kernel memory corruption attack, successfully bypassing the company\u0026#8217;s notable hardware-level memory...",
-      "pub_date": "Sun, 17 May 2026 02:48:36 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/First-Public-macOS-Kernel-Exploit.webp"
-    },
-    {
       "title": "Microsoft rejects critical Azure vulnerability report, no CVE issued",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
       "description": "A security researcher claims Microsoft quietly fixed an Azure Backup for AKS vulnerability after rejecting his report, and without issuing a CVE. Microsoft disputes the claim, telling BleepingCompu...",
@@ -120,30 +184,6 @@
       "pub_date": "Sat, 16 May 2026 10:15:37 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Microsoft Exchange, Windows 11, and Cursor Zero-Days Exploited on Pwn2Own Day 2",
-      "link": "https://cybersecuritynews.com/microsoft-exchange-windows-11-and-cursor-zero-days-exploited-pwn2own/",
-      "description": "Pwn2Own Berlin 2026 is rapidly escalating into one of the most intense offensive security contests in recent years, with Day Two delivering a fresh wave of critical zero-day exploits targeting ente...",
-      "pub_date": "Sat, 16 May 2026 10:51:26 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Exchange-Windows-11-and-Cursor-Zero-Days-Exploited-on-Pwn2Own-Day-2-1.webp"
-    },
-    {
-      "title": "JDownloader Website Compromised to Distribute Malicious Windows and Linux Installers",
-      "link": "https://cybersecuritynews.com/jdownloader-website-compromised/",
-      "description": "A widely used download manager trusted by millions has briefly turned into a malware delivery platform after attackers compromised the official JDownloader website, replacing legitimate installers ...",
-      "pub_date": "Sat, 16 May 2026 10:23:08 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/JDownloader-Website-Compromised-to-Distribute-Malicious-Windows-and-Linux-Installers-1.webp"
-    },
-    {
-      "title": "Malicious JPEG Images Could Trigger PHP Memory Safety Vulnerabilities",
-      "link": "https://cybersecuritynews.com/malicious-jpeg-images-php-memory-safety-vulnerabilities/",
-      "description": "Two critical memory-safety vulnerabilities in PHP\u0026#8217;s image-processing functions could allow attackers to leak sensitive heap memory or to execute denial-of-service attacks via specially crafte...",
-      "pub_date": "Sat, 16 May 2026 09:01:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-JPEG-Images-Could-Trigger-PHP-Memory-Safety-Vulnerabilities-1.webp"
     },
     {
       "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
@@ -266,22 +306,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4XG5z00sF3uL0ZbhtZNiergQ9QVaZJydwP1pXEdPh2o29mwvTS2nPKRbxHftwnEJ1pvxMQS9TQknWqbovk-vW7BRPHUSsBhN4yL2iOwJnlmK7lzCdW9tJbKtKLbnfSZSWgfGlWQ6HO807gjR6dP61VylH1zxWtvfo3c7ui8aBecSjVz5miCG0jHoa8rUA/s1600/cisa-exploit.png"
     },
     {
-      "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
-      "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
-      "description": "The TeamPCP hacker group is threatening to leak source code from the Mistral AI project unless a buyer is found for the data. [...]",
-      "pub_date": "Thu, 14 May 2026 18:50:36 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
-      "description": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to websites. [...]",
-      "pub_date": "Thu, 14 May 2026 17:07:17 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
       "link": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
       "description": "Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerability, tracked as C...",
@@ -304,30 +328,6 @@
       "pub_date": "Thu, 14 May 2026 21:37:46 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjImYNT-qC7frGzEXeok3KDX_JNMKote6V1FVXIpkAoSEER2z1YyT8dpFq5RtRhBQ0cweEPbBIuioDWFf5rw_Mf-0V6rXR2ZrMh2ISDa7X7NlV9zIGsoLSAnyd_86eVkrR4wU24yxbuCYaAmyGFwlF77YCjvgU3n43P-yFT-pzjsmQ35Oaut1klg62bs_-i/s1600/threatsday-2.jpg"
-    },
-    {
-      "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
-      "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
-      "description": "The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting governmental organizations in Ukraine. Active since at least 2016, Ghostwriter has been...",
-      "pub_date": "Thu, 14 May 2026 19:30:37 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEld5BcqD9rYWVjx7o_XlV5pN_9djvilow0iIYP-LlFEzGReX8fTPZ0gKi9zMGVLTT8qddHu5FyBMaZpQroEzYFpsoPWf96hD7JeTdqsROemmavXW2pDxNwc9kjvpJdhahmXA5Ng88tN1lyO5rqzC3K6JNwPFPWBo7OzSsaiQIN8JJsXvMrGhewMfzpouF/s1600/uk.jpg"
-    },
-    {
-      "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
-      "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
-      "description": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of its public ...",
-      "pub_date": "Thu, 14 May 2026 17:10:14 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2IaSkdVZD_wyJJT-sODoazviDXhw3MGkn5XHYocnTL1YfLJpgJ-1wNaAm0Rk0phyrIv8vS73SNNkPSmlxRkK9ySAQGnn_tCP9JcVKyqee6lxjlYEp0cs2C_R9cDtgCEXwsjWtx1XnafF5r_fAuDDAvg0CRMOgJk8ZMwSjRsw1Js90uR-97t-rh5yU12Oj/s1600/praison.jpg"
-    },
-    {
-      "title": "How AI Hallucinations Are Creating Real Security Risks",
-      "link": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
-      "description": "AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lack...",
-      "pub_date": "Thu, 14 May 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi45HPlwBwWVoL1fRSEGy7bjtz4Z05lAO8NWxLqPrzQ93c3j5aaj_CaK5gCrJC6aYP0ePV36n27rw33vJv5mUXf3mtdOEItJjHrSkzckVGAdTU2UMp8s-HAVjNUE7jVDeTH0UikGxNZWeB6J3qVNguP2iO5V5-qUgW3g_IqxZ9cMEZy0tS0iEsl8MnSjB0/s1600/keeper.jpg"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
