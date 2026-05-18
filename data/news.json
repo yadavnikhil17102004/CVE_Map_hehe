@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-05-18T02:35:45Z",
+  "last_updated": "2026-05-18T06:48:36Z",
   "articles": [
+    {
+      "title": "Microsoft Confirms Windows 11 Update Fails With Error 0x800f0922",
+      "link": "https://cybersecuritynews.com/microsoft-windows-11-update/",
+      "description": "Microsoft has officially acknowledged a critical installation failure affecting its May 2026 Patch Tuesday cumulative update for Windows 11, KB5089549, leaving users stranded with error code 0x800f...",
+      "pub_date": "Mon, 18 May 2026 06:24:38 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Windows-11-Update.webp"
+    },
+    {
+      "title": "New Windows ‘MiniPlasma’ Zero-Day Let Attackers Gain SYSTEM Access – PoC Released",
+      "link": "https://cybersecuritynews.com/windows-miniplasma-zero-day/",
+      "description": "A critical Windows privilege escalation zero-day vulnerability dubbed \u0026#8220;MiniPlasma\u0026#8221; has emerged with a public proof-of-concept exploit that allows attackers to achieve SYSTEM-level privi...",
+      "pub_date": "Mon, 18 May 2026 06:00:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Windows-MiniPlasma-zero-day-Let-Attackers-Gain-SYSTEM-Access-PoC-Released.webp"
+    },
+    {
+      "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
+      "description": "The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws. [...]",
+      "pub_date": "Mon, 18 May 2026 01:33:20 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Critical WordPress Plugin Vulnerability Exposes Websites to Authentication Bypass Attacks",
+      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exposes-websites/",
+      "description": "A critical vulnerability in a widely used WordPress plugin has exposed over 200,000 websites to full account takeover, raising urgent concerns across the security community. Discovered on May 8, 20...",
+      "pub_date": "Mon, 18 May 2026 04:06:01 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Wordpress-Plugin-Vulnerability-Exposes-Websites-to-Authentication-Bypass-Attacks.webp"
+    },
+    {
+      "title": "Fast16 Malware Manipulated Nuclear Weapons Simulation Data to Sabotage Test Results",
+      "link": "https://cybersecuritynews.com/fast16-malware-manipulated-nuclear-weapons/",
+      "description": "Fast16 malware has been reclassified as a precision tool engineered not to disrupt nuclear warheads directly, but to quietly falsify the outcome of nuclear weapons test simulations and stall weapon...",
+      "pub_date": "Mon, 18 May 2026 03:43:04 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Fast16-Malware-Manipulated-Nuclear-Weapons.webp"
+    },
+    {
+      "title": "Claude Code RCE Flaw Lets Attackers Execute Commands via Malicious Deeplinks",
+      "link": "https://cybersecuritynews.com/claude-code-rce-flaw/",
+      "description": "A critical remote code execution (RCE) vulnerability has been discovered in Anthropic\u0026#8217;s Claude Code CLI tool, allowing attackers to execute arbitrary commands on a victim\u0026#8217;s machine by t...",
+      "pub_date": "Mon, 18 May 2026 03:14:53 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Claude-Code-RCE-Flaw-.webp"
+    },
     {
       "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
       "link": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
@@ -26,12 +74,28 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdFtAiSRukEdQXVvEzXdQKy0O9SY7RCuqFLuAEIBe4rECuQuUS76qEXnxPuEcKIIFUysRNOGdBW2Mf2n1sh1W35aU0nCksWiW7v-20p1K7RhdPPDnxKh7kt_OmQaPrmtYPJ3larEwWr9iHeQMoRtlW767YpsXBFP5-5CQ2jTJUB_jWaMmt_29uLJvaGZE_/s1600/nginx.jpg"
     },
     {
+      "title": "Grafana Labs Security Breach – Hackers Access GitHub and Download Codebase",
+      "link": "https://cybersecuritynews.com/grafana-labs-security-breach/",
+      "description": "A threat actor infiltrated Grafana Labs\u0026#8217; GitHub environment, stealing a privileged token to download the company\u0026#8217;s private codebase, and then attempted to extort the open-source observa...",
+      "pub_date": "Sun, 17 May 2026 08:32:42 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Grafana-Labs-Security-Breach.webp"
+    },
+    {
       "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
       "link": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
       "description": "Grafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase.     \"Our investigation has de...",
       "pub_date": "Sun, 17 May 2026 12:43:33 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNcCJY0s2GwOwFeSuqVz941pWrGK3theum-FBFyYO97JnK22OamMheCtr9yEEFfHMvurI7UBgl72blFK6Hm9u358g1V9HbZOk5vocuYMvgjfYLmf2XPNsSG1IiFxlbLvnRaotutjUB5I7sVLVTf1HTozz9FoeVxA3DJOn9wAOolL-HwmATDLlAD-Mgs-tO/s1600/grafana.jpg"
+    },
+    {
+      "title": "First Public macOS Kernel Exploit on Apple M5 Prepared Using Mythos Preview in Five Days",
+      "link": "https://cybersecuritynews.com/first-public-macos-kernel-exploit/",
+      "description": "Apple\u0026#8217;s M5 silicon has reportedly been exploited for the first time in a public macOS kernel memory corruption attack, successfully bypassing the company\u0026#8217;s notable hardware-level memory...",
+      "pub_date": "Sun, 17 May 2026 02:48:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/First-Public-macOS-Kernel-Exploit.webp"
     },
     {
       "title": "Microsoft rejects critical Azure vulnerability report, no CVE issued",
@@ -56,6 +120,30 @@
       "pub_date": "Sat, 16 May 2026 10:15:37 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Microsoft Exchange, Windows 11, and Cursor Zero-Days Exploited on Pwn2Own Day 2",
+      "link": "https://cybersecuritynews.com/microsoft-exchange-windows-11-and-cursor-zero-days-exploited-pwn2own/",
+      "description": "Pwn2Own Berlin 2026 is rapidly escalating into one of the most intense offensive security contests in recent years, with Day Two delivering a fresh wave of critical zero-day exploits targeting ente...",
+      "pub_date": "Sat, 16 May 2026 10:51:26 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Exchange-Windows-11-and-Cursor-Zero-Days-Exploited-on-Pwn2Own-Day-2-1.webp"
+    },
+    {
+      "title": "JDownloader Website Compromised to Distribute Malicious Windows and Linux Installers",
+      "link": "https://cybersecuritynews.com/jdownloader-website-compromised/",
+      "description": "A widely used download manager trusted by millions has briefly turned into a malware delivery platform after attackers compromised the official JDownloader website, replacing legitimate installers ...",
+      "pub_date": "Sat, 16 May 2026 10:23:08 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/JDownloader-Website-Compromised-to-Distribute-Malicious-Windows-and-Linux-Installers-1.webp"
+    },
+    {
+      "title": "Malicious JPEG Images Could Trigger PHP Memory Safety Vulnerabilities",
+      "link": "https://cybersecuritynews.com/malicious-jpeg-images-php-memory-safety-vulnerabilities/",
+      "description": "Two critical memory-safety vulnerabilities in PHP\u0026#8217;s image-processing functions could allow attackers to leak sensitive heap memory or to execute denial-of-service attacks via specially crafte...",
+      "pub_date": "Sat, 16 May 2026 09:01:53 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-JPEG-Images-Could-Trigger-PHP-Memory-Safety-Vulnerabilities-1.webp"
     },
     {
       "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
@@ -190,14 +278,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
       "description": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to websites. [...]",
       "pub_date": "Thu, 14 May 2026 17:07:17 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
-      "description": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain administ...",
-      "pub_date": "Thu, 14 May 2026 16:09:56 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
