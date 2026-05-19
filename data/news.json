@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-05-19T03:32:45Z",
+  "last_updated": "2026-05-19T07:37:44Z",
   "articles": [
+    {
+      "title": "Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data",
+      "link": "https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts/",
+      "description": "A compromised version of the widely used Nx Console VS Code extension was published to the Visual Studio Code Marketplace on May 18, 2026, silently targeting developer credentials, cloud infrastruc...",
+      "pub_date": "Tue, 19 May 2026 06:59:09 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-Microsoft-Entra-ID-Accounts-to-Exfiltrate-Microsoft-365-and-Azure-Data.webp"
+    },
+    {
+      "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
+      "link": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
+      "description": "In yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sensitive credential...",
+      "pub_date": "Tue, 19 May 2026 10:58:06 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc7jpVO6HhBuEBTjkwmNjYhKlFmhhmytOqNZHYuGP-dNWrf3AoyE68yoKj77elddOX4Ps2x9jSuwhi5sE-QjK_oEjLXgQW9e6EHx6W0G7qTqYTM3fZh1AQTyrgm2o-PFBeD9ryHnC6fDmK5MYKUzBjU_pJibTilnm1d99WSQkJux6PXXRydkYW5d15Ada-/s1600/step.jpg"
+    },
+    {
+      "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
+      "link": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
+      "description": "Cybersecurity researchers have discovered a fresh software supply chain attack campaign that has compromised various npm packages associated with the @antv ecosystem as part of the ongoing Mini Sha...",
+      "pub_date": "Tue, 19 May 2026 10:24:17 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpyJDg_FqUDfeOeVX8IyhBHj9HqwkGZ-hV7b998CMLiBK2uPpmuQEN1cv1xYXJzRiznN6u_oXjA0lAGWgrkUH9EqaqfOFyW85ZQiz_Cr2YrHl1uxUHqEztt_iWG1LtRfNMpYTIqhS8vKTUOdZiNAf_r_g0r7LzqsvjmCmsr7_lv9jmXvHs5s76BEQCMnql/s1600/npm-malware.jpg"
+    },
+    {
+      "title": "Mythos Preview Builds PoC Exploits in Automated Vulnerability Research",
+      "link": "https://cybersecuritynews.com/mythos-preview-builds-poc-exploits/",
+      "description": "Anthropic\u0026#8217;s Mythos Preview security-focused AI model is crossing a critical threshold in automated vulnerability research, not just finding bugs, but chaining them together into working proof...",
+      "pub_date": "Tue, 19 May 2026 03:34:14 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Mythos-Preview-Builds-PoC-Exploits.webp"
+    },
     {
       "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
       "link": "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
@@ -202,22 +234,6 @@
       "image_url": ""
     },
     {
-      "title": "Critical WordPress Plugin Vulnerability Exposes Websites to Authentication Bypass Attacks",
-      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exposes-websites/",
-      "description": "A critical vulnerability in a widely used WordPress plugin has exposed over 200,000 websites to full account takeover, raising urgent concerns across the security community. Discovered on May 8, 20...",
-      "pub_date": "Mon, 18 May 2026 04:06:01 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Wordpress-Plugin-Vulnerability-Exposes-Websites-to-Authentication-Bypass-Attacks.webp"
-    },
-    {
-      "title": "Fast16 Malware Manipulated Nuclear Weapons Simulation Data to Sabotage Test Results",
-      "link": "https://cybersecuritynews.com/fast16-malware-manipulated-nuclear-weapons/",
-      "description": "Fast16 malware has been reclassified as a precision tool engineered not to disrupt nuclear warheads directly, but to quietly falsify the outcome of nuclear weapons test simulations and stall weapon...",
-      "pub_date": "Mon, 18 May 2026 03:43:04 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Fast16-Malware-Manipulated-Nuclear-Weapons.webp"
-    },
-    {
       "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
       "link": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
       "description": "A cybersecurity researcher has released a proof-of-concept exploit for a Windows privilege escalation zero-day dubbed \"MiniPlasma\" that lets attackers gain SYSTEM privileges on fully patched Window...",
@@ -312,22 +328,6 @@
       "pub_date": "Fri, 15 May 2026 19:05:04 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz_tK9S8jS_n5CK694-FLGjQP5_Mmpg7z9ZRiBayWsJLsuFRIm-8j1hTlhH90779FvnvhpiFKeGP9CzI5RCPsxQEnOzAIQsPzUsAJhUWtNm9iwf9C1W9DbDmqoQ_jjHhM7huYDV210OB9o1L9NPoJ0IL6R9Xc-V4JQ91Kn-b47_2ravRJ6-qlZOVrqsuAz/s1600/openclaw.png"
-    },
-    {
-      "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
-      "link": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
-      "description": "In Your Biggest Security Risk Isn't Malware — It's What You Already Trust, we made a simple argument: the most dangerous activity inside most organizations no longer looks like an attack. It look...",
-      "pub_date": "Fri, 15 May 2026 16:30:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVcSUDrpIZyFrHqIlIGnXfIShsEamRNviaM6TguPwmQI9KkhrIXOQbQ0WVKiOkcBGkFqKTKZmK16zPChmlcCbZHIkX3K_C0sjnyXYJjpZuJXO3OiIhUe7Ez8jCNiTxh0FGYS2-RR6HKsl9pWJVgc_uXAtHXj0hgU-mLSsOh-QHft6A92KtgWPQhk1OVPA/s1600/Attack-Surface.jpg"
-    },
-    {
-      "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
-      "link": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
-      "description": "OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user data, production sys...",
-      "pub_date": "Fri, 15 May 2026 16:24:44 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1l4Vq20M4553fkDfGbO9VqLV9Au-6EefivLp8HT2W5QxJvgWf1mr6pg5xsbC5j3FCJzOOCJv_CImY1LjjFYIN_25ajki1iS_EVPvTyeVY7bC3ogcQFzHmE1Xyaz3cRXneilC0rWcb8dLbUapLI_jZ-uBaUkku48absoxM6TG16jS3xxtw9lhhtCvJmemK/s1600/chatgpt.jpg"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
