@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-05-19T20:25:54Z",
+  "last_updated": "2026-05-19T22:09:10Z",
   "articles": [
+    {
+      "title": "UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery",
+      "link": "https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin/",
+      "description": "A newly documented attack chain linked to the threat group UAC-0184 has been observed using Windows\u0026#8217; built-in bitsadmin tool and HTA files to sneak malicious payloads onto targeted systems. T...",
+      "pub_date": "Tue, 19 May 2026 22:07:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/UAC-0184-Malware-Chain-Uses-bitsadmin-and-HTA-Files-for-Gated-Payload-Delivery.webp"
+    },
+    {
+      "title": "macOS Malware Installs Fake Google Software Update LaunchAgent for Persistence",
+      "link": "https://cybersecuritynews.com/macos-malware-installs-fake-google-software/",
+      "description": "macOS users are facing a new and sophisticated threat as a variant of the SHub infostealer malware, dubbed \u0026#8220;Reaper,\u0026#8221; has been observed deploying a fake Google Software Update LaunchAgen...",
+      "pub_date": "Tue, 19 May 2026 21:50:13 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/macOS-Malware-Installs-Fake-Google-Software-Update-LaunchAgent-for-Persistence.webp"
+    },
+    {
+      "title": "Cybercrime service disrupted for abusing Microsoft platform to sign malware",
+      "link": "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
+      "description": "Microsoft says it has disrupted a malware-signing-as-a-service (MSaaS) operation that abused the company's Artifact Signing service to generate fraudulent code-signing certificates used by ransomwa...",
+      "pub_date": "Tue, 19 May 2026 17:47:31 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Discord rolls out end-to-end encryption on voice, video calls",
+      "link": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
+      "description": "Discord announced that all voice and video calls through the communication platform are now protected by default with end-to-end encryption (E2EE). [...]",
+      "pub_date": "Tue, 19 May 2026 16:37:45 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",
       "link": "https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows/",
@@ -104,22 +136,6 @@
       "pub_date": "Tue, 19 May 2026 15:44:21 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-PostgreSQL-Vulnerabilities-Enables-code-execution-and-SQL-injections-vulnerabilities.webp"
-    },
-    {
-      "title": "Two-Thirds of Nonhuman Accounts Are Unseen and Unmanaged, According to Orchid Security’s Identity Gap Report",
-      "link": "https://cybersecuritynews.com/two-thirds-of-nonhuman-accounts-are-unseen-and-unmanaged-according-to-orchid-securitys-identity-gap-report/",
-      "description": "New York, United States, May 19th, 2026, CyberNewswire New research shows identity dark matter continues to expand and erode enterprise identity, resulting in a fragile foundation for agent AI read...",
-      "pub_date": "Tue, 19 May 2026 15:37:57 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5joS3YVnm-6KI5gZxlwe8QpeiUNh-65sLTO4wlgfZ7_IlAeEbZNnhnLsSz5Up3eP3RyJTG4IK4sO1fh3jWSsxFzee09S0c-FziOSSfXfCr7KmiKbhQh2BZXhW_zLZv7rJEBym73kKVJRn8vIxGNS93EqwddY3Vjv3iWBLhCYrlUgeBRlsZuWl-1IFxFY/s16000/TTT%20-%202026-05-19T193412.121.webp?ssl=1"
-    },
-    {
-      "title": "600+ npm Packages Compromised in New Mini Shai-Hulud Supply Chain Attack",
-      "link": "https://cybersecuritynews.com/600-npm-packages-compromised/",
-      "description": "A sophisticated npm supply chain campaign dubbed Mini Shai-Hulud has claimed over 600 package versions overnight, with security researchers at Socket and Endor Labs identifying 639 compromised pack...",
-      "pub_date": "Tue, 19 May 2026 15:37:25 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/600-npm-Packages-Compromised.webp"
     },
     {
       "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
@@ -266,14 +282,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFzN7ITW3vwaWKn1m-BGZGI1JicT1T8d5v4LZbTvOTe7m1Xj4pk1pFECjAOvxey4XzXg7vGiU5Xzifs4qkzr9cbg2iPboHfPAHHBmi3O8OIAArhJlbr52gwKMkdqrIuIK77Pq8EzCTQM1hV5MsLuTbV4GXbXzr7miv0jA6o0Bn35RgBjc2cnd6qPq2-0Di/s1600/recapss.jpg"
     },
     {
-      "title": "Grafana says stolen GitHub token let hackers steal codebase",
-      "link": "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
-      "description": "Grafana Labs disclosed that hackers have downloaded its source code after breaching its GitHub environment using a stolen access token. [...]",
-      "pub_date": "Mon, 18 May 2026 09:46:26 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
       "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
       "description": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attac...",
@@ -288,14 +296,6 @@
       "pub_date": "Mon, 18 May 2026 16:53:41 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjylLL25uQ3uU6RshKkTv9isR22Y_6_b4uJJ4koE1MqtmGs4IWdz88_aH8up_7WDxghA7-GeMbm6gpoKUXRw99Cm1ljO03H8bdcv91vvO_ch313e_JAwtYH-CewZJF2WkNrYWtcp-acMiPTvSs5aan7v2DLpEjVSBuEarfJ-eCLEHCL2WK9zjxOho_gj3k/s1600/git.gif"
-    },
-    {
-      "title": "Microsoft testing adjustable taskbar, Start menu in Windows 11",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-finally-gets-a-resizable-taskbar-and-start-menu/",
-      "description": "Microsoft has finally brought back the resizable taskbar and Start menu to Windows 11 in the latest preview version rolling out to Insiders in the Experimental channel. [...]",
-      "pub_date": "Mon, 18 May 2026 07:14:28 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
