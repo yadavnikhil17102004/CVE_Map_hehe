@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-19T18:54:58Z",
+  "last_updated": "2026-05-19T20:25:54Z",
   "articles": [
+    {
+      "title": "The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",
+      "link": "https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows/",
+      "description": "A ransomware group called The Gentlemen has been quietly building one of the most aggressive cybercriminal operations seen in recent years. Emerging publicly in the second half of 2025, the group r...",
+      "pub_date": "Tue, 19 May 2026 20:12:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/The-Gentlemen-Ransomware-Attacks-Windows-Linux-NAS-BSD-and-ESXi-Attacks.webp"
+    },
+    {
+      "title": "FBI: Americans lost over $388 million to scams using crypto ATMs in 2025",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/",
+      "description": "The FBI says Americans have lost over $388 million last year to scams using cryptocurrency kiosks, also known as crypto ATMs or Bitcoin ATMs. [...]",
+      "pub_date": "Tue, 19 May 2026 15:45:39 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Self-Service Password Reset abused in Azure data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
+      "description": "A threat actor targeting Microsoft 365 and Azure production environments is stealing data in attacks that abuse legitimate applications and administration features. [...]",
+      "pub_date": "Tue, 19 May 2026 15:35:32 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",
       "link": "https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters/",
@@ -96,14 +120,6 @@
       "pub_date": "Tue, 19 May 2026 15:37:25 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/600-npm-Packages-Compromised.webp"
-    },
-    {
-      "title": "Hackers Hijacking Four-Faith Industrial Routers for Botnet Activity",
-      "link": "https://cybersecuritynews.com/hijacking-four-faith-industrial-routers-for-botnet/",
-      "description": "Hackers are actively exploiting Four-Faith industrial routers to build botnets, leveraging a critical vulnerability identified as CVE-2024-9643. Security researchers from CrowdSec report a sharp ri...",
-      "pub_date": "Tue, 19 May 2026 15:11:24 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Hijacking-Four-Faith-Industrial-Routers-for-Botnet-Activity.webp"
     },
     {
       "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
@@ -304,22 +320,6 @@
       "pub_date": "Mon, 18 May 2026 14:27:26 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbN7WbW1cUkMzMJl0HPvRrQQUc5MQEE3Pvrc735aG7RGwpguum4POxa4yeQjyYIyiAYBDj_Zl6Ud8esex0AnQSG2J6TVWat57BLALA4WTi3gr5mfrLC2AHloSuvzx6fg9bTxZUvO-aA5VwHjyqbYecAWm2DnM9SRyt0M1GaqYzlBBKdgUR8BXV3xIDVnVN/s1600/npm-hacking.jpg"
-    },
-    {
-      "title": "Microsoft confirms Windows 11 security update install issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/",
-      "description": "Microsoft has confirmed that the May 2026 Windows 11 security update (KB5089549) fails to install on some systems and triggers 0x800f0922 errors. [...]",
-      "pub_date": "Mon, 18 May 2026 04:33:14 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
-      "description": "A recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module now has a proof-of-concept exploit that allows attackers to gain root access on some Linux systems. [...]",
-      "pub_date": "Mon, 18 May 2026 03:18:33 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
