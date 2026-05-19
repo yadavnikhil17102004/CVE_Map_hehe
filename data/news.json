@@ -1,13 +1,125 @@
 {
-  "last_updated": "2026-05-19T13:52:08Z",
+  "last_updated": "2026-05-19T16:46:29Z",
   "articles": [
     {
-      "title": "New VoidStealer Malware Bypasses Chrome’s App-Bound Encryption to Steal Passwords and Cookies",
+      "title": "Microsoft plans to improve Windows 11 driver quality in 2026",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-plans-to-improve-windows-11-driver-quality-in-2026/",
+      "description": "Microsoft plans to raise the quality bar of Windows 11 drivers, as drivers \"sit at the heart of every Windows experience\" and connect the OS to the \"silicon, components, and peripherals.\" [...]",
+      "pub_date": "Tue, 19 May 2026 12:22:30 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft blames macOS update for undismissible Teams location prompts",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-undismissible-teams-location-prompts-on-macos-update/",
+      "description": "Microsoft has confirmed user reports that the Teams team collaboration app is displaying non-dismissible location prompts on some macOS systems. [...]",
+      "pub_date": "Tue, 19 May 2026 12:10:47 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Critical PostgreSQL Vulnerabilities Enables Code Execution and SQL Injections",
+      "link": "https://cybersecuritynews.com/postgresql-code-execution-vulnerabilities/",
+      "description": "The PostgreSQL Global Development Group has released critical security updates for all supported branches, fixing 11 vulnerabilities, including arbitrary code execution and several SQL injection fl...",
+      "pub_date": "Tue, 19 May 2026 15:44:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-PostgreSQL-Vulnerabilities-Enables-code-execution-and-SQL-injections-vulnerabilities.webp"
+    },
+    {
+      "title": "Two-Thirds of Nonhuman Accounts Are Unseen and Unmanaged, According to Orchid Security’s Identity Gap Report",
+      "link": "https://cybersecuritynews.com/two-thirds-of-nonhuman-accounts-are-unseen-and-unmanaged-according-to-orchid-securitys-identity-gap-report/",
+      "description": "New York, United States, May 19th, 2026, CyberNewswire New research shows identity dark matter continues to expand and erode enterprise identity, resulting in a fragile foundation for agent AI read...",
+      "pub_date": "Tue, 19 May 2026 15:37:57 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5joS3YVnm-6KI5gZxlwe8QpeiUNh-65sLTO4wlgfZ7_IlAeEbZNnhnLsSz5Up3eP3RyJTG4IK4sO1fh3jWSsxFzee09S0c-FziOSSfXfCr7KmiKbhQh2BZXhW_zLZv7rJEBym73kKVJRn8vIxGNS93EqwddY3Vjv3iWBLhCYrlUgeBRlsZuWl-1IFxFY/s16000/TTT%20-%202026-05-19T193412.121.webp?ssl=1"
+    },
+    {
+      "title": "600+ npm Packages Compromised in New Mini Shai-Hulud Supply Chain Attack",
+      "link": "https://cybersecuritynews.com/600-npm-packages-compromised/",
+      "description": "A sophisticated npm supply chain campaign dubbed Mini Shai-Hulud has claimed over 600 package versions overnight, with security researchers at Socket and Endor Labs identifying 639 compromised pack...",
+      "pub_date": "Tue, 19 May 2026 15:37:25 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/600-npm-Packages-Compromised.webp"
+    },
+    {
+      "title": "Hackers Hijacking Four-Faith Industrial Routers for Botnet Activity",
+      "link": "https://cybersecuritynews.com/hijacking-four-faith-industrial-routers-for-botnet/",
+      "description": "Hackers are actively exploiting Four-Faith industrial routers to build botnets, leveraging a critical vulnerability identified as CVE-2024-9643. Security researchers from CrowdSec report a sharp ri...",
+      "pub_date": "Tue, 19 May 2026 15:11:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Hijacking-Four-Faith-Industrial-Routers-for-Botnet-Activity.webp"
+    },
+    {
+      "title": "Compromised GitHub Action Exfiltrates Workflow Credentials to Attacker Domain",
+      "link": "https://cybersecuritynews.com/compromised-github-action-exfiltrates-workflow-credentials/",
+      "description": "A widely used GitHub Action called actions-cool/issues-helper has been compromised, with every version tag in the repository silently redirected to a malicious commit. The attack places stolen CI/C...",
+      "pub_date": "Tue, 19 May 2026 15:11:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Compromised-GitHub-Action-Exfiltrates-Workflow-Credentials-to-Attacker-Domain.webp"
+    },
+    {
+      "title": "Critical Apache Flink Vulnerability Enables Remote code execution Attacks",
+      "link": "https://cybersecuritynews.com/apache-flink-vulnerability/",
+      "description": "A newly disclosed critical vulnerability in Apache Flink, tracked as CVE-2026-35194, exposes distributed data processing environments to remote code execution (RCE) attacks via SQL injection flaws...",
+      "pub_date": "Tue, 19 May 2026 15:03:10 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Apache-Flink-Vulnerability-Enables-Remote-code-execution-Attacks.webp"
+    },
+    {
+      "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
+      "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
+      "description": "Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka Di...",
+      "pub_date": "Tue, 19 May 2026 20:26:26 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgecVdZ_vIxfMWdiQkn7dC_SCueSRLBHaU01aHrtW1lUsx3_5gwbM6fG5NyV-VUhnDxvolk_tzMNWgINg06cwjKL1xIeDIFMiFH56IUO_zwZwJqiLnMp-VJcIWFjhulk1AHnlZ_ETgH3vg6Q6SHS4Ae-teRmaLDY4XZhONjoz4MeKvQLyzJ_YdckL8lk3fe/s1600/linux-poc.jpg"
+    },
+    {
+      "title": "Microsoft Edge Stops Loading Saved Passwords Into Memory at Startup",
+      "link": "https://cybersecuritynews.com/microsoft-edge-stops-loading-saved-passwords/",
+      "description": "Microsoft has announced a significant security improvement in its Edge browser, eliminating the practice of loading saved passwords into process memory at startup. The change comes as part of the c...",
+      "pub_date": "Tue, 19 May 2026 14:49:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Edge-Stops-Loading-Saved-Passwords-Into-Memory-at-Startup.webp"
+    },
+    {
+      "title": "New Shai-Hulud malware wave compromises 600 npm packages",
+      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
+      "description": "Threat actors earlier today published more than 600 malicious packages to the Node Package Manager (npm) index as part of a new Shai-Hulud supply-chain campaign. [...]",
+      "pub_date": "Tue, 19 May 2026 10:30:22 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
+      "link": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
+      "description": "Convenience store chain giant 7-Eleven confirmed that its systems were breached in a cyberattack claimed by the ShinyHunters extortion group last month. [...]",
+      "pub_date": "Tue, 19 May 2026 10:16:41 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Attackers Use Cloudflare Storage Endpoint to Exfiltrate Files From Compromised Networks",
+      "link": "https://cybersecuritynews.com/attackers-use-cloudflare-storage-endpoint/",
+      "description": "Attackers have found a new way to quietly steal data from compromised networks, and this time, they are hiding behind a familiar face. Security researchers have uncovered a targeted intrusion campa...",
+      "pub_date": "Tue, 19 May 2026 14:01:55 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Attackers-Use-Cloudflare-Storage-Endpoint-to-Exfiltrate-Files-From-Compromised-Networks.webp"
+    },
+    {
+      "title": "Critical Microsoft Vulnerabilities Doubled: From Exposure to Escalation",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
+      "description": "Microsoft's total vulnerability count stayed steady in 2025, but critical flaws surged year over year. BeyondTrust breaks down why attackers are increasingly focused on privilege escalation and ide...",
+      "pub_date": "Tue, 19 May 2026 10:00:10 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New VoidStealer Malware Bypasses Chrome’s Protection to Steal User Data",
       "link": "https://cybersecuritynews.com/new-voidstealer-malware-bypasses-chromes-app-bound-encryption/",
       "description": "A newly discovered malware called VoidStealer has emerged as a serious threat to Chrome users on Windows, using a clever technique to bypass one of the browser\u0026#8217;s most important security featu...",
       "pub_date": "Tue, 19 May 2026 12:53:43 +0000",
       "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-VoidStealer-Malware-Bypasses-Chromes-App-Bound-Encryption-to-Steal-Passwords-and-Cookies.webp"
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/VoidStealer-Malware-Chromes-Protection.webp"
     },
     {
       "title": "Webinar: The hidden bottlenecks in network incident response",
@@ -50,30 +162,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdm6ntsTvJJXoF1Bvx2Qm11faosxt-w7g0VzPCnsORnDN-q79t1wnbzqTFxbkRw5DF1DjhdDUgZ1H_0O4h35tZcEvlsM7dEUkbPyvaQdkEhhyGhpF90Bug4O1aai-0dXi1DdnnOpH2SmC8GoQD0TAd742-StQ4Pva_IVXNUcRpy9V96B7dwBnOc41xScyj/s1600/drupal-update.jpg"
     },
     {
-      "title": "Microsoft to Retire Teams Together Mode to Enhance Performance Improvements",
-      "link": "https://cybersecuritynews.com/microsoft-retire-teams-together-mode/",
-      "description": "Microsoft has announced the retirement of its “Together Mode” feature in Microsoft Teams, marking a strategic shift toward performance optimization and simplified meeting experiences. The chang...",
-      "pub_date": "Tue, 19 May 2026 10:37:24 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-to-Retire-Teams-Together-mode-to-Enhance-Performance-Improvements-1.webp"
-    },
-    {
-      "title": "Critical Marimo Security Vulnerability Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/marimo-security-vulnerability/",
-      "description": "A critical security vulnerability in the Marimo Python notebook framework is being actively exploited to achieve pre-authentication remote code execution (RCE), allowing attackers to gain full cont...",
-      "pub_date": "Tue, 19 May 2026 10:35:09 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Marimo-Security-Vulnerability-Enables-remote-code-execution-Attacks.webp"
-    },
-    {
-      "title": "Critical SEPPmail Gateway Flaws Allow Remote Code Execution and Mail Traffic Theft",
-      "link": "https://cybersecuritynews.com/seppmail-gateway-flaws/",
-      "description": "Critical vulnerabilities in the SEPPmail Secure Email Gateway have exposed organizations to remote code execution (RCE) and potential interception of sensitive email traffic. Researchers uncovered ...",
-      "pub_date": "Tue, 19 May 2026 10:29:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-SEPPmail-Gateway-Flaws-Allow-Remote-Code-Execution-and-Mail-Traffic-Theft.webp"
-    },
-    {
       "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
       "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
       "description": "Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code execution and en...",
@@ -82,36 +170,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiortK4EUp9FwJsfVYW-j20LfpbM5qMNelk5-T8BbZ7dEcmBLXnqhWW9loE8GD6aexZv3h-xHEgn_N7ECjV8KXdcGwNxsbhCPP07COzt9c8BhMaVTF4OaSnKD2b98mJjsU1d57OXj2FQtOhKyeo6oPcT0-rrOi-_dKf1iielQQnhsprZ43tHyYFbiYhgFK8/s1600/email-hacking.jpg"
     },
     {
-      "title": "Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave",
-      "link": "https://cybersecuritynews.com/hackers-compromise-antv-packages/",
-      "description": "A sweeping supply chain attack has hit the npm ecosystem, compromising hundreds of widely used JavaScript packages tied to the @antv data visualization library. The attack, which unfolded in the ea...",
-      "pub_date": "Tue, 19 May 2026 09:07:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Compromise-@antv-Packages-in-Mini-Shai-Hulud-npm-Attack-Wave.webp"
-    },
-    {
-      "title": "CISA Admin Exposes AWS GovCloud Credentials on Public GitHub Repository",
-      "link": "https://cybersecuritynews.com/cisa-admin-exposes-aws-govcloud-credentials/",
-      "description": "A major security lapse has exposed highly sensitive U.S. government cloud credentials after a contractor working with the Cybersecurity and Infrastructure Security Agency (CISA) accidentally publis...",
-      "pub_date": "Tue, 19 May 2026 08:39:49 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CISA-Admin-Exposes-AWS-GovCloud-credentials-on-public-GitHub-repository-1.webp"
-    },
-    {
       "title": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer",
       "link": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
       "description": "Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace.  The extension in question is ...",
       "pub_date": "Tue, 19 May 2026 13:19:23 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi61imbY3-QbM_mT_6WAxBXaFeZ3eXwprN147ox_bMvVqh9NrS69IwqwwL4qu2z1eRA8NfrWwyJi9bIDuREGEVZ-LdBMCGTSxdul92ZApPGrzwqOcr3b6YBKC19N97sk75izvamQxOqBzokKhF-__uaEuw74ZbKQLxKxMQWgRXSCR3FE6ULeHGxbiIhuEso/s1600/nconsole.jpg"
-    },
-    {
-      "title": "Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data",
-      "link": "https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts/",
-      "description": "A threat actor known as Storm-2949 has launched a sophisticated, multi-layered cloud attack campaign targeting Microsoft Entra ID accounts to steal sensitive data from Microsoft 365 and Azure envir...",
-      "pub_date": "Tue, 19 May 2026 06:59:09 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-Microsoft-Entra-ID-Accounts-to-Exfiltrate-Microsoft-365-and-Azure-Data.webp"
     },
     {
       "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
@@ -128,14 +192,6 @@
       "pub_date": "Tue, 19 May 2026 10:24:17 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpyJDg_FqUDfeOeVX8IyhBHj9HqwkGZ-hV7b998CMLiBK2uPpmuQEN1cv1xYXJzRiznN6u_oXjA0lAGWgrkUH9EqaqfOFyW85ZQiz_Cr2YrHl1uxUHqEztt_iWG1LtRfNMpYTIqhS8vKTUOdZiNAf_r_g0r7LzqsvjmCmsr7_lv9jmXvHs5s76BEQCMnql/s1600/npm-malware.jpg"
-    },
-    {
-      "title": "Mythos Preview Builds PoC Exploits in Automated Vulnerability Research",
-      "link": "https://cybersecuritynews.com/mythos-preview-builds-poc-exploits/",
-      "description": "Anthropic\u0026#8217;s Mythos Preview security-focused AI model is crossing a critical threshold in automated vulnerability research, not just finding bugs, but chaining them together into working proof...",
-      "pub_date": "Tue, 19 May 2026 03:34:14 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Mythos-Preview-Builds-PoC-Exploits.webp"
     },
     {
       "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
@@ -176,14 +232,6 @@
       "pub_date": "Mon, 18 May 2026 22:51:18 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivxxVYex3z2F03m6RYOR72whyegN5TEzzNxZO3tTOSHNTQ4tqCeD-H-F0c3K8dInMfh1EwPQP0jtoHEA4agDOYN2sF7qxGMHnuhsWges5me7ESa8_ycNj0vHf1TeeTgqetA1yOQ5Gi6a7jsV5khO3PVNcbkrBRCTMRNRb_qPLwBUdlvZJUCDvGjtmSVuod/s1600/hackers.png"
-    },
-    {
-      "title": "Hackers Actively Exploiting Critical NGINX RCE Vulnerability in the Wild",
-      "link": "https://cybersecuritynews.com/hackers-exploiting-nginx-rce-vulnerability/",
-      "description": "Hackers are wasting no time exploiting a newly disclosed critical vulnerability in NGINX, with security researchers already observing real-world attacks just days after its public release. Security...",
-      "pub_date": "Mon, 18 May 2026 16:43:40 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Actively-Exploiting-Critical-NGINX-RCE-Vulnerability-in-the-Wild-1.webp"
     },
     {
       "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
@@ -272,54 +320,6 @@
       "pub_date": "Mon, 18 May 2026 12:16:37 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis3jEEpg3n_4z5YYUwDaXETZ4KJGxCqjzrZMHUmpgvOCC7pxoSs6Rn9klL5REej9UUJJxIrOstlQDWjbTeAOUhJ7wFSoTvpLkOVx3hb5fKerxA6NkeNMDQ7bt4F-kLwEPXWZPCsVa_wXaonk9mb9CKTF4cVDToquGN57Xzw1VmszeNoEKVEvtcHMSnTCOi/s1600/fast16-stuxnet.jpg"
-    },
-    {
-      "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
-      "description": "The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws. [...]",
-      "pub_date": "Mon, 18 May 2026 01:33:20 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
-      "description": "A cybersecurity researcher has released a proof-of-concept exploit for a Windows privilege escalation zero-day dubbed \"MiniPlasma\" that lets attackers gain SYSTEM privileges on fully patched Window...",
-      "pub_date": "Sun, 17 May 2026 18:30:08 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing",
-      "link": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
-      "description": "The Tycoon2FA phishing kit now supports device-code phishing attacks and abuses Trustifi click-tracking URLs to hijack Microsoft 365 accounts. [...]",
-      "pub_date": "Sun, 17 May 2026 10:43:10 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
-      "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-      "description": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, trac...",
-      "pub_date": "Sun, 17 May 2026 17:27:53 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdFtAiSRukEdQXVvEzXdQKy0O9SY7RCuqFLuAEIBe4rECuQuUS76qEXnxPuEcKIIFUysRNOGdBW2Mf2n1sh1W35aU0nCksWiW7v-20p1K7RhdPPDnxKh7kt_OmQaPrmtYPJ3larEwWr9iHeQMoRtlW767YpsXBFP5-5CQ2jTJUB_jWaMmt_29uLJvaGZE_/s1600/nginx.jpg"
-    },
-    {
-      "title": "Microsoft rejects critical Azure vulnerability report, no CVE issued",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
-      "description": "A security researcher claims Microsoft quietly fixed an Azure Backup for AKS vulnerability after rejecting his report, and without issuing a CVE. Microsoft disputes the claim, telling BleepingCompu...",
-      "pub_date": "Sat, 16 May 2026 16:55:44 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
-      "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
-      "description": "The Russian hacker group Secret Blizzard has developed its long-running Kazuar backdoor into a modular peer-to-peer (P2P) botnet designed for long-term persistence, stealth, and data collection. [...]",
-      "pub_date": "Sat, 16 May 2026 10:15:37 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
@@ -522,6 +522,46 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/01/01_sample-taskflow.png?resize=1024%2C209"
     },
     {
+      "title": "Kieback \u0026 Peter DDC Building Controllers",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take control of the victim's browser. The following versions of Kieback \u0026amp; Peter DDC Building Controlle...",
+      "pub_date": "Tue, 19 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens RUGGEDCOM APE1808 Devices",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-02",
+      "description": "View CSAF Summary A buffer overflow vulnerability in the User-ID™ Authentication Portal (aka Captive Portal) service of Palo Alto Networks PAN-OS software allows an unauthenticated attacker to ex...",
+      "pub_date": "Tue, 19 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB CoreSense HM and CoreSense M10",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-01",
+      "description": "View CSAF Summary An update is available that resolves vulnerability in the product versions listed as affected in this advisory. A path traversal vulnerability in these products can allow unauthen...",
+      "pub_date": "Tue, 19 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ScadaBR",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-03",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to perform unauthenticated remote code execution. The following versions of ScadaBR are affected:  ScadaBR...",
+      "pub_date": "Tue, 19 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ZKTeco CCTV Cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-04",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in information disclosure, including capture of camera account credentials. The following versions of ZKTeco CCTV Camera...",
+      "pub_date": "Tue, 19 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-42897 Microsoft Exchange Server Cross-Site Scripting V...",
@@ -597,46 +637,6 @@
       "title": "Siemens Teamcenter",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-04",
       "description": "View CSAF Summary Siemens Teamcenter is affected by multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has released new ve...",
-      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Solid Edge",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-03",
-      "description": "View CSAF Summary Solid Edge SE2026 before Update 5 is affected by two file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR format. This co...",
-      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens SENTRON 7KT PAC1261 Data Manager",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-14",
-      "description": "View CSAF Summary The web server in SENTRON 7KT PAC1261 Data Manager Before V2.1.0 contains a request smuggling vulnerability in the Go Project's net/http package that could allow an attacker to re...",
-      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Opcenter RDnL",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-09",
-      "description": "View CSAF Summary Opcenter RDnL is affected by missing authentication in critical function in ‘ActiveMQ Artemis’. An unauthenticated attacker within the adjacent network could use the Core prot...",
-      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Ruggedcom Rox",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-02",
-      "description": "View CSAF Summary Ruggedcom Rox contains an improper access control vulnerability that could allow an authenticated remote attacker to read arbitrary files with root privileges from the underlying ...",
-      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens SIMATIC S7 PLC Web Server",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-15",
-      "description": "View CSAF Summary SIMATIC S7 PLCs contain multiple vulnerabilities in the web server that could allow an attacker to perform cross-site scripting attacks. Siemens has released new versions for seve...",
       "pub_date": "Thu, 14 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
