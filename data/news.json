@@ -1,10 +1,66 @@
 {
-  "last_updated": "2026-05-19T07:37:44Z",
+  "last_updated": "2026-05-19T10:55:09Z",
   "articles": [
+    {
+      "title": "Microsoft to Retire Teams Together Mode to Enhance Performance Improvements",
+      "link": "https://cybersecuritynews.com/microsoft-retire-teams-together-mode/",
+      "description": "Microsoft has announced the retirement of its “Together Mode” feature in Microsoft Teams, marking a strategic shift toward performance optimization and simplified meeting experiences. The chang...",
+      "pub_date": "Tue, 19 May 2026 10:37:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-to-Retire-Teams-Together-mode-to-Enhance-Performance-Improvements-1.webp"
+    },
+    {
+      "title": "Critical Marimo Security Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/marimo-security-vulnerability/",
+      "description": "A critical security vulnerability in the Marimo Python notebook framework is being actively exploited to achieve pre-authentication remote code execution (RCE), allowing attackers to gain full cont...",
+      "pub_date": "Tue, 19 May 2026 10:35:09 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Marimo-Security-Vulnerability-Enables-remote-code-execution-Attacks.webp"
+    },
+    {
+      "title": "Critical SEPPmail Gateway Flaws Allow Remote Code Execution and Mail Traffic Theft",
+      "link": "https://cybersecuritynews.com/seppmail-gateway-flaws/",
+      "description": "Critical vulnerabilities in the SEPPmail Secure Email Gateway have exposed organizations to remote code execution (RCE) and potential interception of sensitive email traffic. Researchers uncovered ...",
+      "pub_date": "Tue, 19 May 2026 10:29:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-SEPPmail-Gateway-Flaws-Allow-Remote-Code-Execution-and-Mail-Traffic-Theft.webp"
+    },
+    {
+      "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
+      "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
+      "description": "Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code execution and en...",
+      "pub_date": "Tue, 19 May 2026 14:53:15 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiortK4EUp9FwJsfVYW-j20LfpbM5qMNelk5-T8BbZ7dEcmBLXnqhWW9loE8GD6aexZv3h-xHEgn_N7ECjV8KXdcGwNxsbhCPP07COzt9c8BhMaVTF4OaSnKD2b98mJjsU1d57OXj2FQtOhKyeo6oPcT0-rrOi-_dKf1iielQQnhsprZ43tHyYFbiYhgFK8/s1600/email-hacking.jpg"
+    },
+    {
+      "title": "Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave",
+      "link": "https://cybersecuritynews.com/hackers-compromise-antv-packages/",
+      "description": "A sweeping supply chain attack has hit the npm ecosystem, compromising hundreds of widely used JavaScript packages tied to the @antv data visualization library. The attack, which unfolded in the ea...",
+      "pub_date": "Tue, 19 May 2026 09:07:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Compromise-@antv-Packages-in-Mini-Shai-Hulud-npm-Attack-Wave.webp"
+    },
+    {
+      "title": "CISA Admin Exposes AWS GovCloud Credentials on Public GitHub Repository",
+      "link": "https://cybersecuritynews.com/cisa-admin-exposes-aws-govcloud-credentials/",
+      "description": "A major security lapse has exposed highly sensitive U.S. government cloud credentials after a contractor working with the Cybersecurity and Infrastructure Security Agency (CISA) accidentally publis...",
+      "pub_date": "Tue, 19 May 2026 08:39:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CISA-Admin-Exposes-AWS-GovCloud-credentials-on-public-GitHub-repository-1.webp"
+    },
+    {
+      "title": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer",
+      "link": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
+      "description": "Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace.  The extension in question is ...",
+      "pub_date": "Tue, 19 May 2026 13:19:23 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi61imbY3-QbM_mT_6WAxBXaFeZ3eXwprN147ox_bMvVqh9NrS69IwqwwL4qu2z1eRA8NfrWwyJi9bIDuREGEVZ-LdBMCGTSxdul92ZApPGrzwqOcr3b6YBKC19N97sk75izvamQxOqBzokKhF-__uaEuw74ZbKQLxKxMQWgRXSCR3FE6ULeHGxbiIhuEso/s1600/nconsole.jpg"
+    },
     {
       "title": "Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data",
       "link": "https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts/",
-      "description": "A compromised version of the widely used Nx Console VS Code extension was published to the Visual Studio Code Marketplace on May 18, 2026, silently targeting developer credentials, cloud infrastruc...",
+      "description": "A threat actor known as Storm-2949 has launched a sophisticated, multi-layered cloud attack campaign targeting Microsoft Entra ID accounts to steal sensitive data from Microsoft 365 and Azure envir...",
       "pub_date": "Tue, 19 May 2026 06:59:09 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-Microsoft-Entra-ID-Accounts-to-Exfiltrate-Microsoft-365-and-Azure-Data.webp"
@@ -146,14 +202,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Linus-Torvalds-says-AI-Bug-reports-have-made-Linux-security-mailing-list-unmanageable-.webp"
     },
     {
-      "title": "Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",
-      "link": "https://cybersecuritynews.com/malicious-npm-packages-steal-keys/",
-      "description": "Four malicious npm packages capable of stealing SSH keys, cloud credentials, cryptocurrency wallets, and environment variables, while one variant quietly transforms infected machines into a DDoS bo...",
-      "pub_date": "Mon, 18 May 2026 09:57:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-npm-Packages-Steal-Keys.webp"
-    },
-    {
       "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
       "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
       "description": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day fl...",
@@ -178,22 +226,6 @@
       "image_url": ""
     },
     {
-      "title": "CISA Warns of Microsoft Exchange Server Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisa-microsoft-exchange-server-vulnerability/",
-      "description": "CISA has issued a fresh warning about a newly disclosed Microsoft Exchange Server vulnerability that is already being exploited in real-world attacks, raising concerns for organizations relying on ...",
-      "pub_date": "Mon, 18 May 2026 08:32:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CISA-Warns-of-Microsoft-Exchange-Server-Vulnerability-Exploited-in-AttacksFlaws-.webp"
-    },
-    {
-      "title": "1 Million WordPress Sites Affected by Avada Builder File Read and SQL Injection Flaws",
-      "link": "https://cybersecuritynews.com/avada-builder-plugin-vulnerability/",
-      "description": "A widely used WordPress plugin powering over one million websites has been hit by two serious vulnerabilities that could allow attackers to steal sensitive data and access server files. Security r...",
-      "pub_date": "Mon, 18 May 2026 08:30:10 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/1-Million-WordPress-Sites-Affected-by-Avada-Builder-File-Read-and-SQL-Injection-Flaws-.webp"
-    },
-    {
       "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
       "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
       "description": "A recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module now has a proof-of-concept exploit that allows attackers to gain root access on some Linux systems. [...]",
@@ -208,22 +240,6 @@
       "pub_date": "Mon, 18 May 2026 12:16:37 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis3jEEpg3n_4z5YYUwDaXETZ4KJGxCqjzrZMHUmpgvOCC7pxoSs6Rn9klL5REej9UUJJxIrOstlQDWjbTeAOUhJ7wFSoTvpLkOVx3hb5fKerxA6NkeNMDQ7bt4F-kLwEPXWZPCsVa_wXaonk9mb9CKTF4cVDToquGN57Xzw1VmszeNoEKVEvtcHMSnTCOi/s1600/fast16-stuxnet.jpg"
-    },
-    {
-      "title": "Microsoft Confirms Windows 11 Update Fails With Error 0x800f0922",
-      "link": "https://cybersecuritynews.com/microsoft-windows-11-update/",
-      "description": "Microsoft has officially acknowledged a critical installation failure affecting its May 2026 Patch Tuesday cumulative update for Windows 11, KB5089549, leaving users stranded with error code 0x800f...",
-      "pub_date": "Mon, 18 May 2026 06:24:38 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Windows-11-Update.webp"
-    },
-    {
-      "title": "New Windows ‘MiniPlasma’ Zero-Day Let Attackers Gain SYSTEM Access – PoC Released",
-      "link": "https://cybersecuritynews.com/windows-miniplasma-zero-day/",
-      "description": "A critical Windows privilege escalation zero-day vulnerability dubbed \u0026#8220;MiniPlasma\u0026#8221; has emerged with a public proof-of-concept exploit that allows attackers to achieve SYSTEM-level privi...",
-      "pub_date": "Mon, 18 May 2026 06:00:49 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Windows-MiniPlasma-zero-day-Let-Attackers-Gain-SYSTEM-Access-PoC-Released.webp"
     },
     {
       "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
@@ -306,28 +322,12 @@
       "image_url": ""
     },
     {
-      "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
-      "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
-      "description": "The Russian state-sponsored hacking group known as        Turla      has transformed its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet that's engineered for stealth and persistent...",
-      "pub_date": "Fri, 15 May 2026 22:40:25 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8BT1AOScncZQM_A-0WBdCzTDAHGHSey48_Mywhij-TJupCdzP3s3o-MIImRtMZcoV2OqX3RjRV4COpVqkB1mrH3d_zjwvSTwCEXOq_2m80HgDo-xwAZ1KpR1h8eN9dAHGcKN_PpcE0cBsnv67FcthDycHLBJMYs8NkPszWNiQqdbhyL0YIlwVJn4NtgaR/s1600/code.jpg"
-    },
-    {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
       "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
       "description": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Qu...",
       "pub_date": "Fri, 15 May 2026 14:00:00 +0000",
       "source": "GitHub Security",
       "image_url": ""
-    },
-    {
-      "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
-      "link": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
-      "description": "Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence.     The vulnerabilities, collec...",
-      "pub_date": "Fri, 15 May 2026 19:05:04 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz_tK9S8jS_n5CK694-FLGjQP5_Mmpg7z9ZRiBayWsJLsuFRIm-8j1hTlhH90779FvnvhpiFKeGP9CzI5RCPsxQEnOzAIQsPzUsAJhUWtNm9iwf9C1W9DbDmqoQ_jjHhM7huYDV210OB9o1L9NPoJ0IL6R9Xc-V4JQ91Kn-b47_2ravRJ6-qlZOVrqsuAz/s1600/openclaw.png"
     },
     {
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
