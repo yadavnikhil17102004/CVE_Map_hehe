@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-05-20T06:42:24Z",
+  "last_updated": "2026-05-20T10:20:35Z",
   "articles": [
+    {
+      "title": "Microsoft Releases Mitigation for Windows BitLocker Security Bypass 0-Day Vulnerability",
+      "link": "https://cybersecuritynews.com/windows-bitlocker-yellowkey-mitigation/",
+      "description": "Microsoft has disclosed a critical zero-day vulnerability in Windows BitLocker, tracked as CVE-2026-45585, that allows threat actors with physical access to bypass full-disk encryption entirely, po...",
+      "pub_date": "Wed, 20 May 2026 09:25:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Windows-BitLocker-YellowKey-Mitigation.webp"
+    },
+    {
+      "title": "New NGINX Vulnerability Allow Remote Attackers to Trigger Malicious Code",
+      "link": "https://cybersecuritynews.com/nginx-buffer-overflow-vulnerability/",
+      "description": "A new vulnerability in NGINX JavaScript (njs), tracked as CVE‑2026‑8711, allows unauthenticated remote attackers to trigger a heap‑based buffer overflow that can lead to denial‑of‑service...",
+      "pub_date": "Wed, 20 May 2026 08:57:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-NGINX-Vulnerability-allow-remote-attackers-to-Trigger-Malicious-code-execution-.webp"
+    },
+    {
+      "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
+      "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+      "description": "Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week.  The zero-day flaw, now tracked as CVE-2026-45585, carries...",
+      "pub_date": "Wed, 20 May 2026 13:58:26 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8DmW5nAG63-9iR2RmnP7i3GVJ9EBtLznscnnjROZ-DWRALYo0zsPNjUm2J6khkqSDJiX5Gmwb8sxPh4jHRcsJWFhKSdxZzz4D2f5bOahbfcnmQrUdvhyphenhyphenNVrE-LFMUhhf6rvSyxG2CoVhEFxbZSpEc0y52PM-qxwn02cDP3K3hEzf1nqcRNZEG1wOTjAiQ/s1600/bitlocker-exploit.png"
+    },
+    {
+      "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
+      "link": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+      "description": "GitHub has confirmed that roughly 3,800 internal repositories were breached after one of its employees installed a malicious VS Code extension. [...]",
+      "pub_date": "Wed, 20 May 2026 04:14:08 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Fox Tempest Malware-Signing Service Abused Microsoft Artifact Signing to Certify Malware",
+      "link": "https://cybersecuritynews.com/fox-tempest-abuse-microsoft-artifact-signing/",
+      "description": "A financially motivated threat actor known as Fox Tempest has been operating a sophisticated malware-signing-as-a-service (MSaaS) platform that abused Microsoft’s Artifact Signing infrastructure ...",
+      "pub_date": "Wed, 20 May 2026 08:10:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Fox-Tempest-Malware-Signing-Service-Abused-Microsoft-Artifact-Signing-to-Certify-Malware-1.webp"
+    },
+    {
+      "title": "Microsoft shares mitigation for YellowKey Windows zero-day",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/",
+      "description": "Microsoft has shared mitigations for YellowKey, a recently disclosed Windows BitLocker zero-day vulnerability that grants access to protected drives. [...]",
+      "pub_date": "Wed, 20 May 2026 03:31:15 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
       "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
@@ -34,7 +82,7 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/PoC-Exploit-Released-for-20-Year-Old-PostgreSQL-RCE-Vulnerability-.webp"
     },
     {
-      "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
+      "title": "GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos",
       "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
       "description": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizat...",
       "pub_date": "Wed, 20 May 2026 09:31:15 +0530",
@@ -120,30 +168,6 @@
       "pub_date": "Tue, 19 May 2026 15:35:32 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",
-      "link": "https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters/",
-      "description": "North Korea-linked hackers are at it again, and this time they are casting a wide net. The Kimsuky threat group, a well-known cyber espionage unit with ties to the DPRK, ran four separate spear-phi...",
-      "pub_date": "Tue, 19 May 2026 18:51:39 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Kimsuky-Hackers-Use-LNK-and-JSE-Lures-to-Target-Recruiters-Crypto-Users-and-Defense-Officials.webp"
-    },
-    {
-      "title": "Criminal IP Returns to Infosecurity Europe 2026 with Advanced AI-Driven TI \u0026 ASM",
-      "link": "https://cybersecuritynews.com/criminal-ip-returns-to-infosecurity-europe-2026-with-advanced-ai-driven-ti-asm/",
-      "description": "Torrance, United States / California, May 19th, 2026, CyberNewswire Criminal IP has announced its return to Infosecurity Europe 2026 with a focus on delivering more actionable, decision-ready intel...",
-      "pub_date": "Tue, 19 May 2026 18:24:04 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5FzXFlcBcB4L7IgEKUNCtm6wvA3Lb8X3lbZuOjTd-jgOQZnHaKD-iZNYM_-Hc5BkFBquwaX6H-JqPbRev6BNjuxoWUbKwB-pH_RaQszmzQzDQqh4fPqKOI_MLICqEMYr8TJiPszfIDCo-BYHdvs8E8oEAbrY0OoC39QlEG5jW-6f9IvK8FCBJKvVEWoM/s16000/TTT%20-%202026-05-19T194533.708.webp?ssl=1"
-    },
-    {
-      "title": "Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",
-      "link": "https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper/",
-      "description": "A wave of well-crafted malware is quietly draining cryptocurrency from users across the globe, and the attackers behind it have gone to great lengths to stay hidden. Researchers have uncovered a la...",
-      "pub_date": "Tue, 19 May 2026 17:22:29 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malware-Campaign-Uses-JavaScript-PowerShell-and-Shellcode-to-Deliver-Crypto-Clipper.webp"
     },
     {
       "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
@@ -266,22 +290,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpyJDg_FqUDfeOeVX8IyhBHj9HqwkGZ-hV7b998CMLiBK2uPpmuQEN1cv1xYXJzRiznN6u_oXjA0lAGWgrkUH9EqaqfOFyW85ZQiz_Cr2YrHl1uxUHqEztt_iWG1LtRfNMpYTIqhS8vKTUOdZiNAf_r_g0r7LzqsvjmCmsr7_lv9jmXvHs5s76BEQCMnql/s1600/npm-malware.jpg"
     },
     {
-      "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
-      "link": "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
-      "description": "More than 200 individuals were arrested for cybercrime activities during INTERPOL's Operation Ramz, which focused on the Middle East and North Africa. [...]",
-      "pub_date": "Mon, 18 May 2026 18:15:30 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "SHub macOS infostealer variant spoofs Apple security updates",
-      "link": "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
-      "description": "A new variant of the 'SHub' macOS infostealer uses AppleScript to show a fake security update message and installs a backdoor. [...]",
-      "pub_date": "Mon, 18 May 2026 17:42:20 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
       "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
       "description": "INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects. The in...",
@@ -312,14 +320,6 @@
       "pub_date": "Mon, 18 May 2026 16:53:41 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjylLL25uQ3uU6RshKkTv9isR22Y_6_b4uJJ4koE1MqtmGs4IWdz88_aH8up_7WDxghA7-GeMbm6gpoKUXRw99Cm1ljO03H8bdcv91vvO_ch313e_JAwtYH-CewZJF2WkNrYWtcp-acMiPTvSs5aan7v2DLpEjVSBuEarfJ-eCLEHCL2WK9zjxOho_gj3k/s1600/git.gif"
-    },
-    {
-      "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
-      "link": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
-      "description": "Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code. Topping th...",
-      "pub_date": "Mon, 18 May 2026 16:24:05 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2iqd3uRuOdLaM83LyZC9GOeOLeP9BnBVQQQzF7LZUeBTXfGo6e6b9c7PSC0Tkt_vhN_FUFUiDwnLXXNmzpIubE5bI0rA7dRaDhuiV35uiNTcMab7o8E_1ehn3CzUUsfno-6fYECbYzGNS1dyNof1ihn-hf4QYjLn7ZD53y_byQigukme9w-LAeBKDWXAg/s1600/patches.jpg"
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
