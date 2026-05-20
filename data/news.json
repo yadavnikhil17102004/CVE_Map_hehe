@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-20T16:49:05Z",
+  "last_updated": "2026-05-20T19:15:38Z",
   "articles": [
+    {
+      "title": "DevilNFC Android Malware Uses Kiosk Mode to Trap Victims During NFC Relay Attacks",
+      "link": "https://cybersecuritynews.com/devilnfc-android-malware-uses-kiosk-mode/",
+      "description": "A dangerous new Android malware called DevilNFC has emerged, combining NFC relay attacks with a Kiosk Mode trap that locks victims inside a fake banking screen until their card data is stolen. The ...",
+      "pub_date": "Wed, 20 May 2026 17:37:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/DevilNFC-Android-Malware-Uses-Kiosk-Mode-to-Trap-Victims-During-NFC-Relay-Attacks.webp"
+    },
+    {
+      "title": "PinTheft Linux Vulnerability Let Attackers Gain Root Access – PoC Released",
+      "link": "https://cybersecuritynews.com/pintheft-linux-vulnerability/",
+      "description": "A proof-of-concept (PoC) exploit was published for a new Linux Local Privilege Escalation (LPE) vulnerability dubbed \u0026#8220;PinTheft.\u0026#8221; Discovered by Aaron Esau of the V12 security team, the f...",
+      "pub_date": "Wed, 20 May 2026 17:22:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/PinTheft-Linux-Vulnerability.webp"
+    },
+    {
+      "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
+      "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
+      "description": "Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents.  RAMPART, short for Risk Asse...",
+      "pub_date": "Wed, 20 May 2026 22:36:54 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPuhFp_KGzG3yZEzqIYh-at7Dm3vg4_QX97ilaSXDjsUbfhU7KCmRS-uQ2UrV9D855Nvy8HcBDKe25VMT63dfyzh-B2bzSx649SJQSQhL3bfm4Eitv4KLW4PhzRfE1HvoFOFDu2bB4alNLTFzvr6_IkKWjqxShcuWytNgDR4b3wR1xGE6z06xSyWo6NVg3/s1600/ms-tools.jpg"
+    },
     {
       "title": "How to Close the Most Expensive Gap in Your SOC ",
       "link": "https://cybersecuritynews.com/how-to-close-the-most-expensive-gap-in-your-soc/",
@@ -136,22 +160,6 @@
       "pub_date": "Wed, 20 May 2026 16:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLWPxY_gRwc5keQNREyoTXSadlwpCLyUdAq4v1fQA5_lA2tJ0Ia6xOk-FaLuNHwJjV_xaF7M0xzPvqHk4e7aym6R7J2aaGCGm7Bnv8OXh7GScZ-G7ic5pdEgK-0E0_y_yLz16V2A2GL5uTmU7tRPUyoDl5LfzTzQnuMlI1QV7SEhRC9Cli7zci_no9pyk/s1600/ref.jpg"
-    },
-    {
-      "title": "GraphWorm Malware Uses Microsoft OneDrive as Command-and-Control Infrastructure",
-      "link": "https://cybersecuritynews.com/graphworm-malware-uses-microsoft-onedrive/",
-      "description": "A well-known China-aligned threat group has quietly evolved its attack methods, and its latest toolset reveals just how far it is willing to go to stay hidden. A backdoor called GraphWorm has surfa...",
-      "pub_date": "Wed, 20 May 2026 10:29:50 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GraphWorm-Malware-Uses-Microsoft-OneDrive-as-Command-and-Control-Infrastructure.webp"
-    },
-    {
-      "title": "Microsoft Releases Mitigation for Windows BitLocker Security Bypass 0-Day Vulnerability",
-      "link": "https://cybersecuritynews.com/windows-bitlocker-yellowkey-mitigation/",
-      "description": "Microsoft has disclosed a critical zero-day vulnerability in Windows BitLocker, tracked as CVE-2026-45585, that allows threat actors with physical access to bypass full-disk encryption entirely, po...",
-      "pub_date": "Wed, 20 May 2026 09:25:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Windows-BitLocker-YellowKey-Mitigation.webp"
     },
     {
       "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
@@ -312,14 +320,6 @@
       "pub_date": "Tue, 19 May 2026 10:58:06 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc7jpVO6HhBuEBTjkwmNjYhKlFmhhmytOqNZHYuGP-dNWrf3AoyE68yoKj77elddOX4Ps2x9jSuwhi5sE-QjK_oEjLXgQW9e6EHx6W0G7qTqYTM3fZh1AQTyrgm2o-PFBeD9ryHnC6fDmK5MYKUzBjU_pJibTilnm1d99WSQkJux6PXXRydkYW5d15Ada-/s1600/step.jpg"
-    },
-    {
-      "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
-      "link": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
-      "description": "Cybersecurity researchers have discovered a fresh software supply chain attack campaign that has compromised various npm packages associated with the @antv ecosystem as part of the ongoing Mini Sha...",
-      "pub_date": "Tue, 19 May 2026 10:24:17 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpyJDg_FqUDfeOeVX8IyhBHj9HqwkGZ-hV7b998CMLiBK2uPpmuQEN1cv1xYXJzRiznN6u_oXjA0lAGWgrkUH9EqaqfOFyW85ZQiz_Cr2YrHl1uxUHqEztt_iWG1LtRfNMpYTIqhS8vKTUOdZiNAf_r_g0r7LzqsvjmCmsr7_lv9jmXvHs5s76BEQCMnql/s1600/npm-malware.jpg"
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
@@ -522,9 +522,25 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/01/01_sample-taskflow.png?resize=1024%2C209"
     },
     {
+      "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2008-4250 Microsoft Windows Buffer Overflow Vulnerabili...",
+      "pub_date": "Wed, 20 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Kieback \u0026 Peter DDC Building Controllers",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-05",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take control of the victim's browser. The following versions of Kieback \u0026amp; Peter DDC Building Controlle...",
+      "pub_date": "Tue, 19 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ZKTeco CCTV Cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-04",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in information disclosure, including capture of camera account credentials. The following versions of ZKTeco CCTV Camera...",
       "pub_date": "Tue, 19 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -554,14 +570,6 @@
       "image_url": ""
     },
     {
-      "title": "ZKTeco CCTV Cameras",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-04",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in information disclosure, including capture of camera account credentials. The following versions of ZKTeco CCTV Camera...",
-      "pub_date": "Tue, 19 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-42897 Microsoft Exchange Server Cross-Site Scripting V...",
@@ -570,57 +578,25 @@
       "image_url": ""
     },
     {
-      "title": "Siemens Siemens ROS#",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08",
-      "description": "View CSAF Summary ROS# contains a ROS service file_server, that before version 2.2.2 contains a path traversal vulnerability which could allow an attacker to access, i.e. read and write, arbitrary ...",
+      "title": "Siemens Solid Edge",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-03",
+      "description": "View CSAF Summary Solid Edge SE2026 before Update 5 is affected by two file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR format. This co...",
       "pub_date": "Thu, 14 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Siemens gWAP",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01",
-      "description": "View CSAF Summary Siemens gPROMS Web Applications Publisher (gWAP) is affected by a remote code execution vulnerability introduced through a third-party component, namely the Axios HTTP client libr...",
+      "title": "Siemens Opcenter RDnL",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-09",
+      "description": "View CSAF Summary Opcenter RDnL is affected by missing authentication in critical function in ‘ActiveMQ Artemis’. An unauthenticated attacker within the adjacent network could use the Core prot...",
       "pub_date": "Thu, 14 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Siemens SIMATIC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-10",
-      "description": "View CSAF Summary SIMATIC CN 4100 contains multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has released a new version f...",
-      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Ruggedcom Rox",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12",
-      "description": "View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in the Scheduler functionality that could allow an authenticated remote attacker to execute arbitrary commands with root p...",
-      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Ruggedcom Rox",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-16",
-      "description": "View CSAF Summary Ruggedcom Rox before v2.17.1 contain multiple third-party vulnerabilities. Siemens has released new versions for the affected products and recommends to update to the latest versi...",
-      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Simcenter Femap",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-05",
-      "description": "View CSAF Summary Simcenter Femap is affected by heap based buffer overflow vulnerability in Datakit library that could be triggered when the application reads files in IPT format. If a user is tri...",
-      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Universal Robots Polyscope 5",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-17",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication and execute code. The following versions of Universal Robots Polyscope 5 are affe...",
+      "title": "Siemens Teamcenter",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-04",
+      "description": "View CSAF Summary Siemens Teamcenter is affected by multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has released new ve...",
       "pub_date": "Thu, 14 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -634,9 +610,33 @@
       "image_url": ""
     },
     {
-      "title": "Siemens Teamcenter",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-04",
-      "description": "View CSAF Summary Siemens Teamcenter is affected by multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has released new ve...",
+      "title": "Universal Robots Polyscope 5",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-17",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication and execute code. The following versions of Universal Robots Polyscope 5 are affe...",
+      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens Simcenter Femap",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-05",
+      "description": "View CSAF Summary Simcenter Femap is affected by heap based buffer overflow vulnerability in Datakit library that could be triggered when the application reads files in IPT format. If a user is tri...",
+      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens Ruggedcom Rox",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-16",
+      "description": "View CSAF Summary Ruggedcom Rox before v2.17.1 contain multiple third-party vulnerabilities. Siemens has released new versions for the affected products and recommends to update to the latest versi...",
+      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Siemens Ruggedcom Rox",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12",
+      "description": "View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in the Scheduler functionality that could allow an authenticated remote attacker to execute arbitrary commands with root p...",
       "pub_date": "Thu, 14 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
