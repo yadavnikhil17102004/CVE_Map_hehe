@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-05-20T02:43:06Z",
+  "last_updated": "2026-05-20T06:42:24Z",
   "articles": [
+    {
+      "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
+      "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
+      "description": "Grafana Labs, on May 19, 2026, said an investigation into its recent breach found no evidence of customer production systems or operations being compromised.  It said the scope of the incident is l...",
+      "pub_date": "Wed, 20 May 2026 10:42:06 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1N3gjAFZQ-1hptUuKwQmHMjlZwIMDn6H6mKc9UuDELAKWl_3Kow6EcD72IkWpBf8ZB2Db8wrZW86zVxKaEgQZ7_sVrWoDokD1LoLPUqhhCw2lLDl9ODqq2ZkfBrK6SUTrbROBuFNXN16HPtMWtS9EMIFsO3yQsISWCK0JrlwiUWineb9sxIq-un41smHG/s1600/grafana-breach.jpg"
+    },
+    {
+      "title": "GitHub investigates internal repositories breach claimed by TeamPCP",
+      "link": "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
+      "description": "GitHub is investigating a breach of its internal repositories after the TeamPCP hacker group claimed to have accessed approximately 4,000 repositories containing private code. [...]",
+      "pub_date": "Wed, 20 May 2026 01:08:42 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "GitHub Hacked – Internal Source Code Repositories Compromised via Employee Device",
+      "link": "https://cybersecuritynews.com/github-data-breach/",
+      "description": "GitHub has confirmed unauthorized access to its internal repositories after detecting a compromised employee device infected through a malicious Visual Studio Code extension, the company disclosed ...",
+      "pub_date": "Wed, 20 May 2026 04:47:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GitHub-Data-Breach.webp"
+    },
+    {
+      "title": "PoC Exploit Released for 20-Year Old PostgreSQL RCE Vulnerability",
+      "link": "https://cybersecuritynews.com/20-year-old-postgresql-vulnerability/",
+      "description": "A proof-of-concept (PoC) exploit has been publicly released for CVE-2026-2005, a critical remote code execution (RCE) vulnerability affecting PostgreSQL’s pgcrypto extension. The flaw, rooted in ...",
+      "pub_date": "Wed, 20 May 2026 04:26:14 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/PoC-Exploit-Released-for-20-Year-Old-PostgreSQL-RCE-Vulnerability-.webp"
+    },
+    {
+      "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
+      "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
+      "description": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizat...",
+      "pub_date": "Wed, 20 May 2026 09:31:15 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoDiyeJZY33dxAsa8qElLYXNILLDT4NhloINZiuzcx3La2JvDK_d54kM8qsx_obt8vQ3FpTJr2ZVoMYiEcqHN0sbt-1A_MHlS7mSavlbDiEDg42HN1d4wCffs7ytuZhDvmMjuej5oljVIqIuRezyZCLmafRclN3wNBKcboV-19F0VMMBkVsQZckV5UaiiH/s1600/github.jpg"
+    },
+    {
+      "title": "ShinyHunters Claims Credit for Cyber-Attack on Online Learning Management System",
+      "link": "https://cybersecuritynews.com/shinyhunters-claims-credit-online-lms/",
+      "description": "A recent cyberattack targeting an online Learning Management System (LMS) has been attributed to the notorious cybercriminal group ShinyHunters. The incident caused widespread service disruptions a...",
+      "pub_date": "Wed, 20 May 2026 03:51:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/ShinyHunters-Claims-credit-for-cyber-attack-on-online-Learning-Management-System.webp"
+    },
+    {
+      "title": "GitHub Source Code Breach – TeamPCP Claims Access to Internal Source Code",
+      "link": "https://cybersecuritynews.com/github-source-code-breach/",
+      "description": "A notorious threat actor operating under the alias\u0026#160;TeamPCP\u0026#160;claims to have breached GitHub\u0026#8217;s internal systems, allegedly exfiltrating proprietary organization data and source code. T...",
+      "pub_date": "Wed, 20 May 2026 02:39:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GitHub-Source-Code-Breach.webp"
+    },
     {
       "title": "Max-severity flaw in ChromaDB for AI apps allows server hijacking",
       "link": "https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/",
@@ -8,6 +64,22 @@
       "pub_date": "Tue, 19 May 2026 18:25:49 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery",
+      "link": "https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin/",
+      "description": "A newly documented attack chain linked to the threat group UAC-0184 has been observed using Windows\u0026#8217; built-in bitsadmin tool and HTA files to sneak malicious payloads onto targeted systems. T...",
+      "pub_date": "Tue, 19 May 2026 22:07:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/UAC-0184-Malware-Chain-Uses-bitsadmin-and-HTA-Files-for-Gated-Payload-Delivery.webp"
+    },
+    {
+      "title": "macOS Malware Installs Fake Google Software Update LaunchAgent for Persistence",
+      "link": "https://cybersecuritynews.com/macos-malware-installs-fake-google-software/",
+      "description": "macOS users are facing a new and sophisticated threat as a variant of the SHub infostealer malware, dubbed \u0026#8220;Reaper,\u0026#8221; has been observed deploying a fake Google Software Update LaunchAgen...",
+      "pub_date": "Tue, 19 May 2026 21:50:13 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/macOS-Malware-Installs-Fake-Google-Software-Update-LaunchAgent-for-Persistence.webp"
     },
     {
       "title": "Cybercrime service disrupted for abusing Microsoft platform to sign malware",
@@ -26,6 +98,14 @@
       "image_url": ""
     },
     {
+      "title": "The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",
+      "link": "https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows/",
+      "description": "A ransomware group called The Gentlemen has been quietly building one of the most aggressive cybercriminal operations seen in recent years. Emerging publicly in the second half of 2025, the group r...",
+      "pub_date": "Tue, 19 May 2026 20:12:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/The-Gentlemen-Ransomware-Attacks-Windows-Linux-NAS-BSD-and-ESXi-Attacks.webp"
+    },
+    {
       "title": "FBI: Americans lost over $388 million to scams using crypto ATMs in 2025",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/",
       "description": "The FBI says Americans have lost over $388 million last year to scams using cryptocurrency kiosks, also known as crypto ATMs or Bitcoin ATMs. [...]",
@@ -40,6 +120,30 @@
       "pub_date": "Tue, 19 May 2026 15:35:32 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Kimsuky Hackers Use LNK and JSE Lures to Target Recruiters, Crypto Users, and Defense Officials",
+      "link": "https://cybersecuritynews.com/kimsuky-hackers-use-lnk-and-jse-lures-to-target-recruiters/",
+      "description": "North Korea-linked hackers are at it again, and this time they are casting a wide net. The Kimsuky threat group, a well-known cyber espionage unit with ties to the DPRK, ran four separate spear-phi...",
+      "pub_date": "Tue, 19 May 2026 18:51:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Kimsuky-Hackers-Use-LNK-and-JSE-Lures-to-Target-Recruiters-Crypto-Users-and-Defense-Officials.webp"
+    },
+    {
+      "title": "Criminal IP Returns to Infosecurity Europe 2026 with Advanced AI-Driven TI \u0026 ASM",
+      "link": "https://cybersecuritynews.com/criminal-ip-returns-to-infosecurity-europe-2026-with-advanced-ai-driven-ti-asm/",
+      "description": "Torrance, United States / California, May 19th, 2026, CyberNewswire Criminal IP has announced its return to Infosecurity Europe 2026 with a focus on delivering more actionable, decision-ready intel...",
+      "pub_date": "Tue, 19 May 2026 18:24:04 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5FzXFlcBcB4L7IgEKUNCtm6wvA3Lb8X3lbZuOjTd-jgOQZnHaKD-iZNYM_-Hc5BkFBquwaX6H-JqPbRev6BNjuxoWUbKwB-pH_RaQszmzQzDQqh4fPqKOI_MLICqEMYr8TJiPszfIDCo-BYHdvs8E8oEAbrY0OoC39QlEG5jW-6f9IvK8FCBJKvVEWoM/s16000/TTT%20-%202026-05-19T194533.708.webp?ssl=1"
+    },
+    {
+      "title": "Malware Campaign Uses JavaScript, PowerShell, and Shellcode to Deliver Crypto Clipper",
+      "link": "https://cybersecuritynews.com/malware-campaign-deliver-crypto-clipper/",
+      "description": "A wave of well-crafted malware is quietly draining cryptocurrency from users across the globe, and the attackers behind it have gone to great lengths to stay hidden. Researchers have uncovered a la...",
+      "pub_date": "Tue, 19 May 2026 17:22:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malware-Campaign-Uses-JavaScript-PowerShell-and-Shellcode-to-Deliver-Crypto-Clipper.webp"
     },
     {
       "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
@@ -178,14 +282,6 @@
       "image_url": ""
     },
     {
-      "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
-      "link": "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
-      "description": "Many employees already use shadow AI tools at work without security review. Adaptive Security breaks down how teams can build practical AI governance without adding friction for employees. [...]",
-      "pub_date": "Mon, 18 May 2026 14:45:35 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
       "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
       "description": "INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects. The in...",
@@ -224,22 +320,6 @@
       "pub_date": "Mon, 18 May 2026 16:24:05 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2iqd3uRuOdLaM83LyZC9GOeOLeP9BnBVQQQzF7LZUeBTXfGo6e6b9c7PSC0Tkt_vhN_FUFUiDwnLXXNmzpIubE5bI0rA7dRaDhuiV35uiNTcMab7o8E_1ehn3CzUUsfno-6fYECbYzGNS1dyNof1ihn-hf4QYjLn7ZD53y_byQigukme9w-LAeBKDWXAg/s1600/patches.jpg"
-    },
-    {
-      "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
-      "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
-      "description": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day fl...",
-      "pub_date": "Mon, 18 May 2026 14:27:34 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvmx8dRRiQKx4cT0aT1-zTuzdjfThwxmlbzb2ikeeqIXUXGdcJhRrq4BykcdBB572URpoAHQhSTSyahR3M7TyvOsLSCekQGCUFM8sTcdsxkrpRFrT41wF8EqKA5LjzYHpzUtro2136Iy55cKQ_wixFUSsFDnilkUNCvrDvJbHBKK3k_IelHt9lOmbW01_u/s1600/windows-exploits.jpg"
-    },
-    {
-      "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
-      "link": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
-      "description": "Cybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP. The list of identifi...",
-      "pub_date": "Mon, 18 May 2026 14:27:26 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbN7WbW1cUkMzMJl0HPvRrQQUc5MQEE3Pvrc735aG7RGwpguum4POxa4yeQjyYIyiAYBDj_Zl6Ud8esex0AnQSG2J6TVWat57BLALA4WTi3gr5mfrLC2AHloSuvzx6fg9bTxZUvO-aA5VwHjyqbYecAWm2DnM9SRyt0M1GaqYzlBBKdgUR8BXV3xIDVnVN/s1600/npm-hacking.jpg"
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
