@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-05-20T13:33:13Z",
+  "last_updated": "2026-05-20T16:49:05Z",
   "articles": [
+    {
+      "title": "How to Close the Most Expensive Gap in Your SOC ",
+      "link": "https://cybersecuritynews.com/how-to-close-the-most-expensive-gap-in-your-soc/",
+      "description": "There is a quiet gap inside many SOCs. It sits between the moment Tier 1 says “this should be escalated” and the moment the response team can\u0026#160;actually act\u0026#160;on it. Too often, the alert ...",
+      "pub_date": "Wed, 20 May 2026 16:44:35 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivwU9agSVh6DgucW_-gzMGB7UWuULY69jc4lLpyVlOBVLWidkEtYVS_II1RYA6UALmmWa6JbT0HroPqOsz5c9tLSEnP1hALu5lyBkURixC7mc2lxsSjWvfyDo5eyqMedb2aOBCqf3XUkbMFdXbBxnmDSwAO5WkaFhTZrlEpDoQGf7Q_CQqNa3-RcpGXA/s16000/Close%20Your%20SOC%E2%80%99s%20Most%20Expensive%20Gap.png?ssl=1"
+    },
+    {
+      "title": "Grafana breach caused by missed token rotation after TanStack attack",
+      "link": "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
+      "description": "The Grafana data breach was caused by a single GitHub workflow token that slipped through the rotation process following the TanStack npm supply-chain attack last week. [...]",
+      "pub_date": "Wed, 20 May 2026 11:46:37 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks",
+      "link": "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
+      "description": "Microsoft on Tuesday said it disrupted a malware-signing-as-a-service (MSaaS) operation that weaponized the company's Artifact Signing system to deliver malicious code and conduct ransomware and ot...",
+      "pub_date": "Wed, 20 May 2026 20:06:44 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiypJnCUStqk0SRgnT6bFPLXM9F10uUBgEZgGScKH8lNthkNnD4zP2-CBNIvo2eukKJzGKOs7RFjIq1KmR-pIGFT3pFS1wgz8ySDW7O9OaMkAHXSaZvHSP_Y2JxqGgkdbCLXcn-VZOYwirKa9gU7FqEZXDafHhgxupVx6cuJam1wsnjq3qjz7q36GlvirT/s1600/windows-ransomware.jpg"
+    },
+    {
+      "title": "Grafana GitHub Breach Linked to TanStack npm Supply Chain Ransomware",
+      "link": "https://cybersecuritynews.com/grafana-github-breach-linked-tanstack-ransomware/",
+      "description": "Grafana Labs has disclosed a targeted ransomware-linked breach of its GitHub environment, traced to a broader TanStack npm supply chain compromise associated with the “Mini Shai-Hulud” campaign...",
+      "pub_date": "Wed, 20 May 2026 14:19:18 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Grafana-GitHub-Breach-Linked-to-TanStack-npm-supply-chain-ransomware.webp"
+    },
+    {
+      "title": "Pardus Linux Local Privilege Escalation Flaw Allows Silent Root Access",
+      "link": "https://cybersecuritynews.com/pardus-linux-privilege-escalation-flaw/",
+      "description": "A critical vulnerability chain affecting Pardus Linux has been disclosed, allowing local users to gain full root privileges without authentication. The issue, assigned a CVSS v3.1 score of 9.3, imp...",
+      "pub_date": "Wed, 20 May 2026 14:14:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Pardus-Linux-Local-Privilege-Escalation-Flaw-Allows-Silent-Root-Access.webp"
+    },
+    {
+      "title": "FreePBX Vulnerability Allow Attackers to Gain Access to User Portals",
+      "link": "https://cybersecuritynews.com/freepbx-vulnerability/",
+      "description": "A critical vulnerability in the open-source IP PBX platform FreePBX could allow unauthenticated attackers to access user portals. The issue, tracked as CVE-2026-46376, affects the User Control Pane...",
+      "pub_date": "Wed, 20 May 2026 14:12:15 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/FreePBX-Vulnerability-Allow-Attackers-to-Gain-Access-to-User-Portals-.webp"
+    },
+    {
+      "title": "Critical ExifTool Vulnerability Allows Attackers to Compromise Macs via Single Malicious Image",
+      "link": "https://cybersecuritynews.com/exiftool-vulnerability-compromise-macs/",
+      "description": "ExifTool, a ubiquitous open-source utility for reading and writing file metadata, is at the center of a severe security flaw affecting macOS environments. Discovered by Kaspersky’s Global Researc...",
+      "pub_date": "Wed, 20 May 2026 14:05:57 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/ExifTool-Vulnerability-Compromise-Macs.webp"
+    },
+    {
+      "title": "Identity Alone Isn't Enough: Why Device Security Has to Share the Load",
+      "link": "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
+      "description": "Identity checks alone can't stop attackers using stolen session tokens and compromised devices. Specops Software outlines why Zero Trust strategies increasingly depend on continuous device verifica...",
+      "pub_date": "Wed, 20 May 2026 10:02:12 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Drupal critical update to fix bug with high exploitation risk",
       "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
@@ -16,6 +80,14 @@
       "pub_date": "Wed, 20 May 2026 18:21:43 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt4cD52DtnzH5FM8ZMrW9KyPrD1ysrJURSmqalrw9f6siP8XxYqClsqV6ofHpM8ir7gBnmmvehj5HB1k0aSHdPmLtKKwtLLvjSi4ELa9eMq12maW7p56a2yBdl7xzdfv6893fvQxLIH0kKGYKnzYM_7-3XysWIGsSNiEYXBjmiWFqe0Pe8uq-TkWlQjjv4/s1600/cyberattack-paki.jpg"
+    },
+    {
+      "title": "Hackers Use Single-Letter Go Module Typosquat to Deploy DNS-Based Backdoor",
+      "link": "https://cybersecuritynews.com/hackers-use-single-letter-go-module-typosquat/",
+      "description": "A seemingly innocent typo in a Go module name has been quietly serving a live backdoor for nearly three years. Security researchers uncovered a malicious package called github.com/shopsprint/decim...",
+      "pub_date": "Wed, 20 May 2026 12:30:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-Single-Letter-Go-Module-Typosquat-to-Deploy-DNS-Based-Backdoor.webp"
     },
     {
       "title": "Agent AI is Coming. Are You Ready?",
@@ -34,6 +106,22 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoDiyeJZY33dxAsa8qElLYXNILLDT4NhloINZiuzcx3La2JvDK_d54kM8qsx_obt8vQ3FpTJr2ZVoMYiEcqHN0sbt-1A_MHlS7mSavlbDiEDg42HN1d4wCffs7ytuZhDvmMjuej5oljVIqIuRezyZCLmafRclN3wNBKcboV-19F0VMMBkVsQZckV5UaiiH/s1600/github.jpg"
     },
     {
+      "title": "Microsoft Python Client DurableTask Compromised by TeamPCP Hackers",
+      "link": "https://cybersecuritynews.com/microsoft-python-client-durabletask/",
+      "description": "Three consecutive releases of Microsoft\u0026#8217;s official Python workflow SDK were poisoned with a multi-cloud credential-stealing worm, continuing the group\u0026#8217;s relentless 2026 supply chain cam...",
+      "pub_date": "Wed, 20 May 2026 11:24:58 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Python-client-DurableTask-Compromised-by-TeamPCP-Hackers-.webp"
+    },
+    {
+      "title": "Hackers Abuse MSHTA Legacy Windows Tool to Deliver LummaStealer and Amatera Malware",
+      "link": "https://cybersecuritynews.com/hackers-abuse-mshta-legacy-windows-tool/",
+      "description": "Hackers are exploiting a decades-old Windows tool to deliver dangerous malware onto unsuspecting systems, with consequences ranging from stolen passwords to full system compromise. The tool is MSHT...",
+      "pub_date": "Wed, 20 May 2026 11:20:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-MSHTA-Legacy-Windows-Tool-to-Deliver-LummaStealer-and-Amatera-Malware.webp"
+    },
+    {
       "title": "Exploit released for new PinTheft Arch Linux root escalation flaw",
       "link": "https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/",
       "description": "PinTheft, a recently patched Linux privilege escalation vulnerability, now has a publicly available proof-of-concept (PoC) exploit that allows local attackers to gain root privileges on Arch Linux ...",
@@ -48,6 +136,22 @@
       "pub_date": "Wed, 20 May 2026 16:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLWPxY_gRwc5keQNREyoTXSadlwpCLyUdAq4v1fQA5_lA2tJ0Ia6xOk-FaLuNHwJjV_xaF7M0xzPvqHk4e7aym6R7J2aaGCGm7Bnv8OXh7GScZ-G7ic5pdEgK-0E0_y_yLz16V2A2GL5uTmU7tRPUyoDl5LfzTzQnuMlI1QV7SEhRC9Cli7zci_no9pyk/s1600/ref.jpg"
+    },
+    {
+      "title": "GraphWorm Malware Uses Microsoft OneDrive as Command-and-Control Infrastructure",
+      "link": "https://cybersecuritynews.com/graphworm-malware-uses-microsoft-onedrive/",
+      "description": "A well-known China-aligned threat group has quietly evolved its attack methods, and its latest toolset reveals just how far it is willing to go to stay hidden. A backdoor called GraphWorm has surfa...",
+      "pub_date": "Wed, 20 May 2026 10:29:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GraphWorm-Malware-Uses-Microsoft-OneDrive-as-Command-and-Control-Infrastructure.webp"
+    },
+    {
+      "title": "Microsoft Releases Mitigation for Windows BitLocker Security Bypass 0-Day Vulnerability",
+      "link": "https://cybersecuritynews.com/windows-bitlocker-yellowkey-mitigation/",
+      "description": "Microsoft has disclosed a critical zero-day vulnerability in Windows BitLocker, tracked as CVE-2026-45585, that allows threat actors with physical access to bypass full-disk encryption entirely, po...",
+      "pub_date": "Wed, 20 May 2026 09:25:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Windows-BitLocker-YellowKey-Mitigation.webp"
     },
     {
       "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
@@ -170,22 +274,6 @@
       "image_url": ""
     },
     {
-      "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
-      "link": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
-      "description": "Convenience store chain giant 7-Eleven confirmed that its systems were breached in a cyberattack claimed by the ShinyHunters extortion group last month. [...]",
-      "pub_date": "Tue, 19 May 2026 10:16:41 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Critical Microsoft Vulnerabilities Doubled: From Exposure to Escalation",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
-      "description": "Microsoft's total vulnerability count stayed steady in 2025, but critical flaws surged year over year. BeyondTrust breaks down why attackers are increasingly focused on privilege escalation and ide...",
-      "pub_date": "Tue, 19 May 2026 10:00:10 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
       "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
       "description": "In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five countries.\u0026nbsp; ...",
@@ -232,14 +320,6 @@
       "pub_date": "Tue, 19 May 2026 10:24:17 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpyJDg_FqUDfeOeVX8IyhBHj9HqwkGZ-hV7b998CMLiBK2uPpmuQEN1cv1xYXJzRiznN6u_oXjA0lAGWgrkUH9EqaqfOFyW85ZQiz_Cr2YrHl1uxUHqEztt_iWG1LtRfNMpYTIqhS8vKTUOdZiNAf_r_g0r7LzqsvjmCmsr7_lv9jmXvHs5s76BEQCMnql/s1600/npm-malware.jpg"
-    },
-    {
-      "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
-      "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
-      "description": "INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects. The in...",
-      "pub_date": "Mon, 18 May 2026 22:51:18 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivxxVYex3z2F03m6RYOR72whyegN5TEzzNxZO3tTOSHNTQ4tqCeD-H-F0c3K8dInMfh1EwPQP0jtoHEA4agDOYN2sF7qxGMHnuhsWges5me7ESa8_ycNj0vHf1TeeTgqetA1yOQ5Gi6a7jsV5khO3PVNcbkrBRCTMRNRb_qPLwBUdlvZJUCDvGjtmSVuod/s1600/hackers.png"
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
