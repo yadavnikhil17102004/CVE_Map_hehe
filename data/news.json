@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-20T19:15:38Z",
+  "last_updated": "2026-05-20T21:44:32Z",
   "articles": [
+    {
+      "title": "Void Botnet Uses Ethereum Smart Contracts for Seizure-Resistant C2 Infrastructure",
+      "link": "https://cybersecuritynews.com/void-botnet-uses-ethereum-smart-contracts/",
+      "description": "A new botnet called Void has emerged on the cybercrime underground, bringing a troubling twist to how attackers manage their operations remotely. Instead of relying on traditional servers that auth...",
+      "pub_date": "Wed, 20 May 2026 21:38:12 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Void-Botnet-Uses-Ethereum-Smart-Contracts-for-Seizure-Resistant-C2-Infrastructure.webp"
+    },
+    {
+      "title": "Ukraine identifies infostealer operator tied to 28,000 stolen accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
+      "description": "The Ukrainian cyberpolice, working in conjunction with U.S. law enforcement, has identified an 18-year-old man from Odesa suspected of running an infostealer malware operation targeting users of an...",
+      "pub_date": "Wed, 20 May 2026 17:36:24 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Hackers bypass SonicWall VPN MFA due to incomplete patching",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
+      "description": "Threat actors brute-forced VPN credentials and bypassed multi-factor authentication (MFA) on SonicWall Gen6 SSL-VPN appliances to deploy tools used in ransomware attacks. [...]",
+      "pub_date": "Wed, 20 May 2026 17:19:17 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Investigating unauthorized access to GitHub’s internal repositories",
+      "link": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
+      "description": "If any impact is discovered, customers will be notified via established incident response and notification channels. The post Investigating unauthorized access to GitHub\u0026#8217;s internal repositori...",
+      "pub_date": "Wed, 20 May 2026 21:07:38 +0000",
+      "source": "GitHub Security",
+      "image_url": ""
+    },
+    {
+      "title": "Trapdoor Android Ad Fraud Operation Uses 455 Malicious Apps to Generate Fake Clicks",
+      "link": "https://cybersecuritynews.com/trapdoor-android-ad-fraud-operation-uses-455-malicious-apps/",
+      "description": "A large-scale ad fraud operation called Trapdoor has been discovered targeting Android users through 455 malicious apps, quietly generating fake ad clicks and draining real advertising budgets acro...",
+      "pub_date": "Wed, 20 May 2026 20:08:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Trapdoor-Android-Ad-Fraud-Operation-Uses-455-Malicious-Apps-to-Generate-Fake-Clicks.webp"
+    },
     {
       "title": "DevilNFC Android Malware Uses Kiosk Mode to Trap Victims During NFC Relay Attacks",
       "link": "https://cybersecuritynews.com/devilnfc-android-malware-uses-kiosk-mode/",
@@ -130,22 +170,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoDiyeJZY33dxAsa8qElLYXNILLDT4NhloINZiuzcx3La2JvDK_d54kM8qsx_obt8vQ3FpTJr2ZVoMYiEcqHN0sbt-1A_MHlS7mSavlbDiEDg42HN1d4wCffs7ytuZhDvmMjuej5oljVIqIuRezyZCLmafRclN3wNBKcboV-19F0VMMBkVsQZckV5UaiiH/s1600/github.jpg"
     },
     {
-      "title": "Microsoft Python Client DurableTask Compromised by TeamPCP Hackers",
-      "link": "https://cybersecuritynews.com/microsoft-python-client-durabletask/",
-      "description": "Three consecutive releases of Microsoft\u0026#8217;s official Python workflow SDK were poisoned with a multi-cloud credential-stealing worm, continuing the group\u0026#8217;s relentless 2026 supply chain cam...",
-      "pub_date": "Wed, 20 May 2026 11:24:58 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Python-client-DurableTask-Compromised-by-TeamPCP-Hackers-.webp"
-    },
-    {
-      "title": "Hackers Abuse MSHTA Legacy Windows Tool to Deliver LummaStealer and Amatera Malware",
-      "link": "https://cybersecuritynews.com/hackers-abuse-mshta-legacy-windows-tool/",
-      "description": "Hackers are exploiting a decades-old Windows tool to deliver dangerous malware onto unsuspecting systems, with consequences ranging from stolen passwords to full system compromise. The tool is MSHT...",
-      "pub_date": "Wed, 20 May 2026 11:20:28 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-MSHTA-Legacy-Windows-Tool-to-Deliver-LummaStealer-and-Amatera-Malware.webp"
-    },
-    {
       "title": "Exploit released for new PinTheft Arch Linux root escalation flaw",
       "link": "https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/",
       "description": "PinTheft, a recently patched Linux privilege escalation vulnerability, now has a publicly available proof-of-concept (PoC) exploit that allows local attackers to gain root privileges on Arch Linux ...",
@@ -258,28 +282,12 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft blames macOS update for undismissible Teams location prompts",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-undismissible-teams-location-prompts-on-macos-update/",
-      "description": "Microsoft has confirmed user reports that the Teams team collaboration app is displaying non-dismissible location prompts on some macOS systems. [...]",
-      "pub_date": "Tue, 19 May 2026 12:10:47 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
       "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
       "description": "Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka Di...",
       "pub_date": "Tue, 19 May 2026 20:26:26 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgecVdZ_vIxfMWdiQkn7dC_SCueSRLBHaU01aHrtW1lUsx3_5gwbM6fG5NyV-VUhnDxvolk_tzMNWgINg06cwjKL1xIeDIFMiFH56IUO_zwZwJqiLnMp-VJcIWFjhulk1AHnlZ_ETgH3vg6Q6SHS4Ae-teRmaLDY4XZhONjoz4MeKvQLyzJ_YdckL8lk3fe/s1600/linux-poc.jpg"
-    },
-    {
-      "title": "New Shai-Hulud malware wave compromises 600 npm packages",
-      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
-      "description": "Threat actors earlier today published more than 600 malicious packages to the Node Package Manager (npm) index as part of a new Shai-Hulud supply-chain campaign. [...]",
-      "pub_date": "Tue, 19 May 2026 10:30:22 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
@@ -512,14 +520,6 @@
       "pub_date": "Fri, 06 Mar 2026 21:09:04 +0000",
       "source": "GitHub Security",
       "image_url": "https://github.blog/wp-content/uploads/2026/03/ai-high-level-overview5.excalidraw.png?resize=1024%2C779"
-    },
-    {
-      "title": "AI-supported vulnerability triage with the GitHub Security Lab Taskflow Agent",
-      "link": "https://github.blog/security/ai-supported-vulnerability-triage-with-the-github-security-lab-taskflow-agent/",
-      "description": "Learn how we are using the newly released GitHub Security Lab Taskflow Agent to triage categories of vulnerabilities in GitHub Actions and JavaScript projects. The post AI-supported vulnerability t...",
-      "pub_date": "Tue, 20 Jan 2026 19:52:50 +0000",
-      "source": "GitHub Security",
-      "image_url": "https://github.blog/wp-content/uploads/2026/01/01_sample-taskflow.png?resize=1024%2C209"
     },
     {
       "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
