@@ -1,21 +1,53 @@
 {
-  "last_updated": "2026-05-20T10:20:35Z",
+  "last_updated": "2026-05-20T13:33:13Z",
   "articles": [
     {
-      "title": "Microsoft Releases Mitigation for Windows BitLocker Security Bypass 0-Day Vulnerability",
-      "link": "https://cybersecuritynews.com/windows-bitlocker-yellowkey-mitigation/",
-      "description": "Microsoft has disclosed a critical zero-day vulnerability in Windows BitLocker, tracked as CVE-2026-45585, that allows threat actors with physical access to bypass full-disk encryption entirely, po...",
-      "pub_date": "Wed, 20 May 2026 09:25:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Windows-BitLocker-YellowKey-Mitigation.webp"
+      "title": "Drupal critical update to fix bug with high exploitation risk",
+      "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
+      "description": "Drupal has announced a \"core security release\" scheduled for later today, warning that threat actors might develop exploits within hours of the update disclosure. [...]",
+      "pub_date": "Wed, 20 May 2026 08:52:29 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
     },
     {
-      "title": "New NGINX Vulnerability Allow Remote Attackers to Trigger Malicious Code",
-      "link": "https://cybersecuritynews.com/nginx-buffer-overflow-vulnerability/",
-      "description": "A new vulnerability in NGINX JavaScript (njs), tracked as CVE‑2026‑8711, allows unauthenticated remote attackers to trigger a heap‑based buffer overflow that can lead to denial‑of‑service...",
-      "pub_date": "Wed, 20 May 2026 08:57:31 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-NGINX-Vulnerability-allow-remote-attackers-to-Trigger-Malicious-code-execution-.webp"
+      "title": "Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API",
+      "link": "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
+      "description": "Cybersecurity researchers have flagged fresh activity from a China-aligned threat actor known as Webworm in 2025, deploying custom backdoors that employ Discord and Microsoft Graph API for command-...",
+      "pub_date": "Wed, 20 May 2026 18:21:43 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt4cD52DtnzH5FM8ZMrW9KyPrD1ysrJURSmqalrw9f6siP8XxYqClsqV6ofHpM8ir7gBnmmvehj5HB1k0aSHdPmLtKKwtLLvjSi4ELa9eMq12maW7p56a2yBdl7xzdfv6893fvQxLIH0kKGYKnzYM_7-3XysWIGsSNiEYXBjmiWFqe0Pe8uq-TkWlQjjv4/s1600/cyberattack-paki.jpg"
+    },
+    {
+      "title": "Agent AI is Coming. Are You Ready?",
+      "link": "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
+      "description": "New Industry Data Just Released Suggests Not.  On May 19th, 2026, Orchid Security released the results of our Identity Gap: Snapshot 2026. Among the findings, \"identity dark matter\" (the unseen, un...",
+      "pub_date": "Wed, 20 May 2026 17:28:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjYQaF0euKIc86WLed9RLojSVHUNrnpx7_OeZHvmaPtnFPmL3WrhC-DU-7asOtrYx8fBGP-UCdxI1QljVgaT_wYA6uIye4yHpzpk-uSQb934K7NDSPn-jFJR63cEeUZ8SsDevlcvX-O62_-C8HZeVreeg2aB5stt6z9kluLUvIUgXAGVpAMccDc19lrsmK/s1600/agentai.gif"
+    },
+    {
+      "title": "GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos",
+      "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
+      "description": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizat...",
+      "pub_date": "Wed, 20 May 2026 17:08:43 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoDiyeJZY33dxAsa8qElLYXNILLDT4NhloINZiuzcx3La2JvDK_d54kM8qsx_obt8vQ3FpTJr2ZVoMYiEcqHN0sbt-1A_MHlS7mSavlbDiEDg42HN1d4wCffs7ytuZhDvmMjuej5oljVIqIuRezyZCLmafRclN3wNBKcboV-19F0VMMBkVsQZckV5UaiiH/s1600/github.jpg"
+    },
+    {
+      "title": "Exploit released for new PinTheft Arch Linux root escalation flaw",
+      "link": "https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/",
+      "description": "PinTheft, a recently patched Linux privilege escalation vulnerability, now has a publicly available proof-of-concept (PoC) exploit that allows local attackers to gain root privileges on Arch Linux ...",
+      "pub_date": "Wed, 20 May 2026 06:52:31 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Typosquatting Is No Longer a User Problem. It's a Supply Chain Problem",
+      "link": "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html",
+      "description": "AI-generated lookalike domains are now embedded inside the third-party scripts running on your web properties. Here's why your current stack can't see them, and what detection actually requires. Do...",
+      "pub_date": "Wed, 20 May 2026 16:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLWPxY_gRwc5keQNREyoTXSadlwpCLyUdAq4v1fQA5_lA2tJ0Ia6xOk-FaLuNHwJjV_xaF7M0xzPvqHk4e7aym6R7J2aaGCGm7Bnv8OXh7GScZ-G7ic5pdEgK-0E0_y_yLz16V2A2GL5uTmU7tRPUyoDl5LfzTzQnuMlI1QV7SEhRC9Cli7zci_no9pyk/s1600/ref.jpg"
     },
     {
       "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
@@ -32,14 +64,6 @@
       "pub_date": "Wed, 20 May 2026 04:14:08 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Fox Tempest Malware-Signing Service Abused Microsoft Artifact Signing to Certify Malware",
-      "link": "https://cybersecuritynews.com/fox-tempest-abuse-microsoft-artifact-signing/",
-      "description": "A financially motivated threat actor known as Fox Tempest has been operating a sophisticated malware-signing-as-a-service (MSaaS) platform that abused Microsoft’s Artifact Signing infrastructure ...",
-      "pub_date": "Wed, 20 May 2026 08:10:31 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Fox-Tempest-Malware-Signing-Service-Abused-Microsoft-Artifact-Signing-to-Certify-Malware-1.webp"
     },
     {
       "title": "Microsoft shares mitigation for YellowKey Windows zero-day",
@@ -66,68 +90,12 @@
       "image_url": ""
     },
     {
-      "title": "GitHub Hacked – Internal Source Code Repositories Compromised via Employee Device",
-      "link": "https://cybersecuritynews.com/github-data-breach/",
-      "description": "GitHub has confirmed unauthorized access to its internal repositories after detecting a compromised employee device infected through a malicious Visual Studio Code extension, the company disclosed ...",
-      "pub_date": "Wed, 20 May 2026 04:47:29 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GitHub-Data-Breach.webp"
-    },
-    {
-      "title": "PoC Exploit Released for 20-Year Old PostgreSQL RCE Vulnerability",
-      "link": "https://cybersecuritynews.com/20-year-old-postgresql-vulnerability/",
-      "description": "A proof-of-concept (PoC) exploit has been publicly released for CVE-2026-2005, a critical remote code execution (RCE) vulnerability affecting PostgreSQL’s pgcrypto extension. The flaw, rooted in ...",
-      "pub_date": "Wed, 20 May 2026 04:26:14 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/PoC-Exploit-Released-for-20-Year-Old-PostgreSQL-RCE-Vulnerability-.webp"
-    },
-    {
-      "title": "GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos",
-      "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
-      "description": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizat...",
-      "pub_date": "Wed, 20 May 2026 09:31:15 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoDiyeJZY33dxAsa8qElLYXNILLDT4NhloINZiuzcx3La2JvDK_d54kM8qsx_obt8vQ3FpTJr2ZVoMYiEcqHN0sbt-1A_MHlS7mSavlbDiEDg42HN1d4wCffs7ytuZhDvmMjuej5oljVIqIuRezyZCLmafRclN3wNBKcboV-19F0VMMBkVsQZckV5UaiiH/s1600/github.jpg"
-    },
-    {
-      "title": "ShinyHunters Claims Credit for Cyber-Attack on Online Learning Management System",
-      "link": "https://cybersecuritynews.com/shinyhunters-claims-credit-online-lms/",
-      "description": "A recent cyberattack targeting an online Learning Management System (LMS) has been attributed to the notorious cybercriminal group ShinyHunters. The incident caused widespread service disruptions a...",
-      "pub_date": "Wed, 20 May 2026 03:51:20 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/ShinyHunters-Claims-credit-for-cyber-attack-on-online-Learning-Management-System.webp"
-    },
-    {
-      "title": "GitHub Source Code Breach – TeamPCP Claims Access to Internal Source Code",
-      "link": "https://cybersecuritynews.com/github-source-code-breach/",
-      "description": "A notorious threat actor operating under the alias\u0026#160;TeamPCP\u0026#160;claims to have breached GitHub\u0026#8217;s internal systems, allegedly exfiltrating proprietary organization data and source code. T...",
-      "pub_date": "Wed, 20 May 2026 02:39:50 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GitHub-Source-Code-Breach.webp"
-    },
-    {
       "title": "Max-severity flaw in ChromaDB for AI apps allows server hijacking",
       "link": "https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/",
       "description": "A max-severity vulnerability in the latest Python FastAPI version of the ChromaDB project allows unauthenticated attackers to run arbitrary code on exposed servers. [...]",
       "pub_date": "Tue, 19 May 2026 18:25:49 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery",
-      "link": "https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin/",
-      "description": "A newly documented attack chain linked to the threat group UAC-0184 has been observed using Windows\u0026#8217; built-in bitsadmin tool and HTA files to sneak malicious payloads onto targeted systems. T...",
-      "pub_date": "Tue, 19 May 2026 22:07:50 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/UAC-0184-Malware-Chain-Uses-bitsadmin-and-HTA-Files-for-Gated-Payload-Delivery.webp"
-    },
-    {
-      "title": "macOS Malware Installs Fake Google Software Update LaunchAgent for Persistence",
-      "link": "https://cybersecuritynews.com/macos-malware-installs-fake-google-software/",
-      "description": "macOS users are facing a new and sophisticated threat as a variant of the SHub infostealer malware, dubbed \u0026#8220;Reaper,\u0026#8221; has been observed deploying a fake Google Software Update LaunchAgen...",
-      "pub_date": "Tue, 19 May 2026 21:50:13 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/macOS-Malware-Installs-Fake-Google-Software-Update-LaunchAgent-for-Persistence.webp"
     },
     {
       "title": "Cybercrime service disrupted for abusing Microsoft platform to sign malware",
@@ -144,14 +112,6 @@
       "pub_date": "Tue, 19 May 2026 16:37:45 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "The Gentlemen Ransomware Attacks Windows, Linux, NAS, BSD, and ESXi Attacks",
-      "link": "https://cybersecuritynews.com/the-gentlemen-ransomware-attacks-windows/",
-      "description": "A ransomware group called The Gentlemen has been quietly building one of the most aggressive cybercriminal operations seen in recent years. Emerging publicly in the second half of 2025, the group r...",
-      "pub_date": "Tue, 19 May 2026 20:12:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/The-Gentlemen-Ransomware-Attacks-Windows-Linux-NAS-BSD-and-ESXi-Attacks.webp"
     },
     {
       "title": "FBI: Americans lost over $388 million to scams using crypto ATMs in 2025",
@@ -226,28 +186,12 @@
       "image_url": ""
     },
     {
-      "title": "Webinar: The hidden bottlenecks in network incident response",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
-      "description": "IT teams are increasingly overwhelmed by alerts from disconnected systems, forcing responders to manually coordinate investigations during network incidents. This webinar explores how automation an...",
-      "pub_date": "Tue, 19 May 2026 08:14:22 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
       "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
       "description": "In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five countries.\u0026nbsp; ...",
       "pub_date": "Tue, 19 May 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLnnvBvl0Gs5pfpUcrlJ_Ni62CyGs5UpoGCmpUAjReyBpExj5FzhuxSwuUcfQiyxDqeeoy6jSAHq4tA2KUnO5CRfbpfd_jN1ndeXgC0MiG0TrAfAyW67eybZeHMY-t6_kICQdPPKqK-1n9Ngkrj7UJrZZa1KQWqN9WjaTaDuHA_t6RW9Stul6tb82OS_4/s1600/reco1.jpg"
-    },
-    {
-      "title": "Microsoft confirms patching issues in restricted Windows networks",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-patching-issues-in-restricted-windows-networks/",
-      "description": "Microsoft says customers in restricted network environments may encounter Windows Update failures after installing the January 2026 optional non-security preview updates. [...]",
-      "pub_date": "Tue, 19 May 2026 07:22:15 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
@@ -296,30 +240,6 @@
       "pub_date": "Mon, 18 May 2026 22:51:18 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivxxVYex3z2F03m6RYOR72whyegN5TEzzNxZO3tTOSHNTQ4tqCeD-H-F0c3K8dInMfh1EwPQP0jtoHEA4agDOYN2sF7qxGMHnuhsWges5me7ESa8_ycNj0vHf1TeeTgqetA1yOQ5Gi6a7jsV5khO3PVNcbkrBRCTMRNRb_qPLwBUdlvZJUCDvGjtmSVuod/s1600/hackers.png"
-    },
-    {
-      "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
-      "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
-      "description": "Monday opens with a trust problem. A mail server flaw is under active use. A network control system was targeted. Trusted packages were poisoned. A fake model page pushed a stealer. Then came the f...",
-      "pub_date": "Mon, 18 May 2026 19:20:17 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFzN7ITW3vwaWKn1m-BGZGI1JicT1T8d5v4LZbTvOTe7m1Xj4pk1pFECjAOvxey4XzXg7vGiU5Xzifs4qkzr9cbg2iPboHfPAHHBmi3O8OIAArhJlbr52gwKMkdqrIuIK77Pq8EzCTQM1hV5MsLuTbV4GXbXzr7miv0jA6o0Bn35RgBjc2cnd6qPq2-0Di/s1600/recapss.jpg"
-    },
-    {
-      "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
-      "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
-      "description": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attac...",
-      "pub_date": "Mon, 18 May 2026 18:30:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu4cbMji6f7O37Q6sBOEkOEXWMs7Eg4ixA0RdW8AiO6cIPai9yYqLTvVVkUH9ApXP8XycVeezSCvDMXhldVsCiaA-_kr5SwWJ4EjTfkyX0RdUacOUF3plBO9C6PHCLsUGM-L-ZthpQA7mhdPmH4nLgPPQIVBWK9BZUNQf7V17Y_5jVVvZ0FNaiOsG7mvs/s1600/anyrun-main.jpg"
-    },
-    {
-      "title": "Developer Workstations Are Now Part of the Software Supply Chain",
-      "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
-      "description": "Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns...",
-      "pub_date": "Mon, 18 May 2026 16:53:41 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjylLL25uQ3uU6RshKkTv9isR22Y_6_b4uJJ4koE1MqtmGs4IWdz88_aH8up_7WDxghA7-GeMbm6gpoKUXRw99Cm1ljO03H8bdcv91vvO_ch313e_JAwtYH-CewZJF2WkNrYWtcp-acMiPTvSs5aan7v2DLpEjVSBuEarfJ-eCLEHCL2WK9zjxOho_gj3k/s1600/git.gif"
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
