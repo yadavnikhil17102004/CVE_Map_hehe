@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T22:13:42Z",
+  "last_updated": "2026-05-21T23:54:31Z",
   "articles": [
     {
       "title": "Hackers Use Fake Microsoft Teams Downloads to Deploy ValleyRAT Malware",
@@ -191,6 +191,22 @@
       "description": "GitHub says the hackers who breached 3,800 internal repositories gained access via a malicious version of the Nx Console VS Code extension, compromised in last week's TanStack npm supply-chain atta...",
       "pub_date": "Thu, 21 May 2026 02:54:01 -0400",
       "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-319: Progress Software Kemp LoadMaster addcountry Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-319/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is required to exploit this vulnerability. The ZD...",
+      "pub_date": "Thu, 21 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-318: Progress Software Kemp LoadMaster ssodomain_killsession Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-318/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is required to exploit this vulnerability. The ZD...",
+      "pub_date": "Thu, 21 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
@@ -446,22 +462,6 @@
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-305/",
       "description": "This vulnerability allows remote attackers to bypass the sandbox on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must use Co...",
       "pub_date": "Tue, 28 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-304: Foxit PDF Reader AcroForm Annotation Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-304/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target mus...",
-      "pub_date": "Mon, 27 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-303: Foxit PDF Reader AcroForm Signature Use-After-Free Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-303/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the ta...",
-      "pub_date": "Mon, 27 Apr 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
     },
