@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-05-21T02:35:38Z",
+  "last_updated": "2026-05-21T06:45:01Z",
   "articles": [
+    {
+      "title": "Two U.S. Executives Plead Guilty in India-Based Tech-Support Fraud Schemes",
+      "link": "https://cybersecuritynews.com/u-s-executives-plead-guilty-tech-support/",
+      "description": "Two former executives of a U.S.-based call routing and analytics company have pleaded guilty to federal charges for knowingly enabling India-based call centers to defraud thousands of American vict...",
+      "pub_date": "Thu, 21 May 2026 04:59:46 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/U.S.-Executives-Plead-Guilty.webp"
+    },
+    {
+      "title": "GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension",
+      "link": "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
+      "description": "GitHub on Wednesday officially confirmed that the breach of its internal repositories was the result of a compromise of an employee device involving a poisoned version of the Nx Console Microsoft V...",
+      "pub_date": "Thu, 21 May 2026 09:57:01 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ64wgVqZTQx208NgY0sBvUUQcR5mb-G4ENkfw4PEX9KlJJxEI_uUKQvPG0rReXB4chZ3wXrvNSR1QsrK525DDHkzY9X3nQYduh36qKTyC-k4EfixFeOU7YR1mRIw8ZJL-oYN8k_wwBid2GU8NYJtCqEFLOSzomuu-Xx7yA3Djim0nq79RyoZJs6HGga_H/s1600/github-hacked.jpg"
+    },
+    {
+      "title": "New GhostTree Attack Causing EDR Products to Hang and Leave Files Unscanned",
+      "link": "https://cybersecuritynews.com/ghosttree-attack-edr-products/",
+      "description": "A novel evasion technique called GhostTree, which exploits NTFS junctions to create recursive directory loops. Uncovered by Varonis Threat Labs, this method traps Endpoint Detection and Response (E...",
+      "pub_date": "Thu, 21 May 2026 04:16:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GhostTree-Attack-EDR-Products.webp"
+    },
+    {
+      "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
+      "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
+      "description": "Drupal has released security updates for a \"highly critical\" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or in...",
+      "pub_date": "Thu, 21 May 2026 09:14:11 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyhKX1WKEWbBPd4sElCP9BB26eorxZX1Lo25Mcu-A5bfBUuWT63SQ-Hyycv1YPSlvVeZPfLSEbb8mQnuPvf0KEDm8mYTtCLoYZuMG6A8maidLefE12_3Plum0keZ-mbAS4dGN-x7Oj0NWOmoeqp6_PEK0fqpnZwz8ZFV-NhyFl78WS4Nck76yAbfgWRpK7/s1600/drupal-flaw.jpg"
+    },
+    {
+      "title": "Claude Code’s Network Sandbox Vulnerability Exposes User Credentials and Source Code",
+      "link": "https://cybersecuritynews.com/claude-codes-network-sandbox-vulnerability/",
+      "description": "Anthropic\u0026#8217;s Claude Code AI coding assistant harbored a critical network sandbox bypass for over five months, allowing attackers to exfiltrate credentials, source code, and environment variabl...",
+      "pub_date": "Thu, 21 May 2026 02:45:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Claude-Codes-Network-Sandbox-Vulnerability.webp"
+    },
+    {
+      "title": "Gremlin Stealer Stores C2 URLs and Exfiltration Paths in Encrypted Resource Sections",
+      "link": "https://cybersecuritynews.com/gremlin-stealer-stores-c2-urls/",
+      "description": "A newly analyzed variant of the Gremlin stealer malware has raised alarms by hiding its command-and-control (C2) addresses and data exfiltration paths inside encrypted resource sections of a compil...",
+      "pub_date": "Thu, 21 May 2026 02:01:14 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Gremlin-Stealer-Stores-C2-URLs-and-Exfiltration-Paths-in-Encrypted-Resource-Sections.webp"
+    },
+    {
+      "title": "Dark Web Brokers Repackage Old Breaches as Fresh Corporate Data Leaks",
+      "link": "https://cybersecuritynews.com/dark-web-brokers-repackage-old-breaches/",
+      "description": "A wave of fake data leak claims is flooding dark web forums, and most of what is being sold turns out to be recycled material from old breaches. Threat actors operating in Chinese-language cybercri...",
+      "pub_date": "Thu, 21 May 2026 01:50:17 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Dark-Web-Brokers-Repackage-Old-Breaches-as-Fresh-Corporate-Data-Leaks.webp"
+    },
+    {
+      "title": "Hackers Use Fake Income Tax Assessment Pages to Infect Windows Systems",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-income-tax-assessment-pages/",
+      "description": "A new threat campaign is targeting Windows users in India by disguising malicious files as official income tax documents. Researchers have tracked the operation under the name TAX#TRIDENT, and it h...",
+      "pub_date": "Wed, 20 May 2026 22:13:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-Fake-Income-Tax-Assessment-Pages-to-Infect-Windows-Systems.webp"
+    },
+    {
+      "title": "Void Botnet Uses Ethereum Smart Contracts for Seizure-Resistant C2 Infrastructure",
+      "link": "https://cybersecuritynews.com/void-botnet-uses-ethereum-smart-contracts/",
+      "description": "A new botnet called Void has emerged on the cybercrime underground, bringing a troubling twist to how attackers manage their operations remotely. Instead of relying on traditional servers that auth...",
+      "pub_date": "Wed, 20 May 2026 21:38:12 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Void-Botnet-Uses-Ethereum-Smart-Contracts-for-Seizure-Resistant-C2-Infrastructure.webp"
+    },
     {
       "title": "Ukraine identifies infostealer operator tied to 28,000 stolen accounts",
       "link": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
@@ -26,12 +98,36 @@
       "image_url": ""
     },
     {
+      "title": "Trapdoor Android Ad Fraud Operation Uses 455 Malicious Apps to Generate Fake Clicks",
+      "link": "https://cybersecuritynews.com/trapdoor-android-ad-fraud-operation-uses-455-malicious-apps/",
+      "description": "A large-scale ad fraud operation called Trapdoor has been discovered targeting Android users through 455 malicious apps, quietly generating fake ad clicks and draining real advertising budgets acro...",
+      "pub_date": "Wed, 20 May 2026 20:08:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Trapdoor-Android-Ad-Fraud-Operation-Uses-455-Malicious-Apps-to-Generate-Fake-Clicks.webp"
+    },
+    {
+      "title": "DevilNFC Android Malware Uses Kiosk Mode to Trap Victims During NFC Relay Attacks",
+      "link": "https://cybersecuritynews.com/devilnfc-android-malware-uses-kiosk-mode/",
+      "description": "A dangerous new Android malware called DevilNFC has emerged, combining NFC relay attacks with a Kiosk Mode trap that locks victims inside a fake banking screen until their card data is stolen. The ...",
+      "pub_date": "Wed, 20 May 2026 17:37:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/DevilNFC-Android-Malware-Uses-Kiosk-Mode-to-Trap-Victims-During-NFC-Relay-Attacks.webp"
+    },
+    {
+      "title": "PinTheft Linux Vulnerability Let Attackers Gain Root Access – PoC Released",
+      "link": "https://cybersecuritynews.com/pintheft-linux-vulnerability/",
+      "description": "A proof-of-concept (PoC) exploit was published for a new Linux Local Privilege Escalation (LPE) vulnerability dubbed \u0026#8220;PinTheft.\u0026#8221; Discovered by Aaron Esau of the V12 security team, the f...",
+      "pub_date": "Wed, 20 May 2026 17:22:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/PinTheft-Linux-Vulnerability.webp"
+    },
+    {
       "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
       "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
       "description": "Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents.  RAMPART, short for Risk Asse...",
       "pub_date": "Wed, 20 May 2026 22:36:54 +0530",
       "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPuhFp_KGzG3yZEzqIYh-at7Dm3vg4_QX97ilaSXDjsUbfhU7KCmRS-uQ2UrV9D855Nvy8HcBDKe25VMT63dfyzh-B2bzSx649SJQSQhL3bfm4Eitv4KLW4PhzRfE1HvoFOFDu2bB4alNLTFzvr6_IkKWjqxShcuWytNgDR4b3wR1xGE6z06xSyWo6NVg3/s1600/ms-tools.jpg"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheh8SBZDUM83ug6w9EopUahk6CPc27TOD5qpmZWVC8hDMYM-8wdgTLXt1KHv_66Q061_5gm3crZszZf-UvSWWZKb6Aax7BxJ5gzPEyfQTp9JPEcNUmLZnEBD3YuFHoqCU4stvSdSVON7hFJq4ZYb4Rdq1vyOK0VUURDjUpCcEP9_SN5xkQckqwaFS_-dQz/s1600/mss.jpg"
     },
     {
       "title": "Grafana breach caused by missed token rotation after TanStack attack",
@@ -232,22 +328,6 @@
       "pub_date": "Tue, 19 May 2026 14:53:15 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiortK4EUp9FwJsfVYW-j20LfpbM5qMNelk5-T8BbZ7dEcmBLXnqhWW9loE8GD6aexZv3h-xHEgn_N7ECjV8KXdcGwNxsbhCPP07COzt9c8BhMaVTF4OaSnKD2b98mJjsU1d57OXj2FQtOhKyeo6oPcT0-rrOi-_dKf1iielQQnhsprZ43tHyYFbiYhgFK8/s1600/email-hacking.jpg"
-    },
-    {
-      "title": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer",
-      "link": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
-      "description": "Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace.  The extension in question is ...",
-      "pub_date": "Tue, 19 May 2026 13:19:23 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi61imbY3-QbM_mT_6WAxBXaFeZ3eXwprN147ox_bMvVqh9NrS69IwqwwL4qu2z1eRA8NfrWwyJi9bIDuREGEVZ-LdBMCGTSxdul92ZApPGrzwqOcr3b6YBKC19N97sk75izvamQxOqBzokKhF-__uaEuw74ZbKQLxKxMQWgRXSCR3FE6ULeHGxbiIhuEso/s1600/nconsole.jpg"
-    },
-    {
-      "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
-      "link": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
-      "description": "In yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sensitive credential...",
-      "pub_date": "Tue, 19 May 2026 10:58:06 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc7jpVO6HhBuEBTjkwmNjYhKlFmhhmytOqNZHYuGP-dNWrf3AoyE68yoKj77elddOX4Ps2x9jSuwhi5sE-QjK_oEjLXgQW9e6EHx6W0G7qTqYTM3fZh1AQTyrgm2o-PFBeD9ryHnC6fDmK5MYKUzBjU_pJibTilnm1d99WSQkJux6PXXRydkYW5d15Ada-/s1600/step.jpg"
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
