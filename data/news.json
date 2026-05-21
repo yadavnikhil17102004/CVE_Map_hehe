@@ -1,61 +1,45 @@
 {
-  "last_updated": "2026-05-21T10:33:33Z",
+  "last_updated": "2026-05-21T13:57:56Z",
   "articles": [
     {
-      "title": "GitHub Internal Repositories Breached Via Weaponized VS Code Extension",
-      "link": "https://cybersecuritynews.com/github-internal-repositories-breached/",
-      "description": "GitHub confirmed a significant security breach on May 18, 2026, after attackers leveraged a weaponized Visual Studio Code extension to compromise an employee\u0026#8217;s device and exfiltrate data from...",
-      "pub_date": "Thu, 21 May 2026 10:27:02 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GitHub-Internal-Repositories-Breach.webp"
+      "title": "Police seize “First VPN” service used in ransomware, data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/",
+      "description": "A virtual private network service called 'First VPN,' used in ransomware and data theft attacks, has been taken offline in a joint international law enforcement operation. [...]",
+      "pub_date": "Thu, 21 May 2026 09:09:51 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
     },
     {
-      "title": "Nine-year-old Linux Kernel Vulnerability Let Attackers Exfiltrate SSH Private Keys",
-      "link": "https://cybersecuritynews.com/nine-year-old-linux-kernel-vulnerability/",
-      "description": "A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-46333, exposes a serious local privilege escalation flaw that has remained undetected for nearly nine years. Security researchers a...",
-      "pub_date": "Thu, 21 May 2026 09:57:16 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Nine-year-old-Linux-Kernel-Vulnerability-Let-Attackers-exfiltrate-SSH-private-keys-.webp"
+      "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
+      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
+      "description": "This week starts small.  A token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not ...",
+      "pub_date": "Thu, 21 May 2026 17:22:14 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifIiAs3r9mSWAyNYngQby6QllKy0gx1dGJB4MNtgMjRQLUIkp7-fr851xuTEe6-izLAtNHux1PgdVBiWmEQctN2QM1bzV_CP0bcR7_ReqHg-lXrDa-EqUsZAUgC8da72h6tdbZU6H8nWMzAfZEItMY49Big4dpxtSHr5r7sgm7W01mhA31E274dUfWBHMi/s1600/tday.png"
     },
     {
-      "title": "New Microsoft Defender 0‑Days Actively Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/microsoft-defender-0-days-exploited/",
-      "description": "Two newly disclosed Microsoft Defender vulnerabilities are being actively exploited in the wild, enabling local attackers to elevate privileges to SYSTEM and potentially disrupt endpoint protection...",
-      "pub_date": "Thu, 21 May 2026 09:50:51 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Defender-0‑Days-Exploited.webp"
+      "title": "Flipper One project needs community help to build open Linux platform",
+      "link": "https://www.bleepingcomputer.com/news/hardware/flipper-one-project-needs-community-help-to-build-open-linux-platform/",
+      "description": "Flipper Devices, the maker of the Flipper Zero pentesting tool, is asking the community to help build Flipper One, an open Linux platform for connected devices. [...]",
+      "pub_date": "Thu, 21 May 2026 07:00:00 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
     },
     {
-      "title": "BadIIS Malware Turns Hijacks IIS Servers and Redirect Users to Illicit Sites",
-      "link": "https://cybersecuritynews.com/badiis-malware-turns-hijacks-iis-servers/",
-      "description": "A dangerous piece of malware known as BadIIS has been actively targeting Internet Information Services (IIS) web servers, quietly hijacking them and redirecting unsuspecting visitors to illegal gam...",
-      "pub_date": "Thu, 21 May 2026 09:38:45 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/BadIIS-Malware-Turns-Hijacks-IIS-Servers-and-Redirect-Users-to-Illicit-Sites.webp"
+      "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities",
+      "link": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
+      "description": "Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild.  The former, tracked as CVE-2026-41091, is rated 7.8 on ...",
+      "pub_date": "Thu, 21 May 2026 16:25:57 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNxp-fCwFOYcXoyRTmhjpwfvFCjfE36YoU8z-7es2XrOajnfSfpttiB9KMfwqCNbwzHQ85kILhlUwo4DeQFWXFq29J8p_oVAIe-gKCCegmTid4YW_22sK6CQO_TwELXa7Z-RZmvDvHx7N3Vg7y-xm78iSGjzCg2AU3FnHo1Hp7v80JJkBruCc05JVvVwnx/s1600/windows-defender.jpg"
     },
     {
-      "title": "Critical Cisco Secure Workload Vulnerability Enables Unauthorized API Access",
-      "link": "https://cybersecuritynews.com/cisco-secure-workload-vulnerability/",
-      "description": "Cisco has disclosed a critical security vulnerability in its Secure Workload platform that could allow unauthenticated attackers to gain unauthorized access to sensitive resources via internal APIs...",
-      "pub_date": "Thu, 21 May 2026 09:20:51 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Cisco-Secure-Workload-Vulnerability-Enables-Unauthorized-API-Access.webp"
-    },
-    {
-      "title": "Critical Drupal Core Security Vulnerability Exposes Websites to Cyberattack",
-      "link": "https://cybersecuritynews.com/drupal-core-security-vulnerability/",
-      "description": "A highly critical security vulnerability in Drupal core is set to impact websites worldwide, with the official security release scheduled for May 20, 2026. The vulnerability has been assigned a “...",
-      "pub_date": "Thu, 21 May 2026 09:13:33 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Drupal-core-security-Vulnerability-Exposes-Websites-to-Cyberattack.webp"
-    },
-    {
-      "title": "New NGINX 0-Day RCE “nginx-poolslip” Affects Millions of NGINX Servers",
-      "link": "https://cybersecuritynews.com/nginx-0-day-rce-nginx-poolslip/",
-      "description": "A newly disclosed zero-day remote code execution (RCE) vulnerability, dubbed nginx-poolslip, has been identified in NGINX version 1.31.0, the latest stable release of the widely deployed web server...",
-      "pub_date": "Thu, 21 May 2026 08:01:20 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/NGINX-0-Day-RCE-nginx-poolslip.webp"
+      "title": "When Identity is the Attack Path",
+      "link": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
+      "description": "Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one ...",
+      "pub_date": "Thu, 21 May 2026 16:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv9W2lSuCdHjvqeLUN5WtqUOgCwe2FAyP1Y_z4oUr1LgM1MdOE5A83gkzSOfGjIosfdlfB4SuLbeVbydeuParENW4MH2aWYuWqnB-DeOd7gC3RJnp7wFucmuinh9kiMBI99337kQYcBrlIX-WH3u204eu7FTy5b_gpkXC6ZHupWD3P60yFk4-2DUrTuuc/s1600/xmxm.jpg"
     },
     {
       "title": "Microsoft warns of new Defender zero-days exploited in attacks",
@@ -74,14 +58,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCjgJwva2lZrAwxHWPZFiphHAhxBdWRyU4gUiAZIStkUP4JU6yej3Z1xVhUtrhaIYVu4IL5KpvOomBDHU_aLtvgHV-R9_41nUSrngG0BGBlCv2pByfkVZNKxmwA3Nf6NR7pi6XgwdUjkwFw27lm_vNR_w2Cr1An46yOM8kfIEphrSCq2aRcaKNNj9D-PiN/s1600/linux-exploit.gif"
     },
     {
-      "title": "WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files",
-      "link": "https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services/",
-      "description": "A ransomware strain called WantToCry has been targeting businesses by abusing a widely used file-sharing protocol to encrypt files without dropping any malware on the victim\u0026#8217;s system. The att...",
-      "pub_date": "Thu, 21 May 2026 07:30:46 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/WantToCry-Ransomware-Abuses-SMB-Services-to-Remotely-Encrypt-Files.webp"
-    },
-    {
       "title": "GitHub links repo breach to TanStack npm supply-chain attack",
       "link": "https://www.bleepingcomputer.com/news/security/github-links-repo-breach-to-tanstack-npm-supply-chain-attack/",
       "description": "GitHub says the hackers who breached 3,800 internal repositories gained access via a malicious version of the Nx Console VS Code extension, compromised in last week's TanStack npm supply-chain atta...",
@@ -90,28 +66,12 @@
       "image_url": ""
     },
     {
-      "title": "Two U.S. Executives Plead Guilty in India-Based Tech-Support Fraud Schemes",
-      "link": "https://cybersecuritynews.com/u-s-executives-plead-guilty-tech-support/",
-      "description": "Two former executives of a U.S.-based call routing and analytics company have pleaded guilty to federal charges for knowingly enabling India-based call centers to defraud thousands of American vict...",
-      "pub_date": "Thu, 21 May 2026 04:59:46 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/U.S.-Executives-Plead-Guilty.webp"
-    },
-    {
       "title": "GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension",
       "link": "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
       "description": "GitHub on Wednesday officially confirmed that the breach of its internal repositories was the result of a compromise of an employee device involving a poisoned version of the Nx Console Microsoft V...",
       "pub_date": "Thu, 21 May 2026 09:57:01 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ64wgVqZTQx208NgY0sBvUUQcR5mb-G4ENkfw4PEX9KlJJxEI_uUKQvPG0rReXB4chZ3wXrvNSR1QsrK525DDHkzY9X3nQYduh36qKTyC-k4EfixFeOU7YR1mRIw8ZJL-oYN8k_wwBid2GU8NYJtCqEFLOSzomuu-Xx7yA3Djim0nq79RyoZJs6HGga_H/s1600/github-hacked.jpg"
-    },
-    {
-      "title": "New GhostTree Attack Causing EDR Products to Hang and Leave Files Unscanned",
-      "link": "https://cybersecuritynews.com/ghosttree-attack-edr-products/",
-      "description": "A novel evasion technique called GhostTree, which exploits NTFS junctions to create recursive directory loops. Uncovered by Varonis Threat Labs, this method traps Endpoint Detection and Response (E...",
-      "pub_date": "Thu, 21 May 2026 04:16:29 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GhostTree-Attack-EDR-Products.webp"
     },
     {
       "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
@@ -282,52 +242,12 @@
       "image_url": ""
     },
     {
-      "title": "Discord rolls out end-to-end encryption on voice, video calls",
-      "link": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
-      "description": "Discord announced that all voice and video calls through the communication platform are now protected by default with end-to-end encryption (E2EE). [...]",
-      "pub_date": "Tue, 19 May 2026 16:37:45 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "FBI: Americans lost over $388 million to scams using crypto ATMs in 2025",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/",
-      "description": "The FBI says Americans have lost over $388 million last year to scams using cryptocurrency kiosks, also known as crypto ATMs or Bitcoin ATMs. [...]",
-      "pub_date": "Tue, 19 May 2026 15:45:39 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
       "link": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
       "description": "Cybersecurity researchers have disclosed details of a new ad fraud and malvertising operation dubbed Trapdoor targeting Android device users.  The activity, per HUMAN's Satori Threat Intelligence a...",
       "pub_date": "Tue, 19 May 2026 22:08:12 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4-ldAXS8Yw3BhdSS9xeJFNzwDm-mrNDxHr28zcknAKH8knTU_WleHEhmJ-vgNokgVbm9y8vRH18v9Oxz6F7twmnBoJfIQ2fVeuhEErRAF31F9MES02sZMhYG-i7F9Ty-C-yD64U4cmgq3CD7nuEnD9OZpxWCTKAPCXfIDKycUeZEfJIBBagPPW72JgWZO/s1600/android-ad-fraud.jpg"
-    },
-    {
-      "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
-      "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
-      "description": "Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka Di...",
-      "pub_date": "Tue, 19 May 2026 20:26:26 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgecVdZ_vIxfMWdiQkn7dC_SCueSRLBHaU01aHrtW1lUsx3_5gwbM6fG5NyV-VUhnDxvolk_tzMNWgINg06cwjKL1xIeDIFMiFH56IUO_zwZwJqiLnMp-VJcIWFjhulk1AHnlZ_ETgH3vg6Q6SHS4Ae-teRmaLDY4XZhONjoz4MeKvQLyzJ_YdckL8lk3fe/s1600/linux-poc.jpg"
-    },
-    {
-      "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
-      "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
-      "description": "In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five countries.\u0026nbsp; ...",
-      "pub_date": "Tue, 19 May 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLnnvBvl0Gs5pfpUcrlJ_Ni62CyGs5UpoGCmpUAjReyBpExj5FzhuxSwuUcfQiyxDqeeoy6jSAHq4tA2KUnO5CRfbpfd_jN1ndeXgC0MiG0TrAfAyW67eybZeHMY-t6_kICQdPPKqK-1n9Ngkrj7UJrZZa1KQWqN9WjaTaDuHA_t6RW9Stul6tb82OS_4/s1600/reco1.jpg"
-    },
-    {
-      "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
-      "link": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
-      "description": "Drupal has issued an alert stating that it intends to release a \"core security release\" for all supported branches on May 20, 2026, from 5-9 p.m. UTC.  \"The Drupal Security Team urges you to reserv...",
-      "pub_date": "Tue, 19 May 2026 16:14:45 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdm6ntsTvJJXoF1Bvx2Qm11faosxt-w7g0VzPCnsORnDN-q79t1wnbzqTFxbkRw5DF1DjhdDUgZ1H_0O4h35tZcEvlsM7dEUkbPyvaQdkEhhyGhpF90Bug4O1aai-0dXi1DdnnOpH2SmC8GoQD0TAd742-StQ4Pva_IVXNUcRpy9V96B7dwBnOc41xScyj/s1600/drupal-update.jpg"
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
