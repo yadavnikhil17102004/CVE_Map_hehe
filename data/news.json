@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-05-21T18:55:01Z",
+  "last_updated": "2026-05-21T20:47:14Z",
   "articles": [
+    {
+      "title": "Hackers Use Fake Microsoft Teams Downloads to Deploy ValleyRAT Malware",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-microsoft-teams-downloads-to-deploy-valleyrat-malware/",
+      "description": "Hackers have been caught running a deceptive campaign that uses fake Microsoft Teams download websites to trick users into installing ValleyRAT, a remote access trojan capable of stealing data, log...",
+      "pub_date": "Thu, 21 May 2026 19:47:21 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-Fake-Microsoft-Teams-Downloads-to-Deploy-ValleyRAT-Malware.webp"
+    },
+    {
+      "title": "TamperedChef Malware Uses Signed Productivity Apps to Deliver Stealers and RATs",
+      "link": "https://cybersecuritynews.com/tamperedchef-malware-uses-signed-productivity-apps/",
+      "description": "A new wave of malware disguised as everyday productivity tools has been quietly spreading across the internet, stealing user credentials and giving attackers remote control of infected systems. Res...",
+      "pub_date": "Thu, 21 May 2026 19:41:44 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/TamperedChef-Malware-Uses-Signed-Productivity-Apps-to-Deliver-Stealers-and-RATs.webp"
+    },
     {
       "title": "Fake Invitation Phishing Campaign Targets U.S. Organizations With Credential Theft",
       "link": "https://cybersecuritynews.com/fake-invitation-phishing-campaign/",
@@ -152,22 +168,6 @@
       "pub_date": "Thu, 21 May 2026 10:27:02 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GitHub-Internal-Repositories-Breach.webp"
-    },
-    {
-      "title": "Nine-year-old Linux Kernel Vulnerability Let Attackers Exfiltrate SSH Private Keys",
-      "link": "https://cybersecuritynews.com/nine-year-old-linux-kernel-vulnerability/",
-      "description": "A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-46333, exposes a serious local privilege escalation flaw that has remained undetected for nearly nine years. Security researchers a...",
-      "pub_date": "Thu, 21 May 2026 09:57:16 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Nine-year-old-Linux-Kernel-Vulnerability-Let-Attackers-exfiltrate-SSH-private-keys-.webp"
-    },
-    {
-      "title": "New Microsoft Defender 0‑Days Actively Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/microsoft-defender-0-days-exploited/",
-      "description": "Two newly disclosed Microsoft Defender vulnerabilities are being actively exploited in the wild, enabling local attackers to elevate privileges to SYSTEM and potentially disrupt endpoint protection...",
-      "pub_date": "Thu, 21 May 2026 09:50:51 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Defender-0‑Days-Exploited.webp"
     },
     {
       "title": "Microsoft warns of new Defender zero-days exploited in attacks",
@@ -562,6 +562,14 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2025-34291 Langflow Origin Validation Error Vulnerability...",
+      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2008-4250 Microsoft Windows Buffer Overflow Vulnerabili...",
@@ -629,14 +637,6 @@
       "title": "Siemens Ruggedcom Rox",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12",
       "description": "View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in the Scheduler functionality that could allow an authenticated remote attacker to execute arbitrary commands with root p...",
-      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Ruggedcom Rox",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-16",
-      "description": "View CSAF Summary Ruggedcom Rox before v2.17.1 contain multiple third-party vulnerabilities. Siemens has released new versions for the affected products and recommends to update to the latest versi...",
       "pub_date": "Thu, 14 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
