@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-22T02:37:24Z",
+  "last_updated": "2026-05-22T06:42:19Z",
   "articles": [
+    {
+      "title": "Mini Shai-Hulud Attack Forces npm to Reset Bypass-2FA Publishing Tokens",
+      "link": "https://cybersecuritynews.com/mini-shai-hulud-attack-forces-npm/",
+      "description": "The npm registry made an urgent platform-wide move last week after supply chain attacks threatened thousands of developers. On May 19, npm invalidated every granular access token with write access ...",
+      "pub_date": "Fri, 22 May 2026 06:24:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Mini-Shai-Hulud-Attack-Forces-npm-to-Reset-Bypass-2FA-Publishing-Tokens.webp"
+    },
+    {
+      "title": "Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access",
+      "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
+      "description": "Cisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data.  Tracked as CVE-2026-20223...",
+      "pub_date": "Fri, 22 May 2026 11:06:18 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLweJvl8B70zomibdr4U6WvYgbmZn4gKKOG9F7xDPXzgeENKK0kg2kgK1yvZDS7AJFkY9De2rG2EQzCLvN1FmjrXXDIm-CkmU88QcexbMkr60gKVKexF-d1qtGHusrr6_j5yrtMv31PSUEygioHJikBsifQ0VHW18IU7lu_oItTzQXugwHPLoO_DYNdnYx/s1600/cisco-workload.jpg"
+    },
+    {
+      "title": "Discord Announces End-to-End Encryption by Default for Video and Voice Messages",
+      "link": "https://cybersecuritynews.com/discord-end-to-end-encryption-default/",
+      "description": "Discord has officially rolled out end-to-end encryption (E2EE) for all voice and video communications across its platform, marking a major milestone in secure real-time communication. The feature, ...",
+      "pub_date": "Fri, 22 May 2026 03:08:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Discord-announces-end-to-end-encryption-by-default-for-video-and-voice-messages.webp"
+    },
     {
       "title": "Megalodon Malware Compromised 5,500+ GitHub Repos Within 6 Hours",
       "link": "https://cybersecuritynews.com/megalodon-malware-github-repos/",
@@ -120,22 +144,6 @@
       "pub_date": "Thu, 21 May 2026 09:09:51 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Flipper Unveils New Flipper One Modular Linux Cyberdeck",
-      "link": "https://cybersecuritynews.com/flipper-one-cyberdeck/",
-      "description": "Flipper Devices has unveiled Flipper One, a modular Linux cyberdeck aimed at becoming a fully open, mainline-first ARM platform for hackers, researchers, and makers The company says the new device ...",
-      "pub_date": "Thu, 21 May 2026 12:55:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Flipper-One.webp"
-    },
-    {
-      "title": "P2PInfect Botnet Compromises Kubernetes Clusters Through Exposed Redis Instances",
-      "link": "https://cybersecuritynews.com/p2pinfect-botnet-compromises-kubernetes-clusters-through-exposed-redis-instances/",
-      "description": "A well-known botnet is now targeting cloud environments in a more calculated way than before. P2PInfect, a Rust-written peer-to-peer malware active since mid-2023, has been observed compromising Ku...",
-      "pub_date": "Thu, 21 May 2026 12:27:42 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/P2PInfect-Botnet-Compromises-Kubernetes-Clusters-Through-Exposed-Redis-Instances.webp"
     },
     {
       "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
@@ -336,14 +344,6 @@
       "pub_date": "Wed, 20 May 2026 13:58:26 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8DmW5nAG63-9iR2RmnP7i3GVJ9EBtLznscnnjROZ-DWRALYo0zsPNjUm2J6khkqSDJiX5Gmwb8sxPh4jHRcsJWFhKSdxZzz4D2f5bOahbfcnmQrUdvhyphenhyphenNVrE-LFMUhhf6rvSyxG2CoVhEFxbZSpEc0y52PM-qxwn02cDP3K3hEzf1nqcRNZEG1wOTjAiQ/s1600/bitlocker-exploit.png"
-    },
-    {
-      "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
-      "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
-      "description": "Grafana Labs, on May 19, 2026, said an investigation into its recent breach found no evidence of customer production systems or operations being compromised.  It said the scope of the incident is l...",
-      "pub_date": "Wed, 20 May 2026 10:42:06 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1N3gjAFZQ-1hptUuKwQmHMjlZwIMDn6H6mKc9UuDELAKWl_3Kow6EcD72IkWpBf8ZB2Db8wrZW86zVxKaEgQZ7_sVrWoDokD1LoLPUqhhCw2lLDl9ODqq2ZkfBrK6SUTrbROBuFNXN16HPtMWtS9EMIFsO3yQsISWCK0JrlwiUWineb9sxIq-un41smHG/s1600/grafana-breach.jpg"
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
