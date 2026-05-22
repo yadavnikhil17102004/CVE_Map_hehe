@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-22T18:29:53Z",
+  "last_updated": "2026-05-22T20:28:40Z",
   "articles": [
+    {
+      "title": "Hackers Use NF-e Invoice Lures to Deliver Banana RAT Through Malicious Batch Files",
+      "link": "https://cybersecuritynews.com/hackers-use-nf-e-invoice-lures/",
+      "description": "A newly discovered banking trojan is targeting Brazilians by disguising itself as a legitimate electronic invoice. The malware, known as Banana RAT, uses fake NF-e (Nota Fiscal Eletronica) document...",
+      "pub_date": "Fri, 22 May 2026 20:20:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-NF-e-Invoice-Lures-to-Deliver-Banana-RAT-Through-Malicious-Batch-Files.webp"
+    },
     {
       "title": "Ubiquiti Patches Critical UniFi OS Vulnerabilities Allowing Remote Privilege Escalation",
       "link": "https://cybersecuritynews.com/unifi-os-vulnerabilities-privilege-escalation/",
@@ -152,14 +160,6 @@
       "pub_date": "Fri, 22 May 2026 17:08:12 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUdjbDFZeTbwpdUFibGsmuDSgX_NHbFfTYroqcGYEGB6yvuKR3eUBSHo9XaphMTYmXC3cqmICDOGUjlsBrwwyJOxzkj1Cdh2xZcYxLz1WpHrV9QmloScYivp7jfyynDTiB51MTpsgGffJ9bZgYJeV3VhY6OA32tot8mC08F-g6KpU47zR513SkVqk-hIim/s1600/driver.jpg"
-    },
-    {
-      "title": "Splunk Patches Multiple Vulnerabilities that Enable DOS Attacks and Expose Sensitive Data",
-      "link": "https://cybersecuritynews.com/splunk-patches-multiple-vulnerabilities/",
-      "description": "Splunk has released security updates addressing multiple vulnerabilities across Splunk Enterprise, Splunk Cloud Platform, and the Splunk AI Toolkit that could lead to denial-of-service (DoS) condit...",
-      "pub_date": "Fri, 22 May 2026 09:48:54 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Splunk-Patches-Multiple-Vulnerabilities-that-Enable-DOS-attack-and-Exposes-Sensitive-Data.webp"
     },
     {
       "title": "US and Canada arrest and charge suspected Kimwolf botnet admin",
@@ -522,18 +522,10 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/03/ai-high-level-overview5.excalidraw.png?resize=1024%2C779"
     },
     {
-      "title": "ABB Terra AC Wallbox",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05",
-      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of ...",
-      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Hitachi Energy GMS600",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-01",
-      "description": "View CSAF Summary Hitachi Energy is aware of the vulnerability, CVE-2022-4304 in the OSS component OpenSSL, that affects the GMS600 versions that are listed below. An attacker successfully exploiti...",
-      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-9082 Drupal Core SQL Injection Vulnerability  This typ...",
+      "pub_date": "Fri, 22 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
@@ -546,9 +538,9 @@
       "image_url": ""
     },
     {
-      "title": "ABB B\u0026R Automation Runtime",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-04",
-      "description": "View CSAF Summary An update is available that resolves a vulnerability identified by B\u0026amp;Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
+      "title": "ABB Terra AC Wallbox",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05",
+      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of ...",
       "pub_date": "Thu, 21 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -565,6 +557,22 @@
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2025-34291 Langflow Origin Validation Error Vulnerability...",
+      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB B\u0026R Automation Runtime",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-04",
+      "description": "View CSAF Summary An update is available that resolves a vulnerability identified by B\u0026amp;Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
+      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Hitachi Energy GMS600",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-01",
+      "description": "View CSAF Summary Hitachi Energy is aware of the vulnerability, CVE-2022-4304 in the OSS component OpenSSL, that affects the GMS600 versions that are listed below. An attacker successfully exploiti...",
       "pub_date": "Thu, 21 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -626,17 +634,9 @@
       "image_url": ""
     },
     {
-      "title": "Siemens SIMATIC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-10",
-      "description": "View CSAF Summary SIMATIC CN 4100 contains multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has released a new version f...",
-      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Ruggedcom Rox",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12",
-      "description": "View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in the Scheduler functionality that could allow an authenticated remote attacker to execute arbitrary commands with root p...",
+      "title": "Siemens gWAP",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01",
+      "description": "View CSAF Summary Siemens gPROMS Web Applications Publisher (gWAP) is affected by a remote code execution vulnerability introduced through a third-party component, namely the Axios HTTP client libr...",
       "pub_date": "Thu, 14 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
