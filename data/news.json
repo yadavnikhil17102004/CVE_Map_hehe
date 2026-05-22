@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-05-22T16:16:52Z",
+  "last_updated": "2026-05-22T18:29:53Z",
   "articles": [
+    {
+      "title": "Ubiquiti Patches Critical UniFi OS Vulnerabilities Allowing Remote Privilege Escalation",
+      "link": "https://cybersecuritynews.com/unifi-os-vulnerabilities-privilege-escalation/",
+      "description": "Ubiquiti Networks has released urgent security updates to address a series of highly critical vulnerabilities affecting its UniFi OS platform. These severe flaws could allow unauthenticated, remote...",
+      "pub_date": "Fri, 22 May 2026 17:58:17 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/UniFi-OS-Vulnerabilities-Privilege-Escalation.webp"
+    },
+    {
+      "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
+      "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
+      "description": "Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data...",
+      "pub_date": "Fri, 22 May 2026 23:05:02 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8yN-yeHodasj_piRqdUbE1MGyOfiyAzo-x6KZ_V9oilxP_v_kFNoyLVU7oNmG05F5g49pLeMY_jgJtU0mFk9ft_0qi4oLFgTxm0KWBncWw9lq0lVJFdkzshBzjul-2ODkaGNoLbgFUqKXbwKJJiF8nm0E6u7q6hnK_Vzb07XT-iygxE6Ct3bxW7A6s6f8/s1600/firstvpn.jpg"
+    },
+    {
+      "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
+      "link": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
+      "description": "Financial crime investigators in the Netherlands (FIOD) arrested two men and seized 800 servers linked to a web hosting company that enabled cyberattacks, interference operations, and disinformatio...",
+      "pub_date": "Fri, 22 May 2026 13:24:52 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "LiteSpeed cPanel Plugin 0-Day Exploited in the wild to Gain Server Root Access",
+      "link": "https://cybersecuritynews.com/litespeed-cpanel-plugin-0-day-exploited/",
+      "description": "LiteSpeed has disclosed and patched a critical 0‑day privilege escalation flaw in its user-end cPanel plugin that is already being actively exploited to gain root access on Linux hosting servers....",
+      "pub_date": "Fri, 22 May 2026 17:16:57 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/LiteSpeed-cPanel-Plugin-0-Day-Exploited.webp"
+    },
+    {
+      "title": "CISA adds Langflow Origin Validation Flaw to Known Exploited Vulnerabilities Catalog",
+      "link": "https://cybersecuritynews.com/langflow-origin-validation-flaw-exploit/",
+      "description": "\u0026#160;The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical Langflow vulnerability, tracked as CVE-2025-34291, to its Known Exploited Vulnerabilities (KEV) Catalog, ...",
+      "pub_date": "Fri, 22 May 2026 16:37:14 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CISA-adds-Langflow-Origin-Validation-Flaw-to-Known-Exploited-Vulnerabilities-Catalog.webp"
+    },
+    {
+      "title": "Deleted Google API Keys Continue Accessing Gemini, BigQuery, and Maps APIs",
+      "link": "https://cybersecuritynews.com/deleted-google-api-keys-continue-access/",
+      "description": "A newly disclosed issue with Google Cloud API keys reveals that deleted credentials may remain usable for up to 23 minutes, exposing projects to potential abuse even after revocation. The finding r...",
+      "pub_date": "Fri, 22 May 2026 16:34:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Deleted-Google-API-Keys-Continue-Accessing-Gemini-BigQuery-and-Maps-APIs.webp"
+    },
+    {
+      "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
+      "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
+      "description": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151Ukraine's National Security and Defense Council) has been observed using lures related to Prometheus, a Ukrainian onli...",
+      "pub_date": "Fri, 22 May 2026 21:50:32 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNDmjcnVzVIqFFB-CQU7L6G8XVTifkZGmIMcPrui1EoffwwvtPXCrjKhRtIfxYsfPb5OUON4KQ1MVRosbP1BgCeFpqIIWRbgv34naUxEUTzyGRsPB6fY2gJJa5AXgT085SLFuc8ykNinXhnnpQzGAT2Kw1YwNe05vxSxlb6EVTu8_CoDws3QwR_SCk7dXm/s1600/ukuk.jpg"
+    },
     {
       "title": "CISA Warns of Microsoft Defender 0-Day Vulnerabilities Exploited in Attacks",
       "link": "https://cybersecuritynews.com/microsoft-defender-0-day-vulnerabilities-exploited/",
@@ -106,44 +162,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Splunk-Patches-Multiple-Vulnerabilities-that-Enable-DOS-attack-and-Exposes-Sensitive-Data.webp"
     },
     {
-      "title": "CISA Warns of Trend Micro Apex One Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/trend-micro-apex-one-vulnerability-exploited/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability in Trend Micro Apex One to its Known Exploited Vulnerabilities (KEV) catalog, warning organizatio...",
-      "pub_date": "Fri, 22 May 2026 09:35:08 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/CISA-Warns-of-Trend-Micro-Apex-One-Vulnerability-Exploited-in-Attacks-1.webp"
-    },
-    {
-      "title": "FBI Warns of Kali365 Attacking Microsoft 365 Users to Steal Logins and Bypass MFA",
-      "link": "https://cybersecuritynews.com/kali365-phaas-microsoft-365/",
-      "description": "The FBI has issued a new cybersecurity warning about a rapidly emerging phishing-as-a-service (PhaaS) platform named Kali365, which is actively targeting Microsoft 365 users to steal access tokens ...",
-      "pub_date": "Fri, 22 May 2026 09:31:26 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/FBI-Warns-of-Kali365-PhaaS-platform-Attacking-Microsoft-365-Users-to-Steal-Logins-and-Bypass-MFA.webp"
-    },
-    {
-      "title": "Hackers Use Hugging Face to Host Second-Stage Malware for npm Supply Chain Attack",
-      "link": "https://cybersecuritynews.com/hackers-use-hugging-face/",
-      "description": "Hackers have found a new and alarming way to weaponize one of the most trusted platforms in the AI world. A threat actor linked to North Korea has embedded second-stage malware inside Hugging Face,...",
-      "pub_date": "Fri, 22 May 2026 09:22:30 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-Hugging-Face-to-Host-Second-Stage-Malware-for-npm-Supply-Chain-Attack.webp"
-    },
-    {
       "title": "US and Canada arrest and charge suspected Kimwolf botnet admin",
       "link": "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
       "description": "U.S. and Canadian authorities arrested and charged a Canadian man with operating the KimWolf distributed denial-of-service (DDoS) botnet, which infected nearly two million devices worldwide. [...]",
       "pub_date": "Fri, 22 May 2026 05:01:20 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Google Publishes Exploit Code for Unfixed Chromium Bug Exposing Millions of Users",
-      "link": "https://cybersecuritynews.com/google-publishes-chromium-exploit-code/",
-      "description": "Google has publicly released proof-of-concept (PoC) exploit code for a critical, still-unpatched vulnerability in the Chromium codebase, potentially exposing millions of users across Chrome, Micros...",
-      "pub_date": "Fri, 22 May 2026 08:54:15 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Google-Publishes-Chromium-Exploit-Code.webp"
     },
     {
       "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
@@ -274,14 +298,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCjgJwva2lZrAwxHWPZFiphHAhxBdWRyU4gUiAZIStkUP4JU6yej3Z1xVhUtrhaIYVu4IL5KpvOomBDHU_aLtvgHV-R9_41nUSrngG0BGBlCv2pByfkVZNKxmwA3Nf6NR7pi6XgwdUjkwFw27lm_vNR_w2Cr1An46yOM8kfIEphrSCq2aRcaKNNj9D-PiN/s1600/linux-exploit.gif"
     },
     {
-      "title": "GitHub links repo breach to TanStack npm supply-chain attack",
-      "link": "https://www.bleepingcomputer.com/news/security/github-links-repo-breach-to-tanstack-npm-supply-chain-attack/",
-      "description": "GitHub says the hackers who breached 3,800 internal repositories gained access via a malicious version of the Nx Console VS Code extension, compromised in last week's TanStack npm supply-chain atta...",
-      "pub_date": "Thu, 21 May 2026 02:54:01 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "ZDI-26-319: Progress Software Kemp LoadMaster addcountry Command Injection Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-319/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is required to exploit this vulnerability. The ZD...",
@@ -328,22 +344,6 @@
       "pub_date": "Wed, 20 May 2026 22:36:54 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheh8SBZDUM83ug6w9EopUahk6CPc27TOD5qpmZWVC8hDMYM-8wdgTLXt1KHv_66Q061_5gm3crZszZf-UvSWWZKb6Aax7BxJ5gzPEyfQTp9JPEcNUmLZnEBD3YuFHoqCU4stvSdSVON7hFJq4ZYb4Rdq1vyOK0VUURDjUpCcEP9_SN5xkQckqwaFS_-dQz/s1600/mss.jpg"
-    },
-    {
-      "title": "Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks",
-      "link": "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
-      "description": "Microsoft on Tuesday said it disrupted a malware-signing-as-a-service (MSaaS) operation that weaponized the company's Artifact Signing system to deliver malicious code and conduct ransomware and ot...",
-      "pub_date": "Wed, 20 May 2026 20:06:44 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiypJnCUStqk0SRgnT6bFPLXM9F10uUBgEZgGScKH8lNthkNnD4zP2-CBNIvo2eukKJzGKOs7RFjIq1KmR-pIGFT3pFS1wgz8ySDW7O9OaMkAHXSaZvHSP_Y2JxqGgkdbCLXcn-VZOYwirKa9gU7FqEZXDafHhgxupVx6cuJam1wsnjq3qjz7q36GlvirT/s1600/windows-ransomware.jpg"
-    },
-    {
-      "title": "Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API",
-      "link": "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
-      "description": "Cybersecurity researchers have flagged fresh activity from a China-aligned threat actor known as Webworm in 2025, deploying custom backdoors that employ Discord and Microsoft Graph API for command-...",
-      "pub_date": "Wed, 20 May 2026 18:21:43 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt4cD52DtnzH5FM8ZMrW9KyPrD1ysrJURSmqalrw9f6siP8XxYqClsqV6ofHpM8ir7gBnmmvehj5HB1k0aSHdPmLtKKwtLLvjSi4ELa9eMq12maW7p56a2yBdl7xzdfv6893fvQxLIH0kKGYKnzYM_7-3XysWIGsSNiEYXBjmiWFqe0Pe8uq-TkWlQjjv4/s1600/cyberattack-paki.jpg"
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
