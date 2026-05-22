@@ -1,13 +1,29 @@
 {
-  "last_updated": "2026-05-22T06:42:19Z",
+  "last_updated": "2026-05-22T10:18:34Z",
   "articles": [
     {
-      "title": "Mini Shai-Hulud Attack Forces npm to Reset Bypass-2FA Publishing Tokens",
-      "link": "https://cybersecuritynews.com/mini-shai-hulud-attack-forces-npm/",
-      "description": "The npm registry made an urgent platform-wide move last week after supply chain attacks threatened thousands of developers. On May 19, npm invalidated every granular access token with write access ...",
-      "pub_date": "Fri, 22 May 2026 06:24:28 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Mini-Shai-Hulud-Attack-Forces-npm-to-Reset-Bypass-2FA-Publishing-Tokens.webp"
+      "title": "US and Canada arrest and charge suspected Kimwolf botnet admin",
+      "link": "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
+      "description": "U.S. and Canadian authorities arrested and charged a Canadian man with operating the KimWolf distributed denial-of-service (DDoS) botnet, which infected nearly two million devices worldwide. [...]",
+      "pub_date": "Fri, 22 May 2026 05:01:20 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
+      "link": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
+      "description": "The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf.  In ta...",
+      "pub_date": "Fri, 22 May 2026 14:20:18 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5VYMnsK-UMv3L8TZp1KhZ4PQti0VtUXkbDREtK-R9Hbtj6bdYrPRwwn8VItL49asZcHEMSOFJyfV25Da96CerBXrPRnHZHncrTuo7Mj7dxEkNGNR4jZZs19Y2pep2dl7KZ0IK1CkexVOQhr14e5MIP5oe5vglQ2StuxG6xv2ataqy8jvD9T1fXLToZHc5/s1600/ddos-canada.jpg"
+    },
+    {
+      "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV",
+      "link": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities (KEV) catalo...",
+      "pub_date": "Fri, 22 May 2026 11:17:33 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi04a_rowIzNPvHHvDTUE34d3bZlOhBeQXtC0UdXyjlf988G4zVE89QKWqSWASKd2LD0T8O2XhkDVgG7UGFIxlpvQWHPx-o_X7vfMK5fH4uSDg3eSUDAaWKtgresEyD9JpINkxtdELWn-qiv6usoLgwSlYNi89xJeVBwYYsCF2y-KKNz0x04KS0PeDPL57J/s1600/cisa-kev-flaws.jpg"
     },
     {
       "title": "Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access",
@@ -18,84 +34,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLweJvl8B70zomibdr4U6WvYgbmZn4gKKOG9F7xDPXzgeENKK0kg2kgK1yvZDS7AJFkY9De2rG2EQzCLvN1FmjrXXDIm-CkmU88QcexbMkr60gKVKexF-d1qtGHusrr6_j5yrtMv31PSUEygioHJikBsifQ0VHW18IU7lu_oItTzQXugwHPLoO_DYNdnYx/s1600/cisco-workload.jpg"
     },
     {
-      "title": "Discord Announces End-to-End Encryption by Default for Video and Voice Messages",
-      "link": "https://cybersecuritynews.com/discord-end-to-end-encryption-default/",
-      "description": "Discord has officially rolled out end-to-end encryption (E2EE) for all voice and video communications across its platform, marking a major milestone in secure real-time communication. The feature, ...",
-      "pub_date": "Fri, 22 May 2026 03:08:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Discord-announces-end-to-end-encryption-by-default-for-video-and-voice-messages.webp"
-    },
-    {
-      "title": "Megalodon Malware Compromised 5,500+ GitHub Repos Within 6 Hours",
-      "link": "https://cybersecuritynews.com/megalodon-malware-github-repos/",
-      "description": "A sweeping automated supply chain attack codenamed \u0026#8220;Megalodon\u0026#8221; struck GitHub on May 18, 2026, injecting malicious CI/CD backdoors into over 5,500 repositories in less than six hours, ma...",
-      "pub_date": "Fri, 22 May 2026 02:31:47 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Megalodon-Malware-GitHub-Repos.webp"
-    },
-    {
-      "title": "Hackers Use Fake Microsoft Teams Downloads to Deploy ValleyRAT Malware",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-microsoft-teams-downloads-to-deploy-valleyrat-malware/",
-      "description": "Hackers have been caught running a deceptive campaign that uses fake Microsoft Teams download websites to trick users into installing ValleyRAT, a remote access trojan capable of stealing data, log...",
-      "pub_date": "Thu, 21 May 2026 19:47:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-Fake-Microsoft-Teams-Downloads-to-Deploy-ValleyRAT-Malware.webp"
-    },
-    {
-      "title": "TamperedChef Malware Uses Signed Productivity Apps to Deliver Stealers and RATs",
-      "link": "https://cybersecuritynews.com/tamperedchef-malware-uses-signed-productivity-apps/",
-      "description": "A new wave of malware disguised as everyday productivity tools has been quietly spreading across the internet, stealing user credentials and giving attackers remote control of infected systems. Res...",
-      "pub_date": "Thu, 21 May 2026 19:41:44 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/TamperedChef-Malware-Uses-Signed-Productivity-Apps-to-Deliver-Stealers-and-RATs.webp"
-    },
-    {
-      "title": "Fake Invitation Phishing Campaign Targets U.S. Organizations With Credential Theft",
-      "link": "https://cybersecuritynews.com/fake-invitation-phishing-campaign/",
-      "description": "A large-scale phishing campaign is actively targeting U.S. organizations, using fake event invitations as bait to steal login credentials, intercept one-time passwords, or install remote access too...",
-      "pub_date": "Thu, 21 May 2026 18:54:25 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Fake-Invitation-Phishing-Campaign-Targets-U.S.-Organizations-With-Credential-Theft.webp"
-    },
-    {
       "title": "Google accidentally exposed details of unfixed Chromium flaw",
       "link": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
       "description": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the devi...",
       "pub_date": "Thu, 21 May 2026 14:13:50 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Indian Student Data Weaponized for Phishing, Social Engineering, and Financial Fraud",
-      "link": "https://cybersecuritynews.com/indian-student-data-weaponized-for-phishing/",
-      "description": "India\u0026#8217;s education sector is now at the center of a growing cybercrime storm. Millions of students across the country are being targeted by threat actors who have turned personal academic data...",
-      "pub_date": "Thu, 21 May 2026 18:03:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Indian-Student-Data-Weaponized-for-Phishing-Social-Engineering-and-Financial-Fraud.webp"
-    },
-    {
-      "title": "Critical Chrome Vulnerabilities Enable Remote Code Execution Attacks – Patch Now!",
-      "link": "https://cybersecuritynews.com/critical-chrome-rce-vulnerabilities/",
-      "description": "Google has released an urgent security update for Chrome, addressing 16 vulnerabilities including two rated Critical that could allow attackers to execute arbitrary code on affected systems. The St...",
-      "pub_date": "Thu, 21 May 2026 17:16:45 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Chrome-Vulnerabilities-Enables-Remote-Code-Execution-Attacks-Patch-Now.webp"
-    },
-    {
-      "title": "Authorities Have Taken Down “First VPN” Used in Ransomware Attacks",
-      "link": "https://cybersecuritynews.com/first-vpn-taken-down/",
-      "description": "In a major international law enforcement success, authorities from seven countries dismantled First VPN, a criminal virtual private network linked to global cybercrime, during a coordinated operati...",
-      "pub_date": "Thu, 21 May 2026 16:56:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/First-VPN-Taken-Down.webp"
-    },
-    {
-      "title": "Mini Shai-Hulud Compromises @antv npm Packages to Steal CI/CD Credentials",
-      "link": "https://cybersecuritynews.com/mini-shai-hulud-compromises-antv-npm-packages-to-steal-ci-cd-credentials/",
-      "description": "A new and sophisticated supply chain attack has been uncovered, targeting one of the most trusted corners of the open-source software world. Dubbed \u0026#8220;Mini Shai-Hulud,\u0026#8221; this campaign went...",
-      "pub_date": "Thu, 21 May 2026 16:49:54 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Mini-Shai-Hulud-Compromises-@antv-npm-Packages-to-Steal-CI-CD-Credentials.webp"
     },
     {
       "title": "Apple blocked over $11 billion in App Store fraud in 6 years",
@@ -320,30 +264,6 @@
       "pub_date": "Wed, 20 May 2026 17:08:43 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoDiyeJZY33dxAsa8qElLYXNILLDT4NhloINZiuzcx3La2JvDK_d54kM8qsx_obt8vQ3FpTJr2ZVoMYiEcqHN0sbt-1A_MHlS7mSavlbDiEDg42HN1d4wCffs7ytuZhDvmMjuej5oljVIqIuRezyZCLmafRclN3wNBKcboV-19F0VMMBkVsQZckV5UaiiH/s1600/github.jpg"
-    },
-    {
-      "title": "Exploit released for new PinTheft Arch Linux root escalation flaw",
-      "link": "https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/",
-      "description": "PinTheft, a recently patched Linux privilege escalation vulnerability, now has a publicly available proof-of-concept (PoC) exploit that allows local attackers to gain root privileges on Arch Linux ...",
-      "pub_date": "Wed, 20 May 2026 06:52:31 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Typosquatting Is No Longer a User Problem. It's a Supply Chain Problem",
-      "link": "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html",
-      "description": "AI-generated lookalike domains are now embedded inside the third-party scripts running on your web properties. Here's why your current stack can't see them, and what detection actually requires. Do...",
-      "pub_date": "Wed, 20 May 2026 16:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLWPxY_gRwc5keQNREyoTXSadlwpCLyUdAq4v1fQA5_lA2tJ0Ia6xOk-FaLuNHwJjV_xaF7M0xzPvqHk4e7aym6R7J2aaGCGm7Bnv8OXh7GScZ-G7ic5pdEgK-0E0_y_yLz16V2A2GL5uTmU7tRPUyoDl5LfzTzQnuMlI1QV7SEhRC9Cli7zci_no9pyk/s1600/ref.jpg"
-    },
-    {
-      "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
-      "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
-      "description": "Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week.  The zero-day flaw, now tracked as CVE-2026-45585, carries...",
-      "pub_date": "Wed, 20 May 2026 13:58:26 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8DmW5nAG63-9iR2RmnP7i3GVJ9EBtLznscnnjROZ-DWRALYo0zsPNjUm2J6khkqSDJiX5Gmwb8sxPh4jHRcsJWFhKSdxZzz4D2f5bOahbfcnmQrUdvhyphenhyphenNVrE-LFMUhhf6rvSyxG2CoVhEFxbZSpEc0y52PM-qxwn02cDP3K3hEzf1nqcRNZEG1wOTjAiQ/s1600/bitlocker-exploit.png"
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
