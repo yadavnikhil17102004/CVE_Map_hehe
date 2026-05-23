@@ -1,77 +1,21 @@
 {
-  "last_updated": "2026-05-23T06:28:53Z",
+  "last_updated": "2026-05-23T08:58:33Z",
   "articles": [
     {
-      "title": "Hackers Compromised 233 Versions of Laravel-Lang Packages by Hacking 700 GitHub Repos",
-      "link": "https://cybersecuritynews.com/laravel-lang-packages-compromised/",
-      "description": "A highly sophisticated supply chain attack has compromised the Laravel-Lang ecosystem, injecting credential-stealing remote code execution backdoors into 233 package versions across 700 GitHub repo...",
-      "pub_date": "Sat, 23 May 2026 05:34:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Laravel-Lang-Packages-Compromised.webp"
+      "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
+      "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+      "description": "A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild.  The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates...",
+      "pub_date": "Sat, 23 May 2026 13:05:13 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM0W1UqsbcZ-8IV_n8ov3V24MQ74VaKe3auGFWNunDUfubEBeKEGREuFjC9-i7H_fLfSwFQQ5wqe8bhVWvAUVC_8U5AQg1c1Qbe-M7bSjuWCwcjTRrc2Du7L0Tm-NKO7ErhPUTR7YS6b1vkpmbYS1VaClWUGOvGe4cxv-jHkQFZMXbSDLfBiF7FFwd7Nfe/s1600/lightspeed.png"
     },
     {
-      "title": "Anthropic’s Claude Mythos Preview Uncovers 10,000+ 0-Days in Project Glasswing",
-      "link": "https://cybersecuritynews.com/anthropics-claude-mythos-preview-0-days/",
-      "description": "Anthropic has revealed the staggering initial results of Project Glasswing, a collaborative cybersecurity initiative designed to secure critical infrastructure using advanced AI before malicious ac...",
-      "pub_date": "Sat, 23 May 2026 03:40:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Anthropics-Claude-Mythos-Preview-0-Days.webp"
-    },
-    {
-      "title": "Hackers Abuse Middle East Telecom Networks for Large-Scale Command-and-Control Operations",
-      "link": "https://cybersecuritynews.com/hackers-abuse-middle-east-telecom-networks/",
-      "description": "Hackers are using telecom networks and hosting providers across the Middle East as a foundation for massive command-and-control operations, turning trusted infrastructure into a launchpad for cyber...",
-      "pub_date": "Fri, 22 May 2026 23:10:05 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-Middle-East-Telecom-Networks-for-Large-Scale-Command-and-Control-Operations.webp"
-    },
-    {
-      "title": "World Cup Phishing Campaign Nearly Triples With 203 Unique IP Addresses",
-      "link": "https://cybersecuritynews.com/world-cup-phishing-campaign-nearly-triples/",
-      "description": "A large-scale phishing campaign targeting the 2026 FIFA World Cup has grown far beyond what security researchers originally thought. What began as a documented set of 79 fraudulent domains has ball...",
-      "pub_date": "Fri, 22 May 2026 23:08:47 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/World-Cup-Phishing-Campaign-Nearly-Triples-With-203-Unique-IP-Addresses.webp"
-    },
-    {
-      "title": "Russian Threat Groups Use RDP, VPN, Supply Chain Attacks, and Social Engineering for Initial Access",
-      "link": "https://cybersecuritynews.com/russian-threat-groups-use-rdp-vpn-supply-chain-attacks/",
-      "description": "Russian state-sponsored threat groups significantly stepped up their cyber operations in 2025, using a range of methods to break into targeted systems. From exploiting remote desktop tools and virt...",
-      "pub_date": "Fri, 22 May 2026 22:08:37 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Russian-Threat-Groups-Use-RDP-VPN-Supply-Chain-Attacks-and-Social-Engineering-for-Initial-Access.webp"
-    },
-    {
-      "title": "Hackers Backdoor Popular art-template npm Package to Launch Watering-Hole Attacks",
-      "link": "https://cybersecuritynews.com/hackers-backdoor-popular-art-template-npm-package/",
-      "description": "A widely-used JavaScript templating library called art-template has been weaponized to deliver a sophisticated iOS browser exploit kit through a supply chain attack. The backdoored package silently...",
-      "pub_date": "Fri, 22 May 2026 22:08:05 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Backdoor-Popular-art-template-npm-Package-to-Launch-Watering-Hole-Attacks.webp"
-    },
-    {
-      "title": "Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems",
-      "link": "https://cybersecuritynews.com/hackers-use-six-layer-persistence/",
-      "description": "A hacker group known as INJ3CTOR3 has been running an active campaign against FreePBX systems, deploying a newly discovered PHP webshell called JOMANGY that uses six separate persistence layers to ...",
-      "pub_date": "Fri, 22 May 2026 21:02:22 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-Six-Layer-Persistence-to-Maintain-Access-on-Compromised-FreePBX-Systems.webp"
-    },
-    {
-      "title": "Hackers Use NF-e Invoice Lures to Deliver Banana RAT Through Malicious Batch Files",
-      "link": "https://cybersecuritynews.com/hackers-use-nf-e-invoice-lures/",
-      "description": "A newly discovered banking trojan is targeting Brazilians by disguising itself as a legitimate electronic invoice. The malware, known as Banana RAT, uses fake NF-e (Nota Fiscal Eletronica) document...",
-      "pub_date": "Fri, 22 May 2026 20:20:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-NF-e-Invoice-Lures-to-Deliver-Banana-RAT-Through-Malicious-Batch-Files.webp"
-    },
-    {
-      "title": "Ubiquiti Patches Critical UniFi OS Vulnerabilities Allowing Remote Privilege Escalation",
-      "link": "https://cybersecuritynews.com/unifi-os-vulnerabilities-privilege-escalation/",
-      "description": "Ubiquiti Networks has released urgent security updates to address a series of highly critical vulnerabilities affecting its UniFi OS platform. These severe flaws could allow unauthenticated, remote...",
-      "pub_date": "Fri, 22 May 2026 17:58:17 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/UniFi-OS-Vulnerabilities-Privilege-Escalation.webp"
+      "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
+      "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities (KEV) catalog, base...",
+      "pub_date": "Sat, 23 May 2026 12:53:48 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKqQ4Uk8lGWwF7f6lrmP6dRHkEmQTJsqFs8xvJ5256xUcHTeWMNVMkPguALNqLPpJWneU9XWIEzi4jSUVTiS2In1QMSl7NEjNDB99yHlGeCjw4OAQ3Lx8jhE5l9RUGMmth_ecUC1GcgierrFk8XKREHXC73mQn3w3jFcqjvJL1UZpPJPP62Uv-IpfBafRI/s1600/cisa-drupal.jpg"
     },
     {
       "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
@@ -90,17 +34,9 @@
       "image_url": ""
     },
     {
-      "title": "LiteSpeed cPanel Plugin 0-Day Exploited in the wild to Gain Server Root Access",
-      "link": "https://cybersecuritynews.com/litespeed-cpanel-plugin-0-day-exploited/",
-      "description": "LiteSpeed has disclosed and patched a critical 0‑day privilege escalation flaw in its user-end cPanel plugin that is already being actively exploited to gain root access on Linux hosting servers....",
-      "pub_date": "Fri, 22 May 2026 17:16:57 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/LiteSpeed-cPanel-Plugin-0-Day-Exploited.webp"
-    },
-    {
       "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
       "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-      "description": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151Ukraine's National Security and Defense Council) has been observed using lures related to Prometheus, a Ukrainian onli...",
+      "description": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government orga...",
       "pub_date": "Fri, 22 May 2026 21:50:32 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNDmjcnVzVIqFFB-CQU7L6G8XVTifkZGmIMcPrui1EoffwwvtPXCrjKhRtIfxYsfPb5OUON4KQ1MVRosbP1BgCeFpqIIWRbgv34naUxEUTzyGRsPB6fY2gJJa5AXgT085SLFuc8ykNinXhnnpQzGAT2Kw1YwNe05vxSxlb6EVTu8_CoDws3QwR_SCk7dXm/s1600/ukuk.jpg"
@@ -322,28 +258,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ64wgVqZTQx208NgY0sBvUUQcR5mb-G4ENkfw4PEX9KlJJxEI_uUKQvPG0rReXB4chZ3wXrvNSR1QsrK525DDHkzY9X3nQYduh36qKTyC-k4EfixFeOU7YR1mRIw8ZJL-oYN8k_wwBid2GU8NYJtCqEFLOSzomuu-Xx7yA3Djim0nq79RyoZJs6HGga_H/s1600/github-hacked.jpg"
     },
     {
-      "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
-      "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
-      "description": "Drupal has released security updates for a \"highly critical\" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or in...",
-      "pub_date": "Thu, 21 May 2026 09:14:11 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyhKX1WKEWbBPd4sElCP9BB26eorxZX1Lo25Mcu-A5bfBUuWT63SQ-Hyycv1YPSlvVeZPfLSEbb8mQnuPvf0KEDm8mYTtCLoYZuMG6A8maidLefE12_3Plum0keZ-mbAS4dGN-x7Oj0NWOmoeqp6_PEK0fqpnZwz8ZFV-NhyFl78WS4Nck76yAbfgWRpK7/s1600/drupal-flaw.jpg"
-    },
-    {
       "title": "Investigating unauthorized access to GitHub-owned repositories",
       "link": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
       "description": "If any impact is discovered, customers will be notified via established incident response and notification channels. The post Investigating unauthorized access to GitHub-owned repositories appeared...",
       "pub_date": "Wed, 20 May 2026 21:07:38 +0000",
       "source": "GitHub Security",
       "image_url": ""
-    },
-    {
-      "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
-      "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
-      "description": "Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents.  RAMPART, short for Risk Asse...",
-      "pub_date": "Wed, 20 May 2026 22:36:54 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheh8SBZDUM83ug6w9EopUahk6CPc27TOD5qpmZWVC8hDMYM-8wdgTLXt1KHv_66Q061_5gm3crZszZf-UvSWWZKb6Aax7BxJ5gzPEyfQTp9JPEcNUmLZnEBD3YuFHoqCU4stvSdSVON7hFJq4ZYb4Rdq1vyOK0VUURDjUpCcEP9_SN5xkQckqwaFS_-dQz/s1600/mss.jpg"
     },
     {
       "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
