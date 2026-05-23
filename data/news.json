@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-05-23T16:55:57Z",
+  "last_updated": "2026-05-23T17:56:39Z",
   "articles": [
+    {
+      "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
+      "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+      "description": "GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming public...",
+      "pub_date": "Sat, 23 May 2026 22:05:10 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4rnMZgOYbsYr65UN9AZ3oFzcAwqXSYqgRfjUGpeaQeyP-0OAaqJ9aceXPAiujRKwyGQMa_4ShcSvtOWPb9T3qpqF2LATAw2U4iA7IkU9ok0alDbzN_WYJeaZ1SrF0-vyRrEHGedMEcCeP2otYYqplHmqEBda1R_MePbWgEpt-b-GB_RhxJLDC1pJFV0S0/s1600/npm-security.png"
+    },
+    {
+      "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
+      "link": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
+      "description": "A new \"coordinated\" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL.  \"Although th...",
+      "pub_date": "Sat, 23 May 2026 21:37:51 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ5LyRYJIkEVUSrrBV-_qvrXIKC-B4h0JAxyV4IalzuiEzXi6KeCnZNTUWIIld3oeC5kDx85xppqYm9tG_UB3_Sss9WqH2bYsOVxkB3PhjUk_cQrdyvr6JKsYgn35_sESYYsLC_OuKN9_2korX__RfHwkecLX_BGk7aajnm3sfNqbpV4Pl55B1fpSBpbOA/s1600/packagist.jpg"
+    },
     {
       "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
       "link": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
@@ -304,22 +320,6 @@
       "pub_date": "Thu, 21 May 2026 07:00:00 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities",
-      "link": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
-      "description": "Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild.  The former, tracked as CVE-2026-41091, is rated 7.8 on ...",
-      "pub_date": "Thu, 21 May 2026 16:25:57 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNxp-fCwFOYcXoyRTmhjpwfvFCjfE36YoU8z-7es2XrOajnfSfpttiB9KMfwqCNbwzHQ85kILhlUwo4DeQFWXFq29J8p_oVAIe-gKCCegmTid4YW_22sK6CQO_TwELXa7Z-RZmvDvHx7N3Vg7y-xm78iSGjzCg2AU3FnHo1Hp7v80JJkBruCc05JVvVwnx/s1600/windows-defender.jpg"
-    },
-    {
-      "title": "When Identity is the Attack Path",
-      "link": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
-      "description": "Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one ...",
-      "pub_date": "Thu, 21 May 2026 16:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv9W2lSuCdHjvqeLUN5WtqUOgCwe2FAyP1Y_z4oUr1LgM1MdOE5A83gkzSOfGjIosfdlfB4SuLbeVbydeuParENW4MH2aWYuWqnB-DeOd7gC3RJnp7wFucmuinh9kiMBI99337kQYcBrlIX-WH3u204eu7FTy5b_gpkXC6ZHupWD3P60yFk4-2DUrTuuc/s1600/xmxm.jpg"
     },
     {
       "title": "ZDI-26-319: Progress Software Kemp LoadMaster addcountry Command Injection Remote Code Execution Vulnerability",
