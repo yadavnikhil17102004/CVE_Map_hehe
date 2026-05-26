@@ -1,6 +1,86 @@
 {
-  "last_updated": "2026-05-26T03:38:36Z",
+  "last_updated": "2026-05-26T07:37:32Z",
   "articles": [
+    {
+      "title": "7-Eleven data breach exposes personal information of 185,000 people",
+      "link": "https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/",
+      "description": "The ShinyHunters extortion gang stole the personal information of over 183,000 people after hacking the systems of convenience store chain giant 7-Eleven in April, according to data breach notifica...",
+      "pub_date": "Tue, 26 May 2026 03:01:12 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
+      "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
+      "description": "A now-patched high-severity security flaw affecting Digital Knowledge KnowledgeDeliver, a Learning Management System (LMS) popular in Japan, was exploited as a zero-day to deliver the Godzilla web ...",
+      "pub_date": "Tue, 26 May 2026 10:49:38 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZKxsveHlyTguEODsRiYVuCPiOkIgyd3imCYdnpwwV2NQ0pw9oPEQoVw-2T98HW0KgZvRqQ_zeZIT-4E3b6WH6hE-fxJeZ9YN2S9T5769SS11QP-Pf8E1kf8kk0mbwyX_sjXTgrqKDzbDivmQRRmB_qGQmTKkB673oTFD-gWDet_ptXihujQMioqvryplT/s1600/KnowledgeDeliver.jpg"
+    },
+    {
+      "title": "New 7-Zip Vulnerabilities Let Attackers Execute Arbitrary Code and Compromise Systems",
+      "link": "https://cybersecuritynews.com/7-zip-vulnerabilities-code-execution/",
+      "description": "A critical heap buffer overflow vulnerability has been disclosed in 7-Zip version 26.00, enabling attackers to achieve arbitrary code execution via a vtable hijack by exploiting a defect in the too...",
+      "pub_date": "Tue, 26 May 2026 04:05:03 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/7-Zip-Vulnerabilities-Code-Execution.webp"
+    },
+    {
+      "title": "Anthropic’s Restricted Claude Mythos Moves Toward Public Release via Claude Code and Security",
+      "link": "https://cybersecuritynews.com/claude-mythos-moves-toward-public/",
+      "description": "Anthropic appears to be loosening its grip on Claude Mythos, the company\u0026#8217;s most powerful and previously restricted AI model, with new signals pointing to a commercially versioned release unde...",
+      "pub_date": "Tue, 26 May 2026 02:29:35 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Claude-Mythos-Moves-Toward-Public.webp"
+    },
+    {
+      "title": "InvisibleFerret Malware Now Ships as .pyd and .so Files to Evade Script Detection",
+      "link": "https://cybersecuritynews.com/invisibleferret-malware-now-ships-as-pyd/",
+      "description": "A North Korea-linked hacker group has quietly upgraded one of its most dangerous tools, making it harder for security software to detect. InvisibleFerret, an information-stealing malware tied to th...",
+      "pub_date": "Mon, 25 May 2026 19:50:53 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/InvisibleFerret-Malware-Now-Ships-as-.pyd-and-.so-Files-to-Evade-Script-Detection.webp"
+    },
+    {
+      "title": "Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts",
+      "link": "https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll/",
+      "description": "A well-known advanced persistent threat group called Cloud Atlas has been caught using a dangerous technique to hijack Windows systems without alerting anyone on the network. The group modifies a c...",
+      "pub_date": "Mon, 25 May 2026 19:48:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Cloud-Atlas-APT-Group-Modifies-termsrv.dll-to-Enable-Multiple-RDP-Sessions-on-Victim-Hosts.webp"
+    },
+    {
+      "title": "Cybercriminals Use Telegram Channels to Sell Verified Bank and Fintech Mule Accounts",
+      "link": "https://cybersecuritynews.com/cybercriminals-use-telegram-channels/",
+      "description": "Cybercriminals are openly selling verified bank accounts, fintech wallets, and cryptocurrency exchange accounts through Telegram channels, turning money laundering into a structured, on-demand crim...",
+      "pub_date": "Mon, 25 May 2026 19:08:16 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Cybercriminals-Use-Telegram-Channels-to-Sell-Verified-Bank-and-Fintech-Mule-Accounts.webp"
+    },
+    {
+      "title": "Hackers Hide Linux Payload Under SSH-Like Filename During Package Installation",
+      "link": "https://cybersecuritynews.com/hackers-hide-linux-payload-under-ssh-like-filename/",
+      "description": "A new supply chain attack campaign is quietly targeting developers through a method most would never think to look for. Hidden inside software packages on GitHub, a malicious script downloads a Lin...",
+      "pub_date": "Mon, 25 May 2026 18:14:12 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Hide-Linux-Payload-Under-SSH-Like-Filename-During-Package-Installation.webp"
+    },
+    {
+      "title": "Russian Hacker Used Jailbroken Gemini to Steal Admin Credentials and Drain Crypto Wallets",
+      "link": "https://cybersecuritynews.com/russian-hacker-used-jailbroken-gemini/",
+      "description": "A solo Russian-speaking threat actor leveraged a jailbroken instance of Google Gemini to run a five-year MAGA-themed influence operation, crack WordPress administrator credentials, and empty at lea...",
+      "pub_date": "Mon, 25 May 2026 17:23:05 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Russian-Hacker-Used-Jailbroken-Gemini.webp"
+    },
+    {
+      "title": "Hackers Abuse Shared CDN Infrastructure to Bypass Domain Reputation Security Controls",
+      "link": "https://cybersecuritynews.com/hackers-abuse-shared-cdn-infrastructure/",
+      "description": "Hackers are actively abusing a flaw in shared Content Delivery Network (CDN) infrastructure to hide malicious traffic behind trusted, high-reputation domains, effectively slipping past the security...",
+      "pub_date": "Mon, 25 May 2026 17:16:15 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-Shared-CDN-Infrastructure-to-Bypass-Domain-Reputation-Security-Controls.webp"
+    },
     {
       "title": "Anthropic’s restricted Claude Mythos model may be coming to Claude Code",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/",
@@ -8,6 +88,22 @@
       "pub_date": "Mon, 25 May 2026 13:07:33 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "KnowledgeDeliver LMS Zero-Day Exploited to Deploy BLUEBEAM Web Shell",
+      "link": "https://cybersecuritynews.com/knowledgedeliver-lms-zero-day-exploited/",
+      "description": "A newly disclosed zero-day vulnerability in the KnowledgeDeliver Learning Management System (LMS) has been actively exploited in the wild to deploy the BLUEBEAM in-memory web shell, according to Ma...",
+      "pub_date": "Mon, 25 May 2026 15:30:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/KnowledgeDeliver-LMS-Zero-Day-Exploited.webp"
+    },
+    {
+      "title": "Iranian APT Uses SEO Poisoning to Deliver Fake SQL Developer Malware Installer",
+      "link": "https://cybersecuritynews.com/iranian-apt-uses-seo-poisoning/",
+      "description": "A well-known Iranian threat group has found a new way to push malware onto people\u0026#8217;s machines. Instead of sending phishing emails, the group built a fake website that impersonated a real datab...",
+      "pub_date": "Mon, 25 May 2026 15:15:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Iranian-APT-Uses-SEO-Poisoning-to-Deliver-Fake-SQL-Developer-Malware-Installer.webp"
     },
     {
       "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
@@ -202,14 +298,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC_sjVeLejyyBZJ0DWW2y9-Z2Jvmrzz9h-5XEIKPFTcJvDj49Jlt-z1FNbSp51K9XcQ8FqC9MBDFPPPdZuzRfjqtYvKNaqT0Qzd61oCHVhNq59IcAVcWV3LvDmKCsX5pHn4nU3LclQPEozMp3XsgYZnVHCZEj89AGkWJpqL1EjCjiqMLnvggZLsgb08MYp/s1600/github-worm.jpg"
     },
     {
-      "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
-      "link": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
-      "description": "1 Introduction  This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was ...",
-      "pub_date": "Fri, 22 May 2026 17:08:12 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUdjbDFZeTbwpdUFibGsmuDSgX_NHbFfTYroqcGYEGB6yvuKR3eUBSHo9XaphMTYmXC3cqmICDOGUjlsBrwwyJOxzkj1Cdh2xZcYxLz1WpHrV9QmloScYivp7jfyynDTiB51MTpsgGffJ9bZgYJeV3VhY6OA32tot8mC08F-g6KpU47zR513SkVqk-hIim/s1600/driver.jpg"
-    },
-    {
       "title": "US and Canada arrest and charge suspected Kimwolf botnet admin",
       "link": "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
       "description": "U.S. and Canadian authorities arrested and charged a Canadian man with operating the KimWolf distributed denial-of-service (DDoS) botnet, which infected nearly two million devices worldwide. [...]",
@@ -230,14 +318,6 @@
       "link": "https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/",
       "description": "Apple revealed that it blocked over $11 billion in fraudulent App Store transactions over the last six years, more than $2.2 billion in potentially fraudulent App Store transactions in 2025 alone. ...",
       "pub_date": "Thu, 21 May 2026 11:11:08 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/",
-      "description": "Modern crypto drainers don't hack wallets. They trick users into approving malicious transactions.  Flare explores how the Lucifer DaaS platform scales wallet theft through phishing and automation....",
-      "pub_date": "Thu, 21 May 2026 10:00:10 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
