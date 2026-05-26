@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-26T17:52:20Z",
+  "last_updated": "2026-05-26T19:58:46Z",
   "articles": [
+    {
+      "title": "Charter confirms data breach after ShinyHunters extortion threat",
+      "link": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/",
+      "description": "U.S. telecommunications giant Charter Communications has confirmed it suffered a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]",
+      "pub_date": "Tue, 26 May 2026 15:46:01 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Multiple Angular Language Service Extension Vulnerabilities Enable RCE Attacks",
       "link": "https://cybersecuritynews.com/angular-extension-vulnerabilities/",
@@ -314,14 +322,6 @@
       "image_url": ""
     },
     {
-      "title": "Drupal: Critical SQL injection flaw now targeted in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
-      "description": "Drupal is warning that hackers are attempting to exploit a \"highly critical\" SQL injection vulnerability announced earlier this week. [...]",
-      "pub_date": "Fri, 22 May 2026 09:14:40 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "ZDI-26-319: Progress Software Kemp LoadMaster addcountry Command Injection Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-319/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is required to exploit this vulnerability. The ZD...",
@@ -522,17 +522,9 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/03/ai-high-level-overview5.excalidraw.png?resize=1024%2C779"
     },
     {
-      "title": "ABB Terra AC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-01",
-      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of ...",
-      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB LVS MConfig",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-06",
-      "description": "View CSAF Summary ABB became aware of an internally discovered vulnerability in the MConfig product versions listed as affected in the advisory. An attacker with access to local networks who succes...",
+      "title": "Eppendorf BioFlo 320",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full access to functionality and data with the bioreactor. The following versions of Eppendorf BioFlo...",
       "pub_date": "Tue, 26 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -546,17 +538,25 @@
       "image_url": ""
     },
     {
-      "title": "Eppendorf BioFlo 320",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full access to functionality and data with the bioreactor. The following versions of Eppendorf BioFlo...",
+      "title": "ABB B\u0026R Automation Runtime DoS Vulnerability in System Diagnostics Manager (SDM)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04",
+      "description": "View CSAF Summary An update is available that resolves a vulnerability identified by B\u0026amp;Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
       "pub_date": "Tue, 26 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "ABB AbilityTM Zenon Remote Transport Vulnerability",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-03",
-      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. The vulnerability enables unauthorized access to the Reboot OS function within the Remo...",
+      "title": "ABB LVS MConfig",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-06",
+      "description": "View CSAF Summary ABB became aware of an internally discovered vulnerability in the MConfig product versions listed as affected in the advisory. An attacker with access to local networks who succes...",
+      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added\u0026nbsp;one\u0026nbsp;new vulnerability\u0026nbsp;to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\u0026nbsp;  CVE-2026-48172\u0026nbsp;LiteSpeed\u0026nbsp;cP...",
       "pub_date": "Tue, 26 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -570,9 +570,17 @@
       "image_url": ""
     },
     {
-      "title": "ABB B\u0026R Automation Runtime DoS Vulnerability in System Diagnostics Manager (SDM)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04",
-      "description": "View CSAF Summary An update is available that resolves a vulnerability identified by B\u0026amp;Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
+      "title": "ABB Terra AC",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-01",
+      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of ...",
+      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB AbilityTM Zenon Remote Transport Vulnerability",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-03",
+      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. The vulnerability enables unauthorized access to the Reboot OS function within the Remo...",
       "pub_date": "Tue, 26 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -630,14 +638,6 @@
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05",
       "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of ...",
       "pub_date": "Thu, 21 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2008-4250 Microsoft Windows Buffer Overflow Vulnerabili...",
-      "pub_date": "Wed, 20 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
