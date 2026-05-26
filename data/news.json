@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-26T14:49:12Z",
+  "last_updated": "2026-05-26T17:52:20Z",
   "articles": [
+    {
+      "title": "Multiple Angular Language Service Extension Vulnerabilities Enable RCE Attacks",
+      "link": "https://cybersecuritynews.com/angular-extension-vulnerabilities/",
+      "description": "A set of high-severity vulnerabilities has been identified in the Angular Language Service Visual Studio Code extension (Angular.ng-template), potentially exposing developers to remote code executi...",
+      "pub_date": "Tue, 26 May 2026 17:30:04 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Multiple-Angular-Language-Service-extension-Vulnerabilities-Enable-RCE-Attacks-.webp"
+    },
+    {
+      "title": "How Tier 1 Can Process Alerts 3x Faster with Threat Intelligence",
+      "link": "https://cybersecuritynews.com/how-tier-1-can-process-alerts-3x-faster-with-threat-intelligence/",
+      "description": "You already know the feeling.The shift starts, and the queue is already full. Somewhere in that pile of hundreds of alerts is the one that actually matters — the lateral movement no one caught, t...",
+      "pub_date": "Tue, 26 May 2026 17:26:16 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifRjhaBS0BvLbAtVO1agnLOW90s5baSy7bIP-DUDPQuWAL1PhtPahD1US8sfY-MH0IvcZwPUSpAMn4zBaAAE2WaU4HHmSDeOeRJJDg19SUsNa0-hXivYoh_cJMsU_wXrOpryaBxuEYVy6XiKugXYH9C3yo7ncFjyR5cJSDI9V3J4T5yh5B5SNSZo2Z7A/s16000/Process%20Tier%201%20Alerts%203x%20Faster.webp?ssl=1"
+    },
+    {
+      "title": "Quasar Linux RAT Targets Developers With Fileless Execution and eBPF Rootkit",
+      "link": "https://cybersecuritynews.com/quasar-linux-rat-targets-developers/",
+      "description": "A newly discovered Linux malware known as Quasar Linux, or QLNX, is actively targeting software developers and DevOps engineers with a level of sophistication rarely seen in Linux-focused threats. ...",
+      "pub_date": "Tue, 26 May 2026 16:49:30 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Quasar-Linux-RAT-Targets-Developers-With-Fileless-Execution-and-eBPF-Rootkit.webp"
+    },
+    {
+      "title": "China-Linked Hackers Target Southeast Asian Edge Routers With Custom Linux Implant",
+      "link": "https://cybersecuritynews.com/china-linked-hackers-target-southeast-asian-edge-routers/",
+      "description": "A sophisticated China-linked hacking group has been caught targeting edge routers across Southeast Asia, deploying a custom-built Linux implant that gives them deep control over network traffic. Th...",
+      "pub_date": "Tue, 26 May 2026 16:08:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/China-Linked-Hackers-Target-Southeast-Asian-Edge-Routers-With-Custom-Linux-Implant.webp"
+    },
+    {
+      "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
+      "link": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
+      "description": "The Iranian hacking group known as MuddyWater has been linked to a new campaign affecting at least nine organizations across nine countries on four continents in the first quarter of 2026.  The act...",
+      "pub_date": "Tue, 26 May 2026 21:18:41 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkb692n4xA8jDUKZCkwPSIXqiyTaEk_bQhrNaZj33tRhusSP40-iwlk5x7iblb9M63WKWVbj8Gm6oPJZY3bm602-qFyLLnRXuCKsl40iAZG_5-ehqlQ4CYaO442hgo4FBKrspLCO4r_ET1U4U3fPCKCYOc7DFuDn_mv7ZzbzH_IC0NAt2HVVSxwIBNOruk/s1600/cyber-espionage.jpg"
+    },
     {
       "title": "How Varonis Atlas integrates Claude Compliance API for AI governance",
       "link": "https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/",
@@ -88,38 +128,6 @@
       "pub_date": "Tue, 26 May 2026 11:47:47 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Domain-Controller-on-Windows-Server-2016-might-fail-if-hostname-is-15-characters-long-.webp"
-    },
-    {
-      "title": "Hackers Use SEO Poisoning to Impersonate Gemini CLI and Claude Code Installers",
-      "link": "https://cybersecuritynews.com/hackers-use-seo-poisoning-to-impersonate-gemini-cli/",
-      "description": "Hackers are targeting software developers by creating fake installation pages for two popular AI coding tools, Gemini CLI and Claude Code. The attackers are using a technique called SEO poisoning t...",
-      "pub_date": "Tue, 26 May 2026 11:16:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-SEO-Poisoning-to-Impersonate-Gemini-CLI-and-Claude-Code-Installers.webp"
-    },
-    {
-      "title": "Critical Memcached SASL Vulnerability Let Attackers Infer Valid Usernames",
-      "link": "https://cybersecuritynews.com/memcached-sasl-vulnerability/",
-      "description": "A newly disclosed security issue in Memcached has raised concerns after developers confirmed a timing side-channel vulnerability in its SASL authentication mechanism that could allow attackers to i...",
-      "pub_date": "Tue, 26 May 2026 10:47:26 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Memcached-SASL-Vulnerability-Let-Attackers-infer-valid-usernames-.webp"
-    },
-    {
-      "title": "Apache CXF LDAP Injection Vulnerability Let Attacker Retrieve Arbitrary Certificates",
-      "link": "https://cybersecuritynews.com/apache-cxf-ldap-injection-vulnerability/",
-      "description": "A newly disclosed vulnerability in Apache CXF, tracked as CVE-2026-44930, is raising concerns among enterprise users relying on its XKMS (XML Key Management Specification) services. The flaw, class...",
-      "pub_date": "Tue, 26 May 2026 10:43:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Apache-CXF-LDAP-injection-vulnerability-Let-Attacker-Retrieve-Arbitrary-certificates-.webp"
-    },
-    {
-      "title": "ConnectWise Automate Vulnerability Let Attackers Bypass Security Checks",
-      "link": "https://cybersecuritynews.com/connectwise-automate-vulnerability/",
-      "description": "ConnectWise has disclosed a high-impact security vulnerability in its Automate platform that could allow attackers to bypass critical security checks and execute malicious code under specific condi...",
-      "pub_date": "Tue, 26 May 2026 10:38:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/ConnectWise-Automate-vulnerability-Let-Attackers-Bypass-security-checks.webp"
     },
     {
       "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
@@ -282,14 +290,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOPcHXcMRS-BJNvy9aeoCz5H2Mmdh6mO6Kl3kM-l216B-3Wc0Iy5wayPkxJ79KtkHx2CGBwDVPMMeuB9E3jQlPXsa-vKqALoAuTwmEwsbH5sK0xs9xb_XWgk4uaGazYAcswrLxdX0QL74k7e85WXfL03rHFQStuxqpJFsJBcAQLOvNXSuX2YNBAScQStvj/s1600/claude-mythos-flaws.jpg"
     },
     {
-      "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
-      "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
-      "description": "Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to  Laravel-Lang to deliver a comprehensive credential-stealin...",
-      "pub_date": "Sat, 23 May 2026 15:21:13 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkqwlAgmL-HrE2pSx8xqfY4-AyYZ59wK4x5AWtnCXSHRoBO1wcYTpWw42Fe6VRoAT77e914MSqZW56fKX95IueHTCrk10XNn2Yxh7CU8iCdX5lzFowGeVkolW-4E3po81w9pFMsaLR_r85abtUv3bwvQMa6pP1BAiSj4DrmapTiYr1twfV61tvGdWJRgs8/s1600/lang-hack.jpg"
-    },
-    {
       "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
       "link": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
       "description": "Financial crime investigators in the Netherlands (FIOD) arrested two men and seized 800 servers linked to a web hosting company that enabled cyberattacks, interference operations, and disinformatio...",
@@ -338,9 +338,9 @@
       "image_url": ""
     },
     {
-      "title": "Investigating unauthorized access to GitHub-owned repositories",
+      "title": "Investigation update: GitHub Enterprise Server signing key rotation",
       "link": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
-      "description": "If any impact is discovered, customers will be notified via established incident response and notification channels. The post Investigating unauthorized access to GitHub-owned repositories appeared...",
+      "description": "GitHub Enterprise Server customers need to take immediate action. The post Investigation update: GitHub Enterprise Server signing key rotation appeared first on The GitHub Blog.",
       "pub_date": "Wed, 20 May 2026 21:07:38 +0000",
       "source": "GitHub Security",
       "image_url": ""
@@ -522,34 +522,66 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/03/ai-high-level-overview5.excalidraw.png?resize=1024%2C779"
     },
     {
+      "title": "ABB Terra AC",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-01",
+      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of ...",
+      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB LVS MConfig",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-06",
+      "description": "View CSAF Summary ABB became aware of an internally discovered vulnerability in the MConfig product versions listed as affected in the advisory. An attacker with access to local networks who succes...",
+      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB Ability Camera Connect",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-05",
+      "description": "View CSAF Summary ABB is aware of public reports of vulnerabilities in a 3rd party component VLC media player Version 2.2.4 which was delivered together with the installation package of Camera Conn...",
+      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Eppendorf BioFlo 320",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full access to functionality and data with the bioreactor. The following versions of Eppendorf BioFlo...",
+      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB AbilityTM Zenon Remote Transport Vulnerability",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-03",
+      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. The vulnerability enables unauthorized access to the Reboot OS function within the Remo...",
+      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB AC500 V2",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-02",
+      "description": "View CSAF Summary ABB became aware of vulnerabilities in AC500 V2 listed as affected in the advisory. An attacker who successfully exploited this vulnerability could access fragments of Modbus tele...",
+      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB B\u0026R Automation Runtime DoS Vulnerability in System Diagnostics Manager (SDM)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04",
+      "description": "View CSAF Summary An update is available that resolves a vulnerability identified by B\u0026amp;Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
+      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-9082 Drupal Core SQL Injection Vulnerability  This typ...",
       "pub_date": "Fri, 22 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB B\u0026R Automation Studio",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-03",
-      "description": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that replaces an outdated third-party component. Although no s...",
-      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB Terra AC Wallbox",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05",
-      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of ...",
-      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB B\u0026R PCs",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-02",
-      "description": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnerability. A network...",
-      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
@@ -570,9 +602,33 @@
       "image_url": ""
     },
     {
+      "title": "ABB B\u0026R Automation Studio",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-03",
+      "description": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that replaces an outdated third-party component. Although no s...",
+      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Hitachi Energy GMS600",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-01",
       "description": "View CSAF Summary Hitachi Energy is aware of the vulnerability, CVE-2022-4304 in the OSS component OpenSSL, that affects the GMS600 versions that are listed below. An attacker successfully exploiti...",
+      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB B\u0026R PCs",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-02",
+      "description": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnerability. A network...",
+      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB Terra AC Wallbox",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05",
+      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of ...",
       "pub_date": "Thu, 21 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -582,62 +638,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2008-4250 Microsoft Windows Buffer Overflow Vulnerabili...",
       "pub_date": "Wed, 20 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens RUGGEDCOM APE1808 Devices",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-02",
-      "description": "View CSAF Summary A buffer overflow vulnerability in the User-ID™ Authentication Portal (aka Captive Portal) service of Palo Alto Networks PAN-OS software allows an unauthenticated attacker to ex...",
-      "pub_date": "Tue, 19 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB CoreSense HM and CoreSense M10",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-01",
-      "description": "View CSAF Summary An update is available that resolves vulnerability in the product versions listed as affected in this advisory. A path traversal vulnerability in these products can allow unauthen...",
-      "pub_date": "Tue, 19 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ScadaBR",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-03",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to perform unauthenticated remote code execution. The following versions of ScadaBR are affected:  ScadaBR...",
-      "pub_date": "Tue, 19 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Kieback \u0026 Peter DDC Building Controllers",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-05",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take control of the victim's browser. The following versions of Kieback \u0026amp; Peter DDC Building Controlle...",
-      "pub_date": "Tue, 19 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ZKTeco CCTV Cameras",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-04",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in information disclosure, including capture of camera account credentials. The following versions of ZKTeco CCTV Camera...",
-      "pub_date": "Tue, 19 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-42897 Microsoft Exchange Server Cross-Site Scripting V...",
-      "pub_date": "Fri, 15 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens gWAP",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01",
-      "description": "View CSAF Summary Siemens gPROMS Web Applications Publisher (gWAP) is affected by a remote code execution vulnerability introduced through a third-party component, namely the Axios HTTP client libr...",
-      "pub_date": "Thu, 14 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
