@@ -1,6 +1,166 @@
 {
-  "last_updated": "2026-05-26T07:37:32Z",
+  "last_updated": "2026-05-26T14:49:12Z",
   "articles": [
+    {
+      "title": "How Varonis Atlas integrates Claude Compliance API for AI governance",
+      "link": "https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/",
+      "description": "AI governance requires visibility into how AI tools interact with enterprise data. Varonis explains how its Atlas platform uses Claude Compliance API data to help monitor usage, investigate risk, a...",
+      "pub_date": "Tue, 26 May 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Defender Now Automatically Isolates Compromised Devices to Stop Ransomware",
+      "link": "https://cybersecuritynews.com/defender-automatically-isolates-hacked-devices/",
+      "description": "Microsoft Defender for Endpoint has introduced automatic device isolation, a proactive containment capability that disconnects compromised workstations from the network the moment a high-confidence...",
+      "pub_date": "Tue, 26 May 2026 13:58:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Defender-Automatically-Isolates-Hacked-Devices.webp"
+    },
+    {
+      "title": "Microsoft SharePoint Server Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/sharepoint-server-rce-vulnerability/",
+      "description": "Microsoft has disclosed a critical security vulnerability in SharePoint Server that could allow authenticated attackers to execute arbitrary code remotely across multiple versions of the platform. ...",
+      "pub_date": "Tue, 26 May 2026 13:33:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/SharePoint-Server-RCE-Vulnerability.webp"
+    },
+    {
+      "title": "NightSpire Ransomware Uses RDP Access and Remote Admin Tools for Stealthy Persistence",
+      "link": "https://cybersecuritynews.com/nightspire-ransomware-uses-rdp-access-and-remote-admin-tools/",
+      "description": "A new ransomware threat is making waves across dozens of industries and countries, using a surprisingly simple but effective approach to break into systems and lock victims out of their own data. N...",
+      "pub_date": "Tue, 26 May 2026 12:29:33 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/unnamed-file.webp"
+    },
+    {
+      "title": "GitHub Down – Authentication Issues Denying Access to Actions ",
+      "link": "https://cybersecuritynews.com/github-down-authentication-issues/",
+      "description": "GitHub experienced a widespread service disruption on May 26, 2026, after authentication failures prevented developers from accessing critical automation services, including GitHub Actions and GitH...",
+      "pub_date": "Tue, 26 May 2026 12:27:09 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GitHub-down-Authentication-Issues-Denying-Access-to-Actions-1-1.webp"
+    },
+    {
+      "title": "Hackers Exploit Ghost CMS CVE-2026-26980 to Poison 700 Websites With ClickFix Malware",
+      "link": "https://cybersecuritynews.com/hackers-exploit-ghost-cms-cve-2026-26980/",
+      "description": "A critical SQL injection flaw in Ghost CMS has been weaponized by at least two threat actor groups to silently poison over 700 websites with ClickFix malware, putting unsuspecting visitors at serio...",
+      "pub_date": "Tue, 26 May 2026 12:24:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Exploit-Ghost-CMS-CVE-2026-26980-to-Poison-700-Websites-With-ClickFix-Malware.webp"
+    },
+    {
+      "title": "Microsoft Defender can now automatically isolate hacked endpoints",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-can-now-automatically-isolate-hacked-endpoints/",
+      "description": "Microsoft is testing a new Defender for Endpoint capability that will automatically isolate compromised endpoints to thwart attackers' attempts to move laterally across the network. [...]",
+      "pub_date": "Tue, 26 May 2026 08:19:43 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Webinar: Too many tools are slowing network incident response",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-too-many-tools-are-slowing-network-incident-response/",
+      "description": "IT teams often need to jump between monitoring dashboards, infrastructure tools, ticketing systems, and communication platforms during network incidents. This webinar explores how automation and AI...",
+      "pub_date": "Tue, 26 May 2026 08:16:24 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
+      "link": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
+      "description": "Every single day, hackers are finding new ways to crash websites and steal data.  But right now, something has changed. Hackers are no longer working alone. They are now using powerful Artificial I...",
+      "pub_date": "Tue, 26 May 2026 17:28:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiphaRoHMD4mkIzApkJZumEOEdIR0c_RxQrvmjv5qM6Kgo8MBnKrIAxicsojC-CdXhcOfRR9t0DxQeyEMXjXtER-bkSqe97zvFr7mfz3HjwA-79JjLWg0IwhZFTulr__kB02fXgX09tOpLWUjqy-fFmQbfvCZG-2uLLAhJpFAFrPo5d9H0PVZHEaSvmZKFE/s1600/ddossss.jpg"
+    },
+    {
+      "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
+      "link": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
+      "description": "Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to b...",
+      "pub_date": "Tue, 26 May 2026 17:19:53 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi34meakbjhvY3-jNVG7Q8tPJ5Xk1a-vtGSeKgfVDApX6pn88G7gYhK2oz34my6QeWHsldmSJuV4o8tlBOmw-9Ul32EJYhC-aFmExZvn6ibinw10_4DhBf6pHmIum2Ha_HggakezqS_uKiOPJzrIdwioMru5Oj74p87z_ZbQt_c-bH8kQl6jEXYycod7Vrw/s1600/sharepoint.png"
+    },
+    {
+      "title": "Windows Server 2016 Domain Controller May Fail with 15-Character Hostname",
+      "link": "https://cybersecuritynews.com/microsoft-domain-controller-hostname-15-characters/",
+      "description": "Windows administrators are facing a disruptive bug in Windows Server 2016 following Microsoft\u0026#8217;s May 12, 2026, security update KB5087537. The update introduced a critical flaw that caused doma...",
+      "pub_date": "Tue, 26 May 2026 11:47:47 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Domain-Controller-on-Windows-Server-2016-might-fail-if-hostname-is-15-characters-long-.webp"
+    },
+    {
+      "title": "Hackers Use SEO Poisoning to Impersonate Gemini CLI and Claude Code Installers",
+      "link": "https://cybersecuritynews.com/hackers-use-seo-poisoning-to-impersonate-gemini-cli/",
+      "description": "Hackers are targeting software developers by creating fake installation pages for two popular AI coding tools, Gemini CLI and Claude Code. The attackers are using a technique called SEO poisoning t...",
+      "pub_date": "Tue, 26 May 2026 11:16:19 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-SEO-Poisoning-to-Impersonate-Gemini-CLI-and-Claude-Code-Installers.webp"
+    },
+    {
+      "title": "Critical Memcached SASL Vulnerability Let Attackers Infer Valid Usernames",
+      "link": "https://cybersecuritynews.com/memcached-sasl-vulnerability/",
+      "description": "A newly disclosed security issue in Memcached has raised concerns after developers confirmed a timing side-channel vulnerability in its SASL authentication mechanism that could allow attackers to i...",
+      "pub_date": "Tue, 26 May 2026 10:47:26 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Critical-Memcached-SASL-Vulnerability-Let-Attackers-infer-valid-usernames-.webp"
+    },
+    {
+      "title": "Apache CXF LDAP Injection Vulnerability Let Attacker Retrieve Arbitrary Certificates",
+      "link": "https://cybersecuritynews.com/apache-cxf-ldap-injection-vulnerability/",
+      "description": "A newly disclosed vulnerability in Apache CXF, tracked as CVE-2026-44930, is raising concerns among enterprise users relying on its XKMS (XML Key Management Specification) services. The flaw, class...",
+      "pub_date": "Tue, 26 May 2026 10:43:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Apache-CXF-LDAP-injection-vulnerability-Let-Attacker-Retrieve-Arbitrary-certificates-.webp"
+    },
+    {
+      "title": "ConnectWise Automate Vulnerability Let Attackers Bypass Security Checks",
+      "link": "https://cybersecuritynews.com/connectwise-automate-vulnerability/",
+      "description": "ConnectWise has disclosed a high-impact security vulnerability in its Automate platform that could allow attackers to bypass critical security checks and execute malicious code under specific condi...",
+      "pub_date": "Tue, 26 May 2026 10:38:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/ConnectWise-Automate-vulnerability-Let-Attackers-Bypass-security-checks.webp"
+    },
+    {
+      "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
+      "link": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
+      "description": "Multi-factor authentication (MFA) was supposed to close a critical gap in identity security. It meant that, even if an attacker possessed the account credentials, they couldn't log in without the s...",
+      "pub_date": "Tue, 26 May 2026 16:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtums9LZoPXx5AzbNIYmdrNPI6vAAWAnYGfW6NzZ4DkICva0wX2GjMPvmYoq4EVuhvWUc6FyLrgJJ0Hvh8w0TBJ4MLkQplbffUwg89oiQxoJhV-93mboD0D2rdkrrhsblZ2tLJv-auc2GBNjIMsg8wGUCYOkZHNDHaQoqhDbLXrFC3-rD3cz0pI12U7rR2/s1600/prompt-1.jpg"
+    },
+    {
+      "title": "CERT-In Recommends 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks",
+      "link": "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
+      "description": "The Indian Computer Emergency Response Team (CERT-In) has issued new guidelines requiring organizations to patch critical security vulnerabilities in internet-exposed systems within 12 hours of bei...",
+      "pub_date": "Tue, 26 May 2026 14:43:02 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9yN2AliOVdy0oCCMNYXnnrLjE6yWRz_eXVGFhiIw9vxnia2BMUxqhMrI8Q23Y2hHcF-hjqbw4aIqJTvO4zDD1k_WlKzEqx_FZ7P45mn8RiQ1UEqNUgqXv4DqrkzyyjjjgjKcPnNjzKHTTX8NIelTf4L_Cbx4XyYK6piDr1oPFfSmtk-59NCbU3cGCQEcQ/s1600/indian-cert.jpg"
+    },
+    {
+      "title": "CISA orders feds to patch actively exploited Drupal vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-drupal-vulnerability/",
+      "description": "CISA has given U.S. government agencies until Wednesday evening to secure their servers against an SQL injection vulnerability in the Drupal content management system (CMS) that it flagged as activ...",
+      "pub_date": "Tue, 26 May 2026 04:46:45 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft: Domain Controller lookup may fail on Windows Server 2016",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-domain-controller-lookup-may-fail-on-windows-server-2016/",
+      "description": "Microsoft has confirmed a new known issue affecting Windows Server 2016 systems that causes domain controller lookups to fail after installing the KB5087537 May 2026 security update. [...]",
+      "pub_date": "Tue, 26 May 2026 03:41:25 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
+      "link": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+      "description": "The Iranian state-sponsored threat actor known as Nimbus Manticore (aka Screening Serpens and UNC1549) has been attributed to a fresh campaign using lures impersonating organizations in the aviatio...",
+      "pub_date": "Tue, 26 May 2026 12:43:05 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL7Xqq7FlHxai3-wKrWcUujSg4cXnMJ_0LiXDaZHaZosFt3sPF1_PwcaqufOoM7q66vakQyKX5-odysTHOhtIG7ESj52Kna0i3OxaOA0sTONuH3NhkmautF8CTeiLBDzHFWjEvIT286ZnhERvK2VsvzxTdqjlEpXsbSELeqVHyr18JodeQZC-qudm2yblS/s1600/iran-hackers.jpg"
+    },
     {
       "title": "7-Eleven data breach exposes personal information of 185,000 people",
       "link": "https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/",
@@ -18,92 +178,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZKxsveHlyTguEODsRiYVuCPiOkIgyd3imCYdnpwwV2NQ0pw9oPEQoVw-2T98HW0KgZvRqQ_zeZIT-4E3b6WH6hE-fxJeZ9YN2S9T5769SS11QP-Pf8E1kf8kk0mbwyX_sjXTgrqKDzbDivmQRRmB_qGQmTKkB673oTFD-gWDet_ptXihujQMioqvryplT/s1600/KnowledgeDeliver.jpg"
     },
     {
-      "title": "New 7-Zip Vulnerabilities Let Attackers Execute Arbitrary Code and Compromise Systems",
-      "link": "https://cybersecuritynews.com/7-zip-vulnerabilities-code-execution/",
-      "description": "A critical heap buffer overflow vulnerability has been disclosed in 7-Zip version 26.00, enabling attackers to achieve arbitrary code execution via a vtable hijack by exploiting a defect in the too...",
-      "pub_date": "Tue, 26 May 2026 04:05:03 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/7-Zip-Vulnerabilities-Code-Execution.webp"
-    },
-    {
-      "title": "Anthropic’s Restricted Claude Mythos Moves Toward Public Release via Claude Code and Security",
-      "link": "https://cybersecuritynews.com/claude-mythos-moves-toward-public/",
-      "description": "Anthropic appears to be loosening its grip on Claude Mythos, the company\u0026#8217;s most powerful and previously restricted AI model, with new signals pointing to a commercially versioned release unde...",
-      "pub_date": "Tue, 26 May 2026 02:29:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Claude-Mythos-Moves-Toward-Public.webp"
-    },
-    {
-      "title": "InvisibleFerret Malware Now Ships as .pyd and .so Files to Evade Script Detection",
-      "link": "https://cybersecuritynews.com/invisibleferret-malware-now-ships-as-pyd/",
-      "description": "A North Korea-linked hacker group has quietly upgraded one of its most dangerous tools, making it harder for security software to detect. InvisibleFerret, an information-stealing malware tied to th...",
-      "pub_date": "Mon, 25 May 2026 19:50:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/InvisibleFerret-Malware-Now-Ships-as-.pyd-and-.so-Files-to-Evade-Script-Detection.webp"
-    },
-    {
-      "title": "Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts",
-      "link": "https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll/",
-      "description": "A well-known advanced persistent threat group called Cloud Atlas has been caught using a dangerous technique to hijack Windows systems without alerting anyone on the network. The group modifies a c...",
-      "pub_date": "Mon, 25 May 2026 19:48:22 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Cloud-Atlas-APT-Group-Modifies-termsrv.dll-to-Enable-Multiple-RDP-Sessions-on-Victim-Hosts.webp"
-    },
-    {
-      "title": "Cybercriminals Use Telegram Channels to Sell Verified Bank and Fintech Mule Accounts",
-      "link": "https://cybersecuritynews.com/cybercriminals-use-telegram-channels/",
-      "description": "Cybercriminals are openly selling verified bank accounts, fintech wallets, and cryptocurrency exchange accounts through Telegram channels, turning money laundering into a structured, on-demand crim...",
-      "pub_date": "Mon, 25 May 2026 19:08:16 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Cybercriminals-Use-Telegram-Channels-to-Sell-Verified-Bank-and-Fintech-Mule-Accounts.webp"
-    },
-    {
-      "title": "Hackers Hide Linux Payload Under SSH-Like Filename During Package Installation",
-      "link": "https://cybersecuritynews.com/hackers-hide-linux-payload-under-ssh-like-filename/",
-      "description": "A new supply chain attack campaign is quietly targeting developers through a method most would never think to look for. Hidden inside software packages on GitHub, a malicious script downloads a Lin...",
-      "pub_date": "Mon, 25 May 2026 18:14:12 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Hide-Linux-Payload-Under-SSH-Like-Filename-During-Package-Installation.webp"
-    },
-    {
-      "title": "Russian Hacker Used Jailbroken Gemini to Steal Admin Credentials and Drain Crypto Wallets",
-      "link": "https://cybersecuritynews.com/russian-hacker-used-jailbroken-gemini/",
-      "description": "A solo Russian-speaking threat actor leveraged a jailbroken instance of Google Gemini to run a five-year MAGA-themed influence operation, crack WordPress administrator credentials, and empty at lea...",
-      "pub_date": "Mon, 25 May 2026 17:23:05 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Russian-Hacker-Used-Jailbroken-Gemini.webp"
-    },
-    {
-      "title": "Hackers Abuse Shared CDN Infrastructure to Bypass Domain Reputation Security Controls",
-      "link": "https://cybersecuritynews.com/hackers-abuse-shared-cdn-infrastructure/",
-      "description": "Hackers are actively abusing a flaw in shared Content Delivery Network (CDN) infrastructure to hide malicious traffic behind trusted, high-reputation domains, effectively slipping past the security...",
-      "pub_date": "Mon, 25 May 2026 17:16:15 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Abuse-Shared-CDN-Infrastructure-to-Bypass-Domain-Reputation-Security-Controls.webp"
-    },
-    {
       "title": "Anthropic’s restricted Claude Mythos model may be coming to Claude Code",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/",
       "description": "Anthropic appears to be preparing for the public rollout of the Mythos model, which was announced in April as a restricted model that poses major security risks to private and public software. [...]",
       "pub_date": "Mon, 25 May 2026 13:07:33 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "KnowledgeDeliver LMS Zero-Day Exploited to Deploy BLUEBEAM Web Shell",
-      "link": "https://cybersecuritynews.com/knowledgedeliver-lms-zero-day-exploited/",
-      "description": "A newly disclosed zero-day vulnerability in the KnowledgeDeliver Learning Management System (LMS) has been actively exploited in the wild to deploy the BLUEBEAM in-memory web shell, according to Ma...",
-      "pub_date": "Mon, 25 May 2026 15:30:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/KnowledgeDeliver-LMS-Zero-Day-Exploited.webp"
-    },
-    {
-      "title": "Iranian APT Uses SEO Poisoning to Deliver Fake SQL Developer Malware Installer",
-      "link": "https://cybersecuritynews.com/iranian-apt-uses-seo-poisoning/",
-      "description": "A well-known Iranian threat group has found a new way to push malware onto people\u0026#8217;s machines. Instead of sending phishing emails, the group built a fake website that impersonated a real datab...",
-      "pub_date": "Mon, 25 May 2026 15:15:56 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Iranian-APT-Uses-SEO-Poisoning-to-Deliver-Fake-SQL-Developer-Malware-Installer.webp"
     },
     {
       "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
@@ -210,44 +290,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkqwlAgmL-HrE2pSx8xqfY4-AyYZ59wK4x5AWtnCXSHRoBO1wcYTpWw42Fe6VRoAT77e914MSqZW56fKX95IueHTCrk10XNn2Yxh7CU8iCdX5lzFowGeVkolW-4E3po81w9pFMsaLR_r85abtUv3bwvQMa6pP1BAiSj4DrmapTiYr1twfV61tvGdWJRgs8/s1600/lang-hack.jpg"
     },
     {
-      "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
-      "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
-      "description": "A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild.  The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates...",
-      "pub_date": "Sat, 23 May 2026 13:05:13 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM0W1UqsbcZ-8IV_n8ov3V24MQ74VaKe3auGFWNunDUfubEBeKEGREuFjC9-i7H_fLfSwFQQ5wqe8bhVWvAUVC_8U5AQg1c1Qbe-M7bSjuWCwcjTRrc2Du7L0Tm-NKO7ErhPUTR7YS6b1vkpmbYS1VaClWUGOvGe4cxv-jHkQFZMXbSDLfBiF7FFwd7Nfe/s1600/lightspeed.png"
-    },
-    {
-      "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
-      "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities (KEV) catalog, base...",
-      "pub_date": "Sat, 23 May 2026 12:53:48 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKqQ4Uk8lGWwF7f6lrmP6dRHkEmQTJsqFs8xvJ5256xUcHTeWMNVMkPguALNqLPpJWneU9XWIEzi4jSUVTiS2In1QMSl7NEjNDB99yHlGeCjw4OAQ3Lx8jhE5l9RUGMmth_ecUC1GcgierrFk8XKREHXC73mQn3w3jFcqjvJL1UZpPJPP62Uv-IpfBafRI/s1600/cisa-drupal.jpg"
-    },
-    {
-      "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
-      "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-      "description": "Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data...",
-      "pub_date": "Fri, 22 May 2026 23:05:02 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8yN-yeHodasj_piRqdUbE1MGyOfiyAzo-x6KZ_V9oilxP_v_kFNoyLVU7oNmG05F5g49pLeMY_jgJtU0mFk9ft_0qi4oLFgTxm0KWBncWw9lq0lVJFdkzshBzjul-2ODkaGNoLbgFUqKXbwKJJiF8nm0E6u7q6hnK_Vzb07XT-iygxE6Ct3bxW7A6s6f8/s1600/firstvpn.jpg"
-    },
-    {
       "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
       "link": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
       "description": "Financial crime investigators in the Netherlands (FIOD) arrested two men and seized 800 servers linked to a web hosting company that enabled cyberattacks, interference operations, and disinformatio...",
       "pub_date": "Fri, 22 May 2026 13:24:52 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
-      "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-      "description": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government orga...",
-      "pub_date": "Fri, 22 May 2026 21:50:32 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNDmjcnVzVIqFFB-CQU7L6G8XVTifkZGmIMcPrui1EoffwwvtPXCrjKhRtIfxYsfPb5OUON4KQ1MVRosbP1BgCeFpqIIWRbgv34naUxEUTzyGRsPB6fY2gJJa5AXgT085SLFuc8ykNinXhnnpQzGAT2Kw1YwNe05vxSxlb6EVTu8_CoDws3QwR_SCk7dXm/s1600/ukuk.jpg"
     },
     {
       "title": "Former US execs plead guilty to aiding tech support scammers",
@@ -270,54 +318,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
       "description": "Drupal is warning that hackers are attempting to exploit a \"highly critical\" SQL injection vulnerability announced earlier this week. [...]",
       "pub_date": "Fri, 22 May 2026 09:14:40 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Why Chargebacks are Just One Piece of the Fraud Puzzle",
-      "link": "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
-      "description": "Fraud losses don't stop at chargebacks. False declines, account takeovers, and abuse also damage revenue and trust. IPQS breaks down why fraud teams need broader visibility into risk and customer i...",
-      "pub_date": "Fri, 22 May 2026 09:09:18 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Ubiquiti patches three max severity UniFi OS vulnerabilities",
-      "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/",
-      "description": "Ubiquiti has released security updates to patch three maximum severity vulnerabilities in UniFi OS that can be exploited by remote attackers without privileges. [...]",
-      "pub_date": "Fri, 22 May 2026 08:00:42 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
-      "link": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
-      "description": "Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window.  \"Using ...",
-      "pub_date": "Fri, 22 May 2026 17:25:24 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC_sjVeLejyyBZJ0DWW2y9-Z2Jvmrzz9h-5XEIKPFTcJvDj49Jlt-z1FNbSp51K9XcQ8FqC9MBDFPPPdZuzRfjqtYvKNaqT0Qzd61oCHVhNq59IcAVcWV3LvDmKCsX5pHn4nU3LclQPEozMp3XsgYZnVHCZEj89AGkWJpqL1EjCjiqMLnvggZLsgb08MYp/s1600/github-worm.jpg"
-    },
-    {
-      "title": "US and Canada arrest and charge suspected Kimwolf botnet admin",
-      "link": "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
-      "description": "U.S. and Canadian authorities arrested and charged a Canadian man with operating the KimWolf distributed denial-of-service (DDoS) botnet, which infected nearly two million devices worldwide. [...]",
-      "pub_date": "Fri, 22 May 2026 05:01:20 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Google accidentally exposed details of unfixed Chromium flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
-      "description": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the devi...",
-      "pub_date": "Thu, 21 May 2026 14:13:50 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Apple blocked over $11 billion in App Store fraud in 6 years",
-      "link": "https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/",
-      "description": "Apple revealed that it blocked over $11 billion in fraudulent App Store transactions over the last six years, more than $2.2 billion in potentially fraudulent App Store transactions in 2025 alone. ...",
-      "pub_date": "Thu, 21 May 2026 11:11:08 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
