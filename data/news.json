@@ -1,6 +1,110 @@
 {
-  "last_updated": "2026-05-28T14:30:57Z",
+  "last_updated": "2026-05-28T17:57:54Z",
   "articles": [
+    {
+      "title": "VaultJacking Attack Steals Entire Google Password Manager Vault With One Captured PIN",
+      "link": "https://cybersecuritynews.com/vaultjacking-attack-steals-entire-google-password-manager/",
+      "description": "A new phishing technique called VaultJacking has emerged, and it is raising serious alarms across the cybersecurity community. With just a single captured 6-digit PIN, an attacker can walk away wit...",
+      "pub_date": "Thu, 28 May 2026 17:38:51 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/VaultJacking-Attack-Steals-Entire-Google-Password-Manager-Vault-With-One-Captured-PIN.webp"
+    },
+    {
+      "title": "AI-Generated npm Malware Accidentally Exposes Threat Actor’s Private GitHub Token",
+      "link": "https://cybersecuritynews.com/ai-generated-npm-malware/",
+      "description": "A new wave of AI-generated malware is hitting the open-source software ecosystem, and this time, the attacker made a critical mistake that gave researchers a rare inside look at their operation. A ...",
+      "pub_date": "Thu, 28 May 2026 17:37:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/AI-Generated-npm-Malware-Accidentally-Exposes-Threat-Actors-Private-GitHub-Token.webp"
+    },
+    {
+      "title": "Claude Opus 4.8 Released With Ability to Work as an Experienced Engineer",
+      "link": "https://cybersecuritynews.com/claude-opus-4-8-released/",
+      "description": "Anthropic has launched Claude Opus 4.8, the latest iteration of its flagship AI model, bringing sharper judgment, improved self-awareness about its own progress, and significantly extended autonomo...",
+      "pub_date": "Thu, 28 May 2026 17:31:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Claude-Opus-4.8-Released.webp"
+    },
+    {
+      "title": "Hackers exploit FortiClient EMS flaw to push infostealer malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/",
+      "description": "Hackers are exploiting an authentication bypass vulnerability (CVE-2026-35616) in FortiClient Enterprise Management Server (EMS) to deliver an undocumented credential stealer called EKZ. [...]",
+      "pub_date": "Thu, 28 May 2026 13:25:43 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
+      "link": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
+      "description": "A critical security vulnerability has been disclosed in Gogs, a popular open-source self-hosted Git service, that allows an authenticated user to execute arbitrary code under certain conditions.  T...",
+      "pub_date": "Thu, 28 May 2026 22:54:44 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaqRd_3DDSSASg_YzvuUEqv3elhvFWSjk56bXPoqJeNIWVo-K0giuJ3TNEXV-aYpnuVfOv00_VM428vIFVaMiuZzfL0dQdQvz0_xMNFq4CtrppgTZu5dupV0asq1wZjPW3FoMgUnyGMR_RgBpWT2oTnJFuhaldo3Cd3eNP-MOlDNhP9Uu2KDRiDpYHdoeq/s1600/exploit-meta.jpg"
+    },
+    {
+      "title": "New Gogs 0-Day Vulnerability Lets Attackers Run Malicious Code on the Server Remotely",
+      "link": "https://cybersecuritynews.com/gogs-0-day-vulnerability/",
+      "description": "A critical zero-day vulnerability has been discovered in Gogs, one of the most widely deployed self-hosted Git platforms in the world, allowing any authenticated user to execute arbitrary commands ...",
+      "pub_date": "Thu, 28 May 2026 17:06:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Gogs-0-Day-Vulnerability.webp"
+    },
+    {
+      "title": "Critical OpenVPN Connect for macOS Vulnerability Let Attackers Execute Arbitrary Commands",
+      "link": "https://cybersecuritynews.com/openvpn-connect-for-macos-vulnerability/",
+      "description": "A critical privilege escalation vulnerability has been discovered in OpenVPN Connect for macOS, enabling local attackers to execute arbitrary commands with elevated privileges through the applicati...",
+      "pub_date": "Thu, 28 May 2026 15:39:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/OpenVPN-Connect-for-macOS-Vulnerability.webp"
+    },
+    {
+      "title": "Hackers Deploy VIP Keylogger Through Phishing Emails Masquerading as Business Documents",
+      "link": "https://cybersecuritynews.com/hackers-deploy-vip-keylogger-through-phishing-emails/",
+      "description": "Hackers are using deceptive phishing emails dressed up as routine business documents to spread a dangerous malware strain known as VIP Keylogger. The campaign has been active for months, with attac...",
+      "pub_date": "Thu, 28 May 2026 15:26:14 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Deploy-VIP-Keylogger-Through-Phishing-Emails-Masquerading-as-Business-Documents.webp"
+    },
+    {
+      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
+      "link": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
+      "description": "Threat actors are continuing to exploit a critical, now-patched security flaw impacting FortiClient Endpoint Management Server (EMS) deployments to deliver credential-stealing malware.  \"The campai...",
+      "pub_date": "Thu, 28 May 2026 20:56:04 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLo8Mb8UwcN2lkMlnUi-l3a8DXNNL2_dW0VcATt8d34xxXX-kQN8HMolrIuw8ty0WZmpURI7hyphenhyphenDrvCAiKAarvJU1__tzxaKMxX3U4ZJbuwydE2zGoyFmutxDtid410NLBq_wi7fv_QFMdmkHGqRPwVcLY8xfeJ1PSb46o0RpCA4ubLLl8_LlLg-Id7ceU8/s1600/fort.jpg"
+    },
+    {
+      "title": "ClearFake Uses BSC Testnet Smart Contracts for Takedown-Resistant Command and Control",
+      "link": "https://cybersecuritynews.com/clearfake-uses-bsc-testnet-smart-contracts/",
+      "description": "A new and dangerously clever malware campaign called ClearFake has been caught using blockchain smart contracts to run its operations, making it nearly impossible for security teams to shut it down...",
+      "pub_date": "Thu, 28 May 2026 15:23:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/ClearFake-Uses-BSC-Testnet-Smart-Contracts-for-Takedown-Resistant-Command-and-Control.webp"
+    },
+    {
+      "title": "New Linux CIFSwitch Kernel Vulnerability Allows Attackers to Gain Root Access",
+      "link": "https://cybersecuritynews.com/linux-cifswitch-kernel-vulnerability/",
+      "description": "A newly disclosed Linux local privilege escalation (LPE) vulnerability dubbed \u0026#8220;CIFSwitch\u0026#8221; enables low-privileged users to gain root access by abusing a logic flaw between the Linux kern...",
+      "pub_date": "Thu, 28 May 2026 15:18:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Linux-CIFSwitch-Kernel-Vulnerability-Allows-Low-privileged-Users-to-Gain-root-Access.webp"
+    },
+    {
+      "title": "Malicious Websites Track Visitors by Analyzing their SSD Timing Activity",
+      "link": "https://cybersecuritynews.com/malicious-websites-track-ssd-timing/",
+      "description": "Malicious websites can track visitors by measuring tiny changes in SSD access times, turning normal browser activity into a privacy leak. Researchers showed that a JavaScript attack can use the bro...",
+      "pub_date": "Thu, 28 May 2026 15:07:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-Websites-Track-Visitors-by-Analyzing-their-SSD-Timing-Activity.webp"
+    },
+    {
+      "title": "New Zapocalypse Attack Chain Enables Full Zapier Account Takeover",
+      "link": "https://cybersecuritynews.com/zapocalypse-attack-chain-zapier/",
+      "description": "A newly disclosed exploit chain dubbed Zapocalypse shows how a low-privilege code-execution feature inside Zapier could have been chained into a supply-chain path with platform-wide account takeove...",
+      "pub_date": "Thu, 28 May 2026 14:57:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Zapocalypse-Attack-Zapier-Account.webp"
+    },
     {
       "title": "New Gogs zero-day flaw lets hackers get remote code execution",
       "link": "https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/",
@@ -80,6 +184,62 @@
       "pub_date": "Thu, 28 May 2026 13:24:48 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyRUE7TEns58pfRrpwegQH6tBvGORrdclhPKKI7B7l9eNy5bMA1_ra6HAyGPUC_NKD8ZTnpVt7z88AII1Sd8QpA-sqZ7ONKZGwEVFB0u8gNvsBVRtfJuTsvWM4q6V_9MXVj7fX4ug_7mel-x1i2l7qm1GY94gVA1AbyCrvRQA8JcaDmhF1i_tM22NF_RPX/s1600/crypto-hacks.jpg"
+    },
+    {
+      "title": "ZDI-26-326: TrendAI Vision One Security Agent Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-326/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
+      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-325: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-325/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
+      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-324: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-324/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
+      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-323: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-323/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
+      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-322: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-322/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
+      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-321: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-321/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
+      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-320: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-320/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
+      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "GPU mining malware spreads via SEO poisoning, AI chatbots",
@@ -202,14 +362,6 @@
       "image_url": ""
     },
     {
-      "title": "Charter confirms data breach after ShinyHunters extortion threat",
-      "link": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/",
-      "description": "U.S. telecommunications giant Charter Communications has confirmed it suffered a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]",
-      "pub_date": "Tue, 26 May 2026 15:46:01 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
       "link": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
       "description": "The Iranian hacking group known as MuddyWater has been linked to a new campaign affecting at least nine organizations across nine countries on four continents in the first quarter of 2026.  The act...",
@@ -224,22 +376,6 @@
       "pub_date": "Tue, 26 May 2026 17:28:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiphaRoHMD4mkIzApkJZumEOEdIR0c_RxQrvmjv5qM6Kgo8MBnKrIAxicsojC-CdXhcOfRR9t0DxQeyEMXjXtER-bkSqe97zvFr7mfz3HjwA-79JjLWg0IwhZFTulr__kB02fXgX09tOpLWUjqy-fFmQbfvCZG-2uLLAhJpFAFrPo5d9H0PVZHEaSvmZKFE/s1600/ddossss.jpg"
-    },
-    {
-      "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
-      "link": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
-      "description": "Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to b...",
-      "pub_date": "Tue, 26 May 2026 17:19:53 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi34meakbjhvY3-jNVG7Q8tPJ5Xk1a-vtGSeKgfVDApX6pn88G7gYhK2oz34my6QeWHsldmSJuV4o8tlBOmw-9Ul32EJYhC-aFmExZvn6ibinw10_4DhBf6pHmIum2Ha_HggakezqS_uKiOPJzrIdwioMru5Oj74p87z_ZbQt_c-bH8kQl6jEXYycod7Vrw/s1600/sharepoint.png"
-    },
-    {
-      "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
-      "link": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
-      "description": "Multi-factor authentication (MFA) was supposed to close a critical gap in identity security. It meant that, even if an attacker possessed the account credentials, they couldn't log in without the s...",
-      "pub_date": "Tue, 26 May 2026 16:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtums9LZoPXx5AzbNIYmdrNPI6vAAWAnYGfW6NzZ4DkICva0wX2GjMPvmYoq4EVuhvWUc6FyLrgJJ0Hvh8w0TBJ4MLkQplbffUwg89oiQxoJhV-93mboD0D2rdkrrhsblZ2tLJv-auc2GBNjIMsg8wGUCYOkZHNDHaQoqhDbLXrFC3-rD3cz0pI12U7rR2/s1600/prompt-1.jpg"
     },
     {
       "title": "ZDI-26-319: Progress Software Kemp LoadMaster addcountry Command Injection Remote Code Execution Vulnerability",
@@ -322,67 +458,11 @@
       "image_url": ""
     },
     {
-      "title": "ZDI-26-311: Apple macOS CoreSymbolication Out-Of-Bounds Read Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-311/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the CoreSymbolication framework is required to exploit this v...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-310: Microsoft Windows splwow64 Race Condition Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-310/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the targ...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-309: Microsoft Windows Message Queueing Double Free Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-309/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows that run Message Queueing. An attacker must first obtain the ability to execute low-p...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-308: Ivanti Endpoint Manager RemoteControlAuth Exposed Dangerous Method Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-308/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Ivanti Endpoint Manager. Although authentication is required to exploit this vulnerability,...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-307: FlowiseAI Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-307/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS ...",
-      "pub_date": "Fri, 01 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
       "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
       "link": "https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/",
       "description": "How we validated, fixed, and investigated a critical vulnerability in under two hours, and confirmed no exploitation. The post Securing the git push pipeline: Responding to a critical remote code e...",
       "pub_date": "Tue, 28 Apr 2026 15:30:00 +0000",
       "source": "GitHub Security",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-306: Oracle VirtualBox SoundBlaster 16 Race Condition Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-306/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the tar...",
-      "pub_date": "Tue, 28 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-305: (0Day) OpenAI Codex Sandbox Escape Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-305/",
-      "description": "This vulnerability allows remote attackers to bypass the sandbox on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must use Co...",
-      "pub_date": "Tue, 28 Apr 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
@@ -442,6 +522,78 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/03/ai-high-level-overview5.excalidraw.png?resize=1024%2C779"
     },
     {
+      "title": "ABB EIBPORT",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-03",
+      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. A firmware update is available that resolves these privately reported vulnerabilities i...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Schnieider Electric EcoStruxure Machine Expert HVAC",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07",
+      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcostruxureTM Machine Expert HVAC product. The [EcostruxureTM Machine Expert HVAC](https://www.se.com/ww/en/download/document...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker gaining administrator access to the device. The following versions of Jinan USR IOT Technology Limited (P...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB Busch-Welcome 2 Wire Door Opener Actuator",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-04",
+      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could gain physical, unauthor...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Fourth Frontier Frontier X Mobile Application, Frontier X2",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-148-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read and write arbitrary handle values and change clinical readings, which could result in taking control ...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "CP Plus 8 Ch. Network Video Recorder",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability allows an attacker's malicious script to execute in the browser of any authenticated user or administrator who accesses the affected ...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "XCharge C6",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-08",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain administrator rights or execute code on the affected device. The following versions of XCharge C6 ...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "KMW CCTV Security Cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-06",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability may grant full unauthorized access to camera feeds and settings. The following versions of KMW CCTV Security Cameras are affected:  K...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "MacGregor Voyage Data Recorder (VDR) G4e",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker gaining administrator access to the device. The following versions of MacGregor Voyage Data Recorder (...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added\u0026nbsp;three\u0026nbsp;new vulnerabilities\u0026nbsp;to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-8398\u0026nbsp;Daemon Tools Lite Em...",
@@ -486,78 +638,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added\u0026nbsp;one\u0026nbsp;new vulnerability\u0026nbsp;to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\u0026nbsp;  CVE-2026-48172\u0026nbsp;LiteSpeed\u0026nbsp;cP...",
       "pub_date": "Tue, 26 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB AC500 V2",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-02",
-      "description": "View CSAF Summary ABB became aware of vulnerabilities in AC500 V2 listed as affected in the advisory. An attacker who successfully exploited this vulnerability could access fragments of Modbus tele...",
-      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB Terra AC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-01",
-      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of ...",
-      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB AbilityTM Zenon Remote Transport Vulnerability",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-03",
-      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. The vulnerability enables unauthorized access to the Reboot OS function within the Remo...",
-      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-9082 Drupal Core SQL Injection Vulnerability  This typ...",
-      "pub_date": "Fri, 22 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB B\u0026R Automation Runtime",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-04",
-      "description": "View CSAF Summary An update is available that resolves a vulnerability identified by B\u0026amp;Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
-      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2025-34291 Langflow Origin Validation Error Vulnerability...",
-      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB B\u0026R Automation Studio",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-03",
-      "description": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that replaces an outdated third-party component. Although no s...",
-      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Hitachi Energy GMS600",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-01",
-      "description": "View CSAF Summary Hitachi Energy is aware of the vulnerability, CVE-2022-4304 in the OSS component OpenSSL, that affects the GMS600 versions that are listed below. An attacker successfully exploiti...",
-      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB B\u0026R PCs",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-02",
-      "description": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnerability. A network...",
-      "pub_date": "Thu, 21 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
