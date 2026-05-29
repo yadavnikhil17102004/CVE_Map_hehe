@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-05-29T12:42:54Z",
+  "last_updated": "2026-05-29T16:37:45Z",
   "articles": [
+    {
+      "title": "Ransomware Uses SYSTEM Scheduled Task to Encrypt Local Drives With Elevated Privileges",
+      "link": "https://cybersecuritynews.com/ransomware-uses-system-scheduled-task/",
+      "description": "A newly analyzed ransomware strain called The Gentlemen is raising serious alarms across the cybersecurity community. Built in the Go programming language and obfuscated with a tool called Garble, ...",
+      "pub_date": "Fri, 29 May 2026 15:59:05 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Ransomware-Uses-SYSTEM-Scheduled-Task-to-Encrypt-Local-Drives-With-Elevated-Privileges.webp"
+    },
+    {
+      "title": "JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware",
+      "link": "https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering/",
+      "description": "A new threat actor tracked as JINX-0164 has been running calculated attacks against cryptocurrency organizations, using LinkedIn profiles to lure developers into downloading custom macOS malware. A...",
+      "pub_date": "Fri, 29 May 2026 15:45:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/JINX-0164-Threat-Actor-Using-LinkedIn-Social-Engineering-to-Deploy-Custom-macOS-Malware.webp"
+    },
+    {
+      "title": "Attackers Abuse Trusted Developer Tooling to Exfiltrate Source Code and Secrets",
+      "link": "https://cybersecuritynews.com/attackers-abuse-trusted-developer-tooling/",
+      "description": "A wave of sophisticated supply chain attacks has put millions of software developers on high alert, with threat actors turning everyday developer tools into weapons for stealing credentials, cloud ...",
+      "pub_date": "Fri, 29 May 2026 15:34:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Attackers-Abuse-Trusted-Developer-Tooling-to-Exfiltrate-Source-Code-and-Secrets.webp"
+    },
+    {
+      "title": "From 200 CVEs to Actionable Fixes – DockSec Brings AI to Container Security",
+      "link": "https://cybersecuritynews.com/docksec-ai-container-security/",
+      "description": "Ask any developer who has run a container image scan what happens next, and you will hear the same story. The scanner returns 200 CVEs. Most are noise. A handful are real. The report gets closed, t...",
+      "pub_date": "Fri, 29 May 2026 14:50:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/DockSec-AI-container-security.webp"
+    },
+    {
+      "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
+      "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
+      "description": "An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a publicly-accessi...",
+      "pub_date": "Fri, 29 May 2026 20:09:56 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi20dgnD8cZh6NCcPM9Xa3fzLgNygU4O6AmBUmN1w6KwsDMJ8_jkpZPk77r8phf3MX-cXOlVxke-ypIuj2xh3AB3dy1HSuIa4YYFlgH8Odm1jCRVESBGqxgiDoRbQEG4L_QrKOoH8TSvLLKZxnBfPEemz4kaqWto4t_3cZCmWW44NX-Q1aWakBWVDhAza7T/s1600/marimo.png"
+    },
+    {
+      "title": "Malicious NuGet Package as Sicoob SDK Exfiltrates Banking Passwords",
+      "link": "https://cybersecuritynews.com/malicious-nuget-sicoob-sdk/",
+      "description": "A newly discovered malicious NuGet package masquerading as an official Sicoob software development kit (SDK) has been caught exfiltrating highly sensitive banking credentials, raising serious conce...",
+      "pub_date": "Fri, 29 May 2026 14:37:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-NuGet-Package-as-Sicoob-SDK-Exfiltrate-Banking-Passwords.webp"
+    },
+    {
+      "title": "From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market",
+      "link": "https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/",
+      "description": "DDoS attacks are increasingly being sold like subscription services, complete with pricing tiers, support, and reseller programs. Flare explores how the DDoS-as-a-Service market has evolved from sc...",
+      "pub_date": "Fri, 29 May 2026 10:32:02 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Dutch govt disrupts malware botnet with 17 million infected devices",
+      "link": "https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/",
+      "description": "Dutch authorities have taken offline a massive botnet of 17 million devices and seized more than 200 servers at a local provider that supported the operation. [...]",
+      "pub_date": "Fri, 29 May 2026 10:26:36 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Typosquatted npm Packages Steal Cloud and CI/CD Secrets From Developer Systems",
+      "link": "https://cybersecuritynews.com/typosquatted-npm-packages-steal-cloud-and-ci-cd-secrets/",
+      "description": "A new wave of malicious software packages has been caught stealing cloud credentials and CI/CD pipeline secrets from developer machines, raising fresh alarms about the security of the open-source s...",
+      "pub_date": "Fri, 29 May 2026 14:23:05 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Typosquatted-npm-Packages-Steal-Cloud-and-CI-CD-Secrets-From-Developer-Systems.webp"
+    },
+    {
+      "title": "New ChatGPT Vulnerability Lets Attackers Turn Web Pages Into Phishing Payloads",
+      "link": "https://cybersecuritynews.com/chatgpt-vulnerability-chatgphish-attack/",
+      "description": "A browser-based prompt injection technique that transforms any web page into a phishing delivery surface by exploiting ChatGPT\u0026#8217;s page summarization feature, rendering attacker-controlled link...",
+      "pub_date": "Fri, 29 May 2026 14:18:09 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/ChatGPT-Vulnerability-ChatGPhish-Attack.webp"
+    },
+    {
+      "title": "Hackers Use Fake Video Player Updates to Deploy Miner and RAT Malware",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-video-player-updates/",
+      "description": "Hackers are using a clever trick to get people to install dangerous malware, and most victims have no idea it is happening. By visiting pirated movie and TV show streaming sites, users are met with...",
+      "pub_date": "Fri, 29 May 2026 14:07:45 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-Fake-Video-Player-Updates-to-Deploy-Miner-and-RAT-Malware.webp"
+    },
     {
       "title": "Google Chrome adds session cookie theft protection for all users",
       "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
@@ -16,6 +104,22 @@
       "pub_date": "Fri, 29 May 2026 17:01:59 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzJ8u1-LKZwf1FFeVF2K2D2pupLFnsW_zsTumbLXt6eRSNY5NYPuBVxyacqbH-WZRBmTpGmnB0pulEcGex16O8u6812DC7RjtV5fBtVmRG55MdKOdmX2B5m1AtcgfZLCGnH_wNVxrdpfvRR70-MjsT7fzuS8wasEGhnDKmavU02xE6HjMg6FLpv3dvSFi7/s1600/russia-ai-cyberattacks.jpg"
+    },
+    {
+      "title": "Hackers Use Fake Adobe Document Cloud Pages to Deliver ScreenConnect Malware",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-adobe-document-cloud-pages/",
+      "description": "A sophisticated phishing campaign is actively targeting financial organizations by using fake Adobe Document Cloud pages to silently install ScreenConnect remote access malware on victim machines. ...",
+      "pub_date": "Fri, 29 May 2026 11:28:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-Fake-Adobe-Document-Cloud-Pages-to-Deliver-ScreenConnect-Malware.webp"
+    },
+    {
+      "title": "Legitimate-Looking Codex Remote UI Steals OpenAI Codex Authentication Tokens",
+      "link": "https://cybersecuritynews.com/legitimate-looking-codex-remote-ui/",
+      "description": "A polished, fully functional npm package has been caught secretly stealing OpenAI Codex authentication tokens from developers who trusted it. The package, named codexui-android, presented itself as...",
+      "pub_date": "Fri, 29 May 2026 11:27:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Legitimate-Looking-Codex-Remote-UI-Steals-OpenAI-Codex-Authentication-Tokens.webp"
     },
     {
       "title": "Man sent to prison for selling data of 7 millions elderly Americans",
@@ -178,22 +282,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXxB1vzDMiskZRwzcQojV8rDdalRXWpzXieLES5nUD0bXfnbXrUwsV00RsMmRFdd-Zd3up_9wAGsvfzTDmWi4MLp70XlajlgakXsuCfdWmOe0uQuy0yIwxC4-fevqlb0Rs3AR_eqInGT1scQfa5oiGqY-TRmswOwkY4Zg2ikCYxlsBF2FQTEGA216b_NF8/s1600/apples.jpg"
     },
     {
-      "title": "Carnival Cruise confirms data breach affecting nearly 6 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/",
-      "description": "Carnival Corporation, the world's largest cruise line operator, has confirmed a data breach affecting nearly 6 million people claimed by the ShinyHunters extortion gang in April 2026. [...]",
-      "pub_date": "Thu, 28 May 2026 06:49:27 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Sextortionist sentenced to 33 years for targeting 145 children",
-      "link": "https://www.bleepingcomputer.com/news/security/sextortionist-sentenced-to-33-years-for-targeting-145-children/",
-      "description": "A Canadian man was sentenced to 33 years in prison after pleading guilty to targeting more than 145 children across the United States, some as young as 6 years old, in an eight-year-long sextortion...",
-      "pub_date": "Thu, 28 May 2026 05:25:59 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
       "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
       "description": "A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-themed social enginee...",
@@ -288,14 +376,6 @@
       "pub_date": "Wed, 27 May 2026 17:18:37 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZssmt_sAQM7Hi8SpkOQnmc9tKVqlTyjMclO_ptRmn45_cDzz3KANdtBi4xzzuf7neoeylx39D4BZN_Wys34O8lCM9KP8qytxEq_QT4tQ_FTHBeRV75qVTNfzQg7UGa0IJGO3tuJBZGiDjNfB401rG6hPvu78_5H_Sp8UeYk9c74KlCr-CaVX1rg-Slxc6/s1600/botnet-down.jpg"
-    },
-    {
-      "title": "3 SOC Steps that Shut Down Incident Risks Early",
-      "link": "https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html",
-      "description": "Most organizations still picture cyber defense as a fortress problem: build stronger walls, add more guards, buy another detection engine. But modern incidents rarely crash through the front gate. ...",
-      "pub_date": "Wed, 27 May 2026 17:15:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5SbPsI2Ip_2s2JkLJSNNO05Qfn3zFQTpOSmRmqTreVUxDWTgZXSUgEtIwEvu5bQ8wGM24s68ikCnVLdKujVhF8j-TxTM5lr38lAdKkEummRkZxVnB5P1CQWNYqY-Oswvf6FHz4gWhFSAbrokC_3bnFksFvzGSC-0Fh5YUUJSNS2jlKrOJt4RCRJlYoJ4/s1600/iocc.jpg"
     },
     {
       "title": "ZDI-26-319: Progress Software Kemp LoadMaster addcountry Command Injection Remote Code Execution Vulnerability",
