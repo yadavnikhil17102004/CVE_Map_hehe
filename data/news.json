@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-29T00:04:44Z",
+  "last_updated": "2026-05-29T05:07:35Z",
   "articles": [
+    {
+      "title": "VS Code Remote-SSH RCE Lets Attackers Pivot From Developer Machines to Cloud Servers",
+      "link": "https://cybersecuritynews.com/vs-code-remote-ssh-rce/",
+      "description": "A newly disclosed vulnerability in Visual Studio Code’s Remote-SSH extension exposes a critical post-compromise attack path that allows threat actors to pivot from infected developer machines int...",
+      "pub_date": "Fri, 29 May 2026 04:21:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/VS-Code-Remote-SSH-RCE-Lets-Attackers-Pivot-From-Developer-Machines-to-Cloud-Servers.webp"
+    },
+    {
+      "title": "Hackers Exploit Microsoft Teams’ Collaboration Features to Impersonate IT Helpdesk Staff",
+      "link": "https://cybersecuritynews.com/microsoft-teams-collaboration-features-exploited/",
+      "description": "A growing wave of vishing (voice phishing) campaigns in which threat actors abuse Microsoft Teams\u0026#8217; external collaboration features to impersonate IT helpdesk personnel and investigators is no...",
+      "pub_date": "Fri, 29 May 2026 03:48:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-Teams-Collaboration-Features-Exploited.webp"
+    },
+    {
+      "title": "Anthropic confirms Claude Mythos-class models will roll out to the public",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/",
+      "description": "Anthropic has confirmed that it plans to bring Mythos-class models to the general public after delaying the rollout due to security risks to public and private software. [...]",
+      "pub_date": "Thu, 28 May 2026 20:21:03 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
       "link": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
@@ -112,22 +136,6 @@
       "pub_date": "Thu, 28 May 2026 20:56:04 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLo8Mb8UwcN2lkMlnUi-l3a8DXNNL2_dW0VcATt8d34xxXX-kQN8HMolrIuw8ty0WZmpURI7hyphenhyphenDrvCAiKAarvJU1__tzxaKMxX3U4ZJbuwydE2zGoyFmutxDtid410NLBq_wi7fv_QFMdmkHGqRPwVcLY8xfeJ1PSb46o0RpCA4ubLLl8_LlLg-Id7ceU8/s1600/fort.jpg"
-    },
-    {
-      "title": "ClearFake Uses BSC Testnet Smart Contracts for Takedown-Resistant Command and Control",
-      "link": "https://cybersecuritynews.com/clearfake-uses-bsc-testnet-smart-contracts/",
-      "description": "A new and dangerously clever malware campaign called ClearFake has been caught using blockchain smart contracts to run its operations, making it nearly impossible for security teams to shut it down...",
-      "pub_date": "Thu, 28 May 2026 15:23:22 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/ClearFake-Uses-BSC-Testnet-Smart-Contracts-for-Takedown-Resistant-Command-and-Control.webp"
-    },
-    {
-      "title": "New Linux CIFSwitch Kernel Vulnerability Allows Attackers to Gain Root Access",
-      "link": "https://cybersecuritynews.com/linux-cifswitch-kernel-vulnerability/",
-      "description": "A newly disclosed Linux local privilege escalation (LPE) vulnerability dubbed \u0026#8220;CIFSwitch\u0026#8221; enables low-privileged users to gain root access by abusing a logic flaw between the Linux kern...",
-      "pub_date": "Thu, 28 May 2026 15:18:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/New-Linux-CIFSwitch-Kernel-Vulnerability-Allows-Low-privileged-Users-to-Gain-root-Access.webp"
     },
     {
       "title": "New Gogs zero-day flaw lets hackers get remote code execution",
@@ -344,14 +352,6 @@
       "pub_date": "Wed, 27 May 2026 15:36:32 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtYSLWixSGb7jW2drND6NlHzXB4eHO0QyZNOovK9iVyaHGS6fSN4eqhWkijIhevhInH56hv03c29ziWCZiH58kY5EBbfuZloLfMP9yGJuFVtIaoJqj31KVFNeImMNVnLGrRHbhcGw7IMVZ8FEH2tK-Bit50KzXfe0F9jEQAO9iy5PNprbqJzgRB2WkI-0i/s1600/gitea-main.jpg"
-    },
-    {
-      "title": "CISA gives feds 4 days to patch actively exploited cPanel plugin flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has given U.S. federal agencies four days to secure their servers against a critical vulnerability in the LiteSpeed cPanel user-end ...",
-      "pub_date": "Wed, 27 May 2026 06:06:17 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites",
