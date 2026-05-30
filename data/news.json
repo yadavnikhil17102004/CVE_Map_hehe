@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-30T13:07:31Z",
+  "last_updated": "2026-05-30T14:59:56Z",
   "articles": [
+    {
+      "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
+      "link": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
+      "description": "A newly discovered local privilege escalation vulnerability dubbed 'CIFSwitch' in the Linux kernel could allow attackers to forge CIFS authentication key descriptions, abuse the kernel's key reques...",
+      "pub_date": "Sat, 30 May 2026 10:16:08 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Pentest Swarm AI Tool With Live Access to nmap, sqlmap, Burp, Metasploit, and Others",
       "link": "https://cybersecuritynews.com/pentest-swarm-ai-tool/",
@@ -262,14 +270,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/",
       "description": "An unpatched zero-day vulnerability in the Gogs self-hosted Git service can allow attackers to gain remote code execution (RCE) on Internet-facing instances. [...]",
       "pub_date": "Thu, 28 May 2026 10:25:43 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": " How SIEM helps MSPs reduce noise and stop threats faster",
-      "link": "https://www.bleepingcomputer.com/news/security/how-siem-helps-msps-reduce-noise-and-stop-threats-faster/",
-      "description": "MSPs don't lack security data. They struggle to separate real threats from alert noise. Kaseya explains how SIEM helps MSPs improve visibility, reduce fatigue, and respond faster. [...]",
-      "pub_date": "Thu, 28 May 2026 10:01:11 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
