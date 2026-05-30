@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-30T11:14:17Z",
+  "last_updated": "2026-05-30T13:07:31Z",
   "articles": [
+    {
+      "title": "Pentest Swarm AI Tool With Live Access to nmap, sqlmap, Burp, Metasploit, and Others",
+      "link": "https://cybersecuritynews.com/pentest-swarm-ai-tool/",
+      "description": "Pentest Swarm AI is the first open-source autonomous penetration testing platform built on a swarm intelligence architecture, not just multiple agents firing in a fixed sequence. Developed by Armur...",
+      "pub_date": "Sat, 30 May 2026 12:00:55 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Pentest-Swarm-AI-Tool.webp"
+    },
     {
       "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
       "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
@@ -8,6 +16,30 @@
       "pub_date": "Sat, 30 May 2026 12:11:26 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkaW0i4ALAlpWQ_cOjfhoqUlNgMlZysJA6ay0qPViGI_KxEEG-Hh0KdtWLqBXDH42ZBGSONs0ZJuzOqdRF7vbx6Xa9J8HlP60lY45JHy0ivdRQs0exe4wZT2lI3TW4oDO-XXPVz2pek2M3izLqT3ONwq2iuHPN31ZZvK3jl0zIDq_h5XF1CTRk7fUPzjEQ/s1600/panos.jpg"
+    },
+    {
+      "title": "Google Chrome’s Device-Bound Session Credentials Now GA to Block Account Takeovers",
+      "link": "https://cybersecuritynews.com/chromes-device-bound-session-credentials/",
+      "description": "Google has officially moved Device Bound Session Credentials (DBSC) to general availability in the Chrome browser on Windows, delivering a powerful defense against one of the most persistent threat...",
+      "pub_date": "Sat, 30 May 2026 03:57:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Chromes-Device-Bound-Session-Credentials.webp"
+    },
+    {
+      "title": "GREYVIBE Hackers Leverage ChatGPT and Google Gemini to Fuel Cyberattacks",
+      "link": "https://cybersecuritynews.com/greyvibe-hackers-chatgpt-and-google-gemini/",
+      "description": "GREYVIBE hackers are increasingly leveraging generative AI tools such as ChatGPT and Google Gemini to enhance cyberattack operations. The campaign, active since at least August 2025, primarily targ...",
+      "pub_date": "Sat, 30 May 2026 03:37:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GREYVIBE-hackers-Leverage-ChatGPT-and-Google-Gemini-to-Fuel-Cyberattacks.webp"
+    },
+    {
+      "title": "Palo Alto Networks PAN-OS Authentication Vulnerability Bypass Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/palo-alto-vulnerability-exploited/",
+      "description": "Palo Alto Networks authentication bypass vulnerability, CVE-2026-0257, affecting PAN-OS and Prisma Access, is now being actively exploited in the wild, with CISA adding it to the Known Exploited Vu...",
+      "pub_date": "Sat, 30 May 2026 02:45:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Palo-Alto-Vulnerability-Exploited.webp"
     },
     {
       "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
@@ -34,12 +66,60 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikkk-MbHPjc5UpAORUC9pUfe-LntIu7A2tsg3EBFPXh3b6WXoiv8HtxvSakdqICfwN1YGSY452zIdjuyafscYfbf7yKnzbE_SxWxmPeX9uBLkTWY7aNyzLK903ts83ThlQGKOPYKNCW6UHg2c7ia4O7cVIwV5p24c-POfHYTJak6tRmL03rbjOWxCfpPYb/s1600/chatgpt-phishing.jpg"
     },
     {
+      "title": "Post-quantum cryptography is not the future. It is your current reality.  ",
+      "link": "https://cybersecuritynews.com/post-quantum-cryptography-is-not-the-future-it-is-your-current-reality/",
+      "description": "For most of the last decade, post-quantum cryptography lived in a particular kind of conversation. It came up at security conferences. It appeared in NIST press releases. CISOs nodded politely when...",
+      "pub_date": "Fri, 29 May 2026 16:04:38 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihK-YB_jGp7qGswbL4NUoF2Hts0C8708zmjlWTbnmaSfJc57gINFfjG-17ugbn9iK-VoUSrrnUHD80Hg1e6yyukD9p2eue8yKEkjgVTIsNDEOQ47DYqKRQSwFVUM0BACUJfJp_Ji-zR7MJQMAfyUAJAnDhThw5KDUum6tjtDAVECtnhI_NypYENKxkyHc/s16000/TTT%20-%202026-05-29T213542.225.webp?ssl=1"
+    },
+    {
+      "title": "Ransomware Uses SYSTEM Scheduled Task to Encrypt Local Drives With Elevated Privileges",
+      "link": "https://cybersecuritynews.com/ransomware-uses-system-scheduled-task/",
+      "description": "A newly analyzed ransomware strain called The Gentlemen is raising serious alarms across the cybersecurity community. Built in the Go programming language and obfuscated with a tool called Garble, ...",
+      "pub_date": "Fri, 29 May 2026 15:59:05 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Ransomware-Uses-SYSTEM-Scheduled-Task-to-Encrypt-Local-Drives-With-Elevated-Privileges.webp"
+    },
+    {
+      "title": "JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware",
+      "link": "https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering/",
+      "description": "A new threat actor tracked as JINX-0164 has been running calculated attacks against cryptocurrency organizations, using LinkedIn profiles to lure developers into downloading custom macOS malware. A...",
+      "pub_date": "Fri, 29 May 2026 15:45:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/JINX-0164-Threat-Actor-Using-LinkedIn-Social-Engineering-to-Deploy-Custom-macOS-Malware.webp"
+    },
+    {
+      "title": "Attackers Abuse Trusted Developer Tooling to Exfiltrate Source Code and Secrets",
+      "link": "https://cybersecuritynews.com/attackers-abuse-trusted-developer-tooling/",
+      "description": "A wave of sophisticated supply chain attacks has put millions of software developers on high alert, with threat actors turning everyday developer tools into weapons for stealing credentials, cloud ...",
+      "pub_date": "Fri, 29 May 2026 15:34:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Attackers-Abuse-Trusted-Developer-Tooling-to-Exfiltrate-Source-Code-and-Secrets.webp"
+    },
+    {
+      "title": "From 200 CVEs to Actionable Fixes – DockSec Brings AI to Container Security",
+      "link": "https://cybersecuritynews.com/docksec-ai-container-security/",
+      "description": "Ask any developer who has run a container image scan what happens next, and you will hear the same story. The scanner returns 200 CVEs. Most are noise. A handful are real. The report gets closed, t...",
+      "pub_date": "Fri, 29 May 2026 14:50:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/DockSec-AI-container-security.webp"
+    },
+    {
       "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
       "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
       "description": "An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a publicly-accessi...",
       "pub_date": "Fri, 29 May 2026 20:09:56 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi20dgnD8cZh6NCcPM9Xa3fzLgNygU4O6AmBUmN1w6KwsDMJ8_jkpZPk77r8phf3MX-cXOlVxke-ypIuj2xh3AB3dy1HSuIa4YYFlgH8Odm1jCRVESBGqxgiDoRbQEG4L_QrKOoH8TSvLLKZxnBfPEemz4kaqWto4t_3cZCmWW44NX-Q1aWakBWVDhAza7T/s1600/marimo.png"
+    },
+    {
+      "title": "Malicious NuGet Package as Sicoob SDK Exfiltrates Banking Passwords",
+      "link": "https://cybersecuritynews.com/malicious-nuget-sicoob-sdk/",
+      "description": "A newly discovered malicious NuGet package masquerading as an official Sicoob software development kit (SDK) has been caught exfiltrating highly sensitive banking credentials, raising serious conce...",
+      "pub_date": "Fri, 29 May 2026 14:37:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Malicious-NuGet-Package-as-Sicoob-SDK-Exfiltrate-Banking-Passwords.webp"
     },
     {
       "title": "From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market",
