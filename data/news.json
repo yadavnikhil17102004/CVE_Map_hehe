@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-30T02:26:15Z",
+  "last_updated": "2026-05-30T06:17:03Z",
   "articles": [
+    {
+      "title": "Google Chrome’s Device-Bound Session Credentials Now GA to Block Account Takeovers",
+      "link": "https://cybersecuritynews.com/chromes-device-bound-session-credentials/",
+      "description": "Google has officially moved Device Bound Session Credentials (DBSC) to general availability in the Chrome browser on Windows, delivering a powerful defense against one of the most persistent threat...",
+      "pub_date": "Sat, 30 May 2026 03:57:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Chromes-Device-Bound-Session-Credentials.webp"
+    },
+    {
+      "title": "GREYVIBE Hackers Leverage ChatGPT and Google Gemini to Fuel Cyberattacks",
+      "link": "https://cybersecuritynews.com/greyvibe-hackers-chatgpt-and-google-gemini/",
+      "description": "GREYVIBE hackers are increasingly leveraging generative AI tools such as ChatGPT and Google Gemini to enhance cyberattack operations. The campaign, active since at least August 2025, primarily targ...",
+      "pub_date": "Sat, 30 May 2026 03:37:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GREYVIBE-hackers-Leverage-ChatGPT-and-Google-Gemini-to-Fuel-Cyberattacks.webp"
+    },
+    {
+      "title": "Palo Alto Networks PAN-OS Authentication Vulnerability Bypass Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/palo-alto-vulnerability-exploited/",
+      "description": "Palo Alto Networks authentication bypass vulnerability, CVE-2026-0257, affecting PAN-OS and Prisma Access, is now being actively exploited in the wild, with CISA adding it to the Known Exploited Vu...",
+      "pub_date": "Sat, 30 May 2026 02:45:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Palo-Alto-Vulnerability-Exploited.webp"
+    },
     {
       "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
       "link": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
@@ -24,6 +48,14 @@
       "pub_date": "Fri, 29 May 2026 23:37:12 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikkk-MbHPjc5UpAORUC9pUfe-LntIu7A2tsg3EBFPXh3b6WXoiv8HtxvSakdqICfwN1YGSY452zIdjuyafscYfbf7yKnzbE_SxWxmPeX9uBLkTWY7aNyzLK903ts83ThlQGKOPYKNCW6UHg2c7ia4O7cVIwV5p24c-POfHYTJak6tRmL03rbjOWxCfpPYb/s1600/chatgpt-phishing.jpg"
+    },
+    {
+      "title": "Post-quantum cryptography is not the future. It is your current reality.  ",
+      "link": "https://cybersecuritynews.com/post-quantum-cryptography-is-not-the-future-it-is-your-current-reality/",
+      "description": "For most of the last decade, post-quantum cryptography lived in a particular kind of conversation. It came up at security conferences. It appeared in NIST press releases. CISOs nodded politely when...",
+      "pub_date": "Fri, 29 May 2026 16:04:38 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihK-YB_jGp7qGswbL4NUoF2Hts0C8708zmjlWTbnmaSfJc57gINFfjG-17ugbn9iK-VoUSrrnUHD80Hg1e6yyukD9p2eue8yKEkjgVTIsNDEOQ47DYqKRQSwFVUM0BACUJfJp_Ji-zR7MJQMAfyUAJAnDhThw5KDUum6tjtDAVECtnhI_NypYENKxkyHc/s16000/TTT%20-%202026-05-29T213542.225.webp?ssl=1"
     },
     {
       "title": "Ransomware Uses SYSTEM Scheduled Task to Encrypt Local Drives With Elevated Privileges",
@@ -98,22 +130,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Typosquatted-npm-Packages-Steal-Cloud-and-CI-CD-Secrets-From-Developer-Systems.webp"
     },
     {
-      "title": "New ChatGPT Vulnerability Lets Attackers Turn Web Pages Into Phishing Payloads",
-      "link": "https://cybersecuritynews.com/chatgpt-vulnerability-chatgphish-attack/",
-      "description": "A browser-based prompt injection technique that transforms any web page into a phishing delivery surface by exploiting ChatGPT\u0026#8217;s page summarization feature, rendering attacker-controlled link...",
-      "pub_date": "Fri, 29 May 2026 14:18:09 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/ChatGPT-Vulnerability-ChatGPhish-Attack.webp"
-    },
-    {
-      "title": "Hackers Use Fake Video Player Updates to Deploy Miner and RAT Malware",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-video-player-updates/",
-      "description": "Hackers are using a clever trick to get people to install dangerous malware, and most victims have no idea it is happening. By visiting pirated movie and TV show streaming sites, users are met with...",
-      "pub_date": "Fri, 29 May 2026 14:07:45 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-Fake-Video-Player-Updates-to-Deploy-Miner-and-RAT-Malware.webp"
-    },
-    {
       "title": "Google Chrome adds session cookie theft protection for all users",
       "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
       "description": "Google says the Chrome Device Bound Session Credentials (DBSC) security feature is now generally available and is rolling out to all users to prevent account takeovers. [...]",
@@ -128,22 +144,6 @@
       "pub_date": "Fri, 29 May 2026 17:01:59 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzJ8u1-LKZwf1FFeVF2K2D2pupLFnsW_zsTumbLXt6eRSNY5NYPuBVxyacqbH-WZRBmTpGmnB0pulEcGex16O8u6812DC7RjtV5fBtVmRG55MdKOdmX2B5m1AtcgfZLCGnH_wNVxrdpfvRR70-MjsT7fzuS8wasEGhnDKmavU02xE6HjMg6FLpv3dvSFi7/s1600/russia-ai-cyberattacks.jpg"
-    },
-    {
-      "title": "Hackers Use Fake Adobe Document Cloud Pages to Deliver ScreenConnect Malware",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-adobe-document-cloud-pages/",
-      "description": "A sophisticated phishing campaign is actively targeting financial organizations by using fake Adobe Document Cloud pages to silently install ScreenConnect remote access malware on victim machines. ...",
-      "pub_date": "Fri, 29 May 2026 11:28:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Hackers-Use-Fake-Adobe-Document-Cloud-Pages-to-Deliver-ScreenConnect-Malware.webp"
-    },
-    {
-      "title": "Legitimate-Looking Codex Remote UI Steals OpenAI Codex Authentication Tokens",
-      "link": "https://cybersecuritynews.com/legitimate-looking-codex-remote-ui/",
-      "description": "A polished, fully functional npm package has been caught secretly stealing OpenAI Codex authentication tokens from developers who trusted it. The package, named codexui-android, presented itself as...",
-      "pub_date": "Fri, 29 May 2026 11:27:24 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Legitimate-Looking-Codex-Remote-UI-Steals-OpenAI-Codex-Authentication-Tokens.webp"
     },
     {
       "title": "Man sent to prison for selling data of 7 millions elderly Americans",
