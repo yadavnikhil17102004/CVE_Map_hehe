@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-06-01T04:43:59Z",
+  "last_updated": "2026-06-01T10:12:44Z",
   "articles": [
+    {
+      "title": "Microsoft Investigates MFA Setup Failure and MySigns-In Portal Outage",
+      "link": "https://cybersecuritynews.com/microsoft365-mfa-setup-failure/",
+      "description": "Microsoft is currently investigating a service disruption affecting users attempting to set up multi-factor authentication (MFA) or access the self-service sign-in portal at mysignins.microsoft.com...",
+      "pub_date": "Mon, 01 Jun 2026 09:48:05 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft365-MFA-Setup-Failure.webp"
+    },
+    {
+      "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
+      "link": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
+      "description": "Threat actors are attempting to actively exploit a critical security flaw impacting WP Maps Pro, a WordPress plugin that has had over 15,000 sales on the Envato Market, to create malicious administ...",
+      "pub_date": "Mon, 01 Jun 2026 14:15:29 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR5AZVDVlhPdPOYO4FsyfLsBmtohzgdjmh688BLU6VRpwi-MaKq4XYgE5-ygnQtcUDMKcR8R4-f9IrfiSFpCodN01gveAWlDpu4Jg4AI9DMKQG50zMr5M1QhqjVAjyuYJQ-vF849bn3jkkDJuBRahpyUwAz8libDqBIwh08wgQNsfmchLwqRUqiYKRDkMT/s1600/wordpress-2.jpg"
+    },
+    {
+      "title": "Microsoft Tightens Entra ID Password Resets With New Authentication Change",
+      "link": "https://cybersecuritynews.com/microsoft-tightens-entra-id-password-resets/",
+      "description": "Microsoft has announced a significant security update to its Entra ID Self-Service Password Reset (SSPR) feature, introducing stricter authentication requirements designed to reduce identity-based ...",
+      "pub_date": "Mon, 01 Jun 2026 08:32:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Tightens-Entra-ID-password-resets-With-New-Authentication-Change.webp"
+    },
+    {
+      "title": "Famous Chollima Hackers Target PHP Developers Using Compromised Packagist Package",
+      "link": "https://cybersecuritynews.com/famous-chollima-hackers-target-php-developers/",
+      "description": "A well-known North Korean threat actor has been caught hiding malware inside a legitimate PHP package available through Packagist, the main package repository for PHP projects. The attack takes dir...",
+      "pub_date": "Mon, 01 Jun 2026 07:45:09 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Famous-Chollima-Hackers-Target-PHP-Developers-Using-Compromised-Packagist-Package.webp"
+    },
+    {
+      "title": "Hackers Attacking Signal Users to Steal Backups in New Wave of Attacks",
+      "link": "https://cybersecuritynews.com/hackers-attacking-signal-users/",
+      "description": "A new wave of phishing attacks is targeting users of Signal, the encrypted messaging app trusted by journalists, activists, and privacy-conscious individuals worldwide. Hackers are impersonating Si...",
+      "pub_date": "Mon, 01 Jun 2026 07:11:15 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Attacking-Signal-Users-to-Steal-Backups-in-New-Wave-of-Attacks.webp"
+    },
+    {
+      "title": "Microsoft Clarifies It Won’t Sue Security Researchers Amid  Nightmare-Eclipse Controversy",
+      "link": "https://cybersecuritynews.com/microsoft-clarifies-nightmare-eclipse-controversy/",
+      "description": "Microsoft has clarified its stance, reducing perceived legal threats and reaffirming its commitment to coordinated\u0026#160;vulnerability disclosure,\u0026#160;following significant backlash from the securi...",
+      "pub_date": "Mon, 01 Jun 2026 06:47:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Pledges-No-Legal-Action-Against-Good-Faith-Security-Researchers.webp"
+    },
     {
       "title": "Instagram Meta AI Vulnerability Allegedly Enables Password Reset for Accounts",
       "link": "https://cybersecuritynews.com/instagram-meta-ai-vulnerability/",
@@ -82,30 +130,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkaW0i4ALAlpWQ_cOjfhoqUlNgMlZysJA6ay0qPViGI_KxEEG-Hh0KdtWLqBXDH42ZBGSONs0ZJuzOqdRF7vbx6Xa9J8HlP60lY45JHy0ivdRQs0exe4wZT2lI3TW4oDO-XXPVz2pek2M3izLqT3ONwq2iuHPN31ZZvK3jl0zIDq_h5XF1CTRk7fUPzjEQ/s1600/panos.jpg"
     },
     {
-      "title": "Google Chrome’s Device-Bound Session Credentials Now GA to Block Account Takeovers",
-      "link": "https://cybersecuritynews.com/chromes-device-bound-session-credentials/",
-      "description": "Google has officially moved Device Bound Session Credentials (DBSC) to general availability in the Chrome browser on Windows, delivering a powerful defense against one of the most persistent threat...",
-      "pub_date": "Sat, 30 May 2026 03:57:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Chromes-Device-Bound-Session-Credentials.webp"
-    },
-    {
-      "title": "GREYVIBE Hackers Leverage ChatGPT and Google Gemini to Fuel Cyberattacks",
-      "link": "https://cybersecuritynews.com/greyvibe-hackers-chatgpt-and-google-gemini/",
-      "description": "GREYVIBE hackers are increasingly leveraging generative AI tools such as ChatGPT and Google Gemini to enhance cyberattack operations. The campaign, active since at least August 2025, primarily targ...",
-      "pub_date": "Sat, 30 May 2026 03:37:31 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GREYVIBE-hackers-Leverage-ChatGPT-and-Google-Gemini-to-Fuel-Cyberattacks.webp"
-    },
-    {
-      "title": "Palo Alto Networks PAN-OS Authentication Vulnerability Bypass Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/palo-alto-vulnerability-exploited/",
-      "description": "Palo Alto Networks authentication bypass vulnerability, CVE-2026-0257, affecting PAN-OS and Prisma Access, is now being actively exploited in the wild, with CISA adding it to the Known Exploited Vu...",
-      "pub_date": "Sat, 30 May 2026 02:45:22 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Palo-Alto-Vulnerability-Exploited.webp"
-    },
-    {
       "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
       "link": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
       "description": "Threat actors are abusing ChatGPT's content-sharing feature to display fake OpenAI outage pages that direct users to download malware disguised as the ChatGPT desktop application. [...]",
@@ -128,22 +152,6 @@
       "pub_date": "Fri, 29 May 2026 23:37:12 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikkk-MbHPjc5UpAORUC9pUfe-LntIu7A2tsg3EBFPXh3b6WXoiv8HtxvSakdqICfwN1YGSY452zIdjuyafscYfbf7yKnzbE_SxWxmPeX9uBLkTWY7aNyzLK903ts83ThlQGKOPYKNCW6UHg2c7ia4O7cVIwV5p24c-POfHYTJak6tRmL03rbjOWxCfpPYb/s1600/chatgpt-phishing.jpg"
-    },
-    {
-      "title": "Post-quantum cryptography is not the future. It is your current reality.  ",
-      "link": "https://cybersecuritynews.com/post-quantum-cryptography-is-not-the-future-it-is-your-current-reality/",
-      "description": "For most of the last decade, post-quantum cryptography lived in a particular kind of conversation. It came up at security conferences. It appeared in NIST press releases. CISOs nodded politely when...",
-      "pub_date": "Fri, 29 May 2026 16:04:38 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihK-YB_jGp7qGswbL4NUoF2Hts0C8708zmjlWTbnmaSfJc57gINFfjG-17ugbn9iK-VoUSrrnUHD80Hg1e6yyukD9p2eue8yKEkjgVTIsNDEOQ47DYqKRQSwFVUM0BACUJfJp_Ji-zR7MJQMAfyUAJAnDhThw5KDUum6tjtDAVECtnhI_NypYENKxkyHc/s16000/TTT%20-%202026-05-29T213542.225.webp?ssl=1"
-    },
-    {
-      "title": "Ransomware Uses SYSTEM Scheduled Task to Encrypt Local Drives With Elevated Privileges",
-      "link": "https://cybersecuritynews.com/ransomware-uses-system-scheduled-task/",
-      "description": "A newly analyzed ransomware strain called The Gentlemen is raising serious alarms across the cybersecurity community. Built in the Go programming language and obfuscated with a tool called Garble, ...",
-      "pub_date": "Fri, 29 May 2026 15:59:05 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Ransomware-Uses-SYSTEM-Scheduled-Task-to-Encrypt-Local-Drives-With-Elevated-Privileges.webp"
     },
     {
       "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
@@ -368,14 +376,6 @@
       "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
-    },
-    {
-      "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
-      "link": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
-      "description": "Latin America and Europe become the target of two banking trojan campaigns that are designed to infect Windows and Android devices with Grandoreiro and BTMOB malware, respectively.  That's accordin...",
-      "pub_date": "Wed, 27 May 2026 21:40:21 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLrxY3dAls7M9XrbkVjdGZELLj2DQ4eGof0qKdWXJLGqQgVgcbszD-mSmcUi6ljJEPyuM5qbIzFD2CAkjQMkwdznWW5nXnJpPUOxuLP87xIATaxqvIKByQr0ddq8GnYTJy_O6VX5Z0cv_S9AYbwVUzzMeKM3UoPGGJ3Bzei5FluxHchhuekfAiKxUnBmaa/s1600/android-malware.jpg"
     },
     {
       "title": "ZDI-26-319: Progress Software Kemp LoadMaster addcountry Command Injection Remote Code Execution Vulnerability",
