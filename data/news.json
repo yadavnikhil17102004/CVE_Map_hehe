@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-05-31T23:59:57Z",
+  "last_updated": "2026-06-01T04:43:59Z",
   "articles": [
+    {
+      "title": "Instagram Meta AI Vulnerability Allegedly Enables Password Reset for Accounts",
+      "link": "https://cybersecuritynews.com/instagram-meta-ai-vulnerability/",
+      "description": "A critical flaw in Meta\u0026#8217;s AI-powered account recovery tool on Instagram allowed attackers to hijack high-value accounts by tricking the chatbot into forwarding password reset codes with no ve...",
+      "pub_date": "Mon, 01 Jun 2026 03:50:16 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Instagram-Meta-AI-Vulnerability.webp"
+    },
+    {
+      "title": "Windows Netlogon 0-Click RCE Vulnerability Now Actively Exploited In The Wild",
+      "link": "https://cybersecuritynews.com/windows-netlogon-0-click-rce/",
+      "description": "The critical Windows Netlogon remote code execution (RCE) vulnerability tracked as CVE-2026-41089 is now under active exploitation in the wild, significantly raising the risk profile for unpatched ...",
+      "pub_date": "Mon, 01 Jun 2026 03:16:44 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Windows-Netlogon-0-Click-RCE.webp"
+    },
     {
       "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
       "link": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
@@ -128,22 +144,6 @@
       "pub_date": "Fri, 29 May 2026 15:59:05 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Ransomware-Uses-SYSTEM-Scheduled-Task-to-Encrypt-Local-Drives-With-Elevated-Privileges.webp"
-    },
-    {
-      "title": "JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware",
-      "link": "https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering/",
-      "description": "A new threat actor tracked as JINX-0164 has been running calculated attacks against cryptocurrency organizations, using LinkedIn profiles to lure developers into downloading custom macOS malware. A...",
-      "pub_date": "Fri, 29 May 2026 15:45:11 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/JINX-0164-Threat-Actor-Using-LinkedIn-Social-Engineering-to-Deploy-Custom-macOS-Malware.webp"
-    },
-    {
-      "title": "Attackers Abuse Trusted Developer Tooling to Exfiltrate Source Code and Secrets",
-      "link": "https://cybersecuritynews.com/attackers-abuse-trusted-developer-tooling/",
-      "description": "A wave of sophisticated supply chain attacks has put millions of software developers on high alert, with threat actors turning everyday developer tools into weapons for stealing credentials, cloud ...",
-      "pub_date": "Fri, 29 May 2026 15:34:24 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Attackers-Abuse-Trusted-Developer-Tooling-to-Exfiltrate-Source-Code-and-Secrets.webp"
     },
     {
       "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
