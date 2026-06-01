@@ -1,13 +1,165 @@
 {
-  "last_updated": "2026-06-01T10:12:44Z",
+  "last_updated": "2026-06-01T16:32:12Z",
   "articles": [
     {
-      "title": "Microsoft Investigates MFA Setup Failure and MySigns-In Portal Outage",
-      "link": "https://cybersecuritynews.com/microsoft365-mfa-setup-failure/",
-      "description": "Microsoft is currently investigating a service disruption affecting users attempting to set up multi-factor authentication (MFA) or access the self-service sign-in portal at mysignins.microsoft.com...",
-      "pub_date": "Mon, 01 Jun 2026 09:48:05 +0000",
+      "title": "Android Banking Trojan OverlayPhantom Abuses Accessibility Service to Control Devices",
+      "link": "https://cybersecuritynews.com/android-banking-trojan-overlayphantom/",
+      "description": "A dangerous new Android banking trojan called OverlayPhantom has been quietly targeting users across ten countries, placing banking credentials, financial data, and cryptocurrency accounts at serio...",
+      "pub_date": "Mon, 01 Jun 2026 16:09:13 +0000",
       "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft365-MFA-Setup-Failure.webp"
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Android-Banking-Trojan-OverlayPhantom-Abuses-Accessibility-Service-to-Control-Devices.webp"
+    },
+    {
+      "title": "Microsoft Office for the Web and Teams Hit by File Access Outage",
+      "link": "https://cybersecuritynews.com/microsoft-office-teams-file-access/",
+      "description": "Microsoft experienced a service disruption affecting users\u0026#8217; ability to open files through Office for the Web and Microsoft Teams, with the company confirming resolution after investigating el...",
+      "pub_date": "Mon, 01 Jun 2026 16:07:30 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Office-Teams-File-Access.webp"
+    },
+    {
+      "title": "Attackers Abuse Docker and Kubernetes Misconfigurations to Compromise Host Systems",
+      "link": "https://cybersecuritynews.com/attackers-abuse-docker-and-kubernetes-misconfigurations/",
+      "description": "Attackers are actively exploiting misconfigurations in Docker and Kubernetes environments to break out of containers and take full control of the underlying host systems. What was once a niche conc...",
+      "pub_date": "Mon, 01 Jun 2026 16:06:10 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Attackers-Abuse-Docker-and-Kubernetes-Misconfigurations-to-Compromise-Host-Systems.webp"
+    },
+    {
+      "title": "SmartApeSG Campaign Uses ClickFix Scripts to Infect Windows Hosts With RAT Malware",
+      "link": "https://cybersecuritynews.com/smartapesg-campaign-uses-clickfix-scripts/",
+      "description": "A well-known social engineering campaign called SmartApeSG is back in the spotlight, this time using ClickFix scripts to quietly plant remote access malware on Windows computers. The campaign lures...",
+      "pub_date": "Mon, 01 Jun 2026 14:42:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/SmartApeSG-Campaign-Uses-ClickFix-Scripts-to-Infect-Windows-Hosts-With-RAT-Malware.webp"
+    },
+    {
+      "title": "Microsoft investigates Office Apps, Teams file access issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/",
+      "description": "Microsoft says an ongoing incident is preventing users of its Teams collaboration platform and Office for the web cloud-based productivity suite from opening files. [...]",
+      "pub_date": "Mon, 01 Jun 2026 10:36:46 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Multiple Red Hat Cloud Services npm Packages Compromised to Deploy Credential-Stealing Malware",
+      "link": "https://cybersecuritynews.com/red-hat-cloud-services-npm-packages/",
+      "description": "A significant supply chain attack on June 1, 2026, targeting over 30 official packages under the @redhat-cloud-services npm scope. The campaign, dubbed \u0026#8220;Miasma: The Spreading Blight,\u0026#8221; i...",
+      "pub_date": "Mon, 01 Jun 2026 14:34:58 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Red-Hat-Cloud-Services-npm-Packages.webp"
+    },
+    {
+      "title": "Race Against Time: Why Faster Vulnerability Alerts Matter",
+      "link": "https://www.bleepingcomputer.com/news/security/race-against-time-why-faster-vulnerability-alerts-matter/",
+      "description": "Attackers are exploiting vulnerabilities faster than many organizations can identify and patch them. SecAlerts explains why faster vulnerability alerts can help reduce exposure and improve response...",
+      "pub_date": "Mon, 01 Jun 2026 10:00:10 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More",
+      "link": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
+      "description": "Monday hit like a cron job with anger issues.  A busted auth path here, a repo-side faceplant there, some \"patched-ish\" thing already getting chewed on in the wild, and then the usual bonus round: ...",
+      "pub_date": "Mon, 01 Jun 2026 19:29:54 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV-leTG-MQremNN5Ju342L6LQMn36xeD4jiS4YWT7EdYluHOtFDqIN8y3bQuV-A0D0wtsO5sRpG3Bpy5xdHhMs_sO_w3WoiiJzCd7o-7Hxw736ERxQs4WDd71EQEBIHLzT_UNFMwCDvC8Nij-gDNpMhsRnpsqoDHkuxUWLUEZSSTfDc4aXpx2qlpsaqlgH/s1600/cyberrecap.png"
+    },
+    {
+      "title": "Iranian Hackers Abuse AppDomainManager Hijacking to Evade EDR Detection",
+      "link": "https://cybersecuritynews.com/iranian-hackers-abuse-appdomainmanager-hijacking/",
+      "description": "Iranian hackers have taken their cyberespionage playbook to a new level, deploying a sophisticated .NET hijacking technique to slip past endpoint defenses and target organizations across the United...",
+      "pub_date": "Mon, 01 Jun 2026 12:40:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Iranian-Hackers-Abuse-AppDomainManager-Hijacking-to-Evade-EDR-Detection.webp"
+    },
+    {
+      "title": "Critical Windows Netlogon RCE flaw now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/critical-windows-netlogon-remote-code-execution-flaw-now-exploited-in-attacks/",
+      "description": "The Centre for Cybersecurity Belgium (CCB), the country's national authority for cybersecurity, warned on Friday that threat actors are now exploiting a recently patched critical Windows Netlogon v...",
+      "pub_date": "Mon, 01 Jun 2026 08:30:27 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "SideCopy Hackers Deploy Persistent XenoRAT Malware to Target Afghanistan Finance Ministry",
+      "link": "https://cybersecuritynews.com/sidecopy-hackers-deploy-persistent-xenorat-malware/",
+      "description": "A Pakistan-linked threat group known as SideCopy has launched a focused cyberattack against Afghanistan\u0026#8217;s Ministry of Finance, deploying a persistent remote access tool called XenoRAT. The ca...",
+      "pub_date": "Mon, 01 Jun 2026 12:27:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/SideCopy-Hackers-Deploy-Persistent-XenoRAT-Malware-to-Target-Afghanistan-Finance-Ministry.webp"
+    },
+    {
+      "title": "Webinar tomorrow: From alert to resolution in network incident response",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-from-alert-to-resolution-in-network-incident-response/",
+      "description": "Network incidents are often detected quickly, but investigations and coordination can delay resolution. Join our webinar tomorrow to learn how automation and AI-assisted workflows can help IT teams...",
+      "pub_date": "Mon, 01 Jun 2026 08:01:09 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic \u0026 Taiwan",
+      "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
+      "description": "A new cyber espionage campaign codenamed Operation Dragon Weave has been observed targeting officials and citizens in the Czech Republic and Taiwan to deliver an AdaptixC2 agent.  According to Seqr...",
+      "pub_date": "Mon, 01 Jun 2026 17:24:24 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUhiw46hdnhoY05E-0EyhOX5AxQrqJeNM0WDEWiYHAi5pPt4kIFPbvqGZhyAK4NxlAF7KJKxPfWlbGLbZUJJD9PgGmazvyhzaSgBXokM_6eYQfWXQ1HDv2heSDTnps4EGhjKqwCbuQOl0d9QN25tmn85xLujp-htCwLhhywI4A6BKJxkOOKb9FSu02AMjX/s1600/china.jpg"
+    },
+    {
+      "title": "Microsoft fixes outage affecting MFA setup, MySignIn service",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outage-affecting-mfa-setup-mysignin-service/",
+      "description": "Microsoft is working to address an ongoing incident preventing customers from setting up multi-factor authentication (MFA) or accessing the My Sign-Ins platform. [...]",
+      "pub_date": "Mon, 01 Jun 2026 07:40:16 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Critical Plesk Vulnerability Let Users Execute Arbitrary Commands on the Server",
+      "link": "https://cybersecuritynews.com/plesk-command-execution-vulnerability/",
+      "description": "A newly disclosed critical vulnerability in Plesk, tracked as CVE-2026-44962, is raising serious security concerns after researchers confirmed it can allow authenticated users to execute arbitrary ...",
+      "pub_date": "Mon, 01 Jun 2026 11:39:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-Plesk-Vulnerability-Let-Users-execute-arbitrary-commands-on-the-server.webp"
+    },
+    {
+      "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
+      "link": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
+      "description": "Three years ago, the practical question for an MSP building a cybersecurity practice was which \"vCISO platform\" to buy. The term was good shorthand for the work at the time: assessments, advisory, ...",
+      "pub_date": "Mon, 01 Jun 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOvm8XaHJ9FBjwjKyTkm_2pt81tT-4sHdK9UDWm7_hCk4rA95U0peF3Zi7kO_fmJioaGKKloqru4yC-AwrSOdZ17v7m8K2K-t4lyYOGfC66J8r3cSi_v09IPRAfknHSeRBv13kjrk6XBzqpCvKS6ujugm4cR6Xrt1LK40bC091c0k_SgptQnGYIznwWwQ/s1600/cynomi.jpg"
+    },
+    {
+      "title": "Microsoft fixes KB5089549 Windows security update install issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-kb5089549-windows-security-update-install-issues/",
+      "description": "Microsoft has resolved a known issue causing installation failures and 0x800f0922 errors when deploying the May 2026 Windows 11 security update (KB5089549). [...]",
+      "pub_date": "Mon, 01 Jun 2026 06:59:43 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Iran-Linked Hackers Destroy IT, Backups, and Recovery Systems in Cyberattack targeting Middle East",
+      "link": "https://cybersecuritynews.com/iran-linked-hackers-destroy-it-backups-and-recovery-systems/",
+      "description": "Iran-linked hackers have launched a sweeping campaign of digital destruction across the United States and the Middle East, wiping IT systems, erasing backups, and dismantling recovery infrastructur...",
+      "pub_date": "Mon, 01 Jun 2026 10:49:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Iran-Linked-Hackers-Destroy-IT-Backups-and-Recovery-Systems-in-Cyberattack-targeting-Middle-East.webp"
+    },
+    {
+      "title": "New DriveSurge Threat Actor Uses ClickFix and Fake Updates to Infect Website Visitors",
+      "link": "https://cybersecuritynews.com/new-drivesurge-threat-actor-uses-clickfix/",
+      "description": "A newly identified threat actor named DriveSurge has been quietly compromising thousands of legitimate websites to push malware onto unsuspecting visitors. Using a combination of fake browser updat...",
+      "pub_date": "Mon, 01 Jun 2026 10:14:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-DriveSurge-Threat-Actor-Uses-ClickFix-and-Fake-Updates-to-Infect-Website-Visitors.webp"
+    },
+    {
+      "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
+      "link": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
+      "description": "Cybersecurity researchers have disclosed details of a new malicious supply chain campaign that's targeting developers using OpenAI Codex through a legitimate-looking remote web UI.  The tool, named...",
+      "pub_date": "Mon, 01 Jun 2026 15:01:15 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4veBAmEJHF2nXN_nIgXeWxVSxlTDBc6uWiLwVCYNUqGMF9ZtPre3zF_CXmGnAxX2rbqfwgm_Au0tXvYwv1oTGim1STiGCeVOyMXglUTd-3LeJEN3q718Fdlck9mbQ6aUUYP0NM9S7bakZ4_XF5HHYH-cz2QmKBlge6xNMxbbEjDjZQ4wd1maPKnjgKrsu/s1600/codex.png"
     },
     {
       "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
@@ -16,54 +168,6 @@
       "pub_date": "Mon, 01 Jun 2026 14:15:29 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR5AZVDVlhPdPOYO4FsyfLsBmtohzgdjmh688BLU6VRpwi-MaKq4XYgE5-ygnQtcUDMKcR8R4-f9IrfiSFpCodN01gveAWlDpu4Jg4AI9DMKQG50zMr5M1QhqjVAjyuYJQ-vF849bn3jkkDJuBRahpyUwAz8libDqBIwh08wgQNsfmchLwqRUqiYKRDkMT/s1600/wordpress-2.jpg"
-    },
-    {
-      "title": "Microsoft Tightens Entra ID Password Resets With New Authentication Change",
-      "link": "https://cybersecuritynews.com/microsoft-tightens-entra-id-password-resets/",
-      "description": "Microsoft has announced a significant security update to its Entra ID Self-Service Password Reset (SSPR) feature, introducing stricter authentication requirements designed to reduce identity-based ...",
-      "pub_date": "Mon, 01 Jun 2026 08:32:54 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Tightens-Entra-ID-password-resets-With-New-Authentication-Change.webp"
-    },
-    {
-      "title": "Famous Chollima Hackers Target PHP Developers Using Compromised Packagist Package",
-      "link": "https://cybersecuritynews.com/famous-chollima-hackers-target-php-developers/",
-      "description": "A well-known North Korean threat actor has been caught hiding malware inside a legitimate PHP package available through Packagist, the main package repository for PHP projects. The attack takes dir...",
-      "pub_date": "Mon, 01 Jun 2026 07:45:09 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Famous-Chollima-Hackers-Target-PHP-Developers-Using-Compromised-Packagist-Package.webp"
-    },
-    {
-      "title": "Hackers Attacking Signal Users to Steal Backups in New Wave of Attacks",
-      "link": "https://cybersecuritynews.com/hackers-attacking-signal-users/",
-      "description": "A new wave of phishing attacks is targeting users of Signal, the encrypted messaging app trusted by journalists, activists, and privacy-conscious individuals worldwide. Hackers are impersonating Si...",
-      "pub_date": "Mon, 01 Jun 2026 07:11:15 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Attacking-Signal-Users-to-Steal-Backups-in-New-Wave-of-Attacks.webp"
-    },
-    {
-      "title": "Microsoft Clarifies It Won’t Sue Security Researchers Amid  Nightmare-Eclipse Controversy",
-      "link": "https://cybersecuritynews.com/microsoft-clarifies-nightmare-eclipse-controversy/",
-      "description": "Microsoft has clarified its stance, reducing perceived legal threats and reaffirming its commitment to coordinated\u0026#160;vulnerability disclosure,\u0026#160;following significant backlash from the securi...",
-      "pub_date": "Mon, 01 Jun 2026 06:47:28 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Pledges-No-Legal-Action-Against-Good-Faith-Security-Researchers.webp"
-    },
-    {
-      "title": "Instagram Meta AI Vulnerability Allegedly Enables Password Reset for Accounts",
-      "link": "https://cybersecuritynews.com/instagram-meta-ai-vulnerability/",
-      "description": "A critical flaw in Meta\u0026#8217;s AI-powered account recovery tool on Instagram allowed attackers to hijack high-value accounts by tricking the chatbot into forwarding password reset codes with no ve...",
-      "pub_date": "Mon, 01 Jun 2026 03:50:16 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Instagram-Meta-AI-Vulnerability.webp"
-    },
-    {
-      "title": "Windows Netlogon 0-Click RCE Vulnerability Now Actively Exploited In The Wild",
-      "link": "https://cybersecuritynews.com/windows-netlogon-0-click-rce/",
-      "description": "The critical Windows Netlogon remote code execution (RCE) vulnerability tracked as CVE-2026-41089 is now under active exploitation in the wild, significantly raising the risk profile for unpatched ...",
-      "pub_date": "Mon, 01 Jun 2026 03:16:44 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Windows-Netlogon-0-Click-RCE.webp"
     },
     {
       "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
@@ -82,14 +186,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU44Ejz__EFKfpIrEypTxhK3KW7XV3oiEIJEWAC-_PyhbhUvOZzmv3SCAmiuGZdFNdzYIDR2GLwOAhX9nIaAoOD4iFXucpEpB4Ym2vMAqvayyi1JkYyqj2uEYAXPGbXe5dzYNw5a__5KnXvrnJsEVtwnJJs6v_zBlfl3sKo0J83QwylgCL1A2Vck1HktJ8/s1600/botnet.png"
     },
     {
-      "title": "Microsoft Releases KB5089573 for Windows 11 to Fix Patch Tuesday Install Issues",
-      "link": "https://cybersecuritynews.com/microsoft-kb5089573-windows-11/",
-      "description": "Microsoft has rolled out a new cumulative update, KB5089573, for Windows 11 versions 25H2 and 24H2, targeting a critical installation failure that affected users following the May 2026 Patch Tuesda...",
-      "pub_date": "Sun, 31 May 2026 02:22:11 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Microsoft-KB5089573-Windows-11.webp"
-    },
-    {
       "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
       "description": "Palo Alto Networks is warning that hackers are now exploiting a PAN-OS GlobalProtect authentication bypass flaw, tracked as CVE-2026-0257, in attacks attempting to breach corporate networks. [...]",
@@ -98,28 +194,12 @@
       "image_url": ""
     },
     {
-      "title": "GitLab Patches Multiple Duo AI, DoS, and Authorization Flaws in Community and Enterprise Edition",
-      "link": "https://cybersecuritynews.com/gitlab-patches-duo-ai-dos-flaws/",
-      "description": "GitLab has released emergency security updates for both Community Edition (CE) and Enterprise Edition (EE), addressing multiple Duo AI, denial‑of‑service, and authorization flaws in recent vers...",
-      "pub_date": "Sat, 30 May 2026 16:28:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/GitLab-Patches-Multiple-Duo-AI-DoS-and-Authorization-Flaws-in-Community-and-Enterprise-Edition.webp"
-    },
-    {
       "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
       "link": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
       "description": "A newly discovered local privilege escalation vulnerability dubbed 'CIFSwitch' in the Linux kernel could allow attackers to forge CIFS authentication key descriptions, abuse the kernel's key reques...",
       "pub_date": "Sat, 30 May 2026 10:16:08 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Pentest Swarm AI Tool With Live Access to nmap, sqlmap, Burp, Metasploit, and Others",
-      "link": "https://cybersecuritynews.com/pentest-swarm-ai-tool/",
-      "description": "Pentest Swarm AI is the first open-source autonomous penetration testing platform built on a swarm intelligence architecture, not just multiple agents firing in a fixed sequence. Developed by Armur...",
-      "pub_date": "Sat, 30 May 2026 12:00:55 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/Pentest-Swarm-AI-Tool.webp"
     },
     {
       "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
@@ -210,14 +290,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9_WTd_LhWXwvu2jTcVVVgE_IpLISA8vfn0awG8fVwVv_vxx1LvLU7XOxFCtSLMbiP6JKPQfFMdpA7cRJy0Phlu-RWtKH8m57ZMUwRI-tz0C-cAiASKIFS2Fytms6DnCCEif9l-CYN0drhFUEbrt71isM3LmzuA8Guqmhn6iiRqrTROcX-9tniNTQsglc/s1600/red.jpg"
     },
     {
-      "title": "US charges Google security engineer with Polymarket insider trading",
-      "link": "https://www.bleepingcomputer.com/news/security/us-charges-google-security-engineer-with-polymarket-insider-trading/",
-      "description": "A Google security engineer was charged with insider trading after winning $1.2 million using confidential company data to place bets on the cryptocurrency-based Polymarket decentralized prediction ...",
-      "pub_date": "Fri, 29 May 2026 06:11:44 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
       "link": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
       "description": "Cybersecurity researchers have discovered a malicious NuGet package that masquerades as a C# software development kit for Sicoob, one of Brazil's largest cooperative financial systems, to siphon cl...",
@@ -226,52 +298,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUbmZyAOVZRXrWddG8PMuXbVyex9s5HPD2cH8rDjYP6EHuVadkyj72NdN9PreAnGX9iOCVGxWI2YmSLu818VmdLGEcPkb60qPIUgBYh5oBHsA4KKYufsHbFGhAQDD7SjpZU0In0TPiHN4TxCR4THBwmKa4Bus98vBgx5mO3QTQRpTM5RERk8bFWi4psF7d/s1600/sdk.jpg"
     },
     {
-      "title": "Charter Communications data breach affects 4.9 million accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
-      "description": "The ShinyHunters extortion gang stole personal information from 4.9 million accounts after hacking the U.S. telecom giant Charter Communications in early April, according to data breach notificatio...",
-      "pub_date": "Fri, 29 May 2026 04:29:40 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
       "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
       "description": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities throu...",
       "pub_date": "Fri, 29 May 2026 11:27:41 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJfUl1K-os1XyLN-SBt6PgMia_jFG03ArRa3H0FI2hsiUqNa3lqSWY2NJcvOhY33TArSKJxeookUpkATdERUpEwKw-IUi6iv9ZVuUq4c1A99mLwgQB4ibCxBx4MBR1XXmM98zH7v-QWDO7bhh1AONQ8Op0htvwHhuivwI1Cch9rgLPO-zSGCjjQbvXdDte/s1600/north-korea.png"
-    },
-    {
-      "title": "Anthropic confirms Claude Mythos-class models will roll out to the public",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/",
-      "description": "Anthropic has confirmed that it plans to bring Mythos-class models to the general public after delaying the rollout due to security risks to public and private software. [...]",
-      "pub_date": "Thu, 28 May 2026 20:21:03 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
-      "link": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
-      "description": "A likely Russian threat cluster tracked as GreyVibe has been targeting Ukrainian entities with AI-generated lures and a rich set of custom malware tools. [...]",
-      "pub_date": "Thu, 28 May 2026 18:24:49 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "BTMOB Android malware service generates custom phishing payloads",
-      "link": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
-      "description": "An Android remote access trojan named BTMOB is offered to cybercriminals with a builder interface for generating malware payloads tailored to phishing lures. [...]",
-      "pub_date": "Thu, 28 May 2026 17:10:11 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
-      "description": "The FBI is warning of fake websites impersonating FIFA ahead of the 2026 World Cup, to steal personal and financial information, sell fake tickets and hospitality packages, and push other fraud rel...",
-      "pub_date": "Thu, 28 May 2026 15:08:10 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
@@ -288,38 +320,6 @@
       "pub_date": "Thu, 28 May 2026 20:56:04 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLo8Mb8UwcN2lkMlnUi-l3a8DXNNL2_dW0VcATt8d34xxXX-kQN8HMolrIuw8ty0WZmpURI7hyphenhyphenDrvCAiKAarvJU1__tzxaKMxX3U4ZJbuwydE2zGoyFmutxDtid410NLBq_wi7fv_QFMdmkHGqRPwVcLY8xfeJ1PSb46o0RpCA4ubLLl8_LlLg-Id7ceU8/s1600/fort.jpg"
-    },
-    {
-      "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
-      "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
-      "description": "Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportunity to better unde...",
-      "pub_date": "Thu, 28 May 2026 19:23:52 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIMDR_KVt17sFMXeEhMvDYHLwBX_Aix1bz3y0izMs7PsVIuGSQhOLX_khN3Ckl_eRm9OEMAlVmBxPHhQvCGDJB5wXJ2rtOT8uQAiWCWCZwc7dvOfbWyuZ0BpNFAKohIpLUq9KR76XvZ3eT0TpltWDHUWQY-nUJzJflA1y5l7q_UXsjVtAMPhwVAULZZScp/s1600/github-ms.png"
-    },
-    {
-      "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
-      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
-      "description": "Every time you think the industry has finally stopped doing some reckless, low-effort crap, somebody spins up a fresh box full of sketchy loaders, fake installers, recycled social-engineering bait,...",
-      "pub_date": "Thu, 28 May 2026 19:03:16 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBnLTRREuP8t8AoMRlakMDVRNoOYCA18IuBTWxA_nms12GdQaSfaU1kgpLSrgUvFFH1goJ_-NOIerDAnZxlD86Oafg_b6QdecLrT4UJdb3_qfmgtxdjrhF8GioeuEZbyZBTVL4cXUcpWqZujpLoI4zBm9y7XvFUjYR5cjF0GmmU_TXlmX0W7zsxlcvV9mW/s1600/tbb.jpg"
-    },
-    {
-      "title": "New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI \"Power users\"",
-      "link": "https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html",
-      "description": "State of AI Usage Report 2026 (full report here) by LayerX Security reveals the extent of the enterprise AI visibility gap and why most organizations still don't understand where their AI exposure ...",
-      "pub_date": "Thu, 28 May 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXxB1vzDMiskZRwzcQojV8rDdalRXWpzXieLES5nUD0bXfnbXrUwsV00RsMmRFdd-Zd3up_9wAGsvfzTDmWi4MLp70XlajlgakXsuCfdWmOe0uQuy0yIwxC4-fevqlb0Rs3AR_eqInGT1scQfa5oiGqY-TRmswOwkY4Zg2ikCYxlsBF2FQTEGA216b_NF8/s1600/apples.jpg"
-    },
-    {
-      "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
-      "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
-      "description": "A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-themed social enginee...",
-      "pub_date": "Thu, 28 May 2026 13:24:48 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyRUE7TEns58pfRrpwegQH6tBvGORrdclhPKKI7B7l9eNy5bMA1_ra6HAyGPUC_NKD8ZTnpVt7z88AII1Sd8QpA-sqZ7ONKZGwEVFB0u8gNvsBVRtfJuTsvWM4q6V_9MXVj7fX4ug_7mel-x1i2l7qm1GY94gVA1AbyCrvRQA8JcaDmhF1i_tM22NF_RPX/s1600/crypto-hacks.jpg"
     },
     {
       "title": "ZDI-26-326: TrendAI Vision One Security Agent Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
