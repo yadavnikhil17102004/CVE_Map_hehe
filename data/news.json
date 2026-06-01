@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-06-01T16:32:12Z",
+  "last_updated": "2026-06-01T20:51:36Z",
   "articles": [
+    {
+      "title": "Dashlane password manager users locked out by brute force attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
+      "description": "Multiple Dashlane users have been locked out of their accounts following brute-force attacks that attempted logins from distant locations and unknown devices. [...]",
+      "pub_date": "Mon, 01 Jun 2026 14:17:13 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
+      "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+      "description": "A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma, has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a self-pro...",
+      "pub_date": "Mon, 01 Jun 2026 23:10:28 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOyc2NTiIl0XKOTZBsFh1bTPqNpVXfDhASWkCsYz17d-nbiWVKlxCzoq3WthMD8kMomrRPPOYLM-XRmSdtXNKAxtk1QLtmZH47y2RExMGohBaBDPkpFp2PteUgaA16VcCs7tK-ImqCiLnpqyLg8Pwp6cWE5d9QT2_v0-QBduT7ovYrs7WSZ9t1MnQJ4EuO/s1600/redhat.png"
+    },
+    {
+      "title": "IBM WebSphere Server Vulnerable to Remote Code Execution Attack Via Crafted Request",
+      "link": "https://cybersecuritynews.com/ibm-websphere-server-remote-code-execution/",
+      "description": "IBM has disclosed a critical security vulnerability in its WebSphere Application Server ecosystem that could allow attackers to execute arbitrary code through specially crafted HTTP requests. The f...",
+      "pub_date": "Mon, 01 Jun 2026 17:09:10 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/IBM-WebSphere-Server-Vulnerable-to-remote-code-execution-Attack-Via-specially-crafted-request.webp"
+    },
+    {
+      "title": "WordPress malware campaign hides payloads in Steam profiles",
+      "link": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
+      "description": "Nearly 2,000 WordPress websites were infected with malware that relies on Steam Community profile comments to hide command-and-control (C2) data. [...]",
+      "pub_date": "Mon, 01 Jun 2026 13:04:16 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Critical Magento Cache Plugin Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/magento-cache-plugin-vulnerability/",
+      "description": "A critical security vulnerability has been discovered in a widely used Magento caching plugin that allows attackers to remotely execute malicious code with no login, configuration changes, or admin...",
+      "pub_date": "Mon, 01 Jun 2026 17:03:51 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-vulnerability-Magento-Cache-Plugin-Enables-remote-code-execution-Attacks.webp"
+    },
+    {
+      "title": "Critical MCP Toolbox Vulnerability Impacts Enterprise Database onnectors",
+      "link": "https://cybersecuritynews.com/mcp-toolbox-vulnerability/",
+      "description": "A newly disclosed vulnerability, tracked as CVE-2026-9739, is raising security concerns across enterprise environments using MCP Toolbox, particularly those that rely on Server-Sent Events (SSE) fo...",
+      "pub_date": "Mon, 01 Jun 2026 17:00:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-MCP-Toolbox-Vulnerability-Impacts-enterprise-database-connectors.webp"
+    },
     {
       "title": "Android Banking Trojan OverlayPhantom Abuses Accessibility Service to Control Devices",
       "link": "https://cybersecuritynews.com/android-banking-trojan-overlayphantom/",
@@ -114,14 +162,6 @@
       "image_url": ""
     },
     {
-      "title": "Critical Plesk Vulnerability Let Users Execute Arbitrary Commands on the Server",
-      "link": "https://cybersecuritynews.com/plesk-command-execution-vulnerability/",
-      "description": "A newly disclosed critical vulnerability in Plesk, tracked as CVE-2026-44962, is raising serious security concerns after researchers confirmed it can allow authenticated users to execute arbitrary ...",
-      "pub_date": "Mon, 01 Jun 2026 11:39:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-Plesk-Vulnerability-Let-Users-execute-arbitrary-commands-on-the-server.webp"
-    },
-    {
       "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
       "link": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
       "description": "Three years ago, the practical question for an MSP building a cybersecurity practice was which \"vCISO platform\" to buy. The term was good shorthand for the work at the time: assessments, advisory, ...",
@@ -136,22 +176,6 @@
       "pub_date": "Mon, 01 Jun 2026 06:59:43 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Iran-Linked Hackers Destroy IT, Backups, and Recovery Systems in Cyberattack targeting Middle East",
-      "link": "https://cybersecuritynews.com/iran-linked-hackers-destroy-it-backups-and-recovery-systems/",
-      "description": "Iran-linked hackers have launched a sweeping campaign of digital destruction across the United States and the Middle East, wiping IT systems, erasing backups, and dismantling recovery infrastructur...",
-      "pub_date": "Mon, 01 Jun 2026 10:49:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Iran-Linked-Hackers-Destroy-IT-Backups-and-Recovery-Systems-in-Cyberattack-targeting-Middle-East.webp"
-    },
-    {
-      "title": "New DriveSurge Threat Actor Uses ClickFix and Fake Updates to Infect Website Visitors",
-      "link": "https://cybersecuritynews.com/new-drivesurge-threat-actor-uses-clickfix/",
-      "description": "A newly identified threat actor named DriveSurge has been quietly compromising thousands of legitimate websites to push malware onto unsuspecting visitors. Using a combination of fake browser updat...",
-      "pub_date": "Mon, 01 Jun 2026 10:14:29 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-DriveSurge-Threat-Actor-Uses-ClickFix-and-Fake-Updates-to-Infect-Website-Visitors.webp"
     },
     {
       "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
@@ -258,28 +282,12 @@
       "image_url": ""
     },
     {
-      "title": "Google Chrome adds session cookie theft protection for all users",
-      "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
-      "description": "Google says the Chrome Device Bound Session Credentials (DBSC) security feature is now generally available and is rolling out to all users to prevent account takeovers. [...]",
-      "pub_date": "Fri, 29 May 2026 08:08:08 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks ",
       "link": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
       "description": "A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 2025.  GREYVIBE, pe...",
       "pub_date": "Fri, 29 May 2026 17:01:59 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzJ8u1-LKZwf1FFeVF2K2D2pupLFnsW_zsTumbLXt6eRSNY5NYPuBVxyacqbH-WZRBmTpGmnB0pulEcGex16O8u6812DC7RjtV5fBtVmRG55MdKOdmX2B5m1AtcgfZLCGnH_wNVxrdpfvRR70-MjsT7fzuS8wasEGhnDKmavU02xE6HjMg6FLpv3dvSFi7/s1600/russia-ai-cyberattacks.jpg"
-    },
-    {
-      "title": "Man sent to prison for selling data of 7 millions elderly Americans",
-      "link": "https://www.bleepingcomputer.com/news/security/man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans/",
-      "description": "A North Carolina man was sentenced to more than 10 years in prison for selling the personal information of over 7 million elderly Americans to Jamaican scammers. [...]",
-      "pub_date": "Fri, 29 May 2026 07:07:07 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks",
@@ -312,14 +320,6 @@
       "pub_date": "Thu, 28 May 2026 22:54:44 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaqRd_3DDSSASg_YzvuUEqv3elhvFWSjk56bXPoqJeNIWVo-K0giuJ3TNEXV-aYpnuVfOv00_VM428vIFVaMiuZzfL0dQdQvz0_xMNFq4CtrppgTZu5dupV0asq1wZjPW3FoMgUnyGMR_RgBpWT2oTnJFuhaldo3Cd3eNP-MOlDNhP9Uu2KDRiDpYHdoeq/s1600/exploit-meta.jpg"
-    },
-    {
-      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
-      "link": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
-      "description": "Threat actors are continuing to exploit a critical, now-patched security flaw impacting FortiClient Endpoint Management Server (EMS) deployments to deliver a credential-stealing malware family dubb...",
-      "pub_date": "Thu, 28 May 2026 20:56:04 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLo8Mb8UwcN2lkMlnUi-l3a8DXNNL2_dW0VcATt8d34xxXX-kQN8HMolrIuw8ty0WZmpURI7hyphenhyphenDrvCAiKAarvJU1__tzxaKMxX3U4ZJbuwydE2zGoyFmutxDtid410NLBq_wi7fv_QFMdmkHGqRPwVcLY8xfeJ1PSb46o0RpCA4ubLLl8_LlLg-Id7ceU8/s1600/fort.jpg"
     },
     {
       "title": "ZDI-26-326: TrendAI Vision One Security Agent Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
@@ -523,9 +523,25 @@
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2024-21182 Oracle WebLogic Server Unspecified Vulnerab...",
+      "pub_date": "Mon, 01 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-0257 Palo Alto Networks PAN-OS Authentication Bypass V...",
       "pub_date": "Fri, 29 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "MacGregor Voyage Data Recorder (VDR) G4e",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker gaining administrator access to the device. The following versions of MacGregor Voyage Data Recorder (...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
@@ -562,9 +578,17 @@
       "image_url": ""
     },
     {
-      "title": "Schnieider Electric EcoStruxure Machine Expert HVAC",
+      "title": "Schneider Electric EcoStruxure Machine Expert HVAC",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07",
       "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcostruxureTM Machine Expert HVAC product. The [EcostruxureTM Machine Expert HVAC](https://www.se.com/ww/en/download/document...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "KMW CCTV Security Cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-06",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability may grant full unauthorized access to camera feeds and settings. The following versions of KMW CCTV Security Cameras are affected:  K...",
       "pub_date": "Thu, 28 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -594,22 +618,6 @@
       "image_url": ""
     },
     {
-      "title": "KMW CCTV Security Cameras",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-06",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability may grant full unauthorized access to camera feeds and settings. The following versions of KMW CCTV Security Cameras are affected:  K...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "MacGregor Voyage Data Recorder (VDR) G4e",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker gaining administrator access to the device. The following versions of MacGregor Voyage Data Recorder (...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added\u0026nbsp;three\u0026nbsp;new vulnerabilities\u0026nbsp;to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-8398\u0026nbsp;Daemon Tools Lite Em...",
@@ -618,25 +626,17 @@
       "image_url": ""
     },
     {
-      "title": "Eppendorf BioFlo 320",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full access to functionality and data with the bioreactor. The following versions of Eppendorf BioFlo...",
-      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB Ability Camera Connect",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-05",
-      "description": "View CSAF Summary ABB is aware of public reports of vulnerabilities in a 3rd party component VLC media player Version 2.2.4 which was delivered together with the installation package of Camera Conn...",
-      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "ABB B\u0026R Automation Runtime DoS Vulnerability in System Diagnostics Manager (SDM)",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04",
       "description": "View CSAF Summary An update is available that resolves a vulnerability identified by B\u0026amp;Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
+      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB LVS MConfig",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-06",
+      "description": "View CSAF Summary ABB became aware of an internally discovered vulnerability in the MConfig product versions listed as affected in the advisory. An attacker with access to local networks who succes...",
       "pub_date": "Tue, 26 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
