@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-06-02T00:12:27Z",
+  "last_updated": "2026-06-02T05:25:05Z",
   "articles": [
+    {
+      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+      "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+      "description": "Password manager Dashlane has disclosed that \"fewer than\" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack launched by an unknown part...",
+      "pub_date": "Tue, 02 Jun 2026 09:25:25 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMY3oQNaqfV2_sMYMZJ_EbUA90VD_t0w342aOV-tTDXEui63NgSB0SPYPhGVW9e5i8ZcEk7P5uudw6PJOi5od9rdsq9GzG0npc8FiqXuQ33r-zg81AMHW53prz_ovs2YbKrjaNfOOAp1tpmjhE3ADsjVymKPDGf4TyikPb1z18MOWk2YH-BteUQ6EUqYFI/s1600/dashlane.png"
+    },
+    {
+      "title": "Hackers Use Meta’s AI Bot to Reset Passwords and Hijack Instagram Accounts",
+      "link": "https://cybersecuritynews.com/metas-ai-support-bot-instagram/",
+      "description": "A critical logic flaw in Meta\u0026#8217;s AI-powered Instagram support chatbot allowed attackers to bypass two-factor authentication entirely, not by cracking codes, but by simply asking the bot to han...",
+      "pub_date": "Tue, 02 Jun 2026 02:06:07 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Metas-AI-Support-Bot-Instagram.webp"
+    },
     {
       "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
@@ -42,6 +58,14 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOyc2NTiIl0XKOTZBsFh1bTPqNpVXfDhASWkCsYz17d-nbiWVKlxCzoq3WthMD8kMomrRPPOYLM-XRmSdtXNKAxtk1QLtmZH47y2RExMGohBaBDPkpFp2PteUgaA16VcCs7tK-ImqCiLnpqyLg8Pwp6cWE5d9QT2_v0-QBduT7ovYrs7WSZ9t1MnQJ4EuO/s1600/redhat.png"
     },
     {
+      "title": "IBM WebSphere Server Vulnerable to Remote Code Execution Attack Via Crafted Request",
+      "link": "https://cybersecuritynews.com/ibm-websphere-server-remote-code-execution/",
+      "description": "IBM has disclosed a critical security vulnerability in its WebSphere Application Server ecosystem that could allow attackers to execute arbitrary code through specially crafted HTTP requests. The f...",
+      "pub_date": "Mon, 01 Jun 2026 17:09:10 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/IBM-WebSphere-Server-Vulnerable-to-remote-code-execution-Attack-Via-specially-crafted-request.webp"
+    },
+    {
       "title": "WordPress malware campaign hides payloads in Steam profiles",
       "link": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
       "description": "Nearly 2,000 WordPress websites were infected with malware that relies on Steam Community profile comments to hide command-and-control (C2) data. [...]",
@@ -50,12 +74,68 @@
       "image_url": ""
     },
     {
+      "title": "Critical Magento Cache Plugin Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/magento-cache-plugin-vulnerability/",
+      "description": "A critical security vulnerability has been discovered in a widely used Magento caching plugin that allows attackers to remotely execute malicious code with no login, configuration changes, or admin...",
+      "pub_date": "Mon, 01 Jun 2026 17:03:51 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-vulnerability-Magento-Cache-Plugin-Enables-remote-code-execution-Attacks.webp"
+    },
+    {
+      "title": "Critical MCP Toolbox Vulnerability Impacts Enterprise Database onnectors",
+      "link": "https://cybersecuritynews.com/mcp-toolbox-vulnerability/",
+      "description": "A newly disclosed vulnerability, tracked as CVE-2026-9739, is raising security concerns across enterprise environments using MCP Toolbox, particularly those that rely on Server-Sent Events (SSE) fo...",
+      "pub_date": "Mon, 01 Jun 2026 17:00:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-MCP-Toolbox-Vulnerability-Impacts-enterprise-database-connectors.webp"
+    },
+    {
+      "title": "Android Banking Trojan OverlayPhantom Abuses Accessibility Service to Control Devices",
+      "link": "https://cybersecuritynews.com/android-banking-trojan-overlayphantom/",
+      "description": "A dangerous new Android banking trojan called OverlayPhantom has been quietly targeting users across ten countries, placing banking credentials, financial data, and cryptocurrency accounts at serio...",
+      "pub_date": "Mon, 01 Jun 2026 16:09:13 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Android-Banking-Trojan-OverlayPhantom-Abuses-Accessibility-Service-to-Control-Devices.webp"
+    },
+    {
+      "title": "Microsoft Office for the Web and Teams Hit by File Access Outage",
+      "link": "https://cybersecuritynews.com/microsoft-office-teams-file-access/",
+      "description": "Microsoft experienced a service disruption affecting users\u0026#8217; ability to open files through Office for the Web and Microsoft Teams, with the company confirming resolution after investigating el...",
+      "pub_date": "Mon, 01 Jun 2026 16:07:30 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Office-Teams-File-Access.webp"
+    },
+    {
+      "title": "Attackers Abuse Docker and Kubernetes Misconfigurations to Compromise Host Systems",
+      "link": "https://cybersecuritynews.com/attackers-abuse-docker-and-kubernetes-misconfigurations/",
+      "description": "Attackers are actively exploiting misconfigurations in Docker and Kubernetes environments to break out of containers and take full control of the underlying host systems. What was once a niche conc...",
+      "pub_date": "Mon, 01 Jun 2026 16:06:10 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Attackers-Abuse-Docker-and-Kubernetes-Misconfigurations-to-Compromise-Host-Systems.webp"
+    },
+    {
+      "title": "SmartApeSG Campaign Uses ClickFix Scripts to Infect Windows Hosts With RAT Malware",
+      "link": "https://cybersecuritynews.com/smartapesg-campaign-uses-clickfix-scripts/",
+      "description": "A well-known social engineering campaign called SmartApeSG is back in the spotlight, this time using ClickFix scripts to quietly plant remote access malware on Windows computers. The campaign lures...",
+      "pub_date": "Mon, 01 Jun 2026 14:42:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/SmartApeSG-Campaign-Uses-ClickFix-Scripts-to-Infect-Windows-Hosts-With-RAT-Malware.webp"
+    },
+    {
       "title": "Microsoft investigates Office Apps, Teams file access issues",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/",
       "description": "Microsoft says an ongoing incident is preventing users of its Teams collaboration platform and Office for the web cloud-based productivity suite from opening files. [...]",
       "pub_date": "Mon, 01 Jun 2026 10:36:46 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Multiple Red Hat Cloud Services npm Packages Compromised to Deploy Credential-Stealing Malware",
+      "link": "https://cybersecuritynews.com/red-hat-cloud-services-npm-packages/",
+      "description": "A significant supply chain attack on June 1, 2026, targeting over 30 official packages under the @redhat-cloud-services npm scope. The campaign, dubbed \u0026#8220;Miasma: The Spreading Blight,\u0026#8221; i...",
+      "pub_date": "Mon, 01 Jun 2026 14:34:58 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Red-Hat-Cloud-Services-npm-Packages.webp"
     },
     {
       "title": "Race Against Time: Why Faster Vulnerability Alerts Matter",
@@ -72,6 +152,14 @@
       "pub_date": "Mon, 01 Jun 2026 19:29:54 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV-leTG-MQremNN5Ju342L6LQMn36xeD4jiS4YWT7EdYluHOtFDqIN8y3bQuV-A0D0wtsO5sRpG3Bpy5xdHhMs_sO_w3WoiiJzCd7o-7Hxw736ERxQs4WDd71EQEBIHLzT_UNFMwCDvC8Nij-gDNpMhsRnpsqoDHkuxUWLUEZSSTfDc4aXpx2qlpsaqlgH/s1600/cyberrecap.png"
+    },
+    {
+      "title": "Iranian Hackers Abuse AppDomainManager Hijacking to Evade EDR Detection",
+      "link": "https://cybersecuritynews.com/iranian-hackers-abuse-appdomainmanager-hijacking/",
+      "description": "Iranian hackers have taken their cyberespionage playbook to a new level, deploying a sophisticated .NET hijacking technique to slip past endpoint defenses and target organizations across the United...",
+      "pub_date": "Mon, 01 Jun 2026 12:40:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Iranian-Hackers-Abuse-AppDomainManager-Hijacking-to-Evade-EDR-Detection.webp"
     },
     {
       "title": "Critical Windows Netlogon RCE flaw now exploited in attacks",
@@ -232,14 +320,6 @@
       "pub_date": "Fri, 29 May 2026 11:27:41 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJfUl1K-os1XyLN-SBt6PgMia_jFG03ArRa3H0FI2hsiUqNa3lqSWY2NJcvOhY33TArSKJxeookUpkATdERUpEwKw-IUi6iv9ZVuUq4c1A99mLwgQB4ibCxBx4MBR1XXmM98zH7v-QWDO7bhh1AONQ8Op0htvwHhuivwI1Cch9rgLPO-zSGCjjQbvXdDte/s1600/north-korea.png"
-    },
-    {
-      "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
-      "link": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
-      "description": "A critical security vulnerability has been disclosed in Gogs, a popular open-source self-hosted Git service, that allows an authenticated user to execute arbitrary code under certain conditions.  T...",
-      "pub_date": "Thu, 28 May 2026 22:54:44 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaqRd_3DDSSASg_YzvuUEqv3elhvFWSjk56bXPoqJeNIWVo-K0giuJ3TNEXV-aYpnuVfOv00_VM428vIFVaMiuZzfL0dQdQvz0_xMNFq4CtrppgTZu5dupV0asq1wZjPW3FoMgUnyGMR_RgBpWT2oTnJFuhaldo3Cd3eNP-MOlDNhP9Uu2KDRiDpYHdoeq/s1600/exploit-meta.jpg"
     },
     {
       "title": "ZDI-26-326: TrendAI Vision One Security Agent Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
