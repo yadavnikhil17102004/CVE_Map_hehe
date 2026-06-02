@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-06-02T18:34:15Z",
+  "last_updated": "2026-06-02T21:43:11Z",
   "articles": [
+    {
+      "title": "AI-built ransomware toolkit automates EDR evasion, AD discovery",
+      "link": "https://www.bleepingcomputer.com/news/security/ai-built-ransomware-toolkit-automates-edr-evasion-ad-discovery/",
+      "description": "A threat actor is using an AI-built ransomware attack toolkit that automates Active Directory discovery and helps evade endpoint detection and response (EDR) solutions. [...]",
+      "pub_date": "Tue, 02 Jun 2026 16:01:20 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "WordPress Malware Abuses Steam Community Profiles for C2 Operations",
+      "link": "https://cybersecuritynews.com/wordpress-malware-abuses-steam/",
+      "description": "A newly discovered malware campaign targeting WordPress websites has raised serious concerns across the web security community. Attackers behind this campaign are using an unexpected method to comm...",
+      "pub_date": "Tue, 02 Jun 2026 18:50:58 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/WordPress-Malware-Abuses-Steam-Community-Profiles-for-C2-Operations.webp"
+    },
+    {
+      "title": "Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited",
+      "link": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
+      "description": "Google on Monday released patches for 124 security vulnerabilities impacting its Android operating system for the month of June 2026, including one high-severity flaw in the Framework component tha...",
+      "pub_date": "Wed, 03 Jun 2026 00:16:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu6SfsDfrb_dr_5DP0MiwOMy86maTi3XyrtkQLw-sHAGlBZbhZ0uEfRkamwFqXGT4qNmVIqg6LQtaaRVLr_oGnxvKHiSuCU0Qts79fzGzWbeySgkpak_Cci73EHSyvr1qC1EqiciaI86XW4KtODuln9vUkYHvoH1p3bh_FTzW6scXui1REmWDv84cTxhoX/s1600/android.jpg"
+    },
+    {
+      "title": "Threat Actor Uses Stolen Gemini API Keys to Automate Telegram Influence Campaign",
+      "link": "https://cybersecuritynews.com/threat-actor-uses-stolen-gemini-api-keys/",
+      "description": "A single threat actor has been running a fake political persona on Telegram for five years, quietly building an audience of over 17,000 subscribers while using stolen AI credentials to power the en...",
+      "pub_date": "Tue, 02 Jun 2026 18:45:55 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Threat-Actor-Uses-Stolen-Gemini-API-Keys-to-Automate-Telegram-Influence-Campaign.webp"
+    },
+    {
+      "title": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine",
+      "link": "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
+      "description": "The Russian hacking group known as Gamaredon has been attributed to the continued exploitation of a WinRAR vulnerability to deliver multiple malware families aimed at data theft and propagation.  P...",
+      "pub_date": "Tue, 02 Jun 2026 23:51:49 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIWYqVAlf5o0isz1fGZ_KcAkqIAroOtFMRAvlOMseZrj7e5iLaZ47_92-zoFzN4rtQHJpmGHjMaOShanlb01qhHO5-_EFXskV2RdVtxShkQDFzCBGrgec2P-6IAFxMqRBkkbnLFyjl0n4ZkPbQBkEMl0OQqlj3CgThRwQ6Z6tQaYPbp1YhZy4wcxdmi5dy/s1600/russian-malware.jpg"
+    },
+    {
+      "title": "Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation",
+      "link": "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) Catalog,...",
+      "pub_date": "Tue, 02 Jun 2026 23:44:42 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyTRAA7jrm-wO7d39ZhI2e75GnwqNE6t-CKpScXYfVikGGVRC4fYajbw5kn3aHqZc9rmbdjIqft5nwFLWAxCikfEMsfpt_h6dxGczVBeqAuujhbo01DpypfOJMqGqS0ohY7U1_L084pUvBxX8riiXrWssrwn76k7mMR-yR_3FMQV5fDjxIpRg-BPebCG_J/s1600/oracle.jpg"
+    },
     {
       "title": "Attackers Abuse AWS, Google Cloud, Cloudflare, and Microsoft Services to Hide Malicious Traffic",
       "link": "https://cybersecuritynews.com/attackers-abuse-cloud-services-malicious-traffic/",
@@ -88,22 +136,6 @@
       "pub_date": "Tue, 02 Jun 2026 13:48:15 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-flags-Palo-Alto-Networks-PAN-OS-vulnerability-as-exploited-in-attacks.webp"
-    },
-    {
-      "title": "Microsoft MSRC Allegedly Dismissed Dependency Confusion Vulnerability, Claims Researcher",
-      "link": "https://cybersecuritynews.com/microsoft-dependency-confusion-msrc-report/",
-      "description": "A dependency confusion vulnerability affecting Microsoft\u0026#8217;s Azure Portal after the Microsoft Security Response Center (MSRC) closed the case, claiming the confirmed remote code execution evide...",
-      "pub_date": "Tue, 02 Jun 2026 13:45:05 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Dependency-Confusion-MSRC-Report.webp"
-    },
-    {
-      "title": "Mustang Panda Deploys PlugX RAT Through Multi-Stage LNK and PowerShell Attack Chain",
-      "link": "https://cybersecuritynews.com/mustang-panda-deploys-plugx-rat/",
-      "description": "A well-known Chinese state-sponsored threat group called Mustang Panda has been caught running a sophisticated cyberattack campaign using its signature remote access tool, PlugX. The group used a c...",
-      "pub_date": "Tue, 02 Jun 2026 13:43:29 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Mustang-Panda-Deploys-PlugX-RAT-Through-Multi-Stage-LNK-and-PowerShell-Attack-Chain.webp"
     },
     {
       "title": "CISA flags two-year-old Oracle flaw as actively exploited in attacks",
@@ -250,14 +282,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUhiw46hdnhoY05E-0EyhOX5AxQrqJeNM0WDEWiYHAi5pPt4kIFPbvqGZhyAK4NxlAF7KJKxPfWlbGLbZUJJD9PgGmazvyhzaSgBXokM_6eYQfWXQ1HDv2heSDTnps4EGhjKqwCbuQOl0d9QN25tmn85xLujp-htCwLhhywI4A6BKJxkOOKb9FSu02AMjX/s1600/china.jpg"
     },
     {
-      "title": "Microsoft fixes outage affecting MFA setup, MySignIn service",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outage-affecting-mfa-setup-mysignin-service/",
-      "description": "Microsoft is working to address an ongoing incident preventing customers from setting up multi-factor authentication (MFA) or accessing the My Sign-Ins platform. [...]",
-      "pub_date": "Mon, 01 Jun 2026 07:40:16 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
       "link": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
       "description": "Three years ago, the practical question for an MSP building a cybersecurity practice was which \"vCISO platform\" to buy. The term was good shorthand for the work at the time: assessments, advisory, ...",
@@ -296,30 +320,6 @@
       "pub_date": "Sat, 30 May 2026 12:11:26 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkaW0i4ALAlpWQ_cOjfhoqUlNgMlZysJA6ay0qPViGI_KxEEG-Hh0KdtWLqBXDH42ZBGSONs0ZJuzOqdRF7vbx6Xa9J8HlP60lY45JHy0ivdRQs0exe4wZT2lI3TW4oDO-XXPVz2pek2M3izLqT3ONwq2iuHPN31ZZvK3jl0zIDq_h5XF1CTRk7fUPzjEQ/s1600/panos.jpg"
-    },
-    {
-      "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
-      "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
-      "description": "Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trig...",
-      "pub_date": "Fri, 29 May 2026 23:37:12 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikkk-MbHPjc5UpAORUC9pUfe-LntIu7A2tsg3EBFPXh3b6WXoiv8HtxvSakdqICfwN1YGSY452zIdjuyafscYfbf7yKnzbE_SxWxmPeX9uBLkTWY7aNyzLK903ts83ThlQGKOPYKNCW6UHg2c7ia4O7cVIwV5p24c-POfHYTJak6tRmL03rbjOWxCfpPYb/s1600/chatgpt-phishing.jpg"
-    },
-    {
-      "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
-      "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
-      "description": "An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a publicly-accessi...",
-      "pub_date": "Fri, 29 May 2026 20:09:56 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi20dgnD8cZh6NCcPM9Xa3fzLgNygU4O6AmBUmN1w6KwsDMJ8_jkpZPk77r8phf3MX-cXOlVxke-ypIuj2xh3AB3dy1HSuIa4YYFlgH8Odm1jCRVESBGqxgiDoRbQEG4L_QrKOoH8TSvLLKZxnBfPEemz4kaqWto4t_3cZCmWW44NX-Q1aWakBWVDhAza7T/s1600/marimo.png"
-    },
-    {
-      "title": "New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks ",
-      "link": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
-      "description": "A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 2025.  GREYVIBE, pe...",
-      "pub_date": "Fri, 29 May 2026 17:01:59 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzJ8u1-LKZwf1FFeVF2K2D2pupLFnsW_zsTumbLXt6eRSNY5NYPuBVxyacqbH-WZRBmTpGmnB0pulEcGex16O8u6812DC7RjtV5fBtVmRG55MdKOdmX2B5m1AtcgfZLCGnH_wNVxrdpfvRR70-MjsT7fzuS8wasEGhnDKmavU02xE6HjMg6FLpv3dvSFi7/s1600/russia-ai-cyberattacks.jpg"
     },
     {
       "title": "ZDI-26-326: TrendAI Vision One Security Agent Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
@@ -530,6 +530,14 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added two new vulnerabilities to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2022-0492 Linux Kernel Improper Authentication Vulne...",
+      "pub_date": "Tue, 02 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2024-21182 Oracle WebLogic Server Unspecified Vulnerab...",
@@ -546,14 +554,6 @@
       "image_url": ""
     },
     {
-      "title": "CP Plus 8 Ch. Network Video Recorder",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-05",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability allows an attacker's malicious script to execute in the browser of any authenticated user or administrator who accesses the affected ...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "KMW CCTV Security Cameras",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-06",
       "description": "View CSAF Summary Successful exploitation of this vulnerability may grant full unauthorized access to camera feeds and settings. The following versions of KMW CCTV Security Cameras are affected:  K...",
@@ -562,9 +562,57 @@
       "image_url": ""
     },
     {
+      "title": "ABB EIBPORT",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-03",
+      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. A firmware update is available that resolves these privately reported vulnerabilities i...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker gaining administrator access to the device. The following versions of Jinan USR IOT Technology Limited (P...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB Busch-Welcome 2 Wire Door Opener Actuator",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-04",
+      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could gain physical, unauthor...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Fourth Frontier Frontier X Mobile Application, Frontier X2",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-148-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read and write arbitrary handle values and change clinical readings, which could result in taking control ...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Schneider Electric EcoStruxure Machine Expert HVAC",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07",
+      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcostruxureTM Machine Expert HVAC product. The [EcostruxureTM Machine Expert HVAC](https://www.se.com/ww/en/download/document...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "MacGregor Voyage Data Recorder (VDR) G4e",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker gaining administrator access to the device. The following versions of MacGregor Voyage Data Recorder (...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "CP Plus 8 Ch. Network Video Recorder",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability allows an attacker's malicious script to execute in the browser of any authenticated user or administrator who accesses the affected ...",
       "pub_date": "Thu, 28 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -586,58 +634,10 @@
       "image_url": ""
     },
     {
-      "title": "Schneider Electric EcoStruxure Machine Expert HVAC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07",
-      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcostruxureTM Machine Expert HVAC product. The [EcostruxureTM Machine Expert HVAC](https://www.se.com/ww/en/download/document...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Fourth Frontier Frontier X Mobile Application, Frontier X2",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-148-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read and write arbitrary handle values and change clinical readings, which could result in taking control ...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB Busch-Welcome 2 Wire Door Opener Actuator",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-04",
-      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could gain physical, unauthor...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker gaining administrator access to the device. The following versions of Jinan USR IOT Technology Limited (P...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB EIBPORT",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-03",
-      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. A firmware update is available that resolves these privately reported vulnerabilities i...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added\u0026nbsp;three\u0026nbsp;new vulnerabilities\u0026nbsp;to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-8398\u0026nbsp;Daemon Tools Lite Em...",
       "pub_date": "Wed, 27 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB B\u0026R Automation Runtime DoS Vulnerability in System Diagnostics Manager (SDM)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04",
-      "description": "View CSAF Summary An update is available that resolves a vulnerability identified by B\u0026amp;Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who...",
-      "pub_date": "Tue, 26 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
