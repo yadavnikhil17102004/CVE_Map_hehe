@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-03T18:18:28Z",
+  "last_updated": "2026-06-03T21:43:33Z",
   "articles": [
+    {
+      "title": "The U.S. sanctions Nobitex crypto exchange used by ransomware",
+      "link": "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/",
+      "description": "The U.S. Treasury's Office of Foreign Assets Control (OFAC) has announced sanctions against Nobitex, Iran's largest cryptocurrency exchange, for facilitating payments related to terrorist activitie...",
+      "pub_date": "Wed, 03 Jun 2026 16:31:22 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": " CISA warns of cyberattacks targeting fuel tank monitoring systems",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/",
+      "description": "CISA, the FBI, the NSA, the Department of Energy, and other US government partners are warning that hackers are targeting internet-exposed automatic tank gauge (ATG) systems used to monitor fuel an...",
+      "pub_date": "Wed, 03 Jun 2026 16:21:56 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
+      "link": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html",
+      "description": "A single poisoned notification from WhatsApp, Slack, SMS, Signal, Instagram, or Messenger could have hijacked Google Gemini's voice assistant on Android and made it open a victim's connected window...",
+      "pub_date": "Thu, 04 Jun 2026 00:41:15 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCJpW9I-QTgQOkP7AV3rwUtEOEs96ek2ySR06Go-xq5AThZV84qY3mDN1Dkh0oQ-94jZHc7zB21ax9ljU0dW2LtsSW5p7xuuX9ARsvoIZQTGaMSkESGxTjl-PgTy8hrnsI8ucVZpENLEuMa9QzoUYVmfp4aug4OnEZq3XeL3ZELNZVELSegpS398l8vKg/s1600/gemini-prompt.jpg"
+    },
+    {
+      "title": "New 'HTTP/2 Bomb' DoS attack crashes web servers in under a minute",
+      "link": "https://www.bleepingcomputer.com/news/security/new-http-2-bomb-dos-attack-crashes-web-servers-in-under-a-minute/",
+      "description": "A new denial-of-service (DoS) attack dubbed HTTP/2 Bomb can be launched from a single machine to take down web servers within seconds. [...]",
+      "pub_date": "Wed, 03 Jun 2026 15:08:19 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Google DoubleClick Abused in New Malspam Campaign to Deliver DesckVB RAT",
+      "link": "https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html",
+      "description": "Cybersecurity researchers have flagged a new malspam campaign that makes use of Google's DoubleClick domain as a way to evade detection and ultimately deliver a remote access trojan (RAT) named Des...",
+      "pub_date": "Wed, 03 Jun 2026 21:59:16 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpQ6QXxFH4zkfeHGdcm1WXVcNXMpyJm-1dlZLbFCdp6rKDRhuwICzYaKaR-rCpn61qod6A1F98PZejZbmYuxaUXPJLXQffoaniCkqgyqR1-p7gClpj4PYibjzIDHk8_Vw4ag00EYPCM3Nz1G0Hvzuf6wBV-HzDFoSiYDEEdjPU45Bk_rIlGk9dJ_MMVuue/s1600/ad-malware.jpg"
+    },
     {
       "title": "CISA warns of active attacks exploiting Android, Linux bugs",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/",
@@ -10,12 +50,36 @@
       "image_url": ""
     },
     {
+      "title": "Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore",
+      "link": "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
+      "description": "Assume the breach. Zero-days keep shipping, AI is writing exploits faster than anyone patches, and \"patch everything in time\" stopped working years ago. Stop betting the org on winning that race. Y...",
+      "pub_date": "Wed, 03 Jun 2026 20:26:46 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzZPASJ7ymlBpeDWq_d-byWp58FpBR6tdX6QfLJFFoGRHK9xB5mTbx0guIcMFKFYV87inRtJyM-cKJXI0Td5fVtpC1ITBFmp2myS2wBynVSF3rZP2jZWH6uR-_14ZEalErJASiKWVDJ_TD551AC0pN5A3Mu8y-Z1zW5mKvFMOmdLzrdWnhYCif0FR1lOE/s1600/hd.jpg"
+    },
+    {
+      "title": "Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag",
+      "link": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
+      "description": "A development flag left switched on in production builds of several Microsoft 365 Android apps disabled the check that limits account-token sharing to trusted Microsoft apps.  Any other app on the ...",
+      "pub_date": "Wed, 03 Jun 2026 20:26:35 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_pEYWDRVadGL0WYM3iSY6jqFgBez8snXgoyeyAzcXNmxiytv-FgiKoBJX3aPivuYhSJjXp4o_zO1dQSIPUfduaAlB-rvSti7pFhdDZSrAa-ennBdfdVpe1Xo0dMxKATB8te61pyJAf60x5CP6OJzjzmtpFIg_qHQqA7VP-rUnEpaT37Z0qBOmbZ52BfM/s1600/ms-android.jpg"
+    },
+    {
       "title": "What 345 Days of Untested Exposure Looks Like at a Bank",
       "link": "https://www.bleepingcomputer.com/news/security/what-345-days-of-untested-exposure-looks-like-at-a-bank/",
       "description": "A two-week penetration test can leave roughly 345 days of real-world exposure unvalidated. Sprocket Security explores why continuous testing is becoming critical as attack surfaces constantly chang...",
       "pub_date": "Wed, 03 Jun 2026 10:02:12 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)",
+      "link": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
+      "description": "Redis has  patched  a use-after-free in its blocking-client code that lets an authenticated user run arbitrary OS commands on the machine hosting the database. The flaw was found by an autonomous A...",
+      "pub_date": "Wed, 03 Jun 2026 19:17:09 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTV6zPqD9KC3Rc5Mz9c8XENLiJntboDT6LIoD3L2FXlTUVC3rsWZ_3YLfe_jmhhyphenhyphenjb5RCwkTsdoyypD9VXxYgj_2GYaAupNMlOyZkycm94qr7XiarmBCpYQdZDN_Gwq6KrOmomzx1dmbz4hpUkw4OZparqEbydJneNKaWQI0fcP5tctpKxsZ7kFP5FCv0/s1600/redis-db.png"
     },
     {
       "title": "One-Click GitHub Dev Attack Lets Attackers Steal Full GitHub OAuth Tokens",
@@ -40,14 +104,6 @@
       "pub_date": "Wed, 03 Jun 2026 07:35:47 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore",
-      "link": "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
-      "description": "Assume the breach. Zero-days keep shipping, AI is writing exploits faster than anyone patches, and \"patch everything in time\" stopped working years ago. Stop betting the org on winning that race. Y...",
-      "pub_date": "Wed, 03 Jun 2026 16:58:59 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzZPASJ7ymlBpeDWq_d-byWp58FpBR6tdX6QfLJFFoGRHK9xB5mTbx0guIcMFKFYV87inRtJyM-cKJXI0Td5fVtpC1ITBFmp2myS2wBynVSF3rZP2jZWH6uR-_14ZEalErJASiKWVDJ_TD551AC0pN5A3Mu8y-Z1zW5mKvFMOmdLzrdWnhYCif0FR1lOE/s1600/hd.jpg"
     },
     {
       "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
@@ -170,30 +226,6 @@
       "image_url": ""
     },
     {
-      "title": "Instagram users locked out after Meta AI abused to steal accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/",
-      "description": "Multiple Instagram users had their accounts hijacked after attackers convinced Meta's AI-powered support tools that they were the legitimate owners. [...]",
-      "pub_date": "Tue, 02 Jun 2026 11:47:33 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Why the browser is now the front line for AI security",
-      "link": "https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/",
-      "description": "AI-powered attacks and shadow AI adoption are creating new security risks inside the browser. Push Security explains why browser visibility is becoming critical for both threat detection and AI gov...",
-      "pub_date": "Tue, 02 Jun 2026 10:30:40 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "CISA flags two-year-old Oracle flaw as actively exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
-      "description": "CISA has ordered government agencies to secure their systems against a high-severity Oracle WebLogic Server vulnerability that was patched two years ago and is now actively exploited in attacks. [...]",
-      "pub_date": "Tue, 02 Jun 2026 08:40:33 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.",
       "link": "https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html",
       "description": "AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of...",
@@ -208,38 +240,6 @@
       "pub_date": "Tue, 02 Jun 2026 16:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdciYseLWNtSuIlPrhxjKI4HId3_-g3E9nr2PmvF-sdPELDdug8zPHASf-hJwZKEUXi9n0pjN08mhpoe-BB_wi241-xBwfKPT8YeJdo41fnHHC9phaZR4TrLiGfTXS8X2SKdlKJMMcwbTuh0LYSbdsHJtNgTfVD5AZU9Y6XzCTqdTg8Vy8qSAVXq254AM/s1600/alert.png"
-    },
-    {
-      "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
-      "link": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
-      "description": "Cybersecurity researchers have disclosed details of a spear-phishing campaign likely undertaken by the Pakistan-aligned SideCopy group targeting Afghanistan's Ministry of Finance with an open-sourc...",
-      "pub_date": "Tue, 02 Jun 2026 14:35:40 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiilTEadDjLrLdKByKVP6n_zfNSbhTTutHu-9BbbIDTBotobmqmIOI7fDdGGHZQQB7wTo00L66NAKZBA3iRBLQpSf_NgH9hKe9Xd-WUoijt7y-CUbdZore_qSZpTmuBhExaAxeXn39EPCVPYugMnJ85c15e161ttOMRmbSAv7NcbUlYrqDV4NnbzHZvw0A5/s1600/paki.gif"
-    },
-    {
-      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
-      "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
-      "description": "Password manager Dashlane has disclosed that \"fewer than\" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack launched by an unknown part...",
-      "pub_date": "Tue, 02 Jun 2026 09:25:25 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMY3oQNaqfV2_sMYMZJ_EbUA90VD_t0w342aOV-tTDXEui63NgSB0SPYPhGVW9e5i8ZcEk7P5uudw6PJOi5od9rdsq9GzG0npc8FiqXuQ33r-zg81AMHW53prz_ovs2YbKrjaNfOOAp1tpmjhE3ADsjVymKPDGf4TyikPb1z18MOWk2YH-BteUQ6EUqYFI/s1600/dashlane.png"
-    },
-    {
-      "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
-      "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
-      "description": "A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma, has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a self-pro...",
-      "pub_date": "Mon, 01 Jun 2026 23:10:28 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOyc2NTiIl0XKOTZBsFh1bTPqNpVXfDhASWkCsYz17d-nbiWVKlxCzoq3WthMD8kMomrRPPOYLM-XRmSdtXNKAxtk1QLtmZH47y2RExMGohBaBDPkpFp2PteUgaA16VcCs7tK-ImqCiLnpqyLg8Pwp6cWE5d9QT2_v0-QBduT7ovYrs7WSZ9t1MnQJ4EuO/s1600/redhat.png"
-    },
-    {
-      "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More",
-      "link": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
-      "description": "Monday hit like a cron job with anger issues.  A busted auth path here, a repo-side faceplant there, some \"patched-ish\" thing already getting chewed on in the wild, and then the usual bonus round: ...",
-      "pub_date": "Mon, 01 Jun 2026 19:29:54 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV-leTG-MQremNN5Ju342L6LQMn36xeD4jiS4YWT7EdYluHOtFDqIN8y3bQuV-A0D0wtsO5sRpG3Bpy5xdHhMs_sO_w3WoiiJzCd7o-7Hxw736ERxQs4WDd71EQEBIHLzT_UNFMwCDvC8Nij-gDNpMhsRnpsqoDHkuxUWLUEZSSTfDc4aXpx2qlpsaqlgH/s1600/cyberrecap.png"
     },
     {
       "title": "ZDI-26-326: TrendAI Vision One Security Agent Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
