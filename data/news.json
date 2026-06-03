@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-06-03T02:57:19Z",
+  "last_updated": "2026-06-03T08:13:54Z",
   "articles": [
+    {
+      "title": "VS Code zero-day lets hackers steal GitHub tokens in one click",
+      "link": "https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/",
+      "description": "A security researcher has released exploit code for a Visual Studio Code (VS Code) zero-day vulnerability that allows attackers to steal GitHub authentication tokens by tricking users into clicking...",
+      "pub_date": "Wed, 03 Jun 2026 02:50:30 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
+      "link": "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html",
+      "description": "Cybersecurity researchers have flagged a new campaign targeting Minecraft players via YouTube to spread malware capable of gaining control of victims' systems.  The Minecraft-focused malware-as-a-s...",
+      "pub_date": "Wed, 03 Jun 2026 11:46:54 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBhPg_oWS3s5XgNMW4vuwq3Pwrnsw3l3FyzGwoYkQ7AwCuU6VXH6sOv03o04S4jw-7pkVzAsccuFCxzMX1tg8JbB8D9k5onrVg0-D7HBQduN4pAHq2FOH9a-tSeokVqGIyJS-hStrL7fs5I9u67yp2gRKjOYuTYF_xUrsJnIWL3GdTZ7bLiU6u1vObezoD/s1600/hacker-pirate.jpg"
+    },
     {
       "title": "Microsoft's Coreutils project brings Linux commands to Windows",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsofts-coreutils-project-brings-linux-commands-to-windows/",
@@ -26,8 +42,8 @@
       "image_url": ""
     },
     {
-      "title": "Over 116,000 Mincraft systems infected in WeedHack malware campaign",
-      "link": "https://www.bleepingcomputer.com/news/security/over-116-000-mincraft-systems-infected-in-weedhack-malware-campaign/",
+      "title": "Over 116,000 Minecraft systems infected in WeedHack malware campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/over-116-000-minecraft-systems-infected-in-weedhack-malware-campaign/",
       "description": "A large-scale malware campaign dubbed WeedHack is targeting Minecraft players and has infected more than 116,000 systems since January. [...]",
       "pub_date": "Tue, 02 Jun 2026 17:54:49 -0400",
       "source": "BleepingComputer",
@@ -178,14 +194,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOyc2NTiIl0XKOTZBsFh1bTPqNpVXfDhASWkCsYz17d-nbiWVKlxCzoq3WthMD8kMomrRPPOYLM-XRmSdtXNKAxtk1QLtmZH47y2RExMGohBaBDPkpFp2PteUgaA16VcCs7tK-ImqCiLnpqyLg8Pwp6cWE5d9QT2_v0-QBduT7ovYrs7WSZ9t1MnQJ4EuO/s1600/redhat.png"
     },
     {
-      "title": "WordPress malware campaign hides payloads in Steam profiles",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
-      "description": "Nearly 2,000 WordPress websites were infected with malware that relies on Steam Community profile comments to hide command-and-control (C2) data. [...]",
-      "pub_date": "Mon, 01 Jun 2026 13:04:16 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More",
       "link": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
       "description": "Monday hit like a cron job with anger issues.  A busted auth path here, a repo-side faceplant there, some \"patched-ish\" thing already getting chewed on in the wild, and then the usual bonus round: ...",
@@ -232,14 +240,6 @@
       "pub_date": "Sun, 31 May 2026 17:52:12 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU44Ejz__EFKfpIrEypTxhK3KW7XV3oiEIJEWAC-_PyhbhUvOZzmv3SCAmiuGZdFNdzYIDR2GLwOAhX9nIaAoOD4iFXucpEpB4Ym2vMAqvayyi1JkYyqj2uEYAXPGbXe5dzYNw5a__5KnXvrnJsEVtwnJJs6v_zBlfl3sKo0J83QwylgCL1A2Vck1HktJ8/s1600/botnet.png"
-    },
-    {
-      "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
-      "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
-      "description": "Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild.  The vulnerability, tracked ...",
-      "pub_date": "Sat, 30 May 2026 12:11:26 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkaW0i4ALAlpWQ_cOjfhoqUlNgMlZysJA6ay0qPViGI_KxEEG-Hh0KdtWLqBXDH42ZBGSONs0ZJuzOqdRF7vbx6Xa9J8HlP60lY45JHy0ivdRQs0exe4wZT2lI3TW4oDO-XXPVz2pek2M3izLqT3ONwq2iuHPN31ZZvK3jl0zIDq_h5XF1CTRk7fUPzjEQ/s1600/panos.jpg"
     },
     {
       "title": "ZDI-26-326: TrendAI Vision One Security Agent Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
