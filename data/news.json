@@ -1,6 +1,118 @@
 {
-  "last_updated": "2026-06-03T08:13:54Z",
+  "last_updated": "2026-06-03T13:09:42Z",
   "articles": [
+    {
+      "title": "Critical Apache ActiveMQ Vulnerability Allows Malicious Security Header Injections",
+      "link": "https://cybersecuritynews.com/apache-activemq-header-injection-vulnerability/",
+      "description": "A critical vulnerability in Apache ActiveMQ has been disclosed, allowing attackers to inject malicious HTTP security headers through improperly handled message properties, potentially leading to cr...",
+      "pub_date": "Wed, 03 Jun 2026 12:47:14 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-Apache-ActiveMQ-Vulnerability-Allows-malicious-security-header-Injections-.webp"
+    },
+    {
+      "title": "Ivanti ITSM Vulnerability Lets Attackers Gain Admin Privilege",
+      "link": "https://cybersecuritynews.com/ivanti-itsm-vulnerability-admin-privilege/",
+      "description": "Ivanti has disclosed a high-severity vulnerability in its Ivanti Neurons for ITSM platform that could allow attackers with valid credentials to escalate privileges and gain full administrative acce...",
+      "pub_date": "Wed, 03 Jun 2026 12:44:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Ivanti-ITSM-Vulnerability-let-Attackers-Gain-Admin-Privilege-.webp"
+    },
+    {
+      "title": "Laravel CRLF Injection Vulnerability Enables an Attacker to Interfere with Outbound Email Processing",
+      "link": "https://cybersecuritynews.com/laravel-crlf-injection-vulnerability/",
+      "description": "A high-severity CRLF injection vulnerability in the Laravel framework, tracked as CVE-2026-48019, could allow attackers to interfere with outbound email processing in affected applications. The iss...",
+      "pub_date": "Wed, 03 Jun 2026 12:14:30 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Laravel-CRLF-injection-Vulnerability-Enable-attacker-to-interfere-with-outbound-email-processing.webp"
+    },
+    {
+      "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
+      "link": "https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html",
+      "description": "The Fragmented State of Modern Enterprise Identity  Enterprise IAM is approaching a breaking point. As organizations scale, identity becomes increasingly fragmented across thousands of applications...",
+      "pub_date": "Wed, 03 Jun 2026 17:28:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuT21gubKVL2cAsQrEiju_yAE3Pxe1IPxsl9RlGfhMEeis2IuQglnZjwTme6xM1_IJNymXFY1kZsouMGecR2lQnzvMDXyjnY1Y7CT1Dz_xf0pRVkwJEJG9o1EfOlPMfgfZ0MO6eyKGKJDwRHrEsw2-Cai9QO3pfrryeSENy5kH4C_pdjDgsXVOO80TPy8/s1600/orchid.jpg"
+    },
+    {
+      "title": "Hackers Use YouTube and SEO Poisoning to Spread WeedHack Minecraft Malware",
+      "link": "https://cybersecuritynews.com/hackers-use-youtube-and-seo-poisoning/",
+      "description": "Hackers are hiding dangerous malware inside what look like popular Minecraft mods and game clients, using YouTube videos and search engine tricks to pull unsuspecting players into their trap. The c...",
+      "pub_date": "Wed, 03 Jun 2026 11:52:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-YouTube-and-SEO-Poisoning-to-Spread-WeedHack-Minecraft-Malware.webp"
+    },
+    {
+      "title": "Acer working to patch max severity zero-days in Wave 7 routers",
+      "link": "https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/",
+      "description": "Acer is working to address two maximum-severity zero-day vulnerabilities affecting its Wave 7 mesh routers. [...]",
+      "pub_date": "Wed, 03 Jun 2026 07:35:47 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore",
+      "link": "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
+      "description": "Assume the breach. Zero-days keep shipping, AI is writing exploits faster than anyone patches, and \"patch everything in time\" stopped working years ago. Stop betting the org on winning that race. Y...",
+      "pub_date": "Wed, 03 Jun 2026 16:58:59 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzZPASJ7ymlBpeDWq_d-byWp58FpBR6tdX6QfLJFFoGRHK9xB5mTbx0guIcMFKFYV87inRtJyM-cKJXI0Td5fVtpC1ITBFmp2myS2wBynVSF3rZP2jZWH6uR-_14ZEalErJASiKWVDJ_TD551AC0pN5A3Mu8y-Z1zW5mKvFMOmdLzrdWnhYCif0FR1lOE/s1600/hd.jpg"
+    },
+    {
+      "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
+      "link": "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
+      "description": "Cybersecurity researchers have disclosed details of an unpatched issue that could be exploited to disclose a user's NTLMv2 hash to the attacker.  Like in the case of CVE-2026-33829, which impacted ...",
+      "pub_date": "Wed, 03 Jun 2026 15:48:52 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9Y4FY1kH_mrU4oH2X7TPrnmPdf9Ib4UZ4Xgud4Qgjie69on9qP9D1OU8i3ol3THTISUTy8OBJzPXzbUTyHwx1xF8cWuYvb9r-_7r_g-gFXyW62phdyaEAd41PI5cfduXxd084XQdwhxQ40Ti5n7SvkhIbZRktqP8G9bhufjlrxzxHYWpFTAXAfSSWstwc/s1600/NTLM.jpg"
+    },
+    {
+      "title": "Police dismantles 9 crime groups in illegal streaming crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/",
+      "description": "European and international law enforcement agencies have dismantled nine organized crime groups and arrested 29 suspects in a major crackdown on illegal streaming operations. [...]",
+      "pub_date": "Wed, 03 Jun 2026 06:12:24 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Google adds Android protection against AI deepfake scam calls",
+      "link": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
+      "description": "Google is introducing a new Android security feature that will detect and flag phone calls in which scammers use artificial intelligence to impersonate a user's personal contacts. [...]",
+      "pub_date": "Wed, 03 Jun 2026 05:02:11 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy \u0026 Cloudflare",
+      "link": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html",
+      "description": "Cybersecurity researchers have discovered a remote denial-of-service exploit that affects major web servers, including NGINX, Apache HTTPD, Microsoft IIS, Envoy, and Cloudflare Pingora.  The vulner...",
+      "pub_date": "Wed, 03 Jun 2026 14:03:35 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhP07q0cgsa0a9VyTU6oPpxqvoZ5Gg2spx-ClmUIzn9LjYzDfuKNxnLXNuXMexiMB8GjKewhk7CnAL5HXgpCL_wq5eaU8VK2mTxxcKJHAZ9eLBskg516sBn4SV5XHWOuZIozDzBD_0MUCAMcVpGyqOEWITNKi2mQFxFLl9gqg_3UxPlwmXCkRfm2JERftyN/s1600/http2.gif"
+    },
+    {
+      "title": "Microsoft 365 Android Apps Account Takeover Vulnerability Impacted Billions of Android Users",
+      "link": "https://cybersecuritynews.com/microsoft-365-android-apps-account-takeover-vulnerability/",
+      "description": "A single forgotten development flag left active in production code silently handed Microsoft account tokens to any app on an Android device, exposing billions of users across six major Microsoft 36...",
+      "pub_date": "Wed, 03 Jun 2026 08:12:12 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-365-Android-Apps-Account-Takeover-Vulnerability-Impacted-Billions-of-Android-Users-1.webp"
+    },
+    {
+      "title": "Windows Search URI Handler Flaw Leaks NTLMv2 Hashes to Attacker-Controlled Servers",
+      "link": "https://cybersecuritynews.com/windows-search-uri-flaw-leaks-ntlmv2-hashes/",
+      "description": "A newly disclosed flaw in the Windows\u0026#160;search\u0026#160;URI handler can silently leak NTLMv2 hashes to attacker-controlled servers with nothing more than a single link click. This behavior is the sa...",
+      "pub_date": "Wed, 03 Jun 2026 08:07:13 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Windows-Search-URI-Handler-Flaw-Leaks-NTLMv2-Hashes-to-Attacker-Controlled-Servers.webp"
+    },
+    {
+      "title": "HTTP/2 Bomb — Remote DoS Exploit Hits nginx, Apache, IIS, Envoy, and Cloudflare Pingora",
+      "link": "https://cybersecuritynews.com/http-2-bomb-remote-dos-exploit/",
+      "description": "A newly disclosed remote denial-of-service exploit dubbed \u0026#8220;HTTP/2 Bomb\u0026#8221; targets the default HTTP/2 configurations of the world\u0026#8217;s most widely deployed web servers, nginx, Apache ht...",
+      "pub_date": "Wed, 03 Jun 2026 07:19:11 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/HTTP2-Bomb-Remote-DoS-Exploit.webp"
+    },
     {
       "title": "VS Code zero-day lets hackers steal GitHub tokens in one click",
       "link": "https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/",
@@ -16,6 +128,14 @@
       "pub_date": "Wed, 03 Jun 2026 11:46:54 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBhPg_oWS3s5XgNMW4vuwq3Pwrnsw3l3FyzGwoYkQ7AwCuU6VXH6sOv03o04S4jw-7pkVzAsccuFCxzMX1tg8JbB8D9k5onrVg0-D7HBQduN4pAHq2FOH9a-tSeokVqGIyJS-hStrL7fs5I9u67yp2gRKjOYuTYF_xUrsJnIWL3GdTZ7bLiU6u1vObezoD/s1600/hacker-pirate.jpg"
+    },
+    {
+      "title": "1-Click GitHub Token Vulnerability Lets Attackers Steal Users’ OAuth Tokens",
+      "link": "https://cybersecuritynews.com/1-click-github-token-vulnerability/",
+      "description": "A critical security vulnerability in Visual Studio Code\u0026#8217;s webview implementation allows attackers to steal GitHub OAuth tokens, including read/write access to private repositories, simply by ...",
+      "pub_date": "Wed, 03 Jun 2026 01:59:57 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/1-Click-GitHub-Token-Vulnerability.webp"
     },
     {
       "title": "Microsoft's Coreutils project brings Linux commands to Windows",
@@ -58,12 +178,28 @@
       "image_url": ""
     },
     {
+      "title": "WordPress Malware Abuses Steam Community Profiles for C2 Operations",
+      "link": "https://cybersecuritynews.com/wordpress-malware-abuses-steam/",
+      "description": "A newly discovered malware campaign targeting WordPress websites has raised serious concerns across the web security community. Attackers behind this campaign are using an unexpected method to comm...",
+      "pub_date": "Tue, 02 Jun 2026 18:50:58 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/WordPress-Malware-Abuses-Steam-Community-Profiles-for-C2-Operations.webp"
+    },
+    {
       "title": "Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited",
       "link": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
       "description": "Google on Monday released patches for 124 security vulnerabilities impacting its Android operating system for the month of June 2026, including one high-severity flaw in the Framework component tha...",
       "pub_date": "Wed, 03 Jun 2026 00:16:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu6SfsDfrb_dr_5DP0MiwOMy86maTi3XyrtkQLw-sHAGlBZbhZ0uEfRkamwFqXGT4qNmVIqg6LQtaaRVLr_oGnxvKHiSuCU0Qts79fzGzWbeySgkpak_Cci73EHSyvr1qC1EqiciaI86XW4KtODuln9vUkYHvoH1p3bh_FTzW6scXui1REmWDv84cTxhoX/s1600/android.jpg"
+    },
+    {
+      "title": "Threat Actor Uses Stolen Gemini API Keys to Automate Telegram Influence Campaign",
+      "link": "https://cybersecuritynews.com/threat-actor-uses-stolen-gemini-api-keys/",
+      "description": "A single threat actor has been running a fake political persona on Telegram for five years, quietly building an audience of over 17,000 subscribers while using stolen AI credentials to power the en...",
+      "pub_date": "Tue, 02 Jun 2026 18:45:55 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Threat-Actor-Uses-Stolen-Gemini-API-Keys-to-Automate-Telegram-Influence-Campaign.webp"
     },
     {
       "title": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine",
@@ -162,30 +298,6 @@
       "image_url": ""
     },
     {
-      "title": "Red Hat npm packages compromised to steal developer credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
-      "description": "More than 30 npm packages under Red Hat's '@redhat-cloud-services' namespace were compromised in a supply-chain attack that distributed a new variant of the Shai-Hulud credential-stealing malware, ...",
-      "pub_date": "Mon, 01 Jun 2026 17:38:29 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Spain arrests doxer leaking sensitive data of govt employees",
-      "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
-      "description": "The Spanish National Police has arrested an individual for leaking sensitive information related to members of various key state organizations, including the National Cybersecurity Institute (INCIB...",
-      "pub_date": "Mon, 01 Jun 2026 17:28:41 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Dashlane password manager users locked out by brute force attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
-      "description": "Multiple Dashlane users have been locked out of their accounts following brute-force attacks that attempted logins from distant locations and unknown devices. [...]",
-      "pub_date": "Mon, 01 Jun 2026 14:17:13 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
       "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
       "description": "A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma, has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a self-pro...",
@@ -210,110 +322,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUhiw46hdnhoY05E-0EyhOX5AxQrqJeNM0WDEWiYHAi5pPt4kIFPbvqGZhyAK4NxlAF7KJKxPfWlbGLbZUJJD9PgGmazvyhzaSgBXokM_6eYQfWXQ1HDv2heSDTnps4EGhjKqwCbuQOl0d9QN25tmn85xLujp-htCwLhhywI4A6BKJxkOOKb9FSu02AMjX/s1600/china.jpg"
     },
     {
-      "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
-      "link": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
-      "description": "Three years ago, the practical question for an MSP building a cybersecurity practice was which \"vCISO platform\" to buy. The term was good shorthand for the work at the time: assessments, advisory, ...",
-      "pub_date": "Mon, 01 Jun 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOvm8XaHJ9FBjwjKyTkm_2pt81tT-4sHdK9UDWm7_hCk4rA95U0peF3Zi7kO_fmJioaGKKloqru4yC-AwrSOdZ17v7m8K2K-t4lyYOGfC66J8r3cSi_v09IPRAfknHSeRBv13kjrk6XBzqpCvKS6ujugm4cR6Xrt1LK40bC091c0k_SgptQnGYIznwWwQ/s1600/cynomi.jpg"
-    },
-    {
-      "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
-      "link": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
-      "description": "Cybersecurity researchers have disclosed details of a new malicious supply chain campaign that's targeting developers using OpenAI Codex through a legitimate-looking remote web UI.  The tool, named...",
-      "pub_date": "Mon, 01 Jun 2026 15:01:15 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4veBAmEJHF2nXN_nIgXeWxVSxlTDBc6uWiLwVCYNUqGMF9ZtPre3zF_CXmGnAxX2rbqfwgm_Au0tXvYwv1oTGim1STiGCeVOyMXglUTd-3LeJEN3q718Fdlck9mbQ6aUUYP0NM9S7bakZ4_XF5HHYH-cz2QmKBlge6xNMxbbEjDjZQ4wd1maPKnjgKrsu/s1600/codex.png"
-    },
-    {
-      "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
-      "link": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
-      "description": "Threat actors are attempting to actively exploit a critical security flaw impacting WP Maps Pro, a WordPress plugin that has had over 15,000 sales on the Envato Market, to create malicious administ...",
-      "pub_date": "Mon, 01 Jun 2026 14:15:29 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR5AZVDVlhPdPOYO4FsyfLsBmtohzgdjmh688BLU6VRpwi-MaKq4XYgE5-ygnQtcUDMKcR8R4-f9IrfiSFpCodN01gveAWlDpu4Jg4AI9DMKQG50zMr5M1QhqjVAjyuYJQ-vF849bn3jkkDJuBRahpyUwAz8libDqBIwh08wgQNsfmchLwqRUqiYKRDkMT/s1600/wordpress-2.jpg"
-    },
-    {
-      "title": "Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices",
-      "link": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
-      "description": "Dutch authorities have announced the takedown of a botnet that enslaved millions of infected devices, including computers, tablets, smartphones, and IoT devices, to carry out malicious attacks.  Th...",
-      "pub_date": "Sun, 31 May 2026 17:52:12 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU44Ejz__EFKfpIrEypTxhK3KW7XV3oiEIJEWAC-_PyhbhUvOZzmv3SCAmiuGZdFNdzYIDR2GLwOAhX9nIaAoOD4iFXucpEpB4Ym2vMAqvayyi1JkYyqj2uEYAXPGbXe5dzYNw5a__5KnXvrnJsEVtwnJJs6v_zBlfl3sKo0J83QwylgCL1A2Vck1HktJ8/s1600/botnet.png"
-    },
-    {
-      "title": "ZDI-26-326: TrendAI Vision One Security Agent Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-326/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
-      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-325: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-325/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
-      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-324: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-324/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
-      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-323: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-323/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
-      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-322: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-322/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
-      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-321: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-321/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
-      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-320: TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-320/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged ...",
-      "pub_date": "Thu, 28 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-319: Progress Software Kemp LoadMaster addcountry Command Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-319/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is required to exploit this vulnerability. The ZD...",
-      "pub_date": "Thu, 21 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-318: Progress Software Kemp LoadMaster ssodomain_killsession Command Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-318/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is required to exploit this vulnerability. The ZD...",
-      "pub_date": "Thu, 21 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
       "title": "Investigation update: GitHub Enterprise Server signing key rotation",
       "link": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
       "description": "GitHub Enterprise Server customers need to take immediate action. The post Investigation update: GitHub Enterprise Server signing key rotation appeared first on The GitHub Blog.",
@@ -327,54 +335,6 @@
       "description": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Qu...",
       "pub_date": "Fri, 15 May 2026 14:00:00 +0000",
       "source": "GitHub Security",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-317/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Siemens Simcenter Femap. User interaction is required to exploit this vulnerability in that the tar...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-316: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-316/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Siemens Simcenter Femap. User interaction is required to exploit this vulnerability in that the tar...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-315: Apple macOS USD Out-Of-Bounds Read Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-315/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the USD library is required to exploit this vulnerability but...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-314: Apple macOS USD File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-314/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the USD library is required to exploit this vulnerability but attack ...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-313: Apple Safari Regular Expression Duplicate Named Groups Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-313/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must vi...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-312: Apple Safari Web Inspector WebCore Style Resolver Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-312/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must vi...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
