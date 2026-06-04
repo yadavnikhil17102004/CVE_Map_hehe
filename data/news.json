@@ -1,6 +1,38 @@
 {
-  "last_updated": "2026-06-04T16:48:11Z",
+  "last_updated": "2026-06-04T19:14:36Z",
   "articles": [
+    {
+      "title": "DentaQuest data breach  exposed info of 2.6 million accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
+      "description": "A data breach at the dental benefits administrator DentaQuest has reportedly exposed the sensitive data of 2.6 million accounts.  [...]",
+      "pub_date": "Thu, 04 Jun 2026 14:36:27 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Stock Exchange Executive’s Outlook Account Targeted to Exfiltrate Credentials",
+      "link": "https://cybersecuritynews.com/stock-exchange-executives-outlook-account-targeted/",
+      "description": "A senior executive at a major global stock exchange had their Microsoft Outlook account silently compromised for five straight months, with attackers carefully siphoning emails in small batches to ...",
+      "pub_date": "Thu, 04 Jun 2026 17:58:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Stock-Exchange-Executives-Outlook-Account-Targeted-to-Exfiltrate-Credentials.webp"
+    },
+    {
+      "title": "CISA Warns of critical Magento Cache Warmer RCE flaw Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/magento-cache-warmer-rce-flaw-exploited/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning about a critical remote code execution vulnerability affecting the Mirasvit Full Page Cache Warmer exte...",
+      "pub_date": "Thu, 04 Jun 2026 16:58:47 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-Warns-of-critical-Magento-Cache-Warmer-RCE-flaw-Exploied-in-Attacks.webp"
+    },
+    {
+      "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
+      "link": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
+      "description": "Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root.  It is tracked as CVE-2026-2023...",
+      "pub_date": "Thu, 04 Jun 2026 22:25:51 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6_xkmI_c8KreZ4cr2oC9gHJERU9xWsLGDrCNCaB11IQVGmJ-r0MYUjqGllvOFc0IVwGYBqnzLJl96WBTSVXUr5Z8KRym9SsnoUlNN6oEditbTFqW3kTfOhujPEPN-KIzGJmxaJGh9mCvY1TadCVfJJfIBoTjbXn2TCcbQE8NHsKhe8ld53YHYsG5MTYg/s1600/cisco-flaw.jpg"
+    },
     {
       "title": "Anthropic’s Claude Oceanus-v1-p Opens to Red Team Testing, but Distribution is Compromised",
       "link": "https://cybersecuritynews.com/anthropics-claude-oceanus-v1-p/",
@@ -40,6 +72,14 @@
       "pub_date": "Thu, 04 Jun 2026 20:45:26 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiaBF9jAklPh1ncr_eVPGnV229BSTNgAjkScVm-yTXAn4IcBjjZoLIglasRdu1XEPafCxJhqVZrC3zkNWilyAhN-6Ox8z2HBRjNg2D4aqJsDiRDg02BgAy4zgwU2100ZLIO8yTOtarI0Vxa3AGUQk0GZq1_zKSFQOhNiNoyVsP2AldJZoW8ZJ1rY936ZI/s1600/claude-code-hack.jpg"
+    },
+    {
+      "title": "Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It",
+      "link": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html",
+      "description": "Over the past several weeks, the cybersecurity community has been reminded how quickly frontier and agentic AI in defense networks can challenge our assumptions. When Anthropic's Claude Mythos mode...",
+      "pub_date": "Thu, 04 Jun 2026 20:40:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6i36LXqSESJrnuYOf6ULo2Hijp9l8i9UTGbRzCLuWImPpfPJ6cKQgBFGhS8yx3_qn8IoM0MgY0pmL4mZfzegatvhQWDKV5OQ3MfOWvPzYIokXaFDUvBM3EYsMOqtQoxx0AmeiakeocpBIlaNeCiBkPcnK1OW8abfIz0_8zuybqKQvWuriVC97Ir259Sw/s1600/agentic-ai.jpg"
     },
     {
       "title": "Proofpoint Warns TA4922 Deploys Atlas RAT, RomulusLoader, SilentRunLoader, and ValleyRAT",
@@ -106,7 +146,7 @@
       "image_url": ""
     },
     {
-      "title": "China-Linked TA4922 Expands Phishing Attacks to UK, Germany, Italy, and South Africa",
+      "title": "China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa",
       "link": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
       "description": "A new China-linked cybercrime group known as TA4922 has expanded its targeting focus to target European organizations in the U.K., Germany, Italy, and South Africa.  These efforts have been complem...",
       "pub_date": "Thu, 04 Jun 2026 17:52:25 +0530",
@@ -146,14 +186,6 @@
       "image_url": ""
     },
     {
-      "title": "Comodo Internet Security 0-Day Vulnerability Lets Attacker Crash the User’s Windows System",
-      "link": "https://cybersecuritynews.com/comodo-internet-security-0-day-vulnerability/",
-      "description": "An unpatched zero-day vulnerability in Comodo Internet Security\u0026#8217;s firewall driver, Inspect.sys, after receiving no response from the vendor following multiple disclosure attempts. The vulnera...",
-      "pub_date": "Thu, 04 Jun 2026 10:30:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Comodo-Internet-Security-0-Day-Vulnerability.webp"
-    },
-    {
       "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
       "link": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
       "description": "Cybersecurity researchers have flagged a large-scale operation that impersonates open-source and freeware projects to funnel unsuspecting users through a Traffic Distribution System (TDS) and deliv...",
@@ -170,20 +202,20 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpg8pBdHkENT_CKClsSR7f4Rb7BQpM27ynGrkRdJg-bbUfI2NIHQ_rFmkOVHjK8RggTD-XMvVdGGI_qrYyIx-Ml1sfwbRkbjaNo8Fz40cWg8wFWK8h5-f-FaB58HryMM5AYlUHI2uO7x12VFvAB6N3w1gobWmzGgp8xXqHfWMERFh7hVS9lBHxfdu71Xs/s1600/stock-emails.jpg"
     },
     {
-      "title": "Cisco Unified Communications Manager Vulnerability Exposed Along With PoC Exploit Code",
-      "link": "https://cybersecuritynews.com/cisco-unified-communications-manager-vulnerability/",
-      "description": "Cisco has disclosed a critical server-side request forgery (SSRF) vulnerability in its Unified Communications Manager (Unified CM) and Unified CM Session Management Edition (SME). Tracked as CVE-20...",
-      "pub_date": "Thu, 04 Jun 2026 09:16:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Cisco-Unified-Communications-Manager-Vulnerability-Exposed-along-With-PoC-Exploit-Code.webp"
-    },
-    {
       "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
       "link": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html",
       "description": "The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabled and cryptocurr...",
       "pub_date": "Thu, 04 Jun 2026 11:36:25 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTf5wAHnoXtVauiln2MwlVvLc4LxcL8SBTLuW648LfFhUd8QyuOUfjmg0Hd91QlksmWF2u-PQhxHDTDmseMIG64V4Fo2I2lXXGO1o0BncbL_UTeBrGztErg66yXAm0trYlWxqGbE-sKb5VjXjqeyNiCMkxbdcxwX1BDRGexhP-b0s3dZl0lNRpY9u6nsTQ/s1600/police-crypto.jpg"
+    },
+    {
+      "title": "ZDI-26-328: ASUS Business Manager Service Client-Side Authentication Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-328/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of ASUS Business Manager. An attacker must first obtain the ability to execute low-privileged code on the ...",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "Chinese hackers use new Atlas RAT malware in European cyberattacks",
@@ -274,28 +306,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzZPASJ7ymlBpeDWq_d-byWp58FpBR6tdX6QfLJFFoGRHK9xB5mTbx0guIcMFKFYV87inRtJyM-cKJXI0Td5fVtpC1ITBFmp2myS2wBynVSF3rZP2jZWH6uR-_14ZEalErJASiKWVDJ_TD551AC0pN5A3Mu8y-Z1zW5mKvFMOmdLzrdWnhYCif0FR1lOE/s1600/hd.jpg"
     },
     {
-      "title": "Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag",
-      "link": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
-      "description": "A development flag left switched on in production builds of several Microsoft 365 Android apps disabled the check that limits account-token sharing to trusted Microsoft apps.  Any other app on the ...",
-      "pub_date": "Wed, 03 Jun 2026 20:26:35 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_pEYWDRVadGL0WYM3iSY6jqFgBez8snXgoyeyAzcXNmxiytv-FgiKoBJX3aPivuYhSJjXp4o_zO1dQSIPUfduaAlB-rvSti7pFhdDZSrAa-ennBdfdVpe1Xo0dMxKATB8te61pyJAf60x5CP6OJzjzmtpFIg_qHQqA7VP-rUnEpaT37Z0qBOmbZ52BfM/s1600/ms-android.jpg"
-    },
-    {
       "title": "What 345 Days of Untested Exposure Looks Like at a Bank",
       "link": "https://www.bleepingcomputer.com/news/security/what-345-days-of-untested-exposure-looks-like-at-a-bank/",
       "description": "A two-week penetration test can leave roughly 345 days of real-world exposure unvalidated. Sprocket Security explores why continuous testing is becoming critical as attack surfaces constantly chang...",
       "pub_date": "Wed, 03 Jun 2026 10:02:12 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
-      "link": "https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html",
-      "description": "The Fragmented State of Modern Enterprise Identity  Enterprise IAM is approaching a breaking point. As organizations scale, identity becomes increasingly fragmented across thousands of applications...",
-      "pub_date": "Wed, 03 Jun 2026 17:28:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuT21gubKVL2cAsQrEiju_yAE3Pxe1IPxsl9RlGfhMEeis2IuQglnZjwTme6xM1_IJNymXFY1kZsouMGecR2lQnzvMDXyjnY1Y7CT1Dz_xf0pRVkwJEJG9o1EfOlPMfgfZ0MO6eyKGKJDwRHrEsw2-Cai9QO3pfrryeSENy5kH4C_pdjDgsXVOO80TPy8/s1600/orchid.jpg"
     },
     {
       "title": "Acer working to patch max severity zero-days in Wave 7 routers",
@@ -314,11 +330,11 @@
       "image_url": ""
     },
     {
-      "title": "Google adds Android protection against AI deepfake scam calls",
-      "link": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
-      "description": "Google is introducing a new Android security feature that will detect and flag phone calls in which scammers use artificial intelligence to impersonate a user's personal contacts. [...]",
-      "pub_date": "Wed, 03 Jun 2026 05:02:11 -0400",
-      "source": "BleepingComputer",
+      "title": "ZDI-26-327: Docker Desktop grpcfuse Kernel Module Uncontrolled Recursion Denial-of-Service Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-327/",
+      "description": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Docker Desktop. An attacker must first obtain the ability to execute low-privileged co...",
+      "pub_date": "Wed, 03 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
       "image_url": ""
     },
     {
@@ -437,22 +453,6 @@
       "title": "ZDI-26-314: Apple macOS USD File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-314/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the USD library is required to exploit this vulnerability but attack ...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-313: Apple Safari Regular Expression Duplicate Named Groups Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-313/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must vi...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-312: Apple Safari Web Inspector WebCore Style Resolver Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-312/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must vi...",
       "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
