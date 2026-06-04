@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-06-04T19:14:36Z",
+  "last_updated": "2026-06-04T21:25:36Z",
   "articles": [
+    {
+      "title": "Credit card theft campaign abuses Stripe to host stolen payment info",
+      "link": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
+      "description": "A new Magecart campaign is using Stripe's API infrastructure to host the credit card-stealing payload and the data exfiltrated from checkout pages. [...]",
+      "pub_date": "Thu, 04 Jun 2026 16:47:16 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "DentaQuest data breach  exposed info of 2.6 million accounts",
       "link": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
@@ -8,22 +16,6 @@
       "pub_date": "Thu, 04 Jun 2026 14:36:27 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Stock Exchange Executive’s Outlook Account Targeted to Exfiltrate Credentials",
-      "link": "https://cybersecuritynews.com/stock-exchange-executives-outlook-account-targeted/",
-      "description": "A senior executive at a major global stock exchange had their Microsoft Outlook account silently compromised for five straight months, with attackers carefully siphoning emails in small batches to ...",
-      "pub_date": "Thu, 04 Jun 2026 17:58:49 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Stock-Exchange-Executives-Outlook-Account-Targeted-to-Exfiltrate-Credentials.webp"
-    },
-    {
-      "title": "CISA Warns of critical Magento Cache Warmer RCE flaw Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/magento-cache-warmer-rce-flaw-exploited/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning about a critical remote code execution vulnerability affecting the Mirasvit Full Page Cache Warmer exte...",
-      "pub_date": "Thu, 04 Jun 2026 16:58:47 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-Warns-of-critical-Magento-Cache-Warmer-RCE-flaw-Exploied-in-Attacks.webp"
     },
     {
       "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
@@ -34,28 +26,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6_xkmI_c8KreZ4cr2oC9gHJERU9xWsLGDrCNCaB11IQVGmJ-r0MYUjqGllvOFc0IVwGYBqnzLJl96WBTSVXUr5Z8KRym9SsnoUlNN6oEditbTFqW3kTfOhujPEPN-KIzGJmxaJGh9mCvY1TadCVfJJfIBoTjbXn2TCcbQE8NHsKhe8ld53YHYsG5MTYg/s1600/cisco-flaw.jpg"
     },
     {
-      "title": "Anthropic’s Claude Oceanus-v1-p Opens to Red Team Testing, but Distribution is Compromised",
-      "link": "https://cybersecuritynews.com/anthropics-claude-oceanus-v1-p/",
-      "description": "A next-generation Anthropic model has surfaced in restricted testing channels, but early distribution was already compromised before the evaluation formally began. References to claude-oceanus-v1-p...",
-      "pub_date": "Thu, 04 Jun 2026 16:43:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Anthropics-Claude-Oceanus-v1-p.webp"
-    },
-    {
       "title": "UN food agency discloses breach affecting 600,000 Gaza households",
       "link": "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/",
       "description": "The United Nations' World Food Programme (WFP), the world's largest humanitarian organization, revealed over the weekend that its self-registration application (SRA) for Palestine was breached. [...]",
       "pub_date": "Thu, 04 Jun 2026 12:38:49 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Cybercriminals Shift From Fake Login Pages to Infostealer Malware in Phishing Attacks",
-      "link": "https://cybersecuritynews.com/cybercriminals-shift-from-fake-login-pages/",
-      "description": "Phishing attacks have always been one of the most common ways cybercriminals steal personal and business data. But something has quietly changed about how these attacks work. Instead of tricking pe...",
-      "pub_date": "Thu, 04 Jun 2026 15:44:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Cybercriminals-Shift-From-Fake-Login-Pages-to-Infostealer-Malware-in-Phishing-Attacks.webp"
     },
     {
       "title": "New IronWorm malware hits 36 packages in npm supply-chain attack",
@@ -82,14 +58,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6i36LXqSESJrnuYOf6ULo2Hijp9l8i9UTGbRzCLuWImPpfPJ6cKQgBFGhS8yx3_qn8IoM0MgY0pmL4mZfzegatvhQWDKV5OQ3MfOWvPzYIokXaFDUvBM3EYsMOqtQoxx0AmeiakeocpBIlaNeCiBkPcnK1OW8abfIz0_8zuybqKQvWuriVC97Ir259Sw/s1600/agentic-ai.jpg"
     },
     {
-      "title": "Proofpoint Warns TA4922 Deploys Atlas RAT, RomulusLoader, SilentRunLoader, and ValleyRAT",
-      "link": "https://cybersecuritynews.com/proofpoint-warns-ta4922-deploys-atlas-rat/",
-      "description": "A sophisticated cybercrime group known as TA4922 is raising alarms across the global security community. The group has been deploying a growing arsenal of malware, including Atlas RAT, RomulusLoade...",
-      "pub_date": "Thu, 04 Jun 2026 15:09:02 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Proofpoint-Warns-TA4922-Deploys-Atlas-RAT-RomulusLoader-SilentRunLoader-and-ValleyRAT.webp"
-    },
-    {
       "title": "Hackers Are After the Gaps in Your Vulnerability Program: Here's Their Playbook",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/",
       "description": "Threat actors are actively teaching newcomers how to find, exploit, and profit from vulnerable systems. Flare explores what a popular underground hacking tutorial reveals about modern attacker work...",
@@ -106,36 +74,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOsPH2SzhBWTxhXi2KCJw0YY29azn2hLkDQwQhyrjmwaRIXQfCAPNIjej3_TBd6VJm1JqWSs2EoI2jiWyVHENmhtd1alqSEqlJC8WxUk4b5zWUqszQ8akhGzRmCHf8OL7wMTZiWLYZDzHRXY8unPcsh2QMTfyTH0XeRszrwCunK2DazuZIF9oNKQUFxlqN/s1600/thh.jpg"
     },
     {
-      "title": "Weaponized ChatGPT Download Site Delivers Malware Via Sponsored Search Results",
-      "link": "https://cybersecuritynews.com/weaponized-chatgpt-download-site-delivers-malware/",
-      "description": "A new malvertising campaign is exploiting ChatGPT\u0026#8217;s popularity by promoting a weaponized fake download site via sponsored search results, delivering malware to both Windows and macOS users. S...",
-      "pub_date": "Thu, 04 Jun 2026 13:46:12 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Weaponized-ChatGPT-download-site-delivers-Malware-Via-sponsored-search-results-.webp"
-    },
-    {
       "title": "Microsoft blames unexpected Windows driver updates on caching issue",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-unexpected-windows-driver-updates-on-caching-issue/",
       "description": "On Wednesday, Microsoft fixed an issue that caused some Windows devices to install driver updates without notice despite policies configured to prevent auto-updates. [...]",
       "pub_date": "Thu, 04 Jun 2026 09:41:42 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Kali365 PhaaS Operation Expands Beyond Microsoft 365 to Target Okta and MAX Messenger",
-      "link": "https://cybersecuritynews.com/kali365-phaas-operation-expands-beyond-microsoft-365/",
-      "description": "A new and fast-growing phishing operation is making waves in the cybersecurity world, and it is moving far beyond its original targets. Kali365, a phishing-as-a-service (PhaaS) platform first spott...",
-      "pub_date": "Thu, 04 Jun 2026 13:01:57 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Kali365-PhaaS-Operation-Expands-Beyond-Microsoft-365-to-Target-Okta-and-MAX-Messenger.webp"
-    },
-    {
-      "title": "Payouts King Ransomware Evades EDR With Obfuscation and Direct System Calls",
-      "link": "https://cybersecuritynews.com/payouts-king-ransomware-evades-edr/",
-      "description": "A new ransomware group known as Payouts King has quietly been building a reputation since it first appeared in April 2025. While it spent most of last year flying under the radar, early 2026 brough...",
-      "pub_date": "Thu, 04 Jun 2026 12:51:47 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Payouts-King-Ransomware-Evades-EDR-With-Obfuscation-and-Direct-System-Calls.png"
     },
     {
       "title": "Police dismantles fake ID marketplace used by migrant smugglers",
@@ -152,22 +96,6 @@
       "pub_date": "Thu, 04 Jun 2026 17:52:25 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhq_JkP80d1IA8rz-SoYEBmuGqK_K7OpGrqiki4vB1ShMW5mFBVSMvl8H5MnYylZMl3AWeqdAmp19oZIL_7amYErNxBGiUAJqrOqGO0zjHH2jxCKCNdiGH_nqjHlksD9dlu4QGCq9KzMRfnWAi7YnPQQ86pnCypNupFDn_h-hSJdfhWT0Y4s01w6Cw-s6Od/s1600/phishing-hook.jpg"
-    },
-    {
-      "title": "Hackers Actively Exploiting WordPress Plugin Vulnerability to Inject Malicious PHP Code",
-      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exploit/",
-      "description": "Hackers are actively exploiting a critical remote code execution (RCE) vulnerability in the Everest Forms Pro WordPress plugin, allowing unauthenticated attackers to inject and execute arbitrary PH...",
-      "pub_date": "Thu, 04 Jun 2026 12:01:36 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Actively-Exploiting-WordPress-plugin-Vulnerability-to-inject-PHP-code.webp"
-    },
-    {
-      "title": "Teams and Google Drive Leveraged to Compromise Systems Within 20 Minutes",
-      "link": "https://cybersecuritynews.com/microsoft-teams-and-google-drive-abused/",
-      "description": "Hackers are increasingly abusing trusted enterprise platforms such as Microsoft Teams and Google Drive to deploy stealthy remote access malware, with a newly observed campaign leveraging social eng...",
-      "pub_date": "Thu, 04 Jun 2026 11:55:45 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abusing-Abusing-Microsoft-Teams-and-Google-Drive-to-Deploy-Remote-Access-Malware.webp"
     },
     {
       "title": "FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads",
@@ -208,6 +136,30 @@
       "pub_date": "Thu, 04 Jun 2026 11:36:25 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTf5wAHnoXtVauiln2MwlVvLc4LxcL8SBTLuW648LfFhUd8QyuOUfjmg0Hd91QlksmWF2u-PQhxHDTDmseMIG64V4Fo2I2lXXGO1o0BncbL_UTeBrGztErg66yXAm0trYlWxqGbE-sKb5VjXjqeyNiCMkxbdcxwX1BDRGexhP-b0s3dZl0lNRpY9u6nsTQ/s1600/police-crypto.jpg"
+    },
+    {
+      "title": "ZDI-26-331: (Pwn2Own) Microsoft Edge Feedback Log File Handling Directory Traversal Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-331/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must ...",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-330: (Pwn2Own) Microsoft Edge Navigation Handling Universal Cross-Site Scripting Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-330/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary cross-origin script on affected installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that t...",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-329: (Pwn2Own) Microsoft Edge Origin Validation Error Security Bypass Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-329/",
+      "description": "This vulnerability allows remote attackers to access restricted functionality on affected installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the tar...",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
     },
     {
       "title": "ZDI-26-328: ASUS Business Manager Service Client-Side Authentication Local Privilege Escalation Vulnerability",
@@ -322,14 +274,6 @@
       "image_url": ""
     },
     {
-      "title": "Police dismantles 9 crime groups in illegal streaming crackdown",
-      "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/",
-      "description": "European and international law enforcement agencies have dismantled nine organized crime groups and arrested 29 suspects in a major crackdown on illegal streaming operations. [...]",
-      "pub_date": "Wed, 03 Jun 2026 06:12:24 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "ZDI-26-327: Docker Desktop grpcfuse Kernel Module Uncontrolled Recursion Denial-of-Service Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-327/",
       "description": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Docker Desktop. An attacker must first obtain the ability to execute low-privileged co...",
@@ -429,30 +373,6 @@
       "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-317/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Siemens Simcenter Femap. User interaction is required to exploit this vulnerability in that the tar...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-316: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-316/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Siemens Simcenter Femap. User interaction is required to exploit this vulnerability in that the tar...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-315: Apple macOS USD Out-Of-Bounds Read Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-315/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the USD library is required to exploit this vulnerability but...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-314: Apple macOS USD File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-314/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the USD library is required to exploit this vulnerability but attack ...",
       "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
