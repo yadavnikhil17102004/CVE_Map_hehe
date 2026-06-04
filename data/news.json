@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-06-04T13:55:52Z",
+  "last_updated": "2026-06-04T16:48:11Z",
   "articles": [
+    {
+      "title": "Anthropic’s Claude Oceanus-v1-p Opens to Red Team Testing, but Distribution is Compromised",
+      "link": "https://cybersecuritynews.com/anthropics-claude-oceanus-v1-p/",
+      "description": "A next-generation Anthropic model has surfaced in restricted testing channels, but early distribution was already compromised before the evaluation formally began. References to claude-oceanus-v1-p...",
+      "pub_date": "Thu, 04 Jun 2026 16:43:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Anthropics-Claude-Oceanus-v1-p.webp"
+    },
+    {
+      "title": "UN food agency discloses breach affecting 600,000 Gaza households",
+      "link": "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/",
+      "description": "The United Nations' World Food Programme (WFP), the world's largest humanitarian organization, revealed over the weekend that its self-registration application (SRA) for Palestine was breached. [...]",
+      "pub_date": "Thu, 04 Jun 2026 12:38:49 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Cybercriminals Shift From Fake Login Pages to Infostealer Malware in Phishing Attacks",
+      "link": "https://cybersecuritynews.com/cybercriminals-shift-from-fake-login-pages/",
+      "description": "Phishing attacks have always been one of the most common ways cybercriminals steal personal and business data. But something has quietly changed about how these attacks work. Instead of tricking pe...",
+      "pub_date": "Thu, 04 Jun 2026 15:44:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Cybercriminals-Shift-From-Fake-Login-Pages-to-Infostealer-Malware-in-Phishing-Attacks.webp"
+    },
+    {
+      "title": "New IronWorm malware hits 36 packages in npm supply-chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/",
+      "description": "A new supply-chain attack has infected 36 packages on the Node Package Manager (npm) index with infostealer malware called IronWorm. [...]",
+      "pub_date": "Thu, 04 Jun 2026 11:25:37 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
+      "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+      "description": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub i...",
+      "pub_date": "Thu, 04 Jun 2026 20:45:26 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiaBF9jAklPh1ncr_eVPGnV229BSTNgAjkScVm-yTXAn4IcBjjZoLIglasRdu1XEPafCxJhqVZrC3zkNWilyAhN-6Ox8z2HBRjNg2D4aqJsDiRDg02BgAy4zgwU2100ZLIO8yTOtarI0Vxa3AGUQk0GZq1_zKSFQOhNiNoyVsP2AldJZoW8ZJ1rY936ZI/s1600/claude-code-hack.jpg"
+    },
+    {
+      "title": "Proofpoint Warns TA4922 Deploys Atlas RAT, RomulusLoader, SilentRunLoader, and ValleyRAT",
+      "link": "https://cybersecuritynews.com/proofpoint-warns-ta4922-deploys-atlas-rat/",
+      "description": "A sophisticated cybercrime group known as TA4922 is raising alarms across the global security community. The group has been deploying a growing arsenal of malware, including Atlas RAT, RomulusLoade...",
+      "pub_date": "Thu, 04 Jun 2026 15:09:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Proofpoint-Warns-TA4922-Deploys-Atlas-RAT-RomulusLoader-SilentRunLoader-and-ValleyRAT.webp"
+    },
+    {
+      "title": "Hackers Are After the Gaps in Your Vulnerability Program: Here's Their Playbook",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/",
+      "description": "Threat actors are actively teaching newcomers how to find, exploit, and profit from vulnerable systems. Flare explores what a popular underground hacking tutorial reveals about modern attacker work...",
+      "pub_date": "Thu, 04 Jun 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors \u0026 20+ New Stories",
+      "link": "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html",
+      "description": "It got stupid again.  The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird stuff is normal...",
+      "pub_date": "Thu, 04 Jun 2026 19:30:49 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOsPH2SzhBWTxhXi2KCJw0YY29azn2hLkDQwQhyrjmwaRIXQfCAPNIjej3_TBd6VJm1JqWSs2EoI2jiWyVHENmhtd1alqSEqlJC8WxUk4b5zWUqszQ8akhGzRmCHf8OL7wMTZiWLYZDzHRXY8unPcsh2QMTfyTH0XeRszrwCunK2DazuZIF9oNKQUFxlqN/s1600/thh.jpg"
+    },
     {
       "title": "Weaponized ChatGPT Download Site Delivers Malware Via Sponsored Search Results",
       "link": "https://cybersecuritynews.com/weaponized-chatgpt-download-site-delivers-malware/",
@@ -112,30 +176,6 @@
       "pub_date": "Thu, 04 Jun 2026 09:16:19 +0000",
       "source": "Cyber Security News",
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Cisco-Unified-Communications-Manager-Vulnerability-Exposed-along-With-PoC-Exploit-Code.webp"
-    },
-    {
-      "title": "CISA Warns of Android Framework Integer Overflow Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/android-framework-integer-overflow-vulnerability-exploited/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a newly identified Android Framework vulnerability, tracked as CVE-2025-48595, to its Known Exploited Vulnerabilities (KEV...",
-      "pub_date": "Thu, 04 Jun 2026 09:07:01 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-Warns-of-Android-Framework-Integer-Overflow-Vulnerability-Exploited-in-Attacks.webp"
-    },
-    {
-      "title": "Hackers Use Fake Chrome Web Store Copyright Notices to Steal Google Credentials",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-chrome-web-store-copyright-notices/",
-      "description": "A new phishing campaign is targeting Chrome extension developers using fake copyright removal notices that look like official messages from the Chrome Web Store. The scam tricks developers into ent...",
-      "pub_date": "Thu, 04 Jun 2026 07:49:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-Fake-Chrome-Web-Store-Copyright-Notices-to-Steal-Google-Credentials.webp"
-    },
-    {
-      "title": "Acer Working to Patch Wave 7 Router 0-day Vulnerability",
-      "link": "https://cybersecuritynews.com/acer-patch-wave-7-router-0-day-vulnerability/",
-      "description": "Acer is preparing a firmware update to address a critical zero-day vulnerability affecting its Wave 7 routers, following disclosure by independent security researcher Gergo Pap. The issue affects d...",
-      "pub_date": "Thu, 04 Jun 2026 07:26:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Acer-Working-to-Patch-Wave-7-Router-0-day-Vulnerability.webp"
     },
     {
       "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
@@ -266,14 +306,6 @@
       "image_url": ""
     },
     {
-      "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
-      "link": "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
-      "description": "Cybersecurity researchers have disclosed details of an unpatched issue that could be exploited to disclose a user's NTLMv2 hash to the attacker.  Like in the case of CVE-2026-33829, which impacted ...",
-      "pub_date": "Wed, 03 Jun 2026 15:48:52 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9Y4FY1kH_mrU4oH2X7TPrnmPdf9Ib4UZ4Xgud4Qgjie69on9qP9D1OU8i3ol3THTISUTy8OBJzPXzbUTyHwx1xF8cWuYvb9r-_7r_g-gFXyW62phdyaEAd41PI5cfduXxd084XQdwhxQ40Ti5n7SvkhIbZRktqP8G9bhufjlrxzxHYWpFTAXAfSSWstwc/s1600/NTLM.jpg"
-    },
-    {
       "title": "Police dismantles 9 crime groups in illegal streaming crackdown",
       "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/",
       "description": "European and international law enforcement agencies have dismantled nine organized crime groups and arrested 29 suspects in a major crackdown on illegal streaming operations. [...]",
@@ -286,38 +318,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
       "description": "Google is introducing a new Android security feature that will detect and flag phone calls in which scammers use artificial intelligence to impersonate a user's personal contacts. [...]",
       "pub_date": "Wed, 03 Jun 2026 05:02:11 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy \u0026 Cloudflare",
-      "link": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html",
-      "description": "Cybersecurity researchers have discovered a remote denial-of-service exploit that affects major web servers, including NGINX, Apache HTTPD, Microsoft IIS, Envoy, and Cloudflare Pingora.  The vulner...",
-      "pub_date": "Wed, 03 Jun 2026 14:03:35 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhP07q0cgsa0a9VyTU6oPpxqvoZ5Gg2spx-ClmUIzn9LjYzDfuKNxnLXNuXMexiMB8GjKewhk7CnAL5HXgpCL_wq5eaU8VK2mTxxcKJHAZ9eLBskg516sBn4SV5XHWOuZIozDzBD_0MUCAMcVpGyqOEWITNKi2mQFxFLl9gqg_3UxPlwmXCkRfm2JERftyN/s1600/http2.gif"
-    },
-    {
-      "title": "VS Code zero-day lets hackers steal GitHub tokens in one click",
-      "link": "https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/",
-      "description": "A security researcher has released exploit code for a Visual Studio Code (VS Code) zero-day vulnerability that allows attackers to steal GitHub authentication tokens by tricking users into clicking...",
-      "pub_date": "Wed, 03 Jun 2026 02:50:30 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft's Coreutils project brings Linux commands to Windows",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsofts-coreutils-project-brings-linux-commands-to-windows/",
-      "description": "Microsoft announced today at its Build 2026 developer conference the release of Coreutils for Windows, bringing many commonly used Linux command-line utilities to Windows as native applications. [...]",
-      "pub_date": "Tue, 02 Jun 2026 18:52:40 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "OpenAI upgrades GPT-5.5, as it plans to retire legacy ChatGPT models",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-upgrades-gpt-55-as-it-plans-to-retire-legacy-chatgpt-models/",
-      "description": "OpenAI says it's rolling out a new update that improves the existing GPT-5.5 Instant model, and this move comes ahead of the scheduled retirement of multiple legacy models, including o3. [...]",
-      "pub_date": "Tue, 02 Jun 2026 18:44:50 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -522,6 +522,46 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/03/ai-high-level-overview5.excalidraw.png?resize=1024%2C779"
     },
     {
+      "title": "NAVTOR NavBox",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to gain unauthorized access to SOAP methods, resulting in a disruption of operations. The following vers...",
+      "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Hitachi Energy MACH HiDraw",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-05",
+      "description": "View CSAF Summary Hitachi Energy is aware of a buffer overflow vulnerability that affects MACH HiDraw product versions listed in this document. Successful exploitation of this vulnerability could l...",
+      "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Hitachi Energy ITT600 Explorer",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-02",
+      "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect ITT600 Explorer product versions listed in this document. These vulnerabilities can be exploited to carry out Denial of Serv...",
+      "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "B\u0026R PPT30 Operating System",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-03",
+      "description": "View CSAF Summary B\u0026amp;R is aware of a vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploits this vulnerability could make the OPC-UA serv...",
+      "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Hitachi Energy RTU500",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-04",
+      "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. If exploited, these vulnerabilities primarily impact product availability, ...",
+      "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-45247\u0026nbsp;Mirasvit Full Page Cache Warmer Deseri...",
@@ -562,46 +602,6 @@
       "image_url": ""
     },
     {
-      "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker gaining administrator access to the device. The following versions of Jinan USR IOT Technology Limited (P...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB Busch-Welcome 2 Wire Door Opener Actuator",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-04",
-      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could gain physical, unauthor...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Fourth Frontier Frontier X Mobile Application, Frontier X2",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-148-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read and write arbitrary handle values and change clinical readings, which could result in taking control ...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB EIBPORT",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-03",
-      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. A firmware update is available that resolves these privately reported vulnerabilities i...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Schneider Electric EcoStruxure Machine Expert HVAC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07",
-      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcostruxureTM Machine Expert HVAC product. The [EcostruxureTM Machine Expert HVAC](https://www.se.com/ww/en/download/document...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "CP Plus 8 Ch. Network Video Recorder",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-05",
       "description": "View CSAF Summary Successful exploitation of this vulnerability allows an attacker's malicious script to execute in the browser of any authenticated user or administrator who accesses the affected ...",
@@ -618,9 +618,9 @@
       "image_url": ""
     },
     {
-      "title": "MacGregor Voyage Data Recorder (VDR) G4e",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker gaining administrator access to the device. The following versions of MacGregor Voyage Data Recorder (...",
+      "title": "XCharge C6",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-08",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain administrator rights or execute code on the affected device. The following versions of XCharge C6 ...",
       "pub_date": "Thu, 28 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -634,9 +634,9 @@
       "image_url": ""
     },
     {
-      "title": "XCharge C6",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-08",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain administrator rights or execute code on the affected device. The following versions of XCharge C6 ...",
+      "title": "MacGregor Voyage Data Recorder (VDR) G4e",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker gaining administrator access to the device. The following versions of MacGregor Voyage Data Recorder (...",
       "pub_date": "Thu, 28 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
