@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-06-05T02:39:36Z",
+  "last_updated": "2026-06-05T07:00:47Z",
   "articles": [
+    {
+      "title": "Cisco SD-WAN Vulnerability Exploited in the Wild to Execute Arbitrary Commands as Root User",
+      "link": "https://cybersecuritynews.com/cisco-sd-wan-vulnerability-exploit/",
+      "description": "Cisco has disclosed a high-severity vulnerability in its Catalyst SD-WAN Manager that is actively being exploited in the wild, allowing attackers to execute arbitrary commands with root privileges....",
+      "pub_date": "Fri, 05 Jun 2026 06:30:52 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Cisco-SD-WAN-Vulnerability-Exploited-in-the-Wild-to-execute-arbitrary-commands-as-root-User.webp"
+    },
+    {
+      "title": "Cisco warns of unpatched SD-WAN zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/",
+      "description": "On Thursday, Cisco warned of a high-severity, unpatched zero-day in the Cisco Catalyst SD-WAN Manager (tracked as CVE-2026-20245) actively exploited in attacks enabling root privilege escalation. ...",
+      "pub_date": "Fri, 05 Jun 2026 02:24:20 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Let’s Encrypt Unveils Merkle Tree Certificates to Secure the Web Against Quantum Threats",
+      "link": "https://cybersecuritynews.com/lets-encrypt-merkle-tree-certificates/",
+      "description": "Let\u0026#8217;s Encrypt has announced its roadmap for post-quantum Web PKI, centering on a novel approach called Merkle Tree Certificates (MTCs), a design that delivers quantum-resistant authentication...",
+      "pub_date": "Fri, 05 Jun 2026 05:37:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Lets-Encrypt-Merkle-Tree-Certificates.webp"
+    },
+    {
+      "title": "PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network",
+      "link": "https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html",
+      "description": "The threat actor known as PCPJack has hijacked cloud servers associated with Amazon Web Services (AWS), Google Cloud, and Microsoft Azure to create a covert SMTP email relay network.  \"Compromised ...",
+      "pub_date": "Fri, 05 Jun 2026 11:04:19 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibu0mX9Tusu3siXFJzPskfA1ZYZ2OdRJTegsJFkffBc9cBBPGWguTUAI3PPAaFy-WIjziA9PIrMrZNVuFVNmbFhOSPLv6mMBPvjWnR-WQGBD2fvGFTJT358yWFFTxeFSS87aQ_fj30G2VdsGlBjy2KJiby4CS-k3X9FjjpyTGxljOo373cUaZKhdBvWZ_a/s1600/cloud-emails.jpg"
+    },
+    {
+      "title": "Microsoft Edge Vulnerability Allows Remote Attackers to Execute Arbitrary Code",
+      "link": "https://cybersecuritynews.com/microsoft-edge-vulnerability-code-execution/",
+      "description": "Microsoft has released a security update addressing a critical vulnerability in Microsoft Edge that could allow remote attackers to execute arbitrary code on vulnerable systems. Tracked as CVE-2026...",
+      "pub_date": "Fri, 05 Jun 2026 04:56:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Edge-Vulnerability-Code-Execution.webp"
+    },
+    {
+      "title": "Dashlane Details How Hackers Managed to Download Encrypted Password Vaults",
+      "link": "https://cybersecuritynews.com/dashlane-encrypted-password-hack/",
+      "description": "Dashlane has disclosed that threat actors successfully brute-forced two-factor authentication (2FA) protections to register unauthorized devices and download encrypted password vaults belonging to ...",
+      "pub_date": "Fri, 05 Jun 2026 04:07:55 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Dashlane-Encrypted-Password-hack.webp"
+    },
+    {
+      "title": "ClawHub, Cisco, Vercel’s Malicious Skill Detector Bypassed to upload Malicious Skills",
+      "link": "https://cybersecuritynews.com/clawhub-cisco-vercels-malicious-skill-detector-bypassed/",
+      "description": "AI skill scanners from ClawHub, Cisco, and Vercel’s skills. The platform can be bypassed with minimal effort, allowing malicious skills to be uploaded and distributed through public marketplaces....",
+      "pub_date": "Fri, 05 Jun 2026 03:05:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/ClawHub-Cisco-Vercels-Malicious-Skill-Detector-Bypassed-to-upload-Malicious-Skills.webp"
+    },
+    {
+      "title": "HexStrike AI RED-TEAM With 127 Security Tools and BOAZ Red Team Integration",
+      "link": "https://cybersecuritynews.com/hexstrike-ai-red-team-tool/",
+      "description": "A fork of the original HexStrike AI project has been released as HexStrike AI v6.0, an advanced Model Context Protocol (MCP)-based cybersecurity automation framework that merges 127 professional s...",
+      "pub_date": "Fri, 05 Jun 2026 02:23:10 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/HexStrike-AI-RED-TEAM-Tool.webp"
+    },
     {
       "title": "Brave Software releases Origin for a paid, bloat-free browsing experience",
       "link": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/",
@@ -18,12 +82,44 @@
       "image_url": ""
     },
     {
+      "title": "Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",
+      "link": "https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot/",
+      "description": "Hackers are creating convincing fake websites that impersonate popular security tools to trick users into downloading malware. Instead of obvious phishing pages, these sites look almost identical t...",
+      "pub_date": "Thu, 04 Jun 2026 21:22:17 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Impersonate-Ghidra-dnSpy-and-SpiderFoot-to-Spread-Malware-via-Fake-Download-Sites.webp"
+    },
+    {
+      "title": "binding.gyp Supply Chain Attack Compromises Dozens of npm Packages Across Maintainer Accounts",
+      "link": "https://cybersecuritynews.com/binding-gyp-supply-chain-attack-compromises-dozens-of-npm-packages/",
+      "description": "A self-replicating worm has been quietly spreading across the npm registry using a method most security teams do not watch for. Instead of hiding inside package.json scripts, the attacker weaponize...",
+      "pub_date": "Thu, 04 Jun 2026 21:09:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/binding.gyp-Supply-Chain-Attack-Compromises-Dozens-of-npm-Packages-Across-Maintainer-Accounts.webp"
+    },
+    {
       "title": "Credit card theft campaign abuses Stripe to host stolen payment info",
       "link": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
       "description": "A new Magecart campaign is using Stripe's API infrastructure to host the credit card-stealing payload and the data exfiltrated from checkout pages. [...]",
       "pub_date": "Thu, 04 Jun 2026 16:47:16 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Hackers Use Malicious Ads to Deliver FlutterShell Backdoor on macOS Systems",
+      "link": "https://cybersecuritynews.com/hackers-use-malicious-ads/",
+      "description": "A new and rapidly spreading malware campaign is putting macOS users at serious risk. Threat actors are using Google Ads to push fake desktop applications that secretly install a powerful backdoor o...",
+      "pub_date": "Thu, 04 Jun 2026 20:25:42 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-Malicious-Ads-to-Deliver-FlutterShell-Backdoor-on-macOS-Systems.webp"
+    },
+    {
+      "title": "Hackers Use Fake Claude Code Install Page to Deliver Fileless .NET Infostealer",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-claude-code-install-page/",
+      "description": "Hackers are exploiting the excitement around AI coding tools by targeting users who search for Claude Code installation guides. An active campaign uses fake installer pages to silently steal creden...",
+      "pub_date": "Thu, 04 Jun 2026 20:13:31 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-Fake-Claude-Code-Install-Page-to-Deliver-Fileless-.NET-Infostealer.webp"
     },
     {
       "title": "DentaQuest data breach  exposed info of 2.6 million accounts",
@@ -256,22 +352,6 @@
       "pub_date": "Wed, 03 Jun 2026 21:59:16 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpQ6QXxFH4zkfeHGdcm1WXVcNXMpyJm-1dlZLbFCdp6rKDRhuwICzYaKaR-rCpn61qod6A1F98PZejZbmYuxaUXPJLXQffoaniCkqgyqR1-p7gClpj4PYibjzIDHk8_Vw4ag00EYPCM3Nz1G0Hvzuf6wBV-HzDFoSiYDEEdjPU45Bk_rIlGk9dJ_MMVuue/s1600/ad-malware.jpg"
-    },
-    {
-      "title": "CISA warns of active attacks exploiting Android, Linux bugs",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting vulnerabilities in the Linux kernel and Android operating system. [...]",
-      "pub_date": "Wed, 03 Jun 2026 11:36:16 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore",
-      "link": "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
-      "description": "Assume the breach. Zero-days keep shipping, AI is writing exploits faster than anyone patches, and \"patch everything in time\" stopped working years ago. Stop betting the org on winning that race. Y...",
-      "pub_date": "Wed, 03 Jun 2026 20:26:46 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzZPASJ7ymlBpeDWq_d-byWp58FpBR6tdX6QfLJFFoGRHK9xB5mTbx0guIcMFKFYV87inRtJyM-cKJXI0Td5fVtpC1ITBFmp2myS2wBynVSF3rZP2jZWH6uR-_14ZEalErJASiKWVDJ_TD551AC0pN5A3Mu8y-Z1zW5mKvFMOmdLzrdWnhYCif0FR1lOE/s1600/hd.jpg"
     },
     {
       "title": "ZDI-26-327: Docker Desktop grpcfuse Kernel Module Uncontrolled Recursion Denial-of-Service Vulnerability",
