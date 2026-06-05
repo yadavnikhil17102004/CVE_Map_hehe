@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-05T17:08:10Z",
+  "last_updated": "2026-06-05T19:43:16Z",
   "articles": [
+    {
+      "title": "New Gafgyt Variant Targets Multiple Linux Architectures With Modular Propagation",
+      "link": "https://cybersecuritynews.com/new-gafgyt-variant-targets-multiple-linux-architectures/",
+      "description": "A newly discovered variant of the Gafgyt botnet malware, named C0XMO, has been quietly spreading across Linux-based devices by targeting a known vulnerability in DD-WRT router firmware. The malware...",
+      "pub_date": "Fri, 05 Jun 2026 19:36:06 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-Gafgyt-Variant-Targets-Multiple-Linux-Architectures-With-Modular-Propagation.webp"
+    },
+    {
+      "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
+      "description": "CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]",
+      "pub_date": "Fri, 05 Jun 2026 15:15:30 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Chinese APT deploys new malware to keep access to hacked networks",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
+      "description": "A Chinese espionage group tracked as UNC5221 has been accessing Microsoft 365 environments using the Brickstorm backdoor and previously undocumented malware named Plenet and AgentPSD. [...]",
+      "pub_date": "Fri, 05 Jun 2026 14:09:47 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks",
+      "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
+      "description": "Multiple software supply chain attacks have hit the npm ecosystem, with threat actors using both malicious and poisoned versions of over 50 legitimate packages to distribute a Rust-based informatio...",
+      "pub_date": "Fri, 05 Jun 2026 23:35:30 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFimSGBOnvlCj_r6fiLdzK6V8DLTIQYjROKxHgQH8QxyRVIL3NDpQe9lBISjqCSjcZNl6VPhHVFtdJ8gPe2FfNjR9kGND1GSZmgx9T_32_Aii5nf_fMLkmBxwkKrJKbmZpcAG8xyj868aHfZ9RePlwlPDfMbI4uDlOCknlGH62Ifdf-nak6qmy4u-9i7X3/s1600/npm-worm.jpg"
+    },
+    {
+      "title": "Dark web Nemesis Market vendor gets 26 years for selling drugs",
+      "link": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
+      "description": "A California man was sentenced to more than 26 years in federal prison for trafficking fentanyl and methamphetamine through Nemesis Market, one of the world's largest dark web marketplaces. [...]",
+      "pub_date": "Fri, 05 Jun 2026 13:50:58 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Android Spyware Asin Targets Arabic Users via Fake News, PDF and War Map Apps",
       "link": "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html",
@@ -146,14 +186,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Edge-Vulnerability-Code-Execution.webp"
     },
     {
-      "title": "Dashlane Details How Hackers Managed to Download Encrypted Password Vaults",
-      "link": "https://cybersecuritynews.com/dashlane-encrypted-password-hack/",
-      "description": "Dashlane has disclosed that threat actors successfully brute-forced two-factor authentication (2FA) protections to register unauthorized devices and download encrypted password vaults belonging to ...",
-      "pub_date": "Fri, 05 Jun 2026 04:07:55 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Dashlane-Encrypted-Password-hack.webp"
-    },
-    {
       "title": "Brave Software releases Origin for a paid, bloat-free browsing experience",
       "link": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/",
       "description": "Brave has announced the public release of Brave Origin, a paid minimalist version of its browser that strips out cryptocurrency, AI, rewards, and other monetization-focused features. [...]",
@@ -274,14 +306,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwFQkJElJQpI5ODTBzh1EzrxsRYamFN0ntC9V6vF4b4FfEJ0svPhI_1TnKm960eIsewSFT-DR1RtNk3M511OQK6I-k3UQNNLut1f_fjM9wB4NHxdvJzJQ3VvhIGO9ja0hNIzRAOZLVMngS4R8hQxXfV-_DO71x0CU0YSnxpclCnV0DGX6TdNmr32ongewk/s1600/macos.jpg"
     },
     {
-      "title": "Cisco warns of critical Unified CM flaw with PoC exploit code",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/",
-      "description": "Cisco has released security updates to patch a critical-severity Unified Communications Manager (Unified CM) flaw that allows attackers to gain root privileges. [...]",
-      "pub_date": "Thu, 04 Jun 2026 07:09:50 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
       "link": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
       "description": "Cybersecurity researchers have flagged a large-scale operation that impersonates open-source and freeware projects to funnel unsuspecting users through a Traffic Distribution System (TDS) and deliv...",
@@ -296,14 +320,6 @@
       "pub_date": "Thu, 04 Jun 2026 15:03:57 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpg8pBdHkENT_CKClsSR7f4Rb7BQpM27ynGrkRdJg-bbUfI2NIHQ_rFmkOVHjK8RggTD-XMvVdGGI_qrYyIx-Ml1sfwbRkbjaNo8Fz40cWg8wFWK8h5-f-FaB58HryMM5AYlUHI2uO7x12VFvAB6N3w1gobWmzGgp8xXqHfWMERFh7hVS9lBHxfdu71Xs/s1600/stock-emails.jpg"
-    },
-    {
-      "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
-      "link": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html",
-      "description": "The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabled and cryptocurr...",
-      "pub_date": "Thu, 04 Jun 2026 11:36:25 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTf5wAHnoXtVauiln2MwlVvLc4LxcL8SBTLuW648LfFhUd8QyuOUfjmg0Hd91QlksmWF2u-PQhxHDTDmseMIG64V4Fo2I2lXXGO1o0BncbL_UTeBrGztErg66yXAm0trYlWxqGbE-sKb5VjXjqeyNiCMkxbdcxwX1BDRGexhP-b0s3dZl0lNRpY9u6nsTQ/s1600/police-crypto.jpg"
     },
     {
       "title": "ZDI-26-331: (Pwn2Own) Microsoft Edge Feedback Log File Handling Directory Traversal Remote Code Execution Vulnerability",
@@ -335,22 +351,6 @@
       "description": "This vulnerability allows local attackers to escalate privileges on affected installations of ASUS Business Manager. An attacker must first obtain the ability to execute low-privileged code on the ...",
       "pub_date": "Thu, 04 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
-      "title": "Chinese hackers use new Atlas RAT malware in European cyberattacks",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/",
-      "description": "A Chinese-speaking cybercrime group has expanded its targeting to the European space, deploying previously undocumented malware and the Atlas backdoor. [...]",
-      "pub_date": "Wed, 03 Jun 2026 17:45:27 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors",
-      "link": "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/",
-      "description": "The U.S. Treasury's Office of Foreign Assets Control (OFAC) has announced sanctions against Nobitex, Iran's largest cryptocurrency exchange, for facilitating payments related to terrorist activitie...",
-      "pub_date": "Wed, 03 Jun 2026 16:31:22 -0400",
-      "source": "BleepingComputer",
       "image_url": ""
     },
     {
@@ -522,6 +522,14 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/03/ai-high-level-overview5.excalidraw.png?resize=1024%2C779"
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-28318 SolarWinds Serv-U Uncontrolled Resource Consumpt...",
+      "pub_date": "Fri, 05 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "NAVTOR NavBox",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-01",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to gain unauthorized access to SOAP methods, resulting in a disruption of operations. The following vers...",
@@ -538,9 +546,9 @@
       "image_url": ""
     },
     {
-      "title": "Hitachi Energy ITT600 Explorer",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-02",
-      "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect ITT600 Explorer product versions listed in this document. These vulnerabilities can be exploited to carry out Denial of Serv...",
+      "title": "Hitachi Energy RTU500",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-04",
+      "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. If exploited, these vulnerabilities primarily impact product availability, ...",
       "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -554,9 +562,9 @@
       "image_url": ""
     },
     {
-      "title": "Hitachi Energy RTU500",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-04",
-      "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. If exploited, these vulnerabilities primarily impact product availability, ...",
+      "title": "Hitachi Energy ITT600 Explorer",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-02",
+      "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect ITT600 Explorer product versions listed in this document. These vulnerabilities can be exploited to carry out Denial of Serv...",
       "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -570,17 +578,17 @@
       "image_url": ""
     },
     {
-      "title": "CISA and Partners Urge Hardening Automatic Tank Gauge Systems",
-      "link": "https://www.cisa.gov/resources-tools/resources/cisa-and-partners-urge-hardening-automatic-tank-gauge-systems",
-      "description": "CISA and Partners Urge Hardening Automatic Tank Gauge Systems Overview The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), the National Security ...",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added two new vulnerabilities to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2022-0492 Linux Kernel Improper Authentication Vulne...",
       "pub_date": "Tue, 02 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added two new vulnerabilities to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2022-0492 Linux Kernel Improper Authentication Vulne...",
+      "title": "CISA and Partners Urge Hardening Automatic Tank Gauge Systems",
+      "link": "https://www.cisa.gov/resources-tools/resources/cisa-and-partners-urge-hardening-automatic-tank-gauge-systems",
+      "description": "CISA and Partners Urge Hardening Automatic Tank Gauge Systems Overview The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), the National Security ...",
       "pub_date": "Tue, 02 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -598,6 +606,14 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-0257 Palo Alto Networks PAN-OS Authentication Bypass V...",
       "pub_date": "Fri, 29 May 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "ABB Busch-Welcome 2 Wire Door Opener Actuator",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-04",
+      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could gain physical, unauthor...",
+      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
@@ -621,22 +637,6 @@
       "title": "XCharge C6",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-08",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain administrator rights or execute code on the affected device. The following versions of XCharge C6 ...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "KMW CCTV Security Cameras",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-06",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability may grant full unauthorized access to camera feeds and settings. The following versions of KMW CCTV Security Cameras are affected:  K...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "MacGregor Voyage Data Recorder (VDR) G4e",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker gaining administrator access to the device. The following versions of MacGregor Voyage Data Recorder (...",
       "pub_date": "Thu, 28 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
