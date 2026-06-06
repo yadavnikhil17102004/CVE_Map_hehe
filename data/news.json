@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-06-06T13:13:04Z",
+  "last_updated": "2026-06-06T15:07:17Z",
   "articles": [
+    {
+      "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "description": "Hackers are actively exploiting a critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin, which lets them take complete control of a WordPress website. [...]",
+      "pub_date": "Sat, 06 Jun 2026 10:09:26 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
+      "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+      "description": "OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks.  The feature is primarily d...",
+      "pub_date": "Sat, 06 Jun 2026 19:06:57 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBOQJLNqTRWigWAgPKNCKXr8hOgMZD4ZNb3lNzGbrvSj87BzK_VzrbaqMPVOo1wmCsILPHO2s5cdfu1I2nUOhNibPpzsOHko3qWQwCVXXVdi8yaqYjMJGBD6Fzz-eBmgJ1-Vy0E02L_X1xsT3neUlTTsn9s8e2ODQVYXNErvOz9VrHEIdJNfGhsASUV0ag/s1600/chatgpt-lockdown.jpg"
+    },
     {
       "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
       "link": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
@@ -26,36 +42,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyg1vRQART17ZjJXANnrQ8Vtn7h_tM5IihGJ4LnxbGTDFL1QSvR_lEDmVm7bsO84br04_oM-RM9ZgX-6b5yVQnEOTwKgk3KzImrhPBrI91GIYmQ-n09hq3vjF3tPVnNqVhHbV22BIxXg9zhGg4b2s4kATPjtnqGWldHRw29GexKQbEcX6HxG46vPfvo26l/s1600/chrome-update.jpg"
     },
     {
-      "title": "CISA Warns of SolarWinds Serv-U Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisa-solarwinds-serv-u-vulnerability/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical SolarWinds Serv-U vulnerability to its Known Exploited Vulnerabilities (KEV) catalog, warning that threat actor...",
-      "pub_date": "Sat, 06 Jun 2026 07:23:57 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/cisa-SolarWinds-Serv-U-Vulnerability.webp"
-    },
-    {
       "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
       "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
       "description": "Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign.  The incident impacted 73 Microsoft repositories across fo...",
       "pub_date": "Sat, 06 Jun 2026 12:28:04 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG8k6LtHNQ3cHl_X1AZbXRn6LZCNZ6lMLjy-9HG7-_OQekMOhCQKkktrnMqVteXfmGHBMMlbTv3v9Rl6kKjXlNQBSHUVybmD_IBVvMDT7IsMGV49OMSfF5V8bMFVW4ZwFjlg_gddyYtiiQqmdpYIJjuKLTZz_rxooZZQQye7omBEOjyxMFFjAaiZuc6Non/s1600/azure-npm.jpg"
-    },
-    {
-      "title": "Top 5 Best Tools for Simulated DDoS Attacks in 2026",
-      "link": "https://cybersecuritynews.com/simulated-ddos-attacks/",
-      "description": "Last year, a botnet hurled 31.4 Tbps of junk traffic at a single target—enough data to stream every Netflix movie at once. The record-shattering flood forced boards, regulators, and cloud teams t...",
-      "pub_date": "Sat, 06 Jun 2026 06:47:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjORmOibfPiQbhRxu8YIq22CjZuKZvGTrrbbW9kef_7fLVGefMLuo1L9SaraW09bw_sLkJfrDSiB7JO8VRfe26e70HTDgc9edaLjGZo9zg0Lu0HxccPnHBDzdJ-8nywHrYgZmXDDKZRXYZLsyN0vVM7HYAYOUgAiULiF__vXdJc8tqGOGtEYqRDciaPC3w/s16000/TTT%20-%202026-06-05T131944.262.webp?ssl=1"
-    },
-    {
-      "title": "Critical Hugging Face Transformers Vulnerability Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/hugging-face-rce-vulnerability/",
-      "description": "A newly disclosed critical vulnerability in the HuggingFace Transformers library, tracked as CVE-2026-4372, allows attackers to achieve remote code execution (RCE) through malicious model configura...",
-      "pub_date": "Sat, 06 Jun 2026 06:44:02 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-Vulnerability-in-HuggingFace-transformers-Enables-remote-code-execution-Attacks.webp"
     },
     {
       "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
@@ -66,68 +58,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYckKvOFV_Xz1o-nUKCcjlMQmOxdFC6FMzIjMnE4GSPPJ9kQxDLqOmK9WhofViemB5grKkMJDV_KPnQAuLci5RtV3sCOei2Fzk31qOdIk3Jeroj_6NVxoa0VX0Bw5nwwzffBp4o3hoDysRntjOxTR7akhfDV_1ZIpmcQKFMsxdvb00KYypSv7daJTqYHXb/s1600/cisco-exploit.jpg"
     },
     {
-      "title": "OWASP CVE Lite CLI – New Tool to Scan for Vulnerabilities in Your Projects",
-      "link": "https://cybersecuritynews.com/owasp-cve-lite-cli-tool/",
-      "description": "CVE Lite CLI is a free, open-source vulnerability scanner officially recognized as an OWASP Incubator Project, designed to bring dependency security directly into developers\u0026#8217; terminals rather...",
-      "pub_date": "Sat, 06 Jun 2026 03:10:52 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/OWASP-CVE-Lite-CLI-Tool.webp"
-    },
-    {
-      "title": "Anthropic’s Claude Services Down — claude.ai, Claude Code, and Cowork Affected [Updated]",
-      "link": "https://cybersecuritynews.com/anthropics-claude-services-down/",
-      "description": "Anthropic\u0026#8217;s Claude platform suffered a significant service disruption on June 5, 2026, with elevated error rates impacting multiple frontier AI models and key services, including claude.ai, C...",
-      "pub_date": "Sat, 06 Jun 2026 02:17:02 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Anthropics-Claude-Services-Down.webp"
-    },
-    {
       "title": "Suspicious Polyfill login prompts pop up on Toshiba, Muji websites",
       "link": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
       "description": "Tech giant Toshiba and mega-retailer Muji warned visitors that suspicious sign-in screens popping up on their websites could collect credentials. [...]",
       "pub_date": "Fri, 05 Jun 2026 17:54:42 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Hackers Publish Malicious Python Package Mimicking Legitimate Parsimonious Parser",
-      "link": "https://cybersecuritynews.com/hackers-publish-malicious-python-package/",
-      "description": "A deceptive Python package quietly made its way into the PyPI repository, putting thousands of developers at risk before it was caught and removed. The package, named \u0026#8220;parsimonius,\u0026#8221; was...",
-      "pub_date": "Fri, 05 Jun 2026 20:44:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Publish-Malicious-Python-Package-Mimicking-Legitimate-Parsimonious-Parser.webp"
-    },
-    {
-      "title": "Hackers are Increasingly Weaponizing Trusted Tools to Deploy Notorious Malware",
-      "link": "https://cybersecuritynews.com/hackers-are-increasingly-weaponizing-trusted-tools/",
-      "description": "Cybercriminals have found a clever and dangerous new way to slip past defenses. Instead of building custom attack tools that security software can flag, they are turning everyday system utilities i...",
-      "pub_date": "Fri, 05 Jun 2026 20:30:11 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-are-Increasingly-Weaponizing-Trusted-Tools-to-Deploy-Notorious-Malware.webp"
-    },
-    {
-      "title": "New Magecart Attack Turns Stripe into a Malware Command Server",
-      "link": "https://cybersecuritynews.com/new-magecart-attack-turns-stripe/",
-      "description": "A new form of credit card skimming malware has been discovered hiding inside one of the most trusted payment platforms on the internet. Researchers have found a Magecart attack that uses Stripe, th...",
-      "pub_date": "Fri, 05 Jun 2026 20:09:20 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-Magecart-Attack-Turns-Stripe-into-a-Malware-Command-Server.webp"
-    },
-    {
-      "title": "Hola Browser for Windows Delivery Pipeline Compromised to Deliver Cryptominer",
-      "link": "https://cybersecuritynews.com/hola-browser-for-windows-delivery-pipeline-compromised/",
-      "description": "A trusted browser application has landed at the center of a supply chain security incident after researchers discovered that its official delivery pipeline had been quietly compromised. Hola Browse...",
-      "pub_date": "Fri, 05 Jun 2026 19:53:13 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hola-Browser-for-Windows-Delivery-Pipeline-Compromised-to-Deliver-Cryptominer.webp"
-    },
-    {
-      "title": "New Gafgyt Variant Targets Multiple Linux Architectures With Modular Propagation",
-      "link": "https://cybersecuritynews.com/new-gafgyt-variant-targets-multiple-linux-architectures/",
-      "description": "A newly discovered variant of the Gafgyt botnet malware, named C0XMO, has been quietly spreading across Linux-based devices by targeting a known vulnerability in DD-WRT router firmware. The malware...",
-      "pub_date": "Fri, 05 Jun 2026 19:36:06 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-Gafgyt-Variant-Targets-Multiple-Linux-Architectures-With-Modular-Propagation.webp"
     },
     {
       "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
@@ -298,26 +234,10 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiaBF9jAklPh1ncr_eVPGnV229BSTNgAjkScVm-yTXAn4IcBjjZoLIglasRdu1XEPafCxJhqVZrC3zkNWilyAhN-6Ox8z2HBRjNg2D4aqJsDiRDg02BgAy4zgwU2100ZLIO8yTOtarI0Vxa3AGUQk0GZq1_zKSFQOhNiNoyVsP2AldJZoW8ZJ1rY936ZI/s1600/claude-code-hack.jpg"
     },
     {
-      "title": "Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It",
-      "link": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html",
-      "description": "Over the past several weeks, the cybersecurity community has been reminded how quickly frontier and agentic AI in defense networks can challenge our assumptions. When Anthropic's Claude Mythos mode...",
-      "pub_date": "Thu, 04 Jun 2026 20:40:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6i36LXqSESJrnuYOf6ULo2Hijp9l8i9UTGbRzCLuWImPpfPJ6cKQgBFGhS8yx3_qn8IoM0MgY0pmL4mZfzegatvhQWDKV5OQ3MfOWvPzYIokXaFDUvBM3EYsMOqtQoxx0AmeiakeocpBIlaNeCiBkPcnK1OW8abfIz0_8zuybqKQvWuriVC97Ir259Sw/s1600/agentic-ai.jpg"
-    },
-    {
       "title": "Hackers Are After the Gaps in Your Vulnerability Program: Here's Their Playbook",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/",
       "description": "Threat actors are actively teaching newcomers how to find, exploit, and profit from vulnerable systems. Flare explores what a popular underground hacking tutorial reveals about modern attacker work...",
       "pub_date": "Thu, 04 Jun 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft blames unexpected Windows driver updates on caching issue",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-unexpected-windows-driver-updates-on-caching-issue/",
-      "description": "On Wednesday, Microsoft fixed an issue that caused some Windows devices to install driver updates without notice despite policies configured to prevent auto-updates. [...]",
-      "pub_date": "Thu, 04 Jun 2026 09:41:42 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
