@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-08T20:03:29Z",
+  "last_updated": "2026-06-08T22:20:04Z",
   "articles": [
+    {
+      "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
+      "link": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
+      "description": "New variants of the NFCShare Android malware are being distributed as fake updates for legitimate banking apps hosted on GitHub. [...]",
+      "pub_date": "Mon, 08 Jun 2026 18:11:58 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
+      "link": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
+      "description": "SoFi Hong Kong is warning that it suffered a data breach after hackers gained access to a database at a third-party vendor containing customer information. [...]",
+      "pub_date": "Mon, 08 Jun 2026 17:55:46 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New Apple feature automatically changes your compromised passwords",
+      "link": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
+      "description": "At WWDC 26, Apple announced an Apple Intelligence-powered feature that can automatically fix weak and compromised passwords. This works in Safari, and it's rolling out with iOS 27. [...]",
+      "pub_date": "Mon, 08 Jun 2026 17:03:40 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
+      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
+      "description": "Hackers compromised 19 packages on the PyPI, collectively downloaded hundreds of thousands of times, in a new Shai-Hulud supply-chain attack that delivered malware designed to steal developer secr...",
+      "pub_date": "Mon, 08 Jun 2026 16:41:35 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
+      "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
+      "description": "Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container.  The flaw, CVE-...",
+      "pub_date": "Tue, 09 Jun 2026 01:47:39 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA8UsvPZqRGiHkumM_jxIGyax3NmK9lBR-XAaVK3Stujz8_bExONh9gAroIEXnLQo9KaXb2MpyZsqb2kcfaUxNJJtFhiSpCZjHDzOtgt-sZczb2rx2eRi-rqMiqFtfs0lq6iqJd74J3aoFRN-azg51ZhnQq84Ve1y_-AMXudSuiePM0mi1UHwTh0MHtIE/s1600/linux.jpg"
+    },
     {
       "title": "New China-Linked Threat Cluster OP-512 Targets IIS Servers With Cryptographically Unique Web Shell Framework",
       "link": "https://cybersecuritynews.com/new-china-linked-threat-cluster-op-512-targets-iis-servers/",
@@ -280,46 +320,6 @@
       "pub_date": "Sat, 06 Jun 2026 09:49:28 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYckKvOFV_Xz1o-nUKCcjlMQmOxdFC6FMzIjMnE4GSPPJ9kQxDLqOmK9WhofViemB5grKkMJDV_KPnQAuLci5RtV3sCOei2Fzk31qOdIk3Jeroj_6NVxoa0VX0Bw5nwwzffBp4o3hoDysRntjOxTR7akhfDV_1ZIpmcQKFMsxdvb00KYypSv7daJTqYHXb/s1600/cisco-exploit.jpg"
-    },
-    {
-      "title": "Suspicious Polyfill login prompts pop up on Toshiba, Muji websites",
-      "link": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
-      "description": "Tech giant Toshiba and mega-retailer Muji warned visitors that suspicious sign-in screens popping up on their websites could collect credentials. [...]",
-      "pub_date": "Fri, 05 Jun 2026 17:54:42 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
-      "description": "CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]",
-      "pub_date": "Fri, 05 Jun 2026 15:15:30 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Chinese APT deploys new malware to keep access to hacked networks",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
-      "description": "A Chinese espionage group tracked as UNC5221 has been accessing Microsoft 365 environments using the Brickstorm backdoor and previously undocumented malware named Plenet and AgentPSD. [...]",
-      "pub_date": "Fri, 05 Jun 2026 14:09:47 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks",
-      "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
-      "description": "Multiple software supply chain attacks have hit the npm ecosystem, with threat actors using both malicious and poisoned versions of over 50 legitimate packages to distribute a Rust-based informatio...",
-      "pub_date": "Fri, 05 Jun 2026 23:35:30 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFimSGBOnvlCj_r6fiLdzK6V8DLTIQYjROKxHgQH8QxyRVIL3NDpQe9lBISjqCSjcZNl6VPhHVFtdJ8gPe2FfNjR9kGND1GSZmgx9T_32_Aii5nf_fMLkmBxwkKrJKbmZpcAG8xyj868aHfZ9RePlwlPDfMbI4uDlOCknlGH62Ifdf-nak6qmy4u-9i7X3/s1600/npm-worm.jpg"
-    },
-    {
-      "title": "Dark web Nemesis Market vendor gets 26 years for selling drugs",
-      "link": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
-      "description": "A California man was sentenced to more than 26 years in federal prison for trafficking fentanyl and methamphetamine through Nemesis Market, one of the world's largest dark web marketplaces. [...]",
-      "pub_date": "Fri, 05 Jun 2026 13:50:58 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "ZDI-26-331: (Pwn2Own) Microsoft Edge Feedback Log File Handling Directory Traversal Remote Code Execution Vulnerability",
