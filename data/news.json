@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-06-08T05:24:04Z",
+  "last_updated": "2026-06-08T10:20:37Z",
   "articles": [
+    {
+      "title": "Internet Explorer WebBrowser Control Attack Chain Turns Clicks Into RCE",
+      "link": "https://cybersecuritynews.com/internet-explorer-webbrowser-attack/",
+      "description": "Internet Explorer’s legacy WebBrowser control can still be abused to turn a single user click into full remote code execution (RCE) on Windows systems, even though the browser is officially retir...",
+      "pub_date": "Mon, 08 Jun 2026 10:06:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Internet-Explorer-WebBrowser-Control-Attack-Chain-Turns-Clicks-Into-RCE.webp"
+    },
+    {
+      "title": "Multiple VMware Stored XSS Vulnerabilities Allow Attackers to Inject Malicious Scripts",
+      "link": "https://cybersecuritynews.com/vmware-stored-xss-vulnerabilities/",
+      "description": "Broadcom has disclosed three stored cross-site scripting (XSS) vulnerabilities affecting VMware Cloud Foundation Operations and several related products, warning that authenticated attackers could ...",
+      "pub_date": "Mon, 08 Jun 2026 09:02:24 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/VMware-Stored-XSS-Vulnerabilities.webp"
+    },
+    {
+      "title": "UniFi OS Server Critical RCE Chain Allows Root Access Without Credentials",
+      "link": "https://cybersecuritynews.com/unifi-os-server-critical-rce-chain-allows-root-access/",
+      "description": "A critical vulnerability chain in the UniFi OS Server software has put thousands of organizations at serious risk. Researchers confirmed that an attacker can gain full root access to affected devic...",
+      "pub_date": "Mon, 08 Jun 2026 08:54:05 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/UniFi-OS-Server-Critical-RCE-Chain-Allows-Root-Access-Without-Credentials.webp"
+    },
+    {
+      "title": "Critical Redis RCE Vulnerability Enable Attackers to Gain Complete Control to Host Server",
+      "link": "https://cybersecuritynews.com/redis-rce-vulnerability-server/",
+      "description": "In May 2026, Redis developers fixed a dangerous post-authentication remote code execution vulnerability, dubbed DarkReplica (CVE-2026-23631), that allowed attackers to gain full control of a Redis ...",
+      "pub_date": "Mon, 08 Jun 2026 08:30:40 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-Redis-RCE-Vulnerability-Enable-Attackers-to-Gain-Complete-Control-to-Host-Server.webp"
+    },
+    {
+      "title": "Cybercriminals Exploit 2026 FIFA World Cup With Phishing, Fake Stores, and Ticket Scams",
+      "link": "https://cybersecuritynews.com/cybercriminals-exploit-2026-fifa-world-cup-with-phishing/",
+      "description": "The 2026 FIFA World Cup is not just a celebration of football. For cybercriminals, it is a business opportunity, and they have already gotten to work. Threat actors have been building fake FIFA sto...",
+      "pub_date": "Mon, 08 Jun 2026 08:04:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Cybercriminals-Exploit-2026-FIFA-World-Cup-With-Phishing-Fake-Stores-and-Ticket-Scams.webp"
+    },
+    {
+      "title": "UNC3753 Used Vishing and Physical Intrusions in U.S. Data Theft Extortion Campaign",
+      "link": "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html",
+      "description": "Cybersecurity researchers have disclosed details of a financially motivated data theft extortion campaign that has targeted dozens of organizations across professional, legal, and financial service...",
+      "pub_date": "Mon, 08 Jun 2026 13:09:28 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoUzV1qMNLxMhQ6z22gKy4A5VPPrLn4b1nlfLaMyR6dBM6ostnGD8O3jiaPdM_diQNx24uX-TbI6iiX0Yw4m7msT6_3_UFz_g-g1fQGh3J55fzWzRyKTel4uIp05eBMvxwaQWvNv-VM0_p9jkclDuIyq0Ztu8r4gHIKN1xNSoGYV8Lj31kb_mCcZcBeXrB/s1600/vishing.jpg"
+    },
+    {
+      "title": "VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks",
+      "link": "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html",
+      "description": "Microsoft has announced that Visual Studio Code (VS Code) will apply a two-hour delay before extensions for the integrated development environment (IDE) are updated automatically to a newer version...",
+      "pub_date": "Mon, 08 Jun 2026 11:38:44 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPMxcu3ZcBpbZRC5rw9BlnoZMoXgrA-dRRquG6F6PSZZUc0JNzGHbl6c50yqTxs60QyQ5ut5ZC2qP9Csk_mR1Aqi48DO0wwDbUZ6zei45FNO2UgXaU0pOf8gWk8iAT81Ee1XJGrYyFgjYJqCeGTlnYeq-U8Nh4i5cxskA5n3eWyaQqMQPmyMAAR30bDKf2/s1600/ms-delay.jpg"
+    },
+    {
+      "title": "Over 20,000 Instagram accounts stolen in Meta AI support hack",
+      "link": "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/",
+      "description": "Meta has revealed that 20,225 Instagram users had their accounts hijacked in a recent incident where attackers used Meta's AI-powered support system to reset passwords. [...]",
+      "pub_date": "Mon, 08 Jun 2026 02:00:27 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Warns Claude Code GitHub Action Could Leak CI/CD Workflow Secrets",
+      "link": "https://cybersecuritynews.com/microsoft-warns-claude-code-github-action/",
+      "description": "AI-powered coding tools are rapidly changing how developers build and ship software. But as these tools enter everyday development pipelines, they are also opening new doors for attackers. A recent...",
+      "pub_date": "Mon, 08 Jun 2026 05:54:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Warns-Claude-Code-GitHub-Action-Could-Leak-CI-CD-Workflow-Secrets.webp"
+    },
     {
       "title": "Hackers Can Hijack Claude Code MCP Traffic to Steal OAuth Tokens",
       "link": "https://cybersecuritynews.com/claude-code-mcp-traffic-hijack/",
@@ -58,28 +130,12 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-Warns-of-Linux-Kernel-Improper-Authentication-Vulnerability-Exploited-in-Attacks.webp"
     },
     {
-      "title": "New ChatGPT Lockdown Mode to Mitigate Prompt Injection and Data Exfiltration Attacks",
-      "link": "https://cybersecuritynews.com/chatgpt-lockdown-mode/",
-      "description": "OpenAI has released ChatGPT Lockdown Mode, a new security feature designed to limit outbound network access and reduce the risk of data exfiltration from prompt-injection attacks. The feature is no...",
-      "pub_date": "Sat, 06 Jun 2026 16:53:36 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/ChatGPT-Lockdown-Mode.webp"
-    },
-    {
       "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
       "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
       "description": "Hackers are actively exploiting a critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin, which lets them take complete control of a WordPress website. [...]",
       "pub_date": "Sat, 06 Jun 2026 10:09:26 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Free Apps on Samsung and LG Smart TVs Secretly Turning Your Devices Into AI Proxies",
-      "link": "https://cybersecuritynews.com/free-apps-turning-smart-tvs-into-proxies/",
-      "description": "Free apps available on Samsung, LG, Roku, and other major smart TV platforms have been quietly enrolling millions of living room devices into a commercial residential proxy network used to scrape w...",
-      "pub_date": "Sat, 06 Jun 2026 13:45:06 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Free-Apps-on-Samsung-and-LG-Smart-TVs.webp"
     },
     {
       "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
@@ -114,14 +170,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyg1vRQART17ZjJXANnrQ8Vtn7h_tM5IihGJ4LnxbGTDFL1QSvR_lEDmVm7bsO84br04_oM-RM9ZgX-6b5yVQnEOTwKgk3KzImrhPBrI91GIYmQ-n09hq3vjF3tPVnNqVhHbV22BIxXg9zhGg4b2s4kATPjtnqGWldHRw29GexKQbEcX6HxG46vPfvo26l/s1600/chrome-update.jpg"
     },
     {
-      "title": "CISA Warns of SolarWinds Serv-U Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisa-solarwinds-serv-u-vulnerability/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical SolarWinds Serv-U vulnerability to its Known Exploited Vulnerabilities (KEV) catalog, warning that threat actor...",
-      "pub_date": "Sat, 06 Jun 2026 07:23:57 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/cisa-SolarWinds-Serv-U-Vulnerability.webp"
-    },
-    {
       "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
       "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
       "description": "Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign.  The incident impacted 73 Microsoft repositories across fo...",
@@ -130,36 +178,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG8k6LtHNQ3cHl_X1AZbXRn6LZCNZ6lMLjy-9HG7-_OQekMOhCQKkktrnMqVteXfmGHBMMlbTv3v9Rl6kKjXlNQBSHUVybmD_IBVvMDT7IsMGV49OMSfF5V8bMFVW4ZwFjlg_gddyYtiiQqmdpYIJjuKLTZz_rxooZZQQye7omBEOjyxMFFjAaiZuc6Non/s1600/azure-npm.jpg"
     },
     {
-      "title": "Top 5 Best Tools for Simulated DDoS Attacks in 2026",
-      "link": "https://cybersecuritynews.com/simulated-ddos-attacks/",
-      "description": "Last year, a botnet hurled 31.4 Tbps of junk traffic at a single target—enough data to stream every Netflix movie at once. The record-shattering flood forced boards, regulators, and cloud teams t...",
-      "pub_date": "Sat, 06 Jun 2026 06:47:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjORmOibfPiQbhRxu8YIq22CjZuKZvGTrrbbW9kef_7fLVGefMLuo1L9SaraW09bw_sLkJfrDSiB7JO8VRfe26e70HTDgc9edaLjGZo9zg0Lu0HxccPnHBDzdJ-8nywHrYgZmXDDKZRXYZLsyN0vVM7HYAYOUgAiULiF__vXdJc8tqGOGtEYqRDciaPC3w/s16000/TTT%20-%202026-06-05T131944.262.webp?ssl=1"
-    },
-    {
-      "title": "Critical Hugging Face Transformers Vulnerability Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/hugging-face-rce-vulnerability/",
-      "description": "A newly disclosed critical vulnerability in the HuggingFace Transformers library, tracked as CVE-2026-4372, allows attackers to achieve remote code execution (RCE) through malicious model configura...",
-      "pub_date": "Sat, 06 Jun 2026 06:44:02 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-Vulnerability-in-HuggingFace-transformers-Enables-remote-code-execution-Attacks.webp"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
       "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
       "description": "Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation.  The vulnerability, tracked as CVE-2026-20245, carries a CVSS score of 7.8 ...",
       "pub_date": "Sat, 06 Jun 2026 09:49:28 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYckKvOFV_Xz1o-nUKCcjlMQmOxdFC6FMzIjMnE4GSPPJ9kQxDLqOmK9WhofViemB5grKkMJDV_KPnQAuLci5RtV3sCOei2Fzk31qOdIk3Jeroj_6NVxoa0VX0Bw5nwwzffBp4o3hoDysRntjOxTR7akhfDV_1ZIpmcQKFMsxdvb00KYypSv7daJTqYHXb/s1600/cisco-exploit.jpg"
-    },
-    {
-      "title": "OWASP CVE Lite CLI – New Tool to Scan for Vulnerabilities in Your Projects",
-      "link": "https://cybersecuritynews.com/owasp-cve-lite-cli-tool/",
-      "description": "CVE Lite CLI is a free, open-source vulnerability scanner officially recognized as an OWASP Incubator Project, designed to bring dependency security directly into developers\u0026#8217; terminals rather...",
-      "pub_date": "Sat, 06 Jun 2026 03:10:52 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/OWASP-CVE-Lite-CLI-Tool.webp"
     },
     {
       "title": "Suspicious Polyfill login prompts pop up on Toshiba, Muji websites",
@@ -296,30 +320,6 @@
       "pub_date": "Thu, 04 Jun 2026 16:47:16 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "DentaQuest data breach  exposed info of 2.6 million accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
-      "description": "A data breach at the dental benefits administrator DentaQuest has reportedly exposed the sensitive data of 2.6 million accounts.  [...]",
-      "pub_date": "Thu, 04 Jun 2026 14:36:27 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
-      "link": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
-      "description": "Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root.  It is tracked as CVE-2026-2023...",
-      "pub_date": "Thu, 04 Jun 2026 22:25:51 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6_xkmI_c8KreZ4cr2oC9gHJERU9xWsLGDrCNCaB11IQVGmJ-r0MYUjqGllvOFc0IVwGYBqnzLJl96WBTSVXUr5Z8KRym9SsnoUlNN6oEditbTFqW3kTfOhujPEPN-KIzGJmxaJGh9mCvY1TadCVfJJfIBoTjbXn2TCcbQE8NHsKhe8ld53YHYsG5MTYg/s1600/cisco-flaw.jpg"
-    },
-    {
-      "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
-      "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
-      "description": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub i...",
-      "pub_date": "Thu, 04 Jun 2026 20:45:26 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiaBF9jAklPh1ncr_eVPGnV229BSTNgAjkScVm-yTXAn4IcBjjZoLIglasRdu1XEPafCxJhqVZrC3zkNWilyAhN-6Ox8z2HBRjNg2D4aqJsDiRDg02BgAy4zgwU2100ZLIO8yTOtarI0Vxa3AGUQk0GZq1_zKSFQOhNiNoyVsP2AldJZoW8ZJ1rY936ZI/s1600/claude-code-hack.jpg"
     },
     {
       "title": "ZDI-26-331: (Pwn2Own) Microsoft Edge Feedback Log File Handling Directory Traversal Remote Code Execution Vulnerability",
