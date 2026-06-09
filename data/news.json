@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-06-09T07:39:09Z",
+  "last_updated": "2026-06-09T10:53:26Z",
   "articles": [
+    {
+      "title": "French govt messaging service breached in account hijacking attack",
+      "link": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/",
+      "description": "DINUM, the digital affairs directorate of the French government, warned that hackers used a hijacked user account to breach Tchap, the French government's encrypted messaging platform. [...]",
+      "pub_date": "Tue, 09 Jun 2026 06:53:00 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Defender Now Monitors RPC Protocol Abuse by Hackers",
+      "link": "https://cybersecuritynews.com/defender-rpc-protocol-abuse/",
+      "description": "Microsoft has expanded Microsoft Defender\u0026#8217;s capabilities to monitor, detect, and disrupt attacks that abuse Remote Procedure Call (RPC), a core Windows protocol long exploited by threat actor...",
+      "pub_date": "Tue, 09 Jun 2026 10:09:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Defender-RPC-Protocol-Abuse.webp"
+    },
+    {
+      "title": "New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing",
+      "link": "https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html",
+      "description": "A malicious website can work out which sites you visit and which apps you open, using nothing but JavaScript and the timing of your SSD. The attack, called FROST, needs no native code, no extension...",
+      "pub_date": "Tue, 09 Jun 2026 15:20:41 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSiGrvsR8kJp_r8gce1LkFY4oJRt8-0dafO2RdcOzCwQqWy6XrnkRXpGX94NwPbvEupsU7ZhXAUEtKg5Xdl4y_o_IYsi4XLHIo9JSMNcto6JGG76vhkWSOvYa0So2tkUyQovyFwtB8Anpq6SLILSwzd0iXO_fzq4KIwpdG6F1yFIuhJpnXf1lgGIupiSRv/s1600/frost.jpg"
+    },
+    {
+      "title": "Hackers Exploiting LiteLLM RCE Vulnerability in the Wild to Run Arbitrary Commands",
+      "link": "https://cybersecuritynews.com/litellm-rce-vulnerability-exploited/",
+      "description": "Threat actors are actively exploiting a critical chained vulnerability in LiteLLM, a popular open-source AI gateway proxy, allowing unauthenticated remote code execution (RCE) on vulnerable deploym...",
+      "pub_date": "Tue, 09 Jun 2026 09:25:04 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/LiteLLM-RCE-Vulnerability-Exploited.webp"
+    },
+    {
+      "title": "Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer",
+      "link": "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
+      "description": "The Miasma supply chain campaign has sparked a fresh attack wave called Hades, this time involving 37 malicious wheel artifacts across 19 packages in the Python Package Index (PyPI) registry, as th...",
+      "pub_date": "Tue, 09 Jun 2026 14:43:32 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimsh1r7uS0J7o39IjoPTuHOzh-EiqtvAat_29YiejSgsn0oTvwmlklYrtu0VqUU05z-THGSE__CFshF8lpSdkRbx-b7Ez0uvlBnWcNQntBPcjv08iKy_hqq5W6NrLSUFek3FfLN5Z6ookVi6zqFE_uQhF56Nu_uyorkUuHOlYxm-cpfFsDwMUhWNRB9Mxi/s1600/python-worm.png"
+    },
+    {
+      "title": "SAP Security Patch Day – Critical Vulnerabilities in SAP NetWeaver Patched",
+      "link": "https://cybersecuritynews.com/sap-security-patch-day-june/",
+      "description": "SAP\u0026#8217;s June 2026 Security Patch Day, observed on Tuesday, June 9, delivered 15 new security notes addressing a broad range of vulnerabilities across core SAP products, including four critical-...",
+      "pub_date": "Tue, 09 Jun 2026 08:57:55 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/SAP-Security-Patch-Day-June.webp"
+    },
+    {
+      "title": "Threat Actors Abuse ChatGPT, Claude, and DeepSeek Brands as Phishing Lures to Steal Credentials",
+      "link": "https://cybersecuritynews.com/threat-actors-abuse-chatgpt-claude-and-deepseek-brands-as-phishing-lures/",
+      "description": "Cybercriminals have found a clever new trick: turning the world\u0026#8217;s most popular AI tools into traps. By disguising phishing attacks with the branding of platforms like ChatGPT, Claude, and Dee...",
+      "pub_date": "Tue, 09 Jun 2026 08:39:18 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Threat-Actors-Abuse-ChatGPT-Claude-and-DeepSeek-Brands-as-Phishing-Lures-to-Steal-Credentials.webp"
+    },
+    {
+      "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
+      "description": "CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomw...",
+      "pub_date": "Tue, 09 Jun 2026 04:18:39 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Google patches new Chrome zero-day flaw exploited in the wild",
       "link": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
@@ -16,6 +80,30 @@
       "pub_date": "Tue, 09 Jun 2026 11:56:14 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGMn_z7P9hbHMRzYk9OL9_kLaqTo4GucKa1of13sGhpNvKkSBDrhZSrcG53FJsPKJguHNThZK130Ku7Fjz6i1eFXP4Hx__9KoHxiv0gBT1LAomQr0exe44OnZkJjyIhv2X5hIA-rZAiu1AFLSUXAJSjb6DhF3DqQGx-XBkup8rwwonKFLCeWbNHrS3r2rm/s1600/lite.png"
+    },
+    {
+      "title": "Apache HTTP Server 2.4.68 Released With Fix For Use-After-Free, DoS, XSS, and Buffer Overflow Flaws",
+      "link": "https://cybersecuritynews.com/apache-http-server-2-4-68/",
+      "description": "The Apache Software Foundation released Apache HTTP Server version 2.4.68 on June 8, 2026, addressing 13 security vulnerabilities spanning multiple modules. The patched flaws include use-after-free...",
+      "pub_date": "Tue, 09 Jun 2026 03:16:18 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Apache-HTTP-Server-2.4.68.webp"
+    },
+    {
+      "title": "21 0-Day Vulnerabilities in FFmpeg Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/21-0-day-vulnerabilities-in-ffmpeg/",
+      "description": "An autonomous security agent uncovered 21 zero-day vulnerabilities in FFmpeg, the world\u0026#8217;s most widely deployed media processing library, including a critical RCE-capable heap buffer overflow ...",
+      "pub_date": "Tue, 09 Jun 2026 02:59:53 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/21-0-Day-vulnerabilities-in-FFmpeg-Enables-Remote-Code-Execution-Attacks.webp"
+    },
+    {
+      "title": "New Shai-Hulud Attack Compromises 23 PyPI Packages to Target MCP Developers",
+      "link": "https://cybersecuritynews.com/23-pypi-packages-compromised/",
+      "description": "A new wave of the Shai-Hulud supply chain campaign, adding 23 newly discovered malicious PyPI package-version artifacts to an already alarming operation that previously compromised 37 packages. The...",
+      "pub_date": "Tue, 09 Jun 2026 02:55:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Shai-Hulud-Attack-Compromises-23-PyPI-Packages.webp"
     },
     {
       "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
@@ -58,6 +146,14 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA8UsvPZqRGiHkumM_jxIGyax3NmK9lBR-XAaVK3Stujz8_bExONh9gAroIEXnLQo9KaXb2MpyZsqb2kcfaUxNJJtFhiSpCZjHDzOtgt-sZczb2rx2eRi-rqMiqFtfs0lq6iqJd74J3aoFRN-azg51ZhnQq84Ve1y_-AMXudSuiePM0mi1UHwTh0MHtIE/s1600/linux.jpg"
     },
     {
+      "title": "New China-Linked Threat Cluster OP-512 Targets IIS Servers With Cryptographically Unique Web Shell Framework",
+      "link": "https://cybersecuritynews.com/new-china-linked-threat-cluster-op-512-targets-iis-servers/",
+      "description": "A newly identified threat cluster with suspected ties to China has been caught targeting Internet Information Services (IIS) web servers using a purpose-built web shell framework. Tracked as OP-512...",
+      "pub_date": "Mon, 08 Jun 2026 19:12:59 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-China-Linked-Threat-Cluster-OP-512-Targets-IIS-Servers-With-Cryptographically-Unique-Web-Shell-Framework.webp"
+    },
+    {
       "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
       "link": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
       "description": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering attacks. [...]",
@@ -66,12 +162,28 @@
       "image_url": ""
     },
     {
+      "title": "Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware",
+      "link": "https://cybersecuritynews.com/check-point-vpn-0-day-vulnerability/",
+      "description": "Check Point Research has uncovered active exploitation of CVE-2026-50751, a critical authentication bypass vulnerability (CVSS 9.3) in Check Point Remote Access VPN and Mobile Access deployments, w...",
+      "pub_date": "Mon, 08 Jun 2026 17:18:01 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Check-Point-VPN-0-day-Vulnerability.webp"
+    },
+    {
       "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
       "link": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
       "description": "Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group.  In addition, the tech giant said it's filing a federal court contempt order against ...",
       "pub_date": "Mon, 08 Jun 2026 22:38:44 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi00ODwGXyrxQobZ30bAt_HwwRgLni-5_Dc77J-cG8lFCYonl0IGGu3s-tgpNHst6AZOwL1guVsSL02yuQN_4C1SiEBU9jRyBh5rIgPTSRvNkCO0m29zZidWMKb4ymvRZYl6SCD-sXatYAnebdLgtVxiFFHAEJGO6RhlbuGT9iRJbuPuzprB9NthxiuLBXh/s1600/whatsapp.jpg"
+    },
+    {
+      "title": "New Linux Kernel Vulnerability Lets Attackers Escalate Privileges to Root",
+      "link": "https://cybersecuritynews.com/linux-kernel-nftables-vulnerability/",
+      "description": "A use-after-free vulnerability in the Linux kernel\u0026#8217;s nftables subsystem has been disclosed, enabling unprivileged local attackers to escalate privileges to root on widely deployed distributio...",
+      "pub_date": "Mon, 08 Jun 2026 16:45:41 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Linux-Kernel-nftables-Vulnerability.webp"
     },
     {
       "title": "Gogs patches critical zero-day enabling remote code execution",
@@ -186,22 +298,6 @@
       "image_url": ""
     },
     {
-      "title": "C0XMO botnet spreads via DD-WRT router flaw, kills rival malware",
-      "link": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
-      "description": "A new variant of the Gafgyt botnet called C0XMO is targeting DD-WRT router firmware and can move to other device types with various CPU architectures. [...]",
-      "pub_date": "Sun, 07 Jun 2026 10:17:46 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Silent Ransom Group targets law firms with fake IT support calls",
-      "link": "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
-      "description": "The Silent Ransom Group extortion gang is actively targeting U.S. law firms and professional services organizations in social engineering attacks that often lead to data theft within hours of initi...",
-      "pub_date": "Sun, 07 Jun 2026 10:09:19 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
       "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
       "description": "OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks.  The feature is primarily d...",
@@ -224,22 +320,6 @@
       "pub_date": "Sat, 06 Jun 2026 13:44:31 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ_ZbsHhh5kUS5501itVSeBa91H50qNfHH_PQ1_2WEDLi-B_eKslYeu1_43fNAW55Z9TVR5ae8ZIGDm4vZQS0B7IHvG9Gdp4Knzt8QB1E7317tyEVhJYR8xo1HJ_vf6Ynrdtfj_u-pcryZ5NVulL7vw_9KLaGomIjKe40GYClUu-FDtXXwuKAfK7V8mKN-/s1600/solarwinds-serv-u.jpg"
-    },
-    {
-      "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
-      "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
-      "description": "Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that touches video, al...",
-      "pub_date": "Sat, 06 Jun 2026 12:58:30 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyg1vRQART17ZjJXANnrQ8Vtn7h_tM5IihGJ4LnxbGTDFL1QSvR_lEDmVm7bsO84br04_oM-RM9ZgX-6b5yVQnEOTwKgk3KzImrhPBrI91GIYmQ-n09hq3vjF3tPVnNqVhHbV22BIxXg9zhGg4b2s4kATPjtnqGWldHRw29GexKQbEcX6HxG46vPfvo26l/s1600/chrome-update.jpg"
-    },
-    {
-      "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
-      "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
-      "description": "Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign.  The incident impacted 73 Microsoft repositories across fo...",
-      "pub_date": "Sat, 06 Jun 2026 12:28:04 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG8k6LtHNQ3cHl_X1AZbXRn6LZCNZ6lMLjy-9HG7-_OQekMOhCQKkktrnMqVteXfmGHBMMlbTv3v9Rl6kKjXlNQBSHUVybmD_IBVvMDT7IsMGV49OMSfF5V8bMFVW4ZwFjlg_gddyYtiiQqmdpYIJjuKLTZz_rxooZZQQye7omBEOjyxMFFjAaiZuc6Non/s1600/azure-npm.jpg"
     },
     {
       "title": "ZDI-26-331: (Pwn2Own) Microsoft Edge Feedback Log File Handling Directory Traversal Remote Code Execution Vulnerability",
