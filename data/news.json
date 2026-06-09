@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-06-09T19:11:56Z",
+  "last_updated": "2026-06-09T21:42:47Z",
   "articles": [
+    {
+      "title": "ServiceNow discloses security incident exposing customer data",
+      "link": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
+      "description": "ServiceNow is warning about a security incident after attackers exploited an unauthenticated access flaw through a vulnerable API endpoint, allowing them to query data from customer instances. [...]",
+      "pub_date": "Tue, 09 Jun 2026 17:34:09 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "OpenClaw AI agent found falling for phishing attacks, spills user data",
+      "link": "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
+      "description": "Phishing simulation on an OpenClaw email agent with various configuration profiles showed that it was susceptible to tactics commonly used to compromise human users. [...]",
+      "pub_date": "Tue, 09 Jun 2026 17:20:20 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "SAP fixes critical flaws in NetWeaver and Commerce Cloud",
+      "link": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/",
+      "description": "SAP has released fixes for 15 vulnerabilities as part of its June 2026 Security Patch package, including four critical-severity flaws affecting SAP NetWeaver and SAP Commerce Cloud. [...]",
+      "pub_date": "Tue, 09 Jun 2026 15:36:27 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Microsoft releases Windows 10 KB5094127 extended security update",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5094127-extended-security-update/",
@@ -8,22 +32,6 @@
       "pub_date": "Tue, 09 Jun 2026 14:35:00 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "New MagicAd Android Malware Flood Device With Ads Bypassing Restrictions",
-      "link": "https://cybersecuritynews.com/new-magicad-android-malware-flood-device/",
-      "description": "A newly discovered Android trojan called MagicAd has been found flooding infected devices with ads, cleverly slipping past the built-in restrictions of the Android operating system. What makes this...",
-      "pub_date": "Tue, 09 Jun 2026 18:20:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-MagicAd-Android-Malware-Flood-Device-With-Ads-Bypassing-Restrictions.webp"
-    },
-    {
-      "title": "New Browser-in-the-Browser Phishing Attack to Steal Microsoft 365 Logins",
-      "link": "https://cybersecuritynews.com/new-browser-in-the-browser-phishing-attack/",
-      "description": "A new and sophisticated Browser-in-the-Browser phishing campaign has been discovered targeting Microsoft 365 users, using a fake login popup that is nearly impossible to tell apart from the real th...",
-      "pub_date": "Tue, 09 Jun 2026 17:59:56 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-Browser-in-the-Browser-Phishing-Attack-to-Steal-Microsoft-365-Logins.webp"
     },
     {
       "title": "Microsoft June 2026 Patch Tuesday fixes 3 zero-day, 200 flaws",
@@ -42,28 +50,12 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft Patch Tuesday June 2026 – 198 Vulnerabilities Fixed, Including 3 Zero-days",
-      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-june-2026/",
-      "description": "Microsoft has released its June 2026 Patch Tuesday security updates, addressing a hefty 198 vulnerabilities across its product ecosystem. The June rollout, published on June 9, 2026, stands out not...",
-      "pub_date": "Tue, 09 Jun 2026 17:23:10 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Patch-Tuesday-June-2026.webp"
-    },
-    {
       "title": "Meta to Use Off-Site Business Data for Feed and AI Personalization",
       "link": "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html",
       "description": "Meta on Tuesday announced that it will use information shared by other businesses to personalize users' feed and responses from its artificial intelligence (AI) chatbot, expanding its scope beyond ...",
       "pub_date": "Tue, 09 Jun 2026 22:33:58 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpQhSgYELKe_2HC7BB5NcjkNvIdsBgzfzSoH7tF0EmyFq9_vXEMFYWH9cczwGUWAxITkKt0TCwTLTyeIz82mfdCBmT1Hez5SO6z5zNEmx-laLfzVEy323arr0yCMHhTWv7igdUMtmriAIGIcIcjhaXfId5iCpwUSQxEaFMP0DqA5Oov8KyEFqoWWKgh21d/s1600/facebook.jpg"
-    },
-    {
-      "title": "Critical Veeam Vulnerability Allows RCE Attacks on Backup Servers",
-      "link": "https://cybersecuritynews.com/veeam-vulnerability-rce-attacks/",
-      "description": "A critical security vulnerability has been disclosed in Veeam Backup \u0026#38; Replication, one of the most widely deployed enterprise backup solutions globally. Tracked as CVE-2026-44963, the flaw ena...",
-      "pub_date": "Tue, 09 Jun 2026 16:47:23 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Veeam-Vulnerability-RCE-Attacks.webp"
     },
     {
       "title": "Veeam Backup \u0026 Replication RCE Flaw Lets Domain Users Run Remote Code",
@@ -90,22 +82,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft Entra Agent ID Logs Reveal Suspicious Assistive Agent Activity",
-      "link": "https://cybersecuritynews.com/microsoft-entra-agent-id-logs/",
-      "description": "AI agents built into enterprise platforms are no longer just productivity tools. Security researchers have found that these agents, when configured to act on behalf of real users, can become a quie...",
-      "pub_date": "Tue, 09 Jun 2026 16:03:16 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Entra-Agent-ID-Logs-Reveal-Suspicious-Assistive-Agent-Activity.webp"
-    },
-    {
-      "title": "North Korea-Aligned Hackers Abuse GitHub Repositories to Infect Developers",
-      "link": "https://cybersecuritynews.com/north-korea-aligned-hackers-abuse-github-repositories/",
-      "description": "North Korea-aligned hackers are once again targeting the developer community, this time by hiding malicious code inside seemingly legitimate GitHub repositories. The campaign, tracked under the nam...",
-      "pub_date": "Tue, 09 Jun 2026 16:02:01 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/North-Korea-Aligned-Hackers-Abuse-GitHub-Repositories-to-Infect-Developers.webp"
-    },
-    {
       "title": "GitHub disables Microsoft repos pushing password-stealing malware",
       "link": "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
       "description": "Microsoft removed 73 repositories across its Azure, microsoft, Azure-Samples, and MicrosoftDocs organizations on GitHub, disrupting continuous integration pipelines. [...]",
@@ -114,44 +90,12 @@
       "image_url": ""
     },
     {
-      "title": "How Threat Intelligence Feeds Help Automate SOCs to Reduce MTTR ",
-      "link": "https://cybersecuritynews.com/how-threat-intelligence-feeds-help-automate-socs-to-reduce-mttr/",
-      "description": "Security operations center (SOC) automation has become one of the biggest trends in cybersecurity. Organizations are investing heavily in AI, orchestration, and automated response technologies in p...",
-      "pub_date": "Tue, 09 Jun 2026 15:33:20 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjydm0-5ud8AjxDn-4uf3ikCdaGbV-3iQIJfVpRjUva-JJIRLBxa1og99na1QjOC1P-UKm_PpPXGfqMTE3yKAq-uy4rzYc524EoGpkYAFZ3QEHdxBG0bGMMhO2M_H6mkGGI_5XjgZ4KX0BltcgihW7YTKKWIQTbwQJhthC4IAKe7cgTqYKa9Hywm9fOjm4/s16000/Threat%20Intelligence%20Feeds%20Reduce%20SOC%20Response.webp?ssl=1"
-    },
-    {
-      "title": "Fortinet FortiSandbox Vulnerability Allows Attackers to Execute Unauthorized Commands",
-      "link": "https://cybersecuritynews.com/fortinet-fortisandbox-vulnerability-exploited/",
-      "description": "Fortinet has disclosed a critical security vulnerability in its FortiSandbox product line that could allow unauthenticated remote attackers to execute arbitrary OS commands through the web interfac...",
-      "pub_date": "Tue, 09 Jun 2026 14:51:50 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Fortinet-FortiSandbox-Vulnerability-Exploited.webp"
-    },
-    {
-      "title": "SPF, DKIM, DMARC Passed. Malicious Link Passes Every Authentication Check, But CyberCheck360 Caught It",
-      "link": "https://cybersecuritynews.com/cybercheck360/",
-      "description": "A $12 domain, 72 hours of patience, and your finance team\u0026#8217;s credentials — why authentication tells you who sent the email, never where the link goes, and how detection at the click closes t...",
-      "pub_date": "Tue, 09 Jun 2026 14:38:01 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/cybercheck360.webp"
-    },
-    {
       "title": "New Veeam vulnerability exposes backup servers to RCE attacks",
       "link": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
       "description": "Veeam has released security updates to patch a critical Backup \u0026 Replication security flaw that can be exploited to gain remote code execution (RCE) on domain-joined backup servers. [...]",
       "pub_date": "Tue, 09 Jun 2026 10:27:56 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Google Chrome 0-Day Vulnerability Exploited in the Wild — Update Now",
-      "link": "https://cybersecuritynews.com/google-chrome-0-day-vulnerability-exploited-in-the-wild-update-now/",
-      "description": "Google has released an emergency security update for Chrome, patching a critical zero-day vulnerability actively exploited in the wild. The Stable channel has been updated to version 149.0.7827.102...",
-      "pub_date": "Tue, 09 Jun 2026 14:20:55 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Chrome-0-Day-Vulnerability-Exploited.webp"
     },
     {
       "title": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine",
@@ -234,6 +178,14 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGMn_z7P9hbHMRzYk9OL9_kLaqTo4GucKa1of13sGhpNvKkSBDrhZSrcG53FJsPKJguHNThZK130Ku7Fjz6i1eFXP4Hx__9KoHxiv0gBT1LAomQr0exe44OnZkJjyIhv2X5hIA-rZAiu1AFLSUXAJSjb6DhF3DqQGx-XBkup8rwwonKFLCeWbNHrS3r2rm/s1600/lite.png"
     },
     {
+      "title": "ZDI-26-332: QEMU calc_image_hostmem Integer Overflow Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-332/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of QEMU. An attacker must first obtain the ability to execute low-privileged code on the target guest syst...",
+      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "image_url": ""
+    },
+    {
       "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
       "link": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
       "description": "New variants of the NFCShare Android malware are being distributed as fake updates for legitimate banking apps hosted on GitHub. [...]",
@@ -258,14 +210,6 @@
       "image_url": ""
     },
     {
-      "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
-      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
-      "description": "Hackers compromised 19 packages on the PyPI, collectively downloaded hundreds of thousands of times, in a new Shai-Hulud supply-chain attack that delivered malware designed to steal developer secr...",
-      "pub_date": "Mon, 08 Jun 2026 16:41:35 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
       "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
       "description": "Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container.  The flaw, CVE-...",
@@ -274,28 +218,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA8UsvPZqRGiHkumM_jxIGyax3NmK9lBR-XAaVK3Stujz8_bExONh9gAroIEXnLQo9KaXb2MpyZsqb2kcfaUxNJJtFhiSpCZjHDzOtgt-sZczb2rx2eRi-rqMiqFtfs0lq6iqJd74J3aoFRN-azg51ZhnQq84Ve1y_-AMXudSuiePM0mi1UHwTh0MHtIE/s1600/linux.jpg"
     },
     {
-      "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
-      "description": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering attacks. [...]",
-      "pub_date": "Mon, 08 Jun 2026 14:40:53 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
       "link": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
       "description": "Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group.  In addition, the tech giant said it's filing a federal court contempt order against ...",
       "pub_date": "Mon, 08 Jun 2026 22:38:44 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi00ODwGXyrxQobZ30bAt_HwwRgLni-5_Dc77J-cG8lFCYonl0IGGu3s-tgpNHst6AZOwL1guVsSL02yuQN_4C1SiEBU9jRyBh5rIgPTSRvNkCO0m29zZidWMKb4ymvRZYl6SCD-sXatYAnebdLgtVxiFFHAEJGO6RhlbuGT9iRJbuPuzprB9NthxiuLBXh/s1600/whatsapp.jpg"
-    },
-    {
-      "title": "Gogs patches critical zero-day enabling remote code execution",
-      "link": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
-      "description": "Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (including private ones). [...]",
-      "pub_date": "Mon, 08 Jun 2026 12:18:40 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
@@ -450,14 +378,6 @@
       "image_url": ""
     },
     {
-      "title": "ZDI-26-317: Siemens Simcenter Femap IPT File Parsing Memory Corruption Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-317/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Siemens Simcenter Femap. User interaction is required to exploit this vulnerability in that the tar...",
-      "pub_date": "Tue, 12 May 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "image_url": ""
-    },
-    {
       "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
       "link": "https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/",
       "description": "How we validated, fixed, and investigated a critical vulnerability in under two hours, and confirmed no exploitation. The post Securing the git push pipeline: Responding to a critical remote code e...",
@@ -522,6 +442,14 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/03/ai-high-level-overview5.excalidraw.png?resize=1024%2C779"
     },
     {
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-7473 Arista Extensible Operating System Incomplete...",
+      "pub_date": "Tue, 09 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Siemens KACO Blueplanet Inverters",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-02",
       "description": "View CSAF Summary KACO blueplanet Inverters contain multiple vulnerabilities that could allow an attacker to derive the credentials from the devices serial number and misuse them to gain unauthoriz...",
@@ -570,22 +498,6 @@
       "image_url": ""
     },
     {
-      "title": "Hitachi Energy RTU500",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-04",
-      "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. If exploited, these vulnerabilities primarily impact product availability, ...",
-      "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "B\u0026R PPT30 Operating System",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-03",
-      "description": "View CSAF Summary B\u0026amp;R is aware of a vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploits this vulnerability could make the OPC-UA serv...",
-      "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "Hitachi Energy MACH HiDraw",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-05",
       "description": "View CSAF Summary Hitachi Energy is aware of a buffer overflow vulnerability that affects MACH HiDraw product versions listed in this document. Successful exploitation of this vulnerability could l...",
@@ -594,9 +506,25 @@
       "image_url": ""
     },
     {
+      "title": "Hitachi Energy RTU500",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-04",
+      "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. If exploited, these vulnerabilities primarily impact product availability, ...",
+      "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Hitachi Energy ITT600 Explorer",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-02",
       "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect ITT600 Explorer product versions listed in this document. These vulnerabilities can be exploited to carry out Denial of Serv...",
+      "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "B\u0026R PPT30 Operating System",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-03",
+      "description": "View CSAF Summary B\u0026amp;R is aware of a vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploits this vulnerability could make the OPC-UA serv...",
       "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -630,14 +558,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2024-21182 Oracle WebLogic Server Unspecified Vulnerab...",
       "pub_date": "Mon, 01 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-0257 Palo Alto Networks PAN-OS Authentication Bypass V...",
-      "pub_date": "Fri, 29 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
