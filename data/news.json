@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-06-09T13:39:11Z",
+  "last_updated": "2026-06-09T16:27:10Z",
   "articles": [
+    {
+      "title": "XBOW tests Anthropic's Mythos Preview for offensive security",
+      "link": "https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/",
+      "description": "Anthropic's Mythos Preview was highly effective at finding vulnerability candidates, especially when analyzing source code. XBOW explores how the model performed across exploit discovery, reverse e...",
+      "pub_date": "Tue, 09 Jun 2026 12:16:38 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Entra Agent ID Logs Reveal Suspicious Assistive Agent Activity",
+      "link": "https://cybersecuritynews.com/microsoft-entra-agent-id-logs/",
+      "description": "AI agents built into enterprise platforms are no longer just productivity tools. Security researchers have found that these agents, when configured to act on behalf of real users, can become a quie...",
+      "pub_date": "Tue, 09 Jun 2026 16:03:16 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Entra-Agent-ID-Logs-Reveal-Suspicious-Assistive-Agent-Activity.webp"
+    },
+    {
+      "title": "North Korea-Aligned Hackers Abuse GitHub Repositories to Infect Developers",
+      "link": "https://cybersecuritynews.com/north-korea-aligned-hackers-abuse-github-repositories/",
+      "description": "North Korea-aligned hackers are once again targeting the developer community, this time by hiding malicious code inside seemingly legitimate GitHub repositories. The campaign, tracked under the nam...",
+      "pub_date": "Tue, 09 Jun 2026 16:02:01 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/North-Korea-Aligned-Hackers-Abuse-GitHub-Repositories-to-Infect-Developers.webp"
+    },
+    {
+      "title": "GitHub disables Microsoft repos pushing password-stealing malware",
+      "link": "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
+      "description": "Microsoft removed 73 repositories across its Azure, microsoft, Azure-Samples, and MicrosoftDocs organizations on GitHub, disrupting continuous integration pipelines. [...]",
+      "pub_date": "Tue, 09 Jun 2026 11:42:40 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "How Threat Intelligence Feeds Help Automate SOCs to Reduce MTTR ",
+      "link": "https://cybersecuritynews.com/how-threat-intelligence-feeds-help-automate-socs-to-reduce-mttr/",
+      "description": "Security operations center (SOC) automation has become one of the biggest trends in cybersecurity. Organizations are investing heavily in AI, orchestration, and automated response technologies in p...",
+      "pub_date": "Tue, 09 Jun 2026 15:33:20 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjydm0-5ud8AjxDn-4uf3ikCdaGbV-3iQIJfVpRjUva-JJIRLBxa1og99na1QjOC1P-UKm_PpPXGfqMTE3yKAq-uy4rzYc524EoGpkYAFZ3QEHdxBG0bGMMhO2M_H6mkGGI_5XjgZ4KX0BltcgihW7YTKKWIQTbwQJhthC4IAKe7cgTqYKa9Hywm9fOjm4/s16000/Threat%20Intelligence%20Feeds%20Reduce%20SOC%20Response.webp?ssl=1"
+    },
+    {
+      "title": "Fortinet FortiSandbox Vulnerability Allows Attackers to Execute Unauthorized Commands",
+      "link": "https://cybersecuritynews.com/fortinet-fortisandbox-vulnerability-exploited/",
+      "description": "Fortinet has disclosed a critical security vulnerability in its FortiSandbox product line that could allow unauthenticated remote attackers to execute arbitrary OS commands through the web interfac...",
+      "pub_date": "Tue, 09 Jun 2026 14:51:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Fortinet-FortiSandbox-Vulnerability-Exploited.webp"
+    },
+    {
+      "title": "SPF, DKIM, DMARC Passed. Malicious Link Passes Every Authentication Check, But CyberCheck360 Caught It",
+      "link": "https://cybersecuritynews.com/cybercheck360/",
+      "description": "A $12 domain, 72 hours of patience, and your finance team\u0026#8217;s credentials — why authentication tells you who sent the email, never where the link goes, and how detection at the click closes t...",
+      "pub_date": "Tue, 09 Jun 2026 14:38:01 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/cybercheck360.webp"
+    },
+    {
+      "title": "New Veeam vulnerability exposes backup servers to RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
+      "description": "Veeam has released security updates to patch a critical Backup \u0026 Replication security flaw that can be exploited to gain remote code execution (RCE) on domain-joined backup servers. [...]",
+      "pub_date": "Tue, 09 Jun 2026 10:27:56 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Google Chrome 0-Day Vulnerability Exploited in the Wild — Update Now",
+      "link": "https://cybersecuritynews.com/google-chrome-0-day-vulnerability-exploited-in-the-wild-update-now/",
+      "description": "Google has released an emergency security update for Chrome, patching a critical zero-day vulnerability actively exploited in the wild. The Stable channel has been updated to version 149.0.7827.102...",
+      "pub_date": "Tue, 09 Jun 2026 14:20:55 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Chrome-0-Day-Vulnerability-Exploited.webp"
+    },
     {
       "title": "New Weedhack Malware-as-a-Service Targets Minecraft Players to Steal Credentials, and Hijack Accounts",
       "link": "https://cybersecuritynews.com/new-weedhack-malware-as-a-service-targets-minecraft-players/",
@@ -90,22 +162,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimsh1r7uS0J7o39IjoPTuHOzh-EiqtvAat_29YiejSgsn0oTvwmlklYrtu0VqUU05z-THGSE__CFshF8lpSdkRbx-b7Ez0uvlBnWcNQntBPcjv08iKy_hqq5W6NrLSUFek3FfLN5Z6ookVi6zqFE_uQhF56Nu_uyorkUuHOlYxm-cpfFsDwMUhWNRB9Mxi/s1600/python-worm.png"
     },
     {
-      "title": "SAP Security Patch Day – Critical Vulnerabilities in SAP NetWeaver Patched",
-      "link": "https://cybersecuritynews.com/sap-security-patch-day-june/",
-      "description": "SAP\u0026#8217;s June 2026 Security Patch Day, observed on Tuesday, June 9, delivered 15 new security notes addressing a broad range of vulnerabilities across core SAP products, including four critical-...",
-      "pub_date": "Tue, 09 Jun 2026 08:57:55 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/SAP-Security-Patch-Day-June.webp"
-    },
-    {
-      "title": "Threat Actors Abuse ChatGPT, Claude, and DeepSeek Brands as Phishing Lures to Steal Credentials",
-      "link": "https://cybersecuritynews.com/threat-actors-abuse-chatgpt-claude-and-deepseek-brands-as-phishing-lures/",
-      "description": "Cybercriminals have found a clever new trick: turning the world\u0026#8217;s most popular AI tools into traps. By disguising phishing attacks with the branding of platforms like ChatGPT, Claude, and Dee...",
-      "pub_date": "Tue, 09 Jun 2026 08:39:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Threat-Actors-Abuse-ChatGPT-Claude-and-DeepSeek-Brands-as-Phishing-Lures-to-Steal-Credentials.webp"
-    },
-    {
       "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
       "description": "CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomw...",
@@ -128,30 +184,6 @@
       "pub_date": "Tue, 09 Jun 2026 11:56:14 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGMn_z7P9hbHMRzYk9OL9_kLaqTo4GucKa1of13sGhpNvKkSBDrhZSrcG53FJsPKJguHNThZK130Ku7Fjz6i1eFXP4Hx__9KoHxiv0gBT1LAomQr0exe44OnZkJjyIhv2X5hIA-rZAiu1AFLSUXAJSjb6DhF3DqQGx-XBkup8rwwonKFLCeWbNHrS3r2rm/s1600/lite.png"
-    },
-    {
-      "title": "Apache HTTP Server 2.4.68 Released With Fix For Use-After-Free, DoS, XSS, and Buffer Overflow Flaws",
-      "link": "https://cybersecuritynews.com/apache-http-server-2-4-68/",
-      "description": "The Apache Software Foundation released Apache HTTP Server version 2.4.68 on June 8, 2026, addressing 13 security vulnerabilities spanning multiple modules. The patched flaws include use-after-free...",
-      "pub_date": "Tue, 09 Jun 2026 03:16:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Apache-HTTP-Server-2.4.68.webp"
-    },
-    {
-      "title": "21 0-Day Vulnerabilities in FFmpeg Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/21-0-day-vulnerabilities-in-ffmpeg/",
-      "description": "An autonomous security agent uncovered 21 zero-day vulnerabilities in FFmpeg, the world\u0026#8217;s most widely deployed media processing library, including a critical RCE-capable heap buffer overflow ...",
-      "pub_date": "Tue, 09 Jun 2026 02:59:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/21-0-Day-vulnerabilities-in-FFmpeg-Enables-Remote-Code-Execution-Attacks.webp"
-    },
-    {
-      "title": "New Shai-Hulud Attack Compromises 23 PyPI Packages to Target MCP Developers",
-      "link": "https://cybersecuritynews.com/23-pypi-packages-compromised/",
-      "description": "A new wave of the Shai-Hulud supply chain campaign, adding 23 newly discovered malicious PyPI package-version artifacts to an already alarming operation that previously compromised 37 packages. The...",
-      "pub_date": "Tue, 09 Jun 2026 02:55:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Shai-Hulud-Attack-Compromises-23-PyPI-Packages.webp"
     },
     {
       "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
@@ -192,14 +224,6 @@
       "pub_date": "Tue, 09 Jun 2026 01:47:39 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA8UsvPZqRGiHkumM_jxIGyax3NmK9lBR-XAaVK3Stujz8_bExONh9gAroIEXnLQo9KaXb2MpyZsqb2kcfaUxNJJtFhiSpCZjHDzOtgt-sZczb2rx2eRi-rqMiqFtfs0lq6iqJd74J3aoFRN-azg51ZhnQq84Ve1y_-AMXudSuiePM0mi1UHwTh0MHtIE/s1600/linux.jpg"
-    },
-    {
-      "title": "New China-Linked Threat Cluster OP-512 Targets IIS Servers With Cryptographically Unique Web Shell Framework",
-      "link": "https://cybersecuritynews.com/new-china-linked-threat-cluster-op-512-targets-iis-servers/",
-      "description": "A newly identified threat cluster with suspected ties to China has been caught targeting Internet Information Services (IIS) web servers using a purpose-built web shell framework. Tracked as OP-512...",
-      "pub_date": "Mon, 08 Jun 2026 19:12:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-China-Linked-Threat-Cluster-OP-512-Targets-IIS-Servers-With-Cryptographically-Unique-Web-Shell-Framework.webp"
     },
     {
       "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
@@ -282,14 +306,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRnMnAqwiH7Dgv_dmF2bugYLlu8uMyFQkl7DseYkwwzl5MzUP-KeplSbGg_aNt_OqIDtT5rLyDO_Ea96Hf_uti0eKVIseQTxtS7zt-WQksEp8c4V50Hdq0kWqWjvyOVMHVlbMo1gagsSGu4lmdhlm1NSLQLp9QZVohv74jIWehnGY-l_PAPYzUvtITBMs/s1600/fork.jpg"
     },
     {
-      "title": "Oxford University discloses data breach after careers platform hack",
-      "link": "https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/",
-      "description": "The University of Oxford disclosed a new data breach last week after being informed by its third-party provider, Group GTI, that its CareerConnect career services platform had been compromised. [...]",
-      "pub_date": "Mon, 08 Jun 2026 07:14:41 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances",
       "link": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
       "description": "A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two other malware families codenamed PLENET (aka GRIMBOLT) and AGENTP...",
@@ -304,22 +320,6 @@
       "pub_date": "Mon, 08 Jun 2026 13:09:28 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoUzV1qMNLxMhQ6z22gKy4A5VPPrLn4b1nlfLaMyR6dBM6ostnGD8O3jiaPdM_diQNx24uX-TbI6iiX0Yw4m7msT6_3_UFz_g-g1fQGh3J55fzWzRyKTel4uIp05eBMvxwaQWvNv-VM0_p9jkclDuIyq0Ztu8r4gHIKN1xNSoGYV8Lj31kb_mCcZcBeXrB/s1600/vishing.jpg"
-    },
-    {
-      "title": "Over 20,000 Instagram accounts stolen in Meta AI support hack",
-      "link": "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/",
-      "description": "Meta has revealed that 20,225 Instagram users had their accounts hijacked in a recent incident where attackers used Meta's AI-powered support system to reset passwords. [...]",
-      "pub_date": "Mon, 08 Jun 2026 02:00:27 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Hands on with Intelligent Terminal, an AI-powered Windows Terminal",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/",
-      "description": "Microsoft has created an open-source fork of Windows Terminal called \"Intelligent Terminal,\" and it allows you to use AI directly inside Terminal without interfering with the regular session. [...]",
-      "pub_date": "Sun, 07 Jun 2026 19:20:02 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "ZDI-26-331: (Pwn2Own) Microsoft Edge Feedback Log File Handling Directory Traversal Remote Code Execution Vulnerability",
@@ -522,6 +522,30 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/03/ai-high-level-overview5.excalidraw.png?resize=1024%2C779"
     },
     {
+      "title": "Siemens KACO Blueplanet Inverters",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-02",
+      "description": "View CSAF Summary KACO blueplanet Inverters contain multiple vulnerabilities that could allow an attacker to derive the credentials from the devices serial number and misuse them to gain unauthoriz...",
+      "pub_date": "Tue, 09 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Schneider Electric EcoStruxure Panel Server",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-03",
+      "description": "View CSAF Summary Schneider Electric is aware of its vulnerability in its EcoStruxure Panel Server offer. The EcoStruxure Panel Server is a high performance, modular gateway with enhanced cybersecu...",
+      "pub_date": "Tue, 09 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Schneider Electric Modicon Network Managed Switches",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-01",
+      "description": "View CSAF Summary Schneider Electric is aware of a RADIUS protocol vulnerability affecting its Modicon Network Managed Switch product. The Modicon Network Managed Switch product provides connectivi...",
+      "pub_date": "Tue, 09 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-42271 BerriAI LiteLLM Command Injection Vulnerabilit...",
@@ -546,14 +570,6 @@
       "image_url": ""
     },
     {
-      "title": "Hitachi Energy MACH HiDraw",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-05",
-      "description": "View CSAF Summary Hitachi Energy is aware of a buffer overflow vulnerability that affects MACH HiDraw product versions listed in this document. Successful exploitation of this vulnerability could l...",
-      "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
       "title": "Hitachi Energy RTU500",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-04",
       "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. If exploited, these vulnerabilities primarily impact product availability, ...",
@@ -565,6 +581,14 @@
       "title": "B\u0026R PPT30 Operating System",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-03",
       "description": "View CSAF Summary B\u0026amp;R is aware of a vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploits this vulnerability could make the OPC-UA serv...",
+      "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Hitachi Energy MACH HiDraw",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-05",
+      "description": "View CSAF Summary Hitachi Energy is aware of a buffer overflow vulnerability that affects MACH HiDraw product versions listed in this document. Successful exploitation of this vulnerability could l...",
       "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -614,30 +638,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-0257 Palo Alto Networks PAN-OS Authentication Bypass V...",
       "pub_date": "Fri, 29 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "ABB Busch-Welcome 2 Wire Door Opener Actuator",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-04",
-      "description": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could gain physical, unauthor...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CP Plus 8 Ch. Network Video Recorder",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-05",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability allows an attacker's malicious script to execute in the browser of any authenticated user or administrator who accesses the affected ...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Schneider Electric EcoStruxure Machine Expert HVAC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07",
-      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcostruxureTM Machine Expert HVAC product. The [EcostruxureTM Machine Expert HVAC](https://www.se.com/ww/en/download/document...",
-      "pub_date": "Thu, 28 May 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
