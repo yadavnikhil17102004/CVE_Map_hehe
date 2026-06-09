@@ -1,29 +1,21 @@
 {
-  "last_updated": "2026-06-09T03:35:45Z",
+  "last_updated": "2026-06-09T07:39:09Z",
   "articles": [
     {
-      "title": "Apache HTTP Server 2.4.68 Released With Fix For Use-After-Free, DoS, XSS, and Buffer Overflow Flaws",
-      "link": "https://cybersecuritynews.com/apache-http-server-2-4-68/",
-      "description": "The Apache Software Foundation released Apache HTTP Server version 2.4.68 on June 8, 2026, addressing 13 security vulnerabilities spanning multiple modules. The patched flaws include use-after-free...",
-      "pub_date": "Tue, 09 Jun 2026 03:16:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Apache-HTTP-Server-2.4.68.webp"
+      "title": "Google patches new Chrome zero-day flaw exploited in the wild",
+      "link": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
+      "description": "Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. [...]",
+      "pub_date": "Tue, 09 Jun 2026 02:56:27 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
     },
     {
-      "title": "21 0-Day Vulnerabilities in FFmpeg Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/21-0-day-vulnerabilities-in-ffmpeg/",
-      "description": "An autonomous security agent uncovered 21 zero-day vulnerabilities in FFmpeg, the world\u0026#8217;s most widely deployed media processing library, including a critical RCE-capable heap buffer overflow ...",
-      "pub_date": "Tue, 09 Jun 2026 02:59:53 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/21-0-Day-vulnerabilities-in-FFmpeg-Enables-Remote-Code-Execution-Attacks.webp"
-    },
-    {
-      "title": "New Shai-Hulud Attack Compromises 23 PyPI Packages to Target MCP Developers",
-      "link": "https://cybersecuritynews.com/23-pypi-packages-compromised/",
-      "description": "A new wave of the Shai-Hulud supply chain campaign, adding 23 newly discovered malicious PyPI package-version artifacts to an already alarming operation that previously compromised 37 packages. The...",
-      "pub_date": "Tue, 09 Jun 2026 02:55:00 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Shai-Hulud-Attack-Compromises-23-PyPI-Packages.webp"
+      "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity flaw impacting BerriAI LiteLLM to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence...",
+      "pub_date": "Tue, 09 Jun 2026 11:56:14 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGMn_z7P9hbHMRzYk9OL9_kLaqTo4GucKa1of13sGhpNvKkSBDrhZSrcG53FJsPKJguHNThZK130Ku7Fjz6i1eFXP4Hx__9KoHxiv0gBT1LAomQr0exe44OnZkJjyIhv2X5hIA-rZAiu1AFLSUXAJSjb6DhF3DqQGx-XBkup8rwwonKFLCeWbNHrS3r2rm/s1600/lite.png"
     },
     {
       "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
@@ -66,28 +58,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA8UsvPZqRGiHkumM_jxIGyax3NmK9lBR-XAaVK3Stujz8_bExONh9gAroIEXnLQo9KaXb2MpyZsqb2kcfaUxNJJtFhiSpCZjHDzOtgt-sZczb2rx2eRi-rqMiqFtfs0lq6iqJd74J3aoFRN-azg51ZhnQq84Ve1y_-AMXudSuiePM0mi1UHwTh0MHtIE/s1600/linux.jpg"
     },
     {
-      "title": "New China-Linked Threat Cluster OP-512 Targets IIS Servers With Cryptographically Unique Web Shell Framework",
-      "link": "https://cybersecuritynews.com/new-china-linked-threat-cluster-op-512-targets-iis-servers/",
-      "description": "A newly identified threat cluster with suspected ties to China has been caught targeting Internet Information Services (IIS) web servers using a purpose-built web shell framework. Tracked as OP-512...",
-      "pub_date": "Mon, 08 Jun 2026 19:12:59 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-China-Linked-Threat-Cluster-OP-512-Targets-IIS-Servers-With-Cryptographically-Unique-Web-Shell-Framework.webp"
-    },
-    {
       "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
       "link": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
       "description": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering attacks. [...]",
       "pub_date": "Mon, 08 Jun 2026 14:40:53 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware",
-      "link": "https://cybersecuritynews.com/check-point-vpn-0-day-vulnerability/",
-      "description": "Check Point Research has uncovered active exploitation of CVE-2026-50751, a critical authentication bypass vulnerability (CVSS 9.3) in Check Point Remote Access VPN and Mobile Access deployments, w...",
-      "pub_date": "Mon, 08 Jun 2026 17:18:01 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Check-Point-VPN-0-day-Vulnerability.webp"
     },
     {
       "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
@@ -98,22 +74,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi00ODwGXyrxQobZ30bAt_HwwRgLni-5_Dc77J-cG8lFCYonl0IGGu3s-tgpNHst6AZOwL1guVsSL02yuQN_4C1SiEBU9jRyBh5rIgPTSRvNkCO0m29zZidWMKb4ymvRZYl6SCD-sXatYAnebdLgtVxiFFHAEJGO6RhlbuGT9iRJbuPuzprB9NthxiuLBXh/s1600/whatsapp.jpg"
     },
     {
-      "title": "New Linux Kernel Vulnerability Lets Attackers Escalate Privileges to Root",
-      "link": "https://cybersecuritynews.com/linux-kernel-nftables-vulnerability/",
-      "description": "A use-after-free vulnerability in the Linux kernel\u0026#8217;s nftables subsystem has been disclosed, enabling unprivileged local attackers to escalate privileges to root on widely deployed distributio...",
-      "pub_date": "Mon, 08 Jun 2026 16:45:41 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Linux-Kernel-nftables-Vulnerability.webp"
-    },
-    {
-      "title": "New Pink Hacking Group Attacking Enterprise Users to Steal Cloud Storage Passwords",
-      "link": "https://cybersecuritynews.com/new-pink-hacking-group-attacking-enterprise-users/",
-      "description": "A newly identified extortion group called Pink has emerged as a serious threat to enterprise organizations, using social engineering tactics to steal cloud storage credentials and sensitive data. T...",
-      "pub_date": "Mon, 08 Jun 2026 16:22:46 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-Pink-Hacking-Group-Attacking-Enterprise-Users-to-Steal-Cloud-Storage-Passwords.webp"
-    },
-    {
       "title": "Gogs patches critical zero-day enabling remote code execution",
       "link": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
       "description": "Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (including private ones). [...]",
@@ -122,36 +82,12 @@
       "image_url": ""
     },
     {
-      "title": "Malspam Attack Uses Google DoubleClick Redirects to Deliver Fileless .NET Loader",
-      "link": "https://cybersecuritynews.com/malspam-attack-uses-google-doubleclick-redirects/",
-      "description": "Cybercriminals have found a new way to sneak malware past email security tools, and this time they are hiding behind a name that most systems trust without question. A recent malspam campaign has b...",
-      "pub_date": "Mon, 08 Jun 2026 16:01:55 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Malspam-Attack-Uses-Google-DoubleClick-Redirects-to-Deliver-Fileless-.NET-Loader.webp"
-    },
-    {
       "title": "Critical UniFi OS bug lets hackers gain root without authentication",
       "link": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
       "description": "Attackers can chain three already fixed vulnerabilities in the Ubiquiti UniFi OS server to execute remote code with root privileges and without authentication. [...]",
       "pub_date": "Mon, 08 Jun 2026 11:51:19 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "UNC3753 Attacking US Law Firms Using Vishing and RMM Tools to Exfiltrate Data",
-      "link": "https://cybersecuritynews.com/unc3753-attacking-us-law-firms/",
-      "description": "A sophisticated cybercriminal group known as UNC3753 has been running an aggressive campaign against US law firms since early 2026, using phone calls, screen-sharing tricks, and remote monitoring s...",
-      "pub_date": "Mon, 08 Jun 2026 15:21:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/UNC3753-Attacking-US-Law-Firms-Using-Vishing-and-RMM-Tools-to-Exfiltrate-Data.webp"
-    },
-    {
-      "title": "New Lucid Stealer Targets 18 Browsers, Crypto Wallets, and Discord Tokens With Hidden Remote Access",
-      "link": "https://cybersecuritynews.com/lucid-stealer-targets-18-browsers-crypto-wallets-and-discord-tokens/",
-      "description": "A newly identified piece of Windows malware is raising serious concerns among cybersecurity professionals for its wide reach and unusually deep set of capabilities. Discovered through underground c...",
-      "pub_date": "Mon, 08 Jun 2026 15:04:36 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-Lucid-Stealer-Targets-18-Browsers-Crypto-Wallets-and-Discord-Tokens-With-Hidden-Remote-Access.webp"
     },
     {
       "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
@@ -266,14 +202,6 @@
       "image_url": ""
     },
     {
-      "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
-      "description": "Hackers are actively exploiting a critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin, which lets them take complete control of a WordPress website. [...]",
-      "pub_date": "Sat, 06 Jun 2026 10:09:26 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
       "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
       "description": "OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks.  The feature is primarily d...",
@@ -312,14 +240,6 @@
       "pub_date": "Sat, 06 Jun 2026 12:28:04 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG8k6LtHNQ3cHl_X1AZbXRn6LZCNZ6lMLjy-9HG7-_OQekMOhCQKkktrnMqVteXfmGHBMMlbTv3v9Rl6kKjXlNQBSHUVybmD_IBVvMDT7IsMGV49OMSfF5V8bMFVW4ZwFjlg_gddyYtiiQqmdpYIJjuKLTZz_rxooZZQQye7omBEOjyxMFFjAaiZuc6Non/s1600/azure-npm.jpg"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
-      "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
-      "description": "Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation.  The vulnerability, tracked as CVE-2026-20245, carries a CVSS score of 7.8 ...",
-      "pub_date": "Sat, 06 Jun 2026 09:49:28 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYckKvOFV_Xz1o-nUKCcjlMQmOxdFC6FMzIjMnE4GSPPJ9kQxDLqOmK9WhofViemB5grKkMJDV_KPnQAuLci5RtV3sCOei2Fzk31qOdIk3Jeroj_6NVxoa0VX0Bw5nwwzffBp4o3hoDysRntjOxTR7akhfDV_1ZIpmcQKFMsxdvb00KYypSv7daJTqYHXb/s1600/cisco-exploit.jpg"
     },
     {
       "title": "ZDI-26-331: (Pwn2Own) Microsoft Edge Feedback Log File Handling Directory Traversal Remote Code Execution Vulnerability",
