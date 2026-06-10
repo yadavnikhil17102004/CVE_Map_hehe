@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-06-10T11:31:57Z",
+  "last_updated": "2026-06-10T14:57:07Z",
   "articles": [
+    {
+      "title": "The 5 Best Practices for Secure Identity Verification",
+      "link": "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
+      "description": "Attackers are increasingly bypassing weak authentication through phishing, MFA fatigue, and service desk social engineering. Specops Software breaks down five best practices for stronger identity v...",
+      "pub_date": "Wed, 10 Jun 2026 10:05:15 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft patches Exchange Server zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
+      "description": "Microsoft has patched an actively exploited Exchange Server vulnerability that allows threat actors to execute arbitrary JavaScript code in cross-site scripting (XSS) attacks targeting Outlook Web ...",
+      "pub_date": "Wed, 10 Jun 2026 09:44:19 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft: Some Windows PCs fail to install latest monthly updates",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-upgraded-windows-pcs-fail-to-install-monthly-updates/",
+      "description": "Microsoft warned customers on Tuesday that they may have issues installing the latest monthly updates on some Windows devices that were upgraded to Windows 11 24H2 or 25H2. [...]",
+      "pub_date": "Wed, 10 Jun 2026 07:33:32 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar",
       "link": "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html",
@@ -170,14 +194,6 @@
       "image_url": ""
     },
     {
-      "title": "New Veeam vulnerability exposes backup servers to RCE attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
-      "description": "Veeam has released security updates to patch a critical Backup \u0026 Replication security flaw that can be exploited to gain remote code execution (RCE) on domain-joined backup servers. [...]",
-      "pub_date": "Tue, 09 Jun 2026 10:27:56 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine",
       "link": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html",
       "description": "Two Russia-aligned cyber attack campaigns have continued to exploit a security flaw in WinRAR to target Ukrainian organisations, almost a year after patches for the vulnerability were released.  Th...",
@@ -210,14 +226,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJqeGTf-8XwdqkhtSdYoCT3HhGAP5pxBuBeA1ngKoX7BfGUcJMwqGhtf8Eh5TVXaN8-p-Ggk8Uiz4DhtmfT8GkKggOPmqRoh5j6XEumgw9aT7kwo4YcNAi_JrqIhSJU-_7gsyBXfwxAi7YfOS1_6CuDSen29PlEk5O4yA80Ob8_WNh81sExm8vgWSVnsY/s1600/tines.jpg"
     },
     {
-      "title": "French govt messaging service breached in account hijacking attack",
-      "link": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/",
-      "description": "DINUM, the digital affairs directorate of the French government, warned that hackers used a hijacked user account to breach Tchap, the French government's encrypted messaging platform. [...]",
-      "pub_date": "Tue, 09 Jun 2026 06:53:00 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing",
       "link": "https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html",
       "description": "A malicious website can work out which sites you visit and which apps you open, using nothing but JavaScript and the timing of your SSD. The attack, called FROST, needs no native code, no extension...",
@@ -232,14 +240,6 @@
       "pub_date": "Tue, 09 Jun 2026 14:43:32 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimsh1r7uS0J7o39IjoPTuHOzh-EiqtvAat_29YiejSgsn0oTvwmlklYrtu0VqUU05z-THGSE__CFshF8lpSdkRbx-b7Ez0uvlBnWcNQntBPcjv08iKy_hqq5W6NrLSUFek3FfLN5Z6ookVi6zqFE_uQhF56Nu_uyorkUuHOlYxm-cpfFsDwMUhWNRB9Mxi/s1600/python-worm.png"
-    },
-    {
-      "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
-      "description": "CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomw...",
-      "pub_date": "Tue, 09 Jun 2026 04:18:39 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "ZDI-26-354: Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
