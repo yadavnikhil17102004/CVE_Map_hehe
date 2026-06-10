@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-10T07:01:22Z",
+  "last_updated": "2026-06-10T11:31:57Z",
   "articles": [
+    {
+      "title": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar",
+      "link": "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html",
+      "description": "Your pentest report looks clean. That might be the problem.  Run automated pentesting long enough, and the new findings start to dry up. By the third or fourth run, fewer issues appear. The report ...",
+      "pub_date": "Wed, 10 Jun 2026 15:57:49 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD1olwyKxwxfkuyKu0JAUMudQZs0lycGOkWf3zBrMSYzJ_fuP7vUHclJrsZipKMxe1ldNNHE3llOH4B26Hk4f-noIzZnQMdBy9IGT_MkD903KCxvP0jOUr_AO2IBGZz-W-p-MLnoxDUVAz1myBaOUWeOpYQtlEYgdArjxpkxg6imCLUB9brmL3b6Vk1L4/s1600/picus-webinar.jpg"
+    },
+    {
+      "title": "Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/",
+      "description": "On Tuesday, Microsoft patched two zero-day vulnerabilities that let attackers gain SYSTEM privileges on fully patched Windows systems, and a third one that grants access to BitLocker-protected driv...",
+      "pub_date": "Wed, 10 Jun 2026 05:57:33 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs",
+      "link": "https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html",
+      "description": "Microsoft on Tuesday released fixes for a record 206 security vulnerabilities impacting its software portfolio, including three flaws that have been publicly disclosed at the time of release.  Of t...",
+      "pub_date": "Wed, 10 Jun 2026 15:08:13 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDOIX9PorKjXDciuKmL8xLL9vrOVtBou5tBhn4T-u7cgllDKei3HRDr8vsXGM-MllL1eb6E_pdEID5s_sRUxbjHiA6AhlLUQLFi6vDXM5v0Mq0hM43eWSh8Pc_qdYtcjqushm7Wl-S64w6qEGg5P6ETD_o9l5VGGoflzGo3VpgFqmL9NhIe2RUuilVAB0c/s1600/windows-patch.jpg"
+    },
+    {
+      "title": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
+      "link": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html",
+      "description": "On June 9, Anthropic released Claude Fable 5, the most capable model it has ever made, generally available. It also did something unusual: it shipped one model as two products, split not by capabil...",
+      "pub_date": "Wed, 10 Jun 2026 13:07:59 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQYvpTDJ-P39EdhVGhwg0QbEd9xU2yd2194Va1QAQaegDG_yW45yTaKCGYCZ7fe-olcVpP-cLSczkES4VDO8IIPOGXXMdL8aOU0mFBOBwPX6b-HHBVDZYcCFLpwm2P11_Xaqc4csTJ2UWLAq2hpGY1TnZMBVNDt1D0P3gkflmAvv8ifdFZbMbcna3oFeo/s1600/claude-fable.jpg"
+    },
+    {
+      "title": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances",
+      "link": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
+      "description": "ServiceNow has warned about a security incident in which unknown threat actors exploited a flaw to obtain deeper unauthorized access to susceptible instances.  \"On June 5, 2026, ServiceNow applied ...",
+      "pub_date": "Wed, 10 Jun 2026 12:32:08 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdoQ33nXrsmYyHLAdeWHw4nf5zrUhZhVi755NnYVGzkyNPbpR60m4Rt6w8JiKdPuXgn1Md6_nu253LeMjXG7VyEZcBWMaE-ST8lN8P8QqtACeftxFrV3nyIoF8TEHzX6m2sqjiv6KFz4_4eZoddHKWQYVSQgagI4oW_NcdjcnYrWyNPBbq05O7hdE8zZoj/s1600/servicenow.jpg"
+    },
     {
       "title": "Ivanti: Max severity Sentry flaw allows code execution as root",
       "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
@@ -8,14 +48,6 @@
       "pub_date": "Wed, 10 Jun 2026 02:26:28 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Windows BitLocker 0-Day Vulnerability Allows Attackers to Bypass Security Feature",
-      "link": "https://cybersecuritynews.com/windows-bitlocker-0-day-bypass-vulnerability/",
-      "description": "Microsoft disclosed a new Windows BitLocker Security Feature Bypass vulnerability, tracked as CVE-2026-50507, on June 9, 2026, as part of its June Patch Tuesday security release. The flaw, rooted ...",
-      "pub_date": "Wed, 10 Jun 2026 06:13:23 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Windows-BitLocker-0-Day-Vulnerability-Allow-Attackers-to-bypass-security-feature.webp"
     },
     {
       "title": "Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows",
@@ -32,22 +64,6 @@
       "pub_date": "Wed, 10 Jun 2026 10:38:35 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJXkAy-j0jwPWQiC9bJinbwINT6pxRmO7CJ_df4bkbAP3VD-xU8oblGB5ZBBR1oLMN0uqf_lBb5al4KSR82lU1kZsXu14TAMaXi6kIjcp5xxk5yLKnOCTloqgZd6w_PuzPxTxNROksgp9pld0D9HoxceBwprkC5cDXEvoSP64bzC_UZyZthInrECAReAeH/s1600/protobuf.jpg"
-    },
-    {
-      "title": "Anthropic Released Claude Fable 5, the First Model in Mythos Class",
-      "link": "https://cybersecuritynews.com/anthropic-claude-fable-5/",
-      "description": "Anthropic has released Claude Fable 5, the first publicly available model in its new Mythos capability tier, a class powerful enough that the company says it ships with cybersecurity safeguards bak...",
-      "pub_date": "Wed, 10 Jun 2026 04:55:36 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Anthropic-Claude-Fable-5.webp"
-    },
-    {
-      "title": "New Windows Defender 0-Day Exploit “RoguePlanet” Grants SYSTEM Access to Attackers",
-      "link": "https://cybersecuritynews.com/windows-defender-0-day-exploit-rogueplanet/",
-      "description": "A researcher known as Nightmare Eclipse (also tracked as Chaotic Eclipse or Dead Eclipse) has publicly released a new proof-of-concept (PoC) exploit named RoguePlanet, targeting a previously undisc...",
-      "pub_date": "Wed, 10 Jun 2026 03:14:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Windows-Defender-0-Day-Exploit-RoguePlanet.webp"
     },
     {
       "title": "Anthropic rolls out Claude Fable 5, but it's available for a limited time",
@@ -98,22 +114,6 @@
       "image_url": ""
     },
     {
-      "title": "New MagicAd Android Malware Flood Device With Ads Bypassing Restrictions",
-      "link": "https://cybersecuritynews.com/new-magicad-android-malware-flood-device/",
-      "description": "A newly discovered Android trojan called MagicAd has been found flooding infected devices with ads, cleverly slipping past the built-in restrictions of the Android operating system. What makes this...",
-      "pub_date": "Tue, 09 Jun 2026 18:20:35 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-MagicAd-Android-Malware-Flood-Device-With-Ads-Bypassing-Restrictions.webp"
-    },
-    {
-      "title": "New Browser-in-the-Browser Phishing Attack to Steal Microsoft 365 Logins",
-      "link": "https://cybersecuritynews.com/new-browser-in-the-browser-phishing-attack/",
-      "description": "A new and sophisticated Browser-in-the-Browser phishing campaign has been discovered targeting Microsoft 365 users, using a fake login popup that is nearly impossible to tell apart from the real th...",
-      "pub_date": "Tue, 09 Jun 2026 17:59:56 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-Browser-in-the-Browser-Phishing-Attack-to-Steal-Microsoft-365-Logins.webp"
-    },
-    {
       "title": "Microsoft June 2026 Patch Tuesday fixes 3 zero-day, 200 flaws",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/",
       "description": "Today is Microsoft's June 2026 Patch Tuesday, with security updates for 200 flaws and three publicly disclosed zero-day vulnerabilities. [...]",
@@ -130,28 +130,12 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft Patch Tuesday June 2026 – 198 Vulnerabilities Fixed, Including 3 Zero-days",
-      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-june-2026/",
-      "description": "Microsoft has released its June 2026 Patch Tuesday security updates, addressing a hefty 198 vulnerabilities across its product ecosystem. The June rollout, published on June 9, 2026, stands out not...",
-      "pub_date": "Tue, 09 Jun 2026 17:23:10 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Patch-Tuesday-June-2026.webp"
-    },
-    {
       "title": "Meta to Use Off-Site Business Data for Feed and AI Personalization",
       "link": "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html",
       "description": "Meta on Tuesday announced that it will use information shared by other businesses to personalize users' feed and responses from its artificial intelligence (AI) chatbot, expanding its scope beyond ...",
       "pub_date": "Tue, 09 Jun 2026 22:33:58 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpQhSgYELKe_2HC7BB5NcjkNvIdsBgzfzSoH7tF0EmyFq9_vXEMFYWH9cczwGUWAxITkKt0TCwTLTyeIz82mfdCBmT1Hez5SO6z5zNEmx-laLfzVEy323arr0yCMHhTWv7igdUMtmriAIGIcIcjhaXfId5iCpwUSQxEaFMP0DqA5Oov8KyEFqoWWKgh21d/s1600/facebook.jpg"
-    },
-    {
-      "title": "Critical Veeam Vulnerability Allows RCE Attacks on Backup Servers",
-      "link": "https://cybersecuritynews.com/veeam-vulnerability-rce-attacks/",
-      "description": "A critical security vulnerability has been disclosed in Veeam Backup \u0026#38; Replication, one of the most widely deployed enterprise backup solutions globally. Tracked as CVE-2026-44963, the flaw ena...",
-      "pub_date": "Tue, 09 Jun 2026 16:47:23 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Veeam-Vulnerability-RCE-Attacks.webp"
     },
     {
       "title": "Veeam Backup \u0026 Replication RCE Flaw Lets Domain Users Run Remote Code",
@@ -178,36 +162,12 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft Entra Agent ID Logs Reveal Suspicious Assistive Agent Activity",
-      "link": "https://cybersecuritynews.com/microsoft-entra-agent-id-logs/",
-      "description": "AI agents built into enterprise platforms are no longer just productivity tools. Security researchers have found that these agents, when configured to act on behalf of real users, can become a quie...",
-      "pub_date": "Tue, 09 Jun 2026 16:03:16 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Entra-Agent-ID-Logs-Reveal-Suspicious-Assistive-Agent-Activity.webp"
-    },
-    {
-      "title": "North Korea-Aligned Hackers Abuse GitHub Repositories to Infect Developers",
-      "link": "https://cybersecuritynews.com/north-korea-aligned-hackers-abuse-github-repositories/",
-      "description": "North Korea-aligned hackers are once again targeting the developer community, this time by hiding malicious code inside seemingly legitimate GitHub repositories. The campaign, tracked under the nam...",
-      "pub_date": "Tue, 09 Jun 2026 16:02:01 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/North-Korea-Aligned-Hackers-Abuse-GitHub-Repositories-to-Infect-Developers.webp"
-    },
-    {
       "title": "GitHub disables Microsoft repos pushing password-stealing malware",
       "link": "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
       "description": "Microsoft removed 73 repositories across its Azure, microsoft, Azure-Samples, and MicrosoftDocs organizations on GitHub, disrupting continuous integration pipelines. [...]",
       "pub_date": "Tue, 09 Jun 2026 11:42:40 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "How Threat Intelligence Feeds Help Automate SOCs to Reduce MTTR ",
-      "link": "https://cybersecuritynews.com/how-threat-intelligence-feeds-help-automate-socs-to-reduce-mttr/",
-      "description": "Security operations center (SOC) automation has become one of the biggest trends in cybersecurity. Organizations are investing heavily in AI, orchestration, and automated response technologies in p...",
-      "pub_date": "Tue, 09 Jun 2026 15:33:20 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjydm0-5ud8AjxDn-4uf3ikCdaGbV-3iQIJfVpRjUva-JJIRLBxa1og99na1QjOC1P-UKm_PpPXGfqMTE3yKAq-uy4rzYc524EoGpkYAFZ3QEHdxBG0bGMMhO2M_H6mkGGI_5XjgZ4KX0BltcgihW7YTKKWIQTbwQJhthC4IAKe7cgTqYKa9Hywm9fOjm4/s16000/Threat%20Intelligence%20Feeds%20Reduce%20SOC%20Response.webp?ssl=1"
     },
     {
       "title": "New Veeam vulnerability exposes backup servers to RCE attacks",
@@ -280,22 +240,6 @@
       "pub_date": "Tue, 09 Jun 2026 04:18:39 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Google patches new Chrome zero-day flaw exploited in the wild",
-      "link": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
-      "description": "Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. [...]",
-      "pub_date": "Tue, 09 Jun 2026 02:56:27 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity flaw impacting BerriAI LiteLLM to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence...",
-      "pub_date": "Tue, 09 Jun 2026 11:56:14 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGMn_z7P9hbHMRzYk9OL9_kLaqTo4GucKa1of13sGhpNvKkSBDrhZSrcG53FJsPKJguHNThZK130Ku7Fjz6i1eFXP4Hx__9KoHxiv0gBT1LAomQr0exe44OnZkJjyIhv2X5hIA-rZAiu1AFLSUXAJSjb6DhF3DqQGx-XBkup8rwwonKFLCeWbNHrS3r2rm/s1600/lite.png"
     },
     {
       "title": "ZDI-26-354: Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
@@ -416,30 +360,6 @@
       "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
-    },
-    {
-      "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
-      "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
-      "description": "Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container.  The flaw, CVE-...",
-      "pub_date": "Tue, 09 Jun 2026 01:47:39 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA8UsvPZqRGiHkumM_jxIGyax3NmK9lBR-XAaVK3Stujz8_bExONh9gAroIEXnLQo9KaXb2MpyZsqb2kcfaUxNJJtFhiSpCZjHDzOtgt-sZczb2rx2eRi-rqMiqFtfs0lq6iqJd74J3aoFRN-azg51ZhnQq84Ve1y_-AMXudSuiePM0mi1UHwTh0MHtIE/s1600/linux.jpg"
-    },
-    {
-      "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
-      "link": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
-      "description": "Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group.  In addition, the tech giant said it's filing a federal court contempt order against ...",
-      "pub_date": "Mon, 08 Jun 2026 22:38:44 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi00ODwGXyrxQobZ30bAt_HwwRgLni-5_Dc77J-cG8lFCYonl0IGGu3s-tgpNHst6AZOwL1guVsSL02yuQN_4C1SiEBU9jRyBh5rIgPTSRvNkCO0m29zZidWMKb4ymvRZYl6SCD-sXatYAnebdLgtVxiFFHAEJGO6RhlbuGT9iRJbuPuzprB9NthxiuLBXh/s1600/whatsapp.jpg"
-    },
-    {
-      "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
-      "link": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
-      "description": "Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access deployments that are configured to use the deprecated IKEv1 key exchange prot...",
-      "pub_date": "Mon, 08 Jun 2026 19:47:39 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYhQjzMpxYhylqWwtRqt0p7upc-fSMohRLJs5lRSXUg51_lrzt63JYz0K9zo2V7Rl9yCOMpQk6YFBfTdE1CuSuFYGA3odGeHu3mIV-LY_JHWyIx7g32NPOx1tuSZ-ZIMasTT5S-43DoYHEpCTykl4E4TfyXw89HksiOppUEMp5ganCT27SF0xu7noBUQ5i/s1600/checkpoint.jpg"
     },
     {
       "title": "Investigation update: GitHub Enterprise Server signing key rotation",
