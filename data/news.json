@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-06-10T02:39:56Z",
+  "last_updated": "2026-06-10T07:01:22Z",
   "articles": [
+    {
+      "title": "Ivanti: Max severity Sentry flaw allows code execution as root",
+      "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
+      "description": "Ivanti has patched two critical vulnerabilities in its Sentry secure mobile gateway solution, including a maximum-severity flaw that enables remote attackers to execute code with root privileges. [...",
+      "pub_date": "Wed, 10 Jun 2026 02:26:28 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Windows BitLocker 0-Day Vulnerability Allows Attackers to Bypass Security Feature",
+      "link": "https://cybersecuritynews.com/windows-bitlocker-0-day-bypass-vulnerability/",
+      "description": "Microsoft disclosed a new Windows BitLocker Security Feature Bypass vulnerability, tracked as CVE-2026-50507, on June 9, 2026, as part of its June Patch Tuesday security release. The flaw, rooted ...",
+      "pub_date": "Wed, 10 Jun 2026 06:13:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Windows-BitLocker-0-Day-Vulnerability-Allow-Attackers-to-bypass-security-feature.webp"
+    },
+    {
+      "title": "Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows",
+      "link": "https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html",
+      "description": "The anonymous security researcher going by the name Chaotic Eclipse (aka Nightmare-Eclipse) has released a proof-of-concept (PoC) exploit for yet another Microsoft Defender zero-day named RoguePlan...",
+      "pub_date": "Wed, 10 Jun 2026 10:52:01 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibnTGKGBThpUUZgwRx8hcclb0nuPbrV9o3MSZhFoGEp_3DLGRzdJVpj8Xfrnk1cEPUu76_u8R5Lpt10tcaWPUlbHMwbY225I3jyiBx91pYb4dmdBFbDYVai8DS3UcXAk98dTqEuyW0r3D5c2OaHHaXJzRyCAwS32tpmB83cAJRwKxI4GIT2iGnrdBI_EV7/s1600/windows-exploit.jpg"
+    },
+    {
+      "title": "Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS",
+      "link": "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html",
+      "description": "Cybersecurity researchers have flagged half a dozen vulnerabilities in protobuf.js, a JavaScript and TypeScript implementation of Protocol Buffers (Protobuf), that, if successfully exploited, could...",
+      "pub_date": "Wed, 10 Jun 2026 10:38:35 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJXkAy-j0jwPWQiC9bJinbwINT6pxRmO7CJ_df4bkbAP3VD-xU8oblGB5ZBBR1oLMN0uqf_lBb5al4KSR82lU1kZsXu14TAMaXi6kIjcp5xxk5yLKnOCTloqgZd6w_PuzPxTxNROksgp9pld0D9HoxceBwprkC5cDXEvoSP64bzC_UZyZthInrECAReAeH/s1600/protobuf.jpg"
+    },
+    {
+      "title": "Anthropic Released Claude Fable 5, the First Model in Mythos Class",
+      "link": "https://cybersecuritynews.com/anthropic-claude-fable-5/",
+      "description": "Anthropic has released Claude Fable 5, the first publicly available model in its new Mythos capability tier, a class powerful enough that the company says it ships with cybersecurity safeguards bak...",
+      "pub_date": "Wed, 10 Jun 2026 04:55:36 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Anthropic-Claude-Fable-5.webp"
+    },
+    {
+      "title": "New Windows Defender 0-Day Exploit “RoguePlanet” Grants SYSTEM Access to Attackers",
+      "link": "https://cybersecuritynews.com/windows-defender-0-day-exploit-rogueplanet/",
+      "description": "A researcher known as Nightmare Eclipse (also tracked as Chaotic Eclipse or Dead Eclipse) has publicly released a new proof-of-concept (PoC) exploit named RoguePlanet, targeting a previously undisc...",
+      "pub_date": "Wed, 10 Jun 2026 03:14:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Windows-Defender-0-Day-Exploit-RoguePlanet.webp"
+    },
     {
       "title": "Anthropic rolls out Claude Fable 5, but it's available for a limited time",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-claude-fable-5-but-its-available-for-a-limited-time/",
@@ -12,7 +60,7 @@
     {
       "title": "Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-rogueplanet-zero-day-grants-system-privileges/",
-      "description": "[...]",
+      "description": "A security researcher has released a new Microsoft Defender zero-day exploit named \"RoguePlanet\" just hours after Microsoft fixed two previously disclosed flaws during June 2026 Patch Tuesday. [...]",
       "pub_date": "Tue, 09 Jun 2026 19:11:18 -0400",
       "source": "BleepingComputer",
       "image_url": ""
@@ -162,36 +210,12 @@
       "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjydm0-5ud8AjxDn-4uf3ikCdaGbV-3iQIJfVpRjUva-JJIRLBxa1og99na1QjOC1P-UKm_PpPXGfqMTE3yKAq-uy4rzYc524EoGpkYAFZ3QEHdxBG0bGMMhO2M_H6mkGGI_5XjgZ4KX0BltcgihW7YTKKWIQTbwQJhthC4IAKe7cgTqYKa9Hywm9fOjm4/s16000/Threat%20Intelligence%20Feeds%20Reduce%20SOC%20Response.webp?ssl=1"
     },
     {
-      "title": "Fortinet FortiSandbox Vulnerability Allows Attackers to Execute Unauthorized Commands",
-      "link": "https://cybersecuritynews.com/fortinet-fortisandbox-vulnerability-exploited/",
-      "description": "Fortinet has disclosed a critical security vulnerability in its FortiSandbox product line that could allow unauthenticated remote attackers to execute arbitrary OS commands through the web interfac...",
-      "pub_date": "Tue, 09 Jun 2026 14:51:50 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Fortinet-FortiSandbox-Vulnerability-Exploited.webp"
-    },
-    {
-      "title": "SPF, DKIM, DMARC Passed. Malicious Link Passes Every Authentication Check, But CyberCheck360 Caught It",
-      "link": "https://cybersecuritynews.com/cybercheck360/",
-      "description": "A $12 domain, 72 hours of patience, and your finance team\u0026#8217;s credentials — why authentication tells you who sent the email, never where the link goes, and how detection at the click closes t...",
-      "pub_date": "Tue, 09 Jun 2026 14:38:01 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/05/cybercheck360.webp"
-    },
-    {
       "title": "New Veeam vulnerability exposes backup servers to RCE attacks",
       "link": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
       "description": "Veeam has released security updates to patch a critical Backup \u0026 Replication security flaw that can be exploited to gain remote code execution (RCE) on domain-joined backup servers. [...]",
       "pub_date": "Tue, 09 Jun 2026 10:27:56 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Google Chrome 0-Day Vulnerability Exploited in the Wild — Update Now",
-      "link": "https://cybersecuritynews.com/google-chrome-0-day-vulnerability-exploited-in-the-wild-update-now/",
-      "description": "Google has released an emergency security update for Chrome, patching a critical zero-day vulnerability actively exploited in the wild. The Stable channel has been updated to version 149.0.7827.102...",
-      "pub_date": "Tue, 09 Jun 2026 14:20:55 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Chrome-0-Day-Vulnerability-Exploited.webp"
     },
     {
       "title": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine",
@@ -394,14 +418,6 @@
       "image_url": ""
     },
     {
-      "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
-      "link": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
-      "description": "New variants of the NFCShare Android malware are being distributed as fake updates for legitimate banking apps hosted on GitHub. [...]",
-      "pub_date": "Mon, 08 Jun 2026 18:11:58 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
       "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
       "description": "Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container.  The flaw, CVE-...",
@@ -424,22 +440,6 @@
       "pub_date": "Mon, 08 Jun 2026 19:47:39 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYhQjzMpxYhylqWwtRqt0p7upc-fSMohRLJs5lRSXUg51_lrzt63JYz0K9zo2V7Rl9yCOMpQk6YFBfTdE1CuSuFYGA3odGeHu3mIV-LY_JHWyIx7g32NPOx1tuSZ-ZIMasTT5S-43DoYHEpCTykl4E4TfyXw89HksiOppUEMp5ganCT27SF0xu7noBUQ5i/s1600/checkpoint.jpg"
-    },
-    {
-      "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
-      "link": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
-      "description": "Phishing has always been a numbers game. AI has turned it into a volume machine.  Attackers can now create convincing emails, fake login pages, and tailored lures in minutes. Every polished message...",
-      "pub_date": "Mon, 08 Jun 2026 18:49:13 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWmg0GCTB3fe3Y57Wr_PMrbYUetN1SDu243ddq7AdKP-gwIbOdVDhXhuWtapmSuA6gDYWwk8ydavt33ZAoWzHmG4Imu4dqiiPaksZKDYK5AEX1XBPr2iz2JflFZoH4uy0_I35Gm6zpJo9wyGttsjdtDwLM_00VOg9qVka3vYjk62LAD3HGSbnE7ov9TMU/s1600/ai-threats.jpg"
-    },
-    {
-      "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
-      "link": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
-      "description": "Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked.  A chatb...",
-      "pub_date": "Mon, 08 Jun 2026 18:48:57 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwpRME_50jfgFZwHR0bIcYNE3-253LUHG3foA4Xd2IPQ0LCvXI4-_cLxJ-m8erh3Zof0ZY0pMOculHNwlSGAiUnwaL2H2DoXC9aKTehIh_R4vI66aZTzo00jj-hWlZ1lXtuDbDBWROGfTI4tH8G8Mb8cOlqBJLtG2l6bQS62hZlKlEt5qcLaEwsO_RhO4k/s1600/cybersecurity-recap.jpg"
     },
     {
       "title": "Investigation update: GitHub Enterprise Server signing key rotation",
