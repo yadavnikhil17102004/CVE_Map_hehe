@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-06-11T05:23:11Z",
+  "last_updated": "2026-06-11T10:09:44Z",
   "articles": [
+    {
+      "title": "China-Linked JDY Botnet Uses 1,500+ SOHO and IoT Devices for Rapid Vulnerability Exploitation",
+      "link": "https://cybersecuritynews.com/china-linked-jdy-botnet-uses-1500-soho-and-iot-devices/",
+      "description": "A China-linked network of compromised routers and smart devices has grown into one of the most capable reconnaissance tools tied to a nation-state threat group. Researchers have identified a major ...",
+      "pub_date": "Thu, 11 Jun 2026 09:25:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/China-Linked-JDY-Botnet-Uses-1500-SOHO-and-IoT-Devices-for-Rapid-Vulnerability-Exploitation.webp"
+    },
+    {
+      "title": "Microsoft fixes BitLocker recovery bug on Windows Server 2025",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/",
+      "description": "Microsoft has resolved a known issue causing some Windows Server 2025 devices to boot into BitLocker recovery after installing the April 2026 security update. [...]",
+      "pub_date": "Thu, 11 Jun 2026 04:44:22 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Exchange Server 0-Day Vulnerability Exploited in Attacks Using Weaponized Email",
+      "link": "https://cybersecuritynews.com/microsoft-exchange-server-0-day-exploited/",
+      "description": "Microsoft has confirmed active exploitation of a new zero‑day spoofing flaw in on‑premises Exchange Server, tracked as CVE‑2026‑42897. The flaw allows attackers to execute arbitrary JavaScr...",
+      "pub_date": "Thu, 11 Jun 2026 08:27:45 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Exchange-Server-0-Day-Vulnerability-Exploited-in-attacks-Using-Weaponized-Email-.webp"
+    },
+    {
+      "title": "Nottingham University data breach affects over 450,000 students",
+      "link": "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
+      "description": "The University of Nottingham confirmed on Wednesday that a hacking group gained access to its student records system in a breach affecting both current students and alums. [...]",
+      "pub_date": "Thu, 11 Jun 2026 03:27:53 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks",
+      "link": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
+      "description": "GitHub has announced what it said are \"breaking changes\" coming to npm version 12, one of which turns off install scripts by default to combat software supply chain threats.  The changes aim to com...",
+      "pub_date": "Thu, 11 Jun 2026 11:53:03 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_yyoUTLr71Ug2Ge0R7qFSnlGjB3TzlrQ-2NDR5jpPSBjivUSxhxRV1eCg5E6Af15RbJLZpqg9Ohp9ZW9YC9D2oc3VcHrNYQetavvvarn-Pn1P4VWnMw2C-hXbFgplFW9O8pe-zSP9ABGkkR-LM8hhu370dXMgeV-TGQT2p9N7hd7Friim3UkdK5FfyHHp/s1600/npm-github.jpg"
+    },
+    {
+      "title": "Max severity Ivanti Sentry vulnerability now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/",
+      "description": "Attackers are now targeting a recently patched maximum-severity flaw in Ivanti Sentry, enabling them to execute code with root privileges on Internet-exposed secure mobile gateways. [...]",
+      "pub_date": "Thu, 11 Jun 2026 02:20:22 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Ivanti Endpoint Manager Mobile Vulnerability Enables Remote Code Execution Attacks",
       "link": "https://cybersecuritynews.com/ivanti-endpoint-manager-mobile-vulnerability/",
@@ -130,22 +178,6 @@
       "image_url": ""
     },
     {
-      "title": "CISA Warns of Google Chromium 0-Day Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/google-chromium-0-day-vulnerability-exploit/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning about a newly discovered zero-day vulnerability in Google Chromium that is actively being exploited in ...",
-      "pub_date": "Wed, 10 Jun 2026 14:51:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-Warns-of-Google-Chromium-0-Day-Vulnerability-Exploited-in-Attacks.webp"
-    },
-    {
-      "title": "Slow Triage Is Raising Business Risk. Here’s How SOC Teams Cut Investigation Time ",
-      "link": "https://cybersecuritynews.com/slow-triage-is-raising-business-risk-heres-how-soc-teams-cut-investigation-time/",
-      "description": "The longer it takes to confirm a threat, the longer the business stays exposed. Slow triage leaves SOC teams stuck between suspicious alerts and clear response decisions, giving malware, phishing a...",
-      "pub_date": "Wed, 10 Jun 2026 14:48:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuvGexx8EBwnyATqqYFojcSpDED6_evh5c8LqppO49XncCB3NjU-vCF8AxEgOnJkkvrWLfz-ChtRU_3OwNQtEQAb0Zs8zDukAwxGzXAmlvl2Fl_5bLw_BwM4aGHFho7EldMroOhReEbIqUQCCYwwiNm7hyphenhyphenJBoqxkoZpqzLuXd9_jDpbBj8_EH1tRcFGgM/s16000/SOC%20Teams%20Cut%20Investigation%20Time%20Faster.webp?ssl=1"
-    },
-    {
       "title": "CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation",
       "link": "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploit...",
@@ -266,30 +298,6 @@
       "image_url": ""
     },
     {
-      "title": "ServiceNow discloses security incident exposing customer data",
-      "link": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
-      "description": "ServiceNow is warning about a security incident after attackers exploited an unauthenticated access flaw through a vulnerable API endpoint, allowing them to query data from customer instances. [...]",
-      "pub_date": "Tue, 09 Jun 2026 17:34:09 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "OpenClaw AI agent found falling for phishing attacks, spills user data",
-      "link": "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
-      "description": "Phishing simulation on an OpenClaw email agent with various configuration profiles showed that it was susceptible to tactics commonly used to compromise human users. [...]",
-      "pub_date": "Tue, 09 Jun 2026 17:20:20 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "SAP fixes critical flaws in NetWeaver and Commerce Cloud",
-      "link": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/",
-      "description": "SAP has released fixes for 15 vulnerabilities as part of its June 2026 Security Patch package, including four critical-severity flaws affecting SAP NetWeaver and SAP Commerce Cloud. [...]",
-      "pub_date": "Tue, 09 Jun 2026 15:36:27 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Meta to Use Off-Site Business Data for Feed and AI Personalization",
       "link": "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html",
       "description": "Meta on Tuesday announced that it will use information shared by other businesses to personalize users' feed and responses from its artificial intelligence (AI) chatbot, expanding its scope beyond ...",
@@ -320,14 +328,6 @@
       "pub_date": "Tue, 09 Jun 2026 17:56:10 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpdAzGyUad4rioCXpoCvPwiGqto_MgCesTBLTn-1uBtWpWAXB99KN0xiE1oIqwDbVi_vkFDnn05XOxwH3WYjLkPNDykxieuftfe-wLFibGL1o8iiUuGfhiG5yYS7KXBV3gvdIYk5PFCurpn0-L77hajka35iE_a-JxWCaYeKc2Yej1gQrkcrQ61ijTm4HS/s1600/winrar-exploit.jpg"
-    },
-    {
-      "title": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
-      "link": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html",
-      "description": "University of Toronto researchers have built and tested a proof-of-concept AI-driven computer worm that uses a locally hosted open-weight large language model to reason its way through a network, g...",
-      "pub_date": "Tue, 09 Jun 2026 17:29:03 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2H1xd7_K6KgUGsDu0E9YGBOLVgXF4DX0rDhf_pUhDRujatedeTJFwy0e_JxsMGGpQB80HOn4wTXRSxCB2DrxNo0nHYVUJC2ehyphenhyphenum_Cyjg-5bVXOIuGahdDFIIa9NBleTGfYDXQuqf005BOME3HAXVxVQw1OXNJNZwpZ4Tgke2qUK2TITR0qFMgaAH8Mf9/s1600/worm.gif"
     },
     {
       "title": "ZDI-26-354: Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
