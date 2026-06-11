@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-06-11T18:07:55Z",
+  "last_updated": "2026-06-11T21:14:05Z",
   "articles": [
+    {
+      "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
+      "link": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
+      "description": "The ShinyHunters extortion crew exploited an unpatched flaw in Oracle PeopleSoft to break into enterprise systems, steal data, and demand payment to keep it private. The campaign hit universities h...",
+      "pub_date": "Fri, 12 Jun 2026 01:59:23 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBpNcbfulhruio1VSh8OPKOjdx3gvP-Chg8OjSm7LZeVK2GaVR-osKeoQjO9e1_56Dtedmlisu76lYc70Wv5I1efqJcs2uh1RnbKJOITEcqcJoN-8PhNfmzAeLkDrST8Kg3qTbqE8wUrOd4jxE-gMi-vKN1B8W2zgY0ymFTtip79RVltY9J3QmXrAOJa4H/s1600/shinyHunters-universities.jpg"
+    },
+    {
+      "title": "Oracle mitigates PeopleSoft zero-day exploited in data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/",
+      "description": "Oracle is warning about a critical PeopleSoft Suite zero-day vulnerability tracked as CVE-2026-35273 that allows unauthenticated remote code execution, with the flaw actively exploited in ShinyHun...",
+      "pub_date": "Thu, 11 Jun 2026 15:39:53 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
+      "link": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+      "description": "Two security teams have shown, in separate research published this week, that OpenClaw, the popular self-hosted AI agent, can be driven to run attacker-controlled code or hand over sensitive data t...",
+      "pub_date": "Thu, 11 Jun 2026 23:16:32 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6r68iB-MZv_eNGG3y0evEVbk7WXNkMzcKno1phHiSyOwfKd0G7bv8VCCrxQgmZOutmZdP1Nz-Xr1mxxUIx_rV8imT0-Ifk0e0FL525Z2v0C94GWgeo-wUpTk39rDdilNC_K20uqw0JipHlT7XmyTHn786UIAe_z3H2VXT1cYNAIEbKSwn2qYc_9MXzpbi/s1600/openclaw-hacks.jpg"
+    },
+    {
+      "title": "New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files",
+      "link": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
+      "description": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse and MSNightmare) has released a new Windows BitLocker bypass dubbed GreatXML, a day after they published an exploit for Microsoft Defender...",
+      "pub_date": "Thu, 11 Jun 2026 23:13:52 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqKyNLbT9WYm7m6ZsvIgv0mNbGJCrgEjUUXLbRZV9mmQUVi7jT9IiwlXh2kYKiMOrsCnJ-ZaoAK9GnL9jy6RHJELISIGFuLSZgsSYuclWFcPmItYL04pTVeA7cl_jy8L6RU4CVPypa6u24OH8hCwPL1g1tEVRczTV1YjZ5KUFGZc6DVw8Pdo_CFGXRTS-d/s1600/windows-bitlocker.jpg"
+    },
+    {
+      "title": "CISA Requires Federal Agencies to Patch Critical Vulnerabilities Within 3 Days",
+      "link": "https://cybersecuritynews.com/cisa-patch-vulnerabilities-3-days/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued Binding Operational Directive (BOD) 26-04, titled \u0026#8220;Prioritizing Security Updates Based on Risk,\u0026#8221; compelling a...",
+      "pub_date": "Thu, 11 Jun 2026 17:27:09 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-Patch-Vulnerabilities-3-Days.webp"
+    },
+    {
+      "title": "OceanLotus APT Compromises FireAnt MetaKit in Supply-Chain Attack on Stock Investors",
+      "link": "https://cybersecuritynews.com/oceanlotus-apt-compromises-fireant-metakit/",
+      "description": "A notorious hacking group has been caught targeting stock investors in Vietnam through a supply chain attack, hijacking a popular investment software platform to deliver a powerful backdoor. The op...",
+      "pub_date": "Thu, 11 Jun 2026 17:15:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/OceanLotus-APT-Compromises-FireAnt-MetaKit-in-Supply-Chain-Attack-on-Stock-Investors.webp"
+    },
+    {
+      "title": "GoFlateLoader Uses Massive PE Overlay to Deliver Lumma, Vidar, and StealC Infostealers",
+      "link": "https://cybersecuritynews.com/goflateloader-uses-massive-pe-overlay/",
+      "description": "A new malware loader called GoFlateLoader has been quietly spreading across the internet, and what makes it stand out is not how complex it is but how effective a simple trick has made it. Written ...",
+      "pub_date": "Thu, 11 Jun 2026 17:09:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/GoFlateLoader-Uses-Massive-PE-Overlay-to-Deliver-Lumma-Vidar-and-StealC-Infostealers.webp"
+    },
+    {
+      "title": "Critical Langflow Vulnerability Exploited to Execute Malicious Code",
+      "link": "https://cybersecuritynews.com/langflow-vulnerability-exploit/",
+      "description": "A critical security vulnerability in Langflow, tracked as CVE-2026-5027, is raising serious concerns after researchers confirmed that attackers can exploit the flaw to execute malicious code on aff...",
+      "pub_date": "Thu, 11 Jun 2026 16:53:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-Langflow-Vulnerability-Exploited-to-Attacks-to-Execute-Malicious-Code.webp"
+    },
     {
       "title": "The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm",
       "link": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
@@ -8,6 +72,22 @@
       "pub_date": "Thu, 11 Jun 2026 22:20:47 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT390XWb8ahl36RgVGzdXiIpEJ43hxHfayY1i2C_rBLbVyu5A2Q-uOFptUFJL33Ehedvbx97RiUV2NivTy-FxxFCNiIKekiqeljYrI3kThk9Sko4wQlFniMDjIfNqgiP-BaN3JYFjAbo2EfP7EBuEDe_p00RtrAmdUl_lsbgzQgV-M7CM_u3Vi7AtqgbSS/s1600/ransomware.jpg"
+    },
+    {
+      "title": "Hackers Abuse SniperDz PhaaS Ecosystem for Brand Impersonation and Browser Hijacking",
+      "link": "https://cybersecuritynews.com/hackers-abuse-sniperdz-phaas-ecosystem/",
+      "description": "A sophisticated Phishing-as-a-Service (PhaaS) platform called SniperDz has been quietly enabling a wide range of online fraud that goes far beyond basic credential theft. The platform provides cybe...",
+      "pub_date": "Thu, 11 Jun 2026 16:45:48 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-SniperDz-PhaaS-Ecosystem-for-Brand-Impersonation-and-Browser-Hijacking.webp"
+    },
+    {
+      "title": "Researcher Hacked Google Using AI and Earned $500,000 Bug Bounty",
+      "link": "https://cybersecuritynews.com/google-infrastructure-hacked-ai/",
+      "description": "A security researcher known as brutecat has disclosed how an AI-driven fuzzing pipeline uncovered more than $500,000 in vulnerabilities across Google\u0026#8217;s infrastructure in under three months, e...",
+      "pub_date": "Thu, 11 Jun 2026 16:43:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Google-Infrastructure-Hacked-AI.webp"
     },
     {
       "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
@@ -24,6 +104,38 @@
       "pub_date": "Thu, 11 Jun 2026 11:55:41 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "GitHub to Automate Disable npm Script Installs to Block Supply Chain Attacks",
+      "link": "https://cybersecuritynews.com/github-automated-disable-npm-script-installs/",
+      "description": "GitHub has announced a major security-focused update to the Node Package Manager (npm), introducing breaking changes in the upcoming npm v12 release to reduce software supply chain attack risks sig...",
+      "pub_date": "Thu, 11 Jun 2026 15:55:00 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/GitHub-to-Automated-Disable-npm-Script-Installs-to-Block-Supply-Chain-Attacks.webp"
+    },
+    {
+      "title": "Claude Mythos Turning N-Days Into N-Hours With Rapid Working Exploit Creation",
+      "link": "https://cybersecuritynews.com/claude-mythos-turning-n-days-into-n-hours-exploit/",
+      "description": "A new study has revealed that advanced large language models (LLMs), particularly Anthropic’s Claude Mythos Preview, are dramatically accelerating the development of N-day exploits, reducing time...",
+      "pub_date": "Thu, 11 Jun 2026 15:50:54 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Claude-Mythos-Turning-N-Days-Into-N-Hours-With-Rapid-Working-Exploit-Creation-1.webp"
+    },
+    {
+      "title": "CISA Warns of Check Point Security Gateway Vulnerability Actively Exploited in Ransomware Attacks",
+      "link": "https://cybersecuritynews.com/cisa-check-point-security-gateway-vulnerability/",
+      "description": "CISA has added a critical vulnerability in Check Point Security Gateway to its Known Exploited Vulnerabilities (KEV) catalog, warning that threat actors are actively exploiting the flaw in ransomwa...",
+      "pub_date": "Thu, 11 Jun 2026 15:47:03 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-Check-Point-Security-Gateway-Vulnerability.webp"
+    },
+    {
+      "title": "Hackers Use Weaponized DMG Files to Target macOS Users With Infostealer Malware",
+      "link": "https://cybersecuritynews.com/hackers-use-weaponized-dmg-files/",
+      "description": "Hackers are using weaponized DMG files to target macOS users with infostealer malware, exploiting the long-standing myth that Apple devices are safe from cyber threats. These attacks rely on fake s...",
+      "pub_date": "Thu, 11 Jun 2026 15:43:53 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-Weaponized-DMG-Files-to-Target-macOS-Users-With-Infostealer-Malware.webp"
     },
     {
       "title": "Why AI-driven threats are exposing the limits of MSP security stacks",
@@ -162,9 +274,9 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs2l0GUUy91D4hHU067eYWpRzvSJGcfOkHce2jcVXZGWI9sld0hgaomhoKTc3dYEXEbz05oZQ5mFzo34eXp-wNJ2j_ofUjXjR7ZR5obszwH7bCRRmah9Q9HY3RSDrwrAf8QD162ca7nvxTRELWzcVW8AbbVMpXJfHXtaYEiSxXAw49VpCG8ep33SbGeLSF/s1600/ivanti.jpg"
     },
     {
-      "title": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE",
+      "title": "Langflow Vulnerability CVE-2026-5027 Exploited for Unauthenticated RCE",
       "link": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
-      "description": "A high-severity unpatched security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the wild, according t...",
+      "description": "A high-severity security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the wild, according to findings...",
       "pub_date": "Wed, 10 Jun 2026 20:30:59 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidDfz-Q5s2ON-nc6gW-4Lgw1yMocr3YiLP82vXcoWHcs6-_ICHWHZsciCnM2aU4kBZ2yyCJ622deCwKAXZdOFVyIoG41JC7SHyXIG6soj-RrFySsKHp2N51PpbGb7LxJWXvqOXE6GTap75h_QIjH78l0Ys__M_4EtgxMgymWgCS1vfdmWmwgpkW1TIq61I/s1600/lang.png"
@@ -202,14 +314,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft: Some Windows PCs fail to install latest monthly updates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-upgraded-windows-pcs-fail-to-install-monthly-updates/",
-      "description": "Microsoft warned customers on Tuesday that they may have issues installing the latest monthly updates on some Windows devices that were upgraded to Windows 11 24H2 or 25H2. [...]",
-      "pub_date": "Wed, 10 Jun 2026 07:33:32 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar",
       "link": "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html",
       "description": "Your pentest report looks clean. That might be the problem.  Run automated pentesting long enough, and the new findings start to dry up. By the third or fourth run, fewer issues appear. The report ...",
@@ -224,30 +328,6 @@
       "pub_date": "Wed, 10 Jun 2026 15:08:13 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDOIX9PorKjXDciuKmL8xLL9vrOVtBou5tBhn4T-u7cgllDKei3HRDr8vsXGM-MllL1eb6E_pdEID5s_sRUxbjHiA6AhlLUQLFi6vDXM5v0Mq0hM43eWSh8Pc_qdYtcjqushm7Wl-S64w6qEGg5P6ETD_o9l5VGGoflzGo3VpgFqmL9NhIe2RUuilVAB0c/s1600/windows-patch.jpg"
-    },
-    {
-      "title": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
-      "link": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html",
-      "description": "On June 9, Anthropic released Claude Fable 5, the most capable model it has ever made, generally available. It also did something unusual: it shipped one model as two products, split not by capabil...",
-      "pub_date": "Wed, 10 Jun 2026 13:07:59 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQYvpTDJ-P39EdhVGhwg0QbEd9xU2yd2194Va1QAQaegDG_yW45yTaKCGYCZ7fe-olcVpP-cLSczkES4VDO8IIPOGXXMdL8aOU0mFBOBwPX6b-HHBVDZYcCFLpwm2P11_Xaqc4csTJ2UWLAq2hpGY1TnZMBVNDt1D0P3gkflmAvv8ifdFZbMbcna3oFeo/s1600/claude-fable.jpg"
-    },
-    {
-      "title": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances",
-      "link": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
-      "description": "ServiceNow has warned about a security incident in which unknown threat actors exploited a flaw to obtain deeper unauthorized access to susceptible instances.  \"On June 5, 2026, ServiceNow applied ...",
-      "pub_date": "Wed, 10 Jun 2026 12:32:08 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdoQ33nXrsmYyHLAdeWHw4nf5zrUhZhVi755NnYVGzkyNPbpR60m4Rt6w8JiKdPuXgn1Md6_nu253LeMjXG7VyEZcBWMaE-ST8lN8P8QqtACeftxFrV3nyIoF8TEHzX6m2sqjiv6KFz4_4eZoddHKWQYVSQgagI4oW_NcdjcnYrWyNPBbq05O7hdE8zZoj/s1600/servicenow.jpg"
-    },
-    {
-      "title": "Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows",
-      "link": "https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html",
-      "description": "The anonymous security researcher going by the name Chaotic Eclipse (aka Nightmare-Eclipse) has released a proof-of-concept (PoC) exploit for yet another Microsoft Defender zero-day named RoguePlan...",
-      "pub_date": "Wed, 10 Jun 2026 10:52:01 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibnTGKGBThpUUZgwRx8hcclb0nuPbrV9o3MSZhFoGEp_3DLGRzdJVpj8Xfrnk1cEPUu76_u8R5Lpt10tcaWPUlbHMwbY225I3jyiBx91pYb4dmdBFbDYVai8DS3UcXAk98dTqEuyW0r3D5c2OaHHaXJzRyCAwS32tpmB83cAJRwKxI4GIT2iGnrdBI_EV7/s1600/windows-exploit.jpg"
     },
     {
       "title": "ZDI-26-355: Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
@@ -466,6 +546,14 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-10520 Ivanti Sentry OS Command Injection Vulnerability...",
+      "pub_date": "Thu, 11 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-7473 Arista Extensible Operating System Incomplete...",
@@ -550,14 +638,6 @@
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-05",
       "description": "View CSAF Summary Hitachi Energy is aware of a buffer overflow vulnerability that affects MACH HiDraw product versions listed in this document. Successful exploitation of this vulnerability could l...",
       "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its\u0026nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-45247\u0026nbsp;Mirasvit Full Page Cache Warmer Deseri...",
-      "pub_date": "Wed, 03 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
