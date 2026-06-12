@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-06-12T17:32:54Z",
+  "last_updated": "2026-06-12T19:57:01Z",
   "articles": [
+    {
+      "title": "Maine disables data breach notification portal after fake disclosures",
+      "link": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
+      "description": "Maine has taken its public data breach reporting portal offline after fraudulent breach disclosures were published on the state's website, prompting a review of procedures to prevent abuse in the f...",
+      "pub_date": "Fri, 12 Jun 2026 15:33:32 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "400+ Arch Linux AUR Packages Hijacked to Install Rust Credential Stealer",
+      "link": "https://thehackernews.com/2026/06/400-arch-linux-aur-packages-hijacked-to.html",
+      "description": "Attackers took over more than 400 packages in the Arch User Repository (AUR) this week and rewrote their build scripts to install a credential stealer on any machine that built them.  The malware i...",
+      "pub_date": "Sat, 13 Jun 2026 00:54:50 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoaB3XILLCN-oMr8vicgye6mcqKGYsgqgxPAGunmwASyrP3c7XgAxJTV8tsVPuRSmJ8ia7SZdS8hyphenhyphenb6moPI2QiwkdKoI2E_zchlBfqx1KnfFpb3yKHQQY6qCWyKmkSK_12texqsHTxtYnv8kMMpzJ-SEFxR7Ougz0axLPVr5zDAWQiZY8pEtUUL8L4hmri/s1600/arch-hack.jpg"
+    },
+    {
+      "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing",
+      "link": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
+      "description": "Google on Friday said it's pursuing legal action against a Chinese cybercrime network, accusing it of using its Gemini artificial intelligence (AI) agent to send phishing text messages targeting Am...",
+      "pub_date": "Sat, 13 Jun 2026 00:29:32 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2VG_lHXgOeahfKoUs6hQ7fOmh-dK1ZGloqzAWilTU73LKJF5mBDqw4OSpU8ViE0NEI1iW4cNS5vyz4TpqoJ_aGjHYt4-qJXfmZP2a3mi8GILe4OeP7qSFKeqDWrbHyoMmf49EtaDTylhnpLvem5LCwqX2e8MRSR5rQC5cNv9qH-H_ySeUT5uYHWRLGa5P/s1600/gemini-phishing.jpg"
+    },
+    {
+      "title": "Fancy Bear Hackers Abuse EdgeRouters and Cloud Services to Launch Stealthy Cyberattacks",
+      "link": "https://cybersecuritynews.com/fancy-bear-hackers-abuse-edgerouters-and-cloud-services/",
+      "description": "One of the most persistent hacking groups in the world has found a new way to stay hidden. The threat actor known as Fancy Bear, formally tracked as APT28 and attributed to Russia\u0026#8217;s military ...",
+      "pub_date": "Fri, 12 Jun 2026 18:30:29 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Fancy-Bear-Hackers-Abuse-EdgeRouters-and-Cloud-Services-to-Launch-Stealthy-Cyberattacks.webp"
+    },
+    {
+      "title": "phpBB forum fixes auth bypass bug lurking for a decade",
+      "link": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
+      "description": "A 10-year-old authentication bypass vulnerability discovered in the phpBB forum software allows an attacker to log in as any user, including administrators. [...]",
+      "pub_date": "Fri, 12 Jun 2026 14:19:34 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade",
+      "link": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
+      "description": "Instead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself.  Sygnia, which tracks the group a...",
+      "pub_date": "Fri, 12 Jun 2026 23:47:55 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxJqmKAQv_I_7JkmQwoIVSx2BkRPUEb9TTNOd2RkNqTg3tcLyZszN8KiXfUUeIBSPSoxjzMAn2inE6TL791l5B_CbQaHqG708c2tgN-kSUmz_fTuewdcrWHS8u-xdWKIr6fEhx2W7_JDszsJ1oXO9v47JxU81490QKz0ZRL2OOFoljevoD8f6OMozfMZU/s1600/linux-backdoor.jpg"
+    },
+    {
+      "title": "Hackers Abuse Legitimate NinjaOne RMM Software to Bypass Traditional Malware Detection",
+      "link": "https://cybersecuritynews.com/hackers-abuse-legitimate-ninjaone-rmm-software/",
+      "description": "A newly documented phishing campaign is using a legitimate remote management tool to silently take over victims\u0026#8217; computers, without deploying a single line of traditional malware. Researchers...",
+      "pub_date": "Fri, 12 Jun 2026 18:10:32 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-Legitimate-NinjaOne-RMM-Software-to-Bypass-Traditional-Malware-Detection.webp"
+    },
+    {
+      "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
+      "link": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
+      "description": "A Ukrainian national extradited from Ireland to the United States last year has pleaded guilty to conspiracy charges tied to the Conti ransomware operation. [...]",
+      "pub_date": "Fri, 12 Jun 2026 13:54:28 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
       "link": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
@@ -10,12 +74,68 @@
       "image_url": ""
     },
     {
+      "title": "Malicious npm Campaign Steals SSH Keys, API Tokens, Cloud Credentials, and Wallet Secrets",
+      "link": "https://cybersecuritynews.com/malicious-npm-campaign-steals-ssh-keys-api-tokens/",
+      "description": "A fresh wave of supply chain attacks is putting blockchain developers, Web3 teams, and cloud engineers at serious risk. Researchers have uncovered a coordinated campaign involving multiple maliciou...",
+      "pub_date": "Fri, 12 Jun 2026 16:01:06 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Malicious-npm-Campaign-Steals-SSH-Keys-API-Tokens-Cloud-Credentials-and-Wallet-Secrets.webp"
+    },
+    {
+      "title": "Hackers Use OnyxC2 Malware-as-a-Service to Steal Credentials From 210 Applications",
+      "link": "https://cybersecuritynews.com/hackers-use-onyxc2-malware-as-a-service/",
+      "description": "A new and dangerous credential-stealing tool called OnyxC2 has emerged in the cybercrime underground, showing just how easy it has become for even low-skilled attackers to run a professional hackin...",
+      "pub_date": "Fri, 12 Jun 2026 14:42:27 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-OnyxC2-Malware-as-a-Service-to-Steal-Credentials-From-210-Applications.webp"
+    },
+    {
+      "title": "Facebook and Instagram Down Globally, Users Reporting Multiple Issues",
+      "link": "https://cybersecuritynews.com/facebook-and-instagram-down-globally/",
+      "description": "Several Facebook and Instagram users reported issues accessing the social media platforms amid a global outage of Meta on Friday. Meta\u0026#8217;s social media ecosystem experienced a significant globa...",
+      "pub_date": "Fri, 12 Jun 2026 14:34:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Facebook-and-Instagram-Down-Globally.webp"
+    },
+    {
+      "title": "Google Sues Chinese Cybercrime Network for Using Gemini AI to Launch Cyberattacks",
+      "link": "https://cybersecuritynews.com/google-sues-chinese-cybercrime-network/",
+      "description": "Google has filed a landmark lawsuit against a China-based cybercrime network called the \u0026#8220;Outsider Enterprise,\u0026#8221; marking the first time the tech giant has legally pursued threat actors fo...",
+      "pub_date": "Fri, 12 Jun 2026 14:11:10 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Google-Sues-Chinese-Cybercrime-Network.webp"
+    },
+    {
       "title": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
       "link": "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
       "description": "GitHub access sales, leaked repositories, and stolen API keys can all become supply-chain attack footholds. Flare explores how underground forums expose early signals tied to software supply-chain ...",
       "pub_date": "Fri, 12 Jun 2026 10:01:11 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "400+ Arch Linux AUR Packages Compromised in a Supply Chain Attack Deploying Infostealers",
+      "link": "https://cybersecuritynews.com/arch-linux-aur-packages-compromised/",
+      "description": "A massive supply chain attack targeting the Arch User Repository (AUR) has compromised more than 400 community-maintained packages, with attackers injecting malicious build scripts designed to depl...",
+      "pub_date": "Fri, 12 Jun 2026 13:39:26 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Arch-Linux-AUR-Packages-Compromised.webp"
+    },
+    {
+      "title": "Critical Vulnerability Chain in LangGraph Allows Attackers to Gain Full Server Control",
+      "link": "https://cybersecuritynews.com/vulnerability-chain-in-langgraph/",
+      "description": "A critical vulnerability chain discovered in LangGraph, a popular open-source AI agent framework developed by the creators of LangChain, could allow attackers to gain full server control through re...",
+      "pub_date": "Fri, 12 Jun 2026 13:18:37 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-vulnerability-chain-in-LangGraph-Allow-Attackers-to-gain-Full-Server-Control.webp"
+    },
+    {
+      "title": "SHEETCREEP C# RAT Abuses Google Sheets API as C2 to Target Diplomatic Organizations",
+      "link": "https://cybersecuritynews.com/sheetcreep-c-rat-abuses-google-sheets-api/",
+      "description": "A newly identified remote access trojan named SHEETCREEP is making headlines for its clever use of Google Sheets as a hidden communication channel between attackers and infected machines. This C# m...",
+      "pub_date": "Fri, 12 Jun 2026 12:50:02 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/SHEETCREEP-C-RAT-Abuses-Google-Sheets-API-as-C2-to-Target-Diplomatic-Organizations.webp"
     },
     {
       "title": "Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code",
@@ -40,6 +160,14 @@
       "pub_date": "Fri, 12 Jun 2026 16:30:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2WauAS1qxBj0Oziu-jmgn34YGvKsu9xISK-gtccFv-0WkcX6EC6e-ge9UF2PCZINf9RW5cN40GWijtbnZOvADSJKZ4ErYKX_Iqoo9AO9nk3E0548I07_5PNz6vWA13UMKwU1jGjXCQJLBFyXj_RPEgiVvCuEZZyijeNBxgaiIB1itadpRaDzzoyR_DcA/s1600/mdr.jpg"
+    },
+    {
+      "title": "Authorities Dismantle Cryptocurrency Laundering Services ‘AudiA6’ Used by Ransomware Gangs",
+      "link": "https://cybersecuritynews.com/authorities-dismantle-audia6-services/",
+      "description": "Authorities have dismantled a major cryptocurrency laundering service known as “AudiA6,” widely used by ransomware groups and cybercriminal networks to obscure illicit financial flows and cash ...",
+      "pub_date": "Fri, 12 Jun 2026 10:38:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Authorities-Dismantle-cryptocurrency-laundering-services-‘AudiA6-used-by-ransomware-gangs-.webp"
     },
     {
       "title": "Pharma giant Novo Nordisk discloses breach of clinical trials data",
@@ -194,52 +322,12 @@
       "image_url": ""
     },
     {
-      "title": "CISA tells govt agencies to patch critical exploited flaws in 3 days",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-tells-govt-agencies-to-patch-critical-exploited-flaws-in-3-days/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) announced a new Binding Operational Directive, 26-04, that prioritizes security updates for Federal Civilian Executive Branch (FCEB)...",
-      "pub_date": "Thu, 11 Jun 2026 08:46:44 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.",
       "link": "https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html",
       "description": "For thirty years, vulnerability management ran on a buffer: the months between when a vulnerability was found and when someone could figure out how to weaponize it. The solution was straightforward...",
       "pub_date": "Thu, 11 Jun 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimJQm5XK5zijXnauJNV2_6v7g0bNYcdYLA-SuZZHbWZgQWB523V2Z7IgfYMu16QIc-JHnMg_8dXFY-TJ4dK9FpU4iAn2-8S4mE_ZE3M-z2XITVq6X2hF0e5Ngq33PcyeYSOlDceniRcY98Y8JNQwI5MWYbEor7h-h4kQLvaoeQ0OvJmg-UZTG82dv9nZI/s1600/ai-broke.jpg"
-    },
-    {
-      "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack",
-      "link": "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
-      "description": "The Vietnam-aligned threat actor known as OceanLotus has been attributed to two distinct campaigns that targeted domestic entities and stock investors with a backdoor known as SPECTRALVIPER.  The c...",
-      "pub_date": "Thu, 11 Jun 2026 15:15:58 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2WExeCWTOdaaW7iQfV9dxGz0_rzPShImjBUQfoeRsJeTLg09lrGsSEgA2k05q-weIqQaQ_VVP25lTObup7E0xtcnxj3AtK1HHkNIAkI_hykxraL74qXTPwCRlRCdTB3S5QJO-e2j5zPGxgvCBg9SyRFl9QD2gwVtOqgg3eNF7_ZXGI9JgFSE4LGPjwoS3/s1600/cyberattacks.jpg"
-    },
-    {
-      "title": "Microsoft fixes BitLocker recovery bug on Windows Server 2025",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/",
-      "description": "Microsoft has resolved a known issue causing some Windows Server 2025 devices to boot into BitLocker recovery after installing the April 2026 security update. [...]",
-      "pub_date": "Thu, 11 Jun 2026 04:44:22 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Nottingham University data breach affects over 450,000 students",
-      "link": "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
-      "description": "The University of Nottingham confirmed on Wednesday that a hacking group gained access to its student records system in a breach affecting both current students and alums. [...]",
-      "pub_date": "Thu, 11 Jun 2026 03:27:53 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks",
-      "link": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
-      "description": "GitHub has announced what it said are \"breaking changes\" coming to npm version 12, one of which turns off install scripts by default to combat software supply chain threats.  The changes aim to com...",
-      "pub_date": "Thu, 11 Jun 2026 11:53:03 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_yyoUTLr71Ug2Ge0R7qFSnlGjB3TzlrQ-2NDR5jpPSBjivUSxhxRV1eCg5E6Af15RbJLZpqg9Ohp9ZW9YC9D2oc3VcHrNYQetavvvarn-Pn1P4VWnMw2C-hXbFgplFW9O8pe-zSP9ABGkkR-LM8hhu370dXMgeV-TGQT2p9N7hd7Friim3UkdK5FfyHHp/s1600/npm-github.jpg"
     },
     {
       "title": "ZDI-26-360: MATE Desktop Atril Document Viewer EPUB File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
@@ -280,14 +368,6 @@
       "pub_date": "Thu, 11 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "image_url": ""
-    },
-    {
-      "title": "China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance",
-      "link": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html",
-      "description": "Cybersecurity researchers have warned of a \"resurgence and expansion\" of JDY, a covert network associated with China-nexus state-sponsored threat actors.  \"The JDY botnet comprises over 1,500 SOHO ...",
-      "pub_date": "Wed, 10 Jun 2026 21:38:42 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQC0_BYMuNpY7re4OHHsytEfC6fW3KsonxN6e2X0Dj03fJoMazI6EZnvPj_hOUZ99yJLq6RrH3ZSCsfDWOB6AgDJVk_1LY5TzgSpP7QFKcI_grjRI7Pm9QGputoI0LM4LH8ZCOAVb_PnzXAs_bMP6n_3u__fPEmxEKVUv5ZZjG5vOJT_fmhvAy551gjCmi/s1600/bot.png"
     },
     {
       "title": "ZDI-26-355: Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
@@ -442,6 +522,14 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-35273 Oracle PeopleSoft Enterprise PeopleTools Missing...",
+      "pub_date": "Fri, 12 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Yarbo Android/iOS Mobile Application and Cloud Infrastructure",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-01",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain hard-coded credentials, gain access to telemetry data, and potentially send operational commands...",
@@ -518,14 +606,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-28318 SolarWinds Serv-U Uncontrolled Resource Consumpt...",
       "pub_date": "Fri, 05 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Hitachi Energy ITT600 Explorer",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-02",
-      "description": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect ITT600 Explorer product versions listed in this document. These vulnerabilities can be exploited to carry out Denial of Serv...",
-      "pub_date": "Thu, 04 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
