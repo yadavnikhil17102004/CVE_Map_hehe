@@ -1,22 +1,6 @@
 {
-  "last_updated": "2026-06-14T11:49:41Z",
+  "last_updated": "2026-06-14T13:43:53Z",
   "articles": [
-    {
-      "title": "Maine Takes Data Breach Reporting Portal Offline After Fake VRChat and Discord Filings",
-      "link": "https://cybersecuritynews.com/maine-data-breach-portal-offline/",
-      "description": "The Office of the Maine Attorney General has temporarily taken its public-facing data breach reporting database offline after discovering that an unknown entity submitted fabricated breach notifica...",
-      "pub_date": "Sun, 14 Jun 2026 02:57:25 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Maine-Data-Breach-Portal-Offline.webp"
-    },
-    {
-      "title": "152 Chrome Extensions Hide Ad Tracking and Fake Google Search Traffic",
-      "link": "https://cybersecuritynews.com/chrome-extensions-hide-ad-tracking/",
-      "description": "152 Chrome “live wallpaper” extensions on the Chrome Web Store have been caught secretly logging user data and faking Google “organic search” traffic to inflate ad revenue, despite promisin...",
-      "pub_date": "Sun, 14 Jun 2026 02:42:37 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/152-Chrome-Extensions-Hide-Ad-Tracking-and-Fake-Google-Search-Traffic.webp"
-    },
     {
       "title": "Ex-school district employee jailed for hacks on former employer",
       "link": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
@@ -24,14 +8,6 @@
       "pub_date": "Sat, 13 Jun 2026 16:53:13 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "New Agentjacking Attack Hijacks Your AI Coding Agent to Run Code From a Hacker’s Server",
-      "link": "https://cybersecuritynews.com/agentjacking-attack-hijacks-ai-coding-agent/",
-      "description": "New “Agentjacking” attack that hijacks AI coding agents and silently executes attacker-controlled code on developer machines using nothing more than a single injected Sentry error. The techniqu...",
-      "pub_date": "Sat, 13 Jun 2026 16:48:30 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-Agentjacking-Attack-hijacks-your-AI-coding-agent-to-Run-Code-From-Hackers-Server.webp"
     },
     {
       "title": "Chinese hackers hijack auth flow, spy on isolated network for a decade",
@@ -42,28 +18,12 @@
       "image_url": ""
     },
     {
-      "title": "BugHunter – Bug Bounty Toolkit Powered by Claude and Free AI Providers",
-      "link": "https://cybersecuritynews.com/bughunter-bug-bounty-toolkit/",
-      "description": "A new open-source bug bounty hunting toolkit called BugHunter, built on top of Anthropic\u0026#8217;s Claude Code and now extended to support free AI providers like Ollama and Groq, is gaining traction ...",
-      "pub_date": "Sat, 13 Jun 2026 13:33:28 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/BugHunter-Bug-Bounty-Toolkit.webp"
-    },
-    {
       "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
       "link": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
       "description": "Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution.  The...",
       "pub_date": "Sat, 13 Jun 2026 18:53:03 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7NRzSRKbGdsTj1TIWcks4nX5u6n1U2vl5hxJ8KKFZ-JCAKlMQPXQNHA1i0otd63wcKJoZbeEc3oVa9o4uYNTRkRyZaJsJVGV7JUmlqjY5mQkrOXFQJXmUT1kOIZPU6CRdlwx6X7lyi7Iffz7gUIC-nYc2N1dzmiuo2hyphenhyphenPURZ3nKdQcsbLACKidjOeTbRh/s1600/splunk.jpg"
-    },
-    {
-      "title": "Splunk Enterprise Pre-Auth RCE Chain Exposes Database With Zero Authentication",
-      "link": "https://cybersecuritynews.com/splunk-enterprise-pre-auth-rce-chain-exposes/",
-      "description": "A critical vulnerability chain in Splunk Enterprise has been disclosed, enabling unauthenticated attackers to achieve remote code execution (RCE) through a misconfigured PostgreSQL sidecar service....",
-      "pub_date": "Sat, 13 Jun 2026 11:12:05 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Splunk-Enterprise-Pre-Auth-RCE-Chain-Exposes-Database-With-Zero-Authenticatio.webp"
     },
     {
       "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
@@ -80,14 +40,6 @@
       "pub_date": "Sat, 13 Jun 2026 11:12:50 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitE4uRkPKzQw_uUTSEzPgbuTByOaSNQeEHcANQCdYOtD8HJxqjIy9e0TIkkYeMN5QQghbvb1Nc4RJdwpGUD4ttQ8FqBpDAIMBe5Biw4zXIF-iYgl-vZPCGL1b5VNZpajQ8_cCPj7jx0DFABYuXLpyHYUSOe3jBKPsSej0y7TxrIHZwG_4m56TrDdTS9Ap1/s1600/Anthropic-claude.jpg"
-    },
-    {
-      "title": "Anthropic Fable 5 and Mythos 5 Access Blocked to All Users Following Government Directive",
-      "link": "https://cybersecuritynews.com/anthropic-fable-5-and-mythos-5-access-blocked/",
-      "description": "Anthropic has disabled its two most capable AI models, Fable 5 and Mythos 5, after the U.S. government issued an export control directive late on June 12 ordering the company to block access for an...",
-      "pub_date": "Sat, 13 Jun 2026 03:38:52 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Anthropic-Fable-5-and-Mythos-5-access-Blocked.webp"
     },
     {
       "title": "Maine disables data breach notification portal after fake disclosures",
@@ -114,14 +66,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2VG_lHXgOeahfKoUs6hQ7fOmh-dK1ZGloqzAWilTU73LKJF5mBDqw4OSpU8ViE0NEI1iW4cNS5vyz4TpqoJ_aGjHYt4-qJXfmZP2a3mi8GILe4OeP7qSFKeqDWrbHyoMmf49EtaDTylhnpLvem5LCwqX2e8MRSR5rQC5cNv9qH-H_ySeUT5uYHWRLGa5P/s1600/gemini-phishing.jpg"
     },
     {
-      "title": "Fancy Bear Hackers Abuse EdgeRouters and Cloud Services to Launch Stealthy Cyberattacks",
-      "link": "https://cybersecuritynews.com/fancy-bear-hackers-abuse-edgerouters-and-cloud-services/",
-      "description": "One of the most persistent hacking groups in the world has found a new way to stay hidden. The threat actor known as Fancy Bear, formally tracked as APT28 and attributed to Russia\u0026#8217;s military ...",
-      "pub_date": "Fri, 12 Jun 2026 18:30:29 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Fancy-Bear-Hackers-Abuse-EdgeRouters-and-Cloud-Services-to-Launch-Stealthy-Cyberattacks.webp"
-    },
-    {
       "title": "phpBB forum fixes auth bypass bug lurking for a decade",
       "link": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
       "description": "A 10-year-old authentication bypass vulnerability discovered in the phpBB forum software allows an attacker to log in as any user, including administrators. [...]",
@@ -138,14 +82,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxJqmKAQv_I_7JkmQwoIVSx2BkRPUEb9TTNOd2RkNqTg3tcLyZszN8KiXfUUeIBSPSoxjzMAn2inE6TL791l5B_CbQaHqG708c2tgN-kSUmz_fTuewdcrWHS8u-xdWKIr6fEhx2W7_JDszsJ1oXO9v47JxU81490QKz0ZRL2OOFoljevoD8f6OMozfMZU/s1600/linux-backdoor.jpg"
     },
     {
-      "title": "Hackers Abuse Legitimate NinjaOne RMM Software to Bypass Traditional Malware Detection",
-      "link": "https://cybersecuritynews.com/hackers-abuse-legitimate-ninjaone-rmm-software/",
-      "description": "A newly documented phishing campaign is using a legitimate remote management tool to silently take over victims\u0026#8217; computers, without deploying a single line of traditional malware. Researchers...",
-      "pub_date": "Fri, 12 Jun 2026 18:10:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-Legitimate-NinjaOne-RMM-Software-to-Bypass-Traditional-Malware-Detection.webp"
-    },
-    {
       "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
       "link": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
       "description": "A Ukrainian national extradited from Ireland to the United States last year has pleaded guilty to conspiracy charges tied to the Conti ransomware operation. [...]",
@@ -160,22 +96,6 @@
       "pub_date": "Fri, 12 Jun 2026 13:03:55 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Malicious npm Campaign Steals SSH Keys, API Tokens, Cloud Credentials, and Wallet Secrets",
-      "link": "https://cybersecuritynews.com/malicious-npm-campaign-steals-ssh-keys-api-tokens/",
-      "description": "A fresh wave of supply chain attacks is putting blockchain developers, Web3 teams, and cloud engineers at serious risk. Researchers have uncovered a coordinated campaign involving multiple maliciou...",
-      "pub_date": "Fri, 12 Jun 2026 16:01:06 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Malicious-npm-Campaign-Steals-SSH-Keys-API-Tokens-Cloud-Credentials-and-Wallet-Secrets.webp"
-    },
-    {
-      "title": "Hackers Use OnyxC2 Malware-as-a-Service to Steal Credentials From 210 Applications",
-      "link": "https://cybersecuritynews.com/hackers-use-onyxc2-malware-as-a-service/",
-      "description": "A new and dangerous credential-stealing tool called OnyxC2 has emerged in the cybercrime underground, showing just how easy it has become for even low-skilled attackers to run a professional hackin...",
-      "pub_date": "Fri, 12 Jun 2026 14:42:27 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-OnyxC2-Malware-as-a-Service-to-Steal-Credentials-From-210-Applications.webp"
     },
     {
       "title": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
