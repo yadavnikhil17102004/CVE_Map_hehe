@@ -1,37 +1,77 @@
 {
-  "last_updated": "2026-06-15T08:52:28Z",
+  "last_updated": "2026-06-15T14:58:24Z",
   "articles": [
     {
-      "title": "SecSuite – AI-powered Tool for OSINT, Web and API Security Testing",
-      "link": "https://cybersecuritynews.com/secsuite-ai-powered-tool/",
-      "description": "A new open-source security platform called SecSuite, developed under the TheSecuredAnalyst project, has been released, combining OSINT reconnaissance, web vulnerability scanning, API security as...",
-      "pub_date": "Mon, 15 Jun 2026 08:36:50 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/SecSuite-AI-powered-Tool.webp"
+      "title": "Vibe coders are gonna vibe code: How CISOs are tackling code sprawl",
+      "link": "https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/",
+      "description": "Employees are increasingly building automations, agents, and apps with AI tools outside traditional security oversight. Tines explores how CISOs are handling AI-driven code sprawl, shadow tooling, ...",
+      "pub_date": "Mon, 15 Jun 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
     },
     {
-      "title": "WinRAR Vulnerability Exploited by Russian Hackers to Deploy GIFTEDCROOK Stealer",
-      "link": "https://cybersecuritynews.com/winrar-vulnerability-exploited-by-russian-hackers/",
-      "description": "Russian hackers are exploiting a known flaw in WinRAR to quietly steal passwords, session cookies, and sensitive files from Ukrainian organizations. The vulnerability, tracked as CVE-2025-8088, was...",
-      "pub_date": "Mon, 15 Jun 2026 08:02:11 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/WinRAR-Vulnerability-Exploited-by-Russian-Hackers-to-Deploy-GIFTEDCROOK-Stealer.webp"
+      "title": "Chinese hackers breach REDCap servers, steal medical research",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/",
+      "description": "A China-linked espionage campaign targeted exposed REDCap servers to deploy the InfiniteRed malware and steal sensitive data from a medical institution in North America. [...]",
+      "pub_date": "Mon, 15 Jun 2026 10:00:00 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
     },
     {
-      "title": "Palo Alto Warns of GlobalProtect VPN Vulnerability Actively Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/palo-alto-vpn-vulnerability-exploited/",
-      "description": "Palo Alto Networks Unit 42 has issued an urgent warning about active exploitation of CVE-2026-0257, a critical authentication bypass vulnerability affecting the GlobalProtect portal and gateway com...",
-      "pub_date": "Mon, 15 Jun 2026 07:43:04 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Palo-Alto-VPN-Vulnerability-Exploited.webp"
+      "title": "⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More",
+      "link": "https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html",
+      "description": "Stuff broke again. Not in a movie way. An old tool was left exposed. An abandoned package was abused. A deprecated feature was still running in prod.  This week is the same lesson in a new form: ph...",
+      "pub_date": "Mon, 15 Jun 2026 19:19:29 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOtdohah5P1Lv9egIZCwwxpEdcV4phYigmhvgzB3ulDhSeeffe4qDsVoowrzaTD6WsgwyjKIdJ_vzvnsUJ78zn5oxOl83qUj5ie8NN_MF8pMbdcikrPpV9vAUgm-7NLOztqN17uTx-dktpkgcQSFrmulSyCtE3MCGHOe5yQRVDFbsrx0DUjoHTa76k4Oos/s1600/thn-recap.jpg"
     },
     {
-      "title": "Threat Actor Malware Platform Exposed via Unlocked PHP Installation Page",
-      "link": "https://cybersecuritynews.com/malware-platform-unlocked-php-installation-page/",
-      "description": "A misconfigured PHP installation page exposed the internal infrastructure of a live malware distribution platform, allowing a security researcher to gain unintentional administrative access to a th...",
-      "pub_date": "Mon, 15 Jun 2026 07:31:34 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Threat-Actor-Malware-Platform-Exposed-via-Unlocked-PHP-Installation-Page.webp"
+      "title": "New attack turned Microsoft 365 Copilot into 1-click data theft tool",
+      "link": "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
+      "description": "A critical vulnerability chain dubbed SearchLeak in Microsoft 365 Copilot Enterprise could allow attackers to steal sensitive data from a target's mailbox, OneDrive, or SharePoint account through a...",
+      "pub_date": "Mon, 15 Jun 2026 09:00:00 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Infinite Campus data breach affects 137,000 school staff accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/",
+      "description": "The ShinyHunters extortion gang stole personal information from more than 137,000 school staff accounts in a Salesforce data theft attack that targeted the widely used Infinite Campus K-12 student ...",
+      "pub_date": "Mon, 15 Jun 2026 08:38:55 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Webinar: How behavioral AI stops phishing and account takeovers",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-how-behavioral-ai-stops-phishing-and-account-takeovers/",
+      "description": "Modern phishing, BEC, and account takeover attacks increasingly bypass traditional email defenses and create operational strain for security teams. This webinar explores how behavioral AI can help ...",
+      "pub_date": "Mon, 15 Jun 2026 08:12:20 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "The Onboarding Password Mistake That Creates Unnecessary Risk",
+      "link": "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
+      "description": "Employee onboarding is a busy time for IT teams. New starters need devices, accounts, access permissions, and passwords, all delivered within a tight timeframe.  That usually means sharing a tempor...",
+      "pub_date": "Mon, 15 Jun 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDj2pDJr4F9HBYmRTjOtetTz0h0vViw1lMZp6N0YAS5bGKv8ELJ1hjEcSffQg4xCTqhpIEkLchZxDXn-JNCQdUELSWNW5FcfHceLFvjAvVFXNJq5tClyqJ4onrgYp4lX3axgc2u0QU_k9MQoyjLfZt1RV3ZPapqVaZXrJy6H2wn4dw1dYWS1S4iou-dDI/s1600/outpost24.jpg"
+    },
+    {
+      "title": "152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic",
+      "link": "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
+      "description": "Cybersecurity researchers have discovered a network of 152 Google Chrome extensions that act as new tab live wallpaper add-ons to distribute a potentially unwanted program (PUP) family.  The cluste...",
+      "pub_date": "Mon, 15 Jun 2026 16:37:50 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXEEp49DrIDRyHxMpdUoO-A9TL3T6P-7mUwImILVRSRl940D39uZbouVIhM1j8ZVEpxfTskTrLB5qrDDQ07yp7TFGTXSBhQqlwNLyN49sCW38MZds5YQP_c1lhrkl0aizSaU0ZpBpf9NS3WGD9k5BZhh52ZDuyrtxSwUrXgkjRnWMAgLq3FT6dLG0sCAfh/s1600/chrome-traffic.jpg"
+    },
+    {
+      "title": "Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites",
+      "link": "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
+      "description": "An attacker tampered with trusted JavaScript files used by WordPress sites running PushEngage, OptinMonster, and TrustPulse, turning those files into a way to break into the sites.  When a site adm...",
+      "pub_date": "Mon, 15 Jun 2026 15:29:38 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5TE5Z8cG6zx7J64PdC2qxAh0h0o-KRwA1vEBvunxSEWkh5QmlsaIe2zKWUL7yX28chYs9zWMwA6eBcmTzfRIaKtyI53hKlLTSar9d4EMnjPQiY8KoQ0JldPkCQvc6B4EbO2ktcQV07rr4nf_RFBnA_eNHXChsNTOzvB3Fv7-0ENUDa8W8ut1rAdVOFAjh/s1600/wordpress.jpg"
     },
     {
       "title": "Sniper Dz Scams Target MENA Users via Fake Facebook Offers and Browser Alerts",
@@ -50,36 +90,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMFIs6j0CgFzSojDqSi_UsqRzjlbYcRsrJG714Yh40TZXU4ZzlB_Do-7nbx5WGGvOS7mV3TojQLTiHbFS57BtgCo4hlF0DebzDtrSh5YzXkqNhjEI4JG97N_vpkFzeJP3V-adbSsPYRdYCQklFdweodtTJHywVHA5HiqgvYOp5eyxW0aQxKVacua9F9w3_/s1600/paloalto-vpn.jpg"
     },
     {
-      "title": "Criminal IP at Infosecurity Europe 2026: Introducing AITEM, the Next Chapter of Attack Surface Management",
-      "link": "https://cybersecuritynews.com/criminal-ip-at-infosecurity-europe-2026-introducing-aitem-the-next-chapter-of-attack-surface-management/",
-      "description": "Torrance, United States / California, June 11th, 2026, CyberNewswire Criminal IP by AI SPERA, a cyber threat intelligence platform delivering decision-ready intelligence and attack surface visibili...",
-      "pub_date": "Sun, 14 Jun 2026 18:28:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/app.cybernewswire.com/storage/uploads/users/Untitled_design_17810711059KKOaaIKEm.jpg?ssl=1"
-    },
-    {
       "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
       "description": "In a coordinated effort, the FBI, working with Google and Black Lotus Labs, has dismantled a massive Chinese phishing-as-a-service operation called Outsider Enterprise with thousands of phishing we...",
       "pub_date": "Sun, 14 Jun 2026 10:36:23 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Maine Takes Data Breach Reporting Portal Offline After Fake VRChat and Discord Filings",
-      "link": "https://cybersecuritynews.com/maine-data-breach-portal-offline/",
-      "description": "The Office of the Maine Attorney General has temporarily taken its public-facing data breach reporting database offline after discovering that an unknown entity submitted fabricated breach notifica...",
-      "pub_date": "Sun, 14 Jun 2026 02:57:25 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Maine-Data-Breach-Portal-Offline.webp"
-    },
-    {
-      "title": "152 Chrome Extensions Hide Ad Tracking and Fake Google Search Traffic",
-      "link": "https://cybersecuritynews.com/chrome-extensions-hide-ad-tracking/",
-      "description": "152 Chrome “live wallpaper” extensions on the Chrome Web Store have been caught secretly logging user data and faking Google “organic search” traffic to inflate ad revenue, despite promisin...",
-      "pub_date": "Sun, 14 Jun 2026 02:42:37 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/152-Chrome-Extensions-Hide-Ad-Tracking-and-Fake-Google-Search-Traffic.webp"
     },
     {
       "title": "Ex-school district employee jailed for hacks on former employer",
@@ -90,14 +106,6 @@
       "image_url": ""
     },
     {
-      "title": "New Agentjacking Attack Hijacks Your AI Coding Agent to Run Code From a Hacker’s Server",
-      "link": "https://cybersecuritynews.com/agentjacking-attack-hijacks-ai-coding-agent/",
-      "description": "New “Agentjacking” attack that hijacks AI coding agents and silently executes attacker-controlled code on developer machines using nothing more than a single injected Sentry error. The techniqu...",
-      "pub_date": "Sat, 13 Jun 2026 16:48:30 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-Agentjacking-Attack-hijacks-your-AI-coding-agent-to-Run-Code-From-Hackers-Server.webp"
-    },
-    {
       "title": "Chinese hackers hijack auth flow, spy on isolated network for a decade",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
       "description": "Chinese hackers took control of a target organization's authentication stack and maintained persistence for 10 years, with full visibility into the administrative activity. [...]",
@@ -106,28 +114,12 @@
       "image_url": ""
     },
     {
-      "title": "BugHunter – Bug Bounty Toolkit Powered by Claude and Free AI Providers",
-      "link": "https://cybersecuritynews.com/bughunter-bug-bounty-toolkit/",
-      "description": "A new open-source bug bounty hunting toolkit called BugHunter, built on top of Anthropic\u0026#8217;s Claude Code and now extended to support free AI providers like Ollama and Groq, is gaining traction ...",
-      "pub_date": "Sat, 13 Jun 2026 13:33:28 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/BugHunter-Bug-Bounty-Toolkit.webp"
-    },
-    {
       "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
       "link": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
       "description": "Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution.  The...",
       "pub_date": "Sat, 13 Jun 2026 18:53:03 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7NRzSRKbGdsTj1TIWcks4nX5u6n1U2vl5hxJ8KKFZ-JCAKlMQPXQNHA1i0otd63wcKJoZbeEc3oVa9o4uYNTRkRyZaJsJVGV7JUmlqjY5mQkrOXFQJXmUT1kOIZPU6CRdlwx6X7lyi7Iffz7gUIC-nYc2N1dzmiuo2hyphenhyphenPURZ3nKdQcsbLACKidjOeTbRh/s1600/splunk.jpg"
-    },
-    {
-      "title": "Splunk Enterprise Pre-Auth RCE Chain Exposes Database With Zero Authentication",
-      "link": "https://cybersecuritynews.com/splunk-enterprise-pre-auth-rce-chain-exposes/",
-      "description": "A critical vulnerability chain in Splunk Enterprise has been disclosed, enabling unauthenticated attackers to achieve remote code execution (RCE) through a misconfigured PostgreSQL sidecar service....",
-      "pub_date": "Sat, 13 Jun 2026 11:12:05 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Splunk-Enterprise-Pre-Auth-RCE-Chain-Exposes-Database-With-Zero-Authenticatio.webp"
     },
     {
       "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
@@ -234,14 +226,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2WauAS1qxBj0Oziu-jmgn34YGvKsu9xISK-gtccFv-0WkcX6EC6e-ge9UF2PCZINf9RW5cN40GWijtbnZOvADSJKZ4ErYKX_Iqoo9AO9nk3E0548I07_5PNz6vWA13UMKwU1jGjXCQJLBFyXj_RPEgiVvCuEZZyijeNBxgaiIB1itadpRaDzzoyR_DcA/s1600/mdr.jpg"
     },
     {
-      "title": "Pharma giant Novo Nordisk discloses breach of clinical trials data",
-      "link": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
-      "description": "Danish pharmaceutical giant Novo Nordisk, the world's largest producer of insulin, disclosed a data breach affecting patient information from some clinical trials. [...]",
-      "pub_date": "Fri, 12 Jun 2026 06:13:19 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution",
       "link": "https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html",
       "description": "Cybersecurity researchers have disclosed details of three now-patched security flaws impacting LangGraph, including a critical vulnerability chain that could result in remote code execution.  LangG...",
@@ -256,70 +240,6 @@
       "pub_date": "Fri, 12 Jun 2026 14:22:55 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqcWT1xHrfFw79S9Oy4jvo4Uw-tcziRPU4yzf1sySQQHWcn2S1Q-ke0f75hujKSNOkS375t93N6FrNzo0JXtXBm4lmsk4DQxVQyb8WVWOrQ2QSVBTMKjOexXV5394bYytXtS6putjNb8A0hqLqu7uvuKhGarI8TmwaxtxJebZJJDu6sEP17k6ic0tPSFiB/s1600/phish.jpg"
-    },
-    {
-      "title": "CISA orders feds to patch actively exploited Ivanti flaw by Sunday",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch an actively exploited Ivanti Sentry flaw within three days, as mandated by the newly issued Bin...",
-      "pub_date": "Fri, 12 Jun 2026 04:26:55 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Over 73,000 French govt employees affected in Tchap messenger breach",
-      "link": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
-      "description": "The French government revealed that a recent breach of its Tchap encrypted messaging platform affects the accounts of over 73,000 employees in the French public sector. [...]",
-      "pub_date": "Fri, 12 Jun 2026 03:09:11 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs",
-      "link": "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
-      "description": "Authorities in Europe have disrupted AudiA6, a cryptocurrency laundering service used by ransomware gangs and cybercriminal networks.  Europol, in a statement issued Thursday, said the dismantling ...",
-      "pub_date": "Fri, 12 Jun 2026 12:08:41 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8Of2v3fH68mBon8j-FkHg2vnpmDnEko0AOFIqTz07PQRxQdYgAO78dWxylFMVzJT4Z4Q8WI88zsOr6mRyBIW1Ym4gVAE21meQ3GqosaIn9f6i8u2bIuiq9Nn-pa0vYFqLK1Cy_evX4KEP_lfBD9UlmiqAl9SDjuXWbRTe8pnDnFDwgiMXEFcHi5lvDryQ/s1600/dark2web.jpg"
-    },
-    {
-      "title": "Japanese energy firm loses drive with data of 10.9 million clients",
-      "link": "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
-      "description": "Kyushu Electric Power Co., Inc. has disclosed a physical security incident that affects private data of more than 10 million customers. [...]",
-      "pub_date": "Thu, 11 Jun 2026 19:14:16 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Maine breach portal abused to publish fake data breach disclosures",
-      "link": "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
-      "description": "In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine's official breach portal and publicly posted before their legitimacy could be verified, prompting c...",
-      "pub_date": "Thu, 11 Jun 2026 18:44:58 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
-      "link": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
-      "description": "The ShinyHunters extortion crew exploited an unpatched flaw in Oracle PeopleSoft to break into enterprise systems, steal data, and demand payment to keep it private. The campaign hit universities h...",
-      "pub_date": "Fri, 12 Jun 2026 01:59:23 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBpNcbfulhruio1VSh8OPKOjdx3gvP-Chg8OjSm7LZeVK2GaVR-osKeoQjO9e1_56Dtedmlisu76lYc70Wv5I1efqJcs2uh1RnbKJOITEcqcJoN-8PhNfmzAeLkDrST8Kg3qTbqE8wUrOd4jxE-gMi-vKN1B8W2zgY0ymFTtip79RVltY9J3QmXrAOJa4H/s1600/shinyHunters-universities.jpg"
-    },
-    {
-      "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
-      "link": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
-      "description": "Two security teams have shown, in separate research published this week, that OpenClaw, the popular self-hosted AI agent, can be driven to run attacker-controlled code or hand over sensitive data t...",
-      "pub_date": "Thu, 11 Jun 2026 23:16:32 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6r68iB-MZv_eNGG3y0evEVbk7WXNkMzcKno1phHiSyOwfKd0G7bv8VCCrxQgmZOutmZdP1Nz-Xr1mxxUIx_rV8imT0-Ifk0e0FL525Z2v0C94GWgeo-wUpTk39rDdilNC_K20uqw0JipHlT7XmyTHn786UIAe_z3H2VXT1cYNAIEbKSwn2qYc_9MXzpbi/s1600/openclaw-hacks.jpg"
-    },
-    {
-      "title": "New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files",
-      "link": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
-      "description": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse and MSNightmare) has released a new Windows BitLocker bypass dubbed GreatXML, a day after they published an exploit for Microsoft Defender...",
-      "pub_date": "Thu, 11 Jun 2026 23:13:52 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqKyNLbT9WYm7m6ZsvIgv0mNbGJCrgEjUUXLbRZV9mmQUVi7jT9IiwlXh2kYKiMOrsCnJ-ZaoAK9GnL9jy6RHJELISIGFuLSZgsSYuclWFcPmItYL04pTVeA7cl_jy8L6RU4CVPypa6u24OH8hCwPL1g1tEVRczTV1YjZ5KUFGZc6DVw8Pdo_CFGXRTS-d/s1600/windows-bitlocker.jpg"
     },
     {
       "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
