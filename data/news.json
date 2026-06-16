@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T22:10:47Z",
+  "last_updated": "2026-06-16T00:24:16Z",
   "articles": [
     {
       "title": "DOJ seizes CFAKE, SOCFAKE deepfake nude sites under TAKE IT DOWN Act",
@@ -50,6 +50,14 @@
       "image_url": ""
     },
     {
+      "title": "Microsoft Site Showing Warning Following Certificate Expiry",
+      "link": "https://cybersecuritynews.com/microsoft-certificate-expiry/",
+      "description": "Microsoft seems to have failed certificate management after a domain used by sysadmins globally to test connectivity to Microsoft 365 started generating untrusted connection warnings in browsers on...",
+      "pub_date": "Mon, 15 Jun 2026 16:39:23 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Site-Showing-Warning.webp"
+    },
+    {
       "title": "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
       "link": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
       "description": "A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed  LiteLLM is a wid...",
@@ -66,6 +74,22 @@
       "image_url": ""
     },
     {
+      "title": "DPAPISnoop Tool Extracts CREDHIST Hashes for Offline Windows Credential Recovery",
+      "link": "https://cybersecuritynews.com/dpapisnoop-tool-extracts-credhist-hashes/",
+      "description": "The open-source DPAPISnoop tool has been enhanced to extract CREDHIST entries, enabling offline cracking of historical Windows credentials and deeper insight into password patterns. Lefteris Panos,...",
+      "pub_date": "Mon, 15 Jun 2026 16:26:12 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/DPAPISnoop-Tool-Extracts-CREDHIST-Hashes-for-Offline-Windows-Credential-Recovery.webp"
+    },
+    {
+      "title": "SHADOWBYT3$ Allegedly Claim Breach of Nintendo, Stealing Sensitive Data",
+      "link": "https://cybersecuritynews.com/shadowbyt3-claim-breach-of-nintendo/",
+      "description": "Threat intelligence sources have reported that the threat actor group SHADOWBYT3$ has allegedly breached Nintendo, claiming to have exfiltrated approximately 859 MB of sensitive internal data. The ...",
+      "pub_date": "Mon, 15 Jun 2026 16:04:37 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/SHADOWBYT3-Allegedly-Claim-Breach-of-Nintendo-Stealing-Sensitive-Data.webp"
+    },
+    {
       "title": "FBI: Fraudsters use couriers to steal money in crypto scams",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
       "description": "The U.S. Federal Bureau of Investigation (FBI) warned that criminals are using couriers to collect money from victims of cryptocurrency investment scams, also known as pig butchering or romance bai...",
@@ -74,12 +98,28 @@
       "image_url": ""
     },
     {
+      "title": "Anthropic Updated Privacy Policy to Include Identity Verification for Claude Users",
+      "link": "https://cybersecuritynews.com/anthropic-updated-privacy-policy/",
+      "description": "Anthropic has updated its privacy policy for Claude, adding explicit terminology that allows the company to perform age and identity verification on consumer users. The change signals a tighter sec...",
+      "pub_date": "Mon, 15 Jun 2026 15:15:08 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Anthropic-Updates-Privacy-Policy.webp"
+    },
+    {
       "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
       "link": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
       "description": "A single click on a trusted Microsoft link could have let an attacker pull emails, calendar details, and indexed files out of Microsoft 365 Copilot Enterprise Search.  Researchers at Varonis Threat...",
       "pub_date": "Mon, 15 Jun 2026 20:39:05 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH3B8zgsVZmHEyLi8McE-eOrGvwf6Uh3zyqWrttvaEddXJCot7sybI1o-Ly5Q1TtuEJx9BzXol3oaXSFdzFif_5fg0TE3bFA7cuuNewVB2QiZC9HuWNsVDLZlpANK_qnbk_DfBgO1fRgpUbYbc_dL60zHQFxxFN4DgYDVI-D1LsA-8dkcVKpNjAStg9b4/s1600/ms365.jpg"
+    },
+    {
+      "title": "Critical Microsoft 365 Copilot Vulnerability Allows Attackers to Steal Data in One Click",
+      "link": "https://cybersecuritynews.com/microsoft-365-copilot-one-click-vulnerability/",
+      "description": "A critical vulnerability chain in Microsoft 365 Copilot Enterprise that let attackers steal sensitive corporate data, MFA codes, email contents, calendar details, and confidential files with nothin...",
+      "pub_date": "Mon, 15 Jun 2026 15:03:19 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/SearchLeak-Single-Click-Copilot-Exploit.webp"
     },
     {
       "title": "Vibe coders are gonna vibe code: How CISOs are tackling code sprawl",
@@ -106,12 +146,28 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOtdohah5P1Lv9egIZCwwxpEdcV4phYigmhvgzB3ulDhSeeffe4qDsVoowrzaTD6WsgwyjKIdJ_vzvnsUJ78zn5oxOl83qUj5ie8NN_MF8pMbdcikrPpV9vAUgm-7NLOztqN17uTx-dktpkgcQSFrmulSyCtE3MCGHOe5yQRVDFbsrx0DUjoHTa76k4Oos/s1600/thn-recap.jpg"
     },
     {
+      "title": "Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees",
+      "link": "https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance/",
+      "description": "Hackers are using Microsoft\u0026#8217;s own cloud tools to quietly hunt down payroll and HR staff inside corporate networks, then reroute employee salaries to accounts they control. Security teams are ...",
+      "pub_date": "Mon, 15 Jun 2026 13:10:38 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-Microsoft-Graph-Reconnaissance-to-Target-Payroll-and-HR-Employees.webp"
+    },
+    {
       "title": "New attack turned Microsoft 365 Copilot into 1-click data theft tool",
       "link": "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
       "description": "A critical vulnerability chain dubbed SearchLeak in Microsoft 365 Copilot Enterprise could allow attackers to steal sensitive data from a target's mailbox, OneDrive, or SharePoint account through a...",
       "pub_date": "Mon, 15 Jun 2026 09:00:00 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "China-Nexus Hackers Use Backdoored PAM Modules for Credential Theft and Authentication Bypass",
+      "link": "https://cybersecuritynews.com/china-nexus-hackers-use-backdoored-pam-modules/",
+      "description": "A sophisticated China-linked threat actor known as Velvet Ant has been running a long-term cyber intrusion inside a major organization\u0026#8217;s internal network, going undetected for nearly a decade...",
+      "pub_date": "Mon, 15 Jun 2026 12:42:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/China-Nexus-Hackers-Use-Backdoored-PAM-Modules-for-Credential-Theft-and-Authentication-Bypass.webp"
     },
     {
       "title": "Infinite Campus data breach affects 137,000 school staff accounts",
@@ -122,12 +178,28 @@
       "image_url": ""
     },
     {
+      "title": "SearchJack Campaign Uses 23 Chrome Extensions to Hijack Searches of 758,000 Users",
+      "link": "https://cybersecuritynews.com/searchjack-campaign-uses-23-chrome-extensions/",
+      "description": "A coordinated campaign of 23 deceptive Chrome browser extensions has been quietly stealing users\u0026#8217; search queries and routing them through hidden revenue systems. The operation, now dubbed Sea...",
+      "pub_date": "Mon, 15 Jun 2026 12:17:08 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/SearchJack-Campaign-Uses-23-Chrome-Extensions-to-Hijack-Searches-of-758000-Users.webp"
+    },
+    {
       "title": "Webinar: How behavioral AI stops phishing and account takeovers",
       "link": "https://www.bleepingcomputer.com/news/security/webinar-how-behavioral-ai-stops-phishing-and-account-takeovers/",
       "description": "Modern phishing, BEC, and account takeover attacks increasingly bypass traditional email defenses and create operational strain for security teams. This webinar explores how behavioral AI can help ...",
       "pub_date": "Mon, 15 Jun 2026 08:12:20 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "PromptSnatcher Ad Blocker Extensions Steal AI Chats From ChatGPT, Claude, and Gemini",
+      "link": "https://cybersecuritynews.com/promptsnatcher-ad-blocker-extensions-steal-ai-chats/",
+      "description": "Two browser extensions masquerading as ad blockers have been caught secretly recording private conversations from ChatGPT, Claude, Gemini, and five other major AI platforms. The extensions, named \u0026...",
+      "pub_date": "Mon, 15 Jun 2026 11:43:37 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/PromptSnatcher-Ad-Blocker-Extensions-Steal-AI-Chats-From-ChatGPT-Claude-and-Gemini.webp"
     },
     {
       "title": "The Onboarding Password Mistake That Creates Unnecessary Risk",
@@ -144,6 +216,14 @@
       "pub_date": "Mon, 15 Jun 2026 16:37:50 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXEEp49DrIDRyHxMpdUoO-A9TL3T6P-7mUwImILVRSRl940D39uZbouVIhM1j8ZVEpxfTskTrLB5qrDDQ07yp7TFGTXSBhQqlwNLyN49sCW38MZds5YQP_c1lhrkl0aizSaU0ZpBpf9NS3WGD9k5BZhh52ZDuyrtxSwUrXgkjRnWMAgLq3FT6dLG0sCAfh/s1600/chrome-traffic.jpg"
+    },
+    {
+      "title": "Hackers Abuse LNK Files, PowerShell, and Python Loader to Deploy NarwhalRAT",
+      "link": "https://cybersecuritynews.com/powershell-and-python-loader-to-deploy-narwhalrat/",
+      "description": "A sophisticated malware campaign is quietly targeting Korean users through a well-crafted chain of deception. Threat actors are using innocent-looking shortcut files, built-in Windows tools, and a ...",
+      "pub_date": "Mon, 15 Jun 2026 11:00:07 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-LNK-Files-PowerShell-and-Python-Loader-to-Deploy-NarwhalRAT.webp"
     },
     {
       "title": "Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites",
