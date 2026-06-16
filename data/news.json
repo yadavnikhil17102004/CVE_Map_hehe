@@ -1,29 +1,93 @@
 {
-  "last_updated": "2026-06-16T06:26:28Z",
+  "last_updated": "2026-06-16T12:05:17Z",
   "articles": [
     {
-      "title": "LiteSpeed cPanel Plugin 0-Day Vulnerability Actively Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/litespeed-cpanel-plugin-0-day-vulnerability-exploit/",
-      "description": "A critical zero-day vulnerability in the LiteSpeed cPanel user-end plugin is being actively exploited in the wild, posing a serious threat to shared hosting environments worldwide. The flaw, tracke...",
-      "pub_date": "Tue, 16 Jun 2026 06:15:40 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/LiteSpeed-cPanel-plugin-0-Day-Vulnerability-actively-exploited-in-the-Wild.webp"
+      "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive",
+      "link": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
+      "description": "Security teams have never had more IP data at their disposal. Every day, analysts ingest enrichment feeds, geolocation data, reputation scores, telemetry, and threat intelligence from a growing eco...",
+      "pub_date": "Tue, 16 Jun 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIjJejsRU4njToU8avtW_XwlouRy_HhUCWBUzgTtjb0e-LWzIO6zQprJ_tRqq6KO0Dvn64NNH35d6lYYadq7WSWAjn4jG_onOHYaJYrdg5CgUeVxyXBQJu7LUIAeVrEhFziJvlITCbj4kN9GSi9vp4ZpRpVwnxYCHKskOjUiFf-KIue9JlZzAJqJZUsxE/s1600/Spur-IP-Intel-Study-Feature.png"
     },
     {
-      "title": "Cisco SD-WAN vManage Vulnerability Exploited in Zero-Day Attacks",
-      "link": "https://cybersecuritynews.com/cisco-sd-wan-vmanage-vulnerability-exploit/",
-      "description": "Cisco has disclosed a critical security issue in its Catalyst SD-WAN Manager (formerly vManage) that is now being actively exploited in zero-day attacks, raising concerns for enterprise network env...",
-      "pub_date": "Tue, 16 Jun 2026 05:38:32 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Cisco-SD-WAN-vManage-Vulnerability-Exploited-in-in-zero-day-attacks.webp"
+      "title": "CISA warns of another cPanel plugin flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has given U.S. government agencies three days to secure their servers against an actively exploited vulnerability (CVE-2026-54420) i...",
+      "pub_date": "Tue, 16 Jun 2026 06:47:59 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
     },
     {
-      "title": "Nearly 14,000 SimpleHelp Servers Exposed Amid Critical Authentication Bypass Disclosure",
-      "link": "https://cybersecuritynews.com/simplehelp-servers-exposed-authentication-bypass-disclosure/",
-      "description": "Nearly 14,000 internet-facing SimpleHelp servers are exposed following the disclosure of a critical authentication bypass vulnerability tracked as CVE-2026-48558. The flaw raises serious concerns f...",
-      "pub_date": "Tue, 16 Jun 2026 00:38:57 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Nearly-14000-SimpleHelp-Servers-Exposed-Amid-Critical-Authentication-Bypass-Disclosure.webp"
+      "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
+      "link": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
+      "description": "Bad actors are exploiting multiple security vulnerabilities in Fortinet FortiSandbox, according to threat intelligence firm Defused Cyber.  In a post shared on X, the company said it has observed e...",
+      "pub_date": "Tue, 16 Jun 2026 16:00:41 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisozpc0YfCvHjGAyEZf7c1G10iEOgszA-mkIIrhG3A4VYcq8_Hih8U0hO66iBoDPPJZhfq7Dc3fGTsMLDiFiGSk6-xS7ltGORLe0_sC8VyhZHlfIkeGpOkMTcbQ0R7BeDtDmZFb-VB_GF3le8p0mx2ZMD-CLZb5eWlMJPiBhdu9ljzlh_E01hIon9dA-Y3/s1600/Fortinet.png"
+    },
+    {
+      "title": "Ransomware gang abuses Microsoft Teams relays to hide malicious traffic",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
+      "description": "DragonForce ransomware used a custom malware named 'Backdoor.Turn' to hide command-and-control traffic inside Microsoft Teams relay infrastructure. [...]",
+      "pub_date": "Tue, 16 Jun 2026 06:18:48 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
+      "link": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
+      "description": "Cybersecurity researchers have flagged two previously undocumented Windows variants of what was believed to be a Linux-only backdoor called SprySOCKS.  \"The Windows variants discovered are internal...",
+      "pub_date": "Tue, 16 Jun 2026 15:14:34 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxym2hiE83TbiNOrIeH3s4QCF0wQ_BYcSYPKlC3m9LGSuJnH7UNicbkgIk4kQTbpPiLRul9dSxQ180XW656_9NPtlqWoTGivTamDVl24ZfUQFPgUleakZq6aZI5kZqszNz3GpVyJQnPiXis_kjlMqAxKBxGKZsDdAvb-rX20fxszdd0pCKRO9GqK3CSu-p/s1600/chinese-proxy.png"
+    },
+    {
+      "title": "Critical Fortinet FortiSandbox flaws now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/",
+      "description": "Attackers are now exploiting several critical vulnerabilities in Fortinet's FortiSandbox cyber threat detection platform, according to threat intelligence company Defused. [...]",
+      "pub_date": "Tue, 16 Jun 2026 05:19:51 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Windows version of SprySOCKS Linux malware used to attack govt orgs",
+      "link": "https://www.bleepingcomputer.com/news/security/windows-version-of-sprysocks-linux-malware-used-to-attack-govt-orgs/",
+      "description": "Windows variants for the SprySOCKS Linux malware have been used in attacks targeting government organizations in at least four countries. [...]",
+      "pub_date": "Tue, 16 Jun 2026 05:00:00 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
+      "link": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
+      "description": "The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver malwa...",
+      "pub_date": "Tue, 16 Jun 2026 13:44:55 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3Lf-lxaztGp4Ov5_hu7TmA6AEoqhh2oBADVLVEbA1HTzmsAyX9ePZtZvvBlBzNym1RiifCmOnb-pf604J7plqPdarQxnW-m6Ds0Wi-kT1Ytqm1KlGsf4hWmL8YPa17MXv4yxcEN0CwkA_9qwbEGn74XdX4Y0J4t1rR3oflfW5cpy2tXo65kVMFI3oRFxr/s1600/ms-alert.jpg"
+    },
+    {
+      "title": "iRhythm discloses data breach, says hackers stole patient info",
+      "link": "https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/",
+      "description": "Digital healthcare company iRhythm Holdings has disclosed a data breach after hackers stole patients' personal and health information stored on third-party-hosted business applications. [...]",
+      "pub_date": "Tue, 16 Jun 2026 02:31:59 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw",
+      "link": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
+      "description": "Cisco has released security updates for a medium-severity security flaw in Catalyst SD-WAN Manager that has come under active exploitation in the wild.  The vulnerability, tracked as CVE-2026-20262...",
+      "pub_date": "Tue, 16 Jun 2026 11:35:58 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-vJIadGle0Cre1cNAxZIcD9ktkl1mPnUwtEtF1xuMbeH75BnvGq3twL0W2OowYW7ZZMxvzMjdbU-VMEZfEvV1q2pTIoG8VU_D0d_rpRqwlViZqUyb1WKcL6pM9Nklx_mISZR2BttoBxMq8w6Z87rf3Stm37ZbcRbAYM0SQeEJqg0T8dc2KsrX1a9l95B7/s1600/cisco-flaw.jpg"
+    },
+    {
+      "title": "CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation",
+      "link": "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw impacting LiteSpeed cPanel Plugin to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal ...",
+      "pub_date": "Tue, 16 Jun 2026 11:11:52 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhweJrEaMuAEZCtL6h2H2XMxWOMGzKSktYq9kDvwXAGvIAt39-gz3irXruUA0KVSSupFdIh13o2F5quHfout07-tOHYK334xgNwRq5WcVbfyL5T1i-jYVCGLuVksBYExOncAm72ZuyRacuSG8a1ssx6jrxN8WcQ5Q91gYN3MYh-rWcY_86jVcbvZJbabPR1/s1600/litespeed.jpg"
     },
     {
       "title": "DOJ seizes CFAKE, SOCFAKE deepfake nude sites under TAKE IT DOWN Act",
@@ -74,14 +138,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft Site Showing Warning Following Certificate Expiry",
-      "link": "https://cybersecuritynews.com/microsoft-certificate-expiry/",
-      "description": "Microsoft seems to have failed certificate management after a domain used by sysadmins globally to test connectivity to Microsoft 365 started generating untrusted connection warnings in browsers on...",
-      "pub_date": "Mon, 15 Jun 2026 16:39:23 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Site-Showing-Warning.webp"
-    },
-    {
       "title": "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
       "link": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
       "description": "A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed  LiteLLM is a wid...",
@@ -98,22 +154,6 @@
       "image_url": ""
     },
     {
-      "title": "DPAPISnoop Tool Extracts CREDHIST Hashes for Offline Windows Credential Recovery",
-      "link": "https://cybersecuritynews.com/dpapisnoop-tool-extracts-credhist-hashes/",
-      "description": "The open-source DPAPISnoop tool has been enhanced to extract CREDHIST entries, enabling offline cracking of historical Windows credentials and deeper insight into password patterns. Lefteris Panos,...",
-      "pub_date": "Mon, 15 Jun 2026 16:26:12 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/DPAPISnoop-Tool-Extracts-CREDHIST-Hashes-for-Offline-Windows-Credential-Recovery.webp"
-    },
-    {
-      "title": "SHADOWBYT3$ Allegedly Claim Breach of Nintendo, Stealing Sensitive Data",
-      "link": "https://cybersecuritynews.com/shadowbyt3-claim-breach-of-nintendo/",
-      "description": "Threat intelligence sources have reported that the threat actor group SHADOWBYT3$ has allegedly breached Nintendo, claiming to have exfiltrated approximately 859 MB of sensitive internal data. The ...",
-      "pub_date": "Mon, 15 Jun 2026 16:04:37 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/SHADOWBYT3-Allegedly-Claim-Breach-of-Nintendo-Stealing-Sensitive-Data.webp"
-    },
-    {
       "title": "FBI: Fraudsters use couriers to steal money in crypto scams",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
       "description": "The U.S. Federal Bureau of Investigation (FBI) warned that criminals are using couriers to collect money from victims of cryptocurrency investment scams, also known as pig butchering or romance bai...",
@@ -122,28 +162,12 @@
       "image_url": ""
     },
     {
-      "title": "Anthropic Updated Privacy Policy to Include Identity Verification for Claude Users",
-      "link": "https://cybersecuritynews.com/anthropic-updated-privacy-policy/",
-      "description": "Anthropic has updated its privacy policy for Claude, adding explicit terminology that allows the company to perform age and identity verification on consumer users. The change signals a tighter sec...",
-      "pub_date": "Mon, 15 Jun 2026 15:15:08 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Anthropic-Updates-Privacy-Policy.webp"
-    },
-    {
       "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
       "link": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
       "description": "A single click on a trusted Microsoft link could have let an attacker pull emails, calendar details, and indexed files out of Microsoft 365 Copilot Enterprise Search.  Researchers at Varonis Threat...",
       "pub_date": "Mon, 15 Jun 2026 20:39:05 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH3B8zgsVZmHEyLi8McE-eOrGvwf6Uh3zyqWrttvaEddXJCot7sybI1o-Ly5Q1TtuEJx9BzXol3oaXSFdzFif_5fg0TE3bFA7cuuNewVB2QiZC9HuWNsVDLZlpANK_qnbk_DfBgO1fRgpUbYbc_dL60zHQFxxFN4DgYDVI-D1LsA-8dkcVKpNjAStg9b4/s1600/ms365.jpg"
-    },
-    {
-      "title": "Critical Microsoft 365 Copilot Vulnerability Allows Attackers to Steal Data in One Click",
-      "link": "https://cybersecuritynews.com/microsoft-365-copilot-one-click-vulnerability/",
-      "description": "A critical vulnerability chain in Microsoft 365 Copilot Enterprise that let attackers steal sensitive corporate data, MFA codes, email contents, calendar details, and confidential files with nothin...",
-      "pub_date": "Mon, 15 Jun 2026 15:03:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/SearchLeak-Single-Click-Copilot-Exploit.webp"
     },
     {
       "title": "Vibe coders are gonna vibe code: How CISOs are tackling code sprawl",
@@ -170,14 +194,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOtdohah5P1Lv9egIZCwwxpEdcV4phYigmhvgzB3ulDhSeeffe4qDsVoowrzaTD6WsgwyjKIdJ_vzvnsUJ78zn5oxOl83qUj5ie8NN_MF8pMbdcikrPpV9vAUgm-7NLOztqN17uTx-dktpkgcQSFrmulSyCtE3MCGHOe5yQRVDFbsrx0DUjoHTa76k4Oos/s1600/thn-recap.jpg"
     },
     {
-      "title": "Hackers Use Microsoft Graph Reconnaissance to Target Payroll and HR Employees",
-      "link": "https://cybersecuritynews.com/hackers-use-microsoft-graph-reconnaissance/",
-      "description": "Hackers are using Microsoft\u0026#8217;s own cloud tools to quietly hunt down payroll and HR staff inside corporate networks, then reroute employee salaries to accounts they control. Security teams are ...",
-      "pub_date": "Mon, 15 Jun 2026 13:10:38 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-Microsoft-Graph-Reconnaissance-to-Target-Payroll-and-HR-Employees.webp"
-    },
-    {
       "title": "New attack turned Microsoft 365 Copilot into 1-click data theft tool",
       "link": "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
       "description": "A critical vulnerability chain dubbed SearchLeak in Microsoft 365 Copilot Enterprise could allow attackers to steal sensitive data from a target's mailbox, OneDrive, or SharePoint account through a...",
@@ -186,26 +202,10 @@
       "image_url": ""
     },
     {
-      "title": "China-Nexus Hackers Use Backdoored PAM Modules for Credential Theft and Authentication Bypass",
-      "link": "https://cybersecuritynews.com/china-nexus-hackers-use-backdoored-pam-modules/",
-      "description": "A sophisticated China-linked threat actor known as Velvet Ant has been running a long-term cyber intrusion inside a major organization\u0026#8217;s internal network, going undetected for nearly a decade...",
-      "pub_date": "Mon, 15 Jun 2026 12:42:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/China-Nexus-Hackers-Use-Backdoored-PAM-Modules-for-Credential-Theft-and-Authentication-Bypass.webp"
-    },
-    {
       "title": "Infinite Campus data breach affects 137,000 school staff accounts",
       "link": "https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/",
       "description": "The ShinyHunters extortion gang stole personal information from more than 137,000 school staff accounts in a Salesforce data theft attack that targeted the widely used Infinite Campus K-12 student ...",
       "pub_date": "Mon, 15 Jun 2026 08:38:55 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Webinar: How behavioral AI stops phishing and account takeovers",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-how-behavioral-ai-stops-phishing-and-account-takeovers/",
-      "description": "Modern phishing, BEC, and account takeover attacks increasingly bypass traditional email defenses and create operational strain for security teams. This webinar explores how behavioral AI can help ...",
-      "pub_date": "Mon, 15 Jun 2026 08:12:20 -0400",
       "source": "BleepingComputer",
       "image_url": ""
     },
@@ -240,86 +240,6 @@
       "pub_date": "Mon, 15 Jun 2026 12:00:22 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-L0YMpJQcSqCJeQR6NevaPeBZW1uc13Y3nV37mR6tEuSsuMxWV6RrohLtgsVqG_Ja_kBoZTAMcKXlaG-OfyjrLDAUwhO_pQifFv64iRc-HE0nAAMJ88BF_xEQwOj39EdAE5ZTNU7q7y3SjBjKsvBZckb_jcg1FzMM9YRe9OV9UFsNyjH2km2jAXvBIdTa/s1600/phishing-sniperdz.jpg"
-    },
-    {
-      "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
-      "link": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
-      "description": "Palo Alto Networks has revealed that it has observed \"active exploitation\" of a recently disclosed PAN-OS vulnerability by an unknown threat actor to obtain unauthorized access to GlobalProtect por...",
-      "pub_date": "Mon, 15 Jun 2026 11:47:32 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMFIs6j0CgFzSojDqSi_UsqRzjlbYcRsrJG714Yh40TZXU4ZzlB_Do-7nbx5WGGvOS7mV3TojQLTiHbFS57BtgCo4hlF0DebzDtrSh5YzXkqNhjEI4JG97N_vpkFzeJP3V-adbSsPYRdYCQklFdweodtTJHywVHA5HiqgvYOp5eyxW0aQxKVacua9F9w3_/s1600/paloalto-vpn.jpg"
-    },
-    {
-      "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
-      "description": "In a coordinated effort, the FBI, working with Google and Black Lotus Labs, has dismantled a massive Chinese phishing-as-a-service operation called Outsider Enterprise with thousands of phishing we...",
-      "pub_date": "Sun, 14 Jun 2026 10:36:23 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Ex-school district employee jailed for hacks on former employer",
-      "link": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
-      "description": "A former  IT employee at an Iowa school district was sentenced to 21 months in prison after conducting a prolonged cyberattack against the former employer that disrupted classroom operations, dele...",
-      "pub_date": "Sat, 13 Jun 2026 16:53:13 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Chinese hackers hijack auth flow, spy on isolated network for a decade",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
-      "description": "Chinese hackers took control of a target organization's authentication stack and maintained persistence for 10 years, with full visibility into the administrative activity. [...]",
-      "pub_date": "Sat, 13 Jun 2026 10:06:42 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
-      "link": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
-      "description": "Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution.  The...",
-      "pub_date": "Sat, 13 Jun 2026 18:53:03 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7NRzSRKbGdsTj1TIWcks4nX5u6n1U2vl5hxJ8KKFZ-JCAKlMQPXQNHA1i0otd63wcKJoZbeEc3oVa9o4uYNTRkRyZaJsJVGV7JUmlqjY5mQkrOXFQJXmUT1kOIZPU6CRdlwx6X7lyi7Iffz7gUIC-nYc2N1dzmiuo2hyphenhyphenPURZ3nKdQcsbLACKidjOeTbRh/s1600/splunk.jpg"
-    },
-    {
-      "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
-      "link": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
-      "description": "The US government has ordered Anthropic to block all foreign nationals from accessing Fable 5 and Mythos 5, forcing the company to suspend both models worldwide. Anthropic is complying but disputes...",
-      "pub_date": "Sat, 13 Jun 2026 06:01:32 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals",
-      "link": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
-      "description": "Anthropic said on Friday it will \"abruptly disable\" its most advanced artificial intelligence (AI) models, Claude Fable 5 and Mythos 5, for all users after the U.S. government ordered it to suspend...",
-      "pub_date": "Sat, 13 Jun 2026 11:12:50 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitE4uRkPKzQw_uUTSEzPgbuTByOaSNQeEHcANQCdYOtD8HJxqjIy9e0TIkkYeMN5QQghbvb1Nc4RJdwpGUD4ttQ8FqBpDAIMBe5Biw4zXIF-iYgl-vZPCGL1b5VNZpajQ8_cCPj7jx0DFABYuXLpyHYUSOe3jBKPsSej0y7TxrIHZwG_4m56TrDdTS9Ap1/s1600/Anthropic-claude.jpg"
-    },
-    {
-      "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
-      "link": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
-      "description": "Attackers took over more than 400 packages in the Arch User Repository (AUR) this week and rewrote their build scripts to install a credential stealer on any machine that built them.  The malware i...",
-      "pub_date": "Sat, 13 Jun 2026 01:03:25 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoaB3XILLCN-oMr8vicgye6mcqKGYsgqgxPAGunmwASyrP3c7XgAxJTV8tsVPuRSmJ8ia7SZdS8hyphenhyphenb6moPI2QiwkdKoI2E_zchlBfqx1KnfFpb3yKHQQY6qCWyKmkSK_12texqsHTxtYnv8kMMpzJ-SEFxR7Ougz0axLPVr5zDAWQiZY8pEtUUL8L4hmri/s1600/arch-hack.jpg"
-    },
-    {
-      "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing",
-      "link": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
-      "description": "Google on Friday said it's pursuing legal action against a Chinese cybercrime network, accusing it of using its Gemini artificial intelligence (AI) agent to send phishing text messages targeting Am...",
-      "pub_date": "Sat, 13 Jun 2026 00:29:32 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2VG_lHXgOeahfKoUs6hQ7fOmh-dK1ZGloqzAWilTU73LKJF5mBDqw4OSpU8ViE0NEI1iW4cNS5vyz4TpqoJ_aGjHYt4-qJXfmZP2a3mi8GILe4OeP7qSFKeqDWrbHyoMmf49EtaDTylhnpLvem5LCwqX2e8MRSR5rQC5cNv9qH-H_ySeUT5uYHWRLGa5P/s1600/gemini-phishing.jpg"
-    },
-    {
-      "title": "China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade",
-      "link": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
-      "description": "Instead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself.  Sygnia, which tracks the group a...",
-      "pub_date": "Fri, 12 Jun 2026 23:47:55 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxJqmKAQv_I_7JkmQwoIVSx2BkRPUEb9TTNOd2RkNqTg3tcLyZszN8KiXfUUeIBSPSoxjzMAn2inE6TL791l5B_CbQaHqG708c2tgN-kSUmz_fTuewdcrWHS8u-xdWKIr6fEhx2W7_JDszsJ1oXO9v47JxU81490QKz0ZRL2OOFoljevoD8f6OMozfMZU/s1600/linux-backdoor.jpg"
     },
     {
       "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
