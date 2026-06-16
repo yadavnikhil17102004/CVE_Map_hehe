@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-06-16T20:45:17Z",
+  "last_updated": "2026-06-16T22:49:23Z",
   "articles": [
+    {
+      "title": "Malicious JetBrains Marketplace plugins steal AI API keys from developers",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
+      "description": "At least 15 malicious plugins found on the JetBrains Marketplace were designed to steal AI API keys from developers. [...]",
+      "pub_date": "Tue, 16 Jun 2026 17:54:50 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "New Rokarolla Android malware targets 217 banking, crypto apps",
       "link": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
@@ -290,14 +298,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiH9LcMRhk5Li59rG05yXoOOofNzGpeG1MMSKQqhFCGW_28n0SjLKd9D4MC68N7jPP6dF2h2l8gW1OE7Y7akY2fckld2w1UKa3itsrCKeDjo_2vgzuvL3HxZpJ5naBx5LgPdjxhekaFONzBtR9SoJw-ugGVXOuceLQQPvJzcj7SSCgbRsqurOgnIgZppo/s1600/litellm.jpg"
     },
     {
-      "title": "Council of Europe investigates ShinyHunters data breach claims",
-      "link": "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
-      "description": "The Council of Europe, the continent's oldest intergovernmental body, is probing claims of a data breach made by the ShinyHunters extortion group over the weekend. [...]",
-      "pub_date": "Mon, 15 Jun 2026 12:37:11 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
       "link": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
       "description": "A single click on a trusted Microsoft link could have let an attacker pull emails, calendar details, and indexed files out of Microsoft 365 Copilot Enterprise Search.  Researchers at Varonis Threat...",
@@ -554,6 +554,14 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-48907 Widget Factory Joomla Content Editor Improper Ac...",
+      "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
       "title": "Rockwell Automation CompactLogix",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation CompactLogix are aff...",
@@ -594,17 +602,17 @@
       "image_url": ""
     },
     {
-      "title": "Naxclow IoT Platform",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-02",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to impersonate devices, intercept or manipulate communications, harvest sensitive credentials at scale, or...",
+      "title": "Brickcom Cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-03",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a remote unauthenticated attacker to gain unauthorized access to live video feeds, retrieve sensitive visual informati...",
       "pub_date": "Thu, 11 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Brickcom Cameras",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-03",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a remote unauthenticated attacker to gain unauthorized access to live video feeds, retrieve sensitive visual informati...",
+      "title": "Naxclow IoT Platform",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-02",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to impersonate devices, intercept or manipulate communications, harvest sensitive credentials at scale, or...",
       "pub_date": "Thu, 11 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -629,14 +637,6 @@
       "title": "Schneider Electric EcoStruxure Panel Server",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-03",
       "description": "View CSAF Summary Schneider Electric is aware of its vulnerability in its EcoStruxure Panel Server offer. The EcoStruxure Panel Server is a high performance, modular gateway with enhanced cybersecu...",
-      "pub_date": "Tue, 09 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Schneider Electric Modicon Network Managed Switches",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-01",
-      "description": "View CSAF Summary Schneider Electric is aware of a RADIUS protocol vulnerability affecting its Modicon Network Managed Switch product. The Modicon Network Managed Switch product provides connectivi...",
       "pub_date": "Tue, 09 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
