@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-06-18T21:59:20Z",
+  "last_updated": "2026-06-18T23:47:27Z",
   "articles": [
+    {
+      "title": "Authorities Dismantle SocGholish Malware Network — 106 Servers and 101 Domains Seized",
+      "link": "https://cybersecuritynews.com/authorities-dismantle-socgholish/",
+      "description": "Authorities have dismantled the criminal infrastructure behind SocGholish, one of the most persistent malware frameworks active since 2017, seizing 106 servers and 101 domains while remediating nea...",
+      "pub_date": "Thu, 18 Jun 2026 22:54:34 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Authorities-Dismantle-SocGholish.webp"
+    },
+    {
+      "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
+      "link": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
+      "description": "The Gentlemen ransomware-as-a-service (RaaS) is actively developing and maintaining a suite of endpoint detection and response (EDR) killers to help affiliates evade detection in attacks. [...]",
+      "pub_date": "Thu, 18 Jun 2026 18:31:52 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
       "link": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
@@ -202,14 +218,6 @@
       "image_url": ""
     },
     {
-      "title": "F5 Patches NGINX Vulnerability That Enables Code Execution and DoS Attacks",
-      "link": "https://cybersecuritynews.com/nginx-vulnerability-patched/",
-      "description": "F5 has released an out-of-band security advisory addressing multiple high-severity vulnerabilities in NGINX that could allow attackers to execute arbitrary code and launch denial-of-service (DoS) a...",
-      "pub_date": "Thu, 18 Jun 2026 12:15:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/NGINX-Vulnerability-Patched.webp"
-    },
-    {
       "title": "F5 issues out-of-band patches for critical NGINX vulnerabilities",
       "link": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
       "description": "Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute ...",
@@ -288,14 +296,6 @@
       "pub_date": "Wed, 17 Jun 2026 19:21:58 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2aRb82ydrk_lAXr6Yy-GmrPfQSaIuCNYTtB8dFm02DZWhJVj3bmjB3WLhWDUtiFmrGC3lHdeLfA2NtC6oHKJDAdW7ot4f3HQDyLw2Ep3q49BnOkuBWOPP2OuN1I1HNFknxPyQNpEZEnEt-8KhV2nx_HcaEiBm8Rdh7blevc3I1GjuBMLL1xOpJThFuJpE/s1600/hi.jpg"
-    },
-    {
-      "title": "India's Telegram ban hit the UAE too. Here's how to get around it",
-      "link": "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
-      "description": "India has banned Telegram until June 22 after the app was used to circulate leaked exam papers. CEO Pavel Durov accuses telecom Reliance of BGP hijacking that disrupted the app as far away as the U...",
-      "pub_date": "Wed, 17 Jun 2026 09:12:45 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "The Top 10 Attack Surface Exposures in 2026",
@@ -522,41 +522,9 @@
       "image_url": ""
     },
     {
-      "title": "Apollo Pharmacy Blood Glucose Monitoring System APG-01 BT",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-169-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain sensitive health-related information and prevent legitimate users from establishing a connection...",
-      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-20253 Splunk Enterprise Missing Authentication for Cri...",
-      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Schneider Electric EasyLogic T150 and Saitel DP",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-04",
-      "description": "View CSAF Summary Successful exploitation this vulnerability could allow an attacker to gain unauthorized access to sensitive files The following versions of Schneider Electric EasyLogic T150 and S...",
-      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "AVer PTC cameras",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow arbitrary code execution. The following versions of AVer PTC cameras are affected:  PTC500S vers:all/* (CVE-2026-40624) P...",
-      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Rockwell Automation FactoryTalk Historian Site Edition",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-03",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain a valid authentication token, perform a denial of service, or crash the system. The following ve...",
+      "title": "CISA Urges Hardening Fortinet Devices After Reports of Credential Exposure",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure",
+      "description": "CISA is aware of global reports that malicious cyber actors have targeted internet-accessible Fortinet devices across government and private sector organizations using compromised credentials. This...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -570,17 +538,9 @@
       "image_url": ""
     },
     {
-      "title": "Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
-      "description": "View CSAF Summary Schneider Electric is aware of vulnerabilities in its PowerChute™ Serial Shutdown product. The [PowerChute Serial Shutdown](https://www.se.com/ww/en/product-range/137943580-powe...",
-      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Mitsubishi Electric MELSEC iQ-F Series",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-05",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition in the affected product by rapidly establishing a large nu...",
+      "title": "Apollo Pharmacy Blood Glucose Monitoring System APG-01 BT",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-169-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain sensitive health-related information and prevent legitimate users from establishing a connection...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -594,25 +554,57 @@
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation CompactLogix",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation CompactLogix are aff...",
-      "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
+      "title": "Mitsubishi Electric MELSEC iQ-F Series",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition in the affected product by rapidly establishing a large nu...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
+      "description": "View CSAF Summary Schneider Electric is aware of vulnerabilities in its PowerChute™ Serial Shutdown product. The [PowerChute Serial Shutdown](https://www.se.com/ww/en/product-range/137943580-powe...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/16/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-48907 Widget Factory Joomla Content Editor Improper Ac...",
-      "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-20253 Splunk Enterprise Missing Authentication for Cri...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation FactoryTalk Analytics PavilionX",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker executing privileged operations. The following versions of Rockwell Automation FactoryTalk Analytics Pavi...",
+      "title": "Rockwell Automation FactoryTalk Historian Site Edition",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-03",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain a valid authentication token, perform a denial of service, or crash the system. The following ve...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "AVer PTC cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow arbitrary code execution. The following versions of AVer PTC cameras are affected:  PTC500S vers:all/* (CVE-2026-40624) P...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Schneider Electric EasyLogic T150 and Saitel DP",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-04",
+      "description": "View CSAF Summary Successful exploitation this vulnerability could allow an attacker to gain unauthorized access to sensitive files The following versions of Schneider Electric EasyLogic T150 and S...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Rockwell Automation FLEX I/O EtherNet/IP Adapters",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, account takeover, and cause loss of availability. The following versions of R...",
       "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -626,17 +618,25 @@
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation FLEX I/O EtherNet/IP Adapters",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, account takeover, and cause loss of availability. The following versions of R...",
+      "title": "Rockwell Automation RSLinx ",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability can lead to a denial of service, where the application will become unresponsive and will not recover on its own. The following versio...",
       "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation RSLinx ",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability can lead to a denial of service, where the application will become unresponsive and will not recover on its own. The following versio...",
+      "title": "Rockwell Automation FactoryTalk Analytics PavilionX",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker executing privileged operations. The following versions of Rockwell Automation FactoryTalk Analytics Pavi...",
+      "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Rockwell Automation CompactLogix",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation CompactLogix are aff...",
       "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
