@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-06-18T13:58:04Z",
+  "last_updated": "2026-06-18T16:56:19Z",
   "articles": [
+    {
+      "title": "USB worm spreads crypto-stealing malware via Windows shortcut files",
+      "link": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
+      "description": "Threat actors targeting cryptocurrency wallets have been distributing clipboard-stealing malware with self-spreading capabilities and using the Tor network to conceal communication. [...]",
+      "pub_date": "Thu, 18 Jun 2026 12:20:06 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
+      "link": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
+      "description": "If an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it?  For most enterprises, the answer is a ...",
+      "pub_date": "Thu, 18 Jun 2026 21:03:49 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_nqjviAfaPP-eOuhtQKNwdvOGLaN-rOmxVnoQPMOruaJvDcw5rsCi-kIKxAhOpxjCggRXt7bfwyRAKMzVKdwIPlRAJpXLl4OReBnbVtOSZYGS4Bsf9EvU71bMIkWdpDwjydNWe22WCdjgqX6b_TrPtXptekJc3N8BH5m56-wauHl5KX0DePQmv2gIoNks/s1600/webinar.jpg"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories",
+      "link": "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
+      "description": "The internet did not break this week. It got used exactly as designed, which is worse.  Searches were siphoned through shady browser add-ons. AI chat links turned into malware delivery paths. macOS...",
+      "pub_date": "Thu, 18 Jun 2026 20:57:54 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6k3CSWsyKHS6UdXmxX-w92fdsWjTSL7JR7xeaPBPh8d5G6rkZbMhmJHr9o3gxF5G2I2GojubOJnzhRqxjtKYxlXTrmlgrdRFRrmmyEEIi_zXAQXT3zpq5KNQqOFHrfGKhUFHzsMx1E2Eqs7S_jvTFfN3Jnz1YO58Ryvk0urKEDUZggoQgI07lKFWQDMfw/s1600/threatss.jpg"
+    },
+    {
+      "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2",
+      "link": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
+      "description": "Microsoft has disclosed details of a Windows-based cryptocurrency clipper campaign that has targeted users since February 2026.  \"The clipper in this campaign relies on Windows Script Host and Acti...",
+      "pub_date": "Thu, 18 Jun 2026 20:00:42 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvKWONrjyxy3cGsc9xfw7n-6izVRjMImK2DpiOv4JDrtutcENRgX6JxsFQhsEMHDhZx9fGfeoj_mAQSVk9SoJumNREvmLtbWOjWaTlYn3c25sH_paaeZk-Xw08k3ckerv19Ax9stFCURiV321W7vh0f6qQbrmSHnuvPeNBeW6Grb7o6TU4s5dhJNkXyIon/s1600/clipper-malware.jpg"
+    },
+    {
+      "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
+      "description": "Market intelligence platform Klue suffered a OAuth breach that enabled the \"Icarus\" threat actors to steal Salesforce CRM data from multiple organizations in an ongoing extortion campaign. [...]",
+      "pub_date": "Thu, 18 Jun 2026 10:19:50 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023",
+      "link": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
+      "description": "Cybersecurity researchers have charted the evolution of INC from an nascent ransomware-as-a-service (RaaS) operation to one of the most prolific cybercrime groups in 2026, claiming no less than 830...",
+      "pub_date": "Thu, 18 Jun 2026 19:42:48 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2MOms1DiyvYE-L_zXvrgrL_4cDaNBZwrhVFPq7ee58uPMORAF9v60xW8_QZbjJ05C34E2F5u9xKXBal4_DbVvUjcg8aDAvQ9iKSgWss6vnvlk4f1tgLYwb3a5xNc6T3lbGeE1pcTf35vf320No6XzS4mkw_5dTTILKfc0w6VpcTHX5VitEodFJBKMWzjA/s1600/ransomware-malware.jpg"
+    },
+    {
+      "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
+      "link": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
+      "description": "An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here →  When a customer types their card number into your checkout, th...",
+      "pub_date": "Thu, 18 Jun 2026 19:28:39 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHJHzi-rQqSIiD4wXw_HQpgvXGNTNgvJnxt42OupMrchYSmQPyeXbtsuH62zLqPHDq3bywvirdcqKSq9VQ-pZyL02RAw2IYYh1f4qcpUH4NZu50XLSDsQSSYvyqMAEwSN-8PQMcpwXZMtLC_pVYzqZMYm7qkygfMQeZEIHVWpIkYfUifJvX3oUMSBs3w0/s1600/reflectiz.jpg"
+    },
     {
       "title": "5 reasons Microsoft 365 backup isn’t enough for business data protection",
       "link": "https://www.bleepingcomputer.com/news/security/5-reasons-microsoft-365-backup-isnt-enough-for-business-data-protection/",
@@ -42,14 +98,6 @@
       "image_url": ""
     },
     {
-      "title": "Modern Data Protection Standards: How Organizations Are Strengthening Cybersecurity in 2026",
-      "link": "https://cybersecuritynews.com/modern-data-protection-standards-how-organizations-are-strengthening-cybersecurity-in-2026/",
-      "description": "Organizations today operate in an increasingly hostile cyber threat landscape where data protection has become a critical business requirement. While digital transformation delivers greater efficie...",
-      "pub_date": "Thu, 18 Jun 2026 12:48:56 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNQgN2sfieH1Bzd_RnmhY0cjJomF877-xSIte6EWz4WuoxlbY1uy-LWlijyrXBPwGPNVglcmoH6GKB5OnPHd0H0XkXeGj09Lz-NT1hyphenhyphenqPBDoefAsGFjftYaDF1NprScvJsSZScJcfsHd_Qu0Ctx3eCXu9-sLU_J7c6V7vUCIB9L0_ZGI9FbvLvdq54Lp84/s1600/Screenshot%202026-06-18%20at%206.15.45%E2%80%AFPM.png?ssl=1"
-    },
-    {
       "title": "Apple fixes Beats Studio Buds flaw that let hackers spy on conversations",
       "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
       "description": "Apple has released security updates to patch a high-severity flaw affecting the Beats Studio Buds wireless earbuds that could allow attackers in Bluetooth range to spy on users' conversations. [...]",
@@ -66,22 +114,6 @@
       "image_url": ""
     },
     {
-      "title": "F5 Patches NGINX Vulnerability That Enables Code Execution and DoS Attacks",
-      "link": "https://cybersecuritynews.com/nginx-vulnerability-patched/",
-      "description": "F5 has released an out-of-band security advisory addressing multiple high-severity vulnerabilities in NGINX that could allow attackers to execute arbitrary code and launch denial-of-service (DoS) a...",
-      "pub_date": "Thu, 18 Jun 2026 12:15:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/NGINX-Vulnerability-Patched.webp"
-    },
-    {
-      "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
-      "link": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
-      "description": "If an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it?  For most enterprises, the answer is a ...",
-      "pub_date": "Thu, 18 Jun 2026 17:28:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_nqjviAfaPP-eOuhtQKNwdvOGLaN-rOmxVnoQPMOruaJvDcw5rsCi-kIKxAhOpxjCggRXt7bfwyRAKMzVKdwIPlRAJpXLl4OReBnbVtOSZYGS4Bsf9EvU71bMIkWdpDwjydNWe22WCdjgqX6b_TrPtXptekJc3N8BH5m56-wauHl5KX0DePQmv2gIoNks/s1600/webinar.jpg"
-    },
-    {
       "title": "F5 issues out-of-band patches for critical NGINX vulnerabilities",
       "link": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
       "description": "Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute ...",
@@ -90,84 +122,12 @@
       "image_url": ""
     },
     {
-      "title": "Hackers Abuse PowerShell Commands to Deliver SmartRAT Through Brazilian Bank Phishing Page",
-      "link": "https://cybersecuritynews.com/hackers-abuse-powershell-commands/",
-      "description": "A new cyberattack campaign has emerged, using cleverly crafted phishing pages and PowerShell tricks to deliver a dangerous piece of malware called SmartRAT. The attack targets Brazilian banking cus...",
-      "pub_date": "Thu, 18 Jun 2026 11:22:18 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-PowerShell-Commands-to-Deliver-SmartRAT-Through-Brazilian-Bank-Phishing-Page.webp"
-    },
-    {
-      "title": "Evilginx AiTM Attack Captures Microsoft Credentials, MFA Tokens, and Authenticated Sessions",
-      "link": "https://cybersecuritynews.com/evilginx-aitm-attack-captures-microsoft-credentials/",
-      "description": "A growing wave of targeted phishing attacks is putting Microsoft users at serious risk, and the tool behind it is more sophisticated than most people realize. Security researchers have documented h...",
-      "pub_date": "Thu, 18 Jun 2026 11:13:07 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Evilginx-AiTM-Attack-Captures-Microsoft-Credentials-MFA-Tokens-and-Authenticated-Sessions.webp"
-    },
-    {
-      "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
-      "link": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
-      "description": "An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here →  When a customer types their card number into your checkout, th...",
-      "pub_date": "Thu, 18 Jun 2026 16:30:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHJHzi-rQqSIiD4wXw_HQpgvXGNTNgvJnxt42OupMrchYSmQPyeXbtsuH62zLqPHDq3bywvirdcqKSq9VQ-pZyL02RAw2IYYh1f4qcpUH4NZu50XLSDsQSSYvyqMAEwSN-8PQMcpwXZMtLC_pVYzqZMYm7qkygfMQeZEIHVWpIkYfUifJvX3oUMSBs3w0/s1600/reflectiz.jpg"
-    },
-    {
-      "title": "PoC Exploit Released for HTTP/2 Bomb Remote DoS Vulnerability in Apache HTTP Server",
-      "link": "https://cybersecuritynews.com/http-2-bomb-dos-apache/",
-      "description": "A proof-of-concept (PoC) exploit has been publicly released for a critical Denial of Service vulnerability in Apache HTTP Server, tracked as CVE-2026-49975, dubbed the \u0026#8220;HTTP/2 Bomb.\u0026#8221; Th...",
-      "pub_date": "Thu, 18 Jun 2026 10:19:50 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/HTTP2-Bomb-PoC-Released.webp"
-    },
-    {
       "title": "Microsoft fixes Windows Server 2016 security update failures",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/",
       "description": "Microsoft has fixed a known issue causing the June 2026 security updates to fail on Windows Server 2016 systems that weren't up to date. [...]",
       "pub_date": "Thu, 18 Jun 2026 06:14:20 -0400",
       "source": "BleepingComputer",
       "image_url": ""
-    },
-    {
-      "title": "Hackers Abuse PowerShell, VBScript, and BAT Files to Deliver Xctdoor Backdoor",
-      "link": "https://cybersecuritynews.com/hackers-abuse-powershell-deliver-xctdoor-backdoor/",
-      "description": "A new wave of cyberattacks is targeting corporate employees through files that look exactly like legitimate job documents. Hackers are distributing malicious LNK files disguised as resumes, and the...",
-      "pub_date": "Thu, 18 Jun 2026 09:46:22 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-PowerShell-VBScript-and-BAT-Files-to-Deliver-Xctdoor-Backdoor.webp"
-    },
-    {
-      "title": "Rust Clipboard Hijacker Uses Fake GitHub Stars and VirusTotal Upvotes to Steal Crypto",
-      "link": "https://cybersecuritynews.com/rust-clipboard-hijacker-uses-fake-github-stars/",
-      "description": "A newly discovered malware campaign is quietly draining cryptocurrency wallets by doing something most security tools never see coming. Instead of relying on brute-force attacks or dark web exploit...",
-      "pub_date": "Thu, 18 Jun 2026 09:33:19 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Rust-Clipboard-Hijacker-Uses-Fake-GitHub-Stars-and-VirusTotal-Upvotes-to-Steal-Crypto.webp"
-    },
-    {
-      "title": "Microsoft Office Applications Might Fail to Open Following Windows 11 June Update",
-      "link": "https://cybersecuritynews.com/office-app-issues-windows-11-june-update/",
-      "description": "Microsoft’s June 2026 Patch Tuesday update for Windows 11 (KB5095051) is causing unexpected issues, with users reporting that Microsoft Office applications fail to launch when accessed through ce...",
-      "pub_date": "Thu, 18 Jun 2026 09:27:43 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Office-Applications-Fail-Open-Following-Windows-11-June-Update.webp"
-    },
-    {
-      "title": "Hackers Actively Exploiting WordPress SMTP Plugin With 100,000+ Installs to Access Sensitive Data",
-      "link": "https://cybersecuritynews.com/hackers-exploiting-wordpress-smtp-plugin/",
-      "description": "Hackers are actively abusing a sensitive information exposure flaw in the Gravity SMTP WordPress plugin, aggressively targeting over 100,000 sites to harvest configuration data and live email crede...",
-      "pub_date": "Thu, 18 Jun 2026 09:19:56 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Actively-Exploiting-Wordpress-SMTP-Plugin-With-100000-Installs-to-Access-Sensitive-Data.webp"
-    },
-    {
-      "title": "Splunk AI Toolkit Vulnerability Enables Arbitrary OS Command Execution Attacks",
-      "link": "https://cybersecuritynews.com/splunk-ai-toolkit-vulnerability/",
-      "description": "Splunk has disclosed a critical security vulnerability in its AI Toolkit that could allow attackers to execute arbitrary operating system commands on affected systems. The flaw, tracked as CVE-2026...",
-      "pub_date": "Thu, 18 Jun 2026 08:54:42 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Splunk-AI-Toolkit-Vulnerability-Enables-arbitrary-OS-command-Execution-Attacks.webp"
     },
     {
       "title": "Leak confirms OpenAI is testing a ChatGPT for Science subscription",
@@ -258,22 +218,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiM2DfFAWIuQ6v6hyh32CXcT_wKU72aTUxixyWIcnjW04ydv40r8RtVXjDrxKJzksW6zzqYciPMxgYAwcDGRz8kahhZVZXoi0FySWg5o8LpWo_KkHdX4wRX4Qgk6ONxHqyb7_cF5TN5qQp-9B4hOQpB3WljI8sDbHMlOh6n2jyTjV30kxC-ccJVJHu4bTs/s1600/INTRUDER.jpg"
     },
     {
-      "title": "CISA orders feds to patch max severity Joomla plugin flaw by Friday",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to patch a maximum-severity flaw in the Widget Factory Joomla Content Editor (JCE) plugin that is being...",
-      "pub_date": "Wed, 17 Jun 2026 06:09:24 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft working on Defender patch for RoguePlanet zero-day",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
-      "description": "Microsoft confirmed that it's working on a security patch for a Defender zero-day vulnerability named \"RoguePlanet,\" disclosed one week ago. [...]",
-      "pub_date": "Wed, 17 Jun 2026 04:32:29 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "145 Mastra npm Packages Compromised via Hijacked Contributor Account",
       "link": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
       "description": "As many as 145 npm packages associated with the Mastra namespace (\"@mastra/*\"), a popular open-source JavaScript and TypeScript framework for building artificial intelligence (AI) applications, hav...",
@@ -296,30 +240,6 @@
       "pub_date": "Wed, 17 Jun 2026 00:35:41 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpiAGZTnvo43enaVYkna4ZSp217mwwW5kW8kZOhaSiLAxicjvHQY-3d8rdLN47bsRvxUIj6R0h_Ttr8NcIJrgz6k_mbcx94KLuPD29KdhFcYQsrV8htgg_iDYMV9aXbr21kv6BdYTzLNOOqQLpsCfpDC4XxDPnu77uVQ3oCYbIUfIpUKdmqx-rZZWj6P0/s1600/Google-Vertex-AI.jpg"
-    },
-    {
-      "title": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures",
-      "link": "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
-      "description": "Cybersecurity researchers have flagged multiple ClickFix campaigns that deliver three malware loaders called BabaDeda Loader, Lorem Ipsum Loader, and Potemkin, per independent reports from Morphise...",
-      "pub_date": "Tue, 16 Jun 2026 23:11:28 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilHq1gG2gCazQF6_B9H-W3ck6nmgu3L4IPuzaMg9RMEAbpHyVqfYmFOquQ9_ldT1kG2r1kYUqt-WlpWWvD3DA4vNH6S-lv6fbsDbSCkB55NP3TtRJA4l5lLCMzosdM1OJiDOatfx4zG284ftwuE9ahYlGfcIpnAy1PkVSfWloFY0zD9Cbh3CkHhNQHgqwF/s1600/clickfix-attacks.jpg"
-    },
-    {
-      "title": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds",
-      "link": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
-      "description": "Security researchers at\u0026nbsp;Zimperium's zLabs\u0026nbsp;have documented a new Android banking trojan, Rokarolla, that targets 217 banking and cryptocurrency apps and packs 137 remote commands.  Togethe...",
-      "pub_date": "Tue, 16 Jun 2026 18:40:17 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF_U2JZgjmQGUfV3q90DEMUgqHK2kqloGQR5lBYn_8UUC2DUIFpJPpCnETlOUh1IldJXcWdr9YZ5hA3yUtZETvviRousyQt7En5mNSjwoJiD_gJ9_kjS7L8ujw_y6CN3NeygZWa-sXCEG1zo5PBmuB5CkSP-EYxBWsUEtUq4iYJ3AYXHVM_TscyngMwPU/s1600/android-banking-trojan.jpg"
-    },
-    {
-      "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive",
-      "link": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
-      "description": "Security teams have never had more IP data at their disposal. Every day, analysts ingest enrichment feeds, geolocation data, reputation scores, telemetry, and threat intelligence from a growing eco...",
-      "pub_date": "Tue, 16 Jun 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIjJejsRU4njToU8avtW_XwlouRy_HhUCWBUzgTtjb0e-LWzIO6zQprJ_tRqq6KO0Dvn64NNH35d6lYYadq7WSWAjn4jG_onOHYaJYrdg5CgUeVxyXBQJu7LUIAeVrEhFziJvlITCbj4kN9GSi9vp4ZpRpVwnxYCHKskOjUiFf-KIue9JlZzAJqJZUsxE/s1600/Spur-IP-Intel-Study-Feature.png"
     },
     {
       "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
