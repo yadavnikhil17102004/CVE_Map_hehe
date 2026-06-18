@@ -1,6 +1,134 @@
 {
-  "last_updated": "2026-06-18T10:08:11Z",
+  "last_updated": "2026-06-18T13:58:04Z",
   "articles": [
+    {
+      "title": "5 reasons Microsoft 365 backup isn’t enough for business data protection",
+      "link": "https://www.bleepingcomputer.com/news/security/5-reasons-microsoft-365-backup-isnt-enough-for-business-data-protection/",
+      "description": "Microsoft 365 helps keep services running, but protecting and recovering business data remains your responsibility. Acronis breaks down five gaps organizations should consider when evaluating Micro...",
+      "pub_date": "Thu, 18 Jun 2026 09:48:56 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic",
+      "link": "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
+      "description": "Threat actors associated with the DragonForce ransomware have been observed using a custom Go-based remote access trojan (RAT) called Backdoor.Turn to conceal command-and-control (C2) traffic insid...",
+      "pub_date": "Thu, 18 Jun 2026 19:00:07 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidEg1Q-FcDTwCPci3OMxGy0TghiI1dbWJoaJVc88gpGgO2ia6bgne18KfS3A9qAzBnMX2rGY9H78ewtofXQO22RRpzHxWXmvQJvRZ1nsvwj37aZBtLOXXltzd1KkNRKhu2N5LpIro5Fi0BBkftPqP_IO6B3HCKx5WPtFXZKA1bfbP3xV71CpEqpT7H6RPN/s1600/teams.jpg"
+    },
+    {
+      "title": "Police cleans nearly 15,000 SocGholish-infected sites tied to Evil Corp",
+      "link": "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
+      "description": "International law enforcement agencies cleaned nearly 15,000 malware-infected WordPress websites and took down more than 100 servers linked to the SocGholish botnet and the Evil Corp Russian cyber...",
+      "pub_date": "Thu, 18 Jun 2026 09:25:47 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "ShapedPlugin update flow hacked to infect WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
+      "description": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack that distributed infected releases to paying customers via the vendor's official update system. [...]",
+      "pub_date": "Thu, 18 Jun 2026 08:55:36 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
+      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
+      "description": "A newly discovered data leak dubbed \"FortiBleed\" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 firewall URLs at organizations worldwide. [...]",
+      "pub_date": "Thu, 18 Jun 2026 08:54:39 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Modern Data Protection Standards: How Organizations Are Strengthening Cybersecurity in 2026",
+      "link": "https://cybersecuritynews.com/modern-data-protection-standards-how-organizations-are-strengthening-cybersecurity-in-2026/",
+      "description": "Organizations today operate in an increasingly hostile cyber threat landscape where data protection has become a critical business requirement. While digital transformation delivers greater efficie...",
+      "pub_date": "Thu, 18 Jun 2026 12:48:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNQgN2sfieH1Bzd_RnmhY0cjJomF877-xSIte6EWz4WuoxlbY1uy-LWlijyrXBPwGPNVglcmoH6GKB5OnPHd0H0XkXeGj09Lz-NT1hyphenhyphenqPBDoefAsGFjftYaDF1NprScvJsSZScJcfsHd_Qu0Ctx3eCXu9-sLU_J7c6V7vUCIB9L0_ZGI9FbvLvdq54Lp84/s1600/Screenshot%202026-06-18%20at%206.15.45%E2%80%AFPM.png?ssl=1"
+    },
+    {
+      "title": "Apple fixes Beats Studio Buds flaw that let hackers spy on conversations",
+      "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
+      "description": "Apple has released security updates to patch a high-severity flaw affecting the Beats Studio Buds wireless earbuds that could allow attackers in Bluetooth range to spy on users' conversations. [...]",
+      "pub_date": "Thu, 18 Jun 2026 08:23:58 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Telegram admits it couldn't police exam-leak channels, India tells court",
+      "link": "https://www.bleepingcomputer.com/news/security/telegram-admits-it-couldnt-police-exam-leak-channels-india-tells-court/",
+      "description": "India's government has told the Delhi High Court that Telegram was warned about two weeks before it was blocked, and that the platform admitted it could not proactively detect the channels selling ...",
+      "pub_date": "Thu, 18 Jun 2026 08:18:49 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "F5 Patches NGINX Vulnerability That Enables Code Execution and DoS Attacks",
+      "link": "https://cybersecuritynews.com/nginx-vulnerability-patched/",
+      "description": "F5 has released an out-of-band security advisory addressing multiple high-severity vulnerabilities in NGINX that could allow attackers to execute arbitrary code and launch denial-of-service (DoS) a...",
+      "pub_date": "Thu, 18 Jun 2026 12:15:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/NGINX-Vulnerability-Patched.webp"
+    },
+    {
+      "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
+      "link": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
+      "description": "If an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it?  For most enterprises, the answer is a ...",
+      "pub_date": "Thu, 18 Jun 2026 17:28:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_nqjviAfaPP-eOuhtQKNwdvOGLaN-rOmxVnoQPMOruaJvDcw5rsCi-kIKxAhOpxjCggRXt7bfwyRAKMzVKdwIPlRAJpXLl4OReBnbVtOSZYGS4Bsf9EvU71bMIkWdpDwjydNWe22WCdjgqX6b_TrPtXptekJc3N8BH5m56-wauHl5KX0DePQmv2gIoNks/s1600/webinar.jpg"
+    },
+    {
+      "title": "F5 issues out-of-band patches for critical NGINX vulnerabilities",
+      "link": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+      "description": "Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute ...",
+      "pub_date": "Thu, 18 Jun 2026 07:33:00 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Abuse PowerShell Commands to Deliver SmartRAT Through Brazilian Bank Phishing Page",
+      "link": "https://cybersecuritynews.com/hackers-abuse-powershell-commands/",
+      "description": "A new cyberattack campaign has emerged, using cleverly crafted phishing pages and PowerShell tricks to deliver a dangerous piece of malware called SmartRAT. The attack targets Brazilian banking cus...",
+      "pub_date": "Thu, 18 Jun 2026 11:22:18 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-PowerShell-Commands-to-Deliver-SmartRAT-Through-Brazilian-Bank-Phishing-Page.webp"
+    },
+    {
+      "title": "Evilginx AiTM Attack Captures Microsoft Credentials, MFA Tokens, and Authenticated Sessions",
+      "link": "https://cybersecuritynews.com/evilginx-aitm-attack-captures-microsoft-credentials/",
+      "description": "A growing wave of targeted phishing attacks is putting Microsoft users at serious risk, and the tool behind it is more sophisticated than most people realize. Security researchers have documented h...",
+      "pub_date": "Thu, 18 Jun 2026 11:13:07 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Evilginx-AiTM-Attack-Captures-Microsoft-Credentials-MFA-Tokens-and-Authenticated-Sessions.webp"
+    },
+    {
+      "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
+      "link": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
+      "description": "An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here →  When a customer types their card number into your checkout, th...",
+      "pub_date": "Thu, 18 Jun 2026 16:30:00 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHJHzi-rQqSIiD4wXw_HQpgvXGNTNgvJnxt42OupMrchYSmQPyeXbtsuH62zLqPHDq3bywvirdcqKSq9VQ-pZyL02RAw2IYYh1f4qcpUH4NZu50XLSDsQSSYvyqMAEwSN-8PQMcpwXZMtLC_pVYzqZMYm7qkygfMQeZEIHVWpIkYfUifJvX3oUMSBs3w0/s1600/reflectiz.jpg"
+    },
+    {
+      "title": "PoC Exploit Released for HTTP/2 Bomb Remote DoS Vulnerability in Apache HTTP Server",
+      "link": "https://cybersecuritynews.com/http-2-bomb-dos-apache/",
+      "description": "A proof-of-concept (PoC) exploit has been publicly released for a critical Denial of Service vulnerability in Apache HTTP Server, tracked as CVE-2026-49975, dubbed the \u0026#8220;HTTP/2 Bomb.\u0026#8221; Th...",
+      "pub_date": "Thu, 18 Jun 2026 10:19:50 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/HTTP2-Bomb-PoC-Released.webp"
+    },
+    {
+      "title": "Microsoft fixes Windows Server 2016 security update failures",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/",
+      "description": "Microsoft has fixed a known issue causing the June 2026 security updates to fail on Windows Server 2016 systems that weren't up to date. [...]",
+      "pub_date": "Thu, 18 Jun 2026 06:14:20 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
     {
       "title": "Hackers Abuse PowerShell, VBScript, and BAT Files to Deliver Xctdoor Backdoor",
       "link": "https://cybersecuritynews.com/hackers-abuse-powershell-deliver-xctdoor-backdoor/",
@@ -42,14 +170,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Splunk-AI-Toolkit-Vulnerability-Enables-arbitrary-OS-command-Execution-Attacks.webp"
     },
     {
-      "title": "Microsoft Confirms Defender RoguePlanet 0-Day Exploit and Working to Release Patch",
-      "link": "https://cybersecuritynews.com/defender-rogueplanet-0-day-exploit-patch/",
-      "description": "Microsoft has officially acknowledged a critical zero-day vulnerability in Microsoft Defender, publicly dubbed \u0026#8220;RoguePlanet,\u0026#8221; and confirmed it is actively developing a security patch to...",
-      "pub_date": "Thu, 18 Jun 2026 03:38:22 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Defender-RoguePlanet-0-Day-Exploit-Patch.webp"
-    },
-    {
       "title": "Leak confirms OpenAI is testing a ChatGPT for Science subscription",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/",
       "description": "OpenAI appears to be testing a new subscription and experience for science use cases, but it's unclear if it'll be available to everyone regardless of their background. [...]",
@@ -82,52 +202,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy3ayOlDb3vsL747G9hStxxjTd3N5i2u8hegcT_hTs4RlNqylS_HyYH4mGLQEavD-QwH3G4l-p2tE5xrXoeK-Btj5YjbENpZcnqRZ7mXCjnJgqHKaoqyE3I3yqy3tYxafbDGNOMrDsvTnJ8UKkn7DDQ8PY_sQNZI6TsNTV0lOmSqs1uxUKm3pgpmkSDpeZ/s1600/ms-patch.jpg"
     },
     {
-      "title": "Google Cloud Vertex AI Allows Attacker to Hijack Victim’s Model and Poison it",
-      "link": "https://cybersecuritynews.com/google-cloud-vertex-ai-hijack-model/",
-      "description": "A newly disclosed vulnerability in Google Cloud Vertex AI could have allowed attackers to hijack machine learning model uploads and execute malicious code in victim environments, according to resea...",
-      "pub_date": "Wed, 17 Jun 2026 16:57:15 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Google-Cloud-Vertex-AI-Allow-Attacker-to-Hijack-victims-Model-and-poison-it.webp"
-    },
-    {
-      "title": "GitBait Phishing Campaign Abuses GitHub Pages to Attack Financial Institutions",
-      "link": "https://cybersecuritynews.com/gitbait-phishing-campaign-abuses-github-pages/",
-      "description": "A sophisticated phishing campaign called \u0026#8220;GitBait\u0026#8221; has been caught targeting Mexico\u0026#8217;s financial sector with a level of precision rarely seen in credential-theft operations. The ca...",
-      "pub_date": "Wed, 17 Jun 2026 16:52:52 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/GitBait-Phishing-Campaign-Abuses-GitHub-Pages-to-Attack-Financial-Institutions.webp"
-    },
-    {
-      "title": "Hackers Abuse Cloud Logging Services to Evade Detection and Defender’s Visibility",
-      "link": "https://cybersecuritynews.com/hackers-abuse-cloud-logging-service/",
-      "description": "Threat actors are increasingly targeting cloud logging services to evade detection and maintain persistent visibility into compromised environments, according to recent research by Palo Alto Networ...",
-      "pub_date": "Wed, 17 Jun 2026 16:46:21 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-Cloud-Logging-Services-to-Evade-Detection-and-Defenders-Visibility.webp"
-    },
-    {
-      "title": "SpyCloud Report Finds Phishing Attacks Surge as Employee Data Is Exposed at 86% of Fortune 100 Companies",
-      "link": "https://cybersecuritynews.com/spycloud-phishing-attacks-report/",
-      "description": "Austin, TX, USA, June 17th, 2026, CyberNewswire New SpyCloud research highlights the expansion of phishing attacks as AI and phishing-as-a-service fuel enterprise targeting. SpyCloud, the leader in...",
-      "pub_date": "Wed, 17 Jun 2026 16:44:02 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQNWMgxXBV6tFhwBrklrkUNF-z9rClddHX4R_r8zN1fPTZdAsUUX8OTSx9hUpl2pTRsywthLKtojMRkC9iIom8-4N8VPFQdimc1mvOLem2uRrhIoOe-H_TZlLml1iXnjQiM1q3AK3n8OKYfI7_aTJj4NcfmavKQYj57dnYSvFzrus2c7wBAelQkr7WnRg/s16000/TTT%20-%202026-06-17T190243.797.webp?ssl=1"
-    },
-    {
       "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
       "link": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
       "description": "A French-speaking attacker broke into a small French automotive business, planted a keylogger, and stole banking and email credentials.  Ordinary stuff, until one move near the end.  Before his com...",
       "pub_date": "Wed, 17 Jun 2026 21:30:56 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN4ptzzF7u-dzNyOc4F1HsCUbEszvkkeD1ZVl7MHQNXXcUtgqb40Wgodu3aj61QDzaNsX0eJjRDGK1eNJLCbud-4iWHJjnpHPuCfTak2m9UydSW4DEJErr5L2V_KwD39P__6iVxgaOhH8mYtY2LhPFnyCavP8eJ_1N3QpGo4NkZaFJYVRc-LX0droem8Q/s1600/cyber.jpg"
-    },
-    {
-      "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
-      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
-      "description": "A newly discovered data leak dubbed \"FortiBleed\" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 firewall URLs at organizations worldwide. [...]",
-      "pub_date": "Wed, 17 Jun 2026 11:12:57 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization",
@@ -194,20 +274,12 @@
       "image_url": ""
     },
     {
-      "title": "144 Mastra npm Packages Compromised via Hijacked Contributor Account",
+      "title": "145 Mastra npm Packages Compromised via Hijacked Contributor Account",
       "link": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
-      "description": "As many as 144 npm packages associated with the Mastra namespace (\"@mastra/*\"), a popular open-source JavaScript and TypeScript framework for building artificial intelligence (AI) applications, hav...",
+      "description": "As many as 145 npm packages associated with the Mastra namespace (\"@mastra/*\"), a popular open-source JavaScript and TypeScript framework for building artificial intelligence (AI) applications, hav...",
       "pub_date": "Wed, 17 Jun 2026 13:08:24 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKLWn0zHFuJ8rkb2bqILIyAGxt_-VJ13Ytmv1TRWtGJkI6Rva5Oag5LdLasE2rmenokuRvoEI2wH0Ayfe_P4_5q1Qc5FQ2MrQgUHrgD9wY6DTlYugAtj8CP7Fh0OPjKkU5LbeRKWvPEh0Ol0CmLTe4QVayeZiNlVFvU7MO5tWl-b8Lbn80hKd45q9Z1yOd/s1600/npms.jpg"
-    },
-    {
-      "title": "Kodak confirms data breach claimed by ShinyHunters extortion gang",
-      "link": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
-      "description": "Kodak has confirmed that it's working with external cybersecurity experts to investigate a security breach after hackers gained access to some of the company's data. [...]",
-      "pub_date": "Wed, 17 Jun 2026 03:07:56 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution",
@@ -218,22 +290,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisS71RYEu_1Sts3eqAt878RoohdLgeUzyTbRQgFqUYQcwBxzKB1ug6AvOBRXqZvWcChuLVj6KFbIt7nO9RX66ZJZyMEIADvIXe-fdNDrQIYXGtcMt3StDzbK4lF9ZLpF9pqCR1cGEa4lLkFFRVqIyD5w0JqwhVgr-C9ga7pZ6IQWpFmbsojcsGePBnzsGW/s1600/joomla.jpg"
     },
     {
-      "title": "Malicious JetBrains Marketplace plugins steal AI API keys from developers",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
-      "description": "At least 15 malicious plugins found on the JetBrains Marketplace were designed to steal AI API keys from developers. [...]",
-      "pub_date": "Tue, 16 Jun 2026 17:54:50 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "New Rokarolla Android malware targets 217 banking, crypto apps",
-      "link": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
-      "description": "A new Android banking trojan named Rokarolla is targeting 217 banking and cryptocurrency applications using an extensive set of 137 commands. [...]",
-      "pub_date": "Tue, 16 Jun 2026 16:04:11 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting",
       "link": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
       "description": "A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infra...",
@@ -242,44 +298,12 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpiAGZTnvo43enaVYkna4ZSp217mwwW5kW8kZOhaSiLAxicjvHQY-3d8rdLN47bsRvxUIj6R0h_Ttr8NcIJrgz6k_mbcx94KLuPD29KdhFcYQsrV8htgg_iDYMV9aXbr21kv6BdYTzLNOOqQLpsCfpDC4XxDPnu77uVQ3oCYbIUfIpUKdmqx-rZZWj6P0/s1600/Google-Vertex-AI.jpg"
     },
     {
-      "title": "Steam Workshop abused to spread malware via Wallpaper Engine app",
-      "link": "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/",
-      "description": "Threat actors are abusing Steam Workshop, Valve's community hub for downloading game-related content, to push various malware hidden in wallpaper packages. [...]",
-      "pub_date": "Tue, 16 Jun 2026 14:27:55 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures",
       "link": "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
       "description": "Cybersecurity researchers have flagged multiple ClickFix campaigns that deliver three malware loaders called BabaDeda Loader, Lorem Ipsum Loader, and Potemkin, per independent reports from Morphise...",
       "pub_date": "Tue, 16 Jun 2026 23:11:28 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilHq1gG2gCazQF6_B9H-W3ck6nmgu3L4IPuzaMg9RMEAbpHyVqfYmFOquQ9_ldT1kG2r1kYUqt-WlpWWvD3DA4vNH6S-lv6fbsDbSCkB55NP3TtRJA4l5lLCMzosdM1OJiDOatfx4zG284ftwuE9ahYlGfcIpnAy1PkVSfWloFY0zD9Cbh3CkHhNQHgqwF/s1600/clickfix-attacks.jpg"
-    },
-    {
-      "title": "UK to require ID or face scan before you can make social media accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/",
-      "description": "Opening a new social media account in the UK will soon mean proving you're over 16 with an ID upload or a facial age scan, under a government ban on under-16s taking effect in spring 2027. Security...",
-      "pub_date": "Tue, 16 Jun 2026 10:38:49 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "GhostTree Attack Abused Recursive Windows Junctions to Hide Malware",
-      "link": "https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/",
-      "description": "GhostTree uses recursive NTFS junctions to generate vast numbers of valid Windows file paths. Varonis explains how the technique could cause Microsoft Defender folder scans to never complete, leavi...",
-      "pub_date": "Tue, 16 Jun 2026 10:17:27 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "FTC warns of record $3.5 billion losses to imposter scams in 2025",
-      "link": "https://www.bleepingcomputer.com/news/security/ftc-warns-of-record-35-billion-losses-to-imposter-scams-in-2025/",
-      "description": "The U.S. Federal Trade Commission (FTC) warned that Americans lost $3.5 billion to imposter scams in 2025, with reported losses nearly tripling since 2020. [...]",
-      "pub_date": "Tue, 16 Jun 2026 09:42:19 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds",
@@ -296,30 +320,6 @@
       "pub_date": "Tue, 16 Jun 2026 17:00:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIjJejsRU4njToU8avtW_XwlouRy_HhUCWBUzgTtjb0e-LWzIO6zQprJ_tRqq6KO0Dvn64NNH35d6lYYadq7WSWAjn4jG_onOHYaJYrdg5CgUeVxyXBQJu7LUIAeVrEhFziJvlITCbj4kN9GSi9vp4ZpRpVwnxYCHKskOjUiFf-KIue9JlZzAJqJZUsxE/s1600/Spur-IP-Intel-Study-Feature.png"
-    },
-    {
-      "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
-      "link": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
-      "description": "Bad actors are exploiting multiple security vulnerabilities in Fortinet FortiSandbox, according to threat intelligence firm Defused Cyber.  In a post shared on X, the company said it has observed e...",
-      "pub_date": "Tue, 16 Jun 2026 16:00:41 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisozpc0YfCvHjGAyEZf7c1G10iEOgszA-mkIIrhG3A4VYcq8_Hih8U0hO66iBoDPPJZhfq7Dc3fGTsMLDiFiGSk6-xS7ltGORLe0_sC8VyhZHlfIkeGpOkMTcbQ0R7BeDtDmZFb-VB_GF3le8p0mx2ZMD-CLZb5eWlMJPiBhdu9ljzlh_E01hIon9dA-Y3/s1600/Fortinet.png"
-    },
-    {
-      "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
-      "link": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
-      "description": "Cybersecurity researchers have flagged two previously undocumented Windows variants of what was believed to be a Linux-only backdoor called SprySOCKS.  \"The Windows variants discovered are internal...",
-      "pub_date": "Tue, 16 Jun 2026 15:14:34 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxym2hiE83TbiNOrIeH3s4QCF0wQ_BYcSYPKlC3m9LGSuJnH7UNicbkgIk4kQTbpPiLRul9dSxQ180XW656_9NPtlqWoTGivTamDVl24ZfUQFPgUleakZq6aZI5kZqszNz3GpVyJQnPiXis_kjlMqAxKBxGKZsDdAvb-rX20fxszdd0pCKRO9GqK3CSu-p/s1600/chinese-proxy.png"
-    },
-    {
-      "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
-      "link": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
-      "description": "The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver malwa...",
-      "pub_date": "Tue, 16 Jun 2026 13:44:55 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3Lf-lxaztGp4Ov5_hu7TmA6AEoqhh2oBADVLVEbA1HTzmsAyX9ePZtZvvBlBzNym1RiifCmOnb-pf604J7plqPdarQxnW-m6Ds0Wi-kT1Ytqm1KlGsf4hWmL8YPa17MXv4yxcEN0CwkA_9qwbEGn74XdX4Y0J4t1rR3oflfW5cpy2tXo65kVMFI3oRFxr/s1600/ms-alert.jpg"
     },
     {
       "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
