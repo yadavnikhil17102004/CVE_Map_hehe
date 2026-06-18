@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-18T05:30:06Z",
+  "last_updated": "2026-06-18T10:08:11Z",
   "articles": [
+    {
+      "title": "Hackers Abuse PowerShell, VBScript, and BAT Files to Deliver Xctdoor Backdoor",
+      "link": "https://cybersecuritynews.com/hackers-abuse-powershell-deliver-xctdoor-backdoor/",
+      "description": "A new wave of cyberattacks is targeting corporate employees through files that look exactly like legitimate job documents. Hackers are distributing malicious LNK files disguised as resumes, and the...",
+      "pub_date": "Thu, 18 Jun 2026 09:46:22 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-PowerShell-VBScript-and-BAT-Files-to-Deliver-Xctdoor-Backdoor.webp"
+    },
+    {
+      "title": "Rust Clipboard Hijacker Uses Fake GitHub Stars and VirusTotal Upvotes to Steal Crypto",
+      "link": "https://cybersecuritynews.com/rust-clipboard-hijacker-uses-fake-github-stars/",
+      "description": "A newly discovered malware campaign is quietly draining cryptocurrency wallets by doing something most security tools never see coming. Instead of relying on brute-force attacks or dark web exploit...",
+      "pub_date": "Thu, 18 Jun 2026 09:33:19 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Rust-Clipboard-Hijacker-Uses-Fake-GitHub-Stars-and-VirusTotal-Upvotes-to-Steal-Crypto.webp"
+    },
+    {
+      "title": "Microsoft Office Applications Might Fail to Open Following Windows 11 June Update",
+      "link": "https://cybersecuritynews.com/office-app-issues-windows-11-june-update/",
+      "description": "Microsoft’s June 2026 Patch Tuesday update for Windows 11 (KB5095051) is causing unexpected issues, with users reporting that Microsoft Office applications fail to launch when accessed through ce...",
+      "pub_date": "Thu, 18 Jun 2026 09:27:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Office-Applications-Fail-Open-Following-Windows-11-June-Update.webp"
+    },
+    {
+      "title": "Hackers Actively Exploiting WordPress SMTP Plugin With 100,000+ Installs to Access Sensitive Data",
+      "link": "https://cybersecuritynews.com/hackers-exploiting-wordpress-smtp-plugin/",
+      "description": "Hackers are actively abusing a sensitive information exposure flaw in the Gravity SMTP WordPress plugin, aggressively targeting over 100,000 sites to harvest configuration data and live email crede...",
+      "pub_date": "Thu, 18 Jun 2026 09:19:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Actively-Exploiting-Wordpress-SMTP-Plugin-With-100000-Installs-to-Access-Sensitive-Data.webp"
+    },
+    {
+      "title": "Splunk AI Toolkit Vulnerability Enables Arbitrary OS Command Execution Attacks",
+      "link": "https://cybersecuritynews.com/splunk-ai-toolkit-vulnerability/",
+      "description": "Splunk has disclosed a critical security vulnerability in its AI Toolkit that could allow attackers to execute arbitrary operating system commands on affected systems. The flaw, tracked as CVE-2026...",
+      "pub_date": "Thu, 18 Jun 2026 08:54:42 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Splunk-AI-Toolkit-Vulnerability-Enables-arbitrary-OS-command-Execution-Attacks.webp"
+    },
     {
       "title": "Microsoft Confirms Defender RoguePlanet 0-Day Exploit and Working to Release Patch",
       "link": "https://cybersecuritynews.com/defender-rogueplanet-0-day-exploit-patch/",
@@ -74,38 +114,6 @@
       "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQNWMgxXBV6tFhwBrklrkUNF-z9rClddHX4R_r8zN1fPTZdAsUUX8OTSx9hUpl2pTRsywthLKtojMRkC9iIom8-4N8VPFQdimc1mvOLem2uRrhIoOe-H_TZlLml1iXnjQiM1q3AK3n8OKYfI7_aTJj4NcfmavKQYj57dnYSvFzrus2c7wBAelQkr7WnRg/s16000/TTT%20-%202026-06-17T190243.797.webp?ssl=1"
     },
     {
-      "title": "URL Phishing Is Draining SOCs, How to Cut Triage Time and Catch Incidents Early  ",
-      "link": "https://cybersecuritynews.com/url-phishing-is-draining-socs-how-to-cut-triage-time-and-catch-incidents-early/",
-      "description": "URL phishing is becoming harder to triage at scale.\u0026#160;Suspicious links can hide behind redirects, fresh domains, and browser-side changes that basic URL checks often miss. For analysts, that mea...",
-      "pub_date": "Wed, 17 Jun 2026 16:42:08 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2snWvs8-gOl7s-VcqDCBd9zmL-TEBc1msKAWuigK6U385Z-3YPxa8VBuG59t0XQlk_eSbcqIDxXAGC_9GyVkQHZZ0_G0Ut84WHPmjlLp8oXNc2iyToCQRSuh8JwPENBqEWQiMdwfmdUf95DnjoYqz-8m6YO2A_K1xwP4TU4ZwHVOvITg1rXjzwGjtnA/s16000/Phishing%20URLs%20Overwhelm%20SOC%20Teams.webp?ssl=1"
-    },
-    {
-      "title": "27-Year-Old OpenBSD Vulnerability Allows Attackers to Bypass PAP Authentication Entirely",
-      "link": "https://cybersecuritynews.com/27-year-old-openbsd-vulnerability/",
-      "description": "A long-standing vulnerability in OpenBSD’s networking stack has been disclosed, revealing that attackers can bypass PAP authentication entirely due to a decades-old logic flaw. The issue resides ...",
-      "pub_date": "Wed, 17 Jun 2026 16:38:22 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/27-Year-Old-OpenBSD-Vulnerability.webp"
-    },
-    {
-      "title": "Hackers Use ClickFix Prompt to Install MSI Package and Launch Hands-On-Keyboard Attack",
-      "link": "https://cybersecuritynews.com/hackers-use-clickfix-prompt-to-install-msi-package/",
-      "description": "A single deceptive prompt. That is all it took for attackers to gain a foothold inside an organization, spread to over 11 systems, and deploy two separate remote access tools before anyone noticed....",
-      "pub_date": "Wed, 17 Jun 2026 16:34:50 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-ClickFix-Prompt-to-Install-MSI-Package-and-Launch-Hands-On-Keyboard-Attack.webp"
-    },
-    {
-      "title": "Hackers Use Fake Software Update Prompts to Steal Passwords and Crypto Wallet Data From macOS Users",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-software-update-prompts/",
-      "description": "A dangerous new cyber campaign is putting macOS users at serious risk, and it does not rely on software bugs to do its damage. Instead, the attackers trick people into handing over their own passwo...",
-      "pub_date": "Wed, 17 Jun 2026 16:12:12 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-Fake-Software-Update-Prompts-to-Steal-Passwords-and-Crypto-Wallet-Data-From-macOS-Users.webp"
-    },
-    {
       "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
       "link": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
       "description": "A French-speaking attacker broke into a small French automotive business, planted a keylogger, and stole banking and email credentials.  Ordinary stuff, until one move near the end.  Before his com...",
@@ -128,14 +136,6 @@
       "pub_date": "Wed, 17 Jun 2026 20:28:00 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_8P-dioPWCAX94ha33KAWjvP0RvBHHCxI4ZAMnMHYY66XUQUFK_FZFkQJ3nW8XYlG6U5GxLL-o21CvZFNeOkZsHH41KlaVGYR3Ne26PZjeyK318yCFpZnxqFgp-e7qU1XitrcF7ODwc1znYAw2r2MioIePdJs4eQdHMmdBEmDqbq-YicStLUsU1_842g/s1600/breachlock.jpg"
-    },
-    {
-      "title": "Heimdal Survey: Executives Four Times More Confident About AI Risk Than the Teams Managing It",
-      "link": "https://cybersecuritynews.com/heimdal-ai-risk-confidence-gap/",
-      "description": "London, United Kingdom, June 17th, 2026, CyberNewswire New research from cybersecurity company Heimdal finds 29% of US executives say AI risk is under control, against 7% of the practitioners runni...",
-      "pub_date": "Wed, 17 Jun 2026 14:38:48 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhBa27GbAXvY5fMGd-VPL0ZbSW9Lhq6tYvQya3n8uGhpbSDZrnXuz9pRgXNJe3-J_5wg1qLp-c9-FeJknmmHkwiH_FbEvHpKXfFMRQEI8Mh0-ncKXG0NXZBjyg1yzndy0xmLkcWRlDFtTNZpmsYKo4-t9q_o53AzTEqJvplIe9phwbF-yl9-1WKj5dO2g/s16000/TTT%20-%202026-06-17T184919.019.webp?ssl=1"
     },
     {
       "title": "Why Account Takeovers Are Rising and How to Stop Them",
