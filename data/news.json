@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T19:22:39Z",
+  "last_updated": "2026-06-18T21:59:20Z",
   "articles": [
     {
       "title": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
@@ -18,12 +18,28 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxYclMMaAOBe1jlW_s0S1SfdX3sPrGB9MZ7R9Hfo2ktoF9DiLqPA5ZYmFAyGmzws5eNmqopdPw7bBV7TTO8KgS2C8CJU8cgHNXw0ERAvk8sGRLYXH7M98eqxDM9c-rQTU0Hlj8ISEmSWMCnw6OqJMyhgxxLHCFPwP1JugZ3bCJow7AfTZ40kOo8XpY3WdF/s1600/f5.jpg"
     },
     {
+      "title": "New iPhone BootROM Vulnerability Exposes Apple SoCs to Full Chain-of-Trust Compromise",
+      "link": "https://cybersecuritynews.com/iphone-bootrom-vulnerability/",
+      "description": "A novel BootROM vulnerability, dubbed usbliter8, affects Apple devices powered by A12, S4/S5, and A13 SoCs. The exploit chains a hardware-level bug in the Synopsys DWC2 USB controller with a firmwa...",
+      "pub_date": "Thu, 18 Jun 2026 17:20:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/iPhone-BootROM-Vulnerability.webp"
+    },
+    {
       "title": "USB worm spreads crypto-stealing malware via Windows shortcut files",
       "link": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
       "description": "Threat actors targeting cryptocurrency wallets have been distributing clipboard-stealing malware with self-spreading capabilities and using the Tor network to conceal communication. [...]",
       "pub_date": "Thu, 18 Jun 2026 12:20:06 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "Hackers Breached Klue Integration to Steal Salesforce CRM Data via OAuth Tokens",
+      "link": "https://cybersecuritynews.com/klue-integration-breached-salesforce/",
+      "description": "Threat actors exploited a trusted third-party SaaS integration to silently harvest enterprise CRM data, marking the latest chapter in an escalating wave of OAuth-abuse attacks targeting Salesforce ...",
+      "pub_date": "Thu, 18 Jun 2026 16:01:39 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Klue-Integration-Breached-Salesforce.webp"
     },
     {
       "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
@@ -42,12 +58,60 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6k3CSWsyKHS6UdXmxX-w92fdsWjTSL7JR7xeaPBPh8d5G6rkZbMhmJHr9o3gxF5G2I2GojubOJnzhRqxjtKYxlXTrmlgrdRFRrmmyEEIi_zXAQXT3zpq5KNQqOFHrfGKhUFHzsMx1E2Eqs7S_jvTFfN3Jnz1YO58Ryvk0urKEDUZggoQgI07lKFWQDMfw/s1600/threatss.jpg"
     },
     {
+      "title": "Multiple Vulnerabilities in Firefox 152 Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/firefox-152-vulnerabilities/",
+      "description": "Mozilla has released Firefox 152 to address multiple high-severity vulnerabilities that could allow remote code execution (RCE) and sandbox escape attacks. The security advisory, published on June ...",
+      "pub_date": "Thu, 18 Jun 2026 15:10:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Multiple-Vulnerabilities-in-Firefox-152-Enables-Remote-Code-Execution-Attacks.webp"
+    },
+    {
+      "title": "Hackers Can Leverage SQL Server 2025 AI Features to Exfiltrate Sensitive Data",
+      "link": "https://cybersecuritynews.com/hackers-leverage-sql-server-2025-ai-features/",
+      "description": "Hackers are increasingly finding new ways to abuse legitimate enterprise features, and Microsoft SQL Server 2025’s newly introduced AI capabilities are now raising serious security concerns. Spec...",
+      "pub_date": "Thu, 18 Jun 2026 14:57:57 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Can-Leverage-SQL-Server-2025-AI-Features-to-Exfiltrate-Sensitive-Data-1.webp"
+    },
+    {
+      "title": "Hackers Abuse Microsoft Fondue.exe to Side-Load APPWIZ.cpl and Execute Malware",
+      "link": "https://cybersecuritynews.com/hackers-abuse-microsoft-fondue-exe/",
+      "description": "A newly uncovered attack campaign has brought a rarely scrutinized Windows executable into the spotlight. Threat actors are actively abusing Fondue.exe, a legitimate Microsoft utility built into t...",
+      "pub_date": "Thu, 18 Jun 2026 14:52:15 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-Microsoft-Fondue.exe-to-Side-Load-APPWIZ.cpl-and-Execute-Malware.webp"
+    },
+    {
+      "title": "Hackers Abuse Legitimate RMM Tools to Maintain Persistent Access and Evade Detection",
+      "link": "https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-2/",
+      "description": "Hackers have found a new way to get AI tools to do their dirty work without paying for it. Instead of using their own resources, attackers are hijacking exposed AI model servers and plugging them i...",
+      "pub_date": "Thu, 18 Jun 2026 14:49:28 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-Legitimate-RMM-Tools-to-Maintain-Persistent-Access-and-Evade-Detection.webp"
+    },
+    {
+      "title": "Hackers Abuse Claude.ai Shared Chat Feature to Host the ClickFix Social Engineering Instructions",
+      "link": "https://cybersecuritynews.com/claude-ai-shared-chat-feature-abused/",
+      "description": "Hackers are increasingly exploiting trusted AI platforms to deliver sophisticated social engineering attacks, with a recent campaign abusing Claude.ai’s shared chat feature to host malicious Clic...",
+      "pub_date": "Thu, 18 Jun 2026 14:41:37 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-claude.ai-shared-chat-feature-to-host-the-ClickFix-social-engineering-instructions.webp"
+    },
+    {
       "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2",
       "link": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
       "description": "Microsoft has disclosed details of a Windows-based cryptocurrency clipper campaign that has targeted users since February 2026.  \"The clipper in this campaign relies on Windows Script Host and Acti...",
       "pub_date": "Thu, 18 Jun 2026 20:00:42 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvKWONrjyxy3cGsc9xfw7n-6izVRjMImK2DpiOv4JDrtutcENRgX6JxsFQhsEMHDhZx9fGfeoj_mAQSVk9SoJumNREvmLtbWOjWaTlYn3c25sH_paaeZk-Xw08k3ckerv19Ax9stFCURiV321W7vh0f6qQbrmSHnuvPeNBeW6Grb7o6TU4s5dhJNkXyIon/s1600/clipper-malware.jpg"
+    },
+    {
+      "title": "Critical Cisco ISE Vulnerability Allows Attacker to Execute Malicious Code Remotely",
+      "link": "https://cybersecuritynews.com/cisco-ise-rec-vulnerability/",
+      "description": "Cisco has disclosed critical security vulnerabilities in its Identity Services Engine (ISE) that could allow attackers to execute malicious code remotely and access sensitive data, posing a signifi...",
+      "pub_date": "Thu, 18 Jun 2026 14:29:49 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Cisco-ISE-Vulnerability-Allow-Attacker-to-Execute-Malicious-code-Remotely.webp"
     },
     {
       "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
@@ -114,6 +178,14 @@
       "image_url": ""
     },
     {
+      "title": "Modern Data Protection Standards: How Organizations Are Strengthening Cybersecurity in 2026",
+      "link": "https://cybersecuritynews.com/modern-data-protection-standards-how-organizations-are-strengthening-cybersecurity-in-2026/",
+      "description": "Organizations today operate in an increasingly hostile cyber threat landscape where data protection has become a critical business requirement. While digital transformation delivers greater efficie...",
+      "pub_date": "Thu, 18 Jun 2026 12:48:56 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNQgN2sfieH1Bzd_RnmhY0cjJomF877-xSIte6EWz4WuoxlbY1uy-LWlijyrXBPwGPNVglcmoH6GKB5OnPHd0H0XkXeGj09Lz-NT1hyphenhyphenqPBDoefAsGFjftYaDF1NprScvJsSZScJcfsHd_Qu0Ctx3eCXu9-sLU_J7c6V7vUCIB9L0_ZGI9FbvLvdq54Lp84/s1600/Screenshot%202026-06-18%20at%206.15.45%E2%80%AFPM.png?ssl=1"
+    },
+    {
       "title": "Apple fixes Beats Studio Buds flaw that let hackers spy on conversations",
       "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
       "description": "Apple has released security updates to patch a high-severity flaw affecting the Beats Studio Buds wireless earbuds that could allow attackers in Bluetooth range to spy on users' conversations. [...]",
@@ -128,6 +200,14 @@
       "pub_date": "Thu, 18 Jun 2026 08:18:49 -0400",
       "source": "BleepingComputer",
       "image_url": ""
+    },
+    {
+      "title": "F5 Patches NGINX Vulnerability That Enables Code Execution and DoS Attacks",
+      "link": "https://cybersecuritynews.com/nginx-vulnerability-patched/",
+      "description": "F5 has released an out-of-band security advisory addressing multiple high-severity vulnerabilities in NGINX that could allow attackers to execute arbitrary code and launch denial-of-service (DoS) a...",
+      "pub_date": "Thu, 18 Jun 2026 12:15:43 +0000",
+      "source": "Cyber Security News",
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/NGINX-Vulnerability-Patched.webp"
     },
     {
       "title": "F5 issues out-of-band patches for critical NGINX vulnerabilities",
