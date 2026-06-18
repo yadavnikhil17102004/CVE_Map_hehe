@@ -1,6 +1,22 @@
 {
-  "last_updated": "2026-06-18T16:56:19Z",
+  "last_updated": "2026-06-18T19:22:39Z",
   "articles": [
+    {
+      "title": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
+      "description": "Nintendo of America has confirmed to BleepingComputer that threat actors stole survey data from the third-party TinyPulse service used internally, but its systems were not compromised. [...]",
+      "pub_date": "Thu, 18 Jun 2026 14:31:36 -0400",
+      "source": "BleepingComputer",
+      "image_url": ""
+    },
+    {
+      "title": "F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution",
+      "link": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
+      "description": "F5 has released security updates to address two critical security flaws in NGINX Open Source that could be exploited to achieve code execution on affected systems.  The vulnerabilities are listed b...",
+      "pub_date": "Thu, 18 Jun 2026 23:02:14 +0530",
+      "source": "The Hacker News",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxYclMMaAOBe1jlW_s0S1SfdX3sPrGB9MZ7R9Hfo2ktoF9DiLqPA5ZYmFAyGmzws5eNmqopdPw7bBV7TTO8KgS2C8CJU8cgHNXw0ERAvk8sGRLYXH7M98eqxDM9c-rQTU0Hlj8ISEmSWMCnw6OqJMyhgxxLHCFPwP1JugZ3bCJow7AfTZ40kOo8XpY3WdF/s1600/f5.jpg"
+    },
     {
       "title": "USB worm spreads crypto-stealing malware via Windows shortcut files",
       "link": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
@@ -202,14 +218,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft confirms Office apps launch issues after June updates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/",
-      "description": "Microsoft is investigating a new issue preventing third-party applications from launching Microsoft Office applications or opening documents on up-to-date Windows systems. [...]",
-      "pub_date": "Wed, 17 Jun 2026 07:54:21 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
       "title": "The Top 10 Attack Surface Exposures in 2026",
       "link": "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
       "description": "Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlie...",
@@ -232,14 +240,6 @@
       "pub_date": "Wed, 17 Jun 2026 11:20:46 +0530",
       "source": "The Hacker News",
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisS71RYEu_1Sts3eqAt878RoohdLgeUzyTbRQgFqUYQcwBxzKB1ug6AvOBRXqZvWcChuLVj6KFbIt7nO9RX66ZJZyMEIADvIXe-fdNDrQIYXGtcMt3StDzbK4lF9ZLpF9pqCR1cGEa4lLkFFRVqIyD5w0JqwhVgr-C9ga7pZ6IQWpFmbsojcsGePBnzsGW/s1600/joomla.jpg"
-    },
-    {
-      "title": "Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting",
-      "link": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
-      "description": "A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infra...",
-      "pub_date": "Wed, 17 Jun 2026 00:35:41 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpiAGZTnvo43enaVYkna4ZSp217mwwW5kW8kZOhaSiLAxicjvHQY-3d8rdLN47bsRvxUIj6R0h_Ttr8NcIJrgz6k_mbcx94KLuPD29KdhFcYQsrV8htgg_iDYMV9aXbr21kv6BdYTzLNOOqQLpsCfpDC4XxDPnu77uVQ3oCYbIUfIpUKdmqx-rZZWj6P0/s1600/Google-Vertex-AI.jpg"
     },
     {
       "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
@@ -442,33 +442,81 @@
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation Logix 5370 \u0026 5570 Controllers Vulnerable To Denial of Service Via CIP",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-03",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could cause a denial-of-service condition that may result in a major nonrecoverable fault (MNRF). The following versions of Rockwell ...",
-      "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
+      "title": "Apollo Pharmacy Blood Glucose Monitoring System APG-01 BT",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-169-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain sensitive health-related information and prevent legitimate users from establishing a connection...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation RSLinx ",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability can lead to a denial of service, where the application will become unresponsive and will not recover on its own. The following versio...",
-      "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-20253 Splunk Enterprise Missing Authentication for Cri...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation FLEX I/O EtherNet/IP Adapters",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, account takeover, and cause loss of availability. The following versions of R...",
-      "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
+      "title": "Schneider Electric EasyLogic T150 and Saitel DP",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-04",
+      "description": "View CSAF Summary Successful exploitation this vulnerability could allow an attacker to gain unauthorized access to sensitive files The following versions of Schneider Electric EasyLogic T150 and S...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation FactoryTalk Analytics PavilionX",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker executing privileged operations. The following versions of Rockwell Automation FactoryTalk Analytics Pavi...",
+      "title": "AVer PTC cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow arbitrary code execution. The following versions of AVer PTC cameras are affected:  PTC500S vers:all/* (CVE-2026-40624) P...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Rockwell Automation FactoryTalk Historian Site Edition",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-03",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain a valid authentication token, perform a denial of service, or crash the system. The following ve...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "AzeoTech DAQFactory",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to upload malicious .ctl files that may lead to arbitrary code execution. The following versions of AzeoTech ...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
+      "description": "View CSAF Summary Schneider Electric is aware of vulnerabilities in its PowerChute™ Serial Shutdown product. The [PowerChute Serial Shutdown](https://www.se.com/ww/en/product-range/137943580-powe...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Mitsubishi Electric MELSEC iQ-F Series",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition in the affected product by rapidly establishing a large nu...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Mitsubishi Electric Co.'s MELSEC iQ-F Series FX5-ENET/IP Ethernet Module",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-06",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition in the affected product by continuously sending a large nu...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "image_url": ""
+    },
+    {
+      "title": "Rockwell Automation CompactLogix",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation CompactLogix are aff...",
       "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
@@ -482,82 +530,34 @@
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation CompactLogix",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation CompactLogix are aff...",
+      "title": "Rockwell Automation FactoryTalk Analytics PavilionX",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker executing privileged operations. The following versions of Rockwell Automation FactoryTalk Analytics Pavi...",
       "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/15/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-20262 Cisco Catalyst SD-WAN Manager Directory or Pat...",
-      "pub_date": "Mon, 15 Jun 26 12:00:00 +0000",
+      "title": "Rockwell Automation Logix 5370 \u0026 5570 Controllers Vulnerable To Denial of Service Via CIP",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-03",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could cause a denial-of-service condition that may result in a major nonrecoverable fault (MNRF). The following versions of Rockwell ...",
+      "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-35273 Oracle PeopleSoft Enterprise PeopleTools Missing...",
-      "pub_date": "Fri, 12 Jun 26 12:00:00 +0000",
+      "title": "Rockwell Automation FLEX I/O EtherNet/IP Adapters",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, account takeover, and cause loss of availability. The following versions of R...",
+      "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     },
     {
-      "title": "Yarbo Android/iOS Mobile Application and Cloud Infrastructure",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain hard-coded credentials, gain access to telemetry data, and potentially send operational commands...",
-      "pub_date": "Thu, 11 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-10520 Ivanti Sentry OS Command Injection Vulnerability...",
-      "pub_date": "Thu, 11 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Brickcom Cameras",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-03",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a remote unauthenticated attacker to gain unauthorized access to live video feeds, retrieve sensitive visual informati...",
-      "pub_date": "Thu, 11 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Naxclow IoT Platform",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-02",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to impersonate devices, intercept or manipulate communications, harvest sensitive credentials at scale, or...",
-      "pub_date": "Thu, 11 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-7473 Arista Extensible Operating System Incomplete...",
-      "pub_date": "Tue, 09 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Siemens KACO Blueplanet Inverters",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-02",
-      "description": "View CSAF Summary KACO blueplanet Inverters contain multiple vulnerabilities that could allow an attacker to derive the credentials from the devices serial number and misuse them to gain unauthoriz...",
-      "pub_date": "Tue, 09 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "image_url": ""
-    },
-    {
-      "title": "Schneider Electric EcoStruxure Panel Server",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-03",
-      "description": "View CSAF Summary Schneider Electric is aware of its vulnerability in its EcoStruxure Panel Server offer. The EcoStruxure Panel Server is a high performance, modular gateway with enhanced cybersecu...",
-      "pub_date": "Tue, 09 Jun 26 12:00:00 +0000",
+      "title": "Rockwell Automation RSLinx ",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability can lead to a denial of service, where the application will become unresponsive and will not recover on its own. The following versio...",
+      "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "image_url": ""
     }
