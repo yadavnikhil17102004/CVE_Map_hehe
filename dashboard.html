@@ -240,7 +240,7 @@
                 Compiled Exploits &amp; Proofs-of-Concept
               </h2>
               <p class="text-[10px] text-dim font-mono leading-relaxed">
-                Search CVEs, repo names, owners, language, topics, and NVD intel. Click a row for details.
+                Search CVEs, repos, owners, language, topics, CVSS/CWE/EPSS intel. Click a row for details.
               </p>
             </div>
             <div class="flex flex-col gap-2 w-full lg:w-auto">
@@ -266,6 +266,14 @@
                   <option value="all">All Intel</option>
                   <option value="only">KEV only</option>
                   <option value="exclude">Exclude KEV</option>
+                </select>
+                <select id="epss-filter" onchange="setEpssFilter(this.value)"
+                  class="bg-surface-2 border border-border text-[10px] text-dim rounded px-2 py-1.5 focus:outline-none focus:border-primary transition-colors cursor-pointer">
+                  <option value="all">All EPSS</option>
+                  <option value="high">High EPSS (≥ 0.70)</option>
+                  <option value="medium_plus">Medium+ EPSS (≥ 0.30)</option>
+                  <option value="low">Low EPSS (&lt; 0.30)</option>
+                  <option value="unknown">No EPSS data</option>
                 </select>
                 <button id="clear-filters" onclick="clearFilters()"
                   class="px-2 py-1.5 rounded border border-border text-[10px] font-medium text-gray-300 hover:bg-surface-2 hover:text-white transition-colors">
@@ -353,9 +361,10 @@ let searchTimer   = null;
 let maxStars      = 1;
 let sortKey       = 'date'; // 'id' | 'activity' | 'stars' | 'date'
 let sortDir       = 'desc';  // 'asc' | 'desc'
-let typeFilter    = 'all';   // exploit type filter
-let severityFilter = 'all';  // critical | high | medium | low | unscored
-let kevFilter     = 'all';   // all | only | exclude
+let typeFilter     = 'all';   // exploit type filter
+let severityFilter = 'all';   // critical | high | medium | low | unscored
+let kevFilter      = 'all';   // all | only | exclude
+let epssFilter     = 'all';   // all | high | medium_plus | low | unknown
 let yearCache     = {};      // cache of all fetched year data for global search
 let nvdCache      = {};      // per-year NVD intel cache
 
@@ -383,6 +392,13 @@ function getSeverityGroupForCve(cveId, intel = null) {
   return getSeverityGroup(score);
 }
 
+function getEpssGroup(epss) {
+  if (typeof epss !== 'number' || Number.isNaN(epss)) return 'unknown';
+  if (epss >= 0.7) return 'high';
+  if (epss >= 0.3) return 'medium_plus';
+  return 'low';
+}
+
 function buildSearchText(cve, intel = null) {
   const repos = cve.repositories || [];
   const repoBits = repos.flatMap(r => [
@@ -407,10 +423,13 @@ function buildSearchText(cve, intel = null) {
 function matchesFilters(cve, intel = null) {
   const sev = getSeverityGroupForCve(cve.cve_id, intel);
   const kev = !!intel?.[cve.cve_id]?.k;
+  const epss = intel?.[cve.cve_id]?.e;
+  const epssGroup = getEpssGroup(epss);
 
   if (severityFilter !== 'all' && sev !== severityFilter) return false;
   if (kevFilter === 'only' && !kev) return false;
   if (kevFilter === 'exclude' && kev) return false;
+  if (epssFilter !== 'all' && epssGroup !== epssFilter) return false;
   return true;
 }
 
@@ -430,6 +449,7 @@ function syncFilterControls() {
     'type-filter': typeFilter,
     'severity-filter': severityFilter,
     'kev-filter': kevFilter,
+    'epss-filter': epssFilter,
   };
   Object.entries(controls).forEach(([id, value]) => {
     const el = document.getElementById(id);
@@ -437,7 +457,7 @@ function syncFilterControls() {
   });
   const clearBtn = document.getElementById('clear-filters');
   if (clearBtn) {
-    const active = typeFilter !== 'all' || severityFilter !== 'all' || kevFilter !== 'all';
+    const active = typeFilter !== 'all' || severityFilter !== 'all' || kevFilter !== 'all' || epssFilter !== 'all';
     clearBtn.classList.toggle('text-white', active);
     clearBtn.classList.toggle('border-primary', active);
     clearBtn.classList.toggle('text-gray-300', !active);
@@ -471,7 +491,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   });
 
-  ['type-filter','severity-filter','kev-filter'].forEach(id => {
+  ['type-filter','severity-filter','kev-filter','epss-filter'].forEach(id => {
     const el = document.getElementById(id);
     if (!el) return;
     el.addEventListener('change', () => {
@@ -748,10 +768,17 @@ function setKevFilter(val) {
   refreshCurrentView();
 }
 
+function setEpssFilter(val) {
+  epssFilter = val;
+  syncFilterControls();
+  refreshCurrentView();
+}
+
 function clearFilters() {
   typeFilter = 'all';
   severityFilter = 'all';
   kevFilter = 'all';
+  epssFilter = 'all';
   ['search-input', 'search-mobile'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.value = '';
@@ -821,7 +848,11 @@ async function globalSearch(q) {
   });
   await Promise.all(fetches);
 
-  const needsIntel = severityFilter !== 'all' || kevFilter !== 'all' || /\b(cvss|cwe|kev|nvd|nist|critical|high|medium|low)\b/.test(query);
+  const needsIntel =
+    severityFilter !== 'all' ||
+    kevFilter !== 'all' ||
+    epssFilter !== 'all' ||
+    /\b(cvss|cwe|kev|nvd|nist|critical|high|medium|low|epss|exploitability)\b/.test(query);
   if (needsIntel) {
     await Promise.all(YEARS.map(async y => {
       if (!(y in nvdCache)) await loadNvdIntel(y);

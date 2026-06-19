@@ -78,6 +78,7 @@ go build cvemapping.go && go build nvd_scraper.go && go build news_scraper.go
   - Type (PoC / Exploit / General)
   - Severity (Critical / High / Medium / Low / Unscored)
   - KEV status (All / KEV only / Exclude KEV)
+  - EPSS band (High / Medium+ / Low / Unknown)
 - NVD side panel with CVSS, vector, CWE, source, KEV badge, EPSS (when available)
 - Year timeline + trend charts + live activity feed
 - Responsive news interface with tier filtering + keyword search
