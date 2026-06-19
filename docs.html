@@ -70,7 +70,7 @@
       <a href="dashboard.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">dashboard</span> Dashboard</a>
       <a href="news.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">public</span> News</a>
       <a href="docs.html" class="text-sm font-medium text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">book</span> Docs</a>
-      <a href="https://github.com/yadavnikhil17102004/cve_map_hehe" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono rounded bg-primary/10 border border-primary/30 hover:bg-primary/20 text-primary transition-colors">
+      <a href="https://github.com/yadavnikhil17102004/CVE-Intel" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono rounded bg-primary/10 border border-primary/30 hover:bg-primary/20 text-primary transition-colors">
         <span class="material-symbols-outlined text-sm">code</span> GitHub
       </a>
     </nav>
@@ -108,7 +108,7 @@
           <span class="material-symbols-outlined text-sm text-success">memory</span> API Status
         </h3>
         <div class="flex items-center justify-between text-xs bg-success/10 border border-success/20 px-3 py-2 rounded">
-          <span id="version-badge" class="text-success font-bold font-mono cursor-pointer hover:text-white transition-colors" title="Click me">v2.4.0</span>
+          <span id="version-badge" class="text-success font-bold font-mono cursor-pointer hover:text-white transition-colors" title="Click me">v1.1.0</span>
           <span class="flex h-2 w-2 relative">
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-success opacity-75"></span>
             <span class="relative inline-flex rounded-full h-2 w-2 bg-success"></span>
@@ -228,9 +228,9 @@
             </div>
             <div class="p-4 bg-bg-dark overflow-x-auto space-y-4">
               <pre class="font-mono text-[13px] leading-relaxed"><span class="text-success"># Fetch all exploits tracked in 2026</span>
-<span class="text-primary">curl</span> -s <span class="text-gray-300">"https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/2026.json"</span> | <span class="text-primary">jq</span> .</pre>
+<span class="text-primary">curl</span> -s <span class="text-gray-300">"https://yadavnikhil17102004.github.io/CVE-Intel/data/2026.json"</span> | <span class="text-primary">jq</span> .</pre>
               <pre class="font-mono text-[13px] leading-relaxed"><span class="text-success"># Fetch Live Cybersecurity News stream</span>
-<span class="text-primary">curl</span> -s <span class="text-gray-300">"https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/news.json"</span> | <span class="text-primary">jq</span> .</pre>
+<span class="text-primary">curl</span> -s <span class="text-gray-300">"https://yadavnikhil17102004.github.io/CVE-Intel/data/news.json"</span> | <span class="text-primary">jq</span> .</pre>
             </div>
           </div>
         </section>
@@ -303,16 +303,16 @@
                  <span id="active-sensors" class="text-white font-bold font-mono">...</span>
                </div>
                <div class="flex items-center justify-between border-b border-border/50 pb-2">
-                 <span class="text-xs font-mono text-dim uppercase">Signals / Min</span>
-                 <span class="text-primary font-bold font-mono">~45k</span>
+                  <span class="text-xs font-mono text-dim uppercase">CVEs (Current Year)</span>
+                  <span id="cves-current-year" class="text-primary font-bold font-mono">...</span>
                </div>
                <div class="flex items-center justify-between border-b border-border/50 pb-2">
-                 <span class="text-xs font-mono text-dim uppercase">False Positives</span>
-                 <span class="text-success font-bold font-mono">&lt; 0.01%</span>
+                  <span class="text-xs font-mono text-dim uppercase">Critical CVEs</span>
+                  <span id="critical-cves" class="text-danger font-bold font-mono">...</span>
                </div>
                <div class="flex items-center justify-between pb-2">
-                 <span class="text-xs font-mono text-dim uppercase">Network Status</span>
-                 <span class="text-success font-bold font-mono flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-success pulse"></span> ONLINE</span>
+                  <span class="text-xs font-mono text-dim uppercase">EPSS Coverage</span>
+                  <span id="epss-coverage" class="text-success font-bold font-mono">...</span>
                </div>
             </div>
           </div>
@@ -344,11 +344,12 @@
         const nvdLayer = nvdCurr || {};
 
         const hourlyData = new Array(24).fill(0);
-        let crit = 0, high = 0, med = 0, unk = 0;
+        let crit = 0, high = 0, med = 0, unk = 0, epssKnown = 0;
         let totalRepos = 0;
 
         cves.forEach(c => {
           const s = nvdLayer[c.cve_id]?.s || 0;
+          if (typeof nvdLayer[c.cve_id]?.e === 'number' && !Number.isNaN(nvdLayer[c.cve_id]?.e)) epssKnown++;
           if (s >= 9.0) crit++;
           else if (s >= 7.0) high++;
           else if (s > 0) med++;
@@ -370,6 +371,10 @@
         });
 
         document.getElementById('active-sensors').textContent = totalRepos.toLocaleString();
+        document.getElementById('cves-current-year').textContent = cves.length.toLocaleString();
+        document.getElementById('critical-cves').textContent = crit.toLocaleString();
+        const epssCoverage = cves.length ? ((epssKnown / cves.length) * 100).toFixed(2) : '0.00';
+        document.getElementById('epss-coverage').textContent = `${epssCoverage}%`;
 
         const ctx = document.getElementById('docsChart').getContext('2d');
         new Chart(ctx, {
