@@ -368,6 +368,32 @@ let epssFilter     = 'all';   // all | high | medium_plus | low | unknown
 let yearCache     = {};      // cache of all fetched year data for global search
 let nvdCache      = {};      // per-year NVD intel cache
 
+function needsIntelForCurrentView(query = '') {
+  const q = (query || '').toLowerCase();
+  return (
+    severityFilter !== 'all' ||
+    kevFilter !== 'all' ||
+    epssFilter !== 'all' ||
+    /\b(cvss|cwe|kev|nvd|nist|critical|high|medium|low|epss|exploitability)\b/.test(q)
+  );
+}
+
+async function ensureIntelForYear(year) {
+  const intel = await loadNvdIntel(year);
+  if (currentYear === year) nvdLayer = intel;
+  return intel;
+}
+
+async function ensureIntelForCurrentYear() {
+  if (nvdLayer) return nvdLayer;
+  const intel = await ensureIntelForYear(currentYear);
+  updateStats(currentData, currentYear);
+  renderList(getCurrentSearchQuery());
+  buildTrendChart(currentData, currentYear);
+  buildSevChart(currentData);
+  return intel;
+}
+
 async function loadNvdIntel(year) {
   if (year in nvdCache) return nvdCache[year];
   try {
@@ -491,14 +517,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   });
 
-  ['type-filter','severity-filter','kev-filter','epss-filter'].forEach(id => {
-    const el = document.getElementById(id);
-    if (!el) return;
-    el.addEventListener('change', () => {
-      syncFilterControls();
-      refreshCurrentView();
-    });
-  });
+  // Filter controls use inline onchange handlers (setTypeFilter/setSeverityFilter/etc.)
 });
 
 // ============================================================
@@ -533,7 +552,7 @@ function selectYear(y) {
 // LOAD YEAR DATA
 // ============================================================
 async function loadYear(year) {
-  nvdLayer = null;   // clear stale intel before new fetch
+  nvdLayer = nvdCache[year] || null;
   setLoading(`Fetching ${year} threat data...`);
   try {
     const r = await fetch(`data/${year}.json`);
@@ -545,7 +564,6 @@ async function loadYear(year) {
     updateStats(null, year);
     return;
   }
-  nvdLayer = await loadNvdIntel(year);
   updateStats(currentData, year);
   renderList('');
   buildTrendChart(currentData, year);
@@ -756,20 +774,23 @@ function setTypeFilter(val) {
   refreshCurrentView();
 }
 
-function setSeverityFilter(val) {
+async function setSeverityFilter(val) {
   severityFilter = val;
+  if (severityFilter !== 'all') await ensureIntelForCurrentYear();
   syncFilterControls();
   refreshCurrentView();
 }
 
-function setKevFilter(val) {
+async function setKevFilter(val) {
   kevFilter = val;
+  if (kevFilter !== 'all') await ensureIntelForCurrentYear();
   syncFilterControls();
   refreshCurrentView();
 }
 
-function setEpssFilter(val) {
+async function setEpssFilter(val) {
   epssFilter = val;
+  if (epssFilter !== 'all') await ensureIntelForCurrentYear();
   syncFilterControls();
   refreshCurrentView();
 }
@@ -848,11 +869,7 @@ async function globalSearch(q) {
   });
   await Promise.all(fetches);
 
-  const needsIntel =
-    severityFilter !== 'all' ||
-    kevFilter !== 'all' ||
-    epssFilter !== 'all' ||
-    /\b(cvss|cwe|kev|nvd|nist|critical|high|medium|low|epss|exploitability)\b/.test(query);
+  const needsIntel = needsIntelForCurrentView(query);
   if (needsIntel) {
     await Promise.all(YEARS.map(async y => {
       if (!(y in nvdCache)) await loadNvdIntel(y);
@@ -1011,7 +1028,8 @@ function renderNextChunk(showYear) {
 // ============================================================
 // NVD DETAIL PANEL
 // ============================================================
-function showNVD(cveId) {
+async function showNVD(cveId) {
+  await ensureIntelForCurrentYear();
   const intel  = nvdLayer?.[cveId];
   const score  = intel?.s || 0;
   const sev    = intel?.v || '';
