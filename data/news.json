@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-06-19T19:28:05Z",
+  "last_updated": "2026-06-19T21:02:59Z",
   "articles": [
+    {
+      "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
+      "description": "Threat actors are exploiting an unauthenticated information disclosure vulnerability in the WordPress plugin Gravity SMTP, active on 100,000 sites. [...]",
+      "pub_date": "Fri, 19 Jun 2026 16:25:02 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain",
       "link": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
@@ -366,15 +375,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
       "description": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack that distributed infected releases to paying customers via the vendor's official update system. [...]",
       "pub_date": "Thu, 18 Jun 2026 08:55:36 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
-      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
-      "description": "A newly discovered data leak dubbed \"FortiBleed\" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 firewall URLs at organizations worldwide. [...]",
-      "pub_date": "Thu, 18 Jun 2026 08:54:39 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
