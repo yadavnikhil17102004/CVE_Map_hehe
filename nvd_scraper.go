@@ -9,8 +9,13 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"sort"
+	"strconv"
+	"strings"
 	"time"
 )
+
+var cpeRegex = regexp.MustCompile(`^cpe:2\.3:[aoh]:([^:]+):([^:]+):`)
 
 // ============================================================
 // NVD 2.0 API — Response Structs
@@ -35,8 +40,9 @@ type CVE2 struct {
 	Descriptions          []LangValue `json:"descriptions"`
 	Metrics               Metrics2    `json:"metrics"`
 	Weaknesses            []Weakness  `json:"weaknesses"`
-	CisaExploitAdd        string      `json:"cisaExploitAdd,omitempty"`
-	CisaVulnerabilityName string      `json:"cisaVulnerabilityName,omitempty"`
+	CisaExploitAdd        string          `json:"cisaExploitAdd,omitempty"`
+	CisaVulnerabilityName string          `json:"cisaVulnerabilityName,omitempty"`
+	Configurations        []Configuration `json:"configurations"`
 }
 
 type LangValue struct {
@@ -78,20 +84,47 @@ type Weakness struct {
 	Description []LangValue `json:"description"`
 }
 
+type Configuration struct {
+	Nodes []ConfigNode `json:"nodes"`
+}
+
+type ConfigNode struct {
+	CPEMatch []CPEMatch `json:"cpeMatch"`
+}
+
+type CPEMatch struct {
+	Criteria   string `json:"criteria"`  // e.g. "cpe:2.3:a:apache:log4j:*:..."
+	Vulnerable bool   `json:"vulnerable"`
+}
+
 // ============================================================
 // Our compact output format — what lands in nvd_intel.json
 // ============================================================
 
 type CVEIntel struct {
-	Score     float64 `json:"s"`            // CVSS base score
-	Severity  string  `json:"v"`            // CRITICAL / HIGH / MEDIUM / LOW
-	Desc      string  `json:"d"`            // English description
-	Vector    string  `json:"c,omitempty"`  // CVSS vector string
-	CWE       string  `json:"w,omitempty"`  // Primary CWE (e.g. CWE-502)
-	KEV       bool    `json:"k,omitempty"`  // true if in CISA Known Exploited Vulnerabilities
-	Source    string  `json:"r,omitempty"`  // "NIST" or "CNA"
-	Published string  `json:"p,omitempty"`  // YYYY-MM-DD
-	Status    string  `json:"u,omitempty"`  // vulnStatus
+	Score     float64  `json:"s"`            // CVSS base score
+	Severity  string   `json:"v"`            // CRITICAL / HIGH / MEDIUM / LOW
+	Desc      string   `json:"d"`            // English description
+	Vector    string   `json:"c,omitempty"`  // CVSS vector string
+	CWE       string   `json:"w,omitempty"`  // Primary CWE (e.g. CWE-502)
+	KEV       bool     `json:"k,omitempty"`  // true if in CISA Known Exploited Vulnerabilities
+	Source    string   `json:"r,omitempty"`  // "NIST" or "CNA"
+	Published string   `json:"p,omitempty"`  // YYYY-MM-DD
+	Status    string   `json:"u,omitempty"`  // vulnStatus
+	EPSS      float64  `json:"e,omitempty"`  // EPSS probability 0.0–1.0
+	Products  []string `json:"q,omitempty"`  // "vendor:product" pairs from CPE data
+}
+
+type EPSSResponse struct {
+	Status     string      `json:"status"`
+	StatusCode int         `json:"status-code"`
+	Data       []EPSSEntry `json:"data"`
+}
+
+type EPSSEntry struct {
+	CVE        string `json:"cve"`
+	EPSS       string `json:"epss"`       // returned as string e.g. "0.97345"
+	Percentile string `json:"percentile"` // not used
 }
 
 // ============================================================
@@ -102,6 +135,95 @@ type DataFile struct {
 	CVEs []struct {
 		CVEID string `json:"cve_id"`
 	} `json:"cves"`
+}
+
+// ============================================================
+// writeIntelByYear — split dictionary into per-year files
+// ============================================================
+
+// writeIntelByYear splits the dictionary into data/nvd_intel_{year}.json files.
+// It also writes data/nvd_intel.json as a full fallback for the public API.
+func writeIntelByYear(dictionary map[string]CVEIntel) {
+	byYear := make(map[string]map[string]CVEIntel)
+	yearRegex := regexp.MustCompile(`^CVE-(\d{4})-`)
+	for id, intel := range dictionary {
+		m := yearRegex.FindStringSubmatch(id)
+		if m == nil {
+			continue
+		}
+		y := m[1]
+		if byYear[y] == nil {
+			byYear[y] = make(map[string]CVEIntel)
+		}
+		byYear[y][id] = intel
+	}
+	for year, slice := range byYear {
+		out, err := json.Marshal(slice)
+		if err != nil {
+			log.Printf("[-] Failed to marshal year %s: %v", year, err)
+			continue
+		}
+		path := filepath.Join("data", fmt.Sprintf("nvd_intel_%s.json", year))
+		if err := os.WriteFile(path, out, 0644); err != nil {
+			log.Printf("[-] Failed to write %s: %v", path, err)
+		} else {
+			log.Printf("[+] Wrote %s (%d CVEs, %.1f KB)", path, len(slice), float64(len(out))/1024.0)
+		}
+	}
+	// Also write full file for public API consumers
+	full, err := json.Marshal(dictionary)
+	if err != nil {
+		log.Printf("[-] Failed to marshal full intel: %v", err)
+	} else if err := os.WriteFile(filepath.Join("data", "nvd_intel.json"), full, 0644); err != nil {
+		log.Printf("[-] Failed to write nvd_intel.json fallback: %v", err)
+	} else {
+		log.Printf("[+] Wrote nvd_intel.json fallback (%.1f KB)", float64(len(full))/1024.0)
+	}
+}
+
+// fetchEPSS fetches EPSS scores for up to 100 CVE IDs at a time.
+// Returns a map of CVE ID → EPSS probability (0.0–1.0).
+func fetchEPSS(cveIDs []string) map[string]float64 {
+	result := make(map[string]float64)
+	client := &http.Client{Timeout: 30 * time.Second}
+
+	for i := 0; i < len(cveIDs); i += 100 {
+		end := i + 100
+		if end > len(cveIDs) {
+			end = len(cveIDs)
+		}
+		batch := cveIDs[i:end]
+		url := "https://api.first.org/data/1.0/epss?cve=" + strings.Join(batch, ",")
+
+		resp, err := client.Get(url)
+		if err != nil {
+			log.Printf("  [-] EPSS fetch error: %v", err)
+			time.Sleep(2 * time.Second)
+			continue
+		}
+		body, _ := io.ReadAll(resp.Body)
+		resp.Body.Close()
+
+		if resp.StatusCode != 200 {
+			log.Printf("  [-] EPSS HTTP %d for batch starting at index %d", resp.StatusCode, i)
+			time.Sleep(5 * time.Second)
+			continue
+		}
+
+		var epssResp EPSSResponse
+		if err := json.Unmarshal(body, &epssResp); err != nil {
+			log.Printf("  [-] EPSS parse error: %v", err)
+			continue
+		}
+		for _, entry := range epssResp.Data {
+			score, err := strconv.ParseFloat(entry.EPSS, 64)
+			if err == nil {
+				result[entry.CVE] = score
+			}
+		}
+		time.Sleep(1 * time.Second) // be polite to FIRST.org
+	}
+	return result
 }
 
 // ============================================================
@@ -120,11 +242,10 @@ func main() {
 	}
 
 	os.MkdirAll("data", 0755)
-	intelFile := filepath.Join("data", "nvd_intel.json")
 
 	// Load existing dictionary (accumulate across runs)
 	dictionary := make(map[string]CVEIntel)
-	if raw, err := os.ReadFile(intelFile); err == nil {
+	if raw, err := os.ReadFile(filepath.Join("data", "nvd_intel.json")); err == nil {
 		if err := json.Unmarshal(raw, &dictionary); err != nil {
 			log.Printf("[-] Warning: existing intel file unparseable — rebuilding fresh.")
 		} else {
@@ -158,18 +279,28 @@ func main() {
 		fetchTargeted(missing, dictionary, apiKey)
 	}
 
-	// ── Write output ─────────────────────────────────────────
-	out, err := json.Marshal(dictionary)
-	if err != nil {
-		log.Fatalf("[-] FATAL: Failed to serialize dictionary: %v", err)
+	// ── Phase 3: EPSS enrichment ─────────────────────────────
+	log.Println("[+] Phase 3: Fetching EPSS scores from FIRST.org...")
+	allIDs := make([]string, 0, len(dictionary))
+	for id := range dictionary {
+		allIDs = append(allIDs, id)
 	}
-	if err := os.WriteFile(intelFile, out, 0644); err != nil {
-		log.Fatalf("[-] FATAL: Failed to write %s: %v", intelFile, err)
+	sort.Strings(allIDs)
+	epssScores := fetchEPSS(allIDs)
+	enriched := 0
+	for id, intel := range dictionary {
+		if score, ok := epssScores[id]; ok {
+			intel.EPSS = score
+			dictionary[id] = intel
+			enriched++
+		}
 	}
+	log.Printf("  -> EPSS scores applied to %d/%d CVEs.", enriched, len(dictionary))
 
+	// ── Write output ─────────────────────────────────────────
+	writeIntelByYear(dictionary)
 	elapsed := time.Since(start).Round(time.Millisecond)
-	log.Printf("[+] Done in %s. Dictionary: %d signatures → %s (%.1f KB)",
-		elapsed, len(dictionary), intelFile, float64(len(out))/1024.0)
+	log.Printf("[+] Done in %s. Dictionary: %d signatures.", elapsed, len(dictionary))
 }
 
 // ============================================================
@@ -221,10 +352,13 @@ func fetchWindow(from, to time.Time, dict map[string]CVEIntel, apiKey string) er
 // ============================================================
 
 // collectMissingCVEs scans all data/*.json files for CVE IDs that are
-// either absent from the dictionary or have score == 0 (UNSCORED).
+// either absent from the dictionary, have score == 0 (UNSCORED), or are
+// Deferred with a publish date older than 30 days (NVD usually scores within
+// 2-4 weeks, so stale Deferred entries are worth retrying).
 // Non-standard IDs (OTHER-*, GHSA-*, etc.) are filtered out.
 func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
 	validCVE := regexp.MustCompile(`^CVE-\d{4}-\d{4,}$`) // strict format only
+	cutoff := time.Now().AddDate(0, 0, -30)
 
 	pattern := filepath.Join(dataDir, "*.json")
 	files, err := filepath.Glob(pattern)
@@ -237,7 +371,8 @@ func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
 	var missing []string
 
 	for _, f := range files {
-		if filepath.Base(f) == "nvd_intel.json" {
+		base := filepath.Base(f)
+		if base == "nvd_intel.json" || strings.HasPrefix(base, "nvd_intel_") || base == "news.json" {
 			continue
 		}
 		raw, err := os.ReadFile(f)
@@ -258,8 +393,16 @@ func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
 			}
 			seen[id] = true
 			existing, ok := dict[id]
-			if !ok || existing.Score == 0 {
+			if (!ok || existing.Score == 0) && existing.Status != "Deferred" {
 				missing = append(missing, id)
+				continue
+			}
+			// Retry stale Deferred entries (NVD usually scores within 2-4 weeks)
+			if existing.Status == "Deferred" && existing.Published != "" {
+				pub, err := time.Parse("2006-01-02", existing.Published)
+				if err == nil && pub.Before(cutoff) {
+					missing = append(missing, id)
+				}
 			}
 		}
 	}
@@ -362,6 +505,36 @@ func rateSleep(apiKey string) {
 }
 
 // ============================================================
+// CPE product extraction
+// ============================================================
+
+// extractProducts parses CPE criteria strings and returns unique "vendor:product" pairs.
+func extractProducts(configs []Configuration) []string {
+	seen := make(map[string]bool)
+	var products []string
+	// CPE 2.3 format: cpe:2.3:part:vendor:product:version:...
+	for _, config := range configs {
+		for _, node := range config.Nodes {
+			for _, match := range node.CPEMatch {
+				if !match.Vulnerable {
+					continue
+				}
+				m := cpeRegex.FindStringSubmatch(match.Criteria)
+				if m == nil {
+					continue
+				}
+				key := m[1] + ":" + m[2]
+				if !seen[key] {
+					seen[key] = true
+					products = append(products, key)
+				}
+			}
+		}
+	}
+	return products
+}
+
+// ============================================================
 // Extract intel from a CVE2 entry
 // ============================================================
 
@@ -455,6 +628,9 @@ func extractIntel(cve CVE2) CVEIntel {
 
 	// Status
 	intel.Status = cve.VulnStatus
+
+	// CPE product mapping
+	intel.Products = extractProducts(cve.Configurations)
 
 	return intel
 }
