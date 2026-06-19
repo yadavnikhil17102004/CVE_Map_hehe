@@ -1,14 +1,59 @@
 {
-  "last_updated": "2026-06-19T09:00:06Z",
+  "last_updated": "2026-06-19T12:50:26Z",
   "articles": [
     {
-      "title": "China-Linked Showboat Malware Uses Linux Persistence to Target Telecom Companies",
-      "link": "https://cybersecuritynews.com/china-linked-showboat-malware-uses-linux-persistence/",
-      "description": "A sophisticated China-linked malware framework has been quietly targeting telecom companies across the Middle East for nearly four years. Showboat is a Linux-based tool that stayed completely hidde...",
-      "pub_date": "Fri, 19 Jun 2026 08:56:20 +0000",
-      "source": "Cyber Security News",
+      "title": "Webinar: How attackers bypass MFA and how defenders can respond",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
+      "description": "Modern phishing attacks, including Device Code phishing, can undermine MFA protections and grant attackers access to corporate accounts without stealing passwords. This webinar explores how behavio...",
+      "pub_date": "Fri, 19 Jun 2026 08:12:20 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/China-Linked-Showboat-Malware-Uses-Linux-Persistence-to-Target-Telecom-Companies.webp"
+      "image_url": ""
+    },
+    {
+      "title": "From Assistive to Agentic: The AI Shift That's Redefining Threat Management",
+      "link": "https://thehackernews.com/2026/06/from-assistive-to-agentic-ai-shift.html",
+      "description": "Introduction  The average enterprise security team has 40 or more security tools, giving a lot of visibility into internal telemetry and asset data. But often, these tools are working in siloes, ge...",
+      "pub_date": "Fri, 19 Jun 2026 17:28:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaBfyINQL8sJZiLP4VnJgWMBOmH-8zY01vQ3E7OWZM9sdPvFQzOrFgaEpJOcRqODwrKDMXjt1HiKZmYYKF4pr22BBcbVBqx31coqBTKsgsf43CPEoW430X177toxpnfpVBTogjlrBMOrsLJgpERpCliEP4h5_2gyu3h2Dy_hJwiV6AI3nbKyp5NvNVgzQ/s1600/filigran-main.png"
+    },
+    {
+      "title": "Microsoft: June 2026 Windows updates break Recycle Bin prompts",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/",
+      "description": "Microsoft has confirmed a confusing Windows bug that causes different filenames to appear in the confirmation dialog when deleting a file from the Recycle Bin. [...]",
+      "pub_date": "Fri, 19 Jun 2026 07:32:34 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
+      "description": "CISA has urged U.S. federal agencies to secure their systems by Sunday against a critical Splunk Enterprise vulnerability that is being exploited in attacks. [...]",
+      "pub_date": "Fri, 19 Jun 2026 06:39:58 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Forget Data Leakage: Shadow AI's Real Threat Is Access Control",
+      "link": "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
+      "description": "The first wave of enterprise AI concern was straightforward. It was simply employees pasting sensitive data into public AI tools. Security teams responded with usage policies, domain blocks, and da...",
+      "pub_date": "Fri, 19 Jun 2026 16:00:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6R48ZeaNtIzMVc6atNjuxbNYFUfiFCJ_cE1qE_85yGOOavsX0ijvQGdv9QZ2-4Lky8mTOPhrNIydUvLS2DtGkkFXYJFRTT99Vbb03s3Rtk9pTariHdQ2on2RGxiAsMQnySj7AJfxUtBxO1aJTupjkQvDvt5jp1klznY9_WHckqm64F-BbCtCR2UoJ968/s1600/tines-main.jpg"
+    },
+    {
+      "title": "Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data",
+      "link": "https://thehackernews.com/2026/06/salesforce-disables-klue-app.html",
+      "description": "Salesforce has revealed that it disabled the Klue Battlecards app integration within its platform in response to a security incident impacting the competitive intelligence company on June 11, 2026....",
+      "pub_date": "Fri, 19 Jun 2026 14:33:57 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI7q_DYP5ExkNSDd8Y10rOfYtTIs6sNXxdE6X55nsvKVllZZ14U9mqUY23nzGGPhXx515NVPMI5Btp4MM5qUx0V1lKDvURtKBICbblPPYuN1VSCN12-J0RmpBKCSM0veZc_9hNt1TnD9PdkNTQi8x337E9cPmLn7uyHOPw0_HshcbxKqVnmgOAjJHOOw6g/s1600/salesforce.jpg"
     },
     {
       "title": "NY man charged after harassing college student with AI-generated nudes",
@@ -20,33 +65,6 @@
       "image_url": ""
     },
     {
-      "title": "CISA Warns of Splunk Enterprise Critical Function Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/splunk-enterprise-vulnerability-exploit/",
-      "description": "CISA has issued a high-priority alert warning organizations about a critical vulnerability in Splunk Enterprise that is actively being exploited in the wild. The flaw, tracked as CVE-2026-20253, ha...",
-      "pub_date": "Fri, 19 Jun 2026 08:04:34 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-Warns-of-Splunk-Enterprise-Critical-Function-Vulnerability-Actively-Exploited-in-Attacks.webp"
-    },
-    {
-      "title": "Node.js Fixes 12 Vulnerabilities, Including 2 High-Severity Authentication Bypasses",
-      "link": "https://cybersecuritynews.com/node-js-patches-12-vulnerabilities/",
-      "description": "Node.js has released a new round of security updates addressing 12 vulnerabilities across its supported release lines, including two high-severity flaws that could lead to authentication bypass and...",
-      "pub_date": "Fri, 19 Jun 2026 08:02:07 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Node.js-Patches-12-Vulnerabilities-Including-Two-High-Severity-Flaws-leads-to-Authentication-Bypass.webp"
-    },
-    {
-      "title": "Hackers Use Weaponized Windows Shortcuts to Spread Crypto Clipper Across USB Drives",
-      "link": "https://cybersecuritynews.com/hackers-use-weaponized-windows-shortcuts/",
-      "description": "A newly discovered cryptocurrency clipper malware has been quietly stealing digital assets from victims since February 2026, spreading through a trick that most users would never suspect: weaponize...",
-      "pub_date": "Fri, 19 Jun 2026 07:50:37 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-Weaponized-Windows-Shortcuts-to-Spread-Crypto-Clipper-Across-USB-Drives.webp"
-    },
-    {
       "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed...",
@@ -56,15 +74,6 @@
       "image_url": ""
     },
     {
-      "title": "AI-Powered Public Surveillance and Biometric Data Collection Expand Government Monitoring",
-      "link": "https://cybersecuritynews.com/ai-powered-public-surveillance/",
-      "description": "Governments are expanding their digital reach in ways unimaginable just a decade ago. A growing wave of AI-powered surveillance, biometric data collection, and commercial spyware is reshaping how s...",
-      "pub_date": "Fri, 19 Jun 2026 06:38:30 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/AI-Powered-Public-Surveillance-and-Biometric-Data-Collection-Expand-Government-Monitoring.webp"
-    },
-    {
       "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
       "link": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
       "description": "Apple has updated its Beats Studio Buds wireless earbuds to patch a high-severity vulnerability that could be exploited by nearby hackers to eavesdrop on users.  The vulnerability, tracked as CVE-2...",
@@ -72,15 +81,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvlr0i44MWKmuHJKLS1V3uKSMse7tVsRFBTpyD1VGLaRZy24qq4bIb6K3Db1s0eKtuh3TkLCYFWn6eJ-uEkVnkO9CbPHHUlD3j8Z-SEFFr9A1X6ndd-fQd6UKTAyXO0DhUI2ZTe1sc4Eq7NLoGUyjQUkKmhHp99QGz3WTcFAnucAnfiioLDFiGaTbI8Wvx/s1600/apple.jpg"
-    },
-    {
-      "title": "Authorities Dismantle SocGholish Malware Network — 106 Servers and 101 Domains Seized",
-      "link": "https://cybersecuritynews.com/authorities-dismantle-socgholish/",
-      "description": "Authorities have dismantled the criminal infrastructure behind SocGholish, one of the most persistent malware frameworks active since 2017, seizing 106 servers and 101 domains while remediating nea...",
-      "pub_date": "Thu, 18 Jun 2026 22:54:34 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Authorities-Dismantle-SocGholish.webp"
     },
     {
       "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
@@ -110,15 +110,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxYclMMaAOBe1jlW_s0S1SfdX3sPrGB9MZ7R9Hfo2ktoF9DiLqPA5ZYmFAyGmzws5eNmqopdPw7bBV7TTO8KgS2C8CJU8cgHNXw0ERAvk8sGRLYXH7M98eqxDM9c-rQTU0Hlj8ISEmSWMCnw6OqJMyhgxxLHCFPwP1JugZ3bCJow7AfTZ40kOo8XpY3WdF/s1600/f5.jpg"
     },
     {
-      "title": "New iPhone BootROM Vulnerability Exposes Apple SoCs to Full Chain-of-Trust Compromise",
-      "link": "https://cybersecuritynews.com/iphone-bootrom-vulnerability/",
-      "description": "A novel BootROM vulnerability, dubbed usbliter8, affects Apple devices powered by A12, S4/S5, and A13 SoCs. The exploit chains a hardware-level bug in the Synopsys DWC2 USB controller with a firmwa...",
-      "pub_date": "Thu, 18 Jun 2026 17:20:49 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/iPhone-BootROM-Vulnerability.webp"
-    },
-    {
       "title": "USB worm spreads crypto-stealing malware via Windows shortcut files",
       "link": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
       "description": "Threat actors targeting cryptocurrency wallets have been distributing clipboard-stealing malware with self-spreading capabilities and using the Tor network to conceal communication. [...]",
@@ -126,15 +117,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Hackers Breached Klue Integration to Steal Salesforce CRM Data via OAuth Tokens",
-      "link": "https://cybersecuritynews.com/klue-integration-breached-salesforce/",
-      "description": "Threat actors exploited a trusted third-party SaaS integration to silently harvest enterprise CRM data, marking the latest chapter in an escalating wave of OAuth-abuse attacks targeting Salesforce ...",
-      "pub_date": "Thu, 18 Jun 2026 16:01:39 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Klue-Integration-Breached-Salesforce.webp"
     },
     {
       "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
@@ -153,24 +135,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6k3CSWsyKHS6UdXmxX-w92fdsWjTSL7JR7xeaPBPh8d5G6rkZbMhmJHr9o3gxF5G2I2GojubOJnzhRqxjtKYxlXTrmlgrdRFRrmmyEEIi_zXAQXT3zpq5KNQqOFHrfGKhUFHzsMx1E2Eqs7S_jvTFfN3Jnz1YO58Ryvk0urKEDUZggoQgI07lKFWQDMfw/s1600/threatss.jpg"
-    },
-    {
-      "title": "Multiple Vulnerabilities in Firefox 152 Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/firefox-152-vulnerabilities/",
-      "description": "Mozilla has released Firefox 152 to address multiple high-severity vulnerabilities that could allow remote code execution (RCE) and sandbox escape attacks. The security advisory, published on June ...",
-      "pub_date": "Thu, 18 Jun 2026 15:10:56 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Multiple-Vulnerabilities-in-Firefox-152-Enables-Remote-Code-Execution-Attacks.webp"
-    },
-    {
-      "title": "Hackers Can Leverage SQL Server 2025 AI Features to Exfiltrate Sensitive Data",
-      "link": "https://cybersecuritynews.com/hackers-leverage-sql-server-2025-ai-features/",
-      "description": "Hackers are increasingly finding new ways to abuse legitimate enterprise features, and Microsoft SQL Server 2025’s newly introduced AI capabilities are now raising serious security concerns. Spec...",
-      "pub_date": "Thu, 18 Jun 2026 14:57:57 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Can-Leverage-SQL-Server-2025-AI-Features-to-Exfiltrate-Sensitive-Data-1.webp"
     },
     {
       "title": "Why Security Teams Need To Start Earlier",
@@ -281,33 +245,6 @@
       "image_url": ""
     },
     {
-      "title": "F5 issues out-of-band patches for critical NGINX vulnerabilities",
-      "link": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
-      "description": "Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute ...",
-      "pub_date": "Thu, 18 Jun 2026 07:33:00 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft fixes Windows Server 2016 security update failures",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/",
-      "description": "Microsoft has fixed a known issue causing the June 2026 security updates to fail on Windows Server 2016 systems that weren't up to date. [...]",
-      "pub_date": "Thu, 18 Jun 2026 06:14:20 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Leak confirms OpenAI is testing a ChatGPT for Science subscription",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/",
-      "description": "OpenAI appears to be testing a new subscription and experience for science use cases, but it's unclear if it'll be available to everyone regardless of their background. [...]",
-      "pub_date": "Wed, 17 Jun 2026 21:30:08 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
       "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
       "description": "An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research.  The th...",
@@ -344,15 +281,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_8P-dioPWCAX94ha33KAWjvP0RvBHHCxI4ZAMnMHYY66XUQUFK_FZFkQJ3nW8XYlG6U5GxLL-o21CvZFNeOkZsHH41KlaVGYR3Ne26PZjeyK318yCFpZnxqFgp-e7qU1XitrcF7ODwc1znYAw2r2MioIePdJs4eQdHMmdBEmDqbq-YicStLUsU1_842g/s1600/breachlock.jpg"
     },
     {
-      "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
-      "link": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
-      "description": "Cybersecurity researchers have flagged a \"coordinated malware campaign\" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating artificial intellig...",
-      "pub_date": "Wed, 17 Jun 2026 19:21:58 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2aRb82ydrk_lAXr6Yy-GmrPfQSaIuCNYTtB8dFm02DZWhJVj3bmjB3WLhWDUtiFmrGC3lHdeLfA2NtC6oHKJDAdW7ot4f3HQDyLw2Ep3q49BnOkuBWOPP2OuN1I1HNFknxPyQNpEZEnEt-8KhV2nx_HcaEiBm8Rdh7blevc3I1GjuBMLL1xOpJThFuJpE/s1600/hi.jpg"
-    },
-    {
       "title": "Malware à la Mode: Tracking Dropping Elephant Tradecraft Through a China-Themed Loader Chain",
       "link": "https://www.rapid7.com/blog/post/tr-malware-tracking-dropping-elephant-tradecraft-china-themed-loader-chain",
       "description": "Executive summaryRapid7 researchers have identified a sophisticated malware campaign attributed to the threat actor \"Dropping Elephant,\" characterized by the use of a China-themed decoy document to...",
@@ -360,24 +288,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
-    },
-    {
-      "title": "The Top 10 Attack Surface Exposures in 2026",
-      "link": "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
-      "description": "Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlie...",
-      "pub_date": "Wed, 17 Jun 2026 16:00:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiM2DfFAWIuQ6v6hyh32CXcT_wKU72aTUxixyWIcnjW04ydv40r8RtVXjDrxKJzksW6zzqYciPMxgYAwcDGRz8kahhZVZXoi0FySWg5o8LpWo_KkHdX4wRX4Qgk6ONxHqyb7_cF5TN5qQp-9B4hOQpB3WljI8sDbHMlOh6n2jyTjV30kxC-ccJVJHu4bTs/s1600/INTRUDER.jpg"
-    },
-    {
-      "title": "145 Mastra npm Packages Compromised via Hijacked Contributor Account",
-      "link": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
-      "description": "As many as 145 npm packages associated with the Mastra namespace (\"@mastra/*\"), a popular open-source JavaScript and TypeScript framework for building artificial intelligence (AI) applications, hav...",
-      "pub_date": "Wed, 17 Jun 2026 13:08:24 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKLWn0zHFuJ8rkb2bqILIyAGxt_-VJ13Ytmv1TRWtGJkI6Rva5Oag5LdLasE2rmenokuRvoEI2wH0Ayfe_P4_5q1Qc5FQ2MrQgUHrgD9wY6DTlYugAtj8CP7Fh0OPjKkU5LbeRKWvPEh0Ol0CmLTe4QVayeZiNlVFvU7MO5tWl-b8Lbn80hKd45q9Z1yOd/s1600/npms.jpg"
     },
     {
       "title": "NIS2 is raising the bar. Here’s how to turn readiness into resilience.",
