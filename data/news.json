@@ -1,41 +1,32 @@
 {
-  "last_updated": "2026-06-19T15:56:46Z",
+  "last_updated": "2026-06-19T17:52:40Z",
   "articles": [
     {
-      "title": "CISA Adds LiteSpeed cPanel Plugin Vulnerability to KEV List Following Active Exploitation",
-      "link": "https://cybersecuritynews.com/litespeed-cpanel-plugin-flaw-exploit/",
-      "description": "CISA has added a critical LiteSpeed cPanel Plugin vulnerability, tracked as CVE-2026-54420, to its Known Exploited Vulnerabilities (KEV) catalog following evidence of active exploitation in the wil...",
-      "pub_date": "Fri, 19 Jun 2026 15:53:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-Adds-LiteSpeed-cPanel-Plugin-Vulnerability-to-KEV-List-Following-Active-Exploitation.webp"
+      "title": "Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more",
+      "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026",
+      "description": "This week's release includes five new modules, including a full unauthenticated RCE chain for Paperclip AI and a VS Code extension persistence technique. On the post-exploitation side, the new win...",
+      "pub_date": "Fri, 19 Jun 2026 17:08:23 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0d50271a40a5f14f/6849ab419621d9f3824d5017/metasploit-sky.png"
     },
     {
-      "title": "Chrome Extensions’ Critical Flaws Let Attackers Easily Compromise Millions of Browsers",
-      "link": "https://cybersecuritynews.com/chrome-extensions-critical-vulnerabilities/",
-      "description": "Critical security flaws discovered in widely used Chrome extensions SiderAI and MaxAI are putting millions of users at risk, enabling attackers to fully compromise browser sessions and potentially ...",
-      "pub_date": "Fri, 19 Jun 2026 15:42:57 +0000",
-      "source": "Cyber Security News",
+      "title": "Texas govt data breach exposes over 3 million driver’s licenses",
+      "link": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
+      "description": "The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. [...]",
+      "pub_date": "Fri, 19 Jun 2026 12:12:41 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-vulnerabilities-in-Chrome-extensions-Allow-Attackers-to-compromise-browsers-easily-.webp"
+      "image_url": ""
     },
     {
-      "title": "Gcore Helps Ucom Safeguard Public Live Broadcast Infrastructure During Armenia’s Parliamentary Elections",
-      "link": "https://cybersecuritynews.com/gcore-ucom-election-broadcast-security/",
-      "description": "Luxembourg, Luxembourg, June 19th, 2026, CyberNewswire Gcore’s Network Layer DDoS Protection helped Ucom maintain service continuity and operational readiness for critical public-facing broadcast...",
-      "pub_date": "Fri, 19 Jun 2026 15:34:17 +0000",
-      "source": "Cyber Security News",
+      "title": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution",
+      "link": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
+      "description": "Microsoft researchers have detailed an exploit chain, named\u0026nbsp;AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution.  Steer the agent to load an attacker's ...",
+      "pub_date": "Fri, 19 Jun 2026 21:00:47 +0530",
+      "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheWXWXSxszCPLEbnZteuDTc7eKTBKEptXkanpgkeBprvuPECy2Af3TAN4gCAyomxLpqIqPv35wUB2qwd0oOpg0_ax8tgPi3897TFp5tHWSV_KV-PS7cA5-_znfCRtxd-S26MCF-s9i1Q2o3v_htF2vt6oW5wIMIRqhin7Ia4oyEm2TLdVreugIAd-ZMFQ/s16000/TTT%20-%202026-06-19T202808.076.webp?ssl=1"
-    },
-    {
-      "title": "Critical WordPress Plugin Vulnerability Exposes 1 Million Sites to File Deletion Attacks",
-      "link": "https://cybersecuritynews.com/avada-wordpress-plugin-vulnerability/",
-      "description": "A critical security vulnerability in the widely used Avada (Fusion) Builder WordPress plugin has exposed over 1 million websites to arbitrary file-deletion attacks, potentially leading to full-site...",
-      "pub_date": "Fri, 19 Jun 2026 15:24:54 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-WordPress-Plugin-Vulnerability-Exposes-File-Deletion-1-Million-Sites-to-File-Deletion-Attacks.webp"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3wJOg5Y5vAn_dM0DcIB6SwV2B34iO0H-moeyuWLJ_DF1KgEEZMBGtKPDXYk0pL4wclWbnSmOB74sqReSZoGI2_SwUSzKSscUxEdvuJFx_sCIfU7UplU2k5s4UA0cOVAZT_s80PDTek6OGfrsnE8f6QxrQU58rBqPiuk_J__Yja3YNzZLzd-6s8Ji1PBhc/s1600/agent.jpg"
     },
     {
       "title": "Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites",
@@ -47,15 +38,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1-D7cu6ZQpoZXfPa_eYHuQijjkt6mJRjmoIS9eSnCGPPgyXNz-AChti_zkCGmlefTdBm5bvbyxXbrJVbpVJIneqvDmIMR8t7gXEyBn2JJFrZLW-hTbo_e8UHBFuh9tfki-QyVk2g5_XqbbSX52HYTNSpNzJng8lMfZiIHT3pMQBTjTeZwSqx2khJt2uAk/s1600/endgame.jpg"
     },
     {
-      "title": "eFAQ Publishes Investigation Into Alleged Scam Activity and Coordinated Reputation Attacks",
-      "link": "https://cybersecuritynews.com/efaq-publishes-investigation-into-alleged-scam-activity-and-coordinated-reputation-attacks/",
-      "description": "New York, USA, June 19th, 2026, CyberNewswire eFAQ has published a documented investigation into a coordinated reputation attack campaign aimed at influencing brand perception in search results and...",
-      "pub_date": "Fri, 19 Jun 2026 14:04:02 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyo33unGRXJgdNFOxyuObadKebIzEpnjkPZLDbPOaTygne5i3bEZdmVJg9Ro7cBH1OqdFHS8uKVJHaegD88gYG_w2aeFaKKvg_EviXFSGmaI0hihP6UKqOazCn3_Crp2NCPx9mpHm0Pi9XhfIa_utQP1jAlTDuWljAebIyU8FQ7a9Vts9epdQkh9wvjNY/s16000/TTT%20-%202026-06-19T192632.144.webp?ssl=1"
-    },
-    {
       "title": "CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices",
       "link": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious activity aimed at t...",
@@ -63,15 +45,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0NmhjowFYAIQws_hl2u1bMpkeyma6TUk8UumS90AdqbBjW_NJ5h97i1yV9uJ_GT6zT8A9jaruiGkhqvn0jb4LuaHDDbGtjZbB7tQQibuQmH4WTDeAI898xZnyDuUQOAvzPHooO7C2S2PQFPIvkmwZ8LTLO4xLUP5ygQVuZI3E0quggcAEvtOqKzx4zKdw/s1600/cisa-fortinet.jpg"
-    },
-    {
-      "title": "Microsoft June 2026 Update Bug Exposes Recycle Bin Filenames in Deletion Dialog",
-      "link": "https://cybersecuritynews.com/microsoft-update-recycle-bin-bug/",
-      "description": "Microsoft has confirmed a new bug introduced by its June 2026 Patch Tuesday security update that causes Windows to display internal Recycle Bin filenames instead of the original user-facing filenam...",
-      "pub_date": "Fri, 19 Jun 2026 13:47:30 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Update-Recycle-Bin-Bug.webp"
     },
     {
       "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
@@ -83,15 +56,6 @@
       "image_url": ""
     },
     {
-      "title": "HazyBeacon Weaponizes AWS Lambda Function URLs for Stealth Command-and-Control Relays",
-      "link": "https://cybersecuritynews.com/hazybeacon-weaponizes-aws-lambda/",
-      "description": "HazyBeacon, tracked as CL-STA-1020, is a stealthy cyber-espionage campaign targeting Southeast Asian government networks by abusing AWS Lambda Function URLs as covert command-and-control (C2) relay...",
-      "pub_date": "Fri, 19 Jun 2026 13:07:59 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/HazyBeacon-Weaponizes-AWS-Lambda-Function-URLs-for-stealth-command-and-control-relays.webp"
-    },
-    {
       "title": "Webinar: How attackers bypass MFA and how defenders can respond",
       "link": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
       "description": "Modern phishing attacks, including Device Code phishing, can undermine MFA protections and grant attackers access to corporate accounts without stealing passwords. This webinar explores how behavio...",
@@ -99,15 +63,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Hackers Abuse Third-Party Okendo Reviews Script to Spread SmartApeSG Malware Campaign",
-      "link": "https://cybersecuritynews.com/hackers-abuse-third-party-okendo-reviews-script/",
-      "description": "A newly discovered supply chain attack has put thousands of e-commerce websites at risk after a popular third-party reviews widget was quietly turned into a malware delivery tool. Threat actors beh...",
-      "pub_date": "Fri, 19 Jun 2026 12:09:56 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-Third-Party-Okendo-Reviews-Script-to-Spread-SmartApeSG-Malware-Campaign.webp"
     },
     {
       "title": "From Assistive to Agentic: The AI Shift That's Redefining Threat Management",
@@ -119,15 +74,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaBfyINQL8sJZiLP4VnJgWMBOmH-8zY01vQ3E7OWZM9sdPvFQzOrFgaEpJOcRqODwrKDMXjt1HiKZmYYKF4pr22BBcbVBqx31coqBTKsgsf43CPEoW430X177toxpnfpVBTogjlrBMOrsLJgpERpCliEP4h5_2gyu3h2Dy_hJwiV6AI3nbKyp5NvNVgzQ/s1600/filigran-main.png"
     },
     {
-      "title": "INC Ransomware Uses Rust-Based Windows and Linux/ESXi Encryptors in New Attacks",
-      "link": "https://cybersecuritynews.com/inc-ransomware-uses-rust-based-windows/",
-      "description": "INC ransomware has grown from a newcomer threat into one of the most dangerous ransomware operations worldwide. What began as an emerging criminal group in mid-2023 has claimed over 800 victims glo...",
-      "pub_date": "Fri, 19 Jun 2026 11:33:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/INC-Ransomware-Uses-Rust-Based-Windows-and-Linux-ESXi-Encryptors-in-New-Attacks.webp"
-    },
-    {
       "title": "Microsoft: June 2026 Windows updates break Recycle Bin prompts",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/",
       "description": "Microsoft has confirmed a confusing Windows bug that causes different filenames to appear in the confirmation dialog when deleting a file from the Recycle Bin. [...]",
@@ -135,15 +81,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "CISA Urges Hardening Fortinet Devices Following FortiBleed Attack",
-      "link": "https://cybersecuritynews.com/cisa-urges-hardening-fortinet-devices/",
-      "description": "CISA has issued an urgent advisory warning organizations to secure their Fortinet devices following reports of a large-scale credential exposure campaign known as “FortiBleed.” The alert comes ...",
-      "pub_date": "Fri, 19 Jun 2026 11:13:15 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-Urges-Hardening-Fortinet-Devices-Following-FortiBleed-Attack.webp"
     },
     {
       "title": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday",
@@ -344,15 +281,6 @@
       "image_url": ""
     },
     {
-      "title": "Apple fixes Beats Studio Buds flaw that let hackers spy on conversations",
-      "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
-      "description": "Apple has released security updates to patch a high-severity flaw affecting the Beats Studio Buds wireless earbuds that could allow attackers in Bluetooth range to spy on users' conversations. [...]",
-      "pub_date": "Thu, 18 Jun 2026 08:23:58 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
       "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
       "description": "An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research.  The th...",
@@ -360,15 +288,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbbJOofP7P7zruPGvktMERgtQqGnu5msB1iDGyfukJA9g72QHXmHx9eJNbQaF7VIGcUqB76e5bGpnBnfg9AE4-F5kJQnY2fKtfHoi9zggEgteLN6rpYJeYE2nPlHFHWfj58a_DmklTT0x0GcWmRAxJsVGeysX9CUadCIygZTpDzBxCWZ4HvrPqhPwQy6Ng/s1600/scam.jpg"
-    },
-    {
-      "title": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development",
-      "link": "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
-      "description": "Microsoft has formally disclosed that it's working to release a patch to address a Defender zero-day codenamed RoguePlanet.  The vulnerability has now been assigned the CVE identifier CVE-2026-5065...",
-      "pub_date": "Wed, 17 Jun 2026 23:06:28 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy3ayOlDb3vsL747G9hStxxjTd3N5i2u8hegcT_hTs4RlNqylS_HyYH4mGLQEavD-QwH3G4l-p2tE5xrXoeK-Btj5YjbENpZcnqRZ7mXCjnJgqHKaoqyE3I3yqy3tYxafbDGNOMrDsvTnJ8UKkn7DDQ8PY_sQNZI6TsNTV0lOmSqs1uxUKm3pgpmkSDpeZ/s1600/ms-patch.jpg"
     },
     {
       "title": "Malware à la Mode: Tracking Dropping Elephant Tradecraft Through a China-Themed Loader Chain",
@@ -630,15 +549,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0475760a2990dfd7/6849ab41a770d7563190a3ea/metasploit-fence.png"
-    },
-    {
-      "title": "How the “Swiss Cheese” model can help you choose the right MDR provider",
-      "link": "https://www.rapid7.com/blog/post/dr-swiss-cheese-model-helps-choose-mdr-providers",
-      "description": "Not all managed detection and response (MDR) solutions are equal. Finding the differences between vendors can be quite hard, and then understanding how those differences impact your business can be...",
-      "pub_date": "Thu, 04 Jun 2026 13:53:41 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltb655c1b69f13c73b/6846a711536b63f12ca5f649/incident-response-findings-2025.jpg"
     },
     {
       "title": "Investigation update: GitHub Enterprise Server signing key rotation",
