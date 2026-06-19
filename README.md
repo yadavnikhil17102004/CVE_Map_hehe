@@ -2,17 +2,20 @@
 
 Autonomous threat-intelligence dashboard that maps real-world GitHub CVE exploit PoCs to NVD/CISA intelligence and serves it as a static website.
 
-[![Live Dashboard](https://img.shields.io/badge/Dashboard-LIVE-66FCF1?style=for-the-badge&logo=github)](https://yadavnikhil17102004.github.io/CVE_Map_hehe/)
+[![Live Dashboard](https://img.shields.io/badge/Dashboard-LIVE-66FCF1?style=for-the-badge&logo=github)](https://yadavnikhil17102004.github.io/CVE-Intel/)
 [![Go](https://img.shields.io/badge/Engine-Go_1.25-00ADD8?style=for-the-badge&logo=go)](https://golang.org/)
 [![NVD](https://img.shields.io/badge/Intel-NVD_API_v2-red?style=for-the-badge)](https://nvd.nist.gov/)
 [![Sync](https://img.shields.io/badge/Sync-Every_6h-success?style=for-the-badge&logo=githubactions)](https://github.com/features/actions)
+[![CI](https://github.com/yadavnikhil17102004/CVE-Intel/actions/workflows/ci.yml/badge.svg)](https://github.com/yadavnikhil17102004/CVE-Intel/actions/workflows/ci.yml)
 
 ![CVE Map Dashboard Preview](assets/dashboard-preview.png)
 
 Live site:
-- Dashboard: https://yadavnikhil17102004.github.io/CVE_Map_hehe/
-- News feed: https://yadavnikhil17102004.github.io/CVE_Map_hehe/news.html
-- Docs: https://yadavnikhil17102004.github.io/CVE_Map_hehe/docs.html
+- Dashboard: https://yadavnikhil17102004.github.io/CVE-Intel/
+- News feed: https://yadavnikhil17102004.github.io/CVE-Intel/news.html
+- Docs: https://yadavnikhil17102004.github.io/CVE-Intel/docs.html
+- Contributor guide: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Product roadmap: [ROADMAP.md](ROADMAP.md)
 
 ## Why CVE_Map?
 
@@ -83,7 +86,7 @@ go build cvemapping.go && go build nvd_scraper.go && go build news_scraper.go
 ## Data endpoints
 
 Base URL:
-`https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/`
+`https://yadavnikhil17102004.github.io/CVE-Intel/data/`
 
 Core files:
 - `YYYY.json` — CVE ↔ GitHub repo mappings for that year
@@ -95,13 +98,13 @@ Example usage:
 
 ```bash
 # CVEs for a year
-curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/2026.json | jq '.cves[0]'
+curl -s https://yadavnikhil17102004.github.io/CVE-Intel/data/2026.json | jq '.cves[0]'
 
 # Year-scoped NVD intel
-curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/nvd_intel_2026.json | jq 'to_entries[0]'
+curl -s https://yadavnikhil17102004.github.io/CVE-Intel/data/nvd_intel_2026.json | jq 'to_entries[0]'
 
 # News feed
-curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/news.json | jq '.articles[:3]'
+curl -s https://yadavnikhil17102004.github.io/CVE-Intel/data/news.json | jq '.articles[:3]'
 ```
 
 ## Demo dataset
