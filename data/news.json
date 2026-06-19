@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-06-19T21:02:59Z",
+  "last_updated": "2026-06-19T22:45:43Z",
   "articles": [
+    {
+      "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
+      "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+      "description": "Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the ne...",
+      "pub_date": "Fri, 19 Jun 2026 18:31:04 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
@@ -47,33 +56,6 @@
       "image_url": ""
     },
     {
-      "title": "CISA Adds LiteSpeed cPanel Plugin Vulnerability to KEV List Following Active Exploitation",
-      "link": "https://cybersecuritynews.com/litespeed-cpanel-plugin-flaw-exploit/",
-      "description": "CISA has added a critical LiteSpeed cPanel Plugin vulnerability, tracked as CVE-2026-54420, to its Known Exploited Vulnerabilities (KEV) catalog following evidence of active exploitation in the wil...",
-      "pub_date": "Fri, 19 Jun 2026 15:53:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-Adds-LiteSpeed-cPanel-Plugin-Vulnerability-to-KEV-List-Following-Active-Exploitation.webp"
-    },
-    {
-      "title": "Chrome Extensions’ Critical Flaws Let Attackers Easily Compromise Millions of Browsers",
-      "link": "https://cybersecuritynews.com/chrome-extensions-critical-vulnerabilities/",
-      "description": "Critical security flaws discovered in widely used Chrome extensions SiderAI and MaxAI are putting millions of users at risk, enabling attackers to fully compromise browser sessions and potentially ...",
-      "pub_date": "Fri, 19 Jun 2026 15:42:57 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-vulnerabilities-in-Chrome-extensions-Allow-Attackers-to-compromise-browsers-easily-.webp"
-    },
-    {
-      "title": "Gcore Helps Ucom Safeguard Public Live Broadcast Infrastructure During Armenia’s Parliamentary Elections",
-      "link": "https://cybersecuritynews.com/gcore-ucom-election-broadcast-security/",
-      "description": "Luxembourg, Luxembourg, June 19th, 2026, CyberNewswire Gcore’s Network Layer DDoS Protection helped Ucom maintain service continuity and operational readiness for critical public-facing broadcast...",
-      "pub_date": "Fri, 19 Jun 2026 15:34:17 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheWXWXSxszCPLEbnZteuDTc7eKTBKEptXkanpgkeBprvuPECy2Af3TAN4gCAyomxLpqIqPv35wUB2qwd0oOpg0_ax8tgPi3897TFp5tHWSV_KV-PS7cA5-_znfCRtxd-S26MCF-s9i1Q2o3v_htF2vt6oW5wIMIRqhin7Ia4oyEm2TLdVreugIAd-ZMFQ/s16000/TTT%20-%202026-06-19T202808.076.webp?ssl=1"
-    },
-    {
       "title": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution",
       "link": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
       "description": "Microsoft researchers have detailed an exploit chain, named\u0026nbsp;AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution.  Steer the agent to load an attacker's ...",
@@ -81,15 +63,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3wJOg5Y5vAn_dM0DcIB6SwV2B34iO0H-moeyuWLJ_DF1KgEEZMBGtKPDXYk0pL4wclWbnSmOB74sqReSZoGI2_SwUSzKSscUxEdvuJFx_sCIfU7UplU2k5s4UA0cOVAZT_s80PDTek6OGfrsnE8f6QxrQU58rBqPiuk_J__Yja3YNzZLzd-6s8Ji1PBhc/s1600/agent.jpg"
-    },
-    {
-      "title": "Critical WordPress Plugin Vulnerability Exposes 1 Million Sites to File Deletion Attacks",
-      "link": "https://cybersecuritynews.com/avada-wordpress-plugin-vulnerability/",
-      "description": "A critical security vulnerability in the widely used Avada (Fusion) Builder WordPress plugin has exposed over 1 million websites to arbitrary file-deletion attacks, potentially leading to full-site...",
-      "pub_date": "Fri, 19 Jun 2026 15:24:54 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-WordPress-Plugin-Vulnerability-Exposes-File-Deletion-1-Million-Sites-to-File-Deletion-Attacks.webp"
     },
     {
       "title": "Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites",
@@ -101,15 +74,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1-D7cu6ZQpoZXfPa_eYHuQijjkt6mJRjmoIS9eSnCGPPgyXNz-AChti_zkCGmlefTdBm5bvbyxXbrJVbpVJIneqvDmIMR8t7gXEyBn2JJFrZLW-hTbo_e8UHBFuh9tfki-QyVk2g5_XqbbSX52HYTNSpNzJng8lMfZiIHT3pMQBTjTeZwSqx2khJt2uAk/s1600/endgame.jpg"
     },
     {
-      "title": "eFAQ Publishes Investigation Into Alleged Scam Activity and Coordinated Reputation Attacks",
-      "link": "https://cybersecuritynews.com/efaq-publishes-investigation-into-alleged-scam-activity-and-coordinated-reputation-attacks/",
-      "description": "New York, USA, June 19th, 2026, CyberNewswire eFAQ has published a documented investigation into a coordinated reputation attack campaign aimed at influencing brand perception in search results and...",
-      "pub_date": "Fri, 19 Jun 2026 14:04:02 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyo33unGRXJgdNFOxyuObadKebIzEpnjkPZLDbPOaTygne5i3bEZdmVJg9Ro7cBH1OqdFHS8uKVJHaegD88gYG_w2aeFaKKvg_EviXFSGmaI0hihP6UKqOazCn3_Crp2NCPx9mpHm0Pi9XhfIa_utQP1jAlTDuWljAebIyU8FQ7a9Vts9epdQkh9wvjNY/s16000/TTT%20-%202026-06-19T192632.144.webp?ssl=1"
-    },
-    {
       "title": "CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices",
       "link": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious activity aimed at t...",
@@ -117,15 +81,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0NmhjowFYAIQws_hl2u1bMpkeyma6TUk8UumS90AdqbBjW_NJ5h97i1yV9uJ_GT6zT8A9jaruiGkhqvn0jb4LuaHDDbGtjZbB7tQQibuQmH4WTDeAI898xZnyDuUQOAvzPHooO7C2S2PQFPIvkmwZ8LTLO4xLUP5ygQVuZI3E0quggcAEvtOqKzx4zKdw/s1600/cisa-fortinet.jpg"
-    },
-    {
-      "title": "Microsoft June 2026 Update Bug Exposes Recycle Bin Filenames in Deletion Dialog",
-      "link": "https://cybersecuritynews.com/microsoft-update-recycle-bin-bug/",
-      "description": "Microsoft has confirmed a new bug introduced by its June 2026 Patch Tuesday security update that causes Windows to display internal Recycle Bin filenames instead of the original user-facing filenam...",
-      "pub_date": "Fri, 19 Jun 2026 13:47:30 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Update-Recycle-Bin-Bug.webp"
     },
     {
       "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
@@ -137,15 +92,6 @@
       "image_url": ""
     },
     {
-      "title": "HazyBeacon Weaponizes AWS Lambda Function URLs for Stealth Command-and-Control Relays",
-      "link": "https://cybersecuritynews.com/hazybeacon-weaponizes-aws-lambda/",
-      "description": "HazyBeacon, tracked as CL-STA-1020, is a stealthy cyber-espionage campaign targeting Southeast Asian government networks by abusing AWS Lambda Function URLs as covert command-and-control (C2) relay...",
-      "pub_date": "Fri, 19 Jun 2026 13:07:59 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/HazyBeacon-Weaponizes-AWS-Lambda-Function-URLs-for-stealth-command-and-control-relays.webp"
-    },
-    {
       "title": "Webinar: How attackers bypass MFA and how defenders can respond",
       "link": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
       "description": "Modern phishing attacks, including Device Code phishing, can undermine MFA protections and grant attackers access to corporate accounts without stealing passwords. This webinar explores how behavio...",
@@ -153,15 +99,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Hackers Abuse Third-Party Okendo Reviews Script to Spread SmartApeSG Malware Campaign",
-      "link": "https://cybersecuritynews.com/hackers-abuse-third-party-okendo-reviews-script/",
-      "description": "A newly discovered supply chain attack has put thousands of e-commerce websites at risk after a popular third-party reviews widget was quietly turned into a malware delivery tool. Threat actors beh...",
-      "pub_date": "Fri, 19 Jun 2026 12:09:56 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-Third-Party-Okendo-Reviews-Script-to-Spread-SmartApeSG-Malware-Campaign.webp"
     },
     {
       "title": "From Assistive to Agentic: The AI Shift That's Redefining Threat Management",
@@ -173,15 +110,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaBfyINQL8sJZiLP4VnJgWMBOmH-8zY01vQ3E7OWZM9sdPvFQzOrFgaEpJOcRqODwrKDMXjt1HiKZmYYKF4pr22BBcbVBqx31coqBTKsgsf43CPEoW430X177toxpnfpVBTogjlrBMOrsLJgpERpCliEP4h5_2gyu3h2Dy_hJwiV6AI3nbKyp5NvNVgzQ/s1600/filigran-main.png"
     },
     {
-      "title": "INC Ransomware Uses Rust-Based Windows and Linux/ESXi Encryptors in New Attacks",
-      "link": "https://cybersecuritynews.com/inc-ransomware-uses-rust-based-windows/",
-      "description": "INC ransomware has grown from a newcomer threat into one of the most dangerous ransomware operations worldwide. What began as an emerging criminal group in mid-2023 has claimed over 800 victims glo...",
-      "pub_date": "Fri, 19 Jun 2026 11:33:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/INC-Ransomware-Uses-Rust-Based-Windows-and-Linux-ESXi-Encryptors-in-New-Attacks.webp"
-    },
-    {
       "title": "Microsoft: June 2026 Windows updates break Recycle Bin prompts",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/",
       "description": "Microsoft has confirmed a confusing Windows bug that causes different filenames to appear in the confirmation dialog when deleting a file from the Recycle Bin. [...]",
@@ -189,15 +117,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "CISA Urges Hardening Fortinet Devices Following FortiBleed Attack",
-      "link": "https://cybersecuritynews.com/cisa-urges-hardening-fortinet-devices/",
-      "description": "CISA has issued an urgent advisory warning organizations to secure their Fortinet devices following reports of a large-scale credential exposure campaign known as “FortiBleed.” The alert comes ...",
-      "pub_date": "Fri, 19 Jun 2026 11:13:15 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-Urges-Hardening-Fortinet-Devices-Following-FortiBleed-Attack.webp"
     },
     {
       "title": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday",
@@ -366,15 +285,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
       "description": "International law enforcement agencies cleaned nearly 15,000 malware-infected WordPress websites and took down more than 100 servers linked to the SocGholish botnet and the Evil Corp Russian cyber...",
       "pub_date": "Thu, 18 Jun 2026 09:25:47 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "ShapedPlugin update flow hacked to infect WordPress sites",
-      "link": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
-      "description": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack that distributed infected releases to paying customers via the vendor's official update system. [...]",
-      "pub_date": "Thu, 18 Jun 2026 08:55:36 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
