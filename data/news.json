@@ -1,12 +1,85 @@
 {
-  "last_updated": "2026-06-19T03:33:27Z",
+  "last_updated": "2026-06-19T09:00:06Z",
   "articles": [
+    {
+      "title": "China-Linked Showboat Malware Uses Linux Persistence to Target Telecom Companies",
+      "link": "https://cybersecuritynews.com/china-linked-showboat-malware-uses-linux-persistence/",
+      "description": "A sophisticated China-linked malware framework has been quietly targeting telecom companies across the Middle East for nearly four years. Showboat is a Linux-based tool that stayed completely hidde...",
+      "pub_date": "Fri, 19 Jun 2026 08:56:20 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/China-Linked-Showboat-Malware-Uses-Linux-Persistence-to-Target-Telecom-Companies.webp"
+    },
+    {
+      "title": "NY man charged after harassing college student with AI-generated nudes",
+      "link": "https://www.bleepingcomputer.com/news/security/new-york-man-faces-cyberstalking-charge-after-sharing-ai-generated-nudes-online/",
+      "description": "A New York man faces cyberstalking charges after allegedly sharing AI-generated nude images and fabricated racist messages using fake social media profiles to harass a Georgia college student. [...]",
+      "pub_date": "Fri, 19 Jun 2026 04:44:08 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "CISA Warns of Splunk Enterprise Critical Function Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/splunk-enterprise-vulnerability-exploit/",
+      "description": "CISA has issued a high-priority alert warning organizations about a critical vulnerability in Splunk Enterprise that is actively being exploited in the wild. The flaw, tracked as CVE-2026-20253, ha...",
+      "pub_date": "Fri, 19 Jun 2026 08:04:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CISA-Warns-of-Splunk-Enterprise-Critical-Function-Vulnerability-Actively-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "Node.js Fixes 12 Vulnerabilities, Including 2 High-Severity Authentication Bypasses",
+      "link": "https://cybersecuritynews.com/node-js-patches-12-vulnerabilities/",
+      "description": "Node.js has released a new round of security updates addressing 12 vulnerabilities across its supported release lines, including two high-severity flaws that could lead to authentication bypass and...",
+      "pub_date": "Fri, 19 Jun 2026 08:02:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Node.js-Patches-12-Vulnerabilities-Including-Two-High-Severity-Flaws-leads-to-Authentication-Bypass.webp"
+    },
+    {
+      "title": "Hackers Use Weaponized Windows Shortcuts to Spread Crypto Clipper Across USB Drives",
+      "link": "https://cybersecuritynews.com/hackers-use-weaponized-windows-shortcuts/",
+      "description": "A newly discovered cryptocurrency clipper malware has been quietly stealing digital assets from victims since February 2026, spreading through a trick that most users would never suspect: weaponize...",
+      "pub_date": "Fri, 19 Jun 2026 07:50:37 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-Weaponized-Windows-Shortcuts-to-Spread-Crypto-Clipper-Across-USB-Drives.webp"
+    },
+    {
+      "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed...",
+      "pub_date": "Fri, 19 Jun 2026 02:47:55 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "AI-Powered Public Surveillance and Biometric Data Collection Expand Government Monitoring",
+      "link": "https://cybersecuritynews.com/ai-powered-public-surveillance/",
+      "description": "Governments are expanding their digital reach in ways unimaginable just a decade ago. A growing wave of AI-powered surveillance, biometric data collection, and commercial spyware is reshaping how s...",
+      "pub_date": "Fri, 19 Jun 2026 06:38:30 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/AI-Powered-Public-Surveillance-and-Biometric-Data-Collection-Expand-Government-Monitoring.webp"
+    },
+    {
+      "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
+      "link": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
+      "description": "Apple has updated its Beats Studio Buds wireless earbuds to patch a high-severity vulnerability that could be exploited by nearby hackers to eavesdrop on users.  The vulnerability, tracked as CVE-2...",
+      "pub_date": "Fri, 19 Jun 2026 12:06:09 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvlr0i44MWKmuHJKLS1V3uKSMse7tVsRFBTpyD1VGLaRZy24qq4bIb6K3Db1s0eKtuh3TkLCYFWn6eJ-uEkVnkO9CbPHHUlD3j8Z-SEFFr9A1X6ndd-fQd6UKTAyXO0DhUI2ZTe1sc4Eq7NLoGUyjQUkKmhHp99QGz3WTcFAnucAnfiioLDFiGaTbI8Wvx/s1600/apple.jpg"
+    },
     {
       "title": "Authorities Dismantle SocGholish Malware Network — 106 Servers and 101 Domains Seized",
       "link": "https://cybersecuritynews.com/authorities-dismantle-socgholish/",
       "description": "Authorities have dismantled the criminal infrastructure behind SocGholish, one of the most persistent malware frameworks active since 2017, seizing 106 servers and 101 domains while remediating nea...",
       "pub_date": "Thu, 18 Jun 2026 22:54:34 +0000",
       "source": "Cyber Security News",
+      "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Authorities-Dismantle-SocGholish.webp"
     },
     {
@@ -15,6 +88,7 @@
       "description": "The Gentlemen ransomware-as-a-service (RaaS) is actively developing and maintaining a suite of endpoint detection and response (EDR) killers to help affiliates evade detection in attacks. [...]",
       "pub_date": "Thu, 18 Jun 2026 18:31:52 -0400",
       "source": "BleepingComputer",
+      "tier": 3,
       "image_url": ""
     },
     {
@@ -23,6 +97,7 @@
       "description": "Nintendo of America has confirmed to BleepingComputer that threat actors stole survey data from the third-party TinyPulse service used internally, but its systems were not compromised. [...]",
       "pub_date": "Thu, 18 Jun 2026 14:31:36 -0400",
       "source": "BleepingComputer",
+      "tier": 3,
       "image_url": ""
     },
     {
@@ -31,6 +106,7 @@
       "description": "F5 has released security updates to address two critical security flaws in NGINX Open Source that could be exploited to achieve code execution on affected systems.  The vulnerabilities are listed b...",
       "pub_date": "Thu, 18 Jun 2026 23:02:14 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxYclMMaAOBe1jlW_s0S1SfdX3sPrGB9MZ7R9Hfo2ktoF9DiLqPA5ZYmFAyGmzws5eNmqopdPw7bBV7TTO8KgS2C8CJU8cgHNXw0ERAvk8sGRLYXH7M98eqxDM9c-rQTU0Hlj8ISEmSWMCnw6OqJMyhgxxLHCFPwP1JugZ3bCJow7AfTZ40kOo8XpY3WdF/s1600/f5.jpg"
     },
     {
@@ -39,6 +115,7 @@
       "description": "A novel BootROM vulnerability, dubbed usbliter8, affects Apple devices powered by A12, S4/S5, and A13 SoCs. The exploit chains a hardware-level bug in the Synopsys DWC2 USB controller with a firmwa...",
       "pub_date": "Thu, 18 Jun 2026 17:20:49 +0000",
       "source": "Cyber Security News",
+      "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/iPhone-BootROM-Vulnerability.webp"
     },
     {
@@ -47,6 +124,7 @@
       "description": "Threat actors targeting cryptocurrency wallets have been distributing clipboard-stealing malware with self-spreading capabilities and using the Tor network to conceal communication. [...]",
       "pub_date": "Thu, 18 Jun 2026 12:20:06 -0400",
       "source": "BleepingComputer",
+      "tier": 3,
       "image_url": ""
     },
     {
@@ -55,6 +133,7 @@
       "description": "Threat actors exploited a trusted third-party SaaS integration to silently harvest enterprise CRM data, marking the latest chapter in an escalating wave of OAuth-abuse attacks targeting Salesforce ...",
       "pub_date": "Thu, 18 Jun 2026 16:01:39 +0000",
       "source": "Cyber Security News",
+      "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Klue-Integration-Breached-Salesforce.webp"
     },
     {
@@ -63,6 +142,7 @@
       "description": "If an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it?  For most enterprises, the answer is a ...",
       "pub_date": "Thu, 18 Jun 2026 21:03:49 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_nqjviAfaPP-eOuhtQKNwdvOGLaN-rOmxVnoQPMOruaJvDcw5rsCi-kIKxAhOpxjCggRXt7bfwyRAKMzVKdwIPlRAJpXLl4OReBnbVtOSZYGS4Bsf9EvU71bMIkWdpDwjydNWe22WCdjgqX6b_TrPtXptekJc3N8BH5m56-wauHl5KX0DePQmv2gIoNks/s1600/webinar.jpg"
     },
     {
@@ -71,6 +151,7 @@
       "description": "The internet did not break this week. It got used exactly as designed, which is worse.  Searches were siphoned through shady browser add-ons. AI chat links turned into malware delivery paths. macOS...",
       "pub_date": "Thu, 18 Jun 2026 20:57:54 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6k3CSWsyKHS6UdXmxX-w92fdsWjTSL7JR7xeaPBPh8d5G6rkZbMhmJHr9o3gxF5G2I2GojubOJnzhRqxjtKYxlXTrmlgrdRFRrmmyEEIi_zXAQXT3zpq5KNQqOFHrfGKhUFHzsMx1E2Eqs7S_jvTFfN3Jnz1YO58Ryvk0urKEDUZggoQgI07lKFWQDMfw/s1600/threatss.jpg"
     },
     {
@@ -79,6 +160,7 @@
       "description": "Mozilla has released Firefox 152 to address multiple high-severity vulnerabilities that could allow remote code execution (RCE) and sandbox escape attacks. The security advisory, published on June ...",
       "pub_date": "Thu, 18 Jun 2026 15:10:56 +0000",
       "source": "Cyber Security News",
+      "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Multiple-Vulnerabilities-in-Firefox-152-Enables-Remote-Code-Execution-Attacks.webp"
     },
     {
@@ -87,47 +169,26 @@
       "description": "Hackers are increasingly finding new ways to abuse legitimate enterprise features, and Microsoft SQL Server 2025’s newly introduced AI capabilities are now raising serious security concerns. Spec...",
       "pub_date": "Thu, 18 Jun 2026 14:57:57 +0000",
       "source": "Cyber Security News",
+      "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Can-Leverage-SQL-Server-2025-AI-Features-to-Exfiltrate-Sensitive-Data-1.webp"
     },
     {
-      "title": "Hackers Abuse Microsoft Fondue.exe to Side-Load APPWIZ.cpl and Execute Malware",
-      "link": "https://cybersecuritynews.com/hackers-abuse-microsoft-fondue-exe/",
-      "description": "A newly uncovered attack campaign has brought a rarely scrutinized Windows executable into the spotlight. Threat actors are actively abusing Fondue.exe, a legitimate Microsoft utility built into t...",
-      "pub_date": "Thu, 18 Jun 2026 14:52:15 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-Microsoft-Fondue.exe-to-Side-Load-APPWIZ.cpl-and-Execute-Malware.webp"
-    },
-    {
-      "title": "Hackers Abuse Legitimate RMM Tools to Maintain Persistent Access and Evade Detection",
-      "link": "https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-2/",
-      "description": "Hackers have found a new way to get AI tools to do their dirty work without paying for it. Instead of using their own resources, attackers are hijacking exposed AI model servers and plugging them i...",
-      "pub_date": "Thu, 18 Jun 2026 14:49:28 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-Legitimate-RMM-Tools-to-Maintain-Persistent-Access-and-Evade-Detection.webp"
-    },
-    {
-      "title": "Hackers Abuse Claude.ai Shared Chat Feature to Host the ClickFix Social Engineering Instructions",
-      "link": "https://cybersecuritynews.com/claude-ai-shared-chat-feature-abused/",
-      "description": "Hackers are increasingly exploiting trusted AI platforms to deliver sophisticated social engineering attacks, with a recent campaign abusing Claude.ai’s shared chat feature to host malicious Clic...",
-      "pub_date": "Thu, 18 Jun 2026 14:41:37 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Abuse-claude.ai-shared-chat-feature-to-host-the-ClickFix-social-engineering-instructions.webp"
+      "title": "Why Security Teams Need To Start Earlier",
+      "link": "https://www.rapid7.com/blog/post/it-why-security-teams-need-to-start-earlier",
+      "description": "Security leaders are facing an unusual set of circumstances. The drumbeat for better security prioritization has been rising for years in boardrooms around the world. The desire is there, but the p...",
+      "pub_date": "Thu, 18 Jun 2026 14:45:55 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltebc2810157aecfaf/68af2715c53b04810df94abb/blog-hero-generic-pixel.jpg"
     },
     {
       "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2",
       "link": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
-      "description": "Microsoft has disclosed details of a Windows-based cryptocurrency clipper campaign that has targeted users since February 2026.  \"The clipper in this campaign relies on Windows Script Host and Acti...",
+      "description": "Microsoft has disclosed details of a Windows-based cryptocurrency clipper campaign that has targeted users since February 2026 with clipboard-intercepting malware with self-spreading capabilities a...",
       "pub_date": "Thu, 18 Jun 2026 20:00:42 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvKWONrjyxy3cGsc9xfw7n-6izVRjMImK2DpiOv4JDrtutcENRgX6JxsFQhsEMHDhZx9fGfeoj_mAQSVk9SoJumNREvmLtbWOjWaTlYn3c25sH_paaeZk-Xw08k3ckerv19Ax9stFCURiV321W7vh0f6qQbrmSHnuvPeNBeW6Grb7o6TU4s5dhJNkXyIon/s1600/clipper-malware.jpg"
-    },
-    {
-      "title": "Critical Cisco ISE Vulnerability Allows Attacker to Execute Malicious Code Remotely",
-      "link": "https://cybersecuritynews.com/cisco-ise-rec-vulnerability/",
-      "description": "Cisco has disclosed critical security vulnerabilities in its Identity Services Engine (ISE) that could allow attackers to execute malicious code remotely and access sensitive data, posing a signifi...",
-      "pub_date": "Thu, 18 Jun 2026 14:29:49 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Cisco-ISE-Vulnerability-Allow-Attacker-to-Execute-Malicious-code-Remotely.webp"
     },
     {
       "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
@@ -135,6 +196,7 @@
       "description": "Market intelligence platform Klue suffered a OAuth breach that enabled the \"Icarus\" threat actors to steal Salesforce CRM data from multiple organizations in an ongoing extortion campaign. [...]",
       "pub_date": "Thu, 18 Jun 2026 10:19:50 -0400",
       "source": "BleepingComputer",
+      "tier": 3,
       "image_url": ""
     },
     {
@@ -143,6 +205,7 @@
       "description": "Cybersecurity researchers have charted the evolution of INC from an nascent ransomware-as-a-service (RaaS) operation to one of the most prolific cybercrime groups in 2026, claiming no less than 830...",
       "pub_date": "Thu, 18 Jun 2026 19:42:48 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2MOms1DiyvYE-L_zXvrgrL_4cDaNBZwrhVFPq7ee58uPMORAF9v60xW8_QZbjJ05C34E2F5u9xKXBal4_DbVvUjcg8aDAvQ9iKSgWss6vnvlk4f1tgLYwb3a5xNc6T3lbGeE1pcTf35vf320No6XzS4mkw_5dTTILKfc0w6VpcTHX5VitEodFJBKMWzjA/s1600/ransomware-malware.jpg"
     },
     {
@@ -151,6 +214,7 @@
       "description": "An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here →  When a customer types their card number into your checkout, th...",
       "pub_date": "Thu, 18 Jun 2026 19:28:39 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHJHzi-rQqSIiD4wXw_HQpgvXGNTNgvJnxt42OupMrchYSmQPyeXbtsuH62zLqPHDq3bywvirdcqKSq9VQ-pZyL02RAw2IYYh1f4qcpUH4NZu50XLSDsQSSYvyqMAEwSN-8PQMcpwXZMtLC_pVYzqZMYm7qkygfMQeZEIHVWpIkYfUifJvX3oUMSBs3w0/s1600/reflectiz.jpg"
     },
     {
@@ -159,6 +223,7 @@
       "description": "Microsoft 365 helps keep services running, but protecting and recovering business data remains your responsibility. Acronis breaks down five gaps organizations should consider when evaluating Micro...",
       "pub_date": "Thu, 18 Jun 2026 09:48:56 -0400",
       "source": "BleepingComputer",
+      "tier": 3,
       "image_url": ""
     },
     {
@@ -167,6 +232,7 @@
       "description": "Threat actors associated with the DragonForce ransomware have been observed using a custom Go-based remote access trojan (RAT) called Backdoor.Turn to conceal command-and-control (C2) traffic insid...",
       "pub_date": "Thu, 18 Jun 2026 19:00:07 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidEg1Q-FcDTwCPci3OMxGy0TghiI1dbWJoaJVc88gpGgO2ia6bgne18KfS3A9qAzBnMX2rGY9H78ewtofXQO22RRpzHxWXmvQJvRZ1nsvwj37aZBtLOXXltzd1KkNRKhu2N5LpIro5Fi0BBkftPqP_IO6B3HCKx5WPtFXZKA1bfbP3xV71CpEqpT7H6RPN/s1600/teams.jpg"
     },
     {
@@ -175,6 +241,7 @@
       "description": "International law enforcement agencies cleaned nearly 15,000 malware-infected WordPress websites and took down more than 100 servers linked to the SocGholish botnet and the Evil Corp Russian cyber...",
       "pub_date": "Thu, 18 Jun 2026 09:25:47 -0400",
       "source": "BleepingComputer",
+      "tier": 3,
       "image_url": ""
     },
     {
@@ -183,6 +250,7 @@
       "description": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack that distributed infected releases to paying customers via the vendor's official update system. [...]",
       "pub_date": "Thu, 18 Jun 2026 08:55:36 -0400",
       "source": "BleepingComputer",
+      "tier": 3,
       "image_url": ""
     },
     {
@@ -191,15 +259,8 @@
       "description": "A newly discovered data leak dubbed \"FortiBleed\" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 firewall URLs at organizations worldwide. [...]",
       "pub_date": "Thu, 18 Jun 2026 08:54:39 -0400",
       "source": "BleepingComputer",
+      "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Modern Data Protection Standards: How Organizations Are Strengthening Cybersecurity in 2026",
-      "link": "https://cybersecuritynews.com/modern-data-protection-standards-how-organizations-are-strengthening-cybersecurity-in-2026/",
-      "description": "Organizations today operate in an increasingly hostile cyber threat landscape where data protection has become a critical business requirement. While digital transformation delivers greater efficie...",
-      "pub_date": "Thu, 18 Jun 2026 12:48:56 +0000",
-      "source": "Cyber Security News",
-      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNQgN2sfieH1Bzd_RnmhY0cjJomF877-xSIte6EWz4WuoxlbY1uy-LWlijyrXBPwGPNVglcmoH6GKB5OnPHd0H0XkXeGj09Lz-NT1hyphenhyphenqPBDoefAsGFjftYaDF1NprScvJsSZScJcfsHd_Qu0Ctx3eCXu9-sLU_J7c6V7vUCIB9L0_ZGI9FbvLvdq54Lp84/s1600/Screenshot%202026-06-18%20at%206.15.45%E2%80%AFPM.png?ssl=1"
     },
     {
       "title": "Apple fixes Beats Studio Buds flaw that let hackers spy on conversations",
@@ -207,6 +268,7 @@
       "description": "Apple has released security updates to patch a high-severity flaw affecting the Beats Studio Buds wireless earbuds that could allow attackers in Bluetooth range to spy on users' conversations. [...]",
       "pub_date": "Thu, 18 Jun 2026 08:23:58 -0400",
       "source": "BleepingComputer",
+      "tier": 3,
       "image_url": ""
     },
     {
@@ -215,6 +277,7 @@
       "description": "India's government has told the Delhi High Court that Telegram was warned about two weeks before it was blocked, and that the platform admitted it could not proactively detect the channels selling ...",
       "pub_date": "Thu, 18 Jun 2026 08:18:49 -0400",
       "source": "BleepingComputer",
+      "tier": 3,
       "image_url": ""
     },
     {
@@ -223,6 +286,7 @@
       "description": "Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute ...",
       "pub_date": "Thu, 18 Jun 2026 07:33:00 -0400",
       "source": "BleepingComputer",
+      "tier": 3,
       "image_url": ""
     },
     {
@@ -231,6 +295,7 @@
       "description": "Microsoft has fixed a known issue causing the June 2026 security updates to fail on Windows Server 2016 systems that weren't up to date. [...]",
       "pub_date": "Thu, 18 Jun 2026 06:14:20 -0400",
       "source": "BleepingComputer",
+      "tier": 3,
       "image_url": ""
     },
     {
@@ -239,14 +304,7 @@
       "description": "OpenAI appears to be testing a new subscription and experience for science use cases, but it's unclear if it'll be available to everyone regardless of their background. [...]",
       "pub_date": "Wed, 17 Jun 2026 21:30:08 -0400",
       "source": "BleepingComputer",
-      "image_url": ""
-    },
-    {
-      "title": "Google to use UK and EU user IP addresses for ad personalization",
-      "link": "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
-      "description": "From August 3, 2026, Google will use IP addresses from UK, EEA and Switzerland users for ad measurement and personalization. It lands as the ICO weighs new consent rules, and years after Google its...",
-      "pub_date": "Wed, 17 Jun 2026 17:02:42 -0400",
-      "source": "BleepingComputer",
+      "tier": 3,
       "image_url": ""
     },
     {
@@ -255,6 +313,7 @@
       "description": "An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research.  The th...",
       "pub_date": "Wed, 17 Jun 2026 23:44:24 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbbJOofP7P7zruPGvktMERgtQqGnu5msB1iDGyfukJA9g72QHXmHx9eJNbQaF7VIGcUqB76e5bGpnBnfg9AE4-F5kJQnY2fKtfHoi9zggEgteLN6rpYJeYE2nPlHFHWfj58a_DmklTT0x0GcWmRAxJsVGeysX9CUadCIygZTpDzBxCWZ4HvrPqhPwQy6Ng/s1600/scam.jpg"
     },
     {
@@ -263,6 +322,7 @@
       "description": "Microsoft has formally disclosed that it's working to release a patch to address a Defender zero-day codenamed RoguePlanet.  The vulnerability has now been assigned the CVE identifier CVE-2026-5065...",
       "pub_date": "Wed, 17 Jun 2026 23:06:28 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy3ayOlDb3vsL747G9hStxxjTd3N5i2u8hegcT_hTs4RlNqylS_HyYH4mGLQEavD-QwH3G4l-p2tE5xrXoeK-Btj5YjbENpZcnqRZ7mXCjnJgqHKaoqyE3I3yqy3tYxafbDGNOMrDsvTnJ8UKkn7DDQ8PY_sQNZI6TsNTV0lOmSqs1uxUKm3pgpmkSDpeZ/s1600/ms-patch.jpg"
     },
     {
@@ -271,6 +331,7 @@
       "description": "A French-speaking attacker broke into a small French automotive business, planted a keylogger, and stole banking and email credentials.  Ordinary stuff, until one move near the end.  Before his com...",
       "pub_date": "Wed, 17 Jun 2026 21:30:56 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN4ptzzF7u-dzNyOc4F1HsCUbEszvkkeD1ZVl7MHQNXXcUtgqb40Wgodu3aj61QDzaNsX0eJjRDGK1eNJLCbud-4iWHJjnpHPuCfTak2m9UydSW4DEJErr5L2V_KwD39P__6iVxgaOhH8mYtY2LhPFnyCavP8eJ_1N3QpGo4NkZaFJYVRc-LX0droem8Q/s1600/cyber.jpg"
     },
     {
@@ -279,15 +340,8 @@
       "description": "For security teams, the findings never stop, but confidence in knowing which ones matter is becoming harder to maintain.  The problem is no longer visibility. It's validation. Security teams must d...",
       "pub_date": "Wed, 17 Jun 2026 20:28:00 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_8P-dioPWCAX94ha33KAWjvP0RvBHHCxI4ZAMnMHYY66XUQUFK_FZFkQJ3nW8XYlG6U5GxLL-o21CvZFNeOkZsHH41KlaVGYR3Ne26PZjeyK318yCFpZnxqFgp-e7qU1XitrcF7ODwc1znYAw2r2MioIePdJs4eQdHMmdBEmDqbq-YicStLUsU1_842g/s1600/breachlock.jpg"
-    },
-    {
-      "title": "Why Account Takeovers Are Rising and How to Stop Them",
-      "link": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
-      "description": "Account takeovers are rising as attackers bypass traditional defenses through phishing, session hijacking, and MFA fatigue. Specops Software explores how device trust and continuous verification he...",
-      "pub_date": "Wed, 17 Jun 2026 10:00:10 -0400",
-      "source": "BleepingComputer",
-      "image_url": ""
     },
     {
       "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
@@ -295,7 +349,17 @@
       "description": "Cybersecurity researchers have flagged a \"coordinated malware campaign\" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating artificial intellig...",
       "pub_date": "Wed, 17 Jun 2026 19:21:58 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2aRb82ydrk_lAXr6Yy-GmrPfQSaIuCNYTtB8dFm02DZWhJVj3bmjB3WLhWDUtiFmrGC3lHdeLfA2NtC6oHKJDAdW7ot4f3HQDyLw2Ep3q49BnOkuBWOPP2OuN1I1HNFknxPyQNpEZEnEt-8KhV2nx_HcaEiBm8Rdh7blevc3I1GjuBMLL1xOpJThFuJpE/s1600/hi.jpg"
+    },
+    {
+      "title": "Malware à la Mode: Tracking Dropping Elephant Tradecraft Through a China-Themed Loader Chain",
+      "link": "https://www.rapid7.com/blog/post/tr-malware-tracking-dropping-elephant-tradecraft-china-themed-loader-chain",
+      "description": "Executive summaryRapid7 researchers have identified a sophisticated malware campaign attributed to the threat actor \"Dropping Elephant,\" characterized by the use of a China-themed decoy document to...",
+      "pub_date": "Wed, 17 Jun 2026 11:20:10 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
     },
     {
       "title": "The Top 10 Attack Surface Exposures in 2026",
@@ -303,6 +367,7 @@
       "description": "Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlie...",
       "pub_date": "Wed, 17 Jun 2026 16:00:00 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiM2DfFAWIuQ6v6hyh32CXcT_wKU72aTUxixyWIcnjW04ydv40r8RtVXjDrxKJzksW6zzqYciPMxgYAwcDGRz8kahhZVZXoi0FySWg5o8LpWo_KkHdX4wRX4Qgk6ONxHqyb7_cF5TN5qQp-9B4hOQpB3WljI8sDbHMlOh6n2jyTjV30kxC-ccJVJHu4bTs/s1600/INTRUDER.jpg"
     },
     {
@@ -311,15 +376,53 @@
       "description": "As many as 145 npm packages associated with the Mastra namespace (\"@mastra/*\"), a popular open-source JavaScript and TypeScript framework for building artificial intelligence (AI) applications, hav...",
       "pub_date": "Wed, 17 Jun 2026 13:08:24 +0530",
       "source": "The Hacker News",
+      "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKLWn0zHFuJ8rkb2bqILIyAGxt_-VJ13Ytmv1TRWtGJkI6Rva5Oag5LdLasE2rmenokuRvoEI2wH0Ayfe_P4_5q1Qc5FQ2MrQgUHrgD9wY6DTlYugAtj8CP7Fh0OPjKkU5LbeRKWvPEh0Ol0CmLTe4QVayeZiNlVFvU7MO5tWl-b8Lbn80hKd45q9Z1yOd/s1600/npms.jpg"
     },
     {
-      "title": "CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution",
-      "link": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting Widget Factory Joomla Content Editor (JCE) to its Known Exploited Vulner...",
-      "pub_date": "Wed, 17 Jun 2026 11:20:46 +0530",
-      "source": "The Hacker News",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisS71RYEu_1Sts3eqAt878RoohdLgeUzyTbRQgFqUYQcwBxzKB1ug6AvOBRXqZvWcChuLVj6KFbIt7nO9RX66ZJZyMEIADvIXe-fdNDrQIYXGtcMt3StDzbK4lF9ZLpF9pqCR1cGEa4lLkFFRVqIyD5w0JqwhVgr-C9ga7pZ6IQWpFmbsojcsGePBnzsGW/s1600/joomla.jpg"
+      "title": "NIS2 is raising the bar. Here’s how to turn readiness into resilience.",
+      "link": "https://www.rapid7.com/blog/post/so-nis2-compliance-turn-readiness-into-resilience",
+      "description": "The NIS2 directive asks covered organizations to take a more structured approach to risk management, governance, supply chain security, and incident reporting. It expands the scope of who may be co...",
+      "pub_date": "Mon, 15 Jun 2026 17:29:15 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt61632ee7cd1805c5/69fa3eae5ab0e4c3f43c256c/rapid7-nis2-24-hour-rule-infographic-card.webp"
+    },
+    {
+      "title": "Does Your Security Programme Align With NIS2 Requirements?",
+      "link": "https://www.rapid7.com/blog/post/so-aligning-security-programmes-with-nis2-requirements",
+      "description": "If your organization operates in the EU, or works with organizations that do, NIS2 is no longer something on the horizon. It is here and it applies to a far wider range of sectors than its predeces...",
+      "pub_date": "Mon, 15 Jun 2026 17:24:20 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blted8cb9466d79dc4d/6852c596a274324cfbb23d9d/PSN-gov-showcase-hero-image.png"
+    },
+    {
+      "title": "Beyond the Score: Using AI to Translate CVEs into Real-World Business Risk",
+      "link": "https://www.rapid7.com/blog/post/ai-beyond-the-score-translating-cves-into-real-business-risk",
+      "description": "Security leaders rarely struggle to gather data, but they often struggle to turn that data into something clear and meaningful for the business. In a typical week, a CISO might receive a report lis...",
+      "pub_date": "Mon, 15 Jun 2026 14:44:28 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt09a532eac4a02570/6852c5968e72c44b89691ca4/PSN-gov-showcase-hero-image-2.png"
+    },
+    {
+      "title": "Weekly Metasploit Update: New Kerberos/Certificate tracing options, and multiple new modules",
+      "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-13-06-2026",
+      "description": "New Tracing OptionsAs hard as we try to ensure that Metasploit is bug free, issues inevitably come up. Whether you’re running a module on an op or writing a new one, what we can do is make the de...",
+      "pub_date": "Sat, 13 Jun 2026 00:22:18 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0d50271a40a5f14f/6849ab419621d9f3824d5017/metasploit-sky.png"
+    },
+    {
+      "title": "Active Exploitation of Oracle PeopleSoft Zero-Day (CVE-2026-35273)",
+      "link": "https://www.rapid7.com/blog/post/etr-active-exploitation-of-oracle-peoplesoft-zero-day-cve-2026-35273",
+      "description": "OverviewOn June 10, 2026, Oracle published a security alert for CVE-2026-35273, a critical vulnerability in the Updates Environment Management component of PeopleSoft Enterprise PeopleTools. Oracle...",
+      "pub_date": "Fri, 12 Jun 2026 13:43:04 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
     },
     {
       "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
@@ -327,7 +430,17 @@
       "description": "Alerts are more trustworthy and actionable when noise is reduced. See how we improved the verification step with context-aware LLM reasoning. The post Making secret scanning more trustworthy: Reduc...",
       "pub_date": "Thu, 11 Jun 2026 16:00:00 +0000",
       "source": "GitHub Security",
+      "tier": 4,
       "image_url": "https://github.blog/wp-content/uploads/2026/06/blog-post-1.png?resize=1024%2C576"
+    },
+    {
+      "title": "Criminal AI-as-a-Service in 2026: How the Underground Market Is Operationalizing Cybercrime",
+      "link": "https://www.rapid7.com/blog/post/tr-criminal-ai-underground-market-operationalizing-cybercrime-2026",
+      "description": "IntroductionThe underground market for criminally oriented generative AI has moved beyond the early hype surrounding 'malicious chatbots.' The gradual integration of AI as a productivity layer with...",
+      "pub_date": "Thu, 11 Jun 2026 13:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
     },
     {
       "title": "ZDI-26-360: MATE Desktop Atril Document Viewer EPUB File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
@@ -335,6 +448,7 @@
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MATE Desktop Atril Document Viewer. User interaction is required to exploit this vulnerability in t...",
       "pub_date": "Thu, 11 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -343,6 +457,7 @@
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samsung rlottie. Interaction with the rlottie library is required to exploit this vulnerability but...",
       "pub_date": "Thu, 11 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -351,6 +466,7 @@
       "description": "This vulnerability allows remote attackers to execute arbitrary script on affected installations of Allegra. User interaction is required to exploit this vulnerability in that the target must visit...",
       "pub_date": "Thu, 11 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -359,6 +475,7 @@
       "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Allegra. Authentication is required to exploit this vulnerability. The ZDI has assigned a C...",
       "pub_date": "Thu, 11 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -367,7 +484,26 @@
       "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apache HTTP Server. An attacker must first obtain the ability to compromise an AJP backend ...",
       "pub_date": "Thu, 11 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
+    },
+    {
+      "title": "Automated Threat Hunting: Turning Threat Intelligence into Executable Hunt Plans",
+      "link": "https://www.rapid7.com/blog/post/ai-automated-threat-hunting-turns-threat-intelligence-into-executable-hunt-plans",
+      "description": "Blake McDermott is Senior Threat Hunter at Rapid7.Every week, threat hunt teams are faced with a steady flow of blogs, advisories, and DFIR reports containing valuable intelligence about adversary ...",
+      "pub_date": "Wed, 10 Jun 2026 16:26:33 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt30cad4cead79d2d3/6846a7113860835cfa35e65d/surface-command.jpg"
+    },
+    {
+      "title": "CVE-2026-10520, CVE-2026-10523 - Multiple critical vulnerabilities affecting Ivanti Sentry",
+      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-10520-cve-2026-10523-multiple-critical-vulnerabilities-affecting-ivanti-sentry",
+      "description": "OverviewOn June 9, 2026, Ivanti published a security advisory for two critical vulnerabilities affecting Ivanti Sentry (formerly known as MobileIron Sentry), which per the vendor website is an “i...",
+      "pub_date": "Wed, 10 Jun 2026 10:21:07 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
     },
     {
       "title": "ZDI-26-355: Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
@@ -375,7 +511,26 @@
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the tar...",
       "pub_date": "Wed, 10 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
+    },
+    {
+      "title": "Patch Tuesday - June 2026",
+      "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-june-2026",
+      "description": "Microsoft is publishing 200 vulnerabilities on June 2026 Patch Tuesday. Microsoft is not aware of exploitation in the wild for any of these vulnerabilities, and is aware of public disclosure for th...",
+      "pub_date": "Tue, 09 Jun 2026 21:04:53 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt9952397815d84355/6849acff3860836b5c360685/patch-tuesday-repeated.webp"
+    },
+    {
+      "title": "Rapid7 Gains Access To Anthropic’s Project Glasswing To Explore Frontier AI For Cybersecurity",
+      "link": "https://www.rapid7.com/blog/post/ai-rapid7-accesses-anthropics-project-glasswing-exploring-frontier-artificial-cybersecurity-intelligence",
+      "description": "Wade Woolwine is Senior Director, Product Security at Rapid7.Rapid7 is excited to join Anthropic’s Project Glasswing, which includes access to Claude Mythos Preview, giving our teams the opportun...",
+      "pub_date": "Tue, 09 Jun 2026 13:35:36 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0b0762ca94c50b0b/6846a711eac0e395093e52e3/AI.jpg"
     },
     {
       "title": "ZDI-26-354: Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
@@ -383,6 +538,7 @@
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the tar...",
       "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -391,6 +547,7 @@
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the tar...",
       "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -399,6 +556,7 @@
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target...",
       "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -407,6 +565,7 @@
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe USD-Fileformat-plugins. Interaction with the USD library is required to exploit this vulnerab...",
       "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -415,6 +574,7 @@
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe USD-Fileformat-plugins. Interaction with the USD library is required to exploit this vulnerab...",
       "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -423,6 +583,7 @@
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target...",
       "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -431,6 +592,7 @@
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the tar...",
       "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -439,6 +601,7 @@
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the tar...",
       "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -447,7 +610,35 @@
       "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that...",
       "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
+      "tier": 4,
       "image_url": ""
+    },
+    {
+      "title": "Critical Check Point VPN Zero-Day Exploited in the Wild (CVE-2026-50751)",
+      "link": "https://www.rapid7.com/blog/post/etr-critical-check-point-vpn-zero-day-exploited-in-the-wild-cve-2026-50751",
+      "description": "OverviewOn June 8, 2026, Check Point published a security advisory for CVE-2026-50751, a critical authentication bypass vulnerability affecting Check Point Remote Access VPN, Mobile Access, and Spa...",
+      "pub_date": "Mon, 08 Jun 2026 17:05:16 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+    },
+    {
+      "title": "Weekly Metasploit Update: Apache ActiveMQ RCE, Gogs Rebase RCE, and Windows Kernel Pointer Enum",
+      "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-06-2026",
+      "description": "When Open Source is a bit too OpenSeveral fun modules landed this week, including an Apache RCE, Windows Kernel pointer collection, and Gogs RCE via naming. Leading off is Gogs' RCE that allows an ...",
+      "pub_date": "Fri, 05 Jun 2026 17:01:48 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0475760a2990dfd7/6849ab41a770d7563190a3ea/metasploit-fence.png"
+    },
+    {
+      "title": "How the “Swiss Cheese” model can help you choose the right MDR provider",
+      "link": "https://www.rapid7.com/blog/post/dr-swiss-cheese-model-helps-choose-mdr-providers",
+      "description": "Not all managed detection and response (MDR) solutions are equal. Finding the differences between vendors can be quite hard, and then understanding how those differences impact your business can be...",
+      "pub_date": "Thu, 04 Jun 2026 13:53:41 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltb655c1b69f13c73b/6846a711536b63f12ca5f649/incident-response-findings-2025.jpg"
     },
     {
       "title": "Investigation update: GitHub Enterprise Server signing key rotation",
@@ -455,6 +646,7 @@
       "description": "GitHub Enterprise Server customers need to take immediate action. The post Investigation update: GitHub Enterprise Server signing key rotation appeared first on The GitHub Blog.",
       "pub_date": "Wed, 20 May 2026 21:07:38 +0000",
       "source": "GitHub Security",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -463,6 +655,7 @@
       "description": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Qu...",
       "pub_date": "Fri, 15 May 2026 14:00:00 +0000",
       "source": "GitHub Security",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -471,6 +664,7 @@
       "description": "How we validated, fixed, and investigated a critical vulnerability in under two hours, and confirmed no exploitation. The post Securing the git push pipeline: Responding to a critical remote code e...",
       "pub_date": "Tue, 28 Apr 2026 15:30:00 +0000",
       "source": "GitHub Security",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -479,6 +673,7 @@
       "description": "Learn to find and exploit real-world agentic AI vulnerabilities through five progressive challenges in this free, open source game that over 10,000 developers have already used to sharpen their sec...",
       "pub_date": "Tue, 14 Apr 2026 18:17:59 +0000",
       "source": "GitHub Security",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -487,6 +682,7 @@
       "description": "The new Code Security Risk Assessment gives you a one-click view of vulnerabilities across your organization, at no cost. The post How exposed is your code? Find out in minutes—for free appeared ...",
       "pub_date": "Tue, 14 Apr 2026 15:00:00 +0000",
       "source": "GitHub Security",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -495,6 +691,7 @@
       "description": "Recent attacks on open source focus on exfiltrating secrets; here are the prevention steps you can take today, plus a look at the security capabilities GitHub is working on. The post Securing the o...",
       "pub_date": "Wed, 01 Apr 2026 19:20:12 +0000",
       "source": "GitHub Security",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -503,6 +700,7 @@
       "description": "Reviewed advisories hit a four-year low, malware advisories surged, and CNA publishing grew—here’s what changed and what it means for your triage and response.  The post A year of open source v...",
       "pub_date": "Thu, 26 Mar 2026 16:00:00 +0000",
       "source": "GitHub Security",
+      "tier": 4,
       "image_url": "https://github.blog/wp-content/uploads/2026/03/1-GHADB-Feeds-vs-Backfill.png?resize=4290%2C2640"
     },
     {
@@ -511,6 +709,7 @@
       "description": "CodeQL and AI‑powered detections work together in GitHub Code Security to identify vulnerabilities across more languages and frameworks. The post GitHub expands application security coverage with...",
       "pub_date": "Mon, 23 Mar 2026 16:00:00 +0000",
       "source": "GitHub Security",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -519,6 +718,7 @@
       "description": "See how GitHub is investing in open source security funding maintainers, partnering with Alpha-Omega, and expanding access to help reduce burden and strengthen software supply chains. The post Inve...",
       "pub_date": "Tue, 17 Mar 2026 16:00:00 +0000",
       "source": "GitHub Security",
+      "tier": 4,
       "image_url": ""
     },
     {
@@ -527,6 +727,7 @@
       "description": "CISA is aware of global reports that malicious cyber actors have targeted internet-accessible Fortinet devices across government and private sector organizations using compromised credentials. This...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -535,6 +736,7 @@
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to upload malicious .ctl files that may lead to arbitrary code execution. The following versions of AzeoTech ...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -543,6 +745,7 @@
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain sensitive health-related information and prevent legitimate users from establishing a connection...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -551,6 +754,7 @@
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition in the affected product by continuously sending a large nu...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -559,6 +763,7 @@
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition in the affected product by rapidly establishing a large nu...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -567,6 +772,7 @@
       "description": "View CSAF Summary Schneider Electric is aware of vulnerabilities in its PowerChute™ Serial Shutdown product. The [PowerChute Serial Shutdown](https://www.se.com/ww/en/product-range/137943580-powe...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -575,6 +781,7 @@
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-20253 Splunk Enterprise Missing Authentication for Cri...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -583,6 +790,7 @@
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain a valid authentication token, perform a denial of service, or crash the system. The following ve...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -591,6 +799,7 @@
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow arbitrary code execution. The following versions of AVer PTC cameras are affected:  PTC500S vers:all/* (CVE-2026-40624) P...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -599,6 +808,7 @@
       "description": "View CSAF Summary Successful exploitation this vulnerability could allow an attacker to gain unauthorized access to sensitive files The following versions of Schneider Electric EasyLogic T150 and S...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -607,6 +817,7 @@
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, account takeover, and cause loss of availability. The following versions of R...",
       "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -615,6 +826,7 @@
       "description": "View CSAF Summary Successful exploitation of this vulnerability could cause a denial-of-service condition that may result in a major nonrecoverable fault (MNRF). The following versions of Rockwell ...",
       "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -623,6 +835,7 @@
       "description": "View CSAF Summary Successful exploitation of this vulnerability can lead to a denial of service, where the application will become unresponsive and will not recover on its own. The following versio...",
       "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -631,6 +844,7 @@
       "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker executing privileged operations. The following versions of Rockwell Automation FactoryTalk Analytics Pavi...",
       "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -639,6 +853,7 @@
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation CompactLogix are aff...",
       "pub_date": "Tue, 16 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     }
   ]
