@@ -193,7 +193,7 @@ func fetchEPSS(cveIDs []string) map[string]float64 {
 			end = len(cveIDs)
 		}
 		batch := cveIDs[i:end]
-		url := "https://api.first.org/data/1.0/epss?cve=" + strings.Join(batch, ",")
+		url := "https://api.first.org/data/v1/epss?cve=" + strings.Join(batch, ",")
 
 		resp, err := client.Get(url)
 		if err != nil {
@@ -287,19 +287,38 @@ func main() {
 	}
 	sort.Strings(allIDs)
 	epssScores := fetchEPSS(allIDs)
+	if len(dictionary) > 0 && len(epssScores) == 0 {
+		if strings.EqualFold(os.Getenv("ALLOW_EMPTY_EPSS"), "true") {
+			log.Printf("[!] EPSS enrichment returned 0 records; continuing due to ALLOW_EMPTY_EPSS=true")
+		} else {
+			log.Fatal("[-] EPSS enrichment returned 0 records; refusing to publish silently broken intel. Set ALLOW_EMPTY_EPSS=true only for emergency bypass.")
+		}
+	}
 	enriched := 0
+	kevMatched := 0
 	for id, intel := range dictionary {
+		if intel.KEV {
+			kevMatched++
+		}
 		if score, ok := epssScores[id]; ok {
 			intel.EPSS = score
 			dictionary[id] = intel
 			enriched++
 		}
 	}
-	log.Printf("  -> EPSS scores applied to %d/%d CVEs.", enriched, len(dictionary))
+	epssCoverage := 0.0
+	if len(dictionary) > 0 {
+		epssCoverage = (float64(enriched) / float64(len(dictionary))) * 100.0
+	}
+	log.Printf("  -> EPSS records loaded: %d", len(epssScores))
+	log.Printf("  -> EPSS scores applied to %d/%d CVEs (%.2f%% coverage).", enriched, len(dictionary), epssCoverage)
+	log.Printf("  -> KEV matched: %d/%d CVEs.", kevMatched, len(dictionary))
 
 	// ── Write output ─────────────────────────────────────────
 	writeIntelByYear(dictionary)
 	elapsed := time.Since(start).Round(time.Millisecond)
+	log.Printf("[+] Enrichment summary: CVEs processed=%d, NVD matched=%d, KEV matched=%d, EPSS matched=%d, EPSS coverage=%.2f%%",
+		len(allIDs), len(dictionary), kevMatched, enriched, epssCoverage)
 	log.Printf("[+] Done in %s. Dictionary: %d signatures.", elapsed, len(dictionary))
 }
 

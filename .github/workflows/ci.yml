@@ -22,3 +22,7 @@ jobs:
           go build cvemapping.go
           go build nvd_scraper.go
           go build news_scraper.go
+          go build validate.go
+
+      - name: Validate dataset integrity
+        run: go run validate.go
