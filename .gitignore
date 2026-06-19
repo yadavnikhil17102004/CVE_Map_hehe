@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local editor / workspace state
+.obsidian/
+.vscode/
+.idea/
+CLAUDE.md
+
+# Go build outputs
+bin/
+cvemapping
+nvd_scraper
+news_scraper
+*.exe
+*.out
+*.test
+
+# Downloaded helper binaries / generated artifacts
+tailwindcss-macos-x64
+stitch/
