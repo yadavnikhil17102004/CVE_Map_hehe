@@ -84,8 +84,8 @@
     <div class="relative hidden lg:block ml-2">
       <span class="material-symbols-outlined absolute left-2.5 top-1/2 -translate-y-1/2 text-gray-500 text-sm">search</span>
       <input id="search-input"
-        class="bg-surface-2 border border-border focus:border-primary focus:ring-1 focus:ring-primary rounded pl-8 pr-3 py-1.5 text-xs text-white placeholder-gray-500 w-48 xl:w-56 transition-all outline-none"
-        placeholder="Search CVEs or Repositories..." type="text"/>
+        class="bg-surface-2 border border-border focus:border-primary focus:ring-1 focus:ring-primary rounded pl-8 pr-3 py-1.5 text-xs text-white placeholder-gray-500 w-64 xl:w-80 transition-all outline-none"
+        placeholder="Search CVEs, repos, language, topics..." type="text"/>
     </div>
     <a id="api-link" href="data/2026.json" target="_blank"
       class="flex items-center gap-1.5 px-2.5 py-1.5 rounded border border-border text-xs font-medium hover:bg-surface-2 transition-colors text-gray-300">
@@ -232,17 +232,47 @@
 
       <!-- CVE TABLE -->
       <div class="glass rounded-lg overflow-hidden flex flex-col" style="min-height:380px">
-        <div class="px-4 py-3 border-b border-border flex items-center justify-between bg-surface-2/30">
-          <h2 id="table-title" class="text-sm font-bold text-white flex items-center gap-2">
-            <span class="w-1.5 h-5 bg-primary rounded-sm"></span>
-            Compiled Exploits &amp; Proofs-of-Concept
-          </h2>
-          <div class="flex gap-2 items-center">
-            <!-- Mobile search -->
-            <input id="search-mobile"
-              class="md:hidden bg-surface-2 border border-border focus:border-primary rounded px-2 py-1 text-xs text-white placeholder-gray-500 w-36 outline-none"
-              placeholder="Search..." type="text"/>
-            <span id="result-count" class="text-[10px] text-dim font-mono hidden md:block"></span>
+        <div class="px-4 py-3 border-b border-border flex flex-col gap-3 bg-surface-2/30">
+          <div class="flex items-start justify-between gap-3 flex-col lg:flex-row lg:items-center">
+            <div class="space-y-1">
+              <h2 id="table-title" class="text-sm font-bold text-white flex items-center gap-2">
+                <span class="w-1.5 h-5 bg-primary rounded-sm"></span>
+                Compiled Exploits &amp; Proofs-of-Concept
+              </h2>
+              <p class="text-[10px] text-dim font-mono leading-relaxed">
+                Search CVEs, repo names, owners, language, topics, and NVD intel. Click a row for details.
+              </p>
+            </div>
+            <div class="flex flex-col gap-2 w-full lg:w-auto">
+              <div class="flex gap-2 items-center w-full lg:justify-end">
+                <!-- Mobile search -->
+                <input id="search-mobile"
+                  class="md:hidden flex-1 bg-surface-2 border border-border focus:border-primary rounded px-2 py-1 text-xs text-white placeholder-gray-500 min-w-0 outline-none"
+                  placeholder="Search CVE / repo / topic..." type="text"/>
+                <span id="result-count" class="text-[10px] text-dim font-mono hidden md:block whitespace-nowrap"></span>
+              </div>
+              <div class="flex flex-wrap items-center gap-2 w-full lg:justify-end">
+                <select id="severity-filter" onchange="setSeverityFilter(this.value)"
+                  class="bg-surface-2 border border-border text-[10px] text-dim rounded px-2 py-1.5 focus:outline-none focus:border-primary transition-colors cursor-pointer">
+                  <option value="all">All Severities</option>
+                  <option value="critical">Critical</option>
+                  <option value="high">High</option>
+                  <option value="medium">Medium</option>
+                  <option value="low">Low</option>
+                  <option value="unscored">Unscored</option>
+                </select>
+                <select id="kev-filter" onchange="setKevFilter(this.value)"
+                  class="bg-surface-2 border border-border text-[10px] text-dim rounded px-2 py-1.5 focus:outline-none focus:border-primary transition-colors cursor-pointer">
+                  <option value="all">All Intel</option>
+                  <option value="only">KEV only</option>
+                  <option value="exclude">Exclude KEV</option>
+                </select>
+                <button id="clear-filters" onclick="clearFilters()"
+                  class="px-2 py-1.5 rounded border border-border text-[10px] font-medium text-gray-300 hover:bg-surface-2 hover:text-white transition-colors">
+                  Clear
+                </button>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -324,6 +354,8 @@ let maxStars      = 1;
 let sortKey       = 'date'; // 'id' | 'activity' | 'stars' | 'date'
 let sortDir       = 'desc';  // 'asc' | 'desc'
 let typeFilter    = 'all';   // exploit type filter
+let severityFilter = 'all';  // critical | high | medium | low | unscored
+let kevFilter     = 'all';   // all | only | exclude
 let yearCache     = {};      // cache of all fetched year data for global search
 let nvdCache      = {};      // per-year NVD intel cache
 
@@ -337,6 +369,81 @@ async function loadNvdIntel(year) {
   }
   return nvdCache[year];
 }
+
+function getSeverityGroup(score) {
+  if (score >= 9.0) return 'critical';
+  if (score >= 7.0) return 'high';
+  if (score >= 4.0) return 'medium';
+  if (score > 0) return 'low';
+  return 'unscored';
+}
+
+function getSeverityGroupForCve(cveId, intel = null) {
+  const score = intel?.[cveId]?.s || 0;
+  return getSeverityGroup(score);
+}
+
+function buildSearchText(cve, intel = null) {
+  const repos = cve.repositories || [];
+  const repoBits = repos.flatMap(r => [
+    r.full_name,
+    r.name,
+    r.description,
+    r.language,
+    r.owner?.login,
+    Array.isArray(r.topics) ? r.topics.join(' ') : ''
+  ]);
+  const intelBits = intel?.[cve.cve_id] ? [
+    intel[cve.cve_id].d,
+    intel[cve.cve_id].v,
+    intel[cve.cve_id].c,
+    intel[cve.cve_id].w,
+    intel[cve.cve_id].k ? 'kev cisa known exploited' : '',
+    intel[cve.cve_id].s ? `cvss ${intel[cve.cve_id].s}` : ''
+  ] : [];
+  return [cve.cve_id, ...repoBits, ...intelBits].filter(Boolean).join(' ').toLowerCase();
+}
+
+function matchesFilters(cve, intel = null) {
+  const sev = getSeverityGroupForCve(cve.cve_id, intel);
+  const kev = !!intel?.[cve.cve_id]?.k;
+
+  if (severityFilter !== 'all' && sev !== severityFilter) return false;
+  if (kevFilter === 'only' && !kev) return false;
+  if (kevFilter === 'exclude' && kev) return false;
+  return true;
+}
+
+function getCurrentSearchQuery() {
+  return document.getElementById('search-input')?.value.trim() ||
+         document.getElementById('search-mobile')?.value.trim() || '';
+}
+
+function refreshCurrentView() {
+  const q = getCurrentSearchQuery();
+  if (q) globalSearch(q);
+  else renderList('');
+}
+
+function syncFilterControls() {
+  const controls = {
+    'type-filter': typeFilter,
+    'severity-filter': severityFilter,
+    'kev-filter': kevFilter,
+  };
+  Object.entries(controls).forEach(([id, value]) => {
+    const el = document.getElementById(id);
+    if (el && el.value !== value) el.value = value;
+  });
+  const clearBtn = document.getElementById('clear-filters');
+  if (clearBtn) {
+    const active = typeFilter !== 'all' || severityFilter !== 'all' || kevFilter !== 'all';
+    clearBtn.classList.toggle('text-white', active);
+    clearBtn.classList.toggle('border-primary', active);
+    clearBtn.classList.toggle('text-gray-300', !active);
+  }
+}
+
 const YEARS       = Array.from({length: new Date().getFullYear() - 2014}, (_,i) => 2015 + i);
 
 // ============================================================
@@ -346,6 +453,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   buildYearGrid();
 
   await loadYear(currentYear);
+  syncFilterControls();
 
   // Wire search inputs — global cross-year search when query is typed
   ['search-input','search-mobile'].forEach(id => {
@@ -359,10 +467,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         const sel = document.getElementById(sid);
         if (sel && sel !== e.target) sel.value = q;
       });
-      searchTimer = setTimeout(() => {
-        if (q) globalSearch(q);
-        else   renderList('');
-      }, 280);
+      searchTimer = setTimeout(refreshCurrentView, 240);
+    });
+  });
+
+  ['type-filter','severity-filter','kev-filter'].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.addEventListener('change', () => {
+      syncFilterControls();
+      refreshCurrentView();
     });
   });
 });
@@ -535,6 +649,9 @@ function setEmpty(msg, query = '') {
     <div class="flex flex-col items-center justify-center py-14 text-dim text-sm gap-2">
       <span class="material-symbols-outlined text-2xl">cloud_off</span>
       <p class="text-center max-w-xs">${msg}</p>
+      <p class="text-center max-w-sm text-[10px] font-mono text-gray-500 leading-relaxed">
+        Try: CVE-2024-xxxx, "rce", repo owner/name, language, or toggle the severity / KEV filters.
+      </p>
     </div>`;
 }
 
@@ -610,19 +727,37 @@ function setSort(key) {
   if (sortKey === key) sortDir = sortDir === 'desc' ? 'asc' : 'desc';
   else { sortKey = key; sortDir = 'desc'; }
   updateSortUI();
-  const q = document.getElementById('search-input')?.value.trim() || '';
-  if (q) globalSearch(q);
-  else   renderList('');
+  refreshCurrentView();
 }
 
 function setTypeFilter(val) {
   typeFilter = val;
-  // Visually highlight the header when a filter is active
-  const sel = document.getElementById('type-filter');
-  if (sel) sel.classList.toggle('text-primary', val !== 'all');
-  const q = document.getElementById('search-input')?.value.trim() || '';
-  if (q) globalSearch(q);
-  else   renderList('');
+  syncFilterControls();
+  refreshCurrentView();
+}
+
+function setSeverityFilter(val) {
+  severityFilter = val;
+  syncFilterControls();
+  refreshCurrentView();
+}
+
+function setKevFilter(val) {
+  kevFilter = val;
+  syncFilterControls();
+  refreshCurrentView();
+}
+
+function clearFilters() {
+  typeFilter = 'all';
+  severityFilter = 'all';
+  kevFilter = 'all';
+  ['search-input', 'search-mobile'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.value = '';
+  });
+  syncFilterControls();
+  refreshCurrentView();
 }
 
 function updateSortUI() {
@@ -672,6 +807,7 @@ function sortList(list) {
 // GLOBAL CROSS-YEAR SEARCH
 // ============================================================
 async function globalSearch(q) {
+  const query = q.toLowerCase();
   setLoading(`Searching all years for "${q}"...`);
   document.getElementById('result-count').textContent = 'searching...';
 
@@ -685,32 +821,28 @@ async function globalSearch(q) {
   });
   await Promise.all(fetches);
 
-  // Search across all years
-  const query = q.toLowerCase();
+  const needsIntel = severityFilter !== 'all' || kevFilter !== 'all' || /\b(cvss|cwe|kev|nvd|nist|critical|high|medium|low)\b/.test(query);
+  if (needsIntel) {
+    await Promise.all(YEARS.map(async y => {
+      if (!(y in nvdCache)) await loadNvdIntel(y);
+    }));
+  }
+
   const results = []; // { cve_id, repositories, _year }
 
   YEARS.forEach(y => {
     const ydata = yearCache[y];
     if (!ydata?.cves) return;
+    const intel = nvdCache[y] || null;
     ydata.cves.forEach(cve => {
-      if (
-        cve.cve_id.toLowerCase().includes(query) ||
-        (cve.repositories||[]).some(r =>
-          (r.full_name||'').toLowerCase().includes(query) ||
-          (r.description||'').toLowerCase().includes(query)
-        )
-      ) {
+      if (!matchesFilters(cve, intel)) return;
+      if (buildSearchText(cve, intel).includes(query)) {
         results.push({ ...cve, _year: y });
       }
     });
   });
 
-  // Apply type filter
-  const filtered = typeFilter === 'all'
-    ? results
-    : results.filter(c => getType(c.cve_id, c.repositories||[])[0] === typeFilter);
-
-  const sorted = sortList(filtered);
+  const sorted = sortList(results);
   maxStars = sorted.length
     ? Math.max(1, ...sorted.map(c =>
         (c.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0)))
@@ -719,29 +851,22 @@ async function globalSearch(q) {
   document.getElementById('result-count').textContent =
     `${sorted.length.toLocaleString()} across all years`;
 
-  if (!sorted.length) { setEmpty(`No CVEs match "${q}" across any year.`, q); return; }
+  if (!sorted.length) {
+    setEmpty(`No CVEs match "${q}" with the active filters.`, q);
+    return;
+  }
   renderRows(sorted, true);
 }
 
 function renderList(q = '') {
   if (!currentData?.cves) return;
   const query = q.toLowerCase();
+  const intel = nvdLayer || null;
 
-  let list = currentData.cves;
-  if (query) {
-    list = list.filter(c =>
-      c.cve_id.toLowerCase().includes(query) ||
-      (c.repositories||[]).some(r =>
-        (r.full_name||'').toLowerCase().includes(query) ||
-        (r.description||'').toLowerCase().includes(query)
-      )
-    );
-  }
-
-  // Apply type filter
-  if (typeFilter !== 'all') {
-    list = list.filter(c => getType(c.cve_id, c.repositories||[])[0] === typeFilter);
-  }
+  let list = currentData.cves.filter(cve => {
+    if (!matchesFilters(cve, intel)) return false;
+    return !query || buildSearchText(cve, intel).includes(query);
+  });
 
   const sorted = sortList(list);
   maxStars = sorted.length
@@ -752,7 +877,7 @@ function renderList(q = '') {
   document.getElementById('result-count').textContent =
     `${sorted.length.toLocaleString()} result${sorted.length!==1?'s':''}`;
 
-  if (!sorted.length) { setEmpty('No CVEs match your search.', q); return; }
+  if (!sorted.length) { setEmpty('No CVEs match your search or active filters.', q); return; }
   renderRows(sorted, false);
 }
 

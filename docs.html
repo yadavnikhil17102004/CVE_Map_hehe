@@ -338,10 +338,10 @@
       
       Promise.all([
         fetch(`data/${currentYear}.json`).then(r => r.json()).catch(() => null),
-        fetch(`data/nvd_intel.json`).then(r => r.json()).catch(() => null)
-      ]).then(([dataCurr, nvdData]) => {
+        fetch(`data/nvd_intel_${currentYear}.json`).then(r => r.json()).catch(() => null)
+      ]).then(([dataCurr, nvdCurr]) => {
         const cves = dataCurr?.cves || [];
-        const nvdLayer = nvdData || {};
+        const nvdLayer = nvdCurr || {};
 
         const hourlyData = new Array(24).fill(0);
         let crit = 0, high = 0, med = 0, unk = 0;

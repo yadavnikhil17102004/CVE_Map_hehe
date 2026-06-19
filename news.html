@@ -126,8 +126,8 @@
           <p class="text-xs text-dim mt-1 font-mono">Aggregating vulnerability & breach signals in real-time.</p>
         </div>
         
-        <div class="flex items-center gap-3">
-          <select id="tier-filter" class="bg-surface border border-border text-sm text-dim rounded-lg px-3 py-2 focus:outline-none focus:border-primary transition-colors cursor-pointer appearance-none text-center">
+        <div class="flex flex-col sm:flex-row sm:items-center gap-3 w-full lg:w-auto">
+          <select id="tier-filter" class="w-full sm:w-auto bg-surface border border-border text-sm text-dim rounded-lg px-3 py-2 focus:outline-none focus:border-primary transition-colors cursor-pointer appearance-none text-center">
             <option value="all">All Intelligence</option>
             <option value="1">Tier 1: Raw Vulns</option>
             <option value="2">Tier 2: PoC Databases</option>
@@ -135,9 +135,9 @@
             <option value="4">Tier 4: Bleeding-Edge</option>
             <option value="5">Tier 5: Hacker Social</option>
           </select>
-          <div class="relative">
+          <div class="relative w-full sm:w-auto">
             <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-dim text-sm">search</span>
-            <input type="text" id="news-search" placeholder="Search keywords..." class="bg-surface border border-border text-sm text-white rounded-lg pl-9 pr-4 py-2 w-64 focus:outline-none focus:border-primary transition-colors placeholder-dim">
+            <input type="text" id="news-search" placeholder="Search title, source, keywords..." class="w-full sm:w-64 bg-surface border border-border text-sm text-white rounded-lg pl-9 pr-4 py-2 focus:outline-none focus:border-primary transition-colors placeholder-dim">
           </div>
         </div>
       </div>
@@ -185,9 +185,16 @@
         const search = filterQuery.toLowerCase();
         
         const filtered = allArticles.filter(a => {
-            const matchesSearch = a.title.toLowerCase().includes(search) || 
-                                  a.description.toLowerCase().includes(search) || 
-                                  a.source.toLowerCase().includes(search);
+            const haystack = [
+              a.title,
+              a.description,
+              a.source,
+              a.link,
+              String(a.tier),
+              `tier ${a.tier}`,
+              a.pub_date
+            ].filter(Boolean).join(' ').toLowerCase();
+            const matchesSearch = !search || haystack.includes(search);
             const matchesTier = activeTier === 'all' || a.tier == activeTier;
             return matchesSearch && matchesTier;
         });

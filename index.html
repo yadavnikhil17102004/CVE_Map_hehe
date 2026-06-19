@@ -250,10 +250,11 @@
       Promise.all([
         fetch(`data/${currentYear}.json`).then(r => r.json()).catch(() => null),
         fetch(`data/${currentYear - 1}.json`).then(r => r.json()).catch(() => null),
-        fetch(`data/nvd_intel.json`).then(r => r.json()).catch(() => null)
-      ]).then(([dataCurr, dataPrev, nvdData]) => {
+        fetch(`data/nvd_intel_${currentYear}.json`).then(r => r.json()).catch(() => null),
+        fetch(`data/nvd_intel_${currentYear - 1}.json`).then(r => r.json()).catch(() => null)
+      ]).then(([dataCurr, dataPrev, nvdCurr, nvdPrev]) => {
         const allCves = [...(dataCurr?.cves || []), ...(dataPrev?.cves || [])];
-        const nvdLayer = nvdData || {};
+        const nvdLayer = { ...(nvdPrev || {}), ...(nvdCurr || {}) };
         
         const counts = Array(12).fill(0);
         const critCounts = Array(12).fill(0);

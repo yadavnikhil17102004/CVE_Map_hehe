@@ -1,78 +1,114 @@
-<div align="center">
-  <h1>🗺️  C V E &nbsp; M A P</h1>
-  <p><b>Autonomous GitHub Exploit Intelligence — Live & Updated Every 6 Hours</b></p>
-  <br>
+# CVE Map
 
-[![Live Dashboard](https://img.shields.io/badge/Dashboard-LIVE-66FCF1?style=for-the-badge&logo=github)](https://yadavnikhil17102004.github.io/CVE_Map_hehe/)
-[![Engine](https://img.shields.io/badge/Engine-Go_1.25-00ADD8?style=for-the-badge&logo=go)](https://golang.org/)
-[![NVD](https://img.shields.io/badge/Intel-NVD_API_v2.0-red?style=for-the-badge)](https://nvd.nist.gov/)
-[![Sync](https://img.shields.io/badge/Sync-Every_6_Hours-success?style=for-the-badge&logo=githubactions)](https://github.com/features/actions)
+Autonomous threat-intelligence dashboard that maps real-world GitHub CVE exploit PoCs to NVD/CISA intelligence and serves it as a static website.
 
-### 🌐 [→ Open the Live Dashboard](https://yadavnikhil17102004.github.io/CVE_Map_hehe/)
+Live site:
+- Dashboard: https://yadavnikhil17102004.github.io/CVE_Map_hehe/
+- News feed: https://yadavnikhil17102004.github.io/CVE_Map_hehe/news.html
+- Docs: https://yadavnikhil17102004.github.io/CVE_Map_hehe/docs.html
 
-</div>
+## Why this exists
 
----
+Most CVE feeds tell you what is vulnerable. They do not tell you what already has public exploit activity.
 
-## What is CVE Map?
+CVE Map closes that gap by continuously collecting:
+- GitHub exploit/PoC repository activity
+- NVD CVSS/CWE metadata
+- CISA KEV exploitation status
+- Hourly cybersecurity news signals
 
-CVE Map is an automated threat intelligence aggregator that scrapes GitHub for real-world CVE exploit repositories, maps them to NVD vulnerability data, and serves everything as a live dashboard — no accounts, no API keys, no setup required.
+No backend. No database. No paid infra. Everything is static JSON + GitHub Pages.
 
-Every **6 hours**, a Go engine automatically:
+## Key features
 
-1. Searches GitHub for repositories documenting CVEs (PoCs, exploits, writeups)
-2. Pulls CVSS scores, CWE IDs, and CISA KEV status from the NVD API
-3. Commits the results as static JSON files that are instantly queryable
+- Global CVE/PoC search across years
+- Dashboard filters for:
+  - Type (PoC / Exploit / General)
+  - Severity (Critical / High / Medium / Low / Unscored)
+  - KEV status (All / KEV only / Exclude KEV)
+- NVD side panel with CVSS, vector, CWE, source, KEV badge, EPSS (when available)
+- Year timeline + trend charts + live activity feed
+- Responsive news interface with tier filtering + keyword search
+- Optimized frontend loading via year-scoped NVD intel files (`nvd_intel_YYYY.json`)
 
----
+## Quick start (local)
 
-## Dashboard Features
+Requirements:
+- Go 1.25+
+- Python 3
+- Optional: `NVD_API_KEY`, `SYNC_TOKEN`
 
-| Feature                  | Description                                                              |
-| ------------------------ | ------------------------------------------------------------------------ |
-| **Year Timeline**        | Browse exploit data from 2015 through today                              |
-| **Sortable Table**       | Click any column — CVE ID, Type, Activity, Stars — to sort asc/desc      |
-| **Global Search**        | Searches across all years simultaneously                                 |
-| **NVD Intel Panel**      | Click any CVE for full details: CVSS score, vector, CWE, CISA KEV status |
-| **Exploit Trends Chart** | Monthly repo push activity timeline                                      |
-| **Severity Donut**       | CRITICAL / HIGH / MEDIUM / UNSCORED distribution                         |
-| **Live Activity Feed**   | Most recently pushed exploit repos in real-time                          |
-| **🔴 CISA KEV Badge**    | Flags CVEs confirmed exploited in the wild                               |
-
----
-
-## Public API (Free, No Key Required)
-
-The scraped data is served as static JSON via GitHub Pages — use it in your own tools.
+Run local site:
 
 ```bash
-# All CVE exploit mappings for a given year
-curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/2026.json | jq '.cves[].cve_id'
-
-# NVD intel for a specific CVE (score, severity, vector, CWE, CISA KEV)
-curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/nvd_intel.json | jq '."CVE-2025-55182"'
-
-# Live Cybersecurity News Feed
-curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/news.json | jq '.articles[] | .title'
+./start.sh
+# serves at http://localhost:8000
 ```
 
-### Data Schema
+Run scrapers manually:
 
-**`data/{year}.json`**
+```bash
+# CVE GitHub mapping
+go build cvemapping.go
+./cvemapping -github-token="$SYNC_TOKEN"
+
+# NVD/CISA enrichment
+go build nvd_scraper.go
+./nvd_scraper -nvd-key="$NVD_API_KEY"
+
+# Cybersecurity news feed
+go build news_scraper.go
+./news_scraper
+```
+
+Build sanity check:
+
+```bash
+go build cvemapping.go && go build nvd_scraper.go && go build news_scraper.go
+```
+
+## Data endpoints
+
+Base URL:
+`https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/`
+
+Core files:
+- `YYYY.json` — CVE ↔ GitHub repo mappings for that year
+- `nvd_intel_YYYY.json` — year-scoped compact NVD intel (frontend-optimized)
+- `nvd_intel.json` — aggregate intel map (backward compatibility)
+- `news.json` — hourly curated news feed
+
+Example usage:
+
+```bash
+# CVEs for a year
+curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/2026.json | jq '.cves[0]'
+
+# Year-scoped NVD intel
+curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/nvd_intel_2026.json | jq 'to_entries[0]'
+
+# News feed
+curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/news.json | jq '.articles[:3]'
+```
+
+## Data schema
+
+`data/{year}.json`
 
 ```json
 {
-  "year": 2025,
+  "year": 2026,
   "cves": [
     {
-      "cve_id": "CVE-2025-55182",
+      "cve_id": "CVE-2026-XXXX",
       "repositories": [
         {
-          "full_name": "user/repo",
-          "html_url": "https://github.com/user/repo",
-          "description": "PoC exploit for CVE-2025-55182",
+          "full_name": "owner/repo",
+          "html_url": "https://github.com/owner/repo",
+          "description": "PoC details",
           "stargazers_count": 42,
-          "pushed_at": "2025-12-10T18:30:00Z"
+          "language": "Python",
+          "pushed_at": "2026-01-01T00:00:00Z"
         }
       ]
     }
@@ -80,69 +116,96 @@ curl -s https://yadavnikhil17102004.github.io/CVE_Map_hehe/data/news.json | jq '
 }
 ```
 
-**`data/nvd_intel.json`**
+`data/nvd_intel_YYYY.json` and `data/nvd_intel.json` (compact keys)
 
 ```json
 {
-  "CVE-2025-55182": {
-    "s": 10.0,
+  "CVE-2026-XXXX": {
+    "s": 9.8,
     "v": "CRITICAL",
-    "d": "A pre-authentication RCE vulnerability in React Server Components...",
-    "c": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
-    "w": "CWE-502",
+    "d": "Description",
+    "c": "CVSS:3.1/...",
+    "w": "CWE-79",
     "k": true,
-    "r": "CNA",
-    "p": "2025-12-03"
+    "r": "NIST",
+    "p": "2026-01-01",
+    "e": 0.42
   }
 }
 ```
 
-| Key | Field           | Example               |
-| --- | --------------- | --------------------- |
-| `s` | CVSS Base Score | `10.0`                |
-| `v` | Severity        | `CRITICAL`            |
-| `d` | Description     | `"A pre-auth RCE..."` |
-| `c` | CVSS Vector     | `"CVSS:3.1/AV:N/..."` |
-| `w` | CWE ID          | `"CWE-502"`           |
-| `k` | CISA KEV        | `true`                |
-| `r` | Score Source    | `"NIST"` or `"CNA"`   |
-| `p` | Published Date  | `"2025-12-03"`        |
-
----
+Key map:
+- `s` score
+- `v` severity
+- `d` description
+- `c` CVSS vector
+- `w` CWE
+- `k` KEV flag
+- `r` score source
+- `p` publish date
+- `e` EPSS probability (optional)
 
 ## Architecture
 
-```
-GitHub Actions (every 6h)
-├── cvemapping.go     → Searches GitHub API for CVE-tagged repos
-│                       Handles >1000 results via monthly chunking
-│                       Exports → data/{year}.json
-│
-├── nvd_scraper.go    → Phase 1: NVD 180-day modification window
-│                       Phase 2: Targeted backfill for unscored CVEs
-│                       Exports → data/nvd_intel.json
-│
-└── news_scraper.go   → Scrapes top cybersecurity RSS feeds concurrently
-                        Cleans formatting and normalizes structure
-                        Exports → data/news.json
+Three independent Go scrapers produce static JSON consumed by vanilla JS pages.
 
-GitHub Pages serves all JSON as a zero-cost CDN
-Dashboard (index.html) fetches JSON → renders UI client-side
-No server. No database. No backend.
+```text
+GitHub API  --> cvemapping.go --> data/YYYY.json
+NVD API     --> nvd_scraper.go --> data/nvd_intel*.json
+RSS feeds   --> news_scraper.go --> data/news.json
+
+GitHub Pages serves static assets
+index.html / dashboard.html / news.html / docs.html render client-side
 ```
 
----
+Design constraints:
+- Static hosting only (GitHub Pages)
+- No backend runtime
+- No external Go deps (stdlib-only scrapers)
 
-## Fork & Deploy Your Own
+## Automation (GitHub Actions)
 
-1. **Fork** this repository
-2. **Enable GitHub Actions**: Settings → Actions → General → Allow all actions
-3. **Add Secrets** (Settings → Secrets → Actions):
-   - `SYNC_TOKEN` — GitHub Personal Access Token with `repo` scope
-   - `NVD_API_KEY` — [Free from NVD](https://nvd.nist.gov/developers/request-an-api-key) (10x speed boost)
-4. **Enable GitHub Pages**: Settings → Pages → Deploy from branch `main` at `/`
-5. **Run the workflow** manually from the Actions tab — first run builds the full database
+- `.github/workflows/scrape.yml`
+  - Runs every 6 hours
+  - Builds + runs `cvemapping.go` and `nvd_scraper.go`
+  - Commits updated `data/` JSON
 
----
+- `.github/workflows/news.yml`
+  - Runs hourly
+  - Builds + runs `news_scraper.go`
+  - Commits only `data/news.json`
 
-> _"Secure by design is nice, but secure by penetration testing is truth."_
+Separated workflows reduce cross-job data races.
+
+## Required secrets
+
+Set in: `Settings -> Secrets and variables -> Actions`
+
+- `SYNC_TOKEN` (required): GitHub token used by scraper workflow for authenticated API access
+- `NVD_API_KEY` (recommended): faster NVD throughput and fewer rate-limit stalls
+
+## Frontend performance notes
+
+Recent optimization:
+- `index.html` and `docs.html` fetch year-scoped intel files instead of loading the monolithic `nvd_intel.json` upfront.
+
+Result:
+- lower initial payload
+- faster first render for dashboard analytics
+
+## Troubleshooting
+
+- Empty/slow CVE updates:
+  - verify `SYNC_TOKEN`
+  - check GitHub API rate limits
+- Sparse NVD enrichments:
+  - add/validate `NVD_API_KEY`
+  - NVD outages can delay fields temporarily
+- Charts not rendering:
+  - verify `data/*.json` exists and is valid JSON
+  - open browser devtools console for fetch errors
+
+## Ethics and intended use
+
+This project is for defensive threat intelligence, prioritization, and security research.
+Do not use it for unauthorized exploitation or illegal access.
