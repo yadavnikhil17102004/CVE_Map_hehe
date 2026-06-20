@@ -29,5 +29,11 @@ jobs:
           git config --local user.name "GitHub Action Bot"
           # Only commit the news file to prevent race conditions with the CVE scraper
           git add data/news.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "data: hourly live news feed intelligence update"
-          git push
+          if ! git diff --quiet || ! git diff --staged --quiet; then
+            git commit -m "data: hourly live news feed intelligence update"
+            # Rebase in case the scraper workflow pushed while this run was executing
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo "No news deltas. Skipping push."
+          fi

@@ -49,7 +49,9 @@ jobs:
           # Only commit if there are changes
           if ! git diff-index --quiet HEAD; then
             git commit -m "chore(data): Automated upstream exploit sync [skip ci]"
-            git push
+            # Rebase in case another workflow advanced main while this long job was running
+            git pull --rebase origin main
+            git push origin HEAD:main
           else
             echo "No new CVEs discovered. Skipping push."
           fi
