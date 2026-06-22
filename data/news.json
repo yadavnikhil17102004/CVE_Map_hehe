@@ -1,6 +1,60 @@
 {
-  "last_updated": "2026-06-22T18:41:36Z",
+  "last_updated": "2026-06-22T21:28:54Z",
   "articles": [
+    {
+      "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
+      "link": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+      "description": "A newly disclosed FFmpeg flaw dubbed 'PixelSmash' could be exploited for remote code execution on Jellyfin servers under certain conditions, and can also trigger a denial-of-service  condition i...",
+      "pub_date": "Mon, 22 Jun 2026 17:05:01 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "23 ClawHub Plugins Abuse Official Org Scopes to Impersonate Trusted AI Agent Tools",
+      "link": "https://cybersecuritynews.com/23-clawhub-plugins-abuse-official-org-scopes/",
+      "description": "A new supply chain threat has surfaced in the AI agent ecosystem that is both subtle and serious. Researchers uncovered 23 plugins on the ClawHub registry published under official organizational sc...",
+      "pub_date": "Mon, 22 Jun 2026 21:01:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/23-ClawHub-Plugins-Abuse-Official-Org-Scopes-to-Impersonate-Trusted-AI-Agent-Tools.webp"
+    },
+    {
+      "title": "Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection",
+      "link": "https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2/",
+      "description": "A newly discovered malware campaign is targeting Windows systems through a deceptive package on the npm registry. Disguised as a legitimate CSS build tool, the malicious package quietly installs a ...",
+      "pub_date": "Mon, 22 Jun 2026 21:00:01 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Windows-RAT-Uses-Encrypted-HTTP-C2-and-Registry-Persistence-After-npm-Infection.webp"
+    },
+    {
+      "title": "Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader",
+      "link": "https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat/",
+      "description": "A sophisticated phishing campaign is actively targeting users in India by disguising malware as a routine GST debit note. The attack delivers a powerful remote access tool called Remcos RAT through...",
+      "pub_date": "Mon, 22 Jun 2026 20:57:09 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Malicious-GST-Debit-Note-Attachment-Deploys-Remcos-RAT-Through-Multi-Stage-Loader.webp"
+    },
+    {
+      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+      "description": "Security firm SOCRadar says the large-scale FortiBleed campaign targeting Fortinet FortiGate devices used custom sniffers to harvest authentication secrets from compromised firewalls and steal cre...",
+      "pub_date": "Mon, 22 Jun 2026 16:01:02 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",
+      "link": "https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers/",
+      "description": "A newly discovered botnet called AryStinger has quietly hijacked more than 4,300 routers across the globe, turning them into a silent army of attack proxies. The threat actors behind this campaign ...",
+      "pub_date": "Mon, 22 Jun 2026 19:42:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/AryStinger-Botnet-Hijacks-4300-Routers-to-Build-Global-Attack-Proxy-Network.webp"
+    },
     {
       "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
       "link": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
@@ -92,15 +146,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Squidbleed-Vulnerability.webp"
     },
     {
-      "title": "Microsoft’s New Option Allows Organizations to Block Copilot Access to Office Files",
-      "link": "https://cybersecuritynews.com/microsoft-copilot-block-office-files/",
-      "description": "Microsoft has announced a significant update to its Microsoft 365 security and compliance features, introducing enhanced controls that allow organizations to block Copilot and other connected exper...",
-      "pub_date": "Mon, 22 Jun 2026 14:45:31 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-to-Unveil-New-Setting-to-Block-Copilot-from-analyzing-Office-files.webp"
-    },
-    {
       "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
       "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
       "description": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the...",
@@ -146,24 +191,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSdS_7552zEvsn5xVfDcVMG2u8ponFIE1E65j5A8Wx-qUroU49h-f6qF7FPCABA063IjNnw-JntL-L1iZjHpiuqATqkDv-2vpi6lCVG1idXkg_elRJkyoUgASk4uYCTJ95EHfVQLJngVLKOxM2H5zLkdeFY7kpzveHUuKFoks0_ujNo9tJNQxm7XVgYb4/s1600/xmcyber.jpg"
     },
     {
-      "title": "Microsoft has urged IT Admins to Prepare for Windows 11, Version 26H2 Update",
-      "link": "https://cybersecuritynews.com/microsoft-urged-windows-11-26h2-update/",
-      "description": "Microsoft has urged IT administrators to begin preparing for the upcoming Windows 11 version 26H2 update, which is now available for testing through the Windows Insider Program. The release continu...",
-      "pub_date": "Mon, 22 Jun 2026 11:40:37 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-has-urged-IT-admins-to-prepare-for-Windows-11-version-26H2-Update-1.webp"
-    },
-    {
-      "title": "New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers",
-      "link": "https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system/",
-      "description": "A new and active malware campaign is spreading through WhatsApp, targeting everyday Windows users across more than a dozen countries. The threat uses malicious script files disguised as routine fin...",
-      "pub_date": "Mon, 22 Jun 2026 11:36:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-Malware-Attack-Via-WhatsApp-Attacking-Windows-System-to-Enable-Remote-Access-For-Attackers.webp"
-    },
-    {
       "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
       "link": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
       "description": "It’s Monday again.  This week’s threat list looks painfully familiar: abused integrations, fake tools, poisoned websites, ransomware crews trying to shut down security tools, and mobile malware...",
@@ -171,15 +198,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWTle5JU3HMoV1yUzXt6nAYO-EtyfOp22bJldi9N4fwakWmzrwwjBKfQNkprStB3B9K5HyUchIUCoNpGs-Kn2EHwClO7xJOV-qZQeDKFllNQrZ-TYq6OiikJkwi65NdfFcR7XhMTuIpmwSdoglwRcMcI43rLGB1B462ZXhd7nkh-q-FNnpPKoeUyL7bUqs/s1600/recap-main.gif"
-    },
-    {
-      "title": "GitHub Actions Checkout Update Blocks Workflows Triggered by Malicious pull_request_target",
-      "link": "https://cybersecuritynews.com/github-actions-checkout-update-workflow/",
-      "description": "GitHub has rolled out a significant security enhancement to GitHub Actions by updating\u0026#160;actions/checkout\u0026#160;to block unsafe workflows that abuse the\u0026#160;pull_request_target\u0026#160;event. The\u0026#...",
-      "pub_date": "Mon, 22 Jun 2026 10:52:45 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/GitHub-Actions-Checkout-Update-Blocks-Workflows-triggered-by-Malicious-pull_request_target.webp"
     },
     {
       "title": "Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices",
@@ -348,24 +366,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
       "description": "CISA has urged U.S. federal agencies to secure their systems by Sunday against a critical Splunk Enterprise vulnerability that is being exploited in attacks. [...]",
       "pub_date": "Fri, 19 Jun 2026 06:39:58 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "NY man charged after harassing college student with AI-generated nudes",
-      "link": "https://www.bleepingcomputer.com/news/security/new-york-man-faces-cyberstalking-charge-after-sharing-ai-generated-nudes-online/",
-      "description": "A New York man faces cyberstalking charges after allegedly sharing AI-generated nude images and fabricated racist messages using fake social media profiles to harass a Georgia college student. [...]",
-      "pub_date": "Fri, 19 Jun 2026 04:44:08 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed...",
-      "pub_date": "Fri, 19 Jun 2026 02:47:55 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
