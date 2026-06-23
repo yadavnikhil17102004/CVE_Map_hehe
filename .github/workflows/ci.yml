@@ -26,3 +26,30 @@ jobs:
 
       - name: Validate dataset integrity
         run: go run validate.go
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Playwright Chromium
+        run: npx -y playwright@1.55.0 install --with-deps chromium
+
+      - name: Run browser smoke tests
+        run: |
+          mkdir -p artifacts/issue-6
+          python3 -m http.server 8000 --bind 127.0.0.1 >artifacts/issue-6/http-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill $server_pid 2>/dev/null || true' EXIT
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:8000/index.html >/dev/null; then
+              break
+            fi
+            sleep 1
+          done
+          npx -y -p playwright@1.55.0 node scripts/ci/issue-6-smoke.cjs http://127.0.0.1:8000
