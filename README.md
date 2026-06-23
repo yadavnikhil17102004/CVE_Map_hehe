@@ -153,6 +153,43 @@ GitHub Exploit Repos      NVD/CISA KEV         RSS Feeds
 
 Separated workflows reduce cross-job data races.
 
+## Releases
+
+This repository uses semantic version tags: `vMAJOR.MINOR.PATCH`.
+
+Release flow:
+1. Update the docs or data you want in the release.
+2. Commit to `main`.
+3. Create an annotated tag.
+4. Push the tag and publish the GitHub Release from it.
+
+Example:
+
+```bash
+git tag -a v1.1.0 -m "v1.1.0"
+git push origin v1.1.0
+```
+
+Release notes template:
+
+```md
+## v1.1.0
+
+### Added
+- 
+
+### Changed
+- 
+
+### Fixed
+- 
+
+### Notes
+- 
+```
+
+Keep the release notes short and link back to the PRs or issues that were closed.
+
 ## Required secrets
 
 Set in: `Settings -> Secrets and variables -> Actions`

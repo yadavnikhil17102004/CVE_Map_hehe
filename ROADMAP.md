@@ -2,11 +2,11 @@
 
 This roadmap is pragmatic and may evolve with user feedback.
 
-## v1.1 (near-term)
+## v1.1 (completed)
 
-- [ ] Publish dedicated API reference (issue #4)
-- [ ] Add CI smoke tests for dashboard/news filters (issue #6)
-- [ ] Add CONTRIBUTING and tighten PR checklist (issue #2)
+- [x] Publish dedicated API reference (issue #4)
+- [x] Add CI smoke tests for dashboard/news filters (issue #6)
+- [x] Add CONTRIBUTING and tighten PR checklist (issue #2)
 
 ## v1.2
 
@@ -28,5 +28,5 @@ This roadmap is pragmatic and may evolve with user feedback.
 
 ## Repo/product operations
 
-- [ ] Complete repository rename migration checklist (issue #5)
-- [ ] Maintain semantic releases (`vX.Y.Z`) (issue #3)
+- [x] Complete repository rename migration checklist (issue #5)
+- [x] Maintain semantic releases (`vX.Y.Z`) (issue #3)
