@@ -92,7 +92,8 @@ Base URL:
 Core files:
 - `YYYY.json` — CVE ↔ GitHub repo mappings for that year
 - `nvd_intel_YYYY.json` — year-scoped compact NVD intel (frontend-optimized)
-- `nvd_intel.json` — aggregate intel map (backward compatibility)
+- `nvd_intel_YYYY.json` files are the canonical NVD datastore (per-year)
+- `nvd_intel.json` — generated aggregate map for backward compatibility
 - `news.json` — hourly curated news feed
 
 Example usage:
