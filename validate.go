@@ -74,87 +74,7 @@ func main() {
 		}
 	}
 
-	// 2) Intel map sanity
-	rawIntel, err := os.ReadFile("data/nvd_intel.json")
-	if err != nil {
-		addFail(fmt.Sprintf("missing data/nvd_intel.json: %v", err))
-	} else {
-		var intel map[string]map[string]any
-		if err := json.Unmarshal(rawIntel, &intel); err != nil {
-			addFail(fmt.Sprintf("invalid JSON in data/nvd_intel.json: %v", err))
-		} else {
-			if len(intel) == 0 {
-				addFail("nvd_intel.json has 0 records")
-			} else {
-				ok(fmt.Sprintf("nvd_intel.json loaded (%d records)", len(intel)))
-			}
-
-			kevCount := 0
-			epssCount := 0
-			requiredMissing := 0
-
-			for cveID, row := range intel {
-				_, hasS := row["s"]
-				_, hasV := row["v"]
-				_, hasD := row["d"]
-				if !(hasS && hasV && hasD) {
-					requiredMissing++
-					if requiredMissing <= 3 {
-						addFail(fmt.Sprintf("required keys missing for %s (need s,v,d)", cveID))
-					}
-				}
-
-				if kev, ok := row["k"].(bool); ok && kev {
-					kevCount++
-				}
-				if _, ok := row["e"].(float64); ok {
-					epssCount++
-				}
-			}
-
-			if requiredMissing == 0 {
-				ok("required intel fields present (s,v,d)")
-			} else {
-				addFail(fmt.Sprintf("required intel fields missing in %d records", requiredMissing))
-			}
-
-			if kevCount > 0 {
-				ok(fmt.Sprintf("KEV enrichment present (%d CVEs)", kevCount))
-			} else {
-				addFail("KEV enrichment count is 0")
-			}
-
-			epssCoverage := 0.0
-			if len(intel) > 0 {
-				epssCoverage = (float64(epssCount) / float64(len(intel))) * 100.0
-			}
-			if epssCount > 0 {
-				ok(fmt.Sprintf("EPSS enrichment present (%d CVEs, %.2f%% coverage)", epssCount, epssCoverage))
-			} else {
-				addFail("EPSS enrichment count is 0 (likely FIRST endpoint/schema drift)")
-			}
-
-			const minEpssCoverage = 90.0
-			if epssCoverage < minEpssCoverage {
-				if strings.EqualFold(os.Getenv("ALLOW_LOW_EPSS_COVERAGE"), "true") {
-					warn(fmt.Sprintf("EPSS coverage below %.2f%% (actual %.2f%%), bypassed by ALLOW_LOW_EPSS_COVERAGE=true", minEpssCoverage, epssCoverage))
-				} else {
-					addFail(fmt.Sprintf("EPSS coverage too low: %.2f%% (minimum %.2f%%)", epssCoverage, minEpssCoverage))
-				}
-			} else {
-				ok(fmt.Sprintf("EPSS coverage threshold met (>= %.2f%%)", minEpssCoverage))
-			}
-
-			fmt.Printf("\nSummary:\n")
-			fmt.Printf("CVEs processed: %d\n", len(intel))
-			fmt.Printf("NVD matched: %d\n", len(intel))
-			fmt.Printf("KEV matched: %d\n", kevCount)
-			fmt.Printf("EPSS matched: %d\n", epssCount)
-			fmt.Printf("EPSS coverage: %.2f%%\n", epssCoverage)
-		}
-	}
-
-	// 3) Year-scoped intel files exist and parse
+	// 2) Canonical intel sanity (year-scoped files)
 	yearIntelFiles, err := filepath.Glob("data/nvd_intel_[0-9][0-9][0-9][0-9].json")
 	if err != nil {
 		addFail(fmt.Sprintf("glob year-scoped intel failed: %v", err))
@@ -163,6 +83,9 @@ func main() {
 	} else {
 		sort.Strings(yearIntelFiles)
 		ok(fmt.Sprintf("year-scoped intel files found (%d files)", len(yearIntelFiles)))
+
+		intel := make(map[string]map[string]any)
+		duplicateCount := 0
 		for _, f := range yearIntelFiles {
 			raw, err := os.ReadFile(f)
 			if err != nil {
@@ -172,7 +95,105 @@ func main() {
 			var m map[string]map[string]any
 			if err := json.Unmarshal(raw, &m); err != nil {
 				addFail(fmt.Sprintf("invalid JSON in %s: %v", f, err))
+				continue
 			}
+			for cveID, row := range m {
+				if _, exists := intel[cveID]; exists {
+					duplicateCount++
+					if duplicateCount <= 3 {
+						addFail(fmt.Sprintf("duplicate CVE across year intel files: %s", cveID))
+					}
+					continue
+				}
+				intel[cveID] = row
+			}
+		}
+		if duplicateCount > 0 {
+			addFail(fmt.Sprintf("duplicate CVEs across year intel files: %d", duplicateCount))
+		}
+
+		if len(intel) == 0 {
+			addFail("year-scoped intel has 0 records")
+		} else {
+			ok(fmt.Sprintf("merged year-scoped intel loaded (%d records)", len(intel)))
+		}
+
+		kevCount := 0
+		epssCount := 0
+		requiredMissing := 0
+
+		for cveID, row := range intel {
+			_, hasS := row["s"]
+			_, hasV := row["v"]
+			_, hasD := row["d"]
+			if !(hasS && hasV && hasD) {
+				requiredMissing++
+				if requiredMissing <= 3 {
+					addFail(fmt.Sprintf("required keys missing for %s (need s,v,d)", cveID))
+				}
+			}
+
+			if kev, ok := row["k"].(bool); ok && kev {
+				kevCount++
+			}
+			if _, ok := row["e"].(float64); ok {
+				epssCount++
+			}
+		}
+
+		if requiredMissing == 0 {
+			ok("required intel fields present (s,v,d)")
+		} else {
+			addFail(fmt.Sprintf("required intel fields missing in %d records", requiredMissing))
+		}
+
+		if kevCount > 0 {
+			ok(fmt.Sprintf("KEV enrichment present (%d CVEs)", kevCount))
+		} else {
+			addFail("KEV enrichment count is 0")
+		}
+
+		epssCoverage := 0.0
+		if len(intel) > 0 {
+			epssCoverage = (float64(epssCount) / float64(len(intel))) * 100.0
+		}
+		if epssCount > 0 {
+			ok(fmt.Sprintf("EPSS enrichment present (%d CVEs, %.2f%% coverage)", epssCount, epssCoverage))
+		} else {
+			addFail("EPSS enrichment count is 0 (likely FIRST endpoint/schema drift)")
+		}
+
+		const minEpssCoverage = 90.0
+		if epssCoverage < minEpssCoverage {
+			if strings.EqualFold(os.Getenv("ALLOW_LOW_EPSS_COVERAGE"), "true") {
+				warn(fmt.Sprintf("EPSS coverage below %.2f%% (actual %.2f%%), bypassed by ALLOW_LOW_EPSS_COVERAGE=true", minEpssCoverage, epssCoverage))
+			} else {
+				addFail(fmt.Sprintf("EPSS coverage too low: %.2f%% (minimum %.2f%%)", epssCoverage, minEpssCoverage))
+			}
+		} else {
+			ok(fmt.Sprintf("EPSS coverage threshold met (>= %.2f%%)", minEpssCoverage))
+		}
+
+		fmt.Printf("\nSummary:\n")
+		fmt.Printf("CVEs processed: %d\n", len(intel))
+		fmt.Printf("NVD matched: %d\n", len(intel))
+		fmt.Printf("KEV matched: %d\n", kevCount)
+		fmt.Printf("EPSS matched: %d\n", epssCount)
+		fmt.Printf("EPSS coverage: %.2f%%\n", epssCoverage)
+	}
+
+	// 3) Optional monolith compatibility check (not source of truth)
+	rawIntel, err := os.ReadFile("data/nvd_intel.json")
+	if err != nil {
+		warn("data/nvd_intel.json missing (allowed; yearly intel is canonical)")
+	} else {
+		var mono map[string]map[string]any
+		if err := json.Unmarshal(rawIntel, &mono); err != nil {
+			addFail(fmt.Sprintf("invalid JSON in data/nvd_intel.json: %v", err))
+		} else if len(mono) == 0 {
+			addFail("data/nvd_intel.json exists but has 0 records")
+		} else {
+			ok(fmt.Sprintf("optional monolith parsed (%d records)", len(mono)))
 		}
 	}
 

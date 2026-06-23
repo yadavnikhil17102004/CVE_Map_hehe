@@ -181,6 +181,41 @@ func writeIntelByYear(dictionary map[string]CVEIntel) {
 	}
 }
 
+// loadIntelFromYearFiles loads and merges data/nvd_intel_YYYY.json files.
+// Year-scoped files are the canonical persistent datastore.
+func loadIntelFromYearFiles(dataDir string) (map[string]CVEIntel, error) {
+	pattern := filepath.Join(dataDir, "nvd_intel_[0-9][0-9][0-9][0-9].json")
+	files, err := filepath.Glob(pattern)
+	if err != nil {
+		return nil, fmt.Errorf("glob year intel files: %w", err)
+	}
+
+	if len(files) == 0 {
+		return nil, fmt.Errorf("no year-scoped intel files found matching %s", pattern)
+	}
+
+	sort.Strings(files)
+	dictionary := make(map[string]CVEIntel)
+
+	for _, f := range files {
+		raw, err := os.ReadFile(f)
+		if err != nil {
+			return nil, fmt.Errorf("read %s: %w", f, err)
+		}
+
+		var yearData map[string]CVEIntel
+		if err := json.Unmarshal(raw, &yearData); err != nil {
+			return nil, fmt.Errorf("parse %s: %w", f, err)
+		}
+
+		for id, intel := range yearData {
+			dictionary[id] = intel
+		}
+	}
+
+	return dictionary, nil
+}
+
 // fetchEPSS fetches EPSS scores for up to 100 CVE IDs at a time.
 // Returns a map of CVE ID → EPSS probability (0.0–1.0).
 func fetchEPSS(cveIDs []string) map[string]float64 {
@@ -243,15 +278,12 @@ func main() {
 
 	os.MkdirAll("data", 0755)
 
-	// Load existing dictionary (accumulate across runs)
-	dictionary := make(map[string]CVEIntel)
-	if raw, err := os.ReadFile(filepath.Join("data", "nvd_intel.json")); err == nil {
-		if err := json.Unmarshal(raw, &dictionary); err != nil {
-			log.Printf("[-] Warning: existing intel file unparseable — rebuilding fresh.")
-		} else {
-			log.Printf("[i] Loaded %d existing signatures.", len(dictionary))
-		}
+	// Load canonical dictionary from year-scoped files.
+	dictionary, err := loadIntelFromYearFiles("data")
+	if err != nil {
+		log.Fatalf("[-] Failed to load canonical year-scoped intel files: %v", err)
 	}
+	log.Printf("[i] Loaded %d existing signatures from year-scoped intel files.", len(dictionary))
 
 	// ── Phase 1: 180-day modification window ─────────────────
 	// Catches new CVEs and updated scores on existing ones.
