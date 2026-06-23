@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-06-23T02:31:36Z",
+  "last_updated": "2026-06-23T06:41:42Z",
   "articles": [
+    {
+      "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
+      "link": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+      "description": "OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative, the artificial intelligence (AI) company announced l...",
+      "pub_date": "Tue, 23 Jun 2026 09:26:58 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5t7SN4kPSfgifNku4Z0eWG5x1Dd8CIb99OAHuktz4ZGAeIrwDEnLwD9DUkRj8nStBQjzxOgWO2hfsGYI07Yp8gQGtXiSBIqlQXtzDTc3bkveScQ2gd-WbUmBA0L1xVDXhbrukUIuWdLaMPyiDZO-5-tWlq-kwFdImdd-h7YVkO7oGDN08bv25RJ2TRDt8/s1600/opne.jpg"
+    },
     {
       "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
       "link": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
@@ -29,33 +38,6 @@
       "image_url": ""
     },
     {
-      "title": "23 ClawHub Plugins Abuse Official Org Scopes to Impersonate Trusted AI Agent Tools",
-      "link": "https://cybersecuritynews.com/23-clawhub-plugins-abuse-official-org-scopes/",
-      "description": "A new supply chain threat has surfaced in the AI agent ecosystem that is both subtle and serious. Researchers uncovered 23 plugins on the ClawHub registry published under official organizational sc...",
-      "pub_date": "Mon, 22 Jun 2026 21:01:58 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/23-ClawHub-Plugins-Abuse-Official-Org-Scopes-to-Impersonate-Trusted-AI-Agent-Tools.webp"
-    },
-    {
-      "title": "Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection",
-      "link": "https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2/",
-      "description": "A newly discovered malware campaign is targeting Windows systems through a deceptive package on the npm registry. Disguised as a legitimate CSS build tool, the malicious package quietly installs a ...",
-      "pub_date": "Mon, 22 Jun 2026 21:00:01 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Windows-RAT-Uses-Encrypted-HTTP-C2-and-Registry-Persistence-After-npm-Infection.webp"
-    },
-    {
-      "title": "Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader",
-      "link": "https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat/",
-      "description": "A sophisticated phishing campaign is actively targeting users in India by disguising malware as a routine GST debit note. The attack delivers a powerful remote access tool called Remcos RAT through...",
-      "pub_date": "Mon, 22 Jun 2026 20:57:09 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Malicious-GST-Debit-Note-Attachment-Deploys-Remcos-RAT-Through-Multi-Stage-Loader.webp"
-    },
-    {
       "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
       "link": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
       "description": "Security firm SOCRadar says the large-scale FortiBleed campaign targeting Fortinet FortiGate devices used custom sniffers to harvest authentication secrets from compromised firewalls and steal cre...",
@@ -63,15 +45,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",
-      "link": "https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers/",
-      "description": "A newly discovered botnet called AryStinger has quietly hijacked more than 4,300 routers across the globe, turning them into a silent army of attack proxies. The threat actors behind this campaign ...",
-      "pub_date": "Mon, 22 Jun 2026 19:42:21 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/AryStinger-Botnet-Hijacks-4300-Routers-to-Build-Global-Attack-Proxy-Network.webp"
     },
     {
       "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
@@ -101,33 +74,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft Entra Conditional Access Policies Can Be Bypassed Via Nested App Authentication",
-      "link": "https://cybersecuritynews.com/microsoft-entra-access-policies-nested-app/",
-      "description": "Microsoft Entra Conditional Access Policies (CAPs), a core security control for Azure and Microsoft 365 tenants, were recently found vulnerable to a bypass technique involving Nested App Authentica...",
-      "pub_date": "Mon, 22 Jun 2026 16:25:31 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Entra-Conditional-Access-Policies-Can-Be-Bypassed-Via-Nested-App-Authentication-1.webp"
-    },
-    {
-      "title": "AI-Powered iOS Apps Leaking LLM API Credentials Through Network Traffic",
-      "link": "https://cybersecuritynews.com/ai-ios-apps-leaking-llm-credentials/",
-      "description": "AI-powered iOS applications are increasingly leaking large language model (LLM) API credentials through network traffic, exposing developers to large-scale abuse of their LLM accounts and cloud res...",
-      "pub_date": "Mon, 22 Jun 2026 16:21:33 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/AI-powered-iOS-apps-Leaking-LLM-API-Credentials-Through-Network-Traffic.webp"
-    },
-    {
-      "title": "Apple Beats Studio Buds Vulnerability Allows Hackers to Eavesdrop on Users",
-      "link": "https://cybersecuritynews.com/apple-beats-studio-buds-vulnerability/",
-      "description": "Apple has addressed a high-severity vulnerability in the Beats Studio Buds that could allow nearby attackers to eavesdrop on users via the device\u0026#8217;s microphone, even when the earbuds are not a...",
-      "pub_date": "Mon, 22 Jun 2026 16:17:13 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Apple-Beats-Studio-Buds-high-severity-vulnerability-Allow-hackers-to-eavesdrop-on-users.webp"
-    },
-    {
       "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
       "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
       "description": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to stealth...",
@@ -135,33 +81,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrjCumekV1hjkgdgebp4RqfYc_Yt9Swv4lG7ds3XMDHG9f-JxSuJSWY3UcWIoivJoJkJjdlBvtiQAHKy7NNgApCoD8ADtOpicXvKf9RJwAZT1DEGUkgX87bmSR8cO75Ss__mnLn8MyDEddnzhyphenhyphenRfcf_gWEtoLiKu53yXNQJtT0DP7nZufqBhB3P8VmvV48/s1600/dify.png"
-    },
-    {
-      "title": "Klue Hack Leads to Data Breach Across Multiple Cybersecurity Companies",
-      "link": "https://cybersecuritynews.com/klue-hack-cybersecurity-companies/",
-      "description": "A sophisticated supply chain attack on market intelligence platform Klue has compromised Salesforce data across at least nine organizations, including several high-profile cybersecurity firms, with...",
-      "pub_date": "Mon, 22 Jun 2026 16:07:22 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Klue-Hack-Cybersecurity-Companies.webp"
-    },
-    {
-      "title": "Hackers Use RemotePC RMM and PowerShell Stagers to Deploy Prinz Eugen Ransomware",
-      "link": "https://cybersecuritynews.com/hackers-use-remotepc-rmm-and-powershell-stagers/",
-      "description": "A newly identified ransomware group is using remote management software and scripted attack tools to compromise organizations and deploy a sophisticated encryption threat called Prinz Eugen. The ca...",
-      "pub_date": "Mon, 22 Jun 2026 16:01:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-RemotePC-RMM-and-PowerShell-Stagers-to-Deploy-Prinz-Eugen-Ransomware.webp"
-    },
-    {
-      "title": "29-Year-Old ‘Squidbleed’ Vulnerability Discovered With the Aid of Claude Mythos Preview",
-      "link": "https://cybersecuritynews.com/squidbleed-vulnerability/",
-      "description": "A Heartbleed-style heap buffer overread lurking in Squid Proxy since 1997 can silently leak HTTP headers, including passwords and API keys, from other users on the same proxy. Security researchers ...",
-      "pub_date": "Mon, 22 Jun 2026 15:35:22 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Squidbleed-Vulnerability.webp"
     },
     {
       "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
@@ -342,15 +261,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3wJOg5Y5vAn_dM0DcIB6SwV2B34iO0H-moeyuWLJ_DF1KgEEZMBGtKPDXYk0pL4wclWbnSmOB74sqReSZoGI2_SwUSzKSscUxEdvuJFx_sCIfU7UplU2k5s4UA0cOVAZT_s80PDTek6OGfrsnE8f6QxrQU58rBqPiuk_J__Yja3YNzZLzd-6s8Ji1PBhc/s1600/agent.jpg"
-    },
-    {
-      "title": "Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites",
-      "link": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
-      "description": "Dutch law enforcement authorities, along with counterparts from  Canada  , Germany, and the U.S., have disrupted malicious infrastructure associated with  SocGholish  and cleaned up nearly 15,000 i...",
-      "pub_date": "Fri, 19 Jun 2026 20:37:54 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1-D7cu6ZQpoZXfPa_eYHuQijjkt6mJRjmoIS9eSnCGPPgyXNz-AChti_zkCGmlefTdBm5bvbyxXbrJVbpVJIneqvDmIMR8t7gXEyBn2JJFrZLW-hTbo_e8UHBFuh9tfki-QyVk2g5_XqbbSX52HYTNSpNzJng8lMfZiIHT3pMQBTjTeZwSqx2khJt2uAk/s1600/endgame.jpg"
     },
     {
       "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
