@@ -32,13 +32,10 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install Playwright Chromium
-        run: npx -y playwright@1.55.0 install --with-deps chromium
+      - name: Install Playwright
+        run: |
+          python3 -m pip install --upgrade pip playwright
+          python3 -m playwright install --with-deps chromium
 
       - name: Run browser smoke tests
         run: |
@@ -52,4 +49,4 @@ jobs:
             fi
             sleep 1
           done
-          npx -y -p playwright@1.55.0 node scripts/ci/issue-6-smoke.cjs http://127.0.0.1:8000
+          python3 scripts/ci/issue-6-smoke.py http://127.0.0.1:8000
