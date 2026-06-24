@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-06-24T06:38:14Z",
+  "last_updated": "2026-06-24T10:14:46Z",
   "articles": [
+    {
+      "title": "Malicious AI Agent Skill Bypasses Security Scans and Seizes Full Control of Over 26,000 Agents",
+      "link": "https://cybersecuritynews.com/malicious-ai-agent-skill-bypasses/",
+      "description": "A malicious AI “skill” created as part of a controlled security experiment has exposed critical weaknesses in modern AI agent ecosystems, successfully bypassing security scanners and compromisi...",
+      "pub_date": "Wed, 24 Jun 2026 09:26:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Malicious-AI-Agent-skill-Bypasses-Security-Scans-and-seized-full-control-of-over-26000-agents-1.webp"
+    },
+    {
+      "title": "Claude Fable 5 Wrote Windows Kernel Code in Rust in 38 Minutes",
+      "link": "https://cybersecuritynews.com/claude-fable-5-windows-kernel-code/",
+      "description": "Anthropic\u0026#8217;s Claude Fable 5 generated a complete, bootable NT-compatible Windows kernel written in Rust called ntoskrnl-rs from an empty directory in just 38 minutes of active model work, rais...",
+      "pub_date": "Wed, 24 Jun 2026 09:11:59 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Claude-Fable-5-Windows-Kernel-Code.webp"
+    },
+    {
+      "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
+      "link": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+      "description": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a cloud computing account put to use by subsidiaries of Cambodia-based corporate conglomerate HuiOne Group, as the Treasury ...",
+      "pub_date": "Wed, 24 Jun 2026 14:25:12 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwWpkKj6KRX5Q7jeH07PFaANRRfRbl_CdrBEZ0cypjUg2UBsy49GSGNAOXF74dDez1H9xz_FXTMWh1lziO6f1Q0xrhjZRICtxmzQQJruQoQ8fk33kgTacTn5Y0BrNHmkHfLy3iC4s2oEL7H2CRCaBTcbLBqCbg3jcSFfHTSYiIa_RZV49sE58GCHOWorXJ/s1600/cybercrime.jpg"
+    },
+    {
+      "title": "GTA 6 Scam Websites Use AI-Generated Images and Fake Download Buttons to Lure Gamers",
+      "link": "https://cybersecuritynews.com/gta-6-scam-websites-use-ai-generated-images/",
+      "description": "A fresh wave of scam websites is targeting gamers worldwide, using the massive hype around Grand Theft Auto VI to trick people into handing over their money. These fake pages promise something mill...",
+      "pub_date": "Wed, 24 Jun 2026 07:53:50 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/GTA-6-Scam-Websites-Use-AI-Generated-Images-and-Fake-Download-Buttons-to-Lure-Gamers.webp"
+    },
+    {
+      "title": "FortiBleed Attack Hit 430,000+ FortiGate Firewalls, Stealing 110M+ Credentials",
+      "link": "https://cybersecuritynews.com/fortibleed-attack-fortigate-firewalls/",
+      "description": "A large-scale, ongoing credential-harvesting campaign dubbed \u0026#8220;FortiBleed\u0026#8221; has silently compromised more than 430,000 FortiGate firewalls globally, siphoning over 110 million credentials...",
+      "pub_date": "Wed, 24 Jun 2026 07:47:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Fortibleed-Attack-FortiGate-Firewalls.webp"
+    },
+    {
+      "title": "How Attackers Exploit Privileged Access and How to Lock Them Out ",
+      "link": "https://cybersecuritynews.com/how-attackers-exploit-privileged-access/",
+      "description": "Every major breach you read about has a quiet middle chapter that rarely\u0026#160;makes\u0026#160;the headline. The headline is the ransom note or the leaked customer database. The middle chapter the part t...",
+      "pub_date": "Wed, 24 Jun 2026 07:45:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Exploit-Privileged-Access.webp"
+    },
+    {
+      "title": "Critical Cisco Unified CM and SME Flaw Enables Remote Attacker to Launch SSRF Attacks",
+      "link": "https://cybersecuritynews.com/cisco-unified-cm-and-sme-flaw-ssrf-attacks/",
+      "description": "Cisco has warned customers about a critical server-side request forgery (SSRF) flaw in Cisco Unified Communications Manager (Unified CM) and Unified CM Session Management Edition (Unified CM SME) t...",
+      "pub_date": "Wed, 24 Jun 2026 07:24:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-Cisco-Unified-CM-and-SME-Flaw-Enables-Remote-attacker-to-Launch-SSRF-attacks.webp"
+    },
+    {
+      "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
+      "link": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
+      "description": "Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edi...",
+      "pub_date": "Wed, 24 Jun 2026 12:20:38 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivauBSNOsDqBHvUFSnF1NdlWJ8BAt2JVgIo_ZUQhBkVppSz0PvkEmrc9RP1hMf2-oFFRgr5PNm7pxLmPngAJHcxV6-F3e43bEqmdEg38013JmlUKDlGVOLQTj6bYbyk_R7WXBqbW3o2yPHdosqz7nncLivqDqXGAuiTFcHkPqiVPBJuDHlsvYWtEreVmk_/s1600/cc.jpg"
+    },
     {
       "title": "CISA Warns of Ubiquiti UniFi OS Vulnerability Actively Exploited in Attacks",
       "link": "https://cybersecuritynews.com/cisa-ubiquiti-unifi-os-vulnerability/",
@@ -92,15 +164,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJkhDD5qINhfAhBFXG2C13raQF6T6zAOmnHlArhnLUP5z0ifBzpyq6M_4n11cgynQfZW0mxJWnYU-TDYSpKQHYFHvXsZHCB7uoMFg0w02yZILY-JLMm2-uqm-CA_wIqZHhzl25FfO_lMd7dYm6VfprDP83bz_SoB3MWLEc059E4YCa554bba-qWHW5udHv/s1600/fortigate.jpg"
     },
     {
-      "title": "Anthropic Launches Claude Tag – AI Teammate Now Lives Inside Slack",
-      "link": "https://cybersecuritynews.com/anthropic-claude-tag/",
-      "description": "Anthropic has unveiled Claude Tag, a new agentic AI feature that integrates directly into Slack, allowing teams to tag @Claude as a collaborative team member to delegate tasks, automate workflows, ...",
-      "pub_date": "Tue, 23 Jun 2026 18:08:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Anthropic-Claude-Tag.webp"
-    },
-    {
       "title": "Why SIEM is Moving Toward Unified Security Operations: Rapid7 Named a Major Player in IDC MarketScape",
       "link": "https://www.rapid7.com/blog/post/dr-siem-moving-toward-unified-security-operations-rapid7-named-idc-marketscape-major-player",
       "description": "Rapid7 has been named a Major Player in the IDC MarketScape: Worldwide SIEM 2026 Vendor Assessment (#US54126826, June 2026).This is the first IDC SIEM MarketScape to bring the enterprise and SMB ma...",
@@ -108,42 +171,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt3cc8c945f314ec1f/68b9a045a7d14357b3ba893b/blog-hero-texture-lines.jpg"
-    },
-    {
-      "title": "Your SOC Has Too Many IOCs: How to Cut Feed Noise, Prioritize What Matters, and Improve Response ",
-      "link": "https://cybersecuritynews.com/your-soc-has-too-many-iocs-how-to-cut-feed-noise-prioritize-what-matters-and-improve-response/",
-      "description": "Most SOCs measure threat intelligence the same way they measure storage: bigger is better. A feed that delivers two million indicators a month looks more impressive on a vendor scorecard than one t...",
-      "pub_date": "Tue, 23 Jun 2026 17:02:14 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Your-SOC-Has-Too-Many-IOCs-1.webp"
-    },
-    {
-      "title": "Bajaj Auto Hit by a Ransomware Attack – Internal Systems Affected",
-      "link": "https://cybersecuritynews.com/bajaj-ransomware-attack/",
-      "description": "India\u0026#8217;s leading two-wheeler manufacturer, Bajaj Auto, disclosed on Tuesday that it fell victim to a ransomware attack that compromised systems at both the parent company and its wholly owned ...",
-      "pub_date": "Tue, 23 Jun 2026 17:02:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Bajaj-Ransomware-Attack.webp"
-    },
-    {
-      "title": "AWS Warns Outbound Traffic Blind Spots Can Enable Cloud Data Exfiltration",
-      "link": "https://cybersecuritynews.com/aws-warns-outbound-traffic-blind-spots/",
-      "description": "Most organizations spend a lot of time locking the front door of their cloud environments. Firewalls, access controls, and web application filters get the bulk of attention because that is where vi...",
-      "pub_date": "Tue, 23 Jun 2026 16:58:54 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/AWS-Warns-Outbound-Traffic-Blind-Spots-Can-Enable-Cloud-Data-Exfiltration.webp"
-    },
-    {
-      "title": "Claude Down – A Major Outage Affects Most of the Models",
-      "link": "https://cybersecuritynews.com/claude-down-a-major-outage-affects-most-of-the-models/",
-      "description": "Anthropic experienced a service disruption on Tuesday that produced elevated error rates across multiple Claude models, according to the company\u0026#8217;s official status page. By mid-afternoon UTC t...",
-      "pub_date": "Tue, 23 Jun 2026 16:11:27 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CLAUDE-DOWN.webp"
     },
     {
       "title": "Scattered Spider members plead guilty to hacking Transport for London",
@@ -171,15 +198,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoC7KFWoDGkSi-UzAyKNUkw-Ogs4oy2tCOAYXiYAAkqEUC1WMotLAE1GUwoWApfXK3prWVctTP05aLGjru0hDBfJkZ1NzPiFeI1VObgSNCx4egTrYhKIUt4m1S14eQ6_GpdffFBL4Ak3Mgjw7UiiBethv1lmyd_OaPIfhk_b-zuMjxCHLZtih8Tk6MtRg/s1600/unitedstates.jpg"
-    },
-    {
-      "title": "8-Year-Old Samsung KNOX Vulnerability Exposes Galaxy Devices to Kernel Attacks",
-      "link": "https://cybersecuritynews.com/8-year-old-samsung-knox-vulnerability/",
-      "description": "A critical use-after-free (UAF) vulnerability in Samsung\u0026#8217;s proprietary KNOX security subsystem, which has been hidden for over eight years, has been discovered by security research firm Lucid...",
-      "pub_date": "Tue, 23 Jun 2026 14:42:49 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/8-Year-Old-Samsung-KNOX-Vulnerability.webp"
     },
     {
       "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
@@ -351,24 +369,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisV9q8kKe0eopbInTHgwScUvzjKlnPTpk74j7M6F-6BH46hVr9wcadvztA2RYJdKDQDzpV89bN4wH0hEL9qTfIh2_4f3FEIT1OWwSeYehcOb-sVNNkEshTBBC6qviBMlFuwMXQL2iG_VVVBaT6NoGnbdcVBfcMm61T6NosKLtOdMgIebKCRh7hukQxIOk/s1600/playstore.jpg"
-    },
-    {
-      "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
-      "link": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
-      "description": "Earlier this month, I spoke at the Gartner Security \u0026amp; Risk Management Summit about a blind spot most security programs are still not accounting for - how attackers are circumventing AI security...",
-      "pub_date": "Mon, 22 Jun 2026 17:28:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSdS_7552zEvsn5xVfDcVMG2u8ponFIE1E65j5A8Wx-qUroU49h-f6qF7FPCABA063IjNnw-JntL-L1iZjHpiuqATqkDv-2vpi6lCVG1idXkg_elRJkyoUgASk4uYCTJ95EHfVQLJngVLKOxM2H5zLkdeFY7kpzveHUuKFoks0_ujNo9tJNQxm7XVgYb4/s1600/xmcyber.jpg"
-    },
-    {
-      "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
-      "link": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
-      "description": "It’s Monday again.  This week’s threat list looks painfully familiar: abused integrations, fake tools, poisoned websites, ransomware crews trying to shut down security tools, and mobile malware...",
-      "pub_date": "Mon, 22 Jun 2026 16:25:10 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWTle5JU3HMoV1yUzXt6nAYO-EtyfOp22bJldi9N4fwakWmzrwwjBKfQNkprStB3B9K5HyUchIUCoNpGs-Kn2EHwClO7xJOV-qZQeDKFllNQrZ-TYq6OiikJkwi65NdfFcR7XhMTuIpmwSdoglwRcMcI43rLGB1B462ZXhd7nkh-q-FNnpPKoeUyL7bUqs/s1600/recap-main.gif"
     },
     {
       "title": "Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more",
