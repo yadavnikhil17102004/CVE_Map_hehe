@@ -1,6 +1,60 @@
 {
-  "last_updated": "2026-06-24T20:29:07Z",
+  "last_updated": "2026-06-24T22:09:17Z",
   "articles": [
+    {
+      "title": "DraftKings hacker 'Snoopy' sentenced to 18 months in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
+      "description": "A 21-year-old using the alias \"Snoopy\" was sentenced to 18 months in prison for his role in hacking DraftKings accounts in the November 2022 cyberattack. [...]",
+      "pub_date": "Wed, 24 Jun 2026 17:55:43 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access",
+      "link": "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/",
+      "description": "New details have been revealed on how hackers exploited a Cisco Catalyst SD-WAN vulnerability tracked as CVE-2026-20245 in zero-day attacks to create rogue root accounts on targeted devices. [...]",
+      "pub_date": "Wed, 24 Jun 2026 17:29:10 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection",
+      "link": "https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security/",
+      "description": "A new and stealthy backdoor named Mistic has been quietly targeting corporate networks since April 2026, disguising itself using the names and appearance of legitimate Microsoft endpoint security c...",
+      "pub_date": "Wed, 24 Jun 2026 20:58:31 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Mistic-Backdoor-Blends-With-Microsoft-Endpoint-Security-Tooling-to-Evade-Detection.png"
+    },
+    {
+      "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
+      "description": "A malicious Microsoft Edge extension dubbed 'Edgecution' has been used in a ransomware attack to escape the browser sandbox and deploy a Python-based backdoor. [...]",
+      "pub_date": "Wed, 24 Jun 2026 16:58:22 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Teams Impersonation Campaign Enables Unauthorized Access Through RMM Abuse",
+      "link": "https://cybersecuritynews.com/microsoft-teams-impersonation-campaign-enables-unauthorized-access/",
+      "description": "Threat actors are once again exploiting the trust people place in everyday workplace tools. A newly discovered phishing campaign is using fake Microsoft Teams notifications to trick employees into ...",
+      "pub_date": "Wed, 24 Jun 2026 20:58:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Teams-Impersonation-Campaign-Enables-Unauthorized-Access-Through-RMM-Abuse.png"
+    },
+    {
+      "title": "Fake Document Reader in The Google Play Store with 100K Downloads Deliver Android Malware",
+      "link": "https://cybersecuritynews.com/fake-document-reader-in-the-google-play-store/",
+      "description": "A dangerous Android banking trojan is once again spreading through the Google Play Store, hiding inside what appears to be a simple document reader app. The app has already been downloaded more tha...",
+      "pub_date": "Wed, 24 Jun 2026 20:57:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Fake-Document-Reader-in-The-Google-Play-Store-with-100K-Downloads-Deliver-Android-Malware.png"
+    },
     {
       "title": "Malicious Edge Extension Uses Chrome Native Messaging to Execute Code on Victim Systems",
       "link": "https://cybersecuritynews.com/malicious-edge-extension-uses-chrome-native-messaging/",
@@ -83,33 +137,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Laravel-Livewire-applications-Compromised-to-Steal-Credentials-Exploiting-RCE-Vulnerability.webp"
     },
     {
-      "title": "Critical Webmin Vulnerabilities Allow Attackers to Impersonate as Any User",
-      "link": "https://cybersecuritynews.com/webmin-vulnerabilities-impersonate-user/",
-      "description": "Critical security flaws in Webmin have exposed systems to severe risks, allowing attackers to impersonate users, bypass authentication, and gain root-level control across affected environments. Web...",
-      "pub_date": "Wed, 24 Jun 2026 15:03:16 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-Webmin-Vulnerabilities-Allow-Attackers-to-Impersonate-as-any-User.webp"
-    },
-    {
-      "title": "White House Orders Federal Agencies to Migrate Systems to Post-Quantum Cryptography",
-      "link": "https://cybersecuritynews.com/white-house-federal-agencies-post-quantum-cryptography/",
-      "description": "The White House has issued a major executive order directing U.S. federal civilian agencies to migrate high‑value systems to post‑quantum cryptography (PQC), with firm deadlines of 2030 for key...",
-      "pub_date": "Wed, 24 Jun 2026 14:56:32 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/White-House-Federal-Agencies-Post-Quantum-Cryptography.webp"
-    },
-    {
-      "title": "PoC Exploit Released for libssh2 Remote Code Execution Vulnerability",
-      "link": "https://cybersecuritynews.com/poc-exploit-libssh2-rce-vulnerability/",
-      "description": "A public proof-of-concept (PoC) exploit for the critical libssh2 remote code execution vulnerability tracked as CVE-2026-55200 is now available, significantly increasing the risk of real‑world at...",
-      "pub_date": "Wed, 24 Jun 2026 14:41:36 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/PoC-Exploit-Released-for-libssh2-remote-code-execution-Vulnerability-.webp"
-    },
-    {
       "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of hackers actively exploiting flaws in Ubiquity UniFi OS and Lantronix serial-to-ethernet servers. [...]",
@@ -182,45 +209,135 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivauBSNOsDqBHvUFSnF1NdlWJ8BAt2JVgIo_ZUQhBkVppSz0PvkEmrc9RP1hMf2-oFFRgr5PNm7pxLmPngAJHcxV6-F3e43bEqmdEg38013JmlUKDlGVOLQTj6bYbyk_R7WXBqbW3o2yPHdosqz7nncLivqDqXGAuiTFcHkPqiVPBJuDHlsvYWtEreVmk_/s1600/cc.jpg"
     },
     {
-      "title": "ZDI-26-365: FlowiseAI Flowise CSV Agent customReadCSV Code Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-365/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Although authentication is required to exploit this vulnerability, the existing authentica...",
+      "title": "ZDI-26-397: X.Org Server CreateSaverWindow Use-After-Free Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-397/",
+      "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on th...",
       "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
       "image_url": ""
     },
     {
-      "title": "ZDI-26-364: FlowiseAI Flowise CSV Agent  Prompt Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-364/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS ...",
+      "title": "ZDI-26-396: X.Org Server ChangeDrawableAttributes Out-Of-Bounds Read Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-396/",
+      "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on th...",
       "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
       "image_url": ""
     },
     {
-      "title": "ZDI-26-363: Docker MCP Plugin OCI Image Label Parsing Argument Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-363/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Docker MCP Plugin. User interaction is required to exploit this vulnerability in that the target mu...",
+      "title": "ZDI-26-395: X.Org Server SyncChangeCounter Use-After-Free Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-395/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
       "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
       "image_url": ""
     },
     {
-      "title": "ZDI-26-362: Oracle VirtualBox VMSVGA Stack-based Buffer Overflow Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-362/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the tar...",
+      "title": "ZDI-26-394: X.Org Server FreeCounter Use-After-Free Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-394/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
       "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
       "image_url": ""
     },
     {
-      "title": "ZDI-26-361: Adobe Acrobat Reader DC Field signatureInfo Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-361/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the tar...",
+      "title": "ZDI-26-393: X.Org Server SetMap Request Stack-based Buffer Overflow Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-393/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-392: X.Org Server Xkb Key Types Stack-based Buffer Overflow Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-392/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-391: X.Org Server miSyncDestroyFence Use-After-Free Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-391/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-390: X.Org Server Font Alias Stack-based Buffer Overflow Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-390/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-389: Oracle PeopleSoft ExecuteProcessActivityCommand External Control of File Path Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-389/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle PeopleSoft. Although authentication is required to exploit this vulnerability, the existing ...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-388: Oracle PeopleSoft HubMBeanPersistance Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-388/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle PeopleSoft. Although authentication is required to exploit this vulnerability, the existing ...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-387: Oracle PeopleSoft HttpListeningConnector Server-Side Request Forgery Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-387/",
+      "description": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Oracle PeopleSoft. Authentication is not required to exploit this vulnerability. T...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-386: Unraid Web Server ToggleState Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-386/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Unraid. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS ratin...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-385: Unraid Web Server FileUpload Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-385/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Unraid. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS ratin...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-384: MosaicML Composer Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-384/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MosaicML Composer. User interaction is required to exploit this vulnerability in that the target mu...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-383: ATEN Unizon doCryptoHugeFileToFile Improper Verification of Cryptographic Signature Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-383/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of ATEN Unizon. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS ...",
       "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
@@ -344,15 +461,6 @@
       "image_url": ""
     },
     {
-      "title": "Webinar: Why email security teams are drowning in alerts",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-email-security-teams-are-drowning-in-alerts/",
-      "description": "Phishing, BEC, and account takeover attacks continue to overwhelm security teams with alerts and investigations. This webinar explores how behavioral AI can help automate detection and response wor...",
-      "pub_date": "Tue, 23 Jun 2026 08:12:20 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
       "link": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
       "description": "Every weapon begins as an extension of the hand that holds it. The spear lengthened the reach of the arm. The bow sent the point flying without the throw. The rifle placed a man's death a quarter m...",
@@ -387,24 +495,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5t7SN4kPSfgifNku4Z0eWG5x1Dd8CIb99OAHuktz4ZGAeIrwDEnLwD9DUkRj8nStBQjzxOgWO2hfsGYI07Yp8gQGtXiSBIqlQXtzDTc3bkveScQ2gd-WbUmBA0L1xVDXhbrukUIuWdLaMPyiDZO-5-tWlq-kwFdImdd-h7YVkO7oGDN08bv25RJ2TRDt8/s1600/opne.jpg"
-    },
-    {
-      "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
-      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
-      "description": "An ongoing malware campaign is targeting WhatsApp users in multiple countries with deceptive messages that push VBScript files, leading to remote system access. [...]",
-      "pub_date": "Mon, 22 Jun 2026 18:42:21 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
-      "link": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
-      "description": "The JaredFromSubway Ethereum MEV (Maximal Extractable Value) bot suffered a $15 million loss after an attacker manipulated the opportunity-detection logic by creating fake cryptocurrency trading op...",
-      "pub_date": "Mon, 22 Jun 2026 17:52:18 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
@@ -506,51 +596,6 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
     },
     {
-      "title": "ZDI-26-360: MATE Desktop Atril Document Viewer EPUB File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-360/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MATE Desktop Atril Document Viewer. User interaction is required to exploit this vulnerability in t...",
-      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-359: Samsung rlottie Numeric Truncation Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-359/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samsung rlottie. Interaction with the rlottie library is required to exploit this vulnerability but...",
-      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-358: Allegra downloadAttachment Cross-Site Scripting Authentication Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-358/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary script on affected installations of Allegra. User interaction is required to exploit this vulnerability in that the target must visit...",
-      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-357: Allegra exportReport Directory Traversal Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-357/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Allegra. Authentication is required to exploit this vulnerability. The ZDI has assigned a C...",
-      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-356: Apache HTTP Server mod_proxy_ajp Out-Of-Bounds Read Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-356/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apache HTTP Server. An attacker must first obtain the ability to compromise an AJP backend ...",
-      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
       "title": "Automated Threat Hunting: Turning Threat Intelligence into Executable Hunt Plans",
       "link": "https://www.rapid7.com/blog/post/ai-automated-threat-hunting-turns-threat-intelligence-into-executable-hunt-plans",
       "description": "Blake McDermott is Senior Threat Hunter at Rapid7.Every week, threat hunt teams are faced with a steady flow of blogs, advisories, and DFIR reports containing valuable intelligence about adversary ...",
@@ -569,15 +614,6 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
     },
     {
-      "title": "ZDI-26-355: Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-355/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the tar...",
-      "pub_date": "Wed, 10 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
       "title": "Patch Tuesday - June 2026",
       "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-june-2026",
       "description": "Microsoft is publishing 200 vulnerabilities on June 2026 Patch Tuesday. Microsoft is not aware of exploitation in the wild for any of these vulnerabilities, and is aware of public disclosure for th...",
@@ -594,42 +630,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0b0762ca94c50b0b/6846a711eac0e395093e52e3/AI.jpg"
-    },
-    {
-      "title": "ZDI-26-354: Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-354/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the tar...",
-      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-353: Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-353/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the tar...",
-      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-352: Adobe Acrobat Pro DC AcroForm Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-352/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target...",
-      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-351: Adobe USD-Fileformat-plugins Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-351/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe USD-Fileformat-plugins. Interaction with the USD library is required to exploit this vulnerab...",
-      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
     },
     {
       "title": "Critical Check Point VPN Zero-Day Exploited in the Wild (CVE-2026-50751)",
