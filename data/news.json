@@ -1,6 +1,132 @@
 {
-  "last_updated": "2026-06-24T13:12:47Z",
+  "last_updated": "2026-06-24T16:10:23Z",
   "articles": [
+    {
+      "title": "Authorities Disrupt Password-Stealing Malware StealC Infrastructure in Global Operation",
+      "link": "https://cybersecuritynews.com/stealc-infrastructure-disrupted/",
+      "description": "Europol and law enforcement partners across multiple countries have dealt a significant blow to the cybercriminal ecosystems powering StealC, Amadey, and SocGholish malware, three widely deployed t...",
+      "pub_date": "Wed, 24 Jun 2026 16:04:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/StealC-Infrastructure-Disrupted.webp"
+    },
+    {
+      "title": "Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users",
+      "link": "https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware/",
+      "description": "Cybercriminals are now using fake government tax notices to push dangerous malware onto Windows computers, and the tactic is proving alarmingly effective. A newly uncovered campaign targets users i...",
+      "pub_date": "Wed, 24 Jun 2026 15:59:49 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Fake-Income-Tax-Assessment-Notice-Delivers-RAT-Like-Malware-to-Windows-Users.webp"
+    },
+    {
+      "title": "PoC Exploit Released for Microsoft Exchange Server Elevation of Privilege Vulnerability",
+      "link": "https://cybersecuritynews.com/poc-exploit-released-exchange-vulnerability/",
+      "description": "A public proof-of-concept exploit is now available for CVE-2026-45504, a high‑severity server-side request forgery vulnerability in Microsoft Exchange Server that enables privilege escalation via...",
+      "pub_date": "Wed, 24 Jun 2026 15:14:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/PoC-Exploit-Released-for-Microsoft-Exchange-Server-Elevation-of-Privilege-Vulnerability-.webp"
+    },
+    {
+      "title": "Laravel Livewire Applications Compromised to Steal Credentials Exploiting RCE Vulnerability",
+      "link": "https://cybersecuritynews.com/laravel-livewire-app-exploiting-rce-flaw/",
+      "description": "A large-scale cyber campaign targeting Laravel Livewire applications has been uncovered, with attackers exploiting a critical remote code execution (RCE) flaw to steal sensitive credentials from th...",
+      "pub_date": "Wed, 24 Jun 2026 15:06:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Laravel-Livewire-applications-Compromised-to-Steal-Credentials-Exploiting-RCE-Vulnerability.webp"
+    },
+    {
+      "title": "Critical Webmin Vulnerabilities Allow Attackers to Impersonate as Any User",
+      "link": "https://cybersecuritynews.com/webmin-vulnerabilities-impersonate-user/",
+      "description": "Critical security flaws in Webmin have exposed systems to severe risks, allowing attackers to impersonate users, bypass authentication, and gain root-level control across affected environments. Web...",
+      "pub_date": "Wed, 24 Jun 2026 15:03:16 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-Webmin-Vulnerabilities-Allow-Attackers-to-Impersonate-as-any-User.webp"
+    },
+    {
+      "title": "White House Orders Federal Agencies to Migrate Systems to Post-Quantum Cryptography",
+      "link": "https://cybersecuritynews.com/white-house-federal-agencies-post-quantum-cryptography/",
+      "description": "The White House has issued a major executive order directing U.S. federal civilian agencies to migrate high‑value systems to post‑quantum cryptography (PQC), with firm deadlines of 2030 for key...",
+      "pub_date": "Wed, 24 Jun 2026 14:56:32 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/White-House-Federal-Agencies-Post-Quantum-Cryptography.webp"
+    },
+    {
+      "title": "PoC Exploit Released for libssh2 Remote Code Execution Vulnerability",
+      "link": "https://cybersecuritynews.com/poc-exploit-libssh2-rce-vulnerability/",
+      "description": "A public proof-of-concept (PoC) exploit for the critical libssh2 remote code execution vulnerability tracked as CVE-2026-55200 is now available, significantly increasing the risk of real‑world at...",
+      "pub_date": "Wed, 24 Jun 2026 14:41:36 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/PoC-Exploit-Released-for-libssh2-remote-code-execution-Vulnerability-.webp"
+    },
+    {
+      "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of hackers actively exploiting flaws in Ubiquity UniFi OS and Lantronix serial-to-ethernet servers. [...]",
+      "pub_date": "Wed, 24 Jun 2026 10:35:15 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Amadey, StealC malware operations disrupted in Operation Endgame action",
+      "link": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
+      "description": "Microsoft, Europol, and international partners have disrupted infrastructure used by the Amadey and StealC malware operations as part of Operation Endgame, which targets cybercriminal services and ...",
+      "pub_date": "Wed, 24 Jun 2026 10:35:11 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Browser-in-the-Browser Kit Uses Fake Software Errors to Deliver Malware Installers",
+      "link": "https://cybersecuritynews.com/browser-in-the-browser-kit-uses-fake-software-errors/",
+      "description": "A newly identified attack campaign is using a sophisticated Browser-in-the-Browser (BitB) kit to trick users into downloading malware disguised as legitimate software installers. The technique comb...",
+      "pub_date": "Wed, 24 Jun 2026 14:33:24 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Browser-in-the-Browser-Kit-Uses-Fake-Software-Errors-to-Deliver-Malware-Installers.webp"
+    },
+    {
+      "title": "GhostShell Malware Uses mTLS Implant and Telegram Dead-Drop to Target Ukrainian Drone Operations",
+      "link": "https://cybersecuritynews.com/ghostshell-malware-uses-mtls-implant-and-telegram-dead-drop/",
+      "description": "A newly identified malware cluster known as GhostShell has been found actively targeting Ukraine\u0026#8217;s drone operations and its broader defense supply chain. The campaign uses a sophisticated com...",
+      "pub_date": "Wed, 24 Jun 2026 14:31:59 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/GhostShell-Malware-Uses-mTLS-Implant-and-Telegram-Dead-Drop-to-Target-Ukrainian-Drone-Operations.png"
+    },
+    {
+      "title": "Red-Team AI Tool Vulnerabilities Let Attackers Exfiltrate API Keys and Compromise Operators’ Systems",
+      "link": "https://cybersecuritynews.com/red-team-ai-tool-vulnerabilities/",
+      "description": "A first-of-its-kind security analysis of 12 widely deployed agentic offensive-security tools reveals critical architectural flaws that allow adversaries to steal LLM API keys, establish persistent ...",
+      "pub_date": "Wed, 24 Jun 2026 14:26:51 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Red-Team-AI-Tool-Vulnerabilities.webp"
+    },
+    {
+      "title": "Securing the service desk: Why social engineering attacks keep succeeding",
+      "link": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
+      "description": "Service desks have become a favored target for attackers seeking password resets, MFA changes, and access to corporate accounts. Specops Software breaks down how service desk social engineering att...",
+      "pub_date": "Wed, 24 Jun 2026 10:02:12 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
+      "link": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
+      "description": "Cybersecurity researchers have flagged a new class of CI/CD workflow weakness that allows attackers to hijack workflows and compromise open-source supply chains.  The \"critical exploitable pattern\"...",
+      "pub_date": "Wed, 24 Jun 2026 18:18:11 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl_D6QzBWfQRZAXbjo9RhhLXSedzJR2Q2sUQoQYnDxpC7yETzJgn3KnpT8CcoqlfXdqkcnTCNcEpR1QKphy77NvG_9PIO57hHNF27x8pBb1pLf_4n3A6pTBs3qXQMsz81rvzpGIOqHZn7VqvJoJoB98o7COHOxi5wfkQvxhL4LcOxBkziY4MLxVCEOljX8/s1600/1000085115.jpg"
+    },
     {
       "title": "Dawn of the Apex Agentic Adversary",
       "link": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
@@ -218,24 +344,6 @@
       "image_url": ""
     },
     {
-      "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
-      "link": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
-      "description": "A newly disclosed FFmpeg flaw dubbed 'PixelSmash' could be exploited for remote code execution on Jellyfin servers under certain conditions, and can also trigger a denial-of-service  condition i...",
-      "pub_date": "Mon, 22 Jun 2026 17:05:01 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
-      "description": "Security firm SOCRadar says the large-scale FortiBleed campaign targeting Fortinet FortiGate devices used custom sniffers to harvest authentication secrets from compromised firewalls and steal cre...",
-      "pub_date": "Mon, 22 Jun 2026 16:01:02 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
       "link": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
       "description": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code.  \"Att...",
@@ -243,15 +351,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd4DchiVkQLBMvGHgWrojoZUdyk2SwEhEj5q6cOYzKCUWF1Lz3Mxeizurg1O-SLVi2jg319ib4SJsSoVWixAkl5WLPu4rL1cMoYXUM6EziOVyt42ESt1zmMo_iLEfHx9XSAXpsDd1FEtRSgKk4AhDzA7DjJN8c__pUgogxTQgaGjsxM04WNiesgRnbEVHN/s1600/wordpress-plugin.jpg"
-    },
-    {
-      "title": "Microsoft says Windows 11 26H2 is coming soon, details upgrade process",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-11-26h2-is-coming-soon-details-upgrade-process/",
-      "description": "Microsoft has confirmed that Windows 11 version 26H2 will be the next feature update and that devices running Windows 11 24H2 and 25H2 will be able to upgrade using a small enablement package. [...]",
-      "pub_date": "Mon, 22 Jun 2026 13:41:31 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
@@ -270,15 +369,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrjCumekV1hjkgdgebp4RqfYc_Yt9Swv4lG7ds3XMDHG9f-JxSuJSWY3UcWIoivJoJkJjdlBvtiQAHKy7NNgApCoD8ADtOpicXvKf9RJwAZT1DEGUkgX87bmSR8cO75Ss__mnLn8MyDEddnzhyphenhyphenRfcf_gWEtoLiKu53yXNQJtT0DP7nZufqBhB3P8VmvV48/s1600/dify.png"
-    },
-    {
-      "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
-      "link": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
-      "description": "Cybersecurity researchers have disclosed details of a new campaign that delivers CastleStealer by means of a previously unreported malware loader dubbed OXLOADER.  According to Elastic Security Lab...",
-      "pub_date": "Mon, 22 Jun 2026 18:50:12 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8sz7SHbQd4E8HNEKbvGGSYhPpJrUydP_gCRt_mWYYTr6QHLmChyphenhyphenca6BXhLBXA4OyKw-eS9xbqRqpKcYWFqDp4HoLBYKjVdWzhF0K1pqjX2bPtB91y1P1PZ8gh5r7Bpp-PIeUJVi_Hki91Qf6YjFAtFmf-qh7V9gNzmbEh_A2lISCvCDnNMALAuiqAlkL_/s1600/loader.jpg"
     },
     {
       "title": "Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more",
@@ -632,27 +722,18 @@
       "image_url": ""
     },
     {
+      "title": "Using SASE in a Modern TIC 3.0 Solution",
+      "link": "https://www.cisa.gov/resources-tools/resources/using-sase-modern-tic-30-solution",
+      "description": "Using SASE in a Modern TIC 3.0 Solution CISA’s guidance, The Journey to Zero Trust – Using Secure Access Service Edge in a Modern TIC 3.0 Solution, details how the Trusted Internet Connections ...",
+      "pub_date": "Wed, 24 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "Hubbell Aclara Metrum Cellular Web Interface",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-07",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to manipulate critical device settings and repeatedly disrupt operations, potentially causing a loss of communi...",
-      "pub_date": "Tue, 23 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Products using OpenSSL",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-03",
-      "description": "View CSAF Summary OpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution. ...",
-      "pub_date": "Tue, 23 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2025-67038 Lantronix EDS5000 Code Injection Vulne...",
       "pub_date": "Tue, 23 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -677,15 +758,6 @@
       "image_url": ""
     },
     {
-      "title": "Siemens SIPROTEC 5 Using DIGSI5 Protocol",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-02",
-      "description": "View CSAF Summary SIPROTEC 5 is vulnerable to arbitrary file uploads by authenticated users using the DIGSI 5 protocol. This could allow an attacker to upload malicious configuration files, potenti...",
-      "pub_date": "Tue, 23 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
       "title": "Siemens SINEC INS",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-04",
       "description": "View CSAF Summary SINEC INS before V1.0 SP2 Update 6 is affected by multiple vulnerabilities. Siemens has released a new version for SINEC INS and recommends to update to the latest version. The fo...",
@@ -704,6 +776,33 @@
       "image_url": ""
     },
     {
+      "title": "Siemens SIPROTEC 5 Using DIGSI5 Protocol",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-02",
+      "description": "View CSAF Summary SIPROTEC 5 is vulnerable to arbitrary file uploads by authenticated users using the DIGSI 5 protocol. This could allow an attacker to upload malicious configuration files, potenti...",
+      "pub_date": "Tue, 23 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2025-67038 Lantronix EDS5000 Code Injection Vulne...",
+      "pub_date": "Tue, 23 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens Products using OpenSSL",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-03",
+      "description": "View CSAF Summary OpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution. ...",
+      "pub_date": "Tue, 23 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "CISA Urges Hardening Fortinet Devices After Reports of Credential Exposure",
       "link": "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure",
       "description": "Update June 22, 2026:CISA has updated this Alert to incorporate the link to Fortinet’s recent guidance on this activity.\u0026nbsp; CISA is aware of global reports that malicious cyber actors have tar...",
@@ -713,45 +812,27 @@
       "image_url": ""
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-20253 Splunk Enterprise Missing Authentication for Cri...",
+      "title": "Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
+      "description": "View CSAF Summary Schneider Electric is aware of vulnerabilities in its PowerChute™ Serial Shutdown product. The [PowerChute Serial Shutdown](https://www.se.com/ww/en/product-range/137943580-powe...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Apollo Pharmacy Blood Glucose Monitoring System APG-01 BT",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-169-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain sensitive health-related information and prevent legitimate users from establishing a connection...",
+      "title": "Mitsubishi Electric MELSEC iQ-F Series",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition in the affected product by rapidly establishing a large nu...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "AzeoTech DAQFactory",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to upload malicious .ctl files that may lead to arbitrary code execution. The following versions of AzeoTech ...",
-      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Schneider Electric EasyLogic T150 and Saitel DP",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-04",
-      "description": "View CSAF Summary Successful exploitation this vulnerability could allow an attacker to gain unauthorized access to sensitive files The following versions of Schneider Electric EasyLogic T150 and S...",
-      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "AVer PTC cameras",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow arbitrary code execution. The following versions of AVer PTC cameras are affected:  PTC500S vers:all/* (CVE-2026-40624) P...",
+      "title": "Mitsubishi Electric Co.'s MELSEC iQ-F Series FX5-ENET/IP Ethernet Module",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-06",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition in the affected product by continuously sending a large nu...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -761,6 +842,15 @@
       "title": "Rockwell Automation FactoryTalk Historian Site Edition",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-03",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain a valid authentication token, perform a denial of service, or crash the system. The following ve...",
+      "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "AVer PTC cameras",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow arbitrary code execution. The following versions of AVer PTC cameras are affected:  PTC500S vers:all/* (CVE-2026-40624) P...",
       "pub_date": "Thu, 18 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
