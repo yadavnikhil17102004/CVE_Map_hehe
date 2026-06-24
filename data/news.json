@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-06-24T18:28:27Z",
+  "last_updated": "2026-06-24T20:29:07Z",
   "articles": [
+    {
+      "title": "Malicious Edge Extension Uses Chrome Native Messaging to Execute Code on Victim Systems",
+      "link": "https://cybersecuritynews.com/malicious-edge-extension-uses-chrome-native-messaging/",
+      "description": "A new and deceptive malware campaign has been uncovered, one that turns an everyday browser extension into a dangerous tool for system compromise. Security researchers have identified a threat that...",
+      "pub_date": "Wed, 24 Jun 2026 19:36:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Malicious-Edge-Extension-Uses-Chrome-Native-Messaging-to-Execute-Code-on-Victim-Systems.webp"
+    },
     {
       "title": "EvilTokens Hides Its Attack Flow in the Browser, Exposing Static Analysis Gaps  ",
       "link": "https://cybersecuritynews.com/eviltokens-hides-its-attack-flow-in-the-browser/",
@@ -119,15 +128,6 @@
       "image_url": ""
     },
     {
-      "title": "Browser-in-the-Browser Kit Uses Fake Software Errors to Deliver Malware Installers",
-      "link": "https://cybersecuritynews.com/browser-in-the-browser-kit-uses-fake-software-errors/",
-      "description": "A newly identified attack campaign is using a sophisticated Browser-in-the-Browser (BitB) kit to trick users into downloading malware disguised as legitimate software installers. The technique comb...",
-      "pub_date": "Wed, 24 Jun 2026 14:33:24 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Browser-in-the-Browser-Kit-Uses-Fake-Software-Errors-to-Deliver-Malware-Installers.webp"
-    },
-    {
       "title": "Securing the service desk: Why social engineering attacks keep succeeding",
       "link": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
       "description": "Service desks have become a favored target for attackers seeking password resets, MFA changes, and access to corporate accounts. Specops Software breaks down how service desk social engineering att...",
@@ -180,6 +180,51 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivauBSNOsDqBHvUFSnF1NdlWJ8BAt2JVgIo_ZUQhBkVppSz0PvkEmrc9RP1hMf2-oFFRgr5PNm7pxLmPngAJHcxV6-F3e43bEqmdEg38013JmlUKDlGVOLQTj6bYbyk_R7WXBqbW3o2yPHdosqz7nncLivqDqXGAuiTFcHkPqiVPBJuDHlsvYWtEreVmk_/s1600/cc.jpg"
+    },
+    {
+      "title": "ZDI-26-365: FlowiseAI Flowise CSV Agent customReadCSV Code Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-365/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Although authentication is required to exploit this vulnerability, the existing authentica...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-364: FlowiseAI Flowise CSV Agent  Prompt Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-364/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS ...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-363: Docker MCP Plugin OCI Image Label Parsing Argument Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-363/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Docker MCP Plugin. User interaction is required to exploit this vulnerability in that the target mu...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-362: Oracle VirtualBox VMSVGA Stack-based Buffer Overflow Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-362/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the tar...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-361: Adobe Acrobat Reader DC Field signatureInfo Use-After-Free Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-361/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the tar...",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
     },
     {
       "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
@@ -581,51 +626,6 @@
       "title": "ZDI-26-351: Adobe USD-Fileformat-plugins Heap-based Buffer Overflow Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-351/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe USD-Fileformat-plugins. Interaction with the USD library is required to exploit this vulnerab...",
-      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-350: Adobe USD-Fileformat-plugins Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-350/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe USD-Fileformat-plugins. Interaction with the USD library is required to exploit this vulnerab...",
-      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-349: Adobe Acrobat Pro DC Annots.api Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-349/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target...",
-      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-348: Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-348/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the tar...",
-      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-347: Adobe Acrobat Reader DC Multimedia Rendition Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-347/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the tar...",
-      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-346: Adobe Acrobat Reader DC Annotation Use-After-Free Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-346/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that...",
       "pub_date": "Tue, 09 Jun 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
