@@ -1,14 +1,50 @@
 {
-  "last_updated": "2026-06-24T16:10:23Z",
+  "last_updated": "2026-06-24T18:28:27Z",
   "articles": [
     {
-      "title": "Authorities Disrupt Password-Stealing Malware StealC Infrastructure in Global Operation",
+      "title": "EvilTokens Hides Its Attack Flow in the Browser, Exposing Static Analysis Gaps  ",
+      "link": "https://cybersecuritynews.com/eviltokens-hides-its-attack-flow-in-the-browser/",
+      "description": "\u0026#160;EvilTokens\u0026#160;is drawing attention\u0026#160;in\u0026#160;phishing investigations for abusing Microsoft Device Code authentication and hiding key parts of its attack flow from static URL analysis.\u0026#1...",
+      "pub_date": "Wed, 24 Jun 2026 17:31:33 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/EvilTokens.webp"
+    },
+    {
+      "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
+      "link": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation of a critical security flaw impacting Lantronix EDS5000 Series devices, urging Federal Civi...",
+      "pub_date": "Wed, 24 Jun 2026 22:49:18 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjZtIkR9YS2fMY5MvIzgyEShmJAP1bgHqhBdU115iSY7WZ2EcBAbFKb1OQP6Nq8hoF4HlnRifxW890ztCcnezyAivPNWZjVsyJrhoNe8BVnZgSfcRo1Jbl4XilQM9bcQTU9nOeDgfWXSzh9sBru4RH6mDhwa1IijucDmj-l1gVI8NAiQRzu0IJ8d2AIVh9/s1600/1000085210.jpg"
+    },
+    {
+      "title": "Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access",
+      "link": "https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day/",
+      "description": "A sophisticated threat actor is actively targeting SD-WAN infrastructure at a major service provider. The campaign culminated in the exploitation of a zero-day privilege escalation vulnerability, n...",
+      "pub_date": "Wed, 24 Jun 2026 17:03:41 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Cisco-Catalyst-SD-WAN-Manager-0-Day.webp"
+    },
+    {
+      "title": "Authorities Disrupt Stealer Malware StealC and Amadey Infrastructure in Global Operation",
       "link": "https://cybersecuritynews.com/stealc-infrastructure-disrupted/",
       "description": "Europol and law enforcement partners across multiple countries have dealt a significant blow to the cybercriminal ecosystems powering StealC, Amadey, and SocGholish malware, three widely deployed t...",
       "pub_date": "Wed, 24 Jun 2026 16:04:19 +0000",
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/StealC-Infrastructure-Disrupted.webp"
+    },
+    {
+      "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
+      "link": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
+      "description": "A coordinated law enforcement operation, in partnership with private sector companies, including Bitdefender, Bitsight, ESET, and Microsoft, has resulted in the takedown of criminal infrastructure ...",
+      "pub_date": "Wed, 24 Jun 2026 21:29:50 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBVSibdiZdJ1tNYJFrsHtZ8Vr1EG28rqKLY4E7HvAtuax2i3vgpcaMZjEAcGDRxUVu5aa_BHzCAahpw5l2RP2HNw9t7PF6zknNICdw0iuW5jozt5fzqsSfb3Lw55MIvStq2vh5W0139JychUhhJHvchyphenhyphenm7tT2oTS555CkVZrBYSkhmlMKWaXMLtO4OcSp6/s1600/cybercrime-ms.jpg"
     },
     {
       "title": "Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users",
@@ -90,24 +126,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Browser-in-the-Browser-Kit-Uses-Fake-Software-Errors-to-Deliver-Malware-Installers.webp"
-    },
-    {
-      "title": "GhostShell Malware Uses mTLS Implant and Telegram Dead-Drop to Target Ukrainian Drone Operations",
-      "link": "https://cybersecuritynews.com/ghostshell-malware-uses-mtls-implant-and-telegram-dead-drop/",
-      "description": "A newly identified malware cluster known as GhostShell has been found actively targeting Ukraine\u0026#8217;s drone operations and its broader defense supply chain. The campaign uses a sophisticated com...",
-      "pub_date": "Wed, 24 Jun 2026 14:31:59 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/GhostShell-Malware-Uses-mTLS-Implant-and-Telegram-Dead-Drop-to-Target-Ukrainian-Drone-Operations.png"
-    },
-    {
-      "title": "Red-Team AI Tool Vulnerabilities Let Attackers Exfiltrate API Keys and Compromise Operators’ Systems",
-      "link": "https://cybersecuritynews.com/red-team-ai-tool-vulnerabilities/",
-      "description": "A first-of-its-kind security analysis of 12 widely deployed agentic offensive-security tools reveals critical architectural flaws that allow adversaries to steal LLM API keys, establish persistent ...",
-      "pub_date": "Wed, 24 Jun 2026 14:26:51 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Red-Team-AI-Tool-Vulnerabilities.webp"
     },
     {
       "title": "Securing the service desk: Why social engineering attacks keep succeeding",
@@ -351,24 +369,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd4DchiVkQLBMvGHgWrojoZUdyk2SwEhEj5q6cOYzKCUWF1Lz3Mxeizurg1O-SLVi2jg319ib4SJsSoVWixAkl5WLPu4rL1cMoYXUM6EziOVyt42ESt1zmMo_iLEfHx9XSAXpsDd1FEtRSgKk4AhDzA7DjJN8c__pUgogxTQgaGjsxM04WNiesgRnbEVHN/s1600/wordpress-plugin.jpg"
-    },
-    {
-      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-      "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-      "description": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the...",
-      "pub_date": "Mon, 22 Jun 2026 21:59:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA4IfKMjQxVhpOYdrcCC4ty0vlGBDg_qCZuuvSTvyVWXYPXQlli7qyCZkPdHHuGJp-HVH1s-HGmf_Zqn97o2Qz5JOHaZ-Mk1mecm4W4yUBiCaejJL5guczISx2Q8ZH7RvS_4fXiNdHemr1aWKwz0CcyBJI_4_jFjQhY5JedBz_-pSiSQ1eQCF_BPYEbRs/s1600/sq.jpg"
-    },
-    {
-      "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
-      "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
-      "description": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to stealth...",
-      "pub_date": "Mon, 22 Jun 2026 21:43:28 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrjCumekV1hjkgdgebp4RqfYc_Yt9Swv4lG7ds3XMDHG9f-JxSuJSWY3UcWIoivJoJkJjdlBvtiQAHKy7NNgApCoD8ADtOpicXvKf9RJwAZT1DEGUkgX87bmSR8cO75Ss__mnLn8MyDEddnzhyphenhyphenRfcf_gWEtoLiKu53yXNQJtT0DP7nZufqBhB3P8VmvV48/s1600/dify.png"
     },
     {
       "title": "Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more",
