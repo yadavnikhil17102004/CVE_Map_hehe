@@ -1,14 +1,32 @@
 {
-  "last_updated": "2026-06-25T08:21:21Z",
+  "last_updated": "2026-06-25T11:33:23Z",
   "articles": [
     {
-      "title": "Hackers Use Cisco AnyConnect and Google Update Lures to Drop SharkLoader Malware",
-      "link": "https://cybersecuritynews.com/hackers-use-cisco-anyconnect-and-google-update-lures/",
-      "description": "A newly discovered malware family is making its way onto systems worldwide by hiding inside fake software installers that look completely legitimate. Researchers have identified a campaign where at...",
-      "pub_date": "Thu, 25 Jun 2026 07:48:40 +0000",
-      "source": "Cyber Security News",
+      "title": "Experts on Experts: Why AI and Compliance Are Forcing A New Security Operating Model",
+      "link": "https://www.rapid7.com/blog/post/it-experts-video-series-ai-compliance-force-new-security-operating-models",
+      "description": "This week on Experts on Experts, I sat down with Sabeen Malik, Rapid7’s VP of Global Government Affairs and Public Policy, to discuss a shift security leaders can’t afford to treat as separate ...",
+      "pub_date": "Thu, 25 Jun 2026 13:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltf8317b2e5bfec732/68adbeaa4f9d3d04bd8228e9/experts-on-experts.png"
+    },
+    {
+      "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
+      "link": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
+      "description": "A previously undocumented Rust-based macOS implant and information stealer has been found to embed a prompt injection payload designed to trick a malware analyst's artificial intelligence (AI) tool...",
+      "pub_date": "Thu, 25 Jun 2026 14:53:03 +0530",
+      "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-Cisco-AnyConnect-and-Google-Update-Lures-to-Drop-SharkLoader-Malware.webp"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbTrOy7FP80AfVcwyuiLtJx1T9YECQ6fxHaelQKUn3MNwSV9P3tiVq4_-pOB-gmU3lF9GpWnc5ebVSAbp0MZMZpHHZkdpTK_HX40hfg3KbusQS5bD0kRYjYVyRzffkUpWBsblvGULiZnnOj6e0NF-dg49It3Wn8p9WqD2TNEz0ruG1XrnqCckAXqsDAOTn/s1600/ai-full-disk.jpg"
+    },
+    {
+      "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
+      "link": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
+      "description": "A new, stealthy backdoor named Mistic has been deployed as part of suspected financially motivated attacks aimed at multiple organizations spanning insurance, education, IT, and professional servic...",
+      "pub_date": "Thu, 25 Jun 2026 14:24:37 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC1-4l_iOC19z96Q7C7O_dZSKwEvMnMLhHyb7kpt2rpOzQmn3gKpz6_BaZmSpzgvyhTJf8BBQmBTx0Nvymxk1vfO5O5bE0nNGbYPHAcb5F8ZF_WjTyQe4AXSK71q6fESS9i5Rdpcfzt6ULab7eo21OZKRCYlqwU7G97mF4-AeVVANlT4YIbigdYxUJkwfy/s1600/clickattack.jpg"
     },
     {
       "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
@@ -18,24 +36,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3UeGaI_Ej8KFu7-vQHTOuoohYdx04xIdI3W2B6JjCdaTSR6m-y1PAZ-aes-tH9nxtPGO2sFUiu1NwYkwT5s8bDPaHpG8nyN4t_mbZfVjf0nU8L11XujdqERtFUQlMZ85NV_nG6ZhqIQbGdAtyi8p1Oqq7TsBRs1IDn8HvOOnUPFEaL9_2cXrh9eovvaYz/s1600/cisco-20245.jpg"
-    },
-    {
-      "title": "Chrome 149 Security Update — Patch for Critical Flaws that Enable Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/chrome-149-security-update/",
-      "description": "Google has released a critical security update for its Chrome browser, pushing the Stable channel to version 149.0.7827.196/197 for Windows and Mac, and 149.0.7827.196 for Linux. The update address...",
-      "pub_date": "Thu, 25 Jun 2026 03:28:57 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Chrome-149-Security-Update.webp"
-    },
-    {
-      "title": "Anthropic Accuses Alibaba of ‘Illicitly’ Accessing Its Claude AI Models in Largest Known Distillation Attack",
-      "link": "https://cybersecuritynews.com/anthropic-accuses-alibaba/",
-      "description": "Anthropic has formally accused Chinese tech and e-commerce giant Alibaba of orchestrating a massive, unauthorized extraction campaign targeting its Claude AI model, marking what the company describ...",
-      "pub_date": "Thu, 25 Jun 2026 02:11:37 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Anthropic-Accuses-Alibaba.webp"
     },
     {
       "title": "Google releases new privacy controls for activity history, personalization",
@@ -65,15 +65,6 @@
       "image_url": ""
     },
     {
-      "title": "Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection",
-      "link": "https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security/",
-      "description": "A new and stealthy backdoor named Mistic has been quietly targeting corporate networks since April 2026, disguising itself using the names and appearance of legitimate Microsoft endpoint security c...",
-      "pub_date": "Wed, 24 Jun 2026 20:58:31 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Mistic-Backdoor-Blends-With-Microsoft-Endpoint-Security-Tooling-to-Evade-Detection.png"
-    },
-    {
       "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
       "link": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
       "description": "A malicious Microsoft Edge extension dubbed 'Edgecution' has been used in a ransomware attack to escape the browser sandbox and deploy a Python-based backdoor. [...]",
@@ -83,42 +74,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft Teams Impersonation Campaign Enables Unauthorized Access Through RMM Abuse",
-      "link": "https://cybersecuritynews.com/microsoft-teams-impersonation-campaign-enables-unauthorized-access/",
-      "description": "Threat actors are once again exploiting the trust people place in everyday workplace tools. A newly discovered phishing campaign is using fake Microsoft Teams notifications to trick employees into ...",
-      "pub_date": "Wed, 24 Jun 2026 20:58:08 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Teams-Impersonation-Campaign-Enables-Unauthorized-Access-Through-RMM-Abuse.png"
-    },
-    {
-      "title": "Fake Document Reader in The Google Play Store with 100K Downloads Deliver Android Malware",
-      "link": "https://cybersecuritynews.com/fake-document-reader-in-the-google-play-store/",
-      "description": "A dangerous Android banking trojan is once again spreading through the Google Play Store, hiding inside what appears to be a simple document reader app. The app has already been downloaded more tha...",
-      "pub_date": "Wed, 24 Jun 2026 20:57:34 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Fake-Document-Reader-in-The-Google-Play-Store-with-100K-Downloads-Deliver-Android-Malware.png"
-    },
-    {
-      "title": "Malicious Edge Extension Uses Chrome Native Messaging to Execute Code on Victim Systems",
-      "link": "https://cybersecuritynews.com/malicious-edge-extension-uses-chrome-native-messaging/",
-      "description": "A new and deceptive malware campaign has been uncovered, one that turns an everyday browser extension into a dangerous tool for system compromise. Security researchers have identified a threat that...",
-      "pub_date": "Wed, 24 Jun 2026 19:36:34 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Malicious-Edge-Extension-Uses-Chrome-Native-Messaging-to-Execute-Code-on-Victim-Systems.webp"
-    },
-    {
-      "title": "EvilTokens Hides Its Attack Flow in the Browser, Exposing Static Analysis Gaps  ",
-      "link": "https://cybersecuritynews.com/eviltokens-hides-its-attack-flow-in-the-browser/",
-      "description": "\u0026#160;EvilTokens\u0026#160;is drawing attention\u0026#160;in\u0026#160;phishing investigations for abusing Microsoft Device Code authentication and hiding key parts of its attack flow from static URL analysis.\u0026#1...",
-      "pub_date": "Wed, 24 Jun 2026 17:31:33 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/EvilTokens.webp"
-    },
-    {
       "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
       "link": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation of a critical security flaw impacting Lantronix EDS5000 Series devices, urging Federal Civi...",
@@ -126,24 +81,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjZtIkR9YS2fMY5MvIzgyEShmJAP1bgHqhBdU115iSY7WZ2EcBAbFKb1OQP6Nq8hoF4HlnRifxW890ztCcnezyAivPNWZjVsyJrhoNe8BVnZgSfcRo1Jbl4XilQM9bcQTU9nOeDgfWXSzh9sBru4RH6mDhwa1IijucDmj-l1gVI8NAiQRzu0IJ8d2AIVh9/s1600/1000085210.jpg"
-    },
-    {
-      "title": "Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access",
-      "link": "https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day/",
-      "description": "A sophisticated threat actor is actively targeting SD-WAN infrastructure at a major service provider. The campaign culminated in the exploitation of a zero-day privilege escalation vulnerability, n...",
-      "pub_date": "Wed, 24 Jun 2026 17:03:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Cisco-Catalyst-SD-WAN-Manager-0-Day.webp"
-    },
-    {
-      "title": "Authorities Disrupt Stealer Malware StealC and Amadey Infrastructure in Global Operation",
-      "link": "https://cybersecuritynews.com/stealc-infrastructure-disrupted/",
-      "description": "Europol and law enforcement partners across multiple countries have dealt a significant blow to the cybercriminal ecosystems powering StealC, Amadey, and SocGholish malware, three widely deployed t...",
-      "pub_date": "Wed, 24 Jun 2026 16:04:19 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/StealC-Infrastructure-Disrupted.webp"
     },
     {
       "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
@@ -488,24 +425,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiENcFC1DFPXKuRCT_WmSwq-wpzC8IcZUdZzu5IHi597n77W8LFs9qSUdDPCuMK9QzkRZEBMbBh4p2xhnI1OXZu4akIgR5suIv_yRA7AtEkojDcyXaU5x0UiZKRDRvTn0n0wy9HIQnhJj9zUO0rpemNOFNZEmMl4NQsCj5aDEpDrqXUkivsOX1QoLRqeKZh/s1600/npmm.jpg"
     },
     {
-      "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
-      "link": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
-      "description": "Direct messages sent via WhatsApp are being used to distribute malicious Visual Basic Script (VBScript) files that lead to the installation of legitimate Remote Monitoring and Management (RMM) soft...",
-      "pub_date": "Tue, 23 Jun 2026 11:08:40 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDqA3duB8U44C_MQ5PM061Wch2-j7uRvX_D52lK_2Dsm2lxcquuICTnFZ-dhQiQfxxKTnIJz4tf7ffCupdkoU1giCEGhHXLKJ0xC3dw7duptIHq15dD0E5XlkvB9JbKztGCTJOk2iJ53shzUQexv2So6rrFy8djOO1etfsolTM5UbvMUkKvNwNpHqFvS7V/s1600/whatsapp-main.jpg"
-    },
-    {
-      "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
-      "link": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
-      "description": "OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative\u0026nbsp;the artificial intelligence (AI) company announc...",
-      "pub_date": "Tue, 23 Jun 2026 09:26:58 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5t7SN4kPSfgifNku4Z0eWG5x1Dd8CIb99OAHuktz4ZGAeIrwDEnLwD9DUkRj8nStBQjzxOgWO2hfsGYI07Yp8gQGtXiSBIqlQXtzDTc3bkveScQ2gd-WbUmBA0L1xVDXhbrukUIuWdLaMPyiDZO-5-tWlq-kwFdImdd-h7YVkO7oGDN08bv25RJ2TRDt8/s1600/opne.jpg"
-    },
-    {
       "title": "Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more",
       "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026",
       "description": "This week's release includes five new modules, including a full unauthenticated RCE chain for Paperclip AI and a VS Code extension persistence technique. On the post-exploitation side, the new win...",
@@ -630,15 +549,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0b0762ca94c50b0b/6846a711eac0e395093e52e3/AI.jpg"
-    },
-    {
-      "title": "Critical Check Point VPN Zero-Day Exploited in the Wild (CVE-2026-50751)",
-      "link": "https://www.rapid7.com/blog/post/etr-critical-check-point-vpn-zero-day-exploited-in-the-wild-cve-2026-50751",
-      "description": "OverviewOn June 8, 2026, Check Point published a security advisory for CVE-2026-50751, a critical authentication bypass vulnerability affecting Check Point Remote Access VPN, Mobile Access, and Spa...",
-      "pub_date": "Mon, 08 Jun 2026 17:05:16 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
     },
     {
       "title": "Investigation update: GitHub Enterprise Server signing key rotation",
