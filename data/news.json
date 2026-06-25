@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-06-25T11:33:23Z",
+  "last_updated": "2026-06-25T14:07:35Z",
   "articles": [
+    {
+      "title": "25-Year-Old Vulnerability in cURL Used by 30 Billion Devices Finally Patched",
+      "link": "https://cybersecuritynews.com/25-year-old-curl-vulnerability/",
+      "description": "A critical security flaw lurking in curl for over 25 years has been patched, as part of a record-breaking security release that fixed 18 CVEs, the most ever issued in a single curl version. The vul...",
+      "pub_date": "Thu, 25 Jun 2026 13:52:17 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/curl-8.21.0-Released-With-Fix-for-18-Vulnerabilities.webp"
+    },
+    {
+      "title": "LokiBot Campaign Uses JScript Attachment, .NET Injector, and Process Injection to Steal Credentials",
+      "link": "https://cybersecuritynews.com/lokibot-campaign-uses-jscript-attachment/",
+      "description": "LokiBot, one of the oldest credential-stealing malware families still active today, has resurfaced in a new multi-stage campaign designed to steal credentials from a wide range of applications. The...",
+      "pub_date": "Thu, 25 Jun 2026 13:26:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/LokiBot-Campaign-Uses-JScript-Attachment-.NET-Injector-and-Process-Injection-to-Steal-Credentials.webp"
+    },
+    {
+      "title": "Shai-Hulud Payload Steals GitHub, npm, Cloud, CI/CD, and SSH Credentials From Developers",
+      "link": "https://cybersecuritynews.com/shai-hulud-payload-steals-github-npm-cloud/",
+      "description": "A new wave of malicious npm packages is targeting developers who work with cloud and serverless infrastructure. The threat, known as the Shai-Hulud payload carrying the Hades malware family, has no...",
+      "pub_date": "Thu, 25 Jun 2026 13:10:15 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Shai-Hulud-Payload-Steals-GitHub-npm-Cloud-CI-CD-and-SSH-Credentials-From-Developers.webp"
+    },
     {
       "title": "Experts on Experts: Why AI and Compliance Are Forcing A New Security Operating Model",
       "link": "https://www.rapid7.com/blog/post/it-experts-video-series-ai-compliance-force-new-security-operating-models",
@@ -9,6 +36,87 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltf8317b2e5bfec732/68adbeaa4f9d3d04bd8228e9/experts-on-experts.png"
+    },
+    {
+      "title": "AWS AiTM Phishing Kit Steals Console Credentials and MFA Codes in Real Time",
+      "link": "https://cybersecuritynews.com/aws-aitm-phishing-kit-steals-console-credentials/",
+      "description": "A newly discovered phishing kit is targeting Amazon Web Services users by silently stealing login credentials and multi-factor authentication codes the moment a victim types them in. Unlike older t...",
+      "pub_date": "Thu, 25 Jun 2026 12:59:06 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/AWS-AiTM-Phishing-Kit-Steals-Console-Credentials-and-MFA-Codes-in-Real-Time.webp"
+    },
+    {
+      "title": "Rust macOS Backdoor Uses Interactive Shell and Telegram File Uploads for Data Theft",
+      "link": "https://cybersecuritynews.com/rust-macos-backdoor-uses-interactive-shell/",
+      "description": "A newly identified Rust-based macOS backdoor has raised alarms across the security community, combining a hidden interactive shell with Telegram-based file uploads to quietly steal data from Apple ...",
+      "pub_date": "Thu, 25 Jun 2026 12:51:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Rust-macOS-Backdoor-Uses-Interactive-Shell-and-Telegram-File-Uploads-for-Data-Theft.webp"
+    },
+    {
+      "title": "ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories",
+      "link": "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
+      "description": "It’s dumb out there again.  This week has the usual smell of prod on fire and nobody wanting to admit who left the door open — old creds still working, trusted apps doing sketchy crap, browser ...",
+      "pub_date": "Thu, 25 Jun 2026 17:54:43 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO1f6pZmhVaPQd2FjrrAG-IbL0vMk7zHVZ6BqjzkzJS8qd7HlAtIJ-7chRUbqR7tZHPNqdZFbm0QL9O03mkW7YsOh0pVwW1_ogikaoxNX8dFd5-ZB4SwB7-tfpWmp9Hr22DJL6tzZgTdeFnCU4VwaZXSY_htGs2_xlaB8n0EOedrfe7wHuI30GXTF6Pofc/s1600/threatsday-june.jpg"
+    },
+    {
+      "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/",
+      "description": "Account takeover attacks continue to challenge security teams because attackers often operate through legitimate accounts and trusted services. This webinar explores how behavioral AI can help orga...",
+      "pub_date": "Thu, 25 Jun 2026 08:12:20 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "ManageEngine AD360 Integration Flaw Exposes User Identity and Role Information to Attackers",
+      "link": "https://cybersecuritynews.com/manageengine-ad360-integration-flaw/",
+      "description": "ManageEngine has disclosed a high-severity vulnerability, tracked as CVE-2026-11374, affecting several of its identity and access management solutions when integrated with AD360. The flaw could all...",
+      "pub_date": "Thu, 25 Jun 2026 11:55:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/ManageEngine-AD360-Integration-Flaw-Exposes-User-Identity-and-Role-Information-to-Attackers.webp"
+    },
+    {
+      "title": "Surviving the Mythos Era: Richard Bejtlich on the Case for NDR",
+      "link": "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
+      "description": "Despite the abundance of telemetry at analysts’ disposal, many security operations teams struggle to answer a few basic questions during incident investigation: What happened? What evidence do we...",
+      "pub_date": "Thu, 25 Jun 2026 16:47:31 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGC4Kd3HcSGw5TQ1GQNwgQST4imnVTlHZ4yW1dDr_kwUksDH1MHmlPUMzW8LhePZZTM1HszkIQwL8Ggm-cxlXRRMbUdcXbXfQ57FUfzbN4yj1OimJJxQy0XokmSC-lVr4XyFM5b3LqVQ8hMDIqr34xQXHpD0q8FnuR50Rdg19jXFC9xKKtn3Yap5BQhZg/s1600/corelight.jpg"
+    },
+    {
+      "title": "Gemini 3.5 Flash Released With Computer Use Capabilities that Build Agents",
+      "link": "https://cybersecuritynews.com/gemini-3-5-flash-released/",
+      "description": "Google has officially released Gemini 3.5 Flash with native “computer use” capabilities, marking a significant shift toward autonomous AI agents that can interact directly with digital environm...",
+      "pub_date": "Thu, 25 Jun 2026 10:44:46 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Gemini-3.5-Flash-released-With-Computer-use-Capabilities-that-Build-Agents-1.webp"
+    },
+    {
+      "title": "WhatsApp to Warn Users Before Starting Chats With New Phone Numbers",
+      "link": "https://cybersecuritynews.com/whatsapp-warning-screen/",
+      "description": "WhatsApp is rolling out a new security warning on both Android and iOS that appears before users even open a conversation with an unknown phone number. WABetaInfo noted that the feature displays th...",
+      "pub_date": "Thu, 25 Jun 2026 10:35:05 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/WhatsApp-Warn-Users-Starting-Chats.webp"
+    },
+    {
+      "title": "Malicious Chrome Extension Uses Native Messaging Host to Execute PowerShell Commands",
+      "link": "https://cybersecuritynews.com/malicious-chrome-extension-uses-native-messaging-host/",
+      "description": "A newly discovered malware campaign has turned Google Chrome into a remote backdoor without breaking any of the browser\u0026#8217;s built-in rules. Spotted in June 2026, the attack arrived in Italian-l...",
+      "pub_date": "Thu, 25 Jun 2026 09:51:56 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Malicious-Chrome-Extension-Uses-Native-Messaging-Host-to-Execute-PowerShell-Commands.webp"
     },
     {
       "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
@@ -27,6 +135,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC1-4l_iOC19z96Q7C7O_dZSKwEvMnMLhHyb7kpt2rpOzQmn3gKpz6_BaZmSpzgvyhTJf8BBQmBTx0Nvymxk1vfO5O5bE0nNGbYPHAcb5F8ZF_WjTyQe4AXSK71q6fESS9i5Rdpcfzt6ULab7eo21OZKRCYlqwU7G97mF4-AeVVANlT4YIbigdYxUJkwfy/s1600/clickattack.jpg"
+    },
+    {
+      "title": "OpenClaw Skill Marketplace Exposes AI Agents to Supply Chain Malware and Financial Fraud",
+      "link": "https://cybersecuritynews.com/openclaw-skill-marketplace-exposes-ai-agents/",
+      "description": "A wave of malicious skills targeting the OpenClaw AI agent marketplace has exposed a dangerous new frontier in software supply chain security. Attackers are using the ClawHub skill marketplace to p...",
+      "pub_date": "Thu, 25 Jun 2026 08:39:03 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/OpenClaw-Skill-Marketplace-Exposes-AI-Agents-to-Supply-Chain-Malware-and-Financial-Fraud.webp"
     },
     {
       "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
@@ -396,33 +513,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcacTEKD_LZFda1wwX5aClbAVOb6mwah2lVUY-jUZwNsrSZGDOFL18LP5zYLX3M2DwKng0qknZ5qo_hMk4q-NExgZv1ozhCy7DJuZwvviZE0sv36PQ2k8Y2emv1KMDFplakFwVzulOFPteWkmVoLO6Le912KAbJGFW0nkqKWHEkwJQLbsGhz5npWO3aJaR/s1600/github-actions.jpg"
-    },
-    {
-      "title": "The Exploit Doesn't Exist. You Can Still Prove It Works Against You",
-      "link": "https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you/",
-      "description": "Attackers can now weaponize newly disclosed vulnerabilities far faster than most organizations can patch them. Picus Security explains how security teams can validate exploitability before a public...",
-      "pub_date": "Tue, 23 Jun 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
-      "link": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
-      "description": "Every weapon begins as an extension of the hand that holds it. The spear lengthened the reach of the arm. The bow sent the point flying without the throw. The rifle placed a man's death a quarter m...",
-      "pub_date": "Tue, 23 Jun 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5YrdKJuy4ZmnWf_7L2RdXqS2QWC2BHJIbGsapJLmmYy1hBXfHxE7WMk-itWDkh-oCbAr8-CZOiUTyLftdM6191lDL8Iu2ENNU_i6Wfw2qy3lKY41iCrOnaLXHIl8cWDto42eqVlnsM4OetK0ymQUnwdpRXIniZQ-o7pBIDkqOYbm7o4CMlQTYFOeQyJI/s1600/ai-weapon.jpg"
-    },
-    {
-      "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
-      "link": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
-      "description": "Cybersecurity researchers have discovered a set of malicious npm packages that are designed to deliver a Windows-based remote access trojan (RAT).  The list of identified packages, is below -     a...",
-      "pub_date": "Tue, 23 Jun 2026 14:24:32 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiENcFC1DFPXKuRCT_WmSwq-wpzC8IcZUdZzu5IHi597n77W8LFs9qSUdDPCuMK9QzkRZEBMbBh4p2xhnI1OXZu4akIgR5suIv_yRA7AtEkojDcyXaU5x0UiZKRDRvTn0n0wy9HIQnhJj9zUO0rpemNOFNZEmMl4NQsCj5aDEpDrqXUkivsOX1QoLRqeKZh/s1600/npmm.jpg"
     },
     {
       "title": "Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more",
