@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-06-25T17:05:00Z",
+  "last_updated": "2026-06-25T19:47:24Z",
   "articles": [
+    {
+      "title": "Order-tracking app Shop abused to push callback phishing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+      "description": "Threat actors are increasingly abusing Shop, the order-tracking app from Shopify, by adding fake purchase receipts in users' order histories to trick them into providing sensitive data or installin...",
+      "pub_date": "Thu, 25 Jun 2026 15:45:48 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
+      "description": "Microsoft has quietly extended its free Windows 10 Extended Security Updates (ESU) program for consumers by an additional year, allowing enrolled devices to continue receiving security updates unti...",
+      "pub_date": "Thu, 25 Jun 2026 14:29:20 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Russia Used Cellebrite Tool to Hack Activist’s iPhone Despite Contract Cancellation",
+      "link": "https://cybersecuritynews.com/russia-cellebrite-tool-iphone/",
+      "description": "Russian authorities deployed Cellebrite\u0026#8217;s Universal Forensic Extraction Device (UFED) to breach the iPhone of opposition politician Andrey Pivovarov in June 2021, months after the Israeli sur...",
+      "pub_date": "Thu, 25 Jun 2026 17:45:33 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Russia-Cellebrite-Tool-iPhone.webp"
+    },
     {
       "title": "Windows Secure Boot Certificate Expired — Billions of PCs Affected Including Linux Distros",
       "link": "https://cybersecuritynews.com/windows-secure-boot-certificate-expired/",
@@ -162,15 +189,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/WhatsApp-Warn-Users-Starting-Chats.webp"
-    },
-    {
-      "title": "Malicious Chrome Extension Uses Native Messaging Host to Execute PowerShell Commands",
-      "link": "https://cybersecuritynews.com/malicious-chrome-extension-uses-native-messaging-host/",
-      "description": "A newly discovered malware campaign has turned Google Chrome into a remote backdoor without breaking any of the browser\u0026#8217;s built-in rules. Spotted in June 2026, the attack arrived in Italian-l...",
-      "pub_date": "Thu, 25 Jun 2026 09:51:56 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Malicious-Chrome-Extension-Uses-Native-Messaging-Host-to-Execute-PowerShell-Commands.webp"
     },
     {
       "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
@@ -461,24 +479,6 @@
       "image_url": ""
     },
     {
-      "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
-      "description": "A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]",
-      "pub_date": "Tue, 23 Jun 2026 17:48:32 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Tata Electronics confirms cyberattack as hackers leak data",
-      "link": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
-      "description": "Tata Electronics has confirmed in a statement to BleepingComputer that it was the target of a cyberattack that impacted parts of its IT infrastructure. [...]",
-      "pub_date": "Tue, 23 Jun 2026 17:06:32 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
       "link": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
       "description": "A Russian-speaking initial access broker (IAB) driven by financial gain is assessed to be behind a large-scale credential-harvesting operation known as FortiBleed that has targeted over 430,000 For...",
@@ -741,7 +741,7 @@
     },
     {
       "title": "OHIF Viewers DICOM",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsma-26-176-02",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-176-02",
       "description": "View CSAF Summary Successful exploitation of this vulnerability in a custom integration version could allow an attacker to steal an authenticated clinician's token via a crafted link. The following...",
       "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
@@ -759,7 +759,7 @@
     },
     {
       "title": "pydicom pynetdicom Library",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsma-26-176-01",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-176-01",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated attacker to write to arbitrary file paths. The following versions of pydicom pynetdicom Library are af...",
       "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
