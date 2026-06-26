@@ -1,6 +1,60 @@
 {
-  "last_updated": "2026-06-26T16:08:51Z",
+  "last_updated": "2026-06-26T18:24:15Z",
   "articles": [
+    {
+      "title": "Polymarket customers lose $3 million in supply-chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
+      "description": "Polymarket says it will fully reimburse customers who lost an estimated $3 million after hackers injected a malicious script into the platform's frontend following a breach at a third-party vendor....",
+      "pub_date": "Fri, 26 Jun 2026 14:04:12 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Cybersecurity firms targeted by fraudulent OpenAI organization invites",
+      "link": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
+      "description": "Threat actors are creating OpenAI tenants that impersonate legitimate companies and inviting employees to join them, in what appears to be a ploy to trick targets into submitting sensitive company ...",
+      "pub_date": "Fri, 26 Jun 2026 13:49:07 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "New DirtyClone Linux Vulnerability Allows Attackers to Gain Root Access Via Cloned Packets",
+      "link": "https://cybersecuritynews.com/dirtyclone-linux-vulnerability/",
+      "description": "A new Linux kernel local privilege escalation vulnerability, dubbed \u0026#8220;DirtyClone\u0026#8221; (CVE-2026-43503), that allows unprivileged local users to gain full root access by manipulating cloned n...",
+      "pub_date": "Fri, 26 Jun 2026 17:19:13 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/DirtyClone-Linux-Vulnerability.webp"
+    },
+    {
+      "title": "Amazon Q Vulnerability Let Attackers Execute Code and Access Sensitive Cloud Environments",
+      "link": "https://cybersecuritynews.com/amazon-q-vulnerability/",
+      "description": "A high-severity vulnerability in the Amazon Q Developer Extension for Visual Studio Code (VS Code), Amazon\u0026#8217;s AI-powered coding assistant. Tracked as CVE-2026-12957 and CVE-2026-12958 and disc...",
+      "pub_date": "Fri, 26 Jun 2026 16:42:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Amazon-Q-Vulnerability.webp"
+    },
+    {
+      "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
+      "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+      "description": "A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure i...",
+      "pub_date": "Fri, 26 Jun 2026 21:51:25 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHsYcZgd4WIkN0k-b4_j7JxBgi0R0dzj0jSwSWVgItyIy88VoZK5z8BAiwjmYnou7YLrNuckCgQvnHXV2KYHoNS8WRZbjU1MP5HqvLKkIakvRVuJio7oZeUbi1XsgQVmJ-cDKKWeOzgGouUAzUtJrFRu8CtPQJG-eXCy7aSOx_fyCvGK2tRl12tBbPG7YC/s1600/tinyrct.jpg"
+    },
+    {
+      "title": "New Linux pedit COW Exploit Allows Attackers to Gain System Root Access",
+      "link": "https://cybersecuritynews.com/linux-pedit-cow-exploit/",
+      "description": "A newly disclosed Linux kernel vulnerability combining a Copy-on-Write (COW) page-cache corruption flaw with the net/sched subsystem\u0026#8217;s act_pedit component is enabling unprivileged local attac...",
+      "pub_date": "Fri, 26 Jun 2026 16:10:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Linux-COW-Exploit.webp"
+    },
     {
       "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
       "link": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
@@ -137,15 +191,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWYWOSDRBtv65eOzqdHSuOxXN7BWyBo1EAltLLUTTKGt68GYJ67zn9ixdKIQjTPCgE3P1o09UzrwXzvbopRZIhjN0LxYAZR06WaXOd116NQutGo1zLaceeob3nkuIHCeP6ZhlVp1yVOfc7dt-YZKFhEJJiPF8H5P03bc1ny0E3mi7jbIhqh7wqodC_zKE/s1600/hotel-photo-zip.jpg"
     },
     {
-      "title": "CL-STA-1062 Hackers Use TinyRCT Backdoor to Target Southeast Asian Governments",
-      "link": "https://cybersecuritynews.com/cl-sta-1062-hackers-use-tinyrct-backdoor/",
-      "description": "A Chinese-speaking threat group known as CL-STA-1062 has been running a quiet but aggressive campaign against government agencies and critical energy infrastructure across Southeast Asia. The attac...",
-      "pub_date": "Fri, 26 Jun 2026 08:55:01 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CL-STA-1062-Hackers-Use-TinyRCT-Backdoor-to-Target-Southeast-Asian-Governments.webp"
-    },
-    {
       "title": "Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff ",
       "link": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
       "description": "Russian authorities used Cellebrite's UFED forensic tools to break into the iPhone of detained opposition activist Andrey Pivovarov in June 2021, three months after Cellebrite said it would stop se...",
@@ -153,24 +198,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBSVw_gpnELsdqj1fhZXQ6Jm-ycv8RsT1-Q7vfNeyj0_Sd-keBXqrAA9w7Vz8qt0tKM3yXkVPknx8FtRKBGBShrelNUIlZbkoUDdDz4MEeWbStRxJt5ggHFA2LFTv5Lc2g-1VC9L7-HGtWY_8VZMTInbZrXa0UY_oZsu2GUeFDH8VsHnUekF4m64OET3U/s1600/iphone-hack.jpg"
-    },
-    {
-      "title": "Miasma Malware Uses binding.gyp and Bun to Execute Hidden Payloads in npm Packages",
-      "link": "https://cybersecuritynews.com/miasma-malware-uses-binding-gyp-and-bun/",
-      "description": "Supply chain attackers are getting more creative, and the latest threat is proof of that. A malware campaign known as Miasma has been caught hiding inside widely used npm packages, using a clever m...",
-      "pub_date": "Fri, 26 Jun 2026 08:48:48 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Miasma-Malware-Uses-binding.gyp-and-Bun-to-Execute-Hidden-Payloads-in-npm-Packages.webp"
-    },
-    {
-      "title": "Minecraft Malware Loader Uses RSA-Signed Smart Contract Updates for Persistent C2",
-      "link": "https://cybersecuritynews.com/minecraft-malware-loader-uses-rsa-signed/",
-      "description": "A new and highly sophisticated malware loader has been found hiding inside what appears to be a harmless Minecraft mod. Researchers have uncovered a campaign that blends blockchain technology and s...",
-      "pub_date": "Fri, 26 Jun 2026 08:39:44 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Minecraft-Malware-Loader-Uses-RSA-Signed-Smart-Contract-Updates-for-Persistent-C2.webp"
     },
     {
       "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
@@ -317,15 +344,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC1-4l_iOC19z96Q7C7O_dZSKwEvMnMLhHyb7kpt2rpOzQmn3gKpz6_BaZmSpzgvyhTJf8BBQmBTx0Nvymxk1vfO5O5bE0nNGbYPHAcb5F8ZF_WjTyQe4AXSK71q6fESS9i5Rdpcfzt6ULab7eo21OZKRCYlqwU7G97mF4-AeVVANlT4YIbigdYxUJkwfy/s1600/clickattack.jpg"
     },
     {
-      "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
-      "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
-      "description": "An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before it was publicly disclosed, according to n...",
-      "pub_date": "Thu, 25 Jun 2026 11:16:54 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3UeGaI_Ej8KFu7-vQHTOuoohYdx04xIdI3W2B6JjCdaTSR6m-y1PAZ-aes-tH9nxtPGO2sFUiu1NwYkwT5s8bDPaHpG8nyN4t_mbZfVjf0nU8L11XujdqERtFUQlMZ85NV_nG6ZhqIQbGdAtyi8p1Oqq7TsBRs1IDn8HvOOnUPFEaL9_2cXrh9eovvaYz/s1600/cisco-20245.jpg"
-    },
-    {
       "title": "Google releases new privacy controls for activity history, personalization",
       "link": "https://www.bleepingcomputer.com/news/google/google-releases-new-privacy-controls-for-activity-history-personalization/",
       "description": "Google is rolling out new privacy controls for Search services and Google Play, giving you more control over saved history and personalized recommendations. [...]",
@@ -348,24 +366,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/",
       "description": "New details have been revealed on how hackers exploited a Cisco Catalyst SD-WAN vulnerability tracked as CVE-2026-20245 in zero-day attacks to create rogue root accounts on targeted devices. [...]",
       "pub_date": "Wed, 24 Jun 2026 17:29:10 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
-      "description": "A malicious Microsoft Edge extension dubbed 'Edgecution' has been used in a ransomware attack to escape the browser sandbox and deploy a Python-based backdoor. [...]",
-      "pub_date": "Wed, 24 Jun 2026 16:58:22 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of hackers actively exploiting flaws in Ubiquity UniFi OS and Lantronix serial-to-ethernet servers. [...]",
-      "pub_date": "Wed, 24 Jun 2026 10:35:15 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
@@ -722,6 +722,15 @@
       "image_url": ""
     },
     {
+      "title": "Russian Intelligence Services Continue to Target Commercial Messaging Applications",
+      "link": "https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-continue-target-commercial-messaging-applications",
+      "description": "CISA and the Federal Bureau of Investigation (FBI) issued an updated Public Service Announcement (PSA) warning of Russian Intelligence Services (RIS) cyber threat actors targeting commercial messag...",
+      "pub_date": "Fri, 26 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/06/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-12569 PTC Windchill and FlexPLM Improper Inpu...",
@@ -785,15 +794,6 @@
       "image_url": ""
     },
     {
-      "title": "Yokogawa FAST/TOOLS and CI Server",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability may return a response containing the CI Server setting information. The following versions of Yokogawa FAST/TOOLS and CI Server are a...",
-      "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
       "title": "EVoke Systems Charging Station Management System",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-02",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
@@ -806,6 +806,15 @@
       "title": "Horner Automation Cscape",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-03",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to disclose information and execute arbitrary code. The following versions of Horner Automation Cscape a...",
+      "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Yokogawa FAST/TOOLS and CI Server",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability may return a response containing the CI Server setting information. The following versions of Yokogawa FAST/TOOLS and CI Server are a...",
       "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -842,15 +851,6 @@
       "title": "ABB Freelance Security Lock",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-05",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow access to underlying OS functions even when Freelance Operations is active, depending on system configuration and user pe...",
-      "pub_date": "Tue, 23 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Siemens SINEC INS",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-04",
-      "description": "View CSAF Summary SINEC INS before V1.0 SP2 Update 6 is affected by multiple vulnerabilities. Siemens has released a new version for SINEC INS and recommends to update to the latest version. The fo...",
       "pub_date": "Tue, 23 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
