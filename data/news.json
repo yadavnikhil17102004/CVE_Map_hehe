@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-06-26T10:16:09Z",
+  "last_updated": "2026-06-26T13:04:52Z",
   "articles": [
+    {
+      "title": "New GIFTEDCROOK Chain Abuses WinRAR ADS and Reflective Loading to Steal Browser Data",
+      "link": "https://cybersecuritynews.com/new-giftedcrook-chain-abuses-winrar-ads/",
+      "description": "A newly documented attack chain tied to threat actor group UAC-0226 is putting Windows users at serious risk. The campaign uses booby-trapped WinRAR archives, hidden file streams, and a sophisticat...",
+      "pub_date": "Fri, 26 Jun 2026 12:43:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-GIFTEDCROOK-Chain-Abuses-WinRAR-ADS-and-Reflective-Loading-to-Steal-Browser-Data.webp"
+    },
+    {
+      "title": "Hackers Leveraged Shopify Oder-Tracking App Shop to Push Fake Invoices",
+      "link": "https://cybersecuritynews.com/hackers-leveraged-shopify-oder-tracking-app-shop/",
+      "description": "Hackers are no longer waiting in your inbox. A newly identified scam technique places fake invoices directly inside shopping app order histories, making them feel more credible than a typical phish...",
+      "pub_date": "Fri, 26 Jun 2026 11:55:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Leveraged-Shopify-Oder-Tracking-App-Shop-to-Push-Fake-Invoices.webp"
+    },
+    {
+      "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
+      "link": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
+      "description": "DirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family.\u0026nbsp;JFrog Security Research published a working exploit walkthrough\u0026nbsp;for the flaw on June 25, the first public de...",
+      "pub_date": "Fri, 26 Jun 2026 17:21:35 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidrcFiZh5KSQ9sYpF7Fafoy8kYny6olyD5WlY_oaAdYt0krMeOL8eNiTItqYmEmJ55wueKdZJlhIKMun7kwQR8AbbFPKTw0Nv-qJbPiaKA1n2J1rUHBV3YuRmdJHQpOTlsKctFMXoO8ogpgHC8rXls3FGamF7p7K1gxc-7dmU2va58Es1c40FV8AZFR-w/s1600/dirtyclone.jpg"
+    },
+    {
+      "title": "Nikkei Warns of Japan’s Ground Self-Defense Force Used USB Drives Infected with a China-linked Malware",
+      "link": "https://cybersecuritynews.com/nikkei-warns-of-japans-ground-self-defense-force-used-usb-drives/",
+      "description": "A serious cybersecurity breach has come to light in Japan, where the country\u0026#8217;s Ground Self-Defense Force (JGSDF) unknowingly used malware-infected USB drives on computers connected to classif...",
+      "pub_date": "Fri, 26 Jun 2026 11:39:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Nikkei-Warns-of-Japans-Ground-Self-Defense-Force-Used-USB-Drives-Infected-with-a-China-linked-Malware.webp"
+    },
+    {
+      "title": "Guardian Agents: The Next Layer of Identity Governance",
+      "link": "https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html",
+      "description": "AI agents are moving through enterprise environments, inheriting permissions, traversing systems, and executing decisions at machine speed with minimal oversight. The identity infrastructure built ...",
+      "pub_date": "Fri, 26 Jun 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiySQAlgg9_uk-lgoIhvKGoXnx274-L4HUyTdvRdDTEabD2GvfR6LY81pn8p-Vo1mSdb_ycPyUyilvhlpWRYRlb9nulwVW1MCIkZABPd-KelEYK9NAqh_tefhmTmPeDkU9D7LQqW1Yfk0rAMbK1S9-q2CVCDgDk3uu5AQOT_hcnkYKRsD169PeWiwqTq4g/s1600/guardian-agents.jpg"
+    },
+    {
+      "title": "Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack",
+      "link": "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
+      "description": "Cybersecurity researchers have flagged yet another evolution of the supply chain attack linked to the Mini Shai-Hulud, Miasma, and Hades malware family that has compromised a new set of npm package...",
+      "pub_date": "Fri, 26 Jun 2026 16:35:45 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhatZ2Vkvxd086INLXiuhbRJrli5Ao9hoNajbVq-Xr0HVAS70cCzhRBfM78KEusnBPI1sXyAK5tYrKt55U5mTIXCQDAmBzY2e860qtXo4YAlvAnVWHDV3DddKUML1q1g71h97Ke1i-714gv5SaVW9lmaFNtRda5XP1kc20urtc-HzlX5JXwkQv0g_-1VwC3/s1600/Miasma.jpg"
+    },
+    {
+      "title": "Critical python.org Vulnerability Allowed Attackers to Forge Admin-Level API Requests",
+      "link": "https://cybersecuritynews.com/critical-python-org-vulnerability/",
+      "description": "A critical authentication bypass vulnerability in the python.org release management API could have allowed attackers to impersonate administrators, potentially redirecting millions of users to mali...",
+      "pub_date": "Fri, 26 Jun 2026 10:32:50 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-python.org-Vulnerability.webp"
+    },
     {
       "title": "KuinaExtractor Uses Telegram Exfiltration, UAC Bypass, and Sandbox Detection for Stealth",
       "link": "https://cybersecuritynews.com/kuinaextractor-uses-telegram-exfiltration/",
@@ -83,15 +146,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Extends-Windows-10-Security-Updates.webp"
     },
     {
-      "title": "OpenAI Reportedly Delays ChatGPT 5.6 Release Following Trump Administration Request",
-      "link": "https://cybersecuritynews.com/openai-delays-chatgpt-5-6-release/",
-      "description": "OpenAI has agreed to stagger the public release of its latest AI model, GPT-5.6, after the Trump administration formally requested the company limit initial access to a select group of government-a...",
-      "pub_date": "Fri, 26 Jun 2026 02:24:58 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/ChatGPT-5.6-Release-.webp"
-    },
-    {
       "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
       "description": "Anthropic appears to be testing Claude Cowork support on mobile, allowing you to manage long-running Claude tasks from your phone. [...]",
@@ -128,24 +182,6 @@
       "image_url": ""
     },
     {
-      "title": "Russia Used Cellebrite Tool to Hack Activist’s iPhone Despite Contract Cancellation",
-      "link": "https://cybersecuritynews.com/russia-cellebrite-tool-iphone/",
-      "description": "Russian authorities deployed Cellebrite\u0026#8217;s Universal Forensic Extraction Device (UFED) to breach the iPhone of opposition politician Andrey Pivovarov in June 2021, months after the Israeli sur...",
-      "pub_date": "Thu, 25 Jun 2026 17:45:33 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Russia-Cellebrite-Tool-iPhone.webp"
-    },
-    {
-      "title": "Windows Secure Boot Certificate Expired — Billions of PCs Affected Including Linux Distros",
-      "link": "https://cybersecuritynews.com/windows-secure-boot-certificate-expired/",
-      "description": "The clock has run out. As of June 24, 2026, the first of Microsoft\u0026#8217;s original Secure Boot certificates, the Microsoft Corporation KEK CA 2011, has officially expired, with the Microsoft UEF...",
-      "pub_date": "Thu, 25 Jun 2026 16:49:36 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Windows-Secure-Boot-Certificate-Expired.webp"
-    },
-    {
       "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
       "link": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
       "description": "A newly discovered macOS malware dubbed \"Gaslight\" is designed to confuse AI-assisted malware analysis tools by hiding prompt injection strings and fake debugging data within the executable. [...]",
@@ -162,15 +198,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Best Pentesting Tools for Internal vs External Testing",
-      "link": "https://cybersecuritynews.com/best-pentesting-tools-internal-external-testing/",
-      "description": "A penetration test should answer a simple question: where could an attacker get in, and what could they reach after that? The answer changes when the test looks at an internet-facing service rather...",
-      "pub_date": "Thu, 25 Jun 2026 15:28:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjU-I4Tj4XHmU5NECPH3BQxjKWUwg_-HcqmxU4NYkpx9a6MK_q-cQRWe67R7EyjhhPF2zm97ztI6yFYV7qZ8ZyaOn-igcyLUS2qFZHcDZ5lgdc0h8dLJFUQl-7huDq7SdgfZT4BZRF8SZ4JImn8tuRq1XsRyvNIAQw8WYEmP6lGKjoyUPB5-dgIUNpbDA/s16000/TTT%20-%202026-06-25T205546.391.webp?ssl=1"
     },
     {
       "title": "Bluekit phishing kit adopts browser-in-the-middle for login theft",
@@ -342,33 +369,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl_D6QzBWfQRZAXbjo9RhhLXSedzJR2Q2sUQoQYnDxpC7yETzJgn3KnpT8CcoqlfXdqkcnTCNcEpR1QKphy77NvG_9PIO57hHNF27x8pBb1pLf_4n3A6pTBs3qXQMsz81rvzpGIOqHZn7VqvJoJoB98o7COHOxi5wfkQvxhL4LcOxBkziY4MLxVCEOljX8/s1600/1000085115.jpg"
-    },
-    {
-      "title": "Dawn of the Apex Agentic Adversary",
-      "link": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
-      "description": "We are standing at the end of an era we never thought to mourn: the era of human-speed threats.  For years, cybersecurity moved to a rhythm organizations could follow. A researcher found a bug, a C...",
-      "pub_date": "Wed, 24 Jun 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuQ2GvCcnjBgMTXoXBXqazE9MU3nbNgeccOlWELBQOL9WcHHH4uXS1BKCrrmv6iWWAn6vu1LZJzpHl1MGetv8EfnylIM48MlBK91Gyiz5zCL6cMFr6sJd5x0qdSvjPkwm-V5ON79TgMNPHdOuGQIqSWwTdQcmBnEjehYuDoKMllm9Xray6dVy2uqexoas/s1600/apex.jpg"
-    },
-    {
-      "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
-      "link": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
-      "description": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a cloud computing account put to use by subsidiaries of Cambodia-based corporate conglomerate HuiOne Group, as the Treasury ...",
-      "pub_date": "Wed, 24 Jun 2026 14:25:12 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwWpkKj6KRX5Q7jeH07PFaANRRfRbl_CdrBEZ0cypjUg2UBsy49GSGNAOXF74dDez1H9xz_FXTMWh1lziO6f1Q0xrhjZRICtxmzQQJruQoQ8fk33kgTacTn5Y0BrNHmkHfLy3iC4s2oEL7H2CRCaBTcbLBqCbg3jcSFfHTSYiIa_RZV49sE58GCHOWorXJ/s1600/cybercrime.jpg"
-    },
-    {
-      "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
-      "link": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
-      "description": "Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edi...",
-      "pub_date": "Wed, 24 Jun 2026 12:20:38 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivauBSNOsDqBHvUFSnF1NdlWJ8BAt2JVgIo_ZUQhBkVppSz0PvkEmrc9RP1hMf2-oFFRgr5PNm7pxLmPngAJHcxV6-F3e43bEqmdEg38013JmlUKDlGVOLQTj6bYbyk_R7WXBqbW3o2yPHdosqz7nncLivqDqXGAuiTFcHkPqiVPBJuDHlsvYWtEreVmk_/s1600/cc.jpg"
     },
     {
       "title": "ZDI-26-397: X.Org Server CreateSaverWindow Use-After-Free Information Disclosure Vulnerability",
