@@ -1,6 +1,51 @@
 {
-  "last_updated": "2026-06-26T13:04:52Z",
+  "last_updated": "2026-06-26T16:08:51Z",
   "articles": [
+    {
+      "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
+      "link": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
+      "description": "AI won't replace GRC analysts, but it can eliminate much of the repetitive work they do. Anecdotes walks through building an agent that continuously monitors controls, identifies evidence gaps, and...",
+      "pub_date": "Fri, 26 Jun 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
+      "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
+      "description": "A flaw in the Linux kernel's traffic-control subsystem can let a local unprivileged user gain root on affected systems.  CVE-2026-46331, nicknamed \"pedit COW,\" is an out-of-bounds write in the pack...",
+      "pub_date": "Fri, 26 Jun 2026 19:27:55 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBWN46D03nuGH8FWFxZD7Ax6T3Wvmf5bt3WrqjghU6ZJU65L6pfoPjt2fVw4-dGXfyEx8fkygfYUftIDlMpPaRcegTEH6eL58nSyiFvbbg5A0GxtFTIhwQUIj16DF-vIqiH2B6jnC7C3DebkJja3v6ayIjOF-eY5DoDL9qef319S3m4ny2lnodtc1WeE59/s1600/linux-cow.jpg"
+    },
+    {
+      "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
+      "link": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+      "description": "A high-severity flaw in Amazon Q Developer let a malicious repository run commands and steal a developer's cloud credentials. The path was short: a developer opens the repo, trusts the workspace, a...",
+      "pub_date": "Fri, 26 Jun 2026 19:23:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig3gygt20RdznayWN2yru6wSgNt8CSdr16F8I-naxtPn837cr6v0uV0bXdhz36P1XYrpnjmzDXTAtH0wa43Me8rqD2hvET-xQP0ndoX-ddXsypZCjSSNJUqmfl69g96R6yMiUqgXE_NGAL8bl2z6lYutrgKiY74tNIafz_xRsNsJQSB9s_9lSHiybX2kQ/s1600/aws.jpg"
+    },
+    {
+      "title": "New Bluekit Phishing-as-a-Service Bypasses MFA to Steal Microsoft Login Credentials",
+      "link": "https://cybersecuritynews.com/bluekit-paas-bypasses-mfa/",
+      "description": "A sophisticated Phishing-as-a-Service (PhaaS) platform called Bluekit has been confirmed operational at scale, with cybersecurity firm Netcraft detecting approximately 70 live hostnames in a single...",
+      "pub_date": "Fri, 26 Jun 2026 13:33:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Bluekit-PaaS-Bypasses-MFA-1.webp"
+    },
+    {
+      "title": "Hackers Exploit Weak Credentials and Internet-Facing PLCs to Breach Water Utilities",
+      "link": "https://cybersecuritynews.com/hackers-exploit-weak-credentials-and-internet-facing-plcs/",
+      "description": "Water utilities across the United States and Europe are under growing pressure as hackers continue to find easy ways in. Nation-state actors and affiliated groups have been quietly exploiting inter...",
+      "pub_date": "Fri, 26 Jun 2026 13:27:05 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Exploit-Weak-Credentials-and-Internet-Facing-PLCs-to-Breach-Water-Utilities.webp"
+    },
     {
       "title": "New GIFTEDCROOK Chain Abuses WinRAR ADS and Reflective Loading to Steal Browser Data",
       "link": "https://cybersecuritynews.com/new-giftedcrook-chain-abuses-winrar-ads/",
@@ -9,6 +54,15 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-GIFTEDCROOK-Chain-Abuses-WinRAR-ADS-and-Reflective-Loading-to-Steal-Browser-Data.webp"
+    },
+    {
+      "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
+      "link": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM enterprise Product ...",
+      "pub_date": "Fri, 26 Jun 2026 18:01:56 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzGOpsiL9b-uwhocEgzazTFR251KJL6pnZAVCmzty7Nx0uR-vZ9r2-WP95IrRaKJtFoUxmBFbqrkt31Yn2MTmD0bZAaPFTlmDfHxRURuWSsRzeTWHmyZF93QR94AOrSkbLnBYEQtVGJxI5VlRinwq8cLnEVCmGWk6wCnL1zpW_LbbZ-3-yTSdAmZ-0tqO6/s1600/ptc.jpg"
     },
     {
       "title": "Hackers Leveraged Shopify Oder-Tracking App Shop to Push Fake Invoices",
@@ -119,15 +173,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Minecraft-Malware-Loader-Uses-RSA-Signed-Smart-Contract-Updates-for-Persistent-C2.webp"
     },
     {
-      "title": "CISA Warns of Cisco Unified CM Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisco-unified-cm-vulnerability-2/",
-      "description": "CISA has added a critical server-side request forgery (SSRF) vulnerability affecting Cisco Unified Communications Manager (Unified CM) to its Known Exploited Vulnerabilities (KEV) catalog, urging f...",
-      "pub_date": "Fri, 26 Jun 2026 07:47:51 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Cisco-Unified-CM-Vulnerability.webp"
-    },
-    {
       "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
       "link": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
       "description": "The Russian state-sponsored threat actor known as Turla has been attributed to a previously undocumented .NET backdoor called STOCKSTAY that has been deployed against government and military organi...",
@@ -135,15 +180,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9SthtlfUvEkaX0iZanYdYTAOV5hgm44yCwHu_3GCaoa11rO-GkO9oc0_qN9JGw2n86dsEsN_sdaYt2ra_4I_dQ57ja0kiUeYtkg1eY8ZJtu45oKtN-TqWLdKudnJPFQQFGPReCfu1xcfHGgfqgtLe8zyFlEoMnO2AwnsEsosf9LCZS9gJHq58Q8OcPlWP/s1600/STOCKSTAY.jpg"
-    },
-    {
-      "title": "Microsoft Extends Windows 10 Security Updates for Users Up to October 2027",
-      "link": "https://cybersecuritynews.com/microsoft-extends-windows-10-security-updates/",
-      "description": "Microsoft has quietly expanded its Windows 10 Extended Security Updates (ESU) program, allowing consumers to receive critical security patches through October 12, 2027, an additional year beyond th...",
-      "pub_date": "Fri, 26 Jun 2026 05:26:35 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Extends-Windows-10-Security-Updates.webp"
     },
     {
       "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
@@ -326,24 +362,6 @@
       "image_url": ""
     },
     {
-      "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
-      "link": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation of a critical security flaw impacting Lantronix EDS5000 Series devices, urging Federal Civi...",
-      "pub_date": "Wed, 24 Jun 2026 22:49:18 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjZtIkR9YS2fMY5MvIzgyEShmJAP1bgHqhBdU115iSY7WZ2EcBAbFKb1OQP6Nq8hoF4HlnRifxW890ztCcnezyAivPNWZjVsyJrhoNe8BVnZgSfcRo1Jbl4XilQM9bcQTU9nOeDgfWXSzh9sBru4RH6mDhwa1IijucDmj-l1gVI8NAiQRzu0IJ8d2AIVh9/s1600/1000085210.jpg"
-    },
-    {
-      "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
-      "link": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
-      "description": "A coordinated law enforcement operation, in partnership with private sector companies, including Bitdefender, Bitsight, ESET, and Microsoft, has resulted in the takedown of criminal infrastructure ...",
-      "pub_date": "Wed, 24 Jun 2026 21:29:50 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBVSibdiZdJ1tNYJFrsHtZ8Vr1EG28rqKLY4E7HvAtuax2i3vgpcaMZjEAcGDRxUVu5aa_BHzCAahpw5l2RP2HNw9t7PF6zknNICdw0iuW5jozt5fzqsSfb3Lw55MIvStq2vh5W0139JychUhhJHvchyphenhyphenm7tT2oTS555CkVZrBYSkhmlMKWaXMLtO4OcSp6/s1600/cybercrime-ms.jpg"
-    },
-    {
       "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of hackers actively exploiting flaws in Ubiquity UniFi OS and Lantronix serial-to-ethernet servers. [...]",
@@ -351,24 +369,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Amadey, StealC malware operations disrupted in Operation Endgame action",
-      "link": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
-      "description": "Microsoft, Europol, and international partners have disrupted infrastructure used by the Amadey and StealC malware operations as part of Operation Endgame, which targets cybercriminal services and ...",
-      "pub_date": "Wed, 24 Jun 2026 10:35:11 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
-      "link": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
-      "description": "Cybersecurity researchers have flagged a new class of CI/CD workflow weakness that allows attackers to hijack workflows and compromise open-source supply chains.  The \"critical exploitable pattern\"...",
-      "pub_date": "Wed, 24 Jun 2026 18:18:11 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl_D6QzBWfQRZAXbjo9RhhLXSedzJR2Q2sUQoQYnDxpC7yETzJgn3KnpT8CcoqlfXdqkcnTCNcEpR1QKphy77NvG_9PIO57hHNF27x8pBb1pLf_4n3A6pTBs3qXQMsz81rvzpGIOqHZn7VqvJoJoB98o7COHOxi5wfkQvxhL4LcOxBkziY4MLxVCEOljX8/s1600/1000085115.jpg"
     },
     {
       "title": "ZDI-26-397: X.Org Server CreateSaverWindow Use-After-Free Information Disclosure Vulnerability",
