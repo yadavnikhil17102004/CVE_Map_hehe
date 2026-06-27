@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T15:09:40Z",
+  "last_updated": "2026-06-27T17:00:08Z",
   "articles": [
     {
       "title": "Clean GitHub repo tricks AI coding agents into running malware",
@@ -18,6 +18,24 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiweorWxmIvPG8uskOe44fLur9F5OJvqVdFLV1ejFqQozXruk70nzMhRaY58n4BuMhW1sbsdSvhTrlSxM8U5SLwPdaeRWNi4eQMUjEsFgmGV-37gTdnqk1NXLT4Ixadu4sq_pm0l_HVzuGHaIgcDnV_y092aZ1gCKkZ6lh2bp24PUBUfgsCSgvjlZiKRLMH/s1600/gpt.jpg"
+    },
+    {
+      "title": "Anthropic Confirms Claude Mythos 5 Redeployment for US Critical Infrastructure Organizations",
+      "link": "https://cybersecuritynews.com/anthropic-claude-mythos-5/",
+      "description": "Anthropic has confirmed that Claude Mythos 5, its most powerful AI cybersecurity model, will be redeployed to a select set of U.S. organizations responsible for operating and defending critical inf...",
+      "pub_date": "Sat, 27 Jun 2026 01:08:39 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Anthropic-Claude-Mythos-5.webp"
+    },
+    {
+      "title": "New Bucket Hijacking Attack Allows Hackers to Reroute Cloud Data Streams to External Storage",
+      "link": "https://cybersecuritynews.com/bucket-hijacking-attack/",
+      "description": "A critical cloud storage attack technique dubbed \u0026#8220;bucket hijacking\u0026#8221; a method that enables threat actors to silently redirect an organization\u0026#8217;s active cloud data streams, including...",
+      "pub_date": "Sat, 27 Jun 2026 00:46:38 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Bucket-Hijacking.webp"
     },
     {
       "title": "FBI: Russian hackers now target Signal backup recovery keys",
@@ -83,6 +101,24 @@
       "image_url": ""
     },
     {
+      "title": "New DirtyClone Linux Vulnerability Allows Attackers to Gain Root Access Via Cloned Packets",
+      "link": "https://cybersecuritynews.com/dirtyclone-linux-vulnerability/",
+      "description": "A new Linux kernel local privilege escalation vulnerability, dubbed \u0026#8220;DirtyClone\u0026#8221; (CVE-2026-43503), that allows unprivileged local users to gain full root access by manipulating cloned n...",
+      "pub_date": "Fri, 26 Jun 2026 17:19:13 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/DirtyClone-Linux-Vulnerability.webp"
+    },
+    {
+      "title": "Amazon Q Vulnerability Let Attackers Execute Code and Access Sensitive Cloud Environments",
+      "link": "https://cybersecuritynews.com/amazon-q-vulnerability/",
+      "description": "A high-severity vulnerability in the Amazon Q Developer Extension for Visual Studio Code (VS Code), Amazon\u0026#8217;s AI-powered coding assistant. Tracked as CVE-2026-12957 and CVE-2026-12958 and disc...",
+      "pub_date": "Fri, 26 Jun 2026 16:42:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Amazon-Q-Vulnerability.webp"
+    },
+    {
       "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
       "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
       "description": "A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure i...",
@@ -90,6 +126,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHsYcZgd4WIkN0k-b4_j7JxBgi0R0dzj0jSwSWVgItyIy88VoZK5z8BAiwjmYnou7YLrNuckCgQvnHXV2KYHoNS8WRZbjU1MP5HqvLKkIakvRVuJio7oZeUbi1XsgQVmJ-cDKKWeOzgGouUAzUtJrFRu8CtPQJG-eXCy7aSOx_fyCvGK2tRl12tBbPG7YC/s1600/tinyrct.jpg"
+    },
+    {
+      "title": "New Linux pedit COW Exploit Allows Attackers to Gain System Root Access",
+      "link": "https://cybersecuritynews.com/linux-pedit-cow-exploit/",
+      "description": "A newly disclosed Linux kernel vulnerability combining a Copy-on-Write (COW) page-cache corruption flaw with the net/sched subsystem\u0026#8217;s act_pedit component is enabling unprivileged local attac...",
+      "pub_date": "Fri, 26 Jun 2026 16:10:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Linux-COW-Exploit.webp"
     },
     {
       "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
@@ -119,6 +164,33 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig3gygt20RdznayWN2yru6wSgNt8CSdr16F8I-naxtPn837cr6v0uV0bXdhz36P1XYrpnjmzDXTAtH0wa43Me8rqD2hvET-xQP0ndoX-ddXsypZCjSSNJUqmfl69g96R6yMiUqgXE_NGAL8bl2z6lYutrgKiY74tNIafz_xRsNsJQSB9s_9lSHiybX2kQ/s1600/aws.jpg"
     },
     {
+      "title": "New Bluekit Phishing-as-a-Service Bypasses MFA to Steal Microsoft Login Credentials",
+      "link": "https://cybersecuritynews.com/bluekit-paas-bypasses-mfa/",
+      "description": "A sophisticated Phishing-as-a-Service (PhaaS) platform called Bluekit has been confirmed operational at scale, with cybersecurity firm Netcraft detecting approximately 70 live hostnames in a single...",
+      "pub_date": "Fri, 26 Jun 2026 13:33:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Bluekit-PaaS-Bypasses-MFA-1.webp"
+    },
+    {
+      "title": "Hackers Exploit Weak Credentials and Internet-Facing PLCs to Breach Water Utilities",
+      "link": "https://cybersecuritynews.com/hackers-exploit-weak-credentials-and-internet-facing-plcs/",
+      "description": "Water utilities across the United States and Europe are under growing pressure as hackers continue to find easy ways in. Nation-state actors and affiliated groups have been quietly exploiting inter...",
+      "pub_date": "Fri, 26 Jun 2026 13:27:05 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Exploit-Weak-Credentials-and-Internet-Facing-PLCs-to-Breach-Water-Utilities.webp"
+    },
+    {
+      "title": "New GIFTEDCROOK Chain Abuses WinRAR ADS and Reflective Loading to Steal Browser Data",
+      "link": "https://cybersecuritynews.com/new-giftedcrook-chain-abuses-winrar-ads/",
+      "description": "A newly documented attack chain tied to threat actor group UAC-0226 is putting Windows users at serious risk. The campaign uses booby-trapped WinRAR archives, hidden file streams, and a sophisticat...",
+      "pub_date": "Fri, 26 Jun 2026 12:43:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-GIFTEDCROOK-Chain-Abuses-WinRAR-ADS-and-Reflective-Loading-to-Steal-Browser-Data.webp"
+    },
+    {
       "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
       "link": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM enterprise Product ...",
@@ -128,6 +200,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzGOpsiL9b-uwhocEgzazTFR251KJL6pnZAVCmzty7Nx0uR-vZ9r2-WP95IrRaKJtFoUxmBFbqrkt31Yn2MTmD0bZAaPFTlmDfHxRURuWSsRzeTWHmyZF93QR94AOrSkbLnBYEQtVGJxI5VlRinwq8cLnEVCmGWk6wCnL1zpW_LbbZ-3-yTSdAmZ-0tqO6/s1600/ptc.jpg"
     },
     {
+      "title": "Hackers Leveraged Shopify Oder-Tracking App Shop to Push Fake Invoices",
+      "link": "https://cybersecuritynews.com/hackers-leveraged-shopify-oder-tracking-app-shop/",
+      "description": "Hackers are no longer waiting in your inbox. A newly identified scam technique places fake invoices directly inside shopping app order histories, making them feel more credible than a typical phish...",
+      "pub_date": "Fri, 26 Jun 2026 11:55:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Leveraged-Shopify-Oder-Tracking-App-Shop-to-Push-Fake-Invoices.webp"
+    },
+    {
       "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
       "link": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
       "description": "DirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family.\u0026nbsp;JFrog Security Research published a working exploit walkthrough\u0026nbsp;for the flaw on June 25, the first public de...",
@@ -135,6 +216,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidrcFiZh5KSQ9sYpF7Fafoy8kYny6olyD5WlY_oaAdYt0krMeOL8eNiTItqYmEmJ55wueKdZJlhIKMun7kwQR8AbbFPKTw0Nv-qJbPiaKA1n2J1rUHBV3YuRmdJHQpOTlsKctFMXoO8ogpgHC8rXls3FGamF7p7K1gxc-7dmU2va58Es1c40FV8AZFR-w/s1600/dirtyclone.jpg"
+    },
+    {
+      "title": "Nikkei Warns of Japan’s Ground Self-Defense Force Used USB Drives Infected with a China-linked Malware",
+      "link": "https://cybersecuritynews.com/nikkei-warns-of-japans-ground-self-defense-force-used-usb-drives/",
+      "description": "A serious cybersecurity breach has come to light in Japan, where the country\u0026#8217;s Ground Self-Defense Force (JGSDF) unknowingly used malware-infected USB drives on computers connected to classif...",
+      "pub_date": "Fri, 26 Jun 2026 11:39:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Nikkei-Warns-of-Japans-Ground-Self-Defense-Force-Used-USB-Drives-Infected-with-a-China-linked-Malware.webp"
     },
     {
       "title": "Guardian Agents: The Next Layer of Identity Governance",
