@@ -1,6 +1,60 @@
 {
-  "last_updated": "2026-06-29T05:24:21Z",
+  "last_updated": "2026-06-29T10:26:20Z",
   "articles": [
+    {
+      "title": "Millenium RAT Rewritten in C++ Infects 62,000+ Devices Across 160 Countries",
+      "link": "https://cybersecuritynews.com/millenium-rat-rewritten-in-c/",
+      "description": "A remote access trojan known as Millenium RAT has been quietly spreading across the globe, and the numbers are hard to ignore. Over 62,000 devices have been compromised across more than 160 countri...",
+      "pub_date": "Mon, 29 Jun 2026 09:46:16 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Millenium-RAT-Rewritten-in-C-Infects-62000-Devices-Across-160-Countries.webp"
+    },
+    {
+      "title": "UNC1151 Ghostwriter Hackers Target Belarusian Politician in Gmail Phishing Campaign",
+      "link": "https://cybersecuritynews.com/unc1151-ghostwriter-hackers-target-belarusian-politician/",
+      "description": "A well-known hacker group called UNC1151, also widely known as Ghostwriter, has been caught running a targeted phishing campaign against a prominent Belarusian pro-democracy politician. The group, ...",
+      "pub_date": "Mon, 29 Jun 2026 09:45:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/UNC1151-Ghostwriter-Hackers-Target-Belarusian-Politician-in-Gmail-Phishing-Campaign.webp"
+    },
+    {
+      "title": "Hackers Use Rokarolla Banking Trojan to Intercept SMS Codes and Steal Crypto Credentials",
+      "link": "https://cybersecuritynews.com/hackers-use-rokarolla-banking-trojan-to-intercept-sms-codes/",
+      "description": "A newly discovered Android banking trojan called Rokarolla has been making waves across the cybersecurity community, targeting victims by posing as well-known, trusted applications. The malware goe...",
+      "pub_date": "Mon, 29 Jun 2026 09:45:20 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Use-Rokarolla-Banking-Trojan-to-Intercept-SMS-Codes-and-Steal-Crypto-Credentials.webp"
+    },
+    {
+      "title": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts",
+      "link": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
+      "description": "Microsoft has shut down a long-running malicious extension operation on the Edge Add-ons store that hid its payloads inside ordinary image and font files, then woke up days after install to steal c...",
+      "pub_date": "Mon, 29 Jun 2026 14:02:31 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmbNHaJMqOcEeoUkaQeIZC_ilbUt8RpG-kyweNVY_fJ_3BQk19-pmJQXV_soXqZiHleBISNTwcYSqew2nzpc3eBEDULz52KaY1RNrJTb7u87f2oEtpJuTtmi4OL6Lc_HXP9WQcMDRco_w4U5mklzQ1QJj8ndNiBYVQRRUsevzc1P6hZe2N26_lyAhkQbsP/s1600/edge.jpg"
+    },
+    {
+      "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
+      "link": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
+      "description": "A public proof-of-concept is now out for CVE-2026-55200, a critical flaw in libssh2 that lets a malicious or compromised SSH server trigger memory corruption on a connecting client, with possible c...",
+      "pub_date": "Mon, 29 Jun 2026 12:36:34 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD9yQyR_bCP0-I73R6EpwLjJtptGUvzeJD90oYzZvFZXVnM99EIvHFtIJlhZ2f4NSZkAyO7JWjJOy6Zd3lAtPz1Bbk2vmj7Ls8aMIZsFqiIVtIArSjypgJRIHJzlDN5BykKcZziAicpJiNE02Wg3Aheu5BIF1SvY3Pn09WYcdLtvWAT5giGf9mC_uY9GkG/s1600/ssh.jpg"
+    },
+    {
+      "title": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer",
+      "link": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+      "description": "Cybersecurity researchers have uncovered two hijacked npm packages and a cluster of Go packages that are designed to deploy a Python-based information stealer on compromised Windows, Linux, and mac...",
+      "pub_date": "Mon, 29 Jun 2026 11:06:06 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBjmO4haWCgXfALMAtSHKJXRWIlLfYqulkKflfK-3BSYON-8A4MjUNoZRxOyaLGc-4Bsj1eIfGDhdpJuKZrJORz4HZHx5iM7lj0-VlehqqZ6kaq5_ZWP08MviAchtNF1XORD_Fps-IWderGKNM18TT-Jgh_0LRFULqdMeOfv_FKDd8oWmHmv-iR1-_7XZP/s1600/gogo.jpg"
+    },
     {
       "title": "China’s New Zhipu AI Reportedly Matches Claude Mythos in Vulnerability Detection",
       "link": "https://cybersecuritynews.com/zhipu-ai-vulnerability-detection/",
@@ -173,24 +227,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHsYcZgd4WIkN0k-b4_j7JxBgi0R0dzj0jSwSWVgItyIy88VoZK5z8BAiwjmYnou7YLrNuckCgQvnHXV2KYHoNS8WRZbjU1MP5HqvLKkIakvRVuJio7oZeUbi1XsgQVmJ-cDKKWeOzgGouUAzUtJrFRu8CtPQJG-eXCy7aSOx_fyCvGK2tRl12tBbPG7YC/s1600/tinyrct.jpg"
     },
     {
-      "title": "New Linux pedit COW Exploit Allows Attackers to Gain System Root Access",
-      "link": "https://cybersecuritynews.com/linux-pedit-cow-exploit/",
-      "description": "A newly disclosed Linux kernel vulnerability combining a Copy-on-Write (COW) page-cache corruption flaw with the net/sched subsystem\u0026#8217;s act_pedit component is enabling unprivileged local attac...",
-      "pub_date": "Fri, 26 Jun 2026 16:10:02 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Linux-COW-Exploit.webp"
-    },
-    {
-      "title": "Why 24/7 Support Is Essential for Cybersecurity Providers",
-      "link": "https://cybersecuritynews.com/why-24-7-support-is-essential-for-cybersecurity-providers/",
-      "description": "Hackers and other bad actors don’t keep normal business hours. They know that their best chance is when businesses are closed for the day, and the programs that they use can operate at any time.\u0026...",
-      "pub_date": "Fri, 26 Jun 2026 14:39:42 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicAWLpJporV0AY9B5yEn1Y8pqjgmUNCaBBPi20cqWUH_e2L3FsCC38-QUUcJr0bLjkSgTGEplK3O56i-6xXIXSSc9Ps2Y0gOMl3jvw72uRV9FTYjFQlRFs8eW_XYVImXtBYVz2JXlaDq79kKtHFVYXZjPH6t4EK5HQadwskcQnGHVsp95PkWwVKWsmJPs/s16000/TTT%20-%202026-06-26T154100.489.webp?ssl=1"
-    },
-    {
       "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
       "link": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
       "description": "AI won't replace GRC analysts, but it can eliminate much of the repetitive work they do. Anecdotes walks through building an agent that continuously monitors controls, identifies evidence gaps, and...",
@@ -216,15 +252,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig3gygt20RdznayWN2yru6wSgNt8CSdr16F8I-naxtPn837cr6v0uV0bXdhz36P1XYrpnjmzDXTAtH0wa43Me8rqD2hvET-xQP0ndoX-ddXsypZCjSSNJUqmfl69g96R6yMiUqgXE_NGAL8bl2z6lYutrgKiY74tNIafz_xRsNsJQSB9s_9lSHiybX2kQ/s1600/aws.jpg"
-    },
-    {
-      "title": "New Bluekit Phishing-as-a-Service Bypasses MFA to Steal Microsoft Login Credentials",
-      "link": "https://cybersecuritynews.com/bluekit-paas-bypasses-mfa/",
-      "description": "A sophisticated Phishing-as-a-Service (PhaaS) platform called Bluekit has been confirmed operational at scale, with cybersecurity firm Netcraft detecting approximately 70 live hostnames in a single...",
-      "pub_date": "Fri, 26 Jun 2026 13:33:23 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Bluekit-PaaS-Bypasses-MFA-1.webp"
     },
     {
       "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
@@ -270,24 +297,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWYWOSDRBtv65eOzqdHSuOxXN7BWyBo1EAltLLUTTKGt68GYJ67zn9ixdKIQjTPCgE3P1o09UzrwXzvbopRZIhjN0LxYAZR06WaXOd116NQutGo1zLaceeob3nkuIHCeP6ZhlVp1yVOfc7dt-YZKFhEJJiPF8H5P03bc1ny0E3mi7jbIhqh7wqodC_zKE/s1600/hotel-photo-zip.jpg"
-    },
-    {
-      "title": "Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff ",
-      "link": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
-      "description": "Russian authorities used Cellebrite's UFED forensic tools to break into the iPhone of detained opposition activist Andrey Pivovarov in June 2021, three months after Cellebrite said it would stop se...",
-      "pub_date": "Fri, 26 Jun 2026 14:19:35 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBSVw_gpnELsdqj1fhZXQ6Jm-ycv8RsT1-Q7vfNeyj0_Sd-keBXqrAA9w7Vz8qt0tKM3yXkVPknx8FtRKBGBShrelNUIlZbkoUDdDz4MEeWbStRxJt5ggHFA2LFTv5Lc2g-1VC9L7-HGtWY_8VZMTInbZrXa0UY_oZsu2GUeFDH8VsHnUekF4m64OET3U/s1600/iphone-hack.jpg"
-    },
-    {
-      "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
-      "link": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
-      "description": "The Russian state-sponsored threat actor known as Turla has been attributed to a previously undocumented .NET backdoor called STOCKSTAY that has been deployed against government and military organi...",
-      "pub_date": "Fri, 26 Jun 2026 12:45:46 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9SthtlfUvEkaX0iZanYdYTAOV5hgm44yCwHu_3GCaoa11rO-GkO9oc0_qN9JGw2n86dsEsN_sdaYt2ra_4I_dQ57ja0kiUeYtkg1eY8ZJtu45oKtN-TqWLdKudnJPFQQFGPReCfu1xcfHGgfqgtLe8zyFlEoMnO2AwnsEsosf9LCZS9gJHq58Q8OcPlWP/s1600/STOCKSTAY.jpg"
     },
     {
       "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
@@ -351,15 +360,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
-      "link": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
-      "description": "An analysis of a popular Google Chrome ad block extension for YouTube has uncovered the ability to execute arbitrary JavaScript code.  According to Island, the extension, named Adblock for YouTube ...",
-      "pub_date": "Thu, 25 Jun 2026 19:42:52 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqtdBDQ0Y38i0JZmDwU6XKiZ1R6HJ0KHe59012E0krnPubG5pJgiTg6IUg4fHEzoW5jm7QyEk8fXOL9swj7FlpXdMcjyn0ltziMhQJD2pYPtzjXimsntV8DFg-c1erOgWkLl8du8eBvJYlukTCDDycp5jSmWNfwmv5WwGKlJRJvZt1GvUZZl24dP2HVDkn/s1600/adblocker.jpg"
     },
     {
       "title": "The Four Elevations of Effective Fraud Prevention",
