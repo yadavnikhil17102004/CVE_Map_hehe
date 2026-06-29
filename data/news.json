@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-06-29T19:45:34Z",
+  "last_updated": "2026-06-29T21:18:21Z",
   "articles": [
+    {
+      "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+      "description": "Nissan is warning that it suffered a data breach affecting current and former employees after threat actors exploited an Oracle PeopleSoft vulnerability in data theft attacks previously linked to t...",
+      "pub_date": "Mon, 29 Jun 2026 16:40:44 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
+      "link": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
+      "description": "The National Association of Insurance Commissioners (NAIC) says the ShinyHunters extortion group stole only publicly available data, outdated logs, and configuration files after breaching its syste...",
+      "pub_date": "Mon, 29 Jun 2026 16:30:28 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
       "link": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
@@ -362,15 +380,6 @@
       "image_url": ""
     },
     {
-      "title": "Cybersecurity firms targeted by fraudulent OpenAI organization invites",
-      "link": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
-      "description": "Threat actors are creating OpenAI tenants that impersonate legitimate companies and inviting employees to join them, in what appears to be a ploy to trick targets into submitting sensitive company ...",
-      "pub_date": "Fri, 26 Jun 2026 13:49:07 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
       "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
       "description": "A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure i...",
@@ -378,15 +387,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHsYcZgd4WIkN0k-b4_j7JxBgi0R0dzj0jSwSWVgItyIy88VoZK5z8BAiwjmYnou7YLrNuckCgQvnHXV2KYHoNS8WRZbjU1MP5HqvLKkIakvRVuJio7oZeUbi1XsgQVmJ-cDKKWeOzgGouUAzUtJrFRu8CtPQJG-eXCy7aSOx_fyCvGK2tRl12tBbPG7YC/s1600/tinyrct.jpg"
-    },
-    {
-      "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
-      "link": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
-      "description": "AI won't replace GRC analysts, but it can eliminate much of the repetitive work they do. Anecdotes walks through building an agent that continuously monitors controls, identifies evidence gaps, and...",
-      "pub_date": "Fri, 26 Jun 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "Experts on Experts: Why AI and Compliance Are Forcing A New Security Operating Model",
@@ -722,10 +722,37 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-48558 SimpleHelp Authentication Bypass Vulnerability  ...",
+      "pub_date": "Mon, 29 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "Russian Intelligence Services Continue to Target Commercial Messaging Applications",
       "link": "https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-continue-target-commercial-messaging-applications",
       "description": "CISA and the Federal Bureau of Investigation (FBI) issued an updated Public Service Announcement (PSA) warning of Russian Intelligence Services (RIS) cyber threat actors targeting commercial messag...",
       "pub_date": "Fri, 26 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Yokogawa FAST/TOOLS and CI Server",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability may return a response containing the CI Server setting information. The following versions of Yokogawa FAST/TOOLS and CI Server are a...",
+      "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Horner Automation Cscape",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-03",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to disclose information and execute arbitrary code. The following versions of Horner Automation Cscape a...",
+      "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
@@ -776,6 +803,15 @@
       "image_url": ""
     },
     {
+      "title": "EVoke Systems Charging Station Management System",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-02",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
+      "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "pydicom pynetdicom Library",
       "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-176-01",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated attacker to write to arbitrary file paths. The following versions of pydicom pynetdicom Library are af...",
@@ -794,33 +830,6 @@
       "image_url": ""
     },
     {
-      "title": "EVoke Systems Charging Station Management System",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-02",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services ...",
-      "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Horner Automation Cscape",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-03",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to disclose information and execute arbitrary code. The following versions of Horner Automation Cscape a...",
-      "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Yokogawa FAST/TOOLS and CI Server",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability may return a response containing the CI Server setting information. The following versions of Yokogawa FAST/TOOLS and CI Server are a...",
-      "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
       "title": "Using SASE in a Modern TIC 3.0 Solution",
       "link": "https://www.cisa.gov/resources-tools/resources/using-sase-modern-tic-30-solution",
       "description": "Using SASE in a Modern TIC 3.0 Solution CISA’s guidance, The Journey to Zero Trust – Using Secure Access Service Edge in a Modern TIC 3.0 Solution, details how the Trusted Internet Connections ...",
@@ -830,18 +839,9 @@
       "image_url": ""
     },
     {
-      "title": "Hubbell Aclara Metrum Cellular Web Interface",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-07",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to manipulate critical device settings and repeatedly disrupt operations, potentially causing a loss of communi...",
-      "pub_date": "Tue, 23 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Siemens WinCC Certificate Manager",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-01",
-      "description": "View CSAF Summary WinCC Certificate Manager insufficiently protects key material that could allow an attacker to extract sensitive information. Siemens has released a new version for SIMATIC WinCC ...",
+      "title": "Siemens SINEC INS",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-04",
+      "description": "View CSAF Summary SINEC INS before V1.0 SP2 Update 6 is affected by multiple vulnerabilities. Siemens has released a new version for SINEC INS and recommends to update to the latest version. The fo...",
       "pub_date": "Tue, 23 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
