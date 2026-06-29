@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-06-29T17:29:39Z",
+  "last_updated": "2026-06-29T19:45:34Z",
   "articles": [
+    {
+      "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
+      "link": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
+      "description": "Microsoft has found a malicious Chrome extension that posed as the AI search engine Perplexity and quietly logged what people searched for. It routed every query and every character typed into the ...",
+      "pub_date": "Tue, 30 Jun 2026 00:10:09 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOcObOpyIQZzuiNoFu6Lv4jCDh64o1WYrC3stGdk58mMRg69RT56svVrXVwu618f6szk2lj_Tqbt6b7Rg25yV0cauxIDTbMAI8cbftKVYibIt5SMeaOT2zE3oeuu-RLI7M1mkEV3zirqDiO-nLMikX7QixM2EpVIdKQERGc7I_0p58L4J-s5mBjSCpgHc/s1600/pp-ai.jpg"
+    },
+    {
+      "title": "WhatsApp rolls out usernames to help users hide their phone number",
+      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
+      "description": "WhatsApp is finally allowing users to reserve usernames, a privacy feature that lets them hide their phone numbers from people not in their contact list. [...]",
+      "pub_date": "Mon, 29 Jun 2026 13:48:28 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "WhatsApp Launches New Username Feature to Communicate Without Exposing Phone Numbers",
+      "link": "https://cybersecuritynews.com/whatsapp-username-feature-2/",
+      "description": "WhatsApp introduces a new privacy update that lets users connect using unique handles, eliminating the need to share phone numbers with strangers or new group members. Earlier, we detailed that Wha...",
+      "pub_date": "Mon, 29 Jun 2026 17:43:24 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/WhatsApp-Username-Feature.webp"
+    },
     {
       "title": "EvilTokens Phishing Breaches Finance Firms Using “Ghost” Code Across U.S. and European Businesses",
       "link": "https://cybersecuritynews.com/eviltokens-phishing-breaches-finance-firms-using-ghost-code-across-u-s-and-european-businesses/",
@@ -162,15 +189,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Russia-Linked-Turla-Uses-Compromised-Infrastructure-to-Deploy-STOCKSTAY-in-Ukraine-Operations.webp"
-    },
-    {
-      "title": "ClawHub Skills Expose AI Agents to Remote Control Backdoors and Data Theft Attacks",
-      "link": "https://cybersecuritynews.com/clawhub-skills-expose-ai-agents/",
-      "description": "AI-powered agents are no longer just answering questions. They now take actions, manage files, and run code on behalf of users. That shift has opened a dangerous new door, and attackers have alread...",
-      "pub_date": "Mon, 29 Jun 2026 12:55:20 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/ClawHub-Skills-Expose-AI-Agents-to-Remote-Control-Backdoors-and-Data-Theft-Attacks.webp"
     },
     {
       "title": "Modernizing Global Vulnerability Standards For The Age Of AI",
@@ -366,24 +384,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
       "description": "AI won't replace GRC analysts, but it can eliminate much of the repetitive work they do. Anecdotes walks through building an agent that continuously monitors controls, identifies evidence gaps, and...",
       "pub_date": "Fri, 26 Jun 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
-      "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-      "description": "A flaw in the Linux kernel's traffic-control subsystem can let a local unprivileged user gain root on affected systems.  CVE-2026-46331, nicknamed \"pedit COW,\" is an out-of-bounds write in the pack...",
-      "pub_date": "Fri, 26 Jun 2026 19:27:55 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBWN46D03nuGH8FWFxZD7Ax6T3Wvmf5bt3WrqjghU6ZJU65L6pfoPjt2fVw4-dGXfyEx8fkygfYUftIDlMpPaRcegTEH6eL58nSyiFvbbg5A0GxtFTIhwQUIj16DF-vIqiH2B6jnC7C3DebkJja3v6ayIjOF-eY5DoDL9qef319S3m4ny2lnodtc1WeE59/s1600/linux-cow.jpg"
-    },
-    {
-      "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
-      "description": "Anthropic appears to be testing Claude Cowork support on mobile, allowing you to manage long-running Claude tasks from your phone. [...]",
-      "pub_date": "Thu, 25 Jun 2026 18:53:32 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
