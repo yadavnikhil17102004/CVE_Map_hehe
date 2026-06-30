@@ -1,6 +1,87 @@
 {
-  "last_updated": "2026-06-30T06:50:20Z",
+  "last_updated": "2026-06-30T10:27:12Z",
   "articles": [
+    {
+      "title": "X Launches Hosted MCP Servers to Connect Cursor, Claude, and Other AI Tools",
+      "link": "https://cybersecuritynews.com/x-launches-hosted-mcp-servers/",
+      "description": "X (formerly Twitter) has officially launched hosted Model Context Protocol (MCP) servers, enabling AI development tools such as Grok Build, Cursor, and Claude Desktop to seamlessly connect with the...",
+      "pub_date": "Tue, 30 Jun 2026 10:04:14 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/X-Launches-Hosted-MCP-Servers.webp"
+    },
+    {
+      "title": "Kali Linux 2026.2 released with 9 new tools, NetHunter updates",
+      "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/",
+      "description": "Kali Linux 2026.2, the second release of the year, is now available for download, featuring 9 new tools and numerous Kali NetHunter improvements. [...]",
+      "pub_date": "Tue, 30 Jun 2026 05:46:39 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Blackfield ransomware asks Nidec Corporation for $2 million ransom",
+      "link": "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/",
+      "description": "The Blackfield ransomware gang is asking for a $2 million ransom from Nidec Corporation, a large Japanese manufacturer of electronic components for automotive and computing applications. [...]",
+      "pub_date": "Tue, 30 Jun 2026 05:41:05 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "New Windows Backdoor Mistic Enables In-Memory Code Execution and Credential Theft",
+      "link": "https://cybersecuritynews.com/new-windows-backdoor-mistic-enables-in-memory-code-execution/",
+      "description": "A newly identified Windows backdoor called Mistic has been quietly making its way through enterprise networks since April 2026, giving attackers persistent, low-profile access that is extremely dif...",
+      "pub_date": "Tue, 30 Jun 2026 09:17:59 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-Windows-Backdoor-Mistic-Enables-In-Memory-Code-Execution-and-Credential-Theft.webp"
+    },
+    {
+      "title": "CISA: Windows BlueHammer flaw now exploited by ransomware gangs",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
+      "description": "CISA confirmed on Monday that ransomware gangs are now exploiting a Microsoft Defender privilege escalation vulnerability, dubbed BlueHammer, that has previously been abused in zero-day attacks. [...]",
+      "pub_date": "Tue, 30 Jun 2026 04:53:13 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
+      "link": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
+      "description": "Convince an AI browser that it is playing a game, and it can hand over your login details. That is the finding behind\u0026nbsp;BioShocking, a technique from security firm LayerX that tricked six AI bro...",
+      "pub_date": "Tue, 30 Jun 2026 14:07:19 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitNDarGF3uRKXTWC12cbM97uJW3DxiLuQwmplVLHEqdrUZJdzbkMz6Wc524z5Xu2GGSyNYhMT_m9kGqqGjRmIxDf0fy_ZXCx3f6G7JvvCFkcdga3PTnUR8XqfrPtIH_9_yrb9n7VaJZTqsLK4CznHRTcYZA1B84r2T_Jl5YYjnUbwUAvyGo4K05ckMnyYG/s1600/ai-prompt.jpg"
+    },
+    {
+      "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
+      "link": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
+      "description": "A critical vulnerability in Progress Kemp LoadMaster can let an unauthenticated attacker execute arbitrary commands as root on the appliance by sending a crafted request to its API.  The flaw, trac...",
+      "pub_date": "Tue, 30 Jun 2026 13:08:07 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtFZGtJwnGA8dQHmNpd8Pzgx4p0wSq_e2hyphenhyphen2bZwWBQEDK8QPAi2CEOR_Nbns5jhRw9mMSPv6RBe2IqRO1c9fIMvMlUAV14B3VQE7-csMvfMQK6Qr3THGlxQY3C9HiYW_TYHGzok-TWFmMoMkto0OA8fNsQuvADEaJNFQYdIrXXzHGJEhyqpKRC2IFCaRM6/s1600/loadmaster.jpg"
+    },
+    {
+      "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
+      "link": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
+      "description": "Apple on Monday released security updates for iOS, macOS, and the Safari web browser to address over three dozen flaws, including four vulnerabilities in WebKit that were discovered using artificia...",
+      "pub_date": "Tue, 30 Jun 2026 12:45:07 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgEWbrJH-z_uAL6GFaOqplYF1ewSOBvFpaKD24W74VEBaSO-pW3sy0I0e57Bmc9yBKV4vb6zWYaVjd-oTSy2sSQNSubgQHcmFav_bp3HnySXcSGR-ocRiUfYcXgUXm44XZyrdNnIq2JqJxZQG5bnbui12eVoG3GPgVnGy9AE6vfDp3km5TTtf6rjPv6FZV/s1600/apple-updates-ai.jpg"
+    },
+    {
+      "title": "Kali Linux 2026.2 Released With 9 New Tools and VM Boot Tweaking",
+      "link": "https://cybersecuritynews.com/kali-linux-2026-2-released/",
+      "description": "Kali Linux team officially released Kali Linux 2026.2 right on schedule at the close of Q2 2026, delivering a compelling mix of desktop environment upgrades, infrastructure modernization, VM perfor...",
+      "pub_date": "Tue, 30 Jun 2026 07:09:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Kali-Linux-2026.2-Released.webp"
+    },
     {
       "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
       "link": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
@@ -9,6 +90,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYwCBjb2uPzIs-8BNIxo90ae4xRgxzM1av-ijebBJ32Y2DEvRUvM-jMd6S535UdnbPKrLtFHxm0k9Lo7GJgVjCWCrH-0RNFZukDv7shdA02IkDs1Iqx8C-uH2hOCyfpJ01tmNVGhrvQ-6FGlmdjnCP0nXrq7zl5KVL3XZ84I9QTImD5DM8HYoJbA0A1P3w/s1600/oracle.jpg"
+    },
+    {
+      "title": "Nissan Confirms Data Breach Following Oracle PeopleSoft 0-Day Attacks",
+      "link": "https://cybersecuritynews.com/nissan-confirms-data-breach/",
+      "description": "Nissan Americas has officially confirmed a data breach affecting current and former employees across four countries after threat actors exploited a critical zero-day vulnerability in Oracle PeopleS...",
+      "pub_date": "Tue, 30 Jun 2026 03:39:15 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Nissan-Confirms-Data-Breach.webp"
     },
     {
       "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
@@ -47,6 +137,24 @@
       "image_url": ""
     },
     {
+      "title": "WhatsApp Launches New Username Feature to Communicate Without Exposing Phone Numbers",
+      "link": "https://cybersecuritynews.com/whatsapp-username-feature-2/",
+      "description": "WhatsApp introduces a new privacy update that lets users connect using unique handles, eliminating the need to share phone numbers with strangers or new group members. Earlier, we detailed that Wha...",
+      "pub_date": "Mon, 29 Jun 2026 17:43:24 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/WhatsApp-Username-Feature.webp"
+    },
+    {
+      "title": "EvilTokens Phishing Breaches Finance Firms Using “Ghost” Code Across U.S. and European Businesses",
+      "link": "https://cybersecuritynews.com/eviltokens-phishing-breaches-finance-firms-using-ghost-code-across-u-s-and-european-businesses/",
+      "description": "EvilTokens can keep serious account-takeover activity out of your SOC’s view by relying on “ghost” code that only surfaces after the browser decrypts it. Because of this, analysis that looks...",
+      "pub_date": "Mon, 29 Jun 2026 17:25:56 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/EvilToken.webp"
+    },
+    {
       "title": "Microsoft extends Windows Server 2022 hotpatching until October 2027",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/",
       "description": "Microsoft has extended Windows Server 2022 hotpatching until October 2027, one year after the mainstream end date of October 2026. [...]",
@@ -54,6 +162,33 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "New Claude Code Attack Allows Attackers to Take Full Control of Developers’ Systems",
+      "link": "https://cybersecuritynews.com/new-claude-code-attack/",
+      "description": "Researchers at Mozilla\u0026#8217;s Zero Day Investigative Network (0DIN) have demonstrated a proof-of-concept attack that shows how a completely clean-looking GitHub repository can trick AI-powered cod...",
+      "pub_date": "Mon, 29 Jun 2026 17:10:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/New-Claude-Code-Attack.webp"
+    },
+    {
+      "title": "U.S. Seizes Hundreds Domains Used to Stream World Cup Matches Illegally",
+      "link": "https://cybersecuritynews.com/u-s-seizes-domains-world-cup-matches-illegally/",
+      "description": "The U.S. Department of Justice (DOJ) has announced the seizure of nearly 400 domains used to illegally stream FIFA World Cup 2026 matches, marking a significant crackdown on global digital piracy n...",
+      "pub_date": "Mon, 29 Jun 2026 16:44:45 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/U.S.-Seizes-Hundreds-Domains-used-to-Stream-World-Cup-Matches-Illegally.webp"
+    },
+    {
+      "title": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway",
+      "link": "https://cybersecuritynews.com/splunk-secure-gateway-deserialization-rce-vulnerability/",
+      "description": "A public proof-of-concept (PoC) exploit has been released for CVE-2026-20251, a high-severity remote code execution (RCE) vulnerability affecting Splunk Secure Gateway (SSG). The flaw, carrying a C...",
+      "pub_date": "Mon, 29 Jun 2026 16:18:17 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Splunk-Secure-Gateway-Deserialization-RCE-Vulnerability-Public-PoC-released-.webp"
     },
     {
       "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
@@ -72,6 +207,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio-ZtaOMuibm1cwTHj1YFNRqRbs2GdaipPSXv1pzX9qcUI2VS6MGjpxEcNnhU0zniwOokUFL530mntMPSO2X8CjA3ybwYDXEwsJb9sV7nP9QWiDHLTiYV6Yf10B9qHNTdqsU3hn-ac8mzmzghyphenhyphenrhvgSJQBEgP723mfcyNA4y1ck5wKPBY1ELzb_xpQhB_s/s1600/whatsapp-usernames.jpg"
+    },
+    {
+      "title": "Hackers Exploiting Critical Oracle E-Business Suite Vulnerability Actively in Attacks",
+      "link": "https://cybersecuritynews.com/oracle-e-business-flaw-actively-exploited/",
+      "description": "Threat actors are actively exploiting CVE-2026-46817, a critical unauthenticated remote takeover vulnerability in Oracle E-Business Suite (EBS), with live attack activity captured across honeypot i...",
+      "pub_date": "Mon, 29 Jun 2026 16:05:40 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Oracle-E-Business-Flaw-Actively-Exploited.webp"
     },
     {
       "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
@@ -236,42 +380,6 @@
       "image_url": ""
     },
     {
-      "title": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards",
-      "link": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
-      "description": "OpenAI on Friday released three versions of GPT-5.6, called Sol, Terra, and Luna, as a limited preview to a small number of companies as part of an ongoing engagement with the U.S. government.  Whi...",
-      "pub_date": "Sat, 27 Jun 2026 17:49:37 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiweorWxmIvPG8uskOe44fLur9F5OJvqVdFLV1ejFqQozXruk70nzMhRaY58n4BuMhW1sbsdSvhTrlSxM8U5SLwPdaeRWNi4eQMUjEsFgmGV-37gTdnqk1NXLT4Ixadu4sq_pm0l_HVzuGHaIgcDnV_y092aZ1gCKkZ6lh2bp24PUBUfgsCSgvjlZiKRLMH/s1600/gpt.jpg"
-    },
-    {
-      "title": "FBI: Russian hackers now target Signal backup recovery keys",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
-      "description": "The FBI and CISA are warning that a phishing campaign targeting Signal users tied to Russian intelligence services has evolved to steal Signal Backup Recovery Keys, allowing attackers to access vic...",
-      "pub_date": "Fri, 26 Jun 2026 18:06:17 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being active...",
-      "pub_date": "Fri, 26 Jun 2026 15:43:06 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys",
-      "link": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
-      "description": "The FBI and CISA have updated\u0026nbsp;their March warning\u0026nbsp;about Russian intelligence phishing Signal accounts, and the operators have added a step: they now coax targets into handing over their S...",
-      "pub_date": "Sat, 27 Jun 2026 01:08:29 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjt2-y25_EiB31BmVQQpt9ne8mH9iPOJpYJmItVSIKGexUBmKRwzNSvDYzbVyRm9xxR6H0rE880CTv3QTblUdJgkRh2EoXqYGJ9wwOq-cOktE6iIvI0fZdeuxf8gTmdEpStuzq5CywuWYEjb32JqfwIznRc6YtDK_V5dFH1bcx2EoqvQ1Koieo4g7QDKA/s1600/signal-phishing.jpg"
-    },
-    {
       "title": "Weekly Metasploit Update: Modules for Audiobookshelf, LiteLLM, Next.js, Dalfox and more",
       "link": "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-modules-for-audiobookshelf-litellm-next-js-dalfox-and-more",
       "description": "Help shape the future of Metasploit FrameworkWe are planning future work in relation to the evasion capabilities present in Metasploit Framework, and how they function/are presented to users. We ar...",
@@ -279,24 +387,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt7464fe659cab8a01/6852c358419e54d8e21c3458/blog-metasploit-wrap-up-.webp"
-    },
-    {
-      "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
-      "link": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
-      "description": "A newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike Beacon on comprom...",
-      "pub_date": "Fri, 26 Jun 2026 23:47:46 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsnAZNjHSEX7UtabbKNVn68uohH8pK5LKuU2CgckZTJowWHxYmEjx9ROquO9tFsThy-3_759_ko2TQEX4Wm3PI1Y-opfzyeAzW8Tni0-gz2YMtPMln9XQRzcKq1mviZSTW7MNShxVRhbuUXBSuNGTNStlwj_NCfFsyrptpXvkLNt5CUfARwENz0IshNDma/s1600/shark.jpg"
-    },
-    {
-      "title": "Polymarket customers lose $3 million in supply-chain attack",
-      "link": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
-      "description": "Polymarket says it will fully reimburse customers who lost an estimated $3 million after hackers injected a malicious script into the platform's frontend following a breach at a third-party vendor....",
-      "pub_date": "Fri, 26 Jun 2026 14:04:12 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "Experts on Experts: Why AI and Compliance Are Forcing A New Security Operating Model",
