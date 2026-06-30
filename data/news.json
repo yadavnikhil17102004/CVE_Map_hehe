@@ -1,6 +1,96 @@
 {
-  "last_updated": "2026-06-30T13:05:28Z",
+  "last_updated": "2026-06-30T16:17:36Z",
   "articles": [
+    {
+      "title": "False Positive or First Sign of a Breach? How Tier 1 SOC Analysts Can Tell the Difference Faster ",
+      "link": "https://cybersecuritynews.com/false-positive-or-first-sign-of-a-breach-how-tier-1-soc-analysts-can-tell-the-difference-faster/",
+      "description": "Imagine\u0026#160;a Tier 1 analyst receiving an alert: an employee’s laptop has\u0026#160;connected\u0026#160;to an unfamiliar domain.\u0026#160; The detection is not dramatic. No ransomware note. No obvious malware...",
+      "pub_date": "Tue, 30 Jun 2026 16:13:56 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/False-Positive.webp"
+    },
+    {
+      "title": "New BioShocking Attack Allows Attackers to Trick AI Browser and Leak Credentials",
+      "link": "https://cybersecuritynews.com/bioshocking-attack/",
+      "description": "A newly disclosed attack technique dubbed “BioShocking” is raising concerns across the cybersecurity community after researchers demonstrated that AI-powered browsers can be manipulated to leak...",
+      "pub_date": "Tue, 30 Jun 2026 16:03:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIzopJXdFB9jyK0zErESm4xZiPAttqu3unAkFTyJrUiexxg0AyUbf3B29PwjFQREVp7uKxhixrl34WR8P5bmImXXykQz7sgMPXLl1gWMxKP4MHwNV27cys2xq4ifSuJdWtMPBqMt6gGFP4_oYarCbEKGZKJGxRciVSJ9sPUD5THyTHiw1IYFtq0StFnaQ/s1600/Screenshot%202026-06-30%20175144%20%281%29.webp"
+    },
+    {
+      "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
+      "description": "A malicious extension in the Chrome Web Store is masquerading as the Perplexity AI answer engine, intercepting search traffic and collecting browsing information. [...]",
+      "pub_date": "Tue, 30 Jun 2026 11:46:19 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses",
+      "link": "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
+      "description": "Cybersecurity researchers have flagged an active browser extension campaign that is designed to steal cryptocurrency by stealthily replacing wallet addresses when unsuspecting users initiate a tran...",
+      "pub_date": "Tue, 30 Jun 2026 21:10:18 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfz8WYO9wONzogh2V8g9VorZ8Ab_nAUZMD7rOM9xrVUhg3cbKGA5zc73PGQiAkbsNgY-qbm2AFAUjBdeMcpemGmDNWrvnpyjzKiqU8iJHMetkW68d20V_U-96mHOaHF6fff7VKBREN2v6fz1R_ahyIklq-Fd7ILYKxXck5ahL1BoFWC_CDQFrQZqQqg3hm/s1600/chrome-wallet.jpg"
+    },
+    {
+      "title": "Multiple AirDrop and Quick Share Vulnerabilities Allow Attackers to Crash Devices",
+      "link": "https://cybersecuritynews.com/airdrop-and-quick-share-vulnerabilities/",
+      "description": "Multiple newly disclosed vulnerabilities in Apple’s AirDrop and Google/Samsung Quick Share proximity-sharing protocols allow attackers within wireless range to crash or disrupt nearby devices wit...",
+      "pub_date": "Tue, 30 Jun 2026 15:11:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Multiple-AirDrop-and-Quick-Share-Vulnerabilities-Allow-Attackers-to-Crash-Devices.webp"
+    },
+    {
+      "title": "GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection Risks",
+      "link": "https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html",
+      "description": "The safety check that is supposed to stop an AI coding agent from running a dangerous command can be walked straight past using a shell trick that has been public for decades.  New research from\u0026nb...",
+      "pub_date": "Tue, 30 Jun 2026 19:56:15 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR59EidY6iMYv3s9bikjIxpj6_YTaUIesrZ3MyD9OqUbOk262aDW7bCArqr-IjT9CUQUSzE2F_knKKvs4bIJ2d9cuzZ-DKlmkW_Q3SO43HkA79kSVhCELVyKaStWliNZc9l1xxEGEFE5UmT1Abn6XMKTjk-rxBRTTtRAjb-jYDRKj-ODtIYy8dGQvbzDE/s1600/shell-ai.jpg"
+    },
+    {
+      "title": "Lessons from the Underground: How to Combat Business Email Compromise",
+      "link": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
+      "description": "Business Email Compromise is more than an email scam. It's a coordinated operation involving compromised accounts, financial research, and cash-out networks. Flare explores how underground forums r...",
+      "pub_date": "Tue, 30 Jun 2026 10:00:10 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "AppViewX Launches Global Partner Program Amid Rising Demand for Machine and Agent Identity Security",
+      "link": "https://cybersecuritynews.com/appviewx-launches-global-partner-program-amid-rising-demand-for-machine-and-agent-identity-security/",
+      "description": "New York, United States, June 30th, 2026, CyberNewswire Building on the momentum of its Agent Identity Security launch, AppViewX invests in partner success through enhanced enablement and co-sellin...",
+      "pub_date": "Tue, 30 Jun 2026 13:57:15 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEv7WM5e_XzKbTVGL_hCXaikmhaPcSbBCD1rAQaYvrlpusDAWGeSJzeR9id-gPmfkfE02hvlu1VqRbrJKZmRjw6lvATcBJalTuPNN2l3txfTT5sbkt7fMX58kbjd2hOjm2xwvzj7p3HBNDxtGvb-lRgkLnVYGiEmPcpAQmsjYGQTfXifKBSGLiNm9RYWg/s16000/TTT%20-%202026-06-30T185019.397.webp?ssl=1"
+    },
+    {
+      "title": "282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study",
+      "link": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
+      "description": "Researchers tested 444 AI chatbot apps for iPhone and found that 282 of them, nearly two-thirds, exposed paid AI access through their network traffic.  In many cases, the path in was visible just b...",
+      "pub_date": "Tue, 30 Jun 2026 19:19:34 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJ9nmTBu_vYBf5fRZV4Jc-qtFGPySofVDYHUd-9-ogdve-M4Qd4j7_CnH9Zmvln6O3nfXSsDqQiMoL3rDYBSXZSrXlkCnSWSQUdAYJX1PkRzmytlVaYAc2AyrFOCpo9doU58gO6Gl5fQ-0SZ5D3yGP2SspNgK0U4f5jViSBnY_PAMUOjr42Nt8OLrhnTsQ/s1600/llm-keys.jpg"
+    },
+    {
+      "title": "Critical Progress Kemp LoadMaster Vulnerability Enables Pre-Auth Remote Code Execution",
+      "link": "https://cybersecuritynews.com/critical-progress-kemp-loadmaster-vulnerability/",
+      "description": "A critical security vulnerability in Progress Kemp LoadMaster has put enterprise networks across the globe at serious risk. Tracked as CVE-2026-8037, the flaw allows an unauthenticated remote attac...",
+      "pub_date": "Tue, 30 Jun 2026 13:24:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Critical-Progress-Kemp-LoadMaster-Vulnerability-Enables-Pre-Auth-Remote-Code-Execution.webp"
+    },
     {
       "title": "Bing Search for ‘ManageEngine OpManager’ Delivers Akira Ransomware",
       "link": "https://cybersecuritynews.com/bing-search-for-manageengine-opmanager/",
@@ -27,6 +117,15 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Hackers-Hijack-WhatsApp-Web-Sessions-to-Launch-CEO-Fraud-Through-DLL-Sideloading.webp"
+    },
+    {
+      "title": "What the Numbers Say About FIFA 2026 Cyber Risk",
+      "link": "https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html",
+      "description": "The FIFA World Cup 2026 opened on June 11. By that date, according to Check Point Research, the fraud infrastructure targeting it had already been built, staged, and partially deployed. Threat acto...",
+      "pub_date": "Tue, 30 Jun 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEZt1Yxw3eiMzyzPpblDGru8JlEmw-Rr1Lgn8hG9YCvxeCNDpKOCyn5_Evvmc_lB9tKDpcmBLfH3a6mHGkZBMDT8cr9Q39XpMpDhwCrqSieA2wG1BVYDBXTppmPkOJA2Sj8kakQExnh207X99wqRR1nOnYMcWPZ41BNKGhQHdOCkUzzgkRkMjzX-RdvyA/s1600/checkpoint-main.jpg"
     },
     {
       "title": "Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer",
@@ -65,58 +164,13 @@
       "image_url": ""
     },
     {
-      "title": "Multiple WolfSSL Vulnerabilities Expose Billions of Servers and IoT Devices to Cyberattacks",
-      "link": "https://cybersecuritynews.com/multiple-wolfssl-vulnerabilities/",
-      "description": "Multiple newly disclosed vulnerabilities in the wolfSSL embedded TLS library expose billions of servers and Internet of Things (IoT) devices to potential certificate forgery, remote code execution,...",
-      "pub_date": "Tue, 30 Jun 2026 11:03:10 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Multiple-wolfSSL-Vulnerabilities-Exposes-Billions-of-servers-IoT-devices-to-Cyberattacks.webp"
-    },
-    {
-      "title": "SimpleHelp Authentication Bypass Vulnerability Exploited in the Wild to Deploy TaskWeaver Loader",
-      "link": "https://cybersecuritynews.com/simplehelp-authentication-bypass-vulnerability-exploited/",
-      "description": "A critical authentication bypass vulnerability in SimpleHelp Remote Monitoring and Management (RMM) software is being actively exploited in the wild. This enables attackers to deploy advanced malwa...",
-      "pub_date": "Tue, 30 Jun 2026 11:00:52 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/SimpleHelp-Authentication-Bypass-Vulnerability-Exploited-in-the-Wild-to-Deploy-TaskWeaver-Loader.webp"
-    },
-    {
-      "title": "TONResolver Malware Uses TON Smart Contracts as Dead Drop Resolver for C2 Switching",
-      "link": "https://cybersecuritynews.com/tonresolver-malware-uses-ton-smart-contracts/",
-      "description": "A new wave of cyberattacks targeting Japan\u0026#8217;s hospitality sector has put the global threat landscape on high alert. In late May 2026, attackers began sending phishing emails to Japanese partne...",
-      "pub_date": "Tue, 30 Jun 2026 10:56:54 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/TONResolver-Malware-Uses-TON-Smart-Contracts-as-Dead-Drop-Resolver-for-C2-Switching.webp"
-    },
-    {
       "title": "Microsoft adds smarter bot protection to Teams meetings",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/mircosoft-adds-smarter-bot-protection-to-teams-meetings/",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-smarter-bot-protection-to-teams-meetings/",
       "description": "Microsoft has introduced a new Teams admin policy that allows organizers to prevent third-party bots from joining meetings without approval. [...]",
       "pub_date": "Tue, 30 Jun 2026 06:52:26 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Fake Perplexity AI Extension Captures Real-Time Search Suggestions and Browser Signals",
-      "link": "https://cybersecuritynews.com/fake-perplexity-ai-extension-captures-real-time-search/",
-      "description": "A fake browser extension disguised as the popular AI search tool Perplexity AI has been caught quietly capturing users\u0026#8217; real-time search inputs and browser signals, raising serious concerns a...",
-      "pub_date": "Tue, 30 Jun 2026 10:47:17 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Fake-Perplexity-AI-Extension-Captures-Real-Time-Search-Suggestions-and-Browser-Signals.webp"
-    },
-    {
-      "title": "Synology MailPlus Server Vulnerabilities Allow Attackers to Trigger DoS Attacks",
-      "link": "https://cybersecuritynews.com/synology-mailplus-server-vulnerabilities/",
-      "description": "Synology has released a critical security advisory addressing multiple vulnerabilities in its MailPlus Server package that could allow attackers to execute denial-of-service (DoS) attacks, access i...",
-      "pub_date": "Tue, 30 Jun 2026 10:42:04 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Synology-MailPlus-Server-Vulnerabilities-Allow-Attackers-to-Trigger-DoS-Attacks-.webp"
     },
     {
       "title": "Kali Linux 2026.2 released with 9 new tools, NetHunter updates",
@@ -173,15 +227,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtFZGtJwnGA8dQHmNpd8Pzgx4p0wSq_e2hyphenhyphen2bZwWBQEDK8QPAi2CEOR_Nbns5jhRw9mMSPv6RBe2IqRO1c9fIMvMlUAV14B3VQE7-csMvfMQK6Qr3THGlxQY3C9HiYW_TYHGzok-TWFmMoMkto0OA8fNsQuvADEaJNFQYdIrXXzHGJEhyqpKRC2IFCaRM6/s1600/loadmaster.jpg"
     },
     {
-      "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
-      "link": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
-      "description": "Apple on Monday released security updates for iOS, macOS, and the Safari web browser to address over three dozen flaws, including four vulnerabilities in WebKit that were discovered using artificia...",
-      "pub_date": "Tue, 30 Jun 2026 12:45:07 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgEWbrJH-z_uAL6GFaOqplYF1ewSOBvFpaKD24W74VEBaSO-pW3sy0I0e57Bmc9yBKV4vb6zWYaVjd-oTSy2sSQNSubgQHcmFav_bp3HnySXcSGR-ocRiUfYcXgUXm44XZyrdNnIq2JqJxZQG5bnbui12eVoG3GPgVnGy9AE6vfDp3km5TTtf6rjPv6FZV/s1600/apple-updates-ai.jpg"
-    },
-    {
       "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
       "link": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
       "description": "A critical security flaw impacting Oracle E-Business Suite has come under active exploitation in the wild, according to Defused Cyber.  The vulnerability, tracked as CVE-2026-46817 (CVSS score: 9.8...",
@@ -207,15 +252,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
-      "link": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
-      "description": "Microsoft has found a malicious Chrome extension that posed as the AI search engine Perplexity and quietly logged what people searched for. It routed every query and every character typed into the ...",
-      "pub_date": "Tue, 30 Jun 2026 00:10:09 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOcObOpyIQZzuiNoFu6Lv4jCDh64o1WYrC3stGdk58mMRg69RT56svVrXVwu618f6szk2lj_Tqbt6b7Rg25yV0cauxIDTbMAI8cbftKVYibIt5SMeaOT2zE3oeuu-RLI7M1mkEV3zirqDiO-nLMikX7QixM2EpVIdKQERGc7I_0p58L4J-s5mBjSCpgHc/s1600/pp-ai.jpg"
     },
     {
       "title": "WhatsApp rolls out usernames to help users hide their phone number",
@@ -252,6 +288,24 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio-ZtaOMuibm1cwTHj1YFNRqRbs2GdaipPSXv1pzX9qcUI2VS6MGjpxEcNnhU0zniwOokUFL530mntMPSO2X8CjA3ybwYDXEwsJb9sV7nP9QWiDHLTiYV6Yf10B9qHNTdqsU3hn-ac8mzmzghyphenhyphenrhvgSJQBEgP723mfcyNA4y1ck5wKPBY1ELzb_xpQhB_s/s1600/whatsapp-usernames.jpg"
+    },
+    {
+      "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
+      "link": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
+      "description": "Microsoft has found a malicious Chrome extension that posed as the AI search engine Perplexity and quietly logged what people searched for. It routed every query and every character typed into the ...",
+      "pub_date": "Mon, 29 Jun 2026 21:10:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOcObOpyIQZzuiNoFu6Lv4jCDh64o1WYrC3stGdk58mMRg69RT56svVrXVwu618f6szk2lj_Tqbt6b7Rg25yV0cauxIDTbMAI8cbftKVYibIt5SMeaOT2zE3oeuu-RLI7M1mkEV3zirqDiO-nLMikX7QixM2EpVIdKQERGc7I_0p58L4J-s5mBjSCpgHc/s1600/pp-ai.jpg"
+    },
+    {
+      "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
+      "link": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
+      "description": "Apple on Monday released security updates for iOS, macOS, and the Safari web browser to address over three dozen flaws, including four vulnerabilities in WebKit that were discovered using artificia...",
+      "pub_date": "Mon, 29 Jun 2026 21:00:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgEWbrJH-z_uAL6GFaOqplYF1ewSOBvFpaKD24W74VEBaSO-pW3sy0I0e57Bmc9yBKV4vb6zWYaVjd-oTSy2sSQNSubgQHcmFav_bp3HnySXcSGR-ocRiUfYcXgUXm44XZyrdNnIq2JqJxZQG5bnbui12eVoG3GPgVnGy9AE6vfDp3km5TTtf6rjPv6FZV/s1600/apple-updates-ai.jpg"
     },
     {
       "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
@@ -317,15 +371,6 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0b0762ca94c50b0b/6846a711eac0e395093e52e3/AI.jpg"
     },
     {
-      "title": "Webinar: Why business email compromise attacks keep succeeding",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
-      "description": "Business email compromise attacks increasingly rely on convincing impersonation rather than malware, making them harder for employees and traditional email defenses to detect. This webinar explores...",
-      "pub_date": "Mon, 29 Jun 2026 08:14:22 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
       "link": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
       "description": "New findings unearthed by Infoblox show that more than 236,000 websites are using investment scam templates built using a legitimate Chinese open-source, cross-platform application development fram...",
@@ -333,51 +378,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhK82zgZh0edVIi1z4Rs0V9v_8tn_Mh_X6_H5TQYnFwEtbrE1dhjw5Z-9U99Lojet5RdcrIgwJK0bZusY4u22qKVFBzpCuHihAzXd4RNuJQGSxEfdNlBH4GFZYedXXohyQdbfNYIxr9LV6KFgUyX3CWVjfsOiIQRq3JEXmGRrR9afqsfMoeR-BH_kZmTCKd/s1600/phish-uni.jpg"
-    },
-    {
-      "title": "Why Post-Quantum Cryptography Starts With Credentials",
-      "link": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
-      "description": "Today’s encrypted data, such as credentials, may no longer remain confidential in the future because the public-key cryptography protecting it will soon be broken by quantum computers. Although n...",
-      "pub_date": "Mon, 29 Jun 2026 17:12:16 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgufw7UrtG2RgRTMvdhUaNVywdIBuSIRFLngtWMIY_3fzq7gzTZnlL7KMi_kzPhfpdny4vP5Rd9QVLpkX9xR5Vpk0cVvDV8Xsy4wljRyA5TjKvojsoBsYJt7yhhk1VK46OegGewBgqi-c41Z5mX5Ivos1PMrgrrmgLZKUJ8hqb4xl8o85sB7jQJLvI3gj0/s1600/keeper.jpg"
-    },
-    {
-      "title": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse",
-      "link": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
-      "description": "A Russian advanced persistent threat (APT) group has continued to evolve and expand its malware arsenal as part of its ongoing cyber onslaught against Ukraine throughout 2025.  Slovakian cybersecur...",
-      "pub_date": "Mon, 29 Jun 2026 17:10:24 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijvTMs5lEwRQ2ndqc7YNsz1eNQK0XuR_q4uSjl8tLZ8Nh8vA4WRKZsQhyphenhyphenUx1O0gR-QJtdvAj8LDEUaGscAEXAlA9_e9c0LNtEeV-6NJzdqEdGt0gb7mDEUBNmlMNI2L05YQ8lPXA6kNBFL4s7BsjiJSPD72fyhQq2fmYJwZBPQhyHI4PN_zvSrnxtRbRtI/s1600/uk.jpg"
-    },
-    {
-      "title": "US seizes hundreds of FIFA World Cup illegal streaming domains",
-      "link": "https://www.bleepingcomputer.com/news/security/us-seizes-hundreds-of-fifa-world-cup-illegal-streaming-domains/",
-      "description": "The U.S. Justice Department's Criminal Division has seized nearly 400 web domains used for illegally streaming matches at the FIFA World Cup. [...]",
-      "pub_date": "Mon, 29 Jun 2026 07:21:03 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts",
-      "link": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
-      "description": "Microsoft has shut down a long-running malicious extension operation on the Edge Add-ons store that hid its payloads inside ordinary image and font files, then woke up days after install to steal c...",
-      "pub_date": "Mon, 29 Jun 2026 14:02:31 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmbNHaJMqOcEeoUkaQeIZC_ilbUt8RpG-kyweNVY_fJ_3BQk19-pmJQXV_soXqZiHleBISNTwcYSqew2nzpc3eBEDULz52KaY1RNrJTb7u87f2oEtpJuTtmi4OL6Lc_HXP9WQcMDRco_w4U5mklzQ1QJj8ndNiBYVQRRUsevzc1P6hZe2N26_lyAhkQbsP/s1600/edge.jpg"
-    },
-    {
-      "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
-      "link": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
-      "description": "A public proof-of-concept is now out for CVE-2026-55200, a critical flaw in libssh2 that lets a malicious or compromised SSH server trigger memory corruption on a connecting client, with possible c...",
-      "pub_date": "Mon, 29 Jun 2026 12:36:34 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD9yQyR_bCP0-I73R6EpwLjJtptGUvzeJD90oYzZvFZXVnM99EIvHFtIJlhZ2f4NSZkAyO7JWjJOy6Zd3lAtPz1Bbk2vmj7Ls8aMIZsFqiIVtIArSjypgJRIHJzlDN5BykKcZziAicpJiNE02Wg3Aheu5BIF1SvY3Pn09WYcdLtvWAT5giGf9mC_uY9GkG/s1600/ssh.jpg"
     },
     {
       "title": "Weekly Metasploit Update: Modules for Audiobookshelf, LiteLLM, Next.js, Dalfox and more",
