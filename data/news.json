@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-07-01T19:41:40Z",
+  "last_updated": "2026-07-01T21:20:08Z",
   "articles": [
+    {
+      "title": "Kubota says hackers had month-long access to network systems",
+      "link": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
+      "description": "Kubota North America Corporation disclosed that hackers had access to some of its network systems for more than a month earlier this year. [...]",
+      "pub_date": "Wed, 01 Jul 2026 17:09:06 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
+      "link": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
+      "description": "Multiple weaponized proof-of-concept (PoC) exploits on GitHub were found delivering a Python-based remote access trojan (RAT) named ChocoPoC that can execute commands and steal sensitive data in a ...",
+      "pub_date": "Wed, 01 Jul 2026 16:08:13 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
+      "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
+      "description": "Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the comp...",
+      "pub_date": "Thu, 02 Jul 2026 01:10:06 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9emdIsaMBcMQoyS0ot-ckXq8LWhMk6P2zAm3WdCVFBhRMNUqN6E1vZqllIq6qYHBvGm8WhCGi8C3PLUNOecmNYU4LLoWH5zRBadBejDgpbC5DihDwqiYAMLpZNsQBk2MsiN89nt-honwtPiQzjg4fDUp5w2aiCXWZBKk94qHwfG4yEHak6zoZuNmXKgY/s1600/argo-cd.jpg"
+    },
+    {
+      "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
+      "link": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+      "description": "A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Just...",
+      "pub_date": "Thu, 02 Jul 2026 00:58:07 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitCA6eGqIT2msGTmYh2Qr84lq5GYGvI4Y8FSzzNira0osd5SNIbnpLKZfLZLggblyWGxZ1ScIR_I06M-RoM5wM3he2KRkFCnwYxIKtGBDb9PA1JtoK1JM5f0vObSITDMGt4eeVV82LUF3DBNkYiHLhCTYNwnlOP3DlfCHYLkP6NfHjwRJDsHSMTHEGKAs/s1600/hacker-arrested.jpg"
+    },
     {
       "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
       "link": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
@@ -47,24 +83,6 @@
       "image_url": ""
     },
     {
-      "title": "Indian Govt Halts Meta’s WhatsApp Usernames Rollout Over Fraud Concerns",
-      "link": "https://cybersecuritynews.com/indian-govt-whatsapp-usernames/",
-      "description": "The Indian government has issued a formal notice to WhatsApp LLC (Meta), directing the platform to justify why regulatory action should not be taken against its newly announced \u0026#8220;usernames\u0026#82...",
-      "pub_date": "Wed, 01 Jul 2026 16:33:37 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Indian-Govt-WhatsApp-Usernames.webp"
-    },
-    {
-      "title": "Critical Cursor IDE RCE Vulnerabilities Enable Prompt Injection in Zero-Click",
-      "link": "https://cybersecuritynews.com/cursor-ide-rce-vulnerabilities/",
-      "description": "Two critical remote code execution (RCE) vulnerabilities in Cursor IDE, the AI-powered development environment used by more than half of Fortune 500 companies. Cato AI Labs has disclosed two flaws,...",
-      "pub_date": "Wed, 01 Jul 2026 15:59:45 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Cursor-IDE-RCE-Vulnerabilities-1.webp"
-    },
-    {
       "title": "6 security settings every GitHub maintainer should enable this week",
       "link": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
       "description": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it...",
@@ -72,15 +90,6 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": "https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-30-at-3.28.09-PM.png?resize=1024%2C374"
-    },
-    {
-      "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
-      "link": "https://cybersecuritynews.com/opencti-criminal-ip-threat-intelligence/",
-      "description": "Torrance, California, USA, July 1st, 2026, CyberNewswire Cyber threat intelligence becomes more valuable when indicators are enriched with context that supports investigation, correlation, and deci...",
-      "pub_date": "Wed, 01 Jul 2026 15:43:19 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipTur8dVfCFkVdZv_YJKC4_Unxocr0_f0GXzmxcK4Xg6oQIAUOYg5H-YDczSaDVB9kVElRV0VTxbEazEk0e28JrsnQ7xXCjJkDtSFRfeI7Tl_smfb8N_lv5Z5WTsihKuagMmVbf09zQZTTEndiUXzqEAJreXPqA7NjsqAAyTBr7BVM-yqD24j5qac8vGs/s16000/TTT%20-%202026-07-01T194421.131.webp?ssl=1"
     },
     {
       "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
@@ -110,24 +119,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP2LpF3s-oL3WaiHtAZ9N33J120bvGnWDoQ39eE1fyToERHmJgkAtMzarRyW9-gOG0N4U1_nOEQmwg-3krYIZDcXXB6JYpurMezefSiM5-ygJd9CuuS1sS-gHNjoKgBRayO0wBow5GB1yaanR55TW2fwus6MQXwlqeXDJ2Xu7z2fiOGbPXo4qio4LpXZPO/s1600/adobe.jpg"
     },
     {
-      "title": "Massive Password Stealing Attack Targeting Microsoft 365 Users With 81 Million Login Attempts",
-      "link": "https://cybersecuritynews.com/microsofts-azure-password-spray-attack/",
-      "description": "A large-scale automated password spray campaign is actively abusing Microsoft’s Azure Command-Line Interface (CLI) and legacy OAuth flows to compromise Entra ID accounts, despite organizations ha...",
-      "pub_date": "Wed, 01 Jul 2026 15:11:40 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Azure-Password-Spray-Attack.webp"
-    },
-    {
-      "title": "The Business Cost of Alert Fatigue: How to Reduce Delays, Escalations for Your SOC as 70% Alerts are Uninvestigated",
-      "link": "https://cybersecuritynews.com/the-business-cost-of-alert-fatigue/",
-      "description": "Alert fatigue is no longer just an analyst problem. It has become a business problem.\u0026#160; Every unnecessary investigation, delayed escalation, or manual validation consumes valuable SOC resources...",
-      "pub_date": "Wed, 01 Jul 2026 14:54:48 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/alert-fatigue-banner.webp"
-    },
-    {
       "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
       "link": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
       "description": "Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall...",
@@ -135,15 +126,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjItlLuWZZxw3YcKcnCVEsKn7HKF0QcPnXqFNjor23XT93Xp49dvLt4tZFYIbUApP4eABXQZ3pwnoidAp5GW1wm7ZfBA6vXRlX7i0Lbzw4KWlSkxayxjZQeoxg3TEAQWmLdGP9DePsYjoC1p07KGommOwATsJOHhRQ2zZatOaFRzHoKHVHcQW8K9s-Hd5w/s1600/cato.jpg"
-    },
-    {
-      "title": "Apple ‘Hide My Email’ Vulnerability Exposes Users’ Real Email Addresses",
-      "link": "https://cybersecuritynews.com/apple-hide-my-email-vulnerability/",
-      "description": "Apple’s “Hide My Email” feature is currently affected by an unpatched vulnerability that allows attackers to discover the real email address behind an anonymized alias, according to researche...",
-      "pub_date": "Wed, 01 Jul 2026 14:08:39 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Apple-‘Hide-My-Email-Vulnerability.webp"
     },
     {
       "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
@@ -164,24 +146,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghMOqrFNgwfokWIpvUBFpDUO-So-0focm0a7d9mhocEHiwdB2cHmPQ9q4STjyCr-gVUPK67TYluInMr0_v1omCJVWbd9OVOg6AqVROoxZb44b5BOpxdBb2GECjFw77NhlCf6nWC5oJF3x3KvE3EyDV2pUR3lvROAWjaFs9SOyvzM3qRB6MzEUCFYuVAoCb/s1600/pro-exploit.jpg"
     },
     {
-      "title": "Mitigating Attacks Before They Impact Infrastructure: Link11 provides next generation network DDoS protection",
-      "link": "https://cybersecuritynews.com/link11-next-generation-network-ddos-protection/",
-      "description": "Frankfurt am Main, Deutschland, July 1st, 2026, CyberNewswire Link11, a leading European provider of cloud-based cybersecurity solutions, today announced the launch of its completely rebuilt Layer ...",
-      "pub_date": "Wed, 01 Jul 2026 13:41:51 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiN7J-7UUdQU38_ldQGysBNW8vxcrZ6VJf-LnAI8j8cucUYxBQHeiLso3xNnitsBBLWaMae4BI4UWSF2P1McTFD-6IMYrF3O3fmpO4HIiWEQFGUY2gbdTNP1osfQCCUmlGFAzwL6m75NETDH8Hxn_kJTk5b9b-J9ym8h68DC-e0ni93i50uzu3lp5sSKFI/s16000/TTT%20-%202026-07-01T184857.469.webp?ssl=1"
-    },
-    {
-      "title": "Multiple Fluentd Vulnerabilities Let Attackers Execution Arbitrary Code Remotely",
-      "link": "https://cybersecuritynews.com/fluentd-vulnerabilities/",
-      "description": "Several high-severity flaws in the widely used Fluentd log collector could lead to remote code execution (RCE), data leaks, and denial-of-service attacks across multiple components. The most critic...",
-      "pub_date": "Wed, 01 Jul 2026 13:07:26 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Multiple-Fluentd-Vulnerabilities-enables-remote-code-execution-Attacks.webp"
-    },
-    {
       "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android",
       "link": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
       "description": "Cybersecurity researchers have flagged a new malware artifact generated using DeepSeek that constructed a novel attack path combining \"unrealistic browser-malware concepts with a real browser capab...",
@@ -191,15 +155,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4BJdHYquuxXoz8n0LhMEmm9KPcWcMC57w4LnqbMNCPXMAFdS95ys3zE6F5jZOvSKwsVWp6t3z8pVImRJ3Nvxgkr4QiPI5O06zJywlL5uuBIU2G0ZtPucYq80Z_G-PnVzjYfChzbnpLxGyD2PpbH8VdLWjIuNLt0RoAe5Q8mVulX2s_4Ueg7XR0pxZVwKn/s1600/chrome-ransomware.jpg"
     },
     {
-      "title": "A Weaponized Google Ad Install Malicious Claude Code to Hijack Entire macOS",
-      "link": "https://cybersecuritynews.com/a-weaponized-google-ad-install-malicious-claude-code-to-hijack-entire-macos/",
-      "description": "A sponsored Google ad impersonating Anthropic’s Claude Code CLI has been caught delivering “MacSync Stealer,” a macOS credential harvester that also silently trojans Ledger Live and Ledger Wa...",
-      "pub_date": "Wed, 01 Jul 2026 12:55:08 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Claude-Code.webp"
-    },
-    {
       "title": "Over 900 Oracle E-Business instances exposed to ongoing attacks",
       "link": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
       "description": "Over 900 Oracle E-Business Suite (EBS) instances have been found exposed online amid ongoing attacks exploiting a critical security flaw. [...]",
@@ -207,15 +162,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Critical Multiple Adobe ColdFusion Vulnerabilities Enables Arbitrary Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/multiple-adobe-coldfusion-vulnerabilities/",
-      "description": "Adobe has released an urgent security update for ColdFusion 2025 and 2023 to fix multiple critical vulnerabilities that could allow arbitrary code execution, privilege escalation, arbitrary file re...",
-      "pub_date": "Wed, 01 Jul 2026 12:22:18 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-Multiple-Adobe-ColdFusion-Vulnerabilities-Enables-Arbitrary-code-execution-Attacks.webp"
     },
     {
       "title": "2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience",
@@ -299,15 +245,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXEaR4unJmt3rBY1LzI0Gq_veoF7Qzi-yPQNUcoR2oNV802lQ4MZAviyeq7bBh73PLAyp1quTozDq0ki_zm_9qsJIIfAUTaG8jFTv5dpxvuDUPJZA2BU4Zo11wIVyysWeMROXv8z2XOZoPOoJPVqMEJEhCI_OE1mM5wnSCFHJ1sgjl5411fZ4srklq5Fbs/s1600/clickfix-payloads.jpg"
     },
     {
-      "title": "Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service",
-      "link": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
-      "description": "Citrix on Tuesday released security updates to address multiple flaws in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway) that could be exploited by an attacker t...",
-      "pub_date": "Wed, 01 Jul 2026 09:24:22 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkaU5jHNUkuBuH0Obx-gU_L4wSKOWP9bPwZeyD8tY1hIHShQozXYO2UckRTb2z5SwreXgHxLzePWkBfixNzYWsJ6eXioRllicv96TA8QvXBerGAguD3uA2T1DcMaURdi5BdMcNlY4DF_DPk-kdNXvIZfz8QMnrekgc-Hjksqf5OCHy11j0zcT668GgBhnc/s1600/citrix.jpg"
-    },
-    {
       "title": "Anthropic to restore Claude Fable access on Wednesday",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/",
       "description": "Anthropic has confirmed that the Department of Commerce has lifted export controls on Claude's two most powerful models, Fable 5 and Mythos 5. [...]",
@@ -348,33 +285,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
       "description": "A campaign active since last November has been targeting Python developers building Telegram bots with trojanized Pyrogram forks that allow attackers to read arbitrary files on compromised servers....",
       "pub_date": "Tue, 30 Jun 2026 17:02:55 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
-      "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
-      "description": "New Microsoft\u0026nbsp;research\u0026nbsp;shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over compan...",
-      "pub_date": "Tue, 30 Jun 2026 23:16:07 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbjfrraZ05p0kN5CedcQSOZYouoHGrdpCvi9TGxEZM_9zlXc_juWZ1F8VsvjV9c-iD7Ejgj0V6b0uYwOb9mLpb7ALcOVk53m2ppmg6mDI3qwANc8KZFMt3X7H7fT_Eym3OJijFmr0CZS6yJNTtf4kef0gOYtbx6A3LYa15PNzpzJuOg-nd6orLosZzfQ8/s1600/ms-ai.jpg"
-    },
-    {
-      "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
-      "description": "A malicious extension in the Chrome Web Store is masquerading as the Perplexity AI answer engine, intercepting search traffic and collecting browsing information. [...]",
-      "pub_date": "Tue, 30 Jun 2026 11:46:19 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Lessons from the Underground: How to Combat Business Email Compromise",
-      "link": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
-      "description": "Business Email Compromise is more than an email scam. It's a coordinated operation involving compromised accounts, financial research, and cash-out networks. Flare explores how underground forums r...",
-      "pub_date": "Tue, 30 Jun 2026 10:00:10 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
@@ -722,18 +632,18 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/03/1-GHADB-Feeds-vs-Backfill.png?resize=4290%2C2640"
     },
     {
-      "title": "Schneider Electric EasyLogic T150 and Saitel DP RTU",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities can allow an attacker to cause unauthorized access and exposure of sensitive information when the unauthenticated attacker accesse...",
-      "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-45659 Microsoft SharePoint Server Deserialization of U...",
+      "pub_date": "Wed, 01 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "OFFIS DCMTK Toolkit",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to write files, access unauthorized information, exhaust memory, or crash affected DCMTK client or server ...",
+      "title": "Frangoteam FUXA SCADA/HMI",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to enumerate all user accounts and role assignments on a FUXA SCADA/HMI instance. The ...",
       "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -743,6 +653,15 @@
       "title": "Mitsubishi Electric MELSOFT Update Manager SW1DND-UDM-M",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-01",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a local attacker to tamper with or destroy information in the affected product, cause a denial-of-service condition in...",
+      "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "OFFIS DCMTK Toolkit",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to write files, access unauthorized information, exhaust memory, or crash affected DCMTK client or server ...",
       "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -767,15 +686,6 @@
       "image_url": ""
     },
     {
-      "title": "Frangoteam FUXA SCADA/HMI",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to enumerate all user accounts and role assignments on a FUXA SCADA/HMI instance. The ...",
-      "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
       "title": "XZ Utils vulnerability impacting B\u0026R Products",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
       "description": "View CSAF Summary An update is available that resolves vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could caus...",
@@ -788,6 +698,15 @@
       "title": "Delta Electronics DVP12SE PLC",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to remotely issue commands, modify operational values, interfere with control logic, and alter device beha...",
+      "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Schneider Electric EasyLogic T150 and Saitel DP RTU",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities can allow an attacker to cause unauthorized access and exposure of sensitive information when the unauthenticated attacker accesse...",
       "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -812,15 +731,6 @@
       "image_url": ""
     },
     {
-      "title": "Delta Electronics DTM Soft",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-06",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code. The following versions of Delta Electronics DTM Soft are affected:  DTMSoft vers:a...",
-      "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
       "title": "Daktronics Controller Firmware",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-04",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could could provide an unauthenticated user with complete root-level access and control of the system. The following versions of D...",
@@ -830,27 +740,27 @@
       "image_url": ""
     },
     {
-      "title": "OHIF Viewers DICOM",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-176-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability in a custom integration version could allow an attacker to steal an authenticated clinician's token via a crafted link. The following...",
+      "title": "Yokogawa FAST/TOOLS and CI Server",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability may return a response containing the CI Server setting information. The following versions of Yokogawa FAST/TOOLS and CI Server are a...",
       "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "pydicom pynetdicom Library",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-176-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated attacker to write to arbitrary file paths. The following versions of pydicom pynetdicom Library are af...",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/06/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-12569 PTC Windchill and FlexPLM Improper Inpu...",
       "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Schneider Electric PowerLogic P7",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-07",
-      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its PowerLogic™ P7 product. The PowerLogic™ P7 is a protection and control platform designed for complex and advanced electri...",
+      "title": "Delta Electronics DTM Soft",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-06",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code. The following versions of Delta Electronics DTM Soft are affected:  DTMSoft vers:a...",
       "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
