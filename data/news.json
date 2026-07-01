@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-07-01T08:45:01Z",
+  "last_updated": "2026-07-01T11:53:45Z",
   "articles": [
+    {
+      "title": "Microsoft fixes GIF functionality in the Windows Emoji Panel",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-gif-functionality-in-the-windows-emoji-panel/",
+      "description": "Microsoft has fixed the GIF functionality in the Emoji Panel for Windows 11 and Windows Server users after the provider shut down its service. [...]",
+      "pub_date": "Wed, 01 Jul 2026 06:52:26 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Accelerates Post-Quantum Cryptography Shift to 2029",
+      "link": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
+      "description": "Microsoft on Tuesday said it's accelerating its quantum safe security roadmap, stating technology advances in quantum computing are making it essential to replace existing encryption standards soon...",
+      "pub_date": "Wed, 01 Jul 2026 16:11:36 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyPq-iy_BsDM3LGWIEtwydOynDIApb_bokv6EuarUGUbyIw8tFnntySLPL5FuN0Qw1PIGNzlabEaSq00S9ojIShTnbJyM0kWKUbCcIEOH3eEbdLOpgOumlnXHVvrsn2o9A75a2R3_8vjpTB18P45qaK7CtSuggZyGAb2uA8SGGXp_bUV7mqY4aGNlYGXwM/s1600/Microsoft-Encryption.jpg"
+    },
+    {
+      "title": "Amazon fined $2.25M for withholding evidence from fraud victims",
+      "link": "https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/",
+      "description": "The U.S. Federal Trade Commission (FTC) says Amazon will pay a $2.25 million civil penalty to settle charges that it blocked identity theft victims' access to transaction records. [...]",
+      "pub_date": "Wed, 01 Jul 2026 05:43:27 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Adobe patches seven max severity ColdFusion, Campaign flaws",
       "link": "https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/",
@@ -38,15 +65,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlhMdp0ML_DO3inv2zhyphenhyphenoZ9CmB1ESRBbVh_YHPol3serW7D4zTsXPGVjF62GhEcvamH6fmTs0ZLguVOM72ynrL6ebpPxBgpCv3XeUJNCb4un1Ue4o1V5BjB4r9pEnW_t717d8d49ZdH4OPavLgNkov9VNaJDMruqwG65QoBkxpzFx8q7QofYHuH9gDie-O/s1600/login.jpg"
     },
     {
-      "title": "Chrome Update Fixes 382 Vulnerabilities, Including 15 Critical Ones – Update Now!",
-      "link": "https://cybersecuritynews.com/chrome-update-fixes-382-vulnerabilities/",
-      "description": "Chrome 151’s latest stable-channel update delivers patches for 382 security vulnerabilities, including 15 critical bugs that can be weaponized for remote code execution and full browser compromis...",
-      "pub_date": "Wed, 01 Jul 2026 05:33:22 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Chrome-Update-Patches-382-Vulnerabilities-Including-15-Critical-Ones-that-Enables-Code-Execution-Attacks.webp"
-    },
-    {
       "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
       "link": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
       "description": "ClickFix, the trick that fools people into running malware by hand, has quietly grown a back office.  New research shows the malicious commands behind its fake \"prove you're human\" pages are now ha...",
@@ -56,15 +74,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXEaR4unJmt3rBY1LzI0Gq_veoF7Qzi-yPQNUcoR2oNV802lQ4MZAviyeq7bBh73PLAyp1quTozDq0ki_zm_9qsJIIfAUTaG8jFTv5dpxvuDUPJZA2BU4Zo11wIVyysWeMROXv8z2XOZoPOoJPVqMEJEhCI_OE1mM5wnSCFHJ1sgjl5411fZ4srklq5Fbs/s1600/clickfix-payloads.jpg"
     },
     {
-      "title": "Multiple Apache Tomcat Vulnerabilities Allow Attackers to Bypass Authentication",
-      "link": "https://cybersecuritynews.com/multiple-apache-tomcat-vulnerabilities/",
-      "description": "The Apache Software Foundation has disclosed two vulnerabilities affecting Apache Tomcat that could allow attackers to bypass authentication and security constraints protecting web applications. Th...",
-      "pub_date": "Wed, 01 Jul 2026 04:19:59 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Multiple-Apache-Tomcat-Vulnerabilities.webp"
-    },
-    {
       "title": "Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service",
       "link": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
       "description": "Citrix on Tuesday released security updates to address multiple flaws in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway) that could be exploited by an attacker t...",
@@ -72,15 +81,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkaU5jHNUkuBuH0Obx-gU_L4wSKOWP9bPwZeyD8tY1hIHShQozXYO2UckRTb2z5SwreXgHxLzePWkBfixNzYWsJ6eXioRllicv96TA8QvXBerGAguD3uA2T1DcMaURdi5BdMcNlY4DF_DPk-kdNXvIZfz8QMnrekgc-Hjksqf5OCHy11j0zcT668GgBhnc/s1600/citrix.jpg"
-    },
-    {
-      "title": "U.S. Lifts Export Controls on Claude Fable 5 and Mythos 5",
-      "link": "https://cybersecuritynews.com/export-controls-fable-5-and-mythos-5/",
-      "description": "The U.S. Department of Commerce has formally withdrawn export control restrictions on Anthropic\u0026#8217;s Claude Fable 5 and Mythos 5 AI models, ending an 18-day standoff that had blocked global acce...",
-      "pub_date": "Wed, 01 Jul 2026 03:19:40 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Export-Controls-Fable-5-and-Mythos-5.webp"
     },
     {
       "title": "Anthropic to restore Claude Fable access on Wednesday",
@@ -146,60 +146,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2XzOOqoX4E_CfxUMxd0YAH9MRjvZ8-kBBiVhd2VvCvbie3zla8PA80fO2xZ4Ux3_gmreVKG7ANFrSGpDk1lsURfQZuVVapjqi565oGmkqImmFdiQsQFL5z7V9s7TTkH4KgmGbEFnpdAQz94DrXip4q8Qa-ec9K1B1cmeL3szEBWUq9nX-MWppatyug3A/s1600/RustDuck.jpg"
     },
     {
-      "title": "Anthropic’s Claude Code Reportedly Uses Hidden Code to Detect Chinese Users",
-      "link": "https://cybersecuritynews.com/anthropic-claude-hidden-code/",
-      "description": "A Reddit disclosure has ignited a serious debate about developer trust and covert surveillance, alleging that Anthropic embedded undisclosed detection logic inside its Claude Code CLI tool, specifi...",
-      "pub_date": "Tue, 30 Jun 2026 16:56:50 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Anthropic-Claude-Hidden-Code.webp"
-    },
-    {
-      "title": "Microsoft Teams’ New Feature Blocks Bots from Joining Meetings",
-      "link": "https://cybersecuritynews.com/microsoft-teams-bot-protection/",
-      "description": "Microsoft has rolled out a new bot protection capability in Microsoft Teams that gives IT administrators and meeting organizers greater control over external bots attempting to join meetings, a mov...",
-      "pub_date": "Tue, 30 Jun 2026 16:33:38 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Microsoft-Teams-Bot-Protection.webp"
-    },
-    {
-      "title": "NDSS Symposium Heads to Seoul in 2027 to Expand Global Cybersecurity Collaboration",
-      "link": "https://cybersecuritynews.com/ndss-symposium-2027-seoul/",
-      "description": "DC, United States, June 30th, 2026, CyberNewswire The Internet Society today announced that 2027 Network and Distributed System Security (NDSS) Symposium will take place in Seoul, Republic of Korea...",
-      "pub_date": "Tue, 30 Jun 2026 16:33:33 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheoP3zSgAYwPJ_JXlWwGzs55DU3ayjznoWMSTFdwbqoreLHTAu3SAPk96FwSqpy4H2CtMw0ozecVSqQ_AFeopHCZBSzUKco0TJqONuY5axhggZjx6c5exHK4sF4VppH7xcZpr22CHLCx0N-CgWGjeWBMDztJG6mc20WrtHgBMmm9CXfSxMo1DUaa2U7Vk/s16000/TTT%20-%202026-06-30T204119.041.webp?ssl=1"
-    },
-    {
-      "title": "Reflectiz to Host Webinar, Joined by Taboola, on Securing Third-Party Marketing in the AI Era",
-      "link": "https://cybersecuritynews.com/reflectiz-webinar-third-party-marketing-ai/",
-      "description": "Boston, Massachusetts, June 30th, 2026, CyberNewswire Reflectiz, the web exposure management platform, today announced a live webinar with Taboola, \u0026#8220;Securing Third-Party Marketing in the AI E...",
-      "pub_date": "Tue, 30 Jun 2026 16:33:23 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHE0WkalkasnKMrA1xd6uAAPvuPNytIGp9GRbBSCbbCT4HqY_P6-BShH8EixOoiwYPCVcY8mqKg9Mt9ICZ73xrl-q_5wMsA3eq_U0VpVwNR3nrzY-6YbTFSSfK0to0AHT9qOM1TAD0mE8NfH43tooprhLU0OkLfviQr1aNOjs7tkKcjhBkFLys3u6UNOY/s16000/TTT%20-%202026-06-30T203515.826.webp?ssl=1"
-    },
-    {
-      "title": "False Positive or First Sign of a Breach? How Tier 1 SOC Analysts Can Tell the Difference Faster ",
-      "link": "https://cybersecuritynews.com/false-positive-or-first-sign-of-a-breach-how-tier-1-soc-analysts-can-tell-the-difference-faster/",
-      "description": "Imagine\u0026#160;a Tier 1 analyst receiving an alert: an employee’s laptop has\u0026#160;connected\u0026#160;to an unfamiliar domain.\u0026#160; The detection is not dramatic. No ransomware note. No obvious malware...",
-      "pub_date": "Tue, 30 Jun 2026 16:13:56 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/False-Positive.webp"
-    },
-    {
-      "title": "New BioShocking Attack Allows Attackers to Trick AI Browser and Leak Credentials",
-      "link": "https://cybersecuritynews.com/bioshocking-attack/",
-      "description": "A newly disclosed attack technique dubbed “BioShocking” is raising concerns across the cybersecurity community after researchers demonstrated that AI-powered browsers can be manipulated to leak...",
-      "pub_date": "Tue, 30 Jun 2026 16:03:07 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/BioShocking-Attack.webp"
-    },
-    {
       "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
       "link": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
       "description": "Threat actors are continuing to exploit a critical Langflow vulnerability as part of fresh attacks designed to deliver a Monero cryptocurrency miner.  The activity has been found to weaponize CVE-2...",
@@ -225,15 +171,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfz8WYO9wONzogh2V8g9VorZ8Ab_nAUZMD7rOM9xrVUhg3cbKGA5zc73PGQiAkbsNgY-qbm2AFAUjBdeMcpemGmDNWrvnpyjzKiqU8iJHMetkW68d20V_U-96mHOaHF6fff7VKBREN2v6fz1R_ahyIklq-Fd7ILYKxXck5ahL1BoFWC_CDQFrQZqQqg3hm/s1600/chrome-wallet.jpg"
-    },
-    {
-      "title": "Multiple AirDrop and Quick Share Vulnerabilities Allow Attackers to Crash Devices",
-      "link": "https://cybersecuritynews.com/airdrop-and-quick-share-vulnerabilities/",
-      "description": "Multiple newly disclosed vulnerabilities in Apple’s AirDrop and Google/Samsung Quick Share proximity-sharing protocols allow attackers within wireless range to crash or disrupt nearby devices wit...",
-      "pub_date": "Tue, 30 Jun 2026 15:11:23 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Multiple-AirDrop-and-Quick-Share-Vulnerabilities-Allow-Attackers-to-Crash-Devices.webp"
     },
     {
       "title": "GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection Risks",
@@ -330,33 +267,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
       "description": "CISA confirmed on Monday that ransomware gangs are now exploiting a Microsoft Defender privilege escalation vulnerability, dubbed BlueHammer, that has previously been abused in zero-day attacks. [...]",
       "pub_date": "Tue, 30 Jun 2026 04:53:13 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
-      "link": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
-      "description": "Convince an AI browser that it is playing a game, and it can hand over your login details. That is the finding behind\u0026nbsp;BioShocking, a technique from security firm LayerX that tricked six AI bro...",
-      "pub_date": "Tue, 30 Jun 2026 14:07:19 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitNDarGF3uRKXTWC12cbM97uJW3DxiLuQwmplVLHEqdrUZJdzbkMz6Wc524z5Xu2GGSyNYhMT_m9kGqqGjRmIxDf0fy_ZXCx3f6G7JvvCFkcdga3PTnUR8XqfrPtIH_9_yrb9n7VaJZTqsLK4CznHRTcYZA1B84r2T_Jl5YYjnUbwUAvyGo4K05ckMnyYG/s1600/ai-prompt.jpg"
-    },
-    {
-      "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
-      "description": "Nissan is warning that it suffered a data breach affecting current and former employees after threat actors exploited an Oracle PeopleSoft vulnerability in data theft attacks previously linked to t...",
-      "pub_date": "Mon, 29 Jun 2026 16:40:44 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
-      "link": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
-      "description": "The National Association of Insurance Commissioners (NAIC) says the ShinyHunters extortion group stole only publicly available data, outdated logs, and configuration files after breaching its syste...",
-      "pub_date": "Mon, 29 Jun 2026 16:30:28 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
