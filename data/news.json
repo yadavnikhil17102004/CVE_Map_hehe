@@ -1,10 +1,109 @@
 {
-  "last_updated": "2026-07-01T11:53:45Z",
+  "last_updated": "2026-07-01T14:13:38Z",
   "articles": [
+    {
+      "title": "Apple ‘Hide My Email’ Vulnerability Exposes Users’ Real Email Addresses",
+      "link": "https://cybersecuritynews.com/apple-hide-my-email-vulnerability/",
+      "description": "Apple’s “Hide My Email” feature is currently affected by an unpatched vulnerability that allows attackers to discover the real email address behind an anonymized alias, according to researche...",
+      "pub_date": "Wed, 01 Jul 2026 14:08:39 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Apple-‘Hide-My-Email-Vulnerability.webp"
+    },
+    {
+      "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
+      "link": "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/",
+      "description": "Threat intelligence is only as useful as the context behind it. Criminal IP explains how its integration enriches threat indicators in OpenCTI with risk scoring, infrastructure intelligence, and ph...",
+      "pub_date": "Wed, 01 Jul 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Mitigating Attacks Before They Impact Infrastructure: Link11 provides next generation network DDoS protection",
+      "link": "https://cybersecuritynews.com/link11-next-generation-network-ddos-protection/",
+      "description": "Frankfurt am Main, Deutschland, July 1st, 2026, CyberNewswire Link11, a leading European provider of cloud-based cybersecurity solutions, today announced the launch of its completely rebuilt Layer ...",
+      "pub_date": "Wed, 01 Jul 2026 13:41:51 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiN7J-7UUdQU38_ldQGysBNW8vxcrZ6VJf-LnAI8j8cucUYxBQHeiLso3xNnitsBBLWaMae4BI4UWSF2P1McTFD-6IMYrF3O3fmpO4HIiWEQFGUY2gbdTNP1osfQCCUmlGFAzwL6m75NETDH8Hxn_kJTk5b9b-J9ym8h68DC-e0ni93i50uzu3lp5sSKFI/s16000/TTT%20-%202026-07-01T184857.469.webp?ssl=1"
+    },
+    {
+      "title": "Multiple Fluentd Vulnerabilities Let Attackers Execution Arbitrary Code Remotely",
+      "link": "https://cybersecuritynews.com/fluentd-vulnerabilities/",
+      "description": "Several high-severity flaws in the widely used Fluentd log collector could lead to remote code execution (RCE), data leaks, and denial-of-service attacks across multiple components. The most critic...",
+      "pub_date": "Wed, 01 Jul 2026 13:07:26 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Multiple-Fluentd-Vulnerabilities-enables-remote-code-execution-Attacks.webp"
+    },
+    {
+      "title": "A Weaponized Google Ad Install Malicious Claude Code to Hijack Entire macOS",
+      "link": "https://cybersecuritynews.com/a-weaponized-google-ad-install-malicious-claude-code-to-hijack-entire-macos/",
+      "description": "A sponsored Google ad impersonating Anthropic’s Claude Code CLI has been caught delivering “MacSync Stealer,” a macOS credential harvester that also silently trojans Ledger Live and Ledger Wa...",
+      "pub_date": "Wed, 01 Jul 2026 12:55:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Claude-Code.webp"
+    },
+    {
+      "title": "Over 900 Oracle E-Business instances exposed to ongoing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
+      "description": "Over 900 Oracle E-Business Suite (EBS) instances have been found exposed online amid ongoing attacks exploiting a critical security flaw. [...]",
+      "pub_date": "Wed, 01 Jul 2026 08:30:01 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Critical Multiple Adobe ColdFusion Vulnerabilities Enables Arbitrary Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/multiple-adobe-coldfusion-vulnerabilities/",
+      "description": "Adobe has released an urgent security update for ColdFusion 2025 and 2023 to fix multiple critical vulnerabilities that could allow arbitrary code execution, privilege escalation, arbitrary file re...",
+      "pub_date": "Wed, 01 Jul 2026 12:22:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-Multiple-Adobe-ColdFusion-Vulnerabilities-Enables-Arbitrary-code-execution-Attacks.webp"
+    },
+    {
+      "title": "Anthropic’s Buffa Rust Library 0-Day Vulnerability Enables DoS Attack",
+      "link": "https://cybersecuritynews.com/anthropics-buffa-rust-library-0-day-vulnerability-enables-dos-attack/",
+      "description": "Anthropic’s Rust-based protobuf implementation, buffa, has been found vulnerable to a zero-day denial-of-service (DoS) condition caused by unbounded heap allocation on attacker-controlled input. ...",
+      "pub_date": "Wed, 01 Jul 2026 12:18:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Anthropics-Buffa-Rust-Library-0-Day-Vulnerability-Enables-DoS-Attack.webp"
+    },
+    {
+      "title": "Multiple Citrix NetScaler ADC and Gateway Vulnerabilities Enables DoS and Memory Overflow Attacks",
+      "link": "https://cybersecuritynews.com/citrix-netscaler-vulnerabilities/",
+      "description": "Multiple high-severity vulnerabilities have been identified in Citrix NetScaler ADC and NetScaler Gateway, exposing affected systems to denial-of-service (DoS) and memory overflow attacks. The issu...",
+      "pub_date": "Wed, 01 Jul 2026 11:37:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Multiple-Citrix-NetScaler-ADC-and-Gateway-Vulnerabilities-Enables-DoS-and-Memory-overflow-Attacks.webp"
+    },
+    {
+      "title": "2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience",
+      "link": "https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html",
+      "description": "Organizations have never had greater awareness of cyber risk. Yet turning that awareness into operational resilience has never been more challenging. The 2026 Bitdefender Cybersecurity Assessment c...",
+      "pub_date": "Wed, 01 Jul 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP1ozclOI3O1fTjKYLZrt0RCp54Fr-6NPYAifKy5c1fYwj4ceFq9U62ra9eoBq4Qw7qAh3qXE7ttfy6239qiAwK3SFyQxg316fl8BNxeeZ6IRDJFbjl09AE-gHC9Qa2V3nFljMblCovx6MgP66ZxMfawWVnAWEPNX9YS_FATZFtC69nlKhTvQQeOD58_I/s1600/Assessment.jpg"
+    },
+    {
+      "title": "Attackers Weaponizing Trusted Windows Drivers to Kill AV and EDR Processes",
+      "link": "https://cybersecuritynews.com/windows-drivers-to-kill-av-and-edr/",
+      "description": "Attackers are increasingly abusing trusted Windows drivers to turn off antivirus (AV) and endpoint detection and response (EDR) tools, using a technique known as Bring Your Own Vulnerable Driver (B...",
+      "pub_date": "Wed, 01 Jul 2026 11:25:04 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/windows-drivers-av-edr-banner.webp"
+    },
     {
       "title": "Microsoft fixes GIF functionality in the Windows Emoji Panel",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-gif-functionality-in-the-windows-emoji-panel/",
-      "description": "Microsoft has fixed the GIF functionality in the Emoji Panel for Windows 11 and Windows Server users after the provider shut down its service. [...]",
+      "description": "Microsoft has fixed the GIF functionality in the Emoji Panel for Windows 11 users after the provider shut down its service. [...]",
       "pub_date": "Wed, 01 Jul 2026 06:52:26 -0400",
       "source": "BleepingComputer",
       "tier": 3,
@@ -20,6 +119,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyPq-iy_BsDM3LGWIEtwydOynDIApb_bokv6EuarUGUbyIw8tFnntySLPL5FuN0Qw1PIGNzlabEaSq00S9ojIShTnbJyM0kWKUbCcIEOH3eEbdLOpgOumlnXHVvrsn2o9A75a2R3_8vjpTB18P45qaK7CtSuggZyGAb2uA8SGGXp_bUV7mqY4aGNlYGXwM/s1600/Microsoft-Encryption.jpg"
     },
     {
+      "title": "How a US Automotive Manufacturer Closed Its Supplier Security Gap and Doubled SOC Triage Speed",
+      "link": "https://cybersecuritynews.com/how-an-automotive-manufacturer-doubled-soc-triage-speed/",
+      "description": "For a US automotive manufacturer that depends on more than 200 active vendors, the steady stream of supplier files coming into its environment had turned into both a security exposure and a rising ...",
+      "pub_date": "Wed, 01 Jul 2026 09:52:36 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/SOC-Triage-Speed.webp"
+    },
+    {
       "title": "Amazon fined $2.25M for withholding evidence from fraud victims",
       "link": "https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/",
       "description": "The U.S. Federal Trade Commission (FTC) says Amazon will pay a $2.25 million civil penalty to settle charges that it blocked identity theft victims' access to transaction records. [...]",
@@ -27,6 +135,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "OpenMatter Network Introduces Verifiable Trust Layer for Secure Collaboration and AI Agents",
+      "link": "https://cybersecuritynews.com/openmatter-network-introduces-verifiable-trust-layer-for-secure-collaboration-and-ai-agents/",
+      "description": "Melbourne, Florida, June 30th, 2026, CyberNewswire OpenMatter Network today announced the launch of its cryptographically verifiable platform for secure collaboration and AI governance, built on a ...",
+      "pub_date": "Wed, 01 Jul 2026 09:17:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi18znvWZWsee8ws1GIR_705uFbc0qaASIpQ07j1SzQfaA0MHWirskIErh4FAG9wEnpaHPw3r_Lj0GsoaW1rJ-txl711guNdk9hYP9RuwnbUcgSJE14fmGFuMVV9FFEr_TxgdUVc1M0RW5xb7MHb4y1X1eBEgHY5UXv7_E0EU-SqSC8Epfpuij8lO4ocCI/s16000/TTT%20-%202026-07-01T135130.605.webp?ssl=1"
     },
     {
       "title": "Adobe patches seven max severity ColdFusion, Campaign flaws",
@@ -240,33 +357,6 @@
       "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/",
       "description": "Kali Linux 2026.2, the second release of the year, is now available for download, featuring 9 new tools and numerous Kali NetHunter improvements. [...]",
       "pub_date": "Tue, 30 Jun 2026 05:46:39 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Blackfield ransomware asks Nidec Corporation for $2 million ransom",
-      "link": "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/",
-      "description": "The Blackfield ransomware gang is asking for a $2 million ransom from Nidec Corporation, a large Japanese manufacturer of electronic components for automotive and computing applications. [...]",
-      "pub_date": "Tue, 30 Jun 2026 05:41:05 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks",
-      "link": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html",
-      "description": "Two researchers have found six security flaws in AirDrop and Quick Share, the wireless features that beam files between nearby devices with no cables or shared network.  An attacker within wireless...",
-      "pub_date": "Tue, 30 Jun 2026 14:57:58 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCyrr25-wXst4kOLIEi1-Q1d5XMVDCvWqUacEoSRsLn6C5CbKoXGLb4nzTB-DVr9cLOkyuIT5wyMrQICAVhQFlTsXrR_Ng9CBBXPZGeK_rLtOVXh5C8CsrZHaGyJ5WukGI3vTpMOw1S09_U9j_s5rzEFcYq55g7ZmOthGTPw5XxJJkALMH9VOxr0DjX8Vi/s1600/share-ai.jpg"
-    },
-    {
-      "title": "CISA: Windows BlueHammer flaw now exploited by ransomware gangs",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
-      "description": "CISA confirmed on Monday that ransomware gangs are now exploiting a Microsoft Defender privilege escalation vulnerability, dubbed BlueHammer, that has previously been abused in zero-day attacks. [...]",
-      "pub_date": "Tue, 30 Jun 2026 04:53:13 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
