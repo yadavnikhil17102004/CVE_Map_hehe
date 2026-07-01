@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-07-01T00:00:05Z",
+  "last_updated": "2026-07-01T04:17:03Z",
   "articles": [
+    {
+      "title": "Anthropic to restore Claude Fable access on Wednesday",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/",
+      "description": "Anthropic has confirmed that the Department of Commerce has lifted export controls on Claude's two most powerful models, Fable 5 and Mythos 5. [...]",
+      "pub_date": "Tue, 30 Jun 2026 20:35:14 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Anthropic rolls out Sonnet 5 with near-Opus 4.8 performance at a lower price",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-sonnet-5-with-near-opus-48-performance-at-a-lower-price/",
@@ -236,15 +245,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft extends Windows Server 2022 hotpatching until October 2027",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/",
-      "description": "Microsoft has extended Windows Server 2022 hotpatching until October 2027, one year after the mainstream end date of October 2026. [...]",
-      "pub_date": "Mon, 29 Jun 2026 13:11:15 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
       "link": "https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/",
       "description": "The GitHub Advisory Database is processing more vulnerability reports than ever before. Here's what's driving the surge, how we're responding, and how the community can help. The post Inside the Ad...",
@@ -279,33 +279,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgEWbrJH-z_uAL6GFaOqplYF1ewSOBvFpaKD24W74VEBaSO-pW3sy0I0e57Bmc9yBKV4vb6zWYaVjd-oTSy2sSQNSubgQHcmFav_bp3HnySXcSGR-ocRiUfYcXgUXm44XZyrdNnIq2JqJxZQG5bnbui12eVoG3GPgVnGy9AE6vfDp3km5TTtf6rjPv6FZV/s1600/apple-updates-ai.jpg"
-    },
-    {
-      "title": "Modernizing Global Vulnerability Standards For The Age Of AI",
-      "link": "https://www.rapid7.com/blog/post/ai-modernizing-global-vulnerability-standards",
-      "description": "As AI-driven vulnerability discovery accelerates, the cybersecurity ecosystem is being forced to examine whether the standards, disclosure processes, and prioritization frameworks defenders rely on...",
-      "pub_date": "Mon, 29 Jun 2026 12:37:04 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0b0762ca94c50b0b/6846a711eac0e395093e52e3/AI.jpg"
-    },
-    {
-      "title": "Weekly Metasploit Update: Modules for Audiobookshelf, LiteLLM, Next.js, Dalfox and more",
-      "link": "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-modules-for-audiobookshelf-litellm-next-js-dalfox-and-more",
-      "description": "Help shape the future of Metasploit FrameworkWe are planning future work in relation to the evasion capabilities present in Metasploit Framework, and how they function/are presented to users. We ar...",
-      "pub_date": "Fri, 26 Jun 2026 19:32:52 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt7464fe659cab8a01/6852c358419e54d8e21c3458/blog-metasploit-wrap-up-.webp"
-    },
-    {
-      "title": "Experts on Experts: Why AI and Compliance Are Forcing A New Security Operating Model",
-      "link": "https://www.rapid7.com/blog/post/it-experts-video-series-ai-compliance-force-new-security-operating-models",
-      "description": "This week on Experts on Experts, I sat down with Sabeen Malik, Rapid7’s VP of Global Government Affairs and Public Policy, to discuss a shift security leaders can’t afford to treat as separate ...",
-      "pub_date": "Thu, 25 Jun 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltf8317b2e5bfec732/68adbeaa4f9d3d04bd8228e9/experts-on-experts.png"
     },
     {
       "title": "ZDI-26-397: X.Org Server CreateSaverWindow Use-After-Free Information Disclosure Vulnerability",
@@ -443,87 +416,6 @@
       "image_url": ""
     },
     {
-      "title": "Why SIEM is Moving Toward Unified Security Operations: Rapid7 Named a Major Player in IDC MarketScape",
-      "link": "https://www.rapid7.com/blog/post/dr-siem-moving-toward-unified-security-operations-rapid7-named-idc-marketscape-major-player",
-      "description": "Rapid7 has been named a Major Player in the IDC MarketScape: Worldwide SIEM 2026 Vendor Assessment (#US54126826, June 2026).This is the first IDC SIEM MarketScape to bring the enterprise and SMB ma...",
-      "pub_date": "Tue, 23 Jun 2026 17:03:34 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt3cc8c945f314ec1f/68b9a045a7d14357b3ba893b/blog-hero-texture-lines.jpg"
-    },
-    {
-      "title": "Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more",
-      "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026",
-      "description": "This week's release includes five new modules, including a full unauthenticated RCE chain for Paperclip AI and a VS Code extension persistence technique. On the post-exploitation side, the new win...",
-      "pub_date": "Fri, 19 Jun 2026 17:08:23 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0d50271a40a5f14f/6849ab419621d9f3824d5017/metasploit-sky.png"
-    },
-    {
-      "title": "Why Security Teams Need To Start Earlier",
-      "link": "https://www.rapid7.com/blog/post/it-why-security-teams-need-to-start-earlier",
-      "description": "Security leaders are facing an unusual set of circumstances. The drumbeat for better security prioritization has been rising for years in boardrooms around the world. The desire is there, but the p...",
-      "pub_date": "Thu, 18 Jun 2026 14:45:55 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltebc2810157aecfaf/68af2715c53b04810df94abb/blog-hero-generic-pixel.jpg"
-    },
-    {
-      "title": "Malware à la Mode: Tracking Dropping Elephant Tradecraft Through a China-Themed Loader Chain",
-      "link": "https://www.rapid7.com/blog/post/tr-malware-tracking-dropping-elephant-tradecraft-china-themed-loader-chain",
-      "description": "Executive summaryRapid7 researchers have identified a sophisticated malware campaign attributed to the threat actor \"Dropping Elephant,\" characterized by the use of a China-themed decoy document to...",
-      "pub_date": "Wed, 17 Jun 2026 11:20:10 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
-    },
-    {
-      "title": "NIS2 is raising the bar. Here’s how to turn readiness into resilience.",
-      "link": "https://www.rapid7.com/blog/post/so-nis2-compliance-turn-readiness-into-resilience",
-      "description": "The NIS2 directive asks covered organizations to take a more structured approach to risk management, governance, supply chain security, and incident reporting. It expands the scope of who may be co...",
-      "pub_date": "Mon, 15 Jun 2026 17:29:15 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt61632ee7cd1805c5/69fa3eae5ab0e4c3f43c256c/rapid7-nis2-24-hour-rule-infographic-card.webp"
-    },
-    {
-      "title": "Does Your Security Programme Align With NIS2 Requirements?",
-      "link": "https://www.rapid7.com/blog/post/so-aligning-security-programmes-with-nis2-requirements",
-      "description": "If your organization operates in the EU, or works with organizations that do, NIS2 is no longer something on the horizon. It is here and it applies to a far wider range of sectors than its predeces...",
-      "pub_date": "Mon, 15 Jun 2026 17:24:20 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blted8cb9466d79dc4d/6852c596a274324cfbb23d9d/PSN-gov-showcase-hero-image.png"
-    },
-    {
-      "title": "Beyond the Score: Using AI to Translate CVEs into Real-World Business Risk",
-      "link": "https://www.rapid7.com/blog/post/ai-beyond-the-score-translating-cves-into-real-business-risk",
-      "description": "Security leaders rarely struggle to gather data, but they often struggle to turn that data into something clear and meaningful for the business. In a typical week, a CISO might receive a report lis...",
-      "pub_date": "Mon, 15 Jun 2026 14:44:28 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt09a532eac4a02570/6852c5968e72c44b89691ca4/PSN-gov-showcase-hero-image-2.png"
-    },
-    {
-      "title": "Weekly Metasploit Update: New Kerberos/Certificate tracing options, and multiple new modules",
-      "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-13-06-2026",
-      "description": "New Tracing OptionsAs hard as we try to ensure that Metasploit is bug free, issues inevitably come up. Whether you’re running a module on an op or writing a new one, what we can do is make the de...",
-      "pub_date": "Sat, 13 Jun 2026 00:22:18 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0d50271a40a5f14f/6849ab419621d9f3824d5017/metasploit-sky.png"
-    },
-    {
-      "title": "Active Exploitation of Oracle PeopleSoft Zero-Day (CVE-2026-35273)",
-      "link": "https://www.rapid7.com/blog/post/etr-active-exploitation-of-oracle-peoplesoft-zero-day-cve-2026-35273",
-      "description": "OverviewOn June 10, 2026, Oracle published a security alert for CVE-2026-35273, a critical vulnerability in the Updates Environment Management component of PeopleSoft Enterprise PeopleTools. Oracle...",
-      "pub_date": "Fri, 12 Jun 2026 13:43:04 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
       "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
       "link": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
       "description": "Alerts are more trustworthy and actionable when noise is reduced. See how we improved the verification step with context-aware LLM reasoning. The post Making secret scanning more trustworthy: Reduc...",
@@ -531,33 +423,6 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": "https://github.blog/wp-content/uploads/2026/06/blog-post-1.png?resize=1024%2C576"
-    },
-    {
-      "title": "Criminal AI-as-a-Service in 2026: How the Underground Market Is Operationalizing Cybercrime",
-      "link": "https://www.rapid7.com/blog/post/tr-criminal-ai-underground-market-operationalizing-cybercrime-2026",
-      "description": "IntroductionThe underground market for criminally oriented generative AI has moved beyond the early hype surrounding 'malicious chatbots.' The gradual integration of AI as a productivity layer with...",
-      "pub_date": "Thu, 11 Jun 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
-    },
-    {
-      "title": "Automated Threat Hunting: Turning Threat Intelligence into Executable Hunt Plans",
-      "link": "https://www.rapid7.com/blog/post/ai-automated-threat-hunting-turns-threat-intelligence-into-executable-hunt-plans",
-      "description": "Blake McDermott is Senior Threat Hunter at Rapid7.Every week, threat hunt teams are faced with a steady flow of blogs, advisories, and DFIR reports containing valuable intelligence about adversary ...",
-      "pub_date": "Wed, 10 Jun 2026 16:26:33 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt30cad4cead79d2d3/6846a7113860835cfa35e65d/surface-command.jpg"
-    },
-    {
-      "title": "CVE-2026-10520, CVE-2026-10523 - Multiple critical vulnerabilities affecting Ivanti Sentry",
-      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-10520-cve-2026-10523-multiple-critical-vulnerabilities-affecting-ivanti-sentry",
-      "description": "OverviewOn June 9, 2026, Ivanti published a security advisory for two critical vulnerabilities affecting Ivanti Sentry (formerly known as MobileIron Sentry), which per the vendor website is an “i...",
-      "pub_date": "Wed, 10 Jun 2026 10:21:07 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
     },
     {
       "title": "Investigation update: GitHub Enterprise Server signing key rotation",
