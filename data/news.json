@@ -1,6 +1,96 @@
 {
-  "last_updated": "2026-07-02T06:32:49Z",
+  "last_updated": "2026-07-02T09:54:11Z",
   "articles": [
+    {
+      "title": "CISA Warns of Microsoft SharePoint Server Code Execution Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/sharepoint-server-code-execution-vulnerability-exploited/",
+      "description": "CISA has added a newly disclosed Microsoft SharePoint Server vulnerability, tracked as CVE-2026-45659, to its Known Exploited Vulnerabilities (KEV) Catalog, warning that the flaw is actively being ...",
+      "pub_date": "Thu, 02 Jul 2026 09:45:03 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/CISA-Warns-of-Microsoft-SharePoint-Server-Code-Execution-Vulnerability-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "Browser-Only Ransomware Abuses Chrome File System Access API to Encrypt Android Photos",
+      "link": "https://cybersecuritynews.com/browser-only-ransomware-abuses-chrome-file-system-access-api/",
+      "description": "A new ransomware technique can now run entirely inside a web browser, with no app installation or root access required. It targets Android photo directories by abusing a legitimate Chrome feature m...",
+      "pub_date": "Thu, 02 Jul 2026 09:30:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Browser-Only-Ransomware-Abuses-Chrome-File-System-Access-API-to-Encrypt-Android-Photos.webp"
+    },
+    {
+      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
+      "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
+      "description": "Security firm\u0026nbsp;Sysdig\u0026nbsp;says it has found what it believes is the first ransomware attack run from start to finish by an AI agent.  Its Threat Research Team calls the operator JADEPUFFER and...",
+      "pub_date": "Thu, 02 Jul 2026 14:43:13 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirfJNnWRTyyKkXeatZdtLvMsQhba-L0J9yuyASwy4T-6nlbGWnkEl0FUBVO8wS6je9Hc9wPdu01JJ0TETOa1jOjQelGiJY3ZrvsJzFIqpr_gbEvv5F4lnQrJWxTHbpYM6ah6sPJbQ63XtdxlOcFy7KZ06S69LW2escSgSAM-ycKZCqttjAZEcHJ_sO9DdQ/s1600/ai-agent-ransomware.jpg"
+    },
+    {
+      "title": "Alleged Scattered Spider hacker extradited to the United States",
+      "link": "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
+      "description": "A dual United States and Estonian citizen has been extradited to the U.S. to face charges alleging he was a member of the Scattered Spider hacking collective. [...]",
+      "pub_date": "Thu, 02 Jul 2026 04:58:25 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Multiple ClamAV Vulnerabilities Allow Remote Attacker to Cause a DoS Condition",
+      "link": "https://cybersecuritynews.com/multiple-clamav-vulnerabilities/",
+      "description": "Multiple high-severity vulnerabilities in Cisco\u0026#8217;s ClamAV engine allow remote attackers to crash the antivirus scanning process, causing a denial-of-service (DoS) on affected Cisco Secure Endp...",
+      "pub_date": "Thu, 02 Jul 2026 08:29:03 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Multiple-ClamAV-Vulnerabilities-Allow-remote-attacker-to-cause-a-denial-of-service-Condition.webp"
+    },
+    {
+      "title": "Medtronic Confirms Data Breach – Hackers Gained Access to Corporate IT Systems",
+      "link": "https://cybersecuritynews.com/medtronic-confirms-data-breach/",
+      "description": "Medical technology giant Medtronic Inc. has disclosed a cybersecurity incident involving unauthorized access to its corporate IT systems, potentially affecting sensitive personal and health-related...",
+      "pub_date": "Thu, 02 Jul 2026 08:19:29 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Medtronic-Confirms-Data-Breach-Hackers-Gained-Access-to-corporate-IT-systems.webp"
+    },
+    {
+      "title": "WinRAR 7.23 Fixes Heap Overflow Vulnerability that Leads to Application Crashes",
+      "link": "https://cybersecuritynews.com/winrar-7-23-fixes-heap-overflow-vulnerability/",
+      "description": "WinRAR 7.23 addresses a newly disclosed heap overflow vulnerability in the RAR5 recovery volume processing code, tracked as CVE-2026-14191. Closing a memory-corruption flaw that could be triggered ...",
+      "pub_date": "Thu, 02 Jul 2026 08:12:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/WinRAR-7.23-Fixes-Heap-Overflow-Vulnerability-in-RAR5-Recovery-Volume-Processing.webp"
+    },
+    {
+      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
+      "link": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
+      "description": "The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follo...",
+      "pub_date": "Thu, 02 Jul 2026 13:30:49 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcA80dQWiuszAlBgwcxzc3suImls2cKOwk_2nYMo7UY5MNSdlKNMgibekQNEhWRuxmX5s1JcLHCd_dsDZ3m9oy_FxN-livXwyMIqre86oK8WIOMKUSZwDBvoN7XQOaV63zVBAIKQCH77-RGxhyLNc0bnip4LoUd0P7HsWQx-bxBu8nHr7St5HKs6T1cS6Z/s1600/bleed-ransomware.jpg"
+    },
+    {
+      "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
+      "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+      "description": "Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC, travels in Python proof-of-concept (PoC) repositor...",
+      "pub_date": "Thu, 02 Jul 2026 12:54:23 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd_BdKzn7-7TCZJfnsZBy25kGm8xiQTrJquj8vMVsjlRXf7LXqMiJLQs8ic-lNLRc51whJzP-B4Nv9OOzfgOSHKzmIjZFv0krEDBuSeuXXNj-OccwbpBBBBIofZFMBT4DaThqLeE2Bsx-Nkp8aZZfEs6tVB43kby1L5UbtPjauqfedlANNzOYGrNB7ec5o/s1600/fake.jpg"
+    },
+    {
+      "title": "Critical Flaws Double as Elevation of Privilege Dominates the Cyber Threats – Analysis of Microsoft Vulnerabilities Report 2026",
+      "link": "https://cybersecuritynews.com/microsoft-vulnerabilities-report-2026/",
+      "description": "Microsoft\u0026#8217;s vulnerability landscape just sent a mixed signal that every security team needs to understand. According to the newly released Microsoft Vulnerabilities Report 2026 — the 13th a...",
+      "pub_date": "Thu, 02 Jul 2026 06:52:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Vulnerabilities-Report-2026.webp"
+    },
     {
       "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
       "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
@@ -18,6 +108,42 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "FortiBleed Password Stealing Attack Linked to INC and Lynx Ransomware Operations",
+      "link": "https://cybersecuritynews.com/fortibleed-password-stealing-attack/",
+      "description": "FortiBleed credential-harvesting campaign, which has compromised more than 430,000 FortiGate firewalls worldwide, is directly feeding two active ransomware-as-a-service operations, INC Ransom and L...",
+      "pub_date": "Thu, 02 Jul 2026 04:06:33 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/FortiBleed-Password-Stealing-Attack.webp"
+    },
+    {
+      "title": "Alleged Scattered Spider Member Extradited to the US for His Role in Hacking 100+ Networks",
+      "link": "https://cybersecuritynews.com/alleged-scattered-spider-member-extradited/",
+      "description": "A dual U.S.-Estonian citizen accused of belonging to the notorious Scattered Spider hacking collective has been extradited from Finland to face federal charges in the Northern District of Illinois,...",
+      "pub_date": "Thu, 02 Jul 2026 03:26:36 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Alleged-Scattered-Spider-Member-Extradited.webp"
+    },
+    {
+      "title": "WhatsApp Username Reservations Go Live – What Are the Security Concerns for 2 Billion Users",
+      "link": "https://cybersecuritynews.com/whatsapp-username-reservations-go-live/",
+      "description": "WhatsApp has begun allowing users to reserve usernames ahead of a broader feature launch planned for later this year, prompting a wave of questions about security, impersonation risk, and account l...",
+      "pub_date": "Thu, 02 Jul 2026 03:03:46 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/WhatsApp-Username-Reservations-Go-Live.webp"
+    },
+    {
+      "title": "CISA Warns of SimpleHelp Authentication Bypass Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/simplehelp-auth-vulnerability-exploited/",
+      "description": "CISA has issued a warning about a critical authentication bypass vulnerability in SimpleHelp that is actively being exploited in the wild, raising concerns among organizations relying on the remote...",
+      "pub_date": "Thu, 02 Jul 2026 02:36:37 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/CISA-Warns-of-SimpleHelp-Authentication-Bypass-Vulnerability-Exploited-in-Attacks.webp"
     },
     {
       "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
@@ -236,33 +362,6 @@
       "image_url": ""
     },
     {
-      "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
-      "link": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
-      "description": "Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffi...",
-      "pub_date": "Wed, 01 Jul 2026 12:50:51 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX2IWQhpupx-U0U70hWTg9afsBb41pslrGP733mXXdBKValODZrPoYD3UQqGVq1j9fSgmgf9rqDyxEAx1iKzblSnc_AcfO_CzQ-CA4G24vKEO5YC9P1vC_K_K01RfbMAvN1eaqgRjJUYRIyWZVLQjxYVleEsgcgD_Ifm04sjBCp08xk6W7QjbX4Rgm2vXp/s1600/ai-domains.jpg"
-    },
-    {
-      "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
-      "link": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
-      "description": "Anthropic is putting Claude Fable 5 back online worldwide. On\u0026nbsp;June 30, the U.S. Commerce Department lifted the export controls it had imposed on Fable and its more tightly controlled sibling M...",
-      "pub_date": "Wed, 01 Jul 2026 12:16:17 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2AmA92QCIqSJfXqC3z9I1jjdJGEkIvN4k-Oc5MlWZb4yZLPg5clokead6q8yXUfeI4DbdsKVn4qbd1sufvo47zyIy-Wcr15xK9oJJyet1vlFGiOKOU0ylMhgXWI0Duuztk7W_YURPKwdgfOyFsm2k3Rj1Db5tEVB9jzNi3xeYD0R_wfOaRKranmNj6kOy/s1600/claude-fable-5.jpg"
-    },
-    {
-      "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
-      "link": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
-      "description": "Cybersecurity researchers have warned of a \"massive, ongoing, automated password spray attack\" aimed at Microsoft's Azure command-line interface (CLI), compromising dozens of accounts in the proces...",
-      "pub_date": "Wed, 01 Jul 2026 11:16:03 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlhMdp0ML_DO3inv2zhyphenhyphenoZ9CmB1ESRBbVh_YHPol3serW7D4zTsXPGVjF62GhEcvamH6fmTs0ZLguVOM72ynrL6ebpPxBgpCv3XeUJNCb4un1Ue4o1V5BjB4r9pEnW_t717d8d49ZdH4OPavLgNkov9VNaJDMruqwG65QoBkxpzFx8q7QofYHuH9gDie-O/s1600/login.jpg"
-    },
-    {
       "title": "Anthropic to restore Claude Fable access on Wednesday",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/",
       "description": "Anthropic has confirmed that the Department of Commerce has lifted export controls on Claude's two most powerful models, Fable 5 and Mythos 5. [...]",
@@ -276,15 +375,6 @@
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-sonnet-5-with-near-opus-48-performance-at-a-lower-price/",
       "description": "Anthropic is now rolling out Sonnet 5, and it's almost as good as the Opus range, but it is designed to be cheaper than the company's flagship model. [...]",
       "pub_date": "Tue, 30 Jun 2026 19:13:07 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "New BioShocking attack manipulates AI browser into data theft",
-      "link": "https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/",
-      "description": "A new prompt injection attack dubbed \"BioShocking\" could trick AI-powered browsers into treating real-world risky actions as part of a fictional scenario, causing them to ignore any safety guardrai...",
-      "pub_date": "Tue, 30 Jun 2026 17:50:24 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
