@@ -1,6 +1,87 @@
 {
-  "last_updated": "2026-07-02T15:07:47Z",
+  "last_updated": "2026-07-02T17:32:12Z",
   "articles": [
+    {
+      "title": "Ousaban Malware Uses Phishing PDFs and VBS Downloader to Target Iberian Banking Users",
+      "link": "https://cybersecuritynews.com/ousaban-malware-uses-phishing-pdfs-and-vbs-downloader/",
+      "description": "A newly documented campaign is quietly hijacking online banking sessions across Spain and Portugal, and it starts with something as ordinary as a broken PDF file. The malware behind it, known as Ou...",
+      "pub_date": "Thu, 02 Jul 2026 17:27:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Ousaban-Malware-Uses-Phishing-PDFs-and-VBS-Downloader-to-Target-Iberian-Banking-Users.webp"
+    },
+    {
+      "title": "Claude Cowork’s Sandbox Vulnerability Allows Attackers to Run Arbitrary Commands as Root",
+      "link": "https://cybersecuritynews.com/claude-coworks-sandbox-vulnerability/",
+      "description": "A vulnerability chain in Anthropic\u0026#8217;s Claude Cowork allows an attacker with local code execution to escalate privileges and run arbitrary commands as root inside the product\u0026#8217;s isolated L...",
+      "pub_date": "Thu, 02 Jul 2026 17:25:59 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Claude-Coworks-Sandbox-Vulnerability.webp"
+    },
+    {
+      "title": "CitrixBleed Vulnerability Exploited by Hackers Within 24 Hours of Public Disclosure",
+      "link": "https://cybersecuritynews.com/citrixbleed-vulnerability-exploited/",
+      "description": "A newly disclosed CitrixBleed-class vulnerability in Citrix NetScaler appliances came under active exploitation less than a day after public disclosure, with decoy infrastructure operator Lupovis c...",
+      "pub_date": "Thu, 02 Jul 2026 16:38:52 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/CitrixBleed-Vulnerability-Exploited.webp"
+    },
+    {
+      "title": "How GitHub used secret scanning to reach inbox zero",
+      "link": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
+      "description": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months. The post How Git...",
+      "pub_date": "Thu, 02 Jul 2026 16:00:00 +0000",
+      "source": "GitHub Security",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "DHS Confirms Breach of Information-Sharing Network Platform HSIN",
+      "link": "https://cybersecuritynews.com/dhs-confirms-breach-of-hsin/",
+      "description": "The Department of Homeland Security has confirmed that hackers breached the Homeland Security Information Network (HSIN), a sensitive but unclassified platform relied upon by federal, state, local,...",
+      "pub_date": "Thu, 02 Jul 2026 15:56:01 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/DHS-Confirms-Breach-of-HSIN.webp"
+    },
+    {
+      "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
+      "link": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
+      "description": "This week’s security news is mostly about weak spots.  Browsers, bots, sandboxes, AI systems, and email flows all show the same problem in different ways. Everything looks normal until someone te...",
+      "pub_date": "Thu, 02 Jul 2026 20:54:18 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMzwXbN53zy07KSkFJL7uOzty4Pj7VgKS6lSwWWGSCppX0wEX5eY0ZLur2NiFcs-ByBBhbd1WZ270Y4VMMGL6WkvOIZ5MhyphenhyphenkDX2B45wiQue-W88oiF_-RZs0HxvrvcxCHI8Zhhv1-fqHDgnX-VLWk00gt463rQhyKY7Mzcd5STMCYeCUcyVri3aBSUpl2t/s1600/threatsday-board.jpg"
+    },
+    {
+      "title": "ChatGPT File Download Flow Vulnerability Could Be Abused to Access System Files",
+      "link": "https://cybersecuritynews.com/chatgpt-file-download-flow-vulnerability/",
+      "description": "A proof-of-concept vulnerability chain in ChatGPT that combined a guardrail bypass with a path traversal flaw, potentially allowing attackers to access restricted system files such as /etc/passwd t...",
+      "pub_date": "Thu, 02 Jul 2026 15:22:38 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/ChatGPT-File-Download-Flow-Vulnerability.webp"
+    },
+    {
+      "title": "Google loses final appeal to overturn €4.1 billion EU fine",
+      "link": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
+      "description": "Court of Justice of the European Union (CJEU) has dismissed Google's final appeal against a €4.1 billion ($4.7 billion) antitrust fine over the company's use of Android to promote its Chrome brow...",
+      "pub_date": "Thu, 02 Jul 2026 11:18:51 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "900+ Oracle E-Business instances Exposed Online Amid Active Vulnerability Exploitation",
+      "link": "https://cybersecuritynews.com/900-oracle-e-business-instances-exposed/",
+      "description": "More than 900 Oracle E‑Business Suite instances have been found exposed on the public internet. At the same time, attackers actively exploit a critical vulnerability in the platform, putting miss...",
+      "pub_date": "Thu, 02 Jul 2026 14:03:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/900-Oracle-E-Business-instances-Exposed-Online-Amid-Active-Vulnerability-Exploitation.webp"
+    },
     {
       "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
       "link": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
@@ -9,6 +90,42 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Hackers Use Fake VLC Executable and Malicious libvlc.dll to Deploy ValleyRAT",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-vlc-executable/",
+      "description": "Cybercriminals have found a clever way to slip past security defenses by hiding malware inside a program most people trust without a second thought. Researchers have uncovered a campaign that abuse...",
+      "pub_date": "Thu, 02 Jul 2026 13:58:13 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Use-Fake-VLC-Executable.webp"
+    },
+    {
+      "title": "Opera Blocks Clipboard Attacks, Including ClickFix, With New Paste Protect Feature",
+      "link": "https://cybersecuritynews.com/opera-paste-protect-feature/",
+      "description": "Opera has introduced a new built-in security feature called Paste Protect, designed to defend users against clipboard-based cyberattacks, including the increasingly common ClickFix technique. The f...",
+      "pub_date": "Thu, 02 Jul 2026 13:47:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Opera-Blocks-clipboard-attacks-Including-ClickFix-With-New-Paste-Protect-Feature.webp"
+    },
+    {
+      "title": "Microsoft Outlook Bug Removes Copilot Button For Windows Users",
+      "link": "https://cybersecuritynews.com/outlook-bug-removes-copilot-button/",
+      "description": "A software defect in classic Outlook for Windows caused Copilot Chat and Copilot entry points to vanish for affected users, with Microsoft confirming the issue was tied to specific Basic-tier Copil...",
+      "pub_date": "Thu, 02 Jul 2026 13:41:55 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Outlook-Bug-Removes-Copilot-Button.webp"
+    },
+    {
+      "title": "Agentic Ransomware JADEPUFFER Uses Base64 Python Payloads to Harvest Cloud and API Keys",
+      "link": "https://cybersecuritynews.com/agentic-ransomware-jadepuffer-uses-base64-python-payloads/",
+      "description": "Ransomware has always needed a human at the keyboard or writing the script behind it. That assumption no longer holds. Sysdig researchers have documented what appears to be the first fully autonomo...",
+      "pub_date": "Thu, 02 Jul 2026 13:40:52 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Agentic-Ransomware-JADEPUFFER-Uses-Base64-Python-Payloads-to-Harvest-Cloud-and-API-Keys.webp"
     },
     {
       "title": "Formalizing Red Teaming Offensive Methodology as a Multi-Agent AI Architecture",
@@ -279,24 +396,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghMOqrFNgwfokWIpvUBFpDUO-So-0focm0a7d9mhocEHiwdB2cHmPQ9q4STjyCr-gVUPK67TYluInMr0_v1omCJVWbd9OVOg6AqVROoxZb44b5BOpxdBb2GECjFw77NhlCf6nWC5oJF3x3KvE3EyDV2pUR3lvROAWjaFs9SOyvzM3qRB6MzEUCFYuVAoCb/s1600/pro-exploit.jpg"
-    },
-    {
-      "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows, Linux, macOS, Android",
-      "link": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
-      "description": "Cybersecurity researchers have flagged a new malware artifact generated using DeepSeek that constructed a novel attack path combining \"unrealistic browser-malware concepts with a real browser capab...",
-      "pub_date": "Wed, 01 Jul 2026 18:29:19 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4BJdHYquuxXoz8n0LhMEmm9KPcWcMC57w4LnqbMNCPXMAFdS95ys3zE6F5jZOvSKwsVWp6t3z8pVImRJ3Nvxgkr4QiPI5O06zJywlL5uuBIU2G0ZtPucYq80Z_G-PnVzjYfChzbnpLxGyD2PpbH8VdLWjIuNLt0RoAe5Q8mVulX2s_4Ueg7XR0pxZVwKn/s1600/chrome-ransomware.jpg"
-    },
-    {
-      "title": "Over 900 Oracle E-Business instances exposed to ongoing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
-      "description": "Over 900 Oracle E-Business Suite (EBS) instances have been found exposed online amid ongoing attacks exploiting a critical security flaw. [...]",
-      "pub_date": "Wed, 01 Jul 2026 08:30:01 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
@@ -623,13 +722,31 @@
       "image_url": ""
     },
     {
-      "title": "A year of open source vulnerability trends: CVEs, advisories, and malware",
-      "link": "https://github.blog/security/supply-chain-security/a-year-of-open-source-vulnerability-trends-cves-advisories-and-malware/",
-      "description": "Reviewed advisories hit a four-year low, malware advisories surged, and CNA publishing grew—here’s what changed and what it means for your triage and response.  The post A year of open source v...",
-      "pub_date": "Thu, 26 Mar 2026 16:00:00 +0000",
-      "source": "GitHub Security",
-      "tier": 4,
-      "image_url": "https://github.blog/wp-content/uploads/2026/03/1-GHADB-Feeds-vs-Backfill.png?resize=4290%2C2640"
+      "title": "CubeSpace CW0057 Reaction Wheel",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to upload arbitrary malicious firmware to the device. The following versions of CubeSpace CW0057 Reaction Whe...",
+      "pub_date": "Thu, 02 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Gardyn IoT Hub",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthenticated users to access and control IoT Hub managed devices. The following versions of Gardyn IoT Hub are affe...",
+      "pub_date": "Thu, 02 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "ST Engineering iDirect iQ-Series Terminals",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition. The following ve...",
+      "pub_date": "Thu, 02 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -641,9 +758,9 @@
       "image_url": ""
     },
     {
-      "title": "Frangoteam FUXA SCADA/HMI",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to enumerate all user accounts and role assignments on a FUXA SCADA/HMI instance. The ...",
+      "title": "Schneider Electric EasyLogic T150 and Saitel DP RTU",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities can allow an attacker to cause unauthorized access and exposure of sensitive information when the unauthenticated attacker accesse...",
       "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -668,6 +785,15 @@
       "image_url": ""
     },
     {
+      "title": "XZ Utils vulnerability impacting B\u0026R Products",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
+      "description": "View CSAF Summary An update is available that resolves vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could caus...",
+      "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "Schneider Electric EcoStruxure IT Data Center Expert",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-03",
       "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ IT Data Center Expert. The EcoStruxure™ IT Data Center Expert product is a scalable monitoring software that...",
@@ -686,9 +812,9 @@
       "image_url": ""
     },
     {
-      "title": "XZ Utils vulnerability impacting B\u0026R Products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
-      "description": "View CSAF Summary An update is available that resolves vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could caus...",
+      "title": "Frangoteam FUXA SCADA/HMI",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to enumerate all user accounts and role assignments on a FUXA SCADA/HMI instance. The ...",
       "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -698,15 +824,6 @@
       "title": "Delta Electronics DVP12SE PLC",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to remotely issue commands, modify operational values, interfere with control logic, and alter device beha...",
-      "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Schneider Electric EasyLogic T150 and Saitel DP RTU",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities can allow an attacker to cause unauthorized access and exposure of sensitive information when the unauthenticated attacker accesse...",
       "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -734,33 +851,6 @@
       "title": "Daktronics Controller Firmware",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-04",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could could provide an unauthenticated user with complete root-level access and control of the system. The following versions of D...",
-      "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Yokogawa FAST/TOOLS and CI Server",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability may return a response containing the CI Server setting information. The following versions of Yokogawa FAST/TOOLS and CI Server are a...",
-      "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-12569 PTC Windchill and FlexPLM Improper Inpu...",
-      "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Delta Electronics DTM Soft",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-06",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code. The following versions of Delta Electronics DTM Soft are affected:  DTMSoft vers:a...",
       "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
