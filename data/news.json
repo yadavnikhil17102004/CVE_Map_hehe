@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-07-02T23:57:18Z",
+  "last_updated": "2026-07-03T02:39:24Z",
   "articles": [
+    {
+      "title": "Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
+      "description": "Anthropic says Claude Fable 5 won't be accessible via Claude subscriptions after July 7, but it's not a permanent change, and the company expects the model to return outside the usage-based plan so...",
+      "pub_date": "Thu, 02 Jul 2026 21:37:09 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Claude Fable relaunch disappoints users with nerfed performance",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/",
+      "description": "Claude Fable, the company's most powerful model, is now available to all users, but early impressions are disappointing, as it appears to be nowhere near the original release. [...]",
+      "pub_date": "Thu, 02 Jul 2026 20:48:30 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
       "link": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
@@ -20,60 +38,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5gkjf1FwB4__nC6-pLZYnDv2rJA29UAL9mxfCv4BNSl1FxNpat9jD-OiMRLewjXJXyiSGvqiLYcewN_b1lLFHh0FhzKkrHFzu82jziSuOodYX87FkwjuCcXaqwzWRsiFdsBcd9mzDnak1rJpDu46F8TV206IEcD1pE7njojB8TcQEZ4Wa70KnK2vyeVKI/s1600/ransomwares.jpg"
     },
     {
-      "title": "AsyncRAT Campaign Uses DLL Sideloading and ScreenConnect for Stealthy Remote Access",
-      "link": "https://cybersecuritynews.com/asyncrat-campaign-uses-dll-sideloading/",
-      "description": "A stealthy campaign is turning trusted remote access software into a weapon against everyday users and businesses. Attackers have hidden the AsyncRAT trojan inside fake software installers, letting...",
-      "pub_date": "Thu, 02 Jul 2026 18:10:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/AsyncRAT-Campaign-Uses-DLL-Sideloading-and-ScreenConnect-for-Stealthy-Remote-Access.webp"
-    },
-    {
-      "title": "Microsoft 365 Phishing Panel Uses OAuth Device Code Flow to Capture Tokens and Persist Access",
-      "link": "https://cybersecuritynews.com/microsoft-365-phishing-panel-uses-oauth-device-code-flow/",
-      "description": "A newly uncovered phishing panel called ARToken is giving cybercriminals an easy way to steal Microsoft 365 login sessions without ever touching a password. The tool works by abusing a legitimate M...",
-      "pub_date": "Thu, 02 Jul 2026 17:53:31 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-365-Phishing-Panel-Uses-OAuth-Device-Code-Flow-to-Capture-Tokens-and-Persist-Access.webp"
-    },
-    {
-      "title": "AsyncRAT Campaign Abuses TryCloudflare Tunnels and Python Scripts for Malware Delivery",
-      "link": "https://cybersecuritynews.com/asyncrat-campaign-abuses-trycloudflare-tunnels/",
-      "description": "AsyncRAT is back in the headlines, and the attackers behind it have found a clever way to hide in plain sight. Instead of relying on suspicious servers, they use Dropbox links and TryCloudflare tun...",
-      "pub_date": "Thu, 02 Jul 2026 17:48:17 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/AsyncRAT-Campaign-Abuses-TryCloudflare-Tunnels-and-Python-Scripts-for-Malware-Delivery.webp"
-    },
-    {
-      "title": "Ousaban Malware Uses Phishing PDFs and VBS Downloader to Target Iberian Banking Users",
-      "link": "https://cybersecuritynews.com/ousaban-malware-uses-phishing-pdfs-and-vbs-downloader/",
-      "description": "A newly documented campaign is quietly hijacking online banking sessions across Spain and Portugal, and it starts with something as ordinary as a broken PDF file. The malware behind it, known as Ou...",
-      "pub_date": "Thu, 02 Jul 2026 17:27:07 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Ousaban-Malware-Uses-Phishing-PDFs-and-VBS-Downloader-to-Target-Iberian-Banking-Users.webp"
-    },
-    {
-      "title": "Claude Cowork’s Sandbox Vulnerability Allows Attackers to Run Arbitrary Commands as Root",
-      "link": "https://cybersecuritynews.com/claude-coworks-sandbox-vulnerability/",
-      "description": "A vulnerability chain in Anthropic\u0026#8217;s Claude Cowork allows an attacker with local code execution to escalate privileges and run arbitrary commands as root inside the product\u0026#8217;s isolated L...",
-      "pub_date": "Thu, 02 Jul 2026 17:25:59 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Claude-Coworks-Sandbox-Vulnerability.webp"
-    },
-    {
-      "title": "CitrixBleed Vulnerability Exploited by Hackers Within 24 Hours of Public Disclosure",
-      "link": "https://cybersecuritynews.com/citrixbleed-vulnerability-exploited/",
-      "description": "A newly disclosed CitrixBleed-class vulnerability in Citrix NetScaler appliances came under active exploitation less than a day after public disclosure, with decoy infrastructure operator Lupovis c...",
-      "pub_date": "Thu, 02 Jul 2026 16:38:52 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/CitrixBleed-Vulnerability-Exploited.webp"
-    },
-    {
       "title": "How GitHub used secret scanning to reach inbox zero",
       "link": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
       "description": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months. The post How Git...",
@@ -81,15 +45,6 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": ""
-    },
-    {
-      "title": "DHS Confirms Breach of Information-Sharing Network Platform HSIN",
-      "link": "https://cybersecuritynews.com/dhs-confirms-breach-of-hsin/",
-      "description": "The Department of Homeland Security has confirmed that hackers breached the Homeland Security Information Network (HSIN), a sensitive but unclassified platform relied upon by federal, state, local,...",
-      "pub_date": "Thu, 02 Jul 2026 15:56:01 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/DHS-Confirms-Breach-of-HSIN.webp"
     },
     {
       "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
@@ -101,15 +56,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMzwXbN53zy07KSkFJL7uOzty4Pj7VgKS6lSwWWGSCppX0wEX5eY0ZLur2NiFcs-ByBBhbd1WZ270Y4VMMGL6WkvOIZ5MhyphenhyphenkDX2B45wiQue-W88oiF_-RZs0HxvrvcxCHI8Zhhv1-fqHDgnX-VLWk00gt463rQhyKY7Mzcd5STMCYeCUcyVri3aBSUpl2t/s1600/threatsday-board.jpg"
     },
     {
-      "title": "ChatGPT File Download Flow Vulnerability Could Be Abused to Access System Files",
-      "link": "https://cybersecuritynews.com/chatgpt-file-download-flow-vulnerability/",
-      "description": "A proof-of-concept vulnerability chain in ChatGPT that combined a guardrail bypass with a path traversal flaw, potentially allowing attackers to access restricted system files such as /etc/passwd t...",
-      "pub_date": "Thu, 02 Jul 2026 15:22:38 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/ChatGPT-File-Download-Flow-Vulnerability.webp"
-    },
-    {
       "title": "Google loses final appeal to overturn €4.1 billion EU fine",
       "link": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
       "description": "Court of Justice of the European Union (CJEU) has dismissed Google's final appeal against a €4.1 billion ($4.7 billion) antitrust fine over the company's use of Android to promote its Chrome brow...",
@@ -119,15 +65,6 @@
       "image_url": ""
     },
     {
-      "title": "900+ Oracle E-Business instances Exposed Online Amid Active Vulnerability Exploitation",
-      "link": "https://cybersecuritynews.com/900-oracle-e-business-instances-exposed/",
-      "description": "More than 900 Oracle E‑Business Suite instances have been found exposed on the public internet. At the same time, attackers actively exploit a critical vulnerability in the platform, putting miss...",
-      "pub_date": "Thu, 02 Jul 2026 14:03:02 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/900-Oracle-E-Business-instances-Exposed-Online-Amid-Active-Vulnerability-Exploitation.webp"
-    },
-    {
       "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
       "link": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
       "description": "ConsentFix and ClickFix attacks steal Microsoft 365 tokens in seconds using fake prompts and OAuth flows. Learn how these MFA bypass tactics work and how to defend against them. [...]",
@@ -135,15 +72,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Hackers Use Fake VLC Executable and Malicious libvlc.dll to Deploy ValleyRAT",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-vlc-executable/",
-      "description": "Cybercriminals have found a clever way to slip past security defenses by hiding malware inside a program most people trust without a second thought. Researchers have uncovered a campaign that abuse...",
-      "pub_date": "Thu, 02 Jul 2026 13:58:13 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Use-Fake-VLC-Executable.webp"
     },
     {
       "title": "Formalizing Red Teaming Offensive Methodology as a Multi-Agent AI Architecture",
@@ -344,15 +272,6 @@
       "image_url": ""
     },
     {
-      "title": "Hackers target Microsoft 365 accounts with 81 million login attempts",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/",
-      "description": "An aggressive password-spraying campaign targeting Microsoft 365 environments generated more than 81 million login attempts over a two-week period. [...]",
-      "pub_date": "Wed, 01 Jul 2026 12:38:01 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "6 security settings every GitHub maintainer should enable this week",
       "link": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
       "description": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it...",
@@ -387,15 +306,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP2LpF3s-oL3WaiHtAZ9N33J120bvGnWDoQ39eE1fyToERHmJgkAtMzarRyW9-gOG0N4U1_nOEQmwg-3krYIZDcXXB6JYpurMezefSiM5-ygJd9CuuS1sS-gHNjoKgBRayO0wBow5GB1yaanR55TW2fwus6MQXwlqeXDJ2Xu7z2fiOGbPXo4qio4LpXZPO/s1600/adobe.jpg"
-    },
-    {
-      "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
-      "link": "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/",
-      "description": "Threat intelligence is only as useful as the context behind it. Criminal IP explains how its integration enriches threat indicators in OpenCTI with risk scoring, infrastructure intelligence, and ph...",
-      "pub_date": "Wed, 01 Jul 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
