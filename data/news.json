@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-07-03T19:05:16Z",
+  "last_updated": "2026-07-03T20:54:55Z",
   "articles": [
+    {
+      "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
+      "link": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+      "description": "A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and An...",
+      "pub_date": "Sat, 04 Jul 2026 01:10:01 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggOXDckpE46PYIzBnXsx_kyHzFvlcB3l8qEr6feRNBhRQMKc2p5r2pQArl-NrsoB2z6vE917nXVHpuuMZOgZcRDMlwbVYC0ocK3uIsb-h59qed_kuvDKwvukQCAs-VDcE5Ail8mTRSPpnNfrPzKv5oAMQ9fJCDNE_2PpPrN9a9mOwGUIs0TnWq6_r58HM/s1600/root-linux.gif"
+    },
+    {
+      "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
+      "link": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+      "description": "Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing tradi...",
+      "pub_date": "Sat, 04 Jul 2026 00:25:24 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5mmILhD28NLaA8Et883gOLxFJ1rWUi5CyqZ_kxNNLKCuHMAyw05kAFpUAduQrMQePiXa8j9hQkpBwkd4d6ZizYsIUWii41-htjXE10JEwfrMWA9LYeFj0CNm3yr91TZW2smhgUb-X7xTU5IBCOpgqSFhzlYbLhL3e_M7Gg_49-YiiqTOSwGytIMLKSPg7/s1600/crown-ransomware.jpg"
+    },
     {
       "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
       "link": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
@@ -9,15 +27,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Indian Govt Bans Apps Being Misused to Stop E-Rickshaws Remotely",
-      "link": "https://cybersecuritynews.com/indian-govt-bans-e-rickshaws-apps/",
-      "description": "The Indian government has directed Google and Apple to take down three mobile applications, BAT-BMS, Lossigy, and Epoch-i-ion, after they were allegedly misused to remotely disable e-rickshaws and ...",
-      "pub_date": "Fri, 03 Jul 2026 17:22:07 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Indian-Govt-Bans-Apps-Being-Misused.webp"
     },
     {
       "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
@@ -29,15 +38,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4otDF6_5qt7ZmrCLMXmx7sFXfY6RGHHI0BiGRcVkTqLo-l1VokprcvB7FhK5fJdL0j8Ds95uLQxiWKt2YYFV1N9K8WIL3lfONey4wBln2Vee4YTI_9z5_t-2VT1bZ17sEomQdONnVWEB3sc9lj13AJwdhbmn6CNlfx9Lwc7UNxg2C87xKFZPz5UL4lHJE/s1600/npms-malware.jpg"
     },
     {
-      "title": "Top 10 Best Post-Quantum Cryptographic Solutions in 2026",
-      "link": "https://cybersecuritynews.com/best-post-quantum-cryptographic-solutions/",
-      "description": "Quantum computing has crossed the line from research curiosity to board-level risk. Once a cryptographically relevant quantum computer arrives — an event security planners call \u0026#8220;Q-Day\u0026#8221...",
-      "pub_date": "Fri, 03 Jul 2026 14:59:18 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG3fCMRp-IfhDFCoSdvB3ktqmUxVyqCpP2dfFUaUUNdMYzZjrA5P2BB9JxWavmnpdxPyCR-ZfBd7o6rff9Hg2e7hClvix_1ZCGUiXEug1KuxsIPZ6rAdc9vRVpuoViXnPRdbIEi_sLX7-qWfu0g8xUdgPQb88PQWZlKeof2tdh2QCrXgdeKoEBw70IZuY/s16000/Best%20Post-Quantum%20Cryptographic%20Solutions%20(1).webp?ssl=1"
-    },
-    {
       "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
       "link": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
       "description": "A new phishing-as-a-service (PhaaS) platform dubbed \"ARToken\" appears to operate as an affiliate of the EvilTokens phishing platform, giving researchers a glimpse into an extensive toolkit design...",
@@ -47,42 +47,6 @@
       "image_url": ""
     },
     {
-      "title": "Scammers Impersonate Trusted Brands in Gambling Ads to Drive Casino Traffic",
-      "link": "https://cybersecuritynews.com/scammers-impersonate-trusted-brands/",
-      "description": "Scammers are hijacking trusted brand names to push people toward online casinos unrelated to those companies. Instead of building fake bank sites or phishing emails, they exploit the trust people p...",
-      "pub_date": "Fri, 03 Jul 2026 14:00:10 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Scammers-Impersonate-Trusted-Brands-in-Gambling-Ads-to-Drive-Casino-Traffic.webp"
-    },
-    {
-      "title": "Multiple Apache ActiveMQ Vulnerabilities Enable DoS Attacks and Lead to Crashes",
-      "link": "https://cybersecuritynews.com/apache-activemq-vulnerabilities/",
-      "description": "Apache ActiveMQ users are advised to urgently update their deployments after three important vulnerabilities were disclosed, exposing messaging infrastructure to denial-of-service (DoS) attacks, br...",
-      "pub_date": "Fri, 03 Jul 2026 13:57:01 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Multiple-Apache-ActiveMQ-Vulnerabilities-Enables-DoS-Attacks-and-Leads-to-Crash.webp"
-    },
-    {
-      "title": "Hackers Abuse SEO Poisoning and Hidden HTML to Trick AI Agents Into Following Malicious Instructions",
-      "link": "https://cybersecuritynews.com/hackers-abuse-seo-poisoning-and-hidden-html/",
-      "description": "Artificial intelligence agents are quickly becoming the new front door to the internet, and attackers have noticed. A fresh wave of malicious websites is using search engine tricks and invisible co...",
-      "pub_date": "Fri, 03 Jul 2026 13:55:56 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Abuse-SEO-Poisoning-and-Hidden-HTML-to-Trick-AI-Agents-Into-Following-Malicious-Instructions.webp"
-    },
-    {
-      "title": "Alibaba to Ban Claude Code Over Alleged Embedded Backdoor Risks",
-      "link": "https://cybersecuritynews.com/alibaba-to-ban-claude-code/",
-      "description": "Alibaba is reportedly set to ban Anthropic\u0026#8217;s Claude Code from its internal workplace environments starting July 10, 2026, over alleged embedded backdoor risks. The company has not officially ...",
-      "pub_date": "Fri, 03 Jul 2026 13:53:13 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Alibaba-to-ban-Claude-Code-Over-Alleged-embedded-backdoor-Risks-1.webp"
-    },
-    {
       "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
       "link": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
       "description": "A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil, and Kazakhstan....",
@@ -90,42 +54,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTOYmjevwtg2njZKRnBeTtT1fSpmOD45a_apqSQWJJQH8N0HtftQ_Tj3mCC6dfysokuddsTPVCKKM4hd4Trjs6dPn1tvUNi4gWvj_OQevLSDqNfuGOK87WNAQSRVZSEOOLoo0Ip4IQQTa14eqh7J7rPo-8edHwoNORqqrcgtFAT-LySviPfbahvJDMDk_T/s1600/power.jpg"
-    },
-    {
-      "title": "Nebula AI-Powered Penetration Testing Platform Automates Vulnerability Assessments",
-      "link": "https://cybersecuritynews.com/nebula-ai-penetration-testing/",
-      "description": "A new open-source security tool is bringing large language models directly into the penetration tester\u0026#8217;s terminal. Nebula, developed by BerylliumSec, integrates state-of-the-art AI models int...",
-      "pub_date": "Fri, 03 Jul 2026 13:30:32 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Nebula-AI-Penetration-Testing.webp"
-    },
-    {
-      "title": "FBI Warns TeamPCP Hackers Compromise Developer Tools in Large-Scale Supply Chain Attacks",
-      "link": "https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools/",
-      "description": "A new wave of software supply chain attacks has put developers and security teams on high alert. The threat group behind it, known as TeamPCP, has been quietly slipping malicious code into trusted ...",
-      "pub_date": "Fri, 03 Jul 2026 12:24:04 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/FBI-Warns-TeamPCP-Hackers-Compromise-Developer-Tools-in-Large-Scale-Supply-Chain-Attacks.webp"
-    },
-    {
-      "title": "Hackers Abuse Blogspot and PowerShell Download Cradles to Deploy PureLog Steale",
-      "link": "https://cybersecuritynews.com/hackers-abuse-blogspot-and-powershell-download-cradles/",
-      "description": "Hackers have found a clever way to sneak data-stealing malware onto victims\u0026#8217; computers by hiding their tracks inside a trusted platform, Google Blogspot. Researchers recently uncovered a camp...",
-      "pub_date": "Fri, 03 Jul 2026 12:08:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Abuse-Blogspot-and-PowerShell-Download-Cradles-to-Deploy-PureLog-Steale.webp"
-    },
-    {
-      "title": "Hackers Use Fake Cisco AnyConnect and Google Update Installers to Drop SharkLoader",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-cisco-anyconnect-and-google-update-installers/",
-      "description": "Cybersecurity researchers have uncovered a new malware loader called SharkLoader that is quietly slipping into networks by hiding inside fake software installers. The tool has been spotted deliveri...",
-      "pub_date": "Fri, 03 Jul 2026 11:31:10 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Use-Fake-Cisco-AnyConnect-and-Google-Update-Installers-to-Drop-SharkLoader.webp"
     },
     {
       "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
@@ -360,24 +288,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
-      "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-      "description": "Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the comp...",
-      "pub_date": "Thu, 02 Jul 2026 01:10:06 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9emdIsaMBcMQoyS0ot-ckXq8LWhMk6P2zAm3WdCVFBhRMNUqN6E1vZqllIq6qYHBvGm8WhCGi8C3PLUNOecmNYU4LLoWH5zRBadBejDgpbC5DihDwqiYAMLpZNsQBk2MsiN89nt-honwtPiQzjg4fDUp5w2aiCXWZBKk94qHwfG4yEHak6zoZuNmXKgY/s1600/argo-cd.jpg"
-    },
-    {
-      "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
-      "link": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
-      "description": "A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Just...",
-      "pub_date": "Thu, 02 Jul 2026 00:58:07 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitCA6eGqIT2msGTmYh2Qr84lq5GYGvI4Y8FSzzNira0osd5SNIbnpLKZfLZLggblyWGxZ1ScIR_I06M-RoM5wM3he2KRkFCnwYxIKtGBDb9PA1JtoK1JM5f0vObSITDMGt4eeVV82LUF3DBNkYiHLhCTYNwnlOP3DlfCHYLkP6NfHjwRJDsHSMTHEGKAs/s1600/hacker-arrested.jpg"
     },
     {
       "title": "6 security settings every GitHub maintainer should enable this week",
