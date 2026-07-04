@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-07-03T23:05:32Z",
+  "last_updated": "2026-07-04T02:06:08Z",
   "articles": [
+    {
+      "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
+      "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/",
+      "description": "It's Time to Upgrade Your SMB SessionThis week, Metasploit contributor Dean Welch has added an SMB to Meterpreter session upgrade module. It uses PsExec to facilitate the upgrade. Users can load th...",
+      "pub_date": "Fri, 03 Jul 2026 22:11:22 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt7464fe659cab8a01/6852c358419e54d8e21c3458/blog-metasploit-wrap-up-.webp"
+    },
     {
       "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
       "link": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
@@ -657,15 +666,6 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": "https://github.blog/wp-content/uploads/2026/06/blog-post-1.png?resize=1024%2C576"
-    },
-    {
-      "title": "Criminal AI-as-a-Service in 2026: How the Underground Market Is Operationalizing Cybercrime",
-      "link": "https://www.rapid7.com/blog/post/tr-criminal-ai-underground-market-operationalizing-cybercrime-2026",
-      "description": "IntroductionThe underground market for criminally oriented generative AI has moved beyond the early hype surrounding 'malicious chatbots.' The gradual integration of AI as a productivity layer with...",
-      "pub_date": "Thu, 11 Jun 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
     },
     {
       "title": "Investigation update: GitHub Enterprise Server signing key rotation",
