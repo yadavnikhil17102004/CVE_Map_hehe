@@ -1,6 +1,132 @@
 {
-  "last_updated": "2026-07-06T08:12:14Z",
+  "last_updated": "2026-07-06T12:38:29Z",
   "articles": [
+    {
+      "title": "Multiple PHP Vulnerabilities Enable DoS and Memory Corruption Attacks",
+      "link": "https://cybersecuritynews.com/multiple-php-vulnerabilities-dos/",
+      "description": "Multiple security vulnerabilities in PHP have been disclosed that could allow attackers to trigger denial-of-service (DoS) conditions and cause memory corruption, impacting widely deployed web appl...",
+      "pub_date": "Mon, 06 Jul 2026 12:05:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Multiple-PHP-Vulnerabilities-Enables-DoS-and-Memory-Corruption-Attacks.webp"
+    },
+    {
+      "title": "Moody Bible Institute Data Breach Exposes 2.3 Million Users’ Personal Data",
+      "link": "https://cybersecuritynews.com/moody-bible-institute-data-breach/",
+      "description": "Moody Bible Institute has confirmed a significant data breach after threat actors linked to the ShinyHunters extortion group published personal information belonging to over 2.3 million individuals...",
+      "pub_date": "Mon, 06 Jul 2026 11:54:01 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Moody-Bible-Institute-Data-Breach.webp"
+    },
+    {
+      "title": "Multiple ModSecurity Vulnerabilities Allow Attackers to Bypass Firewall Rules",
+      "link": "https://cybersecuritynews.com/modsecurity-vulnerabilities/",
+      "description": "Multiple vulnerabilities have been disclosed in OWASP ModSecurity, a widely used open-source web application firewall (WAF), allowing attackers to bypass security rules under specific conditions. T...",
+      "pub_date": "Mon, 06 Jul 2026 11:42:14 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Multiple-ModSecurity-Vulnerabilities-Allow-Attackers-to-Bypass-Firewall-Rules.webp"
+    },
+    {
+      "title": "How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions",
+      "link": "https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html",
+      "description": "Building a shortlist for an AI SOC evaluation can be tough. SIEM, SOAR, and pureplay AI SOC vendors are all saying the same thing. But behind the identical label sit very different products, from c...",
+      "pub_date": "Mon, 06 Jul 2026 17:00:02 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeiJymlyu6GGdzNT0Fb3yi6rYZdNn_XCoDUKKV9zSD_p17gngK7FL-IDm5LLTYlGx6Rn2Em6v0TSDq7u_1lttLyp1b97z7YrjSrFK7MrYAG2k1YXI91fHRRTRoPV1xIQSukE1DwqRcHY6i6fIS0jC2CaKv18OhFWHi2fKvXRKmZ6MBgSoRMDWGxmQKlfTt/s1600/aisoc.jpg"
+    },
+    {
+      "title": "RedLine C2 Pivot Reveals Seven Fraudulent Domains Used in Maritime Phishing Attacks",
+      "link": "https://cybersecuritynews.com/redline-c2-pivot-reveals-seven-fraudulent-domains/",
+      "description": "A single leaked command and control server ended up unraveling an entire phishing operation aimed at the maritime shipping world. What started as a routine look at RedLine Stealer traffic turned in...",
+      "pub_date": "Mon, 06 Jul 2026 11:21:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/RedLine-C2-Pivot-Reveals-Seven-Fraudulent-Domains-Used-in-Maritime-Phishing-Attacks.webp"
+    },
+    {
+      "title": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
+      "link": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
+      "description": "A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan designed to steal sens...",
+      "pub_date": "Mon, 06 Jul 2026 16:28:16 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0L8iGbVZ6lxBg26K2nsc6uYpFED8ZcgCtrh4C34U4oixLPC0OKHOWWpiPBfaSwe-tpOTbCqZfRZQTMoropayZXEm0GXTtKpyBuBPRk9zF-0WPRprknYiaI2DXLDZnQb8t70R7-0Fjl5G-NNCQFF-Ex40vQZMbUJmJ2JLyXJUjYdAVvgjl3_oBF5wbHrHl/s1600/income-tax.jpg"
+    },
+    {
+      "title": "15-Year-Old Arrested Over Bandai Channel Cyberattack Using a ChatGPT-Assisted Tool",
+      "link": "https://cybersecuritynews.com/bandai-channel-cyberattack/",
+      "description": "Japanese police have arrested a 15-year-old high school student from Tokorozawa City, Saitama Prefecture, on suspicion of fraudulent obstruction of business after he allegedly used a ChatGPT-assist...",
+      "pub_date": "Mon, 06 Jul 2026 10:25:12 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Bandai-Channel-Cyberattack.webp"
+    },
+    {
+      "title": "Agent Skill Malware Targets Claude Code and OpenAI Codex With Scanner-Evasion Techniques",
+      "link": "https://cybersecuritynews.com/agent-skill-malware-targets-claude-code-and-openai-codex/",
+      "description": "A new class of malicious software is quietly slipping past the security tools meant to protect popular AI coding assistants. Researchers have found that malware hidden inside \u0026#8220;agent skills,\u0026#...",
+      "pub_date": "Mon, 06 Jul 2026 09:50:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Agent-Skill-Malware-Targets-Claude-Code-and-OpenAI-Codex-With-Scanner-Evasion-Techniques.webp"
+    },
+    {
+      "title": "Gaslight macOS Malware Uses Prompt Injection to Evade AI Security Analysis",
+      "link": "https://cybersecuritynews.com/gaslight-macos-malware-uses-prompt-injection/",
+      "description": "A fresh piece of Mac malware has surfaced, and it comes with a twist that security teams have not seen before. Written in Rust and tied to North Korean hacking groups, this malware does not just st...",
+      "pub_date": "Mon, 06 Jul 2026 09:41:27 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Gaslight-macOS-Malware-Uses-Prompt-Injection-to-Evade-AI-Security-Analysis.webp"
+    },
+    {
+      "title": "Opera GX 0-Click Vulnerability Lets Attackers Exfiltrate User Data via Malicious Website",
+      "link": "https://cybersecuritynews.com/opera-gx-0-click-vulnerability/",
+      "description": "A newly disclosed vulnerability in Opera GX allowed attackers to silently exfiltrate sensitive user data with no interaction required, simply by luring victims to a malicious website. The issue, do...",
+      "pub_date": "Mon, 06 Jul 2026 09:26:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/New-Opera-GX-0-Click-vulnerability-allows-attackers-to-exfiltrate-user-data-by-visiting-a-malicious-website.webp"
+    },
+    {
+      "title": "TrojPix Attacks Allow Hackers to Access Data from Air-gapped Computers from 208 Meters",
+      "link": "https://cybersecuritynews.com/trojpix-attack/",
+      "description": "A novel electromagnetic (EM) covert-channel attack, dubbed TrojPix, can steal sensitive data from already-compromised air-gapped computers over distances of up to 208 meters, even through concrete ...",
+      "pub_date": "Mon, 06 Jul 2026 09:24:30 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/TrojPix-Attack.webp"
+    },
+    {
+      "title": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions",
+      "link": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
+      "description": "Researchers at\u0026nbsp;Shandong University\u0026nbsp;have shown a fast new way to pull data off computers that are cut off from every network. The technique, called\u0026nbsp;TrojPix, tweaks on-screen pixels in...",
+      "pub_date": "Mon, 06 Jul 2026 14:20:54 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLYJDaMKVJEwbsJA1eYJaguihQzJv2dpnIl512z5xBuWojpidgE7mvbGWz27QN-Dnwx74qvCYOYGQNY4h2K00TzF_hz8D6M9gNxWALh2f2bz6jrzwuKvTuuLsb6kwU1O72qPUIjQYHtRwGPCCUYt-TDFJEZ7frhvxvsQa4vWP7HkLRPtXCi0ovIACzurMP/s1600/TrojPix-attack.jpg"
+    },
+    {
+      "title": "Hackers Abuse OpenAI Org Invites to Harvest Sensitive Prompts and API Activity",
+      "link": "https://cybersecuritynews.com/hackers-use-openai-org-invites/",
+      "description": "Hackers are actively abusing OpenAI’s organization invitation feature to launch a new form of “poisoned tenant” attack, allowing them to harvest sensitive prompts, API activity, and potential...",
+      "pub_date": "Mon, 06 Jul 2026 08:25:13 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Use-OpenAI-Org-Invites-to-Harvest-Sensitive-Prompts-and-API-Activity.webp"
+    },
+    {
+      "title": "New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS",
+      "link": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
+      "description": "Cybersecurity researchers have flagged a novel Java-based remote access trojan (RAT) called QuimaRAT that's capable of targeting Windows, Linux, and macOS environments.  According to LevelBlue, the...",
+      "pub_date": "Mon, 06 Jul 2026 13:43:33 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVcOvCD8qFylCqOCpN8Rnl9cnxNkIeGxNbVKzlsKXY_7Nuw2xvYsckNEHKVM5ntvT2JAureArFIyApOvGLu52wpCG1xbHO8Y5xBmOAkSI3RoyEegmlNxs_gJip32Uzv_inXS7seOeRB1d3mw9SNIggoqgIApupRF2etBx5U_IFkuQz4_WNBL0Q1oi1l77q/s1600/javarat.jpg"
+    },
     {
       "title": "Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages",
       "link": "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html",
@@ -9,15 +135,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ_WItJUaS3rk5pAYa5yOsKuUt0Yovlv1T-jIz2GBBhcmMjToCgnWuEApyWfgDwngwAPcEGke0zwo_2DKKHaN9vzzHMAnd7Z3esepEvjSM022BzOdjo0sJW2bSMlslKXVv5Fg701ozva1HDgZPJV4Qya8Xevye-eT4dB0UmIJK9CKq-_wLnEGgNYigRLzh/s1600/opera-data-leak.jpg"
-    },
-    {
-      "title": "SSH Honeypots Miss Most Post-Login Attacks by Focusing on Interactive Shells",
-      "link": "https://cybersecuritynews.com/ssh-honeypots-miss-most-post-login-attacks/",
-      "description": "SSH honeypots, widely used in cyber defense, may miss most real-world post-login attacker activity, according to new research that challenges long-standing assumptions in deception technology. A re...",
-      "pub_date": "Mon, 06 Jul 2026 07:09:26 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/SSH-Honeypots-Miss-Most-Post-Login-Attacks-by-Focusing-on-Interactive-Shells.webp"
     },
     {
       "title": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
@@ -29,33 +146,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjw4ZKsU9PwSPcL_Vs2ZqYIh0ahMuSFSNcCv_Y5MiM7MRsUgeZCDa5XTSWVYQXjLg-ByFbm4cHoo-8SSeWrB7KSdYrl4A1Ioif-v8NLNA43asXEHtYjn6uad21Savnzi_1iJ0YQ44iuXECEIBbyc3l7lJ9l2pdofVvP7dM3n9Ji5OeUeuPDHX5sqBJreUUB/s1600/ai-skills.jpg"
     },
     {
-      "title": "Parrot 7.3 Released With Optimized Packages and Updated Tools",
-      "link": "https://cybersecuritynews.com/parrot-7-3-released/",
-      "description": "Parrot Security has released Parrot OS 7.3, introducing significant system-level optimizations, updated security tools, and a redesigned application management experience to improve performance and...",
-      "pub_date": "Mon, 06 Jul 2026 05:36:18 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Parrot-7.3-released-With-Optimized-packages-and-Updated-Tools.webp"
-    },
-    {
-      "title": "T3MP3ST Security Framework With 35 Tools, Turns AI Coding Agents Into 0-Day Bug Hunters",
-      "link": "https://cybersecuritynews.com/t3mp3st-security-framework/",
-      "description": "A newly released open-source security framework called T3MP3ST is turning general-purpose AI coding agents like Claude Code, OpenAI\u0026#8217;s Codex, and Hermes into autonomous red-teaming operators w...",
-      "pub_date": "Sun, 05 Jul 2026 16:03:23 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/T3MP3ST-Security-Framework.webp"
-    },
-    {
-      "title": "Flipper Zero Firmware Development Continues With New Community Contribution Rules",
-      "link": "https://cybersecuritynews.com/flipper-zero-firmware-development/",
-      "description": "Flipper Devices has responded to intense community backlash over perceptions that it had abandoned active development of the Flipper Zero firmware. In a statement addressing the controversy, the co...",
-      "pub_date": "Sun, 05 Jul 2026 14:50:25 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Flipper-Zero-Firmware-Development.webp"
-    },
-    {
       "title": "Flipper Zero firmware development continues with community help",
       "link": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
       "description": "Flipper Devices says development of the Flipper Zero firmware will continue, albeit with a smaller internal team and greater reliance on community contributions. [...]",
@@ -63,24 +153,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Cyber Security News Bulletin Weekly – Mythos is Back, WhatsApp Username, Kali Linux 2026.2, +20 Stories",
-      "link": "https://cybersecuritynews.com/cyber-security-news-bulletin-weekly/",
-      "description": "This week\u0026#8217;s roundup covers a major AI security model redeployment, several critical RCE vulnerabilities across popular tools, a landmark WhatsApp privacy update, and the latest Kali Linux rel...",
-      "pub_date": "Sun, 05 Jul 2026 14:10:31 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Cyber-Security-News-Bulletin-Weekly.webp"
-    },
-    {
-      "title": "Microsoft Releases OOBE Cumulative Update for Windows 11, Versions 24H2 and 25H2",
-      "link": "https://cybersecuritynews.com/windows-11-oobe-cumulative-update/",
-      "description": "Microsoft has rolled out KB5095189, a new cumulative update targeting the Out-of-Box Experience (OOBE) for Windows 11, versions 24H2 and 25H2. Released on June 23, 2026, this update refines the ini...",
-      "pub_date": "Sun, 05 Jul 2026 06:05:46 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-11-OOBE-Cumulative-Update.webp"
     },
     {
       "title": "JadePuffer ransomware used AI agent to automate entire attack",
@@ -108,33 +180,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwdeBqtwl7nqoAp8TPhZmmr3mUTCcfxluYa7QukD2sI1AjCWoOko2YtQUrCtOLH-tJlYi2lXUA5E3RF51L26gZGyR7sT0GXu73OMB94HhINz5kajaR8-txb-tYNj2Hsm62zVwTaw7Rew6Wazf8eQgo_boWq7DjqbN1jjp5OmwSZ2yG7Y9e04hFVaroUSu6/s1600/go-code.jpg"
-    },
-    {
-      "title": "PamStealer Mimics Maccy Clipboard Manager Silently Harvests Data and Clipboard Contents",
-      "link": "https://cybersecuritynews.com/pamstealer-mimic-as-maccy-harvest/",
-      "description": "PamStealer is a newly identified macOS infostealer that disguises itself as the popular open-source clipboard manager “Maccy” while silently harvesting sensitive user data. Discovered by Jamf T...",
-      "pub_date": "Sat, 04 Jul 2026 04:05:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/PamStealer-Mimic-as-Maccy-clipboard-manager-silently-harvest-data-and-clipboard-contents.webp"
-    },
-    {
-      "title": "Multiple FatFs Vulnerabilities Expose Millions of Embedded Devices to Cyber Risks",
-      "link": "https://cybersecuritynews.com/fatfs-vulnerabilities/",
-      "description": "Security researchers at runZero have disclosed seven new CVEs affecting FatFs, the ubiquitous lightweight FAT/exFAT filesystem driver used across embedded and IoT ecosystems. The vulnerabilities ra...",
-      "pub_date": "Sat, 04 Jul 2026 03:32:58 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/FatFs-Vulnerabilities.webp"
-    },
-    {
-      "title": "New “Bad Epoll” 0-Day Vulnerability Allows Root Access on Linux Servers and Android Devices",
-      "link": "https://cybersecuritynews.com/bad-epoll-0-day-vulnerability/",
-      "description": "A newly disclosed Linux kernel flaw dubbed \u0026#8220;Bad Epoll\u0026#8221; (CVE-2026-46242) allows an unprivileged local user to escalate to root on Linux servers, desktops, and Android devices by exploiti...",
-      "pub_date": "Sat, 04 Jul 2026 02:43:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Bad-Epoll-0-Day-Vulnerability.webp"
     },
     {
       "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
@@ -180,15 +225,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Indian Govt Bans Apps Being Misused to Stop E-Rickshaws Remotely",
-      "link": "https://cybersecuritynews.com/indian-govt-bans-e-rickshaws-apps/",
-      "description": "The Indian government has directed Google and Apple to take down three mobile applications, BAT-BMS, Lossigy, and Epoch-i-ion, after they were allegedly misused to remotely disable e-rickshaws and ...",
-      "pub_date": "Fri, 03 Jul 2026 17:22:07 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Indian-Govt-Bans-Apps-Being-Misused.webp"
     },
     {
       "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
@@ -254,24 +290,6 @@
       "image_url": ""
     },
     {
-      "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
-      "link": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
-      "description": "Google has significantly degraded NetNut, one of the biggest networks that turns home devices into rented relays for other people's traffic.  Working with the FBI, Lumen, and others, Google's Threa...",
-      "pub_date": "Fri, 03 Jul 2026 00:24:06 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAH6tBAe18U0FqA-i5kNNNQYeXjY_LBflzBqVD5rq81OAC6q9c8UsDBsQb5K2F7IAfof5_JZCBpS51DNp63jsXfk4qqwLkckDh4nq-z-Gj0zoRwQu5IZYiNHiBlpp3C-6OR84JeDfPmIr4VLTp2NN6uHRYl0qT273wrbpcnUmd5SbIJH07cPHQxMo6VgI/s1600/proxy.jpg"
-    },
-    {
-      "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
-      "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-      "description": "Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access.  \"Although tactics differ betw...",
-      "pub_date": "Fri, 03 Jul 2026 00:00:33 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5gkjf1FwB4__nC6-pLZYnDv2rJA29UAL9mxfCv4BNSl1FxNpat9jD-OiMRLewjXJXyiSGvqiLYcewN_b1lLFHh0FhzKkrHFzu82jziSuOodYX87FkwjuCcXaqwzWRsiFdsBcd9mzDnak1rJpDu46F8TV206IEcD1pE7njojB8TcQEZ4Wa70KnK2vyeVKI/s1600/ransomwares.jpg"
-    },
-    {
       "title": "How GitHub used secret scanning to reach inbox zero",
       "link": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
       "description": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months. The post How Git...",
@@ -279,15 +297,6 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": ""
-    },
-    {
-      "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
-      "link": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
-      "description": "This week’s security news is mostly about weak spots.  Browsers, bots, sandboxes, AI systems, and email flows all show the same problem in different ways. Everything looks normal until someone te...",
-      "pub_date": "Thu, 02 Jul 2026 20:54:18 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMzwXbN53zy07KSkFJL7uOzty4Pj7VgKS6lSwWWGSCppX0wEX5eY0ZLur2NiFcs-ByBBhbd1WZ270Y4VMMGL6WkvOIZ5MhyphenhyphenkDX2B45wiQue-W88oiF_-RZs0HxvrvcxCHI8Zhhv1-fqHDgnX-VLWk00gt463rQhyKY7Mzcd5STMCYeCUcyVri3aBSUpl2t/s1600/threatsday-board.jpg"
     },
     {
       "title": "Google loses final appeal to overturn €4.1 billion EU fine",
@@ -315,15 +324,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltb655c1b69f13c73b/6846a711536b63f12ca5f649/incident-response-findings-2025.jpg"
-    },
-    {
-      "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
-      "link": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
-      "description": "The threat actor known as ToddyCat has been attributed to a new malware called Umbrij that's designed to gain surreptitious access to a victim's email correspondence via the Google API.  \"In this c...",
-      "pub_date": "Thu, 02 Jul 2026 18:34:13 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMMnC-1ujLiZRcV1xgXbB3qFoIREcbSiGqLCFID8-G-z8GFI3YEY8VniprVEBW4b4TZKJUvoRDg27elntNJWL9S6JZUHMMe1Ie1JLf9w5Fzsgx2w9c94ja1NoED4m3G1pNngC2DDWOOQPgVGiKOd0uBpZkQSSpFOo60S2Tbl8j2VWKdhb70sIJzF8d93LM/s1600/gmail.jpg"
     },
     {
       "title": "Microsoft fixes bug that removed Copilot buttons in Outlook ",
