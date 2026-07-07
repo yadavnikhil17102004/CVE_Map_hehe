@@ -1,6 +1,51 @@
 {
-  "last_updated": "2026-07-07T08:15:50Z",
+  "last_updated": "2026-07-07T11:39:18Z",
   "articles": [
+    {
+      "title": "Hackers Leverage Microsoft Teams Call to Install RMM Tools and Deploy EtherRAT",
+      "link": "https://cybersecuritynews.com/hackers-leverage-microsoft-teams-call/",
+      "description": "Threat actors are now weaponizing something as ordinary as a Microsoft Teams call to slip past corporate defenses and plant a stealthy new remote access trojan called EtherRAT. The campaign blends ...",
+      "pub_date": "Tue, 07 Jul 2026 10:21:41 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Leverage-Microsoft-Teams-Call-to-Install-RMM-Tools-and-Deploy-EtherRAT.webp"
+    },
+    {
+      "title": "OpenAI Codex Desktop App for macOS Vulnerability Allows Attackers to Inject Indirect Prompt",
+      "link": "https://cybersecuritynews.com/codex-desktop-app-for-macos-vulnerability/",
+      "description": "A newly disclosed vulnerability in the OpenAI Codex desktop application for macOS could allow attackers to exploit indirect prompt injection techniques to exfiltrate sensitive data, according to a ...",
+      "pub_date": "Tue, 07 Jul 2026 10:12:52 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/OpenAI-Codex-desktop-app-for-macOS-Vulnerability-Allow-Attackers-to-Inject-indirect-prompt-.webp"
+    },
+    {
+      "title": "Microsoft to enable Windows settings backup by default for orgs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
+      "description": "Microsoft says the Windows settings backup and restore tool will be enabled by default on Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems after upgrading to Windows 11 26...",
+      "pub_date": "Tue, 07 Jul 2026 05:41:19 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+      "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+      "description": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part ...",
+      "pub_date": "Tue, 07 Jul 2026 14:40:51 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitErUXjxgvdr7CLGa67wtfentIJSFkobxbyIMtQNK4mzNTyf_3Mq9mckQNCGONMFqVaCvkvNKf7FqJfevWKstiWEOxt5wDlV_Fus-Ob3bo9vkMb3m5natJZjHhG-0r4FbH5UUBP4aiGtLcJ7mFIIwLw7IPIHOqw5ln1kAC_ZsiOvllGmVXws4bCXBGugBu/s1600/server-hacker.jpg"
+    },
+    {
+      "title": "Cavern Manticore Abuses SysAid RMM and WinDirStat DLL Sideloading to Deploy C2 Framework",
+      "link": "https://cybersecuritynews.com/cavern-manticore-abuses-sysaid-rmm-and-windirstat-dll-sideloading/",
+      "description": "A new Iranian-linked hacking group has been caught abusing everyday IT tools to slip malware onto Israeli networks. Researchers have named the group Cavern Manticore, and its latest campaign shows ...",
+      "pub_date": "Tue, 07 Jul 2026 08:48:01 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Cavern-Manticore-Abuses-SysAid-RMM-and-WinDirStat-DLL-Sideloading-to-Deploy-C2-Framework.webp"
+    },
     {
       "title": "BeyondTrust warns of critical flaws in remote access software",
       "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
@@ -18,6 +63,33 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Tenda Authentication Backdoor Grants Attackers Full Administrative Access",
+      "link": "https://cybersecuritynews.com/tenda-authentication-backdoor-grants-access/",
+      "description": "A newly disclosed vulnerability in Tenda network devices exposes a critical authentication backdoor that allows attackers to gain full administrative access without valid credentials. The flaw affe...",
+      "pub_date": "Tue, 07 Jul 2026 07:19:49 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Tenda-authentication-backdoor-grants-attackers-full-administrative-access.webp"
+    },
+    {
+      "title": "16-Year-Old Linux KVM Vulnerability Allows Malicious Guest to Corrupt Host Kernel Memory",
+      "link": "https://cybersecuritynews.com/16-year-old-linux-kvm-vulnerability/",
+      "description": "A newly disclosed Linux Kernel-based Virtual Machine (KVM) vulnerability, tracked as CVE-2026-53359 and dubbed “Januscape,” exposes a critical flaw that allows a malicious guest to corrupt host...",
+      "pub_date": "Tue, 07 Jul 2026 07:09:36 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/16-Year-Old-Linux-KVM-Vulnerability.webp"
+    },
+    {
+      "title": "Critical BeyondTrust Flaws Let Attackers Bypass Access Controls and Gain Unauthorized Access",
+      "link": "https://cybersecuritynews.com/beyondtrust-vulnerabilities/",
+      "description": "BeyondTrust has disclosed multiple critical and high-severity vulnerabilities affecting its Remote Support (RS) and Privileged Remote Access (PRA) solutions, potentially allowing attackers to bypas...",
+      "pub_date": "Tue, 07 Jul 2026 06:42:42 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-BeyondTrust-Vulnerabilities-Allow-Attackers-bypass-access-controls-and-gain-unauthorized-access.webp"
     },
     {
       "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
@@ -38,6 +110,24 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim5I3ndx1DHNKSznD7AT_CM4ApiaXDfZcQAwsCSDnHq7u8dkGcOzway-IBZJ44bFJintaRMSry4yHbaacESRFOJsRC_UBV6N9l_K4ICcqWsZ2E4zQ5BGibAkxjxm0qPYiiLEvAvDizmPZVYwXC6jN9pgB5G-3xZ9ifiEWisKsZoi9rBjJN1mepJjPl61s9/s1600/bt.jpg"
     },
     {
+      "title": "Windows Device Identifier Feature Leads to Arrest of Scattered Spider Hacking Group Member",
+      "link": "https://cybersecuritynews.com/windows-device-identifier-tracking/",
+      "description": "A persistent Microsoft device identifier was used to unravel the anonymity of an alleged Scattered Spider operator, according to a federal superseding complaint filed in the Northern District of Il...",
+      "pub_date": "Tue, 07 Jul 2026 04:15:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-Device-Identifier-Tracking.webp"
+    },
+    {
+      "title": "Fast-mcp-telegram Vulnerability Allow Attackers to Access Sensitive Files",
+      "link": "https://cybersecuritynews.com/fast-mcp-telegram-vulnerability/",
+      "description": "A critical security flaw has been discovered in the\u0026#160;fast-mcp-telegram\u0026#160;package that could allow remote attackers to access sensitive Telegram session data and perform unauthorized actions....",
+      "pub_date": "Tue, 07 Jul 2026 02:40:00 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Fast-mcp-telegram-Vulnerability-Allow-Attackers-to-Access-Sensitive-Files.webp"
+    },
+    {
       "title": "Phishing poses as big-brand job interview to steal Google accounts",
       "link": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
       "description": "A phishing campaign is impersonating more than 30 well-known brands, including Adobe, Netflix, Coca-Cola, and OpenAI, in fake job interviews to steal Google account credentials from marketing prof...",
@@ -54,6 +144,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Top 10 Best Next-Generation Firewall (NGFW) Solutions in 2026 ",
+      "link": "https://cybersecuritynews.com/best-next-generation-firewall/",
+      "description": "If you’re shortlisting the best next-generation firewall for 2026, Palo Alto Networks’ PA-Series is our top overall pick for its App-ID application control and machine-learning threat preventio...",
+      "pub_date": "Mon, 06 Jul 2026 19:37:13 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh71WmiaBdijVJytGP8P8Y3kYVtNpuLgV9ltWGa-JeRcePBrEsH1tv0TES9WPubbnnE_wFB3pT2MxngSLxxDvtfGTS95ZWDGQSWBkxQGEtHd7vfmNrqBYg3F8HIVROY6cQmBO06PT2qs2KMEhlRWMO6mCwplShrco-quOlqZREEciTTLkCUeaYolArgiiM/s1600/Best%20Next-Generation%20Firewall%20Solutions.webp?ssl=1"
     },
     {
       "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
@@ -81,6 +180,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG42lgj1grtq5EQICr-9RYvPU59uHFRBluzVoZ3TZLXEXBcF5bOPerpb_Ck-e6oNz6P4MO1VAiqbBXuPbImhng1CoRnRYHWSZTGOloHmYB5khhpCK5wW348uMgqmWIjTQPnOwCGV7OiPXJoJDWV0n1IPGP80hADXD3AnmRKbTb8jxyGQenhlgIpvNo29I/s1600/linux-kvm.jpg"
+    },
+    {
+      "title": "Microsoft Device Code Phishing Attack Steals Tokens Through Legitimate Login Page",
+      "link": "https://cybersecuritynews.com/microsoft-device-code-phishing-attack/",
+      "description": "A new phishing technique is tricking users into handing over their Microsoft account tokens without a fake website in sight. Attackers are exploiting a legitimate Microsoft authentication feature t...",
+      "pub_date": "Mon, 06 Jul 2026 17:03:50 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Device-Code-Phishing-Attack-Steals-Tokens-Through-Legitimate-Login-Page.webp"
     },
     {
       "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
@@ -219,21 +327,12 @@
     },
     {
       "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
-      "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/",
+      "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026",
       "description": "It's Time to Upgrade Your SMB SessionThis week, Metasploit contributor Dean Welch has added an SMB to Meterpreter session upgrade module. It uses PsExec to facilitate the upgrade. Users can load th...",
       "pub_date": "Fri, 03 Jul 2026 22:11:22 GMT",
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt7464fe659cab8a01/6852c358419e54d8e21c3458/blog-metasploit-wrap-up-.webp"
-    },
-    {
-      "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
-      "link": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
-      "description": "Security firm runZero has\u0026nbsp;disclosed seven vulnerabilities\u0026nbsp;in\u0026nbsp;FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD c...",
-      "pub_date": "Sat, 04 Jul 2026 01:49:31 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJGo3ti2B3O-v3XpxdiFLMhvMVB_Ee5mmTlis-Qls6K8auWLQtPb4DSLL4snqvuZSxEvYXbGVBiUvRH1wBiw53ovRi-KTpdb0WqPwkZMkA_eHTSkTQVPkexu02-I2u7wc7PKESGKFZxlKRjR1SAkgOK50kIfpqZ9wcEjZCYBWIh6u_L82tXa8WfgUIhmA/s1600/fatfs.jpg"
     },
     {
       "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
@@ -285,15 +384,6 @@
       "link": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
       "description": "Court of Justice of the European Union (CJEU) has dismissed Google's final appeal against a €4.1 billion ($4.7 billion) antitrust fine over the company's use of Android to promote its Chrome brow...",
       "pub_date": "Thu, 02 Jul 2026 11:18:51 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
-      "link": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
-      "description": "ConsentFix and ClickFix attacks steal Microsoft 365 tokens in seconds using fake prompts and OAuth flows. Learn how these MFA bypass tactics work and how to defend against them. [...]",
-      "pub_date": "Thu, 02 Jul 2026 10:00:10 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
