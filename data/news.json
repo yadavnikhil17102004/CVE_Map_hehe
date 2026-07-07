@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-07-07T11:39:18Z",
+  "last_updated": "2026-07-07T14:10:44Z",
   "articles": [
+    {
+      "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
+      "link": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
+      "description": "ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeline, and how organizations can better govern the...",
+      "pub_date": "Tue, 07 Jul 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Windows Adds Microsoft Execution Containers to Secure AI Agent Workflows",
+      "link": "https://cybersecuritynews.com/microsoft-execution-containers-secure-ai-workflows/",
+      "description": "Microsoft has introduced Microsoft Execution Containers (MXC), a new security capability designed to protect AI agent workflows on Windows, marking a significant step toward making Windows more tru...",
+      "pub_date": "Tue, 07 Jul 2026 13:56:05 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-Adds-Microsoft-Execution-Containers-to-Secure-AI-Agent-Workflows.webp"
+    },
+    {
+      "title": "U.S. Cyber Defense Agency Reportedly Using Anthropic’s Mythos to Audit Government Code Repositories",
+      "link": "https://cybersecuritynews.com/u-s-cyber-defense-agency-using-anthropics-mythos/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is reportedly deploying Anthropic\u0026#8217;s advanced AI model, Mythos, to audit federal government code repositories, signaling a grow...",
+      "pub_date": "Tue, 07 Jul 2026 13:38:12 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/U.S.-cyber-defense-agency-Reportedly-Using-Anthropics-Mythos-to-audit-government-code-repositories.webp"
+    },
+    {
+      "title": "Critical PHP PDO Driver Bugs Expose Firebird SQL Injection and PostgreSQL DoS Risks",
+      "link": "https://cybersecuritynews.com/critical-php-pdo-driver-bugs-expose-firebird-sql-injection/",
+      "description": "A newly disclosed pair of flaws in PHP\u0026#8217;s database driver layer shows that even mature code can hide dangerous surprises. The bugs live inside PHP Data Objects (PDO), the abstraction layer web...",
+      "pub_date": "Tue, 07 Jul 2026 13:28:01 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-PHP-PDO-Driver-Bugs-Expose-Firebird-SQL-Injection-and-PostgreSQL-DoS-Risks.webp"
+    },
+    {
+      "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
+      "link": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
+      "description": "U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint.  Microso...",
+      "pub_date": "Tue, 07 Jul 2026 18:57:20 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRD_854zsswRvh7xWklnbEkAjmk7UZy_-dQzlueMbq1ib7deDs-QH0av7XRZ1WEq3vcX57cDDcioIdkebKCiF7qr8xC9Evw7GmFuDS0kQt3mnpXgb3Q2H62eHPIgCy3rk1Mj3uM-Mge0XTfMgSCGaumk3i5KatoyrFnu_PUhg8cZGY1ZAd185qsNqZ1jE/s1600/md-id.jpg"
+    },
+    {
+      "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
+      "link": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+      "description": "Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI) platform, that could resu...",
+      "pub_date": "Tue, 07 Jul 2026 18:57:09 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH0EnuZfnTZVOg-ACF0jKSHBB8TemRtJ6vlDerjpWy9giH2VsJTP_XiktA9SCytwnDcP95jn4gyQaPk2r92S-J-4EcB7FDvenxXiNwJKtg1VQkV_f564nT6mrS6S3wuMX3SC22kdd5nJM9y4IecNKJ3CRq569DtujHzUgaVOAwQDpfvCgkCrSrfeRjT1CQ/s1600/writerai.jpg"
+    },
+    {
+      "title": "Microsoft Confirms Windows 11, 26H2 Comes With Change in Backup Policy",
+      "link": "https://cybersecuritynews.com/windows-11-26h2-backup-policy/",
+      "description": "Microsoft has confirmed a significant change to its Windows settings backup policy with the upcoming release of Windows 11 version 26H2, marking a shift toward improved system resilience and recove...",
+      "pub_date": "Tue, 07 Jul 2026 12:30:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-confirms-Windows-11-26H2-Comes-With-Change-in-backup-policy.webp"
+    },
+    {
+      "title": "Webinar tomorrow: Why modern email attacks require a new approach to defense",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
+      "description": "Tomorrow's webinar explores how behavioral AI can help organizations detect sophisticated phishing, business email compromise, and account takeover attacks while reducing alert fatigue through auto...",
+      "pub_date": "Tue, 07 Jul 2026 08:12:20 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "New Januscape Linux flaw allows VM escape on Intel, AMD devices",
+      "link": "https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/",
+      "description": "A 16-year-old Linux kernel vulnerability, dubbed Januscape, allows attackers to escape a virtual machine and execute arbitrary code on the host. [...]",
+      "pub_date": "Tue, 07 Jul 2026 08:06:09 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Use Recruiter Phishing Emails and Fake Career Pages to Harvest Gmail Logins",
+      "link": "https://cybersecuritynews.com/hackers-use-recruiter-phishing-emails-and-fake-career-pages/",
+      "description": "A new phishing campaign is targeting job seekers by posing as recruiters from recognizable brands. The scheme uses fake career pages and worded emails to trick people into handing over Gmail login ...",
+      "pub_date": "Tue, 07 Jul 2026 12:05:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Use-Recruiter-Phishing-Emails-and-Fake-Career-Pages-to-Harvest-Gmail-Logins.webp"
+    },
+    {
+      "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
+      "link": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
+      "description": "Software supply chain security was hard enough. Then AI joined the build pipeline.  For five years, \"software supply chain security\" meant one question: what's in your code? Which open-source packa...",
+      "pub_date": "Tue, 07 Jul 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0OJ0wrmDju3vsLQqciy7DCza9juzf5jkuI6VPy8mXFoQ-2hVj7uNgqJD8ti8Pft2gayFWUH9TfOuIkqnKyduhjMP9-wqBxuvHPoyp39keS52R_MpsuO0bsKX03-fy2PA3V-gjqOaKuSKoOWaotAyzf9Tsc_zUGJpf4i81bHMrCJYhTo7AjtfsdN_OKuY/s1600/AI-WRITER.jpg"
+    },
     {
       "title": "Hackers Leverage Microsoft Teams Call to Install RMM Tools and Deploy EtherRAT",
       "link": "https://cybersecuritynews.com/hackers-leverage-microsoft-teams-call/",
@@ -83,15 +182,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/16-Year-Old-Linux-KVM-Vulnerability.webp"
     },
     {
-      "title": "Critical BeyondTrust Flaws Let Attackers Bypass Access Controls and Gain Unauthorized Access",
-      "link": "https://cybersecuritynews.com/beyondtrust-vulnerabilities/",
-      "description": "BeyondTrust has disclosed multiple critical and high-severity vulnerabilities affecting its Remote Support (RS) and Privileged Remote Access (PRA) solutions, potentially allowing attackers to bypas...",
-      "pub_date": "Tue, 07 Jul 2026 06:42:42 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-BeyondTrust-Vulnerabilities-Allow-Attackers-bypass-access-controls-and-gain-unauthorized-access.webp"
-    },
-    {
       "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
       "link": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
       "description": "Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices...",
@@ -110,24 +200,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim5I3ndx1DHNKSznD7AT_CM4ApiaXDfZcQAwsCSDnHq7u8dkGcOzway-IBZJ44bFJintaRMSry4yHbaacESRFOJsRC_UBV6N9l_K4ICcqWsZ2E4zQ5BGibAkxjxm0qPYiiLEvAvDizmPZVYwXC6jN9pgB5G-3xZ9ifiEWisKsZoi9rBjJN1mepJjPl61s9/s1600/bt.jpg"
     },
     {
-      "title": "Windows Device Identifier Feature Leads to Arrest of Scattered Spider Hacking Group Member",
-      "link": "https://cybersecuritynews.com/windows-device-identifier-tracking/",
-      "description": "A persistent Microsoft device identifier was used to unravel the anonymity of an alleged Scattered Spider operator, according to a federal superseding complaint filed in the Northern District of Il...",
-      "pub_date": "Tue, 07 Jul 2026 04:15:23 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-Device-Identifier-Tracking.webp"
-    },
-    {
-      "title": "Fast-mcp-telegram Vulnerability Allow Attackers to Access Sensitive Files",
-      "link": "https://cybersecuritynews.com/fast-mcp-telegram-vulnerability/",
-      "description": "A critical security flaw has been discovered in the\u0026#160;fast-mcp-telegram\u0026#160;package that could allow remote attackers to access sensitive Telegram session data and perform unauthorized actions....",
-      "pub_date": "Tue, 07 Jul 2026 02:40:00 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Fast-mcp-telegram-Vulnerability-Allow-Attackers-to-Access-Sensitive-Files.webp"
-    },
-    {
       "title": "Phishing poses as big-brand job interview to steal Google accounts",
       "link": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
       "description": "A phishing campaign is impersonating more than 30 well-known brands, including Adobe, Netflix, Coca-Cola, and OpenAI, in fake job interviews to steal Google account credentials from marketing prof...",
@@ -144,15 +216,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Top 10 Best Next-Generation Firewall (NGFW) Solutions in 2026 ",
-      "link": "https://cybersecuritynews.com/best-next-generation-firewall/",
-      "description": "If you’re shortlisting the best next-generation firewall for 2026, Palo Alto Networks’ PA-Series is our top overall pick for its App-ID application control and machine-learning threat preventio...",
-      "pub_date": "Mon, 06 Jul 2026 19:37:13 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh71WmiaBdijVJytGP8P8Y3kYVtNpuLgV9ltWGa-JeRcePBrEsH1tv0TES9WPubbnnE_wFB3pT2MxngSLxxDvtfGTS95ZWDGQSWBkxQGEtHd7vfmNrqBYg3F8HIVROY6cQmBO06PT2qs2KMEhlRWMO6mCwplShrco-quOlqZREEciTTLkCUeaYolArgiiM/s1600/Best%20Next-Generation%20Firewall%20Solutions.webp?ssl=1"
     },
     {
       "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
@@ -180,15 +243,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG42lgj1grtq5EQICr-9RYvPU59uHFRBluzVoZ3TZLXEXBcF5bOPerpb_Ck-e6oNz6P4MO1VAiqbBXuPbImhng1CoRnRYHWSZTGOloHmYB5khhpCK5wW348uMgqmWIjTQPnOwCGV7OiPXJoJDWV0n1IPGP80hADXD3AnmRKbTb8jxyGQenhlgIpvNo29I/s1600/linux-kvm.jpg"
-    },
-    {
-      "title": "Microsoft Device Code Phishing Attack Steals Tokens Through Legitimate Login Page",
-      "link": "https://cybersecuritynews.com/microsoft-device-code-phishing-attack/",
-      "description": "A new phishing technique is tricking users into handing over their Microsoft account tokens without a fake website in sight. Attackers are exploiting a legitimate Microsoft authentication feature t...",
-      "pub_date": "Mon, 06 Jul 2026 17:03:50 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Device-Code-Phishing-Attack-Steals-Tokens-Through-Legitimate-Login-Page.webp"
     },
     {
       "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
@@ -281,15 +335,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ_WItJUaS3rk5pAYa5yOsKuUt0Yovlv1T-jIz2GBBhcmMjToCgnWuEApyWfgDwngwAPcEGke0zwo_2DKKHaN9vzzHMAnd7Z3esepEvjSM022BzOdjo0sJW2bSMlslKXVv5Fg701ozva1HDgZPJV4Qya8Xevye-eT4dB0UmIJK9CKq-_wLnEGgNYigRLzh/s1600/opera-data-leak.jpg"
     },
     {
-      "title": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
-      "link": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
-      "description": "Scanners meant to catch malicious add-on \"skills\" for AI coding agents can be fooled by a few simple changes that leave the malware working, according to a\u0026nbsp;new study\u0026nbsp;from researchers at t...",
-      "pub_date": "Mon, 06 Jul 2026 12:03:56 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjw4ZKsU9PwSPcL_Vs2ZqYIh0ahMuSFSNcCv_Y5MiM7MRsUgeZCDa5XTSWVYQXjLg-ByFbm4cHoo-8SSeWrB7KSdYrl4A1Ioif-v8NLNA43asXEHtYjn6uad21Savnzi_1iJ0YQ44iuXECEIBbyc3l7lJ9l2pdofVvP7dM3n9Ji5OeUeuPDHX5sqBJreUUB/s1600/ai-skills.jpg"
-    },
-    {
       "title": "Flipper Zero firmware development continues with community help",
       "link": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
       "description": "Flipper Devices says development of the Flipper Zero firmware will continue, albeit with a smaller internal team and greater reliance on community contributions. [...]",
@@ -306,24 +351,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
-      "link": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
-      "description": "A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new\u0026nbsp;case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and ...",
-      "pub_date": "Sat, 04 Jul 2026 18:17:53 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEfi15-eigOUF4SV157a0LsEW4uNvhRyEIhWWYVNo8tn0tfMjuJ0Cr6zYUDeVh6VfzA-7MpWgIVX8sJgieRMD6e0KSBmB2zNmTU1ko1KPMbkBd-JHMBluVBUOjV06SebkYq4AKFssmEQ6DdGw4yy4X3qesVYJcwwgZSsQFUu4Wfy3un9alrX2Qy8IjacE/s1600/county-hacked.jpg"
-    },
-    {
-      "title": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
-      "link": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
-      "description": "The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrom...",
-      "pub_date": "Sat, 04 Jul 2026 16:47:24 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwdeBqtwl7nqoAp8TPhZmmr3mUTCcfxluYa7QukD2sI1AjCWoOko2YtQUrCtOLH-tJlYi2lXUA5E3RF51L26gZGyR7sT0GXu73OMB94HhINz5kajaR8-txb-tYNj2Hsm62zVwTaw7Rew6Wazf8eQgo_boWq7DjqbN1jjp5OmwSZ2yG7Y9e04hFVaroUSu6/s1600/go-code.jpg"
     },
     {
       "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
@@ -353,39 +380,12 @@
       "image_url": ""
     },
     {
-      "title": "Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
-      "description": "Anthropic says Claude Fable 5 won't be accessible via Claude subscriptions after July 7, but it's not a permanent change, and the company expects the model to return outside the usage-based plan so...",
-      "pub_date": "Thu, 02 Jul 2026 21:37:09 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Claude Fable relaunch disappoints users with nerfed performance",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/",
-      "description": "Claude Fable, the company's most powerful model, is now available to all users, but early impressions are disappointing, as it appears to be nowhere near the original release. [...]",
-      "pub_date": "Thu, 02 Jul 2026 20:48:30 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "How GitHub used secret scanning to reach inbox zero",
       "link": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
       "description": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months. The post How Git...",
       "pub_date": "Thu, 02 Jul 2026 16:00:00 +0000",
       "source": "GitHub Security",
       "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "Google loses final appeal to overturn €4.1 billion EU fine",
-      "link": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
-      "description": "Court of Justice of the European Union (CJEU) has dismissed Google's final appeal against a €4.1 billion ($4.7 billion) antitrust fine over the company's use of Android to promote its Chrome brow...",
-      "pub_date": "Thu, 02 Jul 2026 11:18:51 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
       "image_url": ""
     },
     {
