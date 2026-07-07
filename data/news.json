@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-07-07T17:06:32Z",
+  "last_updated": "2026-07-07T19:43:41Z",
   "articles": [
+    {
+      "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
+      "description": "Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched...",
+      "pub_date": "Tue, 07 Jul 2026 14:52:19 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Hidden backdoor in Tenda router firmware grants admin access",
+      "link": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
+      "description": "A hidden authentication backdoor has been found in multiple Tenda router firmware versions, potentially allowing an attacker to gain administrative access to the device's web management panel. [...]",
+      "pub_date": "Tue, 07 Jul 2026 13:27:22 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
+      "link": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+      "description": "A new Android malware operation called RedWing is being rented out on Telegram as a ready-made bank-fraud service. It lets even low-skill criminals take over a victim's phone, steal their banking l...",
+      "pub_date": "Tue, 07 Jul 2026 22:40:15 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdqPEGRKkKA7pjGNpR8hijHzJLPvyPD1g1C8bTt91eLUOFdu6Jw99i8LFybvHG9SP3syQ8shdXpC6EhinlQoB9aTgBMtejiCWAzVhhTi0o3nCTKZeKNnwDY0J_Lbf9LGN-KIQIoJ7-GW2op-JUcBg64uz5Actwh7TsFEstwNx9fXnLj4SODskUpnX9TPE/s1600/android-trojan-telegram.jpg"
+    },
     {
       "title": "Critical Vulnerability in GCP Dialogflow Allows Attackers to Inject Malicious Code",
       "link": "https://cybersecuritynews.com/gcp-dialogflow-vulnerability/",
@@ -9,6 +36,15 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GCP-Dialogflow-Vulnerability.webp"
+    },
+    {
+      "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
+      "link": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
+      "description": "A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project.  F...",
+      "pub_date": "Tue, 07 Jul 2026 22:07:33 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9i8xIVWZcplpj-QuKnJKGAJjGi0Xq-q2R_luyy-HYXWkpsAPTYASmVbm2w2DoNOQkA81fyu0OQsbflhLykcYQpv66UDBeRxU1v5-xq7kQDQMS0cmvsCFmZI36jfyGxh6xrroU4hNhH_8_nOyXV_WG07om2t4riI-HP4wzE3HJr2KJ3-sUnKxbTNhV84k/s1600/google-chatbots.jpg"
     },
     {
       "title": "The Gentlemen Ransomware With Custom EDR/AV Killers Scaling Faster to Attack Industries Worldwide",
@@ -326,37 +362,10 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeiJymlyu6GGdzNT0Fb3yi6rYZdNn_XCoDUKKV9zSD_p17gngK7FL-IDm5LLTYlGx6Rn2Em6v0TSDq7u_1lttLyp1b97z7YrjSrFK7MrYAG2k1YXI91fHRRTRoPV1xIQSukE1DwqRcHY6i6fIS0jC2CaKv18OhFWHi2fKvXRKmZ6MBgSoRMDWGxmQKlfTt/s1600/aisoc.jpg"
     },
     {
-      "title": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
-      "link": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
-      "description": "A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan designed to steal sens...",
-      "pub_date": "Mon, 06 Jul 2026 16:28:16 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0L8iGbVZ6lxBg26K2nsc6uYpFED8ZcgCtrh4C34U4oixLPC0OKHOWWpiPBfaSwe-tpOTbCqZfRZQTMoropayZXEm0GXTtKpyBuBPRk9zF-0WPRprknYiaI2DXLDZnQb8t70R7-0Fjl5G-NNCQFF-Ex40vQZMbUJmJ2JLyXJUjYdAVvgjl3_oBF5wbHrHl/s1600/income-tax.jpg"
-    },
-    {
-      "title": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions",
-      "link": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
-      "description": "Researchers at\u0026nbsp;Shandong University\u0026nbsp;have shown a fast new way to pull data off computers that are cut off from every network. The technique, called\u0026nbsp;TrojPix, tweaks on-screen pixels in...",
-      "pub_date": "Mon, 06 Jul 2026 14:20:54 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLYJDaMKVJEwbsJA1eYJaguihQzJv2dpnIl512z5xBuWojpidgE7mvbGWz27QN-Dnwx74qvCYOYGQNY4h2K00TzF_hz8D6M9gNxWALh2f2bz6jrzwuKvTuuLsb6kwU1O72qPUIjQYHtRwGPCCUYt-TDFJEZ7frhvxvsQa4vWP7HkLRPtXCi0ovIACzurMP/s1600/TrojPix-attack.jpg"
-    },
-    {
       "title": "Flipper Zero firmware development continues with community help",
       "link": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
       "description": "Flipper Devices says development of the Flipper Zero firmware will continue, albeit with a smaller internal team and greater reliance on community contributions. [...]",
       "pub_date": "Sun, 05 Jul 2026 10:14:52 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "JadePuffer ransomware used AI agent to automate entire attack",
-      "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
-      "description": "Researchers identified what they believe is the first documented case of a ransomware operation, JadePuffer, conducted entirely by a large language model (LLM) agent. [...]",
-      "pub_date": "Sat, 04 Jul 2026 10:16:38 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
@@ -369,15 +378,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt7464fe659cab8a01/6852c358419e54d8e21c3458/blog-metasploit-wrap-up-.webp"
-    },
-    {
-      "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
-      "link": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
-      "description": "A joint operation involving Google has disrupted NetNut, a residential proxy network that gave access to millions of compromised Android devices, including smart TVs and streaming boxes. [...]",
-      "pub_date": "Fri, 03 Jul 2026 13:50:04 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "How GitHub used secret scanning to reach inbox zero",
@@ -722,10 +722,73 @@
       "image_url": ""
     },
     {
-      "title": "CubeSpace CW0057 Reaction Wheel",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to upload arbitrary malicious firmware to the device. The following versions of CubeSpace CW0057 Reaction Whe...",
-      "pub_date": "Thu, 02 Jul 26 12:00:00 +0000",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-48908 JoomShaper SP Page Builder Unrestricted Uplo...",
+      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Hitachi Energy e-mesh EMS",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03",
+      "description": "View CSAF Summary Hitachi Energy is aware of a buffer overflow vulnerability that affects e-mesh EMS product versions listed in this document. Successful exploitation of this vulnerability could le...",
+      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Labcenter Proteus 9",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could disclose information and allow a malicious user to execute arbitrary code on affected installations. The following versions ...",
+      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Hitachi Energy PROMOD V",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-02",
+      "description": "View CSAF Summary Hitachi Energy is aware of insecure HTTP transmission vulnerability in PROMOD V product versions listed in this document. This vulnerability could allow attackers to intercept or ...",
+      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Digi International PortServer TS, Digi One SP IA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-07",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication and gain access to restricted resources, obtain credentials, and inject malicious...",
+      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens SINEC OS",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-05",
+      "description": "View CSAF Summary SINEC OS before V4.0 contains multiple vulnerabilities. Siemens has released a new version for RUGGEDCOM RST2428P and recommends to update to the latest version. The following ver...",
+      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens Mendix Studio Pro",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-04",
+      "description": "View CSAF Summary Mendix Studio Pro versions before V11.12 are affected by a file parsing vulnerability that could be triggered when the application reads specially crafted malicious project during...",
+      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Hydro-Québec Le Circuit Electrique charging station backend",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could lead to privilege escalation, or result in a denial-of-service attack. The following versions of Hydro-Québec Le Circuit El...",
+      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
@@ -743,6 +806,15 @@
       "title": "ST Engineering iDirect iQ-Series Terminals",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition. The following ve...",
+      "pub_date": "Thu, 02 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "CubeSpace CW0057 Reaction Wheel",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to upload arbitrary malicious firmware to the device. The following versions of CubeSpace CW0057 Reaction Whe...",
       "pub_date": "Thu, 02 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -767,24 +839,6 @@
       "image_url": ""
     },
     {
-      "title": "Mitsubishi Electric MELSOFT Update Manager SW1DND-UDM-M",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a local attacker to tamper with or destroy information in the affected product, cause a denial-of-service condition in...",
-      "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "OFFIS DCMTK Toolkit",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to write files, access unauthorized information, exhaust memory, or crash affected DCMTK client or server ...",
-      "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
       "title": "XZ Utils vulnerability impacting B\u0026R Products",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
       "description": "View CSAF Summary An update is available that resolves vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could caus...",
@@ -794,64 +848,10 @@
       "image_url": ""
     },
     {
-      "title": "Schneider Electric EcoStruxure IT Data Center Expert",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-03",
-      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ IT Data Center Expert. The EcoStruxure™ IT Data Center Expert product is a scalable monitoring software that...",
+      "title": "Mitsubishi Electric MELSOFT Update Manager SW1DND-UDM-M",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a local attacker to tamper with or destroy information in the affected product, cause a denial-of-service condition in...",
       "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "StoneFly Storage Concentrator",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-06",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to gain broad unauthorized access, execute arbitrary commands with root privileges, steal sensitive data, an...",
-      "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Frangoteam FUXA SCADA/HMI",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to enumerate all user accounts and role assignments on a FUXA SCADA/HMI instance. The ...",
-      "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Delta Electronics DVP12SE PLC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to remotely issue commands, modify operational values, interfere with control logic, and alter device beha...",
-      "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-48558 SimpleHelp Authentication Bypass Vulnerability  ...",
-      "pub_date": "Mon, 29 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Russian Intelligence Services Continue to Target Commercial Messaging Applications",
-      "link": "https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-continue-target-commercial-messaging-applications",
-      "description": "CISA and the Federal Bureau of Investigation (FBI) issued an updated Public Service Announcement (PSA) warning of Russian Intelligence Services (RIS) cyber threat actors targeting commercial messag...",
-      "pub_date": "Fri, 26 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Daktronics Controller Firmware",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-04",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could could provide an unauthenticated user with complete root-level access and control of the system. The following versions of D...",
-      "pub_date": "Thu, 25 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
