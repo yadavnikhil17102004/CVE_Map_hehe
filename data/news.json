@@ -1,6 +1,60 @@
 {
-  "last_updated": "2026-07-08T08:11:19Z",
+  "last_updated": "2026-07-08T10:55:43Z",
   "articles": [
+    {
+      "title": "CISA Warns of Adobe ColdFusion Path Traversal Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/adobe-coldfusion-path-traversal-exploited/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical Adobe ColdFusion vulnerability, tracked as CVE-2026-48282, to its Known Exploited Vulnerabilities (KEV) catalog...",
+      "pub_date": "Wed, 08 Jul 2026 10:23:36 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/CISA-Warns-of-Adobe-ColdFusion-Path-Traversal-Vulnerability-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) gave federal agencies until Friday to patch an actively exploited vulnerability in the Langflow visual framework for building AI age...",
+      "pub_date": "Wed, 08 Jul 2026 05:58:11 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "70% of WordPress Sites Running Outdated PHP Versions Exposed to Cyberattacks",
+      "link": "https://cybersecuritynews.com/wordpress-sites-running-outdated-php-versions-exposed/",
+      "description": "A recent study has revealed that more than 70% of publicly accessible WordPress websites are running outdated versions of PHP, significantly increasing their exposure to cyberattacks. The findings ...",
+      "pub_date": "Wed, 08 Jul 2026 09:43:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/70-of-WordPress-sites-Running-outdated-PHP-versions-Exposed-to-Cyberattacks.webp"
+    },
+    {
+      "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
+      "link": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
+      "description": "A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking devices.  According...",
+      "pub_date": "Wed, 08 Jul 2026 14:34:33 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXpYmSnXODMABymw2qCiVS3p13OIwfJ45yIZq-o8wXfgtWXxOPjPbsGjdgEExUsWcvkKhtyPBhGsc6mSIzg8fzwrVJE_GIIm0k3qbzMd7BSjUcAjRFznnsXjv-dnG-Zq671G-_PYcHe88J4yTpy0FBc_pReVfNVrwGvGceEvAbLqA_roMRNI2DjbwohEqK/s1600/routers.jpg"
+    },
+    {
+      "title": "Hackers Exploit Roundcube N-Day Flaws to Steal Credentials and Deploy VShell",
+      "link": "https://cybersecuritynews.com/hackers-exploit-roundcube-n-day-flaws/",
+      "description": "A newly identified hacking campaign is targeting university mail servers by exploiting known but unpatched flaws in Roundcube webmail software. The attackers are using these gaps to quietly steal l...",
+      "pub_date": "Wed, 08 Jul 2026 08:56:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Exploit-Roundcube-N-Day-Flaws-to-Steal-Credentials-and-Deploy-VShell.webp"
+    },
+    {
+      "title": "Ubiquiti warns of new max severity  UniFi OS vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
+      "description": "Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]",
+      "pub_date": "Wed, 08 Jul 2026 04:15:20 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "China-Nexus Hackers Exploit Ruckus Routers to Build Operational Relay Box Networks",
       "link": "https://cybersecuritynews.com/china-nexus-hackers-exploit-ruckus-routers/",
@@ -135,33 +189,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9i8xIVWZcplpj-QuKnJKGAJjGi0Xq-q2R_luyy-HYXWkpsAPTYASmVbm2w2DoNOQkA81fyu0OQsbflhLykcYQpv66UDBeRxU1v5-xq7kQDQMS0cmvsCFmZI36jfyGxh6xrroU4hNhH_8_nOyXV_WG07om2t4riI-HP4wzE3HJr2KJ3-sUnKxbTNhV84k/s1600/google-chatbots.jpg"
-    },
-    {
-      "title": "The Gentlemen Ransomware With Custom EDR/AV Killers Scaling Faster to Attack Industries Worldwide",
-      "link": "https://cybersecuritynews.com/gentlemen-ransomware-global-attacks/",
-      "description": "The Gentlemen is one of the most rapidly escalating ransomware threats observed in 2026. Emerging in mid-2025 from a payment dispute within the Qilin RaaS program, the group has evolved into a full...",
-      "pub_date": "Tue, 07 Jul 2026 16:23:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/The-Gentlemen-Ransomware1.webp"
-    },
-    {
-      "title": "VECT and TeamPCP Reverse Ransomware Kill Chain With Supply Chain Credential Theft",
-      "link": "https://cybersecuritynews.com/vect-and-teampcp-reverse-ransomware-kill-chain/",
-      "description": "A ransomware strain called VECT has formed an unusual supply chain partnership with a threat group known as TeamPCP, quietly exposing thousands of organizations to compromise before any ransom note...",
-      "pub_date": "Tue, 07 Jul 2026 16:15:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/VECT-and-TeamPCP-Reverse-Ransomware-Kill-Chain-With-Supply-Chain-Credential-Theft.webp"
-    },
-    {
-      "title": "4,982 Security Issues Identified Across 2,259 Affected in Public MCP Servers",
-      "link": "https://cybersecuritynews.com/security-issues-mcp-servers/",
-      "description": "A sweeping security crisis across public Model Context Protocol (MCP) servers, cataloging 4,982 security issues across 2,259 affected servers, exposing serious gaps that directly threaten the emerg...",
-      "pub_date": "Tue, 07 Jul 2026 15:59:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/4982-Security-Issues-Identified-Across-2259-Affected-in-public-MCP-servers.webp"
     },
     {
       "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
@@ -326,15 +353,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj80nucNUGoxxOtE3SUY1SkDSu77qENrl96c2MUoLWdwAo3ZVoA4FS2QfOdM9c5bsZUJdX1ZxIsXgu7pvVfUzXz3GMZJHmblFTjv5C08dbxvLqXol72iHaD-zH950EZdXUCS-b7F2T-bn8SgqQb9nXA-uOPIaX5V0eaNNmKlQJfWHAKaPAhqsgNL0wTgJH6/s1600/cavern.jpg"
     },
     {
-      "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
-      "link": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
-      "description": "​Vietnamese authorities have arrested and are prosecuting seven suspects believed to have run HiAnime, the largest anime piracy streaming service before its shutdown in June. [...]",
-      "pub_date": "Mon, 06 Jul 2026 14:25:06 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
       "link": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
       "description": "A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it.  Dubbed 'Januscape' and tracked as\u0026nbs...",
@@ -344,15 +362,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG42lgj1grtq5EQICr-9RYvPU59uHFRBluzVoZ3TZLXEXBcF5bOPerpb_Ck-e6oNz6P4MO1VAiqbBXuPbImhng1CoRnRYHWSZTGOloHmYB5khhpCK5wW348uMgqmWIjTQPnOwCGV7OiPXJoJDWV0n1IPGP80hADXD3AnmRKbTb8jxyGQenhlgIpvNo29I/s1600/linux-kvm.jpg"
     },
     {
-      "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
-      "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-      "description": "Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig.  The vulnerability in question is CVE-2026-20896 (CVSS ...",
-      "pub_date": "Mon, 06 Jul 2026 21:58:59 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge0sNgi3moDw0JpFy3UdFB6bK0oxjaqc8ORZFecu5QqxA_wgpoWT1t56L9u2wScSkxYHP2aLO3N01yCPd8IkTBEyc_MvxIaG6BKzneB0LcXuwO_nEorvNvyvuEL3Krp003q6xOF0gePQCXN_bDswxBIhqV7q89_HY9mIxJ5ySShQwtU_jSa9FQnt0tq0RU/s1600/admin.jpg"
-    },
-    {
       "title": "A Day With Your Vector Command Red Team Pod",
       "link": "https://www.rapid7.com/blog/post/so-ditl-day-with-your-vector-command-red-team-pod",
       "description": "Anyone trying to understand continuous red teaming usually gets the same high-level explanation: it is ongoing, attacker-informed, and designed to uncover risk between formal assessments. Useful as...",
@@ -360,15 +369,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt3cc8c945f314ec1f/68b9a045a7d14357b3ba893b/blog-hero-texture-lines.jpg"
-    },
-    {
-      "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
-      "link": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
-      "description": "Every evolution in software development has reduced the friction between an idea and a deployable application. AI may remove the final barrier, but it also removes many of the moments where securit...",
-      "pub_date": "Mon, 06 Jul 2026 10:00:10 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
