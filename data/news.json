@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-07-08T19:10:43Z",
+  "last_updated": "2026-07-08T20:58:18Z",
   "articles": [
+    {
+      "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
+      "description": "Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]",
+      "pub_date": "Wed, 08 Jul 2026 15:54:59 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Lurking Lizard Uses Fake 7-Zip Installers to Turn Victim Devices Into Proxy Nodes",
+      "link": "https://cybersecuritynews.com/lurking-lizard-uses-fake-7-zip-installers/",
+      "description": "A newly uncovered cybercriminal operation has been quietly turning ordinary computers into paid proxy servers for years, hiding behind a fake version of the popular 7-Zip file compression tool. Vic...",
+      "pub_date": "Wed, 08 Jul 2026 19:22:37 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Lurking-Lizard-Uses-Fake-7-Zip-Installers-to-Turn-Victim-Devices-Into-Proxy-Nodes.webp"
+    },
     {
       "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
@@ -128,15 +146,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Mycelium-Framework-First-Ever-Know-Botnet-as-an-AI-as-a-Service.webp"
     },
     {
-      "title": "Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?",
-      "link": "https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey",
-      "description": "The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global...",
-      "pub_date": "Wed, 08 Jul 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt7652fa46396969f5/69a59e6cfbdb4d75ad7755a9/REQ-14706_-_1600x900px.png"
-    },
-    {
       "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
       "link": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
       "description": "A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This “ghost phishing” technique keeps the malicious page hidden until it ...",
@@ -144,6 +153,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl6gaxMQBH0Bjb1ZhuaOiM5gKEk-zuSf821eRfV33ogx6YWwENunjyOPF8VXHtgtHgIevENLfBV2O04QI4TtjtDe2PGGevWptQEEagmp6q-G4FqOankGokz70XzVtz7dmNbEZ5G7-pV0yINgd2-ima7ap8xeOxuhZBKw2WPoUo81wKmGrwsPxbzYkW5Wk/s1600/anyrun-main.jpg"
+    },
+    {
+      "title": "Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?",
+      "link": "https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey",
+      "description": "The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global...",
+      "pub_date": "Wed, 08 Jul 2026 13:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt7652fa46396969f5/69a59e6cfbdb4d75ad7755a9/REQ-14706_-_1600x900px.png"
     },
     {
       "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
@@ -180,15 +198,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifE8OSGx2cVUZ1jiVnMC-LHyladj2cJ1FWw2-t0wDJEK4Icxrhk_bFReZr8jCiNkmpamFxdBGLpgruMJh1g7c687TCf4R76GG8xJEzB9kzPLTXo18DUZkT9_T5LHeikWsoEDeBm-gapabqgRUl2sAyhaPeYOWIs7Re0-jr2CMoKVn5AzlXdU1W6oWIy6mv/s1600/git-hash.jpg"
-    },
-    {
-      "title": "First-Ever 1- Click Android 17 Exploit Allows Attackers to Gain Full Control Over Your Android Phone",
-      "link": "https://cybersecuritynews.com/android-17-root-1-click/",
-      "description": "A full-chain exploit dubbed \u0026#8220;IonStack\u0026#8221; demonstrates how a single malicious URL click can hand attackers complete control over an Android device. The proof-of-concept by Nebula Security,...",
-      "pub_date": "Wed, 08 Jul 2026 11:45:42 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Android-17-Root-1-click.webp"
     },
     {
       "title": "The Verification Step Is the New ATO Battleground in 2026",
@@ -411,15 +420,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
       "description": "Tomorrow's webinar explores how behavioral AI can help organizations detect sophisticated phishing, business email compromise, and account takeover attacks while reducing alert fatigue through auto...",
       "pub_date": "Tue, 07 Jul 2026 08:12:20 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "New Januscape Linux flaw allows VM escape on Intel, AMD devices",
-      "link": "https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/",
-      "description": "A 16-year-old Linux kernel vulnerability, dubbed Januscape, allows attackers to escape a virtual machine and execute arbitrary code on the host. [...]",
-      "pub_date": "Tue, 07 Jul 2026 08:06:09 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
