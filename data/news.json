@@ -1,6 +1,60 @@
 {
-  "last_updated": "2026-07-08T05:14:39Z",
+  "last_updated": "2026-07-08T08:11:19Z",
   "articles": [
+    {
+      "title": "China-Nexus Hackers Exploit Ruckus Routers to Build Operational Relay Box Networks",
+      "link": "https://cybersecuritynews.com/china-nexus-hackers-exploit-ruckus-routers/",
+      "description": "UAT-7810, a China-nexus hacking group, is expanding a global network of hijacked internet devices by exploiting security flaws in Ruckus wireless routers and rolling out new custom malware. This ac...",
+      "pub_date": "Wed, 08 Jul 2026 07:51:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/China-Nexus-Hackers-Exploit-Ruckus-Routers-to-Build-Operational-Relay-Box-Networks.webp"
+    },
+    {
+      "title": "Discord’s Security Systems Mistakenly Banned 8,000+ Accounts Since May 2026",
+      "link": "https://cybersecuritynews.com/discords-systems-users-banned/",
+      "description": "Discord has confirmed that a bug in its automated security systems led to the wrongful suspension of more than 8,000 user accounts between May 2026 and early July 2026. The company disclosed the is...",
+      "pub_date": "Wed, 08 Jul 2026 07:36:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Discords-Systems-Users-Banned.webp"
+    },
+    {
+      "title": "CISA orders feds to patch max severity ColdFusion flaw by Friday",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app deve...",
+      "pub_date": "Wed, 08 Jul 2026 03:16:55 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "15-year-old GhostLock Kernel Flaw Enables Privilege Escalation in Major Linux Distributions",
+      "link": "https://cybersecuritynews.com/15-year-old-ghostlock-linux-kernel-vulnerability/",
+      "description": "A critical Linux kernel vulnerability, tracked as CVE-2026-43499 and dubbed “GhostLock,” has been disclosed by security researchers at VEGA, exposing a privilege escalation flaw that has silent...",
+      "pub_date": "Wed, 08 Jul 2026 06:59:17 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GhostLock-Kernel-Flaw.webp"
+    },
+    {
+      "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+      "link": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
+      "description": "Researchers at\u0026nbsp;Nebula Security\u0026nbsp;have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full\u0026nbsp;root\u0026nbsp;control of a machine that h...",
+      "pub_date": "Wed, 08 Jul 2026 11:46:44 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid8ZRwAprNDN6zAPixm22IlrKWp03FJdQF0TxCV5v_jxckPLkOHRSzHQERbDNw_FZdnyluuhyphenhyphenGZ7pSX51cjBl-S8PrqhgARlAe8VfWPabk7t4hAy37ZSrRu6oXfRYlXP7s1x1OBYW9WHmgWobGS0wiC0mrO42xHWHrSI3ICLM5OFzsOA3tVCcs4_N1yPU/s1600/linux-root.gif"
+    },
+    {
+      "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+      "link": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.  ...",
+      "pub_date": "Wed, 08 Jul 2026 11:03:12 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZn36WwWfaOwK7XCU9aKjVPS7QAyrnBKsKMXtVRyYbD2X30HI-ojl5F8ttD9VcbXB36anuKWq-JGEhzPq1fjwnEhKPKMjkPDMPAFe8OqR85N1dc0QZoZ7JCN9ziqGuQ8M4irelfxa_zca62EV-s9qBO9WI47ECtzM8Zi2X8T-MFfuRRbJQ8u48Y2RRt3UT/s1600/cisa-main.jpg"
+    },
     {
       "title": "OpenAI Reportedly Secures US Government Clearance to Launch GPT-5.6 Model",
       "link": "https://cybersecuritynews.com/openai-gpt-5-6-model/",
@@ -110,24 +164,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/4982-Security-Issues-Identified-Across-2259-Affected-in-public-MCP-servers.webp"
     },
     {
-      "title": "The $50K-to-$5M Gap: Why Your SOC SLA Is Stuck in 2019 — Here’s the 2026 AI SLA Vendor Guide",
-      "link": "https://cybersecuritynews.com/ai-soc-sla-2026-framework/",
-      "description": "A technical breakdown of why legacy MDR contract language fails in the age of AI-driven security operations — and the measurable standards that should replace it.\u0026#160; The Problem: Contracts Wri...",
-      "pub_date": "Tue, 07 Jul 2026 15:25:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/AI-SOC-SLA.webp"
-    },
-    {
-      "title": "GitLost Vulnerability Tricks GitHub’s AI Agent into Leaking Private Repos",
-      "link": "https://cybersecuritynews.com/gitlost-vulnerability-github/",
-      "description": "A newly disclosed vulnerability dubbed \u0026#8220;GitLost\u0026#8221; shows how attackers can weaponize a single GitHub Issue to trick GitHub\u0026#8217;s new AI-powered Agentic Workflows into leaking private re...",
-      "pub_date": "Tue, 07 Jul 2026 15:22:29 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GitLost-Vulnerability-GitHub.webp"
-    },
-    {
       "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
       "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
       "description": "The National Police in Spain have arrested a man who is suspected of being an active member of the CyberArmy of Russia Reborn (CARR) and Z-Pentest, both pro-Russian hacktivist groups. [...]",
@@ -135,15 +171,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "AnyDesk Phishing Attack Uses Scheduled Task Persistence and Artifact Deletion to Evade Detection",
-      "link": "https://cybersecuritynews.com/anydesk-phishing-attack-uses-scheduled-task-persistence/",
-      "description": "A new phishing campaign is turning a trusted remote access tool into a long term backdoor for espionage. Attackers hide behind fake invoices to slip past email filters, and once inside a network th...",
-      "pub_date": "Tue, 07 Jul 2026 15:17:32 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/AnyDesk-Phishing-Attack-Uses-Scheduled-Task-Persistence-and-Artifact-Deletion-to-Evade-Detection.webp"
     },
     {
       "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
@@ -342,33 +369,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
-      "description": "Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability tracked as CVE-2026-48282, according to vulnerability intelligence company KEVIntel. [...]",
-      "pub_date": "Mon, 06 Jul 2026 09:18:37 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
-      "link": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
-      "description": "A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset flow, or a browser permission prompt. That is the irritating part this week: the risky pieces w...",
-      "pub_date": "Mon, 06 Jul 2026 18:31:14 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLyTSo2j_jLDBALDaJ6S4gpQf2xkxgGWRslJKuVLIrY-J7nsEG-zNgi02OKeABO5BNXCI1C05oTO1TdYYMtzjCHE7ugevubBOybwilFTXFY6wgXDBVkzMV3-cyYyZUfd-sfXmlfTtgyouay2kJYwxfclTk2M6PPOaLWdR-26P3TYuIm1l5wjQfoPVzk-ca/s1600/recapss.jpg"
-    },
-    {
-      "title": "How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions",
-      "link": "https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html",
-      "description": "Building a shortlist for an AI SOC evaluation can be tough. SIEM, SOAR, and pureplay AI SOC vendors are all saying the same thing. But behind the identical label sit very different products, from c...",
-      "pub_date": "Mon, 06 Jul 2026 17:00:02 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeiJymlyu6GGdzNT0Fb3yi6rYZdNn_XCoDUKKV9zSD_p17gngK7FL-IDm5LLTYlGx6Rn2Em6v0TSDq7u_1lttLyp1b97z7YrjSrFK7MrYAG2k1YXI91fHRRTRoPV1xIQSukE1DwqRcHY6i6fIS0jC2CaKv18OhFWHi2fKvXRKmZ6MBgSoRMDWGxmQKlfTt/s1600/aisoc.jpg"
     },
     {
       "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
