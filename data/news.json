@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-07-09T00:02:13Z",
+  "last_updated": "2026-07-09T04:53:27Z",
   "articles": [
+    {
+      "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
+      "link": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
+      "description": "Researchers at\u0026nbsp;Wiz\u0026nbsp;found that a flaw in six popular AI coding assistants lets a booby-trapped code project quietly take control of a developer's computer. The assistant asks permission to...",
+      "pub_date": "Thu, 09 Jul 2026 09:57:18 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijymBd057efx1JbDRjjqh0RBYH7RA2pE75UYG8DDd7Vl2UyXMsMjXtgEaxoPyHt5wz8s0fT6B43ovQskxZBchyiYI9G34t7YjyC6_T0xwzs_0SOJaHnHI7vXfMTOqtDn1R6up52ol5UH_uT86b1dRjaJ-Bw6pa_lAX6igS_pFLV_z_0kRhyXuNo8Q2rFU/s1600/wiz-ai.jpg"
+    },
+    {
+      "title": "Palo Alto PAN-OS Vulnerability Allows Arbitrary Code Execution Through Malicious Network Traffic",
+      "link": "https://cybersecuritynews.com/palo-alto-networks-pan-os-vulnerability/",
+      "description": "Palo Alto Networks has disclosed a high-severity vulnerability in PAN-OS that could allow unauthenticated attackers to execute arbitrary code or trigger a denial-of-service (DoS) condition by sendi...",
+      "pub_date": "Thu, 09 Jul 2026 04:15:42 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Palo-Alto-Networks-PAN-OS-Vulnerability.webp"
+    },
+    {
+      "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
+      "link": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
+      "description": "Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure compr...",
+      "pub_date": "Thu, 09 Jul 2026 09:31:49 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0R7K2HuXIaXAr6VokIBdoRH5Zk8L2jJMM5abiDPtiOsT3DsQnI-FRSuTO02mekKGj2Cup9RBBYgAhyo92KHjyCTsMuctH8lYgwysOxpLpHp9uIuL7xBEuojc83nmWH7pcA1KRlu8W9-7b1caaoQMaNX2qATV_7e-CwoPSFk08VwjbRx2M-fgfMcjN3KeW/s1600/7-zip-malware.png"
+    },
+    {
+      "title": "Accenture Confirms Data Breach – Hacker Claims Theft of Internal Source Code",
+      "link": "https://cybersecuritynews.com/accenture-confirms-data-breach/",
+      "description": "IT services and consulting giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other sensitive data from the company. A ...",
+      "pub_date": "Thu, 09 Jul 2026 03:43:01 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Accenture-Confirms-Data-Breach.webp"
+    },
+    {
+      "title": "Claude, Cursor, and Codex Trigger Endpoint Security Rules Used to Catch Hackers",
+      "link": "https://cybersecuritynews.com/claude-code-cursor-and-codex-trigger/",
+      "description": "AI coding agents such as Claude Code, Cursor, and OpenAI Codex are increasingly appearing in enterprise environments, and new telemetry shows they are unintentionally triggering security detections...",
+      "pub_date": "Thu, 09 Jul 2026 02:34:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Claude-Code-Cursor-and-Codex-Trigger-Credential-Access-and-LOLBin-Detection-Rules-1.webp"
+    },
+    {
+      "title": "PromptSpy Android Malware Uses Google Gemini to Adapt During Runtime Execution",
+      "link": "https://cybersecuritynews.com/promptspy-android-malware-uses/",
+      "description": "A newly identified strain of Android spyware called PromptSpy has become the first mobile malware known to call on generative AI while it is actually running on a victim\u0026#8217;s device. Rather than...",
+      "pub_date": "Wed, 08 Jul 2026 22:24:22 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/PromptSpy-Android-Malware-Uses-Google-Gemini-to-Adapt-During-Runtime-Execution.webp"
+    },
+    {
+      "title": "APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor",
+      "link": "https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images/",
+      "description": "A well known hacking group has found a clever way to sneak malicious code past security tools, using an ordinary picture file. The group, tracked as APT-C-20 and known as APT28 or Fancy Bear, hides...",
+      "pub_date": "Wed, 08 Jul 2026 22:13:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/APT-C-20-Hackers-Hide-Shellcode-in-PNG-Images-to-Launch-Fileless-C-Backdoor.webp"
+    },
     {
       "title": "Mount Royal University confirms breach as hackers claim attack",
       "link": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
@@ -9,6 +72,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers",
+      "link": "https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page/",
+      "description": "A fake Google verification page is being used to infect customers of Mexican banks with a malware toolkit built for fraud, not just espionage. The campaign relies on a familiar ClickFix trick, wher...",
+      "pub_date": "Wed, 08 Jul 2026 21:23:03 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/ClickFix-Campaign-Uses-Fake-Google-Verification-Page-to-Infect-Mexican-Bank-Customers.webp"
     },
     {
       "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
@@ -20,6 +92,15 @@
       "image_url": ""
     },
     {
+      "title": "Lurking Lizard Uses Fake 7-Zip Installers to Turn Victim Devices Into Proxy Nodes",
+      "link": "https://cybersecuritynews.com/lurking-lizard-uses-fake-7-zip-installers/",
+      "description": "A newly uncovered cybercriminal operation has been quietly turning ordinary computers into paid proxy servers for years, hiding behind a fake version of the popular 7-Zip file compression tool. Vic...",
+      "pub_date": "Wed, 08 Jul 2026 19:22:37 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Lurking-Lizard-Uses-Fake-7-Zip-Installers-to-Turn-Victim-Devices-Into-Proxy-Nodes.webp"
+    },
+    {
       "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
       "description": "A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backdoor malware. [...]",
@@ -27,6 +108,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Fake Indian ITR Notice Delivers Dual RAT Malware Through Six-Stage Infection Chain",
+      "link": "https://cybersecuritynews.com/fake-indian-itr-notice-delivers-dual-rat-malware/",
+      "description": "A new malware campaign is using fake Indian tax notices to trick users into installing not one, but two separate remote access trojans on their computers. The attack disguises itself as an official...",
+      "pub_date": "Wed, 08 Jul 2026 17:37:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Fake-Indian-ITR-Notice-Delivers-Dual-RAT-Malware-Through-Six-Stage-Infection-Chain.webp"
     },
     {
       "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
@@ -38,6 +128,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEtVOCcf8-6_z0F4FVoPlTMQRFJ4CfHCbl-GvhT9EbRrfZgTJsNbBkzAq72212RbMT1Knk5GJsYDY8p5W7YO8x29vQ782QW6CRorl_oKVyAgOmS46Y9HyTPcdZOmMjOPtWjpAHH3C91EPVk4dnHqaAEX8QoaSvGzCbjMy0YhF7lJaIR6-T9Dq5jzZycIc/s1600/alarm.jpg"
     },
     {
+      "title": "DuckDuckGo Browser Blocks YouTube Ads by Default Using Community Filter Lists",
+      "link": "https://cybersecuritynews.com/duckduckgo-browser-blocks-youtube-ads/",
+      "description": "DuckDuckGo has rolled out native YouTube ad blocking across its browser applications, automatically stripping pre-roll and mid-roll video ads without requiring users to install third-party extensio...",
+      "pub_date": "Wed, 08 Jul 2026 16:58:10 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/DuckDuckGo-Browser-Blocks-YouTube-Ads.webp"
+    },
+    {
       "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
       "link": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
       "description": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]",
@@ -45,6 +144,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "OpenMatter Network Joins HOL Initiative to Help Define Standards for Verifiable AI Collaboration and Security",
+      "link": "https://cybersecuritynews.com/openmatter-network-joins-hol-initiative-to-help-define-standards-for-verifiable-ai-collaboration-and-security/",
+      "description": "Melbourne, Florida, United States, July 8th, 2026, CyberNewswire OpenMatter Network today announced that it has joined the founding group of organizations participating in the Hashgraph Online (HOL...",
+      "pub_date": "Wed, 08 Jul 2026 16:03:29 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKJRVYowoOAqmRzaXidhXgEZcNVlzTY1lGSAdTrdJ4NcXuoRZRHewXDquck5qrrvk9YwiCFo2on6ygumJ9n3owc1B0SVPhbVbbSLkptBNRzmJnGuGlaDIFy2A798ntKyYd5Dr_f4DCZwT0VlHBXnZjEvWiQVFWegLp6Fr5MG7gOQ0fvwGn496JMIYZeF0/s1600/Best%20Exposure%20Management%20Tools.webp?ssl=1"
     },
     {
       "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
@@ -306,24 +414,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
-      "link": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
-      "description": "A Microsoft 365 device code phishing campaign has been observed leveraging collaboration-themed lures to take control of victim accounts between the last week of June 2026 and into early July, per ...",
-      "pub_date": "Tue, 07 Jul 2026 20:44:14 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg__v7vicSomxW52wnr8HsJgQKf0vg3kdjUicmIUCMCDexaBZ68pLZzXKVSJxNEeBuBuEzueOldcd5GhtGQI-8eMqd9j0QWMqGScmbZpqBS9RFkXxXSfOZYhBSGqD8BBDfVUEn4RN86sKhgkl9xkJtYMl-7a2zsIU6LCC5j_U2BkupJGr3JqP9_GZCHfHtl/s1600/ms-device-code.jpg"
-    },
-    {
-      "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
-      "link": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
-      "description": "A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown.  The attacker needs only to open a no...",
-      "pub_date": "Tue, 07 Jul 2026 19:34:50 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj35Nf4KvfpGfbhGpq7fhtkXFhxKtTqAEFF5dX23th60tiUCMEYsuOXfiH-kIq1PRUWrRBMo92M6SCtE8chA882l0wCOO2gs1skw-h_sOqfA9jOcED6IYr2RVWkVzKohekZdvzOTZ9QpPnGDtOtJI9jYjWlPiAgvc1dG4Yuy-J02v8GA9rkweGIF000-lA/s1600/githubs.jpg"
     },
     {
       "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
