@@ -1,6 +1,123 @@
 {
-  "last_updated": "2026-07-09T14:36:05Z",
+  "last_updated": "2026-07-09T17:13:44Z",
   "articles": [
+    {
+      "title": "New Helix vishing group emerges in SharePoint data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
+      "description": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from Shar...",
+      "pub_date": "Thu, 09 Jul 2026 13:08:29 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
+      "description": "Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to discover vulnerabilities in its codebase. [...]",
+      "pub_date": "Thu, 09 Jul 2026 13:00:00 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
+      "link": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
+      "description": "GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor authentica...",
+      "pub_date": "Thu, 09 Jul 2026 22:19:02 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbP2w2lzNWbB041oSXvx2Nb1uOJaf81XNUBioDv_3K73S-JnzIU4OnUHfwG3Q3RLbf_p2wJBpHC0m2M4cQhCMfcSRRx1MY9n2vCVSNI4ddai3uJ3eE2Kb-d_ryU_HSEx_R2Rjoxz2D3TBcZCgLRWf-rOBf9k73Vi1Q04aWNG9Ux-A5AOf-v1HjSGD3YZcg/s1600/npm-security.jpg"
+    },
+    {
+      "title": "A Hacker Used AI to Compromise an AWS Cloud Environment in Just 72 Hours",
+      "link": "https://cybersecuritynews.com/aws-cloud-compromise-in-72-hours/",
+      "description": "A large-scale AWS intrusion reveals how AI-assisted attackers can chain familiar cloud techniques to move from initial access to full environmental compromise in roughly 72 hours, not through novel...",
+      "pub_date": "Thu, 09 Jul 2026 16:39:00 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/AWS-Cloud-Compromise-in-72-Hours.webp"
+    },
+    {
+      "title": "How GitHub gave every repository a durable owner",
+      "link": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+      "description": "GitHub had over 14,000 repositories. Fewer than half had clear ownership. Here's how we gave every active repository a validated owner in under 45 days, archived the rest, and made ownership the fo...",
+      "pub_date": "Thu, 09 Jul 2026 16:29:37 +0000",
+      "source": "GitHub Security",
+      "tier": 4,
+      "image_url": "https://github.blog/wp-content/uploads/2026/07/CleanShot-2026-07-09-at-12.21.43@2x.png?resize=683%2C1024"
+    },
+    {
+      "title": "Roundcube 0-Click Vulnerability Enables Stored XSS Attack via MIME Type Attachment",
+      "link": "https://cybersecuritynews.com/roundcube-0-click-vulnerability/",
+      "description": "Roundcube has released version 1.7 to patch six security vulnerabilities, including two critical stored cross-site scripting (XSS) flaws that require zero user interaction to exploit. The update ad...",
+      "pub_date": "Thu, 09 Jul 2026 16:17:06 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Roundcube-0-Click-Vulnerability.webp"
+    },
+    {
+      "title": "Hackers Abuse Microsoft Entra Passkey Enrollment to Hijack Enterprise Accounts",
+      "link": "https://cybersecuritynews.com/hackers-abuse-microsoft-entra-passkey-enrollment/",
+      "description": "Cybercriminals have found a new way to hijack corporate Microsoft accounts by exploiting the very feature meant to protect them: passkeys. A threat group tracked as O UNC 066, also called Pink by P...",
+      "pub_date": "Thu, 09 Jul 2026 15:41:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Abuse-Microsoft-Entra-Passkey-Enrollment-to-Hijack-Enterprise-Accounts.webp"
+    },
+    {
+      "title": "HP Linux Printing Software Vulnerability Allows Remote Attackers to Execute Arbitrary Code",
+      "link": "https://cybersecuritynews.com/hp-linux-printing-software-vulnerability/",
+      "description": "A critical security vulnerability has been identified in HP Linux Imaging and Printing (HPLIP) software that could allow remote attackers to execute arbitrary code on affected systems. The flaw, tr...",
+      "pub_date": "Thu, 09 Jul 2026 15:17:56 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/HP-Linux-Printing-Software-Vulnerability-Allow-remote-Attackers-to-Execute-Arbitrary-Code-.webp"
+    },
+    {
+      "title": "Hackers Use Fake Paysafe, Skrill, and Neteller Packages to Harvest API Keys and Tokens",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-paysafe-skrill-and-neteller-packages/",
+      "description": "Security researchers have uncovered a coordinated malware campaign hiding inside fake developer packages pretending to be official tools for Paysafe, Skrill, and Neteller, three widely used online ...",
+      "pub_date": "Thu, 09 Jul 2026 15:12:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Use-Fake-Paysafe-Skrill-and-Neteller-Packages-to-Harvest-API-Keys-and-Tokens.webp"
+    },
+    {
+      "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
+      "link": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
+      "description": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch\u0026nbsp;it.  This week is full of that...",
+      "pub_date": "Thu, 09 Jul 2026 20:39:28 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAXvG0n7eiC50jtfO-3MYOPx-Z0iWiucBfHqzY2QNH-5fUyfWcGu3NME0yERr2qWKcAeg6rIYMtP_VEeRInpeghztHmnjDa4QyuXSbaktcOdHHK9sx8lurd2RmejcmBjSZIznBl0zKQ-mk4dcCsVdL29g4XPEwUdrlQgj5-GgxvVnolSJJfCJW7g4vosLe/s1600/ThreatsDay-main.jpg"
+    },
+    {
+      "title": "Linux Kernel Vulnerability Enables Passwordless Root Through DRM Render Nodes",
+      "link": "https://cybersecuritynews.com/linux-kernel-bug-passwordless-root/",
+      "description": "A newly patched Linux kernel vulnerability, tracked as CVE-2026-46215, allowed any local user with access to a GPU render node to escalate privileges to root, without requiring any special permissi...",
+      "pub_date": "Thu, 09 Jul 2026 15:08:32 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Linux-Kernel-Vulnerability-nodes.webp"
+    },
+    {
+      "title": "Windows Update Silently Installs LG Monitor App That Pushes McAfee Ads",
+      "link": "https://cybersecuritynews.com/windows-update-installs-lg-monitor-app-pushes-mcafee-ads/",
+      "description": "A recent user report has raised concerns about Windows Update silently installing third-party applications, after an LG monitor-related app allegedly appeared on systems and began displaying McAfee...",
+      "pub_date": "Thu, 09 Jul 2026 14:46:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-Update-Silently-Installs-LG-Monitor-App-That-Pushes-McAfee-Ads-.webp"
+    },
+    {
+      "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
+      "description": "A new phishing-as-a-service (PhaaS) operation called Forg365 focuses on stealing Microsoft 365 accounts by combining adversary-in-the-middle (AiTM) and device code methods with AI-assisted lure gen...",
+      "pub_date": "Thu, 09 Jul 2026 10:39:51 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "The Hidden Security Risks of Reduced Summer IT Coverage",
       "link": "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
@@ -47,24 +164,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVBCdd1YLOTAhXs53MgUBJHfid7uAH-uFr4vzULJu6BL5H7TDiBbZUDxS9RTwC1FH7q2HhEiI2BHLlymHQ7btIBDidvIohoiVJ2XH2uvQcan7Lio_iIh3Ku3J3LoM8SgaHrlAnyFeVLo77qE93hFykG4CJZUj1IsJb75jFMjAK9Q1V-akTkdagA_NLm4A/s1600/thn-webinar.jpg"
     },
     {
-      "title": "AssuranceAmerica Data Breach Exposed 6.9 Million People’s License Numbers and Personal Data",
-      "link": "https://cybersecuritynews.com/assuranceamerica-data-breach/",
-      "description": "AssuranceAmerica has disclosed a major data breach that exposed the personal information and driver’s license numbers of nearly 6.9 million individuals, marking one of the largest known leaks of ...",
-      "pub_date": "Thu, 09 Jul 2026 11:42:09 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/AssuranceAmerica-data-breach-Exposed-6.9-million-people-icense-numbers-and-Personal-Data-.webp"
-    },
-    {
-      "title": "20 Remote Code Execution Vulnerabilities Patched in Foxit PDF Reader and Editor",
-      "link": "https://cybersecuritynews.com/foxit-pdf-reader-and-editor-vulnerabilities/",
-      "description": "Foxit has patched 20 remote code execution vulnerabilities in Foxit PDF Reader and Foxit PDF Editor, and users should update immediately. The fixes arrive in the July 8, 2026 security release and c...",
-      "pub_date": "Thu, 09 Jul 2026 11:39:17 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/20-Remote-Code-Execution-Vulnerabilities-Patches-in-Foxit-PDF-Reader-and-Editor-Update-Now.webp"
-    },
-    {
       "title": "Microsoft to retire the OWA Light client in Exchange Server",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
       "description": "Microsoft has announced plans to disable Outlook Web Access (OWA) Light, the lightweight version of the Outlook Web App email client, in a future Exchange Server update. [...]",
@@ -92,33 +191,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge_nKJNwSt3ZRkzfZ2qH61_1WFg5hyphenhyphenMSrC3-JM4AOXRKO-IVsJXFNiM926QnG25eTply3DRF57t61wi5Ucy4yxald1RpH1TRbItw83RqQ-K6UM670vpR76-kBl2xcntaDE7lxxNwurseG5iRM4sMhYK8Npb9COGNM_XjbwBLthnJjBfwqV7m96VKOnWb3Q/s1600/endpoint-ransomware.jpg"
     },
     {
-      "title": "GitLab Patches Eight Security Vulnerabilities Across Community and Enterprise Editions",
-      "link": "https://cybersecuritynews.com/gitlab-patches-security-vulnerabilities/",
-      "description": "GitLab has released critical security updates addressing eight vulnerabilities across its Community Edition (CE) and Enterprise Edition (EE), urging users to upgrade immediately to mitigate potenti...",
-      "pub_date": "Thu, 09 Jul 2026 10:35:43 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Gitlab-Patches-eight-security-Vulnerabilities-Across-Community-and-Enterprise-Edition.webp"
-    },
-    {
-      "title": "New HalluSquatting Attack Allows Hackers to Poison AI Coding Assistants Into Installing Botnet Malware",
-      "link": "https://cybersecuritynews.com/hallusquatting-attack-poison-ai-coding-assistants/",
-      "description": "A newly disclosed attack technique dubbed “HalluSquatting” is raising serious concerns in the cybersecurity community after researchers demonstrated how AI coding assistants can be manipulated ...",
-      "pub_date": "Thu, 09 Jul 2026 10:19:01 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/New-HalluSquatting-Attack-Allow-Ahckers-to-Poison-AI-Coding-Assistants-Into-Installing-Botnet-Malware-.webp"
-    },
-    {
-      "title": "Meta’s Muse AI Tool Lets Users Create Images Using Public Instagram Photos",
-      "link": "https://cybersecuritynews.com/muse-ai-tool-image-controversy/",
-      "description": "Meta has launched Muse Image, its first image generation model built by Meta Superintelligence Labs, and the release has already triggered a privacy backlash because it lets users pull public Insta...",
-      "pub_date": "Thu, 09 Jul 2026 10:05:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Muse-AI-Tool-Image-Controversy.webp"
-    },
-    {
       "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
       "link": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
       "description": "Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries. [...]",
@@ -126,24 +198,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "QR Codes Are the New Security Blindspots That Steal Your Card Details and Deliver Malware",
-      "link": "https://cybersecuritynews.com/qr-code-attacks/",
-      "description": "A small pixelated square. You\u0026#8217;ve scanned hundreds of them at coffee shops, parking meters, airport lounges, and restaurant tables. It feels instant. It feels safe. It feels routine. That\u0026#821...",
-      "pub_date": "Thu, 09 Jul 2026 09:36:53 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/QR-code-attacks.webp"
-    },
-    {
-      "title": "GitHub Copilot Refuses Harmful Chat Prompts But Writes Them Inside Code Workflows",
-      "link": "https://cybersecuritynews.com/github-copilot-refuses-harmful-chat-prompts/",
-      "description": "GitHub Copilot can refuse harmful prompts in chat while still generating the same harmful content inside code workflows when the request is decomposed across a multi-step IDE session. Researchers A...",
-      "pub_date": "Thu, 09 Jul 2026 09:19:31 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GitHub-Copilot-Refuses-Harmful-Chat-Prompts-But-Writes-Them-Inside-Code-Workflows.webp"
     },
     {
       "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
@@ -317,55 +371,10 @@
       "image_url": ""
     },
     {
-      "title": "GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures",
-      "link": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
-      "description": "New research shows that a signed Git commit's hash is not the one-of-a-kind name that much of the software world assumes it to be. Given any signed commit, someone without the signing key can mint ...",
-      "pub_date": "Wed, 08 Jul 2026 17:21:24 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifE8OSGx2cVUZ1jiVnMC-LHyladj2cJ1FWw2-t0wDJEK4Icxrhk_bFReZr8jCiNkmpamFxdBGLpgruMJh1g7c687TCf4R76GG8xJEzB9kzPLTXo18DUZkT9_T5LHeikWsoEDeBm-gapabqgRUl2sAyhaPeYOWIs7Re0-jr2CMoKVn5AzlXdU1W6oWIy6mv/s1600/git-hash.jpg"
-    },
-    {
-      "title": "The Verification Step Is the New ATO Battleground in 2026",
-      "link": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
-      "description": "For years, account takeover (ATO) followed a predictable script. Attackers bought stolen credentials in bulk, ran them through automated tools, and waited for matches. Credential stuffing was cheap...",
-      "pub_date": "Wed, 08 Jul 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaJMgdxAojXQ55Emgp0cdpY7ibLUdpF2qw_6WRHLpgdFhT82J_HFoOeqj69x1MNb7EqqMLp23NxnAsbzCeH0rg5cOrrM6bdDFNWlvvXbNZ9-QGzCYyX0q9AqYAGKwXVOb35u2lE91pm27dzyikSEF7zzfmNG-asRkTjhR30sdWgmf7TsZj8tqieCYUnTY/s1600/main-veriff.jpg"
-    },
-    {
       "title": "Telco giant KDDI says data breach affects over 12 million people",
       "link": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
       "description": "Japanese telecommunications giant KDDI says that millions of people had their email addresses and passwords exposed after attackers breached an email platform used by five internet service provider...",
       "pub_date": "Wed, 08 Jul 2026 07:24:16 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) gave federal agencies until Friday to patch an actively exploited vulnerability in the Langflow visual framework for building AI age...",
-      "pub_date": "Wed, 08 Jul 2026 05:58:11 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Ubiquiti warns of new max severity  UniFi OS vulnerability",
-      "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
-      "description": "Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]",
-      "pub_date": "Wed, 08 Jul 2026 04:15:20 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "CISA orders feds to patch max severity ColdFusion flaw by Friday",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app deve...",
-      "pub_date": "Wed, 08 Jul 2026 03:16:55 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
@@ -713,36 +722,36 @@
       "image_url": ""
     },
     {
-      "title": "Securing the open source supply chain across GitHub",
-      "link": "https://github.blog/security/supply-chain-security/securing-the-open-source-supply-chain-across-github/",
-      "description": "Recent attacks on open source focus on exfiltrating secrets; here are the prevention steps you can take today, plus a look at the security capabilities GitHub is working on. The post Securing the o...",
-      "pub_date": "Wed, 01 Apr 2026 19:20:12 +0000",
-      "source": "GitHub Security",
-      "tier": 4,
+      "title": "Schneider Electric PowerChute Serial Shutdown",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to overwrite critical files, forge or inject malicious log data, gain unauthorized account access, trigger d...",
+      "pub_date": "Thu, 09 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "OpenPLC v3",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to the filesystem and escalate this into arbitrary native code executi...",
+      "pub_date": "Thu, 09 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Schneider Electric Easergy MiCOM Px40 Series",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03",
+      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its Easergy MiCOM Px40 Series products. The [Easergy MiCOM Px40](https://www.se.com/ww/en/product-subcategory/4725-easergy-micom-...",
+      "pub_date": "Thu, 09 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
       "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-48908 JoomShaper SP Page Builder Unrestricted Uplo...",
-      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Hitachi Energy e-mesh EMS",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03",
-      "description": "View CSAF Summary Hitachi Energy is aware of a buffer overflow vulnerability that affects e-mesh EMS product versions listed in this document. Successful exploitation of this vulnerability could le...",
-      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Labcenter Proteus 9",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could disclose information and allow a malicious user to execute arbitrary code on affected installations. The following versions ...",
       "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -758,27 +767,9 @@
       "image_url": ""
     },
     {
-      "title": "Digi International PortServer TS, Digi One SP IA",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-07",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication and gain access to restricted resources, obtain credentials, and inject malicious...",
-      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
       "title": "Siemens SINEC OS",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-05",
       "description": "View CSAF Summary SINEC OS before V4.0 contains multiple vulnerabilities. Siemens has released a new version for RUGGEDCOM RST2428P and recommends to update to the latest version. The following ver...",
-      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Mendix Studio Pro",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-04",
-      "description": "View CSAF Summary Mendix Studio Pro versions before V11.12 are affected by a file parsing vulnerability that could be triggered when the application reads specially crafted malicious project during...",
       "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -803,9 +794,45 @@
       "image_url": ""
     },
     {
-      "title": "Gardyn IoT Hub",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthenticated users to access and control IoT Hub managed devices. The following versions of Gardyn IoT Hub are affe...",
+      "title": "Siemens Mendix Studio Pro",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-04",
+      "description": "View CSAF Summary Mendix Studio Pro versions before V11.12 are affected by a file parsing vulnerability that could be triggered when the application reads specially crafted malicious project during...",
+      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Labcenter Proteus 9",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could disclose information and allow a malicious user to execute arbitrary code on affected installations. The following versions ...",
+      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Hitachi Energy e-mesh EMS",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03",
+      "description": "View CSAF Summary Hitachi Energy is aware of a buffer overflow vulnerability that affects e-mesh EMS product versions listed in this document. Successful exploitation of this vulnerability could le...",
+      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Digi International PortServer TS, Digi One SP IA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-07",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication and gain access to restricted resources, obtain credentials, and inject malicious...",
+      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "CubeSpace CW0057 Reaction Wheel",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to upload arbitrary malicious firmware to the device. The following versions of CubeSpace CW0057 Reaction Whe...",
       "pub_date": "Thu, 02 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -821,37 +848,10 @@
       "image_url": ""
     },
     {
-      "title": "CubeSpace CW0057 Reaction Wheel",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to upload arbitrary malicious firmware to the device. The following versions of CubeSpace CW0057 Reaction Whe...",
+      "title": "Gardyn IoT Hub",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthenticated users to access and control IoT Hub managed devices. The following versions of Gardyn IoT Hub are affe...",
       "pub_date": "Thu, 02 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-45659 Microsoft SharePoint Server Deserialization of U...",
-      "pub_date": "Wed, 01 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Schneider Electric EasyLogic T150 and Saitel DP RTU",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities can allow an attacker to cause unauthorized access and exposure of sensitive information when the unauthenticated attacker accesse...",
-      "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "XZ Utils vulnerability impacting B\u0026R Products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
-      "description": "View CSAF Summary An update is available that resolves vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could caus...",
-      "pub_date": "Tue, 30 Jun 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
