@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-07-09T11:47:45Z",
+  "last_updated": "2026-07-09T14:36:05Z",
   "articles": [
+    {
+      "title": "The Hidden Security Risks of Reduced Summer IT Coverage",
+      "link": "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
+      "description": "Security operations don't slow down when IT teams take vacation, but staffing levels often do. Kaseya explains how AI-driven automation can help organizations maintain consistent security operation...",
+      "pub_date": "Thu, 09 Jul 2026 10:02:12 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "UNC6692 Hackers Uses Microsoft Teams Helpdesk Impersonation to Deploy SNOW Malware",
+      "link": "https://cybersecuritynews.com/unc6692-hackers-uses-microsoft-teams-helpdesk-impersonation/",
+      "description": "A newly identified threat group tracked as UNC6692 is hijacking Microsoft Teams to install a custom malware suite called SNOW. The campaign relies almost entirely on social engineering, which makes...",
+      "pub_date": "Thu, 09 Jul 2026 13:41:10 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/UNC6692-Hackers-Uses-Microsoft-Teams-Helpdesk-Impersonation-to-Deploy-SNOW-Malware.webp"
+    },
+    {
+      "title": "Everest Ransomware Claims 1 TB Data Theft But Encryptor Shows No Exfiltration Code",
+      "link": "https://cybersecuritynews.com/everest-ransomware-claims-1-tb-data-theft/",
+      "description": "A new technical breakdown of the Everest ransomware family reveals a strange contradiction at the heart of one of its recent attack claims. Despite boasting about stealing a full terabyte of data f...",
+      "pub_date": "Thu, 09 Jul 2026 12:56:46 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Everest-Ransomware-Claims-1-TB-Data-Theft-But-Encryptor-Shows-No-Exfiltration-Code.webp"
+    },
+    {
+      "title": "Operationalizing Threat Intelligence: Bridging the Gap Between Feed Data and SOC Action",
+      "link": "https://cybersecuritynews.com/operationalizing-threat-intelligence/",
+      "description": "Threat intelligence feeds have become a staple line item in security budgets. Yet a persistent gap exists between purchasing a feed and actually using it to stop attacks. Many SOC teams receive a s...",
+      "pub_date": "Thu, 09 Jul 2026 12:47:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Operationalizing-Threat-Intelligence.webp"
+    },
+    {
+      "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
+      "link": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
+      "description": "AI has changed how fast attacks move. Work that once took an attacker days now takes minutes. Using models like Mythos, attackers write tailored bait, pick targets, test what lands, and jump to the...",
+      "pub_date": "Thu, 09 Jul 2026 17:56:58 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVBCdd1YLOTAhXs53MgUBJHfid7uAH-uFr4vzULJu6BL5H7TDiBbZUDxS9RTwC1FH7q2HhEiI2BHLlymHQ7btIBDidvIohoiVJ2XH2uvQcan7Lio_iIh3Ku3J3LoM8SgaHrlAnyFeVLo77qE93hFykG4CJZUj1IsJb75jFMjAK9Q1V-akTkdagA_NLm4A/s1600/thn-webinar.jpg"
+    },
+    {
+      "title": "AssuranceAmerica Data Breach Exposed 6.9 Million People’s License Numbers and Personal Data",
+      "link": "https://cybersecuritynews.com/assuranceamerica-data-breach/",
+      "description": "AssuranceAmerica has disclosed a major data breach that exposed the personal information and driver’s license numbers of nearly 6.9 million individuals, marking one of the largest known leaks of ...",
+      "pub_date": "Thu, 09 Jul 2026 11:42:09 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/AssuranceAmerica-data-breach-Exposed-6.9-million-people-icense-numbers-and-Personal-Data-.webp"
+    },
+    {
+      "title": "20 Remote Code Execution Vulnerabilities Patched in Foxit PDF Reader and Editor",
+      "link": "https://cybersecuritynews.com/foxit-pdf-reader-and-editor-vulnerabilities/",
+      "description": "Foxit has patched 20 remote code execution vulnerabilities in Foxit PDF Reader and Foxit PDF Editor, and users should update immediately. The fixes arrive in the July 8, 2026 security release and c...",
+      "pub_date": "Thu, 09 Jul 2026 11:39:17 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/20-Remote-Code-Execution-Vulnerabilities-Patches-in-Foxit-PDF-Reader-and-Editor-Update-Now.webp"
+    },
     {
       "title": "Microsoft to retire the OWA Light client in Exchange Server",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
@@ -29,6 +92,33 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge_nKJNwSt3ZRkzfZ2qH61_1WFg5hyphenhyphenMSrC3-JM4AOXRKO-IVsJXFNiM926QnG25eTply3DRF57t61wi5Ucy4yxald1RpH1TRbItw83RqQ-K6UM670vpR76-kBl2xcntaDE7lxxNwurseG5iRM4sMhYK8Npb9COGNM_XjbwBLthnJjBfwqV7m96VKOnWb3Q/s1600/endpoint-ransomware.jpg"
     },
     {
+      "title": "GitLab Patches Eight Security Vulnerabilities Across Community and Enterprise Editions",
+      "link": "https://cybersecuritynews.com/gitlab-patches-security-vulnerabilities/",
+      "description": "GitLab has released critical security updates addressing eight vulnerabilities across its Community Edition (CE) and Enterprise Edition (EE), urging users to upgrade immediately to mitigate potenti...",
+      "pub_date": "Thu, 09 Jul 2026 10:35:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Gitlab-Patches-eight-security-Vulnerabilities-Across-Community-and-Enterprise-Edition.webp"
+    },
+    {
+      "title": "New HalluSquatting Attack Allows Hackers to Poison AI Coding Assistants Into Installing Botnet Malware",
+      "link": "https://cybersecuritynews.com/hallusquatting-attack-poison-ai-coding-assistants/",
+      "description": "A newly disclosed attack technique dubbed “HalluSquatting” is raising serious concerns in the cybersecurity community after researchers demonstrated how AI coding assistants can be manipulated ...",
+      "pub_date": "Thu, 09 Jul 2026 10:19:01 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/New-HalluSquatting-Attack-Allow-Ahckers-to-Poison-AI-Coding-Assistants-Into-Installing-Botnet-Malware-.webp"
+    },
+    {
+      "title": "Meta’s Muse AI Tool Lets Users Create Images Using Public Instagram Photos",
+      "link": "https://cybersecuritynews.com/muse-ai-tool-image-controversy/",
+      "description": "Meta has launched Muse Image, its first image generation model built by Meta Superintelligence Labs, and the release has already triggered a privacy backlash because it lets users pull public Insta...",
+      "pub_date": "Thu, 09 Jul 2026 10:05:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Muse-AI-Tool-Image-Controversy.webp"
+    },
+    {
       "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
       "link": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
       "description": "Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries. [...]",
@@ -36,6 +126,24 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "QR Codes Are the New Security Blindspots That Steal Your Card Details and Deliver Malware",
+      "link": "https://cybersecuritynews.com/qr-code-attacks/",
+      "description": "A small pixelated square. You\u0026#8217;ve scanned hundreds of them at coffee shops, parking meters, airport lounges, and restaurant tables. It feels instant. It feels safe. It feels routine. That\u0026#821...",
+      "pub_date": "Thu, 09 Jul 2026 09:36:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/QR-code-attacks.webp"
+    },
+    {
+      "title": "GitHub Copilot Refuses Harmful Chat Prompts But Writes Them Inside Code Workflows",
+      "link": "https://cybersecuritynews.com/github-copilot-refuses-harmful-chat-prompts/",
+      "description": "GitHub Copilot can refuse harmful prompts in chat while still generating the same harmful content inside code workflows when the request is decomposed across a multi-step IDE session. Researchers A...",
+      "pub_date": "Thu, 09 Jul 2026 09:19:31 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GitHub-Copilot-Refuses-Harmful-Chat-Prompts-But-Writes-Them-Inside-Code-Workflows.webp"
     },
     {
       "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
@@ -236,15 +344,6 @@
       "image_url": ""
     },
     {
-      "title": "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
-      "link": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html",
-      "description": "An AI coding assistant that refuses to answer a dangerous request in its chat box can answer it anyway if the same request is broken into small, ordinary-looking steps inside a code editor. That is...",
-      "pub_date": "Wed, 08 Jul 2026 16:51:07 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO3sdn3FMdKySUzvuf2007OIkov1V6r7gOe6npkdpODZqGK0avIBUu4fc4XVYsccnBD3ij71TroVDezuYTjSmXj6le7luxRFK-S1q3itvZHcIwPaY2NzDYjEUH-hnBbOBa_GZSq7-Es2DG4v-6vlbqeZWvYohveEleH8n8eWD6GxafIJIvanFGzsLarQY/s1600/copilot-prompts.jpg"
-    },
-    {
       "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) gave federal agencies until Friday to patch an actively exploited vulnerability in the Langflow visual framework for building AI age...",
@@ -323,15 +422,6 @@
       "pub_date": "Wed, 08 Jul 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "Accenture confirms breach after hacker offers stolen data for sale",
-      "link": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
-      "description": "IT services giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other data from the company. [...]",
-      "pub_date": "Tue, 07 Jul 2026 18:06:07 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
       "image_url": ""
     },
     {
