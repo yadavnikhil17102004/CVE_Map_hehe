@@ -1,14 +1,50 @@
 {
-  "last_updated": "2026-07-09T08:25:14Z",
+  "last_updated": "2026-07-09T11:47:45Z",
   "articles": [
     {
-      "title": "Helix Data Extortion Group Uses Vishing and Device Code Phishing to Steal SharePoint Data",
-      "link": "https://cybersecuritynews.com/helix-data-extortion-group-uses-vishing-and-device-code-phishing/",
-      "description": "Helix has surfaced as a fast-moving data extortion group that targets Microsoft 365 users through phone scams and cloud-focused phishing instead of traditional malware drops. Attackers are after ac...",
-      "pub_date": "Thu, 09 Jul 2026 07:57:32 +0000",
-      "source": "Cyber Security News",
+      "title": "Microsoft to retire the OWA Light client in Exchange Server",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
+      "description": "Microsoft has announced plans to disable Outlook Web Access (OWA) Light, the lightweight version of the Outlook Web App email client, in a future Exchange Server update. [...]",
+      "pub_date": "Thu, 09 Jul 2026 07:00:35 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Helix-Data-Extortion-Group-Uses-Vishing-and-Device-Code-Phishing-to-Steal-SharePoint-Data.webp"
+      "image_url": ""
+    },
+    {
+      "title": "Summer of Clearinghouses",
+      "link": "https://thehackernews.com/2026/07/summer-of-clearinghouses.html",
+      "description": "Everyone seems to have announced a clearinghouse over the past few weeks. We did too. Ours is called Athena, and the main thing that sets it apart is that it was already real and running when we an...",
+      "pub_date": "Thu, 09 Jul 2026 16:30:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMHNzR9Jii9NFEb6X2orsYvbxp5mJF4-z71vuQ1EHw94Tkym9ifxqrNmOtYQd9nmpe8rR7ZBZMdGEZb_S-ZKoKpXAFO3Aged7ApVnn_Pip_iI0p389k6ebIxpgwsw4OsyCKhE8KiqzdxmKDr_0ee_XaMKKPngnAcDJ5uQ_Pq8HOmX0ZUpz45pWxQID5Ec/s1600/Chainguard-main.jpg"
+    },
+    {
+      "title": "GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses",
+      "link": "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
+      "description": "Cybersecurity researchers have flagged a new ransomware family called GodDamn that employs the PoisonX kernel driver to neutralize security software as part of its defense evasion strategy.  Accord...",
+      "pub_date": "Thu, 09 Jul 2026 16:13:09 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge_nKJNwSt3ZRkzfZ2qH61_1WFg5hyphenhyphenMSrC3-JM4AOXRKO-IVsJXFNiM926QnG25eTply3DRF57t61wi5Ucy4yxald1RpH1TRbItw83RqQ-K6UM670vpR76-kBl2xcntaDE7lxxNwurseG5iRM4sMhYK8Npb9COGNM_XjbwBLthnJjBfwqV7m96VKOnWb3Q/s1600/endpoint-ransomware.jpg"
+    },
+    {
+      "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
+      "description": "Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries. [...]",
+      "pub_date": "Thu, 09 Jul 2026 05:47:28 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
+      "link": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
+      "description": "Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public.  The vulnerability, tracked as CVE-2026-50656 (CVS...",
+      "pub_date": "Thu, 09 Jul 2026 14:18:48 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuqwSaoB3zc0bIhf1aBmcHsVVAsGnRDBc681vhmlgHYy0xx5VSxyS2jqjmk-mq27QrSKPN3yorL3A7DffJYp3iMO7CY_8owm-Cn8r7IFuvqeGHTPSyiFM0KVTMTE8W0Qon84tCbzsLVNqoS5nLq1aX8_RNKg0sxa2ke4Su_p5qy9dAlFdakwYcjueBGNhD/s1600/windows.jpg"
     },
     {
       "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
@@ -18,15 +54,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Microsoft Releases Patches for RoguePlanet Defender Zero-Day Vulnerability",
-      "link": "https://cybersecuritynews.com/rogueplanet-defender-zero-day-vulnerability/",
-      "description": "Microsoft has released security updates to address a newly disclosed zero-day vulnerability in Microsoft Defender, publicly referred to as “RoguePlanet.” The flaw, tracked as CVE-2026-50656, af...",
-      "pub_date": "Thu, 09 Jul 2026 07:46:01 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Released-patches-for-RoguePlanet-Defender-zero-day-vulnerability.webp"
     },
     {
       "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
@@ -56,15 +83,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgynXsBDNXYgGgYPWB6cmy9zuZDStl-XaVvlwMQsqa6AxvNCvi7qI9Xq3h1vdk30Tv1u-fOAtB_OZ_Q-i5O0z5D0KL1Eh0joKyFmuhIoH4-7Z16ubplbIcNQpXJ7P7Sl2xju-z6ZvbhSeJbGKiL1gzx-I151GVMAp5jpCS27zvn791sC2WYQllTRT8ye-0/s1600/Friendly-Fire-AI-demo.gif"
     },
     {
-      "title": "New GhostApproval Vulnerability Affects Amazon Q, Claude Code, Cursor, and Other AI Agents",
-      "link": "https://cybersecuritynews.com/ghostapproval-vulnerability/",
-      "description": "A newly disclosed vulnerability pattern dubbed \u0026#8220;GhostApproval\u0026#8221; has exposed a critical security flaw in six of the most widely used AI coding assistants: Amazon Q Developer, Anthropic Cl...",
-      "pub_date": "Thu, 09 Jul 2026 05:10:52 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GhostApproval-Vulnerability.webp"
-    },
-    {
       "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
       "link": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
       "description": "Researchers at\u0026nbsp;Wiz\u0026nbsp;found that a flaw in six popular AI coding assistants lets a booby-trapped code project quietly take control of a developer's computer. The assistant asks permission to...",
@@ -72,15 +90,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijymBd057efx1JbDRjjqh0RBYH7RA2pE75UYG8DDd7Vl2UyXMsMjXtgEaxoPyHt5wz8s0fT6B43ovQskxZBchyiYI9G34t7YjyC6_T0xwzs_0SOJaHnHI7vXfMTOqtDn1R6up52ol5UH_uT86b1dRjaJ-Bw6pa_lAX6igS_pFLV_z_0kRhyXuNo8Q2rFU/s1600/wiz-ai.jpg"
-    },
-    {
-      "title": "Palo Alto PAN-OS Vulnerability Allows Arbitrary Code Execution Through Malicious Network Traffic",
-      "link": "https://cybersecuritynews.com/palo-alto-networks-pan-os-vulnerability/",
-      "description": "Palo Alto Networks has disclosed a high-severity vulnerability in PAN-OS that could allow unauthenticated attackers to execute arbitrary code or trigger a denial-of-service (DoS) condition by sendi...",
-      "pub_date": "Thu, 09 Jul 2026 04:15:42 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Palo-Alto-Networks-PAN-OS-Vulnerability.webp"
     },
     {
       "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
@@ -92,42 +101,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0R7K2HuXIaXAr6VokIBdoRH5Zk8L2jJMM5abiDPtiOsT3DsQnI-FRSuTO02mekKGj2Cup9RBBYgAhyo92KHjyCTsMuctH8lYgwysOxpLpHp9uIuL7xBEuojc83nmWH7pcA1KRlu8W9-7b1caaoQMaNX2qATV_7e-CwoPSFk08VwjbRx2M-fgfMcjN3KeW/s1600/7-zip-malware.png"
     },
     {
-      "title": "Accenture Confirms Data Breach – Hacker Claims Theft of Internal Source Code",
-      "link": "https://cybersecuritynews.com/accenture-confirms-data-breach/",
-      "description": "IT services and consulting giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other sensitive data from the company. A ...",
-      "pub_date": "Thu, 09 Jul 2026 03:43:01 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Accenture-Confirms-Data-Breach.webp"
-    },
-    {
-      "title": "Claude, Cursor, and Codex Trigger Endpoint Security Rules Used to Catch Hackers",
-      "link": "https://cybersecuritynews.com/claude-code-cursor-and-codex-trigger/",
-      "description": "AI coding agents such as Claude Code, Cursor, and OpenAI Codex are increasingly appearing in enterprise environments, and new telemetry shows they are unintentionally triggering security detections...",
-      "pub_date": "Thu, 09 Jul 2026 02:34:07 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Claude-Code-Cursor-and-Codex-Trigger-Credential-Access-and-LOLBin-Detection-Rules-1.webp"
-    },
-    {
-      "title": "PromptSpy Android Malware Uses Google Gemini to Adapt During Runtime Execution",
-      "link": "https://cybersecuritynews.com/promptspy-android-malware-uses/",
-      "description": "A newly identified strain of Android spyware called PromptSpy has become the first mobile malware known to call on generative AI while it is actually running on a victim\u0026#8217;s device. Rather than...",
-      "pub_date": "Wed, 08 Jul 2026 22:24:22 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/PromptSpy-Android-Malware-Uses-Google-Gemini-to-Adapt-During-Runtime-Execution.webp"
-    },
-    {
-      "title": "APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor",
-      "link": "https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images/",
-      "description": "A well known hacking group has found a clever way to sneak malicious code past security tools, using an ordinary picture file. The group, tracked as APT-C-20 and known as APT28 or Fancy Bear, hides...",
-      "pub_date": "Wed, 08 Jul 2026 22:13:44 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/APT-C-20-Hackers-Hide-Shellcode-in-PNG-Images-to-Launch-Fileless-C-Backdoor.webp"
-    },
-    {
       "title": "Mount Royal University confirms breach as hackers claim attack",
       "link": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
       "description": "Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [...]",
@@ -137,15 +110,6 @@
       "image_url": ""
     },
     {
-      "title": "ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers",
-      "link": "https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page/",
-      "description": "A fake Google verification page is being used to infect customers of Mexican banks with a malware toolkit built for fraud, not just espionage. The campaign relies on a familiar ClickFix trick, wher...",
-      "pub_date": "Wed, 08 Jul 2026 21:23:03 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/ClickFix-Campaign-Uses-Fake-Google-Verification-Page-to-Infect-Mexican-Bank-Customers.webp"
-    },
-    {
       "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
       "link": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
       "description": "Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]",
@@ -153,15 +117,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Lurking Lizard Uses Fake 7-Zip Installers to Turn Victim Devices Into Proxy Nodes",
-      "link": "https://cybersecuritynews.com/lurking-lizard-uses-fake-7-zip-installers/",
-      "description": "A newly uncovered cybercriminal operation has been quietly turning ordinary computers into paid proxy servers for years, hiding behind a fake version of the popular 7-Zip file compression tool. Vic...",
-      "pub_date": "Wed, 08 Jul 2026 19:22:37 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Lurking-Lizard-Uses-Fake-7-Zip-Installers-to-Turn-Victim-Devices-Into-Proxy-Nodes.webp"
     },
     {
       "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
@@ -299,15 +254,6 @@
       "image_url": ""
     },
     {
-      "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
-      "link": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
-      "description": "A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking devices.  According...",
-      "pub_date": "Wed, 08 Jul 2026 14:34:33 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXpYmSnXODMABymw2qCiVS3p13OIwfJ45yIZq-o8wXfgtWXxOPjPbsGjdgEExUsWcvkKhtyPBhGsc6mSIzg8fzwrVJE_GIIm0k3qbzMd7BSjUcAjRFznnsXjv-dnG-Zq671G-_PYcHe88J4yTpy0FBc_pReVfNVrwGvGceEvAbLqA_roMRNI2DjbwohEqK/s1600/routers.jpg"
-    },
-    {
       "title": "Ubiquiti warns of new max severity  UniFi OS vulnerability",
       "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
       "description": "Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]",
@@ -324,24 +270,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
-      "link": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
-      "description": "Researchers at\u0026nbsp;Nebula Security\u0026nbsp;have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full\u0026nbsp;root\u0026nbsp;control of a machine that h...",
-      "pub_date": "Wed, 08 Jul 2026 11:46:44 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid8ZRwAprNDN6zAPixm22IlrKWp03FJdQF0TxCV5v_jxckPLkOHRSzHQERbDNw_FZdnyluuhyphenhyphenGZ7pSX51cjBl-S8PrqhgARlAe8VfWPabk7t4hAy37ZSrRu6oXfRYlXP7s1x1OBYW9WHmgWobGS0wiC0mrO42xHWHrSI3ICLM5OFzsOA3tVCcs4_N1yPU/s1600/linux-root.gif"
-    },
-    {
-      "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
-      "link": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.  ...",
-      "pub_date": "Wed, 08 Jul 2026 11:03:12 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZn36WwWfaOwK7XCU9aKjVPS7QAyrnBKsKMXtVRyYbD2X30HI-ojl5F8ttD9VcbXB36anuKWq-JGEhzPq1fjwnEhKPKMjkPDMPAFe8OqR85N1dc0QZoZ7JCN9ziqGuQ8M4irelfxa_zca62EV-s9qBO9WI47ECtzM8Zi2X8T-MFfuRRbJQ8u48Y2RRt3UT/s1600/cisa-main.jpg"
     },
     {
       "title": "ZDI-26-403: (0Day) Ollama downloadBlob Improper Validation of Array Index Denial-of-Service Vulnerability",
@@ -402,24 +330,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
       "description": "IT services giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other data from the company. [...]",
       "pub_date": "Tue, 07 Jul 2026 18:06:07 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
-      "description": "Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched...",
-      "pub_date": "Tue, 07 Jul 2026 14:52:19 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Hidden backdoor in Tenda router firmware grants admin access",
-      "link": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
-      "description": "A hidden authentication backdoor has been found in multiple Tenda router firmware versions, potentially allowing an attacker to gain administrative access to the device's web management panel. [...]",
-      "pub_date": "Tue, 07 Jul 2026 13:27:22 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
