@@ -1,6 +1,60 @@
 {
-  "last_updated": "2026-07-09T17:13:44Z",
+  "last_updated": "2026-07-09T19:24:50Z",
   "articles": [
+    {
+      "title": "GodDamn Ransomware Rebrands From Beast and Uses PoisonX Driver to Disable Defenses",
+      "link": "https://cybersecuritynews.com/goddamn-ransomware-rebrands-from-beast/",
+      "description": "GodDamn ransomware has emerged as a serious threat, marking the third rebrand of a family that has quietly evolved since 2022. What makes this variant stand out is not just its encryption ability b...",
+      "pub_date": "Thu, 09 Jul 2026 19:18:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GodDamn-Ransomware-Rebrands-From-Beast-and-Uses-PoisonX-Driver-to-Disable-Defenses.webp"
+    },
+    {
+      "title": "ACSC Warns of Large-Scale CMS Exploitation Campaign Deploys Webshells on Vulnerable Websites",
+      "link": "https://cybersecuritynews.com/acsc-warns-of-large-scale-cms-exploitation-campaign-deploys-webshells/",
+      "description": "A large hacking campaign is sweeping across websites worldwide, turning ordinary content management systems into launchpads for attackers. Small and medium sized businesses in Australia and beyond ...",
+      "pub_date": "Thu, 09 Jul 2026 19:18:25 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/ACSC-Warns-of-Large-Scale-CMS-Exploitation-Campaign-Deploys-Webshells-on-Vulnerable-Websites.webp"
+    },
+    {
+      "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
+      "link": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+      "description": "Datadog Security Labs is warning of \"several overlapping campaigns\" that are systematically enumerating corporate GitHub organizations, repositories, and user accounts through the GitHub\u0026nbsp;API. ...",
+      "pub_date": "Fri, 10 Jul 2026 00:08:49 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDslymdYqhkFwIm3ZeaXVZweYVT_R1d6LCQhIm799y9-5hQ3C45cumIStxGYheFbwosbd_JtrB6FgOthR2KJgfe8PYs0k47eGV7263ATac5UR0t7OOaqOUGOf5DHAR4b0IaKTozk0UEiHJz5-nze3b1ureycPGqdPVlqrImWreOWwMpGxC8kgBvONCLGbH/s1600/github-ghost.jpg"
+    },
+    {
+      "title": "RedHook Android RAT Abuses ADB Wireless Debugging to Gain Shell-Level Access",
+      "link": "https://cybersecuritynews.com/redhook-android-rat-abuses-adb-wireless-debugging/",
+      "description": "A resurfaced Android banking trojan called RedHook has returned with a dangerous new trick, hijacking a legitimate developer feature to quietly seize deep control of infected phones. Rather than re...",
+      "pub_date": "Thu, 09 Jul 2026 18:17:01 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/RedHook-Android-RAT-Abuses-ADB-Wireless-Debugging-to-Gain-Shell-Level-Access.webp"
+    },
+    {
+      "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
+      "link": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+      "description": "Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one, offered as comman...",
+      "pub_date": "Thu, 09 Jul 2026 23:38:07 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJRuXh4y7zy8C81w_JgJgWFg_sgF0IYcsvqWEsYeHIHu7nWdOl1aIMQdnmmRQF-KJK_XdTGxzSIAr57yFkzMIZ_VK5Kzx12xR4oW8QOZcnsf9zmySIT3YRvpPvo2q-P92sZc2LqB4M-NSlktwLGU85I0JQbCVCjvJ130GLEF6eGknO8VzkK66kHjlgkBg/s1600/data-wiper-malware.jpg"
+    },
+    {
+      "title": "Microsoft Adopts AI-Powered Scanning to Find Vulnerabilities Before Attackers",
+      "link": "https://cybersecuritynews.com/microsoft-adopts-ai-vulnerability-scanning/",
+      "description": "Microsoft has formally expanded its use of artificial intelligence in vulnerability discovery, deploying a proprietary multi-model agentic scanning system across the Windows codebase to identify an...",
+      "pub_date": "Thu, 09 Jul 2026 17:26:22 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Adopts-AI-Vulnerability-Scanning.webp"
+    },
     {
       "title": "New Helix vishing group emerges in SharePoint data theft attacks",
       "link": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
@@ -47,7 +101,7 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/07/CleanShot-2026-07-09-at-12.21.43@2x.png?resize=683%2C1024"
     },
     {
-      "title": "Roundcube 0-Click Vulnerability Enables Stored XSS Attack via MIME Type Attachment",
+      "title": "RoundCube 0-Click Vulnerability Enables Stored XSS Attack via MIME Type Attachment",
       "link": "https://cybersecuritynews.com/roundcube-0-click-vulnerability/",
       "description": "Roundcube has released version 1.7 to patch six security vulnerabilities, including two critical stored cross-site scripting (XSS) flaws that require zero user interaction to exploit. The update ad...",
       "pub_date": "Thu, 09 Jul 2026 16:17:06 +0000",
@@ -101,15 +155,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Linux-Kernel-Vulnerability-nodes.webp"
     },
     {
-      "title": "Windows Update Silently Installs LG Monitor App That Pushes McAfee Ads",
-      "link": "https://cybersecuritynews.com/windows-update-installs-lg-monitor-app-pushes-mcafee-ads/",
-      "description": "A recent user report has raised concerns about Windows Update silently installing third-party applications, after an LG monitor-related app allegedly appeared on systems and began displaying McAfee...",
-      "pub_date": "Thu, 09 Jul 2026 14:46:43 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-Update-Silently-Installs-LG-Monitor-App-That-Pushes-McAfee-Ads-.webp"
-    },
-    {
       "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
       "link": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
       "description": "A new phishing-as-a-service (PhaaS) operation called Forg365 focuses on stealing Microsoft 365 accounts by combining adversary-in-the-middle (AiTM) and device code methods with AI-assisted lure gen...",
@@ -126,33 +171,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "UNC6692 Hackers Uses Microsoft Teams Helpdesk Impersonation to Deploy SNOW Malware",
-      "link": "https://cybersecuritynews.com/unc6692-hackers-uses-microsoft-teams-helpdesk-impersonation/",
-      "description": "A newly identified threat group tracked as UNC6692 is hijacking Microsoft Teams to install a custom malware suite called SNOW. The campaign relies almost entirely on social engineering, which makes...",
-      "pub_date": "Thu, 09 Jul 2026 13:41:10 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/UNC6692-Hackers-Uses-Microsoft-Teams-Helpdesk-Impersonation-to-Deploy-SNOW-Malware.webp"
-    },
-    {
-      "title": "Everest Ransomware Claims 1 TB Data Theft But Encryptor Shows No Exfiltration Code",
-      "link": "https://cybersecuritynews.com/everest-ransomware-claims-1-tb-data-theft/",
-      "description": "A new technical breakdown of the Everest ransomware family reveals a strange contradiction at the heart of one of its recent attack claims. Despite boasting about stealing a full terabyte of data f...",
-      "pub_date": "Thu, 09 Jul 2026 12:56:46 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Everest-Ransomware-Claims-1-TB-Data-Theft-But-Encryptor-Shows-No-Exfiltration-Code.webp"
-    },
-    {
-      "title": "Operationalizing Threat Intelligence: Bridging the Gap Between Feed Data and SOC Action",
-      "link": "https://cybersecuritynews.com/operationalizing-threat-intelligence/",
-      "description": "Threat intelligence feeds have become a staple line item in security budgets. Yet a persistent gap exists between purchasing a feed and actually using it to stop attacks. Many SOC teams receive a s...",
-      "pub_date": "Thu, 09 Jul 2026 12:47:28 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Operationalizing-Threat-Intelligence.webp"
     },
     {
       "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
@@ -335,15 +353,6 @@
       "image_url": ""
     },
     {
-      "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
-      "link": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
-      "description": "A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This “ghost phishing” technique keeps the malicious page hidden until it ...",
-      "pub_date": "Wed, 08 Jul 2026 18:30:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl6gaxMQBH0Bjb1ZhuaOiM5gKEk-zuSf821eRfV33ogx6YWwENunjyOPF8VXHtgtHgIevENLfBV2O04QI4TtjtDe2PGGevWptQEEagmp6q-G4FqOankGokz70XzVtz7dmNbEZ5G7-pV0yINgd2-ima7ap8xeOxuhZBKw2WPoUo81wKmGrwsPxbzYkW5Wk/s1600/anyrun-main.jpg"
-    },
-    {
       "title": "Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?",
       "link": "https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey",
       "description": "The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global...",
@@ -351,15 +360,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt7652fa46396969f5/69a59e6cfbdb4d75ad7755a9/REQ-14706_-_1600x900px.png"
-    },
-    {
-      "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
-      "link": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
-      "description": "A new banking fraudulent operation is targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges using ClickFix lures.  The activity cluster, tracked by Elastic...",
-      "pub_date": "Wed, 08 Jul 2026 18:22:15 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguw-rOR8Masg2W1UVlfj5rr1nTNdwmhHfXvKG-8rLXWxkwDjtEy-O2ZCb40GEca78DPql7PPEPIrRL_tYt9Ob51ZW7_L-i7w-Ej7DzX2NtNGBrRHuorMowS0d89GxVjQW492-J1LansFJY7SqZgVCtBvcwhyphenhyphenpOcveL_9rNcsgyJm-cRSwnbwvFXKQuLMA9/s1600/clickfix-banking.jpg"
     },
     {
       "title": "DuckDuckGo browser now blocks YouTube video ads",
