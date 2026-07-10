@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-07-10T16:16:47Z",
+  "last_updated": "2026-07-10T18:17:34Z",
   "articles": [
+    {
+      "title": "Progress Urges ShareFile Admins to Shut Down Servers Over Credible Security Threat",
+      "link": "https://cybersecuritynews.com/progress-sharefile-admins-shut-down-servers/",
+      "description": "Progress Software has issued an urgent advisory instructing customers running on-premises ShareFile Storage Zone Controllers to immediately power down the servers hosting these components, citing a...",
+      "pub_date": "Fri, 10 Jul 2026 17:50:48 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Progress-ShareFile-Admins-Shut-Down-Servers.webp"
+    },
+    {
+      "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
+      "description": "A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]",
+      "pub_date": "Fri, 10 Jul 2026 13:46:10 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
+      "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
+      "description": "Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys ...",
+      "pub_date": "Fri, 10 Jul 2026 22:59:28 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTNxzPo9jxkW3GuuZLBgtPOrG3vZ3va6E710jDJu_JF0jCpyQ1JTpymdVwdSH2VHL6-Ib6YLInvKsuNwgFJxna1nvDhwKMZ_hycTik5OgQniZei2FQ59-F3s80lsnPmhQ1aJsr7qIWWrf63V0AtHQxd_1Nlk6LkVEheoN5lRYH8aTeBoJ-kM1-bOjUgAwa/s1600/npm-malware-2.jpg"
+    },
+    {
+      "title": "One WhatsApp Message Turns OpenClaw Into a Remote Access Tool for Hackers",
+      "link": "https://cybersecuritynews.com/whatsapp-message-openclaw-remote-access-tool/",
+      "description": "Three high-severity vulnerabilities in OpenClaw, the open-source AI coding assistant with 381,000 GitHub stars, that allow attackers to achieve remote code execution through a single WhatsApp messa...",
+      "pub_date": "Fri, 10 Jul 2026 17:28:12 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/WhatsApp-Message-OpenClaw-Remote-Access-Tool.webp"
+    },
+    {
+      "title": "Police suspects Dutch hackers were involved in Odido breach",
+      "link": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
+      "description": "The Dutch National Police (Politie) says it has found \"strong indications\" that Dutch hackers have been involved in a February breach at the telecommunications provider Odido. [...]",
+      "pub_date": "Fri, 10 Jul 2026 12:37:01 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Progress urges ShareFile admins to shut down servers over “credible” threat",
+      "link": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
+      "description": "Progress Software is emailing ShareFile customers who use Storage Zone Controllers to immediately shut down their servers after identifying what it describes as a \"credible external security threat...",
+      "pub_date": "Fri, 10 Jul 2026 12:26:10 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
+      "link": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
+      "description": "Researchers at firmware security firm\u0026nbsp;Binarly\u0026nbsp;have found six new flaws in U-Boot, the small program that starts up hardware as varied as home routers, smart cameras, and the management ch...",
+      "pub_date": "Fri, 10 Jul 2026 21:27:14 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihuE5rUYRadx5Q2auJjv9dVeFNIP8XSwSTaH0PDwGLUA54MXlPy3AyI532a8OnhXadtWnCCH30qvUKW9C3rCOu1LPld1or5_lXwNhRVqbohHNInDzNd1f9E77Sox5yB-ir7H69LmlYRKnoqnFASOMFa2TIK2RfTThJvu_oofIXHCpiRbXGXWy-bquBWsw/s1600/bootloader.gif"
+    },
     {
       "title": "Hackers exploit critical auth bypass in Gitea Docker image",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
@@ -35,7 +98,7 @@
       "pub_date": "Fri, 10 Jul 2026 20:21:49 +0530",
       "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTLgENs5MJo_gV_QbX1x2nGoQHhWCWzGJl6D8ssjbC4gbSDAO2zfpMBjVKTt0l8kqw_K230z5k2KdxldED7j-dseI_a46u241eUTbIa3z0gphXahdPKVxGU7xdjLiLun9ooeGWLHsoYks00SsjqJv0d1-N157CMvuTVjFgYA1UXGz5N5esdGiWrK975J8q/s1600/hardware-wallet-password-reset.jpg"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0BbJcQ3TUJxFvOCpAChyC5saD3RGgDCtLtVG-Wupee7poBksO2TzSWFtzQmjjoXuZ-9hnCNR3HuWdSsBv7YZl477fdOcjoOBh72RY4vJ9R0hxUWktV2R7wgTsRa-_Zz5Bj_ZGfQOVT8v292QJ55C9hMumk-IgXd-PVZ6LFu2ZDyCGwjNtJhCYb4W-mPDO/s1600/ll.jpg"
     },
     {
       "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
@@ -164,15 +227,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgruetcUTsay2-ledgCIdCPKK_bPRiTzuXzYeUiLR3xuazZgHTmxO4Gz6PyyuwdFUVoHHOCbq5PksEMW18dSsdzCJddBMr8vQ3TQO3PIqXExF_17RGVfKRD8cPltNjh6eV1fgXM-pYYlwZnWaZcf7oo50CahUBY5AWt8-IS1K7KxhlL9GFLDcAk1ruwMSI/s1600/hacker-server.jpg"
     },
     {
-      "title": "Researcher ‘Chaotic Eclipse’ Claims RoguePlanet Defender Patch May Leak Data and Exhaust Disk Space",
-      "link": "https://cybersecuritynews.com/rogueplanet-defender-patch-claim/",
-      "description": "Microsoft’s patch for the RoguePlanet Windows Defender zero-day may have introduced new security and reliability concerns, according to researcher Chaotic Eclipse. The researcher claims that rece...",
-      "pub_date": "Fri, 10 Jul 2026 11:03:40 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/RoguePlanet-Defender-Patch-Claim.webp"
-    },
-    {
       "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
       "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
       "description": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their traf...",
@@ -180,15 +234,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGJR5fh4xv_X2JER6SMxM62unaK2pucigiJwiE69bCR9n3fgVMqlH2zWpTsmiy4d936R46czjNmkAjDpU7yZgPMl6KFp7phz3kQ9sO1XaE3JHMW0VCUtwN3_zOqOcUfKdbJTJjWjahA44NPMXMif0JqnO_kzJDfuHT0HJvtOlndAvheFqNrpviHXVQ_DIb/s1600/android-vpn-security.jpg"
-    },
-    {
-      "title": "Odyssey Stealer Hits macOS Users in 100+ Countries, Targets 300 Crypto Wallet Extensions",
-      "link": "https://cybersecuritynews.com/odyssey-stealer-hits-macos-users/",
-      "description": "Odyssey Stealer is again targeting macOS users, with a recent surge affecting victims in more than 100 countries. The information-stealing malware is built to collect credentials, browsing data, cr...",
-      "pub_date": "Fri, 10 Jul 2026 10:45:26 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Odyssey-Stealer-Hits-macOS-Users-in-100-Countries-Targets-300-Crypto-Wallet-Extensions.webp"
     },
     {
       "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
@@ -299,15 +344,6 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/07/CleanShot-2026-07-09-at-12.21.43@2x.png?resize=683%2C1024"
     },
     {
-      "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
-      "link": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
-      "description": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch\u0026nbsp;it.  This week is full of that...",
-      "pub_date": "Thu, 09 Jul 2026 20:39:28 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAXvG0n7eiC50jtfO-3MYOPx-Z0iWiucBfHqzY2QNH-5fUyfWcGu3NME0yERr2qWKcAeg6rIYMtP_VEeRInpeghztHmnjDa4QyuXSbaktcOdHHK9sx8lurd2RmejcmBjSZIznBl0zKQ-mk4dcCsVdL29g4XPEwUdrlQgj5-GgxvVnolSJJfCJW7g4vosLe/s1600/ThreatsDay-main.jpg"
-    },
-    {
       "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
       "link": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
       "description": "A new phishing-as-a-service (PhaaS) operation called Forg365 focuses on stealing Microsoft 365 accounts by combining adversary-in-the-middle (AiTM) and device code methods with AI-assisted lure gen...",
@@ -326,46 +362,10 @@
       "image_url": ""
     },
     {
-      "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
-      "link": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
-      "description": "AI has changed how fast attacks move. Work that once took an attacker days now takes minutes. Using models like Mythos, attackers write tailored bait, pick targets, test what lands, and jump to the...",
-      "pub_date": "Thu, 09 Jul 2026 17:56:58 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVBCdd1YLOTAhXs53MgUBJHfid7uAH-uFr4vzULJu6BL5H7TDiBbZUDxS9RTwC1FH7q2HhEiI2BHLlymHQ7btIBDidvIohoiVJ2XH2uvQcan7Lio_iIh3Ku3J3LoM8SgaHrlAnyFeVLo77qE93hFykG4CJZUj1IsJb75jFMjAK9Q1V-akTkdagA_NLm4A/s1600/thn-webinar.jpg"
-    },
-    {
       "title": "Microsoft to retire the OWA Light client in Exchange Server",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
       "description": "Microsoft has announced plans to disable Outlook Web Access (OWA) Light, the lightweight version of the Outlook Web App email client, in a future Exchange Server update. [...]",
       "pub_date": "Thu, 09 Jul 2026 07:00:35 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
-      "link": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
-      "description": "Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries. [...]",
-      "pub_date": "Thu, 09 Jul 2026 05:47:28 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
-      "link": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
-      "description": "American insurance company AssuranceAmerica has disclosed a data breach impacting nearly 7 million drivers after attackers gained access to its systems earlier this year.  [...]",
-      "pub_date": "Thu, 09 Jul 2026 03:47:16 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft patches RoguePlanet Defender zero-day vulnerability",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/",
-      "description": "Microsoft has released a security patch to address a Defender zero-day vulnerability known as \"RoguePlanet,\" disclosed after the June 2026 Patch Tuesday. [...]",
-      "pub_date": "Thu, 09 Jul 2026 01:42:49 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
@@ -722,6 +722,15 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-48939 iCagenda Unrestricted Upload of File with Dang...",
+      "pub_date": "Fri, 10 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "Schneider Electric PowerChute Serial Shutdown",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to overwrite critical files, forge or inject malicious log data, gain unauthorized account access, trigger d...",
@@ -842,15 +851,6 @@
       "title": "ST Engineering iDirect iQ-Series Terminals",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition. The following ve...",
-      "pub_date": "Thu, 02 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Gardyn IoT Hub",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow unauthenticated users to access and control IoT Hub managed devices. The following versions of Gardyn IoT Hub are affe...",
       "pub_date": "Thu, 02 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
