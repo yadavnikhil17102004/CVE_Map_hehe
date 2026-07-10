@@ -1,6 +1,150 @@
 {
-  "last_updated": "2026-07-10T10:16:25Z",
+  "last_updated": "2026-07-10T13:05:28Z",
   "articles": [
+    {
+      "title": "Hackers Can Go From CitrixBleed 2 Exploitation to Ransomware in Under an Hour",
+      "link": "https://cybersecuritynews.com/hackers-can-go-from-citrixbleed-2-exploitation/",
+      "description": "A critical Citrix flaw is giving intruders a fast route from an internet-facing gateway to a ransomware event. The activity centers on CitrixBleed 2, tracked as CVE-2025-5777, which can expose memo...",
+      "pub_date": "Fri, 10 Jul 2026 12:49:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Can-Go-From-CitrixBleed-2-Exploitation-to-Ransomware-in-Under-an-Hour.webp"
+    },
+    {
+      "title": "Malicious Windows Shortcuts Use PowerShell and Node.js to Enable Remote Code Execution",
+      "link": "https://cybersecuritynews.com/malicious-windows-shortcuts-use-powershell-and-node-js/",
+      "description": "A malicious Windows shortcut is being used to turn a routine download into a full remote-code-execution foothold. The campaign begins with convincing booking-themed spam and steers victims toward a...",
+      "pub_date": "Fri, 10 Jul 2026 12:20:22 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Malicious-Windows-Shortcuts-Use-PowerShell-and-Node.js-to-Enable-Remote-Code-Execution.webp"
+    },
+    {
+      "title": "GNU Guix Vulnerabilities Allow Remote Privilege Escalation via Malicious Binary Substitutes",
+      "link": "https://cybersecuritynews.com/gnu-guix-vulnerabilities/",
+      "description": "GNU Guix has disclosed four serious security vulnerabilities affecting its package substitution and channel-management features. Three flaws in the guix substitute utility can enable remote privile...",
+      "pub_date": "Fri, 10 Jul 2026 12:13:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GNU-Guix-Vulnerabilities-Allow-Remote-Privilege-Escalation-via-Malicious-Binary-Substitutes.webp"
+    },
+    {
+      "title": "Linux Kernel FUSE Vulnerability Lets Attackers Gain Root Privileges",
+      "link": "https://cybersecuritynews.com/linux-kernel-fuse-vulnerability/",
+      "description": "A Linux kernel vulnerability in the FUSE subsystem can allow a local attacker to gain root privileges by overflowing the page cache with attacker-controlled directory entries. The flaw is tracked a...",
+      "pub_date": "Fri, 10 Jul 2026 12:12:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Linux-Kernel-FUSE-Vulnerability-Lets-Attackers-Gain-Root-Privileges.webp"
+    },
+    {
+      "title": "Hackers are Turning AI Gateways as Attack Surfaces to Compromise Enterprise Networks",
+      "link": "https://cybersecuritynews.com/hackers-turning-ai-gateways-as-attack/",
+      "description": "AI gateways are increasingly being targeted as organizations connect generative AI applications to cloud services such as Amazon Bedrock. These gateways sit between users, business applications, an...",
+      "pub_date": "Fri, 10 Jul 2026 11:56:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-are-Turning-AI-Gateways-as-Attack-Surfaces-to-Compromise-enterprise-Networks.webp"
+    },
+    {
+      "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
+      "link": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
+      "description": "A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch.  FoxIO re...",
+      "pub_date": "Fri, 10 Jul 2026 17:17:43 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQHphr7bXE4J4-EmYSWy0cjHarUBibR2JrXpFbwDKMZnsWbiUsC9UE7g3x2r8WFDLB7BBZlH2kDJ3I9QqF8IIGLPiZda93wKUaDqJC8Nv11yrd7VPm9RmBOky0yRXGRhhcDqbwNCZvHiGTkKRb06XAwFiGl0juzUeFBn3LUDwFfxZVNlInVmXTNI4cMLI/s1600/XQUIC-demo.gif"
+    },
+    {
+      "title": "Zimbra urges customers to patch critical web client XSS flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
+      "description": "The Zimbra security team urged customers to patch a critical vulnerability affecting the Classic Web Client used to access the Zimbra Collaboration suite. [...]",
+      "pub_date": "Fri, 10 Jul 2026 07:47:38 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "New Windows Process Injection Technique Bypasses Four Leading EDR Solutions",
+      "link": "https://cybersecuritynews.com/new-windows-process-injection-technique/",
+      "description": "A newly published Windows proof of concept shows how an attacker can place harmful code inside a legitimate process while avoiding several warning signs that endpoint security tools commonly watch....",
+      "pub_date": "Fri, 10 Jul 2026 11:44:10 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/New-Windows-Process-Injection-Technique-Bypasses-Four-Leading-EDR-Solutions.webp"
+    },
+    {
+      "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
+      "link": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
+      "description": "Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius Actionability Repo...",
+      "pub_date": "Fri, 10 Jul 2026 17:09:40 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGplfQpPmwb3F3h_tdGW9-jNmpKBLd2DdhOw1nugXafk9rWwqxFwvD5xE1L1Qs0zvZvgi7Fx_jhj9kIn9PhOvWYuLMd9n7fOeXnfzujPanNBTqmMC4SKi__b_KFtpnmNkz-jtzB2tcjgO_ceckyR4Er4Gl3LASJKbyGvZVhkqP6m9Xdx12WO6xWROBzFk/s1600/million.jpg"
+    },
+    {
+      "title": "FastNetMon Launches Netomics, a Self-Hosted Routing Intelligence Platform",
+      "link": "https://cybersecuritynews.com/fastnetmon-launches-netomics-routing-intelligence-platform/",
+      "description": "London, United Kingdom, July 10th, 2026, CyberNewswire New platform gives network operators complete visibility into Internet routing while keeping all routing intelligence inside their own infrast...",
+      "pub_date": "Fri, 10 Jul 2026 11:32:26 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://i3.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_fEGSjxvBsD-xQ9eLpWirVOLxlnsNeehRemonueJ1ZpgafNuptcXZzWzo_K3Jd4KsFJnPQEXd66HraK7X5re6Wta1QqZ_EqeNdRHjf15PTM6icmap0xqNyPBVoJfc7rKqhSaplA4TxjV8pxRsHU8wjS1Ulwa8q9iWhkIwhBLOKYSiMShtSLWPYpNnbPE/s1600/Untitled%20design%20(8).webp?ssl=1"
+    },
+    {
+      "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
+      "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
+      "description": "A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming...",
+      "pub_date": "Fri, 10 Jul 2026 17:00:02 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgruetcUTsay2-ledgCIdCPKK_bPRiTzuXzYeUiLR3xuazZgHTmxO4Gz6PyyuwdFUVoHHOCbq5PksEMW18dSsdzCJddBMr8vQ3TQO3PIqXExF_17RGVfKRD8cPltNjh6eV1fgXM-pYYlwZnWaZcf7oo50CahUBY5AWt8-IS1K7KxhlL9GFLDcAk1ruwMSI/s1600/hacker-server.jpg"
+    },
+    {
+      "title": "Researcher ‘Chaotic Eclipse’ Claims RoguePlanet Defender Patch May Leak Data and Exhaust Disk Space",
+      "link": "https://cybersecuritynews.com/rogueplanet-defender-patch-claim/",
+      "description": "Microsoft’s patch for the RoguePlanet Windows Defender zero-day may have introduced new security and reliability concerns, according to researcher Chaotic Eclipse. The researcher claims that rece...",
+      "pub_date": "Fri, 10 Jul 2026 11:03:40 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/RoguePlanet-Defender-Patch-Claim.webp"
+    },
+    {
+      "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
+      "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
+      "description": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their traf...",
+      "pub_date": "Fri, 10 Jul 2026 16:26:23 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGJR5fh4xv_X2JER6SMxM62unaK2pucigiJwiE69bCR9n3fgVMqlH2zWpTsmiy4d936R46czjNmkAjDpU7yZgPMl6KFp7phz3kQ9sO1XaE3JHMW0VCUtwN3_zOqOcUfKdbJTJjWjahA44NPMXMif0JqnO_kzJDfuHT0HJvtOlndAvheFqNrpviHXVQ_DIb/s1600/android-vpn-security.jpg"
+    },
+    {
+      "title": "Odyssey Stealer Hits macOS Users in 100+ Countries, Targets 300 Crypto Wallet Extensions",
+      "link": "https://cybersecuritynews.com/odyssey-stealer-hits-macos-users/",
+      "description": "Odyssey Stealer is again targeting macOS users, with a recent surge affecting victims in more than 100 countries. The information-stealing malware is built to collect credentials, browsing data, cr...",
+      "pub_date": "Fri, 10 Jul 2026 10:45:26 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Odyssey-Stealer-Hits-macOS-Users-in-100-Countries-Targets-300-Crypto-Wallet-Extensions.webp"
+    },
+    {
+      "title": "Xalgorix AI Penetration Testing Tool with 22-Phase Testing Methodology",
+      "link": "https://cybersecuritynews.com/xalgorix-ai-penetration-testing-tool/",
+      "description": "Xalgorix is an open-source, self-hosted AI penetration testing platform that uses an autonomous LLM agent paired with an independent exploit verifier to deliver proven, not just suspected, vulnerab...",
+      "pub_date": "Fri, 10 Jul 2026 10:36:24 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Xalgorix-AI-Penetration-Testing-Tool.webp"
+    },
+    {
+      "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
+      "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
+      "description": "A threat actor has been targeting organizations spanning multiple sectors with voice-based fake security requests that prompt Microsoft 365 users to enroll a new Entra passkey with an aim to carry ...",
+      "pub_date": "Fri, 10 Jul 2026 16:00:20 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1L4YdSw3-1jg88TMzYxjsqRmu3Bq-VkmyGg742mMsJaIyhyaBk5MBeEFOxagE4H6GFjfH8ey1114iqyT0LuKYFdu7ocZhOrA3WQCvtNZGBknEJ1wTdb5vJ-M8w5kLXaUoBi39TXducoH8jZVrQ1xQQsBtEf0rrGJGfappdR1CrSB3xvaJC8Dgos2XdC37/s1600/Microsoft-Entra-Passkey-Enrollment.jpg"
+    },
     {
       "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
       "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
@@ -191,15 +335,6 @@
       "image_url": ""
     },
     {
-      "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
-      "link": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
-      "description": "Meta has announced that its new artificial intelligence (AI) model Muse Image lets people use public Instagram posts and reels to generate AI content, and it's enabled by default.  \"You can also @-...",
-      "pub_date": "Thu, 09 Jul 2026 12:51:06 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsjiT58V2lRqaqYwo2AHkilx81c58T9dBHa_W5KiHgom4-UgZqV18Ax-zQb8_fN7p_OQpqi0b4nTzt4SpDnHW-RozKjIcgs-B8KN8HI_QnCMzIjDMmcg2grJEyP7r1ZNd_SRB5R1MDw-vo-jQ4v198ZDhMsWaBpFnXmShkouRZvXIXpu-32FQ_30h4HQrq/s1600/metaai.jpg"
-    },
-    {
       "title": "Microsoft patches RoguePlanet Defender zero-day vulnerability",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/",
       "description": "Microsoft has released a security patch to address a Defender zero-day vulnerability known as \"RoguePlanet,\" disclosed after the June 2026 Patch Tuesday. [...]",
@@ -207,33 +342,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
-      "link": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
-      "description": "Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead.  That is the finding in a\u0026nbsp;proof-of-concept published Wedne...",
-      "pub_date": "Thu, 09 Jul 2026 10:45:02 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgynXsBDNXYgGgYPWB6cmy9zuZDStl-XaVvlwMQsqa6AxvNCvi7qI9Xq3h1vdk30Tv1u-fOAtB_OZ_Q-i5O0z5D0KL1Eh0joKyFmuhIoH4-7Z16ubplbIcNQpXJ7P7Sl2xju-z6ZvbhSeJbGKiL1gzx-I151GVMAp5jpCS27zvn791sC2WYQllTRT8ye-0/s1600/Friendly-Fire-AI-demo.gif"
-    },
-    {
-      "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
-      "link": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
-      "description": "Researchers at\u0026nbsp;Wiz\u0026nbsp;found that a flaw in six popular AI coding assistants lets a booby-trapped code project quietly take control of a developer's computer. The assistant asks permission to...",
-      "pub_date": "Thu, 09 Jul 2026 09:57:18 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijymBd057efx1JbDRjjqh0RBYH7RA2pE75UYG8DDd7Vl2UyXMsMjXtgEaxoPyHt5wz8s0fT6B43ovQskxZBchyiYI9G34t7YjyC6_T0xwzs_0SOJaHnHI7vXfMTOqtDn1R6up52ol5UH_uT86b1dRjaJ-Bw6pa_lAX6igS_pFLV_z_0kRhyXuNo8Q2rFU/s1600/wiz-ai.jpg"
-    },
-    {
-      "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
-      "link": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
-      "description": "Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure compr...",
-      "pub_date": "Thu, 09 Jul 2026 09:31:49 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0R7K2HuXIaXAr6VokIBdoRH5Zk8L2jJMM5abiDPtiOsT3DsQnI-FRSuTO02mekKGj2Cup9RBBYgAhyo92KHjyCTsMuctH8lYgwysOxpLpHp9uIuL7xBEuojc83nmWH7pcA1KRlu8W9-7b1caaoQMaNX2qATV_7e-CwoPSFk08VwjbRx2M-fgfMcjN3KeW/s1600/7-zip-malware.png"
     },
     {
       "title": "Mount Royal University confirms breach as hackers claim attack",
@@ -258,24 +366,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
       "description": "A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backdoor malware. [...]",
       "pub_date": "Wed, 08 Jul 2026 14:56:02 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
-      "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
-      "description": "Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch human intruders.  The...",
-      "pub_date": "Wed, 08 Jul 2026 22:32:12 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEtVOCcf8-6_z0F4FVoPlTMQRFJ4CfHCbl-GvhT9EbRrfZgTJsNbBkzAq72212RbMT1Knk5GJsYDY8p5W7YO8x29vQ782QW6CRorl_oKVyAgOmS46Y9HyTPcdZOmMjOPtWjpAHH3C91EPVk4dnHqaAEX8QoaSvGzCbjMy0YhF7lJaIR6-T9Dq5jzZycIc/s1600/alarm.jpg"
-    },
-    {
-      "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
-      "link": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
-      "description": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]",
-      "pub_date": "Wed, 08 Jul 2026 12:47:25 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
