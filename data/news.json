@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-07-11T15:46:02Z",
+  "last_updated": "2026-07-11T16:44:56Z",
   "articles": [
+    {
+      "title": "New Ghostcommit Attack Hides Malicious Prompts in Images to Exploit AI Agents",
+      "link": "https://cybersecuritynews.com/ghostcommit-attack-hides-prompts/",
+      "description": "A novel supply chain attack called \u0026#8220;Ghostcommit\u0026#8221; that conceals prompt-injection instructions within PNG images to bypass AI code reviewers and trick coding agents into leaking secrets s...",
+      "pub_date": "Sat, 11 Jul 2026 16:22:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Ghostcommit-Attack.webp"
+    },
     {
       "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
       "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
@@ -234,15 +243,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Malicious-Windows-Shortcuts-Use-PowerShell-and-Node.js-to-Enable-Remote-Code-Execution.webp"
-    },
-    {
-      "title": "GNU Guix Vulnerabilities Allow Remote Privilege Escalation via Malicious Binary Substitutes",
-      "link": "https://cybersecuritynews.com/gnu-guix-vulnerabilities/",
-      "description": "GNU Guix has disclosed four serious security vulnerabilities affecting its package substitution and channel-management features. Three flaws in the guix substitute utility can enable remote privile...",
-      "pub_date": "Fri, 10 Jul 2026 12:13:58 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GNU-Guix-Vulnerabilities-Allow-Remote-Privilege-Escalation-via-Malicious-Binary-Substitutes.webp"
     },
     {
       "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
