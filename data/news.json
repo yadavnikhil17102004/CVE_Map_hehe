@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11T21:42:20Z",
+  "last_updated": "2026-07-11T22:39:16Z",
   "articles": [
     {
       "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
@@ -18,6 +18,24 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimRVwRIhs54UhNHyRll9YzVxICmTpgqwjAK1Sy7vYt6FAzb9oImcFpuM0J8dOWdtdjCdlROkternhP9r5jZD9HNvwVwcyRzhesdYgbVjUpJk7p4rxDDJSdEUibs1Gk-Ihy1bTcxs8fA7kgG49ImfTWEZO6068Ui-_X6sTTraCg8lFuucYJrUJi2RhdXyG2/s1600/pakistan.jpg"
+    },
+    {
+      "title": "Microsoft Teams on macOS Screen Sharing Bug Causing Blank Screens",
+      "link": "https://cybersecuritynews.com/microsoft-teams-on-macos/",
+      "description": "Microsoft has confirmed a known issue in Teams on macOS that causes screen sharing to fail, freeze, or show a blank black screen during meetings. The bug affects users running macOS versions older ...",
+      "pub_date": "Sat, 11 Jul 2026 17:18:13 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Teams-on-macOS.webp"
+    },
+    {
+      "title": "New Ghostcommit Attack Hides Malicious Prompts in Images to Exploit AI Agents",
+      "link": "https://cybersecuritynews.com/ghostcommit-attack-hides-prompts/",
+      "description": "A novel supply chain attack called \u0026#8220;Ghostcommit\u0026#8221; that conceals prompt-injection instructions within PNG images to bypass AI code reviewers and trick coding agents into leaking secrets s...",
+      "pub_date": "Sat, 11 Jul 2026 16:22:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Ghostcommit-Attack.webp"
     },
     {
       "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
@@ -47,6 +65,42 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirVz95zYTg61VRro9unfJCWWwwUrv3pQdtyNT7rPL8iCg6n0S6bky4dqPiluQHfSvQMIO9cyYgrz-07ZCx8yG_qND_J9XJ_0BoUON9p3zj0etafNvjg45txAeu4uCDEMxGDNv2tIxNuqrC0OsKG_sWZp5QIlEkbqZ_g_EEcAdXUQbuo_EgsXwT3mERTTk/s1600/zimbra-email-hack.jpg"
     },
     {
+      "title": "Forg365 Phishing Platform Using AI to Attack Microsoft 365 Accounts",
+      "link": "https://cybersecuritynews.com/forg365-phishing-attack-microsoft-365-accounts/",
+      "description": "Forg365 is a phishing-as-a-service platform that targets Microsoft accounts, combining AI-powered phishing, session theft, and post-compromise mailbox access in a single operator panel The platform...",
+      "pub_date": "Sat, 11 Jul 2026 04:48:50 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Forg365-Attack-Microsoft-365-Accounts.webp"
+    },
+    {
+      "title": "CISA Details “Lessons from a Cyber Incident” After AWS GovCloud Credentials Leak",
+      "link": "https://cybersecuritynews.com/cisa-details-aws-credentials-leak/",
+      "description": "CISA has published a candid after-action account revealing that a contractor accidentally exposed the agency\u0026#8217;s own AWS GovCloud credentials and Infrastructure-as-Code repositories in a person...",
+      "pub_date": "Sat, 11 Jul 2026 03:58:27 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/CISA-Details-AWS-Credentials-Leak.webp"
+    },
+    {
+      "title": "Dell BIOS Flaw Lets Attackers Recover Admin Passwords From SPI Flash in Milliseconds",
+      "link": "https://cybersecuritynews.com/dell-bios-flaw-admin-passwords/",
+      "description": "A critical flaw in how Dell stores BIOS administrator and user passwords allows full password recovery from a flash dump in milliseconds, with no brute force required. The vulnerability, tracked as...",
+      "pub_date": "Sat, 11 Jul 2026 03:17:12 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Dell-BIOS-Vulnerability-Admin-Passwords.webp"
+    },
+    {
+      "title": "281 Popular VPN Apps from the Google Play Store Leak Sensitive Data, Transfer Data Unencrypted",
+      "link": "https://cybersecuritynews.com/vpn-apps-from-the-google-play-leaks/",
+      "description": "A new security study has found serious privacy and security issues in 281 popular Android VPN applications available on the Google Play Store. Researchers discovered that dozens of these apps trans...",
+      "pub_date": "Sat, 11 Jul 2026 02:59:32 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/281-popular-VPN-apps-from-the-Google-Play-Leaks-Sensitive-Data-Transfers-Data-Unencrypted.webp"
+    },
+    {
       "title": "Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit",
       "link": "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit",
       "description": "More AI, more software, more bugs!AI, it's all you hear about nowadays and everyone's got an opinion on it. Here at Metasploit, we care less about those opinions and more about the growing attack s...",
@@ -65,6 +119,15 @@
       "image_url": ""
     },
     {
+      "title": "Progress Urges ShareFile Admins to Shut Down Servers Over Credible Security Threat",
+      "link": "https://cybersecuritynews.com/progress-sharefile-admins-shut-down-servers/",
+      "description": "Progress Software has issued an urgent advisory instructing customers running on-premises ShareFile Storage Zone Controllers to immediately power down the servers hosting these components, citing a...",
+      "pub_date": "Fri, 10 Jul 2026 17:50:48 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Progress-ShareFile-Admins-Shut-Down-Servers.webp"
+    },
+    {
       "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
       "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
       "description": "A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]",
@@ -72,6 +135,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "One WhatsApp Message Turns OpenClaw Into a Remote Access Tool for Hackers",
+      "link": "https://cybersecuritynews.com/whatsapp-message-openclaw-remote-access-tool/",
+      "description": "Three high-severity vulnerabilities in OpenClaw, the open-source AI coding assistant with 381,000 GitHub stars, that allow attackers to achieve remote code execution through a single WhatsApp messa...",
+      "pub_date": "Fri, 10 Jul 2026 17:28:12 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/WhatsApp-Message-OpenClaw-Remote-Access-Tool.webp"
     },
     {
       "title": "Police suspects Dutch hackers were involved in Odido breach",
@@ -137,6 +209,15 @@
       "image_url": ""
     },
     {
+      "title": "Top 10 Best Unified Threat Management (UTM) Solutions in 2026",
+      "link": "https://cybersecuritynews.com/best-unified-threat-management-solutions/",
+      "description": "If you need one appliance that handles firewalling, intrusion prevention, VPN, antivirus, and web filtering without a security team to run it, Fortinet FortiGate is our top UTM pick for 2026, with ...",
+      "pub_date": "Fri, 10 Jul 2026 15:30:10 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVU_T1S_NHI4AjH9vekuvRDVENjWlsYJAAo7R-JAS55NPJy2byGqmheSk_KCkXDO4-QhkCGStVIwTnJid1JeTf1H9TJotEMvxfJZ2wULdeY8Wg9wazsvWpx_6Bv7bZi5WAQ0ANU4O7MFz1d_n0ER_TbCn65XZdlNuUEfIgx-yCxCcLZdnIky8cHLpQoYo/s1600/Best%20Unified%20Threat%20Management%20(UTM)%20Solutions%20.webp?ssl=1"
+    },
+    {
       "title": "Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched",
       "link": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
       "description": "Researchers at Ledger's\u0026nbsp;Donjon security team\u0026nbsp;have shown that a precisely timed laser pulse, aimed at the chip inside a Tangem crypto wallet card, can reset the card's password to anything...",
@@ -171,6 +252,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKTCUzhkUq2Y7DPv0yS2FatrHQTcHfupRly6f5kSWyQU-So3FOjpC8pt_VKR4qo1SoUGR65ycOEQonbW5heKWj1g_A8qDy69YtWGZDO4m2t46Sip-jdPAlNs2fpRj-w1yd8WpyJpNFUpj1iTBO0X6fy3n9DJ4aEdsWaQz_tN-VV-PxDrufKZR9wkznmXJQ/s1600/MODBEACON.jpg"
+    },
+    {
+      "title": "Hackers Can Go From CitrixBleed 2 Exploitation to Ransomware in Under an Hour",
+      "link": "https://cybersecuritynews.com/hackers-can-go-from-citrixbleed-2-exploitation/",
+      "description": "A critical Citrix flaw is giving intruders a fast route from an internet-facing gateway to a ransomware event. The activity centers on CitrixBleed 2, tracked as CVE-2025-5777, which can expose memo...",
+      "pub_date": "Fri, 10 Jul 2026 12:49:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Can-Go-From-CitrixBleed-2-Exploitation-to-Ransomware-in-Under-an-Hour.webp"
     },
     {
       "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
