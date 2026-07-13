@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-07-13T17:08:27Z",
+  "last_updated": "2026-07-13T19:14:44Z",
   "articles": [
+    {
+      "title": "New CrashStealer malware poses as Apple crash reporting tool",
+      "link": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
+      "description": "A new macOS information-stealing malware called CrashStealer pretends to be Apple's crash-reporting tool to steal credentials, keychain data, and crypto wallets. [...]",
+      "pub_date": "Mon, 13 Jul 2026 15:04:02 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
+      "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
+      "description": "Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems.  Unlike other information stealers t...",
+      "pub_date": "Mon, 13 Jul 2026 23:06:12 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbZ5yNN1gA3Yzt-6i1sekVk3AFnHGEpas31-UowjFTXB9Rj4DhkS8H4cqjr655w9HCDKZIzcRAqn1NvLSmPLs_-oDDYpCteWgGlkUIpuyMkPIeXnfgxKCYRG54K8oV0j4vVaWj928DfJBsYJzR98e5BuZDp5OmoeFtDubZ90Qnz0a7G9VmukCII5kVE3rQ/s1600/macos-malware-1.jpg"
+    },
+    {
+      "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found",
+      "link": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
+      "description": "Google and Microsoft have pulled ModHeader, a popular header-editing extension with roughly 1.6 million installs across Chrome and Edge, after researchers found a hidden browsing-history collector ...",
+      "pub_date": "Mon, 13 Jul 2026 22:47:24 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSvBtzUXyAbjgtvPJVS9zZ29ULkaIs0fMMa53ZKSip2pJbZ7_HMTGn3SV27X28JLwaq9atS1B_jvH_7qgfsjW0wyVDV_jGyqFSyO-z_vHuoigCy14xfb7DKuuWGIMUVeLiOhnap1yICNPEC2OUkA0d_e8RXtPs7oTo3BAz9I2DTxRwg67vgObResLQ7c4/s1600/browser-edge.jpg"
+    },
     {
       "title": "New macOS Stealer Mimics Apple’s Crash Report Framework to Steal Browser Credentials",
       "link": "https://cybersecuritynews.com/macos-stealer-mimics-apples-crash-report/",
@@ -342,33 +369,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTNxzPo9jxkW3GuuZLBgtPOrG3vZ3va6E710jDJu_JF0jCpyQ1JTpymdVwdSH2VHL6-Ib6YLInvKsuNwgFJxna1nvDhwKMZ_hycTik5OgQniZei2FQ59-F3s80lsnPmhQ1aJsr7qIWWrf63V0AtHQxd_1Nlk6LkVEheoN5lRYH8aTeBoJ-kM1-bOjUgAwa/s1600/npm-malware-2.jpg"
-    },
-    {
-      "title": "Progress urges ShareFile admins to shut down servers over “credible” threat",
-      "link": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
-      "description": "Progress Software is emailing ShareFile customers who use Storage Zone Controllers to immediately shut down their servers after identifying what it describes as a \"credible external security threat...",
-      "pub_date": "Fri, 10 Jul 2026 12:26:10 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
-      "link": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
-      "description": "Researchers at firmware security firm\u0026nbsp;Binarly\u0026nbsp;have found six new flaws in U-Boot, the small program that starts up hardware as varied as home routers, smart cameras, and the management ch...",
-      "pub_date": "Fri, 10 Jul 2026 21:27:14 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihuE5rUYRadx5Q2auJjv9dVeFNIP8XSwSTaH0PDwGLUA54MXlPy3AyI532a8OnhXadtWnCCH30qvUKW9C3rCOu1LPld1or5_lXwNhRVqbohHNInDzNd1f9E77Sox5yB-ir7H69LmlYRKnoqnFASOMFa2TIK2RfTThJvu_oofIXHCpiRbXGXWy-bquBWsw/s1600/bootloader.gif"
-    },
-    {
-      "title": "Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched",
-      "link": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
-      "description": "Researchers at Ledger's\u0026nbsp;Donjon security team\u0026nbsp;have shown that a precisely timed laser pulse, aimed at the chip inside a Tangem crypto wallet card, can reset the card's password to anything...",
-      "pub_date": "Fri, 10 Jul 2026 20:21:49 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0BbJcQ3TUJxFvOCpAChyC5saD3RGgDCtLtVG-Wupee7poBksO2TzSWFtzQmjjoXuZ-9hnCNR3HuWdSsBv7YZl477fdOcjoOBh72RY4vJ9R0hxUWktV2R7wgTsRa-_Zz5Bj_ZGfQOVT8v292QJ55C9hMumk-IgXd-PVZ6LFu2ZDyCGwjNtJhCYb4W-mPDO/s1600/ll.jpg"
     },
     {
       "title": "How GitHub gave every repository a durable owner",
@@ -722,6 +722,15 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2008-4128 Cisco IOS Cross-Site Request Forgery Vulnerabilit...",
+      "pub_date": "Mon, 13 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting",
       "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
       "description": "Russian Government-Sponsored Activity Targets Poorly Configured and Vulnerable Devices Across Critical Sectors Executive summary Russian Federal Security Service (FSB) Center 16 cyber actors contin...",
@@ -843,15 +852,6 @@
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-07",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication and gain access to restricted resources, obtain credentials, and inject malicious...",
       "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CubeSpace CW0057 Reaction Wheel",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to upload arbitrary malicious firmware to the device. The following versions of CubeSpace CW0057 Reaction Whe...",
-      "pub_date": "Thu, 02 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
