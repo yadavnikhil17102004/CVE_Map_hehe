@@ -1,23 +1,41 @@
 {
-  "last_updated": "2026-07-14T17:05:13Z",
+  "last_updated": "2026-07-14T19:05:46Z",
   "articles": [
     {
-      "title": "Hackers Spoof 3.7 Million OAuth Client IDs to Stealthily Enumerate 2 Million Entra ID Users",
-      "link": "https://cybersecuritynews.com/hackers-spoof-oauth-client-ids/",
-      "description": "Threat actors are increasingly exploiting spoofed OAuth client IDs to enumerate Microsoft Entra ID accounts and identify potentially valid credentials while evading traditional detection methods, a...",
-      "pub_date": "Tue, 14 Jul 2026 17:04:14 +0000",
-      "source": "Cyber Security News",
+      "title": "Microsoft releases Windows 10 KB5099539 extended security update",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
+      "description": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerabilities, along with additional security fixes. ...",
+      "pub_date": "Tue, 14 Jul 2026 14:49:28 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Spoof-OAuth-Client-IDs.webp"
+      "image_url": ""
     },
     {
-      "title": "Claude for Chrome Vulnerability Lets Attackers Read Gmail, Docs, and Calendar Data",
-      "link": "https://cybersecuritynews.com/claude-for-chrome-vulnerability/",
-      "description": "Anthropic\u0026#8217;s Claude for Chrome browser extension has two unpatched flaws that allow attackers to read a victim\u0026#8217;s Gmail, Google Docs, and Calendar data using just six lines of JavaScript,...",
-      "pub_date": "Tue, 14 Jul 2026 16:12:35 +0000",
-      "source": "Cyber Security News",
+      "title": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
+      "description": "Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclo...",
+      "pub_date": "Tue, 14 Jul 2026 14:01:36 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Claude-for-Chrome-Vulnerability.webp"
+      "image_url": ""
+    },
+    {
+      "title": "Windows 11 KB5101650 \u0026 KB5099414 cumulative updates released",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/",
+      "description": "Microsoft has released Windows 11 KB5101650 and KB5099414 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+      "pub_date": "Tue, 14 Jul 2026 13:41:16 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
+      "link": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+      "description": "Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments.  \"L...",
+      "pub_date": "Tue, 14 Jul 2026 22:22:37 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpSmSwv3hz6LMJIQCrVej_pophE9XNTZyveEV1GctCyQMSNoac_Mx3CfmAHLgYkpDkymvscLLY71u2Kq-7z-7bDemSeKHryPVH3h7FNxw9e64D3jTeoLOzmWW305j1Rctz5kdiwFV29lFNqo33TUZMGWCaZqtyKNPYARGtrrhZ0Bsc4LMLXhnRgzKXjKYb/s1600/NVIDIA-rat.jpg"
     },
     {
       "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
@@ -29,15 +47,6 @@
       "image_url": ""
     },
     {
-      "title": "FortiSandbox Vulnerability Allows Attackers to Access VNC Servers of VMs",
-      "link": "https://cybersecuritynews.com/fortisandbox-vulnerability-vnc-server/",
-      "description": "Fortinet has disclosed a high-severity vulnerability in FortiSandbox that could allow unauthenticated attackers to access the VNC servers of virtual machines used for malware scanning. Tracked as C...",
-      "pub_date": "Tue, 14 Jul 2026 15:37:13 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/FortiSandbox-Vulnerability-VNC-Server.webp"
-    },
-    {
       "title": "LastPass, Bitwarden users targeted with fake security alerts",
       "link": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
       "description": "LastPass is warning users about an ongoing phishing campaign that is using fake security notices to direct them to fraudulent websites. [...]",
@@ -45,69 +54,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "AsyncAPI npm Packages With 2M Weekly Downloads Compromised via GitHub Actions",
-      "link": "https://cybersecuritynews.com/asyncapi-npm-packages-with-2m-weekly-downloads/",
-      "description": "A supply chain compromise has placed AsyncAPI npm packages at the center of a developer security incident. Five trojanized releases, with roughly 2.9 million combined weekly downloads, were publish...",
-      "pub_date": "Tue, 14 Jul 2026 15:30:07 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/AsyncAPI-npm-Packages-With-2M-Weekly-Downloads-Compromised-via-GitHub-Actions.webp"
-    },
-    {
-      "title": "Miasma Turns Trusted npm Packages Into Persistent Backdoors for Developer Machines",
-      "link": "https://cybersecuritynews.com/miasma-turns-trusted-npm-packages-into-persistent-backdoors/",
-      "description": "Miasma has returned through software packages that many developers would normally trust. Four AsyncAPI packages on npm were altered to deliver a Miasma v3 payload, creating a route for long-term re...",
-      "pub_date": "Tue, 14 Jul 2026 15:11:46 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Miasma-Turns-Trusted-npm-Packages-Into-Persistent-Backdoors-for-Developer-Machines.webp"
-    },
-    {
-      "title": "Maximizing SOC Efficiency: How to Eliminate Alert Overload and Cut MTTR by 21 Minutes Per Case",
-      "link": "https://cybersecuritynews.com/maximizing-soc-efficiency/",
-      "description": "Security Operations Centers (SOCs) face overwhelming challenges not due to a lack of alerts but because each alert requires a new investigation. Analysts must validate indicators, identify maliciou...",
-      "pub_date": "Tue, 14 Jul 2026 15:05:30 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Maximizing-SOC-Efficiency.webp"
-    },
-    {
-      "title": "Turkish Banks Targeted by 8,400 Phishing Domains and 6,600 Social Media Scam Ads",
-      "link": "https://cybersecuritynews.com/turkish-banks-targeted-by-8400-phishing-domains/",
-      "description": "Turkey’s banking customers are facing a large fraud campaign built around fake websites and social media advertisements. Criminals are abusing trusted financial brands to draw people into credent...",
-      "pub_date": "Tue, 14 Jul 2026 14:48:39 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Turkish-Banks-Targeted-by-8400-Phishing-Domains-and-6600-Social-Media-Scam-Ads.webp"
-    },
-    {
-      "title": "xAI Grok Build CLI Uploaded Entire Git Repositories and Unredacted .env Secrets to Cloud Storage",
-      "link": "https://cybersecuritynews.com/xai-grok-build-cloud-storage/",
-      "description": "A wire-level analysis of xAI’s Grok Build CLI revealed that version 0.2.93 transmitted unredacted file contents, including secrets from .env files, and uploaded full Git repositories along with t...",
-      "pub_date": "Tue, 14 Jul 2026 14:28:59 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/xAI-Grok-Build-CLI-Uploaded-Entire-Git-Repositories-and-Unredacted-.env-Secrets-to-Cloud-Storage-.webp"
-    },
-    {
-      "title": "One Malicious OAuth Approval Can Give Hackers Persistent Access to Salesforce Data",
-      "link": "https://cybersecuritynews.com/one-malicious-oauth-approval/",
-      "description": "One mistaken approval inside Salesforce can hand attackers a quiet, durable route into a company\u0026#8217;s most sensitive customer records. Recent campaigns tied to tradecraft associated with ShinyHu...",
-      "pub_date": "Tue, 14 Jul 2026 14:28:24 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/One-Malicious-OAuth-Approval-Can-Give-Hackers-Persistent-Access-to-Salesforce-Data.webp"
-    },
-    {
-      "title": "11-Year-Old Linux UEFI Shim Bootloaders Let Attackers Bypass Secure Boot",
-      "link": "https://cybersecuritynews.com/11-year-old-linux-uef-bootloaders/",
-      "description": "11-year-old Microsoft-signed UEFI shim bootloaders, some dating back over a decade, let attackers completely bypass UEFI Secure Boot on nearly any UEFI-based machine, regardless of the installed op...",
-      "pub_date": "Tue, 14 Jul 2026 14:25:17 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/11-Year-Old-Linux-UEF-Bootloaders.webp"
     },
     {
       "title": "You Don't Have to Run an Exploit to Know If You're Vulnerable",
@@ -326,24 +272,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuCIplQpj7CGra4jEeX4qO6DfR9_OazwL_c55clD60cy9pWK42qAsCmqrwe0YBUmPq0cg_6Gt52VlqoOGuigf4qwI8lazIdogbl8pjBDfprTbktGn96fxMbtCh06kyGFF9qCXg9PgMhSXu8V02QBxTmBArc-84ZI3jXwmoDQdj-SCp-_JY7z5XqrQR2IlP/s1600/monday-recap.jpg"
     },
     {
-      "title": "Lidl discloses online shop breach after service provider hack",
-      "link": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
-      "description": "German discount supermarket chain Lidl notified customers in Germany, Belgium, and the Netherlands that attackers stole their personal information in a breach at a service provider. [...]",
-      "pub_date": "Mon, 13 Jul 2026 10:19:43 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
-      "link": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
-      "description": "Learn how attackers abuse Entra ID through a free hands-on Capture the Flag. Varonis created the Breach at the Beach CTF to teach defenders how to investigate Entra ID attack techniques using reali...",
-      "pub_date": "Mon, 13 Jul 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
       "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
       "description": "Give an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it knows about you. A single email can trick that agent into saving a false \"fact\" a...",
@@ -353,15 +281,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_pk3JKY3zis-iTRVKpcttwfy-GP-gEzPE_NQQpqDEaMvVs65uqa3v_dG7pD_DmZWLHcwBQzjFtTYqob5wWSgO2F-0-KkwZaahqTUpGP1xbvyifaf2UnMDzI8j9pnP9EWyARmN2SHHl0eBo4UszZx3VZvicjU_MMFOEA8sjcLvzBFzAkNeFg3GIR2yncA/s1600/memghost.jpg"
     },
     {
-      "title": "UK charges suspects linked to Russian Coms call spoofing platform",
-      "link": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
-      "description": "UK authorities charged five people following a National Crime Agency (NCA) investigation into Russian Coms, a major caller ID spoofing platform used by criminals to make over 1.8 million scam calls...",
-      "pub_date": "Mon, 13 Jul 2026 09:23:30 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
       "link": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
       "description": "A new phishing-as-a-service (PhaaS) operation called Forg365 is using a combination of device code phishing, adversary-in-the-middle (AitM) tactics, antibot evasion, artificial intelligence (AI)-as...",
@@ -369,15 +288,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlR-dy6ENZN5NKa1_sViQqXH6fEfEROkwjKV9vTowPmCu_nOALJ89JzGg-ueVJMCAqDHHozMZGd8oWbIlAQDTI8anEd6A2ZK0MdBN_FiShR3UoHGL6Cf0Gbhv8dY9RkVlZxpOCmks29u8Fnmx-JcytGZlnKC_9EuColvIMY4Y5IXH91aRaN5HOgjvvSPEo/s1600/ms-device-code1.jpg"
-    },
-    {
-      "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
-      "link": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
-      "description": "Meta has filed a patent application for an AI that listens to your voice throughout the day, works out how it thinks you are feeling from the way you sound, and keeps a timestamped log of every rea...",
-      "pub_date": "Mon, 13 Jul 2026 17:24:46 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiElxdOUOnt8DZ-78o4IBYmmieJL3gm-RPGxQYpkPhzk8o-kMG_bWAGAHjVzPbVEGnkPmhF80RlbaRmvtgVLfABQSKApl6fsQ2RkhkWuZsxF9WR-HnsthEl_bfg4A6w_hMThqQoWAFimIXGTSZ0QLA6DSHprkHQTTp3WNwy-QmyaosOcs3ksJxy5lztSoc/s1600/meta-facebook.jpg"
     },
     {
       "title": "ZDI-26-400: (0Day) AnyDesk Screen Recording Link Following Denial-of-Service Vulnerability",
@@ -722,24 +632,6 @@
       "image_url": ""
     },
     {
-      "title": "ABB T-MAC Plus",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
-      "description": "View CSAF Summary ABB became aware of vulnerability in the products versions listed as affected in the advisory. An update is available that resolves the reported vulnerabilities. An attacker who s...",
-      "pub_date": "Tue, 14 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Rockwell Automation 1715-AENTR EtherNet/IP Adapter",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read or delete files, stop tasks, modify memory, and change I/O states, potentially impacting the confiden...",
-      "pub_date": "Tue, 14 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
       "title": "ABB Ability Edgenius",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
       "description": "View CSAF Summary ABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a...",
@@ -749,9 +641,36 @@
       "image_url": ""
     },
     {
+      "title": "ABB T-MAC Plus",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
+      "description": "View CSAF Summary ABB became aware of vulnerability in the products versions listed as affected in the advisory. An update is available that resolves the reported vulnerabilities. An attacker who s...",
+      "pub_date": "Tue, 14 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "ABB Advant Master Online Builder",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01",
       "description": "View CSAF Summary ABB became aware of vulnerability in the products versions listed as affected in the advisory, where an incorrect version of Online Builder (ONB) was included in the media. An upd...",
+      "pub_date": "Tue, 14 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "CISA Urges SharePoint Hardening After New Exploitations",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations",
+      "description": "CISA is aware of active exploitation of vulnerabilities CVE-2026-32201, CVE-2026-45659, and CVE-2026-56164, enabling cyber threat actors to gain unauthorized access to on-premises SharePoint Server...",
+      "pub_date": "Tue, 14 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Rockwell Automation 1715-AENTR EtherNet/IP Adapter",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read or delete files, stop tasks, modify memory, and change I/O states, potentially impacting the confiden...",
       "pub_date": "Tue, 14 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -794,18 +713,18 @@
       "image_url": ""
     },
     {
-      "title": "OpenPLC v3",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to the filesystem and escalate this into arbitrary native code executi...",
+      "title": "Schneider Electric PowerChute Serial Shutdown",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to overwrite critical files, forge or inject malicious log data, gain unauthorized account access, trigger d...",
       "pub_date": "Thu, 09 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Schneider Electric PowerChute Serial Shutdown",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to overwrite critical files, forge or inject malicious log data, gain unauthorized account access, trigger d...",
+      "title": "OpenPLC v3",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to the filesystem and escalate this into arbitrary native code executi...",
       "pub_date": "Thu, 09 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -842,15 +761,6 @@
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-48282 Adobe ColdFusion Path Traversal Vulnerability  T...",
-      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Hydro-Québec Le Circuit Electrique charging station backend",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could lead to privilege escalation, or result in a denial-of-service attack. The following versions of Hydro-Québec Le Circuit El...",
       "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
