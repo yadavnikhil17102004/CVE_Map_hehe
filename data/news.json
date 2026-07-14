@@ -1,6 +1,114 @@
 {
-  "last_updated": "2026-07-14T13:13:44Z",
+  "last_updated": "2026-07-14T15:17:56Z",
   "articles": [
+    {
+      "title": "Miasma Turns Trusted npm Packages Into Persistent Backdoors for Developer Machines",
+      "link": "https://cybersecuritynews.com/miasma-turns-trusted-npm-packages-into-persistent-backdoors/",
+      "description": "Miasma has returned through software packages that many developers would normally trust. Four AsyncAPI packages on npm were altered to deliver a Miasma v3 payload, creating a route for long-term re...",
+      "pub_date": "Tue, 14 Jul 2026 15:11:46 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Miasma-Turns-Trusted-npm-Packages-Into-Persistent-Backdoors-for-Developer-Machines.webp"
+    },
+    {
+      "title": "Maximizing SOC Efficiency: How to Eliminate Alert Overload and Cut MTTR by 21 Minutes Per Case",
+      "link": "https://cybersecuritynews.com/maximizing-soc-efficiency/",
+      "description": "Security Operations Centers (SOCs) face overwhelming challenges not due to a lack of alerts but because each alert requires a new investigation. Analysts must validate indicators, identify maliciou...",
+      "pub_date": "Tue, 14 Jul 2026 15:05:30 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Maximizing-SOC-Efficiency.webp"
+    },
+    {
+      "title": "Turkish Banks Targeted by 8,400 Phishing Domains and 6,600 Social Media Scam Ads",
+      "link": "https://cybersecuritynews.com/turkish-banks-targeted-by-8400-phishing-domains/",
+      "description": "Turkey’s banking customers are facing a large fraud campaign built around fake websites and social media advertisements. Criminals are abusing trusted financial brands to draw people into credent...",
+      "pub_date": "Tue, 14 Jul 2026 14:48:39 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Turkish-Banks-Targeted-by-8400-Phishing-Domains-and-6600-Social-Media-Scam-Ads.webp"
+    },
+    {
+      "title": "xAI Grok Build CLI Uploaded Entire Git Repositories and Unredacted .env Secrets to Cloud Storage",
+      "link": "https://cybersecuritynews.com/xai-grok-build-cloud-storage/",
+      "description": "A wire-level analysis of xAI’s Grok Build CLI revealed that version 0.2.93 transmitted unredacted file contents, including secrets from .env files, and uploaded full Git repositories along with t...",
+      "pub_date": "Tue, 14 Jul 2026 14:28:59 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/xAI-Grok-Build-CLI-Uploaded-Entire-Git-Repositories-and-Unredacted-.env-Secrets-to-Cloud-Storage-.webp"
+    },
+    {
+      "title": "One Malicious OAuth Approval Can Give Hackers Persistent Access to Salesforce Data",
+      "link": "https://cybersecuritynews.com/one-malicious-oauth-approval/",
+      "description": "One mistaken approval inside Salesforce can hand attackers a quiet, durable route into a company\u0026#8217;s most sensitive customer records. Recent campaigns tied to tradecraft associated with ShinyHu...",
+      "pub_date": "Tue, 14 Jul 2026 14:28:24 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/One-Malicious-OAuth-Approval-Can-Give-Hackers-Persistent-Access-to-Salesforce-Data.webp"
+    },
+    {
+      "title": "11-Year-Old Linux UEFI Shim Bootloaders Let Attackers Bypass Secure Boot",
+      "link": "https://cybersecuritynews.com/11-year-old-linux-uef-bootloaders/",
+      "description": "11-year-old Microsoft-signed UEFI shim bootloaders, some dating back over a decade, let attackers completely bypass UEFI Secure Boot on nearly any UEFI-based machine, regardless of the installed op...",
+      "pub_date": "Tue, 14 Jul 2026 14:25:17 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/11-Year-Old-Linux-UEF-Bootloaders.webp"
+    },
+    {
+      "title": "You Don't Have to Run an Exploit to Know If You're Vulnerable",
+      "link": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
+      "description": "Many vulnerabilities cannot be safely validated with live exploits, either because no exploit exists or the affected systems are too critical to test. Picus explains how TTP chaining helps organiza...",
+      "pub_date": "Tue, 14 Jul 2026 10:00:10 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+      "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "description": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose en...",
+      "pub_date": "Tue, 14 Jul 2026 19:18:07 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhhRQ9rN4_5eYqXiJ7svWKwWY0dcPiiALZ6EkDG05ruFzTANJtwyw_w2Ht29dON1oFiLAkQkE0M75FYExbXmvFSr4jU0K0sNlwRxG3Q1rU51ouVIt3UtnrazRwhCer3coTHbU3So1dXx_8Frh1KhJKKXc7Lq2h5DZTGkBq35Y2ngnGVg6wAGubf8cVRx0F/s1600/rebbitmq.jpg"
+    },
+    {
+      "title": "VMware Avi Load Balancer Vulnerabilities Let Attackers Bypass Authentication",
+      "link": "https://cybersecuritynews.com/vmware-avi-load-balancer-vulnerabilities/",
+      "description": "Broadcom-owned VMware has disclosed multiple security flaws in its Avi Load Balancer platform (formerly NSX Advanced Load Balancer) that let attackers bypass authentication controls and gain unauth...",
+      "pub_date": "Tue, 14 Jul 2026 13:47:39 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/VMware-Avi-Load-Balancer-Vulnerabilities.webp"
+    },
+    {
+      "title": "Pro-Iran Hacktivists Use Telegram-Coordinated DDoS and Hack-and-Leak Attacks",
+      "link": "https://cybersecuritynews.com/pro-iran-hacktivists-use-telegram-coordinated-ddos/",
+      "description": "Pro-Iran hacktivist networks are turning Telegram channels into hubs for cyber retaliation. Their campaigns combine website-disrupting DDoS floods with hack-and-leak claims, using public posts to r...",
+      "pub_date": "Tue, 14 Jul 2026 13:33:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Pro-Iran-Hacktivists-Use-Telegram-Coordinated-DDoS-and-Hack-and-Leak-Attacks-for-Digital-Proxy-Warfare.webp"
+    },
+    {
+      "title": "New Qilin Ransomware Attack Uses DCSync Technique to Abuse AD Replication Protocol",
+      "link": "https://cybersecuritynews.com/qilin-ransomware-dcsync-active-directory/",
+      "description": "A recent Qilin ransomware intrusion has revealed a stealthy privilege escalation technique that abuses Active Directory\u0026#8217;s built-in replication protocols to harvest domain credentials, includi...",
+      "pub_date": "Tue, 14 Jul 2026 13:26:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Qilin-Ransomware-DCSync-Active-Directory.webp"
+    },
+    {
+      "title": "CVE-2026-55040: Microsoft SharePoint JWT Token Authentication Bypass (FIXED)",
+      "link": "https://www.rapid7.com/blog/post/ve-cve-2026-55040-microsoft-sharepoint-jwt-token-authentication-bypass-fixed",
+      "description": "OverviewRapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated re...",
+      "pub_date": "Tue, 14 Jul 2026 13:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+    },
     {
       "title": "Microsoft Entra ID gets passkeys default authentication starting September",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/",
@@ -74,24 +182,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmB1bLC9cna7xlnvFdK0hUnsi8jeo6E7jMh20nj4XTvsF9ogpjbnlPCxx9QYQ1O2aS7JiSDQi4swIRNG6-Xjg2TGR4bn4Zn-KBkjsLTYcKUrXOD-rlGu4XYsvRx06eRqrT4duW0xwklKeYjZvRV1VSarJBKldBzN4DNhkWudVCGRdKPi9uVGrqEwL66mz5/s1600/OAuth-ClientID.jpg"
     },
     {
-      "title": "UK and Allies Warn of Russian Hackers Actively Hacking Organizations’ Routers Worldwide",
-      "link": "https://cybersecuritynews.com/uk-allies-warns-attacks-from-russian-hackers/",
-      "description": "The UK, joined by international cybersecurity partners, has issued an urgent warning about Russian state-backed hackers targeting poorly secured routers and network devices worldwide. The alert foc...",
-      "pub_date": "Tue, 14 Jul 2026 11:14:25 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/UK-and-Allies-Warns-Russian-Hackers.webp"
-    },
-    {
-      "title": "SAP Security Update July 2026 – Patch for Critical SAP NetWeaver Flaw that Enables Memory Corruption",
-      "link": "https://cybersecuritynews.com/sap-security-update-july-2026/",
-      "description": "SAP has released its July 2026 Security Patch Day updates, addressing a critical memory corruption vulnerability in the SAP NetWeaver Application Server ABAP. The most severe issue, tracked as CVE-...",
-      "pub_date": "Tue, 14 Jul 2026 10:48:35 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/SAP-Security-Update-July-2026-Patch-for-Critical-SAP-NetWeaver-Flaw-that-Enables-Memory-Corruption.webp"
-    },
-    {
       "title": "Microsoft starts testing cleaner Windows Search without ads",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-testing-cleaner-windows-search-without-ads/",
       "description": "Microsoft is now testing a cleaner and faster version of Windows Search that should prioritize relevant results over ads and promotional content. [...]",
@@ -99,15 +189,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Greenhat Announces Successful Delegation at Web Summit Vancouver 2026",
-      "link": "https://cybersecuritynews.com/greenhat-announces-successful-delegation-at-web-summit-vancouver-2026/",
-      "description": "Vancouver, Canada, July 14th, 2026, CyberNewswire Canadian Cybersecurity Leaders Celebrate Successful Web Summit Vancouver 2026 and Growing Canada–Korea Collaboration The Canadian Cyber Zone brou...",
-      "pub_date": "Tue, 14 Jul 2026 09:44:55 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig9sMdxKWqx0kjG7DlFoOf884hMVeS6IoK5kv9S4Ijs8px0RrjPNTZX-de093K_n09cT-kyv1tO15sm5lW-0uXcPDJ_tYNGug8PMFFYx-WqtK_y-OgKF2aW76mtKVx1kqQhJ7rDgp9pabDvLZfTyVQdS6NUzvbCWwzKgl0ftXbL1aFymDm5ih7r9LZJIQ/s1600/Untitled%20design%20(18).webp?ssl=1"
     },
     {
       "title": "US sanctions VPN, malware providers for enabling ransomware attacks",
@@ -128,42 +209,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCYpkCY1h-DxV5yfxpkGspVFATaUS27q_vpRgQ2ebzGvc6YgSsYk81jDt3SkJQgxVCL8dWJqzDE3t6iUt4ceeTvA9LG8Z9cA65uBXC05Lkdv1xKLNBMH88dTa_6XCet3a0wf1VwfyxQsx_1AKc3lmHCxqiZHKTfvk9kJqvo0i15biGekBijFPNN16JHBM/s1600/grok.jpg"
     },
     {
-      "title": "150+ npm Packages Promise Wi-Fi Bypass for Students Using Their Systems for DDoS Attacks",
-      "link": "https://cybersecuritynews.com/150-npm-packages-promises-wi-fi-bypass-students/",
-      "description": "Nearly 150 npm packages posing as school Wi-Fi bypass tools were used to turn visiting browsers into potential DDoS engines. The campaign presented itself as harmless tutoring-branded web proxies, ...",
-      "pub_date": "Tue, 14 Jul 2026 08:38:07 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/150-npm-Packages-Promises-Wi-Fi-Bypass-Students-Using-Their-Systems-for-DDoS-Attack-1.webp"
-    },
-    {
-      "title": "Microsoft Changes Entra ID default Authentication Method to Passkeys, Replacing Passwords",
-      "link": "https://cybersecuritynews.com/entra-id-default-authentication-passkeys/",
-      "description": "Microsoft is retiring phishable SMS and voice-based multifactor authentication in Microsoft Entra ID, replacing them with passkeys as the default sign-in method starting September 1, 2026. The move...",
-      "pub_date": "Tue, 14 Jul 2026 08:34:10 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Entra-ID-default-Authentication-Passkeys.webp"
-    },
-    {
-      "title": "US Treasury Sanctions First VPN Service that Helped Ransomware Actors Attack Organizations",
-      "link": "https://cybersecuritynews.com/first-vpn-service-sanctioned/",
-      "description": "The U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) has imposed sanctions on First VPN Service (1VPNS), a VPN provider accused of supplying infrastructure to ransomware ...",
-      "pub_date": "Tue, 14 Jul 2026 08:21:24 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/US-Treasury-Sanctions-VPN-Service-that-Helped-Ransomware-Actors-to-Attack-Organizations.webp"
-    },
-    {
-      "title": "Critical ServiceNow Vulnerability Allows Remote Attackers to Execute Malicious Code",
-      "link": "https://cybersecuritynews.com/servicenow-remote-malicious-code/",
-      "description": "ServiceNow has disclosed and fixed a critical security vulnerability in its AI Platform that could allow unauthenticated attackers to execute code within affected ServiceNow environments. The flaw,...",
-      "pub_date": "Tue, 14 Jul 2026 08:19:21 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-ServiceNow-Vulnerability-Enables-remote-code-execution-Attacks.webp"
-    },
-    {
       "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
       "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
       "description": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other cybercriminals' malicious ...",
@@ -182,15 +227,6 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt30cad4cead79d2d3/6846a7113860835cfa35e65d/surface-command.jpg"
     },
     {
-      "title": "Chrome Extension Used by 1.6 Million Users Silently Adds Data Exfiltration Capabilities",
-      "link": "https://cybersecuritynews.com/chrome-extension-used-million-users-data-exfiltration/",
-      "description": "A widely used browser extension, ModHeader, has been removed from the Chrome Web Store after researchers found that its signed release contained a dormant capability to collect, encrypt, and potent...",
-      "pub_date": "Tue, 14 Jul 2026 07:45:08 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Chrome-Extension-Used-Million-User-Data-Exfiltration.webp"
-    },
-    {
       "title": "148 npm Packages Disguised as Student Proxies Turned Browsers Into a DDoS Botnet",
       "link": "https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html",
       "description": "A campaign of 148 npm packages disguised as student web proxies turned visitors' browsers into a distributed denial-of-service botnet for roughly two weeks in May, according to new research from\u0026nb...",
@@ -207,15 +243,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu2gmOSckwOqmlhqAYdrlHfRuTsOJIi7dr9cFZosLQAJeoJxcUVQ9PvibcfnCsBdPWvfJRRrxoS8nx9yTt9NtDNCwVCFavEt7tQT0viD7AwGvUjhu-_k0B2J4KBSAJ-5GUGFZHCTSyOuW4I082lHoUkbsbH33tsIeo3gm71_CkjMd_bcAN7i4xPvMnefA/s1600/salesforce-attack-path.jpg"
-    },
-    {
-      "title": "Telegram’s t.me Domain Suspended, ServerHold Status Breaks Links Worldwide",
-      "link": "https://cybersecuritynews.com/telegrams-t-me-domain-suspended/",
-      "description": "Telegram\u0026#8217;s core t[.]me domain has been placed on serverHold at the .me registry, a registry-level status that removes the domain from the global DNS and breaks every t[.]me short link worldwi...",
-      "pub_date": "Tue, 14 Jul 2026 02:44:45 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Telegrams-t.me-Domain-Suspended.webp"
     },
     {
       "title": "Japan's largest taxi operator shuts systems after cyberattack",
@@ -335,15 +362,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiElxdOUOnt8DZ-78o4IBYmmieJL3gm-RPGxQYpkPhzk8o-kMG_bWAGAHjVzPbVEGnkPmhF80RlbaRmvtgVLfABQSKApl6fsQ2RkhkWuZsxF9WR-HnsthEl_bfg4A6w_hMThqQoWAFimIXGTSZ0QLA6DSHprkHQTTp3WNwy-QmyaosOcs3ksJxy5lztSoc/s1600/meta-facebook.jpg"
     },
     {
-      "title": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
-      "link": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html",
-      "description": "A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. They had already con...",
-      "pub_date": "Mon, 13 Jul 2026 17:07:05 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV-KJeaayQ7Le5oAYYddL3LmP0k3zaJOoLo9puHLF8y_fVAoBUcJba3ZyyCfJWdvvMBQTt__x0v8iggR1HfDgXOO1b5CD1xZUVr03ZnoO_1moKSeA9iNhOsPoLZMJXG9IwPJYO1NYYPNsWrBqmlx2FHM7tKF5pxRcLXLqSNtnLGP80Q4MxK5vGeB74tug/s1600/slow.jpg"
-    },
-    {
       "title": "EU sanctions Russian GRU military hackers over cyberattacks",
       "link": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
       "description": "The European Union and the United Kingdom jointly sanctioned dozens of Russian individuals and entities and accused Russia of coordinating a network of hacking groups responsible for attacks across...",
@@ -368,15 +386,6 @@
       "pub_date": "Mon, 13 Jul 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/",
-      "description": "OpenAI is temporarily relaxing GPT-5.6 Sol usage after demand for the company's most powerful model surged over the past 48 hours. [...]",
-      "pub_date": "Sun, 12 Jul 2026 20:44:44 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
       "image_url": ""
     },
     {
@@ -657,15 +666,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
-    },
-    {
-      "title": "NIS2 is raising the bar. Here’s how to turn readiness into resilience.",
-      "link": "https://www.rapid7.com/blog/post/so-nis2-compliance-turn-readiness-into-resilience",
-      "description": "The NIS2 directive asks covered organizations to take a more structured approach to risk management, governance, supply chain security, and incident reporting. It expands the scope of who may be co...",
-      "pub_date": "Mon, 15 Jun 2026 17:29:15 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt61632ee7cd1805c5/69fa3eae5ab0e4c3f43c256c/rapid7-nis2-24-hour-rule-infographic-card.webp"
     },
     {
       "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
