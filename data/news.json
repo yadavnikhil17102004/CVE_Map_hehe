@@ -1,6 +1,87 @@
 {
-  "last_updated": "2026-07-15T07:08:17Z",
+  "last_updated": "2026-07-15T09:52:59Z",
   "articles": [
+    {
+      "title": "CISA warns admins to patch actively exploited SharePoint flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned Tuesday that attackers are actively exploiting three vulnerabilities to hack Internet-exposed on-premises SharePoint Server ...",
+      "pub_date": "Wed, 15 Jul 2026 05:44:52 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware",
+      "link": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html",
+      "description": "Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity.  The...",
+      "pub_date": "Wed, 15 Jul 2026 14:46:13 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXEluWW9TuNGlzu9wVHSDBzAeUuoRS9Om8kX9yzH-HwCjggh-N5ycLyuJ82oY3MP4Uvf9yF_PqwKhcZepDBEH_pOb3td4dPRuuGSWi5XndfpeuqiMipzKIq0Vofc-hOBGj4nWxmXbjMS7RvHkZCUSHloOpsS6m7jpwwFX-2KUkYwrQdt-ClrGXpt2C9TxC/s1600/async-npm.jpg"
+    },
+    {
+      "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/",
+      "description": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
+      "pub_date": "Wed, 15 Jul 2026 04:26:48 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Critical SonicWall Firewall 0-Day Vulnerabilities Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/sonicwall-firewall-0-day-vulnerabilities-exploited/",
+      "description": "SonicWall has issued an urgent security advisory regarding two vulnerabilities affecting its SMA1000 Series appliances. The company is warning that attackers are actively exploiting these flaws in ...",
+      "pub_date": "Wed, 15 Jul 2026 08:21:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-SonicWall-Firewall-0-Day-Vulnerabilities-Actively-Exploited-in-Attacks-.webp"
+    },
+    {
+      "title": "Researcher Claims Bypass of EU Age Verification App Using Chrome Extension",
+      "link": "https://cybersecuritynews.com/researcher-bypass-of-eu-age-verification/",
+      "description": "Security researcher Paul Moore has once again exposed critical weaknesses in the EU’s flagship age verification system, this time by bypassing the latest app release (version 2026.07-1) using a C...",
+      "pub_date": "Wed, 15 Jul 2026 08:16:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Researcher-Bypass-of-EU-Age-Verification.webp"
+    },
+    {
+      "title": "US charges alleged operators of Russian bulletproof hosting service",
+      "link": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
+      "description": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in dam...",
+      "pub_date": "Wed, 15 Jul 2026 03:45:50 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Chinese Hackers Embed Claude Code and DeepSeek in AI-Powered Government Cyberattacks",
+      "link": "https://cybersecuritynews.com/chinese-hackers-ai-attacks/",
+      "description": "An active, highly structured intrusion campaign co-opting commercial artificial intelligence platforms as operational engines for state-sponsored operations. Rather than acting as peripheral resear...",
+      "pub_date": "Wed, 15 Jul 2026 07:18:12 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Chinese-hackers-AI-attacks-1.webp"
+    },
+    {
+      "title": "Gamers Download Fake Cheats and Hand Attackers a Live Remote Control of Their Windows PCs",
+      "link": "https://cybersecuritynews.com/game-fake-cheats-remote-access/",
+      "description": "New research uncovered 11 malicious NuGet packages disguised as game cheats, bots, and management panels for popular online titles. The campaign targets gaming communities playing titles such as Al...",
+      "pub_date": "Wed, 15 Jul 2026 06:37:41 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Game-Fake-Cheats-Remote-Access.webp"
+    },
+    {
+      "title": "New LegacyHive Windows 0-day Vulnerability Allows Users  to Load Another User’s Registry",
+      "link": "https://cybersecuritynews.com/legacyhive-windows-0-day-vulnerability/",
+      "description": "A proof-of-concept exploit dubbed LegacyHive has been released, enabling a Windows elevation-of-privilege vulnerability in the Windows User Profile Service that allows a standard user to load anoth...",
+      "pub_date": "Wed, 15 Jul 2026 06:00:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/New-LegacyHive-Windows-0-day-Vulnerability-Released-by-Nightmare-Eclipse-With-PoC-Details.webp"
+    },
     {
       "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
       "link": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
@@ -9,6 +90,33 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0n94FUIdljCnLvlh0SNz5l8xDWbdDqmk7OesE7HAKxrRAMUMIfXpppuMBoI-7F0Q1PB7eXPRjrfg9fgZTTVj3JY5jKsr1Ebheb2mU65p4MUVYbs59lCPPWCBQ4LVYZnoZ0o6nRkoBQitrwwnyLVQc2oYJ41zVjPS6_HchwIR-U8EuWrOdPpl1-Y9Rw1Lm/s1600/sonicwall-patches.jpg"
+    },
+    {
+      "title": "Microsoft Active Directory Services 0-Day Vulnerability Actively Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/active-directory-services-0-day-exploited/",
+      "description": "Microsoft has released security updates for CVE-2026-56155, an actively exploited elevation-of-privilege vulnerability in Active Directory Federation Services (AD FS). This flaw allows an authentic...",
+      "pub_date": "Wed, 15 Jul 2026 05:12:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Active-Directory-Services-0-Day-Vulnerability-Actively-Exploited-in-the-Wild.webp"
+    },
+    {
+      "title": "Multiple Notepad++ Vulnerabilities Enable PowerShell Command Injection Attacks",
+      "link": "https://cybersecuritynews.com/notepad-vulnerabilities-command-injection/",
+      "description": "Notepad++ v8.9.7 has been released with critical security fixes addressing multiple vulnerabilities, including a high-risk PowerShell command injection flaw that could enable arbitrary code executi...",
+      "pub_date": "Wed, 15 Jul 2026 04:18:14 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Notepad-Vulnerabilities-Command-Injection-1.webp"
+    },
+    {
+      "title": "Windows BitLocker 0‑Day Vulnerability Allows Hackers to Bypass Security Feature",
+      "link": "https://cybersecuritynews.com/windows-bitlocker-0-day-vulnerability-2/",
+      "description": "A newly disclosed Windows BitLocker 0‑day vulnerability, tracked as CVE-2026-50661, exposes encrypted devices to physical attacks that can completely undermine Microsoft’s disk encryption guara...",
+      "pub_date": "Wed, 15 Jul 2026 03:10:30 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/BitLocker-0‑Day-Vulnerability.webp"
     },
     {
       "title": "Patch Tuesday - July 2026",
@@ -47,6 +155,15 @@
       "image_url": ""
     },
     {
+      "title": "Tego AI Finds Claude Tag Slack Integration Can Trigger Unauthorized Enterprise Actions",
+      "link": "https://cybersecuritynews.com/tego-ai-finds-claude-tag-slack-integration-can-trigger-unauthorized-enterprise-actions/",
+      "description": "Tel Aviv, Israel, July 14th, 2026, CyberNewswire Cybersecurity start-up Tego AI reveals that the new Anthropic’s native slack integration, Claude Tag, can be triggered by non-intentional Slack co...",
+      "pub_date": "Tue, 14 Jul 2026 19:33:41 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrQ9WS-XYhctladDXfqOLzKF-QpzHrNj-YLPUu5IhS4RRmD_3DPhXNfVZ2hRhSh-OKK5ewz16bFTP2PelSjqlSQPj7YMuEroeucns3KRdDdzSsCJhhdCZ_i13QVSD9ROgWC0CDRpZbNvQ-KC28WoxJuhydx2dGUCM6CgTc1qZKhM19qOS-S_krYj3C9R0/s1600/Untitled%20design%20(22).webp?ssl=1"
+    },
+    {
       "title": "Nearly 300 GitHub repos pose as legit software to push malware",
       "link": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
       "description": "A threat actor has published hundreds of fake GitHub repositories impersonating legitimate software and security projects to distribute infostealer malware. [...]",
@@ -81,6 +198,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Massive Microsoft Patch Tuesday Update: 570 Vulnerabilities Fixed, Including 3 Zero-Days",
+      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-update-july-2026/",
+      "description": "Microsoft\u0026#8217;s July 2026 Patch Tuesday delivers fixes for approximately 570 vulnerabilities across its product ecosystem, following June\u0026#8217;s record-breaking release of 206 flaws that also in...",
+      "pub_date": "Tue, 14 Jul 2026 17:47:22 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Patch-Tuesday-Update-July-2026-1.webp"
     },
     {
       "title": "Windows 11 KB5101650 \u0026 KB5099414 cumulative updates released",
@@ -218,24 +344,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmB1bLC9cna7xlnvFdK0hUnsi8jeo6E7jMh20nj4XTvsF9ogpjbnlPCxx9QYQ1O2aS7JiSDQi4swIRNG6-Xjg2TGR4bn4Zn-KBkjsLTYcKUrXOD-rlGu4XYsvRx06eRqrT4duW0xwklKeYjZvRV1VSarJBKldBzN4DNhkWudVCGRdKPi9uVGrqEwL66mz5/s1600/OAuth-ClientID.jpg"
     },
     {
-      "title": "Microsoft starts testing cleaner Windows Search without ads",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-testing-cleaner-windows-search-without-ads/",
-      "description": "Microsoft is now testing a cleaner and faster version of Windows Search that should prioritize relevant results over ads and promotional content. [...]",
-      "pub_date": "Tue, 14 Jul 2026 06:47:23 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "US sanctions VPN, malware providers for enabling ransomware attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/",
-      "description": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) sanctioned two individuals and one entity for enabling ransomware attacks against U.S. organizations. [...]",
-      "pub_date": "Tue, 14 Jul 2026 05:40:13 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
       "link": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
       "description": "xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed.  A researcher p...",
@@ -279,24 +387,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu2gmOSckwOqmlhqAYdrlHfRuTsOJIi7dr9cFZosLQAJeoJxcUVQ9PvibcfnCsBdPWvfJRRrxoS8nx9yTt9NtDNCwVCFavEt7tQT0viD7AwGvUjhu-_k0B2J4KBSAJ-5GUGFZHCTSyOuW4I082lHoUkbsbH33tsIeo3gm71_CkjMd_bcAN7i4xPvMnefA/s1600/salesforce-attack-path.jpg"
-    },
-    {
-      "title": "Japan's largest taxi operator shuts systems after cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
-      "description": "Japan's largest taxi operator, Nihon Kotsu, announced that its systems were compromised in a cyberattack, forcing the company to shut down part of its infrastructure. [...]",
-      "pub_date": "Mon, 13 Jul 2026 16:18:59 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
-      "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
-      "description": "Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems.  Unlike other information stealers t...",
-      "pub_date": "Mon, 13 Jul 2026 23:06:12 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbZ5yNN1gA3Yzt-6i1sekVk3AFnHGEpas31-UowjFTXB9Rj4DhkS8H4cqjr655w9HCDKZIzcRAqn1NvLSmPLs_-oDDYpCteWgGlkUIpuyMkPIeXnfgxKCYRG54K8oV0j4vVaWj928DfJBsYJzR98e5BuZDp5OmoeFtDubZ90Qnz0a7G9VmukCII5kVE3rQ/s1600/macos-malware-1.jpg"
     },
     {
       "title": "ZDI-26-400: (0Day) AnyDesk Screen Recording Link Following Denial-of-Service Vulnerability",
