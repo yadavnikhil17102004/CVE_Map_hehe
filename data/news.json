@@ -1,6 +1,51 @@
 {
-  "last_updated": "2026-07-15T17:07:55Z",
+  "last_updated": "2026-07-15T18:57:59Z",
   "articles": [
+    {
+      "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
+      "link": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
+      "description": "Cybersecurity researchers have disclosed details of a previously unreported Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows signs of being developed with assistance ...",
+      "pub_date": "Thu, 16 Jul 2026 00:13:08 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmKa1OIdUu8LgLPgZkc9qbOTzhARf1dEJa_fzyVt7vvSzidHy3Lrb-2R4hs2ryt9b4Aq3zOnJRtWVuQ8KHKUZ5x9Iv6Q0vGTVMPxNMLTdGaNsquyrL18QXk8TcMP2nEwFHE1snKt2aG6rEmyVMwRp7Fk4G_x_sXjk_4AmYWsH2JCvOe2Adut2PZbLVc4YI/s1600/tuxbot.jpg"
+    },
+    {
+      "title": "Hackers Expanding Destiny Stealer Across the US and Europe. Is Your Organization Ready to Defend? ",
+      "link": "https://cybersecuritynews.com/hackers-expanding-destiny-stealer-across-the-us-and-europe-is-your-organization-ready-to-defend/",
+      "description": "Destiny Stealer activity is rising across Europe and the US, putting corporate accounts, remote access, email data, and sensitive business information at risk. A single infected endpoint can expose...",
+      "pub_date": "Wed, 15 Jul 2026 18:37:13 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Destiny-Stealer.webp"
+    },
+    {
+      "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
+      "link": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
+      "description": "A Russian-speaking threat actor known as \"bandcampro\" used Google's open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale botnet. [...]",
+      "pub_date": "Wed, 15 Jul 2026 14:33:48 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "GPT-5.6 Sol Ultra Builds Full Chrome Exploit Chain From Security Patches",
+      "link": "https://cybersecuritynews.com/gpt-5-6-sol-chrome-exploit-chain/",
+      "description": "OpenAI\u0026#8217;s GPT-5.6 Sol Ultra model independently constructed a complete, working exploit chain for Google Chrome, using nothing but publicly available security patch commits as its starting poi...",
+      "pub_date": "Wed, 15 Jul 2026 17:52:29 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GPT-5.6-Sol-Chrome-Exploit-Chain.webp"
+    },
+    {
+      "title": "Hackers Abuse Shared Claude Chats and Google Ads to Deploy MacSync Stealer on macOS",
+      "link": "https://cybersecuritynews.com/shared-claude-chats-macsync-stealer/",
+      "description": "Threat actors are hijacking Anthropic\u0026#8217;s Claude AI platform and Google Ads to trick Mac users into infecting themselves with a dangerous new information-stealing malware called MacSync Stealer...",
+      "pub_date": "Wed, 15 Jul 2026 17:15:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Shared-Claude-Chats-MacSync-Stealer.webp"
+    },
     {
       "title": "Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)",
       "link": "https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410",
@@ -11,7 +56,7 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
     },
     {
-      "title": "​    ​AsyncAPI npm packages infected with credential-stealing malware",
+      "title": "AsyncAPI npm packages infected with credential-stealing malware",
       "link": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
       "description": "Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities. [...]",
       "pub_date": "Wed, 15 Jul 2026 11:37:27 -0400",
@@ -119,24 +164,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Abuse-FaceTime-Calls.webp"
     },
     {
-      "title": "CISA Warns of Microsoft SharePoint Server Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/sharepoint-server-vulnerability-exploited/",
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability in Microsoft SharePoint Server, tracked as CVE-2026-56164, to its Known Exploited Vulnerabilities cata...",
-      "pub_date": "Wed, 15 Jul 2026 12:05:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/SharePoint-Server-Vulnerability-Exploited.webp"
-    },
-    {
-      "title": "Microsoft Confirms Dell Laptops Shut Down, Increase Heat Following July Windows Update",
-      "link": "https://cybersecuritynews.com/dell-laptops-shut-down-july-update/",
-      "description": "Microsoft has confirmed that a limited number of Dell laptops may suffer unexpected shutdowns, higher temperatures, battery drain, and poor performance after installing a recent Windows 11 preview ...",
-      "pub_date": "Wed, 15 Jul 2026 11:58:05 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Dell-Laptops-Shut-Down.webp"
-    },
-    {
       "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
       "link": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
       "description": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up.  Enterprise workflows now liv...",
@@ -144,15 +171,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy5qXcxZFGTQiQ1Sb-SHAyKnjOmjdz1fA1FEFMLTVXd7Xcyr9aSptzafuOwTnzCkzHCqZCOV-z_tPKKeoeS6Rd2kYWtAL_IWTRXFaZkr8V371LH2Rbq0JHlLwCbkuhO_D-hRv73LHSQgEW9tfI9Oxj9jmh9ROMZLOAZFZztDH1qzHvO2uc7EO6AlxPh8Cl/s1600/island.jpg"
-    },
-    {
-      "title": "New Rust-Based LabubaRAT Impersonates NVIDIA Software to Hijack Windows Systems",
-      "link": "https://cybersecuritynews.com/labubarat-nvidia-malware/",
-      "description": "A previously undocumented remote access tool dubbed LabubaRAT, a Rust-based implant that masquerades as NVIDIA software to compromise Windows systems. The malware uncovered by Blackpoint Cyber\u0026#821...",
-      "pub_date": "Wed, 15 Jul 2026 11:32:21 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Labubarat-Nvidia-Malware.webp"
     },
     {
       "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
@@ -380,15 +398,6 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
     },
     {
-      "title": "Microsoft Entra ID gets passkeys default authentication starting September",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/",
-      "description": "Microsoft has announced that passkeys will become the default authentication method for the Entra ID enterprise identity service starting September 2026. [...]",
-      "pub_date": "Tue, 14 Jul 2026 08:49:56 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
       "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
       "description": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the mo...",
@@ -396,15 +405,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzgVI5ZeWhnWkl-lXmJYMLjAOXmxw21Y3sgxeF9rrOS_JqjQ7k_yyV_2KU_ELhmsm3nA3qNV0farc_31WCAhPPZRq7iIrYm90R_24lvc1f68Gv-yZPsM3bwDiUuCaCBAzq-S8ymLrrD7dx349vEjlR0eID2LXm5SO3Ocq1sG8sWkhAEG9RWX07avTOu3dW/s1600/shim.gif"
-    },
-    {
-      "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
-      "link": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
-      "description": "Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people using them.  The ...",
-      "pub_date": "Tue, 14 Jul 2026 17:25:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLw92quWqf4LGudVaNPBRwhiCIP4ZEBpolIRqMKbQuG6hzrXUSx89QCQT1IjMWF_6v7GEkYGOi0kYoc-ES_fELZm6pg1P8lVpRxv5mYmpzAHQMm6A_XC_fXWSWlRVh1JfjFc8wXlqtyGWovxUOOhQn8HiG4XutLeKlyv5aLY2R4UKlHTcD2pgXANePlhBq/s1600/wallet-fingerprint.jpg"
     },
     {
       "title": "Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East",
@@ -731,6 +731,15 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2023-4346 KNX Association KNX Protocol Connection Authori...",
+      "pub_date": "Wed, 15 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-15409 SonicWall SMA1000 Appliances Server-Side Requ...",
@@ -842,15 +851,6 @@
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-48282 Adobe ColdFusion Path Traversal Vulnerability  T...",
-      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-48908 JoomShaper SP Page Builder Unrestricted Uplo...",
       "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
