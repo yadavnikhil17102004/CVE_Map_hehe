@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-07-15T11:23:20Z",
+  "last_updated": "2026-07-15T13:17:41Z",
   "articles": [
+    {
+      "title": "Investigating Persistence Mechanisms in AWS",
+      "link": "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms",
+      "description": "OverviewIn the cloud, your infrastructure may be short-lived, but an attacker’s persistence doesn't have to be. While your environment scales and changes in seconds, adversaries are embedding the...",
+      "pub_date": "Wed, 15 Jul 2026 13:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt5347bae77d90cb99/6846a711e7145c78a6584ace/aws.jpg"
+    },
+    {
+      "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
+      "link": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
+      "description": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up.  Enterprise workflows now liv...",
+      "pub_date": "Wed, 15 Jul 2026 17:20:01 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy5qXcxZFGTQiQ1Sb-SHAyKnjOmjdz1fA1FEFMLTVXd7Xcyr9aSptzafuOwTnzCkzHCqZCOV-z_tPKKeoeS6Rd2kYWtAL_IWTRXFaZkr8V371LH2Rbq0JHlLwCbkuhO_D-hRv73LHSQgEW9tfI9Oxj9jmh9ROMZLOAZFZztDH1qzHvO2uc7EO6AlxPh8Cl/s1600/island.jpg"
+    },
+    {
+      "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
+      "link": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
+      "description": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive.  It has been described as a Windows User Profile Service arbitrary h...",
+      "pub_date": "Wed, 15 Jul 2026 16:37:07 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvtiVnhkF-YVsPEXyedqj9REY5pN1-KiSsf-rCeXK5yClGbAcsL1Tg7-9UDDA8VQg5RbM0uWkV23rDxqiFFIJ2RkpkY6cn90-5LPbZOC2oktF7_3FjD5La_FGkYdVBEKeXMJGiGRZfPvxmMBXd99tncWdEZ4HxX62hbxmWEnA02eu-LSVwZtmecjuykqDb/s1600/windows-0day.jpg"
+    },
+    {
+      "title": "New Webinar: Closing the Approval Gap in AI-Era Ad Tech",
+      "link": "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
+      "description": "A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages.  This on-demand webinar ...",
+      "pub_date": "Wed, 15 Jul 2026 16:36:57 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKYTg22vVssJ3SSHZzP0PtS8d5g8oCH2fU2IkXoBoIPOR4-XblNQ7Hg6S-qkO6bIB9JLC3yI4QdpQ4iNWsQsu9QnMpNbHdHzwHhRyX0zr-Vklk2DaCe3UlOd8M53pp5Uu_mfds265f_MsrF_RaQ-lnPEc3b5UoIVsTIV-On5qJ9DqMpk05AsKM3FhlgtXV/s1600/ref.jpg"
+    },
     {
       "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution",
       "link": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
@@ -38,24 +74,6 @@
       "image_url": ""
     },
     {
-      "title": "Critical SonicWall Firewall 0-Day Vulnerabilities Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/sonicwall-firewall-0-day-vulnerabilities-exploited/",
-      "description": "SonicWall has issued an urgent security advisory regarding two vulnerabilities affecting its SMA1000 Series appliances. The company is warning that attackers are actively exploiting these flaws in ...",
-      "pub_date": "Wed, 15 Jul 2026 08:21:57 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-SonicWall-Firewall-0-Day-Vulnerabilities-Actively-Exploited-in-Attacks-.webp"
-    },
-    {
-      "title": "Researcher Claims Bypass of EU Age Verification App Using Chrome Extension",
-      "link": "https://cybersecuritynews.com/researcher-bypass-of-eu-age-verification/",
-      "description": "Security researcher Paul Moore has once again exposed critical weaknesses in the EU’s flagship age verification system, this time by bypassing the latest app release (version 2026.07-1) using a C...",
-      "pub_date": "Wed, 15 Jul 2026 08:16:28 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Researcher-Bypass-of-EU-Age-Verification.webp"
-    },
-    {
       "title": "US charges alleged operators of Russian bulletproof hosting service",
       "link": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
       "description": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in dam...",
@@ -65,33 +83,6 @@
       "image_url": ""
     },
     {
-      "title": "Chinese Hackers Embed Claude Code and DeepSeek in AI-Powered Government Cyberattacks",
-      "link": "https://cybersecuritynews.com/chinese-hackers-ai-attacks/",
-      "description": "An active, highly structured intrusion campaign co-opting commercial artificial intelligence platforms as operational engines for state-sponsored operations. Rather than acting as peripheral resear...",
-      "pub_date": "Wed, 15 Jul 2026 07:18:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Chinese-hackers-AI-attacks-1.webp"
-    },
-    {
-      "title": "Gamers Download Fake Cheats and Hand Attackers a Live Remote Control of Their Windows PCs",
-      "link": "https://cybersecuritynews.com/game-fake-cheats-remote-access/",
-      "description": "New research uncovered 11 malicious NuGet packages disguised as game cheats, bots, and management panels for popular online titles. The campaign targets gaming communities playing titles such as Al...",
-      "pub_date": "Wed, 15 Jul 2026 06:37:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Game-Fake-Cheats-Remote-Access.webp"
-    },
-    {
-      "title": "New LegacyHive Windows 0-day Vulnerability Allows Users  to Load Another User’s Registry",
-      "link": "https://cybersecuritynews.com/legacyhive-windows-0-day-vulnerability/",
-      "description": "A proof-of-concept exploit dubbed LegacyHive has been released, enabling a Windows elevation-of-privilege vulnerability in the Windows User Profile Service that allows a standard user to load anoth...",
-      "pub_date": "Wed, 15 Jul 2026 06:00:34 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/New-LegacyHive-Windows-0-day-Vulnerability-Released-by-Nightmare-Eclipse-With-PoC-Details.webp"
-    },
-    {
       "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
       "link": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
       "description": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command...",
@@ -99,33 +90,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0n94FUIdljCnLvlh0SNz5l8xDWbdDqmk7OesE7HAKxrRAMUMIfXpppuMBoI-7F0Q1PB7eXPRjrfg9fgZTTVj3JY5jKsr1Ebheb2mU65p4MUVYbs59lCPPWCBQ4LVYZnoZ0o6nRkoBQitrwwnyLVQc2oYJ41zVjPS6_HchwIR-U8EuWrOdPpl1-Y9Rw1Lm/s1600/sonicwall-patches.jpg"
-    },
-    {
-      "title": "Microsoft Active Directory Services 0-Day Vulnerability Actively Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/active-directory-services-0-day-exploited/",
-      "description": "Microsoft has released security updates for CVE-2026-56155, an actively exploited elevation-of-privilege vulnerability in Active Directory Federation Services (AD FS). This flaw allows an authentic...",
-      "pub_date": "Wed, 15 Jul 2026 05:12:18 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Active-Directory-Services-0-Day-Vulnerability-Actively-Exploited-in-the-Wild.webp"
-    },
-    {
-      "title": "Multiple Notepad++ Vulnerabilities Enable PowerShell Command Injection Attacks",
-      "link": "https://cybersecuritynews.com/notepad-vulnerabilities-command-injection/",
-      "description": "Notepad++ v8.9.7 has been released with critical security fixes addressing multiple vulnerabilities, including a high-risk PowerShell command injection flaw that could enable arbitrary code executi...",
-      "pub_date": "Wed, 15 Jul 2026 04:18:14 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Notepad-Vulnerabilities-Command-Injection-1.webp"
-    },
-    {
-      "title": "Windows BitLocker 0‑Day Vulnerability Allows Hackers to Bypass Security Feature",
-      "link": "https://cybersecuritynews.com/windows-bitlocker-0-day-vulnerability-2/",
-      "description": "A newly disclosed Windows BitLocker 0‑day vulnerability, tracked as CVE-2026-50661, exposes encrypted devices to physical attacks that can completely undermine Microsoft’s disk encryption guara...",
-      "pub_date": "Wed, 15 Jul 2026 03:10:30 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/BitLocker-0‑Day-Vulnerability.webp"
     },
     {
       "title": "Patch Tuesday - July 2026",
@@ -164,15 +128,6 @@
       "image_url": ""
     },
     {
-      "title": "Tego AI Finds Claude Tag Slack Integration Can Trigger Unauthorized Enterprise Actions",
-      "link": "https://cybersecuritynews.com/tego-ai-finds-claude-tag-slack-integration-can-trigger-unauthorized-enterprise-actions/",
-      "description": "Tel Aviv, Israel, July 14th, 2026, CyberNewswire Cybersecurity start-up Tego AI reveals that the new Anthropic’s native slack integration, Claude Tag, can be triggered by non-intentional Slack co...",
-      "pub_date": "Tue, 14 Jul 2026 19:33:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i1.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrQ9WS-XYhctladDXfqOLzKF-QpzHrNj-YLPUu5IhS4RRmD_3DPhXNfVZ2hRhSh-OKK5ewz16bFTP2PelSjqlSQPj7YMuEroeucns3KRdDdzSsCJhhdCZ_i13QVSD9ROgWC0CDRpZbNvQ-KC28WoxJuhydx2dGUCM6CgTc1qZKhM19qOS-S_krYj3C9R0/s1600/Untitled%20design%20(22).webp?ssl=1"
-    },
-    {
       "title": "Nearly 300 GitHub repos pose as legit software to push malware",
       "link": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
       "description": "A threat actor has published hundreds of fake GitHub repositories impersonating legitimate software and security projects to distribute infostealer malware. [...]",
@@ -207,15 +162,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Massive Microsoft Patch Tuesday Update: 570 Vulnerabilities Fixed, Including 3 Zero-Days",
-      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-update-july-2026/",
-      "description": "Microsoft\u0026#8217;s July 2026 Patch Tuesday delivers fixes for approximately 570 vulnerabilities across its product ecosystem, following June\u0026#8217;s record-breaking release of 206 flaws that also in...",
-      "pub_date": "Tue, 14 Jul 2026 17:47:22 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Patch-Tuesday-Update-July-2026-1.webp"
     },
     {
       "title": "Windows 11 KB5101650 \u0026 KB5099414 cumulative updates released",
@@ -353,24 +299,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmB1bLC9cna7xlnvFdK0hUnsi8jeo6E7jMh20nj4XTvsF9ogpjbnlPCxx9QYQ1O2aS7JiSDQi4swIRNG6-Xjg2TGR4bn4Zn-KBkjsLTYcKUrXOD-rlGu4XYsvRx06eRqrT4duW0xwklKeYjZvRV1VSarJBKldBzN4DNhkWudVCGRdKPi9uVGrqEwL66mz5/s1600/OAuth-ClientID.jpg"
     },
     {
-      "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
-      "link": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
-      "description": "xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed.  A researcher p...",
-      "pub_date": "Tue, 14 Jul 2026 14:32:48 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCYpkCY1h-DxV5yfxpkGspVFATaUS27q_vpRgQ2ebzGvc6YgSsYk81jDt3SkJQgxVCL8dWJqzDE3t6iUt4ceeTvA9LG8Z9cA65uBXC05Lkdv1xKLNBMH88dTa_6XCet3a0wf1VwfyxQsx_1AKc3lmHCxqiZHKTfvk9kJqvo0i15biGekBijFPNN16JHBM/s1600/grok.jpg"
-    },
-    {
-      "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
-      "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
-      "description": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other cybercriminals' malicious ...",
-      "pub_date": "Tue, 14 Jul 2026 13:32:33 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhseKXQcobfKfQC4K6ja7LMDD4ntr9cnmn_88cEPY7jw6wbmiy0p_0xup5NyNrvKHvN4gm2Y1gT4P9kn_FV0ogJEsN6hQ0Dal0xqZgWMNW0mHfrUtnxDkm0FjIN13xxH2_mCkBIVcQeEAK8j2w46HuvE5yv8W6MIsj5VQP37keKQBdHeF2NU-ujhcdaLwdE/s1600/sanctions.jpg"
-    },
-    {
       "title": "Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East",
       "link": "https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership",
       "description": "Gopan Sivasankaran is Regional Director, Middle East \u0026 Africa, at Rapid7From AI adoption and cloud-first strategies to smart cities and critical infrastructure modernization, organizations across t...",
@@ -378,15 +306,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt30cad4cead79d2d3/6846a7113860835cfa35e65d/surface-command.jpg"
-    },
-    {
-      "title": "148 npm Packages Disguised as Student Proxies Turned Browsers Into a DDoS Botnet",
-      "link": "https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html",
-      "description": "A campaign of 148 npm packages disguised as student web proxies turned visitors' browsers into a distributed denial-of-service botnet for roughly two weeks in May, according to new research from\u0026nb...",
-      "pub_date": "Tue, 14 Jul 2026 12:38:36 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAJ1TN76Et1GvWFCTaivnNcys4rEEVk1QEd6WIb0wu3cxroYcwng-0a0uM8eyHdrOuiHLU8lFJg5eFzSbZj95aEfXVnletlFE9BKsDJP_0uV4w9-YbHg7p9LuMyRMcj4rJPftYmIYCcD3_VmbgFrGuaJ6yqUuJgIvVtbqlNUPrkJO2FSuFQ6dJ7gzKFV0/s1600/lucide-botnet.jpg"
     },
     {
       "title": "ZDI-26-400: (0Day) AnyDesk Screen Recording Link Following Denial-of-Service Vulnerability",
@@ -657,15 +576,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0d50271a40a5f14f/6849ab419621d9f3824d5017/metasploit-sky.png"
-    },
-    {
-      "title": "Why Security Teams Need To Start Earlier",
-      "link": "https://www.rapid7.com/blog/post/it-why-security-teams-need-to-start-earlier",
-      "description": "Security leaders are facing an unusual set of circumstances. The drumbeat for better security prioritization has been rising for years in boardrooms around the world. The desire is there, but the p...",
-      "pub_date": "Thu, 18 Jun 2026 14:45:55 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltebc2810157aecfaf/68af2715c53b04810df94abb/blog-hero-generic-pixel.jpg"
     },
     {
       "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
