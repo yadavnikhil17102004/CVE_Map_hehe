@@ -1,6 +1,60 @@
 {
-  "last_updated": "2026-07-15T13:17:41Z",
+  "last_updated": "2026-07-15T15:19:40Z",
   "articles": [
+    {
+      "title": "Critical Cursor 0-Day Flaw Allows Malicious Git Repos to Trigger Automatic Windows Code Execution",
+      "link": "https://cybersecuritynews.com/critical-cursor-0-day-flaw/",
+      "description": "A critical unpatched vulnerability in Cursor, the popular AI-powered code editor used by over 7 million developers, allows attackers to achieve arbitrary code execution on Windows systems. Simply o...",
+      "pub_date": "Wed, 15 Jul 2026 14:37:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-Cursor-0-Day-Flaw.webp"
+    },
+    {
+      "title": "Insignary Launches Clarity On-Demand: SBOMs, No Annual Commitment Required",
+      "link": "https://cybersecuritynews.com/insignary-launches-clarity-on-demand-sboms-no-annual-commitment-required/",
+      "description": "Toronto, Canada, July 15th, 2026, CyberNewswire Enterprise-grade binary software verification for one project, one team, or one compliance deadline — without an annual commitment. According to In...",
+      "pub_date": "Wed, 15 Jul 2026 14:25:42 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnUtGZ4eIa5dr1Rt5slksD6vjSvRn1mrNSGknEc9OpVletUacBh4zitE06vqjmrz9HQBD1jcC-N9iNi3xCjeQzEjjKQAmTqnFrpLs1SXtheF8vfi84_WCd4pZwTjFBAO1jX-fURj1nzI39ypfU0N8iBpNytsZ33mo-B1liaL1ROtHBwU13KNvIrWpe6yM/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20project,%20one%20team,%20o.webp?ssl=1"
+    },
+    {
+      "title": "Hacker Used Gemini CLI to Build a Live C\u0026C Botnet in 6 Minutes",
+      "link": "https://cybersecuritynews.com/botnet-gemini-cli-in-six-miutes/",
+      "description": "A Russian-speaking threat actor known as \u0026#8220;bandcampro\u0026#8221; has weaponized Google\u0026#8217;s Gemini CLI AI agent to migrate, deploy, and operate a live command-and-control (C\u0026#38;C) botnet. Rema...",
+      "pub_date": "Wed, 15 Jul 2026 14:19:31 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Botnet-Gemini-CLI-in-Six-Miutes.webp"
+    },
+    {
+      "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
+      "link": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
+      "description": "Intruder built an AI-powered \"vulnerability vending machine\" that combines code slicing with LLMs to automatically discover complex software vulnerabilities. The company explains how the system fou...",
+      "pub_date": "Wed, 15 Jul 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "US Charges Two “Bulletproof Hosting” Companies for Helping Hackers Steal Tens of Millions of Dollars",
+      "link": "https://cybersecuritynews.com/bulletproof-hosting-helped-hackers/",
+      "description": "The Department of Justice has unsealed an indictment in the Northern District of Ohio charging three Russian nationals and two Russia-based \u0026#8220;bulletproof hosting\u0026#8221; companies. The entities...",
+      "pub_date": "Wed, 15 Jul 2026 13:54:46 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Bulletproof-Hosting-Helped-Hackers.webp"
+    },
+    {
+      "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
+      "link": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
+      "description": "Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published.  The vulnerabilities are listed below -     CVE-2026-15718, an invali...",
+      "pub_date": "Wed, 15 Jul 2026 18:48:53 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMjCjGBZhkRcB4m5BQu0Fcn-Qjs1_VPnfOlt3oFxu7CKMZ5Wc1JpvZEvhVSorBJW-AWV1pACLDkg4rFmCCcdH6vDk-pmD5ai0ZewlmPyeWPnfsmTcg-D3UJXdT902oUD32DjSm5CrBsnf2rcVTQPUo5o-LJRKUlsjOwPNfYMpN7kOfmNhnyw552cv-Gtqk/s1600/adobes.jpg"
+    },
     {
       "title": "Investigating Persistence Mechanisms in AWS",
       "link": "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms",
@@ -11,6 +65,51 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt5347bae77d90cb99/6846a711e7145c78a6584ace/aws.jpg"
     },
     {
+      "title": "Multiple Dell PowerProtect Vulnerabilities Allow Hackers to Gain Full System Access Remotely",
+      "link": "https://cybersecuritynews.com/multiple-dell-powerprotect-vulnerabilites/",
+      "description": "Dell has released security updates to address multiple critical vulnerabilities in its PowerProtect Data Domain products that could allow an unauthenticated remote attacker to gain complete control...",
+      "pub_date": "Wed, 15 Jul 2026 12:37:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Multiple-Dell-PowerProtect-Vulnerabilites-Allow-Hackers-to-Gain-Full-System-Access-Remotely.webp"
+    },
+    {
+      "title": "Multiple Windows RDP Vulnerabilities Allow Attackers to Access Sensitive Data",
+      "link": "https://cybersecuritynews.com/windows-remote-desktop-protocol-vulnerabilities-2/",
+      "description": "Microsoft has released security updates to address a series of information disclosure vulnerabilities in the Windows Remote Desktop Protocol (RDP). These vulnerabilities could allow attackers to re...",
+      "pub_date": "Wed, 15 Jul 2026 12:18:31 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Multiple-Windows-Remote-Desktop-Protocol-Vulnerability-Allow-Attackers-to-Access-Sensitive-Data.webp"
+    },
+    {
+      "title": "Hackers Abuse FaceTime Calls to Impersonate Banks and Hijack Victims’ Accounts",
+      "link": "https://cybersecuritynews.com/facetime-calls-impersonate-banks/",
+      "description": "Apple has issued a security advisory warning iPhone and iPad users to treat unexpected FaceTime calls with the same scrutiny as standard phishing emails. A newly tracked wave of social engineering ...",
+      "pub_date": "Wed, 15 Jul 2026 12:15:05 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Abuse-FaceTime-Calls.webp"
+    },
+    {
+      "title": "CISA Warns of Microsoft SharePoint Server Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/sharepoint-server-vulnerability-exploited/",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability in Microsoft SharePoint Server, tracked as CVE-2026-56164, to its Known Exploited Vulnerabilities cata...",
+      "pub_date": "Wed, 15 Jul 2026 12:05:12 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/SharePoint-Server-Vulnerability-Exploited.webp"
+    },
+    {
+      "title": "Microsoft Confirms Dell Laptops Shut Down, Increase Heat Following July Windows Update",
+      "link": "https://cybersecuritynews.com/dell-laptops-shut-down-july-update/",
+      "description": "Microsoft has confirmed that a limited number of Dell laptops may suffer unexpected shutdowns, higher temperatures, battery drain, and poor performance after installing a recent Windows 11 preview ...",
+      "pub_date": "Wed, 15 Jul 2026 11:58:05 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Dell-Laptops-Shut-Down.webp"
+    },
+    {
       "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
       "link": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
       "description": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up.  Enterprise workflows now liv...",
@@ -18,6 +117,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy5qXcxZFGTQiQ1Sb-SHAyKnjOmjdz1fA1FEFMLTVXd7Xcyr9aSptzafuOwTnzCkzHCqZCOV-z_tPKKeoeS6Rd2kYWtAL_IWTRXFaZkr8V371LH2Rbq0JHlLwCbkuhO_D-hRv73LHSQgEW9tfI9Oxj9jmh9ROMZLOAZFZztDH1qzHvO2uc7EO6AlxPh8Cl/s1600/island.jpg"
+    },
+    {
+      "title": "New Rust-Based LabubaRAT Impersonates NVIDIA Software to Hijack Windows Systems",
+      "link": "https://cybersecuritynews.com/labubarat-nvidia-malware/",
+      "description": "A previously undocumented remote access tool dubbed LabubaRAT, a Rust-based implant that masquerades as NVIDIA software to compromise Windows systems. The malware uncovered by Blackpoint Cyber\u0026#821...",
+      "pub_date": "Wed, 15 Jul 2026 11:32:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Labubarat-Nvidia-Malware.webp"
     },
     {
       "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
@@ -92,6 +200,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0n94FUIdljCnLvlh0SNz5l8xDWbdDqmk7OesE7HAKxrRAMUMIfXpppuMBoI-7F0Q1PB7eXPRjrfg9fgZTTVj3JY5jKsr1Ebheb2mU65p4MUVYbs59lCPPWCBQ4LVYZnoZ0o6nRkoBQitrwwnyLVQc2oYJ41zVjPS6_HchwIR-U8EuWrOdPpl1-Y9Rw1Lm/s1600/sonicwall-patches.jpg"
     },
     {
+      "title": "ZDI-26-404: Delta Electronics DTM Soft Project File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-404/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics DTM Soft. User interaction is required to exploit this vulnerability in that the ...",
+      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
       "title": "Patch Tuesday - July 2026",
       "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-july-2026",
       "description": "Microsoft is publishing 622 vulnerabilities on July 2026 Patch Tuesday, including a record-breaking 416 Windows vulnerabilities. Microsoft is aware of exploitation in the wild for two of the vulner...",
@@ -139,7 +256,7 @@
     {
       "title": "Microsoft releases Windows 10 KB5099539 extended security update",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
-      "description": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerabilities, along with additional security fixes. ...",
+      "description": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes this month's record-breaking July 2026 Patch Tuesday fixes, along with additional security improvements. [...]",
       "pub_date": "Tue, 14 Jul 2026 14:49:28 -0400",
       "source": "BleepingComputer",
       "tier": 3,
@@ -272,15 +389,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLw92quWqf4LGudVaNPBRwhiCIP4ZEBpolIRqMKbQuG6hzrXUSx89QCQT1IjMWF_6v7GEkYGOi0kYoc-ES_fELZm6pg1P8lVpRxv5mYmpzAHQMm6A_XC_fXWSWlRVh1JfjFc8wXlqtyGWovxUOOhQn8HiG4XutLeKlyv5aLY2R4UKlHTcD2pgXANePlhBq/s1600/wallet-fingerprint.jpg"
     },
     {
-      "title": "SAP warns of critical flaws in NetWeaver and Commerce Cloud",
-      "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
-      "description": "SAP has addressed 16 vulnerabilities across multiple products as part of its July 2026 security updates, including three critical flaws in NetWeaver, Commerce Cloud, and AppRouter. [...]",
-      "pub_date": "Tue, 14 Jul 2026 07:42:21 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "How Pentera Turns AI Security Workflows into Validation Engines",
       "link": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
       "description": "AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragm...",
@@ -288,15 +396,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBkjrecx65rZWCn-e7KyG-ScNo2HupwMwFl9-XIOcdW1Pls-d0g80WyhkIHPCHTszjYDoUBtmpV_ystgF4Lc6z_noxysLX2xs11QU1jNALxkVa8gW6_QkevNLJkr8mCqupKYHRZSv518HoHlmwpnaYV-qMVyciXNsoMQAS8RrH1rLT2BsLS2t3u52Lrf8/s1600/pentera-main.jpg"
-    },
-    {
-      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
-      "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
-      "description": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry.  The activity allows users to enumer...",
-      "pub_date": "Tue, 14 Jul 2026 16:51:35 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmB1bLC9cna7xlnvFdK0hUnsi8jeo6E7jMh20nj4XTvsF9ogpjbnlPCxx9QYQ1O2aS7JiSDQi4swIRNG6-Xjg2TGR4bn4Zn-KBkjsLTYcKUrXOD-rlGu4XYsvRx06eRqrT4duW0xwklKeYjZvRV1VSarJBKldBzN4DNhkWudVCGRdKPi9uVGrqEwL66mz5/s1600/OAuth-ClientID.jpg"
     },
     {
       "title": "Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East",
@@ -551,15 +650,6 @@
       "image_url": ""
     },
     {
-      "title": "ZDI-26-389: Oracle PeopleSoft ExecuteProcessActivityCommand External Control of File Path Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-389/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle PeopleSoft. Although authentication is required to exploit this vulnerability, the existing ...",
-      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
       "title": "Why SIEM is Moving Toward Unified Security Operations: Rapid7 Named a Major Player in IDC MarketScape",
       "link": "https://www.rapid7.com/blog/post/dr-siem-moving-toward-unified-security-operations-rapid7-named-idc-marketscape-major-player",
       "description": "Rapid7 has been named a Major Player in the IDC MarketScape: Worldwide SIEM 2026 Vendor Assessment (#US54126826, June 2026).This is the first IDC SIEM MarketScape to bring the enterprise and SMB ma...",
@@ -629,6 +719,15 @@
       "pub_date": "Tue, 14 Apr 2026 15:00:00 +0000",
       "source": "GitHub Security",
       "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "Establishing a Coordinated Vulnerability Disclosure Program to Work With Security Researchers",
+      "link": "https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers",
+      "description": "Developed by CISA, the National Security Agency (NSA) and international partners, this joint guidance contains best practices for software manufacturers and online service providers to design and i...",
+      "pub_date": "Wed, 15 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -740,27 +839,18 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-48282 Adobe ColdFusion Path Traversal Vulnerability  T...",
+      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-48908 JoomShaper SP Page Builder Unrestricted Uplo...",
-      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Hitachi Energy PROMOD V",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-02",
-      "description": "View CSAF Summary Hitachi Energy is aware of insecure HTTP transmission vulnerability in PROMOD V product versions listed in this document. This vulnerability could allow attackers to intercept or ...",
-      "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Labcenter Proteus 9",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could disclose information and allow a malicious user to execute arbitrary code on affected installations. The following versions ...",
       "pub_date": "Tue, 07 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
