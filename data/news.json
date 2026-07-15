@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-07-15T21:51:04Z",
+  "last_updated": "2026-07-15T22:51:21Z",
   "articles": [
+    {
+      "title": "Dutch police bust investment fraud ring stealing over €100 million",
+      "link": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
+      "description": "The Dutch Police announced the arrest of multiple individuals suspected of being part of an international investment fraud scheme estimated to have tens of thousands of victims. [...]",
+      "pub_date": "Wed, 15 Jul 2026 17:55:50 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Zoom warns of critical account takeover vulnerability",
       "link": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
@@ -254,6 +263,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0n94FUIdljCnLvlh0SNz5l8xDWbdDqmk7OesE7HAKxrRAMUMIfXpppuMBoI-7F0Q1PB7eXPRjrfg9fgZTTVj3JY5jKsr1Ebheb2mU65p4MUVYbs59lCPPWCBQ4LVYZnoZ0o6nRkoBQitrwwnyLVQc2oYJ41zVjPS6_HchwIR-U8EuWrOdPpl1-Y9Rw1Lm/s1600/sonicwall-patches.jpg"
     },
     {
+      "title": "ZDI-26-444: 7-Zip XZ Decompression Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-444/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of 7-Zip. User interaction is required to exploit this vulnerability in that the target must visit a m...",
+      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
       "title": "ZDI-26-443: Linux Kernel vmwgfx Integer Overflow Local Privilege Escalation Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-443/",
       "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
@@ -380,15 +398,6 @@
       "image_url": ""
     },
     {
-      "title": "ZDI-26-429: NVIDIA NeMo Framework Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-429/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA NeMo Framework. User interaction is required to exploit this vulnerability in that the targe...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
       "title": "Patch Tuesday - July 2026",
       "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-july-2026",
       "description": "Microsoft is publishing 622 vulnerabilities on July 2026 Patch Tuesday, including a record-breaking 416 Windows vulnerabilities. Microsoft is aware of exploitation in the wild for two of the vulner...",
@@ -492,15 +501,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
       "description": "Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week and has released security updates to pa...",
       "pub_date": "Tue, 14 Jul 2026 12:08:47 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "LastPass, Bitwarden users targeted with fake security alerts",
-      "link": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
-      "description": "LastPass is warning users about an ongoing phishing campaign that is using fake security notices to direct them to fraudulent websites. [...]",
-      "pub_date": "Tue, 14 Jul 2026 11:31:52 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
