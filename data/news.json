@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-07-16T20:02:34Z",
+  "last_updated": "2026-07-16T21:57:18Z",
   "articles": [
+    {
+      "title": "New ClickLock macOS malware traps users into revealing login password",
+      "link": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+      "description": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
+      "pub_date": "Thu, 16 Jul 2026 17:52:54 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
+      "link": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
+      "description": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the Un...",
+      "pub_date": "Thu, 16 Jul 2026 17:09:41 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
       "link": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
@@ -353,15 +371,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwz558IbCLKi1RAJRcX_tLnJrGR3xjXSXfBJHnREqKc0aTs9Ie67rKN6xRHDV4g6JNByEH5Vr-x-14HOK8dSKj_B6HFn303OMiFrpr2wHf9PNUONqlUPn8IdMzr9QoZB9uWq14ElryYTydVAUXNeCARv-cN7KMmmwfb9FpMw_NCDIk8faF6QlSboXey08/s1600/seed.jpg"
     },
     {
-      "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
-      "link": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
-      "description": "Intruder built an AI-powered \"vulnerability vending machine\" that combines code slicing with LLMs to automatically discover complex software vulnerabilities. The company explains how the system fou...",
-      "pub_date": "Wed, 15 Jul 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
       "link": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
       "description": "Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published.  The vulnerabilities are listed below -     CVE-2026-15718, an invali...",
@@ -378,15 +387,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt5347bae77d90cb99/6846a711e7145c78a6584ace/aws.jpg"
-    },
-    {
-      "title": "CISA warns admins to patch actively exploited SharePoint flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned Tuesday that attackers are actively exploiting three vulnerabilities to hack Internet-exposed on-premises SharePoint Server ...",
-      "pub_date": "Wed, 15 Jul 2026 05:44:52 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "ZDI-26-444: 7-Zip XZ Decompression Heap-based Buffer Overflow Remote Code Execution Vulnerability",
