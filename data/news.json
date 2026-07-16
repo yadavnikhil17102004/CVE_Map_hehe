@@ -1,6 +1,60 @@
 {
-  "last_updated": "2026-07-16T09:59:49Z",
+  "last_updated": "2026-07-16T11:42:48Z",
   "articles": [
+    {
+      "title": "JetBrains Patched 6 Vulnerabilities Across TeamCity, YouTrack and IntelliJ IDEA",
+      "link": "https://cybersecuritynews.com/jetbrains-patched-vulnerabilities/",
+      "description": "JetBrains has addressed six security vulnerabilities in its software development and project management products. The affected applications include IntelliJ IDEA, TeamCity, and YouTrack. The most c...",
+      "pub_date": "Thu, 16 Jul 2026 11:40:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/JetBrains-Patched-6-Vulnerabilities-Across-TeamCity-YouTrack-and-IntelliJ-IDEA-1.webp"
+    },
+    {
+      "title": "Specter Turns Your Flipper Zero Into a Pocket Skimmer Detector",
+      "link": "https://cybersecuritynews.com/specter-with-flipper-zero/",
+      "description": "A new Flipper Zero app called Specter aims to turn the handheld device into a passive counter-surveillance tool for finding active 13.56 MHz NFC readers, including potentially suspicious readers hi...",
+      "pub_date": "Thu, 16 Jul 2026 11:19:56 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Specter-Tool-With-Flipper-Zero.webp"
+    },
+    {
+      "title": "CISA orders feds to patch actively exploited Oracle flaw by Saturday",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/",
+      "description": "CISA has ordered federal agencies to secure their systems by Saturday against ongoing attacks exploiting a critical vulnerability in the Oracle E-Business Suite financial application. [...]",
+      "pub_date": "Thu, 16 Jul 2026 06:56:03 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Russian hackers trojanize WebEx, Zoom apps to push Starland malware",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/",
+      "description": "A financially motivated Russian threat actor tracked as UAT-11795 is using trojanized software to steal credentials and cryptocurrency by deploying a new backdoor called Starland RAT. [...]",
+      "pub_date": "Thu, 16 Jul 2026 06:19:34 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "AI Can Find Bugs, But Human Knowledge Still Proves Them",
+      "link": "https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html",
+      "description": "Artificial intelligence (AI) is changing offensive security, but it has not changed the standard that matters most: a finding has to be proven before it becomes useful. AI-assisted tools can read c...",
+      "pub_date": "Thu, 16 Jul 2026 15:40:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfFHlEVhBtz6htSsevgYmwuQZHGlEXKK9eqiOqgiXJ587449tNZfWR9y74kC9MfZ6CDSPx6IBloYogs0PBSeynORkAZsD6825INUqoJaIMwtAbBVkve-A8xBNmz6fNpxsuwjsF_jfXHqBumqTT9VY7Jn5gEP3C0fVLOtuVFZ2krUvHSagGvupLXQSH-YI/s1600/cvss.jpg"
+    },
+    {
+      "title": "New Spirals ransomware encrypts victim network in under 24 hours",
+      "link": "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/",
+      "description": "A new ransomware actor called Spirals completed a corporate intrusion, from initial access to data theft and encryption, in less than 24 hours. [...]",
+      "pub_date": "Thu, 16 Jul 2026 06:00:00 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "GPT-Red – A Red Teamer to Find Prompt Injection Vulnerabilities in GPT 5.6 Sol",
       "link": "https://cybersecuritynews.com/gpt-red/",
@@ -9,6 +63,15 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GPT-Red-A-Red-teamer-attacking-GPT-5.6-model-to-find-Prompt-Injection-Flaws-1.webp"
+    },
+    {
+      "title": "Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide",
+      "link": "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html",
+      "description": "Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, r...",
+      "pub_date": "Thu, 16 Jul 2026 14:53:19 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5tbAe6HgEiYpwgRNJ04jo1HJ_PV3INByd4ggz2t4h_dCa4u2zkCBimnzDZt7V-p208q7-BfaHSmR5_aXg6VvnnThfnc9_UX8oP0hnRa6rP1JVgKka-D76BpYUzhEuc3O0nbEGgoVeCQsTY2RBsVTrYnViTmGPqgPJ9e4lNeKWtxZNxKqvUajphbl-ENY/s1600/shark-hack.jpg"
     },
     {
       "title": "Kratos PhaaS Attacking Microsoft 365 Users Across the US, Europe to Steal Credentials",
@@ -119,15 +182,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmKa1OIdUu8LgLPgZkc9qbOTzhARf1dEJa_fzyVt7vvSzidHy3Lrb-2R4hs2ryt9b4Aq3zOnJRtWVuQ8KHKUZ5x9Iv6Q0vGTVMPxNMLTdGaNsquyrL18QXk8TcMP2nEwFHE1snKt2aG6rEmyVMwRp7Fk4G_x_sXjk_4AmYWsH2JCvOe2Adut2PZbLVc4YI/s1600/tuxbot.jpg"
     },
     {
-      "title": "Hackers Expanding Destiny Stealer Across the US and Europe. Is Your Organization Ready to Defend? ",
-      "link": "https://cybersecuritynews.com/hackers-expanding-destiny-stealer-across-the-us-and-europe-is-your-organization-ready-to-defend/",
-      "description": "Destiny Stealer activity is rising across Europe and the US, putting corporate accounts, remote access, email data, and sensitive business information at risk. A single infected endpoint can expose...",
-      "pub_date": "Wed, 15 Jul 2026 18:37:13 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Destiny-Stealer.webp"
-    },
-    {
       "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
       "link": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
       "description": "A Russian-speaking threat actor known as \"bandcampro\" used Google's open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale botnet. [...]",
@@ -135,15 +189,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "GPT-5.6 Sol Ultra Builds Full Chrome Exploit Chain From Security Patches",
-      "link": "https://cybersecuritynews.com/gpt-5-6-sol-chrome-exploit-chain/",
-      "description": "OpenAI\u0026#8217;s GPT-5.6 Sol Ultra model independently constructed a complete, working exploit chain for Google Chrome, using nothing but publicly available security patch commits as its starting poi...",
-      "pub_date": "Wed, 15 Jul 2026 17:52:29 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GPT-5.6-Sol-Chrome-Exploit-Chain.webp"
     },
     {
       "title": "Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)",
@@ -477,51 +522,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9rN4ge3zuUmonccBl2yC_AcOKiCQPKQFAV31BzB3DZk3JO7SxAjx1HdJlg1vBOMEj3cq2Mrg06ZU64I1fdkWCDRBsPhqpuyJwTxjbJHJXmzUoXF8KRDkupk6JxznlI9tjMXwU_hJqh4InVEOsiknPoszVZkQsqWSKfcD5Y90qz63Cv_pOHL8zO4CxGOop/s1600/sap-patch.jpg"
-    },
-    {
-      "title": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
-      "description": "Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclo...",
-      "pub_date": "Tue, 14 Jul 2026 14:01:36 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Windows 11 KB5101650 \u0026 KB5099414 cumulative updates released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/",
-      "description": "Microsoft has released Windows 11's June 2026 Update for version 25H2, 24H2, and 23H2, bringing fixes for over 570 security issues. [...]",
-      "pub_date": "Tue, 14 Jul 2026 13:41:16 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads",
-      "link": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
-      "description": "Any other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar.  Both this ...",
-      "pub_date": "Tue, 14 Jul 2026 22:57:23 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6dKqmptCkoLw0bB5PV9wa9zqqfMmsIU0yrc4vQ2FdIFYClQBeZyUifVSr4wny1umoGovVKP57bzeh3-8RjmK8VktgN_y8TGTnkkw6Ua49L3xfWT_n8Ks6ob2NpIy78NSAV4-XU7HxfdmYqAZcKYz7DIjihqBI8OsQIgW3a4vca7taNTohCTDrqEamAk4/s1600/claude-chrome-flaw.jpg"
-    },
-    {
-      "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
-      "link": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
-      "description": "Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments.  \"L...",
-      "pub_date": "Tue, 14 Jul 2026 22:22:37 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpSmSwv3hz6LMJIQCrVej_pophE9XNTZyveEV1GctCyQMSNoac_Mx3CfmAHLgYkpDkymvscLLY71u2Kq-7z-7bDemSeKHryPVH3h7FNxw9e64D3jTeoLOzmWW305j1Rctz5kdiwFV29lFNqo33TUZMGWCaZqtyKNPYARGtrrhZ0Bsc4LMLXhnRgzKXjKYb/s1600/NVIDIA-rat.jpg"
-    },
-    {
-      "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
-      "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
-      "description": "Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week and has released security updates to pa...",
-      "pub_date": "Tue, 14 Jul 2026 12:08:47 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "CVE-2026-55040: Microsoft SharePoint JWT Token Authentication Bypass (FIXED)",
