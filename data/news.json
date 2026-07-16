@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-07-16T17:05:46Z",
+  "last_updated": "2026-07-16T18:58:30Z",
   "articles": [
+    {
+      "title": "Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack",
+      "link": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
+      "description": "Owen Flowers, 18, and Thalha Jubair, 20, were each sentenced to five and a half years at Woolwich Crown Court on Thursday, 16 July 2026, for the 2024 hack of Transport for London.  The attack left ...",
+      "pub_date": "Thu, 16 Jul 2026 22:39:25 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcPDzKH0EAg764dc_I7qiwOAUUcWqBwDJcoojyb1-SwTOL5Gv24t1oGcIxnW8NkJjgXEadKJTIkcoN7nrFzrPk87AhHJj9Z5hPGk-vHGEkIppuyKJ-Sx_2M5aLF9z1VbD7G3uzf_kn_Wy1BYJ_R3RWwqM376W1hkWmfOdXYhlzCSqzSBRcJSbzGvFMkMg/s1600/Scattered-Spider.jpg"
+    },
     {
       "title": "Linus Torvalds Told Kernel Developers that Linux is Not Against AI projects",
       "link": "https://cybersecuritynews.com/linus-torvalds-linux-ai/",
@@ -351,15 +360,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt5347bae77d90cb99/6846a711e7145c78a6584ace/aws.jpg"
-    },
-    {
-      "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
-      "link": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
-      "description": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up.  Enterprise workflows now liv...",
-      "pub_date": "Wed, 15 Jul 2026 17:20:01 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy5qXcxZFGTQiQ1Sb-SHAyKnjOmjdz1fA1FEFMLTVXd7Xcyr9aSptzafuOwTnzCkzHCqZCOV-z_tPKKeoeS6Rd2kYWtAL_IWTRXFaZkr8V371LH2Rbq0JHlLwCbkuhO_D-hRv73LHSQgEW9tfI9Oxj9jmh9ROMZLOAZFZztDH1qzHvO2uc7EO6AlxPh8Cl/s1600/island.jpg"
     },
     {
       "title": "CISA warns admins to patch actively exploited SharePoint flaws",
@@ -731,15 +731,6 @@
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation Flex 5000 Adapter",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the affected product. The following versions of Rockwell Automation...",
-      "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
       "title": "Siemens SICAM 8",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-05",
       "description": "View CSAF Summary Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICOR...",
@@ -767,9 +758,18 @@
       "image_url": ""
     },
     {
-      "title": "NASA Core Flight System (cFS) Health \u0026 Safety (HS) Application",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition. The following versions of NASA Core Flight System (cFS) Health \u0026amp; ...",
+      "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation 1756-EN2, 1756-EN3, and...",
+      "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/16/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-25089 Fortinet FortiSandbox OS Command Injection V...",
       "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -794,9 +794,18 @@
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation 1756-EN2, 1756-EN3, and...",
+      "title": "Rockwell Automation Flex 5000 Adapter",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the affected product. The following versions of Rockwell Automation...",
+      "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "NASA Core Flight System (cFS) Health \u0026 Safety (HS) Application",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition. The following versions of NASA Core Flight System (cFS) Health \u0026amp; ...",
       "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -842,15 +851,6 @@
       "title": "ABB Ability Edgenius",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
       "description": "View CSAF Summary ABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a...",
-      "pub_date": "Tue, 14 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Urges SharePoint Hardening After New Exploitations",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations",
-      "description": "CISA is aware of active exploitation of vulnerabilities CVE-2026-32201, CVE-2026-45659, and CVE-2026-56164, enabling cyber threat actors to gain unauthorized access to on-premises SharePoint Server...",
       "pub_date": "Tue, 14 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
