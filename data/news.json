@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-07-16T07:17:44Z",
+  "last_updated": "2026-07-16T09:59:49Z",
   "articles": [
+    {
+      "title": "GPT-Red – A Red Teamer to Find Prompt Injection Vulnerabilities in GPT 5.6 Sol",
+      "link": "https://cybersecuritynews.com/gpt-red/",
+      "description": "OpenAI has introduced GPT-Red, an internal automated red-teaming model designed to identify and remediate prompt injection vulnerabilities in GPT-5.6. This approach aims to tackle a growing safety ...",
+      "pub_date": "Thu, 16 Jul 2026 09:38:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GPT-Red-A-Red-teamer-attacking-GPT-5.6-model-to-find-Prompt-Injection-Flaws-1.webp"
+    },
+    {
+      "title": "Kratos PhaaS Attacking Microsoft 365 Users Across the US, Europe to Steal Credentials",
+      "link": "https://cybersecuritynews.com/kratos-phaas-attacking-microsoft-365-users/",
+      "description": "Kratos is a phishing-as-a-service operation built to steal Microsoft 365 credentials. It is targeting organizations across the United States, Europe, and other regions by using believable document,...",
+      "pub_date": "Thu, 16 Jul 2026 09:16:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Kratos-PhaaS-Attacking-Microsoft-365-Users-Across-the-US-Europe-to-Steal-Credentials.webp"
+    },
+    {
+      "title": "OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol",
+      "link": "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html",
+      "description": "OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely....",
+      "pub_date": "Thu, 16 Jul 2026 14:12:31 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSi9EGhWziKlNlaSAnaOE4OjgZ5pyqoajOxDz4zEQl77NDSF_Pf8ME6wfKfrmrTWhLy9jDR1wvmVb7gd5JLhyszunIomhOnyyHKuTfvBCjb8vGypAPXbQzTVG-n5wWUdsTToUXQ5z_uh3XPDX3KKzgZ8vDB9PZ40FOd6xGi2iALOu-wSqSoHpkpYf5eKjk/s1600/openai-gpt-red.jpg"
+    },
+    {
+      "title": "New TuxBot v3 IoT Botnet Uses LLM-Generated Code to Hijack Devices and Launch DDoS Attacks",
+      "link": "https://cybersecuritynews.com/new-tuxbot-v3-iot-botnet-uses-llm-generated-code/",
+      "description": "A newly identified IoT botnet framework, TuxBot v3 Evolution, is targeting internet-connected devices and turning compromised systems into tools for distributed denial-of-service attacks. The malwa...",
+      "pub_date": "Thu, 16 Jul 2026 08:29:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/New-TuxBot-v3-IoT-Botnet-Uses-LLM-Generated-Code-to-Hijack-Devices-and-Launch-DDoS-Attacks.webp"
+    },
+    {
+      "title": "Zoom Desktop Client for Windows Flaw Enables Account Takeover via Network Access",
+      "link": "https://cybersecuritynews.com/zoom-desktop-client-windows-flaw/",
+      "description": "Zoom has released updates for a critical Windows desktop client vulnerability, tracked as CVE-2026-53412, that could allow unauthenticated attackers to remotely take over user accounts. This flaw a...",
+      "pub_date": "Thu, 16 Jul 2026 08:09:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Zoom-Desktop-Client-for-Windows-Flaw.webp"
+    },
+    {
+      "title": "Multiple Splunk Enterprise Vulnerabilities Enable Path Traversal and Information Disclosure Attacks",
+      "link": "https://cybersecuritynews.com/multiple-splunk-enterprise-vulnerabilities-patched/",
+      "description": "Splunk has released security updates addressing multiple vulnerabilities in Splunk Enterprise and Splunk Cloud Platform. These flaws could lead to issues such as path traversal, disclosure of store...",
+      "pub_date": "Thu, 16 Jul 2026 07:57:59 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Multiple-Splunk-Enterprise-Vulnerabilities.webp"
+    },
+    {
+      "title": "CISA Warns of Oracle E-Business Suite Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/oracle-e-business-suite-vulnerability-exploited/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability in Oracle E-Business Suite, tracked as CVE-2026-46817, to its Known Exploited Vulnerabilities (KE...",
+      "pub_date": "Thu, 16 Jul 2026 07:55:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/CISA-Warns-of-Oracle-E-Business-Suite-Vulnerability-Actively-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "Zoom Patches Critical Windows Flaw That Could Enable Account Takeover",
+      "link": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html",
+      "description": "Zoom has released security updates for a critical security flaw impacting Zoom Workplace for Windows that could facilitate account takeover.  The vulnerability, tracked as CVE-2026-53412 (CVSS scor...",
+      "pub_date": "Thu, 16 Jul 2026 12:52:44 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPR-qLKvfH8KZydz4_DnqiB9bJDjgFi6KdfrbbCHNkywiDcR_1SILe12UqjuyM_1yQXEDBok-ZeYRX0hEjIZpx-Dz2hnIW2xXnwAqrmA3voWWfG_vnGMavgE4-E_DFzICLfizByiwAis02VEJqSoxQrEECCMibS0X27D5k0o08IPp1JR0tVCnXwpj2u3e2/s1600/zoom.jpg"
+    },
     {
       "title": "Hackers Can Type a Secret Username at the Windows Login Screen to Open a SYSTEM Shell",
       "link": "https://cybersecuritynews.com/hackers-can-type-a-secret-username-at-the-windows-login-screen/",
@@ -74,15 +146,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GPT-5.6-Sol-Chrome-Exploit-Chain.webp"
     },
     {
-      "title": "Hackers Abuse Shared Claude Chats and Google Ads to Deploy MacSync Stealer on macOS",
-      "link": "https://cybersecuritynews.com/shared-claude-chats-macsync-stealer/",
-      "description": "Threat actors are hijacking Anthropic\u0026#8217;s Claude AI platform and Google Ads to trick Mac users into infecting themselves with a dangerous new information-stealing malware called MacSync Stealer...",
-      "pub_date": "Wed, 15 Jul 2026 17:15:43 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Shared-Claude-Chats-MacSync-Stealer.webp"
-    },
-    {
       "title": "Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)",
       "link": "https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410",
       "description": "OverviewOn July 14, 2026, SonicWall published a security advisory addressing two vulnerabilities affecting SMA1000 Series remote access appliances, including the critical server-side request forger...",
@@ -110,33 +173,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwz558IbCLKi1RAJRcX_tLnJrGR3xjXSXfBJHnREqKc0aTs9Ie67rKN6xRHDV4g6JNByEH5Vr-x-14HOK8dSKj_B6HFn303OMiFrpr2wHf9PNUONqlUPn8IdMzr9QoZB9uWq14ElryYTydVAUXNeCARv-cN7KMmmwfb9FpMw_NCDIk8faF6QlSboXey08/s1600/seed.jpg"
     },
     {
-      "title": "Critical Cursor 0-Day Flaw Allows Malicious Git Repos to Trigger Automatic Windows Code Execution",
-      "link": "https://cybersecuritynews.com/critical-cursor-0-day-flaw/",
-      "description": "A critical unpatched vulnerability in Cursor, the popular AI-powered code editor used by over 7 million developers, allows attackers to achieve arbitrary code execution on Windows systems. Simply o...",
-      "pub_date": "Wed, 15 Jul 2026 14:37:44 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-Cursor-0-Day-Flaw.webp"
-    },
-    {
-      "title": "Insignary Launches Clarity On-Demand: SBOMs, No Annual Commitment Required",
-      "link": "https://cybersecuritynews.com/insignary-launches-clarity-on-demand-sboms-no-annual-commitment-required/",
-      "description": "Toronto, Canada, July 15th, 2026, CyberNewswire Enterprise-grade binary software verification for one project, one team, or one compliance deadline — without an annual commitment. According to In...",
-      "pub_date": "Wed, 15 Jul 2026 14:25:42 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnUtGZ4eIa5dr1Rt5slksD6vjSvRn1mrNSGknEc9OpVletUacBh4zitE06vqjmrz9HQBD1jcC-N9iNi3xCjeQzEjjKQAmTqnFrpLs1SXtheF8vfi84_WCd4pZwTjFBAO1jX-fURj1nzI39ypfU0N8iBpNytsZ33mo-B1liaL1ROtHBwU13KNvIrWpe6yM/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20project,%20one%20team,%20o.webp?ssl=1"
-    },
-    {
-      "title": "Hacker Used Gemini CLI to Build a Live C\u0026C Botnet in 6 Minutes",
-      "link": "https://cybersecuritynews.com/botnet-gemini-cli-in-six-miutes/",
-      "description": "A Russian-speaking threat actor known as \u0026#8220;bandcampro\u0026#8221; has weaponized Google\u0026#8217;s Gemini CLI AI agent to migrate, deploy, and operate a live command-and-control (C\u0026#38;C) botnet. Rema...",
-      "pub_date": "Wed, 15 Jul 2026 14:19:31 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Botnet-Gemini-CLI-in-Six-Miutes.webp"
-    },
-    {
       "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
       "link": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
       "description": "Intruder built an AI-powered \"vulnerability vending machine\" that combines code slicing with LLMs to automatically discover complex software vulnerabilities. The company explains how the system fou...",
@@ -144,15 +180,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "US Charges Two “Bulletproof Hosting” Companies for Helping Hackers Steal Tens of Millions of Dollars",
-      "link": "https://cybersecuritynews.com/bulletproof-hosting-helped-hackers/",
-      "description": "The Department of Justice has unsealed an indictment in the Northern District of Ohio charging three Russian nationals and two Russia-based \u0026#8220;bulletproof hosting\u0026#8221; companies. The entities...",
-      "pub_date": "Wed, 15 Jul 2026 13:54:46 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Bulletproof-Hosting-Helped-Hackers.webp"
     },
     {
       "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
@@ -171,15 +198,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt5347bae77d90cb99/6846a711e7145c78a6584ace/aws.jpg"
-    },
-    {
-      "title": "Multiple Dell PowerProtect Vulnerabilities Allow Hackers to Gain Full System Access Remotely",
-      "link": "https://cybersecuritynews.com/multiple-dell-powerprotect-vulnerabilites/",
-      "description": "Dell has released security updates to address multiple critical vulnerabilities in its PowerProtect Data Domain products that could allow an unauthenticated remote attacker to gain complete control...",
-      "pub_date": "Wed, 15 Jul 2026 12:37:54 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Multiple-Dell-PowerProtect-Vulnerabilites-Allow-Hackers-to-Gain-Full-System-Access-Remotely.webp"
     },
     {
       "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
@@ -506,15 +524,6 @@
       "image_url": ""
     },
     {
-      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
-      "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
-      "description": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose en...",
-      "pub_date": "Tue, 14 Jul 2026 19:18:07 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhhRQ9rN4_5eYqXiJ7svWKwWY0dcPiiALZ6EkDG05ruFzTANJtwyw_w2Ht29dON1oFiLAkQkE0M75FYExbXmvFSr4jU0K0sNlwRxG3Q1rU51ouVIt3UtnrazRwhCer3coTHbU3So1dXx_8Frh1KhJKKXc7Lq2h5DZTGkBq35Y2ngnGVg6wAGubf8cVRx0F/s1600/rebbitmq.jpg"
-    },
-    {
       "title": "CVE-2026-55040: Microsoft SharePoint JWT Token Authentication Bypass (FIXED)",
       "link": "https://www.rapid7.com/blog/post/ve-cve-2026-55040-microsoft-sharepoint-jwt-token-authentication-bypass-fixed",
       "description": "OverviewRapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated re...",
@@ -522,15 +531,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
-      "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
-      "description": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the mo...",
-      "pub_date": "Tue, 14 Jul 2026 18:16:18 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzgVI5ZeWhnWkl-lXmJYMLjAOXmxw21Y3sgxeF9rrOS_JqjQ7k_yyV_2KU_ELhmsm3nA3qNV0farc_31WCAhPPZRq7iIrYm90R_24lvc1f68Gv-yZPsM3bwDiUuCaCBAzq-S8ymLrrD7dx349vEjlR0eID2LXm5SO3Ocq1sG8sWkhAEG9RWX07avTOu3dW/s1600/shim.gif"
     },
     {
       "title": "Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East",
