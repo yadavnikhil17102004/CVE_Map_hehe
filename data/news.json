@@ -1,6 +1,60 @@
 {
-  "last_updated": "2026-07-17T17:02:46Z",
+  "last_updated": "2026-07-17T18:55:37Z",
   "articles": [
+    {
+      "title": "OpenSSL “HollowByte” Vulnerability Lets Hackers Crash Servers With Just 11 Bytes",
+      "link": "https://cybersecuritynews.com/openssl-hollowbyte-vulnerability/",
+      "description": "A newly disclosed vulnerability in OpenSSL, dubbed \u0026#8220;HollowByte,\u0026#8221; allows a remote, unauthenticated attacker to trigger a denial-of-service (DoS) condition using a malicious payload as sm...",
+      "pub_date": "Fri, 17 Jul 2026 18:21:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/OpenSSL-_HollowByte_-Vulnerability.webp"
+    },
+    {
+      "title": "CVE-2026-58644: Microsoft SharePoint Server Unauthenticated Remote Code Execution Vulnerability Exploited in the Wild",
+      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild",
+      "description": "OverviewOn July 14, 2026, Microsoft published a security advisory addressing CVE-2026-58644, a critical remote code execution (RCE) vulnerability affecting on-premises Microsoft SharePoint Server d...",
+      "pub_date": "Fri, 17 Jul 2026 18:18:53 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+    },
+    {
+      "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
+      "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
+      "description": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]",
+      "pub_date": "Fri, 17 Jul 2026 13:56:21 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Ransomware Attack on Coca-Cola-Owned Fairlife Halts Production Across the United States",
+      "link": "https://cybersecuritynews.com/coca-cola-owned-fairlife-cyberattack/",
+      "description": "Coca-Cola has reported a ransomware attack affecting its dairy subsidiary, Fairlife, resulting in a temporary shutdown of production operations across the United States. This incident was disclosed...",
+      "pub_date": "Fri, 17 Jul 2026 17:53:52 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Ransomware-Attack-on-Coca-Cola-Owned-fairlife-Halts-Production-Across-the-United-States-2.webp"
+    },
+    {
+      "title": "EY Data Breach – Hackers Gain Access to IT Support System and Download Documents",
+      "link": "https://cybersecuritynews.com/ey-data-breach/",
+      "description": "Ernst \u0026#38; Young LLP (EY) is notifying clients that an unauthorized third party breached a support ticket platform used by its IT staff, downloading documents containing client tax data during a r...",
+      "pub_date": "Fri, 17 Jul 2026 17:28:40 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/EY-Data-Breach.webp"
+    },
+    {
+      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
+      "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+      "description": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys.  A Shodan harvester keeps the scan queue stocked with ...",
+      "pub_date": "Fri, 17 Jul 2026 22:42:23 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm0yasBDyeN2fn4q4y7Zs2Y6FvTDTIrI3xi4iN2ZBBUIBoCxLshnVvYc8OPDOrpSuHiyUNO0MLi-50Kf05SxJSo3m1n-PDfKnM3ztP48lWYBz_2IDzR2gNQ0D3-AzQcR6ZJC9qvBgM5wX3RCIaw6mAA7zDh3xAWFFoHScqZuqKSifh-FUr8Qum5dYGQPw/s1600/botnet-malware.jpg"
+    },
     {
       "title": "PentestCode – New AI Agent That Automates Penetration Testing with 18 Specialized Tools",
       "link": "https://cybersecuritynews.com/pentestcode-ai-agent/",
@@ -9,6 +63,15 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/PentestCode-AI-Agent.webp"
+    },
+    {
+      "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
+      "link": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
+      "description": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine.  Expel, which shared technical details of the event, descr...",
+      "pub_date": "Fri, 17 Jul 2026 22:09:16 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixZDZh8TkRVQHu6QNFvHOayTdDxLn-JWDRkPmvVCNkvEL9vhyphenhyphensADIyUB0uXlhXmBhACxMotz-lU1B61HGsRPee80GkLfk-mypQd6Ba4Hr4K-2QCz7BtyRKFCiUYuiUlmPw71Wdn6YnNTjncnGDPQBJV-P0MyS7CjTmPd-p_aHKBCQJr0JA396lL-Yxd3A9/s1600/digicert-hack.jpg"
     },
     {
       "title": "Ernst \u0026 Young discloses data breach after support system hack",
@@ -164,15 +227,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Multiple-TP-Link-Cameras-Vulnerability-Attacks-1.webp"
     },
     {
-      "title": "GPT-5.6 Codex is Reportedly Deleting Files From Home Directories",
-      "link": "https://cybersecuritynews.com/gpt-5-6-codex-delete-files/",
-      "description": "OpenAI is currently investigating a small number of reports indicating that the GPT-5.6 Codex unintentionally deleted files from users’ home directories. These incidents reportedly occurred when ...",
-      "pub_date": "Fri, 17 Jul 2026 07:42:26 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GPT-5.6-Codex-is-Reportedly-deleting-files-from-Home-Directories-2.webp"
-    },
-    {
       "title": "CISA urges immediate action on actively exploited Fortinet flaws",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
       "description": "CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...]",
@@ -182,15 +236,6 @@
       "image_url": ""
     },
     {
-      "title": "CISA Warns of Fortinet FortiSandbox OS Injection Vulnerabilities Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/fortisandbox-vulnerabilities-exploited/",
-      "description": "CISA has added two critical Fortinet FortiSandbox vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, warning that attackers are actively exploiting the flaws in real-world attack...",
-      "pub_date": "Fri, 17 Jul 2026 06:58:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/CISA-Warns-of-Fortinet-FortiSandbox-OS-Injection-Vulnerabilities-Exploited-in-Attacks-1.webp"
-    },
-    {
       "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
       "link": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) c...",
@@ -198,15 +243,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH1X7ZnvKsW37BBvjNfEzT4Imh9ZIRL4_2W1JaNVe_MyO3Q5H1MPsET-SASqznhlfOExRrLj4-6NzhgvGi76w4U5tSmlM-pJLIqO5jF3g9G1DR_FNhuwcatBFb8ARvD4PPMiQvMCFiTlEOlc13nQbQqCn5ZHf1J2ZOqDeG3_pmBiQ92hTfMErJKcjKbNtZ/s1600/sharepoint-cisa.jpg"
-    },
-    {
-      "title": "Two Hackers Jailed for Hacking 148 TfL Systems, Forcing Password Reset for 27,000 Staff",
-      "link": "https://cybersecuritynews.com/two-scattered-spider-hackers-jailed/",
-      "description": "Two young members of the Scattered Spider cybercrime group have been jailed for a 2024 attack that knocked out 148 Transport for London (TfL) systems, forced all 27,000 staff to reset passwords in ...",
-      "pub_date": "Fri, 17 Jul 2026 03:27:43 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Two-Scattered-Spider-Hackers-Jailed.webp"
     },
     {
       "title": "New ClickLock macOS malware traps users into revealing login password",
@@ -342,33 +378,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs_Ix6AmdT0f-NuPj2BLNRcSaOhWHf5pPdDuwR0eykvHCnOmoHUhq5Z2axM2GJX9gX5A3FlesfKuynGTsj012HNIJZURuZ8S7uCfa7_cSXIZDWC1donHjiQbkNr3jNLSq8B2PGpUG24fddwOaG2POjEQuvlrVEnp3yPa1F3tV2fpYDVQHEsaIHbnShUuQ/s1600/hacked.jpg"
-    },
-    {
-      "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
-      "link": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
-      "description": "Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click \"Buy Now\" instead. Ask a coding assistant to apply a maintainer's fix from a GitHub thread,...",
-      "pub_date": "Thu, 16 Jul 2026 17:02:28 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiapJDNa0fN3WsyrkYjRiRo3L8tqmE_RJm9AmQV5KO9p5To-PBWdVz7EW294xtn-VZtJ2xS_scIq3LyqyxYkPG3R5TdJoPF_axjEaLpaXSqGHK_uO274wM315GEqHtnDAMIfFN2vZlcEYJ3Ca11Ml_E-l32H63EYNfx7l9ldtjNlH8hL_19w4RL6vDpOWMz/s1600/adi.jpg"
-    },
-    {
-      "title": "Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor",
-      "link": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html",
-      "description": "An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unreported backdoor du...",
-      "pub_date": "Thu, 16 Jul 2026 16:47:23 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoN2-EflBc7bABKWw8GsIF_E9I7A9Ond88d-yFCAc6t850C9RGNxpGFAP3G9NichaP7JHa_BA-4bsMDNze5837hGCFGuAbyEHPVsxmQgMNS9A8e1jFL19Z1MVv9KOq0TX5ShDG46Xrv3MxH-vR3sQtEcDkH5OMxQQo11NXMKWRicC8T1OwTqw3ENoXEdIK/s1600/WINDOWS-malware.jpg"
-    },
-    {
-      "title": "CISA orders feds to patch actively exploited Oracle flaw by Saturday",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/",
-      "description": "CISA has ordered federal agencies to secure their systems by Saturday against ongoing attacks exploiting a critical vulnerability in the Oracle E-Business Suite financial application. [...]",
-      "pub_date": "Thu, 16 Jul 2026 06:56:03 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)",
@@ -657,15 +666,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt7464fe659cab8a01/6852c358419e54d8e21c3458/blog-metasploit-wrap-up-.webp"
-    },
-    {
-      "title": "Experts on Experts: Why AI and Compliance Are Forcing A New Security Operating Model",
-      "link": "https://www.rapid7.com/blog/post/it-experts-video-series-ai-compliance-force-new-security-operating-models",
-      "description": "This week on Experts on Experts, I sat down with Sabeen Malik, Rapid7’s VP of Global Government Affairs and Public Policy, to discuss a shift security leaders can’t afford to treat as separate ...",
-      "pub_date": "Thu, 25 Jun 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltf8317b2e5bfec732/68adbeaa4f9d3d04bd8228e9/experts-on-experts.png"
     },
     {
       "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
