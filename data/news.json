@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-07-18T12:55:55Z",
+  "last_updated": "2026-07-18T14:17:23Z",
   "articles": [
+    {
+      "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
+      "link": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
+      "description": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies...",
+      "pub_date": "Sat, 18 Jul 2026 09:15:24 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "New Spirals Ransomware Uses IIS Web Shell and PsExec to Encrypt IT Firm in Under 24 Hours",
+      "link": "https://cybersecuritynews.com/new-spirals-ransomware/",
+      "description": "A previously unseen ransomware family dubbed \u0026#8220;Spirals\u0026#8221; struck an IT services company in South Asia in June 2026. Symantec\u0026#8217;s Threat Hunter Team reports that the attackers moved fro...",
+      "pub_date": "Sat, 18 Jul 2026 11:41:32 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/New-Spirals-Ransomware.webp"
+    },
+    {
+      "title": "Citrix Secure Access and Endpoint Client for Windows Vulnerability Enables Privilege Escalation",
+      "link": "https://cybersecuritynews.com/citrix-secure-access-and-endpoint-vulnerability/",
+      "description": "Cloud Software Group has disclosed two security vulnerabilities affecting Citrix Secure Access Client for Windows and Citrix Endpoint Analysis Client for Windows, with one flaw allowing low-privile...",
+      "pub_date": "Sat, 18 Jul 2026 08:41:45 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Citrix-Secure-Access-and-Endpoint-Vulnerability.webp"
+    },
+    {
+      "title": "New wp2shell RCE Vulnerability Hits Millions of WordPress Sites, Emergency Patch Released",
+      "link": "https://cybersecuritynews.com/wp2shell-rce-vulnerability/",
+      "description": "A critical pre-authentication remote code execution (RCE) vulnerability dubbed \u0026#8220;wp2shell\u0026#8221; has been discovered in WordPress Core, putting an estimated 500 million+ websites at risk of fu...",
+      "pub_date": "Sat, 18 Jul 2026 03:05:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/wp2shell-RCE-Vulnerability.webp"
+    },
     {
       "title": "CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core",
       "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core",
@@ -56,6 +92,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA07xA1INXGKM7Z2LQ6zk2IFE_Hb_aDQNHmSfPtJkZY5Gzo2U2_cyflorBsU76hbXK8SwKXR5AmkK5dAAd9uw0wRh6gYaC-5ZPjT6kEdvE7rO-5G0TxXm8a-eytoygZOMuSG-aOnYkC_zTVbnxSq7zxaIFYyLcegbQ59WVztRO-y3MHmce7XuDz2SdVsKA/s1600/vite-npm.jpg"
     },
     {
+      "title": "OpenSSL “HollowByte” Vulnerability Lets Hackers Crash Servers With Just 11 Bytes",
+      "link": "https://cybersecuritynews.com/openssl-hollowbyte-vulnerability/",
+      "description": "A newly disclosed vulnerability in OpenSSL, dubbed \u0026#8220;HollowByte,\u0026#8221; allows a remote, unauthenticated attacker to trigger a denial-of-service (DoS) condition using a malicious payload as sm...",
+      "pub_date": "Fri, 17 Jul 2026 18:21:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/OpenSSL-_HollowByte_-Vulnerability.webp"
+    },
+    {
       "title": "CVE-2026-58644: Microsoft SharePoint Server Unauthenticated Remote Code Execution Vulnerability Exploited in the Wild",
       "link": "https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild",
       "description": "OverviewOn July 14, 2026, Microsoft published a security advisory addressing CVE-2026-58644, a critical remote code execution (RCE) vulnerability affecting on-premises Microsoft SharePoint Server d...",
@@ -74,6 +119,24 @@
       "image_url": ""
     },
     {
+      "title": "Ransomware Attack on Coca-Cola-Owned Fairlife Halts Production Across the United States",
+      "link": "https://cybersecuritynews.com/coca-cola-owned-fairlife-cyberattack/",
+      "description": "Coca-Cola has reported a ransomware attack affecting its dairy subsidiary, Fairlife, resulting in a temporary shutdown of production operations across the United States. This incident was disclosed...",
+      "pub_date": "Fri, 17 Jul 2026 17:53:52 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Ransomware-Attack-on-Coca-Cola-Owned-fairlife-Halts-Production-Across-the-United-States-2.webp"
+    },
+    {
+      "title": "EY Data Breach – Hackers Gain Access to IT Support System and Download Documents",
+      "link": "https://cybersecuritynews.com/ey-data-breach/",
+      "description": "Ernst \u0026#38; Young LLP (EY) is notifying clients that an unauthorized third party breached a support ticket platform used by its IT staff, downloading documents containing client tax data during a r...",
+      "pub_date": "Fri, 17 Jul 2026 17:28:40 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/EY-Data-Breach.webp"
+    },
+    {
       "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
       "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
       "description": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys.  A Shodan harvester keeps the scan queue stocked with ...",
@@ -81,6 +144,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm0yasBDyeN2fn4q4y7Zs2Y6FvTDTIrI3xi4iN2ZBBUIBoCxLshnVvYc8OPDOrpSuHiyUNO0MLi-50Kf05SxJSo3m1n-PDfKnM3ztP48lWYBz_2IDzR2gNQ0D3-AzQcR6ZJC9qvBgM5wX3RCIaw6mAA7zDh3xAWFFoHScqZuqKSifh-FUr8Qum5dYGQPw/s1600/botnet-malware.jpg"
+    },
+    {
+      "title": "PentestCode – New AI Agent That Automates Penetration Testing with 18 Specialized Tools",
+      "link": "https://cybersecuritynews.com/pentestcode-ai-agent/",
+      "description": "A new open-source tool is bringing autonomous AI agents into offensive security workflows. PentestCode, a hard fork of OpenCode rebuilt specifically for penetration testing, runs security tools, an...",
+      "pub_date": "Fri, 17 Jul 2026 17:00:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/PentestCode-AI-Agent.webp"
     },
     {
       "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
@@ -119,6 +191,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizZ8fzXjkeMlk_f1TKWczz8e4GHbNGTRPmaXHDPi86v4Ep0BqvGpKpOtpP_mtnHihu7kbII2nMxqQnQbjAhQkv6lkemsoIlzzS925QJKqkU5tgFHTxtSuRBllSUeZ3gpkJa51TAcggrQanY873B173p_hA-ow4sgftGDp4UgD3Torp7KswNuBp93-YOre5/s1600/northkorean-hacker.jpg"
     },
     {
+      "title": "New Windows LegacyHive 0-Day Vulnerability Allows Hackers to Gain Admin Access",
+      "link": "https://cybersecuritynews.com/windows-legacyhive-0-day-vulnerability/",
+      "description": "A Windows zero-day vulnerability, dubbed LegacyHive (MSNightmare), abuses the User Profile Service to enable local privilege escalation, tampering with administrator accounts, and admin-level code...",
+      "pub_date": "Fri, 17 Jul 2026 13:26:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-LegacyHive-0-Day-Vulnerability.webp"
+    },
+    {
       "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
       "link": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
       "description": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word th...",
@@ -153,6 +234,24 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMuThPnDJrVLJe0_WqKVz_AE9vh2H5NFoGoYlcbqF99J6sjNeWxhrrAEZKsctTKWp4TaEQKQcsdejihH7wBzgS0eaiwJ9bp04rAo2H2d2C-aydo2wrPvhAQgRsP351HM-l0P3JBoHQkwwQPqKOSIaYLKQ4Dpb_F54BjqErS5AUa5Q9RAZttEZmK0Yvqwk/s1600/REvil-hacker.jpg"
+    },
+    {
+      "title": "AWS Cost Explorer Bug Shows Trillion-Dollar Billing Estimates",
+      "link": "https://cybersecuritynews.com/aws-cost-explorer-bug/",
+      "description": "AWS customers worldwide were startled after the AWS Billing and Cost Management Console and Cost Explorer began displaying extraordinarily high projected cloud costs. Some organizations reported es...",
+      "pub_date": "Fri, 17 Jul 2026 10:15:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/AWS-Cost-Explorer-Bug.webp"
+    },
+    {
+      "title": "New ClickLock macOS Stealer Kills Every App to Force Password Entry",
+      "link": "https://cybersecuritynews.com/clicklock-macos-stealer/",
+      "description": "A newly discovered macOS malware dubbed ClickLock is raising alarms in the cybersecurity community for its aggressive and deceptive credential-harvesting techniques. According to researchers at Gro...",
+      "pub_date": "Fri, 17 Jul 2026 09:31:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/ClickLock-macOS-Stealer-1.webp"
     },
     {
       "title": "Windows Server 2022 reach end of mainstream support in 90 days",
@@ -297,15 +396,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blted8cb9466d79dc4d/6852c596a274324cfbb23d9d/PSN-gov-showcase-hero-image.png"
-    },
-    {
-      "title": "Scattered Spider members behind TfL hack get five years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-behind-transport-for-london-hack-get-five-years-in-prison/",
-      "description": "Two leading members of the Scattered Spider cybercrime collective were sentenced to five years and six months in prison each for hacking Transport for London (TfL) in 2024. [...]",
-      "pub_date": "Thu, 16 Jul 2026 08:31:29 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)",
