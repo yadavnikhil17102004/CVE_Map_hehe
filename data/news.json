@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-07-18T18:51:24Z",
+  "last_updated": "2026-07-18T19:59:41Z",
   "articles": [
+    {
+      "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
+      "link": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
+      "description": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
+      "pub_date": "Sat, 18 Jul 2026 15:32:02 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Hugging Face Confirms AI-Driven Breach: Attackers used Autonomous Agents, defenders countered with AI",
       "link": "https://cybersecuritynews.com/hugging-face-confirms-ai-driven-breach/",
@@ -348,15 +357,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
       "description": "A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks, potentially allowing it to abuse Claude's acc...",
       "pub_date": "Thu, 16 Jul 2026 15:26:07 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
-      "link": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
-      "description": "A new malicious framework called OkoBot is delivering more than 20 payloads in attacks focused on stealing cryptocurrency wallet seed phrases, credentials, and other sensitive data. [...]",
-      "pub_date": "Thu, 16 Jul 2026 15:09:35 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
