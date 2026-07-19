@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-07-19T12:58:16Z",
+  "last_updated": "2026-07-19T14:23:11Z",
   "articles": [
+    {
+      "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+      "link": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+      "description": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware.  Accordin...",
+      "pub_date": "Sun, 19 Jul 2026 19:00:55 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzwz79enQjrnXLRTDKacoJm6HMEpOZX59zUr-X-czDXaohlQymWPOYcD0ERz14lU9Sp_6DubTeBvC1085D3vh6VwMqreCDn8F9ZKkcrvgSTlCfwS1RhmT7ubTPrc5VRd5tX7dHAJAu8n8PUy94X3a72vYU4vO769JGWttb3x9gp9lXUkilEnloggpXyk2p/s1600/click.jpg"
+    },
+    {
+      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+      "link": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+      "description": "A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public ...",
+      "pub_date": "Sun, 19 Jul 2026 18:48:56 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLomYbwprpYWKVxrxKRh3hFiGRWdVOb7WAVbhJjf_fYQAba4wVZT1PpwWAL-ZDb40MZp9T43-dj8Fru-eOjiKcrAoh5sOdyKGUUAVwK9iifXl70EvgORPztxnvYXc9HA8trGKcRZGob8DYJxUZBg0zlZFUTiRGPXGFheSbKLUoG53kZ9HR6XxyJs9GEtcA/s1600/sma-sonicwall.jpg"
+    },
     {
       "title": "NadMesh Uses Shodan to Find and Hijack Exposed AI and MCP Infrastructure",
       "link": "https://cybersecuritynews.com/nadmesh-uses-shodan/",
@@ -369,24 +387,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcPDzKH0EAg764dc_I7qiwOAUUcWqBwDJcoojyb1-SwTOL5Gv24t1oGcIxnW8NkJjgXEadKJTIkcoN7nrFzrPk87AhHJj9Z5hPGk-vHGEkIppuyKJ-Sx_2M5aLF9z1VbD7G3uzf_kn_Wy1BYJ_R3RWwqM376W1hkWmfOdXYhlzCSqzSBRcJSbzGvFMkMg/s1600/Scattered-Spider.jpg"
-    },
-    {
-      "title": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
-      "link": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
-      "description": "A lot of this week’s trouble starts with something that looks close enough.  A familiar repo. A useful installer. A harmless sync setting. Then the handoff goes bad, the box starts talking to som...",
-      "pub_date": "Thu, 16 Jul 2026 21:11:15 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioBa_Q-TYfQvhOH0gqZxwAzgn_QnC9YSD6GYI3-z53LVjJSL1MDl4Af_DSeuIA33luHnEkGIGe9eXbCGvyWZ2zfOELZLhLAJtAcCTzIrpEPPU2f-7hvztkeHhA89Fb3aTq7b-0HHHVSPUsmUKXOPbX17rwMGjB75yG_r4-9vyarYK77pmdgzy3YeIn46M4/s1600/threatsday-recap.jpg"
-    },
-    {
-      "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
-      "link": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
-      "description": "n8n, the workflow automation platform, handed out the wrong accounts at login. On Enterprise instances configured to trust more than one external token issuer, it matched an incoming JWT to a local...",
-      "pub_date": "Thu, 16 Jul 2026 19:03:25 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1Pvezsft8WXzYy1Lw3zKDZrkf0TNZfj95rzTnuQgzbJuztRDNDFK35ahO9UfhNJOicjjuzyZGFCtC_idBl8vgNdw4kzfeYFo6LwUur66S5qUTO2Bl3WVLwCDWoDTnw4dlZdj_ZQ1T2JcG1dWfJeoO3WDZs94EVm9z0hZ8VPL36KDpaAmw7fH9hSWSSaw/s1600/n8n-main.jpg"
     },
     {
       "title": "Sunsetting the Public AttackerKB Platform",
