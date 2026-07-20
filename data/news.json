@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-07-20T09:51:23Z",
+  "last_updated": "2026-07-20T12:10:19Z",
   "articles": [
+    {
+      "title": "Hugging Face discloses breach linked to autonomous AI agent",
+      "link": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
+      "description": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI ...",
+      "pub_date": "Mon, 20 Jul 2026 07:56:28 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft SharePoint Vulnerabilities Actively Exploited for RCE, Web Shells, and IIS Key Theft",
+      "link": "https://cybersecuritynews.com/microsoft-sharepoint-vulnerabilities/",
+      "description": "Microsoft SharePoint Server flaws are being actively exploited to gain remote code execution, install persistent web shells, and steal cryptographic keys from exposed systems. The attacks put on-pr...",
+      "pub_date": "Mon, 20 Jul 2026 10:57:37 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-SharePoint-Vulnerabilities-Actively-Exploited-for-RCE-Web-Shells-and-IIS-Key-Theft.webp"
+    },
+    {
+      "title": "Microsoft confirms Windows Server Update Services sync delays",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/",
+      "description": "Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more than a week. [...]",
+      "pub_date": "Mon, 20 Jul 2026 06:47:28 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Windows KB5121767 OOB update fixes shutdowns on some Dell PCs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/",
+      "description": "Microsoft has released emergency updates to fix a known issue causing some Dell PCs to shut down after installing the July 2026 Windows 11 security updates. [...]",
+      "pub_date": "Mon, 20 Jul 2026 06:06:17 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Critical ServiceNow code execution flaw now exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
@@ -20,6 +56,15 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Public-PoC-released-for-Critical-ServiceNow-Sandbox-RCE-Vulnerability-1.webp"
     },
     {
+      "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
+      "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
+      "description": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Tre...",
+      "pub_date": "Mon, 20 Jul 2026 14:40:56 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuAoanL7LxDYHynfggiOQo_RDymqYrFlfnRNrstIG6KgYuDWk2uR0eZDx_vCSLWsjTmP5LohkMSGQ_sc32hE4TGqqUCkGwsDlOUzP3bb-Ib-whRLliIb0YVozTMZF-lgSsPJr55l7GPjR1Xq-sH7dieWTBNnZsttdSfOxowTrEZImrcJ-_cI6i4zVFlII/s1600/7-zip.jpg"
+    },
+    {
       "title": "Threat Actors Allegedly Listed Starbucks Data on Hacker Forums",
       "link": "https://cybersecuritynews.com/alleged-starbucks-data-breach/",
       "description": "Starbucks has allegedly been listed on a cybercrime forum by a threat actor using the handle \u0026#8220;anes2010,\u0026#8221; who claims to be selling a database containing 176 million unique user records r...",
@@ -27,6 +72,15 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Threat-Actors-Allegedly-Listed-Starbucks-Data-on-Hacker-Forums-1.webp"
+    },
+    {
+      "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
+      "link": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
+      "description": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet.  Th...",
+      "pub_date": "Mon, 20 Jul 2026 14:37:11 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyO5FC_n2BBZmiHphtqs0UN5r3DPgtRvkrVfaHOW-1Fv2VPXZliRYDryKR5I-vdZxtmChQJB6eAlJsND-e47t5lLQQ4SWkSJ_D02SEL6nRBmnJ-klfjSSg7rjRyf5AfzX340_se2vNrobCydtV-NZPsDm8MvL9UG0atiMekaxCNzHwizxZFlRhvpuM8BjE/s1600/gemini-cc.jpg"
     },
     {
       "title": "GoldenEyeDog Hackers Group Behind DigiCert Breach that Hijacks Code-Signing Certificates",
@@ -182,15 +236,6 @@
       "image_url": ""
     },
     {
-      "title": "New Spirals Ransomware Uses IIS Web Shell and PsExec to Encrypt IT Firm in Under 24 Hours",
-      "link": "https://cybersecuritynews.com/new-spirals-ransomware/",
-      "description": "A previously unseen ransomware family dubbed \u0026#8220;Spirals\u0026#8221; struck an IT services company in South Asia in June 2026. Symantec\u0026#8217;s Threat Hunter Team reports that the attackers moved fro...",
-      "pub_date": "Sat, 18 Jul 2026 11:41:32 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/New-Spirals-Ransomware.webp"
-    },
-    {
       "title": "CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core",
       "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core",
       "description": "OverviewOn July 17, 2026, a GitHub Security Advisory was published for CVE-2026-63030, a critical unauthenticated remote code execution vulnerability affecting WordPress Core. While the official Gi...",
@@ -335,55 +380,10 @@
       "image_url": ""
     },
     {
-      "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
-      "link": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
-      "description": "Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov.  His wife, Mari...",
-      "pub_date": "Fri, 17 Jul 2026 16:23:31 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMuThPnDJrVLJe0_WqKVz_AE9vh2H5NFoGoYlcbqF99J6sjNeWxhrrAEZKsctTKWp4TaEQKQcsdejihH7wBzgS0eaiwJ9bp04rAo2H2d2C-aydo2wrPvhAQgRsP351HM-l0P3JBoHQkwwQPqKOSIaYLKQ4Dpb_F54BjqErS5AUa5Q9RAZttEZmK0Yvqwk/s1600/REvil-hacker.jpg"
-    },
-    {
       "title": "Windows Server 2022 reach end of mainstream support in 90 days",
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
       "description": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]",
       "pub_date": "Fri, 17 Jul 2026 05:10:15 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
-      "link": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
-      "description": "ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and files from synced ...",
-      "pub_date": "Fri, 17 Jul 2026 14:26:39 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj5a79jcbSLlpVrk_Tkl4E0wiB47Zu2a7V3UrYOddEgvO0bNMVU1VzwmLIK-Ac8I71znO7vmH7QSDdF9cg4-VeEzLo_7InYxfc5yaXG8Ziv-nVAK1qRCkTx73CVKtLOESbkL2yUF9srs53F9hLAkXt9hsiSTjntbS3ThRVi3ApZniyKapqVAgz9PEuW9o/s1600/clicks.png"
-    },
-    {
-      "title": "US charges two over laundering $43 million from investment fraud",
-      "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
-      "description": "U.S. prosecutors on Thursday charged a New York man and woman for their roles in a large-scale crime ring that laundered money stolen in cyber investment fraud scams. [...]",
-      "pub_date": "Fri, 17 Jul 2026 04:13:37 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "CISA urges immediate action on actively exploited Fortinet flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
-      "description": "CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...]",
-      "pub_date": "Fri, 17 Jul 2026 03:03:33 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "New ClickLock macOS malware traps users into revealing login password",
-      "link": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
-      "description": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
-      "pub_date": "Thu, 16 Jul 2026 17:52:54 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
