@@ -1,8 +1,44 @@
 {
-  "last_updated": "2026-07-20T12:10:19Z",
+  "last_updated": "2026-07-20T15:03:53Z",
   "articles": [
     {
-      "title": "Hugging Face discloses breach linked to autonomous AI agent",
+      "title": "An AI SOC Evaluation Guide for Security Leaders",
+      "link": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
+      "description": "Choosing an AI SOC platform requires understanding how it will perform in your own environment, not just during an evaluation. Prophet Security shares a practical framework for assessing AI SOC sol...",
+      "pub_date": "Mon, 20 Jul 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
+      "link": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
+      "description": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools.  The paths were often simple: exposed ...",
+      "pub_date": "Mon, 20 Jul 2026 19:02:26 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA-JVLR3XITNdsuoWZQFMu12z6UeqsAdKWjS4Iu6piGP-4Natjx3GZ4obTdwddY5YHPgNoYDJljFCpAh9YRUntTakZeiGikoJYjjgEcv2ZVPchuCuyIfRh_3aTJ64Ktke9RkdRxH7DalTVqGf0YgF3fDj2lHgvVyIDANaMn1KVy1d1CBXTZxAwyJBqEClL/s1600/cyberrecap.jpg"
+    },
+    {
+      "title": "From a Single Alert to 1,000 Files: Inside an Exposed WebDAV Malware Delivery Lab",
+      "link": "https://www.rapid7.com/blog/post/tr-exposed-webdav-malware-delivery-lab-analysis",
+      "description": "Executive summaryAn MDR alert recently led our team to an exposed server that was doing more than hosting payloads. It was functioning as a fully operational malware delivery lab. Containing over 1...",
+      "pub_date": "Mon, 20 Jul 2026 13:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
+    },
+    {
+      "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
+      "link": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
+      "description": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons ship...",
+      "pub_date": "Mon, 20 Jul 2026 17:43:39 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnZdcdM-XJQ9tmIQw7h4gqSDABg-Ip1mzizMoR9zRcyQmaG7OGlQSp1ad0RsZSflsvdKVn0bs4EXdPthnHgiC76as_RVG-W7vZ88AHvJ2HhCLEaQOlNukhrTl6NSq6sgAHGiGUXemDrbZePvUDIi2oxWb60rRX5lkxA5bsFBJplBkaVQTZ5R0EjOrJTaQ/s1600/ip-camera-hacking.jpg"
+    },
+    {
+      "title": "Hugging Face warns an autonomous AI agent hacked its network",
       "link": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
       "description": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI ...",
       "pub_date": "Mon, 20 Jul 2026 07:56:28 -0400",
@@ -11,13 +47,13 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft SharePoint Vulnerabilities Actively Exploited for RCE, Web Shells, and IIS Key Theft",
-      "link": "https://cybersecuritynews.com/microsoft-sharepoint-vulnerabilities/",
-      "description": "Microsoft SharePoint Server flaws are being actively exploited to gain remote code execution, install persistent web shells, and steal cryptographic keys from exposed systems. The attacks put on-pr...",
-      "pub_date": "Mon, 20 Jul 2026 10:57:37 +0000",
-      "source": "Cyber Security News",
+      "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
+      "link": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
+      "description": "The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of...",
+      "pub_date": "Mon, 20 Jul 2026 17:00:00 +0530",
+      "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-SharePoint-Vulnerabilities-Actively-Exploited-for-RCE-Web-Shells-and-IIS-Key-Theft.webp"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPz_r-By1h0xZL5FiBqJIALstL79CJXVbUweKybWr0EG7qKcLPYSo750ATDQjzd9tE6piMt4-TkFY4mT87Q58Jg_0jHMCveyydooFMjk5hKUk0jQA_Uxp6WamlMsFIjXcws2ighKsjC907P45OIhcimimpm-ECyQ_bq5erQ2MTvH7HGwzGgXrxQSIBBx0/s1600/xmcyber.jpg"
     },
     {
       "title": "Microsoft confirms Windows Server Update Services sync delays",
@@ -47,15 +83,6 @@
       "image_url": ""
     },
     {
-      "title": "Public PoC released for Critical ServiceNow Sandbox RCE Vulnerability",
-      "link": "https://cybersecuritynews.com/poc-for-servicenow-sandbox-rce-vulnerability/",
-      "description": "ServiceNow has released security updates for a critical vulnerability in its AI platform after researchers published a proof of concept demonstrating pre-authentication remote code execution. The f...",
-      "pub_date": "Mon, 20 Jul 2026 09:18:52 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Public-PoC-released-for-Critical-ServiceNow-Sandbox-RCE-Vulnerability-1.webp"
-    },
-    {
       "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
       "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
       "description": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Tre...",
@@ -65,15 +92,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuAoanL7LxDYHynfggiOQo_RDymqYrFlfnRNrstIG6KgYuDWk2uR0eZDx_vCSLWsjTmP5LohkMSGQ_sc32hE4TGqqUCkGwsDlOUzP3bb-Ib-whRLliIb0YVozTMZF-lgSsPJr55l7GPjR1Xq-sH7dieWTBNnZsttdSfOxowTrEZImrcJ-_cI6i4zVFlII/s1600/7-zip.jpg"
     },
     {
-      "title": "Threat Actors Allegedly Listed Starbucks Data on Hacker Forums",
-      "link": "https://cybersecuritynews.com/alleged-starbucks-data-breach/",
-      "description": "Starbucks has allegedly been listed on a cybercrime forum by a threat actor using the handle \u0026#8220;anes2010,\u0026#8221; who claims to be selling a database containing 176 million unique user records r...",
-      "pub_date": "Mon, 20 Jul 2026 09:09:30 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Threat-Actors-Allegedly-Listed-Starbucks-Data-on-Hacker-Forums-1.webp"
-    },
-    {
       "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
       "link": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
       "description": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet.  Th...",
@@ -81,33 +99,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyO5FC_n2BBZmiHphtqs0UN5r3DPgtRvkrVfaHOW-1Fv2VPXZliRYDryKR5I-vdZxtmChQJB6eAlJsND-e47t5lLQQ4SWkSJ_D02SEL6nRBmnJ-klfjSSg7rjRyf5AfzX340_se2vNrobCydtV-NZPsDm8MvL9UG0atiMekaxCNzHwizxZFlRhvpuM8BjE/s1600/gemini-cc.jpg"
-    },
-    {
-      "title": "GoldenEyeDog Hackers Group Behind DigiCert Breach that Hijacks Code-Signing Certificates",
-      "link": "https://cybersecuritynews.com/goldeneyedog-behind-digicert-breach/",
-      "description": "GoldenEyeDog, a Chinese cybercrime group linked to the Golden Gh0st malware family, is back in focus after an intrusion at DigiCert exposed the risks around code-signing certificates. The attackers...",
-      "pub_date": "Mon, 20 Jul 2026 08:21:28 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GoldenEyeDog-Hackers-Group-Behind-DigiCert-Breach-that-Hijacks-Code-Signing-Certificates.webp"
-    },
-    {
-      "title": "U.S. Prosecutors Charge Russian Trio in Cybercrimes Causing More Than $62 Million in Losses",
-      "link": "https://cybersecuritynews.com/russian-trio-in-cybercrimes/",
-      "description": "Federal prosecutors have charged three Russian nationals over infrastructure that allegedly enabled ransomware, malware, phishing, and other cyberattacks against organizations in the United States ...",
-      "pub_date": "Mon, 20 Jul 2026 07:08:47 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/U.S.-Prosecutors-Charge-Russian-Trio-in-Cybercrimes-Causing-More-Than-62-Million-in-Losses.webp"
-    },
-    {
-      "title": "North Korean Hackers Hide OTTERCOOKIE Malware in SVG Images to Backdoor Developers",
-      "link": "https://cybersecuritynews.com/north-korean-hackers-ottercookie-malware/",
-      "description": "North Korean-linked hackers are hiding OTTERCOOKIE-aligned malware inside ordinary SVG flag images, turning a familiar part of a web project into a concealed delivery channel. The operation targets...",
-      "pub_date": "Mon, 20 Jul 2026 06:31:20 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/North-Korean-Hackers-Hide-OTTERCOOKIE-Malware-in-SVG-Images-to-Backdoor-Developers.webp"
     },
     {
       "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
@@ -128,15 +119,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-5_crP04CVdna-erTGX9yykCNwqzeIcMALrWcRvgKWkfk7bntEBg50PBtoLvTeACMEHisZ-m1FLMEa2x9nbsRpVdAyeQyBkEmexn8p6W4r6JKA7dxDGJ6BXCqR6RYC3hyRSw7_1Wm1Elv-UFHRfttZQB0HX60SQRGXnJ-4VySo4gY-yfaDhT2FHKHTFj9/s1600/ruby.jpg"
     },
     {
-      "title": "15-Year-Old NGINX Vulnerability Lets Attackers Crash Workers and Achieve Remote Code Execution",
-      "link": "https://cybersecuritynews.com/15-year-old-nginx-vulnerability/",
-      "description": "A newly disclosed flaw tracked as CVE-2026-42533 affects nginx\u0026#8217;s script engine and has been silently exploitable since March 2011, when the map directive gained regex support. Security resear...",
-      "pub_date": "Mon, 20 Jul 2026 03:14:39 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/15-Year-Old-NGINX-Vulnerability.webp"
-    },
-    {
       "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
       "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
       "description": "F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patch...",
@@ -144,15 +126,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVv10OUCjBseEZieeN1rxtwm17pPCAoe6OC1jvCTXCumjIImhz5Y08lYWBpSIGBSkDJN-wBcGmUTmPEp8U74bgd2Cv3rwmSmtUDlmOYR7f-0Xs3xL_xkjpkNm8W8vzNvFNfmTNiqs9TNcNmT1bo8xWb9XGzPnuaByxKSl9_eOqg3yDbtAtYh0epFo-4Wg/s1600/nginx-rce-flaw.jpg"
-    },
-    {
-      "title": "Weekly Cyber Security Newsletter Bulletin – EY Breach, Wpzshell Exploit, Notepad++ Flaws +20 Stories",
-      "link": "https://cybersecuritynews.com/weekly-cyber-security-newsletter-bulletin/",
-      "description": "This week\u0026#8217;s cybersecurity situation shows a clear reality: every part of technology, from identity systems to common productivity tools, can be hacked or compromised. Microsoft\u0026#8217;s July P...",
-      "pub_date": "Sun, 19 Jul 2026 15:12:44 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Weekly-Cyber-Security-Newsletter-Bulletin.webp"
     },
     {
       "title": "Hackers abuse ViPNet software to target Russian govt agencies",
@@ -182,15 +155,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLomYbwprpYWKVxrxKRh3hFiGRWdVOb7WAVbhJjf_fYQAba4wVZT1PpwWAL-ZDb40MZp9T43-dj8Fru-eOjiKcrAoh5sOdyKGUUAVwK9iifXl70EvgORPztxnvYXc9HA8trGKcRZGob8DYJxUZBg0zlZFUTiRGPXGFheSbKLUoG53kZ9HR6XxyJs9GEtcA/s1600/sma-sonicwall.jpg"
     },
     {
-      "title": "NadMesh Uses Shodan to Find and Hijack Exposed AI and MCP Infrastructure",
-      "link": "https://cybersecuritynews.com/nadmesh-uses-shodan/",
-      "description": "A sharp structural shift has been identified in the botnet landscape. Security researchers at XLab have uncovered NadMesh, a Go-based botnet that has been spreading rapidly since early July 2026. T...",
-      "pub_date": "Sun, 19 Jul 2026 03:30:16 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/NadMesh-Uses-Shodan.webp"
-    },
-    {
       "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
       "link": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
       "description": "7-Zip version 26.02 was released on June 25 to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compresse...",
@@ -198,15 +162,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Hugging Face Confirms AI-Driven Breach: Attackers used Autonomous Agents, defenders countered with AI",
-      "link": "https://cybersecuritynews.com/hugging-face-confirms-ai-driven-breach/",
-      "description": "Hugging Face disclosed this week that it detected and contained a production infrastructure intrusion, driven end-to-end by an autonomous AI agent system, and defended against it using its own AI-b...",
-      "pub_date": "Sat, 18 Jul 2026 17:30:35 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hugging-Face-Confirms-AI-Driven-Breach.webp"
     },
     {
       "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
@@ -344,46 +299,10 @@
       "image_url": ""
     },
     {
-      "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
-      "link": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
-      "description": "North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake j...",
-      "pub_date": "Fri, 17 Jul 2026 19:18:56 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizZ8fzXjkeMlk_f1TKWczz8e4GHbNGTRPmaXHDPi86v4Ep0BqvGpKpOtpP_mtnHihu7kbII2nMxqQnQbjAhQkv6lkemsoIlzzS925QJKqkU5tgFHTxtSuRBllSUeZ3gpkJa51TAcggrQanY873B173p_hA-ow4sgftGDp4UgD3Torp7KswNuBp93-YOre5/s1600/northkorean-hacker.jpg"
-    },
-    {
-      "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
-      "link": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
-      "description": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word th...",
-      "pub_date": "Fri, 17 Jul 2026 17:14:41 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdUt3BtyXt68oBeDmMvhp3Sg9c8WNu5xCMYsjqNGGg1A84ykQQ3qpk3Kfsq-msZGxHxtu-gZjML5fDvgV7CoakS6D-_-h2oWAd4m8b4dIS9p1C_003gGvCmg1SDwE7HYc64tdglQW5JWq6XYfssJibuxnxwtd7pu7fbvvkzDIPqdBOQwguwPKAXC2zVOU/s1600/google-android.jpg"
-    },
-    {
-      "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
-      "link": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
-      "description": "Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated a...",
-      "pub_date": "Fri, 17 Jul 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaAyl6VLjAoHLEWzLPM62KM5v2ZmVOpPaZ8aA6Vxg2Ujn9iFLG02jpev-qcB_S3eTwxQAHb7Sf3BJQAc8xs_o3-7UcgQy5N1-4EqnuBXZ31GKauhespgW1G0Fgg7CzaLWk-cOJx8Bm6lQFPZROumwK-URHjQvJsyYhxjiEHHeia-vCh3rqeNYo3p2L-fI/s1600/military.jpg"
-    },
-    {
       "title": "New Windows LegacyHive zero-day gives hackers admin privileges",
       "link": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
       "description": "A security researcher using the \"Nightmare Eclipse\" handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
       "pub_date": "Fri, 17 Jul 2026 07:05:30 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Windows Server 2022 reach end of mainstream support in 90 days",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
-      "description": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]",
-      "pub_date": "Fri, 17 Jul 2026 05:10:15 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
@@ -648,15 +567,6 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": "https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-30-at-3.28.09-PM.png?resize=1024%2C374"
-    },
-    {
-      "title": "5 Myths About AI in the SOC Security Teams Need to Rethink",
-      "link": "https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths",
-      "description": "AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whethe...",
-      "pub_date": "Wed, 01 Jul 2026 15:26:27 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt7652fa46396969f5/69a59e6cfbdb4d75ad7755a9/REQ-14706_-_1600x900px.png"
     },
     {
       "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
