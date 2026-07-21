@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-07-21T05:14:00Z",
+  "last_updated": "2026-07-21T08:10:53Z",
   "articles": [
+    {
+      "title": "Windows LegacyHive zero-day flaw gets free, unofficial patches",
+      "link": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/",
+      "description": "Free unofficial patches are available for a recently disclosed Windows zero-day flaw that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
+      "pub_date": "Tue, 21 Jul 2026 04:06:26 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Could Turn AI Training Jobs Into Weapons Against the Power Grid",
+      "link": "https://cybersecuritynews.com/hackers-could-turn-ai-training-jobs/",
+      "description": "A new research threat called Bit2Watt shows how AI training jobs could be abused to disrupt the power systems that support data centers. Rather than installing malware or breaking into grid control...",
+      "pub_date": "Tue, 21 Jul 2026 07:50:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Could-Turn-AI-Training-Jobs-Into-Weapons-Against-the-Power-Grid.webp"
+    },
+    {
+      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+      "link": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+      "description": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month.  The same operator has now been spo...",
+      "pub_date": "Tue, 21 Jul 2026 13:04:32 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDTNXJkg3w9ziG7euHnlaoQkTjogtjIhtwE-ZudPv_9wOpJUCUNVc-i_BtBkDTCflKzRSfUOEp5xHyRWAOcQWv18pf2kv9-yuI75SOM52X3akV3VrguZf6GDH9MZejxFG7FoJGMIgARuiWyncCOmNznSofFT8Fn9Zu2ZGmk0V_Ni3niha2I9qAO59VKHw/s1600/ransomware-ai.jpg"
+    },
+    {
+      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+      "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+      "description": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber.  In a post shared on X, the threat intelligence firm said ...",
+      "pub_date": "Tue, 21 Jul 2026 11:59:26 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAYYV6u5s-uKU-FXeqsoZ9Bk7nvzW1gPYVuoykmnuzLBQCK0jvX7rAO12mK5FVX06ovTJHZLUUXDkFmYk88oyKdFSYByRPSL5MUuAqikrTIVEpVzOcR9j4Rn0Fmje7-VwBAO09Yl8Y4cTUVNFwTXf2FV2c9C8oyNi5coAMCMLn5WF5Fbqtyt-tDZ3MVsO0/s1600/servicenow.jpg"
+    },
+    {
+      "title": "The Privilege Paths Attackers See, That You Don’t – A Complete PAM Guide",
+      "link": "https://cybersecuritynews.com/the-privilege-paths-attackers-see-that-you-dont-a-complete-pam-guide/",
+      "description": "Why identity fragmentation is the blind spot behind most breaches—and what a platform approach changes The Identity Problem Hiding in Plain Sight Identity is at the centre of nearly every major b...",
+      "pub_date": "Tue, 21 Jul 2026 06:06:52 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/pam_guide_diagram.webp"
+    },
+    {
+      "title": "Hackers Turn Telegram Bots Into Secret Backdoor Controllers for Government Systems",
+      "link": "https://cybersecuritynews.com/hackers-telegram-bots-secret-backdoor/",
+      "description": "A newly uncovered cyberespionage campaign has turned Telegram bots into quiet controllers for backdoors planted inside Middle Eastern government networks. The operation relies on familiar Windows c...",
+      "pub_date": "Tue, 21 Jul 2026 05:53:05 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Turn-Telegram-Bots-Into-Secret-Backdoor-Controllers-for-Government-Systems.webp"
+    },
+    {
+      "title": "Hackers Exploiting Palo Alto’s PAN-OS Vulnerability to Deploy Qilin Ransomware",
+      "link": "https://cybersecuritynews.com/cve-2026-0257-qilin-ransomware/",
+      "description": "Threat actors are actively exploiting a critical authentication bypass flaw in Palo Alto Networks firewalls to breach corporate networks and deploy Qilin ransomware, according to new research from ...",
+      "pub_date": "Tue, 21 Jul 2026 03:59:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/CVE-2026-0257-Qilin-ransomware.webp"
+    },
+    {
+      "title": "Furtex – Linux Toolkit for Post-Exploitation and Evasion for Security Researchers and Red Teamers",
+      "link": "https://cybersecuritynews.com/furtex-linux-toolkit/",
+      "description": "A new open-source project, Furtex, has emerged as a Linux-focused post-exploitation and evasion research toolkit for authorized security researchers and red-team operators. The project combines raw...",
+      "pub_date": "Tue, 21 Jul 2026 02:35:04 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Furtex-A-Post-exploitation-and-evasion-Toolkit-for-Linux-for-Security-Researchers-Red-Teamers-.webp"
+    },
     {
       "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
       "link": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
@@ -65,6 +137,15 @@
       "image_url": ""
     },
     {
+      "title": "Hackers Are Turning Microsoft 365 Calendar Invites Into Secret Malware Command Channels",
+      "link": "https://cybersecuritynews.com/microsoft-365-calendar-invites-into-malware/",
+      "description": "A stealthy new malware strain called HOLLOWGRAPH that hijacks Microsoft 365 calendars to secretly communicate with hackers, disguising malicious commands as ordinary calendar invites. HOLLOWGRAPH i...",
+      "pub_date": "Mon, 20 Jul 2026 17:30:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-365-Calendar-Invites-Into-Malware.webp"
+    },
+    {
       "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
       "link": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
       "description": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, build...",
@@ -72,6 +153,42 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJtNDirNuc1FHpVkk7dexa4KTcD8h3fSmxpGMZQeRtlzNpIhC5hOXVEu-aPc5tsCIi9-csPtQVmdoW9FeyyBytXkPWfbwYZEGSJrIiqSEqUsdQwGOepqr23C4pz6jnGWI5ledB7UC19S0ORrc_jyP6Lajqu0X4FsTX6ooTVJvJffKOjRmg2ndJLDj17-E/s1600/phishing-ai.jpg"
+    },
+    {
+      "title": "Where a CBOM solution actually sits: fitting cryptographic inventory into your architecture ",
+      "link": "https://cybersecuritynews.com/where-a-cbom-solution-sits-cryptographic-inventory-architecture/",
+      "description": "Most teams meet the idea of a cryptographic bill of materials (CBOM) as a compliance requirement or a post-quantum talking point, and then run straight into a practical question that nobody answere...",
+      "pub_date": "Mon, 20 Jul 2026 16:19:49 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIgHBnh2hm_00xSAjjBxIToR0S8Zrb4bFIraU88haT2BlYiTcoAaQJNEKYLkRWYBXylI3k_I-d-tNrXV-wbZ91TZiyfakBKQ3GFTjDHYQO4rQ9GpmKDFAtLLdcSZI9bryXTWTp4fFw7bDk_dwXMrBzare0mbaEXPyj1UDAzKZm0WsEXJZb7R6_7kJITmI/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20project,%20one%20team,%20o%20(7).webp?ssl=1"
+    },
+    {
+      "title": "Windows Bind Link Abuse Lets Attackers Blind EDR and Bypass AMSI, AppLocker, and Sysmon",
+      "link": "https://cybersecuritynews.com/windows-bind-link-abuse-lets/",
+      "description": "Windows defenders are facing a new way for attackers to hide activity after gaining administrator access. The technique abuses Windows bind links, a legitimate feature that redirects one file path ...",
+      "pub_date": "Mon, 20 Jul 2026 15:29:16 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-Bind-Link-Abuse-Lets-Attackers-Blind-EDR-and-Bypass-AMSI-AppLocker-and-Sysmon.webp"
+    },
+    {
+      "title": "Critical wp2shell RCE Vulnerability – Complete Coverage Including PoC and Active Exploitation Details",
+      "link": "https://cybersecuritynews.com/critical-wp2shell-rce-vulnerability/",
+      "description": "Overview A critical pre-authentication remote code execution (RCE) vulnerability chain nicknamed \u0026#8220;wp2shell\u0026#8221; has been disclosed in WordPress Core, putting an estimated 500 million-plus w...",
+      "pub_date": "Mon, 20 Jul 2026 15:23:10 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-wp2shell-RCE-Vulnerability.webp"
+    },
+    {
+      "title": "Paidwork Data Breach Exposes 23 Million Users’ Banking and Personal Data",
+      "link": "https://cybersecuritynews.com/paidwork-data-breach/",
+      "description": "A massive data breach has hit Paidwork, a popular gig economy platform, exposing sensitive banking and personal information belonging to more than 23 million users worldwide. The incident, first su...",
+      "pub_date": "Mon, 20 Jul 2026 15:12:30 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Paidwork-Data-Breach.webp"
     },
     {
       "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
@@ -254,15 +371,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
-      "description": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]",
-      "pub_date": "Sat, 18 Jul 2026 10:17:19 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core",
       "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core",
       "description": "OverviewOn July 17, 2026, a GitHub Security Advisory was published for CVE-2026-63030, a critical unauthenticated remote code execution vulnerability affecting WordPress Core. While the official Gi...",
@@ -270,24 +378,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
-      "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
-      "description": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story ...",
-      "pub_date": "Sat, 18 Jul 2026 02:50:10 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRULLT1q8L6AtUB7jgKywi_KSF8VGKkOF9yC3Snt81K1aD2XSEV1jgfIe331rXUWGqhmAyFgr1USssr4_CQmuE7HLAn0ShaQ0pHY_yvNYMjQdHtpV8i-vlk2ickhJSJDSN3amGox_DMR5hemMlrgXIk8kHoHlYKZncjpiV3ibF77ax1Yn0fEjxtgxy7tY/s1600/wordpress-core.jpg"
-    },
-    {
-      "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
-      "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
-      "description": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restart...",
-      "pub_date": "Sat, 18 Jul 2026 01:50:53 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk66eU1Srifu4Rdpf7MZDjg3GdNMtQK6ZW-F283kxhZ7Z0W_8nWNJynZiQ7n0ov9OLNm315P4942h3-unMI0WZ1-LH8tdQ6sv2o6q0TxKT-bVKewzkQULKKXSJOee_oANuI3YquoDgSPHsPeXEdQcFRoy8czRQimH_f0sNHJ55-5LA153sQgUPkpBBEVE/s1600/openssl.jpg"
     },
     {
       "title": "Metasploit Wrap Up: An HTTP to SMB relay plus Payload Improvements",
