@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T01:54:04Z",
+  "last_updated": "2026-07-21T05:14:00Z",
   "articles": [
     {
       "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
@@ -65,15 +65,6 @@
       "image_url": ""
     },
     {
-      "title": "Hackers Are Turning Microsoft 365 Calendar Invites Into Secret Malware Command Channels",
-      "link": "https://cybersecuritynews.com/microsoft-365-calendar-invites-into-malware/",
-      "description": "A stealthy new malware strain called HOLLOWGRAPH that hijacks Microsoft 365 calendars to secretly communicate with hackers, disguising malicious commands as ordinary calendar invites. HOLLOWGRAPH i...",
-      "pub_date": "Mon, 20 Jul 2026 17:30:02 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-365-Calendar-Invites-Into-Malware.webp"
-    },
-    {
       "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
       "link": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
       "description": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, build...",
@@ -81,33 +72,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJtNDirNuc1FHpVkk7dexa4KTcD8h3fSmxpGMZQeRtlzNpIhC5hOXVEu-aPc5tsCIi9-csPtQVmdoW9FeyyBytXkPWfbwYZEGSJrIiqSEqUsdQwGOepqr23C4pz6jnGWI5ledB7UC19S0ORrc_jyP6Lajqu0X4FsTX6ooTVJvJffKOjRmg2ndJLDj17-E/s1600/phishing-ai.jpg"
-    },
-    {
-      "title": "Windows Bind Link Abuse Lets Attackers Blind EDR and Bypass AMSI, AppLocker, and Sysmon",
-      "link": "https://cybersecuritynews.com/windows-bind-link-abuse-lets/",
-      "description": "Windows defenders are facing a new way for attackers to hide activity after gaining administrator access. The technique abuses Windows bind links, a legitimate feature that redirects one file path ...",
-      "pub_date": "Mon, 20 Jul 2026 15:29:16 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-Bind-Link-Abuse-Lets-Attackers-Blind-EDR-and-Bypass-AMSI-AppLocker-and-Sysmon.webp"
-    },
-    {
-      "title": "Critical wp2shell RCE Vulnerability – Complete Coverage Including PoC and Active Exploitation Details",
-      "link": "https://cybersecuritynews.com/critical-wp2shell-rce-vulnerability/",
-      "description": "Overview A critical pre-authentication remote code execution (RCE) vulnerability chain nicknamed \u0026#8220;wp2shell\u0026#8221; has been disclosed in WordPress Core, putting an estimated 500 million-plus w...",
-      "pub_date": "Mon, 20 Jul 2026 15:23:10 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-wp2shell-RCE-Vulnerability.webp"
-    },
-    {
-      "title": "Paidwork Data Breach Exposes 23 Million Users’ Banking and Personal Data",
-      "link": "https://cybersecuritynews.com/paidwork-data-breach/",
-      "description": "A massive data breach has hit Paidwork, a popular gig economy platform, exposing sensitive banking and personal information belonging to more than 23 million users worldwide. The incident, first su...",
-      "pub_date": "Mon, 20 Jul 2026 15:12:30 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Paidwork-Data-Breach.webp"
     },
     {
       "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
@@ -119,24 +83,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjho_D61rng1SKt_vyKBuuHeBlTm5uQ55-9SSSXuktMbO6iE0khzlKYA0mmaNLDVejgglz1kKnBkINCbI_KdqdH48UBw9bALf9l7ebuab84zp3aMnIHAbvm4OI62y4_QChmk-SnrUFN6AZ2bJgkvZasI4eApEFPX4M-94ZRO_MfQTjX52CaYQ-Ui2trHfs/s1600/ms365.jpg"
     },
     {
-      "title": "ClickFix Campaign Delivers Modular TELEPUZ Malware With 36 Remote Commands",
-      "link": "https://cybersecuritynews.com/clickfix-campaign-delivers-telepuz/",
-      "description": "A new malware operation is using ClickFix pages to trick Windows users into running malicious commands themselves. The campaign delivers TELEPUZ, a lightweight but capable remote-access malware tha...",
-      "pub_date": "Mon, 20 Jul 2026 14:20:34 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/ClickFix-Campaign-Delivers-Modular-TELEPUZ-Malware-With-36-Remote-Commands.webp"
-    },
-    {
-      "title": "GPT-5.6 Sol Ultra Found Wp2shell RCE Flaw That Could Be Worth $500,000 for About $25",
-      "link": "https://cybersecuritynews.com/gpt-5-6-sol-ultra-found-wordpress-rce/",
-      "description": "GPT-5.6 Sol Ultra has reportedly uncovered a critical pre-authentication remote code execution (RCE) vulnerability in WordPress after approximately $25 worth of AI usage. This highlights how advanc...",
-      "pub_date": "Mon, 20 Jul 2026 14:09:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GPT-5.6-Sol-Ultra-Found-a-Critical-WordPress-RCE-That-Could-Be-Worth-500000-for-About-25-1.webp"
-    },
-    {
       "title": "An AI SOC Evaluation Guide for Security Leaders",
       "link": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
       "description": "Choosing an AI SOC platform requires understanding how it will perform in your own environment, not just during an evaluation. Prophet Security shares a practical framework for assessing AI SOC sol...",
@@ -144,15 +90,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Microsoft to End OneDrive Sync App Updates for Windows 10",
-      "link": "https://cybersecuritynews.com/windows-10-onedrive-updates-ends/",
-      "description": "Microsoft will stop delivering OneDrive sync app updates to systems running Windows 10 version 21H2 and earlier on August 15, 2026, creating a new support concern for organizations still operating ...",
-      "pub_date": "Mon, 20 Jul 2026 13:33:58 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-to-End-OneDrive-sync-app-updates-for-Windows-10-1.webp"
     },
     {
       "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
@@ -164,24 +101,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA-JVLR3XITNdsuoWZQFMu12z6UeqsAdKWjS4Iu6piGP-4Natjx3GZ4obTdwddY5YHPgNoYDJljFCpAh9YRUntTakZeiGikoJYjjgEcv2ZVPchuCuyIfRh_3aTJ64Ktke9RkdRxH7DalTVqGf0YgF3fDj2lHgvVyIDANaMn1KVy1d1CBXTZxAwyJBqEClL/s1600/cyberrecap.jpg"
     },
     {
-      "title": "Researchers Claim LG Monitors are Silently Installing Adware on Windows Using App",
-      "link": "https://cybersecuritynews.com/lg-monitor-app-installs-adware/",
-      "description": "LG monitor software may install advertising-related components on Windows systems without clearly informing users through its companion application, which manages monitor settings, display profiles...",
-      "pub_date": "Mon, 20 Jul 2026 13:07:58 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Researchers-Claim-LG-monitors-are-silently-installing-adware-on-Windows-Using-App-1.webp"
-    },
-    {
-      "title": "Microsoft Releases KB5121767 Out-of-Band Update to Fix Dell USB-C Compatibility Bug",
-      "link": "https://cybersecuritynews.com/microsoft-kb5121767-out-of-band-update/",
-      "description": "Microsoft has released the out-of-band update KB5121767 for Windows 11 to resolve a system performance and compatibility issue affecting a limited number of Dell devices. The update addresses issue...",
-      "pub_date": "Mon, 20 Jul 2026 13:01:07 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-releases-KB5121767-Out-of-Band-Update-to-Fix-ell-USB-C-Compatibility-Bug-1.webp"
-    },
-    {
       "title": "From a Single Alert to 1,000 Files: Inside an Exposed WebDAV Malware Delivery Lab",
       "link": "https://www.rapid7.com/blog/post/tr-exposed-webdav-malware-delivery-lab-analysis",
       "description": "Executive summaryAn MDR alert recently led our team to an exposed server that was doing more than hosting payloads. It was functioning as a fully operational malware delivery lab. Containing over 1...",
@@ -189,15 +108,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
-    },
-    {
-      "title": "Kimai Docker Flaw Lets Unauthenticated Attackers Forge Cookies and Take Over Accounts",
-      "link": "https://cybersecuritynews.com/kimai-docker-flaw/",
-      "description": "Kimai users utilizing the official Docker image are strongly urged to update their installations following the disclosure of a critical vulnerability that could allow unauthenticated attackers to f...",
-      "pub_date": "Mon, 20 Jul 2026 12:56:43 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Kimai-Docker-Flaw.webp"
     },
     {
       "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
