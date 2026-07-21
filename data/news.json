@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-07-21T16:20:42Z",
+  "last_updated": "2026-07-21T18:11:05Z",
   "articles": [
+    {
+      "title": "Now You Can teach a Skill to Claude by Just Recording your Screen",
+      "link": "https://cybersecuritynews.com/teach-skill-claude/",
+      "description": "Anthropic has rolled out a new capability in Claude Cowork that lets users teach the AI assistant a repeatable skill simply by recording their screen while performing a task. The feature, called \u0026#...",
+      "pub_date": "Tue, 21 Jul 2026 18:04:33 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Teach-Claude-a-skill.webp"
+    },
+    {
+      "title": "Gemini 3.5 Flash Cyber With Automated Faster Vulnerability Detection and Patch Capabilities",
+      "link": "https://cybersecuritynews.com/gemini-3-5-flash-cyber/",
+      "description": "Google has launched Gemini 3.5 Flash Cyber, a specialized cybersecurity model fine-tuned to find, validate, and patch software vulnerabilities faster and more efficiently than mainline Gemini Flash...",
+      "pub_date": "Tue, 21 Jul 2026 17:43:01 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Gemini-Cyber.webp"
+    },
+    {
+      "title": "This $2,000-a-Month Crypter Can Kill EDR and Make Malware Disappear From Disk",
+      "link": "https://cybersecuritynews.com/this-2000-a-month-crypter-can-kill-edr/",
+      "description": "A criminal service called Cruciferra is giving malware operators a way to slip past Windows defenses. Sold as a subscription crypter for as much as $2,000 a month, it wraps malicious programs so se...",
+      "pub_date": "Tue, 21 Jul 2026 17:28:06 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/This-2000-a-Month-Crypter-Can-Kill-EDR-and-Make-Malware-Disappear-From-Disk.webp"
+    },
+    {
+      "title": "Hackers Hijack 20+ Government Websites to Deliver Malware Through Trusted Links",
+      "link": "https://cybersecuritynews.com/government-websites-deliver-malware/",
+      "description": "An active malware campaign, dubbed PhantomEnigma, that abuses compromised Brazilian government infrastructure to distribute malicious payloads while evading detection. The operation has hijacked at...",
+      "pub_date": "Tue, 21 Jul 2026 17:11:36 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Government-Websites-Deliver-Malware.webp"
+    },
+    {
+      "title": "Critical wp2shell WordPress flaws exploited to install webshells",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
+      "description": "Hackers are exploiting the \"wp2shell\" critical vulnerability suite (CVE-2026-63030 and CVE-2026-60137) affecting WordPress Core to deploy persistent webshells and install malicious plugins on affec...",
+      "pub_date": "Tue, 21 Jul 2026 12:41:50 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Trump’s AI Safety Chief Quits Just Three Months After Taking Charge",
+      "link": "https://cybersecuritynews.com/trumps-ai-safety-chief-quits/",
+      "description": "Chris Fall has resigned as the director of the Center for AI Standards and Innovation (CAISI), leaving the Trump administration\u0026#8217;s AI safety organization without a permanent leader just three ...",
+      "pub_date": "Tue, 21 Jul 2026 16:39:46 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Trumps-AI-Safety-Chief-Quits-Just-Three-Months-After-Taking-Charge-1.webp"
+    },
+    {
+      "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
+      "link": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
+      "description": "Hidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to st...",
+      "pub_date": "Tue, 21 Jul 2026 21:36:12 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJfMUQ_pVP5as41uM_4cR8oRUsCwuXPMLLG63jNd5Djqso9kJyQZLiZgQrMQzykhRaX8BQCydIMPokGoITYY30kc3dH-8iy4Bd-ux36RoIjyNYXtKwb1F1fPdP00hoHD-9Q9s5CGD30w58s5wfyzBGOQvnIxM8JlHkig881HSQQuu4Hk6GBiDJicUYE8o/s1600/AWS-Kiro.jpg"
+    },
     {
       "title": "Hackers Abuse GitHub Actions to Backdoor AsyncAPI npm Packages With Miasma RAT",
       "link": "https://cybersecuritynews.com/hackers-abuse-github-actions/",
@@ -9,6 +72,15 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Abuse-GitHub-Actions-to-Backdoor-AsyncAPI-npm-Packages-With-Miasma-RAT.webp"
+    },
+    {
+      "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
+      "link": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
+      "description": "Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch ...",
+      "pub_date": "Tue, 21 Jul 2026 20:39:28 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEEErOjlKug3DfeSGwzEbvNrUSCkzDF0o7uAnDNHFuE5MWaTlnB8sSfYJ4VsQaG39Kv_-L50Zc5GOJrpLYvW_2i8TFFI1xAWMRnFa-M6smZrswwGgnUMmEe-F-FB5Hw3OQWxVdSfPAKCFidVnQODRBSDT9WbF4dZmfrOsvvvhHmIAnroCkyFmmhlc_YQyC/s1600/gemini-cyber-flash.jpg"
     },
     {
       "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
@@ -83,24 +155,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-to-Discontinue-Podcasts-Option-on-Copilot-and-to-Delete-Contents-1.webp"
     },
     {
-      "title": "Craneware Data Breach – Hackers Stole Significant Amount of Data",
-      "link": "https://cybersecuritynews.com/craneware-data-breach/",
-      "description": "Healthcare financial software provider Craneware has confirmed a cybersecurity incident involving unauthorized access to a portion of its data environment. The company reported that threat actors v...",
-      "pub_date": "Tue, 21 Jul 2026 12:42:44 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Craneware-Data-Breach-Hackers-Stole-Significant-Amount-of-Data-1.webp"
-    },
-    {
-      "title": "AgentBaiting Campaign Uses 800 Fake AI Skills and MCP Servers to Deliver SmartLoader Malware",
-      "link": "https://cybersecuritynews.com/agentbaiting-campaign-fake-ai-skills/",
-      "description": "Malware operators are increasingly using tools built to extend artificial intelligence as a delivery route. A newly documented campaign called AgentBaiting uses fraudulent AI Skills and Model Conte...",
-      "pub_date": "Tue, 21 Jul 2026 12:25:00 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/AgentBaiting-Campaign-Uses-800-Fake-AI-Skills-and-MCP-Servers-to-Deliver-SmartLoader-Malware.webp"
-    },
-    {
       "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
       "link": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
       "description": "An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more steps, and the sam...",
@@ -119,24 +173,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRgv46Pyr5W2eivocnJG2MuDCYtUXj0fVas4afxPzJX2ZVXVCyjyWK_FtVCxKOaz9qwmR6EJLqgbrG448OtKTlv3X9coXsqr40xoNXrkXZbGiOO3ZHr-skaiYV3My_V-qI9YH3c3ScLO4tISLW_uI-2PD3_hdgUQW8cv_kMi6q994YyZn6JkF7gIhECC4/s1600/pushsecurity.jpg"
     },
     {
-      "title": "Hackers Hide Malware Commands in Outlook Events Dated 2050 and Use as C2 Channel",
-      "link": "https://cybersecuritynews.com/hackers-outlook-c2-channel/",
-      "description": "A newly identified malware component linked to the Project CAV3RN framework is abusing Microsoft Outlook calendar events scheduled for 2050 to conceal command-and-control (C2) traffic. The tool als...",
-      "pub_date": "Tue, 21 Jul 2026 11:41:36 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Outlook-C2-Channel.webp"
-    },
-    {
-      "title": "Agentic JADEPUFFER Exploits Langflow Flaw to Deploy ENCFORGE AI Ransomware",
-      "link": "https://cybersecuritynews.com/agentic-jadepuffer-langflow-flaw/",
-      "description": "A ransomware campaign is now targeting the assets behind artificial intelligence systems. The threat actor known as JADEPUFFER has evolved from damaging databases to deploying ENCFORGE, a ransomwar...",
-      "pub_date": "Tue, 21 Jul 2026 11:32:38 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Agentic-JADEPUFFER-Exploits-Langflow-Flaw-to-Deploy-ENCFORGE-AI-Ransomware.webp"
-    },
-    {
       "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
       "link": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
       "description": "A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in.  That is the claim...",
@@ -153,15 +189,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Healthcare Giant Abbott Investigating Cyber Incident Following ShinyHunters Claims",
-      "link": "https://cybersecuritynews.com/abbott-investigating-cyber-incident/",
-      "description": "Abbott has confirmed that it is investigating a cyber incident involving unauthorized access to a limited number of internal systems used by its Cancer Diagnostics business. This follows claims ass...",
-      "pub_date": "Tue, 21 Jul 2026 10:48:24 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Healthcare-giant-Abbott-investigating-cyber-incident-Following-ShinyHunters-claims-1-1.webp"
     },
     {
       "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
@@ -216,6 +243,24 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAYYV6u5s-uKU-FXeqsoZ9Bk7nvzW1gPYVuoykmnuzLBQCK0jvX7rAO12mK5FVX06ovTJHZLUUXDkFmYk88oyKdFSYByRPSL5MUuAqikrTIVEpVzOcR9j4Rn0Fmje7-VwBAO09Yl8Y4cTUVNFwTXf2FV2c9C8oyNi5coAMCMLn5WF5Fbqtyt-tDZ3MVsO0/s1600/servicenow.jpg"
+    },
+    {
+      "title": "ZDI-26-446: Microsoft Windows WMI Providers Incorrect Authorization Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-446/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the targ...",
+      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-445: Microsoft Windows WMI Providers Incorrect Authorization Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-445/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the targ...",
+      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
     },
     {
       "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
@@ -326,15 +371,6 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
     },
     {
-      "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
-      "link": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
-      "description": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons ship...",
-      "pub_date": "Mon, 20 Jul 2026 17:43:39 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnZdcdM-XJQ9tmIQw7h4gqSDABg-Ip1mzizMoR9zRcyQmaG7OGlQSp1ad0RsZSflsvdKVn0bs4EXdPthnHgiC76as_RVG-W7vZ88AHvJ2HhCLEaQOlNukhrTl6NSq6sgAHGiGUXemDrbZePvUDIi2oxWb60rRX5lkxA5bsFBJplBkaVQTZ5R0EjOrJTaQ/s1600/ip-camera-hacking.jpg"
-    },
-    {
       "title": "Hugging Face warns an autonomous AI agent hacked its network",
       "link": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
       "description": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI ...",
@@ -344,28 +380,10 @@
       "image_url": ""
     },
     {
-      "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
-      "link": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
-      "description": "The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of...",
-      "pub_date": "Mon, 20 Jul 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPz_r-By1h0xZL5FiBqJIALstL79CJXVbUweKybWr0EG7qKcLPYSo750ATDQjzd9tE6piMt4-TkFY4mT87Q58Jg_0jHMCveyydooFMjk5hKUk0jQA_Uxp6WamlMsFIjXcws2ighKsjC907P45OIhcimimpm-ECyQ_bq5erQ2MTvH7HGwzGgXrxQSIBBx0/s1600/xmcyber.jpg"
-    },
-    {
       "title": "Microsoft confirms Windows Server Update Services sync delays",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/",
       "description": "Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more than a week. [...]",
       "pub_date": "Mon, 20 Jul 2026 06:47:28 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Windows KB5121767 OOB update fixes shutdowns on some Dell PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/",
-      "description": "Microsoft has released emergency updates to fix a known issue causing some Dell PCs to shut down after installing the July 2026 Windows 11 security updates. [...]",
-      "pub_date": "Mon, 20 Jul 2026 06:06:17 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
@@ -542,24 +560,6 @@
       "image_url": ""
     },
     {
-      "title": "ZDI-26-431: ASUS Business Manager Service Client-Side Authentication Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-431/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of ASUS Business Manager. An attacker must first obtain the ability to execute low-privileged code on the ...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-430: MSI Center NTIOLib_X64 Origin Validation Error Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-430/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of MSI Center. An attacker must first obtain the ability to execute low-privileged code on the target syst...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
       "title": "Patch Tuesday - July 2026",
       "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-july-2026",
       "description": "Microsoft is publishing 622 vulnerabilities on July 2026 Patch Tuesday, including a record-breaking 416 Windows vulnerabilities. Microsoft is aware of exploitation in the wild for two of the vulner...",
@@ -722,6 +722,24 @@
       "image_url": ""
     },
     {
+      "title": "Tycon Systems TPDIN-Monitor-WEB2",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipme...",
+      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens SIDIS Secured SmartPlug",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-04",
+      "description": "View CSAF Summary SIDIS Secured SmartPlug before V7.26.0310 is affected by multiple vulnerabilities in the components OpenSSL, OpenSSH, and several other packages as described below. Siemens has re...",
+      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog ",
       "link": "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2021-27137 DD-WRT Stack-Based Buffer Overflow Vulnerabil...",
@@ -731,36 +749,81 @@
       "image_url": ""
     },
     {
-      "title": "NASA Core Flight System (cFS) Health \u0026 Safety (HS) Application",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition. The following versions of NASA Core Flight System (cFS) Health \u0026amp; ...",
-      "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
+      "title": "Siemens IAM Client",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-05",
+      "description": "View CSAF Summary Multiple Siemens products are affected by unquoted search path vulnerability in IAM Client. This could allow an authenticated local attacker to perform privilege escalation. Sieme...",
+      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Siemens SICAM 8",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-05",
-      "description": "View CSAF Summary Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICOR...",
-      "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
+      "title": "Siemens RUGGEDCOM APE1808 with Palo Alto Networks Virtual NGFW",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-02",
+      "description": "View CSAF Summary Palo Alto Networks has published [1] information on vulnerabilities in PAN-OS. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Custo...",
+      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "SALTO ProAccess Space",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-07",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability allows an authenticated attacker to escalate privileges and access spaces outside their assigned partition, within the same Salto Pro...",
-      "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
+      "title": "Rockwell Automation 1734 POINT I/O",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product. The following versions of Rockwell Automation 1734...",
+      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation FactoryTalk DataMosaix",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-09",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated attacker to inject malicious scripts on the server. The following versions of Rockwell Automation Factor...",
+      "title": "Rockwell Automation 1718-AENTR/1719-AENTR",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product. The following versions of Rockwell Automation 1718...",
+      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Rockwell Automation Studio 5000 Logix Designer",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-10",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow for a local attacker to execute arbitrary files, alter configurations, or execute arbitrary code. The following versio...",
+      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens CADRA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-06",
+      "description": "View CSAF Summary CADRA is affected by multiple zlib and Foxit vulnerabilities. Siemens has released a new version for CADRA and recommends to update to the latest version. Siemens is preparing fur...",
+      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Rockwell Automation FactoryTalk Services Platform",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-07",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to impersonate an authorized user on the FTSP server, resulting in unauthorized access to system configuratio...",
+      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens Opcenter X",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-03",
+      "description": "View CSAF Summary Opcenter X before V2604 contain an authentication bypass vulnerability that could allow an attacker to gain full unauthorized access to the application. Siemens has released a new...",
+      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "AutomationDirect Productivity Suite",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker with local or physical access to cause memory corruption, unintended information disclosure, application i...",
       "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -776,9 +839,9 @@
       "image_url": ""
     },
     {
-      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog ",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/16/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-25089 Fortinet FortiSandbox OS Command Injection V...",
+      "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation 1756-EN2, 1756-EN3, and...",
       "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -789,69 +852,6 @@
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation CompactLogix, Contro...",
       "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Rockwell Automation Arena",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-01",
-      "description": "View CSAF Summary Successful exploitation these vulnerabilities could allow an attacker to execute arbitrary code in the context of the current process. The following versions of Rockwell Automatio...",
-      "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "AutomationDirect Productivity Suite",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker with local or physical access to cause memory corruption, unintended information disclosure, application i...",
-      "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation 1756-EN2, 1756-EN3, and...",
-      "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Establishing a Coordinated Vulnerability Disclosure Program to Work With Security Researchers",
-      "link": "https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers",
-      "description": "Developed by CISA, the National Security Agency (NSA) and international partners, this joint guidance contains best practices for software manufacturers and online service providers to design and i...",
-      "pub_date": "Wed, 15 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2023-4346 KNX Association KNX Protocol Connection Authori...",
-      "pub_date": "Wed, 15 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "ABB Ability Edgenius",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
-      "description": "View CSAF Summary ABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a...",
-      "pub_date": "Tue, 14 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "ABB Advant Master Online Builder",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01",
-      "description": "View CSAF Summary ABB became aware of vulnerability in the products versions listed as affected in the advisory, where an incorrect version of Online Builder (ONB) was included in the media. An upd...",
-      "pub_date": "Tue, 14 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
