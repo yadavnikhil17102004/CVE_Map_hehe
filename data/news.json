@@ -1,6 +1,87 @@
 {
-  "last_updated": "2026-07-21T08:10:53Z",
+  "last_updated": "2026-07-21T10:58:55Z",
   "articles": [
+    {
+      "title": "Healthcare Giant Abbott Investigating Cyber Incident Following ShinyHunters Claims",
+      "link": "https://cybersecuritynews.com/abbott-investigating-cyber-incident/",
+      "description": "Abbott has confirmed that it is investigating a cyber incident involving unauthorized access to a limited number of internal systems used by its Cancer Diagnostics business. This follows claims ass...",
+      "pub_date": "Tue, 21 Jul 2026 10:48:24 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Healthcare-giant-Abbott-investigating-cyber-incident-Following-ShinyHunters-claims-1-1.webp"
+    },
+    {
+      "title": "SonicWall 0-day Vulnerabilities Exploited in the Wild to Deploy Custom Malware",
+      "link": "https://cybersecuritynews.com/sonicwall-0-day-vulnerabilities-exploited/",
+      "description": "Attackers actively exploited two zero-day vulnerabilities in SonicWall Secure Mobile Access (SMA) VPN appliances to gain root access and deploy custom malware. In early July 2026, the cybersecurity...",
+      "pub_date": "Tue, 21 Jul 2026 10:20:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/SonicWall-0-day-Vulnerability-Exploited-in-the-Wild-to-Deploy-Custom-Malware.webp"
+    },
+    {
+      "title": "Microsoft Defender XDR Blind Spot Can Hide Public Connections Behind FourToSixMapping",
+      "link": "https://cybersecuritynews.com/microsoft-defender-xdr-blind-spot/",
+      "description": "Security teams relying on Microsoft Defender XDR\u0026#8217;s DeviceNetworkEvents table for hunting and detection may be missing critical external network connections due to a lesser-known IP address cl...",
+      "pub_date": "Tue, 21 Jul 2026 10:18:17 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Defender-XDR-Blind-Spot.webp"
+    },
+    {
+      "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
+      "description": "The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]",
+      "pub_date": "Tue, 21 Jul 2026 06:12:24 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft shares manual fix for WSUS sync delays and timeouts",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-manual-fix-for-wsus-sync-delays-and-timeouts/",
+      "description": "Microsoft has shared manual mitigations to help IT administrators fix Windows Server Update Services (WSUS) servers affected by a known issue that causes Windows Update scans to fail or time out. [...",
+      "pub_date": "Tue, 21 Jul 2026 05:05:50 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
+      "link": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
+      "description": "Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable webs...",
+      "pub_date": "Tue, 21 Jul 2026 14:29:30 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4qOga3YGcLZ3JclK_mkOkQ-pRmQowUUqu6Hp3fj1QTmsNuuhkSj4OiFqgAtL7e6yeGkv-K1jC0v4bRayI40oDQ8UMeYishuNzRap3E5RYmIEbjRbmq-uAk4iWKWwIfMdNi6owJrVWE_3fcWzj5lZgVm9P96ddcqghwnp3rGx3pM3N6hck6UiaFUgVRbtC/s1600/wordpress-ex.jpg"
+    },
+    {
+      "title": "One Security Alert Exposed a GenAI-Powered Malware Factory Containing More Than 1,000 Attack Files",
+      "link": "https://cybersecuritynews.com/one-security-alert-exposed-a-genai-powered-malware-factory/",
+      "description": "A single security alert has exposed an unusually detailed view of how a threat actor builds, tests, and delivers malware. The exposed WebDAV server held more than 1,000 files, including phishing lu...",
+      "pub_date": "Tue, 21 Jul 2026 08:57:15 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/One-Security-Alert-Exposed-a-GenAI-Powered-Malware-Factory-Containing-More-Than-1000-Attack-Files.webp"
+    },
+    {
+      "title": "Linux Patches 400+ Kernel Vulnerabilities in 24 Hours With AI-Powered Detection",
+      "link": "https://cybersecuritynews.com/linux-patches-400-kernel-vulnerabilities/",
+      "description": "The Linux kernel project has released fixes for over 400 vulnerabilities within approximately 24 hours. These vulnerabilities span various areas, including networking, filesystems, memory managemen...",
+      "pub_date": "Tue, 21 Jul 2026 08:31:51 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Linux-Patches-400-Kernel-Vulnerabilities-in-24-Hours-With-AI-powered-Detection-3.webp"
+    },
+    {
+      "title": "Critical Gitea Vulnerability Enables Private Repository Writes and Actions Workflow Triggers",
+      "link": "https://cybersecuritynews.com/gitea-vulnerability/",
+      "description": "Gitea users are urged to update immediately after a critical vulnerability was disclosed that allows public-only repository access tokens to indirectly write to private pull request branches and tr...",
+      "pub_date": "Tue, 21 Jul 2026 08:24:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-Gitea-Vulnerability-Enables-Private-Repository-Writes-and-Actions-Workflow-Triggers-1.webp"
+    },
     {
       "title": "Windows LegacyHive zero-day flaw gets free, unofficial patches",
       "link": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/",
@@ -63,15 +144,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/CVE-2026-0257-Qilin-ransomware.webp"
-    },
-    {
-      "title": "Furtex – Linux Toolkit for Post-Exploitation and Evasion for Security Researchers and Red Teamers",
-      "link": "https://cybersecuritynews.com/furtex-linux-toolkit/",
-      "description": "A new open-source project, Furtex, has emerged as a Linux-focused post-exploitation and evasion research toolkit for authorized security researchers and red-team operators. The project combines raw...",
-      "pub_date": "Tue, 21 Jul 2026 02:35:04 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Furtex-A-Post-exploitation-and-evasion-Toolkit-for-Linux-for-Security-Researchers-Red-Teamers-.webp"
     },
     {
       "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
@@ -137,15 +209,6 @@
       "image_url": ""
     },
     {
-      "title": "Hackers Are Turning Microsoft 365 Calendar Invites Into Secret Malware Command Channels",
-      "link": "https://cybersecuritynews.com/microsoft-365-calendar-invites-into-malware/",
-      "description": "A stealthy new malware strain called HOLLOWGRAPH that hijacks Microsoft 365 calendars to secretly communicate with hackers, disguising malicious commands as ordinary calendar invites. HOLLOWGRAPH i...",
-      "pub_date": "Mon, 20 Jul 2026 17:30:02 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-365-Calendar-Invites-Into-Malware.webp"
-    },
-    {
       "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
       "link": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
       "description": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, build...",
@@ -153,42 +216,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJtNDirNuc1FHpVkk7dexa4KTcD8h3fSmxpGMZQeRtlzNpIhC5hOXVEu-aPc5tsCIi9-csPtQVmdoW9FeyyBytXkPWfbwYZEGSJrIiqSEqUsdQwGOepqr23C4pz6jnGWI5ledB7UC19S0ORrc_jyP6Lajqu0X4FsTX6ooTVJvJffKOjRmg2ndJLDj17-E/s1600/phishing-ai.jpg"
-    },
-    {
-      "title": "Where a CBOM solution actually sits: fitting cryptographic inventory into your architecture ",
-      "link": "https://cybersecuritynews.com/where-a-cbom-solution-sits-cryptographic-inventory-architecture/",
-      "description": "Most teams meet the idea of a cryptographic bill of materials (CBOM) as a compliance requirement or a post-quantum talking point, and then run straight into a practical question that nobody answere...",
-      "pub_date": "Mon, 20 Jul 2026 16:19:49 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIgHBnh2hm_00xSAjjBxIToR0S8Zrb4bFIraU88haT2BlYiTcoAaQJNEKYLkRWYBXylI3k_I-d-tNrXV-wbZ91TZiyfakBKQ3GFTjDHYQO4rQ9GpmKDFAtLLdcSZI9bryXTWTp4fFw7bDk_dwXMrBzare0mbaEXPyj1UDAzKZm0WsEXJZb7R6_7kJITmI/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20project,%20one%20team,%20o%20(7).webp?ssl=1"
-    },
-    {
-      "title": "Windows Bind Link Abuse Lets Attackers Blind EDR and Bypass AMSI, AppLocker, and Sysmon",
-      "link": "https://cybersecuritynews.com/windows-bind-link-abuse-lets/",
-      "description": "Windows defenders are facing a new way for attackers to hide activity after gaining administrator access. The technique abuses Windows bind links, a legitimate feature that redirects one file path ...",
-      "pub_date": "Mon, 20 Jul 2026 15:29:16 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-Bind-Link-Abuse-Lets-Attackers-Blind-EDR-and-Bypass-AMSI-AppLocker-and-Sysmon.webp"
-    },
-    {
-      "title": "Critical wp2shell RCE Vulnerability – Complete Coverage Including PoC and Active Exploitation Details",
-      "link": "https://cybersecuritynews.com/critical-wp2shell-rce-vulnerability/",
-      "description": "Overview A critical pre-authentication remote code execution (RCE) vulnerability chain nicknamed \u0026#8220;wp2shell\u0026#8221; has been disclosed in WordPress Core, putting an estimated 500 million-plus w...",
-      "pub_date": "Mon, 20 Jul 2026 15:23:10 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-wp2shell-RCE-Vulnerability.webp"
-    },
-    {
-      "title": "Paidwork Data Breach Exposes 23 Million Users’ Banking and Personal Data",
-      "link": "https://cybersecuritynews.com/paidwork-data-breach/",
-      "description": "A massive data breach has hit Paidwork, a popular gig economy platform, exposing sensitive banking and personal information belonging to more than 23 million users worldwide. The incident, first su...",
-      "pub_date": "Mon, 20 Jul 2026 15:12:30 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Paidwork-Data-Breach.webp"
     },
     {
       "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
@@ -342,33 +369,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzwz79enQjrnXLRTDKacoJm6HMEpOZX59zUr-X-czDXaohlQymWPOYcD0ERz14lU9Sp_6DubTeBvC1085D3vh6VwMqreCDn8F9ZKkcrvgSTlCfwS1RhmT7ubTPrc5VRd5tX7dHAJAu8n8PUy94X3a72vYU4vO769JGWttb3x9gp9lXUkilEnloggpXyk2p/s1600/click.jpg"
-    },
-    {
-      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
-      "link": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
-      "description": "A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public ...",
-      "pub_date": "Sun, 19 Jul 2026 18:48:56 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLomYbwprpYWKVxrxKRh3hFiGRWdVOb7WAVbhJjf_fYQAba4wVZT1PpwWAL-ZDb40MZp9T43-dj8Fru-eOjiKcrAoh5sOdyKGUUAVwK9iifXl70EvgORPztxnvYXc9HA8trGKcRZGob8DYJxUZBg0zlZFUTiRGPXGFheSbKLUoG53kZ9HR6XxyJs9GEtcA/s1600/sma-sonicwall.jpg"
-    },
-    {
-      "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
-      "link": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
-      "description": "7-Zip version 26.02 was released on June 25 to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compresse...",
-      "pub_date": "Sat, 18 Jul 2026 15:32:02 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
-      "description": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately...",
-      "pub_date": "Sat, 18 Jul 2026 13:22:47 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core",
