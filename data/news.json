@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-07-21T12:23:48Z",
+  "last_updated": "2026-07-21T14:57:07Z",
   "articles": [
+    {
+      "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
+      "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
+      "description": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments.  Ar...",
+      "pub_date": "Tue, 21 Jul 2026 19:34:57 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP1HNhUk3hMm0HOAQBAVExGT5-PQfrxeAtKrKRpG_eaXz5qEtVKiuH4-nOVMVdbtZ5XVzfk-hM-eFwpS0IAZNpGkp2DmE4wiNauEA3GT-t1UtLNGjtyVuDRPezJSyj4jEw8zeNgoPnyloZe_6K_vM1-nfYYoehFdoWRgVzVnmJUF3wwfamG0BgDdN1BvMJ/s1600/ransomware-attack.jpg"
+    },
+    {
+      "title": "Closing the Identity Gaps in Critical Infrastructure Security",
+      "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
+      "description": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device...",
+      "pub_date": "Tue, 21 Jul 2026 10:00:10 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
+      "link": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
+      "description": "Zimbra has rolled out fixes to address multiple critical security issues, including a command injection flaw in the Simple Network Management Protocol (SNMP) monitoring component.  As many as nine ...",
+      "pub_date": "Tue, 21 Jul 2026 18:48:31 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih_Q67gFWBtG5q7zVuyna7iJj3lSm-UQRoMsami8jaf-WYMCXqQlVprQ_ifyXx-PqJg2chDHN3KrFppnZSvejTvSco4kN-P_S4U3vKQHNtvZ48g5wftlSILrMulX1WUMOeeybU4apJ5Iv8BM6ipceEVGSJucR7yRJZguIrfTUaCbbHqefGt6o2BkHrJqV0/s1600/zimbra.jpg"
+    },
     {
       "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
       "link": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
@@ -20,24 +47,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRgv46Pyr5W2eivocnJG2MuDCYtUXj0fVas4afxPzJX2ZVXVCyjyWK_FtVCxKOaz9qwmR6EJLqgbrG448OtKTlv3X9coXsqr40xoNXrkXZbGiOO3ZHr-skaiYV3My_V-qI9YH3c3ScLO4tISLW_uI-2PD3_hdgUQW8cv_kMi6q994YyZn6JkF7gIhECC4/s1600/pushsecurity.jpg"
     },
     {
-      "title": "Hackers Hide Malware Commands in Outlook Events Dated 2050 and Use as C2 Channel",
-      "link": "https://cybersecuritynews.com/hackers-outlook-c2-channel/",
-      "description": "A newly identified malware component linked to the Project CAV3RN framework is abusing Microsoft Outlook calendar events scheduled for 2050 to conceal command-and-control (C2) traffic. The tool als...",
-      "pub_date": "Tue, 21 Jul 2026 11:41:36 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Outlook-C2-Channel.webp"
-    },
-    {
-      "title": "Agentic JADEPUFFER Exploits Langflow Flaw to Deploy ENCFORGE AI Ransomware",
-      "link": "https://cybersecuritynews.com/agentic-jadepuffer-langflow-flaw/",
-      "description": "A ransomware campaign is now targeting the assets behind artificial intelligence systems. The threat actor known as JADEPUFFER has evolved from damaging databases to deploying ENCFORGE, a ransomwar...",
-      "pub_date": "Tue, 21 Jul 2026 11:32:38 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Agentic-JADEPUFFER-Exploits-Langflow-Flaw-to-Deploy-ENCFORGE-AI-Ransomware.webp"
-    },
-    {
       "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
       "link": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
       "description": "A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in.  That is the claim...",
@@ -54,33 +63,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Healthcare Giant Abbott Investigating Cyber Incident Following ShinyHunters Claims",
-      "link": "https://cybersecuritynews.com/abbott-investigating-cyber-incident/",
-      "description": "Abbott has confirmed that it is investigating a cyber incident involving unauthorized access to a limited number of internal systems used by its Cancer Diagnostics business. This follows claims ass...",
-      "pub_date": "Tue, 21 Jul 2026 10:48:24 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Healthcare-giant-Abbott-investigating-cyber-incident-Following-ShinyHunters-claims-1-1.webp"
-    },
-    {
-      "title": "SonicWall 0-day Vulnerabilities Exploited in the Wild to Deploy Custom Malware",
-      "link": "https://cybersecuritynews.com/sonicwall-0-day-vulnerabilities-exploited/",
-      "description": "Attackers actively exploited two zero-day vulnerabilities in SonicWall Secure Mobile Access (SMA) VPN appliances to gain root access and deploy custom malware. In early July 2026, the cybersecurity...",
-      "pub_date": "Tue, 21 Jul 2026 10:20:53 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/SonicWall-0-day-Vulnerability-Exploited-in-the-Wild-to-Deploy-Custom-Malware.webp"
-    },
-    {
-      "title": "Microsoft Defender XDR Blind Spot Can Hide Public Connections Behind FourToSixMapping",
-      "link": "https://cybersecuritynews.com/microsoft-defender-xdr-blind-spot/",
-      "description": "Security teams relying on Microsoft Defender XDR\u0026#8217;s DeviceNetworkEvents table for hunting and detection may be missing critical external network connections due to a lesser-known IP address cl...",
-      "pub_date": "Tue, 21 Jul 2026 10:18:17 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Defender-XDR-Blind-Spot.webp"
     },
     {
       "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
@@ -110,33 +92,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4qOga3YGcLZ3JclK_mkOkQ-pRmQowUUqu6Hp3fj1QTmsNuuhkSj4OiFqgAtL7e6yeGkv-K1jC0v4bRayI40oDQ8UMeYishuNzRap3E5RYmIEbjRbmq-uAk4iWKWwIfMdNi6owJrVWE_3fcWzj5lZgVm9P96ddcqghwnp3rGx3pM3N6hck6UiaFUgVRbtC/s1600/wordpress-ex.jpg"
     },
     {
-      "title": "One Security Alert Exposed a GenAI-Powered Malware Factory Containing More Than 1,000 Attack Files",
-      "link": "https://cybersecuritynews.com/one-security-alert-exposed-a-genai-powered-malware-factory/",
-      "description": "A single security alert has exposed an unusually detailed view of how a threat actor builds, tests, and delivers malware. The exposed WebDAV server held more than 1,000 files, including phishing lu...",
-      "pub_date": "Tue, 21 Jul 2026 08:57:15 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/One-Security-Alert-Exposed-a-GenAI-Powered-Malware-Factory-Containing-More-Than-1000-Attack-Files.webp"
-    },
-    {
-      "title": "Linux Patches 400+ Kernel Vulnerabilities in 24 Hours With AI-Powered Detection",
-      "link": "https://cybersecuritynews.com/linux-patches-400-kernel-vulnerabilities/",
-      "description": "The Linux kernel project has released fixes for over 400 vulnerabilities within approximately 24 hours. These vulnerabilities span various areas, including networking, filesystems, memory managemen...",
-      "pub_date": "Tue, 21 Jul 2026 08:31:51 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Linux-Patches-400-Kernel-Vulnerabilities-in-24-Hours-With-AI-powered-Detection-3.webp"
-    },
-    {
-      "title": "Critical Gitea Vulnerability Enables Private Repository Writes and Actions Workflow Triggers",
-      "link": "https://cybersecuritynews.com/gitea-vulnerability/",
-      "description": "Gitea users are urged to update immediately after a critical vulnerability was disclosed that allows public-only repository access tokens to indirectly write to private pull request branches and tr...",
-      "pub_date": "Tue, 21 Jul 2026 08:24:19 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-Gitea-Vulnerability-Enables-Private-Repository-Writes-and-Actions-Workflow-Triggers-1.webp"
-    },
-    {
       "title": "Windows LegacyHive zero-day flaw gets free, unofficial patches",
       "link": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/",
       "description": "Free unofficial patches are available for a recently disclosed Windows zero-day flaw that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
@@ -144,15 +99,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Hackers Could Turn AI Training Jobs Into Weapons Against the Power Grid",
-      "link": "https://cybersecuritynews.com/hackers-could-turn-ai-training-jobs/",
-      "description": "A new research threat called Bit2Watt shows how AI training jobs could be abused to disrupt the power systems that support data centers. Rather than installing malware or breaking into grid control...",
-      "pub_date": "Tue, 21 Jul 2026 07:50:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Could-Turn-AI-Training-Jobs-Into-Weapons.webp"
     },
     {
       "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
@@ -171,15 +117,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAYYV6u5s-uKU-FXeqsoZ9Bk7nvzW1gPYVuoykmnuzLBQCK0jvX7rAO12mK5FVX06ovTJHZLUUXDkFmYk88oyKdFSYByRPSL5MUuAqikrTIVEpVzOcR9j4Rn0Fmje7-VwBAO09Yl8Y4cTUVNFwTXf2FV2c9C8oyNi5coAMCMLn5WF5Fbqtyt-tDZ3MVsO0/s1600/servicenow.jpg"
-    },
-    {
-      "title": "The Privilege Paths Attackers See, That You Don’t – A Complete PAM Guide",
-      "link": "https://cybersecuritynews.com/the-privilege-paths-attackers-see-that-you-dont-a-complete-pam-guide/",
-      "description": "Why identity fragmentation is the blind spot behind most breaches—and what a platform approach changes The Identity Problem Hiding in Plain Sight Identity is at the centre of nearly every major b...",
-      "pub_date": "Tue, 21 Jul 2026 06:06:52 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/pam_guide_diagram.webp"
     },
     {
       "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
@@ -335,15 +272,6 @@
       "image_url": ""
     },
     {
-      "title": "Critical ServiceNow code execution flaw now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
-      "description": "Attackers have begun exploiting a critical vulnerability (CVE-2026-6875) in the ServiceNow AI Platform, according to threat intelligence company Defused. [...]",
-      "pub_date": "Mon, 20 Jul 2026 05:29:20 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
       "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
       "description": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Tre...",
@@ -351,24 +279,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuAoanL7LxDYHynfggiOQo_RDymqYrFlfnRNrstIG6KgYuDWk2uR0eZDx_vCSLWsjTmP5LohkMSGQ_sc32hE4TGqqUCkGwsDlOUzP3bb-Ib-whRLliIb0YVozTMZF-lgSsPJr55l7GPjR1Xq-sH7dieWTBNnZsttdSfOxowTrEZImrcJ-_cI6i4zVFlII/s1600/7-zip.jpg"
-    },
-    {
-      "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
-      "link": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
-      "description": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet.  Th...",
-      "pub_date": "Mon, 20 Jul 2026 14:37:11 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyO5FC_n2BBZmiHphtqs0UN5r3DPgtRvkrVfaHOW-1Fv2VPXZliRYDryKR5I-vdZxtmChQJB6eAlJsND-e47t5lLQQ4SWkSJ_D02SEL6nRBmnJ-klfjSSg7rjRyf5AfzX340_se2vNrobCydtV-NZPsDm8MvL9UG0atiMekaxCNzHwizxZFlRhvpuM8BjE/s1600/gemini-cc.jpg"
-    },
-    {
-      "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
-      "link": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
-      "description": "In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system.  The company said it detec...",
-      "pub_date": "Mon, 20 Jul 2026 10:57:26 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhehTKRdIydGsJI5vxP4R5baH5VrDh8ZNLg1RyLMhSnVOFr6cdDZRyqkKhazs4oBdZxw5YV7fNYKCcZ9tkKkTap2chfMR6XCdiG4GmUhv4S_tUVYTS7jvn8iZcTL3RuJ-3K0U1WJ0pKfq16pcJRZhAXTm1gk-xvzjzmdJ85PWEgnQ6oFK1eUPKRBiTRtEr1/s1600/huggingface.jpg"
     },
     {
       "title": "CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core",
