@@ -1,6 +1,51 @@
 {
-  "last_updated": "2026-07-21T18:11:05Z",
+  "last_updated": "2026-07-21T20:14:55Z",
   "articles": [
+    {
+      "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
+      "description": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]",
+      "pub_date": "Tue, 21 Jul 2026 16:06:55 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Turn Fake Games Into Multi-Stage Infostealers That Steal Passwords and Crypto Wallets",
+      "link": "https://cybersecuritynews.com/hackers-fake-games-infostealers/",
+      "description": "Criminals are using fake game downloads to slip a sophisticated information stealer onto Windows computers. The campaign hides behind supposed games, mods, cracks, and other software, exploiting th...",
+      "pub_date": "Tue, 21 Jul 2026 19:23:05 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Turn-Fake-Games-Into-Multi-Stage-Infostealers-That-Steal-Passwords-and-Crypto-Wallets.webp"
+    },
+    {
+      "title": "Qilin Ransomware Claims 1,358 Victims as Global Attacks Reach New Record",
+      "link": "https://cybersecuritynews.com/qilin-ransomware-claims-1358-victims/",
+      "description": "Qilin ransomware has grown from a fast-moving criminal operation into one of the most visible threats in the global extortion landscape. The group encrypts systems and steals data, then pressures v...",
+      "pub_date": "Tue, 21 Jul 2026 18:52:31 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Qilin-Ransomware-Claims-1358-Victims-as-Global-Attacks-Reach-New-Record.webp"
+    },
+    {
+      "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
+      "link": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
+      "description": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ...",
+      "pub_date": "Tue, 21 Jul 2026 14:50:54 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
+      "link": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
+      "description": "Apple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy guarantees.  404 Media...",
+      "pub_date": "Wed, 22 Jul 2026 00:16:32 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiIg3Sasyz94bt9uOMqOnkEhZ4APzMbVwOObUmNzIGuYtxHO0wYNBu1LXTGi0Q5mTT6SI_CgqPwCWgejCc7BnclxwtLvDKiUlJR80nzE6dniSdomYMVcQU8Z1BQECtTvevKArxtEsJjB8Zeh2ouEgblz0vOiTDKcXUzpMzW70C56-Xbj-LT1gLp0Mbw99p/s1600/apple-email.jpg"
+    },
     {
       "title": "Now You Can teach a Skill to Claude by Just Recording your Screen",
       "link": "https://cybersecuritynews.com/teach-skill-claude/",
@@ -128,15 +173,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/sharepoint-cve-2026-50522-banner.webp"
     },
     {
-      "title": "Top 10 Malware Used by Hackers Last Week to Launch Cyberattacks",
-      "link": "https://cybersecuritynews.com/malware-used-by-hackers-last-week/",
-      "description": "Cybercriminals continued to lean on a familiar arsenal of malware last week, with information stealers and remote access trojans (RATs) dominating the threat landscape as the primary tools for init...",
-      "pub_date": "Tue, 21 Jul 2026 13:22:54 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Malware-Used-by-Hackers-Last-Week.webp"
-    },
-    {
       "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
       "link": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
       "description": "Zimbra has rolled out fixes to address multiple critical security issues, including a command injection flaw in the Simple Network Management Protocol (SNMP) monitoring component.  As many as nine ...",
@@ -144,15 +180,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih_Q67gFWBtG5q7zVuyna7iJj3lSm-UQRoMsami8jaf-WYMCXqQlVprQ_ifyXx-PqJg2chDHN3KrFppnZSvejTvSco4kN-P_S4U3vKQHNtvZ48g5wftlSILrMulX1WUMOeeybU4apJ5Iv8BM6ipceEVGSJucR7yRJZguIrfTUaCbbHqefGt6o2BkHrJqV0/s1600/zimbra.jpg"
-    },
-    {
-      "title": "Microsoft to Discontinue Podcasts Option on Copilot and to Delete Contents",
-      "link": "https://cybersecuritynews.com/microsoft-discontinue-podcasts-copilot/",
-      "description": "Microsoft will retire the Podcasts feature in its consumer Copilot app on August 18, 2026, permanently removing access to both the creation tool and all previously generated podcast content. This c...",
-      "pub_date": "Tue, 21 Jul 2026 12:56:36 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-to-Discontinue-Podcasts-Option-on-Copilot-and-to-Delete-Contents-1.webp"
     },
     {
       "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
@@ -265,7 +292,7 @@
     {
       "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
       "link": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
-      "description": "Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]",
+      "description": "Cosmetics giant Estée Lauder is notifying employees of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]",
       "pub_date": "Mon, 20 Jul 2026 18:39:30 -0400",
       "source": "BleepingComputer",
       "tier": 3,
@@ -353,15 +380,6 @@
       "image_url": ""
     },
     {
-      "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
-      "link": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
-      "description": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools.  The paths were often simple: exposed ...",
-      "pub_date": "Mon, 20 Jul 2026 19:02:26 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA-JVLR3XITNdsuoWZQFMu12z6UeqsAdKWjS4Iu6piGP-4Natjx3GZ4obTdwddY5YHPgNoYDJljFCpAh9YRUntTakZeiGikoJYjjgEcv2ZVPchuCuyIfRh_3aTJ64Ktke9RkdRxH7DalTVqGf0YgF3fDj2lHgvVyIDANaMn1KVy1d1CBXTZxAwyJBqEClL/s1600/cyberrecap.jpg"
-    },
-    {
       "title": "From a Single Alert to 1,000 Files: Inside an Exposed WebDAV Malware Delivery Lab",
       "link": "https://www.rapid7.com/blog/post/tr-exposed-webdav-malware-delivery-lab-analysis",
       "description": "Executive summaryAn MDR alert recently led our team to an exposed server that was doing more than hosting payloads. It was functioning as a fully operational malware delivery lab. Containing over 1...",
@@ -369,24 +387,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
-    },
-    {
-      "title": "Hugging Face warns an autonomous AI agent hacked its network",
-      "link": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
-      "description": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI ...",
-      "pub_date": "Mon, 20 Jul 2026 07:56:28 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft confirms Windows Server Update Services sync delays",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/",
-      "description": "Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more than a week. [...]",
-      "pub_date": "Mon, 20 Jul 2026 06:47:28 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core",
