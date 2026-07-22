@@ -1,6 +1,87 @@
 {
-  "last_updated": "2026-07-22T16:19:41Z",
+  "last_updated": "2026-07-22T18:03:44Z",
   "articles": [
+    {
+      "title": "ASUS Patches Critical Router Vulnerability Enabling Remote Command Execution",
+      "link": "https://cybersecuritynews.com/asus-patches-router-vulnerability/",
+      "description": "ASUS has released critical security updates to address a high-severity router vulnerability that could allow remote attackers to execute arbitrary commands on affected devices. The flaw, tracked as...",
+      "pub_date": "Wed, 22 Jul 2026 17:30:05 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/ASUS-Patches-Critical-Router-Vulnerability-Enabling-Remote-Command-Execution.webp"
+    },
+    {
+      "title": "A Hidden Line of Website Text Can Turn AWS Kiro Into a Remote Code Execution Tool",
+      "link": "https://cybersecuritynews.com/aws-kiro-remote-code-execution/",
+      "description": "A recently disclosed vulnerability in AWS Kiro, an AI-powered Integrated Development Environment (IDE), reveals how a hidden line of text on a webpage can be exploited for remote code execution on ...",
+      "pub_date": "Wed, 22 Jul 2026 17:28:27 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/A-Hidden-Line-of-Website-Text-Can-Turn-AWS-Kiro-Into-a-Remote-Code-Execution-Too-1.webp"
+    },
+    {
+      "title": "Public PoC Released for Windows NT OS Kernel Privilege Escalation Vulnerability",
+      "link": "https://cybersecuritynews.com/poc-windows-nt-os-kernel/",
+      "description": "Public proof-of-concept (PoC) exploit code was released for CVE-2026-42980, a local privilege escalation vulnerability in the Windows NT OS Kernel. This vulnerability occurs due to an integer under...",
+      "pub_date": "Wed, 22 Jul 2026 17:16:37 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Public-PoC-released-for-Windows-NT-OS-Kernel-Privilege-Escalation-Vulnerability-1.webp"
+    },
+    {
+      "title": "Hackers Let Victims Complete MFA Then Steal the Entire Microsoft 365 Session",
+      "link": "https://cybersecuritynews.com/hackers-let-victims-complete-mfa/",
+      "description": "Multi-factor authentication is meant to stop stolen-password attacks. A newly documented phishing technique instead persuades users to approve a real Microsoft sign-in, allowing attackers to take o...",
+      "pub_date": "Wed, 22 Jul 2026 17:16:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Let-Victims-Complete-MFA-Then-Steal-the-Entire-Microsoft-365-Session.webp"
+    },
+    {
+      "title": "Kali365 Phishing Kit Abuses Microsoft Device Codes to Hijack Microsoft 365 Accounts",
+      "link": "https://cybersecuritynews.com/kali365-phishing-kit-microsoft-device-codes/",
+      "description": "A phishing kit known as Kali365 is targeting U.S. organizations through device code phishing attacks that abuse Microsoft’s legitimate authentication process to hijack Microsoft 365 accounts. Unl...",
+      "pub_date": "Wed, 22 Jul 2026 17:11:41 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Kali365-Phishing-Kit-Microsoft-Device-Codes.webp"
+    },
+    {
+      "title": "What 434 AI-Generated Vulnerabilities Reveal About Secure Software Development",
+      "link": "https://cybersecuritynews.com/what-434-ai-generated-vulnerabilities-reveal-about-secure-software-development/",
+      "description": "New research finds that modern AI coding models frequently generate insecure code that exposes AI-generated applications to denial-of-service attacks, hardcoded secrets and authorization failures. ...",
+      "pub_date": "Wed, 22 Jul 2026 17:03:37 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/AI-Generated-Vulnerabilities.webp"
+    },
+    {
+      "title": "Iranian Hackers Are Quietly Building Access They Can Turn Into Wartime Disruption",
+      "link": "https://cybersecuritynews.com/iranian-hackers-building-access/",
+      "description": "Iran-linked hackers are not relying only on loud attacks, public leaks, or website defacements. They are quietly building access inside companies, cloud accounts, service providers, and industrial ...",
+      "pub_date": "Wed, 22 Jul 2026 16:59:45 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Iranian-Hackers-Are-Quietly-Building-Access-They-Can-Turn-Into-Wartime-Disruption.webp"
+    },
+    {
+      "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
+      "description": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform shared with one of its suppliers. [...]",
+      "pub_date": "Wed, 22 Jul 2026 12:59:17 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Apple Releases Fixes for Hide My Email Flaw that Exposes Users’ Real Email Addresses",
+      "link": "https://cybersecuritynews.com/apple-released-fixes-for-hide-my-email-flaw/",
+      "description": "Apple has released a security fix addressing a critical flaw in its iCloud+ “Hide My Email” feature that could expose users’ real email addresses, undermining the core privacy promise of the ...",
+      "pub_date": "Wed, 22 Jul 2026 16:14:03 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Apple-Released-Fixes-for-Hide-My-Email-Flaw-that-Exposes-Users-Real-Email-Address.webp"
+    },
     {
       "title": "Next chapter: Restructuring GitHub’s bug bounty program",
       "link": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
@@ -9,6 +90,24 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": ""
+    },
+    {
+      "title": "AI-Speed Attacks Are Forcing a Rethink of Incident Response",
+      "link": "https://cybersecuritynews.com/ai-speed-attacks-are-forcing-a-rethink-of-incident-response/",
+      "description": "Byline: Nikola Petrovic Accelerating Attacks. Our Detection Processes Are Still Running on Human Time. In one of my previous roles, I regularly dealt with incident reports. Most of them arrived ex...",
+      "pub_date": "Wed, 22 Jul 2026 15:57:00 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Nikola-Petrovic.webp"
+    },
+    {
+      "title": "Cloudflare Data Reveals Which World Cup Teams Moved the Global Internet Most",
+      "link": "https://cybersecuritynews.com/cloudflare-data-reveals-world-cup-teams/",
+      "description": "The 2026 World Cup did more than fill stadiums and television screens. It reshaped when millions of people used the Internet, creating noticeable surges and dips in web activity across countries. T...",
+      "pub_date": "Wed, 22 Jul 2026 15:36:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Cloudflare-Data-Reveals-Which-World-Cup-Teams-Moved-the-Global-Internet-Most-1.webp"
     },
     {
       "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
@@ -279,15 +378,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRgv46Pyr5W2eivocnJG2MuDCYtUXj0fVas4afxPzJX2ZVXVCyjyWK_FtVCxKOaz9qwmR6EJLqgbrG448OtKTlv3X9coXsqr40xoNXrkXZbGiOO3ZHr-skaiYV3My_V-qI9YH3c3ScLO4tISLW_uI-2PD3_hdgUQW8cv_kMi6q994YyZn6JkF7gIhECC4/s1600/pushsecurity.jpg"
-    },
-    {
-      "title": "US seizes over 1,000 websites in FIFA World Cup piracy crackdown",
-      "link": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/",
-      "description": "The U.S. Justice Department has seized more than 1,000 websites and blocked 1,970 domains used to stream FIFA World Cup 2026 matches without authorization. [...]",
-      "pub_date": "Tue, 21 Jul 2026 07:07:07 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "ZDI-26-446: Microsoft Windows WMI Providers Incorrect Authorization Local Privilege Escalation Vulnerability",
