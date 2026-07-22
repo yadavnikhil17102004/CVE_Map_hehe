@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-07-22T18:03:44Z",
+  "last_updated": "2026-07-22T20:07:51Z",
   "articles": [
+    {
+      "title": "South Korea discloses data breach impacting diplomats worldwide",
+      "link": "https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/",
+      "description": "South Korea disclosed that hackers breached the National Diplomatic Academy's online education system for ten months and stole personal information belonging to current and former employees of the ...",
+      "pub_date": "Wed, 22 Jul 2026 16:06:54 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "RefluXFS Linux Kernel Vulnerability Lets Attackers Gain Root Access",
+      "link": "https://cybersecuritynews.com/refluxfs-linux-kernel-vulnerability/",
+      "description": "A new Linux vulnerability dubbed \u0026#8220;RefluXFS\u0026#8221; is a race condition in the Linux kernel\u0026#8217;s XFS filesystem copy-on-write path that lets an ordinary local user silently overwrite protect...",
+      "pub_date": "Wed, 22 Jul 2026 18:20:40 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/RefluXFS-Linux-Kernel-Vulnerability.webp"
+    },
+    {
+      "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
+      "link": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
+      "description": "Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complet...",
+      "pub_date": "Wed, 22 Jul 2026 23:37:16 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidNwrZh7WuJhViXJ0c2i53cRV82jkdqS1FS9vHeNyOd19AITMQIA03JOnpqLyp7eHJoqa8L_V-eimCMZQNyba09AUvDHQ_n1NdAzmMFOg5FPp7gSymlqtjMcJ5UdyHRtK67wQ9hhusynzExbC9AWstVxaR9koev6e0PhySMPElKOFVwmge25lODZfyQkVD/s1600/ubuntu.jpg"
+    },
+    {
+      "title": "Adobe Acrobat Extension Flaw Lets Attackers Steal WhatsApp Chats From 329 Million Users",
+      "link": "https://cybersecuritynews.com/acrobat-extension-flaw-whatsapp-chats/",
+      "description": "A newly disclosed flaw in the Adobe Acrobat Chrome extension allowed attackers to silently harvest WhatsApp Web chats, contacts, and profile data from any user who simply visited a malicious webpag...",
+      "pub_date": "Wed, 22 Jul 2026 18:05:36 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Acrobat-Extension-Flaw-WhatsApp-Chats-Feature.webp"
+    },
     {
       "title": "ASUS Patches Critical Router Vulnerability Enabling Remote Command Execution",
       "link": "https://cybersecuritynews.com/asus-patches-router-vulnerability/",
@@ -92,24 +128,6 @@
       "image_url": ""
     },
     {
-      "title": "AI-Speed Attacks Are Forcing a Rethink of Incident Response",
-      "link": "https://cybersecuritynews.com/ai-speed-attacks-are-forcing-a-rethink-of-incident-response/",
-      "description": "Byline: Nikola Petrovic Accelerating Attacks. Our Detection Processes Are Still Running on Human Time. In one of my previous roles, I regularly dealt with incident reports. Most of them arrived ex...",
-      "pub_date": "Wed, 22 Jul 2026 15:57:00 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Nikola-Petrovic.webp"
-    },
-    {
-      "title": "Cloudflare Data Reveals Which World Cup Teams Moved the Global Internet Most",
-      "link": "https://cybersecuritynews.com/cloudflare-data-reveals-world-cup-teams/",
-      "description": "The 2026 World Cup did more than fill stadiums and television screens. It reshaped when millions of people used the Internet, creating noticeable surges and dips in web activity across countries. T...",
-      "pub_date": "Wed, 22 Jul 2026 15:36:35 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Cloudflare-Data-Reveals-Which-World-Cup-Teams-Moved-the-Global-Internet-Most-1.webp"
-    },
-    {
       "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
       "link": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
       "description": "Enterprise AI can accelerate ransomware attacks when AI assistants and agents inherit excessive permissions or compromised identities. Acronis explains how identity controls, governance, and least-...",
@@ -117,6 +135,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
+      "link": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
+      "description": "Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a ...",
+      "pub_date": "Wed, 22 Jul 2026 20:31:21 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf4tAo-p42ED3dQRVz6O7qldcTuY-ztwtPbNnnJFBHd-yJDm2dJmYNPtprB3IFhF9-7xExM_6jzqElcEotSZPEXwVYoiqG7Wh6isEjRAZkqzIyL4TYXUL3pK8hp53PdCHotDcUAZ9LVCJLDPX3PPZqDKIaFDlTnB5MbaRH0-ohMCzBAmdRDC_E6O5rGUtd/s1600/adobe.jpg"
     },
     {
       "title": "New InfraTrust report reveals infrastructure flaws admins should patch first",
@@ -344,15 +371,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP1HNhUk3hMm0HOAQBAVExGT5-PQfrxeAtKrKRpG_eaXz5qEtVKiuH4-nOVMVdbtZ5XVzfk-hM-eFwpS0IAZNpGkp2DmE4wiNauEA3GT-t1UtLNGjtyVuDRPezJSyj4jEw8zeNgoPnyloZe_6K_vM1-nfYYoehFdoWRgVzVnmJUF3wwfamG0BgDdN1BvMJ/s1600/ransomware-attack.jpg"
     },
     {
-      "title": "Closing the Identity Gaps in Critical Infrastructure Security",
-      "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
-      "description": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device...",
-      "pub_date": "Tue, 21 Jul 2026 10:00:10 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
       "link": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
       "description": "Zimbra has rolled out fixes to address multiple critical security issues, including a command injection flaw in the Simple Network Management Protocol (SNMP) monitoring component.  As many as nine ...",
@@ -360,24 +378,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih_Q67gFWBtG5q7zVuyna7iJj3lSm-UQRoMsami8jaf-WYMCXqQlVprQ_ifyXx-PqJg2chDHN3KrFppnZSvejTvSco4kN-P_S4U3vKQHNtvZ48g5wftlSILrMulX1WUMOeeybU4apJ5Iv8BM6ipceEVGSJucR7yRJZguIrfTUaCbbHqefGt6o2BkHrJqV0/s1600/zimbra.jpg"
-    },
-    {
-      "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
-      "link": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
-      "description": "An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more steps, and the sam...",
-      "pub_date": "Tue, 21 Jul 2026 17:28:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgT3XQmerfsXoGV-Vs_zcpVZiX_i21tKtW9mTacpOvcEntMhycVftZ4f2vkREtq3W8PH9iQRLpOunN-hFf590FJNocxmsPla_WJ1uGJxtkpXnQim-T0-wa89EiJSZSrLHxhOcx_srjqzYcb2dW2MXAU4V2HWlL9rQa1YVEE4XEQ944I7a3glRwwjkgu0U/s1600/ai-android-agent.jpg"
-    },
-    {
-      "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
-      "link": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
-      "description": "Every patch is a confession.  The moment a vendor ships a security fix, the diff between the old code and the new code tells anyone watching exactly what was broken and where. Turn that diff back i...",
-      "pub_date": "Tue, 21 Jul 2026 17:12:23 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRgv46Pyr5W2eivocnJG2MuDCYtUXj0fVas4afxPzJX2ZVXVCyjyWK_FtVCxKOaz9qwmR6EJLqgbrG448OtKTlv3X9coXsqr40xoNXrkXZbGiOO3ZHr-skaiYV3My_V-qI9YH3c3ScLO4tISLW_uI-2PD3_hdgUQW8cv_kMi6q994YyZn6JkF7gIhECC4/s1600/pushsecurity.jpg"
     },
     {
       "title": "ZDI-26-446: Microsoft Windows WMI Providers Incorrect Authorization Local Privilege Escalation Vulnerability",
