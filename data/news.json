@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-07-23T15:48:36Z",
+  "last_updated": "2026-07-23T17:11:13Z",
   "articles": [
+    {
+      "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
+      "description": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Zimbra Collaboration email servers by combining phishing a...",
+      "pub_date": "Thu, 23 Jul 2026 12:49:27 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
+      "description": "Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called LunchPoke disguised as a plugin to establish persistence....",
+      "pub_date": "Thu, 23 Jul 2026 12:32:35 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Chaos Ransomware Turns Your Chrome and Edge Web Browser Into an Invisible Malware Command Channel",
+      "link": "https://cybersecuritynews.com/chaos-ransomware-turns-chrome-malware/",
+      "description": "Chaos ransomware has introduced a new way to hide attacker activity inside everyday web browsing. The group’s msaRAT remote-access tool turns Chrome or Microsoft Edge into a covert channel for re...",
+      "pub_date": "Thu, 23 Jul 2026 16:23:32 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Chaos-Ransomware-Turns-Your-Chrome-and-Edge-Web-Browser-Into-an-Invisible-Malware-Command-Channel.webp"
+    },
+    {
+      "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
+      "link": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
+      "description": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code. The post The case for a...",
+      "pub_date": "Thu, 23 Jul 2026 16:00:00 +0000",
+      "source": "GitHub Security",
+      "tier": 4,
+      "image_url": ""
+    },
     {
       "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
@@ -18,6 +54,15 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-OPSEC-Mistake-Exposed-a-Global-Espionage-Campaign-and-Its-New-TriBack-Malware.webp"
+    },
+    {
+      "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
+      "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
+      "description": "Most of this week's trouble came dressed as something useful.  A package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders to an AI agent. ...",
+      "pub_date": "Thu, 23 Jul 2026 20:32:07 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsmJNuemIhGxFuSqY6pq1opCEJECkmIjXm5VnOqOAEjfpoLxQ89Q-qXBqKQmM8YnwyVP2_feUo4c-VLZ3cC6s_J0VCXdwhLKFezoK1-i4lWQs68yXaZS8XtHGAsDj5zsdOToB7yD1QHzuMYIVQFvb14U6Zhd1cqDOm78tRY1O3v_1LFr7CC-4ItBLpLgZ3/s1600/th.jpg"
     },
     {
       "title": "Next.js Patches Nine Security Flaws Enabling SSRF, Authentication Bypass, and DoS Attacks",
@@ -144,15 +189,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Google-Launches-CodeMender-AI-Agent-to-Find-Validate-and-Patch-Vulnerabilities-1.webp"
-    },
-    {
-      "title": "Ubuntu snap-confine Race Condition Enables Local Privilege Escalation to Root",
-      "link": "https://cybersecuritynews.com/ubuntu-snap-confine-race-condition/",
-      "description": "Ubuntu systems are at risk from a new local privilege escalation vulnerability in snap-confine, which could enable any local user to gain full root access on certain desktop installations. Qualys r...",
-      "pub_date": "Thu, 23 Jul 2026 12:03:44 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Ubuntu-snap-confine-Race-Condition-Vulnerabilities-.webp"
     },
     {
       "title": "CVE-2026-16232: Critical Check Point SmartConsole Authentication Bypass Exploited in the Wild",
@@ -362,15 +398,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzhOo7Orml3Cc70jFGFxmIBeMgPE26To0_7N80uq7Ux9h7jIarD51mf18Ecq6bOfyaKpDTHp99pUmzrNECb2IklB0l0XdKjkszBLdhhgmw42OsYsqJQoxm74ci__fgn9n29j0YIr_HTlqT1-NyVyvbeB2t9pFRMVQT5GQlTMEOp-vkUFbha3SV-6cAXfYW/s1600/aa.jpg"
     },
     {
-      "title": "CISA orders urgent action on actively exploited Langflow RCE flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-langflow-rce-flaw/",
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday ordered U.S. government agencies to prioritize patching an actively exploited vulnerability in the Langflow visual framework f...",
-      "pub_date": "Wed, 22 Jul 2026 07:43:28 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
       "link": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
       "description": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted H...",
@@ -378,24 +405,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ67gB4XtAR4QxYNABuJhWfBIduFUT7TMSA0K2c9TXbTTwqdfMJwBb5busuLeMPlrljP3xuTUrhbMQxwctepF9oPtgJkqo-RAxN86O2t25jcjIHfs5A8SVvG3Y8WJJa4pqAp0UiTBzAPZtzSaNcNceJokt7ATaoq7GTXYJjbsxaQfTEs4cwdaOz4Fg72nG/s1600/openai.jpg"
-    },
-    {
-      "title": "Why Modern SOCs Need Multi-Layered Detections",
-      "link": "https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html",
-      "description": "The cycle is over. For years, cybersecurity followed a familiar pattern: defenses improved, attackers adapted, and the back-and-forth continued. Today, AI-equipped attackers are simply outpacing de...",
-      "pub_date": "Wed, 22 Jul 2026 16:55:35 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA_BCT5VYzHAi2ZYmYF84NAe3JitSR-U0uk4JZeuJf-hgHgwMXRj1_44z0DfwmtHqFZMxeEYGHR4AlvuIe-_4oAGvQlVnCm9peV1-H0nZ__XbPIcKlz_7RxoPuR7C2IMBZ7B27ABzkk9Zv08DOaKAefwt72n8H0WBP8Z8TBajQwEzBt10hFwE3-70o0A5V/s1600/corelight.jpg"
-    },
-    {
-      "title": "Stop renting storage space — this lifetime 2TB plan is yours for $59",
-      "link": "https://www.bleepingcomputer.com/news/security/stop-renting-storage-space-this-lifetime-2tb-plan-is-yours-for-59/",
-      "description": "Cloud storage costs tend to creep up over time, since most services charge monthly or annually for as long as you use them. FileJump's Lifetime Plan skips that model entirely, offering 2TB of clou...",
-      "pub_date": "Wed, 22 Jul 2026 07:09:16 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "ZDI-26-446: Microsoft Windows WMI Providers Incorrect Authorization Local Privilege Escalation Vulnerability",
@@ -708,15 +717,6 @@
       "link": "https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/",
       "description": "How we validated, fixed, and investigated a critical vulnerability in under two hours, and confirmed no exploitation. The post Securing the git push pipeline: Responding to a critical remote code e...",
       "pub_date": "Tue, 28 Apr 2026 15:30:00 +0000",
-      "source": "GitHub Security",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game",
-      "link": "https://github.blog/security/hack-the-ai-agent-build-agentic-ai-security-skills-with-the-github-secure-code-game/",
-      "description": "Learn to find and exploit real-world agentic AI vulnerabilities through five progressive challenges in this free, open source game that over 10,000 developers have already used to sharpen their sec...",
-      "pub_date": "Tue, 14 Apr 2026 18:17:59 +0000",
       "source": "GitHub Security",
       "tier": 4,
       "image_url": ""
