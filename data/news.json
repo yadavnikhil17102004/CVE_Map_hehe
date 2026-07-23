@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T21:58:36Z",
+  "last_updated": "2026-07-23T22:56:27Z",
   "articles": [
     {
       "title": "New Dolphin X malware uses AI to rank high-value targets",
@@ -317,6 +317,60 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTBN3LZDMeKkPoMsoNtsGp_s0KYwVrmhhKHQsQtqgtAN1WAKeS7L-aN1hiehoBwnPi6f1gziIEecy5GlPdAVlWKPlzVprrqHLTLE3tcMZu4NK8QDoRxxS22HEFxfIpyrXnqr8O9b9akb1VVr9dmmmdwzHmhTFTVX4Cpv6WkFwSpz62tr6XKEDvKp5m0aUu/s1600/checkpoint.jpg"
     },
     {
+      "title": "ZDI-26-452: Dify AI Workflow oauth_redirect_url Open Redirect Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-452/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Dify. User interaction is required to exploit this vulnerability in that the target must vi...",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-451: Docker Desktop for macOS Inference Server Permissive Allow List Sandbox Escape Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-451/",
+      "description": "This vulnerability allows local attackers to escape the model runner sandbox on affected installations of Docker Desktop for macOS. An attacker must first obtain the ability to execute low-privileg...",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-450: AzeoTech DAQFactory CTL File Parsing Use-After-Free Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-450/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of AzeoTech DAQFactory. User interaction is required to exploit this vulnerability in that the target ...",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-449: AzeoTech DAQFactory CTL File Parsing Type Confusion Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-449/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of AzeoTech DAQFactory. User interaction is required to exploit this vulnerability in that the target ...",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-448: Bitdefender Total Security Shredder Link Following Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-448/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Bitdefender Total Security. An attacker must first obtain the ability to execute low-privileged code on...",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-447: Heimdall Data Database Proxy generateFileContent CRLF Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-447/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Heimdall Data Database Proxy. Authentication is required to exploit this vulnerability. The ZDI has...",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
       "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
       "link": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
       "description": "The Upbound Group fintech company disclosed that threat actors who stole data from its systems leveraged it to create $13 million in Acima leases. [...]",
@@ -545,60 +599,6 @@
       "title": "ZDI-26-438: Rockwell Automation Arena Simulation DOE File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-438/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Rockwell Automation Arena Simulation. User interaction is required to exploit this vulnerability in...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-437: (Pwn2Own) Autel MaxiCharger AC Elite Home WebSockets Integer Underflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-437/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Elite Home EV chargers. Authentication is not required to exploit this vulnera...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-436: (Pwn2Own) Autel MaxiCharger AC Elite Home USB Heap-based Buffer Overflow Arbitrary Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-436/",
-      "description": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Elite Home EV chargers. Authentication is not required to exploit ...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-435: (Pwn2Own) Autel MaxiCharger AC Elite Home NFC Stack-based Buffer Overflow Arbitrary Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-435/",
-      "description": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Elite Home EV chargers. Authentication is not required to exploit ...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-434: (Pwn2Own) Autel MaxiCharger AC Elite Home USB Authentication Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-434/",
-      "description": "This vulnerability allows physically present attackers to bypass authentication on affected installations of Autel MaxiCharger AC Elite Home EV chargers. Authentication is not required to exploit t...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-433: (Pwn2Own) Autel MaxiCharger AC Elite Home Software Update Improper Verification of Cryptographic Signature Arbitrary Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-433/",
-      "description": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Elite Home EV chargers. Authentication is not required to exploit ...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-432: G DATA Total Security Backup Service Link Following Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-432/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the ...",
       "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
