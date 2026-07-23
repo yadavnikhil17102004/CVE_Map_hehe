@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-07-23T20:53:00Z",
+  "last_updated": "2026-07-23T21:58:36Z",
   "articles": [
+    {
+      "title": "New Dolphin X malware uses AI to rank high-value targets",
+      "link": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
+      "description": "A new Dolphin X remote access trojan claims to use an AI-powered profiling feature to score and rank infected users, helping cybercriminals identify which victims should be targeted first. [...]",
+      "pub_date": "Thu, 23 Jul 2026 17:20:34 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Australian energy provider Origin says data breach exposes client data",
       "link": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
@@ -29,6 +38,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzlA3Ln3fk8yzrfLwR9egB99u67BL7NlRui9XkKviyXhFmZ3sYVTF5laSjHTwyphN51YvL39R0irNNPn2hDpVcn6EFi_NmuuSH3XTS9I71aPdZvgZRTOxXczmyqbSkcpqSy2TgOzSSJ0RzAyeQA4YXED73kIChZFtiuZ1fIVzCFvDJK4bEJ5M6Sj-qPeI/s1600/zimbra-email.jpg"
     },
     {
+      "title": "Hackers Abuse Notepad++ Plugins to Compromise Your System Silently",
+      "link": "https://cybersecuritynews.com/hackers-abuse-notepad-plugins/",
+      "description": "A stealthy new campaign in which the UAC-0099 threat cluster hijacks a legitimate Notepad++ plugin to quietly plant malware on victim machines, marking a significant evolution in the group\u0026#8217;s ...",
+      "pub_date": "Thu, 23 Jul 2026 18:04:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Abuse-Notepad-Plugins.webp"
+    },
+    {
       "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
       "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
       "description": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Zimbra Collaboration email servers by combining phishing a...",
@@ -45,6 +63,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Chaos Ransomware Turns Your Chrome and Edge Web Browser Into an Invisible Malware Command Channel",
+      "link": "https://cybersecuritynews.com/chaos-ransomware-turns-chrome-malware/",
+      "description": "Chaos ransomware has introduced a new way to hide attacker activity inside everyday web browsing. The group’s msaRAT remote-access tool turns Chrome or Microsoft Edge into a covert channel for re...",
+      "pub_date": "Thu, 23 Jul 2026 16:23:32 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Chaos-Ransomware-Turns-Your-Chrome-and-Edge-Web-Browser-Into-an-Invisible-Malware-Command-Channel.webp"
     },
     {
       "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
@@ -65,6 +92,15 @@
       "image_url": ""
     },
     {
+      "title": "Hackers’ OPSEC Mistake Exposed a Global Espionage Campaign and Its New TriBack Malware",
+      "link": "https://cybersecuritynews.com/opsec-mistake-exposed-triback-malware/",
+      "description": "A simple mistake by cyber spies has pulled back the curtain on a wide ranging espionage effort. It reached hospitals, government offices, and schools across several continents in early 2026. In mid...",
+      "pub_date": "Thu, 23 Jul 2026 15:28:29 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-OPSEC-Mistake-Exposed-a-Global-Espionage-Campaign-and-Its-New-TriBack-Malware.webp"
+    },
+    {
       "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
       "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
       "description": "Most of this week's trouble came dressed as something useful.  A package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders to an AI agent. ...",
@@ -72,6 +108,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsmJNuemIhGxFuSqY6pq1opCEJECkmIjXm5VnOqOAEjfpoLxQ89Q-qXBqKQmM8YnwyVP2_feUo4c-VLZ3cC6s_J0VCXdwhLKFezoK1-i4lWQs68yXaZS8XtHGAsDj5zsdOToB7yD1QHzuMYIVQFvb14U6Zhd1cqDOm78tRY1O3v_1LFr7CC-4ItBLpLgZ3/s1600/th.jpg"
+    },
+    {
+      "title": "Next.js Patches Nine Security Flaws Enabling SSRF, Authentication Bypass, and DoS Attacks",
+      "link": "https://cybersecuritynews.com/next-js-patches-nine-security-flaws/",
+      "description": "Vercel has disclosed and patched nine security vulnerabilities in Next.js, the widely used React framework, addressing flaws that could enable server-side request forgery (SSRF), middleware authent...",
+      "pub_date": "Thu, 23 Jul 2026 14:30:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Next.js-Patches-Nine-Security-Vulnerability.webp"
     },
     {
       "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
@@ -83,6 +128,33 @@
       "image_url": ""
     },
     {
+      "title": "Exim Directory Traversal Vulnerability Enables Privilege Escalation Attacks",
+      "link": "https://cybersecuritynews.com/exim-directory-traversal-vulnerability/",
+      "description": "A newly disclosed high-severity vulnerability in the Exim mail transfer agent allows local attackers to exploit a directory traversal flaw to escalate privileges on affected systems. Tracked as EXI...",
+      "pub_date": "Thu, 23 Jul 2026 13:56:32 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Exim-Directory-Traversal-Vulnerability-Enables-privilege-escalation-Attacks.webp"
+    },
+    {
+      "title": "Hackers Abuse GitHub Actions to Exploit cPanel and WHM Servers and Steal Cloud Credentials",
+      "link": "https://cybersecuritynews.com/hackers-abuse-github-actions-to-exploit-cpanel/",
+      "description": "A large-scale cyber campaign is abusing GitHub Actions to turn trusted open source projects into weapons against web hosting servers. Attackers plant malicious workflow files inside compromised rep...",
+      "pub_date": "Thu, 23 Jul 2026 13:47:42 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Abuse-GitHub-Actions-to-Exploit-cPanel-and-WHM-Servers-and-Steal-Cloud-Credentials.webp"
+    },
+    {
+      "title": "Fake Bahrain Civil Defense App Deploys Android RAT to Steal PINs, OTPs, and Banking Credentials",
+      "link": "https://cybersecuritynews.com/fake-bahrain-civil-defense-android-app/",
+      "description": "A sophisticated Android malware campaign is exploiting heightened geopolitical tensions in the Gulf region by masquerading as an official Bahrain Civil Defense emergency alert application. Security...",
+      "pub_date": "Thu, 23 Jul 2026 13:31:01 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Fake-Bahrain-Civil-Defense-App-1.webp"
+    },
+    {
       "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
       "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
       "description": "Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which...",
@@ -92,6 +164,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj5Vr8pje9uM-Ce6rzE-_hhU3HvR2NkKtYfaSrIXz3m0BbrC1ZNC9p4GW4GRQaAvFKPjE5kopXmdmcKcMb7_1dbOWvMO6_oe87HCj4TUXV1dWK99cz_OBcNHd81Ziat93g4wJcBdc3K1vq0IkwFL9DO9GlSrf_KxGi2hpg7VVsU9iTt7B2XByXL7nil86i/s1600/claude.gif"
     },
     {
+      "title": "Google’s New “Selfie Video” Identity Verification Feature to Gain Access to Locked Accounts",
+      "link": "https://cybersecuritynews.com/google-adds-selfie-video-feature/",
+      "description": "Google has introduced a new identity verification feature called “selfie video” designed to help users regain access to locked accounts, marking a significant step in account recovery and authe...",
+      "pub_date": "Thu, 23 Jul 2026 13:12:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Google-Adds-Selfie-Video-Feature.webp"
+    },
+    {
       "title": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge",
       "link": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
       "description": "The Chaos ransomware group ran its command-and-control through the victim's own browser. Cisco Talos on Thursday detailed msaRAT, the Rust implant behind it, found on a compromised Windows machine ...",
@@ -99,6 +180,24 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpS2QJv9o35m4hpF1MjxwE07jbvy9d4kK2fiSsQKFYaYtlUFReQ0j1YQ7fdaOPUN9s3J5oBpHG9vPIbTu_HwdjSDoz8UdhlJOp6ys6uBJlQxTL5BQlxtcOU2aRS1aaPeVwqvfCqGFzXEmQm0is0azXtyPQ8cNN61LbHtCllseMZQoYlwyrL4FV6BrkgqE/s1600/chrome-headless.jpg"
+    },
+    {
+      "title": "Windows 11 and Server 2025 Exposed to High-Severity Brokering File System Vulnerability",
+      "link": "https://cybersecuritynews.com/windows-brokering-file-system-vulnerability/",
+      "description": "Windows 11 and Windows Server 2025 high-severity vulnerability in Microsoft’s Brokering File System (BFS), identified as CVE-2026-50458, which allows for local privilege escalation on impacted sy...",
+      "pub_date": "Thu, 23 Jul 2026 12:58:03 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-11-and-Server-2025-Exposed-to-High-Severity-Brokering-File-System-Vulnerability-1.webp"
+    },
+    {
+      "title": "New Dolphin X Malware Steals Credentials From 300+ Apps and Profiles Victims With AI",
+      "link": "https://cybersecuritynews.com/new-dolphin-x-malware/",
+      "description": "A newly identified Windows malware called Dolphin X is raising concerns because it can steal far more than browser passwords. The tool is marketed to criminals as both an information stealer and a ...",
+      "pub_date": "Thu, 23 Jul 2026 12:49:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/New-Dolphin-X-Malware-Steals-Credentials-From-300-Apps-and-Profiles-Victims-With-AI.webp"
     },
     {
       "title": "What Happened Between OpenAI and Hugging Face?",
@@ -269,15 +368,6 @@
       "pub_date": "Wed, 22 Jul 2026 16:00:00 +0000",
       "source": "GitHub Security",
       "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
-      "link": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
-      "description": "Enterprise AI can accelerate ransomware attacks when AI assistants and agents inherit excessive permissions or compromised identities. Acronis explains how identity controls, governance, and least-...",
-      "pub_date": "Wed, 22 Jul 2026 11:30:00 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
       "image_url": ""
     },
     {
@@ -641,6 +731,15 @@
       "image_url": ""
     },
     {
+      "title": "Rockwell Automation ThinManager",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to restricted system directories outside of the application's intended...",
+      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite",
       "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
       "description": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite Executive summary\u0026nbsp; A group of Russian state-supported cyber actors has been targeti...",
@@ -725,15 +824,6 @@
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog ",
       "link": "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2021-27137 DD-WRT Stack-Based Buffer Overflow Vulnerabil...",
-      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Rockwell Automation ThinManager",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to restricted system directories outside of the application's intended...",
       "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
