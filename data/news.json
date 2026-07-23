@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22T23:04:27Z",
+  "last_updated": "2026-07-23T02:00:11Z",
   "articles": [
     {
       "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
@@ -29,6 +29,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj_hf7CZEiSANTI34m9Js55tSVk79YZVYvTHW2LwHyOCuvdK-9KWDu3R3eKJDlYJucrv7cUuf7ogDSakCE53IJ56483ktg8xGepMnB6NUGokxPqDsXEuIRXV3R_-d32GgrNI19Y-TrxvVAR3bnOlfgvcDVZYBGs-j5p-VouykZ517zpJ5kUOhtIf6R2sL3/s1600/github-bugbounty.jpg"
     },
     {
+      "title": "RefluXFS Linux Kernel Vulnerability Lets Attackers Gain Root Access",
+      "link": "https://cybersecuritynews.com/refluxfs-linux-kernel-vulnerability/",
+      "description": "A new Linux vulnerability dubbed \u0026#8220;RefluXFS\u0026#8221; is a race condition in the Linux kernel\u0026#8217;s XFS filesystem copy-on-write path that lets an ordinary local user silently overwrite protect...",
+      "pub_date": "Wed, 22 Jul 2026 18:20:40 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/RefluXFS-Linux-Kernel-Vulnerability.webp"
+    },
+    {
       "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
       "link": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
       "description": "Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complet...",
@@ -38,6 +47,78 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidNwrZh7WuJhViXJ0c2i53cRV82jkdqS1FS9vHeNyOd19AITMQIA03JOnpqLyp7eHJoqa8L_V-eimCMZQNyba09AUvDHQ_n1NdAzmMFOg5FPp7gSymlqtjMcJ5UdyHRtK67wQ9hhusynzExbC9AWstVxaR9koev6e0PhySMPElKOFVwmge25lODZfyQkVD/s1600/ubuntu.jpg"
     },
     {
+      "title": "Adobe Acrobat Extension Flaw Lets Attackers Steal WhatsApp Chats From 329 Million Users",
+      "link": "https://cybersecuritynews.com/acrobat-extension-flaw-whatsapp-chats/",
+      "description": "A newly disclosed flaw in the Adobe Acrobat Chrome extension allowed attackers to silently harvest WhatsApp Web chats, contacts, and profile data from any user who simply visited a malicious webpag...",
+      "pub_date": "Wed, 22 Jul 2026 18:05:36 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Acrobat-Extension-Flaw-WhatsApp-Chats-Feature.webp"
+    },
+    {
+      "title": "ASUS Patches Critical Router Vulnerability Enabling Remote Command Execution",
+      "link": "https://cybersecuritynews.com/asus-patches-router-vulnerability/",
+      "description": "ASUS has released critical security updates to address a high-severity router vulnerability that could allow remote attackers to execute arbitrary commands on affected devices. The flaw, tracked as...",
+      "pub_date": "Wed, 22 Jul 2026 17:30:05 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/ASUS-Patches-Critical-Router-Vulnerability-Enabling-Remote-Command-Execution.webp"
+    },
+    {
+      "title": "A Hidden Line of Website Text Can Turn AWS Kiro Into a Remote Code Execution Tool",
+      "link": "https://cybersecuritynews.com/aws-kiro-remote-code-execution/",
+      "description": "A recently disclosed vulnerability in AWS Kiro, an AI-powered Integrated Development Environment (IDE), reveals how a hidden line of text on a webpage can be exploited for remote code execution on ...",
+      "pub_date": "Wed, 22 Jul 2026 17:28:27 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/A-Hidden-Line-of-Website-Text-Can-Turn-AWS-Kiro-Into-a-Remote-Code-Execution-Too-1.webp"
+    },
+    {
+      "title": "Public PoC Released for Windows NT OS Kernel Privilege Escalation Vulnerability",
+      "link": "https://cybersecuritynews.com/poc-windows-nt-os-kernel/",
+      "description": "Public proof-of-concept (PoC) exploit code was released for CVE-2026-42980, a local privilege escalation vulnerability in the Windows NT OS Kernel. This vulnerability occurs due to an integer under...",
+      "pub_date": "Wed, 22 Jul 2026 17:16:37 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Public-PoC-released-for-Windows-NT-OS-Kernel-Privilege-Escalation-Vulnerability-1.webp"
+    },
+    {
+      "title": "Hackers Let Victims Complete MFA Then Steal the Entire Microsoft 365 Session",
+      "link": "https://cybersecuritynews.com/hackers-let-victims-complete-mfa/",
+      "description": "Multi-factor authentication is meant to stop stolen-password attacks. A newly documented phishing technique instead persuades users to approve a real Microsoft sign-in, allowing attackers to take o...",
+      "pub_date": "Wed, 22 Jul 2026 17:16:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Let-Victims-Complete-MFA-Then-Steal-the-Entire-Microsoft-365-Session.webp"
+    },
+    {
+      "title": "Kali365 Phishing Kit Abuses Microsoft Device Codes to Hijack Microsoft 365 Accounts",
+      "link": "https://cybersecuritynews.com/kali365-phishing-kit-microsoft-device-codes/",
+      "description": "A phishing kit known as Kali365 is targeting U.S. organizations through device code phishing attacks that abuse Microsoft’s legitimate authentication process to hijack Microsoft 365 accounts. Unl...",
+      "pub_date": "Wed, 22 Jul 2026 17:11:41 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Kali365-Phishing-Kit-Microsoft-Device-Codes.webp"
+    },
+    {
+      "title": "What 434 AI-Generated Vulnerabilities Reveal About Secure Software Development",
+      "link": "https://cybersecuritynews.com/what-434-ai-generated-vulnerabilities-reveal-about-secure-software-development/",
+      "description": "New research finds that modern AI coding models frequently generate insecure code that exposes AI-generated applications to denial-of-service attacks, hardcoded secrets and authorization failures. ...",
+      "pub_date": "Wed, 22 Jul 2026 17:03:37 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/AI-Generated-Vulnerabilities.webp"
+    },
+    {
+      "title": "Iranian Hackers Are Quietly Building Access They Can Turn Into Wartime Disruption",
+      "link": "https://cybersecuritynews.com/iranian-hackers-building-access/",
+      "description": "Iran-linked hackers are not relying only on loud attacks, public leaks, or website defacements. They are quietly building access inside companies, cloud accounts, service providers, and industrial ...",
+      "pub_date": "Wed, 22 Jul 2026 16:59:45 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Iranian-Hackers-Are-Quietly-Building-Access-They-Can-Turn-Into-Wartime-Disruption.webp"
+    },
+    {
       "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
       "link": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
       "description": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform shared with one of its suppliers. [...]",
@@ -45,6 +126,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Apple Releases Fixes for Hide My Email Flaw that Exposes Users’ Real Email Addresses",
+      "link": "https://cybersecuritynews.com/apple-released-fixes-for-hide-my-email-flaw/",
+      "description": "Apple has released a security fix addressing a critical flaw in its iCloud+ “Hide My Email” feature that could expose users’ real email addresses, undermining the core privacy promise of the ...",
+      "pub_date": "Wed, 22 Jul 2026 16:14:03 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Apple-Released-Fixes-for-Hide-My-Email-Flaw-that-Exposes-Users-Real-Email-Address.webp"
     },
     {
       "title": "Next chapter: Restructuring GitHub’s bug bounty program",
