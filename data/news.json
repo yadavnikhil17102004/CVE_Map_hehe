@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-07-23T08:14:23Z",
+  "last_updated": "2026-07-23T11:01:54Z",
   "articles": [
+    {
+      "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
+      "link": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
+      "description": "The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or Edge browsers. [...]",
+      "pub_date": "Thu, 23 Jul 2026 06:00:00 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Breach South Korea’s Diplomatic Academy and Expose Foreign Ministry Staff Data",
+      "link": "https://cybersecuritynews.com/hackers-breach-south-koreas-diplomatic-academy/",
+      "description": "South Korea’s diplomatic community is facing a serious security incident after hackers breached the Korea National Diplomatic Academy’s online education system and accessed data on Ministry of ...",
+      "pub_date": "Thu, 23 Jul 2026 09:55:39 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Breach-South-Koreas-Diplomatic-Academy-and-Expose-Foreign-Ministry-Staff-Data.webp"
+    },
+    {
+      "title": "Microsoft working to fix Exchange Online mailbox quarantine issue",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
+      "description": "Microsoft is working to resolve an ongoing Exchange Online issue that has been mistakenly quarantining customers' mailboxes since Sunday. [...]",
+      "pub_date": "Thu, 23 Jul 2026 05:20:10 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
@@ -9,6 +36,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs",
+      "link": "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
+      "description": "RefluXFS, a new Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600, lets an unprivileged local user overwrite root-owned files on an XFS filesystem and gain persistent root access...",
+      "pub_date": "Thu, 23 Jul 2026 13:34:35 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_70wKHw_bPdJz-ZYXpwrH7FBXem8uWKNtuBUyXDLbMld4PaBtBkw7Gpt9lRrVnki_eC21aw6sUezqM3-oFiTEviDqZECD20lmV3enwh0lDkRLAx38JlJYMoLzRpn-Ai4q1UbiIo8DTVjp4_blU5CM6AnW97jYgIblggBYgNIHdTE6t2Ec7by-N0Ly8YY/s1600/linux-root.jpg"
     },
     {
       "title": "Bluetooth Vulnerability Exposes 2.2 Million Cars to Remote Unlock and Immobilization Attacks",
@@ -135,15 +171,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/ASUS-Patches-Critical-Router-Vulnerability-Enabling-Remote-Command-Execution.webp"
-    },
-    {
-      "title": "A Hidden Line of Website Text Can Turn AWS Kiro Into a Remote Code Execution Tool",
-      "link": "https://cybersecuritynews.com/aws-kiro-remote-code-execution/",
-      "description": "A recently disclosed vulnerability in AWS Kiro, an AI-powered Integrated Development Environment (IDE), reveals how a hidden line of text on a webpage can be exploited for remote code execution on ...",
-      "pub_date": "Wed, 22 Jul 2026 17:28:27 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/A-Hidden-Line-of-Website-Text-Can-Turn-AWS-Kiro-Into-a-Remote-Code-Execution-Too-1.webp"
     },
     {
       "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
@@ -326,24 +353,6 @@
       "image_url": ""
     },
     {
-      "title": "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
-      "link": "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
-      "description": "A large-scale operation dubbed 'FakeGit' is pushing SmartLoader and StealC malware through 7,600 malicious GitHub repositories that accumulated more than 14 million downloads. [...]",
-      "pub_date": "Tue, 21 Jul 2026 18:34:17 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
-      "description": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]",
-      "pub_date": "Tue, 21 Jul 2026 16:06:55 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
       "link": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
       "description": "Apple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy guarantees.  404 Media...",
@@ -369,15 +378,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEEErOjlKug3DfeSGwzEbvNrUSCkzDF0o7uAnDNHFuE5MWaTlnB8sSfYJ4VsQaG39Kv_-L50Zc5GOJrpLYvW_2i8TFFI1xAWMRnFa-M6smZrswwGgnUMmEe-F-FB5Hw3OQWxVdSfPAKCFidVnQODRBSDT9WbF4dZmfrOsvvvhHmIAnroCkyFmmhlc_YQyC/s1600/gemini-cyber-flash.jpg"
-    },
-    {
-      "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
-      "link": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
-      "description": "A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr.  The vulnerability in question is CVE-2026-5...",
-      "pub_date": "Tue, 21 Jul 2026 20:27:51 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEiY-8bLYm125By8D7AuLG0iHjE5hB2_ysYdB1WkSc0wxB_virPrL19JZ0Ow8Nzsu0DkoTWboikIsKEyDs9393o1yaFJ0LZMFy64Hzk4XGzOqnpjJMgptlxVsHnmDm6twDSVhCkT1HFTFVmDW2zvlmz3qvQP9vftatDZFCw_GvauRT_2yEF-REvZlXyb_I/s1600/sharepoint.jpg"
     },
     {
       "title": "ZDI-26-446: Microsoft Windows WMI Providers Incorrect Authorization Local Privilege Escalation Vulnerability",
