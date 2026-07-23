@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-07-23T17:11:13Z",
+  "last_updated": "2026-07-23T19:01:37Z",
   "articles": [
+    {
+      "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+      "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+      "description": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client.  The payload goes after the last 90 days of email, the organ...",
+      "pub_date": "Fri, 24 Jul 2026 00:06:08 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzlA3Ln3fk8yzrfLwR9egB99u67BL7NlRui9XkKviyXhFmZ3sYVTF5laSjHTwyphN51YvL39R0irNNPn2hDpVcn6EFi_NmuuSH3XTS9I71aPdZvgZRTOxXczmyqbSkcpqSy2TgOzSSJ0RzAyeQA4YXED73kIChZFtiuZ1fIVzCFvDJK4bEJ5M6Sj-qPeI/s1600/zimbra-email.jpg"
+    },
+    {
+      "title": "Hackers Abuse Notepad++ Plugins to Compromise Your System Silently",
+      "link": "https://cybersecuritynews.com/hackers-abuse-notepad-plugins/",
+      "description": "A stealthy new campaign in which the UAC-0099 threat cluster hijacks a legitimate Notepad++ plugin to quietly plant malware on victim machines, marking a significant evolution in the group\u0026#8217;s ...",
+      "pub_date": "Thu, 23 Jul 2026 18:04:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Abuse-Notepad-Plugins.webp"
+    },
     {
       "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
       "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
@@ -40,7 +58,7 @@
     {
       "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
-      "description": "Microsoft Teams and several Microsoft 365 services are experiencing an ongoing outage, with users reporting problems accessing Teams, SharePoint, Excel and the Microsoft 365 Admin Center. [...]",
+      "description": "Microsoft is impacted by a massive outage affecting Teams and Microsoft 365 services, primarily affecting users in North America. [...]",
       "pub_date": "Thu, 23 Jul 2026 11:34:43 -0400",
       "source": "BleepingComputer",
       "tier": 3,
@@ -180,15 +198,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-rvCSGHVd2nngnpcdcc8Eh-QFaxQrcyegoSIPhUeTpr5qrGHcHYIstDAj08yLDeYcNZkZ26Ta53fdYefY8NjW8MprrOL4lQ4VnDCMpBrsrSQccyUipoC3VvFtMNUxUpUzOYra58WqjRwn952-fvzZLpXtgeY8Ao660YY49FaqcTTjBrDN_DsFFnsftJ8/s1600/malware-attack.jpg"
-    },
-    {
-      "title": "Google Launches CodeMender AI Agent to Find, Validate, and Patch Vulnerabilities",
-      "link": "https://cybersecuritynews.com/google-launches-codemender-ai-agent/",
-      "description": "Google has introduced CodeMender, a new AI-powered code security agent designed to find, validate automatically, and patch vulnerabilities at machine speed, as organizations face a surge in AI-driv...",
-      "pub_date": "Thu, 23 Jul 2026 12:18:58 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Google-Launches-CodeMender-AI-Agent-to-Find-Validate-and-Patch-Vulnerabilities-1.webp"
     },
     {
       "title": "CVE-2026-16232: Critical Check Point SmartConsole Authentication Bypass Exploited in the Wild",
@@ -396,15 +405,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzhOo7Orml3Cc70jFGFxmIBeMgPE26To0_7N80uq7Ux9h7jIarD51mf18Ecq6bOfyaKpDTHp99pUmzrNECb2IklB0l0XdKjkszBLdhhgmw42OsYsqJQoxm74ci__fgn9n29j0YIr_HTlqT1-NyVyvbeB2t9pFRMVQT5GQlTMEOp-vkUFbha3SV-6cAXfYW/s1600/aa.jpg"
-    },
-    {
-      "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
-      "link": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
-      "description": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted H...",
-      "pub_date": "Wed, 22 Jul 2026 17:00:02 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ67gB4XtAR4QxYNABuJhWfBIduFUT7TMSA0K2c9TXbTTwqdfMJwBb5busuLeMPlrljP3xuTUrhbMQxwctepF9oPtgJkqo-RAxN86O2t25jcjIHfs5A8SVvG3Y8WJJa4pqAp0UiTBzAPZtzSaNcNceJokt7ATaoq7GTXYJjbsxaQfTEs4cwdaOz4Fg72nG/s1600/openai.jpg"
     },
     {
       "title": "ZDI-26-446: Microsoft Windows WMI Providers Incorrect Authorization Local Privilege Escalation Vulnerability",
@@ -722,6 +722,15 @@
       "image_url": ""
     },
     {
+      "title": "Weintek cMT3092X",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a non-privileged user to escalate privileges or view the credentials of other users. The following versions of Weintek...",
+      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite",
       "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
       "description": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite Executive summary\u0026nbsp; A group of Russian state-supported cyber actors has been targeti...",
@@ -729,6 +738,51 @@
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": "/sites/default/files/styles/large/public/2026-07/figure1.png?itok=yrzcl7tK"
+    },
+    {
+      "title": "Johnson Controls XAAP Android",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker obtaining confidential information from the device. The following versions of Johnson Controls XAAP Andro...",
+      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "MZ Automation libIEC61850",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an unauthenticated network-adjacent attacker to crash critical IEC 61850 services or execute arbitrary code, disruptin...",
+      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "MZ Automation lib60870",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could cause the parsing process to crash, which will cause a denial of service. The following versions of MZ Automation lib60870 are ...",
+      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Johnson Controls C-CURE 9000 and Victor application server",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker with network access to achieve remote code execution. The following versions of Johnson Controls C-CURE 90...",
+      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Panduit IntraVUE",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker with access to the IT network to manipulate industrial control devices without requiring physical access, ...",
+      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
     },
     {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
@@ -740,9 +794,9 @@
       "image_url": ""
     },
     {
-      "title": "Tycon Systems TPDIN-Monitor-WEB2",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipme...",
+      "title": "Rockwell Automation 1718-AENTR/1719-AENTR",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product. The following versions of Rockwell Automation 1718...",
       "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -761,6 +815,15 @@
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog ",
       "link": "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2021-27137 DD-WRT Stack-Based Buffer Overflow Vulnerabil...",
+      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Rockwell Automation ThinManager",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to restricted system directories outside of the application's intended...",
       "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -789,69 +852,6 @@
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product. The following versions of Rockwell Automation 1734...",
       "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Rockwell Automation 1718-AENTR/1719-AENTR",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product. The following versions of Rockwell Automation 1718...",
-      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Rockwell Automation Studio 5000 Logix Designer",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-10",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow for a local attacker to execute arbitrary files, alter configurations, or execute arbitrary code. The following versio...",
-      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Siemens CADRA",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-06",
-      "description": "View CSAF Summary CADRA is affected by multiple zlib and Foxit vulnerabilities. Siemens has released a new version for CADRA and recommends to update to the latest version. Siemens is preparing fur...",
-      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Rockwell Automation FactoryTalk Services Platform",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-07",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to impersonate an authorized user on the FTSP server, resulting in unauthorized access to system configuratio...",
-      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Opcenter X",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-03",
-      "description": "View CSAF Summary Opcenter X before V2604 contain an authentication bypass vulnerability that could allow an attacker to gain full unauthorized access to the application. Siemens has released a new...",
-      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "AutomationDirect Productivity Suite",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker with local or physical access to cause memory corruption, unintended information disclosure, application i...",
-      "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Rockwell Automation Arena",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-01",
-      "description": "View CSAF Summary Successful exploitation these vulnerabilities could allow an attacker to execute arbitrary code in the context of the current process. The following versions of Rockwell Automatio...",
-      "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
