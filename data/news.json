@@ -1,14 +1,95 @@
 {
-  "last_updated": "2026-07-23T13:28:04Z",
+  "last_updated": "2026-07-23T15:48:36Z",
   "articles": [
     {
-      "title": "Google Adds Selfie Video Feature to Help Users Recover Locked Accounts Securely",
+      "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
+      "description": "Microsoft Teams and several Microsoft 365 services are experiencing an ongoing outage, with users reporting problems accessing Teams, SharePoint, Excel and the Microsoft 365 Admin Center. [...]",
+      "pub_date": "Thu, 23 Jul 2026 11:34:43 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Hackers’ OPSEC Mistake Exposed a Global Espionage Campaign and Its New TriBack Malware",
+      "link": "https://cybersecuritynews.com/opsec-mistake-exposed-triback-malware/",
+      "description": "A simple mistake by cyber spies has pulled back the curtain on a wide ranging espionage effort. It reached hospitals, government offices, and schools across several continents in early 2026. In mid...",
+      "pub_date": "Thu, 23 Jul 2026 15:28:29 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-OPSEC-Mistake-Exposed-a-Global-Espionage-Campaign-and-Its-New-TriBack-Malware.webp"
+    },
+    {
+      "title": "Next.js Patches Nine Security Flaws Enabling SSRF, Authentication Bypass, and DoS Attacks",
+      "link": "https://cybersecuritynews.com/next-js-patches-nine-security-flaws/",
+      "description": "Vercel has disclosed and patched nine security vulnerabilities in Next.js, the widely used React framework, addressing flaws that could enable server-side request forgery (SSRF), middleware authent...",
+      "pub_date": "Thu, 23 Jul 2026 14:30:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Next.js-Patches-Nine-Security-Vulnerability.webp"
+    },
+    {
+      "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
+      "link": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/",
+      "description": "FedRAMP 20X replaces point-in-time assessments with continuous, machine-readable evidence that demonstrates security controls are working. Anecdotes explains what the transition from Rev5 to FedRAM...",
+      "pub_date": "Thu, 23 Jul 2026 10:00:10 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Exim Directory Traversal Vulnerability Enables Privilege Escalation Attacks",
+      "link": "https://cybersecuritynews.com/exim-directory-traversal-vulnerability/",
+      "description": "A newly disclosed high-severity vulnerability in the Exim mail transfer agent allows local attackers to exploit a directory traversal flaw to escalate privileges on affected systems. Tracked as EXI...",
+      "pub_date": "Thu, 23 Jul 2026 13:56:32 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Exim-Directory-Traversal-Vulnerability-Enables-privilege-escalation-Attacks.webp"
+    },
+    {
+      "title": "Hackers Abuse GitHub Actions to Exploit cPanel and WHM Servers and Steal Cloud Credentials",
+      "link": "https://cybersecuritynews.com/hackers-abuse-github-actions-to-exploit-cpanel/",
+      "description": "A large-scale cyber campaign is abusing GitHub Actions to turn trusted open source projects into weapons against web hosting servers. Attackers plant malicious workflow files inside compromised rep...",
+      "pub_date": "Thu, 23 Jul 2026 13:47:42 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Abuse-GitHub-Actions-to-Exploit-cPanel-and-WHM-Servers-and-Steal-Cloud-Credentials.webp"
+    },
+    {
+      "title": "Fake Bahrain Civil Defense App Deploys Android RAT to Steal PINs, OTPs, and Banking Credentials",
+      "link": "https://cybersecuritynews.com/fake-bahrain-civil-defense-android-app/",
+      "description": "A sophisticated Android malware campaign is exploiting heightened geopolitical tensions in the Gulf region by masquerading as an official Bahrain Civil Defense emergency alert application. Security...",
+      "pub_date": "Thu, 23 Jul 2026 13:31:01 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Fake-Bahrain-Civil-Defense-App-1.webp"
+    },
+    {
+      "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
+      "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
+      "description": "Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which...",
+      "pub_date": "Thu, 23 Jul 2026 18:57:59 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj5Vr8pje9uM-Ce6rzE-_hhU3HvR2NkKtYfaSrIXz3m0BbrC1ZNC9p4GW4GRQaAvFKPjE5kopXmdmcKcMb7_1dbOWvMO6_oe87HCj4TUXV1dWK99cz_OBcNHd81Ziat93g4wJcBdc3K1vq0IkwFL9DO9GlSrf_KxGi2hpg7VVsU9iTt7B2XByXL7nil86i/s1600/claude.gif"
+    },
+    {
+      "title": "Google’s New “Selfie Video” Identity Verification Feature to Gain Access to Locked Accounts",
       "link": "https://cybersecuritynews.com/google-adds-selfie-video-feature/",
       "description": "Google has introduced a new identity verification feature called “selfie video” designed to help users regain access to locked accounts, marking a significant step in account recovery and authe...",
       "pub_date": "Thu, 23 Jul 2026 13:12:19 +0000",
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Google-Adds-Selfie-Video-Feature.webp"
+    },
+    {
+      "title": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge",
+      "link": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
+      "description": "The Chaos ransomware group ran its command-and-control through the victim's own browser. Cisco Talos on Thursday detailed msaRAT, the Rust implant behind it, found on a compromised Windows machine ...",
+      "pub_date": "Thu, 23 Jul 2026 18:41:09 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpS2QJv9o35m4hpF1MjxwE07jbvy9d4kK2fiSsQKFYaYtlUFReQ0j1YQ7fdaOPUN9s3J5oBpHG9vPIbTu_HwdjSDoz8UdhlJOp6ys6uBJlQxTL5BQlxtcOU2aRS1aaPeVwqvfCqGFzXEmQm0is0azXtyPQ8cNN61LbHtCllseMZQoYlwyrL4FV6BrkgqE/s1600/chrome-headless.jpg"
     },
     {
       "title": "Windows 11 and Server 2025 Exposed to High-Severity Brokering File System Vulnerability",
@@ -47,6 +128,15 @@
       "image_url": ""
     },
     {
+      "title": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks",
+      "link": "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html",
+      "description": "An exposed Alibaba Cloud server has revealed a China-nexus operation that Group-IB tracks as JadeProx. The cluster has targeted government, healthcare, and education organizations across Asia and L...",
+      "pub_date": "Thu, 23 Jul 2026 17:50:23 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-rvCSGHVd2nngnpcdcc8Eh-QFaxQrcyegoSIPhUeTpr5qrGHcHYIstDAj08yLDeYcNZkZ26Ta53fdYefY8NjW8MprrOL4lQ4VnDCMpBrsrSQccyUipoC3VvFtMNUxUpUzOYra58WqjRwn952-fvzZLpXtgeY8Ao660YY49FaqcTTjBrDN_DsFFnsftJ8/s1600/malware-attack.jpg"
+    },
+    {
       "title": "Google Launches CodeMender AI Agent to Find, Validate, and Patch Vulnerabilities",
       "link": "https://cybersecuritynews.com/google-launches-codemender-ai-agent/",
       "description": "Google has introduced CodeMender, a new AI-powered code security agent designed to find, validate automatically, and patch vulnerabilities at machine speed, as organizations face a surge in AI-driv...",
@@ -65,15 +155,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Ubuntu-snap-confine-Race-Condition-Vulnerabilities-.webp"
     },
     {
-      "title": "Microsoft Defender for Office 365 Adds New Prompt Injection Protection",
-      "link": "https://cybersecuritynews.com/microsoft-defender-office-365-prompt-protection/",
-      "description": "Microsoft has introduced a new capability in Defender for Office 365 to protect against prompt injection attacks, which target AI-powered email workflows, such as Microsoft 365 Copilot. This update...",
-      "pub_date": "Thu, 23 Jul 2026 12:01:00 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Defender-for-Office-365-adds-new-Prompt-injection-protection.webp"
-    },
-    {
       "title": "CVE-2026-16232: Critical Check Point SmartConsole Authentication Bypass Exploited in the Wild",
       "link": "https://www.rapid7.com/blog/post/etr-cve-2026-16232-critical-check-point-smartconsole-authentication-bypass-exploited-in-the-wild",
       "description": "OverviewOn July 22, 2026, Check Point published a security advisory for multiple vulnerabilities affecting Security Management, Multi-Domain Management, and firewall products. The most urgent of th...",
@@ -81,15 +162,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "TrickBot Turns Ordinary DNS Traffic Into a Hidden Channel for Malware Commands",
-      "link": "https://cybersecuritynews.com/trickbot-dns-traffic-hidden-channel/",
-      "description": "TrickBot has quietly evolved into a more covert threat by turning everyday DNS traffic into a stealth channel for malware commands, making its activity harder to spot on busy enterprise networks. I...",
-      "pub_date": "Thu, 23 Jul 2026 11:46:47 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/TrickBot-Turns-Ordinary-DNS-Traffic-Into-a-Hidden-Channel-for-Malware-Commands.webp"
     },
     {
       "title": "How Synthetic Identity Fraud is Coming for Machine Identities",
@@ -119,15 +191,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrnUDzSA-4xfOL6dsXt2pFY9jJro2vbjOgvkTbiFMhSXz9Z-0WdDTORe9IPFfMr0DVr0PapP8lFuq8R12ZXRyDdMO-2v9ot7c2oy2WobbNwqn3jbKQC5XmNdgKWZB8ENBVQSADLuujJMKvd3DtNcpAFhDa5zihJDtYrQYRLMSCftHHmNg2bUiRC_gCQkFK/s1600/github-action.jpg"
     },
     {
-      "title": "New Kimi K3 AI Agent Uncovers 0-Day Exploits in Redis Server",
-      "link": "https://cybersecuritynews.com/redis-server-0-day-exploit/",
-      "description": "A newly reported research effort tied to the Kimi K3 AI agent has surfaced multiple authenticated remote code execution (RCE) paths in Redis, one of the world’s most widely deployed in-memory dat...",
-      "pub_date": "Thu, 23 Jul 2026 11:07:50 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Redis-Server-0-Day-Exploits.webp"
-    },
-    {
       "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
       "link": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
       "description": "The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or Edge browsers. [...]",
@@ -144,15 +207,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi33P1I6A4GNsGTrz72n-ZgaqJE-ksI5ub_5wWCmRVQhG7fikbuDtdu7inYjTOFVi9v1SukZnH_fWo2LiI-v6zkm2WwWrbaKGsKBK4Z6yHJvXkBX-m5HxX0VzG9Tv_Nz-17rbcUoql67ciu4oMYS2pNs946kSd95SaWvSM096CEeMaBLbSpXpA2KnZprzb-/s1600/google-account-recovery.jpg"
-    },
-    {
-      "title": "Hackers Breach South Korea’s Diplomatic Academy and Expose Foreign Ministry Staff Data",
-      "link": "https://cybersecuritynews.com/hackers-breach-south-koreas-diplomatic-academy/",
-      "description": "South Korea’s diplomatic community is facing a serious security incident after hackers breached the Korea National Diplomatic Academy’s online education system and accessed data on Ministry of ...",
-      "pub_date": "Thu, 23 Jul 2026 09:55:39 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Breach-South-Koreas-Diplomatic-Academy-and-Expose-Foreign-Ministry-Staff-Data.webp"
     },
     {
       "title": "Microsoft working to fix Exchange Online mailbox quarantine issue",
@@ -180,15 +234,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_70wKHw_bPdJz-ZYXpwrH7FBXem8uWKNtuBUyXDLbMld4PaBtBkw7Gpt9lRrVnki_eC21aw6sUezqM3-oFiTEviDqZECD20lmV3enwh0lDkRLAx38JlJYMoLzRpn-Ai4q1UbiIo8DTVjp4_blU5CM6AnW97jYgIblggBYgNIHdTE6t2Ec7by-N0Ly8YY/s1600/linux-root.jpg"
-    },
-    {
-      "title": "Bluetooth Vulnerability Exposes 2.2 Million Cars to Remote Unlock and Immobilization Attacks",
-      "link": "https://cybersecuritynews.com/karr-bluetooth-vulnerability-exposes/",
-      "description": "A recently disclosed Bluetooth vulnerability in the aftermarket KARR Security System exposes approximately 2.2 million vehicles to remote attacks that could allow unauthorized door unlocking, alarm...",
-      "pub_date": "Thu, 23 Jul 2026 07:59:50 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/KARR-Bluetooth-Vulnerability-Exposes-2.2-Million-Cars-to-Remote-Unlock-and-Immobilization-Attacks-2.webp"
     },
     {
       "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
@@ -351,51 +396,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Microsoft to stop Exchange 2016 / 2019 security updates in October",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
-      "description": "Microsoft has reminded customers that it will stop shipping security updates for Exchange 2016 and 2019 through the Extended Security Update (ESU) program in October. [...]",
-      "pub_date": "Wed, 22 Jul 2026 06:44:52 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
-      "description": "American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]",
-      "pub_date": "Wed, 22 Jul 2026 02:40:29 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
-      "link": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
-      "description": "German and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, and Indonesian auth...",
-      "pub_date": "Wed, 22 Jul 2026 12:08:45 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjOaY5kPe-g7dmQXqM_VwJIUOZk8mqgDII9sHVnZgWraV6lnXp9Pu6d664E6wSS82UCkvOd7MkPhzJBnbIKwJO9SLjHaVADbVE0zaSYhZJsHeBkBIh3Y9edJnmW4Ck1ndx5OwkkA5jJMo7gP6ocN_61sO7mOCACXBvzompiLGwnZCRkn2TkaXL6Ay94Fg/s1600/phishkit.jpg"
-    },
-    {
-      "title": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
-      "link": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
-      "description": "Cybersecurity researchers have discovered a NuGet typosquat that's unlike the typical information-stealing malware distributed via package registries: usual info-stealers: it's designed to rig live...",
-      "pub_date": "Wed, 22 Jul 2026 11:30:06 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmbnZz5gT311oKvULmSO8GP7t6_iPwyHkyn18YX9gpWaA6McGU3BUywygV6gyQ_WBntQjd4mCBZC7mVug_axlJpTqNM2GblbuYyYMf6Np-Zm6P5dvmWeA_aoyZ4bckOlXoAfMC8yXacUfCPHocS9azMsxW7cYbLy6e6iVNH6EMVduEZTLFT_CyAYmud78K/s1600/json-pack.jpg"
-    },
-    {
-      "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
-      "link": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
-      "description": "A single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and quietly leaking w...",
-      "pub_date": "Wed, 22 Jul 2026 10:27:52 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyPnXNVcT-TTMj4bnJJGmkaK6DFi2Lr2KDvnQZiPIyboMvPfwGP-xlkXhEAq1-bY1fkI_eSiaMEY0JxhHvMYB5X_i_aDK04yiPGrSIk9cXL9P-9cwn2ftFhqCto-5dAxILlsZITCPhQ6Kf2h0_5Ly9YSvo5T2z8sNe5ZDPZxR-S-JslYxH-q9FoPUUJtA/s1600/inject.jpg"
     },
     {
       "title": "ZDI-26-446: Microsoft Windows WMI Providers Incorrect Authorization Local Privilege Escalation Vulnerability",
@@ -722,6 +722,15 @@
       "image_url": ""
     },
     {
+      "title": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
+      "description": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite Executive summary\u0026nbsp; A group of Russian state-supported cyber actors has been targeti...",
+      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": "/sites/default/files/styles/large/public/2026-07/figure1.png?itok=yrzcl7tK"
+    },
+    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/07/22/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-16232 Check Point SmartConsole Improper Authe...",
@@ -842,15 +851,6 @@
       "title": "Rockwell Automation Arena",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-01",
       "description": "View CSAF Summary Successful exploitation these vulnerabilities could allow an attacker to execute arbitrary code in the context of the current process. The following versions of Rockwell Automatio...",
-      "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog ",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/16/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2026-25089 Fortinet FortiSandbox OS Command Injection V...",
       "pub_date": "Thu, 16 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
