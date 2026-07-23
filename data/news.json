@@ -1,8 +1,62 @@
 {
-  "last_updated": "2026-07-23T05:29:48Z",
+  "last_updated": "2026-07-23T08:14:23Z",
   "articles": [
     {
-      "title": "CISA Warns of Check Point Authentication Vulnerability Exploited in Attacks",
+      "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
+      "description": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interface (GUI) admin panel. [...]",
+      "pub_date": "Thu, 23 Jul 2026 04:13:07 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Bluetooth Vulnerability Exposes 2.2 Million Cars to Remote Unlock and Immobilization Attacks",
+      "link": "https://cybersecuritynews.com/karr-bluetooth-vulnerability-exposes/",
+      "description": "A recently disclosed Bluetooth vulnerability in the aftermarket KARR Security System exposes approximately 2.2 million vehicles to remote attacks that could allow unauthorized door unlocking, alarm...",
+      "pub_date": "Thu, 23 Jul 2026 07:59:50 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/KARR-Bluetooth-Vulnerability-Exposes-2.2-Million-Cars-to-Remote-Unlock-and-Immobilization-Attacks-2.webp"
+    },
+    {
+      "title": "July 2026 InfraTrust Report Flags 26 Unauthenticated Vulnerabilities and Exploited SonicWall Flaws",
+      "link": "https://cybersecuritynews.com/infratrust-flags-26-vulnerabilities/",
+      "description": "A new infrastructure security review has exposed a busy month for defenders. Fourteen infrastructure vendors issued 61 relevant advisories worldwide during the 30 days ending July 17, including 26 ...",
+      "pub_date": "Thu, 23 Jul 2026 07:47:04 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/July-2026-InfraTrust-Report-Flags-26-Unauthenticated-Vulnerabilities-and-Exploited-SonicWall-Flaws.webp"
+    },
+    {
+      "title": "Chick-fil-A Urges Customers to Change Chick-fil-A One Passwords After Unauthorized Access",
+      "link": "https://cybersecuritynews.com/chick-fil-a-customers-passwords-reset/",
+      "description": "Chick-fil-A has warned customers to update their Chick-fil-A One passwords after detecting unauthorized access to a subset of loyalty accounts during a credential stuffing attack in June 2026. Afte...",
+      "pub_date": "Thu, 23 Jul 2026 07:22:46 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Chick-fil-A-is-Warns-customers-to-change-their-Chick-fil-A-One-passwords-Following-unauthorized-access-1.webp"
+    },
+    {
+      "title": "CISA Warns Iran-Linked Hackers Exploit Rockwell PLCs to Disrupt U.S. Critical Infrastructure",
+      "link": "https://cybersecuritynews.com/iran-hackers-exploit-rockwell-plcs/",
+      "description": "Iran-linked hackers are targeting internet-connected industrial controllers used across U.S. critical infrastructure. The campaign has disrupted programmable logic controllers, or PLCs, in governme...",
+      "pub_date": "Thu, 23 Jul 2026 06:41:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/CISA-Warns-Iran-Linked-Hackers-Exploit-Rockwell-PLCs-to-Disrupt-U.S.-Critical-Infrastructure.webp"
+    },
+    {
+      "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
+      "link": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
+      "description": "Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw that has come unde...",
+      "pub_date": "Thu, 23 Jul 2026 12:04:36 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTBN3LZDMeKkPoMsoNtsGp_s0KYwVrmhhKHQsQtqgtAN1WAKeS7L-aN1hiehoBwnPi6f1gziIEecy5GlPdAVlWKPlzVprrqHLTLE3tcMZu4NK8QDoRxxS22HEFxfIpyrXnqr8O9b9akb1VVr9dmmmdwzHmhTFTVX4Cpv6WkFwSpz62tr6XKEDvKp5m0aUu/s1600/checkpoint.jpg"
+    },
+    {
+      "title": "CISA Warns of Check Point Authentication Vulnerability Actively Exploited in the Wild",
       "link": "https://cybersecuritynews.com/check-point-vulnerability-exploited/",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning about a critical authentication vulnerability in Check Point SmartConsole that is actively being exploi...",
       "pub_date": "Thu, 23 Jul 2026 05:23:02 +0000",
@@ -90,42 +144,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/A-Hidden-Line-of-Website-Text-Can-Turn-AWS-Kiro-Into-a-Remote-Code-Execution-Too-1.webp"
-    },
-    {
-      "title": "Public PoC Released for Windows NT OS Kernel Privilege Escalation Vulnerability",
-      "link": "https://cybersecuritynews.com/poc-windows-nt-os-kernel/",
-      "description": "Public proof-of-concept (PoC) exploit code was released for CVE-2026-42980, a local privilege escalation vulnerability in the Windows NT OS Kernel. This vulnerability occurs due to an integer under...",
-      "pub_date": "Wed, 22 Jul 2026 17:16:37 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Public-PoC-released-for-Windows-NT-OS-Kernel-Privilege-Escalation-Vulnerability-1.webp"
-    },
-    {
-      "title": "Hackers Let Victims Complete MFA Then Steal the Entire Microsoft 365 Session",
-      "link": "https://cybersecuritynews.com/hackers-let-victims-complete-mfa/",
-      "description": "Multi-factor authentication is meant to stop stolen-password attacks. A newly documented phishing technique instead persuades users to approve a real Microsoft sign-in, allowing attackers to take o...",
-      "pub_date": "Wed, 22 Jul 2026 17:16:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Let-Victims-Complete-MFA-Then-Steal-the-Entire-Microsoft-365-Session.webp"
-    },
-    {
-      "title": "Kali365 Phishing Kit Abuses Microsoft Device Codes to Hijack Microsoft 365 Accounts",
-      "link": "https://cybersecuritynews.com/kali365-phishing-kit-microsoft-device-codes/",
-      "description": "A phishing kit known as Kali365 is targeting U.S. organizations through device code phishing attacks that abuse Microsoft’s legitimate authentication process to hijack Microsoft 365 accounts. Unl...",
-      "pub_date": "Wed, 22 Jul 2026 17:11:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Kali365-Phishing-Kit-Microsoft-Device-Codes.webp"
-    },
-    {
-      "title": "What 434 AI-Generated Vulnerabilities Reveal About Secure Software Development",
-      "link": "https://cybersecuritynews.com/what-434-ai-generated-vulnerabilities-reveal-about-secure-software-development/",
-      "description": "New research finds that modern AI coding models frequently generate insecure code that exposes AI-generated applications to denial-of-service attacks, hardcoded secrets and authorization failures. ...",
-      "pub_date": "Wed, 22 Jul 2026 17:03:37 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/AI-Generated-Vulnerabilities.webp"
     },
     {
       "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
@@ -326,15 +344,6 @@
       "image_url": ""
     },
     {
-      "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
-      "link": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
-      "description": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ...",
-      "pub_date": "Tue, 21 Jul 2026 14:50:54 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
       "link": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
       "description": "Apple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy guarantees.  404 Media...",
@@ -369,15 +378,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEiY-8bLYm125By8D7AuLG0iHjE5hB2_ysYdB1WkSc0wxB_virPrL19JZ0Ow8Nzsu0DkoTWboikIsKEyDs9393o1yaFJ0LZMFy64Hzk4XGzOqnpjJMgptlxVsHnmDm6twDSVhCkT1HFTFVmDW2zvlmz3qvQP9vftatDZFCw_GvauRT_2yEF-REvZlXyb_I/s1600/sharepoint.jpg"
-    },
-    {
-      "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
-      "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
-      "description": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments.  Ar...",
-      "pub_date": "Tue, 21 Jul 2026 19:34:57 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP1HNhUk3hMm0HOAQBAVExGT5-PQfrxeAtKrKRpG_eaXz5qEtVKiuH4-nOVMVdbtZ5XVzfk-hM-eFwpS0IAZNpGkp2DmE4wiNauEA3GT-t1UtLNGjtyVuDRPezJSyj4jEw8zeNgoPnyloZe_6K_vM1-nfYYoehFdoWRgVzVnmJUF3wwfamG0BgDdN1BvMJ/s1600/ransomware-attack.jpg"
     },
     {
       "title": "ZDI-26-446: Microsoft Windows WMI Providers Incorrect Authorization Local Privilege Escalation Vulnerability",
