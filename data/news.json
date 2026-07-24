@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-07-24T05:15:27Z",
+  "last_updated": "2026-07-24T08:10:40Z",
   "articles": [
+    {
+      "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+      "description": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
+      "pub_date": "Fri, 24 Jul 2026 03:36:39 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Detects 7.6 Billion Email Phishing Threats as Teams Vishing Attacks Increases 10-Fold",
+      "link": "https://cybersecuritynews.com/email-phishing-threats-as-teams-vishing-attacks/",
+      "description": "Email phishing remains one of the most common ways attackers gain access to business accounts. During the second quarter of 2026, criminals continued to use fake login pages, malicious attachments,...",
+      "pub_date": "Fri, 24 Jul 2026 07:36:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Detects-7.6-Billion-Email-Phishing-Threats-as-Teams-Vishing-Attacks-Increases-10-Fold.webp"
+    },
+    {
+      "title": "Claude Cowork Sandbox Escape Flaw Lets AI Agent Read SSH Keys and Cloud Credentials From Host",
+      "link": "https://cybersecuritynews.com/claude-cowork-sandbox-escape-flaw/",
+      "description": "A serious security flaw has been discovered in Claude Cowork’s local sandbox, allowing a malicious AI agent to escape its Linux virtual machine (VM) and access the host Mac\u0026#8217;s filesystem. Th...",
+      "pub_date": "Fri, 24 Jul 2026 07:34:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Claude-Cowork-Sandbox-Escape-Flaw-Lets-AI-Agent-Read-SSH-Keys-and-Cloud-Credentials-From-Host-1.webp"
+    },
+    {
+      "title": "Russian Hackers Exploiting Zimbra Zero-Day to Steal 90 Days of Emails",
+      "link": "https://cybersecuritynews.com/russian-hackers-exploiting-zimbra-zero-day/",
+      "description": "Russian state-backed hackers, identified as LAUNDRY BEAR, are exploiting a zero-day vulnerability in the Zimbra Collaboration Suite (ZCS) to stealthily extract sensitive information, including emai...",
+      "pub_date": "Fri, 24 Jul 2026 07:17:26 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Russian-Hackers-Exploiting-Zimbra-Zero-Day-to-Steal-90-Days-of-Emails-1.webp"
+    },
+    {
+      "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
+      "link": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
+      "description": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows sys...",
+      "pub_date": "Fri, 24 Jul 2026 12:20:57 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCA0-yh9EAnhFa2V3NzQVw2m-sLgbCNVQ8GVMBX4Y6vUNwPXE-vHzdJLFKXVi3rdGXhx5RawHTwox7cd9ph20u5qn_H8TJUOKG8nITccTkzqfiyBKStdCgcrJOgAeGf9Mkzr1g8iCB0HrpuonkIQQTx15L2P53RPX9GeMYVIuvl51jJ2hn1jn0PcQARQaj/s1600/notepad-malware-code.jpg"
+    },
+    {
+      "title": "Malicious RubyGems Turn Developer Machines Into Monero Miners and Spread Through SSH",
+      "link": "https://cybersecuritynews.com/malicious-rubygems-developer-machines/",
+      "description": "A malicious RubyGems campaign has turned seemingly useful developer packages into tools for hidden cryptocurrency mining. The poisoned packages can consume a machine’s computing power, slow down ...",
+      "pub_date": "Fri, 24 Jul 2026 06:01:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Malicious-RubyGems-Turn-Developer-Machines-Into-Monero-Miners-and-Spread-Through-SSH.webp"
+    },
+    {
+      "title": "Microsoft 365 Services Outage Impacted Teams, Copilot, Purview and Other Services",
+      "link": "https://cybersecuritynews.com/microsoft-365-services-outage/",
+      "description": "A Microsoft 365 outage disrupted access to several widely used enterprise services, including Microsoft Teams, SharePoint Online, OneDrive, Copilot Chat, Microsoft Purview, and Power BI. The incide...",
+      "pub_date": "Fri, 24 Jul 2026 04:11:48 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-365-Services-Outage.webp"
+    },
+    {
+      "title": "Hackers Allegedly Claim Breach of Decathlon Customer Database With 160 Million Records",
+      "link": "https://cybersecuritynews.com/decathlon-alleged-breach/",
+      "description": "A threat actor is allegedly claiming to possess and sell a Decathlon customer database containing approximately 160 million records. The database was advertised on a cybercrime forum, where the sel...",
+      "pub_date": "Fri, 24 Jul 2026 03:31:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Decathlon-Alleged-Breach.webp"
+    },
     {
       "title": "New Dolphin X malware uses AI to rank high-value targets",
       "link": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
@@ -38,6 +110,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzlA3Ln3fk8yzrfLwR9egB99u67BL7NlRui9XkKviyXhFmZ3sYVTF5laSjHTwyphN51YvL39R0irNNPn2hDpVcn6EFi_NmuuSH3XTS9I71aPdZvgZRTOxXczmyqbSkcpqSy2TgOzSSJ0RzAyeQA4YXED73kIChZFtiuZ1fIVzCFvDJK4bEJ5M6Sj-qPeI/s1600/zimbra-email.jpg"
     },
     {
+      "title": "Hackers Abuse Notepad++ Plugins to Compromise Your System Silently",
+      "link": "https://cybersecuritynews.com/hackers-abuse-notepad-plugins/",
+      "description": "A stealthy new campaign in which the UAC-0099 threat cluster hijacks a legitimate Notepad++ plugin to quietly plant malware on victim machines, marking a significant evolution in the group\u0026#8217;s ...",
+      "pub_date": "Thu, 23 Jul 2026 18:04:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Abuse-Notepad-Plugins.webp"
+    },
+    {
       "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
       "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
       "description": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Zimbra Collaboration email servers by combining phishing a...",
@@ -54,6 +135,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Chaos Ransomware Turns Your Chrome and Edge Web Browser Into an Invisible Malware Command Channel",
+      "link": "https://cybersecuritynews.com/chaos-ransomware-turns-chrome-malware/",
+      "description": "Chaos ransomware has introduced a new way to hide attacker activity inside everyday web browsing. The group’s msaRAT remote-access tool turns Chrome or Microsoft Edge into a covert channel for re...",
+      "pub_date": "Thu, 23 Jul 2026 16:23:32 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Chaos-Ransomware-Turns-Your-Chrome-and-Edge-Web-Browser-Into-an-Invisible-Malware-Command-Channel.webp"
     },
     {
       "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
@@ -74,6 +164,15 @@
       "image_url": ""
     },
     {
+      "title": "Hackers’ OPSEC Mistake Exposed a Global Espionage Campaign and Its New TriBack Malware",
+      "link": "https://cybersecuritynews.com/opsec-mistake-exposed-triback-malware/",
+      "description": "A simple mistake by cyber spies has pulled back the curtain on a wide ranging espionage effort. It reached hospitals, government offices, and schools across several continents in early 2026. In mid...",
+      "pub_date": "Thu, 23 Jul 2026 15:28:29 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-OPSEC-Mistake-Exposed-a-Global-Espionage-Campaign-and-Its-New-TriBack-Malware.webp"
+    },
+    {
       "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
       "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
       "description": "Most of this week's trouble came dressed as something useful.  A package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders to an AI agent. ...",
@@ -81,6 +180,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsmJNuemIhGxFuSqY6pq1opCEJECkmIjXm5VnOqOAEjfpoLxQ89Q-qXBqKQmM8YnwyVP2_feUo4c-VLZ3cC6s_J0VCXdwhLKFezoK1-i4lWQs68yXaZS8XtHGAsDj5zsdOToB7yD1QHzuMYIVQFvb14U6Zhd1cqDOm78tRY1O3v_1LFr7CC-4ItBLpLgZ3/s1600/th.jpg"
+    },
+    {
+      "title": "Next.js Patches Nine Security Flaws Enabling SSRF, Authentication Bypass, and DoS Attacks",
+      "link": "https://cybersecuritynews.com/next-js-patches-nine-security-flaws/",
+      "description": "Vercel has disclosed and patched nine security vulnerabilities in Next.js, the widely used React framework, addressing flaws that could enable server-side request forgery (SSRF), middleware authent...",
+      "pub_date": "Thu, 23 Jul 2026 14:30:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Next.js-Patches-Nine-Security-Vulnerability.webp"
     },
     {
       "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
@@ -211,7 +319,7 @@
     {
       "title": "Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs",
       "link": "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
-      "description": "RefluXFS, a new Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600, lets an unprivileged local user overwrite root-owned files on an XFS filesystem and gain persistent root access...",
+      "description": "RefluXFS, a Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600, lets an unprivileged local user overwrite root-owned files on an XFS filesystem and gain persistent root access.  Q...",
       "pub_date": "Thu, 23 Jul 2026 13:34:35 +0530",
       "source": "The Hacker News",
       "tier": 3,
@@ -317,15 +425,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidNwrZh7WuJhViXJ0c2i53cRV82jkdqS1FS9vHeNyOd19AITMQIA03JOnpqLyp7eHJoqa8L_V-eimCMZQNyba09AUvDHQ_n1NdAzmMFOg5FPp7gSymlqtjMcJ5UdyHRtK67wQ9hhusynzExbC9AWstVxaR9koev6e0PhySMPElKOFVwmge25lODZfyQkVD/s1600/ubuntu.jpg"
     },
     {
-      "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
-      "description": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform shared with one of its suppliers. [...]",
-      "pub_date": "Wed, 22 Jul 2026 12:59:17 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Next chapter: Restructuring GitHub’s bug bounty program",
       "link": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
       "description": "GitHub is making some significant changes to its bug bounty program, shifting its focus to give researchers a better experience working with the GitHub team. The post Next chapter: Restructuring Gi...",
@@ -360,15 +459,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgnFuvwtbu7JlyR-HJX7Eyz41wIZYMuzDLiZ1XlV2ipWOE-d2aPRZkYZn8nCWJynhewu3iTAR8H15UaKqmeAMkb85_m2NpSjRyaNlp6gTgKwswcVtwzjQ8A6pQXESU-AIwRUf6qUkeVDewHfGovPjgN0lKC2lHBb3dkSJGs3NYhmv5_QawPER0P4xFGpHf/s1600/git.jpg"
-    },
-    {
-      "title": "The Fastest Path to AI Adoption Runs Through Security",
-      "link": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
-      "description": "Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the visibility they need, e...",
-      "pub_date": "Wed, 22 Jul 2026 17:28:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzhOo7Orml3Cc70jFGFxmIBeMgPE26To0_7N80uq7Ux9h7jIarD51mf18Ecq6bOfyaKpDTHp99pUmzrNECb2IklB0l0XdKjkszBLdhhgmw42OsYsqJQoxm74ci__fgn9n29j0YIr_HTlqT1-NyVyvbeB2t9pFRMVQT5GQlTMEOp-vkUFbha3SV-6cAXfYW/s1600/aa.jpg"
     },
     {
       "title": "ZDI-26-446: Microsoft Windows WMI Providers Incorrect Authorization Local Privilege Escalation Vulnerability",
