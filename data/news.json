@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-07-24T14:46:47Z",
+  "last_updated": "2026-07-24T16:35:56Z",
   "articles": [
+    {
+      "title": "Bing Images Vulnerability Lets Attackers Execute Remote Code on Microsoft Servers",
+      "link": "https://cybersecuritynews.com/bing-images-vulnerability/",
+      "description": "Three critical remote code execution (RCE) vulnerabilities in Microsoft\u0026#8217;s infrastructure, with two flaws in Bing Images allowing attackers to hijack backend image-processing servers using not...",
+      "pub_date": "Fri, 24 Jul 2026 15:56:46 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Bing-Images-Vulnerability-1.webp"
+    },
+    {
+      "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
+      "description": "Microsoft says a bug in its automated network maintenance request system caused Thursday's massive outage by mistakenly removing IP routes from more devices than intended, disrupting Azure and Micr...",
+      "pub_date": "Fri, 24 Jul 2026 11:41:44 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
+      "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+      "description": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the vid...",
+      "pub_date": "Fri, 24 Jul 2026 20:42:35 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs7TSABeFdGk4U17Tg0v-H9ZK2WmPIZ9AtmxJGCtw24Naxa7eEdlvW-eR8yl9NNCAzrMkOCKqSjsdJmAMhuXOq9rHSCE3tNWvTGBe209fpCqn7wVRpUgQ4FgskJgUIWBRz95f25kb8FwrADVj5Cqo5HALXnothJa4kWk9WCU3MG1wkpW_D17sP8o84utoA/s1600/zoom-exploit.jpg"
+    },
+    {
+      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
+      "link": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+      "description": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that mach...",
+      "pub_date": "Fri, 24 Jul 2026 19:45:21 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdJCaF3dwhncVhtS_dn9W8CUCwJSHRmtCVTK5_fXnS6RpDI4GaVTcSVoXvmo_JgxUyd-H5G3yQaRAg3Ahp__DMlq-M5r9ejhJTdk5QlVuv16HVXDWV7e3HJAijAVBRumD3XSyeyQ1O477nfXFfTvCwgFeXlYF8QIdfTN4mlYAu28JGFN7lOWTEoKwlG9g/s1600/certighost.jpg"
+    },
     {
       "title": "Chick-fil-A data breach affects more than 13,000 customers",
       "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
@@ -20,6 +56,15 @@
       "image_url": ""
     },
     {
+      "title": "Cl0p Hackers Exploit Windchill Servers to Steal Companies’ Secret Product Designs",
+      "link": "https://cybersecuritynews.com/cl0p-hackers-exploit-windchill/",
+      "description": "Cl0p ransomware affiliates are exploiting exposed PTC Windchill and FlexPLM servers to steal engineering and product-design data. The campaign combines software flaws to gain access without credent...",
+      "pub_date": "Fri, 24 Jul 2026 13:05:36 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Cl0p-Hackers-Exploit-Windchill-Servers-to-Steal-Companies-Secret-Product-Designs.webp"
+    },
+    {
       "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
       "link": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
       "description": "Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to \"The Com,\" a loosely organized network of nihilistic violent extremist groups. [...]",
@@ -27,6 +72,33 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Apache Syncope Release Patches for Multiple RCE and SQL Injection Vulnerabilities",
+      "link": "https://cybersecuritynews.com/apache-syncope-release-patches/",
+      "description": "Apache has issued critical security updates for its Syncope identity and access management (IAM) platform to address multiple vulnerabilities, including remote code execution (RCE), SQL injection, ...",
+      "pub_date": "Fri, 24 Jul 2026 11:58:13 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Apache-Syncope-releases-Patches-1.webp"
+    },
+    {
+      "title": "JetBrains Fixes Critical IntelliJ IDEA Code Execution Flaw and Four TeamCity Vulnerabilities",
+      "link": "https://cybersecuritynews.com/jetbrains-fixes-critical-vulnerabilities/",
+      "description": "JetBrains has released security updates to address a critical code execution vulnerability in IntelliJ IDEA, alongside four high-severity vulnerabilities in TeamCity. Development teams and CI admin...",
+      "pub_date": "Fri, 24 Jul 2026 11:58:10 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/JetBrains-Fixes-Critical-IntelliJ-IDEA-Code-Execution-Flaw-and-Four-TeamCity-Vulnerabilities-.webp"
+    },
+    {
+      "title": "FakeAgent Campaign Uses Malicious Bing Ads and Claude.ai Artifacts to Infect Corporate Users",
+      "link": "https://cybersecuritynews.com/fakeagent-campaign-malicious-bing-ads/",
+      "description": "A dangerous new malware campaign is tricking corporate workers who simply want a desktop version of a popular AI assistant. Between July 21 and July 22, 2026, at least 29 organizations saw unusual ...",
+      "pub_date": "Fri, 24 Jul 2026 11:54:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/FakeAgent-Campaign-Uses-Malicious-Bing-Ads-and-Claude.ai-Artifacts-to-Infect-Corporate-Users.webp"
     },
     {
       "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
@@ -56,6 +128,24 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrpwR_tXhzpbt7F1FuALLW8MYrTuwWibwuWjsRDROepxJKdbvSNlbcZLHbL54SmyG_Q_oYFTjI5fqkudKNtfJkg68jAz4STq0xXHEOXnMeOq7fxPz2UslZesQBy_pWKn3IKYNEbltVsjbZDypkqi56JOeznD5hcGEKO6yB-qS2l5cPHlcX0cli_WOHNGM/s1600/pixer.jpg"
     },
     {
+      "title": "ChonkyChicken Malware Steals Chrome Credentials, Moves Laterally and Spies on Victims",
+      "link": "https://cybersecuritynews.com/chonkychicken-steals-chrome-credentials/",
+      "description": "ChonkyChicken is a newly identified remote access trojan designed to turn one infected Windows device into a platform for credential theft, network movement, and surveillance. The malware is part o...",
+      "pub_date": "Fri, 24 Jul 2026 11:26:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/ChonkyChicken-Malware-Steals-Chrome-Credentials-Moves-Laterally-and-Spies-on-Victims.webp"
+    },
+    {
+      "title": "Microsoft Confirms No Bloatware Ads in Windows 11; LG Disables McAfee Pop-ups",
+      "link": "https://cybersecuritynews.com/microsoft-confirms-no-bloatware-ads-windows-11/",
+      "description": "Microsoft has moved quickly to shut down unwanted antivirus advertising after users discovered that connecting an LG monitor could silently install companion software and trigger a McAfee trial pop...",
+      "pub_date": "Fri, 24 Jul 2026 11:26:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Confirms-No-Bloatware-Ads-Windows-11-New.webp"
+    },
+    {
       "title": "Man gets six years for hacking 750 women's Snapchat accounts",
       "link": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
       "description": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 women to steal nude photos. [...]",
@@ -63,6 +153,33 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "SourTrade Malvertising Builds Unique Malware Inside Victims’ Browsers to Evade Detection",
+      "link": "https://cybersecuritynews.com/sourtrade-malvertising-malware/",
+      "description": "SourTrade is a long-running malvertising operation that uses fake ads to lure cryptocurrency users toward convincing copies of trading and exchange platforms. The campaign has been active since lat...",
+      "pub_date": "Fri, 24 Jul 2026 11:09:16 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/SourTrade-Malvertising-Builds-Unique-Malware-Inside-Victims-Browsers-to-Evade-Detection.webp"
+    },
+    {
+      "title": "Australian Energy Supplier Origin Confirms Security Breach",
+      "link": "https://cybersecuritynews.com/origin-confirms-security-breach/",
+      "description": "Origin Energy Limited, one of Australia’s leading energy providers, has confirmed a cybersecurity incident involving unauthorized access to customer data, raising concerns about data protection a...",
+      "pub_date": "Fri, 24 Jul 2026 11:05:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Australian-energy-supplier-Origin-Confirms-Security-Breach-2.webp"
+    },
+    {
+      "title": "Security Flaws Found in Every Script Generated by ChatGPT, Copilot, and Gemini",
+      "link": "https://cybersecuritynews.com/security-flaws-found-in-ai-script/",
+      "description": "A new academic study from Beacom College of Computer \u0026#38; Cyber Sciences has revealed that every automation script generated by leading AI models ChatGPT, Microsoft Copilot, and Google Gemini cont...",
+      "pub_date": "Fri, 24 Jul 2026 10:34:32 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Security-Flaws-Found-in-AI-Generated-Scripts.webp"
     },
     {
       "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
@@ -263,37 +380,10 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
     },
     {
-      "title": "How Synthetic Identity Fraud is Coming for Machine Identities",
-      "link": "https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html",
-      "description": "Most people understand identity theft as an attacker stealing a real person's sensitive information and impersonating them. Synthetic identity fraud is much harder to catch. Instead of stealing a r...",
-      "pub_date": "Thu, 23 Jul 2026 17:15:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3CPk7mPjct6TcYwb9c1LBGjEBTkHjIkX-_CqYIrmdg3nJu-Vyjmc2qCT_cZbFEoUNaiIEQafCVxDDD0RZfflUs8LqGu9Ecx0N7Tu3nEzHXUW2nKLefXYKsRHfVtv-TZXw_WDILy6sKkE5kk3ts5cBTaSfq1mReYwo6Fb1ghPkg4Z4bLiNuAP4ehxqFG0/s1600/keeper.jpg"
-    },
-    {
       "title": "New RefluXFS Linux flaw lets attackers gain root privileges",
       "link": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/",
       "description": "A nine-year-old race condition vulnerability in the Linux kernel's XFS filesystem, tracked as CVE-2026-64600, allows local attackers to overwrite protected files and gain root privileges. [...]",
       "pub_date": "Thu, 23 Jul 2026 07:40:16 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
-      "link": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
-      "description": "Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost Mana...",
-      "pub_date": "Thu, 23 Jul 2026 16:58:54 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrnUDzSA-4xfOL6dsXt2pFY9jJro2vbjOgvkTbiFMhSXz9Z-0WdDTORe9IPFfMr0DVr0PapP8lFuq8R12ZXRyDdMO-2v9ot7c2oy2WobbNwqn3jbKQC5XmNdgKWZB8ENBVQSADLuujJMKvd3DtNcpAFhDa5zihJDtYrQYRLMSCftHHmNg2bUiRC_gCQkFK/s1600/github-action.jpg"
-    },
-    {
-      "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
-      "link": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
-      "description": "The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or Edge browsers. [...]",
-      "pub_date": "Thu, 23 Jul 2026 06:00:00 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
