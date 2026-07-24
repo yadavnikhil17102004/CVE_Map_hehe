@@ -1,32 +1,50 @@
 {
-  "last_updated": "2026-07-24T12:13:59Z",
+  "last_updated": "2026-07-24T14:46:47Z",
   "articles": [
     {
-      "title": "Apache Syncope Release Patches for Multiple RCE and SQL Injection Vulnerabilities",
-      "link": "https://cybersecuritynews.com/apache-syncope-release-patches/",
-      "description": "Apache has issued critical security updates for its Syncope identity and access management (IAM) platform to address multiple vulnerabilities, including remote code execution (RCE), SQL injection, ...",
-      "pub_date": "Fri, 24 Jul 2026 11:58:13 +0000",
-      "source": "Cyber Security News",
+      "title": "Chick-fil-A data breach affects more than 13,000 customers",
+      "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
+      "description": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
+      "pub_date": "Fri, 24 Jul 2026 10:04:29 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Apache-Syncope-releases-Patches-1.webp"
+      "image_url": ""
     },
     {
-      "title": "JetBrains Fixes Critical IntelliJ IDEA Code Execution Flaw and Four TeamCity Vulnerabilities",
-      "link": "https://cybersecuritynews.com/jetbrains-fixes-critical-vulnerabilities/",
-      "description": "JetBrains has released security updates to address a critical code execution vulnerability in IntelliJ IDEA, alongside four high-severity vulnerabilities in TeamCity. Development teams and CI admin...",
-      "pub_date": "Fri, 24 Jul 2026 11:58:10 +0000",
-      "source": "Cyber Security News",
+      "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
+      "link": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
+      "description": "Slopsquatting, phantom squatting, and HalluSquatting all exploit the same late-binding attack pattern, where AI coding agents trust hallucinated package, repo, or domain names. ActiveState explains...",
+      "pub_date": "Fri, 24 Jul 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/JetBrains-Fixes-Critical-IntelliJ-IDEA-Code-Execution-Flaw-and-Four-TeamCity-Vulnerabilities-.webp"
+      "image_url": ""
     },
     {
-      "title": "FakeAgent Campaign Uses Malicious Bing Ads and Claude.ai Artifacts to Infect Corporate Users",
-      "link": "https://cybersecuritynews.com/fakeagent-campaign-malicious-bing-ads/",
-      "description": "A dangerous new malware campaign is tricking corporate workers who simply want a desktop version of a popular AI assistant. Between July 21 and July 22, 2026, at least 29 organizations saw unusual ...",
-      "pub_date": "Fri, 24 Jul 2026 11:54:18 +0000",
-      "source": "Cyber Security News",
+      "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
+      "description": "Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to \"The Com,\" a loosely organized network of nihilistic violent extremist groups. [...]",
+      "pub_date": "Fri, 24 Jul 2026 08:56:53 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/FakeAgent-Campaign-Uses-Malicious-Bing-Ads-and-Claude.ai-Artifacts-to-Infect-Corporate-Users.webp"
+      "image_url": ""
+    },
+    {
+      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+      "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+      "description": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an a...",
+      "pub_date": "Fri, 24 Jul 2026 17:23:55 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWjz4Sgp8xNXyO8juw5bycoRamRay35GLzSBPG3I3UWyuUovp8-qM8hMgxWiqIwW45q1cb17EkWhEYmP8ODPyhUTk1j7P2T92fjAW_R1WKleVJsywM7kzongXurU8N9olKf1F1jxpDnBKvY0s2F_wsgoGWYgRFrzN5zAoQZciTWQjLQw5NJRL66s3S1RaT/s1600/chatgpt.jpg"
+    },
+    {
+      "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
+      "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+      "description": "A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet.  XBOW's t...",
+      "pub_date": "Fri, 24 Jul 2026 17:15:17 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirbs2h3QyfDG1ChFBHv8CQNwf9JrDdDWLaZ0AZ2WTiJrsjmmeQUXSFc8FM4OvPgxDig-z2H1Di7OMqCC_0mHbicAvDw6TGF-1jWihJ458GYQBKznb3VOehlOPqWfALnkz8k3DBfehWG2z5nmpu77OgRxJ1iQxL7lsrd1IH3YR6ZHPpSUns-tdmDYScHck/s1600/bing-image.jpg"
     },
     {
       "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
@@ -38,24 +56,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrpwR_tXhzpbt7F1FuALLW8MYrTuwWibwuWjsRDROepxJKdbvSNlbcZLHbL54SmyG_Q_oYFTjI5fqkudKNtfJkg68jAz4STq0xXHEOXnMeOq7fxPz2UslZesQBy_pWKn3IKYNEbltVsjbZDypkqi56JOeznD5hcGEKO6yB-qS2l5cPHlcX0cli_WOHNGM/s1600/pixer.jpg"
     },
     {
-      "title": "ChonkyChicken Malware Steals Chrome Credentials, Moves Laterally and Spies on Victims",
-      "link": "https://cybersecuritynews.com/chonkychicken-steals-chrome-credentials/",
-      "description": "ChonkyChicken is a newly identified remote access trojan designed to turn one infected Windows device into a platform for credential theft, network movement, and surveillance. The malware is part o...",
-      "pub_date": "Fri, 24 Jul 2026 11:26:58 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/ChonkyChicken-Malware-Steals-Chrome-Credentials-Moves-Laterally-and-Spies-on-Victims.webp"
-    },
-    {
-      "title": "Microsoft Confirms No Bloatware Ads in Windows 11; LG Disables McAfee Pop-ups",
-      "link": "https://cybersecuritynews.com/microsoft-confirms-no-bloatware-ads-windows-11/",
-      "description": "Microsoft has moved quickly to shut down unwanted antivirus advertising after users discovered that connecting an LG monitor could silently install companion software and trigger a McAfee trial pop...",
-      "pub_date": "Fri, 24 Jul 2026 11:26:34 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Microsoft-Confirms-No-Bloatware-Ads-Windows-11-New.webp"
-    },
-    {
       "title": "Man gets six years for hacking 750 women's Snapchat accounts",
       "link": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
       "description": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 women to steal nude photos. [...]",
@@ -63,33 +63,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "SourTrade Malvertising Builds Unique Malware Inside Victims’ Browsers to Evade Detection",
-      "link": "https://cybersecuritynews.com/sourtrade-malvertising-malware/",
-      "description": "SourTrade is a long-running malvertising operation that uses fake ads to lure cryptocurrency users toward convincing copies of trading and exchange platforms. The campaign has been active since lat...",
-      "pub_date": "Fri, 24 Jul 2026 11:09:16 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/SourTrade-Malvertising-Builds-Unique-Malware-Inside-Victims-Browsers-to-Evade-Detection.webp"
-    },
-    {
-      "title": "Australian Energy Supplier Origin Confirms Security Breach",
-      "link": "https://cybersecuritynews.com/origin-confirms-security-breach/",
-      "description": "Origin Energy Limited, one of Australia’s leading energy providers, has confirmed a cybersecurity incident involving unauthorized access to customer data, raising concerns about data protection a...",
-      "pub_date": "Fri, 24 Jul 2026 11:05:19 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Australian-energy-supplier-Origin-Confirms-Security-Breach-2.webp"
-    },
-    {
-      "title": "Security Flaws Found in Every Script Generated by ChatGPT, Copilot, and Gemini",
-      "link": "https://cybersecuritynews.com/security-flaws-found-in-ai-script/",
-      "description": "A new academic study from Beacom College of Computer \u0026#38; Cyber Sciences has revealed that every automation script generated by leading AI models ChatGPT, Microsoft Copilot, and Google Gemini cont...",
-      "pub_date": "Fri, 24 Jul 2026 10:34:32 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Security-Flaws-Found-in-AI-Generated-Scripts.webp"
     },
     {
       "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
@@ -101,15 +74,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8qmYxOjHl19UJl8lK9TMJt86it1bULCh3SK1wSiD4JjiKU98fsHnko_QWzUWuG2ZmoHG7yxLrIgSTFRCKep1Ebj0JAH8xuTLFP_aIzGpTobs7C8u5OKGGTq79vqkHpY_Iy6LIEG-AHv-_uSJTVt2kxapGAu7qjfgiT4qpIAtnlfK3bR8he5-dubMNLYs/s1600/hermes-agent.jpg"
     },
     {
-      "title": "New HTTP/2 Vulnerability Lets Hackers Crash Servers With Memory Exhaustion Attacks",
-      "link": "https://cybersecuritynews.com/http-2-flaw-crash-servers/",
-      "description": "A newly disclosed HTTP/2 denial-of-service vulnerability is raising concerns across the cybersecurity community after researchers confirmed that unauthenticated attackers can crash vulnerable serve...",
-      "pub_date": "Fri, 24 Jul 2026 10:10:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/New-HTTP2-Flaw-With-Memory-Exhaustion-Attacks.webp"
-    },
-    {
       "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
       "link": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
       "description": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping des...",
@@ -117,15 +81,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ6m42WBQBHda1ntTqYkaxPyEiKYjc2xnTFIawfUcAxMuYQ_HtOz3ebO0HTtt3qyhUIIg8NB8W92WIfldPiOjZKCY1_aTGfgWq2NnZOhrgoU_Z8y8rtfVxCdJuc1QL94IcLm0IF_h-euFZydB5Qc8z4ifT-lx84glPyRnfTX8-R31O_0aswgRZR0uUTxs1/s1600/malwares.jpg"
-    },
-    {
-      "title": "One Compromised Wi-Fi Gateway Can Redirect Every Hotel Guest to Attacker Controlled Servers",
-      "link": "https://cybersecuritynews.com/one-compromised-wi-fi-gateway/",
-      "description": "One compromised hotel Wi-Fi gateway can silently redirect every guest to attacker controlled servers, putting corporate accounts at risk even when users think they are browsing safely. The campaign...",
-      "pub_date": "Fri, 24 Jul 2026 09:20:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/One-Compromised-Wi-Fi-Gateway-Can-Redirect-Every-Hotel-Guest-to-Attacker-Controlled-Servers.webp"
     },
     {
       "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
@@ -344,42 +299,6 @@
       "image_url": ""
     },
     {
-      "title": "Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts",
-      "link": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html",
-      "description": "Google on Thursday announced a new way for users to sign-in to their accounts by letting them take a selfie video.  The selfie for sign-in, per the tech giant, is another option on top of existing ...",
-      "pub_date": "Thu, 23 Jul 2026 15:30:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi33P1I6A4GNsGTrz72n-ZgaqJE-ksI5ub_5wWCmRVQhG7fikbuDtdu7inYjTOFVi9v1SukZnH_fWo2LiI-v6zkm2WwWrbaKGsKBK4Z6yHJvXkBX-m5HxX0VzG9Tv_Nz-17rbcUoql67ciu4oMYS2pNs946kSd95SaWvSM096CEeMaBLbSpXpA2KnZprzb-/s1600/google-account-recovery.jpg"
-    },
-    {
-      "title": "Microsoft working to fix Exchange Online mailbox quarantine issue",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
-      "description": "Microsoft is working to resolve an ongoing Exchange Online issue that has been mistakenly quarantining customers' mailboxes since Sunday. [...]",
-      "pub_date": "Thu, 23 Jul 2026 05:20:10 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
-      "description": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interface (GUI) admin panel. [...]",
-      "pub_date": "Thu, 23 Jul 2026 04:13:07 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs",
-      "link": "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
-      "description": "RefluXFS, a Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600, lets an unprivileged local user overwrite root-owned files on an XFS filesystem and gain persistent root access.  Q...",
-      "pub_date": "Thu, 23 Jul 2026 13:34:35 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_70wKHw_bPdJz-ZYXpwrH7FBXem8uWKNtuBUyXDLbMld4PaBtBkw7Gpt9lRrVnki_eC21aw6sUezqM3-oFiTEviDqZECD20lmV3enwh0lDkRLAx38JlJYMoLzRpn-Ai4q1UbiIo8DTVjp4_blU5CM6AnW97jYgIblggBYgNIHdTE6t2Ec7by-N0Ly8YY/s1600/linux-root.jpg"
-    },
-    {
       "title": "ZDI-26-452: Dify AI Workflow oauth_redirect_url Open Redirect Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-452/",
       "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Dify. User interaction is required to exploit this vulnerability in that the target must vi...",
@@ -431,15 +350,6 @@
       "pub_date": "Thu, 23 Jul 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
-      "link": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
-      "description": "The Upbound Group fintech company disclosed that threat actors who stole data from its systems leveraged it to create $13 million in Acima leases. [...]",
-      "pub_date": "Wed, 22 Jul 2026 17:43:39 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
       "image_url": ""
     },
     {
