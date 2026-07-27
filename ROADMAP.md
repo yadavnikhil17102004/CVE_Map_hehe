@@ -1,32 +1,102 @@
-# CVE Map Roadmap
+# CVE-Intel Roadmap
 
-This roadmap is pragmatic and may evolve with user feedback.
+This roadmap captures planned work that was intentionally deferred during VPS migration hardening and launch prep. It is ordered by value-to-effort and operational safety.
 
-## v1.1 (completed)
+## Current baseline (live)
 
-- [x] Publish dedicated API reference (issue #4)
-- [x] Add CI smoke tests for dashboard/news filters (issue #6)
-- [x] Add CONTRIBUTING and tighten PR checklist (issue #2)
+- VPS-hosted stack is live: Postgres + FastAPI + static frontend.
+- Public hostname is active: `https://cve-intel.duckdns.org`.
+- API is primary integration surface (`/api/*`), with docs at `/docs`.
+- Weekly public snapshots are distributed via GitHub Releases (not git history commits).
+- Legacy static-era snapshot is preserved at git tag: `legacy-static-v1`.
 
-## v1.2
+## Near-term priorities (high ROI, low/medium effort)
 
-- [ ] Improve exploit correlation quality and de-dup logic
-- [ ] Add stronger source confidence scoring
-- [ ] Add dashboard-level quick links for triage workflows
+1. Replace dashboard cross-year client fan-out with server-side `/api/search`.
+2. Add explicit paginated result UX for global search.
+3. Add CVE detail route/view combining repo + NVD + related news context.
+4. Add shareable deep links for query/filter state.
 
-## v1.3
+## Part 5 backlog — repo trust/risk intelligence
 
-- [ ] Graph-style visualizations for CVE ↔ repo relationships
-- [ ] More timeline analytics and trend slicing
-- [ ] Better mobile interaction polish
+Goal: rank PoC repositories with transparent confidence and caution signals, without hiding data.
 
-## Future exploration
+### 5.1 Trust score model (planned)
 
-- [ ] EPSS-first prioritization workflows
-- [ ] Advanced KEV-centric triage views
-- [ ] Exportable reports for SOC/research workflows
+Use two outputs per repo:
 
-## Repo/product operations
+- `trust_score` (0-100): quality/legitimacy ranking.
+- `risk_flags[]`: explicit caution indicators (never silent filtering).
 
-- [x] Complete repository rename migration checklist (issue #5)
-- [x] Maintain semantic releases (`vX.Y.Z`) (issue #3)
+Proposed weighted model:
+
+1. Relevance quality (35%)
+2. Recency/maintenance (25%)
+3. Community validation, bot-resistant weighting (20%)
+4. Repo hygiene signals (20%)
+
+### 5.2 Signals already available (no extra scraping required)
+
+- Stars/forks/language/topics/owner metadata.
+- Repo age and update timestamps.
+- Historical presence signal (`last_seen_in_scrape_at`).
+- CVE-side product/weakness/context from NVD enrichment.
+
+### 5.3 Signals requiring additional collection
+
+- Commit history depth, contributors, watchers/issues, release cadence.
+- README/license quality parsing beyond current metadata.
+- Heuristic static risk features from repository content.
+
+### 5.4 Malicious-repo risk flagging (planned, phased)
+
+Phase A (cheap, local heuristics):
+
+- suspicious freshness/star anomalies
+- repetitive account/repo patterns
+- low-content/high-keyword spam patterns
+
+Phase B (optional external enrichment):
+
+- VirusTotal or similar reputation checks
+- threat-intel list joins for known malicious PoC repos
+
+UI principle:
+
+- show everything with visible caution badges
+- do not silently suppress records
+
+## Part 6 backlog — news intelligence upgrade path
+
+Goal: evolve from plain RSS listing into CVE-linked, deduplicated, triage-friendly intelligence.
+
+### 6.1 CVE extraction and linking (top priority)
+
+- Extract CVE IDs from title/description text via regex.
+- Persist `mentioned_cves[]` and link articles to CVE records.
+- Enable "CVEs currently in the news" view.
+
+### 6.2 Cross-source deduplication/clustering
+
+- Cluster same event across feeds by CVE overlap + time window + title similarity.
+- Present one event with source fan-out rather than duplicate cards.
+
+### 6.3 Article classification + summary
+
+- Classify: advisory / exploit release / active exploitation / breach / research.
+- Add one-line summary per article.
+- Start rule-based; optionally use lightweight LLM calls when rule confidence is low.
+
+### 6.4 Trending CVE detection
+
+- Mention-frequency spike detection over rolling windows.
+- Surface "rising CVEs" as an early-warning feed.
+
+## Architecture decision note
+
+No frontend framework rebuild is required to ship Parts 5/6. Most value can be delivered backend-first, then surfaced in the existing frontend incrementally.
+
+## Deferred by design (not dropped)
+
+- Full framework rebuild (React/Vue/etc.) unless/until product complexity justifies it.
+- Advanced graph UI and multi-workspace interaction model.
