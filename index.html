@@ -250,8 +250,8 @@
       Promise.all([
         fetch(`/api/cve/${currentYear}`).then(r => r.json()).catch(() => null),
         fetch(`/api/cve/${currentYear - 1}`).then(r => r.json()).catch(() => null),
-        fetch(`/api/intel/${currentYear}`).then(r => r.json()).catch(() => null),
-        fetch(`/api/intel/${currentYear - 1}`).then(r => r.json()).catch(() => null)
+        fetch(`/api/intel-summary/${currentYear}`).then(r => r.json()).catch(() => null),
+        fetch(`/api/intel-summary/${currentYear - 1}`).then(r => r.json()).catch(() => null)
       ]).then(([dataCurr, dataPrev, nvdCurr, nvdPrev]) => {
         const allCves = [...(dataCurr?.cves || []), ...(dataPrev?.cves || [])];
         const nvdLayer = { ...(nvdPrev || {}), ...(nvdCurr || {}) };

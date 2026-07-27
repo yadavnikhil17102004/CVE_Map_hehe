@@ -9,7 +9,7 @@
   
   <!-- Open Graph / Social -->
   <meta property="og:title" content="CVE Map API Documentation"/>
-  <meta property="og:description" content="Integrate real-time GitHub exploit intelligence via our static zero-backend JSON endpoints."/>
+  <meta property="og:description" content="Integrate CVE-Intel through its live Postgres-backed FastAPI endpoints."/>
   <meta property="og:type" content="website"/>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -131,7 +131,7 @@
             <span class="material-symbols-outlined text-primary text-3xl">lightbulb</span>
             <div>
               <h4 class="text-white font-bold text-sm mb-1">Developer Notice</h4>
-              <p class="text-xs text-gray-400 leading-relaxed">The API files are updated dynamically by our Go-based scraper hourly. They are static JSON files served via CDN for optimal performance, meaning you don't need authentication to GET the intelligence endpoints.</p>
+              <p class="text-xs text-gray-400 leading-relaxed">The API is powered by FastAPI + Postgres and ingested by scheduled Go scrapers. Endpoints are public, unauthenticated, and support pagination for high-volume years.</p>
             </div>
           </div>
         </section>
@@ -217,7 +217,7 @@
         <!-- SECTION: Endpoints -->
         <section id="endpoints" class="space-y-6">
           <h2 class="text-2xl font-bold text-white border-t border-border pt-10">Data Endpoints</h2>
-          <p class="text-dim text-sm">The intelligence feed is split by year. Access the static endpoints directly for integration into SIEMs or custom tooling.</p>
+          <p class="text-dim text-sm">The intelligence feed is split by year. Access `/api/*` endpoints directly for SIEM or custom integrations.</p>
           
           <div class="glass overflow-hidden rounded-xl border border-border">
             <div class="flex items-center px-4 py-2 border-b border-border bg-surface-2/30">
@@ -227,8 +227,10 @@
               <span class="ml-4 text-[10px] font-mono text-dim uppercase tracking-wider">Bash</span>
             </div>
             <div class="p-4 bg-bg-dark overflow-x-auto space-y-4">
-              <pre class="font-mono text-[13px] leading-relaxed"><span class="text-success"># Fetch all exploits tracked in 2026</span>
-<span class="text-primary">curl</span> -s <span class="text-gray-300">"/api/cve/2026"</span> | <span class="text-primary">jq</span> .</pre>
+              <pre class="font-mono text-[13px] leading-relaxed"><span class="text-success"># Fetch paginated CVE-to-repo mappings for 2026</span>
+<span class="text-primary">curl</span> -s <span class="text-gray-300">"/api/cve/2026?page=1&amp;per_page=200"</span> | <span class="text-primary">jq</span> .</pre>
+              <pre class="font-mono text-[13px] leading-relaxed"><span class="text-success"># Fetch intel only for mapped CVEs in 2026 (lighter than full-year intel)</span>
+<span class="text-primary">curl</span> -s <span class="text-gray-300">"/api/intel-summary/2026"</span> | <span class="text-primary">jq</span> .</pre>
               <pre class="font-mono text-[13px] leading-relaxed"><span class="text-success"># Fetch Live Cybersecurity News stream</span>
 <span class="text-primary">curl</span> -s <span class="text-gray-300">"/api/news"</span> | <span class="text-primary">jq</span> .</pre>
             </div>

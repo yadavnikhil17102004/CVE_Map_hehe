@@ -82,9 +82,14 @@ GitHub Search + NVD + EPSS + RSS feeds
 
 - `GET /api/cve/{year}`
 - `GET /api/intel/{year}`
+- `GET /api/intel-summary/{year}` (intel only for CVEs that have mapped repos in that year)
 - `GET /api/news`
 - `GET /api/search?q=...&page=...&per_page=...`
 - `GET /api/health`
+
+Pagination:
+- `/api/cve/{year}` supports optional `page` + `per_page` (defaults to full year if omitted).
+- `/api/intel/{year}` supports optional `page` + `per_page` and optional `cve_ids` (comma-separated).
 
 ## Data Distribution Model
 

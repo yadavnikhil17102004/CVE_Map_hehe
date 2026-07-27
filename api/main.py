@@ -45,8 +45,11 @@ def _json_default(value: Any) -> Any:
     return value
 
 
-def make_json_response(payload: Any) -> JSONResponse:
-    return JSONResponse(content=json.loads(json.dumps(payload, default=_json_default)))
+def make_json_response(payload: Any, cache_control: Optional[str] = None) -> JSONResponse:
+    response = JSONResponse(content=json.loads(json.dumps(payload, default=_json_default)))
+    if cache_control:
+        response.headers["Cache-Control"] = cache_control
+    return response
 
 
 @contextmanager
@@ -129,61 +132,225 @@ def health(request: Request):
 
 @app.get("/api/cve/{year}")
 @limiter.limit("90/minute")
-def get_cve_by_year(request: Request, year: int):
+def get_cve_by_year(
+    request: Request,
+    year: int,
+    page: Optional[int] = Query(None, ge=1),
+    per_page: int = Query(200, ge=1, le=500),
+):
     if year < 1999 or year > 2100:
         raise HTTPException(status_code=400, detail="invalid year")
+
+    is_paginated = page is not None
+    page_num = page or 1
+    offset = (page_num - 1) * per_page
 
     with db_cursor() as cur:
         cur.execute(
             """
-            SELECT cve_id, repo_id, repo_name, full_name, repo_url, description,
-                   stargazers_count, forks_count, language, updated_at, pushed_at,
-                   created_at, topics, owner_login, owner_html_url, clone_url,
-                   has_code, age_days
+            SELECT COUNT(DISTINCT cve_id)::BIGINT AS total
             FROM cve_repos
             WHERE year = %s
-            ORDER BY cve_id ASC, stargazers_count DESC NULLS LAST, repo_id ASC
             """,
             (year,),
         )
+        total = int(cur.fetchone()["total"])
+        if total == 0:
+            payload = {"year": year, "cves": []}
+            if is_paginated:
+                payload.update({"page": page_num, "per_page": per_page, "total": 0})
+            return make_json_response(payload, cache_control="public, max-age=300")
+
+        cve_ids: Optional[List[str]] = None
+        if is_paginated:
+            cur.execute(
+                """
+                SELECT DISTINCT cve_id
+                FROM cve_repos
+                WHERE year = %s
+                ORDER BY cve_id ASC
+                LIMIT %s OFFSET %s
+                """,
+                (year, per_page, offset),
+            )
+            cve_rows = cur.fetchall()
+            cve_ids = [row["cve_id"] for row in cve_rows]
+            if not cve_ids:
+                payload = {
+                    "year": year,
+                    "page": page_num,
+                    "per_page": per_page,
+                    "total": total,
+                    "cves": [],
+                }
+                return make_json_response(payload, cache_control="public, max-age=300")
+
+        if is_paginated:
+            cur.execute(
+                """
+                SELECT cve_id, repo_id, repo_name, full_name, repo_url, description,
+                       stargazers_count, forks_count, language, updated_at, pushed_at,
+                       created_at, topics, owner_login, owner_html_url, clone_url,
+                       has_code, age_days
+                FROM cve_repos
+                WHERE year = %s
+                  AND cve_id = ANY(%s)
+                ORDER BY cve_id ASC, stargazers_count DESC NULLS LAST, repo_id ASC
+                """,
+                (year, cve_ids),
+            )
+        else:
+            cur.execute(
+                """
+                SELECT cve_id, repo_id, repo_name, full_name, repo_url, description,
+                       stargazers_count, forks_count, language, updated_at, pushed_at,
+                       created_at, topics, owner_login, owner_html_url, clone_url,
+                       has_code, age_days
+                FROM cve_repos
+                WHERE year = %s
+                ORDER BY cve_id ASC, stargazers_count DESC NULLS LAST, repo_id ASC
+                """,
+                (year,),
+            )
         rows = cur.fetchall()
 
     grouped: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     for row in rows:
         grouped[row["cve_id"]].append(row_to_repo(row))
 
-    payload = {
-        "year": year,
-        "cves": [
-            {"cve_id": cve_id, "repositories": repos}
-            for cve_id, repos in grouped.items()
-        ],
-    }
-    return make_json_response(payload)
+    cves = [{"cve_id": cve_id, "repositories": repos} for cve_id, repos in grouped.items()]
+    payload = {"year": year, "cves": cves}
+    if is_paginated:
+        payload.update({"page": page_num, "per_page": per_page, "total": total})
+    return make_json_response(payload, cache_control="public, max-age=300")
 
 
 @app.get("/api/intel/{year}")
 @limiter.limit("90/minute")
-def get_intel_by_year(request: Request, year: int):
+def get_intel_by_year(
+    request: Request,
+    year: int,
+    page: Optional[int] = Query(None, ge=1),
+    per_page: int = Query(1000, ge=1, le=5000),
+    cve_ids: Optional[str] = Query(None, description="Comma-separated CVE IDs to filter by"),
+):
+    if year < 1999 or year > 2100:
+        raise HTTPException(status_code=400, detail="invalid year")
+
+    is_paginated = page is not None
+    page_num = page or 1
+    offset = (page_num - 1) * per_page
+    cve_filter: Optional[List[str]] = None
+    if cve_ids:
+        cve_filter = sorted(
+            {
+                cve.strip().upper()
+                for cve in cve_ids.split(",")
+                if cve and cve.strip()
+            }
+        )
+        if not cve_filter:
+            raise HTTPException(status_code=400, detail="cve_ids provided but no valid CVE IDs found")
+        if len(cve_filter) > 5000:
+            raise HTTPException(status_code=400, detail="cve_ids supports at most 5000 IDs per request")
+
+    with db_cursor() as cur:
+        if cve_filter:
+            cur.execute(
+                """
+                SELECT COUNT(*)::BIGINT AS total
+                FROM nvd_intel
+                WHERE year = %s
+                  AND cve_id = ANY(%s)
+                """,
+                (year, cve_filter),
+            )
+        else:
+            cur.execute(
+                """
+                SELECT COUNT(*)::BIGINT AS total
+                FROM nvd_intel
+                WHERE year = %s
+                """,
+                (year,),
+            )
+        total = int(cur.fetchone()["total"])
+        if total == 0:
+            if is_paginated:
+                payload = {"year": year, "page": page_num, "per_page": per_page, "total": 0, "intel": {}}
+                return make_json_response(payload, cache_control="public, max-age=300")
+            return make_json_response({}, cache_control="public, max-age=300")
+
+        if cve_filter:
+            cur.execute(
+                """
+                SELECT cve_id, cvss_score, severity, description, cvss_vector,
+                       cwe, kev_flag, source, published_date, status,
+                       epss_score, products
+                FROM nvd_intel
+                WHERE year = %s
+                  AND cve_id = ANY(%s)
+                ORDER BY cve_id ASC
+                LIMIT %s OFFSET %s
+                """,
+                (
+                    year,
+                    cve_filter,
+                    per_page if is_paginated else total,
+                    offset if is_paginated else 0,
+                ),
+            )
+        else:
+            cur.execute(
+                """
+                SELECT cve_id, cvss_score, severity, description, cvss_vector,
+                       cwe, kev_flag, source, published_date, status,
+                       epss_score, products
+                FROM nvd_intel
+                WHERE year = %s
+                ORDER BY cve_id ASC
+                LIMIT %s OFFSET %s
+                """,
+                (year, per_page if is_paginated else total, offset if is_paginated else 0),
+            )
+        rows = cur.fetchall()
+
+    intel = {row["cve_id"]: row_to_compact_intel(row) for row in rows}
+    if is_paginated:
+        payload = {
+            "year": year,
+            "page": page_num,
+            "per_page": per_page,
+            "total": total,
+            "intel": intel,
+        }
+        return make_json_response(payload, cache_control="public, max-age=300")
+
+    return make_json_response(intel, cache_control="public, max-age=300")
+
+
+@app.get("/api/intel-summary/{year}")
+@limiter.limit("120/minute")
+def get_intel_summary_by_year(request: Request, year: int):
     if year < 1999 or year > 2100:
         raise HTTPException(status_code=400, detail="invalid year")
 
     with db_cursor() as cur:
         cur.execute(
             """
-            SELECT cve_id, cvss_score, severity, description, cvss_vector,
-                   cwe, kev_flag, source, published_date, status,
-                   epss_score, products
-            FROM nvd_intel
-            WHERE year = %s
-            ORDER BY cve_id ASC
+            SELECT c.cve_id, n.cvss_score, n.severity, n.description, n.cvss_vector,
+                   n.cwe, n.kev_flag, n.source, n.published_date, n.status,
+                   n.epss_score, n.products
+            FROM (SELECT DISTINCT cve_id FROM cve_repos WHERE year = %s) c
+            LEFT JOIN nvd_intel n ON n.cve_id = c.cve_id
+            ORDER BY c.cve_id ASC
             """,
             (year,),
         )
         rows = cur.fetchall()
 
     payload = {row["cve_id"]: row_to_compact_intel(row) for row in rows}
-    return make_json_response(payload)
+    return make_json_response(payload, cache_control="public, max-age=300")
 
 
 @app.get("/api/news")
@@ -223,7 +390,7 @@ def get_news(request: Request, limit: int = Query(200, ge=1, le=500)):
         "last_updated": last_updated,
         "articles": articles,
     }
-    return make_json_response(payload)
+    return make_json_response(payload, cache_control="public, max-age=120")
 
 
 @app.get("/api/search")
@@ -376,4 +543,4 @@ def search(
         "total": total,
         "cves": ordered,
     }
-    return make_json_response(payload)
+    return make_json_response(payload, cache_control="no-store")
