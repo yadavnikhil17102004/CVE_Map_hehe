@@ -87,7 +87,7 @@
         class="bg-surface-2 border border-border focus:border-primary focus:ring-1 focus:ring-primary rounded pl-8 pr-3 py-1.5 text-xs text-white placeholder-gray-500 w-64 xl:w-80 transition-all outline-none"
         placeholder="Search CVEs, repos, language, topics..." type="text"/>
     </div>
-    <a id="api-link" href="data/2026.json" target="_blank"
+    <a id="api-link" href="/api/cve/2026" target="_blank"
       class="flex items-center gap-1.5 px-2.5 py-1.5 rounded border border-border text-xs font-medium hover:bg-surface-2 transition-colors text-gray-300">
       <span class="material-symbols-outlined text-sm">terminal</span>
       API JSON
@@ -397,7 +397,7 @@ async function ensureIntelForCurrentYear() {
 async function loadNvdIntel(year) {
   if (year in nvdCache) return nvdCache[year];
   try {
-    const r = await fetch(`data/nvd_intel_${year}.json`);
+    const r = await fetch(`/api/intel/${year}`);
     nvdCache[year] = r.ok ? await r.json() : {};
   } catch(_) {
     nvdCache[year] = {};
@@ -555,7 +555,7 @@ async function loadYear(year) {
   nvdLayer = nvdCache[year] || null;
   setLoading(`Fetching ${year} threat data...`);
   try {
-    const r = await fetch(`data/${year}.json`);
+    const r = await fetch(`/api/cve/${year}`);
     if (!r.ok) throw new Error('not found');
     currentData = await r.json();
   } catch (_) {
@@ -569,7 +569,7 @@ async function loadYear(year) {
   buildTrendChart(currentData, year);
   buildSevChart(currentData);
   buildActivityFeed(currentData);
-  document.getElementById('api-link').href = `data/${year}.json`;
+  document.getElementById('api-link').href = `/api/cve/${year}`;
 }
 
 // ============================================================
@@ -594,7 +594,7 @@ async function buildActivityFeed() {
   }
 
   try {
-    const res = await fetch('data/news.json');
+    const res = await fetch('/api/news');
     if (!res.ok) throw new Error('Not found');
     const data = await res.json();
     
@@ -863,7 +863,7 @@ async function globalSearch(q) {
   const fetches = YEARS.map(async y => {
     if (yearCache[y]) return;
     try {
-      const r = await fetch(`data/${y}.json`);
+      const r = await fetch(`/api/cve/${y}`);
       if (r.ok) yearCache[y] = await r.json();
     } catch(_) {}
   });

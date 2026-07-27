@@ -228,9 +228,9 @@
             </div>
             <div class="p-4 bg-bg-dark overflow-x-auto space-y-4">
               <pre class="font-mono text-[13px] leading-relaxed"><span class="text-success"># Fetch all exploits tracked in 2026</span>
-<span class="text-primary">curl</span> -s <span class="text-gray-300">"https://yadavnikhil17102004.github.io/CVE-Intel/data/2026.json"</span> | <span class="text-primary">jq</span> .</pre>
+<span class="text-primary">curl</span> -s <span class="text-gray-300">"/api/cve/2026"</span> | <span class="text-primary">jq</span> .</pre>
               <pre class="font-mono text-[13px] leading-relaxed"><span class="text-success"># Fetch Live Cybersecurity News stream</span>
-<span class="text-primary">curl</span> -s <span class="text-gray-300">"https://yadavnikhil17102004.github.io/CVE-Intel/data/news.json"</span> | <span class="text-primary">jq</span> .</pre>
+<span class="text-primary">curl</span> -s <span class="text-gray-300">"/api/news"</span> | <span class="text-primary">jq</span> .</pre>
             </div>
           </div>
         </section>
@@ -337,8 +337,8 @@
       const currentYear = new Date().getFullYear();
       
       Promise.all([
-        fetch(`data/${currentYear}.json`).then(r => r.json()).catch(() => null),
-        fetch(`data/nvd_intel_${currentYear}.json`).then(r => r.json()).catch(() => null)
+        fetch(`/api/cve/${currentYear}`).then(r => r.json()).catch(() => null),
+        fetch(`/api/intel/${currentYear}`).then(r => r.json()).catch(() => null)
       ]).then(([dataCurr, nvdCurr]) => {
         const cves = dataCurr?.cves || [];
         const nvdLayer = nvdCurr || {};
