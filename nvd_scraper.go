@@ -1,18 +1,20 @@
 package main
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 	"io"
 	"log"
 	"net/http"
 	"os"
-	"path/filepath"
 	"regexp"
 	"sort"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 var cpeRegex = regexp.MustCompile(`^cpe:2\.3:[aoh]:([^:]+):([^:]+):`)
@@ -33,13 +35,13 @@ type Vulnerability struct {
 }
 
 type CVE2 struct {
-	ID                    string      `json:"id"`
-	Published             string      `json:"published"`
-	LastModified          string      `json:"lastModified"`
-	VulnStatus            string      `json:"vulnStatus"`
-	Descriptions          []LangValue `json:"descriptions"`
-	Metrics               Metrics2    `json:"metrics"`
-	Weaknesses            []Weakness  `json:"weaknesses"`
+	ID                    string          `json:"id"`
+	Published             string          `json:"published"`
+	LastModified          string          `json:"lastModified"`
+	VulnStatus            string          `json:"vulnStatus"`
+	Descriptions          []LangValue     `json:"descriptions"`
+	Metrics               Metrics2        `json:"metrics"`
+	Weaknesses            []Weakness      `json:"weaknesses"`
 	CisaExploitAdd        string          `json:"cisaExploitAdd,omitempty"`
 	CisaVulnerabilityName string          `json:"cisaVulnerabilityName,omitempty"`
 	Configurations        []Configuration `json:"configurations"`
@@ -93,7 +95,7 @@ type ConfigNode struct {
 }
 
 type CPEMatch struct {
-	Criteria   string `json:"criteria"`  // e.g. "cpe:2.3:a:apache:log4j:*:..."
+	Criteria   string `json:"criteria"` // e.g. "cpe:2.3:a:apache:log4j:*:..."
 	Vulnerable bool   `json:"vulnerable"`
 }
 
@@ -102,17 +104,17 @@ type CPEMatch struct {
 // ============================================================
 
 type CVEIntel struct {
-	Score     float64  `json:"s"`            // CVSS base score
-	Severity  string   `json:"v"`            // CRITICAL / HIGH / MEDIUM / LOW
-	Desc      string   `json:"d"`            // English description
-	Vector    string   `json:"c,omitempty"`  // CVSS vector string
-	CWE       string   `json:"w,omitempty"`  // Primary CWE (e.g. CWE-502)
-	KEV       bool     `json:"k,omitempty"`  // true if in CISA Known Exploited Vulnerabilities
-	Source    string   `json:"r,omitempty"`  // "NIST" or "CNA"
-	Published string   `json:"p,omitempty"`  // YYYY-MM-DD
-	Status    string   `json:"u,omitempty"`  // vulnStatus
-	EPSS      float64  `json:"e,omitempty"`  // EPSS probability 0.0–1.0
-	Products  []string `json:"q,omitempty"`  // "vendor:product" pairs from CPE data
+	Score     float64  `json:"s"`           // CVSS base score
+	Severity  string   `json:"v"`           // CRITICAL / HIGH / MEDIUM / LOW
+	Desc      string   `json:"d"`           // English description
+	Vector    string   `json:"c,omitempty"` // CVSS vector string
+	CWE       string   `json:"w,omitempty"` // Primary CWE (e.g. CWE-502)
+	KEV       bool     `json:"k,omitempty"` // true if in CISA Known Exploited Vulnerabilities
+	Source    string   `json:"r,omitempty"` // "NIST" or "CNA"
+	Published string   `json:"p,omitempty"` // YYYY-MM-DD
+	Status    string   `json:"u,omitempty"` // vulnStatus
+	EPSS      float64  `json:"e,omitempty"` // EPSS probability 0.0–1.0
+	Products  []string `json:"q,omitempty"` // "vendor:product" pairs from CPE data
 }
 
 type EPSSResponse struct {
@@ -127,58 +129,246 @@ type EPSSEntry struct {
 	Percentile string `json:"percentile"` // not used
 }
 
-// ============================================================
-// Minimal data file structs (to read our own JSON)
-// ============================================================
-
-type DataFile struct {
-	CVEs []struct {
-		CVEID string `json:"cve_id"`
-	} `json:"cves"`
+func pgConnStringFromEnv() string {
+	if url := strings.TrimSpace(os.Getenv("DATABASE_URL")); url != "" {
+		return url
+	}
+	host := strings.TrimSpace(os.Getenv("POSTGRES_HOST"))
+	db := strings.TrimSpace(os.Getenv("POSTGRES_DB"))
+	user := strings.TrimSpace(os.Getenv("POSTGRES_USER"))
+	password := os.Getenv("POSTGRES_PASSWORD")
+	if host == "" || db == "" || user == "" || password == "" {
+		return ""
+	}
+	port := strings.TrimSpace(os.Getenv("POSTGRES_PORT"))
+	if port == "" {
+		port = "5432"
+	}
+	sslmode := strings.TrimSpace(os.Getenv("POSTGRES_SSLMODE"))
+	if sslmode == "" {
+		sslmode = "disable"
+	}
+	return fmt.Sprintf(
+		"host=%s port=%s user=%s password=%s dbname=%s sslmode=%s",
+		host, port, user, password, db, sslmode,
+	)
 }
 
-// ============================================================
-// writeIntelByYear — split dictionary into per-year files
-// ============================================================
-
-// writeIntelByYear splits the dictionary into data/nvd_intel_{year}.json files.
-// It also writes data/nvd_intel.json as a full fallback for the public API.
-func writeIntelByYear(dictionary map[string]CVEIntel) {
-	byYear := make(map[string]map[string]CVEIntel)
-	yearRegex := regexp.MustCompile(`^CVE-(\d{4})-`)
-	for id, intel := range dictionary {
-		m := yearRegex.FindStringSubmatch(id)
-		if m == nil {
-			continue
-		}
-		y := m[1]
-		if byYear[y] == nil {
-			byYear[y] = make(map[string]CVEIntel)
-		}
-		byYear[y][id] = intel
+func parseDateNullable(v string) *time.Time {
+	if strings.TrimSpace(v) == "" {
+		return nil
 	}
-	for year, slice := range byYear {
-		out, err := json.Marshal(slice)
-		if err != nil {
-			log.Printf("[-] Failed to marshal year %s: %v", year, err)
-			continue
-		}
-		path := filepath.Join("data", fmt.Sprintf("nvd_intel_%s.json", year))
-		if err := os.WriteFile(path, out, 0644); err != nil {
-			log.Printf("[-] Failed to write %s: %v", path, err)
-		} else {
-			log.Printf("[+] Wrote %s (%d CVEs, %.1f KB)", path, len(slice), float64(len(out))/1024.0)
-		}
-	}
-	// Also write full file for public API consumers
-	full, err := json.Marshal(dictionary)
+	t, err := time.Parse("2006-01-02", v)
 	if err != nil {
-		log.Printf("[-] Failed to marshal full intel: %v", err)
-	} else if err := os.WriteFile(filepath.Join("data", "nvd_intel.json"), full, 0644); err != nil {
-		log.Printf("[-] Failed to write nvd_intel.json fallback: %v", err)
-	} else {
-		log.Printf("[+] Wrote nvd_intel.json fallback (%.1f KB)", float64(len(full))/1024.0)
+		return nil
 	}
+	return &t
+}
+
+func envDuration(name string, fallback time.Duration) time.Duration {
+	raw := strings.TrimSpace(os.Getenv(name))
+	if raw == "" {
+		return fallback
+	}
+	d, err := time.ParseDuration(raw)
+	if err != nil || d <= 0 {
+		log.Printf("[-] Invalid %s=%q, using default %s", name, raw, fallback)
+		return fallback
+	}
+	return d
+}
+
+func envInt(name string, fallback int) int {
+	raw := strings.TrimSpace(os.Getenv(name))
+	if raw == "" {
+		return fallback
+	}
+	v, err := strconv.Atoi(raw)
+	if err != nil || v <= 0 {
+		log.Printf("[-] Invalid %s=%q, using default %d", name, raw, fallback)
+		return fallback
+	}
+	return v
+}
+
+func loadIntelFromPostgres(connString string) (map[string]CVEIntel, error) {
+	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Minute)
+	defer cancel()
+	pool, err := pgxpool.New(ctx, connString)
+	if err != nil {
+		return nil, err
+	}
+	defer pool.Close()
+
+	rows, err := pool.Query(ctx, `
+SELECT cve_id, cvss_score, severity, description, cvss_vector, cwe, kev_flag, source,
+       published_date, status, epss_score, products
+FROM nvd_intel`)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	dictionary := make(map[string]CVEIntel)
+	for rows.Next() {
+		var (
+			cveID     string
+			score     float64
+			severity  *string
+			desc      *string
+			vector    *string
+			cwe       *string
+			kev       *bool
+			source    *string
+			published *time.Time
+			status    *string
+			epss      *float64
+			products  []string
+		)
+		if err := rows.Scan(
+			&cveID, &score, &severity, &desc, &vector, &cwe, &kev, &source,
+			&published, &status, &epss, &products,
+		); err != nil {
+			return nil, err
+		}
+		intel := CVEIntel{Score: score}
+		if severity != nil {
+			intel.Severity = *severity
+		}
+		if desc != nil {
+			intel.Desc = *desc
+		}
+		if vector != nil {
+			intel.Vector = *vector
+		}
+		if cwe != nil {
+			intel.CWE = *cwe
+		}
+		if kev != nil {
+			intel.KEV = *kev
+		}
+		if source != nil {
+			intel.Source = *source
+		}
+		if published != nil {
+			intel.Published = published.Format("2006-01-02")
+		}
+		if status != nil {
+			intel.Status = *status
+		}
+		if epss != nil {
+			intel.EPSS = *epss
+		}
+		if len(products) > 0 {
+			intel.Products = products
+		}
+		dictionary[cveID] = intel
+	}
+	if err := rows.Err(); err != nil {
+		return nil, err
+	}
+	return dictionary, nil
+}
+
+func upsertIntelToPostgres(dictionary map[string]CVEIntel) error {
+	connString := pgConnStringFromEnv()
+	if connString == "" {
+		return nil
+	}
+	upsertTimeout := envDuration("NVD_UPSERT_TIMEOUT", 30*time.Minute)
+	ctx, cancel := context.WithTimeout(context.Background(), upsertTimeout)
+	defer cancel()
+
+	pool, err := pgxpool.New(ctx, connString)
+	if err != nil {
+		return err
+	}
+	defer pool.Close()
+
+	tx, err := pool.Begin(ctx)
+	if err != nil {
+		return err
+	}
+	defer tx.Rollback(ctx)
+
+	const sql = `
+INSERT INTO nvd_intel (
+  cve_id, year, cvss_score, severity, description, cvss_vector,
+  cwe, kev_flag, source, published_date, status, epss_score, products, updated_at
+) VALUES (
+  $1,$2,$3,$4,$5,$6,
+  $7,$8,$9,$10,$11,$12,$13::jsonb,NOW()
+)
+ON CONFLICT (cve_id) DO UPDATE SET
+  year = EXCLUDED.year,
+  cvss_score = EXCLUDED.cvss_score,
+  severity = EXCLUDED.severity,
+  description = EXCLUDED.description,
+  cvss_vector = EXCLUDED.cvss_vector,
+  cwe = EXCLUDED.cwe,
+  kev_flag = EXCLUDED.kev_flag,
+  source = EXCLUDED.source,
+  published_date = EXCLUDED.published_date,
+  status = EXCLUDED.status,
+  epss_score = EXCLUDED.epss_score,
+  products = EXCLUDED.products,
+  updated_at = NOW()
+`
+
+	yearRegex := regexp.MustCompile(`^CVE-(\d{4})-\d{4,}$`)
+	batchSize := envInt("NVD_UPSERT_BATCH_SIZE", 2000)
+	cveIDs := make([]string, 0, len(dictionary))
+	for cveID := range dictionary {
+		cveIDs = append(cveIDs, cveID)
+	}
+	sort.Strings(cveIDs)
+
+	upserts := 0
+	for start := 0; start < len(cveIDs); start += batchSize {
+		end := start + batchSize
+		if end > len(cveIDs) {
+			end = len(cveIDs)
+		}
+
+		tx, err := pool.Begin(ctx)
+		if err != nil {
+			return err
+		}
+
+		batchUpserts := 0
+		for _, cveID := range cveIDs[start:end] {
+			intel := dictionary[cveID]
+			m := yearRegex.FindStringSubmatch(cveID)
+			if m == nil {
+				continue
+			}
+			year, err := strconv.Atoi(m[1])
+			if err != nil {
+				continue
+			}
+			productsJSON, _ := json.Marshal(intel.Products)
+			if _, err := tx.Exec(
+				ctx, sql,
+				cveID, year, intel.Score, intel.Severity, intel.Desc, intel.Vector,
+				intel.CWE, intel.KEV, intel.Source, parseDateNullable(intel.Published),
+				intel.Status, intel.EPSS, string(productsJSON),
+			); err != nil {
+				_ = tx.Rollback(ctx)
+				return err
+			}
+			batchUpserts++
+		}
+
+		if err := tx.Commit(ctx); err != nil {
+			_ = tx.Rollback(ctx)
+			return err
+		}
+		upserts += batchUpserts
+		log.Printf("[+] nvd_intel upsert batch complete: %d/%d rows", upserts, len(cveIDs))
+	}
+
+	log.Printf("[+] Postgres upsert complete for nvd_intel: %d rows (timeout=%s, batch_size=%d)", upserts, upsertTimeout, batchSize)
+	return nil
 }
 
 // fetchEPSS fetches EPSS scores for up to 100 CVE IDs at a time.
@@ -241,17 +431,15 @@ func main() {
 		log.Println("[i] No NVD_API_KEY — unauthenticated rate (5 req/30s). Add key to speed up.")
 	}
 
-	os.MkdirAll("data", 0755)
-
-	// Load existing dictionary (accumulate across runs)
-	dictionary := make(map[string]CVEIntel)
-	if raw, err := os.ReadFile(filepath.Join("data", "nvd_intel.json")); err == nil {
-		if err := json.Unmarshal(raw, &dictionary); err != nil {
-			log.Printf("[-] Warning: existing intel file unparseable — rebuilding fresh.")
-		} else {
-			log.Printf("[i] Loaded %d existing signatures.", len(dictionary))
-		}
+	connString := pgConnStringFromEnv()
+	if connString == "" {
+		log.Fatal("[-] Postgres connection is required (DATABASE_URL or POSTGRES_* env vars).")
 	}
+	dictionary, err := loadIntelFromPostgres(connString)
+	if err != nil {
+		log.Fatalf("[-] Failed loading baseline intel from Postgres: %v", err)
+	}
+	log.Printf("[i] Loaded %d existing signatures from Postgres.", len(dictionary))
 
 	// ── Phase 1: 180-day modification window ─────────────────
 	// Catches new CVEs and updated scores on existing ones.
@@ -270,10 +458,9 @@ func main() {
 	}
 
 	// ── Phase 2: Targeted backfill ───────────────────────────
-	// Read all data/*.json, find CVE IDs that are missing or
-	// have score=0 (UNSCORED), fetch them individually from NVD.
-	log.Println("[+] Phase 2: Targeted backfill for unscored CVEs in data files...")
-	missing := collectMissingCVEs("data", dictionary)
+	// Source CVE IDs from Postgres.
+	log.Println("[+] Phase 2: Targeted backfill for unscored CVEs...")
+	missing := collectMissingCVEsFromPostgres(dictionary)
 	log.Printf("  Found %d CVEs to backfill (missing or unscored).", len(missing))
 	if len(missing) > 0 {
 		fetchTargeted(missing, dictionary, apiKey)
@@ -314,8 +501,10 @@ func main() {
 	log.Printf("  -> EPSS scores applied to %d/%d CVEs (%.2f%% coverage).", enriched, len(dictionary), epssCoverage)
 	log.Printf("  -> KEV matched: %d/%d CVEs.", kevMatched, len(dictionary))
 
-	// ── Write output ─────────────────────────────────────────
-	writeIntelByYear(dictionary)
+	// ── Persist output ───────────────────────────────────────
+	if err := upsertIntelToPostgres(dictionary); err != nil {
+		log.Fatalf("[-] Postgres upsert failed: %v", err)
+	}
 	elapsed := time.Since(start).Round(time.Millisecond)
 	log.Printf("[+] Enrichment summary: CVEs processed=%d, NVD matched=%d, KEV matched=%d, EPSS matched=%d, EPSS coverage=%.2f%%",
 		len(allIDs), len(dictionary), kevMatched, enriched, epssCoverage)
@@ -367,64 +556,65 @@ func fetchWindow(from, to time.Time, dict map[string]CVEIntel, apiKey string) er
 }
 
 // ============================================================
-// Phase 2: Collect missing/unscored CVE IDs from data files
+// Phase 2: Collect missing/unscored CVE IDs from Postgres
 // ============================================================
 
-// collectMissingCVEs scans all data/*.json files for CVE IDs that are
-// either absent from the dictionary, have score == 0 (UNSCORED), or are
-// Deferred with a publish date older than 30 days (NVD usually scores within
-// 2-4 weeks, so stale Deferred entries are worth retrying).
-// Non-standard IDs (OTHER-*, GHSA-*, etc.) are filtered out.
-func collectMissingCVEs(dataDir string, dict map[string]CVEIntel) []string {
-	validCVE := regexp.MustCompile(`^CVE-\d{4}-\d{4,}$`) // strict format only
-	cutoff := time.Now().AddDate(0, 0, -30)
-
-	pattern := filepath.Join(dataDir, "*.json")
-	files, err := filepath.Glob(pattern)
-	if err != nil {
-		log.Printf("[-] Glob error: %v", err)
+// collectMissingCVEsFromPostgres reads distinct CVE IDs from cve_repos and
+// identifies targets that are missing/unscored in nvd_intel dictionary.
+// It keeps the same "stale Deferred" retry rule as previous file-based logic.
+func collectMissingCVEsFromPostgres(dict map[string]CVEIntel) []string {
+	connString := pgConnStringFromEnv()
+	if connString == "" {
 		return nil
 	}
+	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
+	defer cancel()
 
-	seen := make(map[string]bool)
+	pool, err := pgxpool.New(ctx, connString)
+	if err != nil {
+		log.Printf("[-] Postgres connect failed for targeted backfill source: %v", err)
+		return nil
+	}
+	defer pool.Close()
+
+	rows, err := pool.Query(ctx, `SELECT DISTINCT cve_id FROM cve_repos ORDER BY cve_id`)
+	if err != nil {
+		log.Printf("[-] Postgres query failed for targeted backfill source: %v", err)
+		return nil
+	}
+	defer rows.Close()
+
+	validCVE := regexp.MustCompile(`^CVE-\d{4}-\d{4,}$`)
+	cutoff := time.Now().AddDate(0, 0, -30)
 	var missing []string
+	seen := make(map[string]bool)
 
-	for _, f := range files {
-		base := filepath.Base(f)
-		if base == "nvd_intel.json" || strings.HasPrefix(base, "nvd_intel_") || base == "news.json" {
+	for rows.Next() {
+		var id string
+		if err := rows.Scan(&id); err != nil {
 			continue
 		}
-		raw, err := os.ReadFile(f)
-		if err != nil {
+		if !validCVE.MatchString(id) || seen[id] {
 			continue
 		}
-		var df DataFile
-		if err := json.Unmarshal(raw, &df); err != nil {
+		seen[id] = true
+
+		existing, ok := dict[id]
+		if (!ok || existing.Score == 0) && existing.Status != "Deferred" {
+			missing = append(missing, id)
 			continue
 		}
-		for _, cve := range df.CVEs {
-			id := cve.CVEID
-			if !validCVE.MatchString(id) {
-				continue // skip OTHER-XXXX, GHSA-*, etc.
-			}
-			if seen[id] {
-				continue
-			}
-			seen[id] = true
-			existing, ok := dict[id]
-			if (!ok || existing.Score == 0) && existing.Status != "Deferred" {
+		if existing.Status == "Deferred" && existing.Published != "" {
+			pub, err := time.Parse("2006-01-02", existing.Published)
+			if err == nil && pub.Before(cutoff) {
 				missing = append(missing, id)
-				continue
-			}
-			// Retry stale Deferred entries (NVD usually scores within 2-4 weeks)
-			if existing.Status == "Deferred" && existing.Published != "" {
-				pub, err := time.Parse("2006-01-02", existing.Published)
-				if err == nil && pub.Before(cutoff) {
-					missing = append(missing, id)
-				}
 			}
 		}
 	}
+	if err := rows.Err(); err != nil {
+		log.Printf("[-] Postgres rows iteration error: %v", err)
+	}
+	log.Printf("[i] Targeted backfill source: Postgres cve_repos (%d candidate CVEs)", len(seen))
 	return missing
 }
 
@@ -437,7 +627,7 @@ func fetchTargeted(cveIDs []string, dict map[string]CVEIntel, apiKey string) {
 	deadline := time.Now().Add(phaseBudget)
 
 	fetched := 0
-	failed  := 0
+	failed := 0
 
 	for i, id := range cveIDs {
 		// Time-based stop — any remainder picked up on the next 6h cycle
@@ -474,42 +664,75 @@ func fetchTargeted(cveIDs []string, dict map[string]CVEIntel, apiKey string) {
 
 // nvdClient is a shared HTTP client so that TCP/TLS connections are reused
 // across the many sequential NVD requests, reducing latency and overhead.
-var nvdClient = &http.Client{Timeout: 30 * time.Second}
+var nvdClient = &http.Client{
+	Timeout: envDuration("NVD_HTTP_TIMEOUT", 2*time.Minute),
+}
 
 func nvdGet(url, apiKey string) (*NVD2Response, error) {
-	req, err := http.NewRequest("GET", url, nil)
-	if err != nil {
-		return nil, err
-	}
-	req.Header.Set("Accept", "application/json")
-	if apiKey != "" {
-		req.Header.Set("apiKey", apiKey)
+	maxRetries := envInt("NVD_HTTP_MAX_RETRIES", 3)
+	for attempt := 1; attempt <= maxRetries+1; attempt++ {
+		req, err := http.NewRequest("GET", url, nil)
+		if err != nil {
+			return nil, err
+		}
+		req.Header.Set("Accept", "application/json")
+		if apiKey != "" {
+			req.Header.Set("apiKey", apiKey)
+		}
+
+		resp, err := nvdClient.Do(req)
+		if err != nil {
+			if attempt <= maxRetries {
+				backoff := time.Duration(2*attempt) * time.Second
+				log.Printf("  [i] NVD request attempt %d/%d failed: %v (retry in %s)", attempt, maxRetries+1, err, backoff)
+				time.Sleep(backoff)
+				continue
+			}
+			return nil, err
+		}
+
+		if resp.StatusCode == 403 || resp.StatusCode == 429 {
+			resp.Body.Close()
+			if attempt <= maxRetries {
+				time.Sleep(35 * time.Second)
+				continue
+			}
+			return nil, fmt.Errorf("HTTP %d after retries", resp.StatusCode)
+		}
+		if resp.StatusCode >= 500 {
+			resp.Body.Close()
+			if attempt <= maxRetries {
+				backoff := time.Duration(2*attempt) * time.Second
+				time.Sleep(backoff)
+				continue
+			}
+			return nil, fmt.Errorf("HTTP %d after retries", resp.StatusCode)
+		}
+		if resp.StatusCode != 200 {
+			resp.Body.Close()
+			return nil, fmt.Errorf("HTTP %d", resp.StatusCode)
+		}
+
+		body, err := io.ReadAll(resp.Body)
+		resp.Body.Close()
+		if err != nil {
+			if attempt <= maxRetries {
+				backoff := time.Duration(2*attempt) * time.Second
+				log.Printf("  [i] NVD read attempt %d/%d failed: %v (retry in %s)", attempt, maxRetries+1, err, backoff)
+				time.Sleep(backoff)
+				continue
+			}
+			return nil, err
+		}
+
+		var result NVD2Response
+		if err := json.Unmarshal(body, &result); err != nil {
+			return nil, fmt.Errorf("JSON parse error: %w", err)
+		}
+		return &result, nil
 	}
 
-	resp, err := nvdClient.Do(req)
-	if err != nil {
-		return nil, err
-	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode == 403 {
-		// Rate limited — back off and retry once
-		time.Sleep(35 * time.Second)
-		return nvdGet(url, apiKey)
-	}
-	if resp.StatusCode != 200 {
-		return nil, fmt.Errorf("HTTP %d", resp.StatusCode)
-	}
-
-	body, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, err
-	}
-	var result NVD2Response
-	if err := json.Unmarshal(body, &result); err != nil {
-		return nil, fmt.Errorf("JSON parse error: %w", err)
-	}
-	return &result, nil
+	return nil, fmt.Errorf("unreachable NVD retry loop")
 }
 
 // rateSleep respects NVD rate limits:
@@ -577,10 +800,10 @@ func extractIntel(cve CVE2) CVEIntel {
 	allV3 := append(cve.Metrics.CVSSMetricV31, cve.Metrics.CVSSMetricV30...)
 	for _, m := range allV3 {
 		if m.Type == "Primary" && m.CVSSData.BaseScore > 0 {
-			intel.Score    = m.CVSSData.BaseScore
+			intel.Score = m.CVSSData.BaseScore
 			intel.Severity = m.CVSSData.BaseSeverity
-			intel.Vector   = m.CVSSData.VectorString
-			intel.Source   = "NIST"
+			intel.Vector = m.CVSSData.VectorString
+			intel.Source = "NIST"
 			scoreSet = true
 			break
 		}
@@ -588,10 +811,10 @@ func extractIntel(cve CVE2) CVEIntel {
 	if !scoreSet {
 		for _, m := range allV3 {
 			if m.Type == "Secondary" && m.CVSSData.BaseScore > 0 {
-				intel.Score    = m.CVSSData.BaseScore
+				intel.Score = m.CVSSData.BaseScore
 				intel.Severity = m.CVSSData.BaseSeverity
-				intel.Vector   = m.CVSSData.VectorString
-				intel.Source   = "CNA"
+				intel.Vector = m.CVSSData.VectorString
+				intel.Source = "CNA"
 				scoreSet = true
 				break
 			}
@@ -600,10 +823,10 @@ func extractIntel(cve CVE2) CVEIntel {
 	if !scoreSet {
 		for _, m := range cve.Metrics.CVSSMetricV2 {
 			if m.CVSSData.BaseScore > 0 {
-				intel.Score    = m.CVSSData.BaseScore
+				intel.Score = m.CVSSData.BaseScore
 				intel.Severity = m.BaseSeverity
-				intel.Vector   = m.CVSSData.VectorString
-				intel.Source   = "CVSSv2"
+				intel.Vector = m.CVSSData.VectorString
+				intel.Source = "CVSSv2"
 				break
 			}
 		}

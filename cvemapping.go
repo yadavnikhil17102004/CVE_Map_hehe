@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"context"
 	"encoding/json"
 	"flag"
 	"fmt"
@@ -18,6 +19,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 type RepoDetails struct {
@@ -96,7 +99,13 @@ func main() {
 	log.SetFlags(0)
 
 	if *token == "" {
-		log.Fatal("GitHub token is required")
+		*token = strings.TrimSpace(os.Getenv("GITHUB_TOKEN"))
+	}
+	if *token == "" {
+		*token = strings.TrimSpace(os.Getenv("SYNC_TOKEN"))
+	}
+	if *token == "" {
+		log.Fatal("GitHub token is required via -github-token or env (GITHUB_TOKEN/SYNC_TOKEN)")
 	}
 
 	var input string
@@ -365,6 +374,121 @@ func fetchRepositoriesForMonth(baseQuery string, token string, year int, month i
 // across the many sequential GitHub API requests, reducing latency and overhead.
 var githubClient = &http.Client{
 	Timeout: 30 * time.Second,
+}
+
+func pgConnStringFromEnv() string {
+	if url := strings.TrimSpace(os.Getenv("DATABASE_URL")); url != "" {
+		return url
+	}
+	host := strings.TrimSpace(os.Getenv("POSTGRES_HOST"))
+	db := strings.TrimSpace(os.Getenv("POSTGRES_DB"))
+	user := strings.TrimSpace(os.Getenv("POSTGRES_USER"))
+	password := os.Getenv("POSTGRES_PASSWORD")
+	if host == "" || db == "" || user == "" || password == "" {
+		return ""
+	}
+	port := strings.TrimSpace(os.Getenv("POSTGRES_PORT"))
+	if port == "" {
+		port = "5432"
+	}
+	sslmode := strings.TrimSpace(os.Getenv("POSTGRES_SSLMODE"))
+	if sslmode == "" {
+		sslmode = "disable"
+	}
+	return fmt.Sprintf(
+		"host=%s port=%s user=%s password=%s dbname=%s sslmode=%s",
+		host, port, user, password, db, sslmode,
+	)
+}
+
+func parseRFC3339Nullable(v string) *time.Time {
+	if strings.TrimSpace(v) == "" {
+		return nil
+	}
+	t, err := time.Parse(time.RFC3339, v)
+	if err != nil {
+		return nil
+	}
+	return &t
+}
+
+func upsertYearDataToPostgres(year int, cveEntries []CVEEntry) error {
+	connString := pgConnStringFromEnv()
+	if connString == "" {
+		return nil
+	}
+
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute)
+	defer cancel()
+
+	pool, err := pgxpool.New(ctx, connString)
+	if err != nil {
+		return err
+	}
+	defer pool.Close()
+
+	tx, err := pool.Begin(ctx)
+	if err != nil {
+		return err
+	}
+	defer tx.Rollback(ctx)
+
+	const sql = `
+INSERT INTO cve_repos (
+  cve_id, year, repo_id, repo_name, full_name, repo_url, description,
+  stargazers_count, forks_count, language, updated_at, pushed_at, created_at,
+  topics, owner_login, owner_html_url, clone_url, has_code, age_days, last_seen_in_scrape_at
+) VALUES (
+  $1,$2,$3,$4,$5,$6,$7,
+  $8,$9,$10,$11,$12,$13,
+  $14::jsonb,$15,$16,$17,$18,$19,NOW()
+)
+ON CONFLICT (cve_id, repo_id) DO UPDATE SET
+  year = EXCLUDED.year,
+  repo_name = EXCLUDED.repo_name,
+  full_name = EXCLUDED.full_name,
+  repo_url = EXCLUDED.repo_url,
+  description = EXCLUDED.description,
+  stargazers_count = EXCLUDED.stargazers_count,
+  forks_count = EXCLUDED.forks_count,
+  language = EXCLUDED.language,
+  updated_at = EXCLUDED.updated_at,
+  pushed_at = EXCLUDED.pushed_at,
+  created_at = EXCLUDED.created_at,
+  topics = EXCLUDED.topics,
+  owner_login = EXCLUDED.owner_login,
+  owner_html_url = EXCLUDED.owner_html_url,
+  clone_url = EXCLUDED.clone_url,
+  has_code = EXCLUDED.has_code,
+  age_days = EXCLUDED.age_days,
+  discovered_at = NOW(),
+  last_seen_in_scrape_at = NOW()
+`
+
+	upserts := 0
+	for _, entry := range cveEntries {
+		for _, repo := range entry.Repositories {
+			topicsJSON, _ := json.Marshal(repo.Topics)
+			if _, err := tx.Exec(
+				ctx, sql,
+				entry.CVEID, year, repo.ID, repo.Name, repo.FullName, repo.HTMLURL, repo.Description,
+				repo.StargazersCount, repo.ForksCount, repo.Language,
+				parseRFC3339Nullable(repo.UpdatedAt),
+				parseRFC3339Nullable(repo.PushedAt),
+				parseRFC3339Nullable(repo.CreatedAt),
+				string(topicsJSON), repo.Owner.Login, repo.Owner.HTMLURL, repo.CloneURL, repo.HasCode, repo.AgeDays,
+			); err != nil {
+				return err
+			}
+			upserts++
+		}
+	}
+
+	if err := tx.Commit(ctx); err != nil {
+		return err
+	}
+	log.Printf("[+] Postgres upsert complete for year %d: %d repo rows", year, upserts)
+	return nil
 }
 
 // Function to fetch repositories directly from GitHub API
@@ -643,12 +767,6 @@ func toCVERepository(repo *GitHubRepository) CVERepository {
 
 // Export repositories to JSON files organized by year
 func exportToJSON(repos []*GitHubRepository, year string) error {
-	// Create data directory if it doesn't exist
-	dataDir := "data"
-	if err := os.MkdirAll(dataDir, 0755); err != nil {
-		return fmt.Errorf("failed to create data directory: %w", err)
-	}
-
 	// Group repositories by CVE ID
 	cveMap := make(map[string][]CVERepository)
 	cveRegex := regexp.MustCompile(fmt.Sprintf(`(?i)cve-%s-\d+`, year))
@@ -722,18 +840,11 @@ func exportToJSON(repos []*GitHubRepository, year string) error {
 		CVEs: cveEntries,
 	}
 
-	// Write JSON file (Swap MarshalIndent for Marshal to create zero-bloat minified output)
-	jsonFile := fmt.Sprintf("%s/%s.json", dataDir, year)
-	jsonData, err := json.Marshal(yearData)
-	if err != nil {
-		return fmt.Errorf("failed to marshal JSON: %w", err)
+	_ = yearData // preserved for shape parity with historical JSON schema
+	if err := upsertYearDataToPostgres(yearInt, cveEntries); err != nil {
+		return fmt.Errorf("postgres upsert failed: %w", err)
 	}
+	log.Printf("[+] Export complete (Postgres-only): %d CVEs for year %d", len(cveEntries), yearInt)
 
-	err = os.WriteFile(jsonFile, jsonData, 0644)
-	if err != nil {
-		return fmt.Errorf("failed to write JSON file: %w", err)
-	}
-
-	log.Printf("Exported %d CVEs to %s", len(cveEntries), jsonFile)
 	return nil
 }

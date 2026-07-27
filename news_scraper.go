@@ -2,18 +2,18 @@ package main
 
 import (
 	"context"
-	"encoding/json"
 	"encoding/xml"
 	"fmt"
 	"log"
 	"net/http"
 	"os"
-	"path/filepath"
 	"regexp"
 	"sort"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 // Define unified output struct for frontend
@@ -98,13 +98,103 @@ var feeds = map[string]FeedSource{
 
 var imgRegex = regexp.MustCompile(`(?i)<img[^>]+src="([^">]+)"`)
 
+func pgConnStringFromEnv() string {
+	if url := strings.TrimSpace(os.Getenv("DATABASE_URL")); url != "" {
+		return url
+	}
+	host := strings.TrimSpace(os.Getenv("POSTGRES_HOST"))
+	db := strings.TrimSpace(os.Getenv("POSTGRES_DB"))
+	user := strings.TrimSpace(os.Getenv("POSTGRES_USER"))
+	password := os.Getenv("POSTGRES_PASSWORD")
+	if host == "" || db == "" || user == "" || password == "" {
+		return ""
+	}
+	port := strings.TrimSpace(os.Getenv("POSTGRES_PORT"))
+	if port == "" {
+		port = "5432"
+	}
+	sslmode := strings.TrimSpace(os.Getenv("POSTGRES_SSLMODE"))
+	if sslmode == "" {
+		sslmode = "disable"
+	}
+	return fmt.Sprintf(
+		"host=%s port=%s user=%s password=%s dbname=%s sslmode=%s",
+		host, port, user, password, db, sslmode,
+	)
+}
+
+func upsertNewsToPostgres(data NewsData) error {
+	connString := pgConnStringFromEnv()
+	if connString == "" {
+		return nil
+	}
+	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Minute)
+	defer cancel()
+
+	pool, err := pgxpool.New(ctx, connString)
+	if err != nil {
+		return err
+	}
+	defer pool.Close()
+
+	tx, err := pool.Begin(ctx)
+	if err != nil {
+		return err
+	}
+	defer tx.Rollback(ctx)
+
+	lastUpdated := parseTime(data.LastUpdated)
+	const sql = `
+INSERT INTO news_items (
+  title, link, source, tier, description, image_url, pub_date_raw, published_at, last_updated
+) VALUES (
+  $1,$2,$3,$4,$5,$6,$7,$8,$9
+)
+ON CONFLICT (link) DO UPDATE SET
+  title = EXCLUDED.title,
+  source = EXCLUDED.source,
+  tier = EXCLUDED.tier,
+  description = EXCLUDED.description,
+  image_url = EXCLUDED.image_url,
+  pub_date_raw = EXCLUDED.pub_date_raw,
+  published_at = EXCLUDED.published_at,
+  last_updated = EXCLUDED.last_updated,
+  ingested_at = NOW()
+`
+
+	upserts := 0
+	for _, item := range data.Articles {
+		pub := parseTime(item.PubDate)
+		var pubPtr *time.Time
+		if !pub.IsZero() {
+			pubPtr = &pub
+		}
+		var updPtr *time.Time
+		if !lastUpdated.IsZero() {
+			updPtr = &lastUpdated
+		}
+		if _, err := tx.Exec(
+			ctx, sql,
+			item.Title, item.Link, item.Source, item.Tier, item.Description, item.ImageURL,
+			item.PubDate, pubPtr, updPtr,
+		); err != nil {
+			return err
+		}
+		upserts++
+	}
+
+	if err := tx.Commit(ctx); err != nil {
+		return err
+	}
+	log.Printf("[+] Postgres upsert complete for news_items: %d rows", upserts)
+	return nil
+}
+
 func main() {
 	start := time.Now()
 	log.Println("[+] Live Cyber News Scraper Booting...")
 
 	// Make sure data directory exists
-	os.MkdirAll("data", 0755)
-
 	var allItems []NewsItem
 	var mu sync.Mutex
 	var wg sync.WaitGroup
@@ -140,19 +230,12 @@ func main() {
 		Articles:    allItems,
 	}
 
-	// Write to JSON file
-	outFile := filepath.Join("data", "news.json")
-	outJSON, err := json.MarshalIndent(data, "", "  ") // Indent for readability
-	if err != nil {
-		log.Fatalf("[-] FATAL: Failed to serialize news items: %v", err)
-	}
-
-	if err := os.WriteFile(outFile, outJSON, 0644); err != nil {
-		log.Fatalf("[-] FATAL: Failed to write %s: %v", outFile, err)
+	if err := upsertNewsToPostgres(data); err != nil {
+		log.Fatalf("[-] Postgres upsert failed: %v", err)
 	}
 
 	elapsed := time.Since(start).Round(time.Millisecond)
-	log.Printf("[+] Done in %s. Scraped %d articles -> %s", elapsed, len(allItems), outFile)
+	log.Printf("[+] Done in %s. Scraped %d articles (Postgres-only)", elapsed, len(allItems))
 }
 
 // Worker to fetch and parse an RSS feed
