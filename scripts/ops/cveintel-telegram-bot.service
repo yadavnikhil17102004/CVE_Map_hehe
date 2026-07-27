@@ -1,0 +1,18 @@
+[Unit]
+Description=CVE-Intel Telegram read-only status bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+EnvironmentFile=/etc/cve-intel.env
+ExecStart=/usr/bin/env python3 /usr/local/bin/cveintel-telegram-bot.py
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

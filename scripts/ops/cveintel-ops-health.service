@@ -1,0 +1,14 @@
+[Unit]
+Description=CVE-Intel ops health freshness check (scrape/news/backup/snapshot)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+Group=root
+EnvironmentFile=/etc/cve-intel.env
+ExecStart=/usr/local/bin/cveintel-ops-health.sh
+SuccessExitStatus=1
+StandardOutput=journal
+StandardError=journal

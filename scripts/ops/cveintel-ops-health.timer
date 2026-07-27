@@ -1,0 +1,10 @@
+[Unit]
+Description=Run CVE-Intel ops health check every 15 minutes
+
+[Timer]
+OnCalendar=*:0/15
+Persistent=true
+Unit=cveintel-ops-health.service
+
+[Install]
+WantedBy=timers.target
