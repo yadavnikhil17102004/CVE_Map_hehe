@@ -365,18 +365,8 @@ let typeFilter     = 'all';   // exploit type filter
 let severityFilter = 'all';   // critical | high | medium | low | unscored
 let kevFilter      = 'all';   // all | only | exclude
 let epssFilter     = 'all';   // all | high | medium_plus | low | unknown
-let yearCache     = {};      // cache of all fetched year data for global search
 let nvdCache      = {};      // per-year NVD intel cache
-
-function needsIntelForCurrentView(query = '') {
-  const q = (query || '').toLowerCase();
-  return (
-    severityFilter !== 'all' ||
-    kevFilter !== 'all' ||
-    epssFilter !== 'all' ||
-    /\b(cvss|cwe|kev|nvd|nist|critical|high|medium|low|epss|exploitability)\b/.test(q)
-  );
-}
+let globalSearchController = null;
 
 async function ensureIntelForYear(year) {
   const intel = await loadNvdIntel(year);
@@ -467,7 +457,10 @@ function getCurrentSearchQuery() {
 function refreshCurrentView() {
   const q = getCurrentSearchQuery();
   if (q) globalSearch(q);
-  else renderList('');
+  else {
+    if (globalSearchController) globalSearchController.abort();
+    renderList('');
+  }
 }
 
 function syncFilterControls() {
@@ -855,40 +848,76 @@ function sortList(list) {
 // GLOBAL CROSS-YEAR SEARCH
 // ============================================================
 async function globalSearch(q) {
-  const query = q.toLowerCase();
+  const query = q.trim();
+  if (!query) {
+    renderList('');
+    return;
+  }
+
+  if (globalSearchController) globalSearchController.abort();
+  globalSearchController = new AbortController();
+  const { signal } = globalSearchController;
+
   setLoading(`Searching all years for "${q}"...`);
   document.getElementById('result-count').textContent = 'searching...';
 
-  // Fetch any uncached years
-  const fetches = YEARS.map(async y => {
-    if (yearCache[y]) return;
-    try {
-      const r = await fetch(`/api/cve/${y}`);
-      if (r.ok) yearCache[y] = await r.json();
-    } catch(_) {}
+  const severityParamByFilter = {
+    critical: 'CRITICAL',
+    high: 'HIGH',
+    medium: 'MEDIUM',
+    low: 'LOW',
+  };
+  const params = new URLSearchParams({
+    q: query,
+    per_page: '200',
   });
-  await Promise.all(fetches);
-
-  const needsIntel = needsIntelForCurrentView(query);
-  if (needsIntel) {
-    await Promise.all(YEARS.map(async y => {
-      if (!(y in nvdCache)) await loadNvdIntel(y);
-    }));
+  if (severityFilter in severityParamByFilter) {
+    params.set('severity', severityParamByFilter[severityFilter]);
   }
+  if (kevFilter === 'only') params.set('kev', 'true');
+  if (kevFilter === 'exclude') params.set('kev', 'false');
 
-  const results = []; // { cve_id, repositories, _year }
+  const includeByClientFilters = (cve) => {
+    const intelMap = cve.intel ? { [cve.cve_id]: cve.intel } : null;
+    if (!matchesFilters(cve, intelMap)) return false;
+    if (typeFilter !== 'all') {
+      const [label] = getType(cve.cve_id, cve.repositories || []);
+      if (label !== typeFilter) return false;
+    }
+    return true;
+  };
 
-  YEARS.forEach(y => {
-    const ydata = yearCache[y];
-    if (!ydata?.cves) return;
-    const intel = nvdCache[y] || null;
-    ydata.cves.forEach(cve => {
-      if (!matchesFilters(cve, intel)) return;
-      if (buildSearchText(cve, intel).includes(query)) {
-        results.push({ ...cve, _year: y });
+  const maxPages = 8;
+  const maxShown = 800;
+  const results = [];
+  let backendTotal = 0;
+  let page = 1;
+
+  try {
+    while (page <= maxPages && results.length < maxShown) {
+      params.set('page', String(page));
+      const r = await fetch(`/api/search?${params.toString()}`, { signal });
+      if (!r.ok) throw new Error('search failed');
+      const payload = await r.json();
+      backendTotal = payload.total || backendTotal;
+      const batch = payload.cves || [];
+      if (!batch.length) break;
+
+      for (const cve of batch) {
+        const row = { ...cve, _year: cve.year };
+        if (includeByClientFilters(row)) results.push(row);
+        if (results.length >= maxShown) break;
       }
-    });
-  });
+
+      if (batch.length < 200) break;
+      page += 1;
+    }
+  } catch (err) {
+    if (err.name === 'AbortError') return;
+    setEmpty('Search failed. Please retry in a moment.', q);
+    document.getElementById('result-count').textContent = 'search failed';
+    return;
+  }
 
   const sorted = sortList(results);
   maxStars = sorted.length
@@ -896,8 +925,16 @@ async function globalSearch(q) {
         (c.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0)))
     : 1;
 
-  document.getElementById('result-count').textContent =
-    `${sorted.length.toLocaleString()} across all years`;
+  if (sorted.length >= maxShown) {
+    document.getElementById('result-count').textContent =
+      `${sorted.length.toLocaleString()}+ shown (refine filters to narrow)`;
+  } else if (backendTotal) {
+    document.getElementById('result-count').textContent =
+      `${sorted.length.toLocaleString()} shown · ${backendTotal.toLocaleString()} backend matches`;
+  } else {
+    document.getElementById('result-count').textContent =
+      `${sorted.length.toLocaleString()} across all years`;
+  }
 
   if (!sorted.length) {
     setEmpty(`No CVEs match "${q}" with the active filters.`, q);
