@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-07-27T06:19:22Z",
+  "last_updated": "2026-07-27T10:33:56Z",
   "articles": [
+    {
+      "title": "Claude Code Symlink Import Lets Malicious Repositories Silently Exfiltrate Local Files",
+      "link": "https://cybersecuritynews.com/claude-code-symlink-import-malicious-repositories/",
+      "description": "Claude Code can load files from outside a repository through a symlinked memory import, which may allow local data to be included in the model\u0026#8217;s first outbound request before the model perfor...",
+      "pub_date": "Mon, 27 Jul 2026 09:50:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Claude-Code-Symlink-Import-Lets-Malicious-Repositories-Silently-Exfiltrate-Local-Files-2.webp"
+    },
+    {
+      "title": "Hackers are Setting Up Websites Impersonating Popular Windows Apps to Deliver Malware",
+      "link": "https://cybersecuritynews.com/websites-impersonating-popular-windows-apps/",
+      "description": "Hackers are quietly building lookalike websites that pretend to be popular Windows apps, then use those pages to push malware onto unsuspecting users. The scheme already covers more than 70 well kn...",
+      "pub_date": "Mon, 27 Jul 2026 09:39:50 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-are-Setting-Up-Websites-Impersonating-Popular-Windows-Apps-to-Deliver-Malware.webp"
+    },
+    {
+      "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
+      "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+      "description": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East.  The intrusions have resulted in the...",
+      "pub_date": "Mon, 27 Jul 2026 14:18:47 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikuWOQRYm6WQ1zHmOlYkI7jlVOUUKGBIlo68iWyUVuaZ5n3i7ODu8DYpntAk2aGZQ_7LsYpXpp5v0PcQMLxP8LQOajtKl-WaDBb7_wDpo8P3-iCcAwr74JY4rXNeHJJv9h6EB447wPEnrZE08YfDO_WI9N4B_C1lPvxILfvv00Z_J8yHntLSfNYbPVCDjS/s1600/telegram-c2.jpg"
+    },
+    {
+      "title": "SparkKitty Malware Steals Crypto Wallet Seed Phrases From iOS and Android Photos",
+      "link": "https://cybersecuritynews.com/sparkkitty-malware-steals-crypto-wallet/",
+      "description": "A new mobile threat is quietly targeting cryptocurrency users by reading the photos stored on their phones. Known as SparkKitty, this malware works on both iOS and Android devices and focuses on st...",
+      "pub_date": "Mon, 27 Jul 2026 08:41:56 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/SparkKitty-Malware-Steals-Crypto-Wallet-Seed-Phrases-From-iOS-and-Android-Photos.webp"
+    },
+    {
+      "title": "Windows 11’s File Explorer Is Now Faster at Deleting Large Files",
+      "link": "https://cybersecuritynews.com/windows-11-speeds-up-file-deletions/",
+      "description": "Microsoft is rolling out a targeted performance update for Windows 11 designed to resolve one of the platform\u0026#8217;s most persistent storage annoyances: sluggish deletion of large, highly fragment...",
+      "pub_date": "Mon, 27 Jul 2026 08:41:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-11-File-Explorer.webp"
+    },
+    {
+      "title": "Ransomware Gangs Attack Palo Alto, Fortinet, Citrix, and Check Point VPNs to Target Corporate Networks",
+      "link": "https://cybersecuritynews.com/ransomware-gangs-attack-vpn/",
+      "description": "A coordinated wave of exploitation targeting edge VPN and firewall appliances from four major vendors Palo Alto Networks, Fortinet, Citrix, and Check Point has emerged as the dominant initial-acces...",
+      "pub_date": "Mon, 27 Jul 2026 08:12:16 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Ransomware-Gangs-Attack-VPN1.webp"
+    },
+    {
+      "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
+      "link": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+      "description": "GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request.  \"The cooldown configuration o...",
+      "pub_date": "Mon, 27 Jul 2026 13:31:23 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFpE4BZgV3wILI8fonm9742zR85yLmBdM2ExXv-uTUS1StV04ZlNVVIwV6FjjhYLZUAFk-DAIInwp3mlXa2W2xekDA_EqSl1UiHrKCgocsjhVAKlvCD48QnlVdUdCIQia7T4ilS65ZFptdi_wox0Q9brVTdpoqDNTvpCjg0D6BslyCAPRzY7QMyUoYNkv-/s1600/gitbot.jpg"
+    },
+    {
+      "title": "BlueNoroff Hijacks Trusted Telegram Accounts to Deliver ClickFix Malware Through Fake Zoom Calls",
+      "link": "https://cybersecuritynews.com/bluenoroff-hijacks-trusted-telegram-accounts/",
+      "description": "A North Korean hacking unit has refined a scheme that turns everyday chats into malware traps. The BlueNoroff group, linked to the wider Lazarus ecosystem, is taking over real Telegram accounts tha...",
+      "pub_date": "Mon, 27 Jul 2026 08:00:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/BlueNoroff-Hijacks-Trusted-Telegram-Accounts-to-Deliver-ClickFix-Malware-Through-Fake-Zoom-Calls.webp"
+    },
+    {
+      "title": "PyPI Blocks New File Uploads on 14-Day-Old Releases to Prevent Package Poisoning Attacks",
+      "link": "https://cybersecuritynews.com/pypi-14-day-release-lock/",
+      "description": "PyPI has introduced a new security measure that prevents users from uploading new files to package releases that are more than 14 days old. This change aims to stop attackers from adding malicious ...",
+      "pub_date": "Mon, 27 Jul 2026 07:34:49 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/PyPI-Locks-Releases-After-14-Days-to-Stop-Attackers-Poisoning-Trusted-Python-Packages-1.webp"
+    },
+    {
+      "title": "Researchers Successfully Booted Jailbroken Version of iOS 27 on an iPhone 11 Pro",
+      "link": "https://cybersecuritynews.com/booted-jailbroken-ios-27-iphone-11-pro/",
+      "description": "Security researchers have successfully booted a jailbroken build of iOS 27 on an iPhone 11 Pro by combining the recently disclosed usbliter8 SecureROM exploit with a heavily modified custom firmwar...",
+      "pub_date": "Mon, 27 Jul 2026 07:11:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/booted-Jailbroken-version-of-iOS-27-on-an-iPhone-11-Pro.webp"
+    },
+    {
+      "title": "Google Is Giving Hacker Groups New Names That Reveal Who They Are and Why They Attack",
+      "link": "https://cybersecuritynews.com/google-is-giving-hacker-groups-new-names/",
+      "description": "Google is changing how it names the hacker groups it tracks, replacing a patchwork of labels with names designed to explain more at a glance. The change is intended to make threat reports easier to...",
+      "pub_date": "Mon, 27 Jul 2026 06:50:46 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Google-Is-Giving-Hacker-Groups-New-Names-That-Reveal-Who-They-Are-and-Why-They-Attack.webp"
+    },
     {
       "title": "Eight NodeBB Vulnerabilities Let Hackers Read Your Private Chats and Take Over the Forum",
       "link": "https://cybersecuritynews.com/eight-nodebb-vulnerabilities/",
@@ -11,42 +110,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Eight-NodeBB-Vulnerabilities-Let-Hackers-Read-Your-Private-Chats-and-Take-Over-the-Forum.webp"
     },
     {
-      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-      "link": "https://cybersecuritynews.com/chatgpt-agentforger-vulnerability/",
-      "description": "A critical vulnerability in OpenAI\u0026#8217;s ChatGPT Workspace Agents, dubbed AgentForger, that allowed a single phishing link to silently build, configure, and publish an attacker-controlled autonom...",
-      "pub_date": "Mon, 27 Jul 2026 03:58:25 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/ChatGPT-AgentForger-Flaw-1.webp"
-    },
-    {
-      "title": "Claude AI Shared Chats Reportedly Exposed in Google Search Results",
-      "link": "https://cybersecuritynews.com/claude-ai-shared-chats/",
-      "description": "Anthropic’s Claude share links appeared in public search results, raising fresh privacy concerns for users who shared sensitive conversations. A Reddit post this weekend revealed that hundreds of...",
-      "pub_date": "Sun, 26 Jul 2026 17:05:24 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Claude-AI-Shared-Chats.webp"
-    },
-    {
-      "title": "Weekly Cyber Security Newsletter Bulletin – Certighost Exploit, Checkpoint 0-day, HTTP/2 Flaw, Notepad++ Plugin Abuse +20 Stories",
-      "link": "https://cybersecuritynews.com/weekly-cyber-security-newsletter-july/",
-      "description": "Threat actors continued to combine classic exploitation techniques with AI-accelerated tooling this week, from a 15-year-old NGINX bug and an actively exploited Check Point authentication flaw to a...",
-      "pub_date": "Sun, 26 Jul 2026 16:40:49 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Weekly-Cyber-Security-Newsletter-July.webp"
-    },
-    {
-      "title": "How Pro-Iran Hacktivist Networks Mobilize During Kinetic Conflict",
-      "link": "https://cybersecuritynews.com/how-pro-iran-hacktivist-networks-mobilize-during-kinetic-conflict/",
-      "description": "The current conflict between the United States and Iran has become a case study in how asymmetric warfare and coalition building are reshaping the cyber and geopolitical dimensions of modern confli...",
-      "pub_date": "Sun, 26 Jul 2026 14:37:40 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Daniel-Schwalbe.webp"
-    },
-    {
       "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
       "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
       "description": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]",
@@ -54,24 +117,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Top 10 Best Active Directory Management Tools 2026",
-      "link": "https://cybersecuritynews.com/active-directory-management-tools/",
-      "description": "Managing Active Directory with native tools alone can become time-consuming as an organization grows. Routine tasks such as provisioning users, resetting passwords, managing group memberships, audi...",
-      "pub_date": "Sun, 26 Jul 2026 08:14:04 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Active-Directory-Management-Tools.jpg"
-    },
-    {
-      "title": "PentesterFlow – AI Tool for Penetration Testers and Bug Hunters to Automate Workflows",
-      "link": "https://cybersecuritynews.com/pentesterflow/",
-      "description": "PentesterFlow is a new open-source, human-in-the-loop agentic AI command-line tool built specifically for penetration testers and bug bounty hunters, designed to automate recon-to-reporting workflo...",
-      "pub_date": "Sun, 26 Jul 2026 05:28:51 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/PentesterFlow.webp"
     },
     {
       "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
@@ -90,33 +135,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7ke_659Oiks4UyEwQJsTV2c-8DaJnDPNG3RKPsk3s_CLYO5y_vD-SdtGebpYlDbDkXFt2iW4qgZHhM4Tfp2FV5RJSc3f85Ap4KQP-RI1BM8MCPbYhgSD5uusxi09thhL4avaYfCPkj5H_9t0-unj84RktTVGUwV9FF0bdZjuRQley0rZrFDLLE4JXIJk/s1600/browser-malware.jpg"
-    },
-    {
-      "title": "GitLab Vulnerabilities Allow Attackers to Execute Remote Code on Default GitLab Installations",
-      "link": "https://cybersecuritynews.com/gitlab-vulnerabilities-enable-code-execution/",
-      "description": "A newly disclosed exploit chain in GitLab shows how two long-buried memory-safety flaws in a Ruby JSON parsing library, Oj, could be combined to achieve remote code execution on default GitLab inst...",
-      "pub_date": "Sat, 25 Jul 2026 17:20:48 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/GitLab-Vulnerabilities-Enable-Code-Execution.webp"
-    },
-    {
-      "title": "Researcher Claims Working Jailbreak on Top AI Models Including GPT-5.6, Claude Opus 5, and Fable",
-      "link": "https://cybersecuritynews.com/jailbreak-on-top-ai-models/",
-      "description": "A well-known AI red teamer claims to have developed a universal jailbreak that works against leading large language models, including heavily guarded flagships such as GPT-5.6 Sol, Claude Opus 5, a...",
-      "pub_date": "Sat, 25 Jul 2026 16:07:02 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Researcher-Claims-Working-Jailbreak.webp"
-    },
-    {
-      "title": "10 Best ZTNA Solutions (Zero Trust Network Access) In 2026",
-      "link": "https://cybersecuritynews.com/best-ztna-solutions/",
-      "description": "Zero Trust Network Access (ZTNA) anchors 2026 cybersecurity amid remote, cloud, and hybrid booms. ZTNA solutions aren\u0026#8217;t hype—they\u0026#8217;re vital for data locks, compliance wins, and borderl...",
-      "pub_date": "Sat, 25 Jul 2026 15:28:00 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGsGAfsUk7Kg2dLfNkN9MLAuw1dcItv2-aWLAvoc7fTosUf0tbtvqlCjyu-7ppu0KMHq_eut994-1fAeyJfU3wNfbzJ-GKkZIieJ8EpuGpXfegSdcHc9K8PrP6_0DWWSOHvmDjRUNz7awYXeI2gUBEdQgnksLsXeZR0vqf7yBrfl5efEE4Sff-Catkpnzt/s16000/Best%20Cloud%20Access%20Security%20Broker%20Software%20(1).webp?ssl=1"
     },
     {
       "title": "Malicious sites use JavaScript to build malware in browser memory",
@@ -326,15 +344,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ6m42WBQBHda1ntTqYkaxPyEiKYjc2xnTFIawfUcAxMuYQ_HtOz3ebO0HTtt3qyhUIIg8NB8W92WIfldPiOjZKCY1_aTGfgWq2NnZOhrgoU_Z8y8rtfVxCdJuc1QL94IcLm0IF_h-euFZydB5Qc8z4ifT-lx84glPyRnfTX8-R31O_0aswgRZR0uUTxs1/s1600/malwares.jpg"
     },
     {
-      "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
-      "link": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
-      "description": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hou...",
-      "pub_date": "Fri, 24 Jul 2026 13:11:06 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixTLaT7NCY3UuotqW1AHLiB1xN5K-nlqtpnOav_n7PWHNWWZmrSmmPTzmL6oA7N7dOgwSGxEbbBq90Q3OVK6wF2PSXdXLs7mKmBYc1dEBIc64Qsq6XEl7rYbv5PjRMViYiGXr8-ypMSs0ZJv_rJXqSWIbS4FVTuIphO7g9IfC0MG6m5dDXPXJoz7iezck/s1600/nodebb.jpg"
-    },
-    {
       "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
       "link": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
       "description": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
@@ -342,15 +351,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
-      "link": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
-      "description": "Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0.  All four chains require RESTORE. The Streams ch...",
-      "pub_date": "Fri, 24 Jul 2026 12:28:27 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0TE9DH98zjhcQPB99o9CcCvYH1otVTUwpXl_9Af1Nbl89gqHBAqP2jtb-BFrmXdR-4OYmPOGJJoilFiac2ooKHM5Lbe_kD5kLpW1eRcdpOWsG53701lGhFi93e0UpvGrptdb2usksom4mF56GWE1of2M7KsmAZav9cENd90xYAVz7Dq3yPIBJEODDDaQ/s1600/redis-0day.jpg"
     },
     {
       "title": "New Dolphin X malware uses AI to rank high-value targets",
