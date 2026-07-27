@@ -11,6 +11,10 @@ CLAUDE.md
 .git-rewrite/
 agent-logs/
 
+# Environment/secrets
+.env
+.env.*
+
 # Go build outputs
 bin/
 cvemapping
@@ -24,3 +28,12 @@ news_scraper
 tailwindcss-macos-x64
 stitch/
 artifacts/
+
+# Python cache / bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local build caches
+.gocache/
