@@ -1,232 +1,107 @@
-# CVE Map
+# CVE-Intel
 
-Autonomous threat-intelligence dashboard that maps real-world GitHub CVE exploit PoCs to NVD/CISA intelligence and serves it as a static website.
+CVE-Intel is a live vulnerability intelligence platform that correlates:
 
-[![Live Dashboard](https://img.shields.io/badge/Dashboard-LIVE-66FCF1?style=for-the-badge&logo=github)](https://yadavnikhil17102004.github.io/CVE-Intel/)
-[![Go](https://img.shields.io/badge/Engine-Go_1.25-00ADD8?style=for-the-badge&logo=go)](https://golang.org/)
-[![NVD](https://img.shields.io/badge/Intel-NVD_API_v2-red?style=for-the-badge)](https://nvd.nist.gov/)
-[![Sync](https://img.shields.io/badge/Sync-Every_6h-success?style=for-the-badge&logo=githubactions)](https://github.com/features/actions)
-[![CI](https://github.com/yadavnikhil17102004/CVE-Intel/actions/workflows/ci.yml/badge.svg)](https://github.com/yadavnikhil17102004/CVE-Intel/actions/workflows/ci.yml)
+- GitHub PoC/exploit repositories
+- NVD CVSS/CWE/KEV/EPSS intelligence
+- cybersecurity news feeds
 
-![CVE Map Dashboard Preview](assets/dashboard-preview.png)
+The production stack now runs on a VPS with Postgres + FastAPI, and serves a static frontend over Caddy/HTTPS.
 
-Live site:
-- Dashboard: https://yadavnikhil17102004.github.io/CVE-Intel/
-- News feed: https://yadavnikhil17102004.github.io/CVE-Intel/news.html
-- Docs: https://yadavnikhil17102004.github.io/CVE-Intel/docs.html
-- Contributor guide: [CONTRIBUTING.md](CONTRIBUTING.md)
-- Product roadmap: [ROADMAP.md](ROADMAP.md)
+## Live endpoints
 
-## Why CVE_Map?
+- Public site: `https://cve-intel.duckdns.org`
+- API docs (OpenAPI): `https://cve-intel.duckdns.org/docs`
+- OpenAPI JSON: `https://cve-intel.duckdns.org/openapi.json`
 
-- ✓ Aggregates CVE exploit intelligence from multiple sources
-- ✓ Maps public exploit repositories automatically
-- ✓ Provides searchable API endpoints and dashboards
-- ✓ Tracks KEV and severity information for prioritization
-- ✓ No account or setup required for browsing
+## Data access model
 
-## What it does
+CVE-Intel uses a two-tier access model:
 
-CVE Map continuously correlates:
-- GitHub exploit/PoC repository activity
-- NVD CVSS/CWE metadata
-- CISA KEV exploitation status
-- Hourly cybersecurity news signals
+1. **Primary (live integration path):** FastAPI endpoints backed by Postgres (`/api/*`)
+2. **Secondary (bulk/offline path):** weekly snapshot artifacts published via GitHub Releases
 
-No backend. No database. No paid infra. Everything is static JSON + GitHub Pages.
+Snapshots are published as release assets and are **not** committed to branch history.
 
-## Quick start (local)
+## Legacy static-era snapshot
 
-Requirements:
-- Go 1.25+
-- Python 3
-- Optional: `NVD_API_KEY`, `SYNC_TOKEN`
+The old static GitHub-Pages-style baseline is preserved as git tag:
 
-Run local site:
+- `legacy-static-v1`
 
-```bash
-./start.sh
-# serves at http://localhost:8000
-```
+That tag is a permanent rollback/reference point for the pre-VPS architecture.
 
-Run scrapers manually:
-
-```bash
-# CVE GitHub mapping
-go build cvemapping.go
-./cvemapping -github-token="$SYNC_TOKEN"
-
-# NVD/CISA enrichment
-go build nvd_scraper.go
-./nvd_scraper -nvd-key="$NVD_API_KEY"
-
-# Cybersecurity news feed
-go build news_scraper.go
-./news_scraper
-```
-
-Build sanity check:
-
-```bash
-go build cvemapping.go && go build nvd_scraper.go && go build news_scraper.go
-```
-
-## Key features
-
-- Global CVE/PoC search across years
-- Dashboard filters for:
-  - Type (PoC / Exploit / General)
-  - Severity (Critical / High / Medium / Low / Unscored)
-  - KEV status (All / KEV only / Exclude KEV)
-  - EPSS band (High / Medium+ / Low / Unknown)
-- NVD side panel with CVSS, vector, CWE, source, KEV badge, EPSS (when available)
-- Year timeline + trend charts + live activity feed
-- Responsive news interface with tier filtering + keyword search
-- Optimized frontend loading via year-scoped NVD intel files (`nvd_intel_YYYY.json`)
-
-## Data endpoints
-
-Base URL:
-`https://yadavnikhil17102004.github.io/CVE-Intel/data/`
-
-Core files:
-- `YYYY.json` — CVE ↔ GitHub repo mappings for that year
-- `nvd_intel_YYYY.json` — year-scoped compact NVD intel (frontend-optimized)
-- `nvd_intel.json` — aggregate intel map (backward compatibility)
-- `news.json` — hourly curated news feed
-
-Example usage:
-
-```bash
-# CVEs for a year
-curl -s https://yadavnikhil17102004.github.io/CVE-Intel/data/2026.json | jq '.cves[0]'
-
-# Year-scoped NVD intel
-curl -s https://yadavnikhil17102004.github.io/CVE-Intel/data/nvd_intel_2026.json | jq 'to_entries[0]'
-
-# News feed
-curl -s https://yadavnikhil17102004.github.io/CVE-Intel/data/news.json | jq '.articles[:3]'
-```
-
-## Demo dataset
-
-A lightweight demo dataset is available for quick exploration without running scrapers:
-
-- `sample-data/sample_cves.json`
-- `sample-data/sample_news.json`
-- `sample-data/sample_exploits.json`
-
-Use these to test parsing logic, dashboard integration, or external pipelines.
-
-## Architecture diagram
+## Current architecture
 
 ```text
-GitHub Exploit Repos      NVD/CISA KEV         RSS Feeds
-         |                    |                    |
-         v                    v                    v
-   +------------+      +--------------+      +------------+
-   | cvemapping |      | nvd_scraper  |      | news_scraper|
-   +------------+      +--------------+      +------------+
-         \                  /                    /
-          \                /                    /
-           +-----------------------------------+
-                       data/*.json
-                           |
-                           v
-                  GitHub Pages (static CDN)
-                    /        |         \
-                   v         v          v
-              dashboard   docs       news
+GitHub Search + NVD + FIRST EPSS + RSS feeds
+                   |
+                Go scrapers
+                   |
+             (Postgres-only writes)
+                   |
+             Postgres (source of truth)
+                   |
+               FastAPI (/api/*)
+                   |
+        Caddy reverse proxy + static UI
+                   |
+         https://cve-intel.duckdns.org
 ```
 
-## Automation (GitHub Actions)
+## API surface
 
-- `.github/workflows/scrape.yml`
-  - Runs every 6 hours
-  - Builds + runs `cvemapping.go` and `nvd_scraper.go`
-  - Commits updated `data/` JSON
+- `GET /api/cve/{year}`
+- `GET /api/intel/{year}`
+- `GET /api/news`
+- `GET /api/search?q=...&page=...&per_page=...`
+- `GET /api/health`
 
-- `.github/workflows/news.yml`
-  - Runs hourly
-  - Builds + runs `news_scraper.go`
-  - Commits only `data/news.json`
+Notes:
 
-Separated workflows reduce cross-job data races.
+- `/api/search` supports server-side pagination/filtering.
+- API uses response compression and request rate limiting.
+- API runs with a dedicated **read-only** Postgres role.
 
-## Releases
+## Repository structure (high-level)
 
-This repository uses semantic version tags: `vMAJOR.MINOR.PATCH`.
+- `cvemapping.go` - GitHub PoC mapping scraper
+- `nvd_scraper.go` - NVD/KEV/EPSS enrichment scraper
+- `news_scraper.go` - multi-source cyber news ingestion
+- `api/` - FastAPI service
+- `scripts/migration/` - migration/backfill/verification utilities
+- `MIGRATION_LOG.md` - durable migration execution record
+- `ROADMAP.md` - planned trust/news intelligence work
 
-Release flow:
-1. Update the docs or data you want in the release.
-2. Commit to `main`.
-3. Create an annotated tag.
-4. Push the tag and publish the GitHub Release from it.
+## CI and automation
 
-Example:
+GitHub Actions is CI-focused:
 
-```bash
-git tag -a v1.1.0 -m "v1.1.0"
-git push origin v1.1.0
-```
+- `.github/workflows/ci.yml`
 
-Release notes template:
+Legacy scheduled workflow files were removed from `main` after VPS migration.
 
-```md
-## v1.1.0
+## Operational status
 
-### Added
-- 
+- Production hostname: `cve-intel.duckdns.org` (HTTPS via Caddy + Let's Encrypt)
+- Scrape/news jobs: systemd timers on VPS (`6h` scrape, `1h` news)
+- Backups: daily Postgres dump to private backup repo (LFS-backed for large dump)
+- Public distribution: weekly snapshot release assets on GitHub Releases
+- Alerting: Telegram ops alerts + read-only bot commands (`/status`, `/scrape`, `/backup`, `/help`)
 
-### Changed
-- 
+For date-stamped evidence (row counts, timer runs, incident fixes), see `MIGRATION_LOG.md`.
 
-### Fixed
-- 
+## Ethical use and safety notice
 
-### Notes
-- 
-```
+This project indexes third-party exploit/PoC references for research and defensive prioritization.
 
-Keep the release notes short and link back to the PRs or issues that were closed.
+- Links and repositories are externally sourced and may be inaccurate, incomplete, or unsafe.
+- Inclusion does **not** imply endorsement, validation, or safety.
+- Use isolated analysis environments and proper malware-handling practices.
+- Do not use this project for unauthorized access or illegal activity.
 
-## Required secrets
+## Documentation
 
-Set in: `Settings -> Secrets and variables -> Actions`
-
-- `SYNC_TOKEN` (required): GitHub token used by scraper workflow for authenticated API access
-- `NVD_API_KEY` (recommended): faster NVD throughput and fewer rate-limit stalls
-
-## Used by
-
-- Independent security researchers
-- Cybersecurity students
-- Security enthusiasts and defenders
-
-(If you are using CVE Map in your workflow, open an issue/PR and get listed.)
-
-## Frontend performance notes
-
-Recent optimization:
-- `index.html` and `docs.html` fetch year-scoped intel files instead of loading the monolithic `nvd_intel.json` upfront.
-
-Result:
-- lower initial payload
-- faster first render for dashboard analytics
-
-## Troubleshooting
-
-- Empty/slow CVE updates:
-  - verify `SYNC_TOKEN`
-  - check GitHub API rate limits
-- Sparse NVD enrichments:
-  - add/validate `NVD_API_KEY`
-  - NVD outages can delay fields temporarily
-- Charts not rendering:
-  - verify `data/*.json` exists and is valid JSON
-  - open browser devtools console for fetch errors
-
-## Ethics and intended use
-
-This project is for defensive threat intelligence, prioritization, and security research.
-Do not use it for unauthorized exploitation or illegal access.
+- Migration execution log: [MIGRATION_LOG.md](MIGRATION_LOG.md)
+- Forward plan (trust scoring + news intelligence): [ROADMAP.md](ROADMAP.md)
+- Historical migration plan: [vps-migration-instructions.md](vps-migration-instructions.md)
