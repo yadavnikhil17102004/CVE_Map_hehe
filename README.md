@@ -1,55 +1,84 @@
 # CVE-Intel
 
-CVE-Intel is a live vulnerability intelligence platform that correlates:
+CVE-Intel is a vulnerability intelligence platform that correlates three streams:
 
-- GitHub PoC/exploit repositories
-- NVD CVSS/CWE/KEV/EPSS intelligence
-- cybersecurity news feeds
+- GitHub CVE-tagged PoC repositories
+- NVD/CVSS/CWE/KEV/EPSS enrichment
+- Cybersecurity news feeds
 
-The production stack now runs on a VPS with Postgres + FastAPI, and serves a static frontend over Caddy/HTTPS.
+It is now productionized on a VPS stack (Postgres + FastAPI + Caddy) and served at:
 
-## Live endpoints
-
-- Public site: `https://cve-intel.duckdns.org`
-- API docs (OpenAPI): `https://cve-intel.duckdns.org/docs`
+- Site: `https://cve-intel.duckdns.org`
+- API docs: `https://cve-intel.duckdns.org/docs`
 - OpenAPI JSON: `https://cve-intel.duckdns.org/openapi.json`
 
-## Data access model
+## What This Project Does
 
-CVE-Intel uses a two-tier access model:
+At a high level, CVE-Intel continuously ingests public CVE-related data, normalizes it, stores it in Postgres, and exposes it through a public API + frontend.
 
-1. **Primary (live integration path):** FastAPI endpoints backed by Postgres (`/api/*`)
-2. **Secondary (bulk/offline path):** weekly snapshot artifacts published via GitHub Releases
+The system is designed for:
 
-Snapshots are published as release assets and are **not** committed to branch history.
+- security researchers
+- defenders and blue teams
+- integrators who want API access to CVE-repo-news context
 
-## Legacy static-era snapshot
+## Internal Working (End-to-End)
 
-The old static GitHub-Pages-style baseline is preserved as git tag:
+### 1) GitHub PoC mapping (`cvemapping.go`)
 
-- `legacy-static-v1`
+- Runs on schedule (6h cycle as part of scrape job).
+- Searches GitHub repositories for CVE patterns (year-scoped, monthly partitioned queries to work around GitHub Search result limits).
+- Normalizes repository records into CVE-linked rows.
+- Writes to Postgres table: `cve_repos`.
 
-That tag is a permanent rollback/reference point for the pre-VPS architecture.
+### 2) NVD enrichment (`nvd_scraper.go`)
 
-## Current architecture
+- Runs in same 6h scrape job after CVE mapping.
+- Phase 1: pulls new/modified CVEs from NVD API in time windows.
+- Phase 2: targeted backfill for missing/unscored CVEs from `cve_repos` linkage.
+- Phase 3: EPSS enrichment (bulk/optimized loading path).
+- Performs batched upserts into `nvd_intel` with retry/timeout controls.
+
+### 3) News ingestion (`news_scraper.go`)
+
+- Runs every hour.
+- Pulls configured RSS/news sources, normalizes/deduplicates.
+- Writes into `news_items`.
+
+### 4) Validation gate (`validate.go`)
+
+- Runs at end of scrape cycle.
+- Checks table-level sanity and enrichment coverage.
+- Scrape service only completes when validation passes.
+
+### 5) API serving (`api/main.py`)
+
+- FastAPI reads Postgres via read-only credentials.
+- Exposes frontend-compatible and integration-friendly endpoints.
+- Supports compression, pagination/filtering, and rate limiting.
+
+### 6) Frontend
+
+- Static pages (`index.html`, `dashboard.html`, `news.html`, `docs.html`) served by Caddy.
+- Frontend calls `/api/*` instead of reading local JSON files.
+
+## Architecture
 
 ```text
-GitHub Search + NVD + FIRST EPSS + RSS feeds
-                   |
-                Go scrapers
-                   |
-             (Postgres-only writes)
-                   |
-             Postgres (source of truth)
-                   |
-               FastAPI (/api/*)
-                   |
-        Caddy reverse proxy + static UI
-                   |
-         https://cve-intel.duckdns.org
+GitHub Search + NVD + EPSS + RSS feeds
+                 |
+             Go ingestion jobs
+                 |
+          Postgres (source of truth)
+                 |
+         FastAPI read API layer
+                 |
+     Caddy (TLS + reverse proxy)
+                 |
+      https://cve-intel.duckdns.org
 ```
 
-## API surface
+## API Surface
 
 - `GET /api/cve/{year}`
 - `GET /api/intel/{year}`
@@ -57,51 +86,82 @@ GitHub Search + NVD + FIRST EPSS + RSS feeds
 - `GET /api/search?q=...&page=...&per_page=...`
 - `GET /api/health`
 
-Notes:
+## Data Distribution Model
 
-- `/api/search` supports server-side pagination/filtering.
-- API uses response compression and request rate limiting.
-- API runs with a dedicated **read-only** Postgres role.
+Two-tier model:
 
-## Repository structure (high-level)
+1. Primary: live API (`/api/*`) from Postgres
+2. Secondary: weekly bulk snapshot via GitHub Releases assets
 
-- `cvemapping.go` - GitHub PoC mapping scraper
-- `nvd_scraper.go` - NVD/KEV/EPSS enrichment scraper
-- `news_scraper.go` - multi-source cyber news ingestion
-- `api/` - FastAPI service
-- `scripts/migration/` - migration/backfill/verification utilities
-- `MIGRATION_LOG.md` - durable migration execution record
-- `ROADMAP.md` - planned trust/news intelligence work
+Bulk datasets are intentionally not committed into branch history.
 
-## CI and automation
+## Repository Layout
 
-GitHub Actions is CI-focused:
+- `cvemapping.go`: GitHub CVE repo mapper
+- `nvd_scraper.go`: NVD/KEV/EPSS enrichment engine
+- `news_scraper.go`: hourly news ingestion
+- `validate.go`: DB validation gate
+- `api/`: FastAPI service
+- `scripts/migration/`: migration and verification scripts
+- `scripts/ops/`: ops health checks, Telegram bot units/scripts
+- `MIGRATION_LOG.md`: migration execution record
+- `STATUS.md`: current operational snapshot
+- `ROADMAP.md`: planned future intelligence work
 
-- `.github/workflows/ci.yml`
+## Operations and Scheduling
 
-Legacy scheduled workflow files were removed from `main` after VPS migration.
+VPS uses systemd timers:
 
-## Operational status
+- `cveintel-scrape.timer`: every 6 hours
+- `cveintel-news.timer`: every 1 hour
+- `cveintel-backup.timer`: daily backup job
+- `cveintel-public-snapshot.timer`: weekly public snapshot release job
+- `cveintel-ops-health.timer`: ops freshness/health monitor
 
-- Production hostname: `cve-intel.duckdns.org` (HTTPS via Caddy + Let's Encrypt)
-- Scrape/news jobs: systemd timers on VPS (`6h` scrape, `1h` news)
-- Backups: daily Postgres dump to private backup repo (LFS-backed for large dump)
-- Public distribution: weekly snapshot release assets on GitHub Releases
-- Alerting: Telegram ops alerts + read-only bot commands (`/status`, `/scrape`, `/backup`, `/help`)
+Auxiliary:
 
-For date-stamped evidence (row counts, timer runs, incident fixes), see `MIGRATION_LOG.md`.
+- `cveintel-duckdns.timer`: keeps DuckDNS record updated
+- `cveintel-telegram-bot.service`: read-only Telegram command bot
 
-## Ethical use and safety notice
+## Backups and Recovery
 
-This project indexes third-party exploit/PoC references for research and defensive prioritization.
+- Daily Postgres dump is generated and synced to private backup repository.
+- Large dumps are handled via Git LFS in backup repo.
+- Restore validity has been verified during migration (`pg_restore --list` checks).
 
-- Links and repositories are externally sourced and may be inaccurate, incomplete, or unsafe.
-- Inclusion does **not** imply endorsement, validation, or safety.
-- Use isolated analysis environments and proper malware-handling practices.
-- Do not use this project for unauthorized access or illegal activity.
+## Monitoring and Alerting
 
-## Documentation
+- Ops health script writes `/var/log/cveintel/ops_health_status.json`.
+- Alerts are sent to Telegram with readable per-service status.
+- Supported Telegram commands:
+  - `/status`
+  - `/scrape`
+  - `/backup`
+  - `/help`
 
-- Migration execution log: [MIGRATION_LOG.md](MIGRATION_LOG.md)
-- Forward plan (trust scoring + news intelligence): [ROADMAP.md](ROADMAP.md)
-- Historical migration plan: [vps-migration-instructions.md](vps-migration-instructions.md)
+## Development and CI
+
+- CI workflow remains in `.github/workflows/ci.yml`.
+- Legacy scheduled GitHub workflows were removed after VPS migration.
+
+## Legacy Snapshot
+
+Pre-VPS static-era baseline is preserved at git tag:
+
+- `legacy-static-v1`
+
+## Ethical and Safety Notice
+
+This project indexes third-party exploit/PoC references for defensive research and prioritization.
+
+- External links may be unsafe or inaccurate.
+- Inclusion is not endorsement.
+- Use isolated sandboxes/lab environments for exploit analysis.
+- Do not use this project for unauthorized or illegal activity.
+
+## Documentation Index
+
+- [MIGRATION_LOG.md](MIGRATION_LOG.md)
+- [STATUS.md](STATUS.md)
+- [ROADMAP.md](ROADMAP.md)
+- [vps-migration-instructions.md](vps-migration-instructions.md)
