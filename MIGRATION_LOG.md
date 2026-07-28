@@ -1362,3 +1362,45 @@ Verification:
   - status-file quick-check commands under `/var/log/cveintel/*.json`
   - explicit "Common failure points" section (timeouts, rate volatility, auth drift, env drift, restart misses)
   - 6-step incident response pattern for consistent on-call handling.
+
+### 2026-07-28 — VPS API deployment + live verification closure
+
+Deployment context:
+- VPS runtime was serving API from Docker container `cveintel-api` (image `cve-intel-vps-api`) via Caddy.
+- Existing `~/CVE-Intel` checkout on VPS was intentionally dirty (ingestion outputs + local changes), so direct pull/deploy there was high risk.
+
+Safe deploy path used:
+1. Created clean deploy worktree from `origin/main`:
+   - `/home/nixk2000/CVE-Intel-deploy` @ `ad6514c81`
+2. Updated `~/cve-intel-vps/docker-compose.yml` API build context:
+   - from `/home/nixk2000/CVE-Intel`
+   - to `/home/nixk2000/CVE-Intel-deploy`
+3. Rebuilt and restarted only API container:
+   - `docker compose build api`
+   - `docker compose up -d api`
+
+Runtime verification:
+- `docker ps` showed:
+  - `cveintel-api` up and bound on `127.0.0.1:8000`
+  - `cveintel-postgres` healthy
+- `docker logs cveintel-api` confirmed clean startup and successful route hits.
+
+Post-deploy live checks (from VPS):
+- `GET /api/intel-summary/2026`:
+  - `HTTP/2 200` (previously `404`)
+  - `Cache-Control: public, max-age=300`
+- `GET /api/intel/2026`:
+  - `HTTP/2 200`
+  - `Cache-Control: public, max-age=300`
+- Payload sizes captured:
+  - `/api/intel-summary/2026`: `1,021,703` bytes
+  - `/api/intel/2026`: `25,467,039` bytes
+
+Interpretation:
+- API deployment is now live and serving new routes + cache headers through Caddy.
+- Summary endpoint is materially smaller than full-year intel payload (~1.0 MB vs ~25.5 MB), validating intended optimization.
+
+### 2026-07-28 — Runbook source-of-truth consolidation
+
+- Found two runbooks in repo (`OPERATIONS.md` and `docs/OPERATIONS.md`) with divergent content.
+- To eliminate drift risk, `docs/OPERATIONS.md` was converted to a pointer that links to root `OPERATIONS.md` as canonical source.

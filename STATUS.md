@@ -49,7 +49,13 @@ Migration is in post-cutover operations mode.
 ## Deployment Note
 
 - Repository is updated on GitHub `main`.
-- Production host (`cve-intel.duckdns.org`) still requires latest API deployment/restart to expose `/api/intel-summary/{year}` and updated cache headers.
+- API deployment to VPS is completed (2026-07-28) using clean worktree build context.
+- Live host now serves:
+  - `/api/intel-summary/{year}` -> `200`
+  - `Cache-Control` headers on intel routes (`public, max-age=300`)
+- Observed payload size (2026 sample check):
+  - `/api/intel-summary/2026`: ~1.0 MB
+  - `/api/intel/2026`: ~25.5 MB
 
 ## CI Note (2026-07-28)
 
