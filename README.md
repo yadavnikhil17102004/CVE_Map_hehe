@@ -169,4 +169,5 @@ This project indexes third-party exploit/PoC references for defensive research a
 - [MIGRATION_LOG.md](MIGRATION_LOG.md)
 - [STATUS.md](STATUS.md)
 - [ROADMAP.md](ROADMAP.md)
+- [OPERATIONS.md](OPERATIONS.md)
 - [vps-migration-instructions.md](vps-migration-instructions.md)

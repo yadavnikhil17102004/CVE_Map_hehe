@@ -1345,3 +1345,13 @@ Verification:
   - `Validate dataset integrity (DB-gated)` -> success (skip-path behavior active without DB secret)
   - `Install Playwright` -> success
   - `Run browser smoke tests` -> success
+
+### 2026-07-28 follow-up: operations runbook gap closure
+
+- Identified documentation gap: API/web service unit discovery and restart path was not documented in a dedicated operations runbook.
+- Added `OPERATIONS.md` with:
+  - API service discovery commands (`systemctl list-units`, `ss -tlnp`, PID mapping)
+  - deploy sequence (`fetch/log/pull`, API restart, journal checks)
+  - post-deploy verification checks for `/api/intel-summary/*`, pagination/search endpoints, and response headers/payload sizing
+  - rollback + evidence logging checklist.
+- Added `OPERATIONS.md` to `README.md` documentation index.
