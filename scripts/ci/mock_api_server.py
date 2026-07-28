@@ -16,6 +16,7 @@ with (SAMPLE_DIR / "sample_cves.json").open("r", encoding="utf-8") as f:
 with (SAMPLE_DIR / "sample_news.json").open("r", encoding="utf-8") as f:
     SAMPLE_NEWS = json.load(f)
 
+# NOTE: Keep this mock aligned with real `/api/*` contracts; CI smoke fidelity depends on it.
 
 INTEL_BY_CVE = {
     "CVE-2026-12345": {
