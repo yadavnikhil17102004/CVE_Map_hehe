@@ -56,6 +56,7 @@ Migration is in post-cutover operations mode.
 - GitHub Actions `CI` failure on docs push was caused by DB validation running without DB credentials in GitHub-hosted CI.
 - Workflow now gates `go run validate.go` behind `secrets.DATABASE_URL` and skips cleanly when absent.
 - Node.js 20 deprecation message in annotations is advisory and not the failure cause.
+- Workflow action versions were upgraded (`checkout/setup-go/setup-python`) to remove Node 20 deprecation warning noise in subsequent runs.
 
 ## Where To Look
 

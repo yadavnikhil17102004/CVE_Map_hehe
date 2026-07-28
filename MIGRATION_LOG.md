@@ -1318,3 +1318,11 @@ Fix applied on `main`:
   - read `DATABASE_URL` from `secrets.DATABASE_URL`
   - skip step with explicit message when secret is not configured
   - execute `go run validate.go` only when DB secret is present.
+
+### 2026-07-28 follow-up: Node runtime deprecation warning cleanup
+
+- Continued CI hygiene after the failure fix by updating GitHub-hosted action versions in `.github/workflows/ci.yml`:
+  - `actions/checkout` from `@v4` -> `@v7`
+  - `actions/setup-go` from `@v5` -> `@v7`
+  - `actions/setup-python` from `@v5` -> `@v7`
+- Goal: remove Node 20 deprecation annotation noise from Actions runs and align workflow with current runner runtime.
