@@ -1326,3 +1326,14 @@ Fix applied on `main`:
   - `actions/setup-go` from `@v5` -> `@v7`
   - `actions/setup-python` from `@v5` -> `@v7`
 - Goal: remove Node 20 deprecation annotation noise from Actions runs and align workflow with current runner runtime.
+
+### 2026-07-28 follow-up: CI smoke backend parity fix
+
+- Remaining CI failure after DB-gating fix was in step `Run browser smoke tests`.
+- Root cause:
+  - smoke suite ran against `python -m http.server` static host.
+  - frontend now depends on `/api/*` endpoints, so static-only host could not satisfy runtime fetch paths.
+- Fix applied:
+  - Added `scripts/ci/mock_api_server.py` (static file serving + lightweight deterministic `/api/*` mocks used by smoke suite).
+  - Updated `.github/workflows/ci.yml` smoke step to start `mock_api_server.py` instead of raw static server.
+  - Mock provides required routes for smoke checks: `/api/health`, `/api/cve/{year}`, `/api/intel/{year}`, `/api/intel-summary/{year}`, `/api/news`, `/api/search`.

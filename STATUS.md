@@ -57,6 +57,7 @@ Migration is in post-cutover operations mode.
 - Workflow now gates `go run validate.go` behind `secrets.DATABASE_URL` and skips cleanly when absent.
 - Node.js 20 deprecation message in annotations is advisory and not the failure cause.
 - Workflow action versions were upgraded (`checkout/setup-go/setup-python`) to remove Node 20 deprecation warning noise in subsequent runs.
+- Browser smoke tests now run against `scripts/ci/mock_api_server.py` so API-dependent frontend checks execute with deterministic local `/api/*` responses in CI.
 
 ## Where To Look
 
