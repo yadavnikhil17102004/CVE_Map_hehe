@@ -10,12 +10,17 @@ This roadmap captures planned work that was intentionally deferred during VPS mi
 - Weekly public snapshots are distributed via GitHub Releases (not git history commits).
 - Legacy static-era snapshot is preserved at git tag: `legacy-static-v1`.
 
+## Recently completed (2026-07-28)
+
+1. Replaced dashboard cross-year client fan-out with server-side paginated `/api/search` flow.
+2. Added API pagination/scoping primitives (`/api/cve/{year}` pagination, `/api/intel/{year}` pagination + `cve_ids` filter).
+
 ## Near-term priorities (high ROI, low/medium effort)
 
-1. Replace dashboard cross-year client fan-out with server-side `/api/search`.
-2. Add explicit paginated result UX for global search.
-3. Add CVE detail route/view combining repo + NVD + related news context.
-4. Add shareable deep links for query/filter state.
+1. Add explicit paginated result UX for global search (show/next cursor style controls and total-match messaging polish).
+2. Add CVE detail route/view combining repo + NVD + related news context.
+3. Add shareable deep links for query/filter state.
+4. Validate and tune production response caching after VPS deploy of latest API revision.
 
 ## Part 5 backlog — repo trust/risk intelligence
 

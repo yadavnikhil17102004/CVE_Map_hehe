@@ -1236,3 +1236,70 @@ Status files:
 
 - JSON-removal migration gate is treated as **closed** based on successful post-fix timer-driven scrape completion with `Validation PASSED` and `scrape cycle complete` marker.
 - Project operations moved from migration triage into normal run monitoring mode.
+
+---
+
+## 2026-07-28 — API/Frontend Performance and Documentation Sync (GitHub main)
+
+### Why this entry
+
+- Implemented and published follow-up performance and documentation fixes after post-migration review feedback.
+- Primary objective was to reduce high-latency payload fan-out patterns while keeping API compatibility for existing consumers.
+
+### Commits published to `main`
+
+- `d1c785af` — `api: add pagination, caching, and intel summary endpoint`
+- `96934091` — `dashboard: replace global fan-out search with paged api search`
+
+### Code and API changes
+
+1. FastAPI response + pagination improvements (`api/main.py`)
+- Added optional pagination to:
+  - `GET /api/cve/{year}` via `page` + `per_page`
+  - `GET /api/intel/{year}` via `page` + `per_page`
+- Added optional `cve_ids` filter to `GET /api/intel/{year}` for scoped intel retrieval.
+- Added cache-control support in JSON response helper and applied route-level policy:
+  - year/intel endpoints: `public, max-age=300`
+  - news endpoint: `public, max-age=120`
+  - search endpoint: `no-store`
+- Added new endpoint:
+  - `GET /api/intel-summary/{year}`
+  - returns compact intel only for CVEs mapped in `cve_repos` for that year.
+
+2. Frontend load-path optimization
+- Updated `index.html` to use `/api/intel-summary/{year}` for landing-chart intel context instead of full `/api/intel/{year}` calls.
+- Updated `dashboard.html` global search path:
+  - removed all-years CVE/intel bulk fan-out fetch behavior.
+  - switched to bounded, paginated `/api/search` calls.
+  - added `AbortController` cancellation to prevent stale in-flight search requests during rapid input/filter changes.
+  - preserved client-side sort/filter behavior on returned rows.
+
+3. Documentation and repo metadata updates
+- Added `LICENSE` (MIT).
+- Updated `README.md` API surface with new endpoint and pagination/filter query notes.
+- Updated `docs.html` language/examples to reflect Postgres + FastAPI runtime and paginated usage examples.
+
+### Production verification snapshot
+
+- GitHub verification:
+  - Both commits are present on `origin/main`.
+- Live host probe against `https://cve-intel.duckdns.org` (immediate post-push check):
+  - `GET /api/cve/2026?page=1&per_page=50` -> `200`
+  - `GET /api/search?q=openssl&page=1&per_page=10` -> `200`
+  - `GET /api/intel-summary/2026` -> `404`
+  - `GET /api/intel/2026` -> `200`, payload observed ~25 MB
+
+### Interpretation / operational state
+
+- Public repository (`main`) is updated.
+- VPS runtime is likely still on an older deployment revision for API service:
+  - missing `/api/intel-summary/{year}` route
+  - cache-control headers from updated API code not yet observed on live responses.
+
+### Pending action to fully close this phase
+
+1. Deploy latest `main` to VPS API service and restart/reload FastAPI runtime.
+2. Re-run live endpoint checks for:
+  - route availability (`/api/intel-summary/{year}`)
+  - response headers (`Cache-Control`) through Caddy proxy.
+3. Capture post-deploy payload-size/waterfall evidence and append to this log.

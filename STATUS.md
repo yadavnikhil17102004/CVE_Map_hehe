@@ -1,6 +1,6 @@
 # CVE-Intel Status
 
-Last updated: 2026-07-27
+Last updated: 2026-07-28
 
 ## Production Runtime
 
@@ -34,6 +34,22 @@ Migration is in post-cutover operations mode.
 
 - JSON-removal gate treated as closed after successful timer-driven scrape completion with validation pass.
 - Remaining work is roadmap-level enhancement (trust/risk scoring and advanced news intelligence), tracked in `ROADMAP.md`.
+
+## Recent Main-Branch Changes (2026-07-28)
+
+- Published API and dashboard performance commits to `origin/main`:
+  - `d1c785af` (`api/main.py`, `README.md`, `docs.html`, `index.html`, `LICENSE`)
+  - `96934091` (`dashboard.html`)
+- New API behavior on `main` includes:
+  - optional pagination for `/api/cve/{year}` and `/api/intel/{year}`
+  - optional `cve_ids` scoping on `/api/intel/{year}`
+  - new `/api/intel-summary/{year}` route
+  - route-specific cache headers
+
+## Deployment Note
+
+- Repository is updated on GitHub `main`.
+- Production host (`cve-intel.duckdns.org`) still requires latest API deployment/restart to expose `/api/intel-summary/{year}` and updated cache headers.
 
 ## Where To Look
 
