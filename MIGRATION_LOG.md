@@ -1419,3 +1419,26 @@ Interpretation:
     - `cache-control: public, max-age=300`
     - `vary: Accept-Encoding`
   - observed compressed response size: `283,712` bytes.
+
+### 2026-07-28 follow-up: dashboard UX prioritization pass
+
+- Implemented non-breaking UX refinements in `dashboard.html` to prioritize threat urgency visually:
+  - Added quick-filter preset chips (no backend changes):
+    - `Actively Exploited` (`kev=only`)
+    - `Critical + KEV`
+    - `Critical Only`
+    - `High EPSS`
+  - Added preset active-state highlighting and state sync with existing dropdown controls.
+
+- Upgraded row information hierarchy:
+  - Top row now emphasizes `CVE ID + severity badge + KEV badge`.
+  - Secondary row shows one-line description.
+  - EPSS and repo count are shown as secondary right-column signals.
+  - Existing deep details (CWE/vector/source/full repo list) remain in NVD side panel on click.
+
+- Replaced generic text loading with skeleton layout placeholders:
+  - CVE list loading state now mirrors row geometry.
+  - Activity feed loading uses skeleton lines instead of plain text.
+
+- Added actionable zero-result empty state:
+  - Includes `Clear Filters` button in addition to guidance text.

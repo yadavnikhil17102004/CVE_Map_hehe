@@ -59,6 +59,14 @@ Migration is in post-cutover operations mode.
   - `/api/intel/2026`: ~25.5 MB
   - gzip requested summary payload: ~283 KB
 
+## UI Note (2026-07-28)
+
+- Dashboard UX prioritization pass completed in `dashboard.html`:
+  - quick-filter chips for urgent presets (`Actively Exploited`, `Critical + KEV`, `Critical Only`, `High EPSS`)
+  - severity/KEV-first row badges and two-tier row density
+  - skeleton loaders for CVE list and activity feed
+  - explicit zero-match state with `Clear Filters` action.
+
 ## CI Note (2026-07-28)
 
 - GitHub Actions `CI` failure on docs push was caused by DB validation running without DB credentials in GitHub-hosted CI.
