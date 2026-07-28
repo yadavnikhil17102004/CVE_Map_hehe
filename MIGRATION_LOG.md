@@ -1337,3 +1337,11 @@ Fix applied on `main`:
   - Added `scripts/ci/mock_api_server.py` (static file serving + lightweight deterministic `/api/*` mocks used by smoke suite).
   - Updated `.github/workflows/ci.yml` smoke step to start `mock_api_server.py` instead of raw static server.
   - Mock provides required routes for smoke checks: `/api/health`, `/api/cve/{year}`, `/api/intel/{year}`, `/api/intel-summary/{year}`, `/api/news`, `/api/search`.
+
+Verification:
+- GitHub Actions run `30345385404` on commit `b0ac54ef` completed `success`.
+- `build` job step results:
+  - `Build scrapers` -> success
+  - `Validate dataset integrity (DB-gated)` -> success (skip-path behavior active without DB secret)
+  - `Install Playwright` -> success
+  - `Run browser smoke tests` -> success

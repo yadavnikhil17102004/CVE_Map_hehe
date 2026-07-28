@@ -58,6 +58,8 @@ Migration is in post-cutover operations mode.
 - Node.js 20 deprecation message in annotations is advisory and not the failure cause.
 - Workflow action versions were upgraded (`checkout/setup-go/setup-python`) to remove Node 20 deprecation warning noise in subsequent runs.
 - Browser smoke tests now run against `scripts/ci/mock_api_server.py` so API-dependent frontend checks execute with deterministic local `/api/*` responses in CI.
+- Latest CI verification:
+  - Run `30345385404` (commit `b0ac54ef`) completed successfully, including `Run browser smoke tests`.
 
 ## Where To Look
 
