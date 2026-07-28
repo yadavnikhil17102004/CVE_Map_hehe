@@ -1404,3 +1404,18 @@ Interpretation:
 
 - Found two runbooks in repo (`OPERATIONS.md` and `docs/OPERATIONS.md`) with divergent content.
 - To eliminate drift risk, `docs/OPERATIONS.md` was converted to a pointer that links to root `OPERATIONS.md` as canonical source.
+
+### 2026-07-28 follow-up: runbook deployment-path correction + compression proof
+
+- Corrected `OPERATIONS.md` deploy/restart/rollback instructions to reflect actual VPS runtime:
+  - API is Docker Compose (`cveintel-api`) rather than standalone systemd service.
+  - Added explicit safe deploy path using clean worktree (`~/CVE-Intel-deploy`) because `~/CVE-Intel` is active ingestion workspace and may be dirty.
+  - Added Docker-centric verification commands (`docker ps`, `docker logs`, `docker compose build/up`).
+
+- Compression verification (from VPS, GET request):
+  - `curl -H "Accept-Encoding: gzip" ... /api/intel-summary/2026`
+  - observed headers:
+    - `content-encoding: gzip`
+    - `cache-control: public, max-age=300`
+    - `vary: Accept-Encoding`
+  - observed compressed response size: `283,712` bytes.

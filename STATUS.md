@@ -53,9 +53,11 @@ Migration is in post-cutover operations mode.
 - Live host now serves:
   - `/api/intel-summary/{year}` -> `200`
   - `Cache-Control` headers on intel routes (`public, max-age=300`)
+  - gzip compression for clients requesting it (`Content-Encoding: gzip`)
 - Observed payload size (2026 sample check):
   - `/api/intel-summary/2026`: ~1.0 MB
   - `/api/intel/2026`: ~25.5 MB
+  - gzip requested summary payload: ~283 KB
 
 ## CI Note (2026-07-28)
 

@@ -8,26 +8,30 @@ This runbook is the operator-facing guide for deploys, service control, and prod
 
 - Hostname: `https://cve-intel.duckdns.org`
 - API/docs: `/api/*`, `/docs`, `/openapi.json`
-- Stack: Caddy + FastAPI + Postgres + systemd timers/services
+- Stack: Caddy + Docker Compose (`cveintel-api`, `cveintel-postgres`) + systemd timers/services
 
 ## 1) Service Discovery (API/Web Process)
 
-Use these commands first when the API service unit name is unknown.
+The API process is containerized (Docker Compose), not a standalone systemd service.
+Use these commands to discover runtime ownership:
 
 ```bash
 systemctl list-units --type=service | grep -i cveintel
+sudo docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}"
 ```
 
-If no obvious API unit appears, identify the process Caddy proxies to:
+Identify the process Caddy proxies to:
 
 ```bash
 ss -tlnp | grep 8000
 ```
 
-Then map PID -> service:
+Then map PID:
 
 ```bash
 ps -fp <PID>
+# if process is docker-proxy, map via docker:
+sudo docker ps --format "table {{.Names}}\t{{.Ports}}" | grep 8000
 ```
 
 ## 2) Core Scheduler Units
@@ -48,11 +52,11 @@ systemctl list-timers --all | grep cveintel
 
 ## 3) Standard Service Checks
 
-Replace `<api-service-name>` after discovery.
+API container checks:
 
 ```bash
-sudo systemctl status <api-service-name> --no-pager
-sudo journalctl -u <api-service-name> --since "-15 minutes" --no-pager
+sudo docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}" | grep cveintel-api
+sudo docker logs --since 15m cveintel-api
 ```
 
 Batch services:
@@ -76,21 +80,45 @@ sudo cat /var/log/cveintel/duckdns_status.json
 
 ## 4) Deploy Runbook (Main Branch)
 
-On VPS:
+Current VPS reality:
+
+- `~/CVE-Intel` is an actively modified ingestion workspace and may be dirty.
+- Deploy API builds from clean worktree: `~/CVE-Intel-deploy`.
+- Compose file lives at: `~/cve-intel-vps/docker-compose.yml`.
+
+On VPS (safe path):
 
 ```bash
-cd /path/to/CVE-Intel
+cd ~/CVE-Intel
 git fetch origin
 git log origin/main -1 --oneline
-git pull origin main
+
+# one-time setup (if missing):
+git worktree add ../CVE-Intel-deploy origin/main
+
+# update clean deploy worktree:
+cd ../CVE-Intel-deploy
+git fetch origin
+git checkout origin/main
 ```
 
-Restart API process:
+Ensure compose build context points to clean worktree:
 
 ```bash
-sudo systemctl restart <api-service-name>
-sudo systemctl status <api-service-name> --no-pager
-sudo journalctl -u <api-service-name> --since "-5 minutes" --no-pager
+cd ~/cve-intel-vps
+grep -n "context:" docker-compose.yml
+# expected API context:
+# context: /home/nixk2000/CVE-Intel-deploy
+```
+
+Rebuild and restart API container:
+
+```bash
+cd ~/cve-intel-vps
+sudo docker compose build api
+sudo docker compose up -d api
+sudo docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}" | grep cveintel-api
+sudo docker logs --since 5m cveintel-api
 ```
 
 ## 5) Post-Deploy API Verification
@@ -109,6 +137,7 @@ Header/payload checks:
 ```bash
 curl -sI https://cve-intel.duckdns.org/api/intel/2026 | grep -i -E "content-length|cache-control"
 curl -sI https://cve-intel.duckdns.org/api/intel-summary/2026 | grep -i -E "content-length|cache-control"
+curl -sS -H "Accept-Encoding: gzip" -D - -o /tmp/intel_summary_gzip.json https://cve-intel.duckdns.org/api/intel-summary/2026 | grep -i -E "content-encoding|content-length|cache-control|vary"
 ```
 
 Expected outcomes for latest API revision:
@@ -116,21 +145,26 @@ Expected outcomes for latest API revision:
 - `/api/intel-summary/2026` returns `200` (not `404`)
 - cache headers are present on API responses as configured by backend route policy
 - summary endpoint payload is materially smaller than full-year `/api/intel/2026`
+- gzip compression is active for clients requesting it (`content-encoding: gzip`)
 
 ## 6) Rollback (If API restart fails)
 
 ```bash
-cd /path/to/CVE-Intel
-git log --oneline -n 5
+cd ~/CVE-Intel-deploy
+git fetch origin
 git checkout <last-known-good-commit>
-sudo systemctl restart <api-service-name>
-sudo systemctl status <api-service-name> --no-pager
+cd ~/cve-intel-vps
+sudo docker compose build api
+sudo docker compose up -d api
+sudo docker ps --format "table {{.Names}}\t{{.Status}}" | grep cveintel-api
+sudo docker logs --since 5m cveintel-api
 ```
 
-After stabilization, restore branch state:
+After stabilization, return deploy worktree to tracked remote:
 
 ```bash
-git checkout main
+cd ~/CVE-Intel-deploy
+git checkout origin/main
 ```
 
 ## 7) Evidence Logging
