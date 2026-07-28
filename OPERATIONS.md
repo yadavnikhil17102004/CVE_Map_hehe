@@ -60,6 +60,18 @@ Batch services:
 ```bash
 sudo systemctl status cveintel-scrape.service cveintel-news.service --no-pager
 sudo journalctl -u cveintel-scrape.service --since "-30 minutes" --no-pager
+sudo journalctl -u cveintel-news.service --since "-24 hours" --no-pager
+sudo journalctl -u cveintel-backup.service --since "-24 hours" --no-pager
+sudo journalctl -u cveintel-public-snapshot.service --since "-24 hours" --no-pager
+```
+
+Status-file quick checks:
+
+```bash
+sudo cat /var/log/cveintel/ops_health_status.json
+sudo cat /var/log/cveintel/backup_status.json
+sudo cat /var/log/cveintel/public_snapshot_status.json
+sudo cat /var/log/cveintel/duckdns_status.json
 ```
 
 ## 4) Deploy Runbook (Main Branch)
@@ -134,3 +146,32 @@ Record in:
 
 - `MIGRATION_LOG.md` (detailed event evidence)
 - `STATUS.md` (high-level current posture)
+
+## 8) Common Failure Points
+
+1. NVD request timeouts/retries causing scrape cycle overrun.
+2. Validator query timeout under high DB load near end of scrape cycle.
+3. GitHub API rate-limit volatility affecting mapping completeness/timing.
+4. Backup/snapshot auth token drift causing push/publish failures.
+5. Missing API service restart after code deploy, leaving old routes live.
+6. Secret/env drift in `/etc/cve-intel.env` causing service startup failures.
+
+## 9) Incident Response Pattern (6 Steps)
+
+1. Detect and classify
+- Confirm user-visible symptom and impacted surface (`/api`, dashboard, timers, snapshots).
+
+2. Stabilize blast radius
+- Pause/serialize risky jobs if needed (`systemctl stop` non-critical units) while preserving core availability.
+
+3. Collect evidence
+- Capture service status, recent journals, and status JSON files before changing multiple variables.
+
+4. Apply smallest safe fix
+- Prefer minimal reversible changes (single unit restart/config fix) over broad refactors in-incident.
+
+5. Verify recovery
+- Re-run endpoint + header checks and confirm service state returns `active (running)` or successful completion markers.
+
+6. Record and prevent recurrence
+- Append exact timeline/cause/fix to `MIGRATION_LOG.md`; update runbook/checks to prevent repeat incidents.

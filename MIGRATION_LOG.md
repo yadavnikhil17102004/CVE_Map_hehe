@@ -1355,3 +1355,10 @@ Verification:
   - post-deploy verification checks for `/api/intel-summary/*`, pagination/search endpoints, and response headers/payload sizing
   - rollback + evidence logging checklist.
 - Added `OPERATIONS.md` to `README.md` documentation index.
+
+2026-07-28 extension:
+- Expanded `OPERATIONS.md` with operational hardening details:
+  - 24-hour `journalctl` checks for scrape/news/backup/snapshot units
+  - status-file quick-check commands under `/var/log/cveintel/*.json`
+  - explicit "Common failure points" section (timeouts, rate volatility, auth drift, env drift, restart misses)
+  - 6-step incident response pattern for consistent on-call handling.
