@@ -51,6 +51,12 @@ Migration is in post-cutover operations mode.
 - Repository is updated on GitHub `main`.
 - Production host (`cve-intel.duckdns.org`) still requires latest API deployment/restart to expose `/api/intel-summary/{year}` and updated cache headers.
 
+## CI Note (2026-07-28)
+
+- GitHub Actions `CI` failure on docs push was caused by DB validation running without DB credentials in GitHub-hosted CI.
+- Workflow now gates `go run validate.go` behind `secrets.DATABASE_URL` and skips cleanly when absent.
+- Node.js 20 deprecation message in annotations is advisory and not the failure cause.
+
 ## Where To Look
 
 - Detailed migration evidence: `MIGRATION_LOG.md`

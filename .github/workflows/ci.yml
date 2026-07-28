@@ -24,8 +24,16 @@ jobs:
           go build news_scraper.go
           go build validate.go
 
-      - name: Validate dataset integrity
-        run: go run validate.go
+      - name: Validate dataset integrity (DB-gated)
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          if [ -z "${DATABASE_URL}" ]; then
+            echo "Skipping DB integrity validation in CI: DATABASE_URL secret is not configured."
+            echo "Run validate.go on VPS/runtime environment where Postgres is available."
+            exit 0
+          fi
+          go run validate.go
 
       - name: Setup Python
         uses: actions/setup-python@v5

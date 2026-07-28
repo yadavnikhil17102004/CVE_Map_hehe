@@ -1303,3 +1303,18 @@ Status files:
   - route availability (`/api/intel-summary/{year}`)
   - response headers (`Cache-Control`) through Caddy proxy.
 3. Capture post-deploy payload-size/waterfall evidence and append to this log.
+
+### 2026-07-28 follow-up: GitHub Actions CI failure clarification and fix
+
+- Observed GitHub Actions run failure on workflow `CI` after docs push.
+- Warning present in run annotations:
+  - Node.js 20 deprecation notice for `actions/checkout@v4` and `actions/setup-go@v5` (informational, non-fatal).
+- Actual failure root cause:
+  - `Validate dataset integrity` step executed `go run validate.go` without DB credentials.
+  - `validate.go` now requires `DATABASE_URL` or `POSTGRES_*` env and exits with status 1 when absent.
+
+Fix applied on `main`:
+- Updated `.github/workflows/ci.yml` validation step to be DB-gated:
+  - read `DATABASE_URL` from `secrets.DATABASE_URL`
+  - skip step with explicit message when secret is not configured
+  - execute `go run validate.go` only when DB secret is present.
