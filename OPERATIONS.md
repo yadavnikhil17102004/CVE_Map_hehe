@@ -216,14 +216,18 @@ Tracked override file (repo source of truth):
 - `deploy/systemd/cveintel-scrape.service.d/override.conf`
 
 ```bash
-ssh nixk2000@172.175.241.146 'sudo systemctl cat cveintel-scrape.service | grep ExecStart'
+ssh nixk2000@172.175.241.146 'sudo systemctl cat cveintel-scrape.service | grep -E "^Type=|^RemainAfterExit=|^ExecStart="'
 scp deploy/systemd/cveintel-scrape.service.d/override.conf nixk2000@172.175.241.146:/tmp/cveintel-scrape-override.conf
 ssh nixk2000@172.175.241.146 'sudo mkdir -p /etc/systemd/system/cveintel-scrape.service.d'
 ssh nixk2000@172.175.241.146 'sudo install -m 644 /tmp/cveintel-scrape-override.conf /etc/systemd/system/cveintel-scrape.service.d/override.conf'
 ssh nixk2000@172.175.241.146 'sudo systemctl daemon-reload'
-ssh nixk2000@172.175.241.146 'sudo systemctl restart cveintel-scrape.service'
 ssh nixk2000@172.175.241.146 'sudo systemctl show cveintel-scrape.service -p Restart -p RestartUSec -p StartLimitBurst'
 ```
+
+Apply behavior note:
+
+- `daemon-reload` is sufficient to activate the drop-in for the next scheduled/manual start.
+- Do not force an immediate scrape restart unless you intentionally want to run a fresh cycle now.
 
 ## 9) Incident Response Pattern (6 Steps)
 

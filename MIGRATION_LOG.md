@@ -1466,9 +1466,12 @@ Interpretation:
     - DNS resolver transient failure mode in "Common failure points".
     - recovery command sequence for scrape journal verification and status-file confirmation.
     - recommended bounded `Restart=on-failure` hardening drop-in for `cveintel-scrape.service`.
+    - preflight unit safety check for `Type=`/`RemainAfterExit=` before enabling auto-restart policy.
+    - drop-in installation flow uses `scp + install + daemon-reload` without forcing an immediate scrape restart.
   - Added repo-tracked systemd override artifact:
     - `deploy/systemd/cveintel-scrape.service.d/override.conf`
     - ensures scrape retry policy is source-controlled rather than VPS-only drift.
+  - Added `validate` build artifact to `.gitignore` to prevent local binary noise from appearing as untracked drift.
 
 - Local verification:
   - `bash -n scripts/ops/ops_health_check.sh` passes (syntax valid).
