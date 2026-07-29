@@ -12,6 +12,8 @@ BACKUP_MAX_AGE_SECONDS="${BACKUP_MAX_AGE_SECONDS:-93600}"        # 26h
 SNAPSHOT_MAX_AGE_SECONDS="${SNAPSHOT_MAX_AGE_SECONDS:-691200}"   # 8d
 ALERT_COOLDOWN_SECONDS="${ALERT_COOLDOWN_SECONDS:-1800}"         # 30m
 OPS_HEALTH_TEST_MODE="${OPS_HEALTH_TEST_MODE:-false}"
+# Keep success notifications recovery-only by default to avoid channel fatigue.
+OPS_HEALTH_NOTIFY_OK_EVERY_RUN="${OPS_HEALTH_NOTIFY_OK_EVERY_RUN:-false}"
 
 now_epoch="$(date -u +%s)"
 now_iso="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
@@ -183,17 +185,43 @@ fi
   echo "}"
 } > "$STATUS_FILE"
 
-if [[ "$status_ok" == true ]]; then
-  exit 0
-fi
-
-alert_key="$(printf '%s|' "${error_codes[@]}")"
 last_alert_epoch=0
 last_alert_key=""
 if [[ -f "$ALERT_STATE_FILE" ]]; then
   last_alert_epoch="$(awk -F'|' '{print $1}' "$ALERT_STATE_FILE" 2>/dev/null || echo 0)"
   last_alert_key="$(awk -F'|' '{print $2}' "$ALERT_STATE_FILE" 2>/dev/null || true)"
 fi
+
+if [[ "$status_ok" == true ]]; then
+  should_notify_ok=false
+  if [[ "${OPS_HEALTH_NOTIFY_OK_EVERY_RUN,,}" == "true" ]]; then
+    should_notify_ok=true
+  elif [[ -n "$last_alert_key" && "$last_alert_key" != "ok" ]]; then
+    # Recovery edge: previous health state was non-OK and now recovered.
+    should_notify_ok=true
+  fi
+
+  if [[ "$should_notify_ok" == true ]]; then
+    prefix="✅ CVE-Intel Ops OK"
+    if [[ "${OPS_HEALTH_TEST_MODE,,}" == "true" ]]; then
+      prefix="🧪 TEST OK — CVE-Intel Ops"
+    fi
+    ok_msg="${prefix} — ${now_label}
+
+${scrape_line}
+${news_line}
+${backup_line}
+${snapshot_line}
+
+Details: Health checks are within thresholds."
+    send_alert "$ok_msg"
+  fi
+
+  echo "${now_epoch}|ok" > "$ALERT_STATE_FILE"
+  exit 0
+fi
+
+alert_key="$(printf '%s|' "${error_codes[@]}")"
 
 should_alert=false
 if [[ "$alert_key" != "$last_alert_key" ]]; then

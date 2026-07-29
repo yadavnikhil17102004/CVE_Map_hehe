@@ -1,6 +1,6 @@
 # CVE-Intel Status
 
-Last updated: 2026-07-28
+Last updated: 2026-07-29
 
 ## Production Runtime
 
@@ -22,6 +22,7 @@ Last updated: 2026-07-28
 - Telegram alerts: enabled
 - Telegram bot: enabled (read-only commands)
 - DuckDNS updater: enabled
+- Ops-health successful-run notifications: recovery-only by default (`OPS_HEALTH_NOTIFY_OK_EVERY_RUN=false`)
 
 ## Data Distribution
 
@@ -82,3 +83,4 @@ Migration is in post-cutover operations mode.
 - Detailed migration evidence: `MIGRATION_LOG.md`
 - Future feature plan: `ROADMAP.md`
 - Historical migration plan: `vps-migration-instructions.md`
+- Deploy/operations runbook: `OPERATIONS.md`

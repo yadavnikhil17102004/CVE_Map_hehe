@@ -1442,3 +1442,38 @@ Interpretation:
 
 - Added actionable zero-result empty state:
   - Includes `Clear Filters` button in addition to guidance text.
+
+### 2026-07-29 follow-up: ops-health pass notifications + DNS failure runbook hardening
+
+- Trigger:
+  - Repeated 15-minute Telegram stale alerts reported for scrape freshness.
+  - Root-cause failure observed in scrape journal:
+    - `lookup api.github.com on 127.0.0.53:53: server misbehaving`
+  - Manual restart recovered in-progress scrape state, but notification behavior needed a clearer "pass" signal for healthy runs.
+
+- Ops-health notification behavior update (`scripts/ops/ops_health_check.sh`):
+  - Added explicit pass-message path (`✅ CVE-Intel Ops OK`) for successful checks.
+  - Default is recovery-only pass messaging:
+    - `OPS_HEALTH_NOTIFY_OK_EVERY_RUN=false` (default; notify only on non-OK -> OK recovery)
+    - set `OPS_HEALTH_NOTIFY_OK_EVERY_RUN=true` to send `✅` on every successful run.
+  - Existing failing-check behavior remains unchanged:
+    - deduplicated alert keys
+    - cooldown-based resend for persistent failures.
+
+- Documentation/runbook updates:
+  - `OPERATIONS.md` updated to document:
+    - pass/fail notification behavior and the `OPS_HEALTH_NOTIFY_OK_EVERY_RUN` toggle.
+    - DNS resolver transient failure mode in "Common failure points".
+    - recovery command sequence for scrape journal verification and status-file confirmation.
+    - recommended bounded `Restart=on-failure` hardening drop-in for `cveintel-scrape.service`.
+
+- Local verification:
+  - `bash -n scripts/ops/ops_health_check.sh` passes (syntax valid).
+
+- Deployment follow-up required on VPS:
+  1. Copy updated script to `/usr/local/bin/cveintel-ops-health.sh`.
+  2. Restart `cveintel-ops-health.service` and timer.
+  3. Confirm one successful run emits `✅` message and updates `/var/log/cveintel/ops_health_status.json`.
+  4. Confirm scrape success advanced after manual retry:
+     - `journalctl -u cveintel-scrape.service --since "-10 minutes" --no-pager | grep -E "Validation PASSED|scrape cycle complete|ERROR"`
+     - `cat /var/log/cveintel/ops_health_status.json | grep -E "scrape_last_success_epoch|status"`

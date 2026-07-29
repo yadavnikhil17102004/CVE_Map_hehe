@@ -1,6 +1,6 @@
 # CVE-Intel Operations Runbook
 
-Last updated: 2026-07-28
+Last updated: 2026-07-29
 
 This runbook is the operator-facing guide for deploys, service control, and production verification on the VPS environment.
 
@@ -77,6 +77,15 @@ sudo cat /var/log/cveintel/backup_status.json
 sudo cat /var/log/cveintel/public_snapshot_status.json
 sudo cat /var/log/cveintel/duckdns_status.json
 ```
+
+Ops-health heartbeat behavior:
+
+- `/usr/local/bin/cveintel-ops-health.sh` sends:
+  - `🔴` alert messages on failing checks (with cooldown + dedupe)
+  - `✅` pass messages on successful checks (default: recovery edge only)
+- Default successful-run behavior is controlled by:
+  - `OPS_HEALTH_NOTIFY_OK_EVERY_RUN=false` (default; notify only on non-OK -> OK)
+  - set to `true` to send `✅` on every successful 15-minute run.
 
 ## 4) Deploy Runbook (Main Branch)
 
@@ -186,9 +195,36 @@ Record in:
 1. NVD request timeouts/retries causing scrape cycle overrun.
 2. Validator query timeout under high DB load near end of scrape cycle.
 3. GitHub API rate-limit volatility affecting mapping completeness/timing.
-4. Backup/snapshot auth token drift causing push/publish failures.
-5. Missing API service restart after code deploy, leaving old routes live.
-6. Secret/env drift in `/etc/cve-intel.env` causing service startup failures.
+4. Transient DNS resolver failures (e.g., `lookup api.github.com ... 127.0.0.53:53: server misbehaving`) causing scrape cycle failure.
+5. Backup/snapshot auth token drift causing push/publish failures.
+6. Missing API service restart after code deploy, leaving old routes live.
+7. Secret/env drift in `/etc/cve-intel.env` causing service startup failures.
+
+DNS transient recovery steps:
+
+```bash
+sudo journalctl -u cveintel-scrape.service --since "-30 minutes" --no-pager
+sudo systemctl restart cveintel-scrape.service
+sudo journalctl -u cveintel-scrape.service --since "-10 minutes" --no-pager | grep -E "Validation PASSED|scrape cycle complete|ERROR"
+sudo cat /var/log/cveintel/ops_health_status.json
+```
+
+Hardening: bounded automatic retries for scrape unit (recommended):
+
+```bash
+sudo systemctl cat cveintel-scrape.service | grep ExecStart
+sudo mkdir -p /etc/systemd/system/cveintel-scrape.service.d
+cat <<'EOF' | sudo tee /etc/systemd/system/cveintel-scrape.service.d/restart-on-failure.conf
+[Service]
+Restart=on-failure
+RestartSec=120
+StartLimitIntervalSec=3600
+StartLimitBurst=2
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart cveintel-scrape.service
+sudo systemctl show cveintel-scrape.service -p Restart -p RestartSec -p StartLimitIntervalUSec -p StartLimitBurst
+```
 
 ## 9) Incident Response Pattern (6 Steps)
 
