@@ -1589,3 +1589,12 @@ Step 6 (`StartLimitInterval` mismatch) root-cause diagnostic:
 - Root cause (confirmed):
   - `StartLimitIntervalSec` was placed under `[Service]`; systemd ignores it there.
   - This explains why restart policy keys partially applied while interval stayed at default (`StartLimitIntervalUSec=10s`).
+
+### 2026-07-29 follow-up: auth/accounts scope clarification
+
+- Prior wording in design discussions implied auth/accounts were "cut for this pass."
+- Scope is now explicit: **user accounts/auth are permanently descoped** for this product line.
+- Reasoning:
+  - Current platform is a public, read-only threat-intel surface with no user-generated data.
+  - Adding account lifecycle (authN/authZ, resets, abuse handling, privacy/compliance burden) is orthogonal to present product goals and operational model.
+  - This is not a short-term defer; account features require a separate product decision and should not be re-opened implicitly by UI iteration.
