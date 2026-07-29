@@ -1553,3 +1553,39 @@ Checklist executed live against VPS host `172.175.241.146` with raw outputs capt
    - Gate result: **PASS** (script default is recovery-only `false`).
 
 Final checklist status: **OPEN** (failing gates: step 2 freshness threshold, step 6 start-limit interval).
+
+### 2026-07-29 follow-up: OPEN-step diagnostics (2 and 6) with root-cause confirmation
+
+Additional live diagnostics were executed before any new restart action.
+
+Step 2 (`scrape_last_success_epoch` freshness) diagnostic:
+- Commands:
+  - `systemctl is-active cveintel-scrape.service; systemctl status cveintel-scrape.service --no-pager -l`
+  - `ps aux | grep -i cveintel-scrape | grep -v grep`
+  - `journalctl -u cveintel-scrape.service --since "-6 hours" --no-pager | tail -80`
+- Findings:
+  - Service state is `activating` (oneshot in progress), running for ~1h21m at check time.
+  - Active process tree includes:
+    - `/usr/local/bin/cveintel-scrape.sh`
+    - `./nvd_scraper`
+  - Journal shows continued progress through NVD phases (window updates, targeted backfill counters, transition into EPSS phase), not a silent hang/death.
+- Conclusion:
+  - Step 2 remains OPEN only because last completed success marker had not advanced yet; the current run is actively progressing and was left untouched (no kill/restart).
+
+Step 6 (`StartLimitInterval` mismatch) root-cause diagnostic:
+- Commands:
+  - `cat /etc/systemd/system/cveintel-scrape.service.d/override.conf`
+  - `ls -la /etc/systemd/system/cveintel-scrape.service.d/`
+  - `journalctl -b --no-pager | grep -i -E "cveintel-scrape|override.conf" | grep -i -E "warn|ignor|unknown"`
+- Findings:
+  - Drop-in file contains:
+    - `[Service]`
+    - `Restart=on-failure`
+    - `RestartSec=30`
+    - `StartLimitIntervalSec=3600`
+    - `StartLimitBurst=3`
+  - Systemd warning explicitly logged:
+    - `Unknown key name 'StartLimitIntervalSec' in section 'Service', ignoring.`
+- Root cause (confirmed):
+  - `StartLimitIntervalSec` was placed under `[Service]`; systemd ignores it there.
+  - This explains why restart policy keys partially applied while interval stayed at default (`StartLimitIntervalUSec=10s`).
