@@ -1467,6 +1467,7 @@ Interpretation:
     - recovery command sequence for scrape journal verification and status-file confirmation.
     - recommended bounded `Restart=on-failure` hardening drop-in for `cveintel-scrape.service`.
     - preflight unit safety check for `Type=`/`RemainAfterExit=` before enabling auto-restart policy.
+    - explicit idempotency gate for scrape write paths (`ON CONFLICT`/upsert or checkpoints) before relying on restart retries.
     - drop-in installation flow uses `scp + install + daemon-reload` without forcing an immediate scrape restart.
   - Added repo-tracked systemd override artifact:
     - `deploy/systemd/cveintel-scrape.service.d/override.conf`

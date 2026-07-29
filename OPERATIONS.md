@@ -217,17 +217,21 @@ Tracked override file (repo source of truth):
 
 ```bash
 ssh nixk2000@172.175.241.146 'sudo systemctl cat cveintel-scrape.service | grep -E "^Type=|^RemainAfterExit=|^ExecStart="'
+ssh nixk2000@172.175.241.146 'grep -inE "INSERT INTO|ON CONFLICT|UPSERT|upsert" ~/CVE-Intel/cvemapping.go ~/CVE-Intel/nvd_scraper.go ~/CVE-Intel/news_scraper.go'
 scp deploy/systemd/cveintel-scrape.service.d/override.conf nixk2000@172.175.241.146:/tmp/cveintel-scrape-override.conf
 ssh nixk2000@172.175.241.146 'sudo mkdir -p /etc/systemd/system/cveintel-scrape.service.d'
 ssh nixk2000@172.175.241.146 'sudo install -m 644 /tmp/cveintel-scrape-override.conf /etc/systemd/system/cveintel-scrape.service.d/override.conf'
 ssh nixk2000@172.175.241.146 'sudo systemctl daemon-reload'
-ssh nixk2000@172.175.241.146 'sudo systemctl show cveintel-scrape.service -p Restart -p RestartUSec -p StartLimitBurst'
+ssh nixk2000@172.175.241.146 'sudo systemctl show cveintel-scrape.service -p Restart -p RestartUSec -p StartLimitBurst -p StartLimitIntervalSec'
 ```
 
 Apply behavior note:
 
 - `daemon-reload` is sufficient to activate the drop-in for the next scheduled/manual start.
 - Do not force an immediate scrape restart unless you intentionally want to run a fresh cycle now.
+- Safety gate before relying on auto-restart:
+  - Pass: `Type=oneshot` (or equivalent batch type) and scrape writes are idempotent (`ON CONFLICT`/upsert or explicit checkpoint resume markers).
+  - Fail/hold: any plain `INSERT` without conflict handling on mid-cycle write paths. In this case, harden write idempotency first, then enable auto-restart.
 
 ## 9) Incident Response Pattern (6 Steps)
 
