@@ -1484,3 +1484,72 @@ Interpretation:
   4. Confirm scrape success advanced after manual retry:
      - `journalctl -u cveintel-scrape.service --since "-10 minutes" --no-pager | grep -E "Validation PASSED|scrape cycle complete|ERROR"`
      - `cat /var/log/cveintel/ops_health_status.json | grep -E "scrape_last_success_epoch|status"`
+
+### 2026-07-29 — VPS checklist execution evidence (ops-resilience close-out gate)
+
+Checklist executed live against VPS host `172.175.241.146` with raw outputs captured.
+
+1. Scrape completion/error markers (last 12h)
+   - Command:
+     - `journalctl -u cveintel-scrape.service --since "-12 hours" --no-pager | grep -E "Validation PASSED|scrape cycle complete|ERROR"`
+   - Output:
+     - `Jul 29 01:54:06 CVE-server cveintel-scrape.sh[969856]: Validation PASSED`
+     - `Jul 29 01:54:06 CVE-server cveintel-scrape.sh[954243]: [2026-07-29T01:54:06Z] scrape cycle complete`
+   - Gate result: **PASS**
+     - both completion markers present, no unresolved `ERROR` lines in filtered output after completion.
+
+2. Ops health status freshness gate
+   - Command:
+     - `sudo cat /var/log/cveintel/ops_health_status.json | grep -E "scrape_last_success_epoch|status"`
+   - Output:
+     - `"status": "ok",`
+     - `"scrape_last_success_epoch": 1785290046,`
+   - Derived timestamp:
+     - `1785290046` -> `2026-07-29 01:54:06 UTC`
+   - Gate result: **FAIL**
+     - status is `ok`, but `scrape_last_success_epoch` is older than incident reference `2026-07-29 06:00:00 UTC`.
+
+3. Scrape unit runtime shape
+   - Command:
+     - `systemctl cat cveintel-scrape.service | grep -E "^Type=|^RemainAfterExit=|^ExecStart="`
+   - Output:
+     - `Type=oneshot`
+     - `ExecStart=/usr/local/bin/cveintel-scrape.sh`
+   - Gate result: **PASS** (values captured as required; no `RemainAfterExit=` set in unit output).
+
+4. Ops-health ExecStart + deploy/restart
+   - Command outputs:
+     - `systemctl cat cveintel-ops-health.service | grep ExecStart` -> `ExecStart=/usr/local/bin/cveintel-ops-health.sh`
+     - `install ... && systemctl daemon-reload && systemctl restart cveintel-ops-health.timer && systemctl restart cveintel-ops-health.service` -> exit code `0` (no stderr output).
+   - Gate result: **PASS** (clean exit across commands).
+
+5. Install tracked scrape override without forced restart
+   - Command outputs:
+     - `scp deploy/systemd/cveintel-scrape.service.d/override.conf ...:/tmp/cveintel-scrape-override.conf` -> exit code `0`.
+     - `mkdir/install/daemon-reload` chain -> exit code `0`.
+     - Side-effect check:
+       - `journalctl -u cveintel-scrape.service --since "-5 minutes" --no-pager | grep -E "Starting cveintel-scrape.service|scrape cycle complete|Validation PASSED" || true`
+       - output empty.
+   - Gate result: **PASS** (clean install + no scrape triggered by drop-in install).
+
+6. Retry policy verification
+   - Command:
+     - `systemctl show cveintel-scrape.service -p Restart -p RestartUSec -p StartLimitBurst -p StartLimitIntervalSec`
+   - Output:
+     - `Restart=on-failure`
+     - `RestartUSec=30s`
+     - `StartLimitBurst=3`
+   - Additional probe:
+     - `systemctl show cveintel-scrape.service -p StartLimitIntervalSec -p StartLimitIntervalUSec`
+     - output: `StartLimitIntervalUSec=10s`
+   - Gate result: **FAIL**
+     - expected interval `1h/3600s`; observed start-limit interval is `10s`.
+
+7. Ops OK-notify mode env gate
+   - Command:
+     - `grep -E "^OPS_HEALTH_NOTIFY_OK_EVERY_RUN=" /etc/cve-intel.env || echo "not set, default applies"`
+   - Output:
+     - `not set, default applies`
+   - Gate result: **PASS** (script default is recovery-only `false`).
+
+Final checklist status: **OPEN** (failing gates: step 2 freshness threshold, step 6 start-limit interval).
