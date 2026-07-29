@@ -23,6 +23,7 @@ Last updated: 2026-07-29
 - Telegram bot: enabled (read-only commands)
 - DuckDNS updater: enabled
 - Ops-health successful-run notifications: recovery-only by default (`OPS_HEALTH_NOTIFY_OK_EVERY_RUN=false`)
+- Scrape resilience hardening artifact tracked in repo: `deploy/systemd/cveintel-scrape.service.d/override.conf`
 
 ## Data Distribution
 
