@@ -1598,3 +1598,21 @@ Step 6 (`StartLimitInterval` mismatch) root-cause diagnostic:
   - Current platform is a public, read-only threat-intel surface with no user-generated data.
   - Adding account lifecycle (authN/authZ, resets, abuse handling, privacy/compliance burden) is orthogonal to present product goals and operational model.
   - This is not a short-term defer; account features require a separate product decision and should not be re-opened implicitly by UI iteration.
+
+### 2026-07-30 — OSV integration implementation brief (CVE-first consumer model)
+
+- Added implementation brief:
+  - `OSV_IMPLEMENTATION_BRIEF.md`
+- Explicit ingestion-model decision captured:
+  - OSV-native IDs are canonical; CVE is treated as alias linkage.
+  - Consumer-side dedup/alias resolution is required.
+  - Avoid CVE-ID-only lookup as primary ingestion pattern.
+- Phase-1 build scope in brief includes:
+  - schema additions (`osv_advisories`, `osv_aliases`, `osv_packages`, `osv_cve_links`, sync checkpoint)
+  - idempotent upsert strategy and retry/checkpoint behavior
+  - systemd sync service/timer cadence
+  - `/api/osv-packages/{year}` endpoint shape + cache policy
+  - dashboard ecosystem/package surface
+  - required pre-coding schema verification gate against current OSV docs
+- Sequencing decision:
+  - OSV backend workstream can proceed in parallel with triage UI workstream because integration boundary is API-first (`/api/osv-*`) and file touch sets are mostly disjoint.
