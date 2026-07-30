@@ -1,0 +1,267 @@
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-primary-container":"#004965","tertiary-fixed-dim":"#ffb960","surface-container":"#171f33","surface-variant":"#2d3449","on-tertiary":"#472a00","outline":"#87929a","inverse-surface":"#dae2fd","surface-container-highest":"#2d3449","surface-container-low":"#131b2e","on-primary-fixed-variant":"#004c69","secondary":"#c0c1ff","primary-container":"#38bdf8","surface-container-high":"#222a3d","on-tertiary-fixed-variant":"#653e00","inverse-primary":"#00668a","on-tertiary-container":"#613b00","primary":"#8ed5ff","surface-container-lowest":"#060e20","on-error-container":"#ffdad6","on-secondary":"#1000a9","error-container":"#93000a","outline-variant":"#3e484f","on-error":"#690005","on-primary":"#00354a","primary-fixed-dim":"#7bd0ff","on-surface-variant":"#bdc8d1","on-primary-fixed":"#001e2c","tertiary-container":"#f1a02b","inverse-on-surface":"#283044","secondary-fixed-dim":"#c0c1ff","secondary-fixed":"#e1e0ff","surface-tint":"#7bd0ff","secondary-container":"#3131c0","on-background":"#dae2fd","on-tertiary-fixed":"#2a1700","on-surface":"#dae2fd","tertiary":"#ffc176","on-secondary-fixed":"#07006c","surface-bright":"#31394d","surface":"#0b1326","error":"#ffb4ab","surface-dim":"#0b1326","on-secondary-fixed-variant":"#2f2ebe","background":"#0b1326","primary-fixed":"#c4e7ff","tertiary-fixed":"#ffddb8","on-secondary-container":"#b0b2ff"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"unit":"4px","density-comfortable":"16px","density-compact":"8px","gutter":"16px","margin-page":"24px","panel-width":"420px"},"fontFamily":{"label-caps":["Inter"],"body-base":["Inter"],"headline-md":["Inter"],"display-lg-mobile":["Inter"],"code-data":["JetBrains Mono"],"body-sm":["Inter"],"display-lg":["Inter"]},"fontSize":{"label-caps":["11px",{"lineHeight":"12px","letterSpacing":"0.05em","fontWeight":"700"}],"body-base":["14px",{"lineHeight":"20px","fontWeight":"400"}],"headline-md":["20px",{"lineHeight":"28px","fontWeight":"600"}],"display-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"700"}],"code-data":["13px",{"lineHeight":"16px","letterSpacing":"-0.01em","fontWeight":"500"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"display-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}}</script><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/></head><body class="bg-surface font-body-base text-body-base text-on-surface"><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-low z-50 flex flex-col border-r border-outline-variant/30"><div class="p-6 flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[32px]">biotech</span><span class="font-headline-md text-headline-md tracking-tight">CORE INTEL</span></div><nav class="flex-1 px-4 py-6 flex flex-col gap-unit" data-active-classes="bg-secondary-container text-on-secondary-container"><a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="triage-dashboard" href="#"><span class="material-symbols-outlined">dashboard_customize</span><span class="font-label-caps text-label-caps uppercase">Triage</span></a><a aria-current="page" class="flex items-center gap-3 px-4 py-3 rounded-lg transition-all group bg-secondary-container text-on-secondary-container" data-path="cve-workspace" href="#"><span class="material-symbols-outlined">search_insights</span><span class="font-label-caps text-label-caps uppercase">Workspace</span></a><a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="news-intel" href="#"><span class="material-symbols-outlined">rss_feed</span><span class="font-label-caps text-label-caps uppercase">Intelligence</span></a><a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="data-freshness" href="#"><span class="material-symbols-outlined">monitoring</span><span class="font-label-caps text-label-caps uppercase">Operations</span></a></nav><div class="p-4 mt-auto border-t border-outline-variant/20"><div class="bg-surface-container-highest p-3 rounded-xl flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span><span class="font-code-data text-code-data text-tertiary">System: Stable</span></div></div></aside><div class="pl-64"><header class="fixed top-0 left-64 right-0 h-16 bg-surface/80 backdrop-blur-xl z-40 px-gutter flex items-center justify-between border-b border-outline-variant/20"><div class="flex-1 max-w-xl flex items-center bg-surface-container-high px-4 py-2 rounded-full border border-outline-variant/30 group focus-within:border-primary transition-colors"><span class="material-symbols-outlined text-on-surface-variant group-focus-within:text-primary transition-colors">search</span><input class="bg-transparent border-none focus:ring-0 text-sm w-full px-3 text-on-surface placeholder:text-outline" placeholder="Search CVE, Keyword, or Asset..." type="text"/></div><div class="flex items-center gap-6"><div class="flex flex-col items-end"><span class="font-label-caps text-[10px] text-outline uppercase">Data Freshness</span><div class="flex items-center gap-2 px-2 py-1 bg-surface-container rounded border border-outline-variant/30"><span class="text-[11px] font-code-data text-on-surface">Last Scrape: 2m ago</span><span class="material-symbols-outlined text-[14px] text-primary animate-spin-slow">sync</span></div></div><button class="relative p-2 text-on-surface-variant hover:text-on-surface"><span class="material-symbols-outlined">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 bg-error rounded-full border-2 border-surface"></span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:ring-2 ring-primary/20 transition-all"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="relative pt-16 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Forensic Header -->
+<div class="relative px-margin-page py-10 bg-surface-container-low overflow-hidden">
+<!-- Ambient Background Decoration -->
+<div class="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none">
+
+</div>
+<div class="relative flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-3">
+<span class="font-code-data text-label-caps text-primary bg-primary/10 px-2 py-1 rounded">VULNERABILITY ID</span>
+<span class="w-2 h-2 rounded-full bg-error animate-ping"></span>
+</div>
+<h1 class="font-display-lg text-display-lg tracking-tighter text-on-surface">CVE-2024-38475</h1>
+<div class="flex items-center gap-4 mt-2">
+<div class="flex items-center gap-2 bg-error-container text-on-error-container px-3 py-1 rounded-full shadow-lg">
+<span class="material-symbols-outlined text-[18px]">priority_high</span>
+<span class="font-label-caps text-label-caps">9.8 CRITICAL</span>
+</div>
+<div class="flex items-center gap-2 text-outline">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+<span class="font-code-data text-code-data">Published: 2024-06-12</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<button class="flex items-center gap-2 bg-surface-container-highest hover:bg-primary/20 text-on-surface px-4 py-2 rounded-xl transition-all group">
+<span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform">terminal</span>
+<span class="font-label-caps text-label-caps uppercase">GitHub Search</span>
+</button>
+<button class="flex items-center gap-2 bg-surface-container-highest hover:bg-primary/20 text-on-surface px-4 py-2 rounded-xl transition-all group">
+<span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform">open_in_new</span>
+<span class="font-label-caps text-label-caps uppercase">NVD Reference</span>
+</button>
+<button class="bg-secondary text-on-secondary px-6 py-2 rounded-xl font-label-caps text-label-caps uppercase shadow-xl hover:brightness-110 transition-all">
+          Remediate
+        </button>
+</div>
+</div>
+</div>
+<!-- Main Forensic Workspace -->
+<div class="grid grid-cols-12 gap-gutter px-margin-page -mt-6">
+<!-- Left Panel: Technical Intelligence & PoC Repos -->
+<div class="col-span-12 lg:col-span-7 flex flex-col gap-gutter">
+<!-- PoC Repositories Table -->
+<div class="bg-surface-container rounded-2xl shadow-xl overflow-hidden">
+<div class="px-6 py-5 bg-surface-container-high flex justify-between items-center">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-tertiary">folder_zip</span>
+<h3 class="font-headline-md text-headline-md">Exploit Repositories</h3>
+</div>
+<span class="font-code-data text-code-data text-outline">4 Active Sources</span>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low/50">
+<th class="px-6 py-4 font-label-caps text-label-caps text-outline uppercase">Repository / Owner</th>
+<th class="px-4 py-4 font-label-caps text-label-caps text-outline uppercase text-center">Stars</th>
+<th class="px-4 py-4 font-label-caps text-label-caps text-outline uppercase">Tech Stack</th>
+<th class="px-6 py-4 font-label-caps text-label-caps text-outline uppercase text-right">Last Seen</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant/10">
+<tr class="hover:bg-surface-container-highest/30 transition-colors group">
+<td class="px-6 py-4">
+<div class="flex flex-col">
+<span class="font-body-base font-semibold text-primary group-hover:underline cursor-pointer">cve-2024-38475-poc</span>
+<span class="font-code-data text-body-sm text-outline">github.com/security-researcher-x</span>
+</div>
+</td>
+<td class="px-4 py-4 text-center">
+<div class="flex flex-col items-center">
+<span class="font-code-data text-on-surface">1,240</span>
+<div class="w-12 h-1 bg-outline-variant rounded-full mt-1 overflow-hidden">
+<div class="bg-tertiary h-full w-[85%]"></div>
+</div>
+</div>
+</td>
+<td class="px-4 py-4">
+<div class="flex gap-2">
+<span class="px-2 py-0.5 rounded bg-surface-variant text-on-surface-variant font-code-data text-[11px]">Python</span>
+<span class="px-2 py-0.5 rounded bg-surface-variant text-on-surface-variant font-code-data text-[11px]">Docker</span>
+</div>
+</td>
+<td class="px-6 py-4 text-right">
+<span class="font-code-data text-code-data text-on-surface-variant">2h ago</span>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-highest/30 transition-colors group">
+<td class="px-6 py-4">
+<div class="flex flex-col">
+<span class="font-body-base font-semibold text-primary group-hover:underline cursor-pointer">apache-bypass-tool</span>
+<span class="font-code-data text-body-sm text-outline">github.com/pwn-king-99</span>
+</div>
+</td>
+<td class="px-4 py-4 text-center">
+<span class="font-code-data text-on-surface">438</span>
+</td>
+<td class="px-4 py-4">
+<div class="flex gap-2">
+<span class="px-2 py-0.5 rounded bg-surface-variant text-on-surface-variant font-code-data text-[11px]">Go</span>
+</div>
+</td>
+<td class="px-6 py-4 text-right">
+<span class="font-code-data text-code-data text-on-surface-variant">5h ago</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="p-6 bg-surface-container-lowest/50 border-t border-outline-variant/10">
+<div class="bg-surface-container-high p-4 rounded-xl flex items-center justify-between">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-outline">content_copy</span>
+<code class="font-code-data text-code-data text-primary">git clone https://github.com/security-researcher-x/cve-2024-38475-poc.git</code>
+</div>
+<button class="text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined">copy_all</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Related News Feed -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="bg-surface-container rounded-2xl p-5 hover:shadow-2xl transition-shadow cursor-pointer group">
+<div class="flex gap-4">
+<div class="w-16 h-16 rounded-lg overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Cybersecurity news portal logo with digital globe and neon blue circuit patterns, minimalist flat vector style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjDPxaeWKNX9fhvWaXHdMwxlZies_4FGI-zY8RCNmsHgEcAHzaEz3frWjrFb_UCRw7q0idGaGk43rd0MuS9CalyAUyxgf2x1mjGbYI6XRPBMjiFzANYH2pmS88pHfIy5VLvgMnagyLNc6MZjhW19959HL6E1PqiADS5-81f4x7CEhX9O5ebPYzE-8WE7U0OTN4q-oW7g3cPVw9vzz83Ctn8cuaVTKVGhkYf4ZAZfXPGzgKeS-H6ICu"/>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-caps text-[10px] text-tertiary uppercase">Threat Intel Daily</span>
+<h4 class="font-body-base font-bold leading-tight group-hover:text-primary transition-colors">Massive exploitation of CVE-2024-38475 observed in the wild by North Korean groups.</h4>
+<span class="font-code-data text-[11px] text-outline">14m ago</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container rounded-2xl p-5 hover:shadow-2xl transition-shadow cursor-pointer group">
+<div class="flex gap-4">
+<div class="w-16 h-16 rounded-lg overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Abstract tech news icon showing a shield with a crack and data streams flowing out, high contrast dark mode aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsWx2MhpAiT53jdLtfnq0fryiyi2TbSstgbJHrUENScH8yBPMCh3d2Rq6HiYLzklFcZCUACDVqB-53ILUUFn8lHy6LCt0SvolQQBMjfkv1qgsVNrp8hGzVhU-Otoq7Me3xzBssRUEekUpQkUgCtDkgfbhoX0vsv40QaA91Dxewy3CuwckGk1XWByRy3LwCETPzMvHWqhnRMJZB7qMMRlmuGY8SkaPgNTupkuTj368_30p6jFBGHt7N"/>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-caps text-[10px] text-primary uppercase">Security Week</span>
+<h4 class="font-body-base font-bold leading-tight group-hover:text-primary transition-colors">Apache Foundation releases emergency patch for critical improper authentication bypass.</h4>
+<span class="font-code-data text-[11px] text-outline">1h ago</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Panel: NVD Intelligence & Metrics -->
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-gutter">
+<!-- Metrics Card Grid -->
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-high p-6 rounded-2xl flex flex-col items-center justify-center text-center border-b-4 border-error">
+<span class="font-label-caps text-label-caps text-outline mb-1 uppercase">EPSS Score</span>
+<span class="font-display-lg text-display-lg text-error">94.2%</span>
+<span class="font-code-data text-[10px] text-on-error-container bg-error-container/20 px-2 py-0.5 rounded mt-2 uppercase">High Likelihood</span>
+</div>
+<div class="bg-surface-container-high p-6 rounded-2xl flex flex-col items-center justify-center text-center border-b-4 border-primary">
+<span class="font-label-caps text-label-caps text-outline mb-1 uppercase">CWE ID</span>
+<span class="font-display-lg text-display-lg text-primary">CWE-287</span>
+<span class="font-code-data text-[10px] text-on-primary-fixed-variant bg-primary-fixed-variant/20 px-2 py-0.5 rounded mt-2 uppercase">Auth Bypass</span>
+</div>
+</div>
+<!-- Vulnerability Description -->
+<div class="bg-surface-container rounded-2xl p-8 relative overflow-hidden">
+<div class="absolute top-0 right-0 p-4">
+<span class="material-symbols-outlined text-outline/20 text-[64px]">fingerprint</span>
+</div>
+<div class="relative">
+<h3 class="font-label-caps text-label-caps text-primary uppercase mb-4 tracking-widest">NVD Technical Description</h3>
+<p class="font-body-base text-on-surface-variant leading-relaxed mb-6">
+            Improper Authentication in Apache HTTP Server 2.4.59 and earlier allows an attacker to bypass authentication requirements via a specially crafted request. The vulnerability exists in how the server handles certain encoded characters in the URL path, leading to a misinterpretation of the security policy applied to the resource. Successful exploitation can result in full administrative access to protected directories.
+          </p>
+<div class="space-y-4">
+<div class="flex flex-col gap-1">
+<span class="font-label-caps text-[10px] text-outline uppercase">CVSS v3.1 Vector String</span>
+<div class="bg-surface-container-lowest p-3 rounded-lg border border-outline-variant/20">
+<code class="font-code-data text-code-data text-tertiary break-all">CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</code>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<span class="font-label-caps text-[10px] text-outline uppercase">Affected Components</span>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded-full bg-surface-variant text-on-surface-variant font-code-data text-code-data">apache_http_server &lt;= 2.4.59</span>
+<span class="px-3 py-1 rounded-full bg-surface-variant text-on-surface-variant font-code-data text-code-data">mod_proxy</span>
+<span class="px-3 py-1 rounded-full bg-surface-variant text-on-surface-variant font-code-data text-code-data">mod_rewrite</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Action History / Timeline -->
+<div class="bg-surface-container rounded-2xl p-6">
+<h3 class="font-headline-md text-headline-md mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-outline">history</span>
+          Intel Timeline
+        </h3>
+<div class="relative space-y-8 before:absolute before:inset-0 before:ml-4 before:h-full before:w-0.5 before:bg-outline-variant/30">
+<div class="relative pl-10 group">
+<span class="absolute left-0 top-1 w-8 h-8 rounded-full bg-error-container flex items-center justify-center ring-4 ring-surface z-10">
+<span class="material-symbols-outlined text-on-error-container text-[16px]">bug_report</span>
+</span>
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface">Exploit Publicly Released</span>
+<span class="font-code-data text-body-sm text-outline">June 14, 2024 • SecurityResearcherX</span>
+</div>
+</div>
+<div class="relative pl-10 group">
+<span class="absolute left-0 top-1 w-8 h-8 rounded-full bg-primary-container flex items-center justify-center ring-4 ring-surface z-10">
+<span class="material-symbols-outlined text-on-primary-container text-[16px]">verified</span>
+</span>
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface">Added to CISA KEV</span>
+<span class="font-code-data text-body-sm text-outline">June 13, 2024 • Mandatory Patch</span>
+</div>
+</div>
+<div class="relative pl-10 group">
+<span class="absolute left-0 top-1 w-8 h-8 rounded-full bg-surface-variant flex items-center justify-center ring-4 ring-surface z-10">
+<span class="material-symbols-outlined text-on-surface-variant text-[16px]">publish</span>
+</span>
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface">NVD Analysis Complete</span>
+<span class="font-code-data text-body-sm text-outline">June 12, 2024 • Base Score 9.8</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Sticky Mobile-esque Action Bar for Forensics -->
+<div class="fixed bottom-8 left-1/2 -translate-x-1/2 bg-surface-container-high/90 backdrop-blur-xl border border-outline-variant/30 px-6 py-3 rounded-full flex items-center gap-6 shadow-2xl z-50">
+<div class="flex items-center gap-2 border-r border-outline-variant/30 pr-6">
+<span class="w-3 h-3 rounded-full bg-tertiary"></span>
+<span class="font-code-data text-code-data uppercase">Scanning Assets...</span>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 hover:bg-surface-variant rounded-full text-on-surface-variant transition-colors" title="Export JSON">
+<span class="material-symbols-outlined">data_object</span>
+</button>
+<button class="p-2 hover:bg-surface-variant rounded-full text-on-surface-variant transition-colors" title="Generate Report">
+<span class="material-symbols-outlined">description</span>
+</button>
+<button class="p-2 hover:bg-surface-variant rounded-full text-on-surface-variant transition-colors" title="Share Alert">
+<span class="material-symbols-outlined">share</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  // Simple micro-interaction for CVSS progress visualization
+  document.addEventListener('DOMContentLoaded', () => {
+    const bars = document.querySelectorAll('.bg-tertiary.h-full');
+    bars.forEach(bar => {
+      const width = bar.style.width;
+      bar.style.width = '0%';
+      setTimeout(() => {
+        bar.style.transition = 'width 1.5s cubic-bezier(0.22, 1, 0.36, 1)';
+        bar.style.width = width;
+      }, 300);
+    });
+  });
+</script></main></div></body></html>

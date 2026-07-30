@@ -1,0 +1,251 @@
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-primary-container":"#004965","tertiary-fixed-dim":"#ffb960","surface-container":"#171f33","surface-variant":"#2d3449","on-tertiary":"#472a00","outline":"#87929a","inverse-surface":"#dae2fd","surface-container-highest":"#2d3449","surface-container-low":"#131b2e","on-primary-fixed-variant":"#004c69","secondary":"#c0c1ff","primary-container":"#38bdf8","surface-container-high":"#222a3d","on-tertiary-fixed-variant":"#653e00","inverse-primary":"#00668a","on-tertiary-container":"#613b00","primary":"#8ed5ff","surface-container-lowest":"#060e20","on-error-container":"#ffdad6","on-secondary":"#1000a9","error-container":"#93000a","outline-variant":"#3e484f","on-error":"#690005","on-primary":"#00354a","primary-fixed-dim":"#7bd0ff","on-surface-variant":"#bdc8d1","on-primary-fixed":"#001e2c","tertiary-container":"#f1a02b","inverse-on-surface":"#283044","secondary-fixed-dim":"#c0c1ff","secondary-fixed":"#e1e0ff","surface-tint":"#7bd0ff","secondary-container":"#3131c0","on-background":"#dae2fd","on-tertiary-fixed":"#2a1700","on-surface":"#dae2fd","tertiary":"#ffc176","on-secondary-fixed":"#07006c","surface-bright":"#31394d","surface":"#0b1326","error":"#ffb4ab","surface-dim":"#0b1326","on-secondary-fixed-variant":"#2f2ebe","background":"#0b1326","primary-fixed":"#c4e7ff","tertiary-fixed":"#ffddb8","on-secondary-container":"#b0b2ff"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"unit":"4px","density-comfortable":"16px","density-compact":"8px","gutter":"16px","margin-page":"24px","panel-width":"420px"},"fontFamily":{"label-caps":["Inter"],"body-base":["Inter"],"headline-md":["Inter"],"display-lg-mobile":["Inter"],"code-data":["JetBrains Mono"],"body-sm":["Inter"],"display-lg":["Inter"]},"fontSize":{"label-caps":["11px",{"lineHeight":"12px","letterSpacing":"0.05em","fontWeight":"700"}],"body-base":["14px",{"lineHeight":"20px","fontWeight":"400"}],"headline-md":["20px",{"lineHeight":"28px","fontWeight":"600"}],"display-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"700"}],"code-data":["13px",{"lineHeight":"16px","letterSpacing":"-0.01em","fontWeight":"500"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"display-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}}</script><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/></head><body class="bg-surface font-body-base text-body-base text-on-surface"><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-low z-50 flex flex-col border-r border-outline-variant/30"><div class="p-6 flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[32px]">biotech</span><span class="font-headline-md text-headline-md tracking-tight">CORE INTEL</span></div><nav class="flex-1 px-4 py-6 flex flex-col gap-unit" data-active-classes="bg-secondary-container text-on-secondary-container"><a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="triage-dashboard" href="#"><span class="material-symbols-outlined">dashboard_customize</span><span class="font-label-caps text-label-caps uppercase">Triage</span></a><a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="cve-workspace" href="#"><span class="material-symbols-outlined">search_insights</span><span class="font-label-caps text-label-caps uppercase">Workspace</span></a><a aria-current="page" class="flex items-center gap-3 px-4 py-3 rounded-lg transition-all group bg-secondary-container text-on-secondary-container" data-path="news-intel" href="#"><span class="material-symbols-outlined">rss_feed</span><span class="font-label-caps text-label-caps uppercase">Intelligence</span></a><a class="flex items-center gap-3 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="data-freshness" href="#"><span class="material-symbols-outlined">monitoring</span><span class="font-label-caps text-label-caps uppercase">Operations</span></a></nav><div class="p-4 mt-auto border-t border-outline-variant/20"><div class="bg-surface-container-highest p-3 rounded-xl flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span><span class="font-code-data text-code-data text-tertiary">System: Stable</span></div></div></aside><div class="pl-64"><header class="fixed top-0 left-64 right-0 h-16 bg-surface/80 backdrop-blur-xl z-40 px-gutter flex items-center justify-between border-b border-outline-variant/20"><div class="flex-1 max-w-xl flex items-center bg-surface-container-high px-4 py-2 rounded-full border border-outline-variant/30 group focus-within:border-primary transition-colors"><span class="material-symbols-outlined text-on-surface-variant group-focus-within:text-primary transition-colors">search</span><input class="bg-transparent border-none focus:ring-0 text-sm w-full px-3 text-on-surface placeholder:text-outline" placeholder="Search CVE, Keyword, or Asset..." type="text"/></div><div class="flex items-center gap-6"><div class="flex flex-col items-end"><span class="font-label-caps text-[10px] text-outline uppercase">Data Freshness</span><div class="flex items-center gap-2 px-2 py-1 bg-surface-container rounded border border-outline-variant/30"><span class="text-[11px] font-code-data text-on-surface">Last Scrape: 2m ago</span><span class="material-symbols-outlined text-[14px] text-primary animate-spin-slow">sync</span></div></div><button class="relative p-2 text-on-surface-variant hover:text-on-surface"><span class="material-symbols-outlined">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 bg-error rounded-full border-2 border-surface"></span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:ring-2 ring-primary/20 transition-all"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="relative pt-16 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Live Intel Ticker -->
+<div class="sticky top-16 z-30 bg-surface-container-low/95 backdrop-blur-md px-gutter py-3 flex items-center gap-4 overflow-hidden shadow-sm">
+<div class="flex items-center gap-2 shrink-0">
+<span class="w-2 h-2 rounded-full bg-error animate-ping"></span>
+<span class="font-label-caps text-label-caps text-error uppercase">Live Intel</span>
+</div>
+<div class="h-4 w-px bg-outline-variant/30 shrink-0"></div>
+<div class="flex-1 overflow-hidden">
+<div class="flex gap-12 whitespace-nowrap" id="ticker-scroll">
+<div class="flex items-center gap-3">
+<span class="font-code-data text-code-data text-primary">09:42 UTC</span>
+<span class="font-body-sm text-body-sm text-on-surface">New RCE discovered in widely used enterprise firewall gateway...</span>
+</div>
+<div class="flex items-center gap-3 text-on-surface-variant">
+<span class="font-code-data text-code-data text-tertiary">09:15 UTC</span>
+<span class="font-body-sm text-body-sm">CISA adds 3 new vulnerabilities to KEV catalog...</span>
+</div>
+<div class="flex items-center gap-3 text-on-surface-variant">
+<span class="font-code-data text-code-data text-primary">08:50 UTC</span>
+<span class="font-body-sm text-body-sm">Darknet forum activity suggests imminent campaign against APAC financial sector...</span>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-row w-full max-w-[1600px] mx-auto px-margin-page py-10 gap-10">
+<!-- Main Feed Section -->
+<div class="flex-1 min-w-0">
+<!-- Section Header with Filters -->
+<div class="flex flex-col gap-6 mb-12">
+<div class="flex items-end justify-between">
+<div>
+<h1 class="font-display-lg text-display-lg text-on-surface mb-2">Intelligence Stream</h1>
+<p class="font-body-base text-body-base text-on-surface-variant max-w-xl">Curated threat feeds and investigative reporting from the global security community, prioritized by operational impact.</p>
+</div>
+<div class="flex items-center gap-2">
+<button class="bg-surface-container-high px-4 py-2 rounded-lg flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">filter_list</span>
+<span class="font-label-caps text-label-caps uppercase">Filter</span>
+</button>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-lg flex items-center gap-2 hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">export_notes</span>
+<span class="font-label-caps text-label-caps uppercase">Export Report</span>
+</button>
+</div>
+</div>
+<div class="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
+<button class="px-5 py-1.5 rounded-full bg-secondary-container text-on-secondary-container font-label-caps text-label-caps uppercase whitespace-nowrap">All Sources</button>
+<button class="px-5 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-caps text-label-caps uppercase whitespace-nowrap transition-colors">Tier 1 Only</button>
+<button class="px-5 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-caps text-label-caps uppercase whitespace-nowrap transition-colors">Zero-Day Watch</button>
+<button class="px-5 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-caps text-label-caps uppercase whitespace-nowrap transition-colors">Ransomware Ops</button>
+<button class="px-5 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-caps text-label-caps uppercase whitespace-nowrap transition-colors">State Actors</button>
+</div>
+</div>
+<!-- Feed Grid -->
+<div class="flex flex-col gap-1">
+<!-- Featured Article (Tier 1) -->
+<article class="group relative bg-surface-container-low p-6 flex flex-col md:flex-row gap-8 mb-8 shadow-xl overflow-hidden rounded-xl">
+<div class="absolute top-0 left-0 w-1 h-full bg-error"></div>
+<div class="w-full md:w-1/3 aspect-video md:aspect-square overflow-hidden rounded-lg bg-surface-container-highest shrink-0">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" data-alt="A cinematic, high-contrast digital illustration of a glowing red network virus spreading across a dark grid of server towers. Dark blue and cyan tech aesthetics with sharp red glitch effects and volumetric lighting. Forensic tech atmosphere." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBWufCMLlDx-adyoQNDnTgXltjy6JlxxoXA2NVs3rIYsi6qpls8HlyI91oWwbduoXuGFZOesgZYIA7FdUEnYN9iEMoCfLyl0Vk4iTny-di5N6GZacnYVbd-iArgCAKpDLGaR_NbojqQ6GjPrxxb56m21QUZMBcDVx0hRpimQp5PD_ZAqPef6dQ2mfPNcHGqC2QBATfI47EDKmtvEQC2NRr64eETkzxqKt9YCQMl5nkxmABGaT-Yf4Vg')"></div>
+</div>
+<div class="flex flex-col justify-center flex-1">
+<div class="flex items-center gap-4 mb-4">
+<span class="px-2 py-0.5 bg-error/10 text-error font-code-data text-[10px] uppercase border border-error/20 tracking-widest">Tier 1 · Global Priority</span>
+<span class="font-code-data text-code-data text-outline">14m ago</span>
+</div>
+<h2 class="font-display-lg text-display-lg leading-tight mb-4 group-hover:text-primary transition-colors">The 'Volt Typhoon' Infrastructure: Forensic Breakdown of PR-Based C2 Nodes</h2>
+<p class="font-body-base text-body-base text-on-surface-variant line-clamp-3 mb-6">Recent telemetry indicates a significant expansion of the botnet utilized by Volt Typhoon. Investigation reveals that over 200 previously dormant SOHO routers have been reactivated to serve as a high-speed, obfuscated proxy layer for state-sponsored operations against Western infrastructure targets...</p>
+<div class="flex items-center justify-between mt-auto">
+<div class="flex items-center gap-3">
+<div class="w-6 h-6 rounded-full bg-surface-container-highest flex items-center justify-center text-[12px] font-bold text-primary">M</div>
+<span class="font-label-caps text-label-caps text-on-surface">Mandiant Intel Feed</span>
+</div>
+<a class="flex items-center gap-2 text-primary font-label-caps text-label-caps uppercase group/link" href="#">
+                Read Deep Dive
+                <span class="material-symbols-outlined text-[18px] group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- List Feed -->
+<div class="grid grid-cols-1 gap-4">
+<!-- Item 1 -->
+<div class="bg-surface-container hover:bg-surface-container-high transition-all p-5 flex items-start gap-6 group cursor-pointer shadow-sm rounded-lg">
+<div class="flex flex-col items-center gap-1 shrink-0">
+<span class="font-code-data text-[10px] text-outline uppercase">Tier 2</span>
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-tertiary">security</span>
+</div>
+</div>
+<div class="flex-1">
+<div class="flex items-center gap-3 mb-1">
+<span class="font-label-caps text-[10px] text-primary uppercase">Source: BleepingComputer</span>
+<span class="text-outline text-[10px]">•</span>
+<span class="font-code-data text-[11px] text-outline">2h 45m ago</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary-fixed-dim transition-colors mb-2">New Ivanti Policy Secure Zero-Day Exploited in the Wild</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Threat actors are currently exploiting a critical authentication bypass vulnerability (CVE-2024-XXXXX) to bypass security controls on Ivanti Gateways. Immediate patching is recommended for all enterprise perimeter devices.</p>
+</div>
+<div class="shrink-0 flex flex-col items-end gap-4">
+<button class="p-2 hover:bg-surface-container-lowest rounded-full text-outline hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined">bookmark_add</span>
+</button>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container hover:bg-surface-container-high transition-all p-5 flex items-start gap-6 group cursor-pointer shadow-sm rounded-lg">
+<div class="flex flex-col items-center gap-1 shrink-0">
+<span class="font-code-data text-[10px] text-outline uppercase">Tier 3</span>
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">database</span>
+</div>
+</div>
+<div class="flex-1">
+<div class="flex items-center gap-3 mb-1">
+<span class="font-label-caps text-[10px] text-primary uppercase">Source: Krebs on Security</span>
+<span class="text-outline text-[10px]">•</span>
+<span class="font-code-data text-[11px] text-outline">5h 12m ago</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary-fixed-dim transition-colors mb-2">Analysis: Data Breach Trends in the 2024 Q1 Financial Report</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">An investigative look into the surge of supply-chain attacks targeting niche financial software vendors during the first quarter of the year. Ransomware demands have increased by 14% on average.</p>
+</div>
+<div class="shrink-0 flex flex-col items-end gap-4">
+<button class="p-2 hover:bg-surface-container-lowest rounded-full text-outline hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined">bookmark_add</span>
+</button>
+</div>
+</div>
+<!-- Item 3 (With Small Image) -->
+<div class="bg-surface-container hover:bg-surface-container-high transition-all p-5 flex items-start gap-6 group cursor-pointer shadow-sm rounded-lg">
+<div class="flex flex-col items-center gap-1 shrink-0">
+<span class="font-code-data text-[10px] text-outline uppercase">Tier 2</span>
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary">terminal</span>
+</div>
+</div>
+<div class="flex-1">
+<div class="flex items-center gap-3 mb-1">
+<span class="font-label-caps text-[10px] text-primary uppercase">Source: The Record</span>
+<span class="text-outline text-[10px]">•</span>
+<span class="font-code-data text-[11px] text-outline">8h 22m ago</span>
+</div>
+<div class="flex gap-4">
+<div class="flex-1">
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary-fixed-dim transition-colors mb-2">LockBit 3.0 Ransomware Builders Leaked on GitHub</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">The source code for the LockBit 3.0 builder has been made public, leading to a new wave of localized ransomware variants being developed by smaller, less sophisticated threat groups globally.</p>
+</div>
+<div class="w-32 h-20 rounded-md bg-surface-container-highest overflow-hidden shrink-0 hidden lg:block">
+<div class="w-full h-full bg-cover bg-center" data-alt="A dark terminal screen with green code scrolling and a LockBit logo glitching in the center. Professional tech photography, bokeh background of a data center. High contrast blue and green tones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAyXzBgs-S6cATnIp-3p6B5tygrzMIusriKgrOBljVndlqZbs7AXNNpgaiY493i6qxQ7BwFoBwsvlOPky-8oG7ZloivWj5kx7UVzWaGMoRyNF_IwGQJZbErcHRnKBnOdg-HE6YXiuB3yx5_qeeTLHNJmG-ZPAQPEBGJuEyYcJEUFLJGIGpOamOG_36F2Puogay5QKMDTs5E_CZ6D-2jKG76parPLURP3BUL3yIuRCELBHi0hXpuZjt1')"></div>
+</div>
+</div>
+</div>
+<div class="shrink-0 flex flex-col items-end gap-4">
+<button class="p-2 hover:bg-surface-container-lowest rounded-full text-outline hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined">bookmark_add</span>
+</button>
+</div>
+</div>
+</div>
+<button class="mt-8 w-full py-4 bg-surface-container-low border border-outline-variant/20 hover:bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps uppercase tracking-widest transition-all">Load Previous Intelligence</button>
+</div>
+</div>
+<!-- Right Sidebar: Intelligence Summary -->
+<aside class="w-80 flex flex-col gap-6 shrink-0 hidden xl:flex">
+<!-- Search Input -->
+<div class="bg-surface-container-high p-4 rounded-xl shadow-lg border border-outline-variant/10">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
+<input class="bg-surface-container-lowest border-none w-full pl-10 pr-4 py-2.5 text-sm rounded-lg focus:ring-1 focus:ring-primary text-on-surface placeholder:text-outline" placeholder="Search intel stream..." type="text"/>
+</div>
+</div>
+<!-- Trending Keywords (Bento Style) -->
+<div class="bg-surface-container-low p-6 rounded-xl flex flex-col gap-4 border border-outline-variant/10">
+<span class="font-label-caps text-label-caps text-outline uppercase">Active Indicators</span>
+<div class="flex flex-wrap gap-2">
+<span class="px-2 py-1 bg-surface-container-highest rounded text-on-surface-variant text-[11px] font-code-data hover:text-primary cursor-pointer transition-colors">#APT41</span>
+<span class="px-2 py-1 bg-surface-container-highest rounded text-on-surface-variant text-[11px] font-code-data hover:text-primary cursor-pointer transition-colors">#Ransomware</span>
+<span class="px-2 py-1 bg-surface-container-highest rounded text-on-surface-variant text-[11px] font-code-data hover:text-primary cursor-pointer transition-colors">#ZeroDay</span>
+<span class="px-2 py-1 bg-surface-container-highest rounded text-on-surface-variant text-[11px] font-code-data hover:text-primary cursor-pointer transition-colors">#CobaltStrike</span>
+<span class="px-2 py-1 bg-surface-container-highest rounded text-on-surface-variant text-[11px] font-code-data hover:text-primary cursor-pointer transition-colors">#Exchange</span>
+<span class="px-2 py-1 bg-surface-container-highest rounded text-on-surface-variant text-[11px] font-code-data hover:text-primary cursor-pointer transition-colors">#SolarWinds</span>
+</div>
+</div>
+<!-- Intel Sources Status -->
+<div class="bg-surface-container-low p-6 rounded-xl flex flex-col gap-4 border border-outline-variant/10">
+<span class="font-label-caps text-label-caps text-outline uppercase">Feed Latency</span>
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="text-xs font-body-base text-on-surface-variant">CISA Newsfeed</span>
+<span class="text-[10px] font-code-data text-primary">Live (2ms)</span>
+</div>
+<div class="w-full h-1 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="w-[98%] h-full bg-primary"></div>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-xs font-body-base text-on-surface-variant">MITRE ATT&CK</span>
+<span class="text-[10px] font-code-data text-primary">Live (14ms)</span>
+</div>
+<div class="w-full h-1 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="w-[85%] h-full bg-primary"></div>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-xs font-body-base text-on-surface-variant">Darknet Scraper</span>
+<span class="text-[10px] font-code-data text-tertiary">Delayed (12m)</span>
+</div>
+<div class="w-full h-1 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="w-[40%] h-full bg-tertiary"></div>
+</div>
+</div>
+</div>
+<!-- Quick Action: Threat Map -->
+<div class="relative group cursor-pointer overflow-hidden rounded-xl h-40 bg-surface-container-low border border-outline-variant/10">
+<div class="absolute inset-0 opacity-40 group-hover:opacity-60 transition-opacity" data-location="Washington DC" style=""></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4">
+<span class="font-label-caps text-[10px] text-primary uppercase block mb-1">Global Visualization</span>
+<span class="font-headline-md text-headline-md text-on-surface">Live Attack Map</span>
+</div>
+</div>
+</aside>
+</div>
+<script>
+    // Simple Ticker Animation
+    const ticker = document.getElementById('ticker-scroll');
+    let scrollPos = 0;
+    
+    function animateTicker() {
+      scrollPos -= 0.5;
+      if (Math.abs(scrollPos) >= ticker.firstElementChild.offsetWidth + 48) {
+        ticker.appendChild(ticker.firstElementChild);
+        scrollPos = 0;
+      }
+      ticker.style.transform = `translateX(${scrollPos}px)`;
+      requestAnimationFrame(animateTicker);
+    }
+    
+    // Start animation if content exceeds viewport
+    setTimeout(animateTicker, 1000);
+
+    // Filter Button Micro-interaction
+    document.querySelectorAll('[data-filter-btn]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('[data-filter-btn]').forEach(b => b.classList.remove('bg-secondary-container', 'text-on-secondary-container'));
+        btn.classList.add('bg-secondary-container', 'text-on-secondary-container');
+      });
+    });
+  </script>
+</div></main></div></body></html>
