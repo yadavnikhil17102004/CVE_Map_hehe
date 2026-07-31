@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>CVE Intel — Workspace</title>
+  <meta name="description" content="CVE workspace with repository evidence, NVD details, and related intelligence."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" referrerpolicy="no-referrer"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .glass { background: rgba(22,27,34,0.86); backdrop-filter: blur(10px); border: 1px solid rgba(48,54,61,0.6); }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+    .chip { border: 1px solid rgba(48,54,61,0.8); border-radius: 999px; padding: 4px 10px; font-size: 11px; color: #c9d1d9; background: rgba(33,38,45,0.6); }
+    .timeline:before { content: ''; position: absolute; left: 15px; top: 0; bottom: 0; width: 2px; background: rgba(48,54,61,0.7); }
+  </style>
+</head>
+<body class="dark bg-bg-dark text-gray-200 font-sans antialiased min-h-screen">
+  <div class="flex min-h-screen">
+    <aside class="hidden lg:flex w-64 bg-surface border-r border-border flex-col">
+      <div class="p-5 border-b border-border">
+        <a href="index.html" class="flex items-center gap-2">
+          <span class="material-symbols-outlined text-primary">radar</span>
+          <span class="mono font-bold text-white tracking-tight">CVE INTEL</span>
+        </a>
+      </div>
+      <nav class="p-4 space-y-2 text-sm">
+        <a href="dashboard.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">dashboard_customize</span>Triage</a>
+        <a href="workspace.html" class="flex items-center gap-2 px-3 py-2 rounded bg-primary/10 border border-primary/30 text-primary"><span class="material-symbols-outlined text-[18px]">search_insights</span>Workspace</a>
+        <a href="news.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">rss_feed</span>Intelligence</a>
+        <a href="operations.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">monitoring</span>Operations</a>
+        <a href="docs.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">book</span>Docs</a>
+      </nav>
+      <div class="mt-auto p-4 border-t border-border">
+        <a href="https://github.com/yadavnikhil17102004/CVE-Intel" target="_blank" class="flex items-center justify-center gap-2 px-3 py-2 rounded border border-primary/40 text-primary text-xs hover:bg-primary/10">
+          <span class="material-symbols-outlined text-[16px]">code</span>GitHub Repo
+        </a>
+      </div>
+    </aside>
+
+    <div class="flex-1 min-w-0 flex flex-col">
+      <header class="h-16 border-b border-border bg-surface/85 backdrop-blur px-4 md:px-6 flex items-center justify-between gap-3">
+        <div class="flex items-center gap-2 min-w-0 flex-1">
+          <a href="dashboard.html" class="material-symbols-outlined text-primary">arrow_back</a>
+          <input id="cve-input" type="text" placeholder="Enter CVE-YYYY-NNNN" class="bg-surface-2 border border-border rounded-lg px-3 py-2 text-sm w-full max-w-sm outline-none focus:border-primary"/>
+          <button id="load-btn" class="px-3 py-2 rounded bg-primary/15 border border-primary/40 text-primary text-sm">Load</button>
+        </div>
+        <div id="freshness" class="mono text-xs text-dim">Loading freshness...</div>
+      </header>
+
+      <main class="flex-1 overflow-y-auto p-4 md:p-6 space-y-4">
+        <section class="glass rounded-xl p-4">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <div>
+              <div id="cve-id" class="mono text-2xl text-white">CVE-—</div>
+              <div id="cve-subtitle" class="text-xs text-dim mt-1">Load a CVE to inspect repositories and technical intelligence.</div>
+            </div>
+            <div class="flex gap-2">
+              <span id="sev-badge" class="px-2 py-1 rounded border text-xs border-border text-dim">Severity: —</span>
+              <span id="kev-badge" class="px-2 py-1 rounded border text-xs border-border text-dim">KEV: —</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="grid grid-cols-1 xl:grid-cols-12 gap-4">
+          <div class="xl:col-span-7 space-y-4">
+            <div class="glass rounded-xl p-4">
+              <h2 class="text-sm font-semibold text-white mb-3">PoC Repository Analysis</h2>
+              <div class="overflow-x-auto">
+                <table class="w-full text-left text-xs">
+                  <thead>
+                    <tr class="text-dim uppercase tracking-wider border-b border-border">
+                      <th class="py-2 pr-2">Repository</th>
+                      <th class="py-2 pr-2">Owner</th>
+                      <th class="py-2 pr-2 text-right">Stars</th>
+                      <th class="py-2 pr-2">Language</th>
+                      <th class="py-2 pr-2">Last Activity</th>
+                      <th class="py-2 text-right">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody id="repo-body" class="divide-y divide-border/20"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="glass rounded-xl p-4">
+              <h2 class="text-sm font-semibold text-white mb-3">Related Intelligence</h2>
+              <div id="related-news" class="space-y-2"></div>
+            </div>
+          </div>
+
+          <div class="xl:col-span-5 space-y-4">
+            <div class="glass rounded-xl p-4">
+              <h3 class="text-xs uppercase tracking-wider text-primary mb-2">NVD Technical Description</h3>
+              <p id="desc" class="text-sm text-gray-300 leading-relaxed">—</p>
+              <div class="mt-4">
+                <div class="text-[10px] uppercase tracking-wider text-dim mb-1">CVSS Vector</div>
+                <code id="cvss-vector" class="mono text-xs text-cyan-300 break-all">—</code>
+              </div>
+              <div class="mt-4">
+                <div class="text-[10px] uppercase tracking-wider text-dim mb-1">Affected Components (from products)</div>
+                <div id="components" class="flex flex-wrap gap-2"></div>
+              </div>
+            </div>
+
+            <div class="glass rounded-xl p-4">
+              <h2 class="text-sm font-semibold text-white mb-3">Event History</h2>
+              <div id="timeline" class="relative timeline space-y-4 pl-8"></div>
+            </div>
+
+            <div class="glass rounded-xl p-4 grid grid-cols-2 gap-3 text-center">
+              <div class="border border-danger/40 rounded-lg p-3">
+                <div class="text-[10px] uppercase text-dim">EPSS</div>
+                <div id="epss" class="mono text-2xl text-danger mt-1">—</div>
+              </div>
+              <div class="border border-primary/40 rounded-lg p-3">
+                <div class="text-[10px] uppercase text-dim">CWE</div>
+                <div id="cwe" class="mono text-2xl text-primary mt-1">—</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+<script>
+function esc(v){ return String(v ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c])); }
+
+function ago(value){
+  if (!value) return '—';
+  const t = new Date(value).getTime();
+  if (!t) return '—';
+  const diff = Math.floor((Date.now() - t)/1000);
+  if (diff < 3600) return `${Math.max(1,Math.round(diff/60))}m ago`;
+  if (diff < 86400) return `${Math.round(diff/3600)}h ago`;
+  return `${Math.round(diff/86400)}d ago`;
+}
+
+function cweName(cwe){
+  const map = {
+    'CWE-79': 'XSS', 'CWE-89': 'SQL Injection', 'CWE-287': 'Auth Bypass', 'CWE-22': 'Path Traversal',
+    'CWE-78': 'OS Command Injection', 'CWE-352': 'CSRF', 'CWE-416': 'Use After Free', 'CWE-20': 'Input Validation'
+  };
+  return map[cwe] || 'Known weakness';
+}
+
+async function loadFreshness(){
+  try {
+    const res = await fetch('/api/ops/freshness');
+    if (!res.ok) throw new Error('fail');
+    const data = await res.json();
+    const age = data.scrape && typeof data.scrape.age_seconds === 'number' ? `${Math.round(data.scrape.age_seconds/60)}m ago` : 'unknown';
+    document.getElementById('freshness').textContent = `Scrape: ${age}`;
+  } catch {
+    document.getElementById('freshness').textContent = 'Freshness unavailable';
+  }
+}
+
+function renderDetail(data){
+  const intel = data.intel || {};
+  const repos = data.repositories || [];
+  const news = data.related_news || [];
+  const products = Array.isArray(intel.q) ? intel.q.slice(0, 8) : [];
+
+  document.getElementById('cve-id').textContent = data.cve_id;
+  document.getElementById('cve-subtitle').textContent = `Year ${data.year} • ${repos.length} repositories observed`;
+  document.getElementById('sev-badge').textContent = `Severity: ${intel.v || 'UNSCORED'}`;
+  document.getElementById('kev-badge').textContent = `KEV: ${intel.k ? 'Listed' : 'No'}`;
+  document.getElementById('desc').textContent = intel.d || 'No NVD description available.';
+  document.getElementById('cvss-vector').textContent = intel.c || '—';
+  document.getElementById('epss').textContent = (typeof intel.e === 'number') ? `${(intel.e * 100).toFixed(1)}%` : '—';
+  document.getElementById('cwe').textContent = intel.w || '—';
+
+  document.getElementById('components').innerHTML = products.length
+    ? products.map(p => `<span class="chip mono">${esc(p)}</span>`).join('')
+    : '<span class="text-xs text-dim">No product/component data available.</span>';
+
+  document.getElementById('repo-body').innerHTML = repos.length ? repos.map(r => {
+    const owner = r.owner && r.owner.login ? r.owner.login : '—';
+    return `<tr>
+      <td class="py-2 pr-2"><a class="text-primary hover:underline" target="_blank" href="${esc(r.html_url || '#')}">${esc(r.full_name || r.name || 'unknown')}</a></td>
+      <td class="py-2 pr-2">${esc(owner)}</td>
+      <td class="py-2 pr-2 text-right mono">${Number(r.stargazers_count || 0).toLocaleString()}</td>
+      <td class="py-2 pr-2">${esc(r.language || '—')}</td>
+      <td class="py-2 pr-2">${ago(r.pushed_at)}</td>
+      <td class="py-2 text-right"><button class="text-xs border border-border rounded px-2 py-1 copy-clone" data-clone="${esc(r.clone_url || '')}">Clone</button></td>
+    </tr>`;
+  }).join('') : '<tr><td colspan="6" class="py-6 text-center text-dim">No repository evidence for this CVE.</td></tr>';
+
+  document.getElementById('related-news').innerHTML = news.length ? news.slice(0, 6).map(n => {
+    return `<a class="block p-3 rounded-lg border border-border hover:border-primary/50 hover:bg-surface-2/40" href="${esc(n.link || '#')}" target="_blank">
+      <div class="text-[10px] uppercase tracking-wider text-primary">${esc(n.source || 'Unknown source')} • Tier ${esc(n.tier ?? '—')}</div>
+      <div class="text-sm text-white mt-1">${esc(n.title || 'Untitled')}</div>
+      <div class="text-xs text-dim mt-1">${ago(n.pub_date)}</div>
+    </a>`;
+  }).join('') : '<div class="text-xs text-dim">No related news mentioning this CVE in the current feed window.</div>';
+
+  const timeline = data.timeline || [];
+  document.getElementById('timeline').innerHTML = timeline.length ? timeline.map(item => {
+    const when = item.time ? new Date(item.time).toLocaleString() : 'Date unavailable';
+    return `<div class="relative">
+      <div class="absolute -left-[30px] top-1 w-4 h-4 rounded-full bg-primary/80 border border-primary"></div>
+      <div class="text-sm text-white">${esc(item.event)}</div>
+      <div class="text-xs text-dim mono">${esc(when)}</div>
+      <div class="text-xs text-dim mt-1">${esc(item.note || '')}</div>
+    </div>`;
+  }).join('') : '<div class="text-xs text-dim">No timeline events available.</div>';
+
+  document.querySelectorAll('.copy-clone').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const value = btn.dataset.clone || '';
+      if (!value) return;
+      try { await navigator.clipboard.writeText(value); btn.textContent = 'Copied'; setTimeout(() => btn.textContent = 'Clone', 1000); }
+      catch { window.prompt('Copy clone URL:', value); }
+    });
+  });
+}
+
+async function loadCVE(cve){
+  const norm = (cve || '').trim().toUpperCase();
+  if (!/^CVE-\d{4}-\d{4,8}$/.test(norm)) {
+    alert('Enter a valid CVE format, e.g. CVE-2024-12345');
+    return;
+  }
+  document.getElementById('cve-id').textContent = norm;
+  document.getElementById('cve-subtitle').textContent = 'Loading workspace data...';
+
+  try {
+    const res = await fetch(`/api/cve-detail/${encodeURIComponent(norm)}`);
+    if (!res.ok) throw new Error('not found');
+    const data = await res.json();
+    renderDetail(data);
+    const url = new URL(window.location.href);
+    url.searchParams.set('cve', norm);
+    history.replaceState({}, '', url);
+  } catch {
+    document.getElementById('repo-body').innerHTML = '<tr><td colspan="6" class="py-6 text-center text-dim">No data found for this CVE.</td></tr>';
+    document.getElementById('related-news').innerHTML = '<div class="text-xs text-dim">No related intelligence found.</div>';
+    document.getElementById('timeline').innerHTML = '<div class="text-xs text-dim">No timeline available.</div>';
+    document.getElementById('desc').textContent = 'Unable to load CVE detail right now.';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
+  const initial = new URL(window.location.href).searchParams.get('cve') || 'CVE-2026-12345';
+  document.getElementById('cve-input').value = initial;
+  document.getElementById('load-btn').addEventListener('click', () => loadCVE(document.getElementById('cve-input').value));
+  document.getElementById('cve-input').addEventListener('keydown', (e) => { if (e.key === 'Enter') loadCVE(document.getElementById('cve-input').value); });
+  await Promise.all([loadFreshness(), loadCVE(initial)]);
+});
+</script>
+</body>
+</html>

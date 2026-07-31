@@ -2,292 +2,289 @@
 <html lang="en" class="dark">
 <head>
   <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>CVE Map — Live Threat Intelligence</title>
-  <meta name="description" content="Real-time Cybersecurity News and Threat Intelligence Feed aggregator."/>
-  <meta name="keywords" content="Cybersecurity news, threat intelligence, zero day, exploit, hack, feed, live, CVE"/>
-  
-  <meta property="og:title" content="CVE Map — Live Threat Intelligence"/>
-  <meta property="og:description" content="Real-time Cybersecurity News and Threat Intelligence Feed aggregator."/>
-  <meta property="og:type" content="website"/>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CVE Intel — Intelligence Stream</title>
+  <meta name="description" content="Curated threat intelligence feed with tiering, keyword indicators, and paginated archive."/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet"/>
-  
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" referrerpolicy="no-referrer"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="style.css"/>
-  
   <style>
-    ::-webkit-scrollbar { width: 5px; height: 5px; }
-    ::-webkit-scrollbar-track { background: #0d1117; }
-    ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
-    ::-webkit-scrollbar-thumb:hover { background: #484f58; }
-
-    .glass {
-      background: rgba(22,27,34,0.85);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border: 1px solid rgba(48,54,61,0.7);
-    }
-    
-    .bg-grid {
-      background-size: 40px 40px;
-      background-image: linear-gradient(to right, rgba(48, 54, 61, 0.4) 1px, transparent 1px),
-                        linear-gradient(to bottom, rgba(48, 54, 61, 0.4) 1px, transparent 1px);
-    }
-
-    /* CSS Marquee animation for the ticker */
-    .ticker-container {
-      width: 100%;
-      overflow: hidden;
-      white-space: nowrap;
-      position: relative;
-    }
-    
-    .ticker-content {
-      display: inline-block;
-      animation: ticker 120s linear infinite;
-    }
-    
-    @keyframes ticker {
-      0% { transform: translateX(100vw); }
-      100% { transform: translateX(-100%); }
-    }
-
-    /* Missing Tailwind classes for Masonry layout */
-    .columns-1 { columns: 1; }
-    @media (min-width: 768px) { .md\:columns-2 { columns: 2; } }
-    @media (min-width: 1024px) { .lg\:columns-3 { columns: 3; } }
-    @media (min-width: 1280px) { .xl\:columns-4 { columns: 4; } }
-    .break-inside-avoid { break-inside: avoid; }
+    .glass { background: rgba(22,27,34,0.86); backdrop-filter: blur(10px); border: 1px solid rgba(48,54,61,0.6); }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+    .chip.active { border-color: rgba(6,182,212,0.6); color: #22d3ee; background: rgba(6,182,212,0.1); }
   </style>
 </head>
-
-<body class="dark bg-bg-dark text-gray-200 font-sans antialiased h-screen flex flex-col overflow-hidden">
-
-  <!-- ===== HEADER ===== -->
-  <header class="h-16 border-b border-border flex items-center justify-between px-6 bg-surface shrink-0 z-20 sticky top-0">
-    <div class="flex items-center gap-2 group cursor-pointer" onclick="window.location.href='index.html'">
-      <div class="relative flex items-center justify-center h-8 w-8 rounded-lg bg-surface-2 border border-border group-hover:border-primary/50 transition-colors">
-        <span class="material-symbols-outlined text-primary text-xl relative z-10 transition-transform group-hover:scale-110">radar</span>
+<body class="dark bg-bg-dark text-gray-200 font-sans antialiased min-h-screen">
+  <div class="flex min-h-screen">
+    <aside class="hidden lg:flex w-64 bg-surface border-r border-border flex-col">
+      <div class="p-5 border-b border-border">
+        <a href="index.html" class="flex items-center gap-2"><span class="material-symbols-outlined text-primary">radar</span><span class="mono font-bold text-white tracking-tight">CVE INTEL</span></a>
       </div>
-      <h1 class="font-mono font-bold text-xl tracking-tight text-white group-hover:text-primary transition-colors">
-        CVE <span class="text-primary">MAP</span>
-      </h1>
-      <span class="text-[10px] ml-1 px-2 py-0.5 rounded-full bg-surface-2 text-dim hidden sm:inline border border-border">
-        Live Intel
-      </span>
-    </div>
-    
-    <!-- Desktop Nav -->
-    <nav class="hidden md:flex items-center gap-6">
-      <a href="index.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">home</span> Home</a>
-      <a href="dashboard.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">dashboard</span> Dashboard</a>
-      <a href="news.html" class="text-sm font-medium text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">public</span> News</a>
-      <a href="docs.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">book</span> Docs</a>
-      <a href="https://github.com/yadavnikhil17102004/CVE-Intel" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono rounded bg-primary/10 border border-primary/30 hover:bg-primary/20 text-primary transition-colors">
-        <span class="material-symbols-outlined text-sm">code</span> GitHub
-      </a>
-    </nav>
-  </header>
-
-  <!-- ===== LIVE TICKER ===== -->
-  <div class="h-8 bg-black border-b border-border flex items-center z-10 shrink-0">
-    <div class="bg-danger text-white text-[10px] font-bold font-mono px-3 h-full flex items-center tracking-wider z-10 shrink-0">
-      <span class="relative flex h-2 w-2 mr-2">
-        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
-        <span class="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
-      </span>
-      LATEST INTELLIGENCE
-    </div>
-    <div class="ticker-container flex-1 bg-surface-2/30 h-full flex items-center">
-      <div id="live-ticker" class="ticker-content text-xs font-mono text-gray-300">
-        <!-- Javascript populates this -->
-        Loading live feed stream from global sensors...
+      <nav class="p-4 space-y-2 text-sm">
+        <a href="dashboard.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">dashboard_customize</span>Triage</a>
+        <a href="workspace.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">search_insights</span>Workspace</a>
+        <a href="news.html" class="flex items-center gap-2 px-3 py-2 rounded bg-primary/10 border border-primary/30 text-primary"><span class="material-symbols-outlined text-[18px]">rss_feed</span>Intelligence</a>
+        <a href="operations.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">monitoring</span>Operations</a>
+        <a href="docs.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">book</span>Docs</a>
+      </nav>
+      <div class="mt-auto p-4 border-t border-border">
+        <a href="https://github.com/yadavnikhil17102004/CVE-Intel" target="_blank" class="flex items-center justify-center gap-2 px-3 py-2 rounded border border-primary/40 text-primary text-xs hover:bg-primary/10">
+          <span class="material-symbols-outlined text-[16px]">code</span>GitHub Repo
+        </a>
       </div>
+    </aside>
+
+    <div class="flex-1 min-w-0 flex flex-col">
+      <header class="h-16 border-b border-border bg-surface/85 backdrop-blur px-4 md:px-6 flex items-center justify-between gap-3">
+        <div>
+          <h1 class="text-lg font-semibold text-white">Intelligence Stream</h1>
+          <p class="text-xs text-dim">Curated threat feeds prioritized by operational impact.</p>
+        </div>
+        <div class="text-right">
+          <div class="text-[10px] uppercase tracking-wider text-dim">Data Freshness</div>
+          <div id="freshness" class="mono text-[11px] text-gray-300">Loading...</div>
+        </div>
+      </header>
+
+      <main class="flex-1 overflow-y-auto p-4 md:p-6">
+        <div class="grid grid-cols-1 xl:grid-cols-12 gap-4">
+          <section class="xl:col-span-8 space-y-4">
+            <div class="glass rounded-xl p-4 space-y-3">
+              <div class="flex flex-wrap items-center gap-2 justify-between">
+                <div class="flex gap-2 flex-wrap">
+                  <button class="chip active px-3 py-1.5 rounded-full border border-border text-xs" data-chip="all">All Sources</button>
+                  <button class="chip px-3 py-1.5 rounded-full border border-border text-xs" data-chip="tier1">Tier 1 Only</button>
+                  <button class="chip px-3 py-1.5 rounded-full border border-border text-xs" data-chip="zeroday">Zero-Day Watch</button>
+                  <button class="chip px-3 py-1.5 rounded-full border border-border text-xs" data-chip="ransom">Ransomware Ops</button>
+                  <button class="chip px-3 py-1.5 rounded-full border border-border text-xs" data-chip="state">State Actors</button>
+                </div>
+                <div class="flex items-center gap-2">
+                  <select id="tier-filter" class="bg-surface-2 border border-border rounded px-2 py-1.5 text-xs">
+                    <option value="">All tiers</option>
+                    <option value="1">Tier 1</option>
+                    <option value="2">Tier 2</option>
+                    <option value="3">Tier 3</option>
+                    <option value="4">Tier 4</option>
+                    <option value="5">Tier 5</option>
+                  </select>
+                  <input id="search-input" type="text" placeholder="Search intelligence stream..." class="bg-surface-2 border border-border rounded px-3 py-1.5 text-xs w-56"/>
+                </div>
+              </div>
+              <div id="feed-list" class="space-y-3"></div>
+              <button id="load-more" class="w-full py-2.5 bg-surface-2 border border-border rounded text-xs uppercase tracking-wider hover:border-primary/60 hover:text-primary">Load Previous Intelligence</button>
+            </div>
+          </section>
+
+          <aside class="xl:col-span-4 space-y-4">
+            <div class="glass rounded-xl p-4">
+              <div class="text-[10px] uppercase tracking-wider text-dim mb-2">Keyword Indicators</div>
+              <div id="indicators" class="flex flex-wrap gap-2"></div>
+            </div>
+
+            <div class="glass rounded-xl p-4">
+              <div class="text-[10px] uppercase tracking-wider text-dim mb-2">Ingestion Freshness</div>
+              <div id="latency" class="space-y-3 text-xs"></div>
+            </div>
+
+            <div class="glass rounded-xl p-4">
+              <div class="text-[10px] uppercase tracking-wider text-dim mb-2">Coverage Note</div>
+              <p class="text-xs text-dim">No geolocation feed is integrated in this version. Use Operations for source freshness and feed status.</p>
+              <a href="operations.html" class="inline-flex mt-3 text-xs border border-border rounded px-2 py-1 hover:border-primary hover:text-primary">Open Operations</a>
+            </div>
+          </aside>
+        </div>
+      </main>
     </div>
   </div>
 
-  <!-- ===== LAYOUT ===== -->
-  <div class="flex flex-1 overflow-hidden relative">
-    <div class="absolute inset-0 bg-grid opacity-[0.15] z-0 pointer-events-none"></div>
+<script>
+let page = 1;
+let perPage = 20;
+let currentTier = '';
+let keywordPreset = 'all';
+let query = '';
+let hasMore = true;
+let loaded = [];
 
-    <main class="flex-1 overflow-y-auto bg-bg-dark/80 z-10 p-6 md:p-8">
-      
-      <!-- Controls -->
-      <div class="max-w-[1400px] mx-auto mb-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
-        <div>
-          <h2 class="text-2xl font-bold text-white flex items-center gap-2">
-             <span class="material-symbols-outlined text-primary text-3xl">local_fire_department</span>
-             Global Threat News
-          </h2>
-          <p class="text-xs text-dim mt-1 font-mono">Aggregating vulnerability & breach signals in real-time.</p>
-        </div>
-        
-        <div class="flex flex-col sm:flex-row sm:items-center gap-3 w-full lg:w-auto">
-          <select id="tier-filter" class="w-full sm:w-auto bg-surface border border-border text-sm text-dim rounded-lg px-3 py-2 focus:outline-none focus:border-primary transition-colors cursor-pointer appearance-none text-center">
-            <option value="all">All Intelligence</option>
-            <option value="1">Tier 1: Raw Vulns</option>
-            <option value="2">Tier 2: PoC Databases</option>
-            <option value="3">Tier 3: Writeups</option>
-            <option value="4">Tier 4: Bleeding-Edge</option>
-            <option value="5">Tier 5: Hacker Social</option>
-          </select>
-          <div class="relative w-full sm:w-auto">
-            <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-dim text-sm">search</span>
-            <input type="text" id="news-search" placeholder="Search title, source, keywords..." class="w-full sm:w-64 bg-surface border border-border text-sm text-white rounded-lg pl-9 pr-4 py-2 focus:outline-none focus:border-primary transition-colors placeholder-dim">
+function esc(v){ return String(v ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c])); }
+function ago(value){
+  if (!value) return '—';
+  const t = new Date(value).getTime(); if (!t) return value;
+  const diff = Math.floor((Date.now()-t)/1000);
+  if (diff < 3600) return `${Math.max(1,Math.round(diff/60))}m ago`;
+  if (diff < 86400) return `${Math.round(diff/3600)}h ago`;
+  return `${Math.round(diff/86400)}d ago`;
+}
+
+function tierLabel(t){ return `Tier ${t ?? '—'}`; }
+
+function keywordMatch(article){
+  const text = `${article.title || ''} ${article.description || ''}`.toLowerCase();
+  if (keywordPreset === 'all') return true;
+  if (keywordPreset === 'tier1') return Number(article.tier) === 1;
+  if (keywordPreset === 'zeroday') return /zero[\s-]?day|0day|exploit(ed)? in the wild/.test(text);
+  if (keywordPreset === 'ransom') return /ransom|lockbit|encryptor|extortion/.test(text);
+  if (keywordPreset === 'state') return /apt|state|nation|iran|china|russia|north korea/.test(text);
+  return true;
+}
+
+function renderFeed(){
+  const container = document.getElementById('feed-list');
+  const filtered = loaded.filter(a => keywordMatch(a));
+  if (!filtered.length) {
+    container.innerHTML = '<div class="text-sm text-dim py-8 text-center">No intelligence matched these filters.</div>';
+    return;
+  }
+
+  const [featured, ...rest] = filtered;
+  const featImage = featured.image_url ? `style="background-image:url('${esc(featured.image_url)}'); background-size:cover; background-position:center;"` : '';
+
+  container.innerHTML = `
+    <article class="rounded-xl border border-danger/30 bg-surface-2 p-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="rounded-lg min-h-[150px] bg-bg-dark border border-border" ${featImage}></div>
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-2 text-[10px] uppercase tracking-wider text-danger mono">
+            <span>${tierLabel(featured.tier)} • Global Priority</span>
+            <span class="text-dim">${ago(featured.pub_date)}</span>
           </div>
+          <a href="${esc(featured.link || '#')}" target="_blank" class="block text-white text-lg font-semibold mt-2 hover:text-primary">${esc(featured.title || 'Untitled')}</a>
+          <p class="text-sm text-gray-300 mt-2">${esc(featured.description || 'No summary available.')}</p>
+          <div class="text-xs text-primary mt-3">${esc(featured.source || 'Unknown source')}</div>
         </div>
       </div>
+    </article>
+    ${rest.map(item => `
+      <article class="rounded-lg border border-border hover:border-primary/50 hover:bg-surface-2/40 p-4">
+        <div class="flex items-start justify-between gap-3">
+          <div>
+            <div class="text-[10px] uppercase tracking-wider text-primary">${esc(item.source || 'Unknown source')} • ${tierLabel(item.tier)}</div>
+            <a href="${esc(item.link || '#')}" target="_blank" class="block text-sm text-white mt-1 hover:text-primary">${esc(item.title || 'Untitled')}</a>
+            <p class="text-xs text-dim mt-1">${esc(item.description || '')}</p>
+          </div>
+          <div class="text-[11px] mono text-dim whitespace-nowrap">${ago(item.pub_date)}</div>
+        </div>
+      </article>
+    `).join('')}
+  `;
+}
 
-      <!-- Loading / Status -->
-      <div id="news-loading" class="text-center py-20">
-        <span class="material-symbols-outlined text-4xl text-dim animate-pulse mb-4">radar</span>
-        <p class="font-mono text-primary text-sm animate-pulse tracking-widest uppercase">Syncing Sensor Data...</p>
-      </div>
+function renderIndicators(){
+  const stop = new Set(['the','and','for','with','from','this','that','have','into','their','about','after','before','been','into','over','under','exploit','vulnerability','cve']);
+  const counts = new Map();
+  loaded.forEach(a => {
+    (`${a.title || ''} ${a.description || ''}`.toLowerCase().match(/[a-z0-9#-]{4,}/g) || []).forEach(w => {
+      if (stop.has(w)) return;
+      counts.set(w, (counts.get(w) || 0) + 1);
+    });
+  });
+  const top = [...counts.entries()].sort((a,b)=>b[1]-a[1]).slice(0, 12);
+  document.getElementById('indicators').innerHTML = top.length
+    ? top.map(([k,v]) => `<button class="px-2 py-1 rounded bg-surface-2 border border-border text-[11px] mono hover:border-primary/50" data-word="${esc(k)}">#${esc(k)} (${v})</button>`).join('')
+    : '<span class="text-xs text-dim">No indicators yet.</span>';
 
-      <!-- Masonry Layout for Articles -->
-      <div id="news-grid" class="max-w-[1400px] mx-auto columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-8 pb-24 hidden">
-        <!-- JS fills this -->
-      </div>
-      
-    </main>
-  </div> <!-- layout -->
+  document.querySelectorAll('#indicators [data-word]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.getElementById('search-input').value = btn.dataset.word;
+      query = btn.dataset.word;
+      page = 1;
+      loaded = [];
+      fetchPage(true);
+    });
+  });
+}
 
-  <script>
-    let allArticles = [];
-    let activeTier = 'all';
+async function renderLatency(){
+  const el = document.getElementById('latency');
+  try {
+    const res = await fetch('/api/ops/freshness');
+    if (!res.ok) throw new Error('fail');
+    const data = await res.json();
+    document.getElementById('freshness').textContent = data.updated_at ? `Updated ${ago(data.updated_at)}` : 'Unknown';
 
-    // Simple time formatter
-    function timeAgo(date) {
-      const diff = (Date.now() - date.getTime()) / 1000;
-      if (diff < 3600)  return Math.max(1, Math.round(diff / 60)) + 'm ago';
-      if (diff < 86400) return Math.round(diff / 3600) + 'h ago';
-      if (diff < 604800) return Math.round(diff / 86400) + 'd ago';
-      return date.toLocaleDateString('en-US', { month:'short', day:'numeric' });
-    }
+    const rows = [
+      ['Scrape', data.scrape],
+      ['News', data.news],
+      ['Backup', data.backup],
+      ['Snapshot', data.snapshot],
+    ];
+    el.innerHTML = rows.map(([name, metric]) => {
+      const age = metric && typeof metric.age_seconds === 'number' ? `${Math.round(metric.age_seconds/60)}m` : 'n/a';
+      const stale = metric && metric.stale === true;
+      const pct = metric && metric.threshold_seconds ? Math.min(100, Math.round(((metric.age_seconds || 0) / metric.threshold_seconds) * 100)) : 0;
+      return `<div>
+        <div class="flex items-center justify-between"><span class="text-gray-300">${name}</span><span class="mono ${stale ? 'text-danger' : 'text-primary'}">${stale ? 'STALE' : 'OK'} (${age})</span></div>
+        <div class="w-full h-1.5 bg-surface-2 rounded overflow-hidden mt-1"><div class="h-full ${stale ? 'bg-danger' : 'bg-primary'}" style="width:${pct}%"></div></div>
+      </div>`;
+    }).join('');
+  } catch {
+    document.getElementById('freshness').textContent = 'Unavailable';
+    el.innerHTML = '<div class="text-xs text-dim">Freshness unavailable.</div>';
+  }
+}
 
-    function getTierStyling(tier) {
-        if (tier === 1) return { border: 'border-border group-hover:border-gray-500', badge: 'bg-surface-2 text-gray-300 border-border', label: 'T1 RAW' };
-        if (tier === 2) return { border: 'border-blue-900/40 group-hover:border-blue-500/70', badge: 'bg-blue-900/20 text-blue-400 border-blue-800/50', label: 'T2 PoC' };
-        if (tier === 3) return { border: 'border-teal-900/40 group-hover:border-teal-500/70', badge: 'bg-teal-900/20 text-teal-400 border-teal-800/50', label: 'T3 INTEL' };
-        if (tier === 4) return { border: 'border-danger/40 group-hover:border-danger shadow-[0_0_15px_rgba(248,81,73,0.1)] group-hover:shadow-[0_0_25px_rgba(248,81,73,0.3)]', badge: 'bg-danger/20 text-danger border-danger/50 animate-pulse', label: 'T4 0-DAY' };
-        if (tier === 5) return { border: 'border-purple-900/40 group-hover:border-purple-500/70', badge: 'bg-purple-900/20 text-purple-400 border-purple-800/50', label: 'T5 CHATTER' };
-        
-        // Fallback styling for untiered/legacy data
-        return { border: 'border-border group-hover:border-primary/50', badge: 'bg-primary/10 text-primary border-primary/20', label: 'INTEL' };
-    }
+async function fetchPage(reset=false){
+  const params = new URLSearchParams();
+  params.set('page', String(page));
+  params.set('per_page', String(perPage));
+  if (currentTier) params.set('tier', currentTier);
+  if (query) params.set('q', query);
 
-    function renderFeed(filterQuery = "") {
-        const grid = document.getElementById('news-grid');
-        const search = filterQuery.toLowerCase();
-        
-        const filtered = allArticles.filter(a => {
-            const haystack = [
-              a.title,
-              a.description,
-              a.source,
-              a.link,
-              String(a.tier),
-              `tier ${a.tier}`,
-              a.pub_date
-            ].filter(Boolean).join(' ').toLowerCase();
-            const matchesSearch = !search || haystack.includes(search);
-            const matchesTier = activeTier === 'all' || a.tier == activeTier;
-            return matchesSearch && matchesTier;
-        });
+  const res = await fetch(`/api/news?${params.toString()}`);
+  if (!res.ok) throw new Error('news fetch failed');
+  const data = await res.json();
 
-        if (filtered.length === 0) {
-            grid.innerHTML = '<div class="col-span-full text-center py-10 text-dim"><span class="material-symbols-outlined text-4xl mb-2">scan_delete</span><p>No intelligence matched your filters.</p></div>';
-            return;
-        }
+  if (reset) loaded = [];
+  loaded = loaded.concat(data.articles || []);
+  hasMore = !!data.has_more;
+  document.getElementById('load-more').disabled = !hasMore;
+  document.getElementById('load-more').textContent = hasMore ? 'Load Previous Intelligence' : 'No More Intelligence';
 
-        grid.innerHTML = filtered.map(article => {
-            let age = "";
-            try { age = timeAgo(new Date(article.pub_date)); } catch(e) { age = article.pub_date; }
-            
-            const styles = getTierStyling(article.tier);
-            const borderClass = styles.border;
+  renderFeed();
+  renderIndicators();
+}
 
-            const bgImage = article.image_url 
-                ? `background-image: url('${article.image_url}');` 
-                : `background: linear-gradient(135deg, rgba(6,182,212,0.05), rgba(0,0,0,0.8));`;
+function wireControls(){
+  document.querySelectorAll('[data-chip]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('[data-chip]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      keywordPreset = btn.dataset.chip;
+      renderFeed();
+    });
+  });
 
-            return `
-            <a href="${article.link}" target="_blank" class="glass rounded-xl overflow-hidden group transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl ${borderClass} break-inside-avoid mb-8 w-full block relative bg-gradient-to-b from-transparent to-bg-dark/50">
-                
-                <!-- 16:9 Image Banner -->
-                <div class="h-44 w-full relative bg-cover bg-center border-b border-border/50 shrink-0 transition-transform duration-700 group-hover:scale-[1.02]" style="${bgImage}">
-                    <div class="absolute inset-0 bg-gradient-to-t from-bg-dark/95 via-bg-dark/40 to-transparent"></div>
-                    
-                    <span class="absolute top-4 left-5 text-[9px] font-mono font-bold backdrop-blur-md px-2 py-1 rounded border z-10 shadow-lg ${styles.badge}">${styles.label}</span>
-                    <span class="absolute bottom-3 left-5 text-[10px] font-mono font-bold text-gray-300 bg-black/60 backdrop-blur-md px-2 py-0.5 rounded border border-border/50 z-10">${article.source}</span>
-                    <span class="absolute bottom-3 right-5 text-[10px] text-gray-400 font-mono z-10 tracking-wide">${age}</span>
-                </div>
-                
-                <!-- Content Body -->
-                <div class="p-6 flex flex-col flex-1 gap-4 relative">
-                    <h3 class="text-sm font-bold text-white group-hover:text-primary transition-colors leading-relaxed tracking-wide">
-                        ${article.title}
-                    </h3>
-                    <p class="text-[12px] text-gray-400 line-clamp-3 leading-relaxed flex-1 font-light">
-                        ${article.description}
-                    </p>
-                    <div class="mt-2 pt-4 border-t border-border/40 flex items-center justify-between text-xs text-dim group-hover:text-gray-300 transition-colors mt-auto">
-                        <span class="flex items-center gap-2 font-mono text-[10px] uppercase tracking-wider">
-                            ${article.tier === 4 ? '<span class="text-danger flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-danger animate-pulse"></span> High Priority Event</span>' : 'Analyze intelligence'}
-                        </span>
-                        <span class="material-symbols-outlined text-[16px] group-hover:text-primary transition-colors group-hover:translate-x-0.5 group-hover:-translate-y-0.5">arrow_outward</span>
-                    </div>
-                </div>
-            </a>
-            `;
-        }).join('');
-    }
+  document.getElementById('tier-filter').addEventListener('change', async (e) => {
+    currentTier = e.target.value;
+    page = 1;
+    loaded = [];
+    await fetchPage(true);
+  });
 
-    function renderTicker() {
-        if(allArticles.length === 0) return;
-        const ticker = document.getElementById('live-ticker');
-        const latest = allArticles.slice(0, 8); // Top 8 items for ticker
-        
-        let tickerHTML = latest.map(a => `<span class="text-primary mr-2">»</span><span class="text-white font-bold mr-2">${a.source}:</span>${a.title}`).join('<span class="mx-8 text-border">|</span>');
-        
-        // Duplicate it to make continuous seamless scrolling easier visually
-        ticker.innerHTML = tickerHTML + '<span class="mx-8 text-border">|</span>' + tickerHTML;
-    }
+  let timer = null;
+  document.getElementById('search-input').addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = setTimeout(async () => {
+      query = document.getElementById('search-input').value.trim();
+      page = 1;
+      loaded = [];
+      await fetchPage(true);
+    }, 250);
+  });
 
-    async function init() {
-      try {
-        const res = await fetch('/api/news');
-        if (!res.ok) throw new Error('API Error');
-        const data = await res.json();
-        allArticles = data.articles || [];
-        
-        document.getElementById('news-loading').classList.add('hidden');
-        document.getElementById('news-grid').classList.remove('hidden');
-        
-        renderFeed();
-        renderTicker();
+  document.getElementById('load-more').addEventListener('click', async () => {
+    if (!hasMore) return;
+    page += 1;
+    await fetchPage(false);
+  });
+}
 
-        // Search listener
-        document.getElementById('news-search').addEventListener('input', (e) => {
-            renderFeed(e.target.value);
-        });
-
-        // Tier Filter listener
-        document.getElementById('tier-filter').addEventListener('change', (e) => {
-            activeTier = e.target.value;
-            renderFeed(document.getElementById('news-search').value);
-        });
-
-      } catch (err) {
-        document.getElementById('news-loading').innerHTML = '<span class="material-symbols-outlined text-4xl text-danger mb-4">error</span><p class="font-mono text-danger text-sm">System Offline: Unable to connect to intelligence backend.</p>';
-      }
-    }
-
-    document.addEventListener('DOMContentLoaded', init);
-  </script>
+document.addEventListener('DOMContentLoaded', async () => {
+  wireControls();
+  await Promise.all([renderLatency(), fetchPage(true)]);
+});
+</script>
 </body>
 </html>

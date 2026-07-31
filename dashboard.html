@@ -3,391 +3,347 @@
 <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>CVE Map — Triage Dashboard</title>
-  <meta name="description" content="CVE triage dashboard with real API-backed filtering and pagination."/>
-
+  <title>CVE Intel — Triage</title>
+  <meta name="description" content="CVE triage workspace with server-side filtering and intelligence metrics."/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" referrerpolicy="no-referrer"/>
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet" referrerpolicy="no-referrer"/>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" referrerpolicy="no-referrer"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="style.css"/>
-  <meta name="referrer" content="strict-origin-when-cross-origin"/>
-
   <style>
-    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
     ::-webkit-scrollbar-track { background: #0d1117; }
-    ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
-
-    .glass {
-      background: rgba(22,27,34,0.85);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border: 1px solid rgba(48,54,61,0.7);
-    }
-
-    .skeleton {
-      background: linear-gradient(90deg, rgba(48,54,61,0.35) 25%, rgba(88,96,105,0.35) 37%, rgba(48,54,61,0.35) 63%);
-      background-size: 400% 100%;
-      animation: shimmer 1.3s ease infinite;
-    }
-
-    @keyframes shimmer {
-      0% { background-position: 100% 0; }
-      100% { background-position: 0 0; }
-    }
-
-    .sev-dot { width: 8px; height: 8px; border-radius: 9999px; display: inline-block; }
+    ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 9999px; }
+    .glass { background: rgba(22,27,34,0.86); backdrop-filter: blur(10px); border: 1px solid rgba(48,54,61,0.6); }
+    .skeleton { background: linear-gradient(90deg, rgba(48,54,61,0.35) 25%, rgba(88,96,105,0.35) 37%, rgba(48,54,61,0.35) 63%); background-size: 400% 100%; animation: shimmer 1.2s ease infinite; }
+    @keyframes shimmer { 0% { background-position: 100% 0; } 100% { background-position: 0 0; } }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+    .pill-btn.active { border-color: rgba(6,182,212,0.55); color: #22d3ee; background: rgba(6,182,212,0.08); }
   </style>
 </head>
-
-<body class="dark bg-bg-dark text-gray-200 font-sans antialiased h-screen flex flex-col overflow-hidden">
-
-<header class="h-14 border-b border-border flex items-center justify-between px-5 bg-surface shrink-0 z-20">
-  <div class="flex items-center gap-2">
-    <a href="index.html" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
-      <span class="material-symbols-outlined text-primary text-2xl">radar</span>
-      <h1 class="font-mono font-bold text-lg tracking-tight text-white">CVE <span class="text-primary">MAP</span></h1>
-    </a>
-    <span class="text-[10px] ml-1 px-2 py-0.5 rounded-full bg-surface-2 text-dim hidden sm:inline">Triage Dashboard</span>
-  </div>
-
-  <div class="flex items-center gap-2">
-    <a href="index.html" class="hidden md:flex items-center gap-1.5 px-2.5 py-1.5 rounded border border-border text-xs font-medium hover:bg-surface-2 transition-colors text-white">
-      <span class="material-symbols-outlined text-sm">home</span>Home
-    </a>
-    <a href="news.html" class="hidden md:flex items-center gap-1.5 px-2.5 py-1.5 rounded border border-border text-xs font-medium hover:bg-surface-2 transition-colors text-gray-300">
-      <span class="material-symbols-outlined text-sm">public</span>News
-    </a>
-    <a href="docs.html" class="hidden md:flex items-center gap-1.5 px-2.5 py-1.5 rounded border border-border text-xs font-medium hover:bg-surface-2 transition-colors text-primary">
-      <span class="material-symbols-outlined text-sm">book</span>Docs
-    </a>
-    <a href="/api/search" target="_blank" class="flex items-center gap-1.5 px-2.5 py-1.5 rounded border border-border text-xs font-medium hover:bg-surface-2 transition-colors text-gray-300">
-      <span class="material-symbols-outlined text-sm">terminal</span>API JSON
-    </a>
-  </div>
-</header>
-
-<div class="flex flex-1 overflow-hidden">
-  <aside class="w-72 bg-surface border-r border-border overflow-y-auto shrink-0 p-4 gap-4 z-10 hidden lg:flex flex-col">
-    <div class="glass rounded-lg p-3 space-y-3">
-      <h2 class="text-xs font-bold uppercase tracking-wider text-white">Workspace Filters</h2>
-
-      <div>
-        <label class="text-[10px] uppercase tracking-wider text-dim font-semibold">Search (optional)</label>
-        <input id="search-input" type="text" placeholder="CVE, repo, owner, CWE..."
-          class="mt-1 w-full bg-surface-2 border border-border rounded px-2 py-2 text-xs text-white placeholder-gray-500 outline-none focus:border-primary"/>
+<body class="dark bg-bg-dark text-gray-200 font-sans antialiased min-h-screen">
+  <div class="flex min-h-screen">
+    <aside class="hidden lg:flex w-64 bg-surface border-r border-border flex-col">
+      <div class="p-5 border-b border-border">
+        <a href="index.html" class="flex items-center gap-2">
+          <span class="material-symbols-outlined text-primary">radar</span>
+          <span class="mono font-bold text-white tracking-tight">CVE INTEL</span>
+        </a>
       </div>
-
-      <div>
-        <label class="text-[10px] uppercase tracking-wider text-dim font-semibold">Year</label>
-        <select id="year-filter"
-          class="mt-1 w-full bg-surface-2 border border-border rounded px-2 py-2 text-xs text-white outline-none focus:border-primary">
-        </select>
+      <nav class="p-4 space-y-2 text-sm">
+        <a href="dashboard.html" class="flex items-center gap-2 px-3 py-2 rounded bg-primary/10 border border-primary/30 text-primary">
+          <span class="material-symbols-outlined text-[18px]">dashboard_customize</span>Triage
+        </a>
+        <a href="workspace.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 border border-transparent text-gray-300 hover:text-white">
+          <span class="material-symbols-outlined text-[18px]">search_insights</span>Workspace
+        </a>
+        <a href="news.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 border border-transparent text-gray-300 hover:text-white">
+          <span class="material-symbols-outlined text-[18px]">rss_feed</span>Intelligence
+        </a>
+        <a href="operations.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 border border-transparent text-gray-300 hover:text-white">
+          <span class="material-symbols-outlined text-[18px]">monitoring</span>Operations
+        </a>
+        <a href="docs.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 border border-transparent text-gray-300 hover:text-white">
+          <span class="material-symbols-outlined text-[18px]">book</span>Docs
+        </a>
+      </nav>
+      <div class="mt-auto p-4 border-t border-border">
+        <a href="https://github.com/yadavnikhil17102004/CVE-Intel" target="_blank" class="mb-3 flex items-center justify-center gap-2 px-3 py-2 rounded border border-primary/40 text-primary text-xs hover:bg-primary/10">
+          <span class="material-symbols-outlined text-[16px]">code</span>GitHub Repo
+        </a>
+        <div id="system-pill" class="rounded-lg border border-border px-3 py-2 text-xs text-dim">System: checking...</div>
       </div>
+    </aside>
 
-      <div>
-        <label class="text-[10px] uppercase tracking-wider text-dim font-semibold block mb-1">Severity</label>
-        <div class="space-y-1 text-xs">
-          <label class="flex items-center gap-2"><input type="checkbox" name="severity" value="" class="severity-checkbox" checked>All</label>
-          <label class="flex items-center gap-2"><input type="checkbox" name="severity" value="CRITICAL" class="severity-checkbox">Critical</label>
-          <label class="flex items-center gap-2"><input type="checkbox" name="severity" value="HIGH" class="severity-checkbox">High</label>
-          <label class="flex items-center gap-2"><input type="checkbox" name="severity" value="MEDIUM" class="severity-checkbox">Medium</label>
-          <label class="flex items-center gap-2"><input type="checkbox" name="severity" value="LOW" class="severity-checkbox">Low</label>
-        </div>
-      </div>
-
-      <div class="flex items-center justify-between">
-        <span class="text-[10px] uppercase tracking-wider text-dim font-semibold">KEV only</span>
-        <label class="inline-flex items-center cursor-pointer">
-          <input id="kev-only" type="checkbox" class="sr-only peer">
-          <div class="relative w-9 h-5 bg-surface-2 peer-focus:outline-none rounded-full peer border border-border peer-checked:bg-danger/40 peer-checked:border-danger/50">
-            <div class="absolute top-[1px] left-[1px] bg-gray-300 w-4 h-4 rounded-full transition-transform peer-checked:translate-x-4"></div>
+    <div class="flex-1 min-w-0 flex flex-col">
+      <header class="h-16 border-b border-border bg-surface/85 backdrop-blur px-4 md:px-6 flex items-center justify-between gap-3">
+        <div class="flex items-center gap-3 min-w-0 flex-1">
+          <a href="index.html" class="lg:hidden material-symbols-outlined text-primary">radar</a>
+          <div class="relative flex-1 max-w-xl">
+            <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-dim text-[18px]">search</span>
+            <input id="search-input" type="text" placeholder="Search CVE, repo, owner, CWE..." class="w-full bg-surface-2 border border-border rounded-full pl-10 pr-4 py-2 text-sm outline-none focus:border-primary"/>
           </div>
-        </label>
-      </div>
+        </div>
+        <div class="text-right">
+          <div class="text-[10px] uppercase tracking-wider text-dim">Data Freshness</div>
+          <div id="freshness" class="mono text-[11px] text-gray-300">Loading...</div>
+        </div>
+      </header>
 
-      <div class="pt-1 flex gap-2">
-        <button id="apply-filters" class="flex-1 px-3 py-2 rounded border border-primary text-primary text-[10px] font-semibold uppercase tracking-wider hover:bg-primary hover:text-white transition-colors">Apply Workspace Filters</button>
-        <button id="clear-filters" class="px-3 py-2 rounded border border-border text-gray-300 text-[10px] font-semibold uppercase tracking-wider hover:bg-surface-2 hover:text-white transition-colors">Clear</button>
-      </div>
+      <main class="flex-1 overflow-y-auto p-4 md:p-6 space-y-4">
+        <section class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-3">
+          <div class="glass rounded-xl p-4">
+            <div class="text-[10px] uppercase tracking-wider text-dim">Total Vulnerabilities</div>
+            <div id="stat-total" class="mono text-3xl text-white mt-2">—</div>
+          </div>
+          <div class="glass rounded-xl p-4 border-l-4 border-l-danger">
+            <div class="text-[10px] uppercase tracking-wider text-dim">Critical + High</div>
+            <div id="stat-critical" class="mono text-3xl text-white mt-2">—</div>
+          </div>
+          <div class="glass rounded-xl p-4 border-l-4 border-l-primary">
+            <div class="text-[10px] uppercase tracking-wider text-dim">KEV Listed</div>
+            <div id="stat-kev" class="mono text-3xl text-white mt-2">—</div>
+          </div>
+          <div class="glass rounded-xl p-4 border-l-4 border-l-warning">
+            <div class="text-[10px] uppercase tracking-wider text-dim">Avg EPSS</div>
+            <div id="stat-epss" class="mono text-3xl text-white mt-2">—</div>
+          </div>
+        </section>
+
+        <section class="glass rounded-xl p-4 space-y-4">
+          <div class="flex flex-wrap gap-2 items-center justify-between">
+            <div class="flex gap-2 flex-wrap">
+              <button class="pill-btn active px-3 py-1.5 rounded-full border border-border text-xs" data-preset="all">All Sources</button>
+              <button class="pill-btn px-3 py-1.5 rounded-full border border-border text-xs" data-preset="kev">Actively Exploited</button>
+              <button class="pill-btn px-3 py-1.5 rounded-full border border-border text-xs" data-preset="critical">Critical Only</button>
+              <button class="pill-btn px-3 py-1.5 rounded-full border border-border text-xs" data-preset="epss">High EPSS</button>
+            </div>
+            <div class="flex gap-2">
+              <select id="year-filter" class="bg-surface-2 border border-border rounded px-2 py-1.5 text-xs"></select>
+              <select id="severity-filter" class="bg-surface-2 border border-border rounded px-2 py-1.5 text-xs">
+                <option value="">All severities</option>
+                <option value="CRITICAL">Critical</option>
+                <option value="HIGH">High</option>
+                <option value="MEDIUM">Medium</option>
+                <option value="LOW">Low</option>
+              </select>
+              <label class="inline-flex items-center gap-2 text-xs">
+                <input id="kev-only" type="checkbox"/> KEV only
+              </label>
+            </div>
+          </div>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-left">
+              <thead>
+                <tr class="text-[10px] uppercase tracking-wider text-dim border-b border-border">
+                  <th class="py-2 pr-2">CVE</th>
+                  <th class="py-2 pr-2">Severity</th>
+                  <th class="py-2 pr-2">CVSS</th>
+                  <th class="py-2 pr-2">KEV</th>
+                  <th class="py-2 pr-2">EPSS</th>
+                  <th class="py-2 pr-2 text-right">Repos</th>
+                  <th class="py-2 pr-2 text-right">Activity</th>
+                  <th class="py-2 text-right">Action</th>
+                </tr>
+              </thead>
+              <tbody id="table-body" class="divide-y divide-border/20"></tbody>
+            </table>
+          </div>
+
+          <div class="flex items-center justify-between flex-wrap gap-2 pt-2">
+            <div class="text-xs text-dim mono" id="result-meta">—</div>
+            <div class="flex items-center gap-2">
+              <label class="text-xs text-dim">Rows</label>
+              <select id="per-page" class="bg-surface-2 border border-border rounded px-2 py-1 text-xs">
+                <option value="50">50</option>
+                <option value="100">100</option>
+                <option value="200">200</option>
+              </select>
+              <button id="prev-page" class="px-3 py-1.5 border border-border rounded text-xs">Prev</button>
+              <span id="page-label" class="mono text-xs text-dim">Page 1</span>
+              <button id="next-page" class="px-3 py-1.5 border border-border rounded text-xs">Next</button>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
-  </aside>
-
-  <main class="flex-1 overflow-y-auto bg-bg-dark">
-    <div class="p-4 md:p-5 space-y-4 max-w-7xl mx-auto">
-      <div class="glass p-4 rounded-lg border-l-4 border-l-primary">
-        <div class="text-[10px] uppercase tracking-wider text-dim font-bold">Total Matching CVEs</div>
-        <div id="total-card" class="text-4xl font-mono font-bold text-white mt-1">—</div>
-      </div>
-
-      <div class="glass rounded-lg overflow-hidden flex flex-col" style="min-height:460px">
-        <div class="px-4 py-3 border-b border-border bg-surface-2/30 flex items-center justify-between gap-3 flex-wrap">
-          <div>
-            <h2 class="text-sm font-bold text-white flex items-center gap-2">
-              <span class="w-1.5 h-5 bg-primary rounded-sm"></span>
-              Triage
-            </h2>
-            <p class="text-[10px] text-dim font-mono mt-1">Real API-backed CVE triage view.</p>
-          </div>
-          <div class="text-[10px] text-dim font-mono" id="result-meta">—</div>
-        </div>
-
-        <div class="grid grid-cols-12 gap-2 px-4 py-2 text-[10px] font-bold text-gray-500 uppercase tracking-wider border-b border-border/50 bg-surface-2/20">
-          <div class="col-span-3">CVE ID</div>
-          <div class="col-span-2">Severity</div>
-          <div class="col-span-1">CVSS</div>
-          <div class="col-span-1">KEV</div>
-          <div class="col-span-1">EPSS</div>
-          <div class="col-span-2 text-right">Repo Count</div>
-          <div class="col-span-2 text-right">Activity</div>
-        </div>
-
-        <div id="cve-list" class="overflow-y-auto flex-1 divide-y divide-border/25"></div>
-
-        <div class="px-4 py-3 border-t border-border bg-surface-2/20 flex items-center justify-between gap-3 flex-wrap">
-          <div class="flex items-center gap-2 text-xs">
-            <label class="text-dim">Rows</label>
-            <select id="per-page" class="bg-surface-2 border border-border rounded px-2 py-1 text-xs text-white outline-none focus:border-primary">
-              <option value="50">50</option>
-              <option value="100">100</option>
-              <option value="200">200</option>
-            </select>
-          </div>
-
-          <div class="flex items-center gap-2">
-            <button id="prev-page" class="px-3 py-1.5 rounded border border-border text-xs text-gray-300 hover:bg-surface-2 hover:text-white transition-colors">Prev</button>
-            <span id="page-label" class="text-xs text-dim font-mono">Page 1</span>
-            <button id="next-page" class="px-3 py-1.5 rounded border border-border text-xs text-gray-300 hover:bg-surface-2 hover:text-white transition-colors">Next</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-</div>
+  </div>
 
 <script>
 let page = 1;
 let perPage = 50;
 let total = 0;
 let totalPages = 1;
-let currentSeverity = '';
+let epssOnly = false;
 
-function buildYearFilter() {
-  const yearSel = document.getElementById('year-filter');
-  const now = new Date().getFullYear();
-  const years = ['all'];
-  for (let y = now; y >= 2015; y--) years.push(String(y));
-  yearSel.innerHTML = years.map(y => `<option value="${y}">${y === 'all' ? 'All years' : y}</option>`).join('');
+function esc(v){ return String(v ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c])); }
+
+function activityAgo(repos){
+  const latest = Math.max(0, ...(repos || []).map(r => r.pushed_at ? new Date(r.pushed_at).getTime() : 0));
+  if (!latest) return '—';
+  const diff = Math.floor((Date.now() - latest) / 1000);
+  if (diff < 3600) return `${Math.max(1, Math.round(diff/60))}m ago`;
+  if (diff < 86400) return `${Math.round(diff/3600)}h ago`;
+  return `${Math.round(diff/86400)}d ago`;
 }
 
-function getSeverityColor(sev) {
+function severityClass(sev){
   if (sev === 'CRITICAL') return 'bg-danger/20 text-danger border-danger/60';
   if (sev === 'HIGH') return 'bg-orange-500/20 text-orange-300 border-orange-500/60';
   if (sev === 'MEDIUM') return 'bg-warning/20 text-yellow-200 border-warning/60';
   if (sev === 'LOW') return 'bg-success/20 text-green-200 border-success/60';
-  return 'bg-gray-700/30 text-gray-300 border-gray-600/60';
+  return 'bg-gray-700/20 text-gray-300 border-gray-600/60';
 }
 
-function severityDot(sev) {
-  if (sev === 'CRITICAL') return 'background:#f85149';
-  if (sev === 'HIGH') return 'background:#f97316';
-  if (sev === 'MEDIUM') return 'background:#d29922';
-  if (sev === 'LOW') return 'background:#2ea043';
-  return 'background:#6b7280';
+function buildYears(){
+  const sel = document.getElementById('year-filter');
+  const now = new Date().getFullYear();
+  const opts = ['<option value="">All years</option>'];
+  for (let y = now; y >= 2015; y--) opts.push(`<option value="${y}">${y}</option>`);
+  sel.innerHTML = opts.join('');
 }
 
-function activityTime(repos) {
-  const latest = Math.max(0, ...(repos || []).map(r => r.pushed_at ? new Date(r.pushed_at).getTime() : 0));
-  if (!latest) return '—';
-  const diff = Math.floor((Date.now() - latest) / 1000);
-  if (diff < 3600) return `${Math.max(1, Math.round(diff / 60))}m ago`;
-  if (diff < 86400) return `${Math.round(diff / 3600)}h ago`;
-  return `${Math.round(diff / 86400)}d ago`;
+function loadingRows(){
+  const body = document.getElementById('table-body');
+  body.innerHTML = Array.from({length: 6}).map(() => `<tr><td colspan="8" class="py-2"><div class="h-10 rounded skeleton"></div></td></tr>`).join('');
 }
 
-function setLoading() {
-  const list = document.getElementById('cve-list');
-  list.innerHTML = `
-    <div class="p-4 space-y-3">
-      <div class="h-14 rounded-lg skeleton"></div>
-      <div class="h-14 rounded-lg skeleton"></div>
-      <div class="h-14 rounded-lg skeleton"></div>
-      <div class="h-14 rounded-lg skeleton"></div>
-      <div class="h-14 rounded-lg skeleton"></div>
-    </div>`;
+function emptyState(msg){
+  document.getElementById('table-body').innerHTML = `<tr><td colspan="8" class="py-12 text-center text-dim text-sm">${esc(msg)}</td></tr>`;
 }
 
-function setEmpty(message) {
-  document.getElementById('cve-list').innerHTML = `
-    <div class="flex flex-col items-center justify-center py-14 text-dim text-sm gap-2">
-      <span class="material-symbols-outlined text-2xl">search_off</span>
-      <p class="text-center max-w-xs">${message}</p>
-      <button onclick="clearFilters()"
-        class="mt-2 px-3 py-1.5 rounded border border-primary/60 text-primary text-[10px] font-semibold uppercase tracking-wide hover:bg-primary hover:text-white transition-colors">
-        Clear Filters
-      </button>
-    </div>`;
-}
-
-function renderRows(rows) {
-  const list = document.getElementById('cve-list');
-  list.innerHTML = rows.map((item) => {
-    const intel = item.intel || {};
-    const severity = (intel.v || 'UNSCORED').toUpperCase();
-    const cvss = typeof intel.s === 'number' ? intel.s.toFixed(1) : '—';
-    const kev = intel.k ? 'Yes' : 'No';
-    const epss = typeof intel.e === 'number' ? `${(intel.e * 100).toFixed(2)}%` : '—';
-    const repoCount = (item.repositories || []).length;
-    const activity = activityTime(item.repositories || []);
-
-    return `
-      <div class="grid grid-cols-12 gap-2 px-4 py-3 items-center hover:bg-surface-2/40 transition-colors">
-        <div class="col-span-3 font-mono text-xs text-white truncate">${item.cve_id}</div>
-        <div class="col-span-2 flex items-center gap-2">
-          <span class="sev-dot" style="${severityDot(severity)}"></span>
-          <span class="px-1.5 py-0.5 rounded text-[10px] font-semibold border ${getSeverityColor(severity)}">${severity}</span>
-        </div>
-        <div class="col-span-1 text-xs font-mono text-gray-300">${cvss}</div>
-        <div class="col-span-1 text-xs ${kev === 'Yes' ? 'text-danger font-semibold' : 'text-dim'}">${kev}</div>
-        <div class="col-span-1 text-xs font-mono text-gray-300">${epss}</div>
-        <div class="col-span-2 text-right text-xs font-mono text-gray-300">${repoCount.toLocaleString()}</div>
-        <div class="col-span-2 text-right text-xs text-dim">${activity}</div>
-      </div>`;
-  }).join('');
-}
-
-function readFilters() {
-  const q = document.getElementById('search-input').value.trim();
-  const yearRaw = document.getElementById('year-filter').value;
-  const kevOnly = document.getElementById('kev-only').checked;
-
+function readParams(){
   const params = new URLSearchParams();
   params.set('page', String(page));
   params.set('per_page', String(perPage));
-
+  const q = document.getElementById('search-input').value.trim();
+  const year = document.getElementById('year-filter').value;
+  const severity = document.getElementById('severity-filter').value;
+  const kevOnly = document.getElementById('kev-only').checked;
   if (q) params.set('q', q);
-  if (yearRaw !== 'all') params.set('year', yearRaw);
-  if (currentSeverity) params.set('severity', currentSeverity);
+  if (year) params.set('year', year);
+  if (severity) params.set('severity', severity);
   if (kevOnly) params.set('kev', 'true');
-
   return params;
 }
 
-async function loadTriage() {
-  setLoading();
-  const params = readFilters();
+function applyClientPostFilter(items){
+  if (!epssOnly) return items;
+  return items.filter(item => (item.intel && typeof item.intel.e === 'number' && item.intel.e >= 0.7));
+}
 
+function renderRows(items){
+  const body = document.getElementById('table-body');
+  const rows = applyClientPostFilter(items || []);
+  if (!rows.length) {
+    emptyState('No CVEs match this view.');
+    return;
+  }
+
+  body.innerHTML = rows.map(item => {
+    const intel = item.intel || {};
+    const sev = (intel.v || 'UNSCORED').toUpperCase();
+    const cvss = typeof intel.s === 'number' ? intel.s.toFixed(1) : '—';
+    const kev = intel.k ? 'YES' : 'NO';
+    const epss = typeof intel.e === 'number' ? (intel.e * 100).toFixed(2) + '%' : '—';
+    const repoCount = (item.repositories || []).length;
+    return `<tr class="hover:bg-surface-2/30">
+      <td class="py-3 pr-2 mono text-primary"><a href="workspace.html?cve=${encodeURIComponent(item.cve_id)}">${esc(item.cve_id)}</a></td>
+      <td class="py-3 pr-2"><span class="text-[10px] px-2 py-1 rounded border ${severityClass(sev)}">${esc(sev)}</span></td>
+      <td class="py-3 pr-2 mono text-xs">${esc(cvss)}</td>
+      <td class="py-3 pr-2 text-xs ${kev === 'YES' ? 'text-danger font-semibold' : 'text-dim'}">${kev}</td>
+      <td class="py-3 pr-2 mono text-xs">${esc(epss)}</td>
+      <td class="py-3 pr-2 text-right mono text-xs">${repoCount.toLocaleString()}</td>
+      <td class="py-3 pr-2 text-right text-xs text-dim">${activityAgo(item.repositories || [])}</td>
+      <td class="py-3 text-right"><a class="text-xs border border-border rounded px-2 py-1 hover:border-primary hover:text-primary" href="workspace.html?cve=${encodeURIComponent(item.cve_id)}">Open</a></td>
+    </tr>`;
+  }).join('');
+}
+
+async function loadStats(){
+  const year = document.getElementById('year-filter').value || new Date().getFullYear();
   try {
-    const res = await fetch(`/api/search?${params.toString()}`);
-    if (!res.ok) {
-      const text = await res.text();
-      throw new Error(text || 'search failed');
-    }
-
+    const res = await fetch(`/api/intel-stats/${year}`);
+    if (!res.ok) throw new Error('stats failed');
     const data = await res.json();
-    total = data.total || 0;
-    totalPages = Math.max(1, Math.ceil(total / perPage));
-
-    document.getElementById('total-card').textContent = total.toLocaleString();
-    document.getElementById('result-meta').textContent = `Showing page ${page} of ${totalPages} · ${total.toLocaleString()} total`;
-    document.getElementById('page-label').textContent = `Page ${page} / ${totalPages}`;
-
-    document.getElementById('prev-page').disabled = page <= 1;
-    document.getElementById('next-page').disabled = page >= totalPages;
-
-    if (!data.cves || data.cves.length === 0) {
-      setEmpty('No CVEs match the active triage filters.');
-      return;
-    }
-
-    renderRows(data.cves);
-  } catch (err) {
-    setEmpty('Unable to load triage data right now. Please retry.');
+    document.getElementById('stat-total').textContent = Number(data.total || 0).toLocaleString();
+    document.getElementById('stat-critical').textContent = Number(data.critical_high || 0).toLocaleString();
+    document.getElementById('stat-kev').textContent = Number(data.kev_total || 0).toLocaleString();
+    document.getElementById('stat-epss').textContent = (typeof data.avg_epss === 'number') ? data.avg_epss.toFixed(4) : '—';
+  } catch {
+    ['stat-total','stat-critical','stat-kev','stat-epss'].forEach(id => document.getElementById(id).textContent = '—');
   }
 }
 
-function clearFilters() {
-  document.getElementById('search-input').value = '';
-  document.getElementById('year-filter').value = 'all';
-  document.getElementById('kev-only').checked = false;
-  currentSeverity = '';
-  document.querySelectorAll('.severity-checkbox').forEach((cb) => {
-    cb.checked = cb.value === '';
-  });
-  page = 1;
-  loadTriage();
+async function loadFreshness(){
+  try {
+    const res = await fetch('/api/ops/freshness');
+    if (!res.ok) throw new Error('freshness failed');
+    const data = await res.json();
+    const scrape = data.scrape || {};
+    const age = typeof scrape.age_seconds === 'number' ? `${Math.round(scrape.age_seconds / 60)}m ago` : 'unknown';
+    document.getElementById('freshness').textContent = `Scrape: ${age}`;
+    const pill = document.getElementById('system-pill');
+    if (data.status === 'ok' && scrape.stale === false) {
+      pill.textContent = 'System: stable';
+      pill.className = 'rounded-lg border border-success/40 bg-success/10 px-3 py-2 text-xs text-green-300';
+    } else {
+      pill.textContent = 'System: attention needed';
+      pill.className = 'rounded-lg border border-warning/40 bg-warning/10 px-3 py-2 text-xs text-yellow-300';
+    }
+  } catch {
+    document.getElementById('freshness').textContent = 'Unavailable';
+  }
 }
 
-function wireSeverityCheckboxes() {
-  const boxes = Array.from(document.querySelectorAll('.severity-checkbox'));
-  boxes.forEach((box) => {
-    box.addEventListener('change', () => {
-      boxes.forEach((other) => {
-        if (other !== box) other.checked = false;
-      });
-      if (!box.checked) {
-        box.checked = true;
+async function loadTable(){
+  loadingRows();
+  const params = readParams();
+  try {
+    const res = await fetch(`/api/search?${params.toString()}`);
+    if (!res.ok) throw new Error(await res.text());
+    const data = await res.json();
+    total = data.total || 0;
+    totalPages = Math.max(1, Math.ceil(total / perPage));
+    renderRows(data.cves || []);
+    document.getElementById('result-meta').textContent = `Showing ${Math.min(perPage, (data.cves || []).length)} rows on page ${page} of ${totalPages} • ${total.toLocaleString()} matches`;
+    document.getElementById('page-label').textContent = `Page ${page}/${totalPages}`;
+    document.getElementById('prev-page').disabled = page <= 1;
+    document.getElementById('next-page').disabled = page >= totalPages;
+  } catch {
+    emptyState('Unable to load triage data right now.');
+  }
+}
+
+function wirePresets(){
+  document.querySelectorAll('[data-preset]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('[data-preset]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const preset = btn.dataset.preset;
+      epssOnly = false;
+      if (preset === 'all') {
+        document.getElementById('kev-only').checked = false;
+        document.getElementById('severity-filter').value = '';
+      } else if (preset === 'kev') {
+        document.getElementById('kev-only').checked = true;
+        document.getElementById('severity-filter').value = '';
+      } else if (preset === 'critical') {
+        document.getElementById('kev-only').checked = false;
+        document.getElementById('severity-filter').value = 'CRITICAL';
+      } else if (preset === 'epss') {
+        document.getElementById('kev-only').checked = false;
+        document.getElementById('severity-filter').value = '';
+        epssOnly = true; // client-side over current page only
       }
-      currentSeverity = box.value || '';
       page = 1;
-      loadTriage();
+      loadTable();
+      loadStats();
     });
   });
 }
 
-function wireControls() {
-  document.getElementById('apply-filters').addEventListener('click', () => {
-    page = 1;
-    loadTriage();
-  });
+function wireControls(){
+  document.getElementById('year-filter').addEventListener('change', () => { page = 1; loadStats(); loadTable(); });
+  document.getElementById('severity-filter').addEventListener('change', () => { page = 1; loadTable(); });
+  document.getElementById('kev-only').addEventListener('change', () => { page = 1; loadTable(); });
+  document.getElementById('per-page').addEventListener('change', (e) => { perPage = parseInt(e.target.value, 10); page = 1; loadTable(); });
+  document.getElementById('prev-page').addEventListener('click', () => { if (page > 1) { page -= 1; loadTable(); } });
+  document.getElementById('next-page').addEventListener('click', () => { if (page < totalPages) { page += 1; loadTable(); } });
 
-  document.getElementById('clear-filters').addEventListener('click', clearFilters);
-
-  document.getElementById('year-filter').addEventListener('change', () => {
-    page = 1;
-    loadTriage();
-  });
-
-  document.getElementById('kev-only').addEventListener('change', () => {
-    page = 1;
-    loadTriage();
-  });
-
-  document.getElementById('per-page').addEventListener('change', (e) => {
-    perPage = parseInt(e.target.value, 10);
-    page = 1;
-    loadTriage();
-  });
-
-  document.getElementById('prev-page').addEventListener('click', () => {
-    if (page > 1) {
-      page -= 1;
-      loadTriage();
-    }
-  });
-
-  document.getElementById('next-page').addEventListener('click', () => {
-    if (page < totalPages) {
-      page += 1;
-      loadTriage();
-    }
-  });
-
-  let searchDebounce = null;
+  let timer = null;
   document.getElementById('search-input').addEventListener('input', () => {
-    clearTimeout(searchDebounce);
-    searchDebounce = setTimeout(() => {
-      page = 1;
-      loadTriage();
-    }, 250);
+    clearTimeout(timer);
+    timer = setTimeout(() => { page = 1; loadTable(); }, 250);
   });
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
-  buildYearFilter();
-  wireSeverityCheckboxes();
+  buildYears();
+  wirePresets();
   wireControls();
-  await loadTriage();
+  await Promise.all([loadStats(), loadFreshness(), loadTable()]);
 });
 </script>
 </body>

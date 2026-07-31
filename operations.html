@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CVE Intel — Operations</title>
+  <meta name="description" content="Operational health and freshness status for CVE Intel ingestion services."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" referrerpolicy="no-referrer"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .glass { background: rgba(22,27,34,0.86); backdrop-filter: blur(10px); border: 1px solid rgba(48,54,61,0.6); }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body class="dark bg-bg-dark text-gray-200 font-sans antialiased min-h-screen">
+  <div class="flex min-h-screen">
+    <aside class="hidden lg:flex w-64 bg-surface border-r border-border flex-col">
+      <div class="p-5 border-b border-border">
+        <a href="index.html" class="flex items-center gap-2"><span class="material-symbols-outlined text-primary">radar</span><span class="mono font-bold text-white tracking-tight">CVE INTEL</span></a>
+      </div>
+      <nav class="p-4 space-y-2 text-sm">
+        <a href="dashboard.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">dashboard_customize</span>Triage</a>
+        <a href="workspace.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">search_insights</span>Workspace</a>
+        <a href="news.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">rss_feed</span>Intelligence</a>
+        <a href="operations.html" class="flex items-center gap-2 px-3 py-2 rounded bg-primary/10 border border-primary/30 text-primary"><span class="material-symbols-outlined text-[18px]">monitoring</span>Operations</a>
+        <a href="docs.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">book</span>Docs</a>
+      </nav>
+      <div class="mt-auto p-4 border-t border-border">
+        <a href="https://github.com/yadavnikhil17102004/CVE-Intel" target="_blank" class="flex items-center justify-center gap-2 px-3 py-2 rounded border border-primary/40 text-primary text-xs hover:bg-primary/10">
+          <span class="material-symbols-outlined text-[16px]">code</span>GitHub Repo
+        </a>
+      </div>
+    </aside>
+
+    <div class="flex-1 min-w-0 flex flex-col">
+      <header class="h-16 border-b border-border bg-surface/85 backdrop-blur px-4 md:px-6 flex items-center justify-between gap-3">
+        <div>
+          <h1 class="text-lg font-semibold text-white">Operations</h1>
+          <p class="text-xs text-dim">Ingestion health, staleness thresholds, and service status.</p>
+        </div>
+        <div class="mono text-xs text-dim" id="updated-at">Loading...</div>
+      </header>
+
+      <main class="flex-1 overflow-y-auto p-4 md:p-6 space-y-4">
+        <section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-3" id="cards"></section>
+
+        <section class="glass rounded-xl p-4">
+          <h2 class="text-sm font-semibold text-white mb-3">Freshness Timeline</h2>
+          <div id="timeline" class="space-y-3"></div>
+        </section>
+
+        <section class="grid grid-cols-1 xl:grid-cols-2 gap-4">
+          <div class="glass rounded-xl p-4">
+            <h3 class="text-sm font-semibold text-white mb-2">Current Alerting Model</h3>
+            <ul class="text-xs text-gray-300 space-y-2 list-disc list-inside">
+              <li>Alert on stale runs and recovery edges.</li>
+              <li>No user personalization or account-specific routing.</li>
+              <li>Ops channel is infrastructure-level only.</li>
+            </ul>
+          </div>
+          <div class="glass rounded-xl p-4">
+            <h3 class="text-sm font-semibold text-white mb-2">Useful Endpoints</h3>
+            <div class="space-y-2 text-xs mono">
+              <a class="block border border-border rounded px-2 py-1 hover:border-primary hover:text-primary" href="/api/ops/freshness" target="_blank">GET /api/ops/freshness</a>
+              <a class="block border border-border rounded px-2 py-1 hover:border-primary hover:text-primary" href="/api/health" target="_blank">GET /api/health</a>
+              <a class="block border border-border rounded px-2 py-1 hover:border-primary hover:text-primary" href="/api/news?per_page=10&page=1" target="_blank">GET /api/news?page=1&per_page=10</a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+<script>
+function esc(v){ return String(v ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c])); }
+
+function ageText(seconds){
+  if (typeof seconds !== 'number') return 'n/a';
+  if (seconds < 3600) return `${Math.max(1, Math.round(seconds/60))}m`;
+  if (seconds < 86400) return `${Math.round(seconds/3600)}h`;
+  return `${Math.round(seconds/86400)}d`;
+}
+
+function card(name, metric){
+  const stale = metric && metric.stale === true;
+  const age = ageText(metric && metric.age_seconds);
+  const threshold = ageText(metric && metric.threshold_seconds);
+  const pct = metric && metric.threshold_seconds ? Math.min(100, Math.round(((metric.age_seconds || 0)/(metric.threshold_seconds||1))*100)) : 0;
+  return `<div class="glass rounded-xl p-4">
+    <div class="flex items-center justify-between">
+      <span class="text-xs uppercase tracking-wider text-dim">${name}</span>
+      <span class="mono text-[11px] ${stale ? 'text-danger' : 'text-primary'}">${stale ? 'STALE' : 'OK'}</span>
+    </div>
+    <div class="mono text-3xl text-white mt-2">${age}</div>
+    <div class="text-[11px] text-dim mt-1">Threshold: ${threshold}</div>
+    <div class="w-full h-1.5 bg-surface-2 rounded overflow-hidden mt-3"><div class="h-full ${stale ? 'bg-danger' : 'bg-primary'}" style="width:${pct}%"></div></div>
+  </div>`;
+}
+
+async function loadOps(){
+  try {
+    const res = await fetch('/api/ops/freshness');
+    if (!res.ok) throw new Error('fetch failed');
+    const data = await res.json();
+    document.getElementById('updated-at').textContent = data.updated_at ? `Updated ${new Date(data.updated_at).toLocaleString()}` : 'Updated: unknown';
+
+    const cards = [
+      ['Scrape', data.scrape],
+      ['News', data.news],
+      ['Backup', data.backup],
+      ['Snapshot', data.snapshot],
+    ];
+    document.getElementById('cards').innerHTML = cards.map(([name, metric]) => card(name, metric)).join('');
+
+    document.getElementById('timeline').innerHTML = cards.map(([name, metric]) => {
+      const epoch = metric && metric.epoch ? new Date(metric.epoch * 1000).toLocaleString() : 'unknown';
+      const stale = metric && metric.stale === true;
+      return `<div class="border border-border rounded-lg p-3">
+        <div class="flex items-center justify-between">
+          <span class="text-sm text-white">${name}</span>
+          <span class="mono text-[11px] ${stale ? 'text-danger' : 'text-primary'}">${stale ? 'STALE' : 'OK'}</span>
+        </div>
+        <div class="text-xs text-dim mt-1">Last success/update: ${esc(epoch)}</div>
+      </div>`;
+    }).join('');
+  } catch {
+    document.getElementById('cards').innerHTML = '<div class="text-sm text-dim">Unable to load operations data.</div>';
+    document.getElementById('timeline').innerHTML = '<div class="text-sm text-dim">No timeline available.</div>';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', loadOps);
+</script>
+</body>
+</html>

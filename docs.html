@@ -2,448 +2,102 @@
 <html lang="en" class="dark">
 <head>
   <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>CVE Map — API & Architecture Documentation</title>
-  <meta name="description" content="API documentation and architecture overview for CVE Map — an open-source intelligence dashboard tracking public Proofs-of-Concept and exploits via GitHub."/>
-  <meta name="keywords" content="CVE, NVD, API, zero-day, exploits, vulnerability, Threat Intelligence, Documentation, cybersecurity"/>
-  
-  <!-- Open Graph / Social -->
-  <meta property="og:title" content="CVE Map API Documentation"/>
-  <meta property="og:description" content="Integrate CVE-Intel through its live Postgres-backed FastAPI endpoints."/>
-  <meta property="og:type" content="website"/>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CVE Intel — Docs</title>
+  <meta name="description" content="API and architecture documentation for CVE Intel."/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" referrerpolicy="no-referrer"/>
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet" referrerpolicy="no-referrer"/>
-  
-  <!-- Compiled Tailwind CSS for maximum performance -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" referrerpolicy="no-referrer"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="style.css"/>
-  
-  <!-- Referrer policy: only send origin on cross-origin requests to limit data leakage to CDNs -->
-  <meta name="referrer" content="strict-origin-when-cross-origin"/>
-
-  <!-- Defer non-critical scripts to prevent render-blocking -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer crossorigin="anonymous"></script>
-
   <style>
-    ::-webkit-scrollbar { width: 5px; height: 5px; }
-    ::-webkit-scrollbar-track { background: #0d1117; }
-    ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
-    ::-webkit-scrollbar-thumb:hover { background: #484f58; }
-
-    .glass {
-      background: rgba(22,27,34,0.85);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border: 1px solid rgba(48,54,61,0.7);
-    }
-    
-    .bg-grid {
-      background-size: 40px 40px;
-      background-image: linear-gradient(to right, rgba(48, 54, 61, 0.4) 1px, transparent 1px),
-                        linear-gradient(to bottom, rgba(48, 54, 61, 0.4) 1px, transparent 1px);
-    }
+    .glass { background: rgba(22,27,34,0.86); backdrop-filter: blur(10px); border: 1px solid rgba(48,54,61,0.6); }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+    .code { background: rgba(13,17,23,0.8); border: 1px solid rgba(48,54,61,0.8); border-radius: 10px; padding: 10px; }
   </style>
 </head>
-
-<body class="dark bg-bg-dark text-gray-200 font-sans antialiased h-screen flex flex-col overflow-hidden">
-
-  <!-- ===== HEADER ===== -->
-  <header class="h-16 border-b border-border flex items-center justify-between px-6 bg-surface shrink-0 z-20 sticky top-0">
-    <div class="flex items-center gap-2 group cursor-pointer" onclick="window.location.href='index.html'">
-      <div class="relative flex items-center justify-center h-8 w-8 rounded-lg bg-surface-2 border border-border group-hover:border-primary/50 transition-colors">
-        <span class="material-symbols-outlined text-primary text-xl relative z-10 transition-transform group-hover:scale-110">radar</span>
+<body class="dark bg-bg-dark text-gray-200 font-sans antialiased min-h-screen">
+  <div class="flex min-h-screen">
+    <aside class="hidden lg:flex w-64 bg-surface border-r border-border flex-col">
+      <div class="p-5 border-b border-border">
+        <a href="index.html" class="flex items-center gap-2"><span class="material-symbols-outlined text-primary">radar</span><span class="mono font-bold text-white tracking-tight">CVE INTEL</span></a>
       </div>
-      <h1 class="font-mono font-bold text-xl tracking-tight text-white group-hover:text-primary transition-colors">
-        CVE <span class="text-primary">MAP</span>
-      </h1>
-      <span class="text-[10px] ml-1 px-2 py-0.5 rounded-full bg-surface-2 text-dim hidden sm:inline border border-border">
-        Docs &amp; API
-      </span>
-    </div>
-    
-    <!-- Desktop Nav -->
-    <nav class="hidden md:flex items-center gap-6">
-      <a href="index.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">home</span> Home</a>
-      <a href="dashboard.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">dashboard</span> Dashboard</a>
-      <a href="news.html" class="text-sm font-medium text-gray-400 hover:text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">public</span> News</a>
-      <a href="docs.html" class="text-sm font-medium text-white transition-colors flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">book</span> Docs</a>
-      <a href="https://github.com/yadavnikhil17102004/CVE-Intel" target="_blank" class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono rounded bg-primary/10 border border-primary/30 hover:bg-primary/20 text-primary transition-colors">
-        <span class="material-symbols-outlined text-sm">code</span> GitHub
-      </a>
-    </nav>
-  </header>
-
-  <!-- ===== LAYOUT ===== -->
-  <div class="flex flex-1 overflow-hidden relative">
-    <!-- Grid BG behind content -->
-    <div class="absolute inset-0 bg-grid opacity-[0.15] z-0 pointer-events-none"></div>
-
-    <!-- LEFT SIDEBAR -->
-    <aside class="w-64 bg-surface border-r border-border overflow-y-auto shrink-0 p-5 z-10 hidden lg:flex flex-col">
-      <div class="space-y-6">
-        <div>
-          <h3 class="font-mono text-[10px] font-bold uppercase tracking-widest text-primary mb-3">OVERVIEW</h3>
-          <ul class="space-y-1">
-            <li><a href="#intro" class="block px-3 py-2 rounded-lg text-sm text-dim hover:text-white hover:bg-surface-2/50 transition">Introduction</a></li>
-            <li><a href="#sources" class="block px-3 py-2 rounded-lg text-sm text-white bg-surface-2 font-medium">Threat Sources</a></li>
-            <li><a href="#arch" class="block px-3 py-2 rounded-lg text-sm text-dim hover:text-white hover:bg-surface-2/50 transition">Architecture</a></li>
-          </ul>
-        </div>
-        
-        <div>
-          <h3 class="font-mono text-[10px] font-bold uppercase tracking-widest text-primary mb-3">API REFERENCE</h3>
-          <ul class="space-y-1">
-            <li><a href="#endpoints" class="block px-3 py-2 rounded-lg text-sm text-dim hover:text-white hover:bg-surface-2/50 transition">Data Endpoints</a></li>
-            <li><a href="#schema" class="block px-3 py-2 rounded-lg text-sm text-dim hover:text-white hover:bg-surface-2/50 transition">JSON Schema</a></li>
-            <li><a href="#sensors" class="block px-3 py-2 rounded-lg text-sm text-dim hover:text-white hover:bg-surface-2/50 transition">Sensor Network</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="mt-auto pt-6 border-t border-border">
-        <h3 class="text-[10px] font-bold uppercase tracking-wider text-dim mb-2 flex items-center gap-1.5">
-          <span class="material-symbols-outlined text-sm text-success">memory</span> API Status
-        </h3>
-        <div class="flex items-center justify-between text-xs bg-success/10 border border-success/20 px-3 py-2 rounded">
-          <span id="version-badge" class="text-success font-bold font-mono cursor-pointer hover:text-white transition-colors" title="Click me">v1.1.0</span>
-          <span class="flex h-2 w-2 relative">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-success opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-2 w-2 bg-success"></span>
-          </span>
-        </div>
+      <nav class="p-4 space-y-2 text-sm">
+        <a href="dashboard.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">dashboard_customize</span>Triage</a>
+        <a href="workspace.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">search_insights</span>Workspace</a>
+        <a href="news.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">rss_feed</span>Intelligence</a>
+        <a href="operations.html" class="flex items-center gap-2 px-3 py-2 rounded hover:bg-surface-2 text-gray-300"><span class="material-symbols-outlined text-[18px]">monitoring</span>Operations</a>
+        <a href="docs.html" class="flex items-center gap-2 px-3 py-2 rounded bg-primary/10 border border-primary/30 text-primary"><span class="material-symbols-outlined text-[18px]">book</span>Docs</a>
+      </nav>
+      <div class="mt-auto p-4 border-t border-border">
+        <a href="https://github.com/yadavnikhil17102004/CVE-Intel" target="_blank" class="flex items-center justify-center gap-2 px-3 py-2 rounded border border-primary/40 text-primary text-xs hover:bg-primary/10">
+          <span class="material-symbols-outlined text-[16px]">code</span>GitHub Repo
+        </a>
       </div>
     </aside>
 
-    <!-- MAIN CONTENT -->
-    <main class="flex-1 overflow-y-auto bg-bg-dark/80 z-10">
-      <div class="max-w-4xl mx-auto p-6 md:p-10 pb-24 space-y-12">
-        
-        <!-- SECTION: Intro -->
-        <section id="intro" class="space-y-4">
-          <h2 class="text-3xl font-bold text-white tracking-tight">Introduction</h2>
-          <p class="text-dim leading-relaxed">
-            CVE Map correlates <span class="text-white font-medium">National Vulnerability Database (NVD)</span> intelligence with <span class="text-white font-medium">GitHub Repository</span> scraping to provide a real-time index of public Proofs-of-Concept and Exploits.
-          </p>
-          <div class="glass p-6 rounded-xl border-l-4 border-l-primary flex gap-4 items-start">
-            <span class="material-symbols-outlined text-primary text-3xl">lightbulb</span>
-            <div>
-              <h4 class="text-white font-bold text-sm mb-1">Developer Notice</h4>
-              <p class="text-xs text-gray-400 leading-relaxed">The API is powered by FastAPI + Postgres and ingested by scheduled Go scrapers. Endpoints are public, unauthenticated, and support pagination for high-volume years.</p>
-            </div>
-          </div>
-        </section>
-
-        <!-- SECTION: Threat Sources -->
-        <section id="sources" class="space-y-6">
-          <h2 class="text-2xl font-bold text-white border-t border-border pt-10">Global Threat Intelligence Feeds</h2>
-          <p class="text-dim text-sm leading-relaxed">
-            The external news & intelligence scraper operates concurrently alongside the GitHub correlation engine. It ingests thousands of signals organically from a curated subset of high-value industry targets, mapped via a 5-Tier system:
-          </p>
-
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 font-mono text-xs">
-            <div class="glass p-4 rounded-xl border-l-2 border-gray-500">
-              <div class="flex items-center gap-2 mb-2">
-                <span class="text-gray-300 font-bold">Tier 1: RAW VULNS</span>
-              </div>
-              <p class="text-gray-500 text-[10px] leading-relaxed font-sans">Authoritative structured data feeds tracking new unmitigated CVE drops.</p>
-              <div class="text-[9px] mt-2 text-dim">Active nodes: CISA, Rapid7</div>
-            </div>
-
-            <div class="glass p-4 rounded-xl border-l-2 border-blue-500">
-              <div class="flex items-center gap-2 mb-2">
-                <span class="text-blue-400 font-bold">Tier 2: POC DATABASES</span>
-              </div>
-              <p class="text-gray-500 text-[10px] leading-relaxed font-sans">Direct scraping of aggregated exploit scripts and public exploit releases.</p>
-              <div class="text-[9px] mt-2 text-dim">Active nodes: Packet Storm</div>
-            </div>
-
-            <div class="glass p-4 rounded-xl border-l-2 border-teal-500">
-              <div class="flex items-center gap-2 mb-2">
-                <span class="text-teal-400 font-bold">Tier 3: INTEL & WRITEUPS</span>
-              </div>
-              <p class="text-gray-500 text-[10px] leading-relaxed font-sans">High-quality analyst writeups on ongoing campaigns and malware architectures.</p>
-              <div class="text-[9px] mt-2 text-dim">Active nodes: The Hacker News, BleepingComputer</div>
-            </div>
-
-            <div class="glass p-4 rounded-xl border-l-2 border-danger relative shadow-[0_0_15px_rgba(248,81,73,0.1)]">
-              <div class="flex items-center gap-2 mb-2">
-                <span class="w-1.5 h-1.5 rounded-full bg-danger animate-pulse"></span>
-                <span class="text-danger font-bold">Tier 4: BLEEDING-EDGE / 0-DAY</span>
-              </div>
-              <p class="text-gray-500 text-[10px] leading-relaxed font-sans">Real-time alerts for incoming Zero Day advisories and active critical active exploitation vectors.</p>
-              <div class="text-[9px] mt-2 text-primary">Active nodes: GitHub Security, ZDI</div>
-            </div>
-
-            <div class="glass p-4 rounded-xl border-l-2 border-purple-500 md:col-span-2 lg:col-span-1">
-              <div class="flex items-center gap-2 mb-2">
-                <span class="text-purple-400 font-bold">Tier 5: CHATTER</span>
-              </div>
-              <p class="text-gray-500 text-[10px] leading-relaxed font-sans">Social aggregators indexing frontline researcher & red-teamer conversations.</p>
-              <div class="text-[9px] mt-2 text-dim">Active nodes: r/netsec, r/ExploitDev, r/bugbounty</div>
-            </div>
-          </div>
-        </section>
-
-        <!-- SECTION: Architecture & Insights -->
-        <section id="arch" class="space-y-6">
-          <h2 class="text-2xl font-bold text-white border-t border-border pt-10">System Architecture & Pipeline</h2>
-          
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="space-y-3">
-              <p class="text-dim text-sm leading-relaxed">
-                The core pipeline is written in Go. It operates via scheduled workers that poll GitHub's search API using rigorous rate-limiting bypassing techniques, matching CVE identifiers against commit messages, repo descriptions, and README files.
-              </p>
-              <ul class="text-sm text-gray-300 space-y-2 list-disc list-inside marker:text-primary">
-                <li>Automated matching mechanism</li>
-                <li>NVD CVSS score overlay</li>
-                <li>GitHub stars/forks sorting</li>
-                <li>Static JSON export</li>
-              </ul>
-            </div>
-            
-            <!-- Insight Chart in Docs (matching user request for "stats & graphs" everywhere) -->
-            <div class="glass p-4 rounded-xl flex flex-col items-center justify-center">
-              <h4 class="text-xs font-mono text-dim tracking-widest uppercase mb-4 w-full text-left">Pipeline Throughput (Nodes/Hour)</h4>
-              <div class="w-full h-32 relative">
-                <canvas id="docsChart"></canvas>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- SECTION: Endpoints -->
-        <section id="endpoints" class="space-y-6">
-          <h2 class="text-2xl font-bold text-white border-t border-border pt-10">Data Endpoints</h2>
-          <p class="text-dim text-sm">The intelligence feed is split by year. Access `/api/*` endpoints directly for SIEM or custom integrations.</p>
-          
-          <div class="glass overflow-hidden rounded-xl border border-border">
-            <div class="flex items-center px-4 py-2 border-b border-border bg-surface-2/30">
-              <span class="w-2.5 h-2.5 rounded-full bg-red-500/20 border border-red-500/40 mr-1.5"></span>
-              <span class="w-2.5 h-2.5 rounded-full bg-yellow-500/20 border border-yellow-500/40 mr-1.5"></span>
-              <span class="w-2.5 h-2.5 rounded-full bg-green-500/20 border border-green-500/40"></span>
-              <span class="ml-4 text-[10px] font-mono text-dim uppercase tracking-wider">Bash</span>
-            </div>
-            <div class="p-4 bg-bg-dark overflow-x-auto space-y-4">
-              <pre class="font-mono text-[13px] leading-relaxed"><span class="text-success"># Fetch paginated CVE-to-repo mappings for 2026</span>
-<span class="text-primary">curl</span> -s <span class="text-gray-300">"/api/cve/2026?page=1&amp;per_page=200"</span> | <span class="text-primary">jq</span> .</pre>
-              <pre class="font-mono text-[13px] leading-relaxed"><span class="text-success"># Fetch intel only for mapped CVEs in 2026 (lighter than full-year intel)</span>
-<span class="text-primary">curl</span> -s <span class="text-gray-300">"/api/intel-summary/2026"</span> | <span class="text-primary">jq</span> .</pre>
-              <pre class="font-mono text-[13px] leading-relaxed"><span class="text-success"># Fetch Live Cybersecurity News stream</span>
-<span class="text-primary">curl</span> -s <span class="text-gray-300">"/api/news"</span> | <span class="text-primary">jq</span> .</pre>
-            </div>
-          </div>
-        </section>
-
-        <!-- SECTION: Schema -->
-        <section id="schema" class="space-y-6">
-          <h2 class="text-xl font-bold text-white">JSON Schema</h2>
-          
-          <div class="space-y-3">
-            <div class="glass px-4 py-3 rounded-lg border-l-2 border-l-purple-500 flex justify-between items-center group">
-              <div>
-                <span class="font-mono font-bold text-white text-sm">year</span>
-                <span class="text-dim text-xs ml-2 border border-border px-1.5 py-0.5 rounded bg-surface">integer</span>
-              </div>
-              <span class="text-xs text-gray-500">The index year mapping.</span>
-            </div>
-
-            <div class="glass px-4 py-3 rounded-lg border-l-2 border-l-primary flex flex-col md:flex-row md:items-center justify-between gap-2">
-              <div>
-                <span class="font-mono font-bold text-white text-sm">cves</span>
-                <span class="text-dim text-xs ml-2 border border-border px-1.5 py-0.5 rounded bg-surface">array[object]</span>
-              </div>
-              <span class="text-xs text-gray-500">Array of documented CVE entries and relative repositories.</span>
-            </div>
-            
-            <div class="pl-8 space-y-3 relative before:absolute before:left-[19px] before:top-0 before:bottom-0 before:w-px before:bg-border">
-              <div class="glass px-4 py-3 rounded-lg border border-border flex justify-between items-center group relative before:absolute before:-left-8 before:top-1/2 before:w-8 before:h-px before:bg-border">
-                <div>
-                  <span class="font-mono font-bold text-white text-sm">cve_id</span>
-                  <span class="text-dim text-xs ml-2">string</span>
-                </div>
-                <span class="font-mono text-[10px] text-primary">"CVE-2023-1234"</span>
-              </div>
-              
-              <div class="glass px-4 py-3 rounded-lg border border-border flexjustify-between items-center relative before:absolute before:-left-8 before:top-1/2 before:w-8 before:h-px before:bg-border">
-                <div class="flex justify-between items-center">
-                  <div>
-                    <span class="font-mono font-bold text-white text-sm">repositories</span>
-                    <span class="text-dim text-xs ml-2">array[object]</span>
-                  </div>
-                  <span class="text-[10px] text-gray-500 uppercase">GitHub Nodes</span>
-                </div>
-                <div class="mt-2 pt-2 border-t border-border/50 grid grid-cols-2 gap-2">
-                   <div class="text-[10px] font-mono text-gray-400">- full_name (string)</div>
-                   <div class="text-[10px] font-mono text-gray-400">- stargazers_count (int)</div>
-                   <div class="text-[10px] font-mono text-gray-400">- description (string)</div>
-                   <div class="text-[10px] font-mono text-gray-400">- pushed_at (iso8601)</div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-        <!-- SECTION: Sensor Network & Stats -->
-        <section id="sensors" class="space-y-6">
-          <h2 class="text-xl font-bold text-white border-t border-border pt-10">Global Sensor Network</h2>
-          <p class="text-dim text-sm leading-relaxed">CVE Map utilizes a globally distributed network of honeypots and passive traffic analyzers to correlate GitHub PoCs with active exploitation attempts in the wild.</p>
-          
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="glass p-5 rounded-xl shadow-xl flex flex-col">
-              <h4 class="text-xs font-mono text-dim tracking-widest uppercase mb-4">Vulnerability Severity Distribution</h4>
-              <div class="h-48 w-full relative">
-                <canvas id="regionChart"></canvas>
-              </div>
-            </div>
-            <div class="glass p-5 rounded-xl shadow-xl flex flex-col justify-center space-y-4">
-               <div class="flex items-center justify-between border-b border-border/50 pb-2">
-                 <span class="text-xs font-mono text-dim uppercase">Total Indexed Exploits</span>
-                 <span id="active-sensors" class="text-white font-bold font-mono">...</span>
-               </div>
-               <div class="flex items-center justify-between border-b border-border/50 pb-2">
-                  <span class="text-xs font-mono text-dim uppercase">CVEs (Current Year)</span>
-                  <span id="cves-current-year" class="text-primary font-bold font-mono">...</span>
-               </div>
-               <div class="flex items-center justify-between border-b border-border/50 pb-2">
-                  <span class="text-xs font-mono text-dim uppercase">Critical CVEs</span>
-                  <span id="critical-cves" class="text-danger font-bold font-mono">...</span>
-               </div>
-               <div class="flex items-center justify-between pb-2">
-                  <span class="text-xs font-mono text-dim uppercase">EPSS Coverage</span>
-                  <span id="epss-coverage" class="text-success font-bold font-mono">...</span>
-               </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Easter Egg Notification Toast -->
-        <div id="easter-egg-toast" class="fixed bottom-6 right-6 translate-y-24 opacity-0 transition-all duration-500 glass px-4 py-3 rounded-xl border border-primary z-50 flex items-center gap-3">
-          <span class="material-symbols-outlined text-primary">terminal</span>
-          <div>
-            <p class="text-xs font-bold text-white">SYSTEM OVERRIDE</p>
-            <p class="text-[10px] text-primary font-mono mt-0.5">Designed by Nikhil</p>
-          </div>
+    <div class="flex-1 min-w-0 flex flex-col">
+      <header class="h-16 border-b border-border bg-surface/85 backdrop-blur px-4 md:px-6 flex items-center justify-between gap-3">
+        <div>
+          <h1 class="text-lg font-semibold text-white">Documentation</h1>
+          <p class="text-xs text-dim">Backend endpoints, data model, and deployment notes.</p>
         </div>
+      </header>
 
-      </div>
-    </main>
-  </div> <!-- layout -->
+      <main class="flex-1 overflow-y-auto p-4 md:p-6 space-y-4">
+        <section class="glass rounded-xl p-4">
+          <h2 class="text-sm font-semibold text-white mb-2">Architecture</h2>
+          <p class="text-sm text-gray-300 leading-relaxed">CVE Intel runs on a VPS with FastAPI behind Caddy and Postgres as source of truth. Scrape/news/backup/snapshot/ops-health run via scheduled services. The web UI is static and consumes `/api/*` endpoints.</p>
+        </section>
 
-  <script>
-    // Chart rendering for docs insights
-    document.addEventListener('DOMContentLoaded', () => {
-      const currentYear = new Date().getFullYear();
-      
-      Promise.all([
-        fetch(`/api/cve/${currentYear}`).then(r => r.json()).catch(() => null),
-        fetch(`/api/intel/${currentYear}`).then(r => r.json()).catch(() => null)
-      ]).then(([dataCurr, nvdCurr]) => {
-        const cves = dataCurr?.cves || [];
-        const nvdLayer = nvdCurr || {};
+        <section class="glass rounded-xl p-4">
+          <h2 class="text-sm font-semibold text-white mb-3">Primary API Endpoints</h2>
+          <div class="space-y-3 text-sm">
+            <div class="code mono text-xs">GET /api/search?page=1&per_page=50&q=&year=&severity=&kev=</div>
+            <div class="code mono text-xs">GET /api/cve/{year}?page=1&per_page=200</div>
+            <div class="code mono text-xs">GET /api/intel/{year}?page=1&per_page=1000</div>
+            <div class="code mono text-xs">GET /api/intel-summary/{year}</div>
+            <div class="code mono text-xs">GET /api/intel-stats/{year}</div>
+            <div class="code mono text-xs">GET /api/cve-detail/{cve_id}</div>
+            <div class="code mono text-xs">GET /api/news?page=1&per_page=20&tier=&q=</div>
+            <div class="code mono text-xs">GET /api/ops/freshness</div>
+            <div class="code mono text-xs">GET /api/health</div>
+          </div>
+        </section>
 
-        const hourlyData = new Array(24).fill(0);
-        let crit = 0, high = 0, med = 0, unk = 0, epssKnown = 0;
-        let totalRepos = 0;
+        <section class="grid grid-cols-1 xl:grid-cols-2 gap-4">
+          <div class="glass rounded-xl p-4">
+            <h3 class="text-sm font-semibold text-white mb-2">Data Notes</h3>
+            <ul class="list-disc list-inside text-sm text-gray-300 space-y-1">
+              <li>`/api/search` supports optional `q` and server-side pagination.</li>
+              <li>Triage cards should use `/api/intel-stats/{year}` rather than client full scans.</li>
+              <li>Workspace detail should use `/api/cve-detail/{cve_id}` to avoid fan-out calls.</li>
+              <li>News supports tier/query filters and page-based archive loading.</li>
+            </ul>
+          </div>
 
-        cves.forEach(c => {
-          const s = nvdLayer[c.cve_id]?.s || 0;
-          if (typeof nvdLayer[c.cve_id]?.e === 'number' && !Number.isNaN(nvdLayer[c.cve_id]?.e)) epssKnown++;
-          if (s >= 9.0) crit++;
-          else if (s >= 7.0) high++;
-          else if (s > 0) med++;
-          else unk++;
+          <div class="glass rounded-xl p-4">
+            <h3 class="text-sm font-semibold text-white mb-2">Product Constraints</h3>
+            <ul class="list-disc list-inside text-sm text-gray-300 space-y-1">
+              <li>No login system, user accounts, or personalization.</li>
+              <li>No notification bell/avatar UX in app shell.</li>
+              <li>No fabricated data widgets (attack map, fake feed latency sources).</li>
+              <li>All displayed metrics must map to a real endpoint.</li>
+            </ul>
+          </div>
+        </section>
 
-          (c.repositories || []).forEach(r => {
-            totalRepos++;
-            if (r.pushed_at) {
-              const hour = new Date(r.pushed_at).getHours();
-              hourlyData[hour]++;
-            }
-          });
-        });
-
-        // Group hourly data into 6 buckets for the chart: 00-04, 04-08, 08-12, 12-16, 16-20, 20-24
-        const buckets = new Array(6).fill(0);
-        hourlyData.forEach((count, i) => {
-          buckets[Math.floor(i / 4)] += count;
-        });
-
-        document.getElementById('active-sensors').textContent = totalRepos.toLocaleString();
-        document.getElementById('cves-current-year').textContent = cves.length.toLocaleString();
-        document.getElementById('critical-cves').textContent = crit.toLocaleString();
-        const epssCoverage = cves.length ? ((epssKnown / cves.length) * 100).toFixed(2) : '0.00';
-        document.getElementById('epss-coverage').textContent = `${epssCoverage}%`;
-
-        const ctx = document.getElementById('docsChart').getContext('2d');
-        new Chart(ctx, {
-          type: 'bar',
-          data: {
-            labels: ['00:00','04:00','08:00','12:00','16:00','20:00'],
-            datasets: [{
-              label: 'Nodes Processed',
-              data: buckets,
-              backgroundColor: '#06b6d4',
-              borderRadius: 4,
-              barThickness: 'flex',
-              maxBarThickness: 16
-            }]
-          },
-          options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: { legend: { display: false } },
-            scales: {
-              x: { grid: { display: false }, ticks: { color: '#8b949e', font: {family:'JetBrains Mono',size:9} } },
-              y: { grid: { color: '#30363d', borderDash: [2,2] }, ticks: { display: false }, border: {display: false} }
-            }
-          }
-        });
-
-        // Region Donut Chart
-        const ctx2 = document.getElementById('regionChart').getContext('2d');
-        new Chart(ctx2, {
-          type: 'doughnut',
-          data: {
-            labels: ['Critical', 'High', 'Medium', 'Unscored'],
-            datasets: [{
-              data: [crit, high, med, unk],
-              backgroundColor: ['#f85149', '#f97316', '#d29922', '#30363d'],
-              borderWidth: 0,
-              hoverOffset: 4
-            }]
-          },
-          options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-              legend: { position: 'right', labels: { color: '#8b949e', font: {family:'JetBrains Mono',size:10}, boxWidth: 10 } },
-              tooltip: { backgroundColor: 'rgba(22,27,34,0.9)', titleFont: {family:'JetBrains Mono'}, bodyFont: {family:'JetBrains Mono'} }
-            },
-            cutout: '70%'
-          }
-        });
-      });
-
-      // Easter Egg Activation
-      let clicks = 0;
-      const badge = document.getElementById('version-badge');
-      const toast = document.getElementById('easter-egg-toast');
-      badge.addEventListener('click', () => {
-        clicks++;
-        if (clicks === 3) {
-          console.log('%c[SYSTEM] Override Accepted. Designed and Engineered by Nikhil.', 'color: #06b6d4; font-weight: bold; font-size: 14px;');
-          toast.classList.remove('translate-y-24', 'opacity-0');
-          setTimeout(() => {
-            toast.classList.add('translate-y-24', 'opacity-0');
-            clicks = 0;
-          }, 4000);
-        }
-      });
-    });
-  </script>
+        <section class="glass rounded-xl p-4">
+          <h3 class="text-sm font-semibold text-white mb-2">Quick Checks</h3>
+          <div class="space-y-2 text-xs mono">
+            <div class="code">curl -sI https://cve-intel.duckdns.org/api/intel-summary/2026</div>
+            <div class="code">curl -s "https://cve-intel.duckdns.org/api/search?page=1&per_page=5"</div>
+            <div class="code">curl -s "https://cve-intel.duckdns.org/api/news?page=1&per_page=5"</div>
+            <div class="code">curl -s "https://cve-intel.duckdns.org/api/ops/freshness"</div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
 </body>
 </html>
