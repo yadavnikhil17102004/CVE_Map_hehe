@@ -130,6 +130,36 @@ sudo docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}" | grep cvein
 sudo docker logs --since 5m cveintel-api
 ```
 
+Repeatable one-command variant from local machine:
+
+```bash
+./deploy/manual_deploy_vps.sh
+```
+
+Optional overrides:
+
+```bash
+VPS_HOST=172.175.241.146 VPS_USER=nixk2000 TARGET_REF=origin/main ./deploy/manual_deploy_vps.sh
+```
+
+Optional stale-page cleanup:
+
+```bash
+PURGE_EXTRA_HTML=true ./deploy/manual_deploy_vps.sh
+```
+
+Script behavior:
+
+- fetches `origin/main` on VPS source repo
+- ensures clean deploy worktree exists and checks out target ref
+- prints Caddyfile content so static serving/root behavior is visible per deploy
+- waits for local API readiness (`127.0.0.1:8000/api/health`) with retries before public checks
+- syncs static app pages from deploy worktree into Caddy static root (`/var/www/cve-intel`)
+- reports extra HTML files present in static root (optional auto-purge with `PURGE_EXTRA_HTML=true`)
+- rebuilds/restarts compose `api` service
+- runs smoke checks for `/api/health`, `/api/search`, `/api/news`
+- runs static rollout checks for nav links in `dashboard.html` and reachability of `operations.html`
+
 ## 5) Post-Deploy API Verification
 
 Health and route checks:

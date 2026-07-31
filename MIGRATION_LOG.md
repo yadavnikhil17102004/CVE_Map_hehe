@@ -1652,3 +1652,59 @@ Step 6 (`StartLimitInterval` mismatch) root-cause diagnostic:
     - intentionally omitted in this pass to avoid implying server-side filtering that `/api/search` does not expose.
   - Out-of-scope/account-dependent:
     - Remediate/bookmark/notification/avatar features not implemented.
+
+### 2026-07-31 — Full app-shell alignment (Stitch nav model) + no-account UX policy
+
+- Completed shared app navigation across all intelligence pages with the same shell style:
+  - `Triage` (`dashboard.html`)
+  - `Workspace` (`workspace.html`)
+  - `Intelligence` (`news.html`)
+  - `Operations` (`operations.html`)
+  - `Docs` (`docs.html`)
+  - Dedicated `GitHub Repo` button in sidebar shell
+
+- Added missing Operations page implementation:
+  - New `operations.html` with `/api/ops/freshness` bindings
+  - Metric cards for scrape/news/backup/snapshot age vs threshold
+  - Timeline section for latest success/update timestamps
+  - No account-specific or user-specific controls
+
+- Rebuilt Docs page to match the same app-shell visual language:
+  - Replaced old standalone docs look with shared sidebar/navigation shell
+  - Documented current API routes including newly added:
+    - `/api/intel-stats/{year}`
+    - `/api/cve-detail/{cve_id}`
+    - `/api/ops/freshness`
+    - paginated `/api/news`
+
+- Enforced infographic-only/no-login policy in UI:
+  - Removed account-oriented UX patterns (avatar/notifications/bookmark/personalization) from implemented pages
+  - Explicitly documented no-user-system constraints in docs content
+
+- Consistency updates:
+  - Added `Docs` + `GitHub Repo` links to side navigation in:
+    - `dashboard.html`
+    - `workspace.html`
+    - `news.html`
+
+### 2026-07-31 — Deploy loop hardening (manual repeatable script)
+
+- Added repo-tracked deploy helper to reduce "pushed to GitHub != live" drift:
+  - `deploy/manual_deploy_vps.sh`
+- Script codifies known-safe deployment flow used in prior incident closure:
+  - fetch remote
+  - maintain clean worktree (`~/CVE-Intel-deploy`)
+  - rebuild/restart Docker Compose API service
+  - run smoke checks (`/api/health`, `/api/search`, `/api/news`)
+- Updated `OPERATIONS.md` with script-based deploy path and supported overrides.
+- Follow-up hardening: deploy helper now verifies both backend and static rollout:
+  - emits active Caddyfile (or discovered path) to expose static serving config during deploy
+  - validates deployed `dashboard.html` nav href set and `operations.html` availability
+- Verified from live deploy output that Caddy static root is `/var/www/cve-intel` (not deploy worktree path).
+- Updated deploy helper to:
+  - wait for local API readiness before public smoke checks (avoid transient startup `502` false negatives)
+  - sync static pages/assets from clean worktree to `/var/www/cve-intel` so UI deploys with API deploy.
+- Added stale-static detection in deploy helper:
+  - inventories `/var/www/cve-intel/*.html` after sync
+  - reports extra HTML not in managed set (`index/dashboard/workspace/news/operations/docs`)
+  - optional cleanup gate: `PURGE_EXTRA_HTML=true`.
