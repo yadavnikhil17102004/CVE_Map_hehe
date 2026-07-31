@@ -92,7 +92,7 @@ sudo docker logs --since 5m cveintel-api || true
 echo "[9/10] sync static pages to Caddy root + API smoke checks"
 sudo mkdir -p "${STATIC_ROOT}"
 MANAGED_HTML_FILES="index.html dashboard.html workspace.html news.html operations.html docs.html"
-for f in ${MANAGED_HTML_FILES} style.css; do
+for f in \${MANAGED_HTML_FILES} style.css; do
   if [ -f "${DEPLOY_WORKTREE_DIR}/\${f}" ]; then
     sudo install -m 644 "${DEPLOY_WORKTREE_DIR}/\${f}" "${STATIC_ROOT}/\${f}"
   fi
@@ -107,7 +107,7 @@ sudo find "${STATIC_ROOT}" -maxdepth 1 -type f -name '*.html' -printf '%f\n' | s
 
 EXTRA_HTML=\$(comm -23 \
   <(sudo find "${STATIC_ROOT}" -maxdepth 1 -type f -name '*.html' -printf '%f\n' | sort) \
-  <(printf '%s\n' ${MANAGED_HTML_FILES} | sort) || true)
+  <(printf '%s\n' \${MANAGED_HTML_FILES} | sort) || true)
 
 if [ -n "\${EXTRA_HTML}" ]; then
   echo "[sync] extra html files found in static root:"
