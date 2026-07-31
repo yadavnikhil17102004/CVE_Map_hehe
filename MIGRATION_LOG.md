@@ -1616,3 +1616,39 @@ Step 6 (`StartLimitInterval` mismatch) root-cause diagnostic:
   - required pre-coding schema verification gate against current OSV docs
 - Sequencing decision:
   - OSV backend workstream can proceed in parallel with triage UI workstream because integration boundary is API-first (`/api/osv-*`) and file touch sets are mostly disjoint.
+
+### 2026-07-31 — Triage dashboard reconciliation implementation (Stitch-aligned, data-backed only)
+
+- Implemented blocking API change from `DESIGN_RECONCILIATION.md` §0:
+  - `/api/search` now supports optional `q`.
+  - When `q` is omitted, endpoint returns browseable/paginated CVE results using active filters (`year`, `severity`, `kev`).
+  - When `q` is present, minimum length validation remains enforced (`>=2`).
+
+- Rebuilt `dashboard.html` as a Triage-only, server-paginated view with real bindings:
+  - Sidebar filters wired to `/api/search` params:
+    - optional text query `q`
+    - year (`year`)
+    - severity checkboxes (`severity`)
+    - KEV toggle (`kev=true`)
+  - Table columns mapped to real response fields:
+    - CVE ID -> `cve_id`
+    - Severity -> `intel.v`
+    - CVSS -> `intel.s`
+    - KEV -> `intel.k`
+    - EPSS -> `intel.e`
+    - Repo count -> `repositories.length`
+    - Activity -> max `repositories[].pushed_at`
+  - Pagination controls now bind to `page`, `per_page`, `total`.
+  - Added loading skeleton state and empty-results state with clear-filters action.
+
+- Deliberately dropped in this pass (reconciliation-driven):
+  - Fabricated/unsupported:
+    - Live Stream Overlay
+    - Data Freshness widget (no public endpoint yet)
+  - Unsupported metric claims:
+    - trend arrows, KEV aggregate card, EPSS average/trend bars
+    - replaced with honest single metric card: `Total matching CVEs`
+  - Min PoC Stars slider:
+    - intentionally omitted in this pass to avoid implying server-side filtering that `/api/search` does not expose.
+  - Out-of-scope/account-dependent:
+    - Remediate/bookmark/notification/avatar features not implemented.

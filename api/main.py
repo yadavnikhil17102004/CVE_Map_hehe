@@ -397,23 +397,23 @@ def get_news(request: Request, limit: int = Query(200, ge=1, le=500)):
 @limiter.limit("120/minute")
 def search(
     request: Request,
-    q: str = Query(..., min_length=2, max_length=200),
+    q: Optional[str] = Query(None, max_length=200),
     page: int = Query(1, ge=1),
     per_page: int = Query(50, ge=1, le=200),
     year: Optional[int] = Query(None, ge=1999, le=2100),
     severity: Optional[str] = Query(None),
     kev: Optional[bool] = Query(None),
 ):
-    query = q.strip()
-    if not query:
-        raise HTTPException(status_code=400, detail="empty query")
+    query = (q or "").strip()
+    if query and len(query) < 2:
+        raise HTTPException(status_code=400, detail="q must be at least 2 characters when provided")
 
     severity_norm = severity.strip().upper() if severity else None
     severity_allowed = {"LOW", "MEDIUM", "HIGH", "CRITICAL"}
     if severity_norm and severity_norm not in severity_allowed:
         raise HTTPException(status_code=400, detail="severity must be one of LOW, MEDIUM, HIGH, CRITICAL")
 
-    like = f"%{query.lower()}%"
+    like = f"%{query.lower()}%" if query else None
     offset = (page - 1) * per_page
 
     text_match_clauses = [
@@ -429,13 +429,13 @@ def search(
         "LOWER(COALESCE(n.cvss_vector, '')) LIKE %(like)s",
     ]
 
-    params: Dict[str, Any] = {
-        "like": like,
-        "limit": per_page,
-        "offset": offset,
-    }
+    params: Dict[str, Any] = {"limit": per_page, "offset": offset}
+    if like is not None:
+        params["like"] = like
 
-    filters = ["(" + " OR ".join(text_match_clauses) + ")"]
+    filters: List[str] = []
+    if like is not None:
+        filters.append("(" + " OR ".join(text_match_clauses) + ")")
     if year is not None:
         filters.append("c.year = %(year)s")
         params["year"] = year
@@ -446,7 +446,7 @@ def search(
         filters.append("COALESCE(n.kev_flag, false) = %(kev)s")
         params["kev"] = kev
 
-    filter_sql = " AND ".join(filters)
+    filter_sql = " AND ".join(filters) if filters else "TRUE"
 
     with db_cursor() as cur:
         cur.execute(
