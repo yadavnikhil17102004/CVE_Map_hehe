@@ -57,6 +57,41 @@ def sample_news_payload() -> dict:
     }
 
 
+def sample_news_paginated(page: int, per_page: int, tier: int | None, q: str | None) -> dict:
+    payload = sample_news_payload()
+    articles = payload["articles"]
+    query = (q or "").strip().lower()
+    filtered = []
+    for item in articles:
+        if tier is not None and item.get("tier") != tier:
+            continue
+        if query:
+            haystack = " ".join(
+                [
+                    item.get("title", ""),
+                    item.get("description", ""),
+                    item.get("source", ""),
+                ]
+            ).lower()
+            if query not in haystack:
+                continue
+        filtered.append(item)
+
+    total = len(filtered)
+    start = max(0, (page - 1) * per_page)
+    end = start + per_page
+    return {
+        "last_updated": payload.get("last_updated"),
+        "query": query,
+        "tier": tier,
+        "page": page,
+        "per_page": per_page,
+        "total": total,
+        "has_more": end < total,
+        "articles": filtered[start:end],
+    }
+
+
 def cves_for_year(year: int) -> list[dict]:
     if year == 2026:
         return SAMPLE_CVES.get("cves", [])
@@ -179,12 +214,28 @@ class Handler(SimpleHTTPRequestHandler):
             return
 
         if path == "/api/news":
-            response_json(self, sample_news_payload())
+            page_raw = qs.get("page", [None])[0]
+            q = qs.get("q", [None])[0]
+            tier_raw = qs.get("tier", [None])[0]
+            per_page = int(qs.get("per_page", ["50"])[0])
+            limit_raw = qs.get("limit", [None])[0]
+
+            tier = int(tier_raw) if tier_raw and tier_raw.isdigit() else None
+            paginated = page_raw is not None or bool(q and q.strip()) or tier is not None
+            if paginated:
+                page = max(1, int(page_raw or "1"))
+                per_page = max(1, min(200, per_page))
+                response_json(self, sample_news_paginated(page, per_page, tier, q))
+            else:
+                payload = sample_news_payload()
+                if limit_raw and limit_raw.isdigit():
+                    payload["articles"] = payload["articles"][: int(limit_raw)]
+                response_json(self, payload)
             return
 
         if path == "/api/search":
             q = qs.get("q", [""])[0]
-            if len(q.strip()) < 2:
+            if q.strip() and len(q.strip()) < 2:
                 response_json(self, {"detail": "q too short"}, code=HTTPStatus.BAD_REQUEST)
                 return
 
@@ -197,6 +248,70 @@ class Handler(SimpleHTTPRequestHandler):
             kev_raw = qs.get("kev", [None])[0]
             kev = None if kev_raw is None else kev_raw.lower() == "true"
             response_json(self, build_search_results(q, page, per_page, year_filter, severity, kev))
+            return
+
+        m_stats = re.fullmatch(r"/api/intel-stats/(\d{4})", path)
+        if m_stats:
+            year = int(m_stats.group(1))
+            if year == 2026:
+                payload = {
+                    "year": 2026,
+                    "total": 2,
+                    "critical_high": 2,
+                    "kev_total": 1,
+                    "avg_epss": 0.685,
+                }
+            else:
+                payload = {
+                    "year": year,
+                    "total": 0,
+                    "critical_high": 0,
+                    "kev_total": 0,
+                    "avg_epss": None,
+                }
+            response_json(
+                self,
+                payload,
+            )
+            return
+
+        if path == "/api/ops/freshness":
+            response_json(
+                self,
+                {
+                    "status": "ok",
+                    "updated_at": "2026-07-31T12:00:00Z",
+                    "scrape": {"metric": "scrape", "epoch": 1785499200, "age_seconds": 1200, "threshold_seconds": 25200, "stale": False},
+                    "news": {"metric": "news", "epoch": 1785502500, "age_seconds": 300, "threshold_seconds": 5400, "stale": False},
+                    "backup": {"metric": "backup", "epoch": 1785477600, "age_seconds": 36000, "threshold_seconds": 93600, "stale": False},
+                    "snapshot": {"metric": "snapshot", "epoch": 1785250000, "age_seconds": 262800, "threshold_seconds": 691200, "stale": False},
+                },
+            )
+            return
+
+        m_detail = re.fullmatch(r"/api/cve-detail/(CVE-\d{4}-\d{4,8})", path, re.IGNORECASE)
+        if m_detail:
+            cve_id = m_detail.group(1).upper()
+            matches = [c for c in cves_for_year(2026) if c.get("cve_id") == cve_id]
+            if not matches:
+                response_json(self, {"detail": "cve not found"}, code=HTTPStatus.NOT_FOUND)
+                return
+            repos = matches[0].get("repositories", [])
+            intel = INTEL_BY_CVE.get(cve_id, {})
+            response_json(
+                self,
+                {
+                    "year": 2026,
+                    "cve_id": cve_id,
+                    "intel": intel,
+                    "repositories": repos,
+                    "timeline": [
+                        {"event": "Published", "time": intel.get("p"), "note": "NVD publication date"},
+                        {"event": "Latest Repo Activity", "time": repos[0].get("pushed_at") if repos else None, "note": "Most recent repository push"},
+                    ],
+                    "related_news": [],
+                },
+            )
             return
 
         super().do_GET()

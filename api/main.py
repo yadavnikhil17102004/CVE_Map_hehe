@@ -1,8 +1,10 @@
 import json
 import os
+import re
 from collections import defaultdict
 from contextlib import contextmanager
 from datetime import date, datetime, timezone
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import psycopg2
@@ -23,6 +25,7 @@ DB_PORT = int(os.getenv("POSTGRES_PORT", "5432"))
 DB_USER = os.getenv("POSTGRES_API_USER") or os.getenv("POSTGRES_USER", "cveintel")
 DB_PASSWORD = os.getenv("POSTGRES_API_PASSWORD") or os.getenv("POSTGRES_PASSWORD", "")
 DB_SSLMODE = os.getenv("POSTGRES_SSLMODE", "disable")
+OPS_HEALTH_STATUS_PATH = os.getenv("OPS_HEALTH_STATUS_PATH", "/var/log/cveintel/ops_health_status.json")
 
 if not DB_PASSWORD:
     raise RuntimeError("Database password not configured for API user")
@@ -50,6 +53,10 @@ def make_json_response(payload: Any, cache_control: Optional[str] = None) -> JSO
     if cache_control:
         response.headers["Cache-Control"] = cache_control
     return response
+
+
+def _now_epoch() -> int:
+    return int(datetime.now(timezone.utc).timestamp())
 
 
 @contextmanager
@@ -353,27 +360,258 @@ def get_intel_summary_by_year(request: Request, year: int):
     return make_json_response(payload, cache_control="public, max-age=300")
 
 
-@app.get("/api/news")
+@app.get("/api/intel-stats/{year}")
 @limiter.limit("120/minute")
-def get_news(request: Request, limit: int = Query(200, ge=1, le=500)):
+def get_intel_stats_by_year(request: Request, year: int):
+    if year < 1999 or year > 2100:
+        raise HTTPException(status_code=400, detail="invalid year")
+
     with db_cursor() as cur:
         cur.execute(
             """
-            SELECT title, link, description, source, tier, image_url,
-                   pub_date_raw, COALESCE(last_updated, MAX(ingested_at) OVER ()) AS top_updated
-            FROM news_items
-            ORDER BY published_at DESC NULLS LAST, id DESC
-            LIMIT %s
+            WITH matched AS (
+                SELECT DISTINCT cve_id
+                FROM cve_repos
+                WHERE year = %s
+            )
+            SELECT
+                COUNT(*)::BIGINT AS total,
+                COUNT(*) FILTER (WHERE COALESCE(n.severity, '') IN ('CRITICAL', 'HIGH'))::BIGINT AS critical_high,
+                COUNT(*) FILTER (WHERE COALESCE(n.kev_flag, false))::BIGINT AS kev_total,
+                AVG(n.epss_score) AS avg_epss
+            FROM matched m
+            LEFT JOIN nvd_intel n ON n.cve_id = m.cve_id
             """,
-            (limit,),
+            (year,),
         )
+        row = cur.fetchone()
+
+    payload = {
+        "year": year,
+        "total": int(row.get("total") or 0),
+        "critical_high": int(row.get("critical_high") or 0),
+        "kev_total": int(row.get("kev_total") or 0),
+        "avg_epss": float(row["avg_epss"]) if row.get("avg_epss") is not None else None,
+    }
+    return make_json_response(payload, cache_control="public, max-age=180")
+
+
+@app.get("/api/cve-detail/{cve_id}")
+@limiter.limit("120/minute")
+def get_cve_detail(request: Request, cve_id: str):
+    cve_norm = cve_id.strip().upper()
+    if not re.fullmatch(r"CVE-\d{4}-\d{4,8}", cve_norm):
+        raise HTTPException(status_code=400, detail="invalid CVE identifier")
+
+    with db_cursor() as cur:
+        cur.execute(
+            """
+            SELECT year, repo_id, repo_name, full_name, repo_url, description,
+                   stargazers_count, forks_count, language, updated_at, pushed_at,
+                   created_at, topics, owner_login, owner_html_url, clone_url,
+                   has_code, age_days
+            FROM cve_repos
+            WHERE cve_id = %s
+            ORDER BY stargazers_count DESC NULLS LAST, repo_id ASC
+            """,
+            (cve_norm,),
+        )
+        repo_rows = cur.fetchall()
+
+        cur.execute(
+            """
+            SELECT cve_id, cvss_score, severity, description, cvss_vector,
+                   cwe, kev_flag, source, published_date, status,
+                   epss_score, products
+            FROM nvd_intel
+            WHERE cve_id = %s
+            LIMIT 1
+            """,
+            (cve_norm,),
+        )
+        intel_row = cur.fetchone()
+
+        cur.execute(
+            """
+            SELECT title, link, description, source, tier, image_url, pub_date_raw
+            FROM news_items
+            WHERE LOWER(COALESCE(title, '')) LIKE LOWER(%s)
+               OR LOWER(COALESCE(description, '')) LIKE LOWER(%s)
+            ORDER BY published_at DESC NULLS LAST, id DESC
+            LIMIT 20
+            """,
+            (f"%{cve_norm}%", f"%{cve_norm}%"),
+        )
+        related_news_rows = cur.fetchall()
+
+    if not repo_rows and not intel_row:
+        raise HTTPException(status_code=404, detail="cve not found")
+
+    repos = [row_to_repo(r) for r in repo_rows]
+    intel = row_to_compact_intel(intel_row) if intel_row else {}
+    year = repo_rows[0]["year"] if repo_rows else int(cve_norm.split("-")[1])
+
+    pushed_times = [r.get("pushed_at") for r in repos if r.get("pushed_at")]
+    created_times = [r.get("created_at") for r in repos if r.get("created_at")]
+
+    timeline: List[Dict[str, Any]] = []
+    if intel.get("p"):
+        timeline.append({"event": "Published", "time": intel.get("p"), "note": "NVD publication date"})
+    if created_times:
+        timeline.append({"event": "First PoC Repo Seen", "time": min(created_times), "note": "Earliest repo creation timestamp"})
+    if pushed_times:
+        timeline.append({"event": "Latest Repo Activity", "time": max(pushed_times), "note": "Most recent repository push"})
+    if intel.get("k"):
+        timeline.append(
+            {
+                "event": "KEV Listed",
+                "time": None,
+                "note": "Listed in CISA KEV (date unavailable in current dataset)",
+            }
+        )
+
+    related_news = [
+        {
+            "title": row.get("title"),
+            "link": row.get("link"),
+            "description": row.get("description"),
+            "source": row.get("source"),
+            "tier": row.get("tier"),
+            "image_url": row.get("image_url"),
+            "pub_date": row.get("pub_date_raw"),
+        }
+        for row in related_news_rows
+    ]
+
+    payload = {
+        "year": year,
+        "cve_id": cve_norm,
+        "intel": intel,
+        "repositories": repos,
+        "timeline": timeline,
+        "related_news": related_news,
+    }
+    return make_json_response(payload, cache_control="public, max-age=120")
+
+
+@app.get("/api/ops/freshness")
+@limiter.limit("60/minute")
+def get_ops_freshness(request: Request):
+    status_path = Path(OPS_HEALTH_STATUS_PATH)
+    if not status_path.exists():
+        payload = {
+            "status": "missing",
+            "updated_at": None,
+            "detail": f"status file not found at {OPS_HEALTH_STATUS_PATH}",
+        }
+        return make_json_response(payload, cache_control="no-store")
+
+    try:
+        data = json.loads(status_path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        payload = {"status": "error", "updated_at": None, "detail": f"failed to parse status file: {exc}"}
+        return make_json_response(payload, cache_control="no-store")
+
+    now_epoch = _now_epoch()
+
+    def pack(metric: str, prefix: str) -> Dict[str, Any]:
+        epoch = data.get(f"{prefix}_last_success_epoch") or data.get(f"{prefix}_last_update_epoch")
+        threshold = data.get(f"{prefix}_threshold_seconds")
+        age = None
+        stale = None
+        if isinstance(epoch, (int, float)):
+            age = max(0, int(now_epoch - int(epoch)))
+        if isinstance(age, int) and isinstance(threshold, (int, float)):
+            stale = age > int(threshold)
+        return {"metric": metric, "epoch": epoch, "age_seconds": age, "threshold_seconds": threshold, "stale": stale}
+
+    payload = {
+        "status": data.get("status", "unknown"),
+        "updated_at": data.get("timestamp"),
+        "scrape": pack("scrape", "scrape"),
+        "news": pack("news", "news"),
+        "backup": pack("backup", "backup"),
+        "snapshot": pack("snapshot", "snapshot"),
+    }
+    return make_json_response(payload, cache_control="no-store")
+
+
+@app.get("/api/news")
+@limiter.limit("120/minute")
+def get_news(
+    request: Request,
+    limit: Optional[int] = Query(None, ge=1, le=500),
+    page: Optional[int] = Query(None, ge=1),
+    per_page: int = Query(50, ge=1, le=200),
+    tier: Optional[int] = Query(None, ge=1, le=5),
+    q: Optional[str] = Query(None, max_length=200),
+):
+    query = (q or "").strip()
+    paginated = page is not None or tier is not None or bool(query)
+    page_num = page or 1
+    page_offset = (page_num - 1) * per_page
+
+    filters: List[str] = []
+    params: Dict[str, Any] = {}
+    if tier is not None:
+        filters.append("tier = %(tier)s")
+        params["tier"] = tier
+    if query:
+        filters.append(
+            "("
+            "LOWER(COALESCE(title, '')) LIKE %(query)s OR "
+            "LOWER(COALESCE(description, '')) LIKE %(query)s OR "
+            "LOWER(COALESCE(source, '')) LIKE %(query)s"
+            ")"
+        )
+        params["query"] = f"%{query.lower()}%"
+    where_sql = ("WHERE " + " AND ".join(filters)) if filters else ""
+
+    with db_cursor() as cur:
+        cur.execute("SELECT COALESCE(MAX(last_updated), MAX(ingested_at)) AS top_updated FROM news_items")
+        top_row = cur.fetchone()
+        last_updated = top_row.get("top_updated") if top_row else None
+
+        if paginated:
+            cur.execute(
+                f"""
+                SELECT COUNT(*)::BIGINT AS total
+                FROM news_items
+                {where_sql}
+                """,
+                params,
+            )
+            total = int(cur.fetchone()["total"])
+            query_params = dict(params)
+            query_params["limit"] = per_page
+            query_params["offset"] = page_offset
+            cur.execute(
+                f"""
+                SELECT title, link, description, source, tier, image_url, pub_date_raw
+                FROM news_items
+                {where_sql}
+                ORDER BY published_at DESC NULLS LAST, id DESC
+                LIMIT %(limit)s OFFSET %(offset)s
+                """,
+                query_params,
+            )
+        else:
+            effective_limit = limit or 200
+            cur.execute(
+                """
+                SELECT title, link, description, source, tier, image_url, pub_date_raw
+                FROM news_items
+                ORDER BY published_at DESC NULLS LAST, id DESC
+                LIMIT %s
+                """,
+                (effective_limit,),
+            )
+            total = effective_limit
+
         rows = cur.fetchall()
 
-    last_updated = None
     articles: List[Dict[str, Any]] = []
     for row in rows:
-        if row.get("top_updated") and not last_updated:
-            last_updated = row["top_updated"]
         articles.append(
             {
                 "title": row.get("title"),
@@ -390,7 +628,19 @@ def get_news(request: Request, limit: int = Query(200, ge=1, le=500)):
         "last_updated": last_updated,
         "articles": articles,
     }
-    return make_json_response(payload, cache_control="public, max-age=120")
+    if paginated:
+        payload.update(
+            {
+                "query": query,
+                "tier": tier,
+                "page": page_num,
+                "per_page": per_page,
+                "total": total,
+                "has_more": (page_num * per_page) < total,
+            }
+        )
+    cache_header = "no-store" if query else "public, max-age=120"
+    return make_json_response(payload, cache_control=cache_header)
 
 
 @app.get("/api/search")
