@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-08-07T08:59:00Z",
+  "last_updated": "2026-08-07T10:07:00Z",
   "articles": [
+    {
+      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+      "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+      "description": "Security researcher Malcolm Stagg has disclosed a new attack class called\u0026nbsp;NatJack\u0026nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof ...",
+      "pub_date": "Fri, 07 Aug 2026 15:02:57 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx8dmEkj0rsX2NREBfPOczKn7zadWRaVVOyVPVeaCPzCDdBAPhocCwP1CVbX_p1pj4Q7DVYsdusvWc9u9G7lO4BGYihT6BXnXY099zIs1B1PBefH71cXCHZucxaG2gEzqKdf9B3FVr9MJ34SntVezm4gNXWSxIMF05DpYUNF6qmfhb0hMiyNpsWDOtuRE/s1600/NatJack.jpg"
+    },
+    {
+      "title": "UNC6671 Automates Microsoft 365 Data Theft After Hijacking Employee Sessions",
+      "link": "https://cybersecuritynews.com/unc6671-automates-microsoft-365/",
+      "description": "UNC6671 is carrying out data theft campaigns that begin with a phone call. The group poses as an IT helpdesk, claiming an urgent security migration is necessary. A convincing call and a fake sign-i...",
+      "pub_date": "Fri, 07 Aug 2026 09:19:50 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/UNC6671-Automates-Microsoft-365-Data-Theft-After-Hijacking-Employee-Sessions.webp"
+    },
+    {
+      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
+      "link": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
+      "description": "Security researcher Malcolm Stagg has disclosed a new attack class called\u0026nbsp;NatJack\u0026nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof ...",
+      "pub_date": "Fri, 07 Aug 2026 14:22:11 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj81b6_YckjrqqfRrJQNRdIf3nu4xfqLNScukFYEao4VeF5QNlt16sbEwrdutizdB9Q1nOWRQpqeSZg4gYZsL8cIhRSJ43XJqMKWKgdKF28oeTl19HQQ75dnOKVHsa6DtXr4zhlmIF43nbUWV5jyEh4D1TjIvBKjgoAX2MpUbjJH3cN4hd4zDvIu_t4Jec/s1600/windows-hello-keys.jpg"
+    },
+    {
+      "title": "Papyrus Mobile Ad Fraud Uses Hidden WebViews to Fake Clicks, Scrolls and Attention",
+      "link": "https://cybersecuritynews.com/papyrus-mobile-ad-fraud/",
+      "description": "Papyrus is a mobile ad fraud operation hiding behind apps built for reading serialized fiction. While people turn pages and follow stories, the apps can quietly open websites in the background and ...",
+      "pub_date": "Fri, 07 Aug 2026 08:46:26 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Papyrus-Mobile-Ad-Fraud-Uses-Hidden-WebViews-to-Fake-Clicks-Scrolls-and-Attention.webp"
+    },
+    {
+      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+      "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+      "description": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was eno...",
+      "pub_date": "Fri, 07 Aug 2026 13:48:35 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguukj-eRhx9RtAq9X96hAxHi0IU3ZWgM_W5XkdWhF8ezevuBQygkpv-ku5PSri9Gt5hRkNVxe6HmJJr5Mg33X_PhOGziqaho9bwm-mkRZSBl2jo94XF3jRwTZOb_PocueKWJkEtvl7kG_YqmbVfUxNht8_ODzLOERIqQteMdPxnWpobM-c9-fHhn0cLMQ/s1600/claude-github.jpg"
+    },
+    {
+      "title": "Multiple Flaws in Enterprise Java Platforms Allow Attackers to Execute Remote Code",
+      "link": "https://cybersecuritynews.com/multiple-vulnerabilities-in-enterprise-java-platforms/",
+      "description": "Enterprise Java platforms remain attractive targets because middleware often exposes paths developers assumed were internal. New research presented for Black Hat 2026 describes 12 flaws across prod...",
+      "pub_date": "Fri, 07 Aug 2026 07:45:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Multiple-Vulnerabilities-in-Enterprise-Java-platforms-Allow-Attackers-to-Execute-Remote-Code-.webp"
+    },
+    {
+      "title": "Shai-Hulud CHAINDROP Worm Backdoors 400+ npm Packages With 1.3 Billion Monthly Downloads",
+      "link": "https://cybersecuritynews.com/shai-hulud-chaindrop-worm-backdoors/",
+      "description": "Shai-Hulud is back in the npm ecosystem, and this time its reach is unusually broad. A new self-propagating malware strain called CHAINDROP has backdoored more than 400 packages after attackers com...",
+      "pub_date": "Fri, 07 Aug 2026 07:26:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Shai-Hulud-CHAINDROP-Worm-Backdoors-400-npm-Packages-With-1.3-Billion-Monthly-Downloads.webp"
+    },
+    {
+      "title": "Kimi K3 AI Model Escapes Sandbox During Security Test to Fetch Answers",
+      "link": "https://cybersecuritynews.com/kimi-k3-ai-model-escapes-sandbox/",
+      "description": "Moonshot AI\u0026#8217;s open-weight model Kimi K3 broke out of its isolated testing sandbox during a cybersecurity evaluation and reached the open internet, according to a new report from Wired. The in...",
+      "pub_date": "Fri, 07 Aug 2026 07:24:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Kimi-K3-AI-Model-Escapes-Sandbox.webp"
+    },
     {
       "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
       "link": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
@@ -9,6 +81,51 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicYXbdZUBG2jW8962nmphGWa0sWoq3jKe6HAT9wa6qlZdPPYBZRdw-uWjUbUv15BxaRgugcEAPXPZ2rMYx3RzM_vLVH18F6oTwwAklstzIRehnPJXwBs9b-d6NKjJZVhO5n1SRnBTlweRonaWCFogLrbJkyzs-F9K3lffy0tfqf2Vownwe9lj06rEe8Nn2/s1600/TeamPCP.jpg"
+    },
+    {
+      "title": "Zbtlink Chinese Router Sold Worldwide Contains a Hidden Backdoor Affecting 20+ Models",
+      "link": "https://cybersecuritynews.com/zbtlink-chinese-router/",
+      "description": "Zbtlink routers sold in global markets have been found carrying a hidden remote-control implant that starts with the device. The discovery affects equipment used in homes, offices, temporary sites ...",
+      "pub_date": "Fri, 07 Aug 2026 06:38:52 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zbtlink-Chinese-Router-Sold-Worldwide-Contains-a-Hidden-Backdoor-Affecting-20-Models.webp"
+    },
+    {
+      "title": "Top 10 Best Protective DNS (PDNS) Services in 2026",
+      "link": "https://cybersecuritynews.com/bst-protective-dns-services/",
+      "description": "Protective DNS went from best practice to expectation: NSA and CISA jointly recommend it, national programs run it at population scale, and it remains the highest-leverage, lowest-friction control ...",
+      "pub_date": "Fri, 07 Aug 2026 03:51:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Best-Protective-DNS-PDNS-Services-2.webp"
+    },
+    {
+      "title": "Anthropic Updates Claude Fable 5’s Biology Safeguards to Reduce False Positives",
+      "link": "https://cybersecuritynews.com/claude-fable-5s-biology-safeguards-update/",
+      "description": "Anthropic has rolled out a major update to Claude Fable 5\u0026#8217;s biology safety classifiers, cutting biology-related \u0026#8220;fallbacks\u0026#8221; by roughly 85% across its product surfaces. The change ...",
+      "pub_date": "Fri, 07 Aug 2026 03:51:17 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Fable-5s-Biology-Safeguards-update.webp"
+    },
+    {
+      "title": "Top 10 Best DNS Security Solutions in 2026",
+      "link": "https://cybersecuritynews.com/best-dns-security-solutions/",
+      "description": "Nearly every attack touches DNS the phishing click, the malware callback, the exfiltration tunnel which makes the DNS layer the cheapest place to break kill chains. Cisco Umbrella is our top pick f...",
+      "pub_date": "Fri, 07 Aug 2026 03:39:13 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://i2.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQMZ593YhBRfEXBcbxtVpDeFa2CXQ1OWGPnssevXefPGPeHzFHPjIEtCGj-IkW6XWsQe-1F0-ZzNidBdB480KYYUkASAKxo5bRC1NSlW-YIteiIeBcTq4xkBlhKwOxR4SL60jvNHVDSjAMeCzyIfQ26ZLJ9S1t6xm9zLV7iXAd8aY2BH2zmGkp0KdL4d4/s1600/Best%20DNS%20Security%20Solutions%20(3).webp?ssl=1"
+    },
+    {
+      "title": "Top 10 Best Network Traffic Analysis (NTA) Tools in 2026",
+      "link": "https://cybersecuritynews.com/best-network-traffic-analysis-tools/",
+      "description": "“What’s on the network, who’s talking to whom, and is that normal?” network traffic analysis answers the questions every security and network team keeps asking. ExtraHop is our top pick for...",
+      "pub_date": "Fri, 07 Aug 2026 03:33:38 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Best-Network-Traffic-Analysis-NTA-Tools-.webp"
     },
     {
       "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
@@ -180,33 +297,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3VqhMa79pNymspvzHhSpHG4HCDAGn4nAD-7ZwQgDuSOELhM0xxHASqfnd2ThEv8XJ0tM58bPsGPHcobfoaEEWW4Am9H-Wd9bpb-QqYRQfFcFKrvbLjwEGYu0VfIAclBcVn9PpMWS02ZAtOa7hhwg8e45cYcgYYX0C1_yQptZh7-ZvqFHpf-9uqq5csbCj/s1600/router-hacking.jpg"
-    },
-    {
-      "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
-      "link": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
-      "description": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 202...",
-      "pub_date": "Thu, 06 Aug 2026 12:49:54 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsIRDdzzjtJRcq3kiouQy7I8wwCFvWIKA5VHAKEVdGC2OJL3WCGnKPZUvAHUi-Jrz9yLN5pfTtS0QI8MRUuSbGOlbg_3jNktHGZSb4wsOKvjcwehZYqL671hB0UgjVjUPnKju5QFDO4BXhjePhJuvGDw_mJs1scXXI_veItNxCej7uEwjKfTHzc9Nkm90/s1600/Ransom-Cartel.jpg"
-    },
-    {
-      "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
-      "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
-      "description": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Age...",
-      "pub_date": "Thu, 06 Aug 2026 12:21:43 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaatZ2xKx3CMoWOXqKbIp1Sd-rMbET1_QE2Lh10XAVc_g_Z18UUlW_RyR8BR0Nj-gqy9SZhnEq0ZBv_z63FfCBu-XGfH5yEzUsKBLicrlfXK2-iMsgZYkDDTW-HiEPV29TEjFSFF1PYXyDkZcyfe6LuUKkgu2nRe4E_XFNPOcxSrBmUZwi3tX_GgHafeZ9/s1600/cisa-teamcity.jpg"
-    },
-    {
-      "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-      "link": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
-      "description": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake custom...",
-      "pub_date": "Thu, 06 Aug 2026 11:34:30 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimtSQSbHZnqrcub_RlfzViiiKRKyucYCIYf0nqt0aWqcYJgY122xGjIRDGnvpYukopZM9DuEPjN6Lax97qyYIghxfFb_faULxhabuOJHBOVbyycVBNUVHAbb5Z8LRfnG_5xrwH__9Jbs6qmPEdopvRysLduoAn0hoANFRnNd2g24zqBTfCUK4WXtDx7eg/s1600/snowflake-hacker.jpg"
     },
     {
       "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
