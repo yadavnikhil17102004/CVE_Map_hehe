@@ -1,32 +1,53 @@
-# CVE Map Roadmap
+# CVE-Intel Roadmap
 
-This roadmap is pragmatic and may evolve with user feedback.
+This roadmap tracks execution on `main` (stable public version) and keeps work scoped to what can be shipped safely.
 
-## v1.1 (completed)
+## Current baseline (August 2026)
 
-- [x] Publish dedicated API reference (issue #4)
-- [x] Add CI smoke tests for dashboard/news filters (issue #6)
-- [x] Add CONTRIBUTING and tighten PR checklist (issue #2)
+- [x] `main` restored to stable static dashboard lineage
+- [x] CI workflow restored
+- [x] News + scrape workflows restored
+- [x] Pages switched to GitHub Actions publishing mode
+- [x] Migration work preserved separately on `vps-migration-wip`
 
-## v1.2
+## Now (P0: stabilization and reliability)
+
+- [ ] Keep data freshness healthy for 72 hours
+  - Success criteria:
+  - News workflow remains green on hourly schedule.
+  - Scrape workflow remains green on 6-hour schedule.
+  - New commits continue landing in `data/news.json` and `data/2026.json`.
+- [ ] Stabilize Pages deploys in Actions mode
+  - Success criteria:
+  - At least 2 consecutive successful Pages deploy runs.
+  - Public URL serves expected static title/content from `main`.
+- [ ] Refresh operational docs to match recovered architecture
+  - Success criteria:
+  - README/ops notes describe active workflows and required secrets.
+  - No references that imply VPS runtime is active on `main`.
+
+## Next (P1: data quality and triage improvements)
 
 - [ ] Improve exploit correlation quality and de-dup logic
-- [ ] Add stronger source confidence scoring
-- [ ] Add dashboard-level quick links for triage workflows
+- [ ] Add source confidence scoring and display it in UI
+- [ ] Add triage quick-actions in dashboard rows
+- [ ] Add lightweight regression checks for JSON shape compatibility
 
-## v1.3
+## Later (P2: analytics and UX depth)
 
-- [ ] Graph-style visualizations for CVE ↔ repo relationships
-- [ ] More timeline analytics and trend slicing
-- [ ] Better mobile interaction polish
+- [ ] CVE ↔ repository graph visualization
+- [ ] Timeline analytics (severity, KEV, EPSS trend slices)
+- [ ] Better mobile interaction polish for dashboard and news
+- [ ] Exportable investigator reports (CSV/JSON bundle)
 
-## Future exploration
+## Backlog exploration
 
 - [ ] EPSS-first prioritization workflows
-- [ ] Advanced KEV-centric triage views
-- [ ] Exportable reports for SOC/research workflows
+- [ ] KEV-first analyst views
+- [ ] Alerting hooks (Slack/Telegram/Webhook) for freshness failures
 
-## Repo/product operations
+## Release and branch policy
 
-- [x] Complete repository rename migration checklist (issue #5)
-- [x] Maintain semantic releases (`vX.Y.Z`) (issue #3)
+- `main`: stable, public-facing, GitHub Pages-compatible.
+- `vps-migration-wip`: ongoing VPS/API migration experiments.
+- Release tags remain semantic (`vX.Y.Z`) on `main` only after stability checks pass.
