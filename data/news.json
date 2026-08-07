@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-08-07T13:03:05Z",
+  "last_updated": "2026-08-07T14:53:01Z",
   "articles": [
+    {
+      "title": "Real emails, hijacked payments: Two H1 2026 attack chains ",
+      "link": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
+      "description": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacki...",
+      "pub_date": "Fri, 07 Aug 2026 10:00:10 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "North Carolina Ports confirms cyberattack disrupting operations",
+      "link": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
+      "description": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]",
+      "pub_date": "Fri, 07 Aug 2026 09:34:40 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "CVE-2026-64561 Zapscape Lets KVM Guests Escape to Linux Host With Root Privileges",
+      "link": "https://cybersecuritynews.com/zapscape-kvm-escape-root-privileges/",
+      "description": "A Linux kernel vulnerability, tracked as CVE-2026-64561 and named Zapscape, could allow attackers to escape a KVM virtual machine and take control of its underlying Linux host with root privileges....",
+      "pub_date": "Fri, 07 Aug 2026 13:32:14 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CVE-2026-64561-Zapscape-Lets-KVM-Guests-Escape-to-Linux-Host-With-Root-Privileges-1.webp"
+    },
+    {
+      "title": "Google Chrome 151 Fixes 41 Security Flaws, Including 6 Critical Memory Bugs",
+      "link": "https://cybersecuritynews.com/chrome-151-vulnerabilities-patched/",
+      "description": "Google has released Chrome 151 to the Stable channel, fixing 41 security vulnerabilities, including six critical memory-safety flaws that could enable browser crashes, memory corruption, or malicio...",
+      "pub_date": "Fri, 07 Aug 2026 13:14:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Chrome-151-Vulnerabilities-Patched.webp"
+    },
     {
       "title": "Hackers Breach Swiss Government SharePoint Servers, Compromise 200 Accounts",
       "link": "https://cybersecuritynews.com/hackers-breach-swiss-sharepoint-servers/",
@@ -9,6 +45,15 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Breach-Swiss-Government-SharePoint-Servers-Compromise-200-Accounts.webp"
+    },
+    {
+      "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
+      "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
+      "description": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw ...",
+      "pub_date": "Fri, 07 Aug 2026 18:26:23 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge2pF0kPrHXARehOfrgRZzC4bsZvLQSss2mm4xJwNfV53riYQHKateFgF6HvgO5WoDDzjKhc8JFT_6pD2ggOORpEuUIBbySYIy79R_UTRAB4NpEUEi3dhenfNInEROpfShqpE6cTx_VqNfL1hf6fFJpzXLV7-RiFaJguVGvF-l_Ras_0YomMVjeV4ZdfM/s1600/wordpress-xss.jpg"
     },
     {
       "title": "Claude in Chrome Prompt Injection Steals Gmail Codes to Hijack Slack, X, and Claude.ai Accounts",
@@ -137,15 +182,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Shai-Hulud-CHAINDROP-Worm-Backdoors-400-npm-Packages-With-1.3-Billion-Monthly-Downloads.webp"
     },
     {
-      "title": "Kimi K3 AI Model Escapes Sandbox During Security Test to Fetch Answers",
-      "link": "https://cybersecuritynews.com/kimi-k3-ai-model-escapes-sandbox/",
-      "description": "Moonshot AI\u0026#8217;s open-weight model Kimi K3 broke out of its isolated testing sandbox during a cybersecurity evaluation and reached the open internet, according to a new report from Wired. The in...",
-      "pub_date": "Fri, 07 Aug 2026 07:24:57 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Kimi-K3-AI-Model-Escapes-Sandbox.webp"
-    },
-    {
       "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
       "link": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
       "description": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrast...",
@@ -153,15 +189,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicYXbdZUBG2jW8962nmphGWa0sWoq3jKe6HAT9wa6qlZdPPYBZRdw-uWjUbUv15BxaRgugcEAPXPZ2rMYx3RzM_vLVH18F6oTwwAklstzIRehnPJXwBs9b-d6NKjJZVhO5n1SRnBTlweRonaWCFogLrbJkyzs-F9K3lffy0tfqf2Vownwe9lj06rEe8Nn2/s1600/TeamPCP.jpg"
-    },
-    {
-      "title": "Zbtlink Chinese Router Sold Worldwide Contains a Hidden Backdoor Affecting 20+ Models",
-      "link": "https://cybersecuritynews.com/zbtlink-chinese-router/",
-      "description": "Zbtlink routers sold in global markets have been found carrying a hidden remote-control implant that starts with the device. The discovery affects equipment used in homes, offices, temporary sites ...",
-      "pub_date": "Fri, 07 Aug 2026 06:38:52 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zbtlink-Chinese-Router-Sold-Worldwide-Contains-a-Hidden-Backdoor-Affecting-20-Models.webp"
     },
     {
       "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
@@ -290,15 +317,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOLyOOoRbj7XXsr5asbHmKbRetYhjWcAZap4b6VUBQ3ENWpeB46A78vztXFJGUDMDHNskXyUMH6yu9Quv-WLut657FS4Dk4-SICypcAVTLuI7fYUxC7Y4qEUI6A8NMIS-GZ8KkzjRULoNZAPD1TIamWyp-T5vgrjMDQKMD0lmR6pZU8P4VeOwWEo7KxWA/s1600/CRYPTOJS.jpg"
     },
     {
-      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-      "link": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
-      "description": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address.  Introduced with iOS 15, iCloud Private Relay employs a du...",
-      "pub_date": "Thu, 06 Aug 2026 17:03:08 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi53VbynsVNPTCihg9qrqybX7Yu90yM3Tm7KlJnJCHz2_MOUQPyJys1uK6H5QkVqxGekck8qe-pA55tcy19IDYQ4_ndOKasvoaFiPJCI_NJClfHv6G14Ga5P_FPr0zyNijjRMBM-GBlt-XYRqCGAcrZxm9ETsAAu4kPh829ZKABQonHDlx2GuWG9-B-V383/s1600/apple-relay.jpg"
-    },
-    {
       "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
       "link": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
       "description": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldw...",
@@ -353,15 +371,6 @@
       "image_url": ""
     },
     {
-      "title": "How AI-powered phishing killed blocklists for good",
-      "link": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
-      "description": "AI is helping attackers create disposable phishing infrastructure and rapidly evolving toolkits that blocklists cannot track fast enough. Push Security explains why browser-level, technique-based d...",
-      "pub_date": "Wed, 05 Aug 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "ZDI-26-526: (0Day) PAX Technology Q80 Application Installer Signature Verification Bypass Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-526/",
       "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of PAX Technology Q80. Authentication is not required to exploit this vulnerability. The ZDI...",
@@ -386,15 +395,6 @@
       "pub_date": "Wed, 05 Aug 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
-      "link": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
-      "description": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and so...",
-      "pub_date": "Tue, 04 Aug 2026 19:39:59 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
       "image_url": ""
     },
     {
