@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-08-07T11:45:14Z",
+  "last_updated": "2026-08-07T13:03:05Z",
   "articles": [
+    {
+      "title": "Hackers Breach Swiss Government SharePoint Servers, Compromise 200 Accounts",
+      "link": "https://cybersecuritynews.com/hackers-breach-swiss-sharepoint-servers/",
+      "description": "Swiss federal authorities have confirmed a cyberattack targeting SharePoint servers operated by the Federal Office for Information Technology and Telecommunication (BIT). The incident resulted in t...",
+      "pub_date": "Fri, 07 Aug 2026 12:57:31 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Breach-Swiss-Government-SharePoint-Servers-Compromise-200-Accounts.webp"
+    },
+    {
+      "title": "Claude in Chrome Prompt Injection Steals Gmail Codes to Hijack Slack, X, and Claude.ai Accounts",
+      "link": "https://cybersecuritynews.com/claude-chrome-prompt-injection/",
+      "description": "An indirect prompt injection vulnerability in Claude on Chrome can be exploited to steal email verification codes and hijack accounts on platforms like Slack, X, and Claude.ai. The attack begins ...",
+      "pub_date": "Fri, 07 Aug 2026 12:53:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-in-Chrome-Prompt-Injection-Steals-Gmail-Codes-to-Hijack-Slack-X-and-Claude.ai-Accounts.webp"
+    },
+    {
+      "title": "Growing Up The Hard Way",
+      "link": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
+      "description": "Open Source had a great childhood.  For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the ki...",
+      "pub_date": "Fri, 07 Aug 2026 17:25:26 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz974dYXx9klEa_qhJoTHKqb5QNoQwTpxsMKoZeqsvQtvWZPgPKobw1QySvcNGgnFocbYaFaaBGsB4COPaw-fqqgOHERJEVc8sgRSjto5VCrQeIWr5Nz21r3PjMTIXmwUmvakUlP4sB3iYqF2qXiabCvrqKFyFBq3GzOUwqM7LGRV68q_Ib9zt1ilCBJo/s1600/open-source.jpg"
+    },
     {
       "title": "Fake PDFs and Chat Apps Let Patchwork Spy on PCs and Android Phones",
       "link": "https://cybersecuritynews.com/fake-pdfs-chat-apps-let-patchwork-spy/",
@@ -11,6 +38,15 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Fake-PDFs-and-Chat-Apps-Let-Patchwork-Spy-on-PCs-and-Android-Phones.webp"
     },
     {
+      "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
+      "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
+      "description": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath.  The fl...",
+      "pub_date": "Fri, 07 Aug 2026 16:40:33 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmTGemKyDLZPr_sBbt2AdOQMEBEcRFzic8_Ddtkx92vtPOfFdoiwxJ60b00usecTjHuIGUJuUIR2aB8MU2P7-GLc0NOuWsa3ctofrA2-wD38wgI4Fke3moSskWjiRJEXT8Yxl7Ye56NgGl9DZKr8zf974rHRsc1PtHie_iIPVyD18HMx49S02tGZ2EeDY/s1600/linux-sctp.jpg"
+    },
+    {
       "title": "ChainDrop Worm Infects 400+ npm Packages to Steal GitHub and Cloud Credentials",
       "link": "https://cybersecuritynews.com/chaindrop-worm-infects-npm-packages/",
       "description": "ChainDrop has turned routine software installs into a route for credential theft. The self-propagating worm infected more than 400 npm packages, putting developer laptops, build systems and cloud e...",
@@ -18,6 +54,15 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ChainDrop-Worm-Infects-400-npm-Packages-to-Steal-GitHub-and-Cloud-Credentials.webp"
+    },
+    {
+      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+      "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+      "description": "Security researcher Malcolm Stagg has disclosed a new attack class called\u0026nbsp;NatJack\u0026nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof ...",
+      "pub_date": "Fri, 07 Aug 2026 16:28:38 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx8dmEkj0rsX2NREBfPOczKn7zadWRaVVOyVPVeaCPzCDdBAPhocCwP1CVbX_p1pj4Q7DVYsdusvWc9u9G7lO4BGYihT6BXnXY099zIs1B1PBefH71cXCHZucxaG2gEzqKdf9B3FVr9MJ34SntVezm4gNXWSxIMF05DpYUNF6qmfhb0hMiyNpsWDOtuRE/s1600/NatJack.jpg"
     },
     {
       "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
@@ -36,15 +81,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgynSSg0CZ1sssmMR8F0u09LmQ82liuj5nt2aor3klmi-xPcKTmalo4JLFQ7jd2mU9Ycnltsrnw2MiVVjmlT-wcYR74Ob7NMN31KNnny14lqVRdrmj30r3yqTSxapzCmQPk9lPG7v9GDSVKQwE4ufB-jWfsx1lc2O5GNd0bHd5M6FbMNah3dcLzu2EAFXo/s1600/Desync.jpg"
-    },
-    {
-      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-      "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
-      "description": "Security researcher Malcolm Stagg has disclosed a new attack class called\u0026nbsp;NatJack\u0026nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof ...",
-      "pub_date": "Fri, 07 Aug 2026 15:02:57 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx8dmEkj0rsX2NREBfPOczKn7zadWRaVVOyVPVeaCPzCDdBAPhocCwP1CVbX_p1pj4Q7DVYsdusvWc9u9G7lO4BGYihT6BXnXY099zIs1B1PBefH71cXCHZucxaG2gEzqKdf9B3FVr9MJ34SntVezm4gNXWSxIMF05DpYUNF6qmfhb0hMiyNpsWDOtuRE/s1600/NatJack.jpg"
     },
     {
       "title": "UNC6671 Automates Microsoft 365 Data Theft After Hijacking Employee Sessions",
@@ -126,24 +162,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zbtlink-Chinese-Router-Sold-Worldwide-Contains-a-Hidden-Backdoor-Affecting-20-Models.webp"
-    },
-    {
-      "title": "Top 10 Best Protective DNS (PDNS) Services in 2026",
-      "link": "https://cybersecuritynews.com/bst-protective-dns-services/",
-      "description": "Protective DNS went from best practice to expectation: NSA and CISA jointly recommend it, national programs run it at population scale, and it remains the highest-leverage, lowest-friction control ...",
-      "pub_date": "Fri, 07 Aug 2026 03:51:21 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Best-Protective-DNS-PDNS-Services-2.webp"
-    },
-    {
-      "title": "Anthropic Updates Claude Fable 5’s Biology Safeguards to Reduce False Positives",
-      "link": "https://cybersecuritynews.com/claude-fable-5s-biology-safeguards-update/",
-      "description": "Anthropic has rolled out a major update to Claude Fable 5\u0026#8217;s biology safety classifiers, cutting biology-related \u0026#8220;fallbacks\u0026#8221; by roughly 85% across its product surfaces. The change ...",
-      "pub_date": "Fri, 07 Aug 2026 03:51:17 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Fable-5s-Biology-Safeguards-update.webp"
     },
     {
       "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
@@ -279,24 +297,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi53VbynsVNPTCihg9qrqybX7Yu90yM3Tm7KlJnJCHz2_MOUQPyJys1uK6H5QkVqxGekck8qe-pA55tcy19IDYQ4_ndOKasvoaFiPJCI_NJClfHv6G14Ga5P_FPr0zyNijjRMBM-GBlt-XYRqCGAcrZxm9ETsAAu4kPh829ZKABQonHDlx2GuWG9-B-V383/s1600/apple-relay.jpg"
-    },
-    {
-      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-      "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-      "description": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every...",
-      "pub_date": "Thu, 06 Aug 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgERF89TJZsy7Kq1JhEcPKC5ynyCNMv1JAObXj4W415ZbGwE-ZZplLbq5HEiBWi3ULKifDI7Tl440UrQvLFEmngeAHL4o2XfWKxTgb7CEsHmBqBt-w5qePo-BGmlDcu_vJtyfsh1CV5COMXpIUHRiw8WmPeitZAzEu3ugQJ90mDtOhlU0BzTaRDogTHg2Y/s1600/ask-ai.jpg"
-    },
-    {
-      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
-      "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-      "description": "Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to d...",
-      "pub_date": "Thu, 06 Aug 2026 14:49:23 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGMHYrRkDGf3XV_lOoUbE1UCSjvcN9x-XNpNGpX_f45JqZzd2FrxJ-metvu-U5VyDqH2PGNaY9MiSeShhH-YVN3O4ryN5lh4ICsuXtz0-DuCSAgnywXUifDOf_qZS81AtjRGNQWgs1QnL4Eu54icswla_ZK7qGoZqWDaVzPX46pmcTrvj_ec0yQwrt9k/s1600/oracle-root.jpg"
     },
     {
       "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
