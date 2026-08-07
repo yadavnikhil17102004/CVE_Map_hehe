@@ -369,6 +369,8 @@ let kevFilter      = 'all';   // all | only | exclude
 let epssFilter     = 'all';   // all | high | medium_plus | low | unknown
 let yearCache     = {};      // cache of all fetched year data for global search
 let nvdCache      = {};      // per-year NVD intel cache
+let chartMetricsCache = new Map();
+let chartRenderToken = 0;
 
 function needsIntelForCurrentView(query = '') {
   const q = (query || '').toLowerCase();
@@ -395,8 +397,7 @@ async function ensureIntelForCurrentYear(opts = {}) {
   if (refreshView) {
     updateStats(currentData, currentYear);
     renderList(getCurrentSearchQuery());
-    buildTrendChart(currentData, currentYear);
-    buildSevChart(currentData);
+    scheduleChartsRender(currentData, currentYear);
   }
   return nvdLayer;
 }
@@ -589,8 +590,7 @@ async function loadYear(year) {
   }
   updateStats(currentData, year);
   renderList('');
-  buildTrendChart(currentData, year);
-  buildSevChart(currentData);
+  scheduleChartsRender(currentData, year);
   buildActivityFeed(currentData);
   document.getElementById('api-link').href = `data/${year}.json`;
   scheduleIntelPrefetch(year);
@@ -744,6 +744,62 @@ function updateStats(data, year) {
   el('stat-cves').textContent = cves.length.toLocaleString();
   el('stat-repos').textContent = totalRepos.toLocaleString();
   el('stat-top').textContent = top?.cve_id || '—';
+}
+
+function getChartMetrics(data, year) {
+  const cves = data?.cves || [];
+  const repoTotal = cves.reduce((sum, c) => sum + (c.repositories?.length || 0), 0);
+  const key = `${year}:${cves.length}:${repoTotal}:${nvdLayer ? 'intel' : 'no-intel'}`;
+  if (chartMetricsCache.has(key)) return chartMetricsCache.get(key);
+
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const trendCounts = new Array(12).fill(0);
+  const critCounts = new Array(12).fill(0);
+  let critical = 0, high = 0, medium = 0, unscored = 0;
+
+  cves.forEach(cve => {
+    const score = nvdLayer?.[cve.cve_id]?.s || 0;
+    if      (score >= 9.0) critical++;
+    else if (score >= 7.0) high++;
+    else if (score >= 0.1) medium++;
+    else                    unscored++;
+
+    const isCrit = score >= 9.0;
+    (cve.repositories || []).forEach(r => {
+      if (!r.pushed_at) return;
+      const d = new Date(r.pushed_at);
+      if (d.getFullYear() !== year) return;
+      const m = d.getMonth();
+      trendCounts[m]++;
+      if (isCrit) critCounts[m]++;
+    });
+  });
+
+  const now = new Date();
+  const lastIdx = (year < now.getFullYear()) ? 11 : now.getMonth();
+  const metrics = {
+    labels: months.slice(0, lastIdx + 1),
+    trendValues: trendCounts.slice(0, lastIdx + 1),
+    critValues: critCounts.slice(0, lastIdx + 1),
+    severityValues: [critical, high, medium, unscored],
+    total: cves.length
+  };
+  chartMetricsCache.set(key, metrics);
+  return metrics;
+}
+
+function scheduleChartsRender(data, year) {
+  const token = ++chartRenderToken;
+  const run = () => {
+    if (token !== chartRenderToken) return;
+    buildTrendChart(data, year);
+    buildSevChart(data, year);
+  };
+  if (typeof requestAnimationFrame === 'function') {
+    requestAnimationFrame(run);
+  } else {
+    setTimeout(run, 0);
+  }
 }
 
 // ============================================================
@@ -1182,29 +1238,8 @@ async function showNVD(cveId) {
 // TREND CHART (from real pushed_at timestamps)
 // ============================================================
 function buildTrendChart(data, year) {
-  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  const counts = new Array(12).fill(0);
-  const critCounts = new Array(12).fill(0);
-
-  (data?.cves || []).forEach(cve => {
-    const s = nvdLayer?.[cve.cve_id]?.s || 0;
-    const isCrit = s >= 9.0;
-    (cve.repositories || []).forEach(r => {
-      if (r.pushed_at) {
-        const d = new Date(r.pushed_at);
-        if (d.getFullYear() === year) {
-          counts[d.getMonth()]++;
-          if (isCrit) critCounts[d.getMonth()]++;
-        }
-      }
-    });
-  });
-
-  const now = new Date();
-  const lastIdx = (year < now.getFullYear()) ? 11 : now.getMonth();
-  const labels = months.slice(0, lastIdx + 1);
-  const values = counts.slice(0, lastIdx + 1);
-  const critValues = critCounts.slice(0, lastIdx + 1);
+  const metrics = getChartMetrics(data, year);
+  const { labels, trendValues: values, critValues } = metrics;
 
   if (trendChart) trendChart.destroy();
   const ctx = document.getElementById('trendChart').getContext('2d');
@@ -1284,18 +1319,10 @@ function buildTrendChart(data, year) {
 // ============================================================
 // SEVERITY DONUT (from NVD intel + current year CVEs)
 // ============================================================
-function buildSevChart(data) {
-  let critical=0, high=0, medium=0, unscored=0;
-
-  (data?.cves || []).forEach(c => {
-    const s = nvdLayer?.[c.cve_id]?.s || 0;
-    if      (s >= 9.0) critical++;
-    else if (s >= 7.0) high++;
-    else if (s >= 0.1) medium++;
-    else               unscored++;
-  });
-
-  const total = (data?.cves||[]).length;
+function buildSevChart(data, year = currentYear) {
+  const metrics = getChartMetrics(data, year);
+  const [critical, high, medium, unscored] = metrics.severityValues;
+  const total = metrics.total;
   document.getElementById('sev-total').textContent = total || '—';
 
   if (sevChart) sevChart.destroy();
