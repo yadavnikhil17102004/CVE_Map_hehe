@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-08-07T16:55:43Z",
+  "last_updated": "2026-08-07T17:50:27Z",
   "articles": [
+    {
+      "title": "WordPress XSS2Shell Flaw Chains Pre-Auth Login XSS to PHP Remote Code Execution",
+      "link": "https://cybersecuritynews.com/wordpress-xss2shell-vulnerability/",
+      "description": "A critical vulnerability chain in WordPress Core, tracked as CVE-2026-64638 and nicknamed XSS2Shell, that turns a single failed login attempt into full remote code execution on the underlying serve...",
+      "pub_date": "Fri, 07 Aug 2026 17:28:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/WordPress-XSS2Shell-Vulnerability.webp"
+    },
+    {
+      "title": "18-Year-Old Linux Kernel SCTP Vulnerability Lets Attackers Gain Full Root on Host",
+      "link": "https://cybersecuritynews.com/18-year-old-linux-kernel-sctp-vulnerability/",
+      "description": "A newly disclosed Linux kernel vulnerability, dubbed SCTPhantom and tracked as CVE-2026-64564, allows attackers to escalate from unprivileged local access to full root and even escape containers to...",
+      "pub_date": "Fri, 07 Aug 2026 16:56:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/18-Year-Old-Linux-Kernel-SCTP-Vulnerability.webp"
+    },
     {
       "title": "Malware Abuses Windows Hello for Business Key to Authenticate Microsoft Entra ID",
       "link": "https://cybersecuritynews.com/malware-abuses-windows-hello-key/",
@@ -173,15 +191,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj81b6_YckjrqqfRrJQNRdIf3nu4xfqLNScukFYEao4VeF5QNlt16sbEwrdutizdB9Q1nOWRQpqeSZg4gYZsL8cIhRSJ43XJqMKWKgdKF28oeTl19HQQ75dnOKVHsa6DtXr4zhlmIF43nbUWV5jyEh4D1TjIvBKjgoAX2MpUbjJH3cN4hd4zDvIu_t4Jec/s1600/windows-hello-keys.jpg"
     },
     {
-      "title": "Papyrus Mobile Ad Fraud Uses Hidden WebViews to Fake Clicks, Scrolls and Attention",
-      "link": "https://cybersecuritynews.com/papyrus-mobile-ad-fraud/",
-      "description": "Papyrus is a mobile ad fraud operation hiding behind apps built for reading serialized fiction. While people turn pages and follow stories, the apps can quietly open websites in the background and ...",
-      "pub_date": "Fri, 07 Aug 2026 08:46:26 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Papyrus-Mobile-Ad-Fraud-Uses-Hidden-WebViews-to-Fake-Clicks-Scrolls-and-Attention.webp"
-    },
-    {
       "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
       "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
       "description": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was eno...",
@@ -189,15 +198,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguukj-eRhx9RtAq9X96hAxHi0IU3ZWgM_W5XkdWhF8ezevuBQygkpv-ku5PSri9Gt5hRkNVxe6HmJJr5Mg33X_PhOGziqaho9bwm-mkRZSBl2jo94XF3jRwTZOb_PocueKWJkEtvl7kG_YqmbVfUxNht8_ODzLOERIqQteMdPxnWpobM-c9-fHhn0cLMQ/s1600/claude-github.jpg"
-    },
-    {
-      "title": "Multiple Flaws in Enterprise Java Platforms Allow Attackers to Execute Remote Code",
-      "link": "https://cybersecuritynews.com/multiple-vulnerabilities-in-enterprise-java-platforms/",
-      "description": "Enterprise Java platforms remain attractive targets because middleware often exposes paths developers assumed were internal. New research presented for Black Hat 2026 describes 12 flaws across prod...",
-      "pub_date": "Fri, 07 Aug 2026 07:45:57 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Multiple-Vulnerabilities-in-Enterprise-Java-platforms-Allow-Attackers-to-Execute-Remote-Code-.webp"
     },
     {
       "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
