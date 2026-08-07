@@ -386,14 +386,35 @@ async function ensureIntelForYear(year) {
   return intel;
 }
 
-async function ensureIntelForCurrentYear() {
-  if (nvdLayer) return nvdLayer;
-  const intel = await ensureIntelForYear(currentYear);
-  updateStats(currentData, currentYear);
-  renderList(getCurrentSearchQuery());
-  buildTrendChart(currentData, currentYear);
-  buildSevChart(currentData);
-  return intel;
+async function ensureIntelForCurrentYear(opts = {}) {
+  const { refreshView = false } = opts;
+  if (!nvdLayer) {
+    const intel = await ensureIntelForYear(currentYear);
+    nvdLayer = intel;
+  }
+  if (refreshView) {
+    updateStats(currentData, currentYear);
+    renderList(getCurrentSearchQuery());
+    buildTrendChart(currentData, currentYear);
+    buildSevChart(currentData);
+  }
+  return nvdLayer;
+}
+
+function scheduleIntelPrefetch(year) {
+  if (year in nvdCache) return;
+  const warm = () => {
+    loadNvdIntel(year)
+      .then(intel => {
+        if (currentYear === year && !nvdLayer) nvdLayer = intel;
+      })
+      .catch(() => {});
+  };
+  if (typeof requestIdleCallback === 'function') {
+    requestIdleCallback(warm, { timeout: 1200 });
+  } else {
+    setTimeout(warm, 80);
+  }
 }
 
 async function loadNvdIntel(year) {
@@ -572,6 +593,7 @@ async function loadYear(year) {
   buildSevChart(currentData);
   buildActivityFeed(currentData);
   document.getElementById('api-link').href = `data/${year}.json`;
+  scheduleIntelPrefetch(year);
 }
 
 // ============================================================
@@ -778,21 +800,21 @@ function setTypeFilter(val) {
 
 async function setSeverityFilter(val) {
   severityFilter = val;
-  if (severityFilter !== 'all') await ensureIntelForCurrentYear();
+  if (severityFilter !== 'all') await ensureIntelForCurrentYear({ refreshView: true });
   syncFilterControls();
   refreshCurrentView();
 }
 
 async function setKevFilter(val) {
   kevFilter = val;
-  if (kevFilter !== 'all') await ensureIntelForCurrentYear();
+  if (kevFilter !== 'all') await ensureIntelForCurrentYear({ refreshView: true });
   syncFilterControls();
   refreshCurrentView();
 }
 
 async function setEpssFilter(val) {
   epssFilter = val;
-  if (epssFilter !== 'all') await ensureIntelForCurrentYear();
+  if (epssFilter !== 'all') await ensureIntelForCurrentYear({ refreshView: true });
   syncFilterControls();
   refreshCurrentView();
 }
@@ -1031,7 +1053,30 @@ function renderNextChunk(showYear) {
 // NVD DETAIL PANEL
 // ============================================================
 async function showNVD(cveId) {
-  await ensureIntelForCurrentYear();
+  if (!nvdLayer) {
+    const cveObj = currentData?.cves?.find(c => c.cve_id === cveId);
+    const repoCount = cveObj?.repositories?.length || 0;
+    document.getElementById('nvd-body').innerHTML = `
+      <div class="space-y-3">
+        <div class="p-3 rounded-lg bg-surface-2 border border-border">
+          <div class="flex items-center justify-between gap-2">
+            <span id="active-cve" class="font-mono text-xs font-bold text-primary">${cveId}</span>
+            <span class="text-[9px] text-dim">Loading intel…</span>
+          </div>
+          <div class="mt-2 text-[10px] text-dim">Fetching CVSS/CWE/KEV details in background.</div>
+        </div>
+        <div class="text-[10px] text-dim">Exploit repos indexed: <span class="text-white font-mono">${repoCount}</span></div>
+      </div>`;
+    ensureIntelForCurrentYear({ refreshView: false })
+      .then(() => showNVD(cveId))
+      .catch(() => {
+        document.getElementById('nvd-body').innerHTML = `
+          <div class="p-3 rounded-lg bg-surface-2 border border-border text-xs text-dim">
+            Unable to load NVD intel right now. Please try again.
+          </div>`;
+      });
+    return;
+  }
   const intel  = nvdLayer?.[cveId];
   const score  = intel?.s || 0;
   const sev    = intel?.v || '';
