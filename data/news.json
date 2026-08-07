@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-07T19:54:02Z",
+  "last_updated": "2026-08-07T20:40:42Z",
   "articles": [
+    {
+      "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+      "description": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
+      "pub_date": "Fri, 07 Aug 2026 16:14:46 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Unlimited Technology Systems breach impacts 3.8 million people",
       "link": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
@@ -36,6 +45,33 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL6-qu-cN6glV6XSy1IS7siHKdKPFmzqT3X8TQjGCa0RD33kfIQ8NfEBR5r8dbQvj1OS8L6T083igxfS1VO98xlg7MHIMysbfR_cVpdmPMcYibuMwDZ6SssIi3iryUznGL14zUByy7oRrTJe0AjgGMNti_Rcqezh7dtfyU31vyo-zft3fvR56SCsAfeHrm/s1600/vishing.jpg"
+    },
+    {
+      "title": "WordPress XSS2Shell Flaw Chains Pre-Auth Login XSS to PHP Remote Code Execution",
+      "link": "https://cybersecuritynews.com/wordpress-xss2shell-vulnerability/",
+      "description": "A critical vulnerability chain in WordPress Core, tracked as CVE-2026-64638 and nicknamed XSS2Shell, that turns a single failed login attempt into full remote code execution on the underlying serve...",
+      "pub_date": "Fri, 07 Aug 2026 17:28:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/WordPress-XSS2Shell-Vulnerability.webp"
+    },
+    {
+      "title": "18-Year-Old Linux Kernel SCTP Vulnerability Lets Attackers Gain Full Root on Host",
+      "link": "https://cybersecuritynews.com/18-year-old-linux-kernel-sctp-vulnerability/",
+      "description": "A newly disclosed Linux kernel vulnerability, dubbed SCTPhantom and tracked as CVE-2026-64564, allows attackers to escalate from unprivileged local access to full root and even escape containers to...",
+      "pub_date": "Fri, 07 Aug 2026 16:56:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/18-Year-Old-Linux-Kernel-SCTP-Vulnerability.webp"
+    },
+    {
+      "title": "Malware Abuses Windows Hello for Business Key to Authenticate Microsoft Entra ID",
+      "link": "https://cybersecuritynews.com/malware-abuses-windows-hello-key/",
+      "description": "A newly demonstrated technique shows how malware in a compromised Windows user session can abuse Windows Hello for Business (WHFB) cryptographic keys to authenticate to Microsoft Entra ID, enabling...",
+      "pub_date": "Fri, 07 Aug 2026 16:11:26 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Malware-Abuses-Windows-Hello-for-Business-key-to-authenticate-Microsoft-Entra-ID.webp"
     },
     {
       "title": "Levi Strauss \u0026 Co. says hackers stole corporate data in cyberattack",
@@ -74,6 +110,33 @@
       "image_url": ""
     },
     {
+      "title": "CVE-2026-64561 Zapscape Lets KVM Guests Escape to Linux Host With Root Privileges",
+      "link": "https://cybersecuritynews.com/zapscape-kvm-escape-root-privileges/",
+      "description": "A Linux kernel vulnerability, tracked as CVE-2026-64561 and named Zapscape, could allow attackers to escape a KVM virtual machine and take control of its underlying Linux host with root privileges....",
+      "pub_date": "Fri, 07 Aug 2026 13:32:14 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CVE-2026-64561-Zapscape-Lets-KVM-Guests-Escape-to-Linux-Host-With-Root-Privileges-1.webp"
+    },
+    {
+      "title": "Google Chrome 151 Fixes 41 Security Flaws, Including 6 Critical Memory Bugs",
+      "link": "https://cybersecuritynews.com/chrome-151-vulnerabilities-patched/",
+      "description": "Google has released Chrome 151 to the Stable channel, fixing 41 security vulnerabilities, including six critical memory-safety flaws that could enable browser crashes, memory corruption, or malicio...",
+      "pub_date": "Fri, 07 Aug 2026 13:14:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Chrome-151-Vulnerabilities-Patched.webp"
+    },
+    {
+      "title": "Hackers Breach Swiss Government SharePoint Servers, Compromise 200 Accounts",
+      "link": "https://cybersecuritynews.com/hackers-breach-swiss-sharepoint-servers/",
+      "description": "Swiss federal authorities have confirmed a cyberattack targeting SharePoint servers operated by the Federal Office for Information Technology and Telecommunication (BIT). The incident resulted in t...",
+      "pub_date": "Fri, 07 Aug 2026 12:57:31 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Breach-Swiss-Government-SharePoint-Servers-Compromise-200-Accounts.webp"
+    },
+    {
       "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
       "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
       "description": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw ...",
@@ -81,6 +144,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge2pF0kPrHXARehOfrgRZzC4bsZvLQSss2mm4xJwNfV53riYQHKateFgF6HvgO5WoDDzjKhc8JFT_6pD2ggOORpEuUIBbySYIy79R_UTRAB4NpEUEi3dhenfNInEROpfShqpE6cTx_VqNfL1hf6fFJpzXLV7-RiFaJguVGvF-l_Ras_0YomMVjeV4ZdfM/s1600/wordpress-xss.jpg"
+    },
+    {
+      "title": "Claude in Chrome Prompt Injection Steals Gmail Codes to Hijack Slack, X, and Claude.ai Accounts",
+      "link": "https://cybersecuritynews.com/claude-chrome-prompt-injection/",
+      "description": "An indirect prompt injection vulnerability in Claude on Chrome can be exploited to steal email verification codes and hijack accounts on platforms like Slack, X, and Claude.ai. The attack begins ...",
+      "pub_date": "Fri, 07 Aug 2026 12:53:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-in-Chrome-Prompt-Injection-Steals-Gmail-Codes-to-Hijack-Slack-X-and-Claude.ai-Accounts.webp"
     },
     {
       "title": "Growing Up The Hard Way",
@@ -92,6 +164,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz974dYXx9klEa_qhJoTHKqb5QNoQwTpxsMKoZeqsvQtvWZPgPKobw1QySvcNGgnFocbYaFaaBGsB4COPaw-fqqgOHERJEVc8sgRSjto5VCrQeIWr5Nz21r3PjMTIXmwUmvakUlP4sB3iYqF2qXiabCvrqKFyFBq3GzOUwqM7LGRV68q_Ib9zt1ilCBJo/s1600/open-source.jpg"
     },
     {
+      "title": "Fake PDFs and Chat Apps Let Patchwork Spy on PCs and Android Phones",
+      "link": "https://cybersecuritynews.com/fake-pdfs-chat-apps-let-patchwork-spy/",
+      "description": "Patchwork, also known as Dropping Elephant, is using fake documents and chat applications to spy on computer and phone users. The long-running espionage group has built separate attack paths for Wi...",
+      "pub_date": "Fri, 07 Aug 2026 11:42:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Fake-PDFs-and-Chat-Apps-Let-Patchwork-Spy-on-PCs-and-Android-Phones.webp"
+    },
+    {
       "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
       "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
       "description": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath.  The fl...",
@@ -99,6 +180,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmTGemKyDLZPr_sBbt2AdOQMEBEcRFzic8_Ddtkx92vtPOfFdoiwxJ60b00usecTjHuIGUJuUIR2aB8MU2P7-GLc0NOuWsa3ctofrA2-wD38wgI4Fke3moSskWjiRJEXT8Yxl7Ye56NgGl9DZKr8zf974rHRsc1PtHie_iIPVyD18HMx49S02tGZ2EeDY/s1600/linux-sctp.jpg"
+    },
+    {
+      "title": "ChainDrop Worm Infects 400+ npm Packages to Steal GitHub and Cloud Credentials",
+      "link": "https://cybersecuritynews.com/chaindrop-worm-infects-npm-packages/",
+      "description": "ChainDrop has turned routine software installs into a route for credential theft. The self-propagating worm infected more than 400 npm packages, putting developer laptops, build systems and cloud e...",
+      "pub_date": "Fri, 07 Aug 2026 11:07:15 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ChainDrop-Worm-Infects-400-npm-Packages-to-Steal-GitHub-and-Cloud-Credentials.webp"
     },
     {
       "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
@@ -126,6 +216,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgynSSg0CZ1sssmMR8F0u09LmQ82liuj5nt2aor3klmi-xPcKTmalo4JLFQ7jd2mU9Ycnltsrnw2MiVVjmlT-wcYR74Ob7NMN31KNnny14lqVRdrmj30r3yqTSxapzCmQPk9lPG7v9GDSVKQwE4ufB-jWfsx1lc2O5GNd0bHd5M6FbMNah3dcLzu2EAFXo/s1600/Desync.jpg"
+    },
+    {
+      "title": "UNC6671 Automates Microsoft 365 Data Theft After Hijacking Employee Sessions",
+      "link": "https://cybersecuritynews.com/unc6671-automates-microsoft-365/",
+      "description": "UNC6671 is carrying out data theft campaigns that begin with a phone call. The group poses as an IT helpdesk, claiming an urgent security migration is necessary. A convincing call and a fake sign-i...",
+      "pub_date": "Fri, 07 Aug 2026 09:19:50 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/UNC6671-Automates-Microsoft-365-Data-Theft-After-Hijacking-Employee-Sessions.webp"
     },
     {
       "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
@@ -276,15 +375,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
       "description": "Hackers exploited a SQL injection vulnerability to install a post-exploitation toolkit directly inside an Oracle database that was used to breach a corporate network. [...]",
       "pub_date": "Wed, 05 Aug 2026 15:55:25 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "COLDCARD security audit phishing attack installs remote access tool",
-      "link": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
-      "description": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to trick users into installing ScreenConnect remot...",
-      "pub_date": "Wed, 05 Aug 2026 13:49:41 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
