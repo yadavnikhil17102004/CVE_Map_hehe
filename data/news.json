@@ -1,365 +1,572 @@
 {
-  "last_updated": "2026-07-27T10:33:56Z",
+  "last_updated": "2026-08-07T00:41:11Z",
   "articles": [
     {
-      "title": "Claude Code Symlink Import Lets Malicious Repositories Silently Exfiltrate Local Files",
-      "link": "https://cybersecuritynews.com/claude-code-symlink-import-malicious-repositories/",
-      "description": "Claude Code can load files from outside a repository through a symlinked memory import, which may allow local data to be included in the model\u0026#8217;s first outbound request before the model perfor...",
-      "pub_date": "Mon, 27 Jul 2026 09:50:58 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Claude-Code-Symlink-Import-Lets-Malicious-Repositories-Silently-Exfiltrate-Local-Files-2.webp"
-    },
-    {
-      "title": "Hackers are Setting Up Websites Impersonating Popular Windows Apps to Deliver Malware",
-      "link": "https://cybersecuritynews.com/websites-impersonating-popular-windows-apps/",
-      "description": "Hackers are quietly building lookalike websites that pretend to be popular Windows apps, then use those pages to push malware onto unsuspecting users. The scheme already covers more than 70 well kn...",
-      "pub_date": "Mon, 27 Jul 2026 09:39:50 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-are-Setting-Up-Websites-Impersonating-Popular-Windows-Apps-to-Deliver-Malware.webp"
-    },
-    {
-      "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
-      "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
-      "description": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East.  The intrusions have resulted in the...",
-      "pub_date": "Mon, 27 Jul 2026 14:18:47 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikuWOQRYm6WQ1zHmOlYkI7jlVOUUKGBIlo68iWyUVuaZ5n3i7ODu8DYpntAk2aGZQ_7LsYpXpp5v0PcQMLxP8LQOajtKl-WaDBb7_wDpo8P3-iCcAwr74JY4rXNeHJJv9h6EB447wPEnrZE08YfDO_WI9N4B_C1lPvxILfvv00Z_J8yHntLSfNYbPVCDjS/s1600/telegram-c2.jpg"
-    },
-    {
-      "title": "SparkKitty Malware Steals Crypto Wallet Seed Phrases From iOS and Android Photos",
-      "link": "https://cybersecuritynews.com/sparkkitty-malware-steals-crypto-wallet/",
-      "description": "A new mobile threat is quietly targeting cryptocurrency users by reading the photos stored on their phones. Known as SparkKitty, this malware works on both iOS and Android devices and focuses on st...",
-      "pub_date": "Mon, 27 Jul 2026 08:41:56 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/SparkKitty-Malware-Steals-Crypto-Wallet-Seed-Phrases-From-iOS-and-Android-Photos.webp"
-    },
-    {
-      "title": "Windows 11’s File Explorer Is Now Faster at Deleting Large Files",
-      "link": "https://cybersecuritynews.com/windows-11-speeds-up-file-deletions/",
-      "description": "Microsoft is rolling out a targeted performance update for Windows 11 designed to resolve one of the platform\u0026#8217;s most persistent storage annoyances: sluggish deletion of large, highly fragment...",
-      "pub_date": "Mon, 27 Jul 2026 08:41:43 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-11-File-Explorer.webp"
-    },
-    {
-      "title": "Ransomware Gangs Attack Palo Alto, Fortinet, Citrix, and Check Point VPNs to Target Corporate Networks",
-      "link": "https://cybersecuritynews.com/ransomware-gangs-attack-vpn/",
-      "description": "A coordinated wave of exploitation targeting edge VPN and firewall appliances from four major vendors Palo Alto Networks, Fortinet, Citrix, and Check Point has emerged as the dominant initial-acces...",
-      "pub_date": "Mon, 27 Jul 2026 08:12:16 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Ransomware-Gangs-Attack-VPN1.webp"
-    },
-    {
-      "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
-      "link": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
-      "description": "GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request.  \"The cooldown configuration o...",
-      "pub_date": "Mon, 27 Jul 2026 13:31:23 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFpE4BZgV3wILI8fonm9742zR85yLmBdM2ExXv-uTUS1StV04ZlNVVIwV6FjjhYLZUAFk-DAIInwp3mlXa2W2xekDA_EqSl1UiHrKCgocsjhVAKlvCD48QnlVdUdCIQia7T4ilS65ZFptdi_wox0Q9brVTdpoqDNTvpCjg0D6BslyCAPRzY7QMyUoYNkv-/s1600/gitbot.jpg"
-    },
-    {
-      "title": "BlueNoroff Hijacks Trusted Telegram Accounts to Deliver ClickFix Malware Through Fake Zoom Calls",
-      "link": "https://cybersecuritynews.com/bluenoroff-hijacks-trusted-telegram-accounts/",
-      "description": "A North Korean hacking unit has refined a scheme that turns everyday chats into malware traps. The BlueNoroff group, linked to the wider Lazarus ecosystem, is taking over real Telegram accounts tha...",
-      "pub_date": "Mon, 27 Jul 2026 08:00:18 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/BlueNoroff-Hijacks-Trusted-Telegram-Accounts-to-Deliver-ClickFix-Malware-Through-Fake-Zoom-Calls.webp"
-    },
-    {
-      "title": "PyPI Blocks New File Uploads on 14-Day-Old Releases to Prevent Package Poisoning Attacks",
-      "link": "https://cybersecuritynews.com/pypi-14-day-release-lock/",
-      "description": "PyPI has introduced a new security measure that prevents users from uploading new files to package releases that are more than 14 days old. This change aims to stop attackers from adding malicious ...",
-      "pub_date": "Mon, 27 Jul 2026 07:34:49 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/PyPI-Locks-Releases-After-14-Days-to-Stop-Attackers-Poisoning-Trusted-Python-Packages-1.webp"
-    },
-    {
-      "title": "Researchers Successfully Booted Jailbroken Version of iOS 27 on an iPhone 11 Pro",
-      "link": "https://cybersecuritynews.com/booted-jailbroken-ios-27-iphone-11-pro/",
-      "description": "Security researchers have successfully booted a jailbroken build of iOS 27 on an iPhone 11 Pro by combining the recently disclosed usbliter8 SecureROM exploit with a heavily modified custom firmwar...",
-      "pub_date": "Mon, 27 Jul 2026 07:11:28 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/booted-Jailbroken-version-of-iOS-27-on-an-iPhone-11-Pro.webp"
-    },
-    {
-      "title": "Google Is Giving Hacker Groups New Names That Reveal Who They Are and Why They Attack",
-      "link": "https://cybersecuritynews.com/google-is-giving-hacker-groups-new-names/",
-      "description": "Google is changing how it names the hacker groups it tracks, replacing a patchwork of labels with names designed to explain more at a glance. The change is intended to make threat reports easier to...",
-      "pub_date": "Mon, 27 Jul 2026 06:50:46 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Google-Is-Giving-Hacker-Groups-New-Names-That-Reveal-Who-They-Are-and-Why-They-Attack.webp"
-    },
-    {
-      "title": "Eight NodeBB Vulnerabilities Let Hackers Read Your Private Chats and Take Over the Forum",
-      "link": "https://cybersecuritynews.com/eight-nodebb-vulnerabilities/",
-      "description": "Eight high-severity vulnerabilities have been discovered in NodeBB, a popular Node.js-based forum platform, exposing millions of users to risks including private message leaks, stored cross-site sc...",
-      "pub_date": "Mon, 27 Jul 2026 04:15:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Eight-NodeBB-Vulnerabilities-Let-Hackers-Read-Your-Private-Chats-and-Take-Over-the-Forum.webp"
-    },
-    {
-      "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
-      "description": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]",
-      "pub_date": "Sun, 26 Jul 2026 10:13:39 -0400",
+      "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
+      "description": "OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]",
+      "pub_date": "Thu, 06 Aug 2026 18:48:22 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
     },
     {
-      "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
-      "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
-      "description": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]",
-      "pub_date": "Sat, 25 Jul 2026 18:37:47 -0400",
+      "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
+      "description": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
+      "pub_date": "Thu, 06 Aug 2026 18:37:17 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
     },
     {
-      "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
-      "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
-      "description": "A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malic...",
-      "pub_date": "Sun, 26 Jul 2026 00:18:44 +0530",
+      "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
+      "link": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
+      "description": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile...",
+      "pub_date": "Thu, 06 Aug 2026 16:07:24 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Swiss government SharePoint breach compromised 200 accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
+      "description": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
+      "pub_date": "Thu, 06 Aug 2026 14:14:19 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
+      "link": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
+      "description": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]",
+      "pub_date": "Thu, 06 Aug 2026 14:03:45 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
+      "link": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
+      "description": "Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk app...",
+      "pub_date": "Thu, 06 Aug 2026 23:28:30 +0530",
       "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7ke_659Oiks4UyEwQJsTV2c-8DaJnDPNG3RKPsk3s_CLYO5y_vD-SdtGebpYlDbDkXFt2iW4qgZHhM4Tfp2FV5RJSc3f85Ap4KQP-RI1BM8MCPbYhgSD5uusxi09thhL4avaYfCPkj5H_9t0-unj84RktTVGUwV9FF0bdZjuRQley0rZrFDLLE4JXIJk/s1600/browser-malware.jpg"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5BBX-j7uA7NqPF9tVWhx3y09F3whJ3zweRoWGyI2kJDxhW6ymOG1oumq5Oz0sZWtCAKSCALcd9TTl7Kf5Mo3aqE3aWKH8jfKWt2uUD-CUa6tmid-3MvMTM08EAEhg5iLQ2mlEgFkVeuVKv1QkRqr2T0Ya9JcNtMYheggInGndCG0n-N7BPjyH9vbKCg8/s1600/Zapscape.gif"
     },
     {
-      "title": "Malicious sites use JavaScript to build malware in browser memory",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
-      "description": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to assemble malware directly in memory. [...]",
-      "pub_date": "Sat, 25 Jul 2026 11:21:09 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
-      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
-      "description": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
-      "pub_date": "Sat, 25 Jul 2026 10:16:26 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
-      "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
-      "description": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can ex...",
-      "pub_date": "Sat, 25 Jul 2026 18:22:43 +0530",
+      "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
+      "link": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
+      "description": "Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review.  The security i...",
+      "pub_date": "Thu, 06 Aug 2026 22:43:15 +0530",
       "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVdPXrvOB3xbf282jC7eawBsl-YwExczqZ471NiKOResjulD8TvOSelU5VGbgoHqVhNLaigBkE2N50AFtSqbOoXUQTtxgIHO05jYpTn5VyG4BPhlr1CbscCn4g8S3I4jdZ1_p67zSM91K25xq1X4-btuY3tFgVseyO-aLWlsdvZaNkwAhyphenhyphenafk4DH2l6Fs/s1600/fastjson.gif"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzkSwdiUeH8rB-KgSkEXrT-oNL19IyghM7Ks8UDOedxPYB5czgwO8pXNf0YUt7OHqAbRRDJkRvJffzJ0lfpEdqfLn-w-Bc9pwOa_1FNJjJkrVbD-diaZu9HRFqAlOBWogXEsZ4sSFRDW-HYmsaUmVD98QGQoyq2rHep_dwDa5ueafTUO0Lh6zsA-Czd3he/s1600/cisco-flaws.jpg"
     },
     {
-      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-      "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
-      "description": "Security researchers at\u0026nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18...",
-      "pub_date": "Sat, 25 Jul 2026 15:44:26 +0530",
+      "title": "How we took malware advisories beyond npm",
+      "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+      "description": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid. The post How we took malwa...",
+      "pub_date": "Thu, 06 Aug 2026 16:51:12 +0000",
+      "source": "GitHub Security",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
+      "link": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
+      "description": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defe...",
+      "pub_date": "Thu, 06 Aug 2026 21:47:13 +0530",
       "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRIN1sheAdScq7AX9pLc07esRzQ18-0vBJ7hz9DlVhggVAImXrhYM_zxN0N6hJ2inDkBCnzRCXHR3Kv3I0QwyiVWkAMu7p949JSjgK611r48deMbrSN8iDD78aJdfxEeO_Jy6JFwOfPL_8M0RKEBl1RFO7ufvop1XG9-tdms7VRyvONXoteuCYp9Rg-FM/s1600/gitlab.gif"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA_BgCPUTlxOgmh4ljCoOazIkcoSA_BHUGZmfAuhxD8TiUzui2nhB5b5KV_lv50ocFWI14FG5RIe8rqrm6D8ZC8ACR7mY1bXE4JADKcTRIY1bfIeXtnYs07yXk2T9Jsv0-vcxPkKbl6FuNXxXylv5BQQQLTDSpJ2XSyqxvIsxYy5d2X1Kwt_2CSJegj9Tv/s1600/place.jpg"
     },
     {
-      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
-      "link": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
-      "description": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accou...",
-      "pub_date": "Sat, 25 Jul 2026 15:44:21 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH4zKTZ_Lk6D_VXZEKWwF1k02-iDwrNY9MH7zrX_sotEB_f9m7-qvQkAbfTvW5YQyBVlVdSS3D4_0ky60KOzTABlPuPKEpDXwpnWO3eTtud33d8oxf54HilW5EgDJPwo0ea4rktguzjfMBnRy0yLGch1l2vLdY4GnG12imJqBIdZzhYRb04XcVP67KaxPM/s1600/insuretrap.jpg"
-    },
-    {
-      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "description": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as...",
-      "pub_date": "Sat, 25 Jul 2026 15:44:03 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIGAlXgFCqm8atTe__HpWBiCWISmrPOazxOVBMF-_YNrP2goBbW_4PSwGzw1Ndyue4qrnQnqrQyAR4DTaAdaiJPlVUZi7M_iceb4fqofWK0sGRLO9CHnj0lngtxdlC-tKqrppqFaKIkct2vOtGn_o5kbNa4fj-dutt8PMjiO5TVBw895aLg0TOJb8TKKtv/s1600/cyberattack.jpg"
-    },
-    {
-      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
-      "link": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
-      "description": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various...",
-      "pub_date": "Sat, 25 Jul 2026 15:23:41 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCfK-jqRTN8rgDTTIOMahlXeGbBvgMLQqdUc4pcB1eXYGmbMfvzVLohoakIuE6nlS9k2G8ncIMwgaYcfLN1r90Obxd8IDHGo5UVz-iDNkBaEbzcDMJl5yzaCQ7VTSh5GFOy8O6CjHXvK7Sdo0WctNPRFBxxtWONllByeJ1EtphQ-sDRabRefeNuXxzdCzY/s1600/ransomware-hacker.jpg"
-    },
-    {
-      "title": "OpenAI confirms ChatGPT is down worldwide",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
-      "description": "ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]",
-      "pub_date": "Sat, 25 Jul 2026 05:31:09 -0400",
+      "title": "Meta AI model hacked a company during misconfigured cyber test",
+      "link": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
+      "description": "Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's i...",
+      "pub_date": "Thu, 06 Aug 2026 12:11:39 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
     },
     {
-      "title": "OnTrac notifies customers of data breach after network hack",
-      "link": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
-      "description": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]",
-      "pub_date": "Fri, 24 Jul 2026 15:55:01 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
-      "link": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
-      "description": "A threat actor used the open-source Hermes AI agent in unattended \"YOLO\" mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. [...]",
-      "pub_date": "Fri, 24 Jul 2026 15:09:09 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
-      "description": "Hackers are changing the DNS settings on Wi-Fi devices at hotels and conference centers to redirect users to fake Microsoft 365 login pages. [...]",
-      "pub_date": "Fri, 24 Jul 2026 13:50:37 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
-      "description": "Microsoft says a bug in its automated network maintenance request system caused Thursday's massive outage by mistakenly removing IP routes from more devices than intended, disrupting Azure and Micr...",
-      "pub_date": "Fri, 24 Jul 2026 11:41:44 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
-      "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
-      "description": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the vid...",
-      "pub_date": "Fri, 24 Jul 2026 20:42:35 +0530",
+      "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
+      "link": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
+      "description": "Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job.  This week runs on cheap lever...",
+      "pub_date": "Thu, 06 Aug 2026 20:54:31 +0530",
       "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs7TSABeFdGk4U17Tg0v-H9ZK2WmPIZ9AtmxJGCtw24Naxa7eEdlvW-eR8yl9NNCAzrMkOCKqSjsdJmAMhuXOq9rHSCE3tNWvTGBe209fpCqn7wVRpUgQ4FgskJgUIWBRz95f25kb8FwrADVj5Cqo5HALXnothJa4kWk9WCU3MG1wkpW_D17sP8o84utoA/s1600/zoom-exploit.jpg"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl0f74Tyvl6NQ4TAbPMIpgYWuHQN8THsYSQ77D9qmHuZdKsK2ZDrTLyWshLPV-UfSYW6Rbtfj866jP0X_D1QHmOFYIoEDZG90G3cy7JGFJrKsq0m7VeGqa0CCDygB9F3ttryPRQm-6MY50zIOsGFBdnwZZgAf31swGo5dOIa0noWuIoEk7rPrUkdfoddIj/s1600/threatsd.jpg"
     },
     {
-      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
-      "link": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
-      "description": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that mach...",
-      "pub_date": "Fri, 24 Jul 2026 19:45:21 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdJCaF3dwhncVhtS_dn9W8CUCwJSHRmtCVTK5_fXnS6RpDI4GaVTcSVoXvmo_JgxUyd-H5G3yQaRAg3Ahp__DMlq-M5r9ejhJTdk5QlVuv16HVXDWV7e3HJAijAVBRumD3XSyeyQ1O477nfXFfTvCwgFeXlYF8QIdfTN4mlYAu28JGFN7lOWTEoKwlG9g/s1600/certighost.jpg"
-    },
-    {
-      "title": "Chick-fil-A data breach affects more than 13,000 customers",
-      "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
-      "description": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
-      "pub_date": "Fri, 24 Jul 2026 10:04:29 -0400",
+      "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
+      "link": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/",
+      "description": "AI did not create a new browser security problem. It exposed one that enterprises have long been able to ignore. Skyhigh Security explains why browsers have become a critical control point for gove...",
+      "pub_date": "Thu, 06 Aug 2026 10:02:12 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
     },
     {
-      "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
-      "link": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
-      "description": "Slopsquatting, phantom squatting, and HalluSquatting all exploit the same late-binding attack pattern, where AI coding agents trust hallucinated package, repo, or domain names. ActiveState explains...",
-      "pub_date": "Fri, 24 Jul 2026 10:01:11 -0400",
+      "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
+      "link": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
+      "description": "Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier networ...",
+      "pub_date": "Thu, 06 Aug 2026 17:46:58 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUzp-V2FqPXO6jQl0K2Qnn-2Ys6UG168FNhA0TcFv7CGHtBIgWuD66JsjhDiQhf_DkSTBo_YpVGTY3wcLe3SITSszBT0XAD01P6_nFLkXOHNNoKmp6VTsQ-zB9oKR6qYU2tCpf5RwHZ_u35lJiF41Sa3T7zuGfXujh_Ums9snpXTUAJIbcL6LfF9a5bIw/s1600/power.jpg"
+    },
+    {
+      "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
+      "link": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
+      "description": "Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains.  Introduced in the JavaScript cryptography library 12 years ago, the...",
+      "pub_date": "Thu, 06 Aug 2026 17:19:48 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOLyOOoRbj7XXsr5asbHmKbRetYhjWcAZap4b6VUBQ3ENWpeB46A78vztXFJGUDMDHNskXyUMH6yu9Quv-WLut657FS4Dk4-SICypcAVTLuI7fYUxC7Y4qEUI6A8NMIS-GZ8KkzjRULoNZAPD1TIamWyp-T5vgrjMDQKMD0lmR6pZU8P4VeOwWEo7KxWA/s1600/CRYPTOJS.jpg"
+    },
+    {
+      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
+      "link": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
+      "description": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address.  Introduced with iOS 15, iCloud Private Relay employs a du...",
+      "pub_date": "Thu, 06 Aug 2026 17:03:08 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi53VbynsVNPTCihg9qrqybX7Yu90yM3Tm7KlJnJCHz2_MOUQPyJys1uK6H5QkVqxGekck8qe-pA55tcy19IDYQ4_ndOKasvoaFiPJCI_NJClfHv6G14Ga5P_FPr0zyNijjRMBM-GBlt-XYRqCGAcrZxm9ETsAAu4kPh829ZKABQonHDlx2GuWG9-B-V383/s1600/apple-relay.jpg"
+    },
+    {
+      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
+      "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
+      "description": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every...",
+      "pub_date": "Thu, 06 Aug 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgERF89TJZsy7Kq1JhEcPKC5ynyCNMv1JAObXj4W415ZbGwE-ZZplLbq5HEiBWi3ULKifDI7Tl440UrQvLFEmngeAHL4o2XfWKxTgb7CEsHmBqBt-w5qePo-BGmlDcu_vJtyfsh1CV5COMXpIUHRiw8WmPeitZAzEu3ugQJ90mDtOhlU0BzTaRDogTHg2Y/s1600/ask-ai.jpg"
+    },
+    {
+      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
+      "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+      "description": "Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to d...",
+      "pub_date": "Thu, 06 Aug 2026 14:49:23 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGMHYrRkDGf3XV_lOoUbE1UCSjvcN9x-XNpNGpX_f45JqZzd2FrxJ-metvu-U5VyDqH2PGNaY9MiSeShhH-YVN3O4ryN5lh4ICsuXtz0-DuCSAgnywXUifDOf_qZS81AtjRGNQWgs1QnL4Eu54icswla_ZK7qGoZqWDaVzPX46pmcTrvj_ec0yQwrt9k/s1600/oracle-root.jpg"
+    },
+    {
+      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+      "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+      "description": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized ...",
+      "pub_date": "Thu, 06 Aug 2026 14:27:30 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNMtOKfZBxSDQ1928IVtFay3f8_6go4rnTY6yFaQYCzAdGt3e6uBkZfZkoFtHbS_cEbTCri3ZNVVO7BbuvoVpjGCLSpdphneotNbiXRT3vciQT6dzPa0K81_ee8Al2rxx7GlT5qTS3_B2MKjCCUcHut1pdIeqaLBRjoD5ZqttMcHxZ5AwKea3eL-wruta7/s1600/agent-sdk.jpg"
+    },
+    {
+      "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
+      "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
+      "description": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink.  According to a new report from VulnCheck, the implant ...",
+      "pub_date": "Thu, 06 Aug 2026 13:35:22 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3VqhMa79pNymspvzHhSpHG4HCDAGn4nAD-7ZwQgDuSOELhM0xxHASqfnd2ThEv8XJ0tM58bPsGPHcobfoaEEWW4Am9H-Wd9bpb-QqYRQfFcFKrvbLjwEGYu0VfIAclBcVn9PpMWS02ZAtOa7hhwg8e45cYcgYYX0C1_yQptZh7-ZvqFHpf-9uqq5csbCj/s1600/router-hacking.jpg"
+    },
+    {
+      "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
+      "link": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
+      "description": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 202...",
+      "pub_date": "Thu, 06 Aug 2026 12:49:54 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsIRDdzzjtJRcq3kiouQy7I8wwCFvWIKA5VHAKEVdGC2OJL3WCGnKPZUvAHUi-Jrz9yLN5pfTtS0QI8MRUuSbGOlbg_3jNktHGZSb4wsOKvjcwehZYqL671hB0UgjVjUPnKju5QFDO4BXhjePhJuvGDw_mJs1scXXI_veItNxCej7uEwjKfTHzc9Nkm90/s1600/Ransom-Cartel.jpg"
+    },
+    {
+      "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
+      "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
+      "description": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Age...",
+      "pub_date": "Thu, 06 Aug 2026 12:21:43 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaatZ2xKx3CMoWOXqKbIp1Sd-rMbET1_QE2Lh10XAVc_g_Z18UUlW_RyR8BR0Nj-gqy9SZhnEq0ZBv_z63FfCBu-XGfH5yEzUsKBLicrlfXK2-iMsgZYkDDTW-HiEPV29TEjFSFF1PYXyDkZcyfe6LuUKkgu2nRe4E_XFNPOcxSrBmUZwi3tX_GgHafeZ9/s1600/cisa-teamcity.jpg"
+    },
+    {
+      "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
+      "link": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
+      "description": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake custom...",
+      "pub_date": "Thu, 06 Aug 2026 11:34:30 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimtSQSbHZnqrcub_RlfzViiiKRKyucYCIYf0nqt0aWqcYJgY122xGjIRDGnvpYukopZM9DuEPjN6Lax97qyYIghxfFb_faULxhabuOJHBOVbyycVBNUVHAbb5Z8LRfnG_5xrwH__9Jbs6qmPEdopvRysLduoAn0hoANFRnNd2g24zqBTfCUK4WXtDx7eg/s1600/snowflake-hacker.jpg"
+    },
+    {
+      "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
+      "description": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldw...",
+      "pub_date": "Wed, 05 Aug 2026 19:00:50 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
     },
     {
-      "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
-      "link": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
-      "description": "Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to \"The Com,\" a loosely organized network of nihilistic violent extremist groups. [...]",
-      "pub_date": "Fri, 24 Jul 2026 08:56:53 -0400",
+      "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+      "description": "A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of...",
+      "pub_date": "Wed, 05 Aug 2026 17:53:26 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
     },
     {
-      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-      "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-      "description": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an a...",
-      "pub_date": "Fri, 24 Jul 2026 17:23:55 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWjz4Sgp8xNXyO8juw5bycoRamRay35GLzSBPG3I3UWyuUovp8-qM8hMgxWiqIwW45q1cb17EkWhEYmP8ODPyhUTk1j7P2T92fjAW_R1WKleVJsywM7kzongXurU8N9olKf1F1jxpDnBKvY0s2F_wsgoGWYgRFrzN5zAoQZciTWQjLQw5NJRL66s3S1RaT/s1600/chatgpt.jpg"
-    },
-    {
-      "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
-      "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
-      "description": "A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet.  XBOW's t...",
-      "pub_date": "Fri, 24 Jul 2026 17:15:17 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirbs2h3QyfDG1ChFBHv8CQNwf9JrDdDWLaZ0AZ2WTiJrsjmmeQUXSFc8FM4OvPgxDig-z2H1Di7OMqCC_0mHbicAvDw6TGF-1jWihJ458GYQBKznb3VOehlOPqWfALnkz8k3DBfehWG2z5nmpu77OgRxJ1iQxL7lsrd1IH3YR6ZHPpSUns-tdmDYScHck/s1600/bing-image.jpg"
-    },
-    {
-      "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
-      "link": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
-      "description": "AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agent...",
-      "pub_date": "Fri, 24 Jul 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrpwR_tXhzpbt7F1FuALLW8MYrTuwWibwuWjsRDROepxJKdbvSNlbcZLHbL54SmyG_Q_oYFTjI5fqkudKNtfJkg68jAz4STq0xXHEOXnMeOq7fxPz2UslZesQBy_pWKn3IKYNEbltVsjbZDypkqi56JOeznD5hcGEKO6yB-qS2l5cPHlcX0cli_WOHNGM/s1600/pixer.jpg"
-    },
-    {
-      "title": "Man gets six years for hacking 750 women's Snapchat accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
-      "description": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 women to steal nude photos. [...]",
-      "pub_date": "Fri, 24 Jul 2026 07:17:19 -0400",
+      "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
+      "description": "Hackers exploited a SQL injection vulnerability to install a post-exploitation toolkit directly inside an Oracle database that was used to breach a corporate network. [...]",
+      "pub_date": "Wed, 05 Aug 2026 15:55:25 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
     },
     {
-      "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
-      "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
-      "description": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance, w...",
-      "pub_date": "Fri, 24 Jul 2026 15:45:29 +0530",
+      "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+      "link": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+      "description": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on ...",
+      "pub_date": "Thu, 06 Aug 2026 00:14:31 +0530",
       "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8qmYxOjHl19UJl8lK9TMJt86it1bULCh3SK1wSiD4JjiKU98fsHnko_QWzUWuG2ZmoHG7yxLrIgSTFRCKep1Ebj0JAH8xuTLFP_aIzGpTobs7C8u5OKGGTq79vqkHpY_Iy6LIEG-AHv-_uSJTVt2kxapGAu7qjfgiT4qpIAtnlfK3bR8he5-dubMNLYs/s1600/hermes-agent.jpg"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzEMAtBAmz-q78zPppsCxMiU-EtelOA3FQy_T6Qzb9KpWEsc9wNMT1f_dDjf65q2W_nrioQ033KClusfHFXexSM8V30mReU5V3nbRY4W0_F3cg2ehG51P1nnWa1iKiGX3hJ_yUUYLF92TanEEE0HifpkzdqRQeqe8qFYXq0SPRx6pW9IrfS7sK_lPzWRM/s1600/mackos-finger.jpg"
     },
     {
-      "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
-      "link": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
-      "description": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping des...",
-      "pub_date": "Fri, 24 Jul 2026 15:39:24 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ6m42WBQBHda1ntTqYkaxPyEiKYjc2xnTFIawfUcAxMuYQ_HtOz3ebO0HTtt3qyhUIIg8NB8W92WIfldPiOjZKCY1_aTGfgWq2NnZOhrgoU_Z8y8rtfVxCdJuc1QL94IcLm0IF_h-euFZydB5Qc8z4ifT-lx84glPyRnfTX8-R31O_0aswgRZR0uUTxs1/s1600/malwares.jpg"
-    },
-    {
-      "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
-      "description": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
-      "pub_date": "Fri, 24 Jul 2026 03:36:39 -0400",
+      "title": "COLDCARD security audit phishing attack installs remote access tool",
+      "link": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
+      "description": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to trick users into installing ScreenConnect remot...",
+      "pub_date": "Wed, 05 Aug 2026 13:49:41 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
     },
     {
-      "title": "New Dolphin X malware uses AI to rank high-value targets",
-      "link": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
-      "description": "A new Dolphin X remote access trojan claims to use an AI-powered profiling feature to score and rank infected users, helping cybercriminals identify which victims should be targeted first. [...]",
-      "pub_date": "Thu, 23 Jul 2026 17:20:34 -0400",
+      "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
+      "pub_date": "Wed, 05 Aug 2026 11:51:33 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Google Blogger locks hundreds of blogs in malware false positive",
+      "link": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
+      "description": "Google has locked hundreds of Blogger websites after a false positive claimed they violated its \"Malware and Similar Malicious Content\" policy, with some sites deleted from the platform. [...]",
+      "pub_date": "Wed, 05 Aug 2026 10:59:29 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "How AI-powered phishing killed blocklists for good",
+      "link": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
+      "description": "AI is helping attackers create disposable phishing infrastructure and rapidly evolving toolkits that blocklists cannot track fast enough. Push Security explains why browser-level, technique-based d...",
+      "pub_date": "Wed, 05 Aug 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-526: (0Day) PAX Technology Q80 Application Installer Signature Verification Bypass Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-526/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of PAX Technology Q80. Authentication is not required to exploit this vulnerability. The ZDI...",
+      "pub_date": "Wed, 05 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-525: (0Day) PAX Technology Q80 AIP File Parsing Link Following Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-525/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of PAX Technology Q80. Authentication is not required to exploit this vulnerability. The ZDI...",
+      "pub_date": "Wed, 05 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-524: (0Day) PAX Technology Q80 XCB Daemon Missing Authentication Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-524/",
+      "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information and modify configuration on affected installations of PAX Technology Q80. Authentication is not required to ex...",
+      "pub_date": "Wed, 05 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
+      "description": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and so...",
+      "pub_date": "Tue, 04 Aug 2026 19:39:59 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "CVE-2026-18577: N-able N-central Authentication Bypass Exploited in the Wild",
+      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild",
+      "description": "OverviewOn August 2, 2026, N-able published a security advisory for CVE-2026-18577, an authentication bypass vulnerability affecting N-central that was discovered being exploited in-the-wild after ...",
+      "pub_date": "Tue, 04 Aug 2026 11:11:54 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+    },
+    {
+      "title": "Rapid7 Analysis: KindaRails2Shell (CVE-2026-66066)",
+      "link": "https://www.rapid7.com/blog/post/ra-kindarails2shell-technical-analysis-cve-2026-66066",
+      "description": "OverviewOn July 29, 2026, the Ruby on Rails project published a security advisory for CVE-2026-66066, an arbitrary file read in Active Storage applications that use the Vips image processor with un...",
+      "pub_date": "Mon, 03 Aug 2026 17:11:25 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
+    },
+    {
+      "title": "Metasploit Pro 5.1 Released",
+      "link": "https://www.rapid7.com/blog/post/pt-metasploit-pro-5-1-released",
+      "description": "Today marks the release of Metasploit Pro 5.1 - building upon the foundation laid in 5.0, adding new evasion primitives for HTTP Meterpreter payloads, support for tracking service hierarchies, a de...",
+      "pub_date": "Mon, 03 Aug 2026 14:48:13 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blte0070cfd2a1161fa/683de8fa2a9b68aac72bd4a9/Metasploit.png"
+    },
+    {
+      "title": "Rapid7 Expands UK and Ireland Channel Presence Through Strategic Partnership with Exclusive Networks",
+      "link": "https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-uk-ireland-partnership",
+      "description": "Ross Baker is Senior Director, Northern Europe at Rapid7.As organizations across the United Kingdom and Ireland embrace AI, cloud technologies, and digital transformation in the name of enhancing c...",
+      "pub_date": "Mon, 03 Aug 2026 08:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltebc2810157aecfaf/68af2715c53b04810df94abb/blog-hero-generic-pixel.jpg"
+    },
+    {
+      "title": "Rapid7 at Black Hat USA 2026: See preemptive security in action",
+      "link": "https://www.rapid7.com/blog/post/dr-black-hat-usa-2026-preemptive-security-in-action",
+      "description": "Black Hat USA returns to Mandalay Bay in Las Vegas this August, bringing together security practitioners, researchers, and leaders from around the world. Rapid7 will be there in the Business Hall, ...",
+      "pub_date": "Fri, 31 Jul 2026 11:53:26 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltb62c7e3934b0e276/6a6c92193f99b501e4b5779e/event_b8338aa4-1f61-4e0d-bc9e-632ef0ca49a9_resources_6TR9Cp6BTxOkVcneaAyF_Top_Events_Include_Event_Logo_(3).png"
+    },
+    {
+      "title": "KindaRails2Shell: CVE-2026-66066, Critical Arbitrary File Read and Possible Remote Code Execution in Ruby on Rails",
+      "link": "https://www.rapid7.com/blog/post/etr-kindarails2shell-cve-2026-66066-critical-arbitrary-file-read-and-possible-remote-code-execution-in-ruby-on-rails",
+      "description": "OverviewOn July 29, 2026, the Ruby on Rails project published a security advisory for CVE-2026-66066, a critical vulnerability affecting Active Storage image processing when used in conjunction wit...",
+      "pub_date": "Thu, 30 Jul 2026 16:11:10 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+    },
+    {
+      "title": "Rapid7 named a Leader in the IDC MarketScape: Worldwide MDR Service for Midmarket 2026 Vendor Assessment",
+      "link": "https://www.rapid7.com/blog/post/dr-idc-marketscape-leader-worldwide-mdr-service-midmarket-2026-vendor-assessment",
+      "description": "IDC has named Rapid7 a Leader in the 2026 Worldwide Managed Detection and Response Service for Midmarket 2026 Vendor Assessment (Doc #US52992326, July 2026). We believe this recognition and researc...",
+      "pub_date": "Thu, 30 Jul 2026 15:14:40 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt44e3d02cc8982aeb/6a6b6e6132ae66164f654f27/rapid7-mdr-idc-marketscape-worldwide-midmarket-2026-card_(1).jpeg"
+    },
+    {
+      "title": "Metasploit Framework 6.5 Released",
+      "link": "https://www.rapid7.com/blog/post/pt-metasploit-framework-6-5-released",
+      "description": "Today we’re proud to announce that Metasploit Framework version 6.5 has been released. Over the past two years, with the help of countless contributors, we’ve added 422 new modules along with a...",
+      "pub_date": "Thu, 30 Jul 2026 14:29:54 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltd300e09a53b20145/6846a7112fcbadab2a662455/metasploit-weekly.jpg"
+    },
+    {
+      "title": "Critical VMware vCenter Vulnerabilities Allow Authentication Bypass and Remote Code Execution (CVE-2026-59309, CVE-2026-59310)",
+      "link": "https://www.rapid7.com/blog/post/etr-critical-vmware-vcenter-vulnerabilities-allow-authentication-bypass-and-remote-code-execution-cve-2026-59309-cve-2026-59310",
+      "description": "OverviewOn July 29, 2026, Broadcom published security advisory VMSA-2026-0006 addressing multiple vulnerabilities in several VMWare products. Included in the advisory are two critical remotely expl...",
+      "pub_date": "Thu, 30 Jul 2026 10:35:21 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+    },
+    {
+      "title": "ZDI-26-523: Hugging Face PyTorch Image Models checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-523/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hugging Face PyTorch Image Models. User interaction is required to exploit this vulnerability in th...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-522: Phoenix Contact CHARX SEC-3000 Insertion of Sensitive Information into Log File Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-522/",
+      "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Phoenix Contact CHARX SEC-3000 devices. Authentication is not required to exploit...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-521: Phoenix Contact CHARX SEC-3000 Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-521/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Phoenix Contact CHARX SEC-3000 devices. Authentication is required to exploit this vulner...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-520: (Pwn2Own) Phoenix Contact CHARX SEC-3150 Jupicore External Control of Path Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-520/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vu...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-519: (Pwn2Own) Phoenix Contact CHARX SEC-3150 CharxSystemConfigManager Configuration Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-519/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vu...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-518: (Pwn2Own) Phoenix Contact CHARX SEC-3150 MQTT Service Server-Side Request Forgery Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-518/",
+      "description": "This vulnerability allows network-adjacent attackers to access internal resources on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-517: (Pwn2Own) Phoenix Contact CHARX SEC-3150 BackendURL WebSocket Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-517/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Phoenix Contact CHARX SEC-3150 devices. Although authentication is required to exploit th...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-516: (Pwn2Own) Phoenix Contact CHARX SEC-3150 ModBus Server Exposed Dangerous Function Denial-of-Service Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-516/",
+      "description": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to e...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-515: (Pwn2Own) Phoenix Contact CHARX SEC-3150 charx-jupicore Missing Authentication Configuration Modification Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-515/",
+      "description": "This vulnerability allows network-adjacent attackers to modify configuration on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vuln...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-514: (Pwn2Own) Phoenix Contact CHARX SEC-3150 Failing Open Authentication Bypass Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-514/",
+      "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vul...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-513: (Pwn2Own) Phoenix Contact CHARX SEC-3150 update2-upload Arbitrary File Upload Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-513/",
+      "description": "This vulnerability allows network-adjacent attackers to upload arbitrary files on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is required to exploit this vulner...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-512: (Pwn2Own) Phoenix Contact CHARX SEC-3150 ModBus Server Exposed Dangerous Function Denial-of-Service Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-512/",
+      "description": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to e...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "CVE-2026-63077: Critical unauthenticated remote code execution in JetBrains TeamCity",
+      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63077-critical-unauthenticated-remote-code-execution-in-jetbrains-teamcity",
+      "description": "OverviewOn July 27, 2026, JetBrains published a security advisory for CVE-2026-63077, a critical unauthenticated vulnerability affecting all versions of TeamCity On-Premises. The issue is classifie...",
+      "pub_date": "Wed, 29 Jul 2026 16:16:48 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+    },
+    {
+      "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
+      "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+      "description": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the ...",
+      "pub_date": "Wed, 29 Jul 2026 16:00:00 +0000",
+      "source": "GitHub Security",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "How AI is Rewriting the Zero-Day Playbook for Preemptive Security",
+      "link": "https://www.rapid7.com/blog/post/ai-rewriting-zero-day-playbook-for-preemptive-security",
+      "description": "The scenario is all too familiar for any cybersecurity professional: It’s late in the day, and a critical zero-day vulnerability is disclosed. When this happens, CISOs from every industry immedia...",
+      "pub_date": "Wed, 29 Jul 2026 13:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt62de3c632e7d1ef7/6984a555a6b5ef052cb93196/Chrysalis-backdoor-blog.jpg"
+    },
+    {
+      "title": "Check Point SmartConsole Authentication Bypass Technical Analysis (CVE-2026-16232)",
+      "link": "https://www.rapid7.com/blog/post/ra-check-point-smartconsole-authentication-bypass-technical-analysis-cve-2026-16232",
+      "description": "OverviewOn July 22, 2026, Check Point published a security advisory for CVE-2026-16232, an authentication bypass in the SmartConsole login process affecting Security Management Server and Multi-Dom...",
+      "pub_date": "Tue, 28 Jul 2026 18:32:03 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+    },
+    {
+      "title": "Disrupting supply chain attacks on npm and GitHub Actions",
+      "link": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+      "description": "Explore the changes we've shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact. The post Disrupting supply chain attacks o...",
+      "pub_date": "Tue, 28 Jul 2026 16:00:00 +0000",
+      "source": "GitHub Security",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "Rapid7 Cyber GRC is now available: Turn security action into compliance proof",
+      "link": "https://www.rapid7.com/blog/post/pt-cyber-grc-available-prove-compliance-security",
+      "description": "Compliance has become one of the biggest operational drains on modern security teams. CISOs are being asked to manage a growing sprawl of frameworks, prove control effectiveness more often, respond...",
+      "pub_date": "Tue, 28 Jul 2026 13:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt3cc8c945f314ec1f/68b9a045a7d14357b3ba893b/blog-hero-texture-lines.jpg"
+    },
+    {
+      "title": "The Next Evolution of MDR: Preemptive Defense and Agentic Investigation",
+      "link": "https://www.rapid7.com/blog/post/dr-the-next-evolution-mdr-preemptive-defense-agentic-investigation",
+      "description": "For years, security operations followed a familiar sequence: detect suspicious activity, investigate what happened, and respond before it caused significant harm. That model developed in a threat l...",
+      "pub_date": "Tue, 28 Jul 2026 13:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blted8cb9466d79dc4d/6852c596a274324cfbb23d9d/PSN-gov-showcase-hero-image.png"
+    },
+    {
+      "title": "Rapid7 and Exclusive Networks expand partnership to modernize security operations and accelerate customer success",
+      "link": "https://www.rapid7.com/blog/post/c-exclusive-networks-partnership-accelerating-customer-success",
+      "description": "Claudia Zoon is Senior Manager, Channel Sales at Rapid7.Across Belgium, the Netherlands, and Luxembourg, organizations are accelerating digital transformation through AI, cloud adoption, and increa...",
+      "pub_date": "Tue, 28 Jul 2026 08:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt6a133c4cd874d55c/6a2855c599795c0ce95935f6/blog-hero-generic-pixel.png"
     },
     {
       "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
@@ -367,78 +574,6 @@
       "description": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code. The post The case for a...",
       "pub_date": "Thu, 23 Jul 2026 16:00:00 +0000",
       "source": "GitHub Security",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "What Happened Between OpenAI and Hugging Face?",
-      "link": "https://www.rapid7.com/blog/post/ai-openai-hugging-face-what-happened",
-      "description": "The OpenAI and Hugging Face incident lands like a warning shot for anyone thinking seriously about frontier AI and cybersecurity research. A model evaluation crossed the neat boundary of a research...",
-      "pub_date": "Thu, 23 Jul 2026 12:47:05 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0b0762ca94c50b0b/6846a711eac0e395093e52e3/AI.jpg"
-    },
-    {
-      "title": "CVE-2026-16232: Critical Check Point SmartConsole Authentication Bypass Exploited in the Wild",
-      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-16232-critical-check-point-smartconsole-authentication-bypass-exploited-in-the-wild",
-      "description": "OverviewOn July 22, 2026, Check Point published a security advisory for multiple vulnerabilities affecting Security Management, Multi-Domain Management, and firewall products. The most urgent of th...",
-      "pub_date": "Thu, 23 Jul 2026 11:57:30 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "ZDI-26-452: Dify AI Workflow oauth_redirect_url Open Redirect Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-452/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Dify. User interaction is required to exploit this vulnerability in that the target must vi...",
-      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-451: Docker Desktop for macOS Inference Server Permissive Allow List Sandbox Escape Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-451/",
-      "description": "This vulnerability allows local attackers to escape the model runner sandbox on affected installations of Docker Desktop for macOS. An attacker must first obtain the ability to execute low-privileg...",
-      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-450: AzeoTech DAQFactory CTL File Parsing Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-450/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of AzeoTech DAQFactory. User interaction is required to exploit this vulnerability in that the target ...",
-      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-449: AzeoTech DAQFactory CTL File Parsing Type Confusion Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-449/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of AzeoTech DAQFactory. User interaction is required to exploit this vulnerability in that the target ...",
-      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-448: Bitdefender Total Security Shredder Link Following Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-448/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Bitdefender Total Security. An attacker must first obtain the ability to execute low-privileged code on...",
-      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-447: Heimdall Data Database Proxy generateFileContent CRLF Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-447/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Heimdall Data Database Proxy. Authentication is required to exploit this vulnerability. The ZDI has...",
-      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
       "tier": 4,
       "image_url": ""
     },
@@ -452,195 +587,6 @@
       "image_url": ""
     },
     {
-      "title": "What’s New in Rapid7 Products and Services: Q2 2026 in Review",
-      "link": "https://www.rapid7.com/blog/post/pt-new-products-services-q2-2026-mdr",
-      "description": "If Q1 set the pace for Rapid7's tools, Q2 accelerated it. This quarter brought a steady stream of product enhancements, platform investments, and customer-driven innovation across Rapid7’s portfo...",
-      "pub_date": "Wed, 22 Jul 2026 13:28:02 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt09a532eac4a02570/6852c5968e72c44b89691ca4/PSN-gov-showcase-hero-image-2.png"
-    },
-    {
-      "title": "ZDI-26-446: Microsoft Windows WMI Providers Incorrect Authorization Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-446/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the targ...",
-      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-445: Microsoft Windows WMI Providers Incorrect Authorization Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-445/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the targ...",
-      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "From a Single Alert to 1,000 Files: Inside an Exposed WebDAV Malware Delivery Lab",
-      "link": "https://www.rapid7.com/blog/post/tr-exposed-webdav-malware-delivery-lab-analysis",
-      "description": "Executive summaryAn MDR alert recently led our team to an exposed server that was doing more than hosting payloads. It was functioning as a fully operational malware delivery lab. Containing over 1...",
-      "pub_date": "Mon, 20 Jul 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
-    },
-    {
-      "title": "CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core",
-      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core",
-      "description": "OverviewOn July 17, 2026, a GitHub Security Advisory was published for CVE-2026-63030, a critical unauthenticated remote code execution vulnerability affecting WordPress Core. While the official Gi...",
-      "pub_date": "Fri, 17 Jul 2026 22:23:03 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "Metasploit Wrap Up: An HTTP to SMB relay plus Payload Improvements",
-      "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-an-http-to-smb-relay-plus-payload-improvements",
-      "description": "Metasploit Wrap Up HousekeepingWhile the Metasploit Framework will be continuing its weekly release cadence, bringing you dear reader our latest content, the Weekly Wrap Up is being shifted to a bi...",
-      "pub_date": "Fri, 17 Jul 2026 19:30:44 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0d50271a40a5f14f/6849ab419621d9f3824d5017/metasploit-sky.png"
-    },
-    {
-      "title": "CVE-2026-58644: Microsoft SharePoint Server Unauthenticated Remote Code Execution Vulnerability Exploited in the Wild",
-      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild",
-      "description": "OverviewOn July 14, 2026, Microsoft published a security advisory addressing CVE-2026-58644, a critical remote code execution (RCE) vulnerability affecting on-premises Microsoft SharePoint Server d...",
-      "pub_date": "Fri, 17 Jul 2026 18:18:53 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "Sunsetting the Public AttackerKB Platform",
-      "link": "https://www.rapid7.com/blog/post/ve-sunsetting-public-attackerkb-platform",
-      "description": "What’s changing, where AttackerKB-style analysis will live, and how users can continue finding Rapid7 vulnerability intelligence.On August 18, Rapid7 will sunset the standalone public AttackerKB ...",
-      "pub_date": "Thu, 16 Jul 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blted8cb9466d79dc4d/6852c596a274324cfbb23d9d/PSN-gov-showcase-hero-image.png"
-    },
-    {
-      "title": "Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)",
-      "link": "https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410",
-      "description": "OverviewOn July 14, 2026, SonicWall published a security advisory addressing two vulnerabilities affecting SMA1000 Series remote access appliances, including the critical server-side request forger...",
-      "pub_date": "Wed, 15 Jul 2026 16:19:26 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "Investigating Persistence Mechanisms in AWS",
-      "link": "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms",
-      "description": "OverviewIn the cloud, your infrastructure may be short-lived, but an attacker’s persistence doesn't have to be. While your environment scales and changes in seconds, adversaries are embedding the...",
-      "pub_date": "Wed, 15 Jul 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt5347bae77d90cb99/6846a711e7145c78a6584ace/aws.jpg"
-    },
-    {
-      "title": "ZDI-26-444: 7-Zip XZ Decompression Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-444/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of 7-Zip. User interaction is required to exploit this vulnerability in that the target must visit a m...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-443: Linux Kernel vmwgfx Integer Overflow Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-443/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-442: Linux Kernel CAN ISO-TP Protocol Race Condition Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-442/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-441: dnsmasq DNS Response Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-441/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of dnsmasq. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS ...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-440: Fuji Electric Tellus pcid64 Driver Untrusted Pointer Dereference Denial of Service Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-440/",
-      "description": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Fuji Electric Tellus. An attacker must first obtain the ability to execute low-privile...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-439: Fuji Electric Tellus pcid64 Driver Exposed Dangerous Method Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-439/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Fuji Electric Tellus. An attacker must first obtain the ability to execute low-privileged code on the t...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-438: Rockwell Automation Arena Simulation DOE File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-438/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Rockwell Automation Arena Simulation. User interaction is required to exploit this vulnerability in...",
-      "pub_date": "Wed, 15 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "Patch Tuesday - July 2026",
-      "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-july-2026",
-      "description": "Microsoft is publishing 622 vulnerabilities on July 2026 Patch Tuesday, including a record-breaking 416 Windows vulnerabilities. Microsoft is aware of exploitation in the wild for two of the vulner...",
-      "pub_date": "Tue, 14 Jul 2026 22:00:26 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt9952397815d84355/6849acff3860836b5c360685/patch-tuesday-repeated.webp"
-    },
-    {
-      "title": "CVE-2026-55040: Microsoft SharePoint JWT Token Authentication Bypass (FIXED)",
-      "link": "https://www.rapid7.com/blog/post/ve-cve-2026-55040-microsoft-sharepoint-jwt-token-authentication-bypass-fixed",
-      "description": "OverviewRapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated re...",
-      "pub_date": "Tue, 14 Jul 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East",
-      "link": "https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership",
-      "description": "Gopan Sivasankaran is Regional Director, Middle East \u0026 Africa, at Rapid7From AI adoption and cloud-first strategies to smart cities and critical infrastructure modernization, organizations across t...",
-      "pub_date": "Tue, 14 Jul 2026 08:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt30cad4cead79d2d3/6846a7113860835cfa35e65d/surface-command.jpg"
-    },
-    {
-      "title": "Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit",
-      "link": "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit",
-      "description": "More AI, more software, more bugs!AI, it's all you hear about nowadays and everyone's got an opinion on it. Here at Metasploit, we care less about those opinions and more about the growing attack s...",
-      "pub_date": "Sat, 11 Jul 2026 00:32:34 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0475760a2990dfd7/6849ab41a770d7563190a3ea/metasploit-fence.png"
-    },
-    {
       "title": "How GitHub gave every repository a durable owner",
       "link": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
       "description": "GitHub had over 14,000 repositories. Fewer than half had clear ownership. Here's how we gave every active repository a validated owner in under 45 days, archived the rest, and made ownership the fo...",
@@ -648,15 +594,6 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": "https://github.blog/wp-content/uploads/2026/07/CleanShot-2026-07-09-at-12.21.43@2x.png?resize=683%2C1024"
-    },
-    {
-      "title": "Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?",
-      "link": "https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey",
-      "description": "The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global...",
-      "pub_date": "Wed, 08 Jul 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt7652fa46396969f5/69a59e6cfbdb4d75ad7755a9/REQ-14706_-_1600x900px.png"
     },
     {
       "title": "How GitHub used secret scanning to reach inbox zero",
@@ -695,163 +632,136 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/06/blog-post-1.png?resize=1024%2C576"
     },
     {
-      "title": "Investigation update: GitHub Enterprise Server signing key rotation",
-      "link": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
-      "description": "GitHub Enterprise Server customers need to take immediate action. The post Investigation update: GitHub Enterprise Server signing key rotation appeared first on The GitHub Blog.",
-      "pub_date": "Wed, 20 May 2026 21:07:38 +0000",
-      "source": "GitHub Security",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
-      "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
-      "description": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Qu...",
-      "pub_date": "Fri, 15 May 2026 14:00:00 +0000",
-      "source": "GitHub Security",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
-      "link": "https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/",
-      "description": "How we validated, fixed, and investigated a critical vulnerability in under two hours, and confirmed no exploitation. The post Securing the git push pipeline: Responding to a critical remote code e...",
-      "pub_date": "Tue, 28 Apr 2026 15:30:00 +0000",
-      "source": "GitHub Security",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "Weintek cMT3092X",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a non-privileged user to escalate privileges or view the credentials of other users. The following versions of Weintek...",
-      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "title": "Medixant RadiAnt DICOM",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-218-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause the application to crash if a maliciously crafted DICOM file is opened. The following versions of Me...",
+      "pub_date": "Thu, 06 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation ThinManager",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to restricted system directories outside of the application's intended...",
-      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "title": "Johnson Controls Inc. TL280",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to access sensitive information on the device. The following versions of Johnson Controls Inc. TL280 are affe...",
+      "pub_date": "Thu, 06 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite",
-      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
-      "description": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite Executive summary\u0026nbsp; A group of Russian state-supported cyber actors has been targeti...",
-      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": "/sites/default/files/styles/large/public/2026-07/figure1.png?itok=yrzcl7tK"
-    },
-    {
-      "title": "Johnson Controls XAAP Android",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker obtaining confidential information from the device. The following versions of Johnson Controls XAAP Andro...",
-      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "title": "ABB Ability Zenon",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to bypass security, crash systems, execute unauthorized actions, or compromise data. The following versions ...",
+      "pub_date": "Thu, 06 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "MZ Automation libIEC61850",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an unauthenticated network-adjacent attacker to crash critical IEC 61850 services or execute arbitrary code, disruptin...",
-      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog  ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-63077 JetBrains TeamCity Deserialization of Unt...",
+      "pub_date": "Wed, 05 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "MZ Automation lib60870",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could cause the parsing process to crash, which will cause a denial of service. The following versions of MZ Automation lib60870 are ...",
-      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "title": "Thermo Fisher Applied Biosystems Genetic Analyzers",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to modify .fsa/.hid output files, tampering with DNA data and resulting in inaccurate test results. The follo...",
+      "pub_date": "Tue, 04 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Johnson Controls C-CURE 9000 and Victor application server",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker with network access to achieve remote code execution. The following versions of Johnson Controls C-CURE 90...",
-      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "title": "Acrisure KARR BT and DR-100",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to perform unauthorized vehicle control operations. The following versions of Acrisure KARR BT and DR-100 are...",
+      "pub_date": "Tue, 04 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Panduit IntraVUE",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker with access to the IT network to manipulate industrial control devices without requiring physical access, ...",
-      "pub_date": "Thu, 23 Jul 26 12:00:00 +0000",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-9198 IBM Langflow Code Injection Vulnerabil...",
+      "pub_date": "Tue, 04 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/22/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-16232 Check Point SmartConsole Improper Authe...",
-      "pub_date": "Wed, 22 Jul 26 12:00:00 +0000",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog  ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-18577 N-able N-central Authentication Bypass Us...",
+      "pub_date": "Mon, 03 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation 1718-AENTR/1719-AENTR",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product. The following versions of Rockwell Automation 1718...",
-      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "title": "MZ Automation GmbH libiec61850",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the device. The following versions of MZ Automation GmbH libiec6...",
+      "pub_date": "Thu, 30 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Siemens SIDIS Secured SmartPlug",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-04",
-      "description": "View CSAF Summary SIDIS Secured SmartPlug before V7.26.0310 is affected by multiple vulnerabilities in the components OpenSSL, OpenSSH, and several other packages as described below. Siemens has re...",
-      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected product by sending ...",
+      "pub_date": "Thu, 30 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog ",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2021-27137 DD-WRT Stack-Based Buffer Overflow Vulnerabil...",
-      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "title": "Schneider Electric IGSS",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-04",
+      "description": "View CSAF Summary Schneider Electric is aware of a vulnerability in its IGSS Definition module for the IGSS (Interactive Graphical SCADA System) product. The [IGSS](https://igss.schneider-electric....",
+      "pub_date": "Thu, 30 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Siemens IAM Client",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-05",
-      "description": "View CSAF Summary Multiple Siemens products are affected by unquoted search path vulnerability in IAM Client. This could allow an authenticated local attacker to perform privilege escalation. Sieme...",
-      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "title": "MikroTik RouterOS",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to extract the router's WireGuard private key in plaintext using only low‑privilege API access, enabling fu...",
+      "pub_date": "Thu, 30 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Siemens RUGGEDCOM APE1808 with Palo Alto Networks Virtual NGFW",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-02",
-      "description": "View CSAF Summary Palo Alto Networks has published [1] information on vulnerabilities in PAN-OS. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Custo...",
-      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "title": "Toptech Systems RCU II+ and Multiload II+",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-03",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full system control and misuse it to access or manipulate connected networks and resources. The follo...",
+      "pub_date": "Thu, 30 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Rockwell Automation 1734 POINT I/O",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product. The following versions of Rockwell Automation 1734...",
-      "pub_date": "Tue, 21 Jul 26 12:00:00 +0000",
+      "title": "Watchfire Controller Software",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-09",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a malicious user the ability to deliver malicious firmware that can update and gain full control of the controller. The f...",
+      "pub_date": "Thu, 30 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "CISA Urges Water and Wastewater Systems Sector to Protect OT Against Activity Targeting PLCs",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs",
+      "description": "CISA is currently observing a significant increase in cyber threat actors targeting programmable logic controllers (PLCs) in the Water and Wastewater Systems (WWS) Sector. CISA urges critical infra...",
+      "pub_date": "Thu, 30 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
