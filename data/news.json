@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-07T15:56:04Z",
+  "last_updated": "2026-08-07T16:55:43Z",
   "articles": [
+    {
+      "title": "Malware Abuses Windows Hello for Business Key to Authenticate Microsoft Entra ID",
+      "link": "https://cybersecuritynews.com/malware-abuses-windows-hello-key/",
+      "description": "A newly demonstrated technique shows how malware in a compromised Windows user session can abuse Windows Hello for Business (WHFB) cryptographic keys to authenticate to Microsoft Entra ID, enabling...",
+      "pub_date": "Fri, 07 Aug 2026 16:11:26 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Malware-Abuses-Windows-Hello-for-Business-key-to-authenticate-Microsoft-Entra-ID.webp"
+    },
     {
       "title": "Levi Strauss \u0026 Co. says hackers stole corporate data in cyberattack",
       "link": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
@@ -189,15 +198,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Multiple-Vulnerabilities-in-Enterprise-Java-platforms-Allow-Attackers-to-Execute-Remote-Code-.webp"
-    },
-    {
-      "title": "Shai-Hulud CHAINDROP Worm Backdoors 400+ npm Packages With 1.3 Billion Monthly Downloads",
-      "link": "https://cybersecuritynews.com/shai-hulud-chaindrop-worm-backdoors/",
-      "description": "Shai-Hulud is back in the npm ecosystem, and this time its reach is unusually broad. A new self-propagating malware strain called CHAINDROP has backdoored more than 400 packages after attackers com...",
-      "pub_date": "Fri, 07 Aug 2026 07:26:08 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Shai-Hulud-CHAINDROP-Worm-Backdoors-400-npm-Packages-With-1.3-Billion-Monthly-Downloads.webp"
     },
     {
       "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
@@ -623,13 +623,13 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt62de3c632e7d1ef7/6984a555a6b5ef052cb93196/Chrysalis-backdoor-blog.jpg"
     },
     {
-      "title": "Check Point SmartConsole Authentication Bypass Technical Analysis (CVE-2026-16232)",
+      "title": "Rapid7 Analysis: Check Point SmartConsole Authentication Bypass (CVE-2026-16232)",
       "link": "https://www.rapid7.com/blog/post/ra-check-point-smartconsole-authentication-bypass-technical-analysis-cve-2026-16232",
       "description": "OverviewOn July 22, 2026, Check Point published a security advisory for CVE-2026-16232, an authentication bypass in the SmartConsole login process affecting Security Management Server and Multi-Dom...",
       "pub_date": "Tue, 28 Jul 2026 18:32:03 GMT",
       "source": "Rapid7",
       "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
     },
     {
       "title": "Disrupting supply chain attacks on npm and GitHub Actions",
