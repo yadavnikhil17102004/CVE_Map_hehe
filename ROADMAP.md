@@ -10,25 +10,31 @@ This roadmap tracks execution on `main` (stable public version) and keeps work s
 - [x] Pages switched to GitHub Actions publishing mode
 - [x] Migration work preserved separately on `vps-migration-wip`
 
-## Live status snapshot (as of 2026-08-07)
+## Live status snapshot (as of 2026-08-08)
 
-- [x] Latest CI run is green (`31152749048`)
-- [x] Latest news runs are green (`31168730674`, `31163931165`, `31156927456`)
-- [x] Latest scrape run is green (`31157057620`)
-- [x] Latest Pages deploy run is green (`31152749208`)
+- [x] CI latest run green (`31175475665`)
+- [x] News workflow healthy (latest hourly runs green, most recent: `31250977132`)
+- [x] Scrape workflow mostly healthy but intermittent failures remain
+  - Example success: `31233288448`
+  - Example failure: `31244973802` (build step passed; failed in commit/push step)
+- [x] Pages deploy healthy on recent pushes (latest stable window green)
 - [x] Public Pages URL serves expected static title (`CVE Map — Aggregated GitHub Exploits`)
-- [x] Latest CVE data commit landed (`aa2987a`, `2026-08-07T08:09:32Z`)
-- [x] Latest news payload updated (`2026-08-07T10:07:00Z`, 95 articles)
+- [x] Latest CVE data commit landed (`8de2c54`, `2026-08-08T02:38:42Z`)
+- [x] Latest news payload updated (`2026-08-08T09:37:47Z`, 95 articles)
 
 ## Now (P0: stabilization and reliability)
 
 - [ ] Keep data freshness healthy for 72 hours
-  - Success criteria: no failed news/scrape runs for 72 consecutive hours.
+  - Success criteria: no failed news runs for 72 consecutive hours.
+  - Success criteria: scrape failures limited to <= 1 transient failure per 24h.
   - Success criteria: at least 3 successful scrape runs in a row.
   - Success criteria: at least 24 successful news runs in a row.
 - [ ] Stabilize Pages deploys in Actions mode
   - Success criteria: 2 consecutive successful Pages deploy runs on new pushes.
   - Success criteria: no `deployment_queued` timeouts/cancellations in that window.
+- [ ] Remove scrape commit race/flakiness
+  - Success criteria: scrape `Commit & Push New Datasets` step succeeds on consecutive scheduled runs.
+  - Success criteria: workflow no longer fails after successful scrape/build due to git push/rebase contention.
 - [ ] Refresh operational docs to match recovered architecture
   - Success criteria: README documents all active workflows and required secrets.
   - Success criteria: `main` docs clearly separate stable branch from VPS migration branch.
@@ -47,6 +53,10 @@ This roadmap tracks execution on `main` (stable public version) and keeps work s
 - [ ] Task 4: Improve scrape resiliency
   - Add better error logging around token/rate-limit/API failures in scrape workflow.
   - Keep non-destructive behavior (skip commit on no delta).
+- [ ] Task 4A: Harden scrape commit/push step
+  - Add bounded retry/backoff around `git pull --rebase` + `git push`.
+  - Ensure job exits cleanly on no-op/no-diff states.
+  - Keep behavior idempotent with concurrent news commits.
 - [ ] Task 5: Roadmap-to-issue alignment
   - Open/refresh GitHub issues for each P1 item and link them here.
 
