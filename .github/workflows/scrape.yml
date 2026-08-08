@@ -47,11 +47,33 @@ jobs:
           git add data/ web/data/ || true
 
           # Only commit if there are changes
-          if ! git diff-index --quiet HEAD; then
+          if ! git diff --cached --quiet; then
             git commit -m "chore(data): Automated upstream exploit sync [skip ci]"
-            # Rebase in case another workflow advanced main while this long job was running
-            git pull --rebase origin main
-            git push origin HEAD:main
+
+            max_attempts=5
+            success=0
+            for attempt in $(seq 1 "$max_attempts"); do
+              echo "Push attempt ${attempt}/${max_attempts}"
+
+              # Rebase in case another workflow advanced main while this long job was running.
+              if ! git pull --rebase origin main; then
+                git rebase --abort || true
+                sleep $((attempt * 4))
+                continue
+              fi
+
+              if git push origin HEAD:main; then
+                success=1
+                break
+              fi
+
+              sleep $((attempt * 4))
+            done
+
+            if [ "$success" -ne 1 ]; then
+              echo "Failed to push scrape updates after ${max_attempts} attempts."
+              exit 1
+            fi
           else
             echo "No new CVEs discovered. Skipping push."
           fi
