@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-08-10T09:21:48Z",
+  "last_updated": "2026-08-10T11:08:42Z",
   "articles": [
+    {
+      "title": "Ransomware Attackers Target Managers to Steal Data and Move Deeper Into Corporate Networks",
+      "link": "https://cybersecuritynews.com/ransomware-attackers-target-managers/",
+      "description": "Ransomware campaigns are increasingly starting with people who hold the keys to everyday business decisions. Attackers are compromising managers whose accounts can open doors to contracts, payments...",
+      "pub_date": "Mon, 10 Aug 2026 10:58:36 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Ransomware-Attackers-Target-Managers-to-Steal-Data-and-Move-Deeper-Into-Corporate-Networks.webp"
+    },
+    {
+      "title": "Kimsuky Uses Local LLMs, AI-Generated Lures and GitHub C2 to Deploy AsyncRAT",
+      "link": "https://cybersecuritynews.com/kimsuky-uses-local-llms/",
+      "description": "Kimsuky has been observed blending polished AI-made documents with familiar phishing tactics to push AsyncRAT, a remote-access trojan. The campaign shows how old delivery methods can gain new credi...",
+      "pub_date": "Mon, 10 Aug 2026 10:07:26 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Kimsuky-Uses-Local-LLMs-AI-Generated-Lures-and-GitHub-C2-to-Deploy-AsyncRAT.webp"
+    },
+    {
+      "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]",
+      "pub_date": "Mon, 10 Aug 2026 05:49:37 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Connective eID Extension Flaws Let Attackers Steal Belgian ID PINs and Trigger Drive-By RCE",
+      "link": "https://cybersecuritynews.com/connective-eid-extension-flaws/",
+      "description": "Critical flaws have been found in the Connective Signing Extension, a browser component used by more than 2 million people in Belgium to access electronic identity cards and Maestro payment cards. ...",
+      "pub_date": "Mon, 10 Aug 2026 09:25:22 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Connective-eID-Extension-Flaws-Let-Attackers-Steal-Belgian-ID-PINs-and-Trigger-Drive-By-RCE.webp"
+    },
+    {
+      "title": "Payroll Pirates AiTM Phishing Hijacks Microsoft 365 Sessions and Targets Payroll Emails",
+      "link": "https://cybersecuritynews.com/payroll-pirates-aitm-phishing/",
+      "description": "Payroll Pirates are using phishing emails to seize Microsoft 365 sessions and search payroll-related mailboxes. The campaign turns a voicemail alert into a route for financial fraud, even when mult...",
+      "pub_date": "Mon, 10 Aug 2026 09:07:40 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Payroll-Pirates-AiTM-Phishing-Hijacks-Microsoft-365-Sessions-and-Targets-Payroll-Emails.webp"
+    },
+    {
+      "title": "Hackers Distributing Malicious VBS/PowerShell RAT Chain Via Multiple DuckDNS Hosts",
+      "link": "https://cybersecuritynews.com/powershell-rat-chain-duckdns-hosts/",
+      "description": "A newly observed malware campaign is using simple Windows scripts to open the door to remote control and data theft. The chain relies on Visual Basic Script, or VBS, and PowerShell, two tools prese...",
+      "pub_date": "Mon, 10 Aug 2026 08:38:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Distributing-Malicious-VBS-PowerShell-RAT-Chain-Via-Multiple-DuckDNS-Hosts.webp"
+    },
+    {
+      "title": "Atlassian Rovo Prompt Injection Exfiltrates Jira and Confluence Data Without User Approval",
+      "link": "https://cybersecuritynews.com/atlassian-rovo-prompt-injection-flaw/",
+      "description": "RovoBlast is a one-click prompt-injection vulnerability in Atlassian Rovo that could allow attackers to exfiltrate sensitive enterprise data from Jira, Confluence, SharePoint, and other connected s...",
+      "pub_date": "Mon, 10 Aug 2026 08:21:40 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Atlassian-Rovo-Prompt-Injection-Exfiltrates-Jira-and-Confluence-Data-Without-User-Approval.webp"
+    },
+    {
+      "title": "Claude Code Sessions Spawn Reverse Tunnels and LaunchAgent Persistence on macOS",
+      "link": "https://cybersecuritynews.com/claude-code-sessions-spawn/",
+      "description": "Claude Code activity on a macOS developer machine has raised a difficult security question: when does convenient automation become a serious exposure? A new Elastic investigation found a session th...",
+      "pub_date": "Mon, 10 Aug 2026 07:41:56 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Code-Sessions-Spawn-Reverse-Tunnels-and-LaunchAgent-Persistence-on-macOS.webp"
+    },
     {
       "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
       "link": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
@@ -11,6 +83,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR5_Dx4heVYIxaujo8ybl0OFdVuLzMFe0qdEdr6-q_QTdhSVlgHdrP6MeooXamFpRNfHjoAqTquvk3CkkCKUw1TQDkQJCrZY1RTC9iYK_bsTLNvpj0BZfFKFcnlt1RAlBvfcsWeSuLAn6Gwh9lur7v9-HlH-6ZpSmw7npsn9TSZAEpwFSFE54_xcFPcuDi/s1600/pro.jpg"
     },
     {
+      "title": "New WordPress Supply Chain Attack Compromises Themes via Poisoned API Response",
+      "link": "https://cybersecuritynews.com/wordpress-supply-chain-attack/",
+      "description": "A supply chain attack targeting BdThemes WordPress plugins has exposed site administrators to account takeover, webshell deployment, and persistent backdoors. Wordfence Threat Intelligence was noti...",
+      "pub_date": "Mon, 10 Aug 2026 06:19:45 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-Supply-Chain-Attack-Compromises-BdThemes-via-Poisoned-API-Response.webp"
+    },
+    {
       "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
       "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
       "description": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancem...",
@@ -18,6 +99,24 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgat4Wvo6Fpe6pNG66UengjFIWRohQUVp-khyphenhyphenxa57n9Ued3-mWlDeeTQkblpAP-OEjgSCbY0n1bC_MhI3a5_BF1bWq7rBohkS2DG1AXUtcDI8MuWPRMFKGNdteA7_Xkg-_6w-y-wao14ZPQWoRF8cnbibQYHUAGP1byqwYyBpcyvCBQd0h2fe6t94zvoa4j/s1600/openai-astra.jpg"
+    },
+    {
+      "title": "Claude Opus 5 Cuts Indirect Prompt Injection Attack Success to 2% in New Benchmark Analysis",
+      "link": "https://cybersecuritynews.com/claude-opus-5-reduces-prompt-injection-attack/",
+      "description": "Anthropic’s Claude Opus 5 has recorded the lowest indirect prompt injection attack success rate in Gray Swan’s latest benchmark, according to results provided in its system card. The model redu...",
+      "pub_date": "Mon, 10 Aug 2026 05:39:59 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Opus-5-Cuts-Indirect-Prompt-Injection-Attack-Success-to-2-in-Gray-Swan-Benchmark-1.webp"
+    },
+    {
+      "title": "Windows 11’s Built-In Weather App Reportedly Consumes 1.2GB of RAM for Showing Forecasts",
+      "link": "https://cybersecuritynews.com/windows-11s-weather-app-ram-usage/",
+      "description": "Windows 11\u0026#8217;s default Weather app, a fixture on the taskbar for millions of users, is under fire after independent testing revealed it consumes more than 1.2GB of RAM just to display a simple ...",
+      "pub_date": "Mon, 10 Aug 2026 03:29:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Windows-11s-Weather-App-RAM-Usage.webp"
     },
     {
       "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
@@ -276,15 +375,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
       "description": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldw...",
       "pub_date": "Wed, 05 Aug 2026 19:00:50 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
-      "description": "A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of...",
-      "pub_date": "Wed, 05 Aug 2026 17:53:26 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
