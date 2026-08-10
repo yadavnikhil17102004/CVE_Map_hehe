@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-08-10T14:58:38Z",
+  "last_updated": "2026-08-10T16:05:14Z",
   "articles": [
+    {
+      "title": "CISA Warns of Progress LoadMaster Command Injection Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/progress-loadmaster-command-injection-vulnerability-exploited/",
+      "description": "CISA has added a critical Progress LoadMaster vulnerability to its Known Exploited Vulnerabilities catalog after attackers were observed targeting exposed devices. Tracked as CVE-2026-8037, the fla...",
+      "pub_date": "Mon, 10 Aug 2026 15:12:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-Progress-LoadMaster-Command-Injection-Vulnerability-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "Windows WalletService Vulnerability Allows Attackers to Escalate Privileges – PoC Released",
+      "link": "https://cybersecuritynews.com/windows-walletservice-vulnerability-poc-released/",
+      "description": "Microsoft has patched a Windows WalletService vulnerability that could let local attackers gain SYSTEM privileges, with a public proof of concept urging organizations to deploy the July 2026 securi...",
+      "pub_date": "Mon, 10 Aug 2026 15:01:15 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Windows-WalletService-vulnerability-Allow-Attackers-to-Escalate-Privileges-PoC-Released.webp"
+    },
     {
       "title": "GitHub Expands Supply Chain Malware Detection From npm to 8 Package Registries",
       "link": "https://cybersecuritynews.com/github-expands-supply-chain-malware-detection/",
@@ -128,15 +146,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Apple-Private-Cloud-Compute-Flaw-Enables-Root-File-Writes-and-AI-Inference-Telemetry-Leakage.webp"
     },
     {
-      "title": "Malicious Solidity Pro VS Code Extension Steals Crypto Wallets, API Keys and SSH Keys via Telegram",
-      "link": "https://cybersecuritynews.com/malicious-solidity-pro-vs-code-extension/",
-      "description": "Malicious extensions are turning a routine developer task into a route for theft. A package named Solidity Pro, promoted as a useful tool for Solidity work in Visual Studio Code, has been used to s...",
-      "pub_date": "Mon, 10 Aug 2026 11:56:27 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Malicious-Solidity-Pro-VS-Code-Extension-Steals-Crypto-Wallets-API-Keys-and-SSH-Keys-via-Telegram.webp"
-    },
-    {
       "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
       "link": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
       "description": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.  ...",
@@ -162,15 +171,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwaZH1uRwKD4SlLCwgb-7zVkEGjYYXdFxb21glBm3grBdwOZ_M-ECnOmNVFPPY6mg6wXUCf4R4xm9mI8mBiEm21Ixh6y9GXYvL9DKQgKEBkTN65AVQqFz9DJpMs6BRmrGWjGC5vDC-cFgx774ASr7j73D0wiRxrs9tKNdovUbwmLuGicKgcZeQR53z71bT/s1600/trueconf.jpg"
-    },
-    {
-      "title": "Interlock Turns the Tools Incident Responders Use Into Weapons for Stealing Windows Passwords",
-      "link": "https://cybersecuritynews.com/interlock-turns-the-tools/",
-      "description": "Interlock ransomware is taking a familiar Windows security tool and using it for credential theft. The group has turned memory analysis software into a way to pull password hashes and account data ...",
-      "pub_date": "Mon, 10 Aug 2026 11:32:58 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Interlock-Turns-the-Tools-Incident-Responders-Use-Into-Weapons-for-Stealing-Windows-Passwords.webp"
     },
     {
       "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
@@ -722,6 +722,15 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/06/blog-post-1.png?resize=1024%2C576"
     },
     {
+      "title": "#StopRansomware: Gunra Ransomware",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a",
+      "description": "Advisory at a Glance    Title #StopRansomware: Gunra Ransomware   Original Publication August 10, 2026   Executive Summary Gunra is a ransomware-as-a-service (RaaS) used by affiliates to target gov...",
+      "pub_date": "Mon, 10 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog ",
       "link": "https://www.cisa.gov/news-events/alerts/2026/08/07/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-8037 Progress LoadMaster Command Injection Vuln...",
@@ -740,9 +749,9 @@
       "image_url": ""
     },
     {
-      "title": "ABB Ability Zenon",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to bypass security, crash systems, execute unauthorized actions, or compromise data. The following versions ...",
+      "title": "Johnson Controls Inc. TL280",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to access sensitive information on the device. The following versions of Johnson Controls Inc. TL280 are affe...",
       "pub_date": "Thu, 06 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -758,9 +767,9 @@
       "image_url": ""
     },
     {
-      "title": "Johnson Controls Inc. TL280",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to access sensitive information on the device. The following versions of Johnson Controls Inc. TL280 are affe...",
+      "title": "ABB Ability Zenon",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to bypass security, crash systems, execute unauthorized actions, or compromise data. The following versions ...",
       "pub_date": "Thu, 06 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -812,27 +821,18 @@
       "image_url": ""
     },
     {
-      "title": "MikroTik RouterOS",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to extract the router's WireGuard private key in plaintext using only low‑privilege API access, enabling fu...",
-      "pub_date": "Thu, 30 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Open Source Software: Security Principles and Practices",
-      "link": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
-      "description": "Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Principles and Practices guidance...",
-      "pub_date": "Thu, 30 Jul 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
       "title": "Toptech Systems RCU II+ and Multiload II+",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-03",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full system control and misuse it to access or manipulate connected networks and resources. The follo...",
+      "pub_date": "Thu, 30 Jul 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "MikroTik RouterOS",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to extract the router's WireGuard private key in plaintext using only low‑privilege API access, enabling fu...",
       "pub_date": "Thu, 30 Jul 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
