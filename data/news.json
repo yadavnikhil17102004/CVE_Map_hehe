@@ -1,6 +1,51 @@
 {
-  "last_updated": "2026-08-10T16:05:14Z",
+  "last_updated": "2026-08-10T17:51:52Z",
   "articles": [
+    {
+      "title": "New StormEncryptor ransomware used by former Medusa affiliate",
+      "link": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
+      "description": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]",
+      "pub_date": "Mon, 10 Aug 2026 13:42:00 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Gunra Ransomware Exploits Fortinet VPN Flaws to Bypass MFA and Steal Enterprise Data",
+      "link": "https://cybersecuritynews.com/gunra-ransomware-exploits-fortinet-vpn-flaws/",
+      "description": "A joint cybersecurity advisory from the FBI, CISA, the Department of Defense Cyber Crime Center, the NSA, the U.S. Secret Service, and South Korea\u0026#8217;s National Police Agency has exposed a dange...",
+      "pub_date": "Mon, 10 Aug 2026 17:24:00 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Gunra-Ransomware-Exploits-Fortinet-VPN-Flaws.webp"
+    },
+    {
+      "title": "HP ThinPro TPM Disk Encryption Flaw Lets Attackers Extract LUKS Keys",
+      "link": "https://cybersecuritynews.com/hp-thinpro-tpm-disk-encryption-flaw/",
+      "description": "A security researcher has disclosed a boot-chain weakness in HP ThinPro 8 and 9 that could allow attackers with physical access to a thin client to extract its LUKS disk-encryption key. The issue a...",
+      "pub_date": "Mon, 10 Aug 2026 16:26:46 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/HP-ThinPro-TPM-Disk-Encryption-Flaw-Lets-Attackers-Extract-LUKS-Keys.webp"
+    },
+    {
+      "title": "Pass-the-Passkey Attacks Expose Windows 11 and Microsoft Entra ID, Bypassing MFA",
+      "link": "https://cybersecuritynews.com/pass-the-passkey-attacks/",
+      "description": "A new \u0026#8220;Pass-the-Passkey\u0026#8221; family of attack techniques demonstrates how systemic implementation flaws surrounding WebAuthn can undermine passkey security even when cryptographic private k...",
+      "pub_date": "Mon, 10 Aug 2026 16:24:29 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Pass-the-Passkey-Attacks.webp"
+    },
+    {
+      "title": "Claude Code Shifts Agent Security From Repeated Human Approval to Auto Mode",
+      "link": "https://cybersecuritynews.com/claude-code-shifts-agent-security/",
+      "description": "Anthropic is changing how Claude Code handles risky commands, moving away from constant human approval prompts and toward an automated safety classifier called auto mode. Starting August 14, 2026, ...",
+      "pub_date": "Mon, 10 Aug 2026 16:17:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Code-Shifts-Agent-Security.webp"
+    },
     {
       "title": "CISA Warns of Progress LoadMaster Command Injection Vulnerability Exploited in Attacks",
       "link": "https://cybersecuritynews.com/progress-loadmaster-command-injection-vulnerability-exploited/",
@@ -18,6 +63,15 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Windows-WalletService-vulnerability-Allow-Attackers-to-Escalate-Privileges-PoC-Released.webp"
+    },
+    {
+      "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
+      "link": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
+      "description": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default.  That pretty much covers the mood...",
+      "pub_date": "Mon, 10 Aug 2026 20:30:29 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtXmkUOPD6prrNPMK9N1Rhu2dm3QFGQ2DUTiu3xrj2WWbauZ_IK2HemME36-4WBIqGh01SFOkNJuutFeXLgS_ZMUBFn5ZDzIP5_IeNrwJWDfKcOPQgZl3spOFVS8R84Hbthy6o3sx9IWJ1yRo4FiW5acGYGBrf2nljmx6yvSd55LWRrkX6JhJ9b5bHJX0g/s1600/recaps.jpg"
     },
     {
       "title": "GitHub Expands Supply Chain Malware Detection From npm to 8 Package Registries",
@@ -92,24 +146,6 @@
       "image_url": ""
     },
     {
-      "title": "Ransomware Operators Disable EDR, Backup Software and Windows Telemetry Before Encryption",
-      "link": "https://cybersecuritynews.com/ransomware-operators-disable-edr/",
-      "description": "Ransomware crews are increasingly trying to blind a victim before they encrypt anything. Analysis shows that attackers can disable endpoint detection and response tools, interrupt Windows telemetry...",
-      "pub_date": "Mon, 10 Aug 2026 12:33:31 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Ransomware-Operators-Disable-EDR-Backup-Software-and-Windows-Telemetry-Before-Encryption.webp"
-    },
-    {
-      "title": "Valve Steam Hardware Buyers Hit by CEVA Logistics Data Breach",
-      "link": "https://cybersecuritynews.com/valve-steam-ceva-data-breach/",
-      "description": "Valve has confirmed that a cyberattack on CEVA Logistics, its European shipping partner for Steam hardware such as the Steam Deck, Steam Machine, and Steam Controller, exposed customer data belongi...",
-      "pub_date": "Mon, 10 Aug 2026 12:31:53 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Valve-Steam-CEVA-Data-Breach.webp"
-    },
-    {
       "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
       "link": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
       "description": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on.  Passkeys are designed to replace reusable passwords and re...",
@@ -126,24 +162,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Top 10 Malware Threats of the Week – AsyncRAT, Remcos, and Xworm Lead the Surge",
-      "link": "https://cybersecuritynews.com/top-10-malware-threats/",
-      "description": "Global malware activity climbed sharply over the past week, with remote access trojans (RATs), information stealers, and loaders all posting significant week-over-week gains, according to threat sa...",
-      "pub_date": "Mon, 10 Aug 2026 12:08:53 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Top-10-Malware-Threats.webp"
-    },
-    {
-      "title": "Apple Private Cloud Compute Flaw Enables Root File Writes and AI Inference Telemetry Leakage",
-      "link": "https://cybersecuritynews.com/apple-private-cloud-compute-vulnerability/",
-      "description": "CVE-2026-20685 is a path traversal vulnerability affecting Apple’s Private Cloud Compute (PCC), potentially allowing attackers to write files as root during node boot and redirect sensitive AI in...",
-      "pub_date": "Mon, 10 Aug 2026 11:58:17 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Apple-Private-Cloud-Compute-Flaw-Enables-Root-File-Writes-and-AI-Inference-Telemetry-Leakage.webp"
     },
     {
       "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
@@ -335,15 +353,6 @@
       "image_url": ""
     },
     {
-      "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-      "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
-      "description": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw ...",
-      "pub_date": "Fri, 07 Aug 2026 18:26:23 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAXYZlxtz4bLTF4gNuVpVMMykRZpDR7IKjIFSR7jhL6CBKSsE1PZ7aIRpSGE57XGGb69NbrYV7wMJLjsRG_lP4SJzyvNZ0nUj9SHArph87e8bWBHKUsOGy1-9rymiMesSAcvUFrPP2Xrf_EuUXiOmKJC2MeBYFRcXmgxKhAv5UBcRzV0ku-_DLEONVLQuV/s1600/word.jpg"
-    },
-    {
       "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
       "description": "OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]",
@@ -357,15 +366,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
       "description": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
       "pub_date": "Thu, 06 Aug 2026 18:37:17 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
-      "link": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
-      "description": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile...",
-      "pub_date": "Thu, 06 Aug 2026 16:07:24 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
