@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-08-10T13:07:44Z",
+  "last_updated": "2026-08-10T14:58:38Z",
   "articles": [
+    {
+      "title": "GitHub Expands Supply Chain Malware Detection From npm to 8 Package Registries",
+      "link": "https://cybersecuritynews.com/github-expands-supply-chain-malware-detection/",
+      "description": "GitHub has expanded its malware detection capabilities beyond npm, providing developers with broader protection against malicious open-source packages. Dependabot alerts can now identify harmful de...",
+      "pub_date": "Mon, 10 Aug 2026 14:57:47 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GitHub-Expands-Supply-Chain-Malware-Detection-From-npm-to-8-Package-Registries.webp"
+    },
+    {
+      "title": "Red Hat ACM Privilege Escalation Vulnerability Lets Attackers Gain Full Cluster-Admin Access",
+      "link": "https://cybersecuritynews.com/red-hat-acm-privilege-escalation-vulnerability/",
+      "description": "Red Hat has disclosed a critical privilege escalation flaw, tracked as CVE-2026-10090, affecting the Application Subscription controller in Red Hat Advanced Cluster Management for Kubernetes (ACM)....",
+      "pub_date": "Mon, 10 Aug 2026 14:46:22 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Red-Hat-ACM-Privilege-Escalation-Vulnerability.webp"
+    },
+    {
+      "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
+      "description": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]",
+      "pub_date": "Mon, 10 Aug 2026 10:34:32 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
+      "link": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
+      "description": "AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to by...",
+      "pub_date": "Mon, 10 Aug 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Fake GoogleTranslate Chrome Extension Lets Attackers Remotely Control Your Browsers",
+      "link": "https://cybersecuritynews.com/fake-googletranslate-chrome-extension/",
+      "description": "A malicious Chrome extension masquerading as GoogleTranslate that can steal sensitive browser data, live-stream web sessions, and allow threat actors to remotely interact with Chrome windows while ...",
+      "pub_date": "Mon, 10 Aug 2026 13:35:24 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Chrome-Extension-fake-malware.webp"
+    },
+    {
+      "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+      "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+      "description": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own ...",
+      "pub_date": "Mon, 10 Aug 2026 18:49:58 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDgatgimOxtzWBp5R0l6yiMeoFVAeLE-hn-RGePbOlgUMgb3Vj9cEKav3AadjZBcppLfoDs4o-oREZ0OimLYX9WDnIRwebA4P7nVa-wh8KwHW-z7HUALW_bj2B-53kotBjkGw-6QXx-Awo3OxBlhjIwEIuueFEXLOgpT7cPpz5e_MSlD4l_FHgJocN6QA/s1600/north.jpg"
+    },
+    {
+      "title": "Google Play Apps Use Stealth Loaders to Deliver Anatsa Banking Malware",
+      "link": "https://cybersecuritynews.com/google-play-apps-use-stealth-loaders/",
+      "description": "Android users are facing a fresh reminder that a familiar app-store listing can hide a financial threat. Researchers have observed malicious loaders on Google Play that can prepare the ground for A...",
+      "pub_date": "Mon, 10 Aug 2026 13:12:59 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Google-Play-Apps-Use-Stealth-Loaders-to-Deliver-Anatsa-Banking-Malware.webp"
+    },
     {
       "title": "Member of The Com sent to prison for blackmail, sextortion",
       "link": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/",
@@ -110,24 +173,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Interlock-Turns-the-Tools-Incident-Responders-Use-Into-Weapons-for-Stealing-Windows-Passwords.webp"
     },
     {
-      "title": "Ransomware Attackers Target Managers to Steal Data and Move Deeper Into Corporate Networks",
-      "link": "https://cybersecuritynews.com/ransomware-attackers-target-managers/",
-      "description": "Ransomware campaigns are increasingly starting with people who hold the keys to everyday business decisions. Attackers are compromising managers whose accounts can open doors to contracts, payments...",
-      "pub_date": "Mon, 10 Aug 2026 10:58:36 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Ransomware-Attackers-Target-Managers-to-Steal-Data-and-Move-Deeper-Into-Corporate-Networks.webp"
-    },
-    {
-      "title": "Kimsuky Uses Local LLMs, AI-Generated Lures and GitHub C2 to Deploy AsyncRAT",
-      "link": "https://cybersecuritynews.com/kimsuky-uses-local-llms/",
-      "description": "Kimsuky has been observed blending polished AI-made documents with familiar phishing tactics to push AsyncRAT, a remote-access trojan. The campaign shows how old delivery methods can gain new credi...",
-      "pub_date": "Mon, 10 Aug 2026 10:07:26 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Kimsuky-Uses-Local-LLMs-AI-Generated-Lures-and-GitHub-C2-to-Deploy-AsyncRAT.webp"
-    },
-    {
       "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]",
@@ -135,24 +180,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Connective eID Extension Flaws Let Attackers Steal Belgian ID PINs and Trigger Drive-By RCE",
-      "link": "https://cybersecuritynews.com/connective-eid-extension-flaws/",
-      "description": "Critical flaws have been found in the Connective Signing Extension, a browser component used by more than 2 million people in Belgium to access electronic identity cards and Maestro payment cards. ...",
-      "pub_date": "Mon, 10 Aug 2026 09:25:22 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Connective-eID-Extension-Flaws-Let-Attackers-Steal-Belgian-ID-PINs-and-Trigger-Drive-By-RCE.webp"
-    },
-    {
-      "title": "Payroll Pirates AiTM Phishing Hijacks Microsoft 365 Sessions and Targets Payroll Emails",
-      "link": "https://cybersecuritynews.com/payroll-pirates-aitm-phishing/",
-      "description": "Payroll Pirates are using phishing emails to seize Microsoft 365 sessions and search payroll-related mailboxes. The campaign turns a voicemail alert into a route for financial fraud, even when mult...",
-      "pub_date": "Mon, 10 Aug 2026 09:07:40 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Payroll-Pirates-AiTM-Phishing-Hijacks-Microsoft-365-Sessions-and-Targets-Payroll-Emails.webp"
     },
     {
       "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
@@ -317,15 +344,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAXYZlxtz4bLTF4gNuVpVMMykRZpDR7IKjIFSR7jhL6CBKSsE1PZ7aIRpSGE57XGGb69NbrYV7wMJLjsRG_lP4SJzyvNZ0nUj9SHArph87e8bWBHKUsOGy1-9rymiMesSAcvUFrPP2Xrf_EuUXiOmKJC2MeBYFRcXmgxKhAv5UBcRzV0ku-_DLEONVLQuV/s1600/word.jpg"
     },
     {
-      "title": "Growing Up The Hard Way",
-      "link": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
-      "description": "Open Source had a great childhood.  For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the ki...",
-      "pub_date": "Fri, 07 Aug 2026 17:25:26 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz974dYXx9klEa_qhJoTHKqb5QNoQwTpxsMKoZeqsvQtvWZPgPKobw1QySvcNGgnFocbYaFaaBGsB4COPaw-fqqgOHERJEVc8sgRSjto5VCrQeIWr5Nz21r3PjMTIXmwUmvakUlP4sB3iYqF2qXiabCvrqKFyFBq3GzOUwqM7LGRV68q_Ib9zt1ilCBJo/s1600/open-source.jpg"
-    },
-    {
       "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
       "description": "OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]",
@@ -353,29 +371,38 @@
       "image_url": ""
     },
     {
-      "title": "Swiss government SharePoint breach compromised 200 accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
-      "description": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
-      "pub_date": "Thu, 06 Aug 2026 14:14:19 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
-      "link": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
-      "description": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]",
-      "pub_date": "Thu, 06 Aug 2026 14:03:45 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "How we took malware advisories beyond npm",
       "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
       "description": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid. The post How we took malwa...",
       "pub_date": "Thu, 06 Aug 2026 16:51:12 +0000",
       "source": "GitHub Security",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-526: (0Day) PAX Technology Q80 Application Installer Signature Verification Bypass Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-526/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of PAX Technology Q80. Authentication is not required to exploit this vulnerability. The ZDI...",
+      "pub_date": "Wed, 05 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-525: (0Day) PAX Technology Q80 AIP File Parsing Link Following Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-525/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of PAX Technology Q80. Authentication is not required to exploit this vulnerability. The ZDI...",
+      "pub_date": "Wed, 05 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-524: (0Day) PAX Technology Q80 XCB Daemon Missing Authentication Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-524/",
+      "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information and modify configuration on affected installations of PAX Technology Q80. Authentication is not required to ex...",
+      "pub_date": "Wed, 05 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
       "tier": 4,
       "image_url": ""
     },
@@ -459,6 +486,114 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+    },
+    {
+      "title": "ZDI-26-523: Hugging Face PyTorch Image Models checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-523/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hugging Face PyTorch Image Models. User interaction is required to exploit this vulnerability in th...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-522: Phoenix Contact CHARX SEC-3000 Insertion of Sensitive Information into Log File Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-522/",
+      "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Phoenix Contact CHARX SEC-3000 devices. Authentication is not required to exploit...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-521: Phoenix Contact CHARX SEC-3000 Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-521/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Phoenix Contact CHARX SEC-3000 devices. Authentication is required to exploit this vulner...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-520: (Pwn2Own) Phoenix Contact CHARX SEC-3150 Jupicore External Control of Path Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-520/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vu...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-519: (Pwn2Own) Phoenix Contact CHARX SEC-3150 CharxSystemConfigManager Configuration Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-519/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vu...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-518: (Pwn2Own) Phoenix Contact CHARX SEC-3150 MQTT Service Server-Side Request Forgery Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-518/",
+      "description": "This vulnerability allows network-adjacent attackers to access internal resources on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-517: (Pwn2Own) Phoenix Contact CHARX SEC-3150 BackendURL WebSocket Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-517/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Phoenix Contact CHARX SEC-3150 devices. Although authentication is required to exploit th...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-516: (Pwn2Own) Phoenix Contact CHARX SEC-3150 ModBus Server Exposed Dangerous Function Denial-of-Service Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-516/",
+      "description": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to e...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-515: (Pwn2Own) Phoenix Contact CHARX SEC-3150 charx-jupicore Missing Authentication Configuration Modification Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-515/",
+      "description": "This vulnerability allows network-adjacent attackers to modify configuration on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vuln...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-514: (Pwn2Own) Phoenix Contact CHARX SEC-3150 Failing Open Authentication Bypass Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-514/",
+      "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vul...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-513: (Pwn2Own) Phoenix Contact CHARX SEC-3150 update2-upload Arbitrary File Upload Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-513/",
+      "description": "This vulnerability allows network-adjacent attackers to upload arbitrary files on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is required to exploit this vulner...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-512: (Pwn2Own) Phoenix Contact CHARX SEC-3150 ModBus Server Exposed Dangerous Function Denial-of-Service Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-512/",
+      "description": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to e...",
+      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
     },
     {
       "title": "CVE-2026-63077: Critical unauthenticated remote code execution in JetBrains TeamCity",
