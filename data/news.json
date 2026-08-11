@@ -1,6 +1,51 @@
 {
-  "last_updated": "2026-08-11T05:09:10Z",
+  "last_updated": "2026-08-11T07:07:40Z",
   "articles": [
+    {
+      "title": "Multiple ClamAV Vulnerabilities Allow Remote Attacker to Trigger DoS Condition",
+      "link": "https://cybersecuritynews.com/multiple-clamav-vulnerabilities-dos/",
+      "description": "Cisco has disclosed multiple high-severity vulnerabilities in ClamAV that could allow unauthenticated remote attackers to disrupt antivirus scanning operations and cause denial-of-service condition...",
+      "pub_date": "Tue, 11 Aug 2026 06:02:48 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Multiple-ClamAV-Vulnerabilities-Alow-remote-attacker-to-Trigger-DoS-condition-.webp"
+    },
+    {
+      "title": "Anthropic to Add Invisible Watermarks to All Claude AI Outputs",
+      "link": "https://cybersecuritynews.com/anthropic-adds-invisible-watermarks/",
+      "description": "Anthropic has announced plans to add invisible watermarks and signed metadata to content created by Claude AI. The move follows the company’s decision to sign the European Union AI Act’s Articl...",
+      "pub_date": "Tue, 11 Aug 2026 05:59:33 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Anthropic-to-Adds-Invisible-Watermarks-to-all-Claude-AI-Outputs-.webp"
+    },
+    {
+      "title": "New Phishing Attack Leverage SSL/TLS Certificates to Target High-value Brands Customers Via Whatsapp",
+      "link": "https://cybersecuritynews.com/new-phishing-attack/",
+      "description": "A phishing operation is using web certificates and chosen web addresses to target customers of high-value brands through WhatsApp. The activity is designed to make fraudulent pages look normal at a...",
+      "pub_date": "Tue, 11 Aug 2026 05:52:31 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-Phishing-Attack-Leverage-SSL-TLS-Certificates-to-Target-High-value-Brands-Customers-Via-Whatsapp.webp"
+    },
+    {
+      "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
+      "link": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
+      "description": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily ...",
+      "pub_date": "Tue, 11 Aug 2026 11:18:44 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh96gU64z_xM5LiLI39IXPndJ1felnUkfQmWxQ2sGfE9r_yYK6AKPLV3x6uVWeZxZoEsJwy0h7OUHILX1sAbwc6MYHpIeeTvCVeH52TnCInqqjjRPW4-Sx7gPPq4abN7ltCnClrjRhDDqyON8UBxcKFjoyubm7CeEgaZos3j4OCLJdRozfEOrDX1rPsnSoF/s1600/wordpress.jpg"
+    },
+    {
+      "title": "OpenAI Expands Daybreak Cyber with GPT-5.6 for Exploit Validation, Pentesting, and Red Teaming",
+      "link": "https://cybersecuritynews.com/openai-expands-daybreak-cyber/",
+      "description": "OpenAI has expanded its Daybreak program to give vetted security defenders deeper access to frontier AI models, introducing two access tiers—Daybreak Blue and Daybreak Red—alongside a new speci...",
+      "pub_date": "Tue, 11 Aug 2026 03:33:12 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Expands-Daybreak-Cyber.webp"
+    },
     {
       "title": "Hackers breached a small Polish energy plant via private APN last year",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/",
@@ -47,6 +92,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy3fcUJacnxspYO1ssk2-ESCQ9QYb5BBCB0-3Jk8UyWQFmKZxt8RCeYemwUlJ08y_hnkyVm4LaAq6a_oyz5BPmpuwkmephJ0K7iy6cFvPjAe-b3pQ4Q28jh3KzNqLhZ6qtecuG9jenDpeVsjpUrG9ZBEwe2WStxgh6RiOwhI_rlsxYelFv2BD31o9rhd8/s1600/chain-webinar.jpg"
     },
     {
+      "title": "Gunra Ransomware Exploits Fortinet VPN Flaws to Bypass MFA and Steal Enterprise Data",
+      "link": "https://cybersecuritynews.com/gunra-ransomware-exploits-fortinet-vpn-flaws/",
+      "description": "A joint cybersecurity advisory from the FBI, CISA, the Department of Defense Cyber Crime Center, the NSA, the U.S. Secret Service, and South Korea\u0026#8217;s National Police Agency has exposed a dange...",
+      "pub_date": "Mon, 10 Aug 2026 17:24:00 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Gunra-Ransomware-Exploits-Fortinet-VPN-Flaws.webp"
+    },
+    {
       "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
       "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
       "description": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.  The use of StormEncry...",
@@ -54,6 +108,51 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNv5C82jT_6YlarerdXnoAR_tT3E8xP65ZWuJfpvOKU9baBT5UACUTb88XvDQgQA6RrYuqPK3FstaqwacR9gDjD0qwk3HUYl0wK848phyphenhyphenFuqRrOA1AqdISQaA6tpEqg0n2XJIA22NeNNbhei1bAgcyghnc2qaVfSvh4fd9J1oD4xVi-DQcNSOYWQovyUst/s1600/strom-ransomware.jpg"
+    },
+    {
+      "title": "HP ThinPro TPM Disk Encryption Flaw Lets Attackers Extract LUKS Keys",
+      "link": "https://cybersecuritynews.com/hp-thinpro-tpm-disk-encryption-flaw/",
+      "description": "A security researcher has disclosed a boot-chain weakness in HP ThinPro 8 and 9 that could allow attackers with physical access to a thin client to extract its LUKS disk-encryption key. The issue a...",
+      "pub_date": "Mon, 10 Aug 2026 16:26:46 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/HP-ThinPro-TPM-Disk-Encryption-Flaw-Lets-Attackers-Extract-LUKS-Keys.webp"
+    },
+    {
+      "title": "Pass-the-Passkey Attacks Expose Windows 11 and Microsoft Entra ID, Bypassing MFA",
+      "link": "https://cybersecuritynews.com/pass-the-passkey-attacks/",
+      "description": "A new \u0026#8220;Pass-the-Passkey\u0026#8221; family of attack techniques demonstrates how systemic implementation flaws surrounding WebAuthn can undermine passkey security even when cryptographic private k...",
+      "pub_date": "Mon, 10 Aug 2026 16:24:29 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Pass-the-Passkey-Attacks.webp"
+    },
+    {
+      "title": "Claude Code Shifts Agent Security From Repeated Human Approval to Auto Mode",
+      "link": "https://cybersecuritynews.com/claude-code-shifts-agent-security/",
+      "description": "Anthropic is changing how Claude Code handles risky commands, moving away from constant human approval prompts and toward an automated safety classifier called auto mode. Starting August 14, 2026, ...",
+      "pub_date": "Mon, 10 Aug 2026 16:17:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Code-Shifts-Agent-Security.webp"
+    },
+    {
+      "title": "CISA Warns of Progress LoadMaster Command Injection Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/progress-loadmaster-command-injection-vulnerability-exploited/",
+      "description": "CISA has added a critical Progress LoadMaster vulnerability to its Known Exploited Vulnerabilities catalog after attackers were observed targeting exposed devices. Tracked as CVE-2026-8037, the fla...",
+      "pub_date": "Mon, 10 Aug 2026 15:12:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-Progress-LoadMaster-Command-Injection-Vulnerability-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "Windows WalletService Vulnerability Allows Attackers to Escalate Privileges – PoC Released",
+      "link": "https://cybersecuritynews.com/windows-walletservice-vulnerability-poc-released/",
+      "description": "Microsoft has patched a Windows WalletService vulnerability that could let local attackers gain SYSTEM privileges, with a public proof of concept urging organizations to deploy the July 2026 securi...",
+      "pub_date": "Mon, 10 Aug 2026 15:01:15 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Windows-WalletService-vulnerability-Allow-Attackers-to-Escalate-Privileges-PoC-Released.webp"
     },
     {
       "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
@@ -243,15 +342,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIEXaa59LRblZ0rcBVbKDdH4w9Rszk27anNt20Onx7Li8D7FXbf3Ipod53uo3N2aa6Hj1QLJaNFDIBlrcgM3YZg0UJCsjI3maDKkFEdOeyhzis15St3QDg6WCXcYlbDRlw2WvgiOH-BL_v8I21QoSTE9kmJzzKqQwstqn11JWkAL1_9W41ZF04T-9ImaiL/s1600/npms.jpg"
-    },
-    {
-      "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
-      "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
-      "description": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credential...",
-      "pub_date": "Fri, 07 Aug 2026 23:59:08 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKQGTQ6AquoAvAeMWXXITPacYsdChgFUpg7MLwKkfb2AylEuwQTk9av5GqMSdgtsB_tr_6QC70DrJkEo02t-Wo67z1gumix6FKKlOPSWo4fLEUHCibBoTrf1zCdmn72ESzo5CzCKKEgyETZ0FeVD_3QLfCNit7vIwlMA7MmwGYg2JGbeYOBrjSHmOnfpWl/s1600/macos.jpg"
     },
     {
       "title": "Levi Strauss \u0026 Co. says hackers stole corporate data in cyberattack",
