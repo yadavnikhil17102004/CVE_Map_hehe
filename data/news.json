@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-08-11T07:07:40Z",
+  "last_updated": "2026-08-11T08:56:25Z",
   "articles": [
+    {
+      "title": "CISA Warns of SonicWall SMA1000 Vulnerabilities Exploited in Attacks to Deploy Ransomware",
+      "link": "https://cybersecuritynews.com/sonicwall-sma1000-vulnerabilities-exploited/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency warned that two SonicWall SMA1000 vulnerabilities, CVE-2026-15409 and CVE-2026-15410, are being exploited in ransomware attacks and have be...",
+      "pub_date": "Tue, 11 Aug 2026 08:35:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-SonicWall-SMA1000-Vulnerabilities-Exploited-in-Attacks-to-Deploy-Ransomware-.webp"
+    },
+    {
+      "title": "Hackers Actively Scanning to Exploit VMware VCenter Vulnerabilities",
+      "link": "https://cybersecuritynews.com/hackers-scan-vmware-vcenter-vulnerabilities/",
+      "description": "Attackers are scanning VMware vCenter after critical vulnerabilities were disclosed, with DefusedCyber’s honeypots recording increased vCenter fingerprinting activity. The activity includes reque...",
+      "pub_date": "Tue, 11 Aug 2026 07:59:20 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Actively-Scanning-to-Exploit-VMware-VCenter-Vulnerabilities-1.webp"
+    },
+    {
+      "title": "Abyssos RAT Includes RDPWrap-Related Module for Expanded Remote Access",
+      "link": "https://cybersecuritynews.com/abyssos-rat-rdpwrap/",
+      "description": "A new remote access trojan called Abyssos lets attackers control infected Windows systems. The malware can steal credentials, collect files, and open remote viewing sessions, while its modular desi...",
+      "pub_date": "Tue, 11 Aug 2026 07:27:12 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Abyssos-RAT-Includes-RDPWrap-Related-Module-for-Expanded-Remote-Access.webp"
+    },
+    {
+      "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+      "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
+      "description": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to r...",
+      "pub_date": "Tue, 11 Aug 2026 12:25:45 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS_4KcVdL2QogjCtjg4yqVFuDNgQ9a8SYCzjsxUKME896DBso0Zwpvb8gH9T5gMPOqM2LU-A-7IyKOqKpKiXgLWAdiABf4RrVvAq9nNpDDC2TNppKWt9RKVXmNr2-Z9Y1kIBNVi8fETA6Aj6K2s_gU0Hmc8CKDi1q1wbqD9G9uUP5cPpuwk5h88mfD9I0/s1600/power-plant.jpg"
+    },
     {
       "title": "Multiple ClamAV Vulnerabilities Allow Remote Attacker to Trigger DoS Condition",
       "link": "https://cybersecuritynews.com/multiple-clamav-vulnerabilities-dos/",
@@ -126,33 +162,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Pass-the-Passkey-Attacks.webp"
-    },
-    {
-      "title": "Claude Code Shifts Agent Security From Repeated Human Approval to Auto Mode",
-      "link": "https://cybersecuritynews.com/claude-code-shifts-agent-security/",
-      "description": "Anthropic is changing how Claude Code handles risky commands, moving away from constant human approval prompts and toward an automated safety classifier called auto mode. Starting August 14, 2026, ...",
-      "pub_date": "Mon, 10 Aug 2026 16:17:57 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Code-Shifts-Agent-Security.webp"
-    },
-    {
-      "title": "CISA Warns of Progress LoadMaster Command Injection Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/progress-loadmaster-command-injection-vulnerability-exploited/",
-      "description": "CISA has added a critical Progress LoadMaster vulnerability to its Known Exploited Vulnerabilities catalog after attackers were observed targeting exposed devices. Tracked as CVE-2026-8037, the fla...",
-      "pub_date": "Mon, 10 Aug 2026 15:12:07 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-Progress-LoadMaster-Command-Injection-Vulnerability-Exploited-in-Attacks.webp"
-    },
-    {
-      "title": "Windows WalletService Vulnerability Allows Attackers to Escalate Privileges – PoC Released",
-      "link": "https://cybersecuritynews.com/windows-walletservice-vulnerability-poc-released/",
-      "description": "Microsoft has patched a Windows WalletService vulnerability that could let local attackers gain SYSTEM privileges, with a public proof of concept urging organizations to deploy the July 2026 securi...",
-      "pub_date": "Mon, 10 Aug 2026 15:01:15 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Windows-WalletService-vulnerability-Allow-Attackers-to-Escalate-Privileges-PoC-Released.webp"
     },
     {
       "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
@@ -333,15 +342,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
-      "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-      "description": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.  \"T...",
-      "pub_date": "Sat, 08 Aug 2026 00:18:17 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIEXaa59LRblZ0rcBVbKDdH4w9Rszk27anNt20Onx7Li8D7FXbf3Ipod53uo3N2aa6Hj1QLJaNFDIBlrcgM3YZg0UJCsjI3maDKkFEdOeyhzis15St3QDg6WCXcYlbDRlw2WvgiOH-BL_v8I21QoSTE9kmJzzKqQwstqn11JWkAL1_9W41ZF04T-9ImaiL/s1600/npms.jpg"
     },
     {
       "title": "Levi Strauss \u0026 Co. says hackers stole corporate data in cyberattack",
