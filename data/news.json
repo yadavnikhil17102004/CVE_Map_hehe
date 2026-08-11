@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-08-11T08:56:25Z",
+  "last_updated": "2026-08-11T10:02:06Z",
   "articles": [
+    {
+      "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
+      "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
+      "description": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...]",
+      "pub_date": "Tue, 11 Aug 2026 05:47:06 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "DeadLock Ransomware Stores C2 Configuration on Polygon Blockchain to Resist Takedowns",
+      "link": "https://cybersecuritynews.com/deadlock-ransomware/",
+      "description": "DeadLock ransomware has emerged as a financially motivated threat that locks files while threatening to publish stolen information. First observed in July 2025, it had listed more than 80 alleged v...",
+      "pub_date": "Tue, 11 Aug 2026 09:39:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/DeadLock-Ransomware-Stores-C2-Configuration-on-Polygon-Blockchain-to-Resist-Takedowns.webp"
+    },
+    {
+      "title": "LiteLLM Supply Chain Attack Potentially Exposes 2,500 Companies and 434,000 CI/CD Pipelines",
+      "link": "https://cybersecuritynews.com/litellm-supply-chain-attack/",
+      "description": "A LiteLLM compromise has raised concern over how a trusted AI software component can become an entry point into a network. The supply chain incident placed build systems, cloud accounts and source ...",
+      "pub_date": "Tue, 11 Aug 2026 09:07:48 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/LiteLLM-Supply-Chain-Attack-Potentially-Exposes-2500-Companies-and-434000-CI-CD-Pipelines.webp"
+    },
     {
       "title": "CISA Warns of SonicWall SMA1000 Vulnerabilities Exploited in Attacks to Deploy Ransomware",
       "link": "https://cybersecuritynews.com/sonicwall-sma1000-vulnerabilities-exploited/",
@@ -56,9 +83,9 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Anthropic-to-Adds-Invisible-Watermarks-to-all-Claude-AI-Outputs-.webp"
     },
     {
-      "title": "New Phishing Attack Leverage SSL/TLS Certificates to Target High-value Brands Customers Via Whatsapp",
+      "title": "New Phishing Attack Uses SSL/TLS Certificates to Target Customers of High-Value Brands via WhatsApp",
       "link": "https://cybersecuritynews.com/new-phishing-attack/",
-      "description": "A phishing operation is using web certificates and chosen web addresses to target customers of high-value brands through WhatsApp. The activity is designed to make fraudulent pages look normal at a...",
+      "description": "A new phishing attack is using web certificates and chosen web addresses to target customers of high-value brands through WhatsApp. The activity is designed to make fraudulent pages look normal at ...",
       "pub_date": "Tue, 11 Aug 2026 05:52:31 +0000",
       "source": "Cyber Security News",
       "tier": 3,
@@ -144,24 +171,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNv5C82jT_6YlarerdXnoAR_tT3E8xP65ZWuJfpvOKU9baBT5UACUTb88XvDQgQA6RrYuqPK3FstaqwacR9gDjD0qwk3HUYl0wK848phyphenhyphenFuqRrOA1AqdISQaA6tpEqg0n2XJIA22NeNNbhei1bAgcyghnc2qaVfSvh4fd9J1oD4xVi-DQcNSOYWQovyUst/s1600/strom-ransomware.jpg"
-    },
-    {
-      "title": "HP ThinPro TPM Disk Encryption Flaw Lets Attackers Extract LUKS Keys",
-      "link": "https://cybersecuritynews.com/hp-thinpro-tpm-disk-encryption-flaw/",
-      "description": "A security researcher has disclosed a boot-chain weakness in HP ThinPro 8 and 9 that could allow attackers with physical access to a thin client to extract its LUKS disk-encryption key. The issue a...",
-      "pub_date": "Mon, 10 Aug 2026 16:26:46 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/HP-ThinPro-TPM-Disk-Encryption-Flaw-Lets-Attackers-Extract-LUKS-Keys.webp"
-    },
-    {
-      "title": "Pass-the-Passkey Attacks Expose Windows 11 and Microsoft Entra ID, Bypassing MFA",
-      "link": "https://cybersecuritynews.com/pass-the-passkey-attacks/",
-      "description": "A new \u0026#8220;Pass-the-Passkey\u0026#8221; family of attack techniques demonstrates how systemic implementation flaws surrounding WebAuthn can undermine passkey security even when cryptographic private k...",
-      "pub_date": "Mon, 10 Aug 2026 16:24:29 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Pass-the-Passkey-Attacks.webp"
     },
     {
       "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
@@ -360,15 +369,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
-    },
-    {
-      "title": "Real emails, hijacked payments: Two H1 2026 attack chains ",
-      "link": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
-      "description": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacki...",
-      "pub_date": "Fri, 07 Aug 2026 10:00:10 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "How we took malware advisories beyond npm",
