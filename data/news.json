@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-08-11T21:47:08Z",
+  "last_updated": "2026-08-11T22:42:09Z",
   "articles": [
+    {
+      "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
+      "link": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
+      "description": "The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communication with victims and data-leak activity. [...]",
+      "pub_date": "Tue, 11 Aug 2026 18:15:22 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Patch Tuesday - August 2026",
+      "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-august-2026",
+      "description": "Microsoft is publishing 421 vulnerabilities on August 2026 Patch Tuesday, including 236 vulnerabilities in Windows. This is lower volume than last month’s record-breaking behemoth, but still one ...",
+      "pub_date": "Tue, 11 Aug 2026 21:10:55 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt76ee31e15f145bd9/6849a5d2dc186db607081f3e/patch-tuesday-repeated.webp"
+    },
     {
       "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
       "link": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
@@ -281,15 +299,6 @@
       "image_url": ""
     },
     {
-      "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
-      "link": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
-      "description": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to creat...",
-      "pub_date": "Mon, 10 Aug 2026 17:12:10 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Rapid7 Analysis: Unauthenticated Remote Code Execution in JetBrains TeamCity (CVE-2026-63077)",
       "link": "https://www.rapid7.com/blog/post/ra-unauthenticated-rce-in-jetbrains-teamcity-cve-2026-63077",
       "description": "OverviewOn July 27, 2026, JetBrains published a security advisory for CVE-2026-63077, a critical unsafe deserialization vulnerability affecting JetBrains TeamCity. An attacker who can reach a TeamC...",
@@ -549,15 +558,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt62de3c632e7d1ef7/6984a555a6b5ef052cb93196/Chrysalis-backdoor-blog.jpg"
-    },
-    {
-      "title": "Rapid7 Analysis: Check Point SmartConsole Authentication Bypass (CVE-2026-16232)",
-      "link": "https://www.rapid7.com/blog/post/ra-check-point-smartconsole-authentication-bypass-technical-analysis-cve-2026-16232",
-      "description": "OverviewOn July 22, 2026, Check Point published a security advisory for CVE-2026-16232, an authentication bypass in the SmartConsole login process affecting Security Management Server and Multi-Dom...",
-      "pub_date": "Tue, 28 Jul 2026 18:32:03 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
     },
     {
       "title": "Disrupting supply chain attacks on npm and GitHub Actions",
