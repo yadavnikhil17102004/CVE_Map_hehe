@@ -1,14 +1,59 @@
 {
-  "last_updated": "2026-08-11T13:05:29Z",
+  "last_updated": "2026-08-11T14:57:42Z",
   "articles": [
     {
-      "title": "Hackers Hide Malware Infrastructure on Polygon Blockchain and Trick Users Into Running It With ClickFix",
-      "link": "https://cybersecuritynews.com/hackers-hide-malware-polygon-blockchain/",
-      "description": "Hackers are using the Polygon blockchain to keep parts of a malware operation out of plain sight. The campaign, tracked as ErrTraffic, turns hacked WordPress sites into launch points for fake verif...",
-      "pub_date": "Tue, 11 Aug 2026 12:24:18 +0000",
-      "source": "Cyber Security News",
+      "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
+      "link": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
+      "description": "Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]",
+      "pub_date": "Tue, 11 Aug 2026 09:20:28 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Hide-Malware-Infrastructure-on-Polygon-Blockchain-and-Trick-Users-Into-Running-It-With-ClickFix.webp"
+      "image_url": ""
+    },
+    {
+      "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
+      "link": "https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/",
+      "description": "AI agents can improvise beyond the intended scope of a task when they are given broad access to enterprise systems and data. Token Security explains why organizations need to define agent intent an...",
+      "pub_date": "Tue, 11 Aug 2026 09:15:24 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+      "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+      "description": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response.  \"Built on GPT‑...",
+      "pub_date": "Tue, 11 Aug 2026 18:41:23 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEFEJ72sE5G8XpyLqNLnPaYpMcgnUe7K9XLKyJD3zxcwPABaJlkkFpiQd4p3GW4TSWg-eDlFRplyPtmKQjfHR7OwsvO0hOJQo8xmzqxpXy1v1k1VLpxFVs2Nghd6IDGpAcraSGGUYI1_pnFQ8A3Tcox-iKzHIayhoCiXMJPska8cfsiTvNd6dmSMLKEUmN/s1600/openai-exploit.jpg"
+    },
+    {
+      "title": "DDoS attacks over 1 Tbps surged fivefold in the second quarter",
+      "link": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
+      "description": "Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the year. [...]",
+      "pub_date": "Tue, 11 Aug 2026 09:00:00 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "CVE-2026-63520: Microsoft SharePoint Remote Code Execution (FIXED)",
+      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63520-microsoft-sharepoint-remote-code-execution-fixed",
+      "description": "OverviewRapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated re...",
+      "pub_date": "Tue, 11 Aug 2026 13:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+    },
+    {
+      "title": "Rapid7 Analysis: Microsoft SharePoint JWT Token Authentication Bypass (CVE-2026-55040)",
+      "link": "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-jwt-token-authentication-bypass-cve-2026-55040",
+      "description": "OverviewOn July 14, 2026, Rapid7 and Microsoft disclosed CVE-2026-55040, an authentication bypass vulnerability affecting Microsoft SharePoint. Today we are publishing a technical analysis of the v...",
+      "pub_date": "Tue, 11 Aug 2026 13:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
     },
     {
       "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
@@ -47,15 +92,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIGgelUshBcG56Nc5uWqBbhQwtUxWtNgSIRTCiJXZoJtkuTWeXEV0KiWRje-UhGGnrvf6wNOmmBGQ7yAxKNigAuJE00RicY4ris0k02Dd_1ch7_RcSM2aJtGvgf4miSazvFMNEqTmVDY3nlDT1zPwg5vkafqzMwbkFRZ1kO4xU2mzZgfxAEUTM0zObjGE/s1600/nk.jpg"
     },
     {
-      "title": "Compromised FortiGate VPN Opens First Step in Multi-Network Polish Energy Attack",
-      "link": "https://cybersecuritynews.com/compromised-fortigate-vpn/",
-      "description": "Poland’s energy sector attack has revealed how one compromised remote-access device can become the first step in a wider industrial intrusion. The campaign moved from a wind-farm network into a h...",
-      "pub_date": "Tue, 11 Aug 2026 11:23:52 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Compromised-FortiGate-VPN-Opens-First-Step-in-Multi-Network-Polish-Energy-Attack.webp"
-    },
-    {
       "title": "Cisco warns of high-severity ClamAV flaws with public exploits",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/",
       "description": "Cisco warned of two high-severity vulnerabilities affecting the Secure Endpoint Connector that allow threat actors to crash the ClamAV scanning process in denial-of-service (DoS) attacks. [...]",
@@ -74,24 +110,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIoEoCsvghUx_eKGXl-WAFq7pyoOLwg_Sk9a5Ne8vX1Cb7l_DOib3wtO_5NwoogbHqFvU_VWJZd3ceL5ftpWOX5qNx5HNJCmD4_RR7GaiExk0ph2F3sp5eKPthiuTcmnDlJQyvUdkTMfxBUsIlXp_I9-qkSi4zxwVnLPb9bG-T3zFC7oFCI1Mps4VJf1s/s1600/pnp.gif"
     },
     {
-      "title": "New ‘Ghostjacking’ Attack Lets Hackers Hijack AI Agents to Run Their Code on Developer Machines",
-      "link": "https://cybersecuritynews.com/ghostjacking-attack/",
-      "description": "A new AI-agent attack technique called “Ghostjacking,” can trick coding agents into running attacker-controlled commands, changing cloud settings, stealing credentials, and creating persistent ...",
-      "pub_date": "Tue, 11 Aug 2026 10:33:29 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-‘Ghostjacking-Attack-Let-Hackers-hijack-AI-coding-Agents-to-run-their-code-on-Developers-Machine.webp"
-    },
-    {
-      "title": "Horizon3 Accelerates Partner-Led Growth with $20 Million Ecosystem Investment",
-      "link": "https://cybersecuritynews.com/horizon3-partner-investment/",
-      "description": "Proactive AI-native security vendor Horizon3 has announced a major $20 million investment into its global partner ecosystem. The funding reinforces the company\u0026#8217;s channel-first commercial stra...",
-      "pub_date": "Tue, 11 Aug 2026 10:28:44 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Horizon3-Partner-Investment.webp"
-    },
-    {
       "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
       "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
       "description": "A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instru...",
@@ -99,15 +117,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2hJoWr0m-Mx1rwaqZpbsdsQa5iSVY8J_jAnt0zKgBUlynOrS-NgEcINm3asfWZR-Ypx9y1iw28BOVud8sfaOQbiq4lmrvSnaZHUBlrkmkH9KXSPy4AXQkklS-AxG83dzpV8sSMj_uUDyVvZTgKs68EpYd18qHJTWF8s2NRaQIF80mh0e7mok6y0SqFi4/s1600/mcp-agent.jpg"
-    },
-    {
-      "title": "Chinese-speaking Hacking Group Attacking Users With Fake DeepSeek Page to Deliver Malware",
-      "link": "https://cybersecuritynews.com/hacking-group-attacking-fake-deepseek/",
-      "description": "Chinese-speaking cybercriminals are using fake software pages that imitate popular artificial intelligence tools to infect Windows users with remote access malware. The campaign turns interest in D...",
-      "pub_date": "Tue, 11 Aug 2026 10:07:44 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Chinese-speaking-Hacking-Group-Attacking-Users-With-Fake-DeepSeek-Page-to-Deliver-Malware.webp"
     },
     {
       "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
@@ -119,15 +128,6 @@
       "image_url": ""
     },
     {
-      "title": "DeadLock Ransomware Stores C2 Configuration on Polygon Blockchain to Resist Takedowns",
-      "link": "https://cybersecuritynews.com/deadlock-ransomware/",
-      "description": "DeadLock ransomware has emerged as a financially motivated threat that locks files while threatening to publish stolen information. First observed in July 2025, it had listed more than 80 alleged v...",
-      "pub_date": "Tue, 11 Aug 2026 09:39:02 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/DeadLock-Ransomware-Stores-C2-Configuration-on-Polygon-Blockchain-to-Resist-Takedowns.webp"
-    },
-    {
       "title": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks",
       "link": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
       "description": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world.  Targets of th...",
@@ -135,42 +135,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3nDJhjEnxo7k9DyrL4evBwNBVgGuv1CIsdfm0F5ed4HANv9HprVu790o5CVg8xQqft_tFRqLTrmQTrmkmZVTzEUZk08exDnnQjjnPLd4uhuicurtZbhpo-cMrv-yR_qIl58aJHvaPEP0aFgxpbnXYWKkk74qSytUvhk8LGSbewWumopWiQ6GECxsZ-1ff/s1600/ransomware-gunra.jpg"
-    },
-    {
-      "title": "LiteLLM Supply Chain Attack Potentially Exposes 2,500 Companies and 434,000 CI/CD Pipelines",
-      "link": "https://cybersecuritynews.com/litellm-supply-chain-attack/",
-      "description": "A LiteLLM compromise has raised concern over how a trusted AI software component can become an entry point into a network. The supply chain incident placed build systems, cloud accounts and source ...",
-      "pub_date": "Tue, 11 Aug 2026 09:07:48 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/LiteLLM-Supply-Chain-Attack-Potentially-Exposes-2500-Companies-and-434000-CI-CD-Pipelines.webp"
-    },
-    {
-      "title": "CISA Warns of SonicWall SMA1000 Vulnerabilities Exploited in Attacks to Deploy Ransomware",
-      "link": "https://cybersecuritynews.com/sonicwall-sma1000-vulnerabilities-exploited/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency warned that two SonicWall SMA1000 vulnerabilities, CVE-2026-15409 and CVE-2026-15410, are being exploited in ransomware attacks and have be...",
-      "pub_date": "Tue, 11 Aug 2026 08:35:34 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-SonicWall-SMA1000-Vulnerabilities-Exploited-in-Attacks-to-Deploy-Ransomware-.webp"
-    },
-    {
-      "title": "Hackers Actively Scanning to Exploit VMware VCenter Vulnerabilities",
-      "link": "https://cybersecuritynews.com/hackers-scan-vmware-vcenter-vulnerabilities/",
-      "description": "Attackers are scanning VMware vCenter after critical vulnerabilities were disclosed, with DefusedCyber’s honeypots recording increased vCenter fingerprinting activity. The activity includes reque...",
-      "pub_date": "Tue, 11 Aug 2026 07:59:20 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Actively-Scanning-to-Exploit-VMware-VCenter-Vulnerabilities-1.webp"
-    },
-    {
-      "title": "Abyssos RAT Includes RDPWrap-Related Module for Expanded Remote Access",
-      "link": "https://cybersecuritynews.com/abyssos-rat-rdpwrap/",
-      "description": "A new remote access trojan called Abyssos lets attackers control infected Windows systems. The malware can steal credentials, collect files, and open remote viewing sessions, while its modular desi...",
-      "pub_date": "Tue, 11 Aug 2026 07:27:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Abyssos-RAT-Includes-RDPWrap-Related-Module-for-Expanded-Remote-Access.webp"
     },
     {
       "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
@@ -296,7 +260,7 @@
       "pub_date": "Mon, 10 Aug 2026 17:55:04 +0530",
       "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWKCkGCqH-c6Yaqkd_NnzFQijViu34tjAEsdl9tl2CmZLHL4m1rLhezO76zF6XFRTGS9Sr4R3jhMD7z15QV0BMqG948bjg8SoZb_j6HtQajd0PUDR8Tmw06GMqDwS6VhAtH-ZNtD06lzb9KMhJsHi-Vvkps0n6bl6C8n6rSBHCldBuc1cMczr30h11N-8/s1600/passkeys.jpg"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXmfqNoa09hdS94VkCzlDhqshyphenhyphenLXM3mo93MtChM8pXBFJxCEh6iP7mlU-wcwnWZGROVidduvOqpGfWajbLA5PaTrH7tibyCqcvmlnS-b4c0yBcGZJ7eJLPPXxoutiEEt_rqGlPf4pSFUjWfmuuME7kegCwQam0Kf7VivC9nAUjKIvxYeBETap8ElXjck5R/s1600/intraid.jpg"
     },
     {
       "title": "LexisNexis shuts down services after suspicious activity on servers",
@@ -324,42 +288,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwaZH1uRwKD4SlLCwgb-7zVkEGjYYXdFxb21glBm3grBdwOZ_M-ECnOmNVFPPY6mg6wXUCf4R4xm9mI8mBiEm21Ixh6y9GXYvL9DKQgKEBkTN65AVQqFz9DJpMs6BRmrGWjGC5vDC-cFgx774ASr7j73D0wiRxrs9tKNdovUbwmLuGicKgcZeQR53z71bT/s1600/trueconf.jpg"
-    },
-    {
-      "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]",
-      "pub_date": "Mon, 10 Aug 2026 05:49:37 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
-      "link": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
-      "description": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and creden...",
-      "pub_date": "Mon, 10 Aug 2026 13:08:23 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR5_Dx4heVYIxaujo8ybl0OFdVuLzMFe0qdEdr6-q_QTdhSVlgHdrP6MeooXamFpRNfHjoAqTquvk3CkkCKUw1TQDkQJCrZY1RTC9iYK_bsTLNvpj0BZfFKFcnlt1RAlBvfcsWeSuLAn6Gwh9lur7v9-HlH-6ZpSmw7npsn9TSZAEpwFSFE54_xcFPcuDi/s1600/pro.jpg"
-    },
-    {
-      "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
-      "description": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
-      "pub_date": "Sat, 08 Aug 2026 10:16:23 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
-      "description": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
-      "pub_date": "Fri, 07 Aug 2026 16:14:46 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "Rapid7 Analysis: Unauthenticated Remote Code Execution in JetBrains TeamCity (CVE-2026-63077)",
@@ -639,24 +567,6 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": ""
-    },
-    {
-      "title": "Rapid7 Cyber GRC is now available: Turn security action into compliance proof",
-      "link": "https://www.rapid7.com/blog/post/pt-cyber-grc-available-prove-compliance-security",
-      "description": "Compliance has become one of the biggest operational drains on modern security teams. CISOs are being asked to manage a growing sprawl of frameworks, prove control effectiveness more often, respond...",
-      "pub_date": "Tue, 28 Jul 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt3cc8c945f314ec1f/68b9a045a7d14357b3ba893b/blog-hero-texture-lines.jpg"
-    },
-    {
-      "title": "The Next Evolution of MDR: Preemptive Defense and Agentic Investigation",
-      "link": "https://www.rapid7.com/blog/post/dr-the-next-evolution-mdr-preemptive-defense-agentic-investigation",
-      "description": "For years, security operations followed a familiar sequence: detect suspicious activity, investigate what happened, and respond before it caused significant harm. That model developed in a threat l...",
-      "pub_date": "Tue, 28 Jul 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blted8cb9466d79dc4d/6852c596a274324cfbb23d9d/PSN-gov-showcase-hero-image.png"
     },
     {
       "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
