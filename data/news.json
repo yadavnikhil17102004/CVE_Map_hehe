@@ -1,6 +1,51 @@
 {
-  "last_updated": "2026-08-11T11:43:38Z",
+  "last_updated": "2026-08-11T13:05:29Z",
   "articles": [
+    {
+      "title": "Hackers Hide Malware Infrastructure on Polygon Blockchain and Trick Users Into Running It With ClickFix",
+      "link": "https://cybersecuritynews.com/hackers-hide-malware-polygon-blockchain/",
+      "description": "Hackers are using the Polygon blockchain to keep parts of a malware operation out of plain sight. The campaign, tracked as ErrTraffic, turns hacked WordPress sites into launch points for fake verif...",
+      "pub_date": "Tue, 11 Aug 2026 12:24:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Hide-Malware-Infrastructure-on-Polygon-Blockchain-and-Trick-Users-Into-Running-It-With-ClickFix.webp"
+    },
+    {
+      "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
+      "description": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July...",
+      "pub_date": "Tue, 11 Aug 2026 08:12:16 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
+      "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
+      "description": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics...",
+      "pub_date": "Tue, 11 Aug 2026 17:35:03 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-_ftAONA3vSU_pho_96pouqt_n3CXa1PRfS2fhilG7JBshSuPpKNZzKVFvPRASkzNSVrDj-U4sISWf8TN9fuNqgAr4g07OYcRzZ7ecqVlAkd_C1EBL2bJZBCKMA90CLSrWN_s3I2-dhBLDGuH3juBdciPUruhDBkC2826KaVwB41tr122SnxgBeWw3VM/s1600/malware-sim.jpg"
+    },
+    {
+      "title": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo",
+      "link": "https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html",
+      "description": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company's own private code repos...",
+      "pub_date": "Tue, 11 Aug 2026 17:34:51 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV1-B4O1t_ddtTQg7WCfQLhdWxNygkI3C3DHfugd_0ogZbFCixAf-J9IffSq3KuSSPDofAEj5wNrVHlzRx3qbj7cPQhbBfnvOXOAJxjTSJ_7rdtZe3ne_R4Yz7Gv_7VrNH8CyB8psfzpejy9EbohuyYW3G1pg4FChDRVv8WPxp8B449rGIXnS4WSoD5JI/s1600/firefox.jpg"
+    },
+    {
+      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
+      "link": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
+      "description": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was rec...",
+      "pub_date": "Tue, 11 Aug 2026 17:05:03 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIGgelUshBcG56Nc5uWqBbhQwtUxWtNgSIRTCiJXZoJtkuTWeXEV0KiWRje-UhGGnrvf6wNOmmBGQ7yAxKNigAuJE00RicY4ris0k02Dd_1ch7_RcSM2aJtGvgf4miSazvFMNEqTmVDY3nlDT1zPwg5vkafqzMwbkFRZ1kO4xU2mzZgfxAEUTM0zObjGE/s1600/nk.jpg"
+    },
     {
       "title": "Compromised FortiGate VPN Opens First Step in Multi-Network Polish Energy Attack",
       "link": "https://cybersecuritynews.com/compromised-fortigate-vpn/",
@@ -135,15 +180,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS_4KcVdL2QogjCtjg4yqVFuDNgQ9a8SYCzjsxUKME896DBso0Zwpvb8gH9T5gMPOqM2LU-A-7IyKOqKpKiXgLWAdiABf4RrVvAq9nNpDDC2TNppKWt9RKVXmNr2-Z9Y1kIBNVi8fETA6Aj6K2s_gU0Hmc8CKDi1q1wbqD9G9uUP5cPpuwk5h88mfD9I0/s1600/power-plant.jpg"
-    },
-    {
-      "title": "Multiple ClamAV Vulnerabilities Allow Remote Attacker to Trigger DoS Condition",
-      "link": "https://cybersecuritynews.com/multiple-clamav-vulnerabilities-dos/",
-      "description": "Cisco has disclosed multiple high-severity vulnerabilities in ClamAV that could allow unauthenticated remote attackers to disrupt antivirus scanning operations and cause denial-of-service condition...",
-      "pub_date": "Tue, 11 Aug 2026 06:02:48 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Multiple-ClamAV-Vulnerabilities-Alow-remote-attacker-to-Trigger-DoS-condition-.webp"
     },
     {
       "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
@@ -308,15 +344,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR5_Dx4heVYIxaujo8ybl0OFdVuLzMFe0qdEdr6-q_QTdhSVlgHdrP6MeooXamFpRNfHjoAqTquvk3CkkCKUw1TQDkQJCrZY1RTC9iYK_bsTLNvpj0BZfFKFcnlt1RAlBvfcsWeSuLAn6Gwh9lur7v9-HlH-6ZpSmw7npsn9TSZAEpwFSFE54_xcFPcuDi/s1600/pro.jpg"
     },
     {
-      "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
-      "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
-      "description": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancem...",
-      "pub_date": "Mon, 10 Aug 2026 11:20:03 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgat4Wvo6Fpe6pNG66UengjFIWRohQUVp-khyphenhyphenxa57n9Ued3-mWlDeeTQkblpAP-OEjgSCbY0n1bC_MhI3a5_BF1bWq7rBohkS2DG1AXUtcDI8MuWPRMFKGNdteA7_Xkg-_6w-y-wao14ZPQWoRF8cnbibQYHUAGP1byqwYyBpcyvCBQd0h2fe6t94zvoa4j/s1600/openai-astra.jpg"
-    },
-    {
       "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
       "description": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
@@ -326,37 +353,10 @@
       "image_url": ""
     },
     {
-      "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
-      "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
-      "description": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found th...",
-      "pub_date": "Sat, 08 Aug 2026 14:24:50 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFYjJTxVoOMkR9DDRPZ5PkeR_EWAqmBScR3TPw3mlweipGlnQKq0OdfVqR2f26QIV3kBJWQIM65f8XwMSFq3zT6Bl4fsTvkPHxJiU2LilhK9s0tcreXt2gotEpE8sKoDrLQJ3SSVY9B-RS0FsS2dC480op8OV-caeaZvNyTiIipQbeNFJGMnAcjWEVq7g/s1600/rovo.jpg"
-    },
-    {
-      "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
-      "link": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
-      "description": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface.  Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail...",
-      "pub_date": "Sat, 08 Aug 2026 13:33:57 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCUnWbFb6UGu3ML1MqcuVXYwk0yoD6WzgXIQmi8ijkZQjS6M3g1F3kgV-RanNgyP1bdpNxDOOqMJzJnutZGh4MUVyYCbbu98sNXtAp-GWxueyKH9fDo3z9HmBl4tL-rj91kb11bhdhRvWGAYe56YGYMEzJgGIZeUqj9eGH10Bynj0YE6WMLl0J7O-HhLc/s1600/css-bomb.jpg"
-    },
-    {
       "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
       "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
       "description": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
       "pub_date": "Fri, 07 Aug 2026 16:14:46 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Unlimited Technology Systems breach impacts 3.8 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
-      "description": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
-      "pub_date": "Fri, 07 Aug 2026 15:30:41 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
