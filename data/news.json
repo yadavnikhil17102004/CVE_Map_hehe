@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-11T20:43:17Z",
+  "last_updated": "2026-08-11T21:47:08Z",
   "articles": [
+    {
+      "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
+      "link": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
+      "description": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since at least May. [...]",
+      "pub_date": "Tue, 11 Aug 2026 17:07:24 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
       "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
@@ -74,15 +83,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft Patch Tuesday Update August 2026 – 394 Vulnerabilities Fixed, Including 3 Zero-Days",
-      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-update-august-2026/",
-      "description": "Microsoft has released its August 2026 Patch Tuesday security updates, addressing a massive 394 vulnerabilities across Windows, Microsoft Office, SharePoint Server, Azure services, .NET, PowerShell...",
-      "pub_date": "Tue, 11 Aug 2026 17:49:40 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Patch-Tuesday-Update-August-2026.webp"
-    },
-    {
       "title": "Windows 11 KB5121003 \u0026 KB5120240 cumulative updates released",
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/",
       "description": "Microsoft has released Windows 11 KB5121003 and KB5120240 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
@@ -90,24 +90,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "DEF CON Attendees Allegedly Jammed Plane Wi-Fi and Broadcast Fake ‘Delta WiFi Fast’ Network",
-      "link": "https://cybersecuritynews.com/def-con-attendees-plane-wi-fi/",
-      "description": "A Delta Air Lines flight carrying passengers home from the world’s largest hacking conference became the center of a rapidly unfolding cybersecurity scare on Monday, after crew members reported t...",
-      "pub_date": "Tue, 11 Aug 2026 17:24:05 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/DEF-CON-Attendees-Plane-Wi-Fi-.webp"
-    },
-    {
-      "title": "Zoom Zero-Click Vulnerabilities Allow Meeting Participants to Hijack Other Users’ Devices",
-      "link": "https://cybersecuritynews.com/zoom-zero-click-vulnerabilities/",
-      "description": "Zoom has rolled out patches for four newly disclosed security flaws that could let a malicious meeting participant remotely execute code on another attendee\u0026#8217;s computer, with no clicks, downlo...",
-      "pub_date": "Tue, 11 Aug 2026 17:03:15 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zoom-Zero-Click-Vulnerabilities.webp"
     },
     {
       "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
@@ -119,15 +101,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbDSDTAbeeAZ8pykGFRAGcCDs_3LZBuD8tYUJfh0jG35r_o84zM_bNo7q3TWcoEMPmZqvhzucujEF72b2c2HnzfDjowsj4Iw4psQEwcgADR_rVMCXVw18arcpSB0WLblkZeypa-bgJPsD0qwrqBUk2umKezFZTtuDpbi_kQlsGUSiveb2suBMRyc3oZhQ/s1600/admin.jpg"
     },
     {
-      "title": "CopyEscape Docker Vulnerability Lets Malicious Containers Overwrite Host Files and Gain Root",
-      "link": "https://cybersecuritynews.com/copyescape-docker-vulnerability/",
-      "description": "A newly disclosed Docker vulnerability, tracked as CVE-2026-17106 and nicknamed \u0026#8220;CopyEscape,\u0026#8221; allows malicious containers to overwrite files on the host machine and, in certain configur...",
-      "pub_date": "Tue, 11 Aug 2026 16:39:54 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CopyEscape-Docker-Vulnerability.webp"
-    },
-    {
       "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
       "link": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
       "description": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience. ...",
@@ -137,24 +110,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHe7Kt8X_4eEC2ICocbCp-eg1Vs7xknMUYEnZzepw5j6mg7v7C7DmPvzf4S-Z4wGhofTJco3eW95xPm3x7nDEzdfF9dpJAEriyIAGsXqNcLT02br6Em30kPnD5vYp4CrHHAR8TvvNr6glr8mIeRwhPANZqTSG7w_tR1-8QUNgYWg4AXgVPrmob7CFzwLmA/s1600/deadlock.jpg"
     },
     {
-      "title": "Intel’s $20 Billion Stock Sale Fuels a Bigger Fight Over Chip Supply Chain Security",
-      "link": "https://cybersecuritynews.com/intel-20-billion-stock-sale-chip-security/",
-      "description": "Intel has priced an upsized $20 billion public stock offering, a move that goes beyond a routine capital raise and lands squarely in the middle of an ongoing global debate over semiconductor supply...",
-      "pub_date": "Tue, 11 Aug 2026 16:07:08 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Intels-20-Billion-Stock-Sale-Chip-Security.webp"
-    },
-    {
-      "title": "Zenity Raises $125 Million Series C to Strengthen AI Agent Security and Governance",
-      "link": "https://cybersecuritynews.com/zenity-ai-agent-security/",
-      "description": "AI security and governance platform Zenity has announced a $125 million Series C funding round led by Norwest. The investment signals escalating enterprise concern over the security risks associate...",
-      "pub_date": "Tue, 11 Aug 2026 16:00:10 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zenity-AI-Agent-Security.webp"
-    },
-    {
       "title": "Wesco confirms security incident after ExfilSquad claims data theft",
       "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
       "description": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
@@ -162,42 +117,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "OpenAI, Anthropic, and Google LLM APIs vulnerability Exposes Hidden Reasoning Traces",
-      "link": "https://cybersecuritynews.com/top-ai-models-apis-flaw-exposes-hidden-reasoning/",
-      "description": "A significant architectural flaw in how major AI providers, including OpenAI, Anthropic, and Google, protect the internal \u0026#8220;chain-of-thought\u0026#8221; reasoning generated by their flagship large ...",
-      "pub_date": "Tue, 11 Aug 2026 15:35:32 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/LLM-APIs-Expose-Hidden-Reasoning-Traces.webp"
-    },
-    {
-      "title": "Ivanti Endpoint Manager Vulnerabilities Let Remote Attackers Crash Agent Service",
-      "link": "https://cybersecuritynews.com/ivanti-endpoint-manager-flaw-crash-service/",
-      "description": "Ivanti has issued a security advisory for Ivanti Endpoint Manager (EPM), disclosing three high-severity vulnerabilities that could allow remote attackers to crash agent services, hijack cloud stora...",
-      "pub_date": "Tue, 11 Aug 2026 15:06:44 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Ivanti-Endpoint-Manager-Vulnerabilities.webp"
-    },
-    {
-      "title": "Critical SAP Vulnerabilities Let Attackers Inject Malicious Code and Corrupt Memory",
-      "link": "https://cybersecuritynews.com/sap-vulnerabilities-malicious-code-injection/",
-      "description": "SAP\u0026#8217;s August 2026 Security Patch Day has delivered a substantial round of fixes, addressing 28 new security notes and one GitHub security advisory, alongside two updates to previously release...",
-      "pub_date": "Tue, 11 Aug 2026 15:02:28 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/SAP-Vulnerabilities-Malicious-Code-Injection-1.webp"
-    },
-    {
-      "title": "Hackers Can Turn Off Refrigeration While the Temperature Display Still Looks Normal",
-      "link": "https://cybersecuritynews.com/hackers-can-turn-off-refrigeration/",
-      "description": "Claroty Team82 has uncovered 23 vulnerabilities in Copeland’s XWEB Pro supervisory controllers, widely used to manage commercial refrigeration in supermarkets, warehouses, and hospitals. Of these...",
-      "pub_date": "Tue, 11 Aug 2026 14:15:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Can-Turn-Off-Refrigeration-While-the-Temperature-Display-Still-Looks-Normal.webp"
     },
     {
       "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
@@ -366,15 +285,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
       "description": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to creat...",
       "pub_date": "Mon, 10 Aug 2026 17:12:10 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users",
-      "link": "https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/",
-      "description": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and remediation. [...]",
-      "pub_date": "Mon, 10 Aug 2026 15:24:40 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
