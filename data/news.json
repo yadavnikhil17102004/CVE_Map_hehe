@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-08-12T01:56:40Z",
+  "last_updated": "2026-08-12T04:11:04Z",
   "articles": [
+    {
+      "title": "Microsoft Outlook Vulnerability Allows Attackers to Execute Malicious Code Remotely",
+      "link": "https://cybersecuritynews.com/microsoft-outlook-rce-vulnerability-2/",
+      "description": "Microsoft has disclosed a new remote code execution flaw in Outlook, tracked as CVE-2026-70329, as part of its August 2026 Patch Tuesday rollout. The vulnerability stems from an integer overflow or...",
+      "pub_date": "Wed, 12 Aug 2026 03:40:32 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Outlook-RCE-Vulnerability1.webp"
+    },
+    {
+      "title": "Lazarus Hackers Actively Exploiting Windows AFD.sys Zero-Day to Deploy FudModule Rootkit",
+      "link": "https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited/",
+      "description": "North Korea\u0026#8217;s Lazarus group has been caught exploiting a Windows kernel 0-day vulnerability to deploy an upgraded version of its notorious FudModule rootkit, according to new research from Ch...",
+      "pub_date": "Wed, 12 Aug 2026 03:23:37 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Windows-AFD.sys-Zero-Day-Exploited.webp"
+    },
     {
       "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
       "link": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/",
@@ -218,24 +236,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Ivanti-Endpoint-Manager-Vulnerabilities.webp"
     },
     {
-      "title": "Critical SAP Vulnerabilities Let Attackers Inject Malicious Code and Corrupt Memory",
-      "link": "https://cybersecuritynews.com/sap-vulnerabilities-malicious-code-injection/",
-      "description": "SAP\u0026#8217;s August 2026 Security Patch Day has delivered a substantial round of fixes, addressing 28 new security notes and one GitHub security advisory, alongside two updates to previously release...",
-      "pub_date": "Tue, 11 Aug 2026 15:02:28 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/SAP-Vulnerabilities-Malicious-Code-Injection-1.webp"
-    },
-    {
-      "title": "Hackers Can Turn Off Refrigeration While the Temperature Display Still Looks Normal",
-      "link": "https://cybersecuritynews.com/hackers-can-turn-off-refrigeration/",
-      "description": "Claroty Team82 has uncovered 23 vulnerabilities in Copeland’s XWEB Pro supervisory controllers, widely used to manage commercial refrigeration in supermarkets, warehouses, and hospitals. Of these...",
-      "pub_date": "Tue, 11 Aug 2026 14:15:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Can-Turn-Off-Refrigeration-While-the-Temperature-Display-Still-Looks-Normal.webp"
-    },
-    {
       "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
       "link": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
       "description": "Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]",
@@ -389,6 +389,141 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh96gU64z_xM5LiLI39IXPndJ1felnUkfQmWxQ2sGfE9r_yYK6AKPLV3x6uVWeZxZoEsJwy0h7OUHILX1sAbwc6MYHpIeeTvCVeH52TnCInqqjjRPW4-Sx7gPPq4abN7ltCnClrjRhDDqyON8UBxcKFjoyubm7CeEgaZos3j4OCLJdRozfEOrDX1rPsnSoF/s1600/wordpress.jpg"
     },
     {
+      "title": "ZDI-26-556: Parallels RAS Client RDP Backend Service Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-556/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels RAS Client. An attacker must first obtain the ability to execute low-privileged code on the t...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-555: Parallels RAS Client RDP Backend Service Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-555/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels RAS Client. An attacker must first obtain the ability to execute low-privileged code on the t...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-554: Parallels RAS Client RDP Backend Service Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-554/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels RAS Client. An attacker must first obtain the ability to execute low-privileged code on the t...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-553: OriginLab Origin Viewer OGW File Parsing Memory Corruption Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-553/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the tar...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-552: OriginLab Origin Viewer OPJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-552/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the tar...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-551: OriginLab OriginPro OGG File Parsing Memory Corruption Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-551/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro . User interaction is required to exploit this vulnerability in that the target...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-550: OriginLab OriginPro OGW File Parsing Memory Corruption Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-550/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target ...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-549: OriginLab OriginPro OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-549/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target ...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-548: OriginLab OriginPro OPJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-548/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target ...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-547: OriginLab OriginPro OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-547/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target ...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-546: Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-546/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS ...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-545: Flowise CSV_Agent customReadCSV Code Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-545/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rati...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-544: Microsoft Windows Deployment Services Use-After-Free Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-544/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Microsoft Windows Server. Authentication is not required to exploit this vulnerability. H...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-543: Microsoft Windows ICC File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-543/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Windows. Interaction with the Mscms.dll color management library is required to exploit t...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-542: Microsoft Windows UMPDDrvBitBlt Improper Object Management Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-542/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the targ...",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
       "title": "Rapid7 Analysis: Unauthenticated Remote Code Execution in JetBrains TeamCity (CVE-2026-63077)",
       "link": "https://www.rapid7.com/blog/post/ra-unauthenticated-rce-in-jetbrains-teamcity-cve-2026-63077",
       "description": "OverviewOn July 27, 2026, JetBrains published a security advisory for CVE-2026-63077, a critical unsafe deserialization vulnerability affecting JetBrains TeamCity. An attacker who can reach a TeamC...",
@@ -403,33 +538,6 @@
       "description": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid. The post How we took malwa...",
       "pub_date": "Thu, 06 Aug 2026 16:51:12 +0000",
       "source": "GitHub Security",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-526: (0Day) PAX Technology Q80 Application Installer Signature Verification Bypass Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-526/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of PAX Technology Q80. Authentication is not required to exploit this vulnerability. The ZDI...",
-      "pub_date": "Wed, 05 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-525: (0Day) PAX Technology Q80 AIP File Parsing Link Following Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-525/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of PAX Technology Q80. Authentication is not required to exploit this vulnerability. The ZDI...",
-      "pub_date": "Wed, 05 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-524: (0Day) PAX Technology Q80 XCB Daemon Missing Authentication Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-524/",
-      "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information and modify configuration on affected installations of PAX Technology Q80. Authentication is not required to ex...",
-      "pub_date": "Wed, 05 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
       "tier": 4,
       "image_url": ""
     },
@@ -513,114 +621,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "ZDI-26-523: Hugging Face PyTorch Image Models checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-523/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hugging Face PyTorch Image Models. User interaction is required to exploit this vulnerability in th...",
-      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-522: Phoenix Contact CHARX SEC-3000 Insertion of Sensitive Information into Log File Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-522/",
-      "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Phoenix Contact CHARX SEC-3000 devices. Authentication is not required to exploit...",
-      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-521: Phoenix Contact CHARX SEC-3000 Command Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-521/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Phoenix Contact CHARX SEC-3000 devices. Authentication is required to exploit this vulner...",
-      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-520: (Pwn2Own) Phoenix Contact CHARX SEC-3150 Jupicore External Control of Path Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-520/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vu...",
-      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-519: (Pwn2Own) Phoenix Contact CHARX SEC-3150 CharxSystemConfigManager Configuration Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-519/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vu...",
-      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-518: (Pwn2Own) Phoenix Contact CHARX SEC-3150 MQTT Service Server-Side Request Forgery Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-518/",
-      "description": "This vulnerability allows network-adjacent attackers to access internal resources on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this...",
-      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-517: (Pwn2Own) Phoenix Contact CHARX SEC-3150 BackendURL WebSocket Command Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-517/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Phoenix Contact CHARX SEC-3150 devices. Although authentication is required to exploit th...",
-      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-516: (Pwn2Own) Phoenix Contact CHARX SEC-3150 ModBus Server Exposed Dangerous Function Denial-of-Service Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-516/",
-      "description": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to e...",
-      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-515: (Pwn2Own) Phoenix Contact CHARX SEC-3150 charx-jupicore Missing Authentication Configuration Modification Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-515/",
-      "description": "This vulnerability allows network-adjacent attackers to modify configuration on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vuln...",
-      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-514: (Pwn2Own) Phoenix Contact CHARX SEC-3150 Failing Open Authentication Bypass Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-514/",
-      "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vul...",
-      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-513: (Pwn2Own) Phoenix Contact CHARX SEC-3150 update2-upload Arbitrary File Upload Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-513/",
-      "description": "This vulnerability allows network-adjacent attackers to upload arbitrary files on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is required to exploit this vulner...",
-      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-512: (Pwn2Own) Phoenix Contact CHARX SEC-3150 ModBus Server Exposed Dangerous Function Denial-of-Service Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-512/",
-      "description": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to e...",
-      "pub_date": "Thu, 30 Jul 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
     },
     {
       "title": "CVE-2026-63077: Critical unauthenticated remote code execution in JetBrains TeamCity",
