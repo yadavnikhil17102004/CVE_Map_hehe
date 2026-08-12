@@ -1,23 +1,14 @@
 {
-  "last_updated": "2026-08-12T14:57:21Z",
+  "last_updated": "2026-08-12T16:02:05Z",
   "articles": [
     {
-      "title": "Eclipse Ransomware Launches RaaS Platform Targeting Windows, Linux, and ESXi Infrastructure",
-      "link": "https://cybersecuritynews.com/eclipse-ransomware-raas-platform/",
-      "description": "A threat actor operating under the handle EclipseSupport is actively promoting a new Ransomware-as-a-Service (RaaS) operation named Eclipse Ransomware on cybercrime forums. The group is recruiting ...",
-      "pub_date": "Wed, 12 Aug 2026 14:35:59 +0000",
-      "source": "Cyber Security News",
+      "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
+      "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
+      "description": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]",
+      "pub_date": "Wed, 12 Aug 2026 11:38:08 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Eclipse-Ransomware-RaaS-Platform.webp"
-    },
-    {
-      "title": "Google Chrome 151 Patches Five High-Severity Use-After-Free Flaws in V8, Blink, and Extensions",
-      "link": "https://cybersecuritynews.com/chrome-151-high-severity-flaws/",
-      "description": "Google has officially released Chrome 151 to the Stable channel, mitigating five high-severity security vulnerabilities impacting key browser engine components, including the V8 JavaScript engine, ...",
-      "pub_date": "Wed, 12 Aug 2026 14:31:33 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Chrome-151-Patches-Five-High-Severity-Flaws.webp"
+      "image_url": ""
     },
     {
       "title": "FBI: Hackers target online accounts to steal nude photos",
@@ -47,24 +38,6 @@
       "image_url": ""
     },
     {
-      "title": "Hackers Actively Exploiting VMware vCenter Systems to Gain and Maintain Remote Access",
-      "link": "https://cybersecuritynews.com/vmware-vcenter-remote-access-exploited/",
-      "description": "An active cyberattack campaign targeting internet-accessible VMware vCenter instances. QUIRSO researchers uncovered evidence that advanced persistent threat (APT) actors are actively weaponizing CV...",
-      "pub_date": "Wed, 12 Aug 2026 13:58:15 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/VMware-vCenter-Remote-Access.webp"
-    },
-    {
-      "title": "737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies",
-      "link": "https://cybersecuritynews.com/fake-chrome-vpn-extensions/",
-      "description": "Hundreds of Chrome extensions advertised as free VPN or proxy tools have been tied to a large traffic-redirection operation. The listings promised privacy and access to blocked services, but their ...",
-      "pub_date": "Wed, 12 Aug 2026 13:05:25 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/737-Fake-Chrome-VPN-Extensions-Hijack-Browser-Traffic-Through-Attacker-Controlled-SOCKS5-Proxies.webp"
-    },
-    {
       "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
       "link": "https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation",
       "description": "Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan.And if you survey 500 security professionals on whether that's going well – ...",
@@ -74,24 +47,6 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0b0762ca94c50b0b/6846a711eac0e395093e52e3/AI.jpg"
     },
     {
-      "title": "2.86 Billion Credentials Flood Criminal Markets as Enterprise Access Moves Upmarket",
-      "link": "https://cybersecuritynews.com/credentials-flood-criminal-markets/",
-      "description": "Stolen login data is so abundant that criminal markets can sell it for almost nothing. Meanwhile, verified entry into large companies commands far higher prices, reshaping the underground economy. ...",
-      "pub_date": "Wed, 12 Aug 2026 12:52:07 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/2.86-Billion-Credentials-Flood-Criminal-Markets-as-Enterprise-Access-Moves-Upmarket.webp"
-    },
-    {
-      "title": "Fake CCleaner Download Installs GhostDesk Chrome Spyware on Windows PCs",
-      "link": "https://cybersecuritynews.com/fake-ccleaner-download/",
-      "description": "Windows users looking for a familiar cleanup utility are being steered toward a convincing counterfeit download page. The file they receive installs GhostDesk, a malicious Chrome extension built to...",
-      "pub_date": "Wed, 12 Aug 2026 12:28:02 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Fake-CCleaner-Download-Installs-GhostDesk-Chrome-Spyware-on-Windows-PCs.webp"
-    },
-    {
       "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
       "link": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/",
       "description": "Hackers have already begun using a proof-of-concept (PoC) exploit for a critical Microsoft SharePoint vulnerability, published by cybersecurity company Rapid7 on Tuesday. [...]",
@@ -99,15 +54,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "13-Minute WindRelay Malware Attack Uses SpyNote RAT and NFC Relay Malware to Drain Victim Accounts",
-      "link": "https://cybersecuritynews.com/13-minute-windrelay-malware-attack/",
-      "description": "A new Android fraud operation shows how quickly a convincing phone call can turn into financial loss. The campaign combines the SpyNote remote-control tool with WindRelay, a newly tracked NFC relay...",
-      "pub_date": "Wed, 12 Aug 2026 12:00:34 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/13-Minute-WindRelay-Malware-Attack-Uses-SpyNote-RAT-and-NFC-Relay-Malware-to-Drain-Victim-Accounts.webp"
     },
     {
       "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
@@ -153,33 +99,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Nightmare-Eclipse Drops ShieldBreak Windows Defender 0-day Vulnerability",
-      "link": "https://cybersecuritynews.com/nightmare-eclipse-drops-shieldbreak-0-day/",
-      "description": "The prolific and controversial security researcher known as Nightmare-Eclipse (also tracked under the alias Chaotic Eclipse) has released a ninth Windows zero-day exploit called ShieldBreak, and th...",
-      "pub_date": "Wed, 12 Aug 2026 10:12:10 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Nightmare-Eclipse-Drops-ShieldBreak-0-Day.webp"
-    },
-    {
-      "title": "CAV3RN Uses Google Apps Script as C2 Relay to Hide Malware Traffic Behind Google Infrastructure",
-      "link": "https://cybersecuritynews.com/cav3rn-uses-google-apps-script/",
-      "description": "CAV3RN is a modular espionage framework that is becoming harder to see on a network. Its newest communication component hides remote-control traffic behind Google Apps Script, a service many organi...",
-      "pub_date": "Wed, 12 Aug 2026 10:05:33 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CAV3RN-Uses-Google-Apps-Script-as-C2-Relay-to-Hide-Malware-Traffic-Behind-Google-Infrastructure.webp"
-    },
-    {
-      "title": "Sandworm Fake Job Interviews Push Trojanized WireGuard VPN to Infect IT Professionals",
-      "link": "https://cybersecuritynews.com/sandworm-fake-job-interviews/",
-      "description": "Sandworm has turned the routine job interview into a route for compromising IT workers. The campaign uses convincing recruiter conversations, live video calls and a booby-trapped virtual private ne...",
-      "pub_date": "Wed, 12 Aug 2026 09:04:15 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Sandworm-Fake-Job-Interviews-Push-Trojanized-WireGuard-VPN-to-Infect-IT-Professionals.webp"
     },
     {
       "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
@@ -366,15 +285,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
       "description": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
       "pub_date": "Tue, 11 Aug 2026 11:59:35 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
-      "link": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
-      "description": "Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]",
-      "pub_date": "Tue, 11 Aug 2026 09:20:28 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
