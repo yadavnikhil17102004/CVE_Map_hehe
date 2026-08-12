@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-08-12T08:17:48Z",
+  "last_updated": "2026-08-12T10:05:19Z",
   "articles": [
+    {
+      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+      "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+      "description": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.  The vulnerability in question is CVE-2026-...",
+      "pub_date": "Wed, 12 Aug 2026 14:31:54 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuo4K_GT6YrQhFiPQrrf58NN4PQM0_aYVTxWXeaJ1KsqjBJ69c746Hj6DyhGH-uzhZvEowVR8YMbITHBpOcT3OQevcTJg36qwJ1WfPtFZySMVg_B2JVBE763_JVHh3gn563WAYxf72bnd1g9QC2tkWd6Bbm9_TWXPhMxk1vnk6gxnUM4eDQNxXouVEtJ9i/s1600/vmware.jpg"
+    },
+    {
+      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+      "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+      "description": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and oth...",
+      "pub_date": "Wed, 12 Aug 2026 13:34:52 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjTLayRrpqM-bUGPU8pmWZIGJ_TCnkLLvykLv9Z_-R-QFmC1f6nIxSff2TTqZ77xC1n-l7Y44qKhUVdvRX9bUgNjVcGhF7A0vkRGnumHe6-bUoCFNH4PAb11zHkdjq3Xd2kF1jiGi8quRW4WFOy-0I_CRCorkQGuh9D2K8KhDAFxzsA7a0yxp2VkM-uGo/s1600/llmhack.jpg"
+    },
     {
       "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
       "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
@@ -270,24 +288,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
-      "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
-      "description": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully up...",
-      "pub_date": "Tue, 11 Aug 2026 16:18:26 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIoEoCsvghUx_eKGXl-WAFq7pyoOLwg_Sk9a5Ne8vX1Cb7l_DOib3wtO_5NwoogbHqFvU_VWJZd3ceL5ftpWOX5qNx5HNJCmD4_RR7GaiExk0ph2F3sp5eKPthiuTcmnDlJQyvUdkTMfxBUsIlXp_I9-qkSi4zxwVnLPb9bG-T3zFC7oFCI1Mps4VJf1s/s1600/pnp.gif"
-    },
-    {
-      "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
-      "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
-      "description": "A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instru...",
-      "pub_date": "Tue, 11 Aug 2026 15:54:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2hJoWr0m-Mx1rwaqZpbsdsQa5iSVY8J_jAnt0zKgBUlynOrS-NgEcINm3asfWZR-Ypx9y1iw28BOVud8sfaOQbiq4lmrvSnaZHUBlrkmkH9KXSPy4AXQkklS-AxG83dzpV8sSMj_uUDyVvZTgKs68EpYd18qHJTWF8s2NRaQIF80mh0e7mok6y0SqFi4/s1600/mcp-agent.jpg"
     },
     {
       "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
