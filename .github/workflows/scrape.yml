@@ -2,10 +2,15 @@ name: Continuous Exploit Scraper
 
 on:
   schedule:
-    # Runs every 6 hours to stay ahead
-    - cron: "0 */6 * * *"
+    # Runs every 6 hours (offset from top-of-hour news pushes to reduce git contention)
+    - cron: "17 */6 * * *"
   # Allows manual triggers from the Actions tab
   workflow_dispatch:
+
+concurrency:
+  # Shared with news workflow so only one data-writer runs at a time on main.
+  group: data-sync-main
+  cancel-in-progress: false
 
 jobs:
   scrape_and_aggregate:

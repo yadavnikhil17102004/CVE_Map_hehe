@@ -7,6 +7,11 @@ on:
   # Allows manual triggers from the Actions tab
   workflow_dispatch:
 
+concurrency:
+  # Shared with scrape workflow so only one data-writer runs at a time on main.
+  group: data-sync-main
+  cancel-in-progress: false
+
 jobs:
   scrape_news:
     runs-on: ubuntu-latest
@@ -29,11 +34,33 @@ jobs:
           git config --local user.name "GitHub Action Bot"
           # Only commit the news file to prevent race conditions with the CVE scraper
           git add data/news.json
-          if ! git diff --quiet || ! git diff --staged --quiet; then
+          if ! git diff --cached --quiet; then
             git commit -m "data: hourly live news feed intelligence update"
-            # Rebase in case the scraper workflow pushed while this run was executing
-            git pull --rebase origin main
-            git push origin HEAD:main
+
+            max_attempts=5
+            success=0
+            for attempt in $(seq 1 "$max_attempts"); do
+              echo "Push attempt ${attempt}/${max_attempts}"
+
+              # Rebase in case another workflow advanced main while this job was running.
+              if ! git pull --rebase origin main; then
+                git rebase --abort || true
+                sleep $((attempt * 4))
+                continue
+              fi
+
+              if git push origin HEAD:main; then
+                success=1
+                break
+              fi
+
+              sleep $((attempt * 4))
+            done
+
+            if [ "$success" -ne 1 ]; then
+              echo "Failed to push news updates after ${max_attempts} attempts."
+              exit 1
+            fi
           else
             echo "No news deltas. Skipping push."
           fi
