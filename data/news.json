@@ -1,6 +1,51 @@
 {
-  "last_updated": "2026-08-12T16:02:05Z",
+  "last_updated": "2026-08-12T17:57:14Z",
   "articles": [
+    {
+      "title": "Palo Alto Networks Patches 11 New Vulnerabilities Across PAN-OS, GlobalProtect, and Prisma Access",
+      "link": "https://cybersecuritynews.com/palo-alto-networks-vulnerabilities/",
+      "description": "Palo Alto Networks has released its August 12, 2026 security bulletin, disclosing 11 new vulnerabilities affecting PAN-OS, the GlobalProtect App, Prisma Access Agent, and Prisma Browser, along with...",
+      "pub_date": "Wed, 12 Aug 2026 17:26:16 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Palo-Alto-Networks-Vulnerabilities.webp"
+    },
+    {
+      "title": "New “City-Forum” Hackers Attacking Salesforce and ServiceNow Instances Worldwide",
+      "link": "https://cybersecuritynews.com/salesforce-and-servicenow-targeted-in-attacks/",
+      "description": "A newly identified threat actor is running a large-scale, long-running cyber campaign targeting Salesforce Experience Cloud sites and ServiceNow Service Portals globally. Dubbed the \u0026#8220;City-For...",
+      "pub_date": "Wed, 12 Aug 2026 17:17:31 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/City-Forum-Hackers-Salesforce-ServiceNow.webp"
+    },
+    {
+      "title": "Mindgard Raises $30 Million to Tackle AI’s Fastest-Growing Attack Surface",
+      "link": "https://cybersecuritynews.com/mindgard-ai-security/",
+      "description": "AI security startup Mindgard has closed a $30 million Series A funding round, pushing the company\u0026#8217;s total funding to nearly $42 million. The milestone reflects the growing urgency among enter...",
+      "pub_date": "Wed, 12 Aug 2026 17:09:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Mindgard-AI-Security.webp"
+    },
+    {
+      "title": "China-linked Hackers Using AI Agents to Attack Taiwan Government Websites",
+      "link": "https://cybersecuritynews.com/chinese-hackers-target-taiwan-using-ai/",
+      "description": "Suspected China-linked attackers have carried out what researchers describe as the first fully autonomous cyberattack on a foreign government, using open-source artificial intelligence tools to bre...",
+      "pub_date": "Wed, 12 Aug 2026 16:22:25 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Chinese-Hackers-Target-Taiwan-Using-AI.webp"
+    },
+    {
+      "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
+      "link": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
+      "description": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM...",
+      "pub_date": "Wed, 12 Aug 2026 12:05:12 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
       "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
@@ -9,6 +54,42 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Critical Adobe ColdFusion Vulnerabilities Allow Attackers to Execute Arbitrary Code",
+      "link": "https://cybersecuritynews.com/adobe-coldfusion-vulnerabilities-code-execution/",
+      "description": "Adobe has issued critical security updates for ColdFusion 2025 and ColdFusion 2023, addressing multiple vulnerabilities that could allow threat actors to execute arbitrary code, bypass security con...",
+      "pub_date": "Wed, 12 Aug 2026 15:29:52 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Adobe-ColdFusion-Vulnerabilities-Code-Execution.webp"
+    },
+    {
+      "title": "WhatsApp Unveils New Scam Alert Feature to Protect Users from Social Engineering Attacks",
+      "link": "https://cybersecuritynews.com/whatsapp-scam-alert-feature/",
+      "description": "WhatsApp has announced a new optional feature called Scam Alert, designed to warn users about potential scam messages using an on-device machine learning model, without compromising the platform\u0026#8...",
+      "pub_date": "Wed, 12 Aug 2026 14:59:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/WhatsApp-Scam-Alert-Feature.webp"
+    },
+    {
+      "title": "Eclipse Ransomware Launches RaaS Platform Targeting Windows, Linux, and ESXi Infrastructure",
+      "link": "https://cybersecuritynews.com/eclipse-ransomware-raas-platform/",
+      "description": "A threat actor operating under the handle EclipseSupport is actively promoting a new Ransomware-as-a-Service (RaaS) operation named Eclipse Ransomware on cybercrime forums. The group is recruiting ...",
+      "pub_date": "Wed, 12 Aug 2026 14:35:59 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Eclipse-Ransomware-RaaS-Platform.webp"
+    },
+    {
+      "title": "Google Chrome 151 Patches Five High-Severity Use-After-Free Flaws in V8, Blink, and Extensions",
+      "link": "https://cybersecuritynews.com/chrome-151-high-severity-flaws/",
+      "description": "Google has officially released Chrome 151 to the Stable channel, mitigating five high-severity security vulnerabilities impacting key browser engine components, including the V8 JavaScript engine, ...",
+      "pub_date": "Wed, 12 Aug 2026 14:31:33 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Chrome-151-Patches-Five-High-Severity-Flaws.webp"
     },
     {
       "title": "FBI: Hackers target online accounts to steal nude photos",
@@ -36,6 +117,24 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Hackers Actively Exploiting VMware vCenter Systems to Gain and Maintain Remote Access",
+      "link": "https://cybersecuritynews.com/vmware-vcenter-remote-access-exploited/",
+      "description": "An active cyberattack campaign targeting internet-accessible VMware vCenter instances. QUIRSO researchers uncovered evidence that advanced persistent threat (APT) actors are actively weaponizing CV...",
+      "pub_date": "Wed, 12 Aug 2026 13:58:15 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/VMware-vCenter-Remote-Access.webp"
+    },
+    {
+      "title": "737 Fake Chrome VPN Extensions Hijack Browser Traffic Through Attacker-Controlled SOCKS5 Proxies",
+      "link": "https://cybersecuritynews.com/fake-chrome-vpn-extensions/",
+      "description": "Hundreds of Chrome extensions advertised as free VPN or proxy tools have been tied to a large traffic-redirection operation. The listings promised privacy and access to blocked services, but their ...",
+      "pub_date": "Wed, 12 Aug 2026 13:05:25 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/737-Fake-Chrome-VPN-Extensions-Hijack-Browser-Traffic-Through-Attacker-Controlled-SOCKS5-Proxies.webp"
     },
     {
       "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
@@ -144,6 +243,69 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRIn51DQNDe2IfVEJzqiWXY9k8QyRhulSTcOh67As0Pj7Da1DCB5Lu1RBhjI55Y7_TF9PW9F9HOBn6moaPRNrpl0G_OGeMbC9z5BMfdOqtF6sHpd5tJLvQqnvlCd77R-4oCYiDVfFlUtRe4mp7W8cFDCHmJ8kz4TueVL06-jbGzpVdWasZF02YRwYyrZJc/s1600/cisco-powerhouse.jpg"
+    },
+    {
+      "title": "ZDI-26-563: (Pwn2Own) Home Assistant Green Simple Service Discovery Protocol Server-Side Request Forgery Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-563/",
+      "description": "This vulnerability allows network-adjacent attackers to initiate arbitrary server-side requests on affected installations of Home Assistant Green. Authentication is not required to exploit this vul...",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-562: (Pwn2Own) Home Assistant Green mDNS Server-Side Request Forgery Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-562/",
+      "description": "This vulnerability allows network-adjacent attackers to initiate arbitrary server-side requests on affected installations of Home Assistant Green. Authentication is not required to exploit this vul...",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-561: (Pwn2Own) Home Assistant Green go2rtc Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-561/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Home Assistant Green. An attacker must first obtain the ability to access the device\u0026#x27...",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-560: (Pwn2Own) Home Assistant Green go2rtc Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-560/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Home Assistant Green. An attacker must first obtain the ability to access the device\u0026#x27...",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-559: (Pwn2Own) Amazon Smart Plug OTA Update Process Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-559/",
+      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Amazon Smart Plug. Authentication is not required to exploit this vulnerability. The ZDI ...",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-558: (Pwn2Own) Amazon Smart Plug OTA Update Process Improper Certificate Validation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-558/",
+      "description": "This vulnerability allows network-adjacent attackers to bypass certificate validation for OTA updates on affected installations of Amazon Smart Plug. Authentication is not required to exploit this ...",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-557: (Pwn2Own) Amazon Smart Plug Insecure Fallback Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-557/",
+      "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Amazon Smart Plug. Authentication is not required to exploit this vulnerability. ...",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
     },
     {
       "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
@@ -281,15 +443,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHe7Kt8X_4eEC2ICocbCp-eg1Vs7xknMUYEnZzepw5j6mg7v7C7DmPvzf4S-Z4wGhofTJco3eW95xPm3x7nDEzdfF9dpJAEriyIAGsXqNcLT02br6Em30kPnD5vYp4CrHHAR8TvvNr6glr8mIeRwhPANZqTSG7w_tR1-8QUNgYWg4AXgVPrmob7CFzwLmA/s1600/deadlock.jpg"
     },
     {
-      "title": "Wesco confirms security incident after ExfilSquad claims data theft",
-      "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
-      "description": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
-      "pub_date": "Tue, 11 Aug 2026 11:59:35 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "CVE-2026-63520: Microsoft SharePoint Remote Code Execution (FIXED)",
       "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63520-microsoft-sharepoint-remote-code-execution-fixed",
       "description": "OverviewRapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated re...",
@@ -374,69 +527,6 @@
       "title": "ZDI-26-549: OriginLab OriginPro OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-549/",
       "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target ...",
-      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-548: OriginLab OriginPro OPJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-548/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target ...",
-      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-547: OriginLab OriginPro OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-547/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target ...",
-      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-546: Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-546/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS ...",
-      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-545: Flowise CSV_Agent customReadCSV Code Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-545/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rati...",
-      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-544: Microsoft Windows Deployment Services Use-After-Free Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-544/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Microsoft Windows Server. Authentication is not required to exploit this vulnerability. H...",
-      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-543: Microsoft Windows ICC File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-543/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Windows. Interaction with the Mscms.dll color management library is required to exploit t...",
-      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-542: Microsoft Windows UMPDDrvBitBlt Improper Object Management Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-542/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the targ...",
       "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
