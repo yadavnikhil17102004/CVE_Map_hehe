@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-08-13T06:16:59Z",
+  "last_updated": "2026-08-13T08:51:08Z",
   "articles": [
+    {
+      "title": "Akira Ransomware Uses Windows Safe Mode to Shut Down EDR Before Launching Encryptor",
+      "link": "https://cybersecuritynews.com/akira-uses-windows-safe-mode/",
+      "description": "Akira ransomware has added a new way to weaken Windows security before it tries to lock files. In a recent intrusion, an affiliate rebooted a compromised system into Safe Mode with Networking, leav...",
+      "pub_date": "Thu, 13 Aug 2026 08:17:04 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Akira-Ransomware-Uses-Windows-Safe-Mode-to-Shut-Down-EDR-Before-Launching-Encryptor.webp"
+    },
+    {
+      "title": "Trump Signs Memo Authorizing Private Firms for Cyber Operations Against Foreign Criminals",
+      "link": "https://cybersecuritynews.com/trump-memos-private-firms-cyber/",
+      "description": "President Donald Trump has signed a presidential memorandum that creates a pathway for companies to take part in government-led cyber operations against foreign criminal groups. The policy targets ...",
+      "pub_date": "Thu, 13 Aug 2026 08:14:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Trump-signs-memo-authorising-private-firms-for-cyber-operations-against-foreign-criminals.webp"
+    },
+    {
+      "title": "Critical Adobe Commerce Vulnerabilities Allows Hackers to Execute Arbitrary Code",
+      "link": "https://cybersecuritynews.com/adobe-commerce-vulnerabilities/",
+      "description": "Adobe has released an urgent security update for Adobe Commerce and Magento Open Source, fixing several vulnerabilities that could allow attackers to bypass security controls, gain higher privilege...",
+      "pub_date": "Thu, 13 Aug 2026 07:41:52 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Adobe-Commerce-Vulnerability-Allows-Hackers-to-Execute-arbitrary-code.webp"
+    },
+    {
+      "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+      "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+      "description": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code.  The vulnerability in question is CVE-2026-55040 (CV...",
+      "pub_date": "Thu, 13 Aug 2026 11:39:48 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_e1WsuZlqC_AfMpdI4wXB0wzIA6nGpPb5ktYmwO5jRhFqH2t56eGghhYAV7he6u0qTqiPacKD-Wf3c1vXxUmBV159KAObOJUTEDGdDafl9B0makdRgyKTUwWHZ5qxLpGbWRg33JJl_0KaY0K0fiWLaV2xghWX4KqUSeaoNgD9Z5ql1Q5VesZQyH-1eO7W/s1600/poc.jpg"
+    },
     {
       "title": "Cisco Firewall 0-Day Vulnerability Exploited in the Wild to Trigger DoS Condition",
       "link": "https://cybersecuritynews.com/cisco-firewall-0-day-vulnerability/",
@@ -126,33 +162,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Adobe-ColdFusion-Vulnerabilities-Code-Execution.webp"
-    },
-    {
-      "title": "WhatsApp Unveils New Scam Alert Feature to Protect Users from Social Engineering Attacks",
-      "link": "https://cybersecuritynews.com/whatsapp-scam-alert-feature/",
-      "description": "WhatsApp has announced a new optional feature called Scam Alert, designed to warn users about potential scam messages using an on-device machine learning model, without compromising the platform\u0026#8...",
-      "pub_date": "Wed, 12 Aug 2026 14:59:18 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/WhatsApp-Scam-Alert-Feature.webp"
-    },
-    {
-      "title": "Eclipse Ransomware Launches RaaS Platform Targeting Windows, Linux, and ESXi Infrastructure",
-      "link": "https://cybersecuritynews.com/eclipse-ransomware-raas-platform/",
-      "description": "A threat actor operating under the handle EclipseSupport is actively promoting a new Ransomware-as-a-Service (RaaS) operation named Eclipse Ransomware on cybercrime forums. The group is recruiting ...",
-      "pub_date": "Wed, 12 Aug 2026 14:35:59 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Eclipse-Ransomware-RaaS-Platform.webp"
-    },
-    {
-      "title": "Google Chrome 151 Patches Five High-Severity Use-After-Free Flaws in V8, Blink, and Extensions",
-      "link": "https://cybersecuritynews.com/chrome-151-high-severity-flaws/",
-      "description": "Google has officially released Chrome 151 to the Stable channel, mitigating five high-severity security vulnerabilities impacting key browser engine components, including the V8 JavaScript engine, ...",
-      "pub_date": "Wed, 12 Aug 2026 14:31:33 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Chrome-151-Patches-Five-High-Severity-Flaws.webp"
     },
     {
       "title": "FBI: Hackers target online accounts to steal nude photos",
@@ -432,15 +441,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP9vK0AfjfbpQDa7i5il113N22qO5N-mxuOw7qoNVnvUOnQIYRjhuKA8rxdRhaZ13t0r5jZtsj1bjQQatdbdxi3L1Fso99wsDJIAKkw6NVklb6S2PBfipUtUm6qNdGofjKrmSAHUc0P4qgPRK2tDoGftkwyD17KQHQm6cYP80rT4dUH-tg0rnd5SSfQBJl/s1600/interview.jpg"
-    },
-    {
-      "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-      "description": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through ...",
-      "pub_date": "Tue, 11 Aug 2026 22:17:44 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbDSDTAbeeAZ8pykGFRAGcCDs_3LZBuD8tYUJfh0jG35r_o84zM_bNo7q3TWcoEMPmZqvhzucujEF72b2c2HnzfDjowsj4Iw4psQEwcgADR_rVMCXVw18arcpSB0WLblkZeypa-bgJPsD0qwrqBUk2umKezFZTtuDpbi_kQlsGUSiveb2suBMRyc3oZhQ/s1600/admin.jpg"
     },
     {
       "title": "CVE-2026-63520: Microsoft SharePoint Remote Code Execution (FIXED)",
