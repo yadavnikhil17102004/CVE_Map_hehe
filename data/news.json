@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-13T17:57:30Z",
+  "last_updated": "2026-08-13T19:07:44Z",
   "articles": [
+    {
+      "title": "Hackers breach govt webmail while running parallel crypto fraud",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
+      "description": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
+      "pub_date": "Thu, 13 Aug 2026 14:15:19 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Microsoft patches LegacyHive Windows zero-day vulnerability",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
@@ -83,36 +92,135 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_e1WsuZlqC_AfMpdI4wXB0wzIA6nGpPb5ktYmwO5jRhFqH2t56eGghhYAV7he6u0qTqiPacKD-Wf3c1vXxUmBV159KAObOJUTEDGdDafl9B0makdRgyKTUwWHZ5qxLpGbWRg33JJl_0KaY0K0fiWLaV2xghWX4KqUSeaoNgD9Z5ql1Q5VesZQyH-1eO7W/s1600/poc.jpg"
     },
     {
-      "title": "ZDI-26-567: Norton Utilities Ultimate NortonUtilitiesSvc Link Following Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-567/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Norton Utilities Ultimate. An attacker must first obtain the ability to execute low-privileged code on ...",
+      "title": "ZDI-26-584: dnsmasq DNSSEC NSEC/NSEC3 Type Bitmap Processing Infinite Loop Denial-of-Service Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-584/",
+      "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of dnsmasq. Authentication is not required to exploit this vulnerability. The ZDI has as...",
       "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
       "image_url": ""
     },
     {
-      "title": "ZDI-26-566: BlackBerry QNX  KEV File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-566/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of BlackBerry QNX. User interaction is required to exploit this vulnerability in that the target must ...",
+      "title": "ZDI-26-583: Clam AntiVirus 7z Archive Parsing Integer Overflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-583/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Clam AntiVirus. Interaction with this product is required to exploit this vulnerability but attack ...",
       "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
       "image_url": ""
     },
     {
-      "title": "ZDI-26-565: Gen Digital CCleaner Link Following Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-565/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Gen Digital CCleaner. An attacker must first obtain the ability to execute low-privileged code on the t...",
+      "title": "ZDI-26-582: Cisco Identity Services Engine PatchUpdateListener Directory Traversal Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-582/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability. T...",
       "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
       "image_url": ""
     },
     {
-      "title": "ZDI-26-564: NVIDIA Transformers4Rec load_model_trainer_states_from_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-564/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Transformers4Rec. User interaction is required to exploit this vulnerability in that the tar...",
+      "title": "ZDI-26-581: Cisco Identity Services Engine invokeScript Command Injection Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-581/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability. The ZDI h...",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-580: Cisco Identity Services Engine Missing Authentication for Critical Function Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-580/",
+      "description": "The vulnerability allows remote attackers to disclose sensitive information on affected installations of Cisco Identity Services Engine. Authentication is not required to exploit this vulnerability...",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-579: Cisco Identity Services Engine zipFiles Directory Traversal Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-579/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability. The ZDI h...",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-578: NGINX HTTP Dav Module Alias Directive Integer Underflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-578/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NGINX. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS ra...",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-577: Trend Micro VPN OpenSSL Configuration Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-577/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro VPN. An attacker must first obtain the ability to execute low-privileged code on the target...",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-576: Linux Kernel XFRM Race Condition Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-576/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-575: Linux Kernel Net Scheduler Packet Classifier API Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-575/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-574: Linux Kernel Net Scheduler Connection Tracking Race Condition Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-574/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-573: Linux Kernel KSMBD Response Header Out-Of-Bounds Read Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-573/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel KSMBD. Authentication is not required to exploit this vulnerability. However, ...",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-572: Linux Kernel XFRM Race Condition Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-572/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-571: Linux Kernel Net Scheduler Packet Classifier API Use-After-Free Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-571/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-570: Linux Kernel IGMP Subsystem Race Condition Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-570/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
       "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
@@ -200,15 +308,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI8aMtoRcWh4THmHEumFrk1X_t6xuq3Z6RsJwVKoyozs0nuRDIc7ffcIFNr5dFuUgTeeKZ0KLdeFoeHRRSFgqcTvK4VaO54Js2FADwBztN4Qlf0L8viPKGCY7lVEHF50K2xOaopCphCPL0ooDKna2E3S_4R4UzOsuh9m8dK4XQMo98_b6GjKqHRi_lm38i/s1600/chrome-plugins.jpg"
     },
     {
-      "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
-      "link": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
-      "description": "Fake remote workers can exploit gaps between hiring checks, device delivery, and account access to enter organizations under false identities. Specops Software explains how document verification an...",
-      "pub_date": "Wed, 12 Aug 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
       "link": "https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation",
       "description": "Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan.And if you survey 500 security professionals on whether that's going well – ...",
@@ -290,69 +389,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRIn51DQNDe2IfVEJzqiWXY9k8QyRhulSTcOh67As0Pj7Da1DCB5Lu1RBhjI55Y7_TF9PW9F9HOBn6moaPRNrpl0G_OGeMbC9z5BMfdOqtF6sHpd5tJLvQqnvlCd77R-4oCYiDVfFlUtRe4mp7W8cFDCHmJ8kz4TueVL06-jbGzpVdWasZF02YRwYyrZJc/s1600/cisco-powerhouse.jpg"
     },
     {
-      "title": "ZDI-26-563: (Pwn2Own) Home Assistant Green Simple Service Discovery Protocol Server-Side Request Forgery Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-563/",
-      "description": "This vulnerability allows network-adjacent attackers to initiate arbitrary server-side requests on affected installations of Home Assistant Green. Authentication is not required to exploit this vul...",
-      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-562: (Pwn2Own) Home Assistant Green mDNS Server-Side Request Forgery Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-562/",
-      "description": "This vulnerability allows network-adjacent attackers to initiate arbitrary server-side requests on affected installations of Home Assistant Green. Authentication is not required to exploit this vul...",
-      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-561: (Pwn2Own) Home Assistant Green go2rtc Command Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-561/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Home Assistant Green. An attacker must first obtain the ability to access the device\u0026#x27...",
-      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-560: (Pwn2Own) Home Assistant Green go2rtc Command Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-560/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Home Assistant Green. An attacker must first obtain the ability to access the device\u0026#x27...",
-      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-559: (Pwn2Own) Amazon Smart Plug OTA Update Process Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-559/",
-      "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Amazon Smart Plug. Authentication is not required to exploit this vulnerability. The ZDI ...",
-      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-558: (Pwn2Own) Amazon Smart Plug OTA Update Process Improper Certificate Validation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-558/",
-      "description": "This vulnerability allows network-adjacent attackers to bypass certificate validation for OTA updates on affected installations of Amazon Smart Plug. Authentication is not required to exploit this ...",
-      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-557: (Pwn2Own) Amazon Smart Plug Insecure Fallback Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-557/",
-      "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Amazon Smart Plug. Authentication is not required to exploit this vulnerability. ...",
-      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
       "title": "Patch Tuesday - August 2026",
       "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-august-2026",
       "description": "Microsoft is publishing 421 vulnerabilities on August 2026 Patch Tuesday, including 236 vulnerabilities in Windows. This is lower volume than last month’s record-breaking behemoth, but still one ...",
@@ -414,42 +450,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
-    },
-    {
-      "title": "ZDI-26-556: Parallels RAS Client RDP Backend Service Exposed Dangerous Function Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-556/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels RAS Client. An attacker must first obtain the ability to execute low-privileged code on the t...",
-      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-555: Parallels RAS Client RDP Backend Service Exposed Dangerous Function Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-555/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels RAS Client. An attacker must first obtain the ability to execute low-privileged code on the t...",
-      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-554: Parallels RAS Client RDP Backend Service Exposed Dangerous Function Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-554/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels RAS Client. An attacker must first obtain the ability to execute low-privileged code on the t...",
-      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-553: OriginLab Origin Viewer OGW File Parsing Memory Corruption Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-553/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the tar...",
-      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
     },
     {
       "title": "Rapid7 Analysis: Unauthenticated Remote Code Execution in JetBrains TeamCity (CVE-2026-63077)",
