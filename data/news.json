@@ -1,14 +1,41 @@
 {
-  "last_updated": "2026-08-13T15:30:04Z",
+  "last_updated": "2026-08-13T16:03:08Z",
   "articles": [
+    {
+      "title": "AmnesiaStealer macOS Malware Hijacks Browser Sessions via Fake GitHub Lure",
+      "link": "https://cybersecuritynews.com/amnesiastealer-macos-malware/",
+      "description": "A newly identified macOS infostealer called AmnesiaStealer is spreading via a convincing fake GitHub download page, tricking Mac users into pasting a malicious Terminal command that silently instal...",
+      "pub_date": "Thu, 13 Aug 2026 16:01:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AmnesiaStealer-macOS-Malware.webp"
+    },
+    {
+      "title": "What 50 open source projects taught us about security in the AI era",
+      "link": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "description": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to impr...",
+      "pub_date": "Thu, 13 Aug 2026 16:00:00 +0000",
+      "source": "GitHub Security",
+      "tier": 4,
+      "image_url": "https://github.blog/wp-content/uploads/2026/08/openclaw.png?resize=1920%2C1080"
+    },
     {
       "title": "Trezor discloses data breach affecting nearly 14,000 customers",
       "link": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
-      "description": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping provider and logistics partner, got hacked. [...]",
+      "description": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
       "pub_date": "Thu, 13 Aug 2026 11:13:19 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Microsoft Exchange Server Vulnerabilities Enable DoS, Privilege Escalation, and RCE Attacks",
+      "link": "https://cybersecuritynews.com/microsoft-exchange-server-vulnerabilities-rce/",
+      "description": "Microsoft has released security updates for multiple Exchange Server vulnerabilities that could allow denial-of-service, privilege escalation, remote code execution, spoofing, and security feature ...",
+      "pub_date": "Thu, 13 Aug 2026 14:07:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Exchange-Server-Vulnerabilities-Enables-DoS-Privilege-Escalation-and-RCE-Attacks.png"
     },
     {
       "title": "Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion",
@@ -20,6 +47,15 @@
       "image_url": ""
     },
     {
+      "title": "Trezor ShipMonk Data Breach Exposes Personal Data of Over 13,000 Hardware Wallet Customers",
+      "link": "https://cybersecuritynews.com/trezor-shipmonk-data-breach/",
+      "description": "A third-party logistics breach has put thousands of Trezor hardware wallet buyers at higher phishing risk, even though Trezor’s own systems and devices were not compromised. On Monday, August 10,...",
+      "pub_date": "Thu, 13 Aug 2026 13:44:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Trezor-ShipMonk-Data-Breach.webp"
+    },
+    {
       "title": "White House taps security firms for offensive hack-back operations",
       "link": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/",
       "description": "A new White House memo signed by U.S. President Donald Trump instructs the National Coordination Center (NCC) to establish a program that would allow private security companies to apply for approva...",
@@ -27,6 +63,69 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "North Korean IT Workers Use AI-Forged IDs and Remote Desktops to Become Trusted Employees",
+      "link": "https://cybersecuritynews.com/north-korean-it-workers-ai-forged-ids/",
+      "description": "A joint undercover investigation has pulled back the curtain on how North Korean IT worker operatives don\u0026#8217;t just slip past hiring checks; they settle in, gain trusted access, and quietly work...",
+      "pub_date": "Thu, 13 Aug 2026 13:30:47 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/North-Korean-IT-Workers-Use-AI-Forged-IDs.webp"
+    },
+    {
+      "title": "CISA Warns of Windows Ancillary Function 0-Day Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/windows-ancillary-function-0-day-exploited/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency has added a Microsoft Windows vulnerability to its Known Exploited Vulnerabilities Catalog, warning that the flaw is being exploited in att...",
+      "pub_date": "Thu, 13 Aug 2026 13:12:38 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-Windows-Ancillary-Function-0-Day-Vulnerability-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "GitLab 19.2.2 Patches 13 Security Flaws, Including High-Severity XSS and CI/CD Authorization Flaws",
+      "link": "https://cybersecuritynews.com/gitlab-patches-13-security-flaws/",
+      "description": "GitLab has released security updates for Community Edition and Enterprise Edition, addressing 13 vulnerabilities affecting analytics dashboards, CI/CD workflows, APIs, AI services, project settings...",
+      "pub_date": "Thu, 13 Aug 2026 12:59:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GitLab-19.2.2-Patches-13-Security-Flaws-Including-High-Severity-XSS-and-CICD-Authorization-Flaws.webp"
+    },
+    {
+      "title": "Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks",
+      "link": "https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers/",
+      "description": "Jewelbug has turned ordinary web browsing into an entry point for espionage. The China-based group compromised government webmail systems, stole browser cookies, and used that access to watch activ...",
+      "pub_date": "Thu, 13 Aug 2026 12:51:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Jewelbug-APT-Hijacks-Browsers-to-Steal-Cookies-and-Spy-on-Government-Networks.webp"
+    },
+    {
+      "title": "Armored Likho Still Toolkit Steals Telegram Sessions and Records Victims’ Conversations",
+      "link": "https://cybersecuritynews.com/armored-likho-still-toolkit-steals/",
+      "description": "A cyber-espionage operation linked to Armored Likho is using a convincing donation app to reach people and organizations in Russia. Once opened, the fake application quietly installs tools designed...",
+      "pub_date": "Thu, 13 Aug 2026 12:39:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Armored-Likho-Still-Toolkit-Steals-Telegram-Sessions-and-Records-Victims-Conversations.webp"
+    },
+    {
+      "title": "Hackers Leveraging GoogleWorkspace Accounts to Send Phishing and Scam Emails",
+      "link": "https://cybersecuritynews.com/hackers-leveraging-googleworkspace/",
+      "description": "Hackers are turning compromised Google Workspace accounts into tools for phishing and scam emails. The messages can look ordinary because they come from real organizational domains, not newly creat...",
+      "pub_date": "Thu, 13 Aug 2026 12:21:13 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Leveraging-GoogleWorkspace-Accounts-to-Send-Phishing-and-Scam-Emails.webp"
+    },
+    {
+      "title": "Thousand of Internet-Exposed Contollers Could Put Data center Cooling and Power at Risk",
+      "link": "https://cybersecuritynews.com/thousand-of-internet-exposed-contollers/",
+      "description": "Thousands of internet-exposed building controllers may be putting the physical backbone of U.S. data centers at risk. They manage cooling, electrical distribution, and environmental conditions. If ...",
+      "pub_date": "Thu, 13 Aug 2026 12:03:38 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Thousand-of-Internet-Exposed-Contollers-Could-Put-Data-center-Cooling-and-Power-at-Risk.webp"
     },
     {
       "title": "WhatsApp rolls out new feature that flags potential scam messages",
@@ -621,15 +720,6 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": "https://github.blog/wp-content/uploads/2026/06/613839791-af0d8e48-215f-48c7-8f0c-16ef531592f7.png?resize=1024%2C640"
-    },
-    {
-      "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
-      "link": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
-      "description": "Alerts are more trustworthy and actionable when noise is reduced. See how we improved the verification step with context-aware LLM reasoning. The post Making secret scanning more trustworthy: Reduc...",
-      "pub_date": "Thu, 11 Jun 2026 16:00:00 +0000",
-      "source": "GitHub Security",
-      "tier": 4,
-      "image_url": "https://github.blog/wp-content/uploads/2026/06/blog-post-1.png?resize=1024%2C576"
     },
     {
       "title": "Johnson Controls C-CURE 9000 and Victor application server (Update A)",
