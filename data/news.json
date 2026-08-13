@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-08-13T11:47:06Z",
+  "last_updated": "2026-08-13T13:10:34Z",
   "articles": [
+    {
+      "title": "GitLab 19.2.2 Patches 13 Security Flaws, Including High-Severity XSS and CI/CD Authorization Flaws",
+      "link": "https://cybersecuritynews.com/gitlab-patches-13-security-flaws/",
+      "description": "GitLab has released security updates for Community Edition and Enterprise Edition, addressing 13 vulnerabilities affecting analytics dashboards, CI/CD workflows, APIs, AI services, project settings...",
+      "pub_date": "Thu, 13 Aug 2026 12:59:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GitLab-19.2.2-Patches-13-Security-Flaws-Including-High-Severity-XSS-and-CICD-Authorization-Flaws.webp"
+    },
+    {
+      "title": "Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks",
+      "link": "https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers/",
+      "description": "Jewelbug has turned ordinary web browsing into an entry point for espionage. The China-based group compromised government webmail systems, stole browser cookies, and used that access to watch activ...",
+      "pub_date": "Thu, 13 Aug 2026 12:51:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Jewelbug-APT-Hijacks-Browsers-to-Steal-Cookies-and-Spy-on-Government-Networks.webp"
+    },
+    {
+      "title": "Armored Likho Still Toolkit Steals Telegram Sessions and Records Victims’ Conversations",
+      "link": "https://cybersecuritynews.com/armored-likho-still-toolkit-steals/",
+      "description": "A cyber-espionage operation linked to Armored Likho is using a convincing donation app to reach people and organizations in Russia. Once opened, the fake application quietly installs tools designed...",
+      "pub_date": "Thu, 13 Aug 2026 12:39:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Armored-Likho-Still-Toolkit-Steals-Telegram-Sessions-and-Records-Victims-Conversations.webp"
+    },
+    {
+      "title": "Hackers Leveraging GoogleWorkspace Accounts to Send Phishing and Scam Emails",
+      "link": "https://cybersecuritynews.com/hackers-leveraging-googleworkspace/",
+      "description": "Hackers are turning compromised Google Workspace accounts into tools for phishing and scam emails. The messages can look ordinary because they come from real organizational domains, not newly creat...",
+      "pub_date": "Thu, 13 Aug 2026 12:21:13 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Leveraging-GoogleWorkspace-Accounts-to-Send-Phishing-and-Scam-Emails.webp"
+    },
+    {
+      "title": "Thousand of Internet-Exposed Contollers Could Put Data center Cooling and Power at Risk",
+      "link": "https://cybersecuritynews.com/thousand-of-internet-exposed-contollers/",
+      "description": "Thousands of internet-exposed building controllers may be putting the physical backbone of U.S. data centers at risk. They manage cooling, electrical distribution, and environmental conditions. If ...",
+      "pub_date": "Thu, 13 Aug 2026 12:03:38 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Thousand-of-Internet-Exposed-Contollers-Could-Put-Data-center-Cooling-and-Power-at-Risk.webp"
+    },
+    {
+      "title": "1 Tbps DDoS Attacks Become the New Normal as Cloudflare Reports Record H1 Activity",
+      "link": "https://cybersecuritynews.com/1-tbps-ddos-attacks/",
+      "description": "Cloudflare has reported a sharp rise in large-scale distributed denial-of-service attacks during the first half of 2026, blocking 935 network-layer attacks exceeding 1 terabit per second. The compa...",
+      "pub_date": "Thu, 13 Aug 2026 11:55:30 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Cloudflare-Blocks-935-DDoS-Attacks-Over-1-Tbps-as-Hyper-Volumetric-Strikes-Surge-519.webp"
+    },
+    {
+      "title": "WhatsApp rolls out new feature that flags potential scam messages",
+      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
+      "description": "WhatsApp has begun rolling out a new optional \"Scam Alert\" feature, which uses a local machine learning model to warn users when scammers are targeting them. [...]",
+      "pub_date": "Thu, 13 Aug 2026 07:50:22 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Actively Exploiting Microsoft SharePoint Vulnerability Following PoC Release",
+      "link": "https://cybersecuritynews.com/microsoft-sharepoint-vulnerability-exploited-2/",
+      "description": "Threat actors have wasted no time weaponizing a newly disclosed Microsoft SharePoint authentication bypass, launching real-world attacks against internet-facing servers just hours after security fi...",
+      "pub_date": "Thu, 13 Aug 2026 11:46:33 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-SharePoint-Vulnerability.webp"
+    },
+    {
+      "title": "Gunra Uses Stolen Sessions and RDP to Pivot Into Active Directory and IT Workstations",
+      "link": "https://cybersecuritynews.com/gunra-uses-stolen-sessions/",
+      "description": "Gunra ransomware has moved from a new name to a serious enterprise threat in a short time. The group breaks into exposed edge devices, steals valuable data, and then encrypts systems across both Wi...",
+      "pub_date": "Thu, 13 Aug 2026 11:29:50 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Gunra-Uses-Stolen-Sessions-and-RDP-to-Pivot-Into-Active-Directory-and-IT-Workstations.webp"
+    },
+    {
+      "title": "Kimwolf v7 Botnet Uses Chrome Browser Fingerprints to Hide HTTP/2 DDoS Attacks",
+      "link": "https://cybersecuritynews.com/kimwolf-v7-uses-chrome-browser/",
+      "description": "Kimwolf v7 is raising the stakes for attacks launched from everyday Android TV boxes and set-top devices. The latest version can make disruptive web traffic look more like a real visitor browsing a...",
+      "pub_date": "Thu, 13 Aug 2026 10:37:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Kimwolf-v7-Botnet-Uses-Chrome-Browser-Fingerprints-to-Hide-HTTP-2-DDoS-Attacks.webp"
+    },
+    {
+      "title": "40 Minute LiteLLM Hack Exposes Cloud Keys and CI/CD Secrets From 2,488 Companies",
+      "link": "https://cybersecuritynews.com/40-minute-litellm-hack/",
+      "description": "A supply-chain breach involving LiteLLM has widened from a compromised software release into an exposure event affecting thousands of corporate build environments. The incident shows how one poison...",
+      "pub_date": "Thu, 13 Aug 2026 10:32:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/40-Minute-LiteLLM-Hack-Exposes-Cloud-Keys-and-CI-CD-Secrets-From-2488-Companies.webp"
+    },
     {
       "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
       "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
@@ -315,15 +414,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4HtkIdWjqoYaSkO4edq9d5ZotqTE-LNMM14UlVoPaVKw2hwBahFYrPkB3jttURH0gcBXxCDtyHhiGMAIrxCX74gYCb_ivX4INmfRzt7HRb-bPTNt1lV-nUQm_pHQQHrhUwx4JWS7DtAzOZ1etx-yjPAVrNJXGBltqXjHPSI5NcfnWQqYurz0LK-dRRMo/s1600/aug-ms-patch.jpg"
-    },
-    {
-      "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
-      "description": "Cisco is warning that a high-severity denial-of-service vulnerability in Secure Firewall ASA and Threat Defense (FTD) software is being actively exploited in attacks to remotely crash affected devi...",
-      "pub_date": "Tue, 11 Aug 2026 15:45:31 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
