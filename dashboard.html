@@ -369,8 +369,11 @@ let kevFilter      = 'all';   // all | only | exclude
 let epssFilter     = 'all';   // all | high | medium_plus | low | unknown
 let yearCache     = {};      // cache of all fetched year data for global search
 let nvdCache      = {};      // per-year NVD intel cache
+let nvdInflight   = {};      // per-year in-flight NVD requests
+let cveIndex      = {};      // O(1) lookup for selected CVE in detail panel
 let chartMetricsCache = new Map();
 let chartRenderToken = 0;
+let activeNvdCveId = null;
 
 function needsIntelForCurrentView(query = '') {
   const q = (query || '').toLowerCase();
@@ -403,30 +406,43 @@ async function ensureIntelForCurrentYear(opts = {}) {
 }
 
 function scheduleIntelPrefetch(year) {
-  if (year in nvdCache) return;
-  const warm = () => {
+  if (year in nvdCache || year in nvdInflight) return;
+  setTimeout(() => {
     loadNvdIntel(year)
       .then(intel => {
-        if (currentYear === year && !nvdLayer) nvdLayer = intel;
+        if (currentYear !== year) return;
+        const shouldAdopt = !nvdLayer || Object.keys(nvdLayer).length === 0;
+        if (shouldAdopt) {
+          nvdLayer = intel;
+          scheduleChartsRender(currentData, currentYear);
+          if (activeNvdCveId) showNVD(activeNvdCveId);
+        }
       })
       .catch(() => {});
-  };
-  if (typeof requestIdleCallback === 'function') {
-    requestIdleCallback(warm, { timeout: 1200 });
-  } else {
-    setTimeout(warm, 80);
-  }
+  }, 0);
 }
 
 async function loadNvdIntel(year) {
   if (year in nvdCache) return nvdCache[year];
+  if (year in nvdInflight) return nvdInflight[year];
+  nvdInflight[year] = (async () => {
   try {
-    const r = await fetch(`data/nvd_intel_${year}.json`);
+    const r = await fetch(`data/nvd_intel_${year}.json`, { cache: 'force-cache' });
     nvdCache[year] = r.ok ? await r.json() : {};
   } catch(_) {
     nvdCache[year] = {};
   }
+  delete nvdInflight[year];
   return nvdCache[year];
+  })();
+  return nvdInflight[year];
+}
+
+function buildCveIndex(data) {
+  cveIndex = {};
+  (data?.cves || []).forEach(cve => {
+    cveIndex[cve.cve_id] = cve;
+  });
 }
 
 function getSeverityGroup(score) {
@@ -589,6 +605,7 @@ async function loadYear(year) {
     return;
   }
   updateStats(currentData, year);
+  buildCveIndex(currentData);
   renderList('');
   scheduleChartsRender(currentData, year);
   buildActivityFeed(currentData);
@@ -1109,9 +1126,12 @@ function renderNextChunk(showYear) {
 // NVD DETAIL PANEL
 // ============================================================
 async function showNVD(cveId) {
+  activeNvdCveId = cveId;
+  const cveObj = cveIndex[cveId] || currentData?.cves?.find(c => c.cve_id === cveId) || null;
+  const repoCount = cveObj?.repositories?.length || 0;
+  const repos = (cveObj?.repositories || []).slice(0, 8);
+
   if (!nvdLayer) {
-    const cveObj = currentData?.cves?.find(c => c.cve_id === cveId);
-    const repoCount = cveObj?.repositories?.length || 0;
     document.getElementById('nvd-body').innerHTML = `
       <div class="space-y-3">
         <div class="p-3 rounded-lg bg-surface-2 border border-border">
@@ -1122,9 +1142,27 @@ async function showNVD(cveId) {
           <div class="mt-2 text-[10px] text-dim">Fetching CVSS/CWE/KEV details in background.</div>
         </div>
         <div class="text-[10px] text-dim">Exploit repos indexed: <span class="text-white font-mono">${repoCount}</span></div>
+        <div>
+          <div class="text-[10px] font-semibold uppercase tracking-wider text-dim mb-1.5">
+            Repos (showing ${repos.length}${repoCount > 8 ? '+' : ''})
+          </div>
+          <div class="space-y-1.5 max-h-52 overflow-y-auto">
+            ${repos.map(r => `
+              <a href="${r.html_url}" target="_blank"
+                class="flex items-start justify-between gap-2 p-2 rounded bg-surface-2 border border-border hover:border-primary transition-colors group">
+                <div class="min-w-0">
+                  <div class="font-mono text-[10px] text-white truncate group-hover:text-primary transition-colors">${r.full_name}</div>
+                  <div class="text-[9px] text-dim truncate mt-0.5">${r.description || 'No description'}</div>
+                </div>
+                <div class="text-[9px] text-dim shrink-0">★ ${(r.stargazers_count||0).toLocaleString()}</div>
+              </a>`).join('')}
+          </div>
+        </div>
       </div>`;
     ensureIntelForCurrentYear({ refreshView: false })
-      .then(() => showNVD(cveId))
+      .then(() => {
+        if (activeNvdCveId === cveId) showNVD(cveId);
+      })
       .catch(() => {
         document.getElementById('nvd-body').innerHTML = `
           <div class="p-3 rounded-lg bg-surface-2 border border-border text-xs text-dim">
@@ -1150,9 +1188,6 @@ async function showNVD(cveId) {
   else if (score >= 7.0) badgeCls = 'bg-orange-500 text-white';
   else if (score >= 4.0) badgeCls = 'bg-warning text-white';
   else if (score >  0)   badgeCls = 'bg-success text-white';
-
-  const cveObj = currentData?.cves?.find(c => c.cve_id === cveId);
-  const repos  = (cveObj?.repositories || []).slice(0, 8);
 
   document.getElementById('nvd-body').innerHTML = `
     <div class="space-y-3">
