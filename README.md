@@ -17,6 +17,7 @@ Live site:
 - Contributor guide: [CONTRIBUTING.md](CONTRIBUTING.md)
 - Product roadmap: [ROADMAP.md](ROADMAP.md)
 - Ops log: [docs/operations/2026-08-14-stability-and-performance-log.md](docs/operations/2026-08-14-stability-and-performance-log.md)
+- Workflow runbook: [docs/operations/workflow-triage-runbook.md](docs/operations/workflow-triage-runbook.md)
 
 ## Why CVE_Map?
 
