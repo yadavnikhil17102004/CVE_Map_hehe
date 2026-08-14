@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-13T23:41:30Z",
+  "last_updated": "2026-08-14T01:56:16Z",
   "articles": [
+    {
+      "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
+      "link": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
+      "description": "You're not alone if you just received an \"Apple Threat Notification\" saying it detected a \"mercenary spyware attack targeted at your iPhone.\" [...]",
+      "pub_date": "Thu, 13 Aug 2026 21:19:12 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
       "link": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
@@ -47,6 +56,15 @@
       "image_url": ""
     },
     {
+      "title": "Fortinet Patches Multiple Authentication Vulnerabilities in FortiWeb, FortiManager, and FortiClient",
+      "link": "https://cybersecuritynews.com/fortinet-authentication-vulnerabilities/",
+      "description": "Fortinet has rolled out fixes for a batch of authentication-related vulnerabilities across its FortiWeb, FortiManager, and FortiClient product lines, urging administrators to patch quickly given th...",
+      "pub_date": "Thu, 13 Aug 2026 16:41:55 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Fortinet-Authentication-Vulnerabilities.webp"
+    },
+    {
       "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
       "link": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
       "description": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...",
@@ -54,6 +72,24 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Beacon CRM Confirms Full Database Theft After AWS Access Key Breach",
+      "link": "https://cybersecuritynews.com/beacon-crm-database-theft/",
+      "description": "Beacon, the customer relationship management (CRM) platform relied on by over a thousand UK charities and non-profit organizations, has confirmed that a threat actor made a complete copy of and exf...",
+      "pub_date": "Thu, 13 Aug 2026 16:16:48 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Beacon-CRM-Database-Theft.webp"
+    },
+    {
+      "title": "AmnesiaStealer macOS Malware Hijacks Browser Sessions via Fake GitHub Lure",
+      "link": "https://cybersecuritynews.com/amnesiastealer-macos-malware/",
+      "description": "A newly identified macOS infostealer called AmnesiaStealer is spreading via a convincing fake GitHub download page, tricking Mac users into pasting a malicious Terminal command that silently instal...",
+      "pub_date": "Thu, 13 Aug 2026 16:01:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AmnesiaStealer-macOS-Malware.webp"
     },
     {
       "title": "What 50 open source projects taught us about security in the AI era",
@@ -74,6 +110,15 @@
       "image_url": ""
     },
     {
+      "title": "Microsoft Exchange Server Vulnerabilities Enable DoS, Privilege Escalation, and RCE Attacks",
+      "link": "https://cybersecuritynews.com/microsoft-exchange-server-vulnerabilities-rce/",
+      "description": "Microsoft has released security updates for multiple Exchange Server vulnerabilities that could allow denial-of-service, privilege escalation, remote code execution, spoofing, and security feature ...",
+      "pub_date": "Thu, 13 Aug 2026 14:07:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Exchange-Server-Vulnerabilities-Enables-DoS-Privilege-Escalation-and-RCE-Attacks.png"
+    },
+    {
       "title": "Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion",
       "link": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/",
       "description": "AI coding tools can introduce unvetted or hallucinated open source dependencies faster than traditional security reviews can keep pace. ActiveState explains why organizations should govern packages...",
@@ -83,6 +128,15 @@
       "image_url": ""
     },
     {
+      "title": "Trezor ShipMonk Data Breach Exposes Personal Data of Over 13,000 Hardware Wallet Customers",
+      "link": "https://cybersecuritynews.com/trezor-shipmonk-data-breach/",
+      "description": "A third-party logistics breach has put thousands of Trezor hardware wallet buyers at higher phishing risk, even though Trezor’s own systems and devices were not compromised. On Monday, August 10,...",
+      "pub_date": "Thu, 13 Aug 2026 13:44:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Trezor-ShipMonk-Data-Breach.webp"
+    },
+    {
       "title": "White House taps security firms for offensive hack-back operations",
       "link": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/",
       "description": "A new White House memo signed by U.S. President Donald Trump instructs the National Coordination Center (NCC) to establish a program that would allow private security companies to apply for approva...",
@@ -90,6 +144,51 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "North Korean IT Workers Use AI-Forged IDs and Remote Desktops to Become Trusted Employees",
+      "link": "https://cybersecuritynews.com/north-korean-it-workers-ai-forged-ids/",
+      "description": "A joint undercover investigation has pulled back the curtain on how North Korean IT worker operatives don\u0026#8217;t just slip past hiring checks; they settle in, gain trusted access, and quietly work...",
+      "pub_date": "Thu, 13 Aug 2026 13:30:47 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/North-Korean-IT-Workers-Use-AI-Forged-IDs.webp"
+    },
+    {
+      "title": "CISA Warns of Windows Ancillary Function 0-Day Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/windows-ancillary-function-0-day-exploited/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency has added a Microsoft Windows vulnerability to its Known Exploited Vulnerabilities Catalog, warning that the flaw is being exploited in att...",
+      "pub_date": "Thu, 13 Aug 2026 13:12:38 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-Windows-Ancillary-Function-0-Day-Vulnerability-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "GitLab 19.2.2 Patches 13 Security Flaws, Including High-Severity XSS and CI/CD Authorization Flaws",
+      "link": "https://cybersecuritynews.com/gitlab-patches-13-security-flaws/",
+      "description": "GitLab has released security updates for Community Edition and Enterprise Edition, addressing 13 vulnerabilities affecting analytics dashboards, CI/CD workflows, APIs, AI services, project settings...",
+      "pub_date": "Thu, 13 Aug 2026 12:59:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GitLab-19.2.2-Patches-13-Security-Flaws-Including-High-Severity-XSS-and-CICD-Authorization-Flaws.webp"
+    },
+    {
+      "title": "Jewelbug APT Hijacks Browsers to Steal Cookies and Spy on Government Networks",
+      "link": "https://cybersecuritynews.com/jewelbug-apt-hijacks-browsers/",
+      "description": "Jewelbug has turned ordinary web browsing into an entry point for espionage. The China-based group compromised government webmail systems, stole browser cookies, and used that access to watch activ...",
+      "pub_date": "Thu, 13 Aug 2026 12:51:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Jewelbug-APT-Hijacks-Browsers-to-Steal-Cookies-and-Spy-on-Government-Networks.webp"
+    },
+    {
+      "title": "Armored Likho Still Toolkit Steals Telegram Sessions and Records Victims’ Conversations",
+      "link": "https://cybersecuritynews.com/armored-likho-still-toolkit-steals/",
+      "description": "A cyber-espionage operation linked to Armored Likho is using a convincing donation app to reach people and organizations in Russia. Once opened, the fake application quietly installs tools designed...",
+      "pub_date": "Thu, 13 Aug 2026 12:39:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Armored-Likho-Still-Toolkit-Steals-Telegram-Sessions-and-Records-Victims-Conversations.webp"
     },
     {
       "title": "WhatsApp rolls out new feature that flags potential scam messages",
@@ -288,15 +387,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1jrzxrBozKDsDhAGM8SBKcqbTE4M0zWSJqfp709iguQU21GwUzshBdYSvKkicSkfQD1bNsYhROcsx5p5vAT3jyM90H6w6p8imCjtLbHySKnpGKlsQqfSS-BhcdHNuwJKFPZfBiVkh49xDvJbRI-rvfBKePL6CeHYIWOpwvGG0T-ha3x__xznmdsYybs9v/s1600/windows-shell.jpg"
-    },
-    {
-      "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
-      "link": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
-      "description": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM...",
-      "pub_date": "Wed, 12 Aug 2026 12:05:12 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
