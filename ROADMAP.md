@@ -10,17 +10,15 @@ This roadmap tracks execution on `main` (stable public version) and keeps work s
 - [x] Pages switched to GitHub Actions publishing mode
 - [x] Migration work preserved separately on `vps-migration-wip`
 
-## Live status snapshot (as of 2026-08-08)
+## Live status snapshot (as of 2026-08-14)
 
-- [x] CI latest run green (`31175475665`)
-- [x] News workflow healthy (latest hourly runs green, most recent: `31250977132`)
-- [x] Scrape workflow mostly healthy but intermittent failures remain
-  - Example success: `31233288448`
-  - Example failure: `31244973802` (build step passed; failed in commit/push step)
-- [x] Pages deploy healthy on recent pushes (latest stable window green)
+- [x] CI recovered to green on latest run (`#61`, head `4b55df1f`)
+- [x] News workflow healthy (hourly runs green in latest verification window)
+- [x] Scrape workflow previously had intermittent commit/push failures (`#665`, `#667`), with subsequent successful run (`#668`)
+- [x] Pages deploy healthy on latest runs (`#16` success)
 - [x] Public Pages URL serves expected static title (`CVE Map — Aggregated GitHub Exploits`)
-- [x] Latest CVE data commit landed (`8de2c54`, `2026-08-08T02:38:42Z`)
-- [x] Latest news payload updated (`2026-08-08T09:37:47Z`, 95 articles)
+- [x] Performance benchmark harness added for factual optimization validation (`scripts/perf/dashboard-perf-compare.js`)
+- [x] Operations log added: `docs/operations/2026-08-14-stability-and-performance-log.md`
 
 ## Now (P0: stabilization and reliability)
 
@@ -38,6 +36,7 @@ This roadmap tracks execution on `main` (stable public version) and keeps work s
 - [ ] Refresh operational docs to match recovered architecture
   - Success criteria: README documents all active workflows and required secrets.
   - Success criteria: `main` docs clearly separate stable branch from VPS migration branch.
+  - Success criteria: optimization changes include measured before-vs-after stats in docs/logs.
 
 ## Next execution queue (ordered)
 

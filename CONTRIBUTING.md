@@ -75,7 +75,28 @@ Minimal build sanity:
 go build cvemapping.go && go build nvd_scraper.go && go build news_scraper.go
 ```
 
-## 6) Branching and commits
+## 6) Performance change protocol (required for optimizations)
+
+If you change dashboard/data-loading/rendering performance, include factual before-vs-after measurements.
+
+Required process:
+1. Benchmark baseline on previous commit (`HEAD~1`) or current `main`.
+2. Benchmark your new change on the same machine and same dataset snapshot.
+3. Report median timings and percent deltas.
+4. Include raw command used in your notes/PR.
+
+Benchmark command:
+
+```bash
+node scripts/perf/dashboard-perf-compare.js
+```
+
+Rules:
+- Do not claim "faster" without numbers.
+- Use same dataset snapshot for both runs.
+- Call out regressions explicitly when they appear.
+
+## 7) Branching and commits
 
 Branch naming:
 - `feat/<topic>`
@@ -89,17 +110,18 @@ Commit style:
 
 Prefer one concern per commit. If a docs change and code change are unrelated, split them.
 
-## 7) Pull request checklist
+## 8) Pull request checklist
 
 - [ ] Change is scoped and minimal
 - [ ] Build passes locally
 - [ ] Local UI checks passed for any frontend change
+- [ ] Performance benchmark attached for any optimization claim
 - [ ] README/docs updated if behavior changed
 - [ ] Issue reference added when applicable
 - [ ] No secrets or credentials committed
 - [ ] Generated files only changed when intentionally regenerated
 
-## 8) Good first contribution areas
+## 9) Good first contribution areas
 
 - Docs and API reference improvements
 - Frontend UX tweaks (filters/search states)

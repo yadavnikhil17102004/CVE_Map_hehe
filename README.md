@@ -16,6 +16,7 @@ Live site:
 - Docs: https://yadavnikhil17102004.github.io/CVE-Intel/docs.html
 - Contributor guide: [CONTRIBUTING.md](CONTRIBUTING.md)
 - Product roadmap: [ROADMAP.md](ROADMAP.md)
+- Ops log: [docs/operations/2026-08-14-stability-and-performance-log.md](docs/operations/2026-08-14-stability-and-performance-log.md)
 
 ## Why CVE_Map?
 
@@ -209,10 +210,19 @@ Set in: `Settings -> Secrets and variables -> Actions`
 
 Recent optimization:
 - `index.html` and `docs.html` fetch year-scoped intel files instead of loading the monolithic `nvd_intel.json` upfront.
+- `dashboard.html` now precomputes per-CVE row metadata and uses O(1) detail lookup/cached intel fetch paths.
 
 Result:
 - lower initial payload
 - faster first render for dashboard analytics
+
+Benchmark harness:
+
+```bash
+node scripts/perf/dashboard-perf-compare.js
+```
+
+Policy: all future optimization claims must include before-vs-after measured stats from this harness (or an equivalent reproducible benchmark).
 
 ## Troubleshooting
 
