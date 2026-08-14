@@ -371,6 +371,7 @@ let yearCache     = {};      // cache of all fetched year data for global search
 let nvdCache      = {};      // per-year NVD intel cache
 let nvdInflight   = {};      // per-year in-flight NVD requests
 let cveIndex      = {};      // O(1) lookup for selected CVE in detail panel
+let repoMetaCache = new Map(); // per-year derived repo stats/type metadata
 let chartMetricsCache = new Map();
 let chartRenderToken = 0;
 let activeNvdCveId = null;
@@ -440,7 +441,10 @@ async function loadNvdIntel(year) {
 
 function buildCveIndex(data) {
   cveIndex = {};
+  repoMetaCache.clear();
   (data?.cves || []).forEach(cve => {
+    cve.__meta = computeRepoMeta(cve);
+    repoMetaCache.set(`${currentYear}:${cve.cve_id}`, cve.__meta);
     cveIndex[cve.cve_id] = cve;
   });
 }
@@ -765,7 +769,7 @@ function updateStats(data, year) {
 
 function getChartMetrics(data, year) {
   const cves = data?.cves || [];
-  const repoTotal = cves.reduce((sum, c) => sum + (c.repositories?.length || 0), 0);
+  const repoTotal = cves.reduce((sum, c) => sum + getRepoMeta(c, year).count, 0);
   const key = `${year}:${cves.length}:${repoTotal}:${nvdLayer ? 'intel' : 'no-intel'}`;
   if (chartMetricsCache.has(key)) return chartMetricsCache.get(key);
 
@@ -782,14 +786,12 @@ function getChartMetrics(data, year) {
     else                    unscored++;
 
     const isCrit = score >= 9.0;
-    (cve.repositories || []).forEach(r => {
-      if (!r.pushed_at) return;
-      const d = new Date(r.pushed_at);
-      if (d.getFullYear() !== year) return;
-      const m = d.getMonth();
-      trendCounts[m]++;
-      if (isCrit) critCounts[m]++;
-    });
+    const monthCounts = getRepoMeta(cve, year).monthCounts;
+    for (let m = 0; m < monthCounts.length; m++) {
+      if (!monthCounts[m]) continue;
+      trendCounts[m] += monthCounts[m];
+      if (isCrit) critCounts[m] += monthCounts[m];
+    }
   });
 
   const now = new Date();
@@ -839,6 +841,64 @@ function getType(cveId, repos) {
   if (/\bpoc\b|proof.of.concept|writeup/.test(text))
     return ['PoC','bg-teal-900/30 text-teal-400 border-teal-800/50'];
   return ['Exploit','bg-blue-900/30 text-blue-400 border-blue-800/50'];
+}
+
+function inferTypeFromText(text) {
+  if (/\brce\b|remote.?code.?exec|code.?execution/.test(text))
+    return ['RCE','bg-red-900/30 text-red-400 border-red-800/50'];
+  if (/zero.?day|0day/.test(text))
+    return ['Zero-Day','bg-cyan-900/30 text-cyan-400 border-cyan-800/50'];
+  if (/\blpe\b|privilege.?escal|local.?privesc/.test(text))
+    return ['LPE','bg-yellow-900/30 text-yellow-400 border-yellow-800/50'];
+  if (/inject|sqli|\bxss\b|\bssti\b/.test(text))
+    return ['Inject','bg-purple-900/30 text-purple-400 border-purple-800/50'];
+  if (/\bdos\b|denial.of.service|flood|crash/.test(text))
+    return ['DoS','bg-orange-900/30 text-orange-400 border-orange-800/50'];
+  if (/bypass|auth.bypass/.test(text))
+    return ['Bypass','bg-indigo-900/30 text-indigo-400 border-indigo-800/50'];
+  if (/\bpoc\b|proof.of.concept|writeup/.test(text))
+    return ['PoC','bg-teal-900/30 text-teal-400 border-teal-800/50'];
+  return ['Exploit','bg-blue-900/30 text-blue-400 border-blue-800/50'];
+}
+
+function computeRepoMeta(cve) {
+  const repos = cve.repositories || [];
+  const monthCounts = new Array(12).fill(0);
+  let stars = 0;
+  let latestEpoch = 0;
+  const textParts = [cve.cve_id];
+  for (const r of repos) {
+    stars += r.stargazers_count || 0;
+    textParts.push((r.description || '') + (r.full_name || ''));
+    if (r.pushed_at) {
+      const d = new Date(r.pushed_at);
+      const epoch = d.getTime();
+      if (epoch > latestEpoch) latestEpoch = epoch;
+      if (!Number.isNaN(epoch)) {
+        const m = d.getMonth();
+        if (m >= 0 && m <= 11) monthCounts[m] += 1;
+      }
+    }
+  }
+  const [typeLabel, typeClass] = inferTypeFromText(textParts.join(' ').toLowerCase());
+  return {
+    count: repos.length,
+    stars,
+    latestEpoch,
+    typeLabel,
+    typeClass,
+    monthCounts,
+    isNew: latestEpoch > Date.now() - 7 * 864e5
+  };
+}
+
+function getRepoMeta(cve, year = currentYear) {
+  if (cve?.__meta) return cve.__meta;
+  const key = `${cve?._year || year}:${cve?.cve_id || ''}`;
+  if (repoMetaCache.has(key)) return repoMetaCache.get(key);
+  const meta = computeRepoMeta(cve || {});
+  repoMetaCache.set(key, meta);
+  return meta;
 }
 
 function getSevDot(cveId) {
@@ -925,26 +985,22 @@ function updateSortUI() {
 function sortList(list) {
   const mul = sortDir === 'desc' ? -1 : 1;
   return [...list].sort((a, b) => {
+    const ma = getRepoMeta(a, a._year || currentYear);
+    const mb = getRepoMeta(b, b._year || currentYear);
     if (sortKey === 'id') {
       return mul * a.cve_id.localeCompare(b.cve_id);
     }
     if (sortKey === 'type') {
-      const [la] = getType(a.cve_id, a.repositories||[]);
-      const [lb] = getType(b.cve_id, b.repositories||[]);
-      return mul * la.localeCompare(lb);
+      return mul * ma.typeLabel.localeCompare(mb.typeLabel);
     }
     if (sortKey === 'activity') {
-      return mul * ((a.repositories?.length||0) - (b.repositories?.length||0));
+      return mul * (ma.count - mb.count);
     }
     if (sortKey === 'date') {
-      const da = Math.max(0, ...(a.repositories||[]).map(r => r.pushed_at ? new Date(r.pushed_at).getTime() : 0));
-      const db = Math.max(0, ...(b.repositories||[]).map(r => r.pushed_at ? new Date(r.pushed_at).getTime() : 0));
-      return mul * (da - db);
+      return mul * (ma.latestEpoch - mb.latestEpoch);
     }
     // default: stars
-    const sa = (a.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0);
-    const sb = (b.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0);
-    return mul * (sa - sb);
+    return mul * (ma.stars - mb.stars);
   });
 }
 
@@ -989,8 +1045,7 @@ async function globalSearch(q) {
 
   const sorted = sortList(results);
   maxStars = sorted.length
-    ? Math.max(1, ...sorted.map(c =>
-        (c.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0)))
+    ? Math.max(1, ...sorted.map(c => getRepoMeta(c, c._year || currentYear).stars))
     : 1;
 
   document.getElementById('result-count').textContent =
@@ -1015,8 +1070,7 @@ function renderList(q = '') {
 
   const sorted = sortList(list);
   maxStars = sorted.length
-    ? Math.max(1, ...sorted.map(c =>
-        (c.repositories||[]).reduce((s,r)=>s+(r.stargazers_count||0),0)))
+    ? Math.max(1, ...sorted.map(c => getRepoMeta(c, currentYear).stars))
     : 1;
 
   document.getElementById('result-count').textContent =
@@ -1057,14 +1111,16 @@ function renderNextChunk(showYear) {
   // Build HTML for the chunk
   const chunkHtml = chunk.map(cve => {
     const repos   = cve.repositories || [];
-    const stars   = repos.reduce((s,r)=>s+(r.stargazers_count||0),0);
-    const count   = repos.length;
-    const latestEpoch = Math.max(0, ...repos.map(r => r.pushed_at ? new Date(r.pushed_at).getTime() : 0));
+    const meta    = getRepoMeta(cve, cve._year || currentYear);
+    const stars   = meta.stars;
+    const count   = meta.count;
+    const latestEpoch = meta.latestEpoch;
     const timeStr = latestEpoch ? timeAgo(new Date(latestEpoch)) : '—';
     const pct     = Math.min(100, Math.round(stars/maxStars*100));
-    const [label, cls] = getType(cve.cve_id, repos);
+    const label   = meta.typeLabel;
+    const cls     = meta.typeClass;
     const dot     = getSevDot(cve.cve_id);
-    const newTag  = isNew(repos);
+    const newTag  = meta.isNew;
     const hot     = stars >= maxStars * 0.45 && stars > 5;
     const active  = count >= 3;
 
