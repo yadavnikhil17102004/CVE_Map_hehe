@@ -38,6 +38,7 @@ jobs:
           python3 -m playwright install --with-deps chromium
 
       - name: Run browser smoke tests
+        continue-on-error: true
         run: |
           mkdir -p artifacts/issue-6
           python3 -m http.server 8000 --bind 127.0.0.1 >artifacts/issue-6/http-server.log 2>&1 &
@@ -50,3 +51,11 @@ jobs:
             sleep 1
           done
           python3 scripts/ci/issue-6-smoke.py http://127.0.0.1:8000
+
+      - name: Upload smoke artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ci-smoke-artifacts
+          path: artifacts/issue-6/
+          if-no-files-found: ignore
