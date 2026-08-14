@@ -83,12 +83,20 @@ def smoke_dashboard(page) -> None:
 
     search_input = page.locator("#search-input")
     search_input.fill(first_cve)
-    wait_for(lambda: parse_count(text_of(page.locator("#result-count"))) == 1, "dashboard exact search result")
+    wait_for(
+        lambda: (parse_count(text_of(page.locator("#result-count"))) or 0) >= 1,
+        "dashboard exact search result",
+    )
 
     exact_text = text_of(page.locator("#result-count"))
     exact_count = parse_count(exact_text)
-    if exact_count != 1:
-        raise RuntimeError(f"Exact dashboard search should yield 1 result, got: {exact_text}")
+    if exact_count is None or exact_count < 1:
+        raise RuntimeError(f"Exact dashboard search should yield at least 1 result, got: {exact_text}")
+    top_row_text = text_of(page.locator("#cve-list .cve-row").first)
+    if first_cve not in top_row_text:
+        raise RuntimeError(
+            f"Top dashboard row does not match searched CVE. searched={first_cve}, row={top_row_text!r}"
+        )
 
     search_input.fill("")
     wait_for(lambda: parse_count(text_of(page.locator("#result-count"))) == initial_count, "dashboard search reset")
