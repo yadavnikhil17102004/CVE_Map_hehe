@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-17T12:43:03Z",
+  "last_updated": "2026-08-17T13:58:04Z",
   "articles": [
+    {
+      "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+      "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+      "description": "The expensive attacks are not always the clever ones.  This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain prob...",
+      "pub_date": "Mon, 17 Aug 2026 18:53:51 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgObgx3d_pR3qN3UrW69UfMgB-yM7RmfpKrQjvzqtAsNaQ3nVsIKNIiz5p0BsZCppmE4BWH9Wle92WombnIdCdT0BsHkv-_lDcEdIkYvsGrnch6OQHbAr3FUj-QjM8aDdKPNdnez6SXczT4sXNn8KX4QgmG6BiapFhq35I0cdZckWblyoaTVr7rjY5idp5V/s1600/cyber-recap.jpg"
+    },
     {
       "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
@@ -20,24 +29,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmy_mE0_W-wEeuppBUYhS19P_uTo6RifgrGEV5eLim_B6KkhI_BO5wSL930qS_NCD6aR7nL5mAizU4RAfinzkWhz-oq1wCnHszL6C25H0Sj_MahJIBsr7lw_wzJ7xZ4YF7-GVJJO0L1wxe8LQXv3rHuLV3vbuDUEQ9D7vXa6D4zK6ARD1aFmiQv4fka5Y/s1600/keeper.png"
     },
     {
-      "title": "Threema Secure Messaging Service Hit by Massive DDoS Attack",
-      "link": "https://cybersecuritynews.com/threema-hit-by-massive-ddos-attack/",
-      "description": "Threema, a privacy-focused secure messaging service, was hit by a series of large-scale distributed denial-of-service (DDoS attacks) that temporarily disrupted access for users. The incidents affec...",
-      "pub_date": "Mon, 17 Aug 2026 11:49:33 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Threema-secure-messaging-service-Hit-by-Massive-DDoS-Attack.webp"
-    },
-    {
-      "title": "Microsoft SCCM Vulnerability Chained to Execute Malicious Code Remotely",
-      "link": "https://cybersecuritynews.com/microsoft-sccm-vulnerability/",
-      "description": "Security researchers have disclosed a serious attack chain affecting Microsoft System Center Configuration Manager, commonly known as SCCM or Configuration Manager. The flaws could allow an attacke...",
-      "pub_date": "Mon, 17 Aug 2026 11:26:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-SCCM-Vulnerability-Chained-to-Execute-malicious-code-Remotely.webp"
-    },
-    {
       "title": "Philips and GE investigating Clop ransomware data theft claims",
       "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
       "description": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
@@ -45,15 +36,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Roundcube 1.6.18 and 1.7.3 Released With Fix for RCE and SSRF Vulnerabilities",
-      "link": "https://cybersecuritynews.com/roundcube-1-6-18-and-1-7-3-released-with-fix/",
-      "description": "Roundcube has released versions 1.6.18 and 1.7.3 to address eleven security vulnerabilities affecting its webmail platform. The updates fix a remote code execution flaw, server-side request forgery...",
-      "pub_date": "Mon, 17 Aug 2026 11:24:35 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Roundcube-1.6.18-and-1.7.3-Released-With-Fix-for-RCE-and-SSRF-Vulnerabilities-.webp"
     },
     {
       "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
@@ -92,42 +74,6 @@
       "image_url": ""
     },
     {
-      "title": "HoneyMyte CoolClient Backdoor Uses Signed Kernel Rootkit to Hide Processes, Files and C2 Traffic",
-      "link": "https://cybersecuritynews.com/honeymyte-coolclient-backdoor/",
-      "description": "HoneyMyte has upgraded its CoolClient backdoor with a kernel-level rootkit for Windows. The change makes routine investigation much harder for defenders. It gives intruders tools designed to surviv...",
-      "pub_date": "Mon, 17 Aug 2026 08:55:57 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/HoneyMyte-CoolClient-Backdoor-Uses-Signed-Kernel-Rootkit-to-Hide-Processes-Files-and-C2-Traffic.webp"
-    },
-    {
-      "title": "GeoServer’s Unauthenticated SQL injection Vulnerability Enables RCE Attacks",
-      "link": "https://cybersecuritynews.com/geoservers-unauthenticated-sql-injection-vulnerability/",
-      "description": "GeoServer administrators should urgently update affected systems after researchers disclosed an unauthenticated SQL injection flaw in the jsonArrayContains filter function. The issue can allow atta...",
-      "pub_date": "Mon, 17 Aug 2026 08:36:08 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GeoServers-unauthenticated-SQL-injection-Vulnerability-Enables-RCE-Attacks.webp"
-    },
-    {
-      "title": "Z.ai Unveils GLM-5.3 with Major Enhancements for Coding and Cybersecurity",
-      "link": "https://cybersecuritynews.com/glm-5-3-major-enhancements/",
-      "description": "Z.ai has released GLM-5.3, a new AI model built to handle complex coding, long-running agent tasks, and cybersecurity analysis. The company says the model uses the same base model as GLM-5.2, with ...",
-      "pub_date": "Mon, 17 Aug 2026 08:35:01 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Z.ai-Unveils-GLM-5.3-with-Major-Enhancements-for-Coding-and-Cybersecurity.webp"
-    },
-    {
-      "title": "Africa’s Cybersecurity Challenge Is Bigger Than Access to Technology",
-      "link": "https://www.rapid7.com/blog/post/c-starlink-distribution-partnership-africa",
-      "description": "Gopan Sivasankaran is Rapid7's Regional Director, Middle East \u0026 Africa.Across Egypt, Nigeria, South Africa, and Kenya, organizations are expanding their use of cloud infrastructure, artificial inte...",
-      "pub_date": "Mon, 17 Aug 2026 08:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt3cc8c945f314ec1f/68b9a045a7d14357b3ba893b/blog-hero-texture-lines.jpg"
-    },
-    {
       "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
       "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
       "description": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT).  The attacks invo...",
@@ -135,42 +81,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN5GzIjo1DOb9leWRsG7hi5zemNCi6kb_NBf-391nF9pphXhTgf8DZLMlk-fUyp-j4rT_cFv4coBpP821rfQkUc4ydAu5YQBcn9Y6nj-SeQGDNu10DmSN2JYDmWJTzLUSXsvDYPTBQ_cQkkCFAIkdMCyRgRv5YIPdMgkp62BtqaYE49b3aWnm4QbYM7YeK/s1600/vmware.jpg"
-    },
-    {
-      "title": "New MessiahGPT AI Model Fueling Automated Ransomware and Phishing Attacks",
-      "link": "https://cybersecuritynews.com/messiahgpt-fueling-ransomware-phishing-attacks/",
-      "description": "A criminal AI service called MessiahGPT is being marketed on BreachForums as an uncensored platform for creating ransomware, phishing kits, stealers, crypters, rootkits, and social-engineering cont...",
-      "pub_date": "Mon, 17 Aug 2026 07:28:32 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-MessiahGPT-AI-Model-Fueling-Automated-Ransomware-and-Phishing-Attacks.webp"
-    },
-    {
-      "title": "Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT",
-      "link": "https://cybersecuritynews.com/fake-web3-interview/",
-      "description": "Fake job interviews are again being used to breach cryptocurrency teams. In a documented case, a convincing Web3 recruitment process led a Windows user to install malware that stole private keys, b...",
-      "pub_date": "Mon, 17 Aug 2026 07:03:02 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Fake-Web3-Interview-Uses-Signed-ClickOnce-to-Deploy-NeedleStealer-and-hVNC-RAT.webp"
-    },
-    {
-      "title": "Evooo1Bot Linux Botnet Uses 16 DDoS Methods and SOCKS5 Proxies to Hijack Edge Devices",
-      "link": "https://cybersecuritynews.com/evooo1bot-linux-botnet/",
-      "description": "A newly tracked Linux botnet is turning exposed edge devices into tools for disruption, remote access, and traffic relaying. Evooo1Bot is the threat that reaches internet-facing edge systems by exp...",
-      "pub_date": "Mon, 17 Aug 2026 06:49:16 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Evooo1Bot-Linux-Botnet-Uses-16-DDoS-Methods-and-SOCKS5-Proxies-to-Hijack-Edge-Devices.webp"
-    },
-    {
-      "title": "ChainDrop npm Worm Poisons 444 Packages Through GitHub Actions and Trusted Publishing",
-      "link": "https://cybersecuritynews.com/chaindrop-npm-worm/",
-      "description": "ChainDrop has made an npm package compromise a warning about developer machines. The self-propagating campaign poisoned 444 packages and more than 1,300 malicious releases after attackers took over...",
-      "pub_date": "Mon, 17 Aug 2026 06:32:48 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ChainDrop-npm-Worm-Poisons-444-Packages-Through-GitHub-Actions-and-Trusted-Publishing.webp"
     },
     {
       "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
@@ -243,15 +153,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Metasploit Wrap Up: Lot of summer shells and fit http profiles",
-      "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles",
-      "description": "This wrap-up brings a full-on shell parade. Thirteen shiny new modules landed, starting with a buffet of RCEs. WordPress WP2Shell, Ghost CMS, Joomla JCE, Langflow, OpenCATS, Pterodactyl Panel, Soni...",
-      "pub_date": "Fri, 14 Aug 2026 21:27:45 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0d50271a40a5f14f/6849ab419621d9f3824d5017/metasploit-sky.png"
     },
     {
       "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
@@ -369,15 +270,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipbxt8OBph0rxAoZdbLb382s4l_N39bPLE0AvbTOd3cIGyvzmQ6PDhyrausjW5xrX-pEbIxhCz1Kc17gbrTdx801nov73lNVJ20DpXeH84JadBPM0rhyWYZqqYmhgJ2Ksjp3iO0dUQA0InqpuyHWWoXsaA1L5lLmxhlxH2lnT9ObfOZxXaERpITVNFOzPv/s1600/cyber.jpg"
-    },
-    {
-      "title": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
-      "link": "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
-      "description": "A newly disclosed zero-day flaw in GeoServer is seeing active exploitation efforts, per watchTowr.  The vulnerability, which has yet to be assigned a CVE identifier, is an SQL injection vulnerabili...",
-      "pub_date": "Fri, 14 Aug 2026 00:15:12 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBHrFMdn5ekgZuyeE4m-ez0biA_lSQ3abNCs7s0YNhWXi-MvjTNhJBgQtjTw_j9zNfDNtp0DtDC6wH9lJcD7obhh9ujkfuk6E0FiX9qH3njE5mcNrtyaxWR3E2RO1ROmlx4B4YbjBtby_P9FXXpl-Be9voGWxC7PbkyVpBrk1zB3KanenH2jVRf_Uv48s4/s1600/geo.jpg"
     },
     {
       "title": "What 50 open source projects taught us about security in the AI era",
@@ -524,51 +416,6 @@
       "image_url": ""
     },
     {
-      "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
-      "link": "https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation",
-      "description": "Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan.And if you survey 500 security professionals on whether that's going well – ...",
-      "pub_date": "Wed, 12 Aug 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt0b0762ca94c50b0b/6846a711eac0e395093e52e3/AI.jpg"
-    },
-    {
-      "title": "Patch Tuesday - August 2026",
-      "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-august-2026",
-      "description": "Microsoft is publishing 421 vulnerabilities on August 2026 Patch Tuesday, including 236 vulnerabilities in Windows. This is lower volume than last month’s record-breaking behemoth, but still one ...",
-      "pub_date": "Tue, 11 Aug 2026 21:10:55 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt76ee31e15f145bd9/6849a5d2dc186db607081f3e/patch-tuesday-repeated.webp"
-    },
-    {
-      "title": "CVE-2026-63520: Microsoft SharePoint Remote Code Execution (FIXED)",
-      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63520-microsoft-sharepoint-remote-code-execution-fixed",
-      "description": "OverviewRapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated re...",
-      "pub_date": "Tue, 11 Aug 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "Rapid7 Analysis: Microsoft SharePoint JWT Token Authentication Bypass (CVE-2026-55040)",
-      "link": "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-jwt-token-authentication-bypass-cve-2026-55040",
-      "description": "OverviewOn July 14, 2026, Rapid7 and Microsoft disclosed CVE-2026-55040, an authentication bypass vulnerability affecting Microsoft SharePoint. Today we are publishing a technical analysis of the v...",
-      "pub_date": "Tue, 11 Aug 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
-    },
-    {
-      "title": "Rapid7 Analysis: Unauthenticated Remote Code Execution in JetBrains TeamCity (CVE-2026-63077)",
-      "link": "https://www.rapid7.com/blog/post/ra-unauthenticated-rce-in-jetbrains-teamcity-cve-2026-63077",
-      "description": "OverviewOn July 27, 2026, JetBrains published a security advisory for CVE-2026-63077, a critical unsafe deserialization vulnerability affecting JetBrains TeamCity. An attacker who can reach a TeamC...",
-      "pub_date": "Fri, 07 Aug 2026 14:32:47 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
-    },
-    {
       "title": "How we took malware advisories beyond npm",
       "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
       "description": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid. The post How we took malwa...",
@@ -576,78 +423,6 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": ""
-    },
-    {
-      "title": "CVE-2026-18577: N-able N-central Authentication Bypass Exploited in the Wild",
-      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild",
-      "description": "OverviewOn August 2, 2026, N-able published a security advisory for CVE-2026-18577, an authentication bypass vulnerability affecting N-central that was discovered being exploited in-the-wild after ...",
-      "pub_date": "Tue, 04 Aug 2026 11:11:54 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "Rapid7 Analysis: KindaRails2Shell (CVE-2026-66066)",
-      "link": "https://www.rapid7.com/blog/post/ra-kindarails2shell-technical-analysis-cve-2026-66066",
-      "description": "OverviewOn July 29, 2026, the Ruby on Rails project published a security advisory for CVE-2026-66066, an arbitrary file read in Active Storage applications that use the Vips image processor with un...",
-      "pub_date": "Mon, 03 Aug 2026 17:11:25 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
-    },
-    {
-      "title": "Metasploit Pro 5.1 Released",
-      "link": "https://www.rapid7.com/blog/post/pt-metasploit-pro-5-1-released",
-      "description": "Today marks the release of Metasploit Pro 5.1 - building upon the foundation laid in 5.0, adding new evasion primitives for HTTP Meterpreter payloads, support for tracking service hierarchies, a de...",
-      "pub_date": "Mon, 03 Aug 2026 14:48:13 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blte0070cfd2a1161fa/683de8fa2a9b68aac72bd4a9/Metasploit.png"
-    },
-    {
-      "title": "Rapid7 Expands UK and Ireland Channel Presence Through Strategic Partnership with Exclusive Networks",
-      "link": "https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-uk-ireland-partnership",
-      "description": "Ross Baker is Senior Director, Northern Europe at Rapid7.As organizations across the United Kingdom and Ireland embrace AI, cloud technologies, and digital transformation in the name of enhancing c...",
-      "pub_date": "Mon, 03 Aug 2026 08:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltebc2810157aecfaf/68af2715c53b04810df94abb/blog-hero-generic-pixel.jpg"
-    },
-    {
-      "title": "Rapid7 at Black Hat USA 2026: See preemptive security in action",
-      "link": "https://www.rapid7.com/blog/post/dr-black-hat-usa-2026-preemptive-security-in-action",
-      "description": "Black Hat USA returns to Mandalay Bay in Las Vegas this August, bringing together security practitioners, researchers, and leaders from around the world. Rapid7 will be there in the Business Hall, ...",
-      "pub_date": "Fri, 31 Jul 2026 11:53:26 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltb62c7e3934b0e276/6a6c92193f99b501e4b5779e/event_b8338aa4-1f61-4e0d-bc9e-632ef0ca49a9_resources_6TR9Cp6BTxOkVcneaAyF_Top_Events_Include_Event_Logo_(3).png"
-    },
-    {
-      "title": "KindaRails2Shell: CVE-2026-66066, Critical Arbitrary File Read and Possible Remote Code Execution in Ruby on Rails",
-      "link": "https://www.rapid7.com/blog/post/etr-kindarails2shell-cve-2026-66066-critical-arbitrary-file-read-and-possible-remote-code-execution-in-ruby-on-rails",
-      "description": "OverviewOn July 29, 2026, the Ruby on Rails project published a security advisory for CVE-2026-66066, a critical vulnerability affecting Active Storage image processing when used in conjunction wit...",
-      "pub_date": "Thu, 30 Jul 2026 16:11:10 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "Rapid7 named a Leader in the IDC MarketScape: Worldwide MDR Service for Midmarket 2026 Vendor Assessment",
-      "link": "https://www.rapid7.com/blog/post/dr-idc-marketscape-leader-worldwide-mdr-service-midmarket-2026-vendor-assessment",
-      "description": "IDC has named Rapid7 a Leader in the 2026 Worldwide Managed Detection and Response Service for Midmarket 2026 Vendor Assessment (Doc #US52992326, July 2026). We believe this recognition and researc...",
-      "pub_date": "Thu, 30 Jul 2026 15:14:40 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt44e3d02cc8982aeb/6a6b6e6132ae66164f654f27/rapid7-mdr-idc-marketscape-worldwide-midmarket-2026-card_(1).jpeg"
-    },
-    {
-      "title": "Metasploit Framework 6.5 Released",
-      "link": "https://www.rapid7.com/blog/post/pt-metasploit-framework-6-5-released",
-      "description": "Today we’re proud to announce that Metasploit Framework version 6.5 has been released. Over the past two years, with the help of countless contributors, we’ve added 422 new modules along with a...",
-      "pub_date": "Thu, 30 Jul 2026 14:29:54 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltd300e09a53b20145/6846a7112fcbadab2a662455/metasploit-weekly.jpg"
     },
     {
       "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
