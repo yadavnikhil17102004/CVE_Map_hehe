@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-08-17T11:25:42Z",
+  "last_updated": "2026-08-17T12:43:03Z",
   "articles": [
+    {
+      "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
+      "description": "Microsoft has reminded IT administrators that Windows Server 2022 is rapidly approaching its mainstream end date of October 2026, when it will switch to extended support. [...]",
+      "pub_date": "Mon, 17 Aug 2026 08:33:11 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "How MCP Servers Can Expose Enterprise Secrets",
+      "link": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+      "description": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more ...",
+      "pub_date": "Mon, 17 Aug 2026 17:28:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmy_mE0_W-wEeuppBUYhS19P_uTo6RifgrGEV5eLim_B6KkhI_BO5wSL930qS_NCD6aR7nL5mAizU4RAfinzkWhz-oq1wCnHszL6C25H0Sj_MahJIBsr7lw_wzJ7xZ4YF7-GVJJO0L1wxe8LQXv3rHuLV3vbuDUEQ9D7vXa6D4zK6ARD1aFmiQv4fka5Y/s1600/keeper.png"
+    },
+    {
+      "title": "Threema Secure Messaging Service Hit by Massive DDoS Attack",
+      "link": "https://cybersecuritynews.com/threema-hit-by-massive-ddos-attack/",
+      "description": "Threema, a privacy-focused secure messaging service, was hit by a series of large-scale distributed denial-of-service (DDoS attacks) that temporarily disrupted access for users. The incidents affec...",
+      "pub_date": "Mon, 17 Aug 2026 11:49:33 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Threema-secure-messaging-service-Hit-by-Massive-DDoS-Attack.webp"
+    },
+    {
+      "title": "Microsoft SCCM Vulnerability Chained to Execute Malicious Code Remotely",
+      "link": "https://cybersecuritynews.com/microsoft-sccm-vulnerability/",
+      "description": "Security researchers have disclosed a serious attack chain affecting Microsoft System Center Configuration Manager, commonly known as SCCM or Configuration Manager. The flaws could allow an attacke...",
+      "pub_date": "Mon, 17 Aug 2026 11:26:12 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-SCCM-Vulnerability-Chained-to-Execute-malicious-code-Remotely.webp"
+    },
     {
       "title": "Philips and GE investigating Clop ransomware data theft claims",
       "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
@@ -9,6 +45,24 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Roundcube 1.6.18 and 1.7.3 Released With Fix for RCE and SSRF Vulnerabilities",
+      "link": "https://cybersecuritynews.com/roundcube-1-6-18-and-1-7-3-released-with-fix/",
+      "description": "Roundcube has released versions 1.6.18 and 1.7.3 to address eleven security vulnerabilities affecting its webmail platform. The updates fix a remote code execution flaw, server-side request forgery...",
+      "pub_date": "Mon, 17 Aug 2026 11:24:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Roundcube-1.6.18-and-1.7.3-Released-With-Fix-for-RCE-and-SSRF-Vulnerabilities-.webp"
+    },
+    {
+      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+      "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+      "description": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, ...",
+      "pub_date": "Mon, 17 Aug 2026 16:22:34 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIqVuTpKFLy55ilEFObjJqUsVDu7qTrQCYAFsh7bbMcF4xv61h8I6tfue0tGw04yWGhDg_cZ-r0v9Jw-kjNmm5ZYpbebrvlgixiqID5pSUwXb8dQSg12cI5kFkR4BKK0mwc6rMP-9ULTHob-bi7rgfYxGBixmNhGy75tlqn5tlc6OXjpGGZemXbq0yHRY/s1600/android.jpg"
     },
     {
       "title": "French tax authority data breach affects 678,000 individuals",
@@ -38,6 +92,33 @@
       "image_url": ""
     },
     {
+      "title": "HoneyMyte CoolClient Backdoor Uses Signed Kernel Rootkit to Hide Processes, Files and C2 Traffic",
+      "link": "https://cybersecuritynews.com/honeymyte-coolclient-backdoor/",
+      "description": "HoneyMyte has upgraded its CoolClient backdoor with a kernel-level rootkit for Windows. The change makes routine investigation much harder for defenders. It gives intruders tools designed to surviv...",
+      "pub_date": "Mon, 17 Aug 2026 08:55:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/HoneyMyte-CoolClient-Backdoor-Uses-Signed-Kernel-Rootkit-to-Hide-Processes-Files-and-C2-Traffic.webp"
+    },
+    {
+      "title": "GeoServer’s Unauthenticated SQL injection Vulnerability Enables RCE Attacks",
+      "link": "https://cybersecuritynews.com/geoservers-unauthenticated-sql-injection-vulnerability/",
+      "description": "GeoServer administrators should urgently update affected systems after researchers disclosed an unauthenticated SQL injection flaw in the jsonArrayContains filter function. The issue can allow atta...",
+      "pub_date": "Mon, 17 Aug 2026 08:36:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GeoServers-unauthenticated-SQL-injection-Vulnerability-Enables-RCE-Attacks.webp"
+    },
+    {
+      "title": "Z.ai Unveils GLM-5.3 with Major Enhancements for Coding and Cybersecurity",
+      "link": "https://cybersecuritynews.com/glm-5-3-major-enhancements/",
+      "description": "Z.ai has released GLM-5.3, a new AI model built to handle complex coding, long-running agent tasks, and cybersecurity analysis. The company says the model uses the same base model as GLM-5.2, with ...",
+      "pub_date": "Mon, 17 Aug 2026 08:35:01 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Z.ai-Unveils-GLM-5.3-with-Major-Enhancements-for-Coding-and-Cybersecurity.webp"
+    },
+    {
       "title": "Africa’s Cybersecurity Challenge Is Bigger Than Access to Technology",
       "link": "https://www.rapid7.com/blog/post/c-starlink-distribution-partnership-africa",
       "description": "Gopan Sivasankaran is Rapid7's Regional Director, Middle East \u0026 Africa.Across Egypt, Nigeria, South Africa, and Kenya, organizations are expanding their use of cloud infrastructure, artificial inte...",
@@ -54,6 +135,42 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN5GzIjo1DOb9leWRsG7hi5zemNCi6kb_NBf-391nF9pphXhTgf8DZLMlk-fUyp-j4rT_cFv4coBpP821rfQkUc4ydAu5YQBcn9Y6nj-SeQGDNu10DmSN2JYDmWJTzLUSXsvDYPTBQ_cQkkCFAIkdMCyRgRv5YIPdMgkp62BtqaYE49b3aWnm4QbYM7YeK/s1600/vmware.jpg"
+    },
+    {
+      "title": "New MessiahGPT AI Model Fueling Automated Ransomware and Phishing Attacks",
+      "link": "https://cybersecuritynews.com/messiahgpt-fueling-ransomware-phishing-attacks/",
+      "description": "A criminal AI service called MessiahGPT is being marketed on BreachForums as an uncensored platform for creating ransomware, phishing kits, stealers, crypters, rootkits, and social-engineering cont...",
+      "pub_date": "Mon, 17 Aug 2026 07:28:32 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-MessiahGPT-AI-Model-Fueling-Automated-Ransomware-and-Phishing-Attacks.webp"
+    },
+    {
+      "title": "Fake Web3 Interview Uses Signed ClickOnce to Deploy NeedleStealer and hVNC RAT",
+      "link": "https://cybersecuritynews.com/fake-web3-interview/",
+      "description": "Fake job interviews are again being used to breach cryptocurrency teams. In a documented case, a convincing Web3 recruitment process led a Windows user to install malware that stole private keys, b...",
+      "pub_date": "Mon, 17 Aug 2026 07:03:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Fake-Web3-Interview-Uses-Signed-ClickOnce-to-Deploy-NeedleStealer-and-hVNC-RAT.webp"
+    },
+    {
+      "title": "Evooo1Bot Linux Botnet Uses 16 DDoS Methods and SOCKS5 Proxies to Hijack Edge Devices",
+      "link": "https://cybersecuritynews.com/evooo1bot-linux-botnet/",
+      "description": "A newly tracked Linux botnet is turning exposed edge devices into tools for disruption, remote access, and traffic relaying. Evooo1Bot is the threat that reaches internet-facing edge systems by exp...",
+      "pub_date": "Mon, 17 Aug 2026 06:49:16 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Evooo1Bot-Linux-Botnet-Uses-16-DDoS-Methods-and-SOCKS5-Proxies-to-Hijack-Edge-Devices.webp"
+    },
+    {
+      "title": "ChainDrop npm Worm Poisons 444 Packages Through GitHub Actions and Trusted Publishing",
+      "link": "https://cybersecuritynews.com/chaindrop-npm-worm/",
+      "description": "ChainDrop has made an npm package compromise a warning about developer machines. The self-propagating campaign poisoned 444 packages and more than 1,300 malicious releases after attackers took over...",
+      "pub_date": "Mon, 17 Aug 2026 06:32:48 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ChainDrop-npm-Worm-Poisons-444-Packages-Through-GitHub-Actions-and-Trusted-Publishing.webp"
     },
     {
       "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
@@ -227,15 +344,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg_fCSow6T3Wo-vpD0YGw6I-3-9B4BmxQvPW4XX5NjGqYkEd929vj1fiXMD5ebscmBPVViIEhlkfg0zmJ9ftMUtLbwIolt1uXcmnnWYlHiFxNQhRa1_4lvnEOXGT6uBwrPbJkZiMBF0mmu3EeAvzu6dnj1hnak63Fb1nL5Owdv4cdWU3ymWoBRho7Vo5w/s1600/ctm.jpg"
     },
     {
-      "title": "RingCentral data breach exposed info of 1.6 million accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-      "description": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pw...",
-      "pub_date": "Fri, 14 Aug 2026 06:52:05 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware",
       "link": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
       "description": "Apple on Thursday sent a fresh batch of notifications to customers whom it suspects may have been targeted by mercenary spyware attacks.  In a statement shared with TechCrunch, the iPhone maker sai...",
@@ -272,15 +380,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBHrFMdn5ekgZuyeE4m-ez0biA_lSQ3abNCs7s0YNhWXi-MvjTNhJBgQtjTw_j9zNfDNtp0DtDC6wH9lJcD7obhh9ujkfuk6E0FiX9qH3njE5mcNrtyaxWR3E2RO1ROmlx4B4YbjBtby_P9FXXpl-Be9voGWxC7PbkyVpBrk1zB3KanenH2jVRf_Uv48s4/s1600/geo.jpg"
     },
     {
-      "title": "ThreatsDay: GhostJacking AI Attacks, EtherHiding ClickFix, Cursor CLI Flaw + 17 More Stories",
-      "link": "https://thehackernews.com/2026/08/threatsday-ghostjacking-ai-attacks.html",
-      "description": "Some weeks have one big security story. Others bring many smaller updates that are easy to miss but still matter. This week has plenty of them, covering cloud services, AI tools, malware, data brea...",
-      "pub_date": "Thu, 13 Aug 2026 23:47:10 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnZSPrbeVOhfz52pccm_PbosfzvUlARZ8YoAhLmLd28aHQJ0Nw4T-TeYS2gCgc4bQaNS_c7sFfSFY-tQdGZDD4Uajt1hFhjPzl-XZVyoM72eC5vYStjyfuKwis_vDgrvUgTK7MUJx0kkEHwBJxmIuqp6qkPB-km81UXl6ycj1u9uIORUrVXtYz9L5-Julh/s1600/td.jpg"
-    },
-    {
       "title": "What 50 open source projects taught us about security in the AI era",
       "link": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
       "description": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to impr...",
@@ -288,15 +387,6 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": "https://github.blog/wp-content/uploads/2026/08/openclaw.png?resize=1920%2C1080"
-    },
-    {
-      "title": "New PATCHCORD Backdoor Targets Afghan Telecom and Indian Critical Infrastructure",
-      "link": "https://thehackernews.com/2026/08/new-patchcord-backdoor-targets-afghan.html",
-      "description": "Afghan telecom providers and South Asian critical infrastructure organizations have emerged as the target of a new ongoing campaign that delivers a previously undocumented backdoor called PATCHCORD...",
-      "pub_date": "Thu, 13 Aug 2026 20:30:29 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN1h6yVKjJz0W6b8QMy2lmsHgFoVD9MGmbvZs4XRnHXDPcMJw8SDNNgHSnAnDTRCvXD5VyMFl1XtMFqU3uZiKdmtW-1Voos4cqw_JuUiE8mTWy44FFgKQMPvgX-8qzIbNUkk8XMC2l7mU9RyhMIaRI7k1yyDI2SW9o4U8MxfzHNX8xkijzygYkenrWeCOs/s1600/telecom.jpg"
     },
     {
       "title": "ZDI-26-584: dnsmasq DNSSEC NSEC/NSEC3 Type Bitmap Processing Infinite Loop Denial-of-Service Vulnerability",
