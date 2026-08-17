@@ -1,6 +1,51 @@
 {
-  "last_updated": "2026-08-17T18:39:48Z",
+  "last_updated": "2026-08-17T19:55:20Z",
   "articles": [
+    {
+      "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
+      "link": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
+      "description": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies after gaining access using compromised credentials. [...]",
+      "pub_date": "Mon, 17 Aug 2026 15:35:01 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Pokémon Center data breach exposes customer info, cancels some orders",
+      "link": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
+      "description": "Pokémon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logi...",
+      "pub_date": "Mon, 17 Aug 2026 15:12:39 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+      "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+      "description": "Cybersecurity researchers at Wiz\u0026nbsp;have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public\u0026nbsp;snowflakedb/snowflake-connector-net repository that it said cou...",
+      "pub_date": "Tue, 18 Aug 2026 00:14:17 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJW5BJKjwNfnH2t8RrvgW0wUO3_ZJWnw30aS6GlU9qoaOWMQcyoZ9ZOZmTgLo7hWAqHlKDK2b4MrtF23Jv_1-1Ffd6bo6VlR8exLvIISBANwjHnW3dv7wLgCtyCIDlndpJ67TajeEpN-Ww9eVVutmS4fTpcDPJtlAk_ZU0GLtnkDvYLlqWPv75uMH7ob__/s1600/snowflake.jpg"
+    },
+    {
+      "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+      "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+      "description": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susce...",
+      "pub_date": "Mon, 17 Aug 2026 23:52:09 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5Jfag1_E06odK7mkATjCOSPdD_fHy2kcYYHfi9fDNTsk0CRkV2yJD0Uz4MV82XjbMR5QNyK3Akw5Ysf0N7fDQ3DwApNb5Tf9R4axktScKF3UZlMVtrY3ulTzrYjFviMA8HmIUCBZhxmR59TtnJ7xf-B_iJtl3SWiBZAFbOfhUoldNdZX0sOStx6ULNMSZ/s1600/wordpress-flaw.jpg"
+    },
+    {
+      "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+      "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+      "description": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Isr...",
+      "pub_date": "Mon, 17 Aug 2026 23:11:06 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu-MyaPNuRr2_NJ_TMqLf7OYW5AzCqgHpQ6HMfxlc-qsMzwSkfWlZDbHfecZ3IRp639FVDelhMZgpbnN87Fdchoh-g08R-cAiXxr7RvfdGy_ihvMxg152HK-rbOTIOnEueRTnPT-wU0eID3vplpIN1GBClvJC5e0egCGpDb_H0ykwH1x6a4zOvpW8V-Ssy/s1600/google.jpg"
+    },
     {
       "title": "OpenMatter Network to Take Verification Message to Belgrade Blockchain Week 2026",
       "link": "https://cybersecuritynews.com/openmatter-network-belgrade-blockchain-week-2026/",
@@ -290,24 +335,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtCfpJQBf2uorUk8jQiK_Cpzh2QLElku5-T5DS6dLc9iV3XA5w1fsd7F9aiCv1gMYri3jEogBTuyYaiSzgdBhvDxWSN_1X1Q-AZkr3u5QBBvzzvZ_F7mpQdqxy-mXsXC_YuPpikK6nHTLhRy8cwpccEKb3ScMiQ8bGLYw5-NMf8kOcEVCYefsCUgu8LEU/s1600/ORCHID.jpg"
     },
     {
-      "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
-      "description": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]",
-      "pub_date": "Fri, 14 Aug 2026 10:59:55 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
-      "link": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
-      "description": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need ...",
-      "pub_date": "Fri, 14 Aug 2026 10:00:10 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
       "link": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
       "description": "The threat actor known as HoneyMyte (aka\u0026nbsp;Mustang Panda) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and pr...",
@@ -333,33 +360,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg_fCSow6T3Wo-vpD0YGw6I-3-9B4BmxQvPW4XX5NjGqYkEd929vj1fiXMD5ebscmBPVViIEhlkfg0zmJ9ftMUtLbwIolt1uXcmnnWYlHiFxNQhRa1_4lvnEOXGT6uBwrPbJkZiMBF0mmu3EeAvzu6dnj1hnak63Fb1nL5Owdv4cdWU3ymWoBRho7Vo5w/s1600/ctm.jpg"
-    },
-    {
-      "title": "Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware",
-      "link": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
-      "description": "Apple on Thursday sent a fresh batch of notifications to customers whom it suspects may have been targeted by mercenary spyware attacks.  In a statement shared with TechCrunch, the iPhone maker sai...",
-      "pub_date": "Fri, 14 Aug 2026 16:14:34 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTrk440S7PXJ5sSmKnZIdesVK6PyZSDythFcN4mRxAPn-e4zfJ7ArPi_4Uya1_1N94uKeXMg7prAAOV7e968w2bLcngT-4ultLDyikYTR3bano0-5Qhb1QsR50RH5RGwiPoAZ9rHjmAzdFc6FTyHEDJHuUgd1qIC6_Wq59PZFg6H-8yz2WDbBos1OneV0n/s1600/apple.jpg"
-    },
-    {
-      "title": "Trump Memo Paves Way for U.S. Firms to Hack and Disrupt Foreign Crime Groups",
-      "link": "https://thehackernews.com/2026/08/trump-memo-paves-way-for-us-firms-to.html",
-      "description": "A new White House memo signed by U.S. President Donald Trump has instructed the National Coordination Center (NCC) to establish a program that would allow private sector companies to take advantage...",
-      "pub_date": "Fri, 14 Aug 2026 15:08:56 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWSdrf8axt7XPd3F2_owXsMWjBqWxQ_PPUN9qqsmsi3wFBIO5FVPr0M3bC76Sgmx9tMxf9AQwLEffgX39-wYX9PO2fQUlI9Xu7m95fiVckPv80ubtndLLR_H0fDPq4aNXOx5Ug2us0G2iGowlsmL9lyRXtFQb5OjyL3Ju5BFtH3pyQN1Z11R3tntTH57nI/s1600/memo.jpg"
-    },
-    {
-      "title": "China-Linked Jewelbug Uses XG-Web for Government Espionage and Crypto Fraud",
-      "link": "https://thehackernews.com/2026/08/china-linked-jewelbug-uses-xg-web-for.html",
-      "description": "The China-linked threat actor known as Jewelbug has been observed carrying out cyber espionage operations targeting governments and militaries, while simultaneously engaging in cryptocurrency fraud...",
-      "pub_date": "Fri, 14 Aug 2026 13:24:18 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipbxt8OBph0rxAoZdbLb382s4l_N39bPLE0AvbTOd3cIGyvzmQ6PDhyrausjW5xrX-pEbIxhCz1Kc17gbrTdx801nov73lNVJ20DpXeH84JadBPM0rhyWYZqqYmhgJ2Ksjp3iO0dUQA0InqpuyHWWoXsaA1L5lLmxhlxH2lnT9ObfOZxXaERpITVNFOzPv/s1600/cyber.jpg"
     },
     {
       "title": "What 50 open source projects taught us about security in the AI era",
