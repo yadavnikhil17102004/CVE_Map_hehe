@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-17T03:23:27Z",
+  "last_updated": "2026-08-17T03:57:38Z",
   "articles": [
+    {
+      "title": "Apple Screen Sharing Vulnerability Exploited to Execute Command as Root",
+      "link": "https://cybersecuritynews.com/apple-screen-sharing-vulnerability/",
+      "description": "A newly disclosed logic flaw in macOS Screen Sharing shows how a feature meant only to grant screen-viewing access can be twisted into a path for full root command execution. The issue, tracked as ...",
+      "pub_date": "Mon, 17 Aug 2026 03:39:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Apple-Screen-Sharing-Vulnerability.webp"
+    },
     {
       "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
       "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
@@ -29,6 +38,33 @@
       "image_url": ""
     },
     {
+      "title": "Cyber Security Weekly Newsletter – Outlook RCE, Palo Alto, Cisco 0-day and Windows 0-Day Flaws +20 Stories",
+      "link": "https://cybersecuritynews.com/cyber-security-weekly-newsletter-august/",
+      "description": "This week\u0026#8217;s roundup covers a record-setting Microsoft Patch Tuesday, an actively exploited Cisco firewall zero-day, a Lazarus-linked Windows kernel bug, and critical flaws across TP-Link, Pal...",
+      "pub_date": "Sun, 16 Aug 2026 16:24:03 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Cyber-Security-Newsletter-Bulletin.webp"
+    },
+    {
+      "title": "Microsoft Begins to Merge Consumer and Enterprise Copilot Apps to Make New Super App",
+      "link": "https://cybersecuritynews.com/microsoft-combines-copilot-apps/",
+      "description": "Microsoft is moving closer to a unified Copilot experience by merging key elements of its consumer AI assistant with the Microsoft 365 productivity environment. The change positions Copilot as a si...",
+      "pub_date": "Sun, 16 Aug 2026 15:58:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-begins-to-Merge-consumer-and-Enterprise-Copilot-apps-to-Make-New-Super-App-.webp"
+    },
+    {
+      "title": "AWS Certificate Manager to Discontinue Email Validation for Public Certificates",
+      "link": "https://cybersecuritynews.com/aws-certificate-manager-email-validation/",
+      "description": "AWS Certificate Manager (ACM) has announced plans to permanently discontinue email-based domain control validation (DCV) for public certificate renewals by September 30, 2027. The deprecation align...",
+      "pub_date": "Sun, 16 Aug 2026 15:54:22 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AWS-Certificate-Manager-Ends-Email-Validation.webp"
+    },
+    {
       "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
       "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
       "description": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's ...",
@@ -38,6 +74,24 @@
       "image_url": ""
     },
     {
+      "title": "McDonald’s, Vodafone Hit by Azure Credential Theft Campaign Exposing Millions of Enterprise Records",
+      "link": "https://cybersecuritynews.com/azure-credential-theft-campaign/",
+      "description": "A sprawling Azure data exfiltration campaign is unfolding across the dark web, with a threat actor systematically selling off internal employee directories stolen from some of the world\u0026#8217;s lar...",
+      "pub_date": "Sun, 16 Aug 2026 14:27:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Azure-Credential-Theft-Campaign.webp"
+    },
+    {
+      "title": "Post-Hugging Face Reflections: The Agentic Attacker Is Already Here ",
+      "link": "https://cybersecuritynews.com/post-hugging-face-reflections-the-agentic-attacker-is-already-here/",
+      "description": "Bill Robbins, CEO of Menlo Security\u0026#160; An AI agent broke out of the sandbox built to contain it and put itself on the open internet. Then it attacked another company. The attack wasn\u0026#8217;t\ufffd...",
+      "pub_date": "Sat, 15 Aug 2026 14:34:25 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Bill-Robbins.webp"
+    },
+    {
       "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
       "link": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
       "description": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
@@ -45,6 +99,33 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Hackers Started to Exploit Critical SAP Commerce Cloud, Still No Public PoC",
+      "link": "https://cybersecuritynews.com/hackers-exploit-sap-commerce-cloud/",
+      "description": "Threat actors have begun actively probing and attempting to exploit a maximum-severity flaw in SAP Commerce Cloud, just three days after official security fixes were released. Defused honeypot tele...",
+      "pub_date": "Sat, 15 Aug 2026 13:59:41 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Exploit-SAP-Commerce-Cloud.webp"
+    },
+    {
+      "title": "Shell Investigating Data Breach Following Cl0p Ransomware Group Claim",
+      "link": "https://cybersecuritynews.com/shell-investigating-data-breach/",
+      "description": "Multinational energy giant Shell has launched an active investigation after the notorious Cl0p ransomware syndicate claimed responsibility for exfiltrating sensitive internal data. Security researc...",
+      "pub_date": "Sat, 15 Aug 2026 12:56:42 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Shell-Investigating-Data-Breach.webp"
+    },
+    {
+      "title": "Microsoft to Make Passkeys Default in Entra ID and Retires SMS and Voice Authentication",
+      "link": "https://cybersecuritynews.com/microsoft-make-passkeys-default-in-entra-id/",
+      "description": "Microsoft will make passkeys the default authentication experience in Microsoft Entra ID as part of a broader move away from phishing-prone sign-in methods. The company will also retire Microsoft-p...",
+      "pub_date": "Sat, 15 Aug 2026 10:48:25 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-to-make-passkeys-Default-in-Entra-ID-and-Retires-SMS-and-voice-authentication.webp"
     },
     {
       "title": "How Anthropic plans to watermark Claude's AI-generated text",
@@ -72,6 +153,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI",
+      "link": "https://cybersecuritynews.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/",
+      "description": "Selidan, USA, August 14th, 2026, CyberNewswire New report examines suspicious Reddit activity, coordinated YouTube content and BBB Scam Tracker entries influencing how the vehicle history platform ...",
+      "pub_date": "Fri, 14 Aug 2026 16:31:04 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAKFffzGjkxmQtKa1Boy52FYRjPUhFH6nFz1T0VF8DnB764ZWWemdYgdjiQ-uUVNMjTlVv76-N6fQ9qtf7CXd-xBZoWBXB8Nkjs087J2Oo-M63ga9FdVcWOAU2obBOHwyRM87Gtv2OTYj9e3p1BCPJNcRIivDPv1_xtLYSR1BmTVXHMJ2YhUROHDu1a64/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-14T213449.22.webp"
     },
     {
       "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
