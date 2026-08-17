@@ -1,6 +1,51 @@
 {
-  "last_updated": "2026-08-17T05:35:03Z",
+  "last_updated": "2026-08-17T06:54:58Z",
   "articles": [
+    {
+      "title": "Evooo1Bot Linux Botnet Uses 16 DDoS Methods and SOCKS5 Proxies to Hijack Edge Devices",
+      "link": "https://cybersecuritynews.com/evooo1bot-linux-botnet/",
+      "description": "A newly tracked Linux botnet is turning exposed edge devices into tools for disruption, remote access, and traffic relaying. Evooo1Bot is the threat that reaches internet-facing edge systems by exp...",
+      "pub_date": "Mon, 17 Aug 2026 06:49:16 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Evooo1Bot-Linux-Botnet-Uses-16-DDoS-Methods-and-SOCKS5-Proxies-to-Hijack-Edge-Devices.webp"
+    },
+    {
+      "title": "ChainDrop npm Worm Poisons 444 Packages Through GitHub Actions and Trusted Publishing",
+      "link": "https://cybersecuritynews.com/chaindrop-npm-worm/",
+      "description": "ChainDrop has made an npm package compromise a warning about developer machines. The self-propagating campaign poisoned 444 packages and more than 1,300 malicious releases after attackers took over...",
+      "pub_date": "Mon, 17 Aug 2026 06:32:48 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ChainDrop-npm-Worm-Poisons-444-Packages-Through-GitHub-Actions-and-Trusted-Publishing.webp"
+    },
+    {
+      "title": "12 KB Windows Backdoor Hides C2 Domain in desktop.ini Whitespace to Evade Detection",
+      "link": "https://cybersecuritynews.com/12-kb-windows-backdoor/",
+      "description": "A newly documented Windows backdoor shows how little code an attacker needs to stay hidden. The 12 KB implant was found on one corporate workstation, where it posed as Realtek audio software. Its s...",
+      "pub_date": "Mon, 17 Aug 2026 06:22:22 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/12-KB-Windows-Backdoor-Hides-C2-Domain-in-desktop.ini-Whitespace-to-Evade-Detection.webp"
+    },
+    {
+      "title": "Safepal Confirm Hackers Gained Access to Customer Order Information",
+      "link": "https://cybersecuritynews.com/safepal-confirm-hackers-access/",
+      "description": "SafePal has confirmed a security incident in which unauthorized parties accessed customer order information through a flaw in an order-tracking plug-in. The company said the incident affected appro...",
+      "pub_date": "Mon, 17 Aug 2026 06:18:55 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Safepal-Confirm-Hackers-Gained-Access-to-Customer-Order-Information.webp"
+    },
+    {
+      "title": "Apple Screen Sharing Vulnerability Exploited to Execute Command as Root",
+      "link": "https://cybersecuritynews.com/apple-screen-sharing-vulnerability/",
+      "description": "A newly disclosed logic flaw in macOS Screen Sharing shows how a feature meant only to grant screen-viewing access can be twisted into a path for full root command execution. The issue, tracked as ...",
+      "pub_date": "Mon, 17 Aug 2026 03:39:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Apple-Screen-Sharing-Vulnerability.webp"
+    },
     {
       "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
       "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
@@ -29,6 +74,33 @@
       "image_url": ""
     },
     {
+      "title": "Cyber Security Weekly Newsletter – Outlook RCE, Palo Alto, Cisco 0-day and Windows 0-Day Flaws +20 Stories",
+      "link": "https://cybersecuritynews.com/cyber-security-weekly-newsletter-august/",
+      "description": "This week\u0026#8217;s roundup covers a record-setting Microsoft Patch Tuesday, an actively exploited Cisco firewall zero-day, a Lazarus-linked Windows kernel bug, and critical flaws across TP-Link, Pal...",
+      "pub_date": "Sun, 16 Aug 2026 16:24:03 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Cyber-Security-Newsletter-Bulletin.webp"
+    },
+    {
+      "title": "Microsoft Begins to Merge Consumer and Enterprise Copilot Apps to Make New Super App",
+      "link": "https://cybersecuritynews.com/microsoft-combines-copilot-apps/",
+      "description": "Microsoft is moving closer to a unified Copilot experience by merging key elements of its consumer AI assistant with the Microsoft 365 productivity environment. The change positions Copilot as a si...",
+      "pub_date": "Sun, 16 Aug 2026 15:58:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-begins-to-Merge-consumer-and-Enterprise-Copilot-apps-to-Make-New-Super-App-.webp"
+    },
+    {
+      "title": "AWS Certificate Manager to Discontinue Email Validation for Public Certificates",
+      "link": "https://cybersecuritynews.com/aws-certificate-manager-email-validation/",
+      "description": "AWS Certificate Manager (ACM) has announced plans to permanently discontinue email-based domain control validation (DCV) for public certificate renewals by September 30, 2027. The deprecation align...",
+      "pub_date": "Sun, 16 Aug 2026 15:54:22 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AWS-Certificate-Manager-Ends-Email-Validation.webp"
+    },
+    {
       "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
       "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
       "description": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's ...",
@@ -36,6 +108,24 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "McDonald’s, Vodafone Hit by Azure Credential Theft Campaign Exposing Millions of Enterprise Records",
+      "link": "https://cybersecuritynews.com/azure-credential-theft-campaign/",
+      "description": "A sprawling Azure data exfiltration campaign is unfolding across the dark web, with a threat actor systematically selling off internal employee directories stolen from some of the world\u0026#8217;s lar...",
+      "pub_date": "Sun, 16 Aug 2026 14:27:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Azure-Credential-Theft-Campaign.webp"
+    },
+    {
+      "title": "Post-Hugging Face Reflections: The Agentic Attacker Is Already Here ",
+      "link": "https://cybersecuritynews.com/post-hugging-face-reflections-the-agentic-attacker-is-already-here/",
+      "description": "Bill Robbins, CEO of Menlo Security\u0026#160; An AI agent broke out of the sandbox built to contain it and put itself on the open internet. Then it attacked another company. The attack wasn\u0026#8217;t\ufffd...",
+      "pub_date": "Sat, 15 Aug 2026 14:34:25 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Bill-Robbins.webp"
     },
     {
       "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
