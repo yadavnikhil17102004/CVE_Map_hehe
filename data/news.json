@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-08-18T08:01:11Z",
+  "last_updated": "2026-08-18T08:36:30Z",
   "articles": [
+    {
+      "title": "Microsoft starts removing WMIC tool used by cybercriminals",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
+      "description": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",
+      "pub_date": "Tue, 18 Aug 2026 04:12:08 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "VMware Syslog Path Traversal Becomes Root RCE, Persistent SSH Access and ESXi Ransomware",
+      "link": "https://cybersecuritynews.com/vmware-syslog-path-traversal/",
+      "description": "A fast-moving campaign is turning a VMware vCenter flaw into a route to full control of virtual infrastructure. Attackers are abusing CVE-2026-59310, a critical path traversal bug in the Syslog Ser...",
+      "pub_date": "Tue, 18 Aug 2026 08:02:41 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/VMware-Syslog-Path-Traversal-Becomes-Root-RCE-Persistent-SSH-Access-and-ESXi-Ransomware.webp"
+    },
+    {
+      "title": "Critical GitLab GraphQL Vulnerability Allow Attackers to Delete Public Projects",
+      "link": "https://cybersecuritynews.com/gitlab-graphql-vulnerability/",
+      "description": "GitLab has released urgent security updates to fix a critical GraphQL vulnerability that could allow unauthenticated attackers to modify or delete public projects and user data remotely. The issue,...",
+      "pub_date": "Tue, 18 Aug 2026 07:37:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-GitLab-GraphQL-Vulnerability-Allow-Attackers-to-Delete-Public-Projects.webp"
+    },
+    {
+      "title": "Windows 11 File Explorer Gets Faster, Customizable Right-Click Menu With App Extension Controls",
+      "link": "https://cybersecuritynews.com/windows-11-file-explorer-gets-faster/",
+      "description": "Microsoft has introduced a redesigned File Explorer context menu for Windows 11 Insiders, promising faster right-click performance, less clutter, and new controls over built-in commands and third-p...",
+      "pub_date": "Tue, 18 Aug 2026 06:49:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Windows-11-File-Explorer-Gets-Faster-Customizable-Right-Click-Menu-With-App-Extension-Controls.webp"
+    },
     {
       "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
       "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
@@ -9,6 +45,42 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW_d5c3hAfK37Zdlctl3fWxMgNXEsGKNJ9Fwf0LvHSV75qdLLYHAnyy7Le8aziJ58ma6YA83clBQQwK0xqG-lmeat7Z9bcTEaV4hmNl_SJL5iAh3r1Q4w8vk4b87pQHiGgorzFqyAYUcGXgkSyXA-0ZN1FTjC6ztxhHceoMJr-Qf-B0giZ1ZEC74B4FKL7/s1600/cisa-ray.jpg"
+    },
+    {
+      "title": "Top 10 Best Network Sandboxing Solutions in 2026",
+      "link": "https://cybersecuritynews.com/best-network-sandboxing-solutions/",
+      "description": "Network sandboxing detonates unknown files and URLs in an isolated environment to see what they actually do catching malware that has never been seen before and therefore has no signature. Palo Alt...",
+      "pub_date": "Tue, 18 Aug 2026 06:25:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2N8D-mwbheoReoI-Zk_fjC68en-KX123VPyN3pJBMVQEQfvBc5t7g1eZit97kzHYWw6EQhhgr88vYuDXKnPHPIR6qhQBMk6dhAQtFJ3cwqLpXNSnC00Csa_8HLYV-Zk5r1lPjqldC765uqjEH4ShdWaH1VuWFHfJDHFdfXA311DwSnKrQtdja98YZ5GM/s1600/Best%20Network%20Sandboxing%20Solutions%20.webp"
+    },
+    {
+      "title": "Claude Code Helps Ransomware Operator Steal LDAP Passwords, Backdoor VPNs and Exfiltrate SQL Databases",
+      "link": "https://cybersecuritynews.com/claude-code-helps-ransomware-operator/",
+      "description": "A new threat intelligence report from Gambit Security has documented one of the clearest real-world examples yet of artificial intelligence being weaponized inside an active ransomware campaign. Re...",
+      "pub_date": "Tue, 18 Aug 2026 05:56:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Code-Helps-Ransomware-Operator.webp"
+    },
+    {
+      "title": "Public Exploit Code Released for Microsoft SCCM Remote Code Execution Vulnerability",
+      "link": "https://cybersecuritynews.com/microsoft-sccm-vulnerability-poc-release/",
+      "description": "Public proof-of-concept exploit code is now available for CVE-2026-47301, a critical remote code execution vulnerability affecting Microsoft Configuration Manager (SCCM). The disclosed exploit chai...",
+      "pub_date": "Tue, 18 Aug 2026 05:39:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Public-Exploit-Code-Released-for-Microsoft-SCCM-Remote-Code-Execution-Vulnerability.webp"
+    },
+    {
+      "title": "Pokémon Center Confirms Data Breach – Hackers Stole Customers’ Personal Data",
+      "link": "https://cybersecuritynews.com/pokemon-center-confirms-data-breach/",
+      "description": "Pokémon Center has begun notifying customers in the United Kingdom and Germany that their personal information was exposed in a third-party data breach, and that the incident has forced the compan...",
+      "pub_date": "Tue, 18 Aug 2026 02:38:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Pokemon-Center-Confirms-Data-Breach.webp"
     },
     {
       "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
@@ -65,6 +137,24 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu-MyaPNuRr2_NJ_TMqLf7OYW5AzCqgHpQ6HMfxlc-qsMzwSkfWlZDbHfecZ3IRp639FVDelhMZgpbnN87Fdchoh-g08R-cAiXxr7RvfdGy_ihvMxg152HK-rbOTIOnEueRTnPT-wU0eID3vplpIN1GBClvJC5e0egCGpDb_H0ykwH1x6a4zOvpW8V-Ssy/s1600/google.jpg"
     },
     {
+      "title": "OpenMatter Network to Take Verification Message to Belgrade Blockchain Week 2026",
+      "link": "https://cybersecuritynews.com/openmatter-network-belgrade-blockchain-week-2026/",
+      "description": "Melbourne, Florida, August 17th, 2026, CyberNewswire Head of Operations and Partnerships Chris Biele to lead sessions on secure scientific collaboration, agentic AI and the need to move from trust ...",
+      "pub_date": "Mon, 17 Aug 2026 16:48:56 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2DGPBMruPfux65RYqdOxwGV_SHfmO2_AYanYu3UKh55RpJM0IhSKJ4rHsQNig4U7f-VlzeQW5KL5GNwujvqqpdit1QkA5lPtS7pqBNybNpHPaPzJw4P8DlwDxQx6-hGfRuAj32s1hIvFvdJSFpu90PRWyX7xuRkZiPGC8ds-VadfUNT1tb06cSGzgUAk/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-17T194657.58.webp"
+    },
+    {
+      "title": "GitHub Outage Disrupts Developers Worldwide Amid Ongoing Investigation",
+      "link": "https://cybersecuritynews.com/github-outage-worldwide/",
+      "description": "GitHub, the world\u0026#8217;s largest code-hosting platform, is grappling with a significant service disruption that began around 13:40 UTC on August 17, 2026, leaving developers, enterprises, and DevO...",
+      "pub_date": "Mon, 17 Aug 2026 15:30:32 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GitHub-Outage-Worldwide.webp"
+    },
+    {
       "title": "Microsoft confirms GitHub is down worldwide",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
       "description": "GitHub is down for some users as a widespread outage is causing errors across the website, API, Actions, Pull Requests, and several other services. [...]",
@@ -81,6 +171,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Top 10 Best Software-Defined Perimeter (SDP) Solutions in 2026",
+      "link": "https://cybersecuritynews.com/best-software-defined-perimeter-solutions/",
+      "description": "A software-defined perimeter makes your infrastructure invisible: resources accept no unauthenticated connections, so attackers cannot scan, probe, or exploit what they cannot see. Zscaler leads at...",
+      "pub_date": "Mon, 17 Aug 2026 13:27:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Best-Software-Defined-Perimeter-SDP-Solutions.webp"
     },
     {
       "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
@@ -243,15 +342,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirmsCR51S8-S9Y9cCidbhsmyNlysPzNGZkLuFNY8GHiq3mwnVKOcB1hUq_Q7Oz2j6nH61si-eaqq4xouwv2_JsEzEU6eYS2-bL3-dXBwweGAK-3QnhfKZi8MANcdtpg9VTsqaCrB3Jog3FVUQFV9wtkiQkB6sSVyMclXHwxBXPFjHput_haLnTmH03kq6E/s1600/domains.jpg"
-    },
-    {
-      "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
-      "description": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from...",
-      "pub_date": "Fri, 14 Aug 2026 14:04:26 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "IAM Compliance Requirements and Best Practices",
