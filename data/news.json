@@ -1,14 +1,59 @@
 {
-  "last_updated": "2026-08-18T17:27:23Z",
+  "last_updated": "2026-08-18T18:38:29Z",
   "articles": [
     {
-      "title": "French Tax Authority Data Breach Exposes 600,000+ Users Personal Tax-Related Data",
+      "title": "CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",
+      "link": "https://cybersecuritynews.com/medusa-ransomware/",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), and the U.S. Department of Health and Human Services (HHS) have jointly released an updated s...",
+      "pub_date": "Tue, 18 Aug 2026 17:47:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-Medusa-Ransomware-Steals-Data.webp"
+    },
+    {
+      "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+      "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+      "description": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other i...",
+      "pub_date": "Tue, 18 Aug 2026 23:17:22 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAc2Z6RvtNlJnjkfp-kCEhx8x8Q9XPLHY-oQb8NXu6cb-C5BTfa9HnmWq3G1GT3mPsHLV6Xf6tyBui-ljplsYEo9Qt8kBiNKXOwvTzACMisyS0NQ5U3bGg8O6yVEPStEPbYw4W-4ZasDNssDr2JTJD7GTo6QEpER1L-9Xci-mNSk3A5t_aLXGIHwo04FI/s1600/copilot.jpg"
+    },
+    {
+      "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
+      "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+      "description": "Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) a...",
+      "pub_date": "Tue, 18 Aug 2026 23:14:05 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOzcJe940Ayk9JrnE-tmotZ-mEHZiA5Jc0A8Sw9IZIfYEnH61X8whAW6jJZTnzLIQYA37foce9X_fshoAVwjLyBKrjvHbkuhhtwZ2Mewxtf1Syn9FBOvZBqwcMWXOCKFNnASyrCOQ9XTF6f174Aa4O55O7tbU6evYcrrV0H_psoYYq3uQQ_GvZqsu0e0ik/s1600/mlflow.jpg"
+    },
+    {
+      "title": "Clop created custom web shell for Windchill data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+      "description": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repo...",
+      "pub_date": "Tue, 18 Aug 2026 13:29:51 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "French Tax Authority Data Breach Exposes 600,000+ Users’ Personal Tax-Related Data",
       "link": "https://cybersecuritynews.com/french-tax-authority-data-breach/",
       "description": "France’s tax authority has confirmed a data breach affecting approximately 678,000 individuals and businesses after threat actors gained unauthorized access to internal information systems. The i...",
       "pub_date": "Tue, 18 Aug 2026 17:00:44 +0000",
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/French-Tax-Authority-Data-Breach-Exposes-600000-Users-personal-tax-related-data.webp"
+    },
+    {
+      "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+      "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+      "description": "A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange...",
+      "pub_date": "Tue, 18 Aug 2026 22:28:16 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo_eOapavOiIGXF7klCQPyN0-Qg2nWk9KlUYzPHuLwAyMKM75P3E2jciQR3v9gt2UBmez3XRSC57e5Fe9Oowm2brtgRXz5nJMPN8iQnBYddnTI4DyffnBAh4iLQFSOhA-8RhbbwuXqbJQOkhiXo5asFku1kFfmQd-UsHT6ulzdvRvw7WXwFKYFBTU_Q9nB/s1600/ransom.jpg"
     },
     {
       "title": "Critical MLflow SSRF Vulnerability Exploited by Hackers in the Wild",
@@ -90,15 +135,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Kimsuky Expands Its Cyber Espionage Arsenal With Local AI Development Environment",
-      "link": "https://cybersecuritynews.com/kimsuky-expands-its-cyber/",
-      "description": "Kimsuky, the North Korean espionage group, has expanded a campaign known as Operation GitPower with a local artificial intelligence development setup. It combines phishing emails with tools that ma...",
-      "pub_date": "Tue, 18 Aug 2026 13:41:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Kimsuky-Expands-Its-Cyber-Espionage-Arsenal-With-Local-AI-Development-Environment.webp"
     },
     {
       "title": "New Report: AI threats are here. Why Q2 2026 signals the end of traditional patch cycles",
@@ -317,15 +353,6 @@
       "image_url": ""
     },
     {
-      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
-      "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-      "description": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, ...",
-      "pub_date": "Mon, 17 Aug 2026 16:22:34 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIqVuTpKFLy55ilEFObjJqUsVDu7qTrQCYAFsh7bbMcF4xv61h8I6tfue0tGw04yWGhDg_cZ-r0v9Jw-kjNmm5ZYpbebrvlgixiqID5pSUwXb8dQSg12cI5kFkR4BKK0mwc6rMP-9ULTHob-bi7rgfYxGBixmNhGy75tlqn5tlc6OXjpGGZemXbq0yHRY/s1600/android.jpg"
-    },
-    {
       "title": "French tax authority data breach affects 678,000 individuals",
       "link": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
       "description": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 ...",
@@ -333,15 +360,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
-      "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
-      "description": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn i...",
-      "pub_date": "Mon, 17 Aug 2026 14:59:55 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIDrkyaW1magTuvTfLfkhtk_8stt1zYUxgonTZX1yaI_OGxsGMV9wCRE8bglbRubclVma7bkghEbmah6ku4T2ZVnpSngl6k5Cw0iCXgNNpuy6I2ZNPQOYYIfqKNgcVQxkqZdgvFLLM82bK1By0hrAm4i9slLnFQwQmwLmpR8I9eb8Paze2sf2UJMlol81Q/s1600/linux-botnet.jpg"
     },
     {
       "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
@@ -362,28 +380,10 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt3cc8c945f314ec1f/68b9a045a7d14357b3ba893b/blog-hero-texture-lines.jpg"
     },
     {
-      "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
-      "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
-      "description": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT).  The attacks invo...",
-      "pub_date": "Mon, 17 Aug 2026 13:06:19 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN5GzIjo1DOb9leWRsG7hi5zemNCi6kb_NBf-391nF9pphXhTgf8DZLMlk-fUyp-j4rT_cFv4coBpP821rfQkUc4ydAu5YQBcn9Y6nj-SeQGDNu10DmSN2JYDmWJTzLUSXsvDYPTBQ_cQkkCFAIkdMCyRgRv5YIPdMgkp62BtqaYE49b3aWnm4QbYM7YeK/s1600/vmware.jpg"
-    },
-    {
       "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
       "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
       "description": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is no...",
       "pub_date": "Sun, 16 Aug 2026 19:47:06 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
-      "description": "Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]",
-      "pub_date": "Sun, 16 Aug 2026 18:28:57 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
@@ -740,6 +740,15 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog   ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-33824 Microsoft Internet Key Exchange (IKE) ...",
+      "pub_date": "Tue, 18 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog  ",
       "link": "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2025-62593 Ray-Project Ray Code Injection Vulnerabil...",
@@ -842,15 +851,6 @@
       "title": "AVEVA Enterprise SCADA",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-01",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to tamper with serialized data, potentially resulting in code execution during deserialization. The following...",
-      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Simcenter Femap",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-11",
-      "description": "View CSAF Summary Simcenter Femap contains two file parsing vulnerabilities that could be triggered when the application reads files in BMP file format. If a user is tricked to open a malicious fil...",
       "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
