@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-08-18T16:31:28Z",
+  "last_updated": "2026-08-18T17:27:23Z",
   "articles": [
+    {
+      "title": "French Tax Authority Data Breach Exposes 600,000+ Users Personal Tax-Related Data",
+      "link": "https://cybersecuritynews.com/french-tax-authority-data-breach/",
+      "description": "France’s tax authority has confirmed a data breach affecting approximately 678,000 individuals and businesses after threat actors gained unauthorized access to internal information systems. The i...",
+      "pub_date": "Tue, 18 Aug 2026 17:00:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/French-Tax-Authority-Data-Breach-Exposes-600000-Users-personal-tax-related-data.webp"
+    },
+    {
+      "title": "Critical MLflow SSRF Vulnerability Exploited by Hackers in the Wild",
+      "link": "https://cybersecuritynews.com/mlflow-ssrf-vulnerability/",
+      "description": "Threat actors are actively exploiting a critical, unauthenticated server-side request forgery (SSRF) vulnerability in MLflow, the popular open-source platform widely used by data engineering and ma...",
+      "pub_date": "Tue, 18 Aug 2026 16:52:33 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/MLflow-SSRF-Vulnerability.webp"
+    },
+    {
+      "title": "Hackers Hijack Thousands of WordPress Sites to Use as C2 Servers for StopAndProtect Malware",
+      "link": "https://cybersecuritynews.com/wordpress-sites-stopandprotect-malware/",
+      "description": "A newly uncovered malware operation dubbed StopAndProtect is transforming thousands of hacked WordPress websites into a sprawling criminal command-and-control (C2) infrastructure. The campaign blen...",
+      "pub_date": "Tue, 18 Aug 2026 16:47:24 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/WordPress-Sites-StopAndProtect-Malware.webp"
+    },
     {
       "title": "Microsoft 365 Search Outage Disrupts SharePoint, OneDrive, and Outlook Users Worldwide",
       "link": "https://cybersecuritynews.com/microsoft-365-search-outage/",
@@ -72,33 +99,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Kimsuky-Expands-Its-Cyber-Espionage-Arsenal-With-Local-AI-Development-Environment.webp"
-    },
-    {
-      "title": "Octagon Can Steal SMS One-Time Codes During Banking and Crypto Account Takeovers",
-      "link": "https://cybersecuritynews.com/octagon-steal-sms-one-time-codes/",
-      "description": "Octagon is an Android theft tool that turns an infected phone into a platform for account takeover. It can steal login details, watch the screen, and capture verification codes that banks and excha...",
-      "pub_date": "Tue, 18 Aug 2026 13:21:28 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Octagon-Can-Steal-SMS-One-Time-Codes-During-Banking-and-Crypto-Account-Takeovers.webp"
-    },
-    {
-      "title": "Apple Fixes 28 Security Vulnerabilities Across macOS, iOS, and iPadOS",
-      "link": "https://cybersecuritynews.com/apple-fixes-28-security-vulnerabilities/",
-      "description": "Apple has released security updates for macOS, iOS, and iPadOS, addressing 28 vulnerabilities that could expose users to data leakage, application crashes, kernel memory access, and arbitrary code ...",
-      "pub_date": "Tue, 18 Aug 2026 13:02:16 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Apple-Fixes-28-security-Vulnerabilities-across-macOS-iOS-and-iPadOS-.webp"
-    },
-    {
-      "title": "OpenAI Warns AI Models Can Automate Cyberattacks and Exploit Security Vulnerabilities",
-      "link": "https://cybersecuritynews.com/openai-ai-cyberattacks/",
-      "description": "OpenAI has warned that advancing artificial intelligence models are increasingly capable of automating critical phases of real-world cyberattacks. This technological shift enables threat actors to ...",
-      "pub_date": "Tue, 18 Aug 2026 12:53:09 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Warns-AI-Models.webp"
     },
     {
       "title": "New Report: AI threats are here. Why Q2 2026 signals the end of traditional patch cycles",
@@ -722,6 +722,24 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/06/613839791-af0d8e48-215f-48c7-8f0c-16ef531592f7.png?resize=1024%2C640"
     },
     {
+      "title": "Siemens Simcenter Nastran",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02",
+      "description": "View CSAF Summary Simcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked ...",
+      "pub_date": "Tue, 18 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "CISA Malcolm",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code. The following versions of CISA Malcolm a...",
+      "pub_date": "Tue, 18 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog  ",
       "link": "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2025-62593 Ray-Project Ray Code Injection Vulnerabil...",
@@ -833,24 +851,6 @@
       "title": "Siemens Simcenter Femap",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-11",
       "description": "View CSAF Summary Simcenter Femap contains two file parsing vulnerabilities that could be triggered when the application reads files in BMP file format. If a user is tricked to open a malicious fil...",
-      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Haiwell IoT Cloud HMI Gateway",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability may allow an attacker to inject and execute arbitrary OS commands with root privileges. The following versions of Haiwell IoT Cloud H...",
-      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Hitachi Energy APM Edge Product",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-04",
-      "description": "View CSAF Summary Hitachi Energy is aware of Dirty Frag vulnerabilities that affect APM Edge product versions listed in this document. Successful exploitation of these vulnerabilities could result ...",
       "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
