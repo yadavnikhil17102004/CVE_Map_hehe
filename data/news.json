@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-08-19T11:25:30Z",
+  "last_updated": "2026-08-19T12:46:11Z",
   "articles": [
+    {
+      "title": "RAVEN Tool Exfiltrates Entire Elasticsearch Databases and Maintains Access After Password Rotation",
+      "link": "https://cybersecuritynews.com/raven-tool-exfiltrates-entire-elasticsearch/",
+      "description": "A newly detailed offensive security tool called RAVEN shows how a compromised Elasticsearch environment can become a data-loss incident with persistent access. The tool demonstrates what an intrude...",
+      "pub_date": "Wed, 19 Aug 2026 11:42:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/RAVEN-Tool-Exfiltrates-Entire-Elasticsearch-Databases-and-Maintains-Access-After-Password-Rotation.webp"
+    },
+    {
+      "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
+      "link": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
+      "description": "Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store st...",
+      "pub_date": "Wed, 19 Aug 2026 16:55:28 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHtWFBMa_xYpIkK39I2gvAJrksqJBAkRSnEZ-WjwpQtbV9mgfPRzWp3qtdhk_v1yOG67pAZ5H3DAFRVv7rEzbns9IuAa4_DV-MUBDIb6fuWzLyRvFXyC1fOaTUPbwxdoY4cykbPy3wXEn3HvlnbjbqH37vkLKMSJA799pVeD50RqMGlJJztFJZcFzR2xTf/s1600/wordpress-hacks.jpg"
+    },
     {
       "title": "Microsoft fixes known issue causing Windows Defender crashes",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/",
@@ -9,6 +27,33 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation",
+      "link": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploite...",
+      "pub_date": "Wed, 19 Aug 2026 16:31:48 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJDdcdHtgq-nTzruVpw0hyZmBZtfG4iwLgi_nfw6A70e_mXt7LUSnyTQ7ZdgclMUypEe7s8s-LDmykPATeFixDXHEP_j1zhheNBnHA1TebBqoYtw1-3g_-LqlSuk8MczmJ3BtD6MO4TL1FVdLEcZXVKn_Rd7ucsm0Imb8QTjxJXZY52RkgfUd26FPQanbZ/s1600/kev.jpg"
+    },
+    {
+      "title": "Oracle Releases 943 Security Patches Including Critical WebLogic Full Takeover Vulnerability",
+      "link": "https://cybersecuritynews.com/oracle-releases-943-security-patches/",
+      "description": "Oracle has released 943 new security patches in its August 2026 Critical Security Patch Update, addressing flaws across its enterprise software portfolio. The release includes several critical Orac...",
+      "pub_date": "Wed, 19 Aug 2026 10:38:24 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Oracle-Releases-943-Security-PatchesIncluding-Critical-WebLogic-Full-Takeover-Vulnerability.webp"
+    },
+    {
+      "title": "Hackers Use Fake Claude Install Guide to Deploy MacSync Stealer and Trojanize Crypto Wallet Apps",
+      "link": "https://cybersecuritynews.com/fake-claude-install-guide/",
+      "description": "Mac users searching for help with Claude Code are being lured into a malware campaign that turns a routine installation task into a full device compromise. The operation uses paid Google search res...",
+      "pub_date": "Wed, 19 Aug 2026 10:34:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-Claude-Install-Guide-to-Deploy-MacSync-Stealer-and-Trojanize-Crypto-Wallet-Apps.webp"
     },
     {
       "title": "Critical RCE flaw in Windows IKE Extension now actively exploited",
@@ -20,6 +65,24 @@
       "image_url": ""
     },
     {
+      "title": "BeyondTrust Windows EPM Vulnerabilities Allows Attackers to Escalate Privileges",
+      "link": "https://cybersecuritynews.com/beyondtrust-windows-epm-vulnerabilities/",
+      "description": "BeyondTrust has disclosed two high-severity vulnerabilities in its Endpoint Privilege Management (EPM) product for Windows that could allow attackers with local access to elevate privileges or bypa...",
+      "pub_date": "Wed, 19 Aug 2026 09:44:48 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/BeyondTrust-Windows-EPM-Vulnerabilities-.webp"
+    },
+    {
+      "title": "Claude Can Now Send Emails in Gmail and Manage Files in Google Drive",
+      "link": "https://cybersecuritynews.com/claude-can-now-send-emails-in-gmail/",
+      "description": "Anthropic has moved Claude out of the draft-only inbox and into live Google accounts. In an August 18, 2026 post, the company said users can ask Claude to reply to a Gmail thread and have the assis...",
+      "pub_date": "Wed, 19 Aug 2026 09:30:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Can-Now-Send-Emails.webp"
+    },
+    {
       "title": "Windows 11 24H2 Home and Pro reach end of support in 2 months",
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/",
       "description": "Microsoft has reminded customers that systems running Home and Pro editions of Windows 11 24H2 will stop receiving updates in two months. [...]",
@@ -27,6 +90,33 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "CISA Warns of VMware vCenter Path Traversal Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/vmware-vcenter-path-traversal-vulnerability-exploited/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency has added a critical Broadcom VMware vCenter vulnerability, tracked as CVE-2026-59310, to its Known Exploited Vulnerabilities catalog after...",
+      "pub_date": "Wed, 19 Aug 2026 09:09:45 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-VMware-vCenter-Path-Traversal-Vulnerability-Actively-Exploited-in-Attacks-.webp"
+    },
+    {
+      "title": "Google Fixes Two Critical Chrome Flaws in WebGL and Dawn — Update Your Browser",
+      "link": "https://cybersecuritynews.com/google-fixes-two-chrome-flaws-in-webgl-and-dawn/",
+      "description": "Google has released a new Chrome Stable channel update that fixes two critical security vulnerabilities affecting graphics-related components. Users should update their browsers as soon as the rele...",
+      "pub_date": "Wed, 19 Aug 2026 09:06:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Google-Fixes-Two-Critical-Chrome-Flaws-in-WebGL-and-Dawn-—-Update-Your-Browser.webp"
+    },
+    {
+      "title": "Critical Cursor 0-day Vulnerability Enables Arbitrary Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/cursor-0-day-vulnerability/",
+      "description": "A binary planting vulnerability in the Cursor IDE that lets a malicious git.exe file, placed at the root of a repository, run automatically the moment a developer opens that project on Windows. The...",
+      "pub_date": "Wed, 19 Aug 2026 08:45:14 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Cursor-0-day-Vulnerability-Enables-Arbitrary-Code-Execution-Attacks-.webp"
     },
     {
       "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
@@ -47,6 +137,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLR2UjD4FhPqPT7MZpKuuqDl82K13qHQ_ob2-S_fK62g7UtwW6jn6YafX4RcZcqFgZWFbXiuCTkLbeD9zC_ws4mOUL0xVJgJ315fMiFlqxDFnhyphenhyphenIe2K8IXv3Vn1ZfWJevZywKd01wSpTS0BT08VlGtSoksz8y0ihBug5XqbRN48jy_NoQx-4fRc52Khzg/s1600/apple-macos.jpg"
     },
     {
+      "title": "Cl0p Hackers Exploit PTC Windchill Flaw to Steal Passwords and Sensitive Company Data",
+      "link": "https://cybersecuritynews.com/cl0p-hackers-exploit-ptc/",
+      "description": "Cl0p, also tracked as Cl0P, has returned with a campaign aimed at PTC Windchill servers, putting engineering files, passwords, and company records at risk. The financially motivated group is exploi...",
+      "pub_date": "Wed, 19 Aug 2026 05:46:16 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Cl0p-Hackers-Exploit-PTC-Windchill-Flaw-to-Steal-Passwords-and-Sensitive-Company-Data.webp"
+    },
+    {
       "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
       "link": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
       "description": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle...",
@@ -54,6 +153,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit3cCqpn48W_lqEDCb9ewKFToGQcvhUjO939N0Gja-aTvCvRTz8kdOPZG1bhyphenhyphenED2XNeB82rjCIeVO3Nw9akDlMnQZqc7keiel8H82zgtf1A7fhb6DP3z6Qh3Ehk6AGrMt77rXkoNhLaDeEl692kDHAHVsNb7AOcDxpsavM0Hj9TZRLLJsuQ-OT3oQOvFMi/s1600/ptc.jpg"
+    },
+    {
+      "title": "Critical Microsoft Copilot CoSnitch Vulnerability Lets Attackers Steal Sensitive Data With One Click",
+      "link": "https://cybersecuritynews.com/copilot-cosnitch-vulnerability/",
+      "description": "A critical vulnerability in Microsoft Copilot Personal, tracked as CVE-2026-24301 and nicknamed CoSnitch, lets attackers silently siphon sensitive data from a victim\u0026#8217;s connected accounts with...",
+      "pub_date": "Wed, 19 Aug 2026 02:32:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Copilot-CoSnitch-Vulnerability.webp"
     },
     {
       "title": "Comcast turns your Xfinity WiFi into a home motion detector",
@@ -243,24 +351,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJW5BJKjwNfnH2t8RrvgW0wUO3_ZJWnw30aS6GlU9qoaOWMQcyoZ9ZOZmTgLo7hWAqHlKDK2b4MrtF23Jv_1-1Ffd6bo6VlR8exLvIISBANwjHnW3dv7wLgCtyCIDlndpJ67TajeEpN-Ww9eVVutmS4fTpcDPJtlAk_ZU0GLtnkDvYLlqWPv75uMH7ob__/s1600/snowflake.jpg"
-    },
-    {
-      "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-      "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-      "description": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susce...",
-      "pub_date": "Mon, 17 Aug 2026 23:52:09 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5Jfag1_E06odK7mkATjCOSPdD_fHy2kcYYHfi9fDNTsk0CRkV2yJD0Uz4MV82XjbMR5QNyK3Akw5Ysf0N7fDQ3DwApNb5Tf9R4axktScKF3UZlMVtrY3ulTzrYjFviMA8HmIUCBZhxmR59TtnJ7xf-B_iJtl3SWiBZAFbOfhUoldNdZX0sOStx6ULNMSZ/s1600/wordpress-flaw.jpg"
-    },
-    {
-      "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-      "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-      "description": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Isr...",
-      "pub_date": "Mon, 17 Aug 2026 23:11:06 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu-MyaPNuRr2_NJ_TMqLf7OYW5AzCqgHpQ6HMfxlc-qsMzwSkfWlZDbHfecZ3IRp639FVDelhMZgpbnN87Fdchoh-g08R-cAiXxr7RvfdGy_ihvMxg152HK-rbOTIOnEueRTnPT-wU0eID3vplpIN1GBClvJC5e0egCGpDb_H0ykwH1x6a4zOvpW8V-Ssy/s1600/google.jpg"
     },
     {
       "title": "Microsoft confirms GitHub is down worldwide",
