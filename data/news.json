@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-19T14:02:27Z",
+  "last_updated": "2026-08-19T14:33:50Z",
   "articles": [
+    {
+      "title": "Hundreds of Leaked Stripe Merchant Keys Expose Payment and Payout Capabilities",
+      "link": "https://cybersecuritynews.com/hundreds-of-leaked-stripe-merchant-keys/",
+      "description": "Hundreds of leaked Stripe merchant keys have exposed a serious risk for online businesses and their customers. The collection contains active credentials tied to hundreds of accounts, allowing a cr...",
+      "pub_date": "Wed, 19 Aug 2026 14:09:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hundreds-of-Leaked-Stripe-Merchant-Keys-Expose-Payment-and-Payout-Capabilities.webp"
+    },
     {
       "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
       "link": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
@@ -11,6 +20,24 @@
       "image_url": ""
     },
     {
+      "title": "Ransomware Hackers Pose as Recovery Firm and Demand Up to $60,000",
+      "link": "https://cybersecuritynews.com/ransomware-hackers/",
+      "description": "Ransomware victims are facing a new kind of pressure campaign. Instead of receiving another demand from the attackers who stole their data, some companies are being contacted by a supposed recovery...",
+      "pub_date": "Wed, 19 Aug 2026 13:39:38 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Ransomware-Hackers-Pose-as-Recovery-Firm-and-Demand-Up-to-60000.webp"
+    },
+    {
+      "title": "MacSync Stealer Hides Behind 30+ Domains While Stealing Passwords and Sensitive Mac Data",
+      "link": "https://cybersecuritynews.com/macsync-stealer/",
+      "description": "MacSync Stealer is expanding the risk facing Mac users by turning everyday web browsing and Terminal activity into a route for password theft. The macOS-focused malware uses short-lived online infr...",
+      "pub_date": "Wed, 19 Aug 2026 13:18:33 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/MacSync-Stealer-Hides-Behind-30-Domains-While-Stealing-Passwords-and-Sensitive-Mac-Data.webp"
+    },
+    {
       "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
       "link": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
       "description": "A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia.  The intrusion set makes use of seven remote access tool (RAT) f...",
@@ -18,6 +45,42 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgukQx26zt-EE2Q-I5EPzGDeXiUneL1NzNma73qc5r03gJ5Xj6kiTigXadbXa1XWqg7Y-UHq5YzEu7bPxN4BXjVUbId9eaPwWddiP_oB7Zz2fBV0bxr2S2wh9oVEFI-IEe4jMgA1REmrbKFSE33oztVDuz0p2TQhKA_0koqZ3qYcWH_d5Ec4lExxdMzWw5I/s1600/malware-code.jpg"
+    },
+    {
+      "title": "Hackers Actively Exploiting macOS’s Built-in Screen Sharing Service Vulnerability in the Wild",
+      "link": "https://cybersecuritynews.com/hackers-exploiting-macoss-screen-sharing-service/",
+      "description": "Hackers are actively abusing a flaw in macOS Screen Sharing to take root-level control of a small number of devices. The attacks turn a built-in remote-access feature into a doorway for quietly pla...",
+      "pub_date": "Wed, 19 Aug 2026 13:03:03 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Actively-Exploiting-macOSs-Built-in-Screen-Sharing-Service-Vulnerability-in-the-Wild.webp"
+    },
+    {
+      "title": "Windows Defender Update for 0-day Vulnerability Breaks Virus Scans",
+      "link": "https://cybersecuritynews.com/windows-defender-0-day-update-crash/",
+      "description": "Microsoft Defender has been aborting Quick, Full, and Offline virus scans after a cluster of Security Intelligence updates reached Windows PCs on August 18, 2026, leaving home users and Defender fo...",
+      "pub_date": "Wed, 19 Aug 2026 12:54:51 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Windows-Defender-0-day-Update-Crash.webp"
+    },
+    {
+      "title": "Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America",
+      "link": "https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america",
+      "description": "Cássio De Alcântara is Director, LATAM Sales at Rapid7.Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These techn...",
+      "pub_date": "Wed, 19 Aug 2026 12:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt09a532eac4a02570/6852c5968e72c44b89691ca4/PSN-gov-showcase-hero-image-2.png"
+    },
+    {
+      "title": "RAVEN Tool Exfiltrates Entire Elasticsearch Databases and Maintains Access After Password Rotation",
+      "link": "https://cybersecuritynews.com/raven-tool-exfiltrates-entire-elasticsearch/",
+      "description": "A newly detailed offensive security tool called RAVEN shows how a compromised Elasticsearch environment can become a data-loss incident with persistent access. The tool demonstrates what an intrude...",
+      "pub_date": "Wed, 19 Aug 2026 11:42:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/RAVEN-Tool-Exfiltrates-Entire-Elasticsearch-Databases-and-Maintains-Access-After-Password-Rotation.webp"
     },
     {
       "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
@@ -65,6 +128,24 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJDdcdHtgq-nTzruVpw0hyZmBZtfG4iwLgi_nfw6A70e_mXt7LUSnyTQ7ZdgclMUypEe7s8s-LDmykPATeFixDXHEP_j1zhheNBnHA1TebBqoYtw1-3g_-LqlSuk8MczmJ3BtD6MO4TL1FVdLEcZXVKn_Rd7ucsm0Imb8QTjxJXZY52RkgfUd26FPQanbZ/s1600/kev.jpg"
     },
     {
+      "title": "Oracle Releases 943 Security Patches Including Critical WebLogic Full Takeover Vulnerability",
+      "link": "https://cybersecuritynews.com/oracle-releases-943-security-patches/",
+      "description": "Oracle has released 943 new security patches in its August 2026 Critical Security Patch Update, addressing flaws across its enterprise software portfolio. The release includes several critical Orac...",
+      "pub_date": "Wed, 19 Aug 2026 10:38:24 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Oracle-Releases-943-Security-PatchesIncluding-Critical-WebLogic-Full-Takeover-Vulnerability.webp"
+    },
+    {
+      "title": "Hackers Use Fake Claude Install Guide to Deploy MacSync Stealer and Trojanize Crypto Wallet Apps",
+      "link": "https://cybersecuritynews.com/fake-claude-install-guide/",
+      "description": "Mac users searching for help with Claude Code are being lured into a malware campaign that turns a routine installation task into a full device compromise. The operation uses paid Google search res...",
+      "pub_date": "Wed, 19 Aug 2026 10:34:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-Claude-Install-Guide-to-Deploy-MacSync-Stealer-and-Trojanize-Crypto-Wallet-Apps.webp"
+    },
+    {
       "title": "Critical RCE flaw in Windows IKE Extension now actively exploited",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity remote code execution (RCE) flaw in the Windows Internet Key Exchange (IKE) S...",
@@ -72,6 +153,24 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "BeyondTrust Windows EPM Vulnerabilities Allows Attackers to Escalate Privileges",
+      "link": "https://cybersecuritynews.com/beyondtrust-windows-epm-vulnerabilities/",
+      "description": "BeyondTrust has disclosed two high-severity vulnerabilities in its Endpoint Privilege Management (EPM) product for Windows that could allow attackers with local access to elevate privileges or bypa...",
+      "pub_date": "Wed, 19 Aug 2026 09:44:48 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/BeyondTrust-Windows-EPM-Vulnerabilities-.webp"
+    },
+    {
+      "title": "Claude Can Now Send Emails in Gmail and Manage Files in Google Drive",
+      "link": "https://cybersecuritynews.com/claude-can-now-send-emails-in-gmail/",
+      "description": "Anthropic has moved Claude out of the draft-only inbox and into live Google accounts. In an August 18, 2026 post, the company said users can ask Claude to reply to a Gmail thread and have the assis...",
+      "pub_date": "Wed, 19 Aug 2026 09:30:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Can-Now-Send-Emails.webp"
     },
     {
       "title": "Windows 11 24H2 Home and Pro reach end of support in 2 months",
@@ -549,15 +648,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltb62c7e3934b0e276/6a6c92193f99b501e4b5779e/event_b8338aa4-1f61-4e0d-bc9e-632ef0ca49a9_resources_6TR9Cp6BTxOkVcneaAyF_Top_Events_Include_Event_Logo_(3).png"
-    },
-    {
-      "title": "KindaRails2Shell: CVE-2026-66066, Critical Arbitrary File Read and Possible Remote Code Execution in Ruby on Rails",
-      "link": "https://www.rapid7.com/blog/post/etr-kindarails2shell-cve-2026-66066-critical-arbitrary-file-read-and-possible-remote-code-execution-in-ruby-on-rails",
-      "description": "OverviewOn July 29, 2026, the Ruby on Rails project published a security advisory for CVE-2026-66066, a critical vulnerability affecting Active Storage image processing when used in conjunction wit...",
-      "pub_date": "Thu, 30 Jul 2026 16:11:10 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
     },
     {
       "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
