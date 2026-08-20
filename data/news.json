@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-08-20T10:30:17Z",
+  "last_updated": "2026-08-20T11:26:10Z",
   "articles": [
+    {
+      "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform....",
+      "pub_date": "Thu, 20 Aug 2026 07:06:14 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
+      "link": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+      "description": "Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated atta...",
+      "pub_date": "Thu, 20 Aug 2026 16:35:11 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0aHi13XpphD98KUUKTJJB0T5eJW8TLe8qecYWanC8lqujxWOn4dtJUXThwqpfnrd9daSkiLMxXb7r6EFFbYY2fy3qSZteMtPB5Sl5t4K01MKoHywiyohPzUQX17h3oj126zywGtTEP8twGQnbs0wjaecaY8nLhAWXLw0anuJuL2iSJmKBVnzlZhy842E/s1600/nasa.jpg"
+    },
+    {
+      "title": "Hackers Are Turning Claude, ChatGPT and Copilot Into Bait for Real Malware",
+      "link": "https://cybersecuritynews.com/hackers-are-turning-claude-chatgpt/",
+      "description": "Cybercriminals are increasingly using trusted artificial intelligence names as a shortcut to infect users with malware. Fake download pages, browser extensions, search ads and shared AI conversatio...",
+      "pub_date": "Thu, 20 Aug 2026 11:02:41 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Are-Turning-Claude-ChatGPT-and-Copilot-Into-Bait-for-Real-Malware.webp"
+    },
+    {
+      "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
+      "link": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
+      "description": "Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with \"significant enhancements,\" including a set of 167 remote commands and expands its target...",
+      "pub_date": "Thu, 20 Aug 2026 16:08:28 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhq19iWDNnvPUAAC2_MJN09g-1SHoPWQv82zvmQGTvrniDXm9BUWK73QrKCNCgxk0uGp6MrKF8cDQrigQCI3CW1G8V8GNltJ0GRc-yBjt69zPem4YW_b0XCZwsIFhWiOoul7eIhEOjb_F0X9A9B_DOmQNbCWHF6AzqDro4U0XjH_CgtJ_J0MVZjDPmyDL1p/s1600/android-banking-malware.jpg"
+    },
     {
       "title": "New Manic Android malware can exfiltrate data through nearby devices",
       "link": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
@@ -45,6 +81,15 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/15-Malicious-Firefox-Extensions-Abuse-Cloudflare-Workers-to-Exfiltrate-Crypto-Wallet-Secrets.webp"
+    },
+    {
+      "title": "40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets",
+      "link": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html",
+      "description": "A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products.  According to the Socket Thre...",
+      "pub_date": "Thu, 20 Aug 2026 14:12:03 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA5ySurVDL2oPvG7l78G22fbZEDplybrP5KX79GCEuhHybqkIgDGWDY_iHNfSLhKMt4sxn51CF33lRNwyjQy-l4Zajbkl9qUFxsjHEIoVsFhWBcGoHavMzOnmbWAI-8VHreBmZhuoCPs_N5KAKLFccr-bFLhzvJq12bvhvp5upRSkZulRN4tUDUTkfTRqo/s1600/firefox.png"
     },
     {
       "title": "Splunk Patches Critical MCP Server RCE and 16 Other Security Flaws Across AI Toolkit, Kafka Apps",
@@ -117,15 +162,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/T-Mobile-Cyber-Team-Physically-Cuts-Cable-scaled.webp"
-    },
-    {
-      "title": "AI Agent Hacks Snowflake GitHub Workflow and Reaches Internal Jira",
-      "link": "https://cybersecuritynews.com/ai-agent-hacks-snowflake-github-workflow/",
-      "description": "An autonomous AI security agent built by Wiz Research has demonstrated how quickly a single overlooked line of shell code can cascade into a full credential leak. The tool, known as Wiz Red Agent, ...",
-      "pub_date": "Thu, 20 Aug 2026 02:32:50 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AI-Agent-Hacks-Snowflake-GitHub-Workflow.webp"
     },
     {
       "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
@@ -308,15 +344,6 @@
       "image_url": ""
     },
     {
-      "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
-      "description": "The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]",
-      "pub_date": "Wed, 19 Aug 2026 04:00:48 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
       "link": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
       "description": "Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing i...",
@@ -353,15 +380,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOzcJe940Ayk9JrnE-tmotZ-mEHZiA5Jc0A8Sw9IZIfYEnH61X8whAW6jJZTnzLIQYA37foce9X_fshoAVwjLyBKrjvHbkuhhtwZ2Mewxtf1Syn9FBOvZBqwcMWXOCKFNnASyrCOQ9XTF6f174Aa4O55O7tbU6evYcrrV0H_psoYYq3uQQ_GvZqsu0e0ik/s1600/mlflow.jpg"
     },
     {
-      "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
-      "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
-      "description": "A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange...",
-      "pub_date": "Tue, 18 Aug 2026 22:28:16 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo_eOapavOiIGXF7klCQPyN0-Qg2nWk9KlUYzPHuLwAyMKM75P3E2jciQR3v9gt2UBmez3XRSC57e5Fe9Oowm2brtgRXz5nJMPN8iQnBYddnTI4DyffnBAh4iLQFSOhA-8RhbbwuXqbJQOkhiXo5asFku1kFfmQd-UsHT6ulzdvRvw7WXwFKYFBTU_Q9nB/s1600/ransom.jpg"
-    },
-    {
       "title": "New Report: AI threats are here. Why Q2 2026 signals the end of traditional patch cycles",
       "link": "https://www.rapid7.com/blog/post/tr-new-report-ai-threats-q2-2026-ends-traditional-patch-cycles",
       "description": "You can’t patch everything. So what do you fix first? Findings in Q2 2026 have changed traditional answers.The latest Quarterly Threat Landscape Report from Rapid7 Labs shows vulnerability disclo...",
@@ -369,24 +387,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltb0b69c197b694181/6a84573d06e3dd6162fe2309/Q2-threat-landscape-report-social_(1).png"
-    },
-    {
-      "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
-      "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
-      "description": "Security researchers at Anthropic and Switzerland's EPFL have demonstrated that self-propagating payloads can spread from one artificial intelligence (AI) agent to the next through the editable sys...",
-      "pub_date": "Tue, 18 Aug 2026 18:08:36 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnswSsouQNTAo6sTmVePaIjeVawCruhIMYtwOXzzX0Qup-a8tWq6WsuiwxkhQxemYCsguvWzRqA5ILOcnEtQa2Xz2rpmU8aQ_c3zd5m82sqMjJa4ruVDS5JVH0P9trKFRwZY53P6cek06_5q-5Xz9TzuyL1TzKP_wnMY9_16AgwjoCXomphcu4p7Or1Kk/s1600/mindvirus.jpg"
-    },
-    {
-      "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
-      "link": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
-      "description": "Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT.  \"TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate ...",
-      "pub_date": "Tue, 18 Aug 2026 18:08:20 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIrQ96TUVfZUEVto7SlNlTp_8P2270tmrpifBbd-F8vo3gQz3Na40YH60oRh2dEazLOZInJzCGa66bxl9t85Usl30eG_Db_yjMWup2eOM3BmaPhILk_Ihs-yo6AdB-DWG99L7OXK9bdD8Jygu2imWU71-Ap3bPtYLOgqu-vO2Zbr5egp6A5HNcXDSaa0o2/s1600/windows-malware.jpg"
     },
     {
       "title": "Operation ASTERIX: Anatomy of a Crypto Fraud Pipeline",
