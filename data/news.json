@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-08-20T09:34:35Z",
+  "last_updated": "2026-08-20T10:30:17Z",
   "articles": [
+    {
+      "title": "New Manic Android malware can exfiltrate data through nearby devices",
+      "link": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+      "description": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
+      "pub_date": "Thu, 20 Aug 2026 06:02:02 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "CyberPanel Pre-Auth RCE Chain Lets Attackers Gain Server Shell via AI Scanner Flaws",
+      "link": "https://cybersecuritynews.com/cyberpanel-pre-auth-rce-chain-gain-server-shell/",
+      "description": "Security researchers have disclosed a critical pre-authentication RCE chain in CyberPanel that could let attackers gain a shell on vulnerable hosting servers without valid credentials. The attack c...",
+      "pub_date": "Thu, 20 Aug 2026 09:58:59 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CyberPanel-Pre-Auth-RCE-Chain-Lets-Attackers-Gain-Server-Shell-via-AI-Scanner-Flaws-.webp"
+    },
+    {
+      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+      "description": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
+      "pub_date": "Thu, 20 Aug 2026 05:46:54 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "New “Zombie Card” Flaw Lets Expired Visa Cards Make Contactless Payments",
       "link": "https://cybersecuritynews.com/zombie-card-flaw-expired-cards/",
@@ -144,15 +171,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi50HcHSWt796lc8zQ8Anp_fHUqgV-BM0xiS1NxJW8zRDgBRJ9ovZOECiIhdQt0aVTUdhduJYP1o5wTa5RpDoCwhihq8rKqWmh73E9E8UzafyDcq1n1khCEIDCikK2L6NEt1mbIuMRm6F36bap74JtZawFqqCPvWF72SAm25BzREVerWYaRIDEo1O89V4k/s1600/jwt.jpg"
-    },
-    {
-      "title": "Trusted Vendors Are Becoming Attack Paths: How US and EU Enterprises Can Reduce the Risk ",
-      "link": "https://cybersecuritynews.com/trusted-vendors-are-becoming-attack-paths-how-us-and-eu-enterprises-can-reduce-the-risk/",
-      "description": "A trusted supplier can become an attack path overnight.\u0026#160; Large US and EU enterprises often rely on hundreds of vendors, giving attackers plenty of opportunities to hide malicious activity insi...",
-      "pub_date": "Wed, 19 Aug 2026 18:37:36 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Supply-chain-attack-risk.webp"
     },
     {
       "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
@@ -317,15 +335,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit3cCqpn48W_lqEDCb9ewKFToGQcvhUjO939N0Gja-aTvCvRTz8kdOPZG1bhyphenhyphenED2XNeB82rjCIeVO3Nw9akDlMnQZqc7keiel8H82zgtf1A7fhb6DP3z6Qh3Ehk6AGrMt77rXkoNhLaDeEl692kDHAHVsNb7AOcDxpsavM0Hj9TZRLLJsuQ-OT3oQOvFMi/s1600/ptc.jpg"
     },
     {
-      "title": "Comcast turns your Xfinity WiFi into a home motion detector",
-      "link": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
-      "description": "Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without c...",
-      "pub_date": "Tue, 18 Aug 2026 16:14:58 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
       "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
       "description": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other i...",
@@ -342,15 +351,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOzcJe940Ayk9JrnE-tmotZ-mEHZiA5Jc0A8Sw9IZIfYEnH61X8whAW6jJZTnzLIQYA37foce9X_fshoAVwjLyBKrjvHbkuhhtwZ2Mewxtf1Syn9FBOvZBqwcMWXOCKFNnASyrCOQ9XTF6f174Aa4O55O7tbU6evYcrrV0H_psoYYq3uQQ_GvZqsu0e0ik/s1600/mlflow.jpg"
-    },
-    {
-      "title": "Clop created custom web shell for Windchill data theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
-      "description": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repo...",
-      "pub_date": "Tue, 18 Aug 2026 13:29:51 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
