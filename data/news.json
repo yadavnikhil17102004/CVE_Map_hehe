@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-20T14:36:23Z",
+  "last_updated": "2026-08-20T15:33:54Z",
   "articles": [
+    {
+      "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+      "description": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
+      "pub_date": "Thu, 20 Aug 2026 10:39:48 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "How MSPs can catch phishing attacks email filters miss",
       "link": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
@@ -11,15 +20,6 @@
       "image_url": ""
     },
     {
-      "title": "ToxicPanda Android Malware Can Steal Banking PINs and Gain Shell Access to Phones",
-      "link": "https://cybersecuritynews.com/toxicpanda-android-malware/",
-      "description": "A new version of the ToxicPanda Android banking trojan is widening the danger for mobile users. The malware can steal banking PINs, imitate trusted screens, and take deeper control of infected phon...",
-      "pub_date": "Thu, 20 Aug 2026 13:55:54 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ToxicPanda-Android-Malware-Can-Steal-Banking-PINs-and-Gain-Shell-Access-to-Phones.webp"
-    },
-    {
       "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
       "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
       "description": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to esc...",
@@ -27,15 +27,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ3-aEfGwe03ZMojsoiYaQ4TNjUiAPEFK-m68uY5JSlF8knbnGWOcBrqiB_4s6J47lPjyhQEuWdUMHnktRU6YfOcltn7_lXga77C8TNH4GOVAPrmIH_T0MsFKFkmQSMnvf42bnLlH0pC4BVMEpAZJLLTH51GpgfZybiZ_UWNLhKxx1oGi8PyD3bOUGG0_F/s1600/nodejs.jpg"
-    },
-    {
-      "title": "Hackers Use Fake CAPTCHA to Install Malware That Kills 145 Security Processes",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-captcha/",
-      "description": "Hackers are using fake CAPTCHA pages to push a malware loader that can shut down security software before a follow-on payload runs. The campaign combines compromised WordPress websites, a familiar ...",
-      "pub_date": "Thu, 20 Aug 2026 13:39:22 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-CAPTCHA-to-Install-Malware-That-Kills-145-Security-Processes.webp"
     },
     {
       "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
@@ -56,33 +47,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5vbtHH6C3JbT58Yghw2KNalqy-xoKLuJlsV9AGd_j2mQj4NKzVgWiOc9CDvUsT2JY0AchCk5140WhvNgZdKY2fwmeGEEi9FMvSSJvrBYVWndOKV9R47OEMZ59OOjv56DkPgpKo55fvHT7JSRW4yvh9_Xp5KBbw9xyJg2EGStHzg8ctloKfsJJPDLss1xR/s1600/zimbra.jpg"
     },
     {
-      "title": "New Android Malware Steals Banking PINs and Relays Data Through Someone Else’s Infected Phones",
-      "link": "https://cybersecuritynews.com/manic-android-malware/",
-      "description": "A newly discovered Android malware family named Manic combines banking fraud with full-scale spyware, and it comes with a trick researchers rarely see in the wild: when an infected phone has no int...",
-      "pub_date": "Thu, 20 Aug 2026 13:20:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Manic-Android-Malware.webp"
-    },
-    {
-      "title": "Hackers Bypass Microsoft 365 MFA and Hijack Finance Mailbox to Steal Payments",
-      "link": "https://cybersecuritynews.com/hackers-bypass-microsoft-365-mfa/",
-      "description": "A single phishing email was enough to give attackers access to a finance employee’s Microsoft 365 account and redirect vendor payments. The incident shows how criminals can bypass multi-factor au...",
-      "pub_date": "Thu, 20 Aug 2026 12:54:55 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Bypass-Microsoft-365-MFA-and-Hijack-Finance-Mailbox-to-Steal-Payments.webp"
-    },
-    {
-      "title": "Zyxel Patches Command Injection Flaw in 18 Access Points Allowing Root OS Command Execution",
-      "link": "https://cybersecuritynews.com/zyxel-patches-command-injection-flaw/",
-      "description": "Zyxel has released firmware updates for a high-severity command injection vulnerability, tracked as CVE-2026-6837, affecting 18 wireless access point models. The flaw exists in the\u0026#160;export-cgi\u0026...",
-      "pub_date": "Thu, 20 Aug 2026 12:32:34 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zyxel-Patches-Command-Injection-Flaw-in-18-Access-Points-Allowing-Root-OS-Command-Execution.webp"
-    },
-    {
       "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
       "link": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
       "description": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
@@ -90,15 +54,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Hackers Weaponize OpenClaw AI Agents to Push Malware and Steal Crypto Wallets",
-      "link": "https://cybersecuritynews.com/openclaw-ai-agents/",
-      "description": "Cybercriminals are turning AI agents into a new route for malware delivery. A campaign targeting OpenClaw, an open-source platform that lets AI agents interact with files, messaging apps, and termi...",
-      "pub_date": "Thu, 20 Aug 2026 12:06:52 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenClaw-AI-Agents-Malware.webp"
     },
     {
       "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
@@ -110,33 +65,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsJMUJluWegBU4C6RiZ4QHg6rTqhFHMt5JJt3RR2K7l06c3FOFlnq8gIVuBqVUX8qsJFiAh6KKAlDXpVAydAoC2rM0dUKUayta50sqRXoW36_V2OgSXJBKaaAFY4boBYhtHkqeyBaBZavbo7bz3S8otNwyb3NUmW9j88edph6zAfnyJikYhLBrAHuCdBA/s1600/visa.jpg"
     },
     {
-      "title": "Cisco External Entity Injection Vulnerability Allows Attackers to Read Sensitive Data",
-      "link": "https://cybersecuritynews.com/cisco-external-entity-injection-vulnerability/",
-      "description": "Cisco has released security updates for a high-severity XML External Entity injection vulnerability in Cisco BroadWorks that could allow unauthenticated remote attackers to read sensitive configura...",
-      "pub_date": "Thu, 20 Aug 2026 11:59:43 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Cisco-External-Entity-Injection-Vulnerability-Allow-Attackers-to-read-sensitive-Data.webp"
-    },
-    {
-      "title": "OpenAI Pauses AI Training Amid Concerns of New Model Potentially Discovering 0-Day Flaws",
-      "link": "https://cybersecuritynews.com/openai-pauses-ai-training/",
-      "description": "OpenAI has temporarily slowed frontier AI training after internal testing suggested that its upcoming Astra model may reach a critical cybersecurity capability threshold. The company said the decis...",
-      "pub_date": "Thu, 20 Aug 2026 11:57:08 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Slows-AI-Training-Over-Fears-New-Model-Could-Autonomously-Find-Zero-Day-Flaws.webp"
-    },
-    {
-      "title": "Critical Red Hat Kubernetes SSRF Flaw Exposes Internal Services Across Managed Clusters",
-      "link": "https://cybersecuritynews.com/red-hat-kubernetes-ssrf-flaw/",
-      "description": "Red Hat has disclosed CVE-2026-66794, a high-severity Server-Side Request Forgery vulnerability affecting the cluster-proxy-addon component in Multicluster Engine for Kubernetes. The issue carries ...",
-      "pub_date": "Thu, 20 Aug 2026 11:50:22 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Red-Hat-Kubernetes-SSRF-Flaw-Exposes-Internal-Services-Across-Managed-Clusters.webp"
-    },
-    {
       "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
       "link": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
       "description": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it.\u0026nbsp;  The inciden...",
@@ -144,15 +72,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw0UN7paSPEt1BbP-tObzJmXd5LHvNrZpta_hHK2pwYGVsYyZt2FQO20Ld8uePEO35Hg9MUqHRoA3tvbxXf9Wdh2D8IgHIt9M56YTvveuPUILhMZ_drcaBL6ILCPzZmAwryt6cqjNvh4A0NUIPIBS6tpJCHJz6R5Lu42t06EyJ56wnlATWOg5UC-5JlBA/s1600/tines.jpg"
-    },
-    {
-      "title": "Hackers Hide Malware Code Inside English Words to Infect Windows Users",
-      "link": "https://cybersecuritynews.com/hackers-hide-malware-code/",
-      "description": "A new Windows malware campaign is hiding malicious code inside ordinary English words, making the payload look less suspicious during analysis. The technique is being used to deliver Amatera Steale...",
-      "pub_date": "Thu, 20 Aug 2026 11:39:53 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Hide-Malware-Code-Inside-English-Words-to-Infect-Windows-Users.webp"
     },
     {
       "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
@@ -251,6 +170,15 @@
       "pub_date": "Wed, 19 Aug 2026 20:20:55 -0400",
       "source": "BleepingComputer",
       "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Codex Curl Test Blog Post 20260820150831",
+      "link": "https://www.rapid7.com/blog/codex-curl-test-blog-post-20260820150831",
+      "description": "Codex curl lifecycle test content.",
+      "pub_date": "Thu, 20 Aug 2026 00:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
       "image_url": ""
     },
     {
@@ -369,15 +297,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMoFWi-QSod_BQxqARN9B9-f3XXRsEk-QHunmW3JSc9DHyZNKRK91l5KTzt_DYxGnTUtGqRMo1WHR9zfREMAXDAeDOYFgXpSJdgyUXHgOGTnpiokI06ZsJ1syAzn8GYlkzZqr6L73IsPJDAKgCbobSSkzZfWfJPapFiVJS4Kc1DyP3SBsMFgyZjCL6V6Y/s1600/camera.jpg"
-    },
-    {
-      "title": "Microsoft fixes known issue causing Windows Defender crashes",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/",
-      "description": "Microsoft has resolved a bug that caused Windows Defender to crash after a recent security update, resulting in 0xc0000005 access violation errors on some affected systems. [...]",
-      "pub_date": "Wed, 19 Aug 2026 07:14:28 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "New Report: AI threats are here. Why Q2 2026 signals the end of traditional patch cycles",
@@ -641,15 +560,6 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blte0070cfd2a1161fa/683de8fa2a9b68aac72bd4a9/Metasploit.png"
     },
     {
-      "title": "Rapid7 Expands UK and Ireland Channel Presence Through Strategic Partnership with Exclusive Networks",
-      "link": "https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-uk-ireland-partnership",
-      "description": "Ross Baker is Senior Director, Northern Europe at Rapid7.As organizations across the United Kingdom and Ireland embrace AI, cloud technologies, and digital transformation in the name of enhancing c...",
-      "pub_date": "Mon, 03 Aug 2026 08:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltebc2810157aecfaf/68af2715c53b04810df94abb/blog-hero-generic-pixel.jpg"
-    },
-    {
       "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
       "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
       "description": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the ...",
@@ -720,6 +630,141 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": "https://github.blog/wp-content/uploads/2026/06/613839791-af0d8e48-215f-48c7-8f0c-16ef531592f7.png?resize=1024%2C640"
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog   ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-64849 MLflow Server-Side Request Forgery Vulner...",
+      "pub_date": "Wed, 19 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Defending Against an Active Threat to Siemens S7 Series PLCs",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
+      "description": "Executive summary Note: This advisory relates to an active threat to Siemens S7 Series programmable logic controllers (PLCs). However, ongoing PLC targeting activity is broader than Siemens PLCs. A...",
+      "pub_date": "Wed, 19 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens Simcenter Nastran",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02",
+      "description": "View CSAF Summary Simcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked ...",
+      "pub_date": "Tue, 18 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "CISA Malcolm",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code. The following versions of CISA Malcolm a...",
+      "pub_date": "Tue, 18 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog   ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-33824 Microsoft Internet Key Exchange (IKE) ...",
+      "pub_date": "Tue, 18 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog  ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2025-62593 Ray-Project Ray Code Injection Vulnerabil...",
+      "pub_date": "Mon, 17 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens Solid Edge",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12",
+      "description": "View CSAF Summary Solid Edge is affected by multiple file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR, PSM or DFT format. This could al...",
+      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens License Server (SLS)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07",
+      "description": "View CSAF Summary Siemens License Server is affected by multiple vulnerabilities which could allow an attacker to elevate its privileges and read arbitrary files on the system. Siemens has released...",
+      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens Desigo DXR and PXC Controllers",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-08",
+      "description": "View CSAF Summary A vulnerability in Desigo DXR and PXC controllers has been identified that could allow an attacker to cause denial of service conditions by sending malformed BACnet packets. Recov...",
+      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Johnson Controls Inc. Airwall",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-03",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to decrypt sensitive data, bypass authentication controls, gaining unauthorized access to read arbitrary f...",
+      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Johnson Controls Metasys",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a low-privilege user or attacker to inject a persistent malicious payload via a crafted URL that executes in the context ...",
+      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens Siveillance Video",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-09",
+      "description": "View CSAF Summary Siveillance Video Management Servers contains a vulnerability that could allow a Remote Code Execution attack. Siemens has released new versions for the affected products and reco...",
+      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Flow Neuroscience FL-100",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker within Bluetooth range to manipulate brain stimulation parameters and override safety limits. The following v...",
+      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens LOGO! Soft Comfort",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13",
+      "description": "View CSAF Summary Siemens LOGO! Soft Comfort contains multiple vulnerabilities in its project-file encryption and password handling mechanisms. A local attacker could exploit these vulnerabilities ...",
+      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "ANDRITZ HIPASE-250 and 250 SCALA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-05",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to read data from the device or gain access to affected workstations. The following versions of ANDRITZ HI...",
+      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
     }
   ]
 }
