@@ -1,23 +1,14 @@
 {
-  "last_updated": "2026-08-20T16:35:17Z",
+  "last_updated": "2026-08-20T17:29:09Z",
   "articles": [
     {
-      "title": "Popular Rust Packages With 244M Downloads Compromised to Run Malware",
-      "link": "https://cybersecuritynews.com/rust-packages-malware/",
-      "description": "A major supply chain attack targeting the Rust ecosystem, in which two widely used crates, arrayref and append-only-vec, were hijacked to silently deliver malware the moment developers compiled the...",
-      "pub_date": "Thu, 20 Aug 2026 16:15:06 +0000",
-      "source": "Cyber Security News",
+      "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+      "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
+      "description": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts.  The activ...",
+      "pub_date": "Thu, 20 Aug 2026 22:29:44 +0530",
+      "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Popular-Rust-Packages-Compromised.webp"
-    },
-    {
-      "title": "Critical NASA AIT-GUI Flaw Lets Unauthenticated Attackers Issue Spacecraft Commands",
-      "link": "https://cybersecuritynews.com/nasa-ait-gui-flaw/",
-      "description": "A critical security flaw in NASA/JPL\u0026#8217;s open-source AMMOS Instrument Toolkit GUI (AIT-GUI) could let an unauthenticated attacker send live commands to spacecraft and scientific instruments, ru...",
-      "pub_date": "Thu, 20 Aug 2026 15:24:09 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/NASA-AIT-GUI-Flaw.webp"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSn562AFIpj2ldmT5inFv5tGgfNbaM4F1OBNvCW-80nP-YmFewnJd9VMlbgYnhgWrUpHS81bS6uEXRgEmg37c14OqmkO29XqY3FcBCl637vmAxfqB3UDtL3Rvgio6cPAQQv3bYtLUIyRdog4bpgD8MqJJYhTLish4L2Ljt6aJ_WpjFmTXYhmrA-TguqH98/s1600/plc.jpg"
     },
     {
       "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
@@ -47,15 +38,6 @@
       "image_url": ""
     },
     {
-      "title": "ToxicPanda Android Malware Can Steal Banking PINs and Gain Shell Access to Phones",
-      "link": "https://cybersecuritynews.com/toxicpanda-android-malware/",
-      "description": "A new version of the ToxicPanda Android banking trojan is widening the danger for mobile users. The malware can steal banking PINs, imitate trusted screens, and take deeper control of infected phon...",
-      "pub_date": "Thu, 20 Aug 2026 13:55:54 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ToxicPanda-Android-Malware-Can-Steal-Banking-PINs-and-Gain-Shell-Access-to-Phones.webp"
-    },
-    {
       "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
       "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
       "description": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to esc...",
@@ -63,15 +45,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ3-aEfGwe03ZMojsoiYaQ4TNjUiAPEFK-m68uY5JSlF8knbnGWOcBrqiB_4s6J47lPjyhQEuWdUMHnktRU6YfOcltn7_lXga77C8TNH4GOVAPrmIH_T0MsFKFkmQSMnvf42bnLlH0pC4BVMEpAZJLLTH51GpgfZybiZ_UWNLhKxx1oGi8PyD3bOUGG0_F/s1600/nodejs.jpg"
-    },
-    {
-      "title": "Hackers Use Fake CAPTCHA to Install Malware That Kills 145 Security Processes",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-captcha/",
-      "description": "Hackers are using fake CAPTCHA pages to push a malware loader that can shut down security software before a follow-on payload runs. The campaign combines compromised WordPress websites, a familiar ...",
-      "pub_date": "Thu, 20 Aug 2026 13:39:22 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-CAPTCHA-to-Install-Malware-That-Kills-145-Security-Processes.webp"
     },
     {
       "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
@@ -92,33 +65,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5vbtHH6C3JbT58Yghw2KNalqy-xoKLuJlsV9AGd_j2mQj4NKzVgWiOc9CDvUsT2JY0AchCk5140WhvNgZdKY2fwmeGEEi9FMvSSJvrBYVWndOKV9R47OEMZ59OOjv56DkPgpKo55fvHT7JSRW4yvh9_Xp5KBbw9xyJg2EGStHzg8ctloKfsJJPDLss1xR/s1600/zimbra.jpg"
     },
     {
-      "title": "New Android Malware Steals Banking PINs and Relays Data Through Someone Else’s Infected Phones",
-      "link": "https://cybersecuritynews.com/manic-android-malware/",
-      "description": "A newly discovered Android malware family named Manic combines banking fraud with full-scale spyware, and it comes with a trick researchers rarely see in the wild: when an infected phone has no int...",
-      "pub_date": "Thu, 20 Aug 2026 13:20:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Manic-Android-Malware.webp"
-    },
-    {
-      "title": "Hackers Bypass Microsoft 365 MFA and Hijack Finance Mailbox to Steal Payments",
-      "link": "https://cybersecuritynews.com/hackers-bypass-microsoft-365-mfa/",
-      "description": "A single phishing email was enough to give attackers access to a finance employee’s Microsoft 365 account and redirect vendor payments. The incident shows how criminals can bypass multi-factor au...",
-      "pub_date": "Thu, 20 Aug 2026 12:54:55 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Bypass-Microsoft-365-MFA-and-Hijack-Finance-Mailbox-to-Steal-Payments.webp"
-    },
-    {
-      "title": "Zyxel Patches Command Injection Flaw in 18 Access Points Allowing Root OS Command Execution",
-      "link": "https://cybersecuritynews.com/zyxel-patches-command-injection-flaw/",
-      "description": "Zyxel has released firmware updates for a high-severity command injection vulnerability, tracked as CVE-2026-6837, affecting 18 wireless access point models. The flaw exists in the\u0026#160;export-cgi\u0026...",
-      "pub_date": "Thu, 20 Aug 2026 12:32:34 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zyxel-Patches-Command-Injection-Flaw-in-18-Access-Points-Allowing-Root-OS-Command-Execution.webp"
-    },
-    {
       "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
       "link": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
       "description": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
@@ -128,15 +74,6 @@
       "image_url": ""
     },
     {
-      "title": "Hackers Weaponize OpenClaw AI Agents to Push Malware and Steal Crypto Wallets",
-      "link": "https://cybersecuritynews.com/openclaw-ai-agents/",
-      "description": "Cybercriminals are turning AI agents into a new route for malware delivery. A campaign targeting OpenClaw, an open-source platform that lets AI agents interact with files, messaging apps, and termi...",
-      "pub_date": "Thu, 20 Aug 2026 12:06:52 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenClaw-AI-Agents-Malware.webp"
-    },
-    {
       "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
       "link": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
       "description": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a ...",
@@ -144,24 +81,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsJMUJluWegBU4C6RiZ4QHg6rTqhFHMt5JJt3RR2K7l06c3FOFlnq8gIVuBqVUX8qsJFiAh6KKAlDXpVAydAoC2rM0dUKUayta50sqRXoW36_V2OgSXJBKaaAFY4boBYhtHkqeyBaBZavbo7bz3S8otNwyb3NUmW9j88edph6zAfnyJikYhLBrAHuCdBA/s1600/visa.jpg"
-    },
-    {
-      "title": "Cisco External Entity Injection Vulnerability Allows Attackers to Read Sensitive Data",
-      "link": "https://cybersecuritynews.com/cisco-external-entity-injection-vulnerability/",
-      "description": "Cisco has released security updates for a high-severity XML External Entity injection vulnerability in Cisco BroadWorks that could allow unauthenticated remote attackers to read sensitive configura...",
-      "pub_date": "Thu, 20 Aug 2026 11:59:43 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Cisco-External-Entity-Injection-Vulnerability-Allow-Attackers-to-read-sensitive-Data.webp"
-    },
-    {
-      "title": "OpenAI Pauses AI Training Amid Concerns of New Model Potentially Discovering 0-Day Flaws",
-      "link": "https://cybersecuritynews.com/openai-pauses-ai-training/",
-      "description": "OpenAI has temporarily slowed frontier AI training after internal testing suggested that its upcoming Astra model may reach a critical cybersecurity capability threshold. The company said the decis...",
-      "pub_date": "Thu, 20 Aug 2026 11:57:08 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Slows-AI-Training-Over-Fears-New-Model-Could-Autonomously-Find-Zero-Day-Flaws.webp"
     },
     {
       "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
@@ -360,15 +279,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
-      "link": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
-      "description": "A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia.  The intrusion set makes use of seven remote access tool (RAT) f...",
-      "pub_date": "Wed, 19 Aug 2026 18:42:17 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgukQx26zt-EE2Q-I5EPzGDeXiUneL1NzNma73qc5r03gJ5Xj6kiTigXadbXa1XWqg7Y-UHq5YzEu7bPxN4BXjVUbId9eaPwWddiP_oB7Zz2fBV0bxr2S2wh9oVEFI-IEe4jMgA1REmrbKFSE33oztVDuz0p2TQhKA_0koqZ3qYcWH_d5Ec4lExxdMzWw5I/s1600/malware-code.jpg"
     },
     {
       "title": "Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America",
