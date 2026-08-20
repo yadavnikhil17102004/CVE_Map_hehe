@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-08-20T11:26:10Z",
+  "last_updated": "2026-08-20T12:49:54Z",
   "articles": [
+    {
+      "title": "Zyxel Patches Command Injection Flaw in 18 Access Points Allowing Root OS Command Execution",
+      "link": "https://cybersecuritynews.com/zyxel-patches-command-injection-flaw/",
+      "description": "Zyxel has released firmware updates for a high-severity command injection vulnerability, tracked as CVE-2026-6837, affecting 18 wireless access point models. The flaw exists in the\u0026#160;export-cgi\u0026...",
+      "pub_date": "Thu, 20 Aug 2026 12:32:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zyxel-Patches-Command-Injection-Flaw-in-18-Access-Points-Allowing-Root-OS-Command-Execution.webp"
+    },
+    {
+      "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
+      "link": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
+      "description": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
+      "pub_date": "Thu, 20 Aug 2026 08:14:38 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Weaponize OpenClaw AI Agents to Push Malware and Steal Crypto Wallets",
+      "link": "https://cybersecuritynews.com/openclaw-ai-agents/",
+      "description": "Cybercriminals are turning AI agents into a new route for malware delivery. A campaign targeting OpenClaw, an open-source platform that lets AI agents interact with files, messaging apps, and termi...",
+      "pub_date": "Thu, 20 Aug 2026 12:06:52 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenClaw-AI-Agents-Malware.webp"
+    },
+    {
+      "title": "Cisco External Entity Injection Vulnerability Allows Attackers to Read Sensitive Data",
+      "link": "https://cybersecuritynews.com/cisco-external-entity-injection-vulnerability/",
+      "description": "Cisco has released security updates for a high-severity XML External Entity injection vulnerability in Cisco BroadWorks that could allow unauthenticated remote attackers to read sensitive configura...",
+      "pub_date": "Thu, 20 Aug 2026 11:59:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Cisco-External-Entity-Injection-Vulnerability-Allow-Attackers-to-read-sensitive-Data.webp"
+    },
+    {
+      "title": "OpenAI Pauses AI Training Amid Concerns of New Model Potentially Discovering 0-Day Flaws",
+      "link": "https://cybersecuritynews.com/openai-pauses-ai-training/",
+      "description": "OpenAI has temporarily slowed frontier AI training after internal testing suggested that its upcoming Astra model may reach a critical cybersecurity capability threshold. The company said the decis...",
+      "pub_date": "Thu, 20 Aug 2026 11:57:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Slows-AI-Training-Over-Fears-New-Model-Could-Autonomously-Find-Zero-Day-Flaws.webp"
+    },
+    {
+      "title": "Critical Red Hat Kubernetes SSRF Flaw Exposes Internal Services Across Managed Clusters",
+      "link": "https://cybersecuritynews.com/red-hat-kubernetes-ssrf-flaw/",
+      "description": "Red Hat has disclosed CVE-2026-66794, a high-severity Server-Side Request Forgery vulnerability affecting the cluster-proxy-addon component in Multicluster Engine for Kubernetes. The issue carries ...",
+      "pub_date": "Thu, 20 Aug 2026 11:50:22 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Red-Hat-Kubernetes-SSRF-Flaw-Exposes-Internal-Services-Across-Managed-Clusters.webp"
+    },
+    {
+      "title": "Hackers Hide Malware Code Inside English Words to Infect Windows Users",
+      "link": "https://cybersecuritynews.com/hackers-hide-malware-code/",
+      "description": "A new Windows malware campaign is hiding malicious code inside ordinary English words, making the payload look less suspicious during analysis. The technique is being used to deliver Amatera Steale...",
+      "pub_date": "Thu, 20 Aug 2026 11:39:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Hide-Malware-Code-Inside-English-Words-to-Infect-Windows-Users.webp"
+    },
     {
       "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
@@ -92,24 +155,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA5ySurVDL2oPvG7l78G22fbZEDplybrP5KX79GCEuhHybqkIgDGWDY_iHNfSLhKMt4sxn51CF33lRNwyjQy-l4Zajbkl9qUFxsjHEIoVsFhWBcGoHavMzOnmbWAI-8VHreBmZhuoCPs_N5KAKLFccr-bFLhzvJq12bvhvp5upRSkZulRN4tUDUTkfTRqo/s1600/firefox.png"
     },
     {
-      "title": "Splunk Patches Critical MCP Server RCE and 16 Other Security Flaws Across AI Toolkit, Kafka Apps",
-      "link": "https://cybersecuritynews.com/splunk-patches-security-flaws/",
-      "description": "Splunk has released security updates for 17 vulnerabilities affecting several apps and add-ons, including Splunk MCP Server, Splunk AI Toolkit, and Splunk Connect for Kafka. The most severe issue, ...",
-      "pub_date": "Thu, 20 Aug 2026 08:22:21 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Splunk-Patches-Critical-MCP-Server-RCE-and-16-Other-Security-Flaws-Across-AI-Toolkit-Kafka-Apps.webp"
-    },
-    {
-      "title": "Claude AI Finds SAML Security Flaws That Can Let Attackers Take Over Accounts",
-      "link": "https://cybersecuritynews.com/claude-ai-finds-saml-security-flaws/",
-      "description": "Security researchers have used Anthropic’s Claude AI to uncover serious flaws in Security Assertion Markup Language (SAML) implementations that could allow attackers to bypass authentication and ...",
-      "pub_date": "Thu, 20 Aug 2026 06:51:49 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-AI-Finds-SAML-Security-Flaws-That-Can-Let-Attackers-Take-Over-Accounts.webp"
-    },
-    {
       "title": "Microsoft says August Windows updates may cause gaming issues",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/",
       "description": "Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]",
@@ -119,15 +164,6 @@
       "image_url": ""
     },
     {
-      "title": "Critical Zimbra RCE Vulnerability Actively Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/zimbra-rce-vulnerability-exploited/",
-      "description": "CERT Polska has warned that threat actors are actively exploiting a critical remote code execution vulnerability in Zimbra Collaboration Suite. Tracked as CVE-2026-73570, the flaw allows unauthenti...",
-      "pub_date": "Thu, 20 Aug 2026 06:34:27 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Zimbra-RCE-Vulnerability-Actively-Exploited-in-the-Wild-.webp"
-    },
-    {
       "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
       "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
       "description": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution.  The vulnerability, t...",
@@ -135,33 +171,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitKWjeNJOL_DEahUmMAYpH9qh94s2iFi8igtfSlAzOVWiUBU-EIM0MWMsFYPmA5NDL6Rs9E-w9vvCmw3Cc6Og0q-TDt87Q2hwYIePNAQ0xQ3OJYHzgCizDFm-YK9SxW4ncWnuVLaOzgb3SPO7Qpx17zHMaFzBQfYllgz5IP-p1jMALgWlasRkj1nV3Tq3G/s1600/wordpress.jpg"
-    },
-    {
-      "title": "Airlock Digital Completes Independent IRAP Assessment at the PROTECTED Level",
-      "link": "https://cybersecuritynews.com/airlock-digital-completes-independent-irap-assessment-at-the-protected-level/",
-      "description": "Adelaide, Australia, August 19th, 2026, CyberNewswire Independent assessment provides Australian organisations with additional evidence when evaluating application control for sensitive, government...",
-      "pub_date": "Thu, 20 Aug 2026 04:42:40 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYGSXCEJ6ngO9DN2BfABsj3w6HJYyX3fv76WVtZy4smWhf5R8nRWMZ9yRv1oTbOBhCcjOV34i0OVo8O8MJrWVxGvb3xR3TEXHcHbD8uHYHwEyTXum26Obr_6CoQI-k06nvP3grDnaPiU0qh1_9NqhVkjo4keNS9-UIPM_sWxNjIxRK56cTfYUXPtf9yO4/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-20T095846.01.webp"
-    },
-    {
-      "title": "U.S. Agencies Warn of Hackers Actively Attacking Siemens S7 PLCs in Critical Facilities",
-      "link": "https://cybersecuritynews.com/hackers-attacking-siemens-s7-plcs/",
-      "description": "The NSA, CISA, FBI, Department of Energy, and EPA issued a joint cybersecurity advisory on August 19 warning that threat actors are actively targeting Siemens S7 Series programmable logic controlle...",
-      "pub_date": "Thu, 20 Aug 2026 04:11:55 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Attacking-Siemens-S7-PLCs-.webp"
-    },
-    {
-      "title": "T-Mobile Cyber Team Physically Cuts Cable to Remove Chinese Hackers From Network",
-      "link": "https://cybersecuritynews.com/t-mobile-cyber-team-physically-cuts-cable/",
-      "description": "T-Mobile\u0026#8217;s security team resorted to an unusually low-tech fix for a high-tech problem in 2024, physically severing a network cable to cut off Chinese state-backed hackers\u0026#8217; access to it...",
-      "pub_date": "Thu, 20 Aug 2026 03:31:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/T-Mobile-Cyber-Team-Physically-Cuts-Cable-scaled.webp"
     },
     {
       "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
@@ -330,15 +339,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity remote code execution (RCE) flaw in the Windows Internet Key Exchange (IKE) S...",
       "pub_date": "Wed, 19 Aug 2026 06:12:24 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Windows 11 24H2 Home and Pro reach end of support in 2 months",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/",
-      "description": "Microsoft has reminded customers that systems running Home and Pro editions of Windows 11 24H2 will stop receiving updates in two months. [...]",
-      "pub_date": "Wed, 19 Aug 2026 05:10:20 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
