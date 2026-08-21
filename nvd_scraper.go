@@ -477,39 +477,50 @@ func fetchTargeted(cveIDs []string, dict map[string]CVEIntel, apiKey string) {
 var nvdClient = &http.Client{Timeout: 30 * time.Second}
 
 func nvdGet(url, apiKey string) (*NVD2Response, error) {
-	req, err := http.NewRequest("GET", url, nil)
-	if err != nil {
-		return nil, err
-	}
-	req.Header.Set("Accept", "application/json")
-	if apiKey != "" {
-		req.Header.Set("apiKey", apiKey)
-	}
+	// Retry limit guards against unbounded recursion when NVD returns 403
+	// persistently (e.g. invalid/expired API key or an exhausted daily quota).
+	const maxRetries = 1
 
-	resp, err := nvdClient.Do(req)
-	if err != nil {
-		return nil, err
-	}
-	defer resp.Body.Close()
+	for attempt := 0; ; attempt++ {
+		req, err := http.NewRequest("GET", url, nil)
+		if err != nil {
+			return nil, err
+		}
+		req.Header.Set("Accept", "application/json")
+		if apiKey != "" {
+			req.Header.Set("apiKey", apiKey)
+		}
 
-	if resp.StatusCode == 403 {
-		// Rate limited — back off and retry once
-		time.Sleep(35 * time.Second)
-		return nvdGet(url, apiKey)
-	}
-	if resp.StatusCode != 200 {
-		return nil, fmt.Errorf("HTTP %d", resp.StatusCode)
-	}
+		resp, err := nvdClient.Do(req)
+		if err != nil {
+			return nil, err
+		}
 
-	body, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, err
+		if resp.StatusCode == 403 {
+			// Rate limited — back off and retry, up to maxRetries times.
+			resp.Body.Close()
+			if attempt >= maxRetries {
+				return nil, fmt.Errorf("NVD still rate-limiting after %d retries (HTTP 403)", maxRetries)
+			}
+			time.Sleep(35 * time.Second)
+			continue
+		}
+
+		defer resp.Body.Close()
+		if resp.StatusCode != 200 {
+			return nil, fmt.Errorf("HTTP %d", resp.StatusCode)
+		}
+
+		body, err := io.ReadAll(resp.Body)
+		if err != nil {
+			return nil, err
+		}
+		var result NVD2Response
+		if err := json.Unmarshal(body, &result); err != nil {
+			return nil, fmt.Errorf("JSON parse error: %w", err)
+		}
+		return &result, nil
 	}
-	var result NVD2Response
-	if err := json.Unmarshal(body, &result); err != nil {
-		return nil, fmt.Errorf("JSON parse error: %w", err)
-	}
-	return &result, nil
 }
 
 // rateSleep respects NVD rate limits:
