@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-08-21T15:38:27Z",
+  "last_updated": "2026-08-21T16:34:40Z",
   "articles": [
+    {
+      "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
+      "description": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
+      "pub_date": "Fri, 21 Aug 2026 11:55:15 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
+      "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
+      "description": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on ...",
+      "pub_date": "Fri, 21 Aug 2026 21:22:10 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCbsmb6Wk8pQKWQmByAl5wnZQEVjS7ZYiHrlsHRM7VlcoPL7s30TaoTReoaQ4LI8Oy3KfKlIRHn9sN_7bjEKd_FWPHi1V0JR6LERepKBWSdJOk6cSUNgfIN2KVc6ydfbTILTy11owREYfpO7K11gFQV00l6qf1zl5rzF28jPhcN744yTvRAA-EjyDSBXs/s1600/windows.jpg"
+    },
+    {
+      "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
+      "link": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
+      "description": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun.  Kaspersky, which discovered the thre...",
+      "pub_date": "Fri, 21 Aug 2026 21:11:44 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1EQE-DqLXTzpjwGf3nQnM4CTnjibkKl_2ersn8abw3Gmqoc5MUaFC2LvkA7c6Xoa0XBPZeHL4wHHiXU7Pc9nGLcI1zTorwFTwvYXfww4Q68oSUrgcQhmBzQBNqYp-woIZFK_I1OOsnBNptiwA90VHhpE_hvlz3qdFomOmOMLreYe5YCenvR2CeawvRrMU/s1600/car.png"
+    },
     {
       "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
@@ -9,6 +36,33 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Scammers Use WhatsApp Groups to Coordinate Millions in Victim Trades and Pump Real Stocks",
+      "link": "https://cybersecuritynews.com/scammers-use-whatsapp-groups/",
+      "description": "Scammers are using WhatsApp groups to turn ordinary investors into an unwitting buying force. The operation does not need a hacked trading account or a stolen card. Instead, it persuades people to ...",
+      "pub_date": "Fri, 21 Aug 2026 14:52:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Scammers-Use-WhatsApp-Groups-to-Coordinate-Millions-in-Victim-Trades-and-Pump-Real-Stocks.webp"
+    },
+    {
+      "title": "Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks",
+      "link": "https://cybersecuritynews.com/chinese-hackers-use-ai-agents/",
+      "description": "A Chinese-speaking cybercrime group is using AI-assisted tools to turn vulnerable web servers into entry points. It shows how familiar flaws become more dangerous when attackers automate the work a...",
+      "pub_date": "Fri, 21 Aug 2026 14:41:55 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Chinese-Hackers-Use-AI-Agents-to-Exploit-Web-Servers-and-Automate-Attacks.webp"
+    },
+    {
+      "title": "Hackers Hide Agent Tesla JScript Behind Unicode Emojis to Evade Detection",
+      "link": "https://cybersecuritynews.com/hackers-hide-agent-tesla/",
+      "description": "Hackers are using Unicode emoji characters to hide an Agent Tesla JScript dropper in a business email compromise campaign aimed at finance teams. The tactic turns a payment-related attachment into ...",
+      "pub_date": "Fri, 21 Aug 2026 14:14:20 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Hide-Agent-Tesla-JScript-Behind-Unicode-Emojis-to-Evade-Detection.webp"
     },
     {
       "title": "Is Online Privacy Possible? How Digital Identities Can Help",
@@ -29,6 +83,51 @@
       "image_url": ""
     },
     {
+      "title": "Claude Opus 5 Routes Around Obfuscated Binaries Instead of Defeating the Protection",
+      "link": "https://cybersecuritynews.com/claude-opus-5-routes/",
+      "description": "Claude Opus 5 did not crack hardened binaries in a reverse-engineering experiment. Instead, it sought easier ways to recover hidden information, showing AI-assisted analysis can be capable yet unre...",
+      "pub_date": "Fri, 21 Aug 2026 13:26:20 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Opus-5-Routes-Around-Obfuscated-Binaries-Instead-of-Defeating-the-Protection.webp"
+    },
+    {
+      "title": "Critical WordPress Plugin Vulnerability Exposes Sites to RCE Attacks",
+      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exposes-3/",
+      "description": "A critical security flaw in the Elementor Pro WordPress plugin could allow unauthenticated attackers to upload malicious PHP files and execute code on vulnerable servers. Tracked as CVE-2026-32475,...",
+      "pub_date": "Fri, 21 Aug 2026 13:06:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Wordpress-Plugin-Vulnerability-Exposes-Sites-to-RCE-Attacks-.webp"
+    },
+    {
+      "title": "Critical GitLab Code Injection Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/gitlab-code-injection-vulnerability-exploited/",
+      "description": "GitLab administrators are being urged to patch immediately after security researchers observed attempts to exploit CVE-2026-19478, a critical unauthenticated code injection vulnerability affecting ...",
+      "pub_date": "Fri, 21 Aug 2026 13:06:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-GitLab-code-injection-Vulnnerability-Actively-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "US Bank Investigating Data Breach Following LockBit Ransomware Claim",
+      "link": "https://cybersecuritynews.com/us-bank-investigating-data-breach-lockbit-claim/",
+      "description": "US Bank is investigating LockBit’s claims of a breach and data theft, with the ransomware group threatening to publish the alleged stolen files on September 3 unless an undisclosed ransom is paid...",
+      "pub_date": "Fri, 21 Aug 2026 13:01:06 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/US-Bank-Investigationg-Data-Breach-Following-LockBit-Ransomware-Claim.webp"
+    },
+    {
+      "title": "Critical N-able Passportal Flaw Lets Malicious Websites Steal Entire Password Vault and 2FA Codes",
+      "link": "https://cybersecuritynews.com/n-able-passportal-flaw/",
+      "description": "A critical vulnerability in N-able Passportal’s Chrome and Microsoft Edge browser extensions could allow a malicious website or embedded iframe to steal an organization’s entire password vault,...",
+      "pub_date": "Fri, 21 Aug 2026 13:00:14 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-N-able-Passportal-Flaw-Lets-Malicious-Websites-Steal-Entire-Password-Vault-and-2FA-Codes.webp"
+    },
+    {
       "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted commu...",
@@ -36,6 +135,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts",
+      "link": "https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp/",
+      "description": "Suspected Russian cyber-espionage groups are increasingly turning ordinary sign-in and device-linking features into tools for account takeover. Their latest campaigns do not depend on breaking pass...",
+      "pub_date": "Fri, 21 Aug 2026 11:31:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Russian-Hackers-Abuse-OAuth-and-WhatsApp-Device-Linking-to-Hijack-High-Value-Accounts.webp"
     },
     {
       "title": "Wazuh and AI For Enhanced SOC Workflows",
@@ -63,6 +171,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Hackers Use Fake Google Gemini Installer to Deploy Vidar Stealer and Steal Browser Credentials",
+      "link": "https://cybersecuritynews.com/fake-google-gemini-installer/",
+      "description": "Cybercriminals are abusing interest in generative AI to trick users into downloading malware. In a newly documented incident, a file posing as a Google Gemini installer delivered the Vidar informat...",
+      "pub_date": "Fri, 21 Aug 2026 10:56:24 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-Google-Gemini-Installer-to-Deploy-Vidar-Stealer-and-Steal-Browser-Credentials.webp"
     },
     {
       "title": "SickKids data breach exposes employee and job applicant info",
@@ -218,24 +335,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsJMUJluWegBU4C6RiZ4QHg6rTqhFHMt5JJt3RR2K7l06c3FOFlnq8gIVuBqVUX8qsJFiAh6KKAlDXpVAydAoC2rM0dUKUayta50sqRXoW36_V2OgSXJBKaaAFY4boBYhtHkqeyBaBZavbo7bz3S8otNwyb3NUmW9j88edph6zAfnyJikYhLBrAHuCdBA/s1600/visa.jpg"
     },
     {
-      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
-      "link": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
-      "description": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it.\u0026nbsp;  The inciden...",
-      "pub_date": "Thu, 20 Aug 2026 17:15:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw0UN7paSPEt1BbP-tObzJmXd5LHvNrZpta_hHK2pwYGVsYyZt2FQO20Ld8uePEO35Hg9MUqHRoA3tvbxXf9Wdh2D8IgHIt9M56YTvveuPUILhMZ_drcaBL6ILCPzZmAwryt6cqjNvh4A0NUIPIBS6tpJCHJz6R5Lu42t06EyJ56wnlATWOg5UC-5JlBA/s1600/tines.jpg"
-    },
-    {
-      "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
-      "link": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
-      "description": "Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to t...",
-      "pub_date": "Thu, 20 Aug 2026 17:09:35 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDFisNx669R67D6R9VnkWr_DIhB1VjYqDPrXqKAoeCz0YxbSngLxB15XYLtuKb00YSEE0rxQEfop5v7JIr2SMVOErIM2r_GZqA6q1FDNl_wBeAaukVoAse6l0kXv35dJRTQjT8R0DhS9ihwYUXNd9cFuqYM3GS0o28NyIBAgliuQR8XhKQqhixFcjdZpo/s1600/cdn-boost.jpg"
-    },
-    {
       "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
       "description": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform....",
@@ -258,15 +357,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
       "description": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
       "pub_date": "Thu, 20 Aug 2026 05:46:54 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Microsoft says August Windows updates may cause gaming issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/",
-      "description": "Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]",
-      "pub_date": "Thu, 20 Aug 2026 02:51:03 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
