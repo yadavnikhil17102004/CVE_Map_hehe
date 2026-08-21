@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-08-21T12:46:49Z",
+  "last_updated": "2026-08-21T14:09:46Z",
   "articles": [
+    {
+      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
+      "link": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
+      "description": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital person...",
+      "pub_date": "Fri, 21 Aug 2026 10:00:10 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/",
+      "description": "Microsoft has started rolling out a Classic Outlook theme for users of Outlook on the web and the New Outlook for Windows. [...]",
+      "pub_date": "Fri, 21 Aug 2026 09:39:35 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Claude Opus 5 Routes Around Obfuscated Binaries Instead of Defeating the Protection",
+      "link": "https://cybersecuritynews.com/claude-opus-5-routes/",
+      "description": "Claude Opus 5 did not crack hardened binaries in a reverse-engineering experiment. Instead, it sought easier ways to recover hidden information, showing AI-assisted analysis can be capable yet unre...",
+      "pub_date": "Fri, 21 Aug 2026 13:26:20 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Opus-5-Routes-Around-Obfuscated-Binaries-Instead-of-Defeating-the-Protection.webp"
+    },
+    {
+      "title": "Critical WordPress Plugin Vulnerability Exposes Sites to RCE Attacks",
+      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exposes-3/",
+      "description": "A critical security flaw in the Elementor Pro WordPress plugin could allow unauthenticated attackers to upload malicious PHP files and execute code on vulnerable servers. Tracked as CVE-2026-32475,...",
+      "pub_date": "Fri, 21 Aug 2026 13:06:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Wordpress-Plugin-Vulnerability-Exposes-Sites-to-RCE-Attacks-.webp"
+    },
+    {
+      "title": "Critical GitLab Code Injection Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/gitlab-code-injection-vulnerability-exploited/",
+      "description": "GitLab administrators are being urged to patch immediately after security researchers observed attempts to exploit CVE-2026-19478, a critical unauthenticated code injection vulnerability affecting ...",
+      "pub_date": "Fri, 21 Aug 2026 13:06:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-GitLab-code-injection-Vulnnerability-Actively-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "US Bank Investigating Data Breach Following LockBit Ransomware Claim",
+      "link": "https://cybersecuritynews.com/us-bank-investigating-data-breach-lockbit-claim/",
+      "description": "US Bank is investigating LockBit’s claims of a breach and data theft, with the ransomware group threatening to publish the alleged stolen files on September 3 unless an undisclosed ransom is paid...",
+      "pub_date": "Fri, 21 Aug 2026 13:01:06 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/US-Bank-Investigationg-Data-Breach-Following-LockBit-Ransomware-Claim.webp"
+    },
+    {
+      "title": "Critical N-able Passportal Flaw Lets Malicious Websites Steal Entire Password Vault and 2FA Codes",
+      "link": "https://cybersecuritynews.com/n-able-passportal-flaw/",
+      "description": "A critical vulnerability in N-able Passportal’s Chrome and Microsoft Edge browser extensions could allow a malicious website or embedded iframe to steal an organization’s entire password vault,...",
+      "pub_date": "Fri, 21 Aug 2026 13:00:14 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-N-able-Passportal-Flaw-Lets-Malicious-Websites-Steal-Entire-Password-Vault-and-2FA-Codes.webp"
+    },
     {
       "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
@@ -9,6 +72,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts",
+      "link": "https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp/",
+      "description": "Suspected Russian cyber-espionage groups are increasingly turning ordinary sign-in and device-linking features into tools for account takeover. Their latest campaigns do not depend on breaking pass...",
+      "pub_date": "Fri, 21 Aug 2026 11:31:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Russian-Hackers-Abuse-OAuth-and-WhatsApp-Device-Linking-to-Hijack-High-Value-Accounts.webp"
     },
     {
       "title": "Wazuh and AI For Enhanced SOC Workflows",
@@ -38,6 +110,15 @@
       "image_url": ""
     },
     {
+      "title": "Hackers Use Fake Google Gemini Installer to Deploy Vidar Stealer and Steal Browser Credentials",
+      "link": "https://cybersecuritynews.com/fake-google-gemini-installer/",
+      "description": "Cybercriminals are abusing interest in generative AI to trick users into downloading malware. In a newly documented incident, a file posing as a Google Gemini installer delivered the Vidar informat...",
+      "pub_date": "Fri, 21 Aug 2026 10:56:24 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-Google-Gemini-Installer-to-Deploy-Vidar-Stealer-and-Steal-Browser-Credentials.webp"
+    },
+    {
       "title": "SickKids data breach exposes employee and job applicant info",
       "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
       "description": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third...",
@@ -54,6 +135,33 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis5Ujhq79PHPVr7VjuOjS0fOAyYm0aDTCJi9c5ieu-uya3FUM4Dh58yAT5U5J3VaXaGfNb4XowkyJ1lj3UTy8bOoF-u0O-5qdl-O7leomQjQw5jAI3m8WpZvC3se70f8mRP_KKIcScS0Nf9wJcsq4TWgiS_li3K6CSUbbG643IMhZBVGzW5XflwAbz0d1M/s1600/cisco.jpg"
+    },
+    {
+      "title": "Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks",
+      "link": "https://cybersecuritynews.com/bandwidth-sharing-app/",
+      "description": "A bandwidth-sharing app installed by an employee can quietly turn a work device into a gateway for outside traffic. The software may not behave like traditional malware, yet it can expose a company...",
+      "pub_date": "Fri, 21 Aug 2026 09:32:45 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Bandwidth-Sharing-App-Can-Turn-Employee-Devices-Into-Gateways-to-Internal-Networks.webp"
+    },
+    {
+      "title": "DOJ Charges 17 Iranian Hackers in IRGC-Linked Campaign That Stole 31.5TB of Research Data",
+      "link": "https://cybersecuritynews.com/doj-charges-17-iranian-hackers/",
+      "description": "The U.S. Department of Justice has unsealed a 14-count superseding indictment against 17 alleged members of the Iran-based Mabna Institute, accusing them of conducting a long-running cyber espionag...",
+      "pub_date": "Fri, 21 Aug 2026 07:52:12 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/DOJ-Charges-17-Iranian-Hackers-in-IRGC-Linked-Campaign-That-Stole-31.5TB-of-Research-Data.webp"
+    },
+    {
+      "title": "OpenAI Offers Zero Data Retention for Frontier AI Models With Private Safety Processing",
+      "link": "https://cybersecuritynews.com/openai-zero-data-retention-for-frontier-models/",
+      "description": "OpenAI has announced Zero Data Retention for eligible API customers using its frontier AI models, alongside a new Private Safety Processing system designed to support safety monitoring without expo...",
+      "pub_date": "Fri, 21 Aug 2026 07:50:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Offers-Zero-Data-Retention-for-Frontier-AI-Models-With-Private-Safety-Processing-.webp"
     },
     {
       "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
@@ -249,24 +357,6 @@
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
       "description": "ChatGPT is experiencing a major outage, and users are unable to sign in, create accounts, or load chats, including previous conversations. [...]",
       "pub_date": "Wed, 19 Aug 2026 20:20:55 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
-      "link": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
-      "description": "A suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become public and claiming to be able to provide decr...",
-      "pub_date": "Wed, 19 Aug 2026 16:59:58 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Sakura Internet hack exposes data of up to 1.36 million accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
-      "description": "Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract and membership information is stored. [...]",
-      "pub_date": "Wed, 19 Aug 2026 16:53:38 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
