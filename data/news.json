@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-08-21T11:25:58Z",
+  "last_updated": "2026-08-21T12:46:49Z",
   "articles": [
+    {
+      "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted commu...",
+      "pub_date": "Fri, 21 Aug 2026 08:25:33 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Wazuh and AI For Enhanced SOC Workflows",
+      "link": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "description": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate rep...",
+      "pub_date": "Fri, 21 Aug 2026 16:51:39 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSZWG6Sgh8GPFwyz6pxs_gis36Lo0bAHyFSaNrybGElVQbCBkjPrypJ_abTOidSIKSaVJs574hUuDYvUPGymaq3qfnecNfbc-RMnwTuH8vr4jLcsnQCLnxjscJMSLEfITdwIvVt4Ax_wzwKe3MpD5Bm9vIW_f94MESP1p1qNpoxrkkDstHJ1lL7eljzB4/s1600/WAZUH.jpg"
+    },
     {
       "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
@@ -18,15 +36,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Hackers Use Fake Google Gemini Installer to Deploy Vidar Stealer and Steal Browser Credentials",
-      "link": "https://cybersecuritynews.com/fake-google-gemini-installer/",
-      "description": "Cybercriminals are abusing interest in generative AI to trick users into downloading malware. In a newly documented incident, a file posing as a Google Gemini installer delivered the Vidar informat...",
-      "pub_date": "Fri, 21 Aug 2026 10:56:24 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-Google-Gemini-Installer-to-Deploy-Vidar-Stealer-and-Steal-Browser-Credentials.webp"
     },
     {
       "title": "SickKids data breach exposes employee and job applicant info",
@@ -47,51 +56,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis5Ujhq79PHPVr7VjuOjS0fOAyYm0aDTCJi9c5ieu-uya3FUM4Dh58yAT5U5J3VaXaGfNb4XowkyJ1lj3UTy8bOoF-u0O-5qdl-O7leomQjQw5jAI3m8WpZvC3se70f8mRP_KKIcScS0Nf9wJcsq4TWgiS_li3K6CSUbbG643IMhZBVGzW5XflwAbz0d1M/s1600/cisco.jpg"
     },
     {
-      "title": "Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks",
-      "link": "https://cybersecuritynews.com/bandwidth-sharing-app/",
-      "description": "A bandwidth-sharing app installed by an employee can quietly turn a work device into a gateway for outside traffic. The software may not behave like traditional malware, yet it can expose a company...",
-      "pub_date": "Fri, 21 Aug 2026 09:32:45 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Bandwidth-Sharing-App-Can-Turn-Employee-Devices-Into-Gateways-to-Internal-Networks.webp"
-    },
-    {
-      "title": "DOJ Charges 17 Iranian Hackers in IRGC-Linked Campaign That Stole 31.5TB of Research Data",
-      "link": "https://cybersecuritynews.com/doj-charges-17-iranian-hackers/",
-      "description": "The U.S. Department of Justice has unsealed a 14-count superseding indictment against 17 alleged members of the Iran-based Mabna Institute, accusing them of conducting a long-running cyber espionag...",
-      "pub_date": "Fri, 21 Aug 2026 07:52:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/DOJ-Charges-17-Iranian-Hackers-in-IRGC-Linked-Campaign-That-Stole-31.5TB-of-Research-Data.webp"
-    },
-    {
-      "title": "OpenAI Offers Zero Data Retention for Frontier AI Models With Private Safety Processing",
-      "link": "https://cybersecuritynews.com/openai-zero-data-retention-for-frontier-models/",
-      "description": "OpenAI has announced Zero Data Retention for eligible API customers using its frontier AI models, alongside a new Private Safety Processing system designed to support safety monitoring without expo...",
-      "pub_date": "Fri, 21 Aug 2026 07:50:08 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Offers-Zero-Data-Retention-for-Frontier-AI-Models-With-Private-Safety-Processing-.webp"
-    },
-    {
-      "title": "Critical Spring Security Flaw Lets Attackers Gain Admin Access to LDAP Servers",
-      "link": "https://cybersecuritynews.com/spring-security-flaw-access-ldap-servers/",
-      "description": "A critical vulnerability in Spring Security’s embedded UnboundID LDAP server can allow remote attackers to gain administrative access to exposed in-memory LDAP directories. Tracked as CVE-2026-59...",
-      "pub_date": "Fri, 21 Aug 2026 07:46:37 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Spring-Security-Flaw-Lets-Attackers-Gain-Admin-Access-to-LDAP-Servers.webp"
-    },
-    {
-      "title": "Sakura Internet Breach – Hackers Accessed 1.36 million Customers’ Personal Records",
-      "link": "https://cybersecuritynews.com/sakura-internet-breach/",
-      "description": "Sakura Internet has disclosed a potential breach involving its sales management system, placing the personal records of up to 1.36 million customer accounts at risk. The Japanese cloud and hosting ...",
-      "pub_date": "Fri, 21 Aug 2026 07:39:30 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Sakura-Internet-Breach-Hackers-Accessed-1.36-million-customers-Personal-Records-.webp"
-    },
-    {
       "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
       "link": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
       "description": "A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr.  The vulnerability in question is CVE-2026-19478 (CVSS score: ...",
@@ -101,24 +65,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8jpyIqzuMd0vBKcxrQRj7eBbEebcRgNHLRFpx7YuxJlTPksUDEar7HPu4unQPNaOzpChBl1-dYyPHwuyjhgetrrh6PZ9OHPRqnc6nXeNdaX9f8AcSDe6gpmRecFfryf3-3BgsNoxvOyNc6xz703Qzsd7hJLuKbQt4Q6bgVxRZDGdpFzy8O2SByvUouC3J/s1600/gitlab-cve.jpg"
     },
     {
-      "title": "Apple’s Private Find My People Reversed to Decrypt Live Shared Locations on Linux",
-      "link": "https://cybersecuritynews.com/apple-find-my-people-reversed/",
-      "description": "A security researcher has successfully reverse-engineered Apple\u0026#8217;s private Find My People protocol, demonstrating that a Linux machine can register with Apple\u0026#8217;s internal services, receiv...",
-      "pub_date": "Fri, 21 Aug 2026 06:27:17 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Apple-Find-My-People-Reversed.webp"
-    },
-    {
-      "title": "Hackers Exploit TrueConf Servers to Push Malware Through Legitimate Video Conference Downloads",
-      "link": "https://cybersecuritynews.com/hackers-exploit-trueconf-servers/",
-      "description": "Kaspersky researchers investigating attacks on Russian organizations discovered that legitimate TrueConf video conferencing client installers were secretly bundled with PhantomCore malware, a tool ...",
-      "pub_date": "Fri, 21 Aug 2026 06:21:10 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Exploit-TrueConf-Servers-to-Push-Malware-Through-Legitimate-Video-Conference-Downloads-.webp"
-    },
-    {
       "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
       "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
       "description": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required.  The vulnerability, tracked ...",
@@ -126,24 +72,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid22xatm4tPGWO1VA9heA8p7i0iK4au3br36QORRasXlUO2uY5836xkZe6gywLOId9oHICopC6jZ8J-di4JI9O3CPOSOGsqoOR4Ps4DrEbKCXSXwMxX_wOGo0fY3zaTW4By4nzbY6jldD58kLAlBYfFxMOEeZOglaQu8R0TtT23Q2jLbQjHwJSoS21pqu5/s1600/entraid.jpg"
-    },
-    {
-      "title": "Google Chrome 151 Chromoting Flaw Allows Attackers to  Execute Malicious Code Remotely",
-      "link": "https://cybersecuritynews.com/google-chrome-151-chromoting-flaw/",
-      "description": "Google has released Chrome 151 Stable, fixing seven security vulnerabilities, including a critical use-after-free flaw in Chromoting that could potentially allow remote code execution. The update i...",
-      "pub_date": "Fri, 21 Aug 2026 05:41:34 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Google-Chrome-151-Fixes-Critical-Chromoting-Flaw-That-Could-Enable-Remote-Code-Execution-.webp"
-    },
-    {
-      "title": "China-Linked Spy Campaign Uses Five New Malware Families Against Central Asian Governments",
-      "link": "https://cybersecuritynews.com/china-linked-spy-campaign/",
-      "description": "Central Asian government bodies have been targeted in a cyberespionage operation using a compact but varied set of remote access tools. The activity, tracked as SilkParasite, relied on convincing g...",
-      "pub_date": "Fri, 21 Aug 2026 05:11:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/China-Linked-Spy-Campaign-Uses-Five-New-Malware-Families-Against-Central-Asian-Governments.webp"
     },
     {
       "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
@@ -281,15 +209,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDFisNx669R67D6R9VnkWr_DIhB1VjYqDPrXqKAoeCz0YxbSngLxB15XYLtuKb00YSEE0rxQEfop5v7JIr2SMVOErIM2r_GZqA6q1FDNl_wBeAaukVoAse6l0kXv35dJRTQjT8R0DhS9ihwYUXNd9cFuqYM3GS0o28NyIBAgliuQR8XhKQqhixFcjdZpo/s1600/cdn-boost.jpg"
     },
     {
-      "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
-      "link": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
-      "description": "A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial in...",
-      "pub_date": "Thu, 20 Aug 2026 16:56:08 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNJ75E0bEnkBf9REZEnmMNusCu2L2mrut4dSX8g-VVXH2THKdkXD1GwCZ_O5ZsnGzdamG2t0TVnelMj1TKMghauv4cIndc3OA7kuHQAdxf7FbngV7BaWV_-qmhvLZRNwN_5tkv5dSHViEwDgZ4Mou0TNLrFlyQ2yzyb7GYNQ6PPNVjCoJ7VzeKmly4Ntsf/s1600/Manic.jpg"
-    },
-    {
       "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
       "description": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform....",
@@ -348,15 +267,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
       "description": "Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract and membership information is stored. [...]",
       "pub_date": "Wed, 19 Aug 2026 16:53:38 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
-      "link": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
-      "description": "U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]",
-      "pub_date": "Wed, 19 Aug 2026 16:07:12 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
