@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-21T18:36:38Z",
+  "last_updated": "2026-08-21T20:30:40Z",
   "articles": [
+    {
+      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+      "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+      "description": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligen...",
+      "pub_date": "Sat, 22 Aug 2026 00:23:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvZpEOpS6_M3zQlIDwvD1wMhESnRAMTCz1nW2JFP__pGSVWOw28REaDTZ5lI7sdwvcRKSSUHI4sm1CUuWs6_gvOXE1c5BbvKnR75iyBl9Er1SckweDAxBEotnOlSikBeOE5WEBIIGlS74w4b85pvznpr3c4mj88LzLt-3pGr1HHXHQDg5v7T9FxdBSWSlK/s1600/linux-npm.jpg"
+    },
     {
       "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
       "link": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
@@ -9,6 +18,24 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Claude Mythos 5 Now Available in Claude Security for Vulnerability Scanning",
+      "link": "https://cybersecuritynews.com/mythos-5-claude-security-scanning/",
+      "description": "Anthropic has expanded access to its frontier AI cyber-defense capabilities by making Claude Mythos 5 available in Claude Security, enabling enterprise customers to scan codebases for vulnerabiliti...",
+      "pub_date": "Fri, 21 Aug 2026 17:46:37 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Mythos-5-Available-in-Claude-Security.webp"
+    },
+    {
+      "title": "Microsoft Expands Mailbox Storage From 50 GB to 100 GB for Users",
+      "link": "https://cybersecuritynews.com/microsoft-expands-mailbox-storage-50gb-to-100gb/",
+      "description": "Microsoft has started expanding primary mailbox storage for Microsoft 365 Business Basic, Business Standard, and Business Premium users. Eligible users can now receive up to 100 GB of Exchange Onli...",
+      "pub_date": "Fri, 21 Aug 2026 16:37:25 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Expands-Mailbox-Storage-from-50gb-to-100gb-for-Users.webp"
     },
     {
       "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
@@ -47,6 +74,33 @@
       "image_url": ""
     },
     {
+      "title": "Scammers Use WhatsApp Groups to Coordinate Millions in Victim Trades and Pump Real Stocks",
+      "link": "https://cybersecuritynews.com/scammers-use-whatsapp-groups/",
+      "description": "Scammers are using WhatsApp groups to turn ordinary investors into an unwitting buying force. The operation does not need a hacked trading account or a stolen card. Instead, it persuades people to ...",
+      "pub_date": "Fri, 21 Aug 2026 14:52:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Scammers-Use-WhatsApp-Groups-to-Coordinate-Millions-in-Victim-Trades-and-Pump-Real-Stocks.webp"
+    },
+    {
+      "title": "Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks",
+      "link": "https://cybersecuritynews.com/chinese-hackers-use-ai-agents/",
+      "description": "A Chinese-speaking cybercrime group is using AI-assisted tools to turn vulnerable web servers into entry points. It shows how familiar flaws become more dangerous when attackers automate the work a...",
+      "pub_date": "Fri, 21 Aug 2026 14:41:55 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Chinese-Hackers-Use-AI-Agents-to-Exploit-Web-Servers-and-Automate-Attacks.webp"
+    },
+    {
+      "title": "Hackers Hide Agent Tesla JScript Behind Unicode Emojis to Evade Detection",
+      "link": "https://cybersecuritynews.com/hackers-hide-agent-tesla/",
+      "description": "Hackers are using Unicode emoji characters to hide an Agent Tesla JScript dropper in a business email compromise campaign aimed at finance teams. The tactic turns a payment-related attachment into ...",
+      "pub_date": "Fri, 21 Aug 2026 14:14:20 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Hide-Agent-Tesla-JScript-Behind-Unicode-Emojis-to-Evade-Detection.webp"
+    },
+    {
       "title": "Is Online Privacy Possible? How Digital Identities Can Help",
       "link": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
       "description": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital person...",
@@ -63,6 +117,51 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Claude Opus 5 Routes Around Obfuscated Binaries Instead of Defeating the Protection",
+      "link": "https://cybersecuritynews.com/claude-opus-5-routes/",
+      "description": "Claude Opus 5 did not crack hardened binaries in a reverse-engineering experiment. Instead, it sought easier ways to recover hidden information, showing AI-assisted analysis can be capable yet unre...",
+      "pub_date": "Fri, 21 Aug 2026 13:26:20 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Opus-5-Routes-Around-Obfuscated-Binaries-Instead-of-Defeating-the-Protection.webp"
+    },
+    {
+      "title": "Critical WordPress Plugin Vulnerability Exposes Sites to RCE Attacks",
+      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exposes-3/",
+      "description": "A critical security flaw in the Elementor Pro WordPress plugin could allow unauthenticated attackers to upload malicious PHP files and execute code on vulnerable servers. Tracked as CVE-2026-32475,...",
+      "pub_date": "Fri, 21 Aug 2026 13:06:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Wordpress-Plugin-Vulnerability-Exposes-Sites-to-RCE-Attacks-.webp"
+    },
+    {
+      "title": "Critical GitLab Code Injection Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/gitlab-code-injection-vulnerability-exploited/",
+      "description": "GitLab administrators are being urged to patch immediately after security researchers observed attempts to exploit CVE-2026-19478, a critical unauthenticated code injection vulnerability affecting ...",
+      "pub_date": "Fri, 21 Aug 2026 13:06:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-GitLab-code-injection-Vulnnerability-Actively-Exploited-in-Attacks.webp"
+    },
+    {
+      "title": "US Bank Investigating Data Breach Following LockBit Ransomware Claim",
+      "link": "https://cybersecuritynews.com/us-bank-investigating-data-breach-lockbit-claim/",
+      "description": "US Bank is investigating LockBit’s claims of a breach and data theft, with the ransomware group threatening to publish the alleged stolen files on September 3 unless an undisclosed ransom is paid...",
+      "pub_date": "Fri, 21 Aug 2026 13:01:06 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/US-Bank-Investigationg-Data-Breach-Following-LockBit-Ransomware-Claim.webp"
+    },
+    {
+      "title": "Critical N-able Passportal Flaw Lets Malicious Websites Steal Entire Password Vault and 2FA Codes",
+      "link": "https://cybersecuritynews.com/n-able-passportal-flaw/",
+      "description": "A critical vulnerability in N-able Passportal’s Chrome and Microsoft Edge browser extensions could allow a malicious website or embedded iframe to steal an organization’s entire password vault,...",
+      "pub_date": "Fri, 21 Aug 2026 13:00:14 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-N-able-Passportal-Flaw-Lets-Malicious-Websites-Steal-Entire-Password-Vault-and-2FA-Codes.webp"
     },
     {
       "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
@@ -243,15 +342,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
-      "link": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
-      "description": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a ...",
-      "pub_date": "Thu, 20 Aug 2026 17:31:24 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsJMUJluWegBU4C6RiZ4QHg6rTqhFHMt5JJt3RR2K7l06c3FOFlnq8gIVuBqVUX8qsJFiAh6KKAlDXpVAydAoC2rM0dUKUayta50sqRXoW36_V2OgSXJBKaaAFY4boBYhtHkqeyBaBZavbo7bz3S8otNwyb3NUmW9j88edph6zAfnyJikYhLBrAHuCdBA/s1600/visa.jpg"
     },
     {
       "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
@@ -632,10 +722,10 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/06/613839791-af0d8e48-215f-48c7-8f0c-16ef531592f7.png?resize=1024%2C640"
     },
     {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog  ",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-72529 TrueConf Server Missing Authentication ...",
-      "pub_date": "Thu, 20 Aug 26 12:00:00 +0000",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog   ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-73570 Zimbra Collaboration Suite (ZCS) OS Comma...",
+      "pub_date": "Fri, 21 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
@@ -644,6 +734,15 @@
       "title": "Johnson Controls Simplex Incident Manager",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory...",
+      "pub_date": "Thu, 20 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog  ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-72529 TrueConf Server Missing Authentication ...",
       "pub_date": "Thu, 20 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -668,18 +767,18 @@
       "image_url": ""
     },
     {
-      "title": "Siemens Simcenter Nastran",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02",
-      "description": "View CSAF Summary Simcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked ...",
+      "title": "CISA Malcolm",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code. The following versions of CISA Malcolm a...",
       "pub_date": "Tue, 18 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "CISA Malcolm",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code. The following versions of CISA Malcolm a...",
+      "title": "Siemens Simcenter Nastran",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02",
+      "description": "View CSAF Summary Simcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked ...",
       "pub_date": "Tue, 18 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -704,24 +803,6 @@
       "image_url": ""
     },
     {
-      "title": "Siemens Solid Edge",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12",
-      "description": "View CSAF Summary Solid Edge is affected by multiple file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR, PSM or DFT format. This could al...",
-      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Siemens License Server (SLS)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07",
-      "description": "View CSAF Summary Siemens License Server is affected by multiple vulnerabilities which could allow an attacker to elevate its privileges and read arbitrary files on the system. Siemens has released...",
-      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
       "title": "Siemens Desigo DXR and PXC Controllers",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-08",
       "description": "View CSAF Summary A vulnerability in Desigo DXR and PXC controllers has been identified that could allow an attacker to cause denial of service conditions by sending malformed BACnet packets. Recov...",
@@ -734,6 +815,15 @@
       "title": "Johnson Controls Inc. Airwall",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-03",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to decrypt sensitive data, bypass authentication controls, gaining unauthorized access to read arbitrary f...",
+      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens License Server (SLS)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07",
+      "description": "View CSAF Summary Siemens License Server is affected by multiple vulnerabilities which could allow an attacker to elevate its privileges and read arbitrary files on the system. Siemens has released...",
       "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
