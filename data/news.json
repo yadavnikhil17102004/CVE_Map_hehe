@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-08-21T04:38:13Z",
+  "last_updated": "2026-08-21T05:32:32Z",
   "articles": [
+    {
+      "title": "China-Linked Spy Campaign Uses Five New Malware Families Against Central Asian Governments",
+      "link": "https://cybersecuritynews.com/china-linked-spy-campaign/",
+      "description": "Central Asian government bodies have been targeted in a cyberespionage operation using a compact but varied set of remote access tools. The activity, tracked as SilkParasite, relied on convincing g...",
+      "pub_date": "Fri, 21 Aug 2026 05:11:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/China-Linked-Spy-Campaign-Uses-Five-New-Malware-Families-Against-Central-Asian-Governments.webp"
+    },
+    {
+      "title": "Microsoft Entra ID Remote Code Execution Vulnerability Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/entra-id-rce-vulnerability-exploited/",
+      "description": "Microsoft has confirmed that a critical remote code execution flaw in Entra ID, its cloud-based identity and access management platform, has already been exploited in the wild. The vulnerability, t...",
+      "pub_date": "Fri, 21 Aug 2026 03:38:36 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Entra-ID-RCE-Vulnerability-Exploited.webp"
+    },
     {
       "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
       "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
@@ -38,6 +56,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrmpCA-Pjqqy5BQaFvVtYqPZocJNkI4XUD8bcD9KrGaBcLyKd3J-aWVUtB8HwTiVqrFSI8U5wtTPhtjowrBWukeoUwSM5Y0-YKY535m1iDdQCXLYbSlx-qS-2TzZUpWVghvC3b9qWHxPoY4b-d3uUn3E4jeeW6iPt6Klxte-iNHfbq7K4aUpKH-EfhZV69/s1600/threatsday-main.png"
     },
     {
+      "title": "CRLF-Powered Desync Lets Attackers Poison CDN Cache and Serve XSS to Live Users",
+      "link": "https://cybersecuritynews.com/crlf-powered-desync-attack/",
+      "description": "A limited CRLF injection flaw can be escalated into a severe HTTP desynchronization attack, poisoning CDN caches and delivering XSS payloads to users on legitimate websites. The attack, called CRLF...",
+      "pub_date": "Thu, 20 Aug 2026 17:04:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CRLF-Powered-Desync-Lets-Attackers-Poison-CDN-Cache-and-Serve-XSS-to-Live-Users.webp"
+    },
+    {
       "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
       "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
       "description": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts.  The activ...",
@@ -45,6 +72,42 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSn562AFIpj2ldmT5inFv5tGgfNbaM4F1OBNvCW-80nP-YmFewnJd9VMlbgYnhgWrUpHS81bS6uEXRgEmg37c14OqmkO29XqY3FcBCl637vmAxfqB3UDtL3Rvgio6cPAQQv3bYtLUIyRdog4bpgD8MqJJYhTLish4L2Ljt6aJ_WpjFmTXYhmrA-TguqH98/s1600/plc.jpg"
+    },
+    {
+      "title": "AWS Shows How to Stop a Hijacked AI Agent From Reading Data the User Cannot Access",
+      "link": "https://cybersecuritynews.com/aws-ai-agent-data-access/",
+      "description": "Enterprises are racing to deploy AI agents that pull from databases, document repositories, SaaS platforms, and internal knowledge bases to automate workflows. But a quiet risk lurks beneath the co...",
+      "pub_date": "Thu, 20 Aug 2026 16:55:37 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AWS-AI-Agent-Data-Access.webp"
+    },
+    {
+      "title": "Microsoft Defender Driver Can Be Weaponized to Disable EDR and AV From Windows Kernel",
+      "link": "https://cybersecuritynews.com/defender-driver-can-be-weaponized/",
+      "description": "Microsoft Defender’s legitimate Boot-Time Removal (BTR.sys) driver can be repurposed to perform powerful kernel-level file and registry operations, potentially enabling attackers with administrat...",
+      "pub_date": "Thu, 20 Aug 2026 16:39:41 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Defender-Driver-Can-Be-Weaponized.webp"
+    },
+    {
+      "title": "Popular Rust Packages With 244M Downloads Compromised to Run Malware",
+      "link": "https://cybersecuritynews.com/rust-packages-malware/",
+      "description": "A major supply chain attack targeting the Rust ecosystem, in which two widely used crates, arrayref and append-only-vec, were hijacked to silently deliver malware the moment developers compiled the...",
+      "pub_date": "Thu, 20 Aug 2026 16:15:06 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Popular-Rust-Packages-Compromised.webp"
+    },
+    {
+      "title": "Critical NASA AIT-GUI Flaw Lets Unauthenticated Attackers Issue Spacecraft Commands",
+      "link": "https://cybersecuritynews.com/nasa-ait-gui-flaw/",
+      "description": "A critical security flaw in NASA/JPL\u0026#8217;s open-source AMMOS Instrument Toolkit GUI (AIT-GUI) could let an unauthenticated attacker send live commands to spacecraft and scientific instruments, ru...",
+      "pub_date": "Thu, 20 Aug 2026 15:24:09 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/NASA-AIT-GUI-Flaw.webp"
     },
     {
       "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
@@ -74,6 +137,15 @@
       "image_url": ""
     },
     {
+      "title": "ToxicPanda Android Malware Can Steal Banking PINs and Gain Shell Access to Phones",
+      "link": "https://cybersecuritynews.com/toxicpanda-android-malware/",
+      "description": "A new version of the ToxicPanda Android banking trojan is widening the danger for mobile users. The malware can steal banking PINs, imitate trusted screens, and take deeper control of infected phon...",
+      "pub_date": "Thu, 20 Aug 2026 13:55:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ToxicPanda-Android-Malware-Can-Steal-Banking-PINs-and-Gain-Shell-Access-to-Phones.webp"
+    },
+    {
       "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
       "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
       "description": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to esc...",
@@ -81,6 +153,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ3-aEfGwe03ZMojsoiYaQ4TNjUiAPEFK-m68uY5JSlF8knbnGWOcBrqiB_4s6J47lPjyhQEuWdUMHnktRU6YfOcltn7_lXga77C8TNH4GOVAPrmIH_T0MsFKFkmQSMnvf42bnLlH0pC4BVMEpAZJLLTH51GpgfZybiZ_UWNLhKxx1oGi8PyD3bOUGG0_F/s1600/nodejs.jpg"
+    },
+    {
+      "title": "Hackers Use Fake CAPTCHA to Install Malware That Kills 145 Security Processes",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-captcha/",
+      "description": "Hackers are using fake CAPTCHA pages to push a malware loader that can shut down security software before a follow-on payload runs. The campaign combines compromised WordPress websites, a familiar ...",
+      "pub_date": "Thu, 20 Aug 2026 13:39:22 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-CAPTCHA-to-Install-Malware-That-Kills-145-Security-Processes.webp"
     },
     {
       "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
@@ -99,6 +180,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5vbtHH6C3JbT58Yghw2KNalqy-xoKLuJlsV9AGd_j2mQj4NKzVgWiOc9CDvUsT2JY0AchCk5140WhvNgZdKY2fwmeGEEi9FMvSSJvrBYVWndOKV9R47OEMZ59OOjv56DkPgpKo55fvHT7JSRW4yvh9_Xp5KBbw9xyJg2EGStHzg8ctloKfsJJPDLss1xR/s1600/zimbra.jpg"
+    },
+    {
+      "title": "New Android Malware Steals Banking PINs and Relays Data Through Someone Else’s Infected Phones",
+      "link": "https://cybersecuritynews.com/manic-android-malware/",
+      "description": "A newly discovered Android malware family named Manic combines banking fraud with full-scale spyware, and it comes with a trick researchers rarely see in the wild: when an infected phone has no int...",
+      "pub_date": "Thu, 20 Aug 2026 13:20:41 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Manic-Android-Malware.webp"
     },
     {
       "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
