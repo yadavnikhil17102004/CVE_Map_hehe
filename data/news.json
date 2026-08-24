@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-24T20:31:04Z",
+  "last_updated": "2026-08-24T21:29:16Z",
   "articles": [
+    {
+      "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
+      "link": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
+      "description": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that ca...",
+      "pub_date": "Mon, 24 Aug 2026 17:14:30 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
@@ -236,6 +245,42 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4-mx98ENuq77sCTBd49TSl4Ov5dD1Wua0Vf1MiyVVPfcFckY__TjnTEOeC5CIQWX4L_OLA-xZHHY5nAlp926SIpa3eK8Tvfw1HSHHK1GMot7noTz4Cg36t-ZuZ-NUh5mnsfzs0HJ8F7p410LgWFVPN39PYh8YR6qkDlE8duNKmKpOtJHW4NA9T_ddTGLp/s1600/hackers.jpg"
     },
     {
+      "title": "ZDI-26-588: Fabric.js loadFromJSON Server-Side Request Forgery Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-588/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Fabric.js. Interaction with this library is required to exploit this vulnerability but atta...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-587: Ashlar-Vellum Cobalt VS File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-587/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-586: OriginLab Origin Viewer OGM File Parsing Memory Corruption Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-586/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the tar...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-585: OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-585/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the tar...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
       "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
       "link": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
       "description": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
@@ -321,15 +366,6 @@
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
       "description": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by peripherals with RGB lighting. [...]",
       "pub_date": "Fri, 21 Aug 2026 10:54:49 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
-      "link": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
-      "description": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital person...",
-      "pub_date": "Fri, 21 Aug 2026 10:00:10 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
@@ -526,42 +562,6 @@
     {
       "title": "ZDI-26-574: Linux Kernel Net Scheduler Connection Tracking Race Condition Local Privilege Escalation Vulnerability",
       "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-574/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-573: Linux Kernel KSMBD Response Header Out-Of-Bounds Read Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-573/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel KSMBD. Authentication is not required to exploit this vulnerability. However, ...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-572: Linux Kernel XFRM Race Condition Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-572/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-571: Linux Kernel Net Scheduler Packet Classifier API Use-After-Free Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-571/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-570: Linux Kernel IGMP Subsystem Race Condition Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-570/",
       "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
       "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
