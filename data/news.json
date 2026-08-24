@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-08-24T16:37:25Z",
+  "last_updated": "2026-08-24T17:30:59Z",
   "articles": [
+    {
+      "title": "Zimbra Collaboration Suite Vulnerability Actively Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/zimbra-collaboration-suite-vulnerability-exploited/",
+      "description": "CERT Polska has warned that threat actors are actively exploiting CVE-2026-73570, a critical OS command-injection vulnerability in Zimbra Collaboration Suite that allows remote, unauthenticated att...",
+      "pub_date": "Mon, 24 Aug 2026 17:04:30 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zimbra-Collaboration-Suite-Vulnerability-Actively-Exploited-in-the-Wild.webp"
+    },
+    {
+      "title": "Microsoft Teams’ New Policy Lets Admins Automatically Block Meeting Bots",
+      "link": "https://cybersecuritynews.com/microsoft-teams-policy-to-block-bots/",
+      "description": "Microsoft is rolling out a fresh line of defense against unwanted digital eavesdroppers in virtual meetings. The tech giant confirmed that Microsoft Teams will soon let administrators automatically...",
+      "pub_date": "Mon, 24 Aug 2026 16:53:06 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Teams-Block-Meeting-Bots.webp"
+    },
+    {
+      "title": "Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)",
+      "link": "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520",
+      "description": "",
+      "pub_date": "Mon, 24 Aug 2026 16:18:05 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
+    },
     {
       "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
       "link": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
@@ -18,6 +45,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBxfnZQzz7hUDdRKPJM-KWXJAJemk0-S3QlOB71Z1Bq9nVxHA4G0VtkwUUVJjgO-2gtDImMt-ktLnUQd3rkScujv0fWVlfc_tr3qO7sZ-MI2QDtoyT8pKx4q_ZCndRyxhPQcNtZB70fZ4VlaBuE3YaMcE__MWrRtngOU0rTHcSmOXsGkhlARwfUkIBUj9Q/s1600/recap-n.jpg"
+    },
+    {
+      "title": "Hackers Poison Google and Bing Results to Deliver Cloaked Banking Phishing Pages",
+      "link": "https://cybersecuritynews.com/hackers-poison-google-bing-results/",
+      "description": "Bank customers searching for a login page can now be led into a trap before they receive a suspicious email or text message. Criminals are manipulating Google and Bing results so that fraudulent ba...",
+      "pub_date": "Mon, 24 Aug 2026 14:06:52 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Poison-Google-and-Bing-Results-to-Deliver-Cloaked-Banking-Phishing-Pages.webp"
     },
     {
       "title": "Microsoft Teams now lets admins block external bots from meetings",
@@ -38,6 +74,51 @@
       "image_url": ""
     },
     {
+      "title": "New Mysterious AI Model Dubbed Ox Alpha With Free 100 Trillion Tokens a Day for Coders",
+      "link": "https://cybersecuritynews.com/new-mysterious-ai-model-dubbed-ox-alpha/",
+      "description": "A mysterious AI system named Ox Alpha has sparked intense speculation across the developer community after appearing on OpenRouter as a free “stealth model” aimed at coding, long-running AI age...",
+      "pub_date": "Mon, 24 Aug 2026 13:47:38 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-Mysterious-AI-model-Dubbed-Ox-Alpha-With-Free-100-trillion-tokens-a-day-for-Coders.webp"
+    },
+    {
+      "title": "Hackers Impersonate ReliaQuest Security Team Member to Steal SSO Credentials and MFA Access",
+      "link": "https://cybersecuritynews.com/hackers-impersonate-reliaquest-security-staff/",
+      "description": "ReliaQuest has disclosed a social engineering attack in which threat actors impersonated members of its security team to lure employees to a fraudulent single sign-on page. The incident briefly exp...",
+      "pub_date": "Mon, 24 Aug 2026 13:44:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Impersonate-ReliaQuest-Security-Staff-to-Steal-SSO-Credentials-and-MFA-Access.webp"
+    },
+    {
+      "title": "768 Leaked Corporate AWS Keys Remain Active With Full Administrator Access",
+      "link": "https://cybersecuritynews.com/768-leaked-corporate-aws-keys-remain-active/",
+      "description": "A new cloud security investigation from Truffle Security has found that 768 publicly exposed AWS credentials still provide full administrative control over corporate AWS environments. The findings ...",
+      "pub_date": "Mon, 24 Aug 2026 13:43:10 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/768-Leaked-Corporate-AWS-Keys-Remain-Active-With-Full-Administrator-Access-.webp"
+    },
+    {
+      "title": "Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data",
+      "link": "https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension/",
+      "description": "Kimsuky has been linked to a new espionage campaign that turns a Chrome extension into a quiet Gmail collector. The operation begins with convincing phishing emails and ends with attackers gaining ...",
+      "pub_date": "Mon, 24 Aug 2026 13:42:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Kimsuky-Uses-AI-Generated-Chrome-Extension-to-Automatically-Steal-Gmail-Data.webp"
+    },
+    {
+      "title": "WordPress Plugin Vulnerability Exposes 100,000 Sites to Complete Site Takeover Attacks",
+      "link": "https://cybersecuritynews.com/wordpress-everest-forms-plugin-flaw/",
+      "description": "A critical vulnerability tracked as CVE-2026-19598 in the Everest Forms WordPress plugin has exposed more than 100,000 websites to complete site takeover attacks. The flaw has a CVSS severity score...",
+      "pub_date": "Mon, 24 Aug 2026 13:08:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/WordPress-Plugin-Vulnerability-Exposes-100000-Sites-to-Complete-Site-Takeover-Attacks-.webp"
+    },
+    {
       "title": "Microsoft: August updates break printing, PDF export in WPF apps",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
       "description": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. [...]",
@@ -54,6 +135,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNZ5JtaLAZIvAO7R42dqB1NBKwtOlFHZIl0yqtfPhyphenhyphenHMJB9MMg8oLLb8p6n9mF67PgHSytYigaqeAoGejuVd42lDlCT42T6vqCgfl6IE-8LnMQjyiCj8MVMdg5ZKznn2cZ18T9zubhLJ-JUZLSWeqEVGQbke44f83WHpoMuaVM9J6G0FA-9RG8_wb8lUTt/s1600/windows-signin.jpg"
+    },
+    {
+      "title": "Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords",
+      "link": "https://cybersecuritynews.com/microsoft-teams-phishing/",
+      "description": "Microsoft Teams phishing is again being used as a doorway to deliver a malware family called SynkLoader. The campaign relies on a familiar social-engineering trick: an attacker poses as an IT helpd...",
+      "pub_date": "Mon, 24 Aug 2026 12:33:55 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Teams-Phishing-Deploys-New-SynkLoader-Malware-to-Steal-Windows-Passwords.webp"
     },
     {
       "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
@@ -81,6 +171,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAU29lFKKhJ4-37mroz3wn9p8YejZSqMG70AcTu4Z_FLB6hhof-kGO8-6KOfJcE5TXPvrziWpqDpLu_Mi64u8ilPMtdicwexovYdtmVQhhFOTlAeEamKEccbGQf4Y15ufNQRggwtyzLJy32qocItBHu4FX7FLYDYbnjBXuYMtflnNB4ttrzIdynMPcquxs/s1600/silver.jpg"
+    },
+    {
+      "title": "Microsoft August 2026 Windows Updates Trigger Issues on Devices Using RGB Lighting Features",
+      "link": "https://cybersecuritynews.com/windows-updates-triggers-rgb-lighting-issues/",
+      "description": "Microsoft is investigating a Windows 11 issue in which the August 2026 security updates can cause certain games to freeze, crash, display access-violation errors, or restart affected PCs. The probl...",
+      "pub_date": "Mon, 24 Aug 2026 11:33:47 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-August-2026-Windows-updates-Triggers-issues-on-Devices-Using-RGB-lighting-features.webp"
     },
     {
       "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
@@ -549,15 +648,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blte0070cfd2a1161fa/683de8fa2a9b68aac72bd4a9/Metasploit.png"
-    },
-    {
-      "title": "Rapid7 Expands UK and Ireland Channel Presence Through Strategic Partnership with Exclusive Networks",
-      "link": "https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-uk-ireland-partnership",
-      "description": "Ross Baker is Senior Director, Northern Europe at Rapid7.As organizations across the United Kingdom and Ireland embrace AI, cloud technologies, and digital transformation in the name of enhancing c...",
-      "pub_date": "Mon, 03 Aug 2026 08:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltebc2810157aecfaf/68af2715c53b04810df94abb/blog-hero-generic-pixel.jpg"
     },
     {
       "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
