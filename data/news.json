@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T21:29:16Z",
+  "last_updated": "2026-08-24T22:26:22Z",
   "articles": [
     {
       "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
@@ -245,36 +245,135 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4-mx98ENuq77sCTBd49TSl4Ov5dD1Wua0Vf1MiyVVPfcFckY__TjnTEOeC5CIQWX4L_OLA-xZHHY5nAlp926SIpa3eK8Tvfw1HSHHK1GMot7noTz4Cg36t-ZuZ-NUh5mnsfzs0HJ8F7p410LgWFVPN39PYh8YR6qkDlE8duNKmKpOtJHW4NA9T_ddTGLp/s1600/hackers.jpg"
     },
     {
-      "title": "ZDI-26-588: Fabric.js loadFromJSON Server-Side Request Forgery Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-588/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Fabric.js. Interaction with this library is required to exploit this vulnerability but atta...",
+      "title": "ZDI-26-610: Apple Safari JavaScriptCore B3 ReduceStrength Phase Use-After-Free Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-610/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must vi...",
       "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
       "image_url": ""
     },
     {
-      "title": "ZDI-26-587: Ashlar-Vellum Cobalt VS File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-587/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target...",
+      "title": "ZDI-26-609: Linux Kernel Net Scheduler Packet Classifier Use-After-Free Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-609/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target sy...",
       "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
       "image_url": ""
     },
     {
-      "title": "ZDI-26-586: OriginLab Origin Viewer OGM File Parsing Memory Corruption Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-586/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the tar...",
+      "title": "ZDI-26-608: Linux Kernel KVM IOAPIC Use-After-Free Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-608/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
       "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
       "image_url": ""
     },
     {
-      "title": "ZDI-26-585: OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-585/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the tar...",
+      "title": "ZDI-26-607: Microsoft Office HTML Injection Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-607/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the ta...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-606: Microsoft Windows Compatibility Appraiser Link Following Local Privilege Escalation Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-606/",
+      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code in the cont...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-605: Microsoft Windows Localized Filenames Improper Input Validation NTLM Response Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-605/",
+      "description": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target m...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-604: Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-604/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target mus...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-603: Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-603/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target mus...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-602: Foxit PDF Reader Doc Object Use-After-Free Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-602/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target mus...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-601: Foxit PDF Reader Annotation Use-After-Free Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-601/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the ta...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-600: Foxit PDF Reader Annotation Use-After-Free Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-600/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the ta...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-599: Foxit PDF Reader Annotation Use-After-Free Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-599/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the ta...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-598: Foxit PDF Reader AcroForm Use-After-Free Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-598/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target mus...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-597: Foxit PDF Reader AcroForm Use-After-Free Remote Code Execution Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-597/",
+      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target mus...",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
+      "source": "Zero Day Initiative",
+      "tier": 4,
+      "image_url": ""
+    },
+    {
+      "title": "ZDI-26-596: Foxit PDF Reader PDF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-596/",
+      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the ta...",
       "pub_date": "Mon, 24 Aug 2026 00:00:00 -0500",
       "source": "Zero Day Initiative",
       "tier": 4,
@@ -468,105 +567,6 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": "https://github.blog/wp-content/uploads/2026/08/openclaw.png?resize=1920%2C1080"
-    },
-    {
-      "title": "ZDI-26-584: dnsmasq DNSSEC NSEC/NSEC3 Type Bitmap Processing Infinite Loop Denial-of-Service Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-584/",
-      "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of dnsmasq. Authentication is not required to exploit this vulnerability. The ZDI has as...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-583: Clam AntiVirus 7z Archive Parsing Integer Overflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-583/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Clam AntiVirus. Interaction with this product is required to exploit this vulnerability but attack ...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-582: Cisco Identity Services Engine PatchUpdateListener Directory Traversal Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-582/",
-      "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability. T...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-581: Cisco Identity Services Engine invokeScript Command Injection Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-581/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability. The ZDI h...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-580: Cisco Identity Services Engine Missing Authentication for Critical Function Information Disclosure Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-580/",
-      "description": "The vulnerability allows remote attackers to disclose sensitive information on affected installations of Cisco Identity Services Engine. Authentication is not required to exploit this vulnerability...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-579: Cisco Identity Services Engine zipFiles Directory Traversal Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-579/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability. The ZDI h...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-578: NGINX HTTP Dav Module Alias Directive Integer Underflow Remote Code Execution Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-578/",
-      "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NGINX. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS ra...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-577: Trend Micro VPN OpenSSL Configuration Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-577/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro VPN. An attacker must first obtain the ability to execute low-privileged code on the target...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-576: Linux Kernel XFRM Race Condition Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-576/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-575: Linux Kernel Net Scheduler Packet Classifier API Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-575/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
-    },
-    {
-      "title": "ZDI-26-574: Linux Kernel Net Scheduler Connection Tracking Race Condition Local Privilege Escalation Vulnerability",
-      "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-574/",
-      "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target s...",
-      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0500",
-      "source": "Zero Day Initiative",
-      "tier": 4,
-      "image_url": ""
     },
     {
       "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
