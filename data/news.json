@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-08-24T10:37:09Z",
+  "last_updated": "2026-08-24T11:28:46Z",
   "articles": [
     {
-      "title": "Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto",
-      "link": "https://cybersecuritynews.com/fake-captcha-tricks-mac-users/",
-      "description": "Mac users are being lured into a ClickFix campaign that turns a routine CAPTCHA check into a path for password theft, remote control, and cryptocurrency mining. It persuades a visitor to run an att...",
-      "pub_date": "Mon, 24 Aug 2026 09:49:32 +0000",
-      "source": "Cyber Security News",
+      "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. ...",
+      "pub_date": "Mon, 24 Aug 2026 06:45:12 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Fake-CAPTCHA-Tricks-Mac-Users-Into-Installing-a-Backdoor-That-Steals-Passwords-and-Mines-Crypto.webp"
+      "image_url": ""
     },
     {
       "title": "Microsoft shares temporary fix for Windows 11 gaming issues",
@@ -20,15 +20,6 @@
       "image_url": ""
     },
     {
-      "title": "Hugging Face Reportedly Explores $13 Billion Sale Following Recent AI Security Incident",
-      "link": "https://cybersecuritynews.com/hugging-face-13-billion-sale/",
-      "description": "Hugging Face is testing a sale that could value the open-source AI hub at $13 billion or more, even as it is still closing out July’s autonomous-agent intrusion. People familiar with the process ...",
-      "pub_date": "Mon, 24 Aug 2026 08:10:09 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hugging-Face-13-Billion-Sale.webp"
-    },
-    {
       "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
       "link": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
       "description": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technol...",
@@ -36,78 +27,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4-mx98ENuq77sCTBd49TSl4Ov5dD1Wua0Vf1MiyVVPfcFckY__TjnTEOeC5CIQWX4L_OLA-xZHHY5nAlp926SIpa3eK8Tvfw1HSHHK1GMot7noTz4Cg36t-ZuZ-NUh5mnsfzs0HJ8F7p410LgWFVPN39PYh8YR6qkDlE8duNKmKpOtJHW4NA9T_ddTGLp/s1600/hackers.jpg"
-    },
-    {
-      "title": "Anthropic’s Claude AI Suffers Another Outage With Elevated Errors",
-      "link": "https://cybersecuritynews.com/claude-ai-suffers-outage/",
-      "description": "Anthropic\u0026#8217;s Claude AI platform experienced another wave of elevated errors on August 24, 2026, marking yet another disruption in what has become a troubling pattern of instability for one of ...",
-      "pub_date": "Mon, 24 Aug 2026 08:01:43 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-AI-Suffers-Another-Outage-1.webp"
-    },
-    {
-      "title": "Hackers Infect Android Car Screens Through Their Built-In Software Update System",
-      "link": "https://cybersecuritynews.com/hackers-infect-android-car-screens/",
-      "description": "A newly uncovered Android malware campaign has turned car infotainment screens into an unexpected target. Rather than tricking drivers into installing a suspicious app, attackers used the software ...",
-      "pub_date": "Mon, 24 Aug 2026 07:30:28 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Infect-Android-Car-Screens-Through-Their-Built-In-Software-Update-System.webp"
-    },
-    {
-      "title": "AWS Network Firewall Now Displays Count of Triggered Security Rules",
-      "link": "https://cybersecuritynews.com/aws-network-firewall-hit-counts/",
-      "description": "AWS has introduced rule hit count support for AWS Network Firewall, giving security teams direct visibility into which stateful firewall rules are matching live network traffic. The new capability ...",
-      "pub_date": "Mon, 24 Aug 2026 06:27:33 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AWS-Network-Firewall-Now-Shows-Which-Security-Rules-Are-Actually-Being-Triggered.webp"
-    },
-    {
-      "title": "Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks",
-      "link": "https://cybersecuritynews.com/malicious-npm-packages/",
-      "description": "Malicious npm packages are being used to place a Linux backdoor inside calendar and streak-calculation tools. The packages deliver legitimate date functions, making the malicious code easy to miss....",
-      "pub_date": "Mon, 24 Aug 2026 06:09:19 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Malicious-npm-Packages-Deploy-AI-Powered-RedC2-Linux-Implant-to-Steal-Credentials-and-Pivot-Networks.webp"
-    },
-    {
-      "title": "Critical isolated-vm Flaw Lets Untrusted JavaScript Escape Sandbox and Hijack Host Execution",
-      "link": "https://cybersecuritynews.com/critical-isolated-vm-flaw/",
-      "description": "A critical security flaw in the popular Node.js sandboxing library isolated-vm could allow untrusted JavaScript to escape its V8 sandbox and potentially hijack execution in the host process. The is...",
-      "pub_date": "Mon, 24 Aug 2026 05:57:44 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-isolated-vm-Flaw-Lets-Untrusted-JavaScript-Escape-Sandbox-and-Hijack-Host-Execution-.webp"
-    },
-    {
-      "title": "Cybermes – AI Red Teaming Agent for Automated Penetration Testing",
-      "link": "https://cybersecuritynews.com/cybermes-ai-red-teaming-agent/",
-      "description": "A new open-source project called Cybermes has entered the crowded field of AI-powered offensive security tooling, positioning itself as an enterprise-grade autonomous agent capable of running full ...",
-      "pub_date": "Mon, 24 Aug 2026 05:39:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Cybermes-AI-Red-Teaming-Agent.webp"
-    },
-    {
-      "title": "New Malware-as-a-service Leveraging Adobe-themed Domain to Attack Windows Users Using .bat File",
-      "link": "https://cybersecuritynews.com/malware-as-a-service-adobe-themed-domain/",
-      "description": "A criminal service is hiding behind a website that appears to offer Adobe Acrobat Reader. The site, acrobatreaderonline.com, is not a document service. Instead, it appears to expose an operator pan...",
-      "pub_date": "Mon, 24 Aug 2026 04:47:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-Malware-as-a-service-Leveraging-Adobe-themed-Domain-to-Attack-Windows-Users-Using-.bat-File.webp"
-    },
-    {
-      "title": "Iran-Linked Hackers Force UK Power Plant Offline in Unprecedented Four-Day Cyberattack",
-      "link": "https://cybersecuritynews.com/hackers-force-uk-power-plant-offline/",
-      "description": "A cyberattack attributed to hackers linked to Iran forced a British power plant offline for four consecutive days last month, marking what officials describe as the first successful attack of its k...",
-      "pub_date": "Sun, 23 Aug 2026 17:21:38 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Force-UK-Power-Plant-Offline.webp"
     },
     {
       "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
@@ -238,7 +157,7 @@
     {
       "title": "Microsoft patches max severity code execution, privilege escalation flaws",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
-      "description": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+      "description": "Microsoft has patched multiple maximum-severity vulnerabilities in Entra ID, Azure Arc, and Exchange Online that allowed attackers to gain remote code execution and escalate privileges. [...]",
       "pub_date": "Fri, 21 Aug 2026 07:04:10 -0400",
       "source": "BleepingComputer",
       "tier": 3,
@@ -333,15 +252,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSn562AFIpj2ldmT5inFv5tGgfNbaM4F1OBNvCW-80nP-YmFewnJd9VMlbgYnhgWrUpHS81bS6uEXRgEmg37c14OqmkO29XqY3FcBCl637vmAxfqB3UDtL3Rvgio6cPAQQv3bYtLUIyRdog4bpgD8MqJJYhTLish4L2Ljt6aJ_WpjFmTXYhmrA-TguqH98/s1600/plc.jpg"
-    },
-    {
-      "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-      "description": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
-      "pub_date": "Thu, 20 Aug 2026 10:39:48 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
