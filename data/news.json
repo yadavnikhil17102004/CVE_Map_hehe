@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-08-24T12:50:08Z",
+  "last_updated": "2026-08-24T14:04:44Z",
   "articles": [
+    {
+      "title": "Microsoft Teams now lets admins block external bots from meetings",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
+      "description": "Microsoft is rolling out a new Teams meeting protection policy that allows administrators to automatically block all identified external bots from joining Teams meetings. [...]",
+      "pub_date": "Mon, 24 Aug 2026 10:00:19 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "South Korean startup platform breach exposes key management failures",
+      "link": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
+      "description": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Security explains why encryption keys must be secu...",
+      "pub_date": "Mon, 24 Aug 2026 10:00:10 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "New Mysterious AI Model Dubbed Ox Alpha With Free 100 Trillion Tokens a Day for Coders",
+      "link": "https://cybersecuritynews.com/new-mysterious-ai-model-dubbed-ox-alpha/",
+      "description": "A mysterious AI system named Ox Alpha has sparked intense speculation across the developer community after appearing on OpenRouter as a free “stealth model” aimed at coding, long-running AI age...",
+      "pub_date": "Mon, 24 Aug 2026 13:47:38 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-Mysterious-AI-model-Dubbed-Ox-Alpha-With-Free-100-trillion-tokens-a-day-for-Coders.webp"
+    },
+    {
+      "title": "Hackers Impersonate ReliaQuest Security Staff to Steal SSO Credentials and MFA Access",
+      "link": "https://cybersecuritynews.com/hackers-impersonate-reliaquest-security-staff/",
+      "description": "ReliaQuest has disclosed a social engineering attack in which threat actors impersonated members of its security team to lure employees to a fraudulent single sign-on page. The incident briefly exp...",
+      "pub_date": "Mon, 24 Aug 2026 13:44:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Impersonate-ReliaQuest-Security-Staff-to-Steal-SSO-Credentials-and-MFA-Access.webp"
+    },
+    {
+      "title": "768 Leaked Corporate AWS Keys Remain Active With Full Administrator Access",
+      "link": "https://cybersecuritynews.com/768-leaked-corporate-aws-keys-remain-active/",
+      "description": "A new cloud security investigation from Truffle Security has found that 768 publicly exposed AWS credentials still provide full administrative control over corporate AWS environments. The findings ...",
+      "pub_date": "Mon, 24 Aug 2026 13:43:10 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/768-Leaked-Corporate-AWS-Keys-Remain-Active-With-Full-Administrator-Access-.webp"
+    },
+    {
+      "title": "Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data",
+      "link": "https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension/",
+      "description": "Kimsuky has been linked to a new espionage campaign that turns a Chrome extension into a quiet Gmail collector. The operation begins with convincing phishing emails and ends with attackers gaining ...",
+      "pub_date": "Mon, 24 Aug 2026 13:42:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Kimsuky-Uses-AI-Generated-Chrome-Extension-to-Automatically-Steal-Gmail-Data.webp"
+    },
+    {
+      "title": "WordPress Plugin Vulnerability Exposes 100,000 Sites to Complete Site Takeover Attacks",
+      "link": "https://cybersecuritynews.com/wordpress-everest-forms-plugin-flaw/",
+      "description": "A critical vulnerability tracked as CVE-2026-19598 in the Everest Forms WordPress plugin has exposed more than 100,000 websites to complete site takeover attacks. The flaw has a CVSS severity score...",
+      "pub_date": "Mon, 24 Aug 2026 13:08:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/WordPress-Plugin-Vulnerability-Exposes-100000-Sites-to-Complete-Site-Takeover-Attacks-.webp"
+    },
     {
       "title": "Microsoft: August updates break printing, PDF export in WPF apps",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
@@ -9,6 +72,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+      "link": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
+      "description": "Cybersecurity researchers have flagged two new malware families called  WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups.  Accord...",
+      "pub_date": "Mon, 24 Aug 2026 18:05:36 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNZ5JtaLAZIvAO7R42dqB1NBKwtOlFHZIl0yqtfPhyphenhyphenHMJB9MMg8oLLb8p6n9mF67PgHSytYigaqeAoGejuVd42lDlCT42T6vqCgfl6IE-8LnMQjyiCj8MVMdg5ZKznn2cZ18T9zubhLJ-JUZLSWeqEVGQbke44f83WHpoMuaVM9J6G0FA-9RG8_wb8lUTt/s1600/windows-signin.jpg"
     },
     {
       "title": "Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords",
@@ -117,51 +189,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4-mx98ENuq77sCTBd49TSl4Ov5dD1Wua0Vf1MiyVVPfcFckY__TjnTEOeC5CIQWX4L_OLA-xZHHY5nAlp926SIpa3eK8Tvfw1HSHHK1GMot7noTz4Cg36t-ZuZ-NUh5mnsfzs0HJ8F7p410LgWFVPN39PYh8YR6qkDlE8duNKmKpOtJHW4NA9T_ddTGLp/s1600/hackers.jpg"
-    },
-    {
-      "title": "Anthropic’s Claude AI Suffers Another Outage With Elevated Errors",
-      "link": "https://cybersecuritynews.com/claude-ai-suffers-outage/",
-      "description": "Anthropic\u0026#8217;s Claude AI platform experienced another wave of elevated errors on August 24, 2026, marking yet another disruption in what has become a troubling pattern of instability for one of ...",
-      "pub_date": "Mon, 24 Aug 2026 08:01:43 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-AI-Suffers-Another-Outage-1.webp"
-    },
-    {
-      "title": "Hackers Infect Android Car Screens Through Their Built-In Software Update System",
-      "link": "https://cybersecuritynews.com/hackers-infect-android-car-screens/",
-      "description": "A newly uncovered Android malware campaign has turned car infotainment screens into an unexpected target. Rather than tricking drivers into installing a suspicious app, attackers used the software ...",
-      "pub_date": "Mon, 24 Aug 2026 07:30:28 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Infect-Android-Car-Screens-Through-Their-Built-In-Software-Update-System.webp"
-    },
-    {
-      "title": "AWS Network Firewall Now Displays Count of Triggered Security Rules",
-      "link": "https://cybersecuritynews.com/aws-network-firewall-hit-counts/",
-      "description": "AWS has introduced rule hit count support for AWS Network Firewall, giving security teams direct visibility into which stateful firewall rules are matching live network traffic. The new capability ...",
-      "pub_date": "Mon, 24 Aug 2026 06:27:33 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AWS-Network-Firewall-Now-Shows-Which-Security-Rules-Are-Actually-Being-Triggered.webp"
-    },
-    {
-      "title": "Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks",
-      "link": "https://cybersecuritynews.com/malicious-npm-packages/",
-      "description": "Malicious npm packages are being used to place a Linux backdoor inside calendar and streak-calculation tools. The packages deliver legitimate date functions, making the malicious code easy to miss....",
-      "pub_date": "Mon, 24 Aug 2026 06:09:19 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Malicious-npm-Packages-Deploy-AI-Powered-RedC2-Linux-Implant-to-Steal-Credentials-and-Pivot-Networks.webp"
-    },
-    {
-      "title": "Critical isolated-vm Flaw Lets Untrusted JavaScript Escape Sandbox and Hijack Host Execution",
-      "link": "https://cybersecuritynews.com/critical-isolated-vm-flaw/",
-      "description": "A critical security flaw in the popular Node.js sandboxing library isolated-vm could allow untrusted JavaScript to escape its V8 sandbox and potentially hijack execution in the host process. The is...",
-      "pub_date": "Mon, 24 Aug 2026 05:57:44 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-isolated-vm-Flaw-Lets-Untrusted-JavaScript-Escape-Sandbox-and-Hijack-Host-Execution-.webp"
     },
     {
       "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
@@ -299,24 +326,6 @@
       "image_url": ""
     },
     {
-      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
-      "description": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
-      "pub_date": "Fri, 21 Aug 2026 07:00:00 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "SickKids data breach exposes employee and job applicant info",
-      "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
-      "description": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third...",
-      "pub_date": "Fri, 21 Aug 2026 06:10:42 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
       "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
       "description": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review.  Four of the security vulne...",
@@ -351,15 +360,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgshVe5DUMbByJkLQGRgak37eOf3HddCtrF6KCJfISPdm7l2ZwLFlnjQM3pN2mxPDpc9lWwSoH2fYfucYKBKk3vpuGAKdR5U685IZh8EFbMxWcyVenuRMyqIgvbFUa0_5Sx9pVl9Imu5omju6i7eRE0sKKxiCSKYEV1Say1LLhQHEufY10dgovzX0Nt7as/s1600/rust.jpg"
-    },
-    {
-      "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
-      "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-      "description": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, ...",
-      "pub_date": "Fri, 21 Aug 2026 01:29:19 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix5lAWOEf4I8fcz0CJYg-EBclOrTPnlbsf6tKT2-L8xsfQ4XqtjOq15iU6EBbIsWlqQq3e1-hIXrPe7MMg4JwSGj6mSwjSwG8V3UFMrfgYD-Lo9bKvncTGJ9lPbZoxq-1RNmKLyL_jZSiurWVgGuIxjgYYJeXW_wE51PRTDUhT7kRxp0MMpc3YflI9bntb/s1600/google-whatsapp.jpg"
     },
     {
       "title": "CVE-2026-19490: Critical Vulnerability Affecting Citrix NetScaler ADC and NetScaler Gateway",
