@@ -1,41 +1,14 @@
 {
-  "last_updated": "2026-08-25T10:32:51Z",
+  "last_updated": "2026-08-25T11:28:08Z",
   "articles": [
     {
-      "title": "EvilTokens Doesn’t Just Steal Microsoft Sessions—Its AI Tells Attackers Who to Scam Next",
-      "link": "https://cybersecuritynews.com/eviltokens-steal-microsoft-sessions/",
-      "description": "EvilTokens is pushing phishing beyond the moment a victim clicks a link. The service steals Microsoft 365 session access, then examines the compromised mailbox to help criminals choose the contacts...",
-      "pub_date": "Tue, 25 Aug 2026 09:59:35 +0000",
-      "source": "Cyber Security News",
+      "title": "Police arrests dozens of suspects in global cybercrime crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
+      "description": "Law enforcement agencies from 22 countries helped identify 263 suspects and arrested 58 individuals linked to cybercrime networks coordinated by African crime groups. [...]",
+      "pub_date": "Tue, 25 Aug 2026 06:53:20 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/EvilTokens-Doesnt-Just-Steal-Microsoft-Sessions—Its-AI-Tells-Attackers-Who-to-Scam-Next.webp"
-    },
-    {
-      "title": "CISA Warns of Oracle HTTP and WebLogic Server Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/oracle-http-and-weblogic-server-vulnerability-exploited/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency has added CVE-2026-21962, an improper access control flaw affecting Oracle HTTP Server and the Oracle WebLogic Server Proxy Plug-in, to its...",
-      "pub_date": "Tue, 25 Aug 2026 09:38:59 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-Oracle-HTTP-and-Weblogic-Server-Vulnerability-Exploited-in-Attacks.png"
-    },
-    {
-      "title": "Hackers Exploit Critical miniOrange SAML SSO Flaws to Hijack WordPress Admin Accounts",
-      "link": "https://cybersecuritynews.com/hackers-exploit-critical-miniorange-saml-sso-flaws/",
-      "description": "Two critical flaws in the miniOrange SAML 2.0 Single Sign-On plugin could allow unauthenticated attackers to log in to vulnerable WordPress sites as any existing user, including administrators. The...",
-      "pub_date": "Tue, 25 Aug 2026 09:26:52 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Exploit-Critical-miniOrange-SAML-SSO-Flaws-to-Hijack-WordPress-Admin-Accounts.webp"
-    },
-    {
-      "title": "Critical Red Hat Keycloak Flaw Lets Unauthenticated Attackers Take Over Any User Account",
-      "link": "https://cybersecuritynews.com/red-hat-keycloak-flaw/",
-      "description": "Red Hat has disclosed a critical vulnerability in the Red Hat Build of Keycloak that could allow unauthenticated remote attackers to take over arbitrary user accounts. Tracked as CVE-2026-18963, th...",
-      "pub_date": "Tue, 25 Aug 2026 09:12:19 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Red-Hat-Keycloak-Flaw-Lets-Unauthenticated-Attackers-Take-Over-Any-User-Account.webp"
+      "image_url": ""
     },
     {
       "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
@@ -47,42 +20,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtxn6tX1r1BmVfN_4cdoh6p5jmcAe3D9ckNhjscacXx5HpxZJAdb1SvIWo404cGlwahzCLyFIRB-MdUjGcQdBLLC5pMwaCB75e9AT5jKvC49cvIP5jGIOB4IjcQGaOpibWbIPKj929DICeMilGRZn5JmVIcVslRm2hWgz5RTXIZK5d2b2N5dlEnRBBwWVO/s1600/wordpress-hack.jpg"
     },
     {
-      "title": "Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions",
-      "link": "https://cybersecuritynews.com/fake-gta-6-demo/",
-      "description": "A fake Grand Theft Auto VI demo is being used to steal passwords and active browser sessions from people looking for early access. The campaign turns excitement around game footage and a forthcomin...",
-      "pub_date": "Tue, 25 Aug 2026 08:20:35 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Fake-GTA-6-Demo-Is-Actually-Malware-That-Steals-Your-Passwords-and-Logged-In-Sessions.webp"
-    },
-    {
-      "title": "Anthropic Rolls Out Enterprise-Managed Auth for Claude’s MCP Connectors",
-      "link": "https://cybersecuritynews.com/anthropic-enterprise-managed-mcp-connectors/",
-      "description": "Anthropic has taken its Model Context Protocol (MCP) connector framework a significant step further, announcing on August 24, 2026, that Enterprise-managed authorization is now generally available....",
-      "pub_date": "Tue, 25 Aug 2026 07:13:33 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Anthropic-Enterprise-Managed-MCP-Connectors.webp"
-    },
-    {
-      "title": "Top Google Results for Minecraft Client Led Gamers to Malware, McAfee Finds",
-      "link": "https://cybersecuritynews.com/google-results-minecraft-client/",
-      "description": "Minecraft players searching for a popular client can now land on malware instead of a game tool. A renewed WeedHack campaign is using poisoned search results, copied websites and free-download lure...",
-      "pub_date": "Tue, 25 Aug 2026 07:05:46 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Top-Google-Results-for-Minecraft-Client-Led-Gamers-to-Malware-McAfee-Finds.webp"
-    },
-    {
-      "title": "Multiple TP-Link Archer Vulnerabilities Enable Command Injection Attacks",
-      "link": "https://cybersecuritynews.com/tp-link-archer-command-injection-flaw/",
-      "description": "TP-Link has disclosed three high-severity command injection vulnerabilities affecting Archer BE800 V1, Archer BE3600 V1, and Archer AX75 V1 routers. The flaws could allow nearby attackers to run ar...",
-      "pub_date": "Tue, 25 Aug 2026 06:15:54 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Multiple-TP-Link-Archer-Vulnerabilities-Enables-Command-Injection-Attacks-.webp"
-    },
-    {
       "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
       "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vuln...",
@@ -90,15 +27,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl_xYf_N0l1MVU0TVJFootEd6UCngqtfmbbEKRc06D7-0-ehjKU2SrBoA3qKaSkUWrOzgAu6hkbtimW8U7M4zgfH_6jXzgy6w7aQEGQKni-doNdQFCmAm9_vI_Zq4I6tx7lO2q533pbWWOLKBuUUYLGdY9O7SfBcwcGrqvsMLaFMPL09xXK86vRu38JfEp/s1600/oracle.jpg"
-    },
-    {
-      "title": "Researcher Discloses Five High-Risk Vulnerabilities in Palo Alto GlobalProtect VPN",
-      "link": "https://cybersecuritynews.com/5-vulnerabilities-palo-alto-globalprotect/",
-      "description": "A security researcher has disclosed five vulnerabilities that he responsibly reported to Palo Alto Networks, affecting GlobalProtect, the VPN and endpoint agent used across thousands of enterprise ...",
-      "pub_date": "Tue, 25 Aug 2026 01:54:08 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/5-Vulnerabilities-Palo-Alto-GlobalProtect-.webp"
     },
     {
       "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
@@ -144,15 +72,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM9ML6Oc83309fnrqC5YOyteVjfKTYCzrm3KoKbrmts4w0P7kQoBMu9btpIWFoYZePuTnU0TL7Olt7jVqdJylmuxwKcI0_NaKNuHxe0pQwi6W2mz7D-qS4WvW1da7E-QG2eEfNf-MbqmB3GR0psJTTT8RO-NtFnx9yVe8dlItdO2G0Dh4wXFNLs_WIqAHP/s1600/mine.jpg"
-    },
-    {
-      "title": "Zimbra Collaboration Suite Vulnerability Actively Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/zimbra-collaboration-suite-vulnerability-exploited/",
-      "description": "CERT Polska has warned that threat actors are actively exploiting CVE-2026-73570, a critical OS command-injection vulnerability in Zimbra Collaboration Suite that allows remote, unauthenticated att...",
-      "pub_date": "Mon, 24 Aug 2026 17:04:30 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zimbra-Collaboration-Suite-Vulnerability-Actively-Exploited-in-the-Wild.webp"
     },
     {
       "title": "Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)",
@@ -486,15 +405,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1EQE-DqLXTzpjwGf3nQnM4CTnjibkKl_2ersn8abw3Gmqoc5MUaFC2LvkA7c6Xoa0XBPZeHL4wHHiXU7Pc9nGLcI1zTorwFTwvYXfww4Q68oSUrgcQhmBzQBNqYp-woIZFK_I1OOsnBNptiwA90VHhpE_hvlz3qdFomOmOMLreYe5YCenvR2CeawvRrMU/s1600/car.png"
-    },
-    {
-      "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
-      "description": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by peripherals with RGB lighting. [...]",
-      "pub_date": "Fri, 21 Aug 2026 10:54:49 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "Wazuh and AI For Enhanced SOC Workflows",
