@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-08-25T08:42:03Z",
+  "last_updated": "2026-08-25T09:35:07Z",
   "articles": [
+    {
+      "title": "Hackers Exploit Critical miniOrange SAML SSO Flaws to Hijack WordPress Admin Accounts",
+      "link": "https://cybersecuritynews.com/hackers-exploit-critical-miniorange-saml-sso-flaws/",
+      "description": "Two critical flaws in the miniOrange SAML 2.0 Single Sign-On plugin could allow unauthenticated attackers to log in to vulnerable WordPress sites as any existing user, including administrators. The...",
+      "pub_date": "Tue, 25 Aug 2026 09:26:52 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Exploit-Critical-miniOrange-SAML-SSO-Flaws-to-Hijack-WordPress-Admin-Accounts.webp"
+    },
+    {
+      "title": "Critical Red Hat Keycloak Flaw Lets Unauthenticated Attackers Take Over Any User Account",
+      "link": "https://cybersecuritynews.com/red-hat-keycloak-flaw/",
+      "description": "Red Hat has disclosed a critical vulnerability in the Red Hat Build of Keycloak that could allow unauthenticated remote attackers to take over arbitrary user accounts. Tracked as CVE-2026-18963, th...",
+      "pub_date": "Tue, 25 Aug 2026 09:12:19 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Red-Hat-Keycloak-Flaw-Lets-Unauthenticated-Attackers-Take-Over-Any-User-Account.webp"
+    },
     {
       "title": "Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions",
       "link": "https://cybersecuritynews.com/fake-gta-6-demo/",
@@ -171,24 +189,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "New Mysterious AI Model Dubbed Ox Alpha With Free 100 Trillion Tokens a Day for Coders",
-      "link": "https://cybersecuritynews.com/new-mysterious-ai-model-dubbed-ox-alpha/",
-      "description": "A mysterious AI system named Ox Alpha has sparked intense speculation across the developer community after appearing on OpenRouter as a free “stealth model” aimed at coding, long-running AI age...",
-      "pub_date": "Mon, 24 Aug 2026 13:47:38 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-Mysterious-AI-model-Dubbed-Ox-Alpha-With-Free-100-trillion-tokens-a-day-for-Coders.webp"
-    },
-    {
-      "title": "Hackers Impersonate ReliaQuest Security Team Member to Steal SSO Credentials and MFA Access",
-      "link": "https://cybersecuritynews.com/hackers-impersonate-reliaquest-security-staff/",
-      "description": "ReliaQuest has disclosed a social engineering attack in which threat actors impersonated members of its security team to lure employees to a fraudulent single sign-on page. The incident briefly exp...",
-      "pub_date": "Mon, 24 Aug 2026 13:44:58 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Impersonate-ReliaQuest-Security-Staff-to-Steal-SSO-Credentials-and-MFA-Access.webp"
     },
     {
       "title": "Microsoft: August updates break printing, PDF export in WPF apps",
