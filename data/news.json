@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-08-25T09:35:07Z",
+  "last_updated": "2026-08-25T10:32:51Z",
   "articles": [
+    {
+      "title": "EvilTokens Doesn’t Just Steal Microsoft Sessions—Its AI Tells Attackers Who to Scam Next",
+      "link": "https://cybersecuritynews.com/eviltokens-steal-microsoft-sessions/",
+      "description": "EvilTokens is pushing phishing beyond the moment a victim clicks a link. The service steals Microsoft 365 session access, then examines the compromised mailbox to help criminals choose the contacts...",
+      "pub_date": "Tue, 25 Aug 2026 09:59:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/EvilTokens-Doesnt-Just-Steal-Microsoft-Sessions—Its-AI-Tells-Attackers-Who-to-Scam-Next.webp"
+    },
+    {
+      "title": "CISA Warns of Oracle HTTP and WebLogic Server Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/oracle-http-and-weblogic-server-vulnerability-exploited/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency has added CVE-2026-21962, an improper access control flaw affecting Oracle HTTP Server and the Oracle WebLogic Server Proxy Plug-in, to its...",
+      "pub_date": "Tue, 25 Aug 2026 09:38:59 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-Oracle-HTTP-and-Weblogic-Server-Vulnerability-Exploited-in-Attacks.png"
+    },
     {
       "title": "Hackers Exploit Critical miniOrange SAML SSO Flaws to Hijack WordPress Admin Accounts",
       "link": "https://cybersecuritynews.com/hackers-exploit-critical-miniorange-saml-sso-flaws/",
@@ -18,6 +36,15 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Red-Hat-Keycloak-Flaw-Lets-Unauthenticated-Attackers-Take-Over-Any-User-Account.webp"
+    },
+    {
+      "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+      "link": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+      "description": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as...",
+      "pub_date": "Tue, 25 Aug 2026 14:04:07 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtxn6tX1r1BmVfN_4cdoh6p5jmcAe3D9ckNhjscacXx5HpxZJAdb1SvIWo404cGlwahzCLyFIRB-MdUjGcQdBLLC5pMwaCB75e9AT5jKvC49cvIP5jGIOB4IjcQGaOpibWbIPKj929DICeMilGRZn5JmVIcVslRm2hWgz5RTXIZK5d2b2N5dlEnRBBwWVO/s1600/wordpress-hack.jpg"
     },
     {
       "title": "Fake GTA 6 Demo Is Actually Malware That Steals Your Passwords and Logged-In Sessions",
@@ -128,15 +155,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zimbra-Collaboration-Suite-Vulnerability-Actively-Exploited-in-the-Wild.webp"
     },
     {
-      "title": "Microsoft Teams’ New Policy Lets Admins Automatically Block Meeting Bots",
-      "link": "https://cybersecuritynews.com/microsoft-teams-policy-to-block-bots/",
-      "description": "Microsoft is rolling out a fresh line of defense against unwanted digital eavesdroppers in virtual meetings. The tech giant confirmed that Microsoft Teams will soon let administrators automatically...",
-      "pub_date": "Mon, 24 Aug 2026 16:53:06 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Teams-Block-Meeting-Bots.webp"
-    },
-    {
       "title": "Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)",
       "link": "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520",
       "description": "",
@@ -162,15 +180,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBxfnZQzz7hUDdRKPJM-KWXJAJemk0-S3QlOB71Z1Bq9nVxHA4G0VtkwUUVJjgO-2gtDImMt-ktLnUQd3rkScujv0fWVlfc_tr3qO7sZ-MI2QDtoyT8pKx4q_ZCndRyxhPQcNtZB70fZ4VlaBuE3YaMcE__MWrRtngOU0rTHcSmOXsGkhlARwfUkIBUj9Q/s1600/recap-n.jpg"
-    },
-    {
-      "title": "Hackers Poison Google and Bing Results to Deliver Cloaked Banking Phishing Pages",
-      "link": "https://cybersecuritynews.com/hackers-poison-google-bing-results/",
-      "description": "Bank customers searching for a login page can now be led into a trap before they receive a suspicious email or text message. Criminals are manipulating Google and Bing results so that fraudulent ba...",
-      "pub_date": "Mon, 24 Aug 2026 14:06:52 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Poison-Google-and-Bing-Results-to-Deliver-Cloaked-Banking-Phishing-Pages.webp"
     },
     {
       "title": "Microsoft Teams now lets admins block external bots from meetings",
@@ -495,15 +504,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSZWG6Sgh8GPFwyz6pxs_gis36Lo0bAHyFSaNrybGElVQbCBkjPrypJ_abTOidSIKSaVJs574hUuDYvUPGymaq3qfnecNfbc-RMnwTuH8vr4jLcsnQCLnxjscJMSLEfITdwIvVt4Ax_wzwKe3MpD5Bm9vIW_f94MESP1p1qNpoxrkkDstHJ1lL7eljzB4/s1600/WAZUH.jpg"
-    },
-    {
-      "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
-      "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
-      "description": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review.  Four of the security vulne...",
-      "pub_date": "Fri, 21 Aug 2026 15:33:11 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis5Ujhq79PHPVr7VjuOjS0fOAyYm0aDTCJi9c5ieu-uya3FUM4Dh58yAT5U5J3VaXaGfNb4XowkyJ1lj3UTy8bOoF-u0O-5qdl-O7leomQjQw5jAI3m8WpZvC3se70f8mRP_KKIcScS0Nf9wJcsq4TWgiS_li3K6CSUbbG643IMhZBVGzW5XflwAbz0d1M/s1600/cisco.jpg"
     },
     {
       "title": "CVE-2026-19490: Critical Vulnerability Affecting Citrix NetScaler ADC and NetScaler Gateway",
