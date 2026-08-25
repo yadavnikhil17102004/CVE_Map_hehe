@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-25T18:39:24Z",
+  "last_updated": "2026-08-25T19:56:50Z",
   "articles": [
+    {
+      "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+      "link": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+      "description": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and...",
+      "pub_date": "Tue, 25 Aug 2026 23:47:17 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_Uq1yn-ay_vU25xZUbhhvnVMHSWo2rQwy4HhIfNIdnk-MIF-cbtytzKqkvrcBNIGy6fDgW22x0dMZiNhTmvTY_V6SxK-FE6VificiC99BkJMHaWdJB_-tSZeNeM96lL-HaG4VvrBRuA3JmPlkL3sE_F6kfJYhW_ZaXXQK0dses4BK6A2G4yF9GsHUrgXo/s1600/iranian-hackers.jpg"
+    },
     {
       "title": "Massive DDoS attack disrupts Norway’s government digital services",
       "link": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
@@ -261,15 +270,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhB3jURz2EzucPTALqHju1yDNnbHFvawrKxEfvNEprkdA3QIDyOjuUqvHOyTyiZuYJR-4KwewHnd8CdT37TDxBMBK3OLknOxym2a0klblR6rNUc2lqXHdAQUl1JO8uE7bGupO-WqsaEM0UDLUGyWICu5fkA6x4GwNUCo_w3quxp8joYWhNX8grP55eVg8/s1600/keylock.jpg"
-    },
-    {
-      "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
-      "link": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
-      "description": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent.  The campaign, codename...",
-      "pub_date": "Mon, 24 Aug 2026 17:21:36 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAU29lFKKhJ4-37mroz3wn9p8YejZSqMG70AcTu4Z_FLB6hhof-kGO8-6KOfJcE5TXPvrziWpqDpLu_Mi64u8ilPMtdicwexovYdtmVQhhFOTlAeEamKEccbGQf4Y15ufNQRggwtyzLJy32qocItBHu4FX7FLYDYbnjBXuYMtflnNB4ttrzIdynMPcquxs/s1600/silver.jpg"
     },
     {
       "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
@@ -632,6 +632,15 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/06/613839791-af0d8e48-215f-48c7-8f0c-16ef531592f7.png?resize=1024%2C640"
     },
     {
+      "title": "Ebyte NE2-D11",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized administrative access, disclose sensitive information, modify device configuration, h...",
+      "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
       "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
       "description": "Advisory at a Glance    Title A Tale of Two SOCs: Insights From Two Red Team Assessments   Original Publication\u0026nbsp; August 25, 2026   Executive Summary  The Cybersecurity and Infrastructure Secur...",
@@ -641,9 +650,63 @@
       "image_url": ""
     },
     {
+      "title": "Rently Smart Home",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to access sensitive information and override user permissions. The following versions of Rently Smart Home ar...",
+      "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/08/25/cisa-adds-one-known-exploited-vulnerability-catalog",
       "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-60004 Gitea Code Injection Vulnerability  This ...",
+      "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "PayRange API",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote, authenticated or unauthenticated attacker to disclose sensitive information, arbitrarily modify the device to c...",
+      "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Zoneminder",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-02",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in full Remote Code Execution (RCE) as the web server user. The following versions of Zoneminder are affected:  Zonemind...",
+      "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Siemens SIMATIC IoT2050 Advanced",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-03",
+      "description": "View CSAF Summary SIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an un...",
+      "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "FURUNO FA-50 Class B AIS Transponder",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-07",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to alter device settings. The following versions of FURUNO FA-50 Class B AIS Transponder are affected:  FU...",
+      "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Bendix EC80 Brake ECU",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-05",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause the loss of ABS functions, steering assist, speedometer, shifting capabilities, or disable automa...",
       "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -668,18 +731,18 @@
       "image_url": ""
     },
     {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog  ",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-72529 TrueConf Server Missing Authentication ...",
+      "title": "Johnson Controls Simplex Incident Manager",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory...",
       "pub_date": "Thu, 20 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Johnson Controls Simplex Incident Manager",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory...",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog  ",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-72529 TrueConf Server Missing Authentication ...",
       "pub_date": "Thu, 20 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -699,69 +762,6 @@
       "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
       "description": "Executive summary Note: This advisory relates to an active threat to Siemens S7 Series programmable logic controllers (PLCs). However, ongoing PLC targeting activity is broader than Siemens PLCs. A...",
       "pub_date": "Wed, 19 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Simcenter Nastran",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02",
-      "description": "View CSAF Summary Simcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked ...",
-      "pub_date": "Tue, 18 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Malcolm",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code. The following versions of CISA Malcolm a...",
-      "pub_date": "Tue, 18 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog   ",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-33824 Microsoft Internet Key Exchange (IKE) ...",
-      "pub_date": "Tue, 18 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog  ",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2025-62593 Ray-Project Ray Code Injection Vulnerabil...",
-      "pub_date": "Mon, 17 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Flow Neuroscience FL-100",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker within Bluetooth range to manipulate brain stimulation parameters and override safety limits. The following v...",
-      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Solid Edge",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12",
-      "description": "View CSAF Summary Solid Edge is affected by multiple file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR, PSM or DFT format. This could al...",
-      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Siemens Siveillance Video",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-09",
-      "description": "View CSAF Summary Siveillance Video Management Servers contains a vulnerability that could allow a Remote Code Execution attack. Siemens has released new versions for the affected products and reco...",
-      "pub_date": "Thu, 13 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
