@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-08-26T12:51:50Z",
+  "last_updated": "2026-08-26T14:12:15Z",
   "articles": [
+    {
+      "title": "Snowflake ends service-account passwords. Now comes the hard part ",
+      "link": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
+      "description": "Snowflake is ending password authentication for legacy service accounts, forcing organizations to migrate them to passwordless methods. Token Security explains why the harder challenge is identifyi...",
+      "pub_date": "Wed, 26 Aug 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels",
+      "link": "https://cybersecuritynews.com/iran-linked-hackers/",
+      "description": "Iran-linked hackers have expanded an espionage effort with a Windows backdoor and reverse SSH tunnelling utility. The activity is tied to Tortoiseshell, also tracked as Mirage Kitten, UNC1549 and N...",
+      "pub_date": "Wed, 26 Aug 2026 13:47:36 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Iran-Linked-Hackers-Expand-Attacks-With-New-Backdoor-and-Reverse-SSH-Tunnels.webp"
+    },
+    {
+      "title": "Ubiquiti patches three max severity security vulnerabilities",
+      "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities/",
+      "description": "Ubiquiti has released security patches for three new maximum-severity vulnerabilities that threat actors can exploit remotely without privileges. [...]",
+      "pub_date": "Wed, 26 Aug 2026 09:17:54 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Hackers Use Fake Claude Desktop App to Disable Defender and Install Remote Access Malware",
       "link": "https://cybersecuritynews.com/hackers-use-fake-claude/",
@@ -18,6 +45,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
+      "link": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+      "description": "The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from...",
+      "pub_date": "Wed, 26 Aug 2026 17:25:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4vWsyC0OylljN3m8OwCHpDKLPXe9Sw7VI5ddPEuRswkrrsHlTyfbfkXAKOTX7jemZjktTQh1IlD1hjeWsOJwZm2aSe4OtppGdqTBMUCxgFAPIfI2RY-jAdZD5hfHsj7KpRexnN4SbfUJ8nsLB8w6P_me_L8xM00ZjskYgpyEbMkDBC5hSt5FAuLbFaK0/s1600/kaltura.jpg"
     },
     {
       "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
@@ -137,16 +173,7 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/28000-Exposed-Git-Repositories-Reveal-API-Keys-Bank-Details-and-Employee-Disciplinary-Files.webp"
     },
     {
-      "title": "NVIDIA NemoClaw Flaw Lets Attackers Hijack AI Agents With One Website Visit",
-      "link": "https://cybersecuritynews.com/nvidia-nemoclaw-flaw/",
-      "description": "A critical vulnerability in NVIDIA NemoClaw that could let attackers hijack an AI agent after a victim visits a malicious website. The issue, tracked as CVE-2026-65105, can expose the local Ollama ...",
-      "pub_date": "Wed, 26 Aug 2026 07:33:38 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/NVIDIA-NemoClaw-Flaw-Lets-Attackers-Hijack-AI-Agents-With-One-Website-Visit.webp"
-    },
-    {
-      "title": "Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
+      "title": "New SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
       "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
       "description": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the mac...",
       "pub_date": "Wed, 26 Aug 2026 12:42:55 +0530",
@@ -317,15 +344,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2i7P2s27TjJNZnYUm7sRvosSHWRKaS2x-ITabU2QoWKkFiXRH1ggmPOby95djEZo62zvTn3LviG9HuetNXjY9km-dk9XqX_yNzD0Vh6yUfisio5rUP7c0DPDhW_1J877JL4RVY0QjM2vDXXH62rGegDhL0sSPedL99_Rw8P_z-LM67zUFXCiSI1mXGhoM/s1600/ftp-server.jpg"
     },
     {
-      "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
-      "link": "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html",
-      "description": "Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also ...",
-      "pub_date": "Tue, 25 Aug 2026 16:44:07 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw3Y0aFTDbQ21xc915TfR8Ij8yXtuti3S7fG8opbdhlekh0FmwKsgWcuHXs8kCr01WBmZCInn_OldVjnXtLed_aDiCd41L1kkup8-CXGOkc4YLfZq7dmlkSNiaT4EHNMqcoA10SOr018r6ZElA3HMOOLWi9Ye-99WlJzKtX4vdDgPZSWwfpgT9Eo8mres/s1600/sans.jpg"
-    },
-    {
       "title": "Police arrests dozens of suspects in global cybercrime crackdown",
       "link": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
       "description": "Law enforcement agencies from 22 countries helped identify 263 suspects and arrested 58 individuals linked to cybercrime networks coordinated by African crime groups. [...]",
@@ -339,24 +357,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
       "description": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that ca...",
       "pub_date": "Mon, 24 Aug 2026 17:14:30 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
-      "description": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log ...",
-      "pub_date": "Mon, 24 Aug 2026 15:26:32 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "TikTok reaches $400M settlement with US over COPPA violations",
-      "link": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
-      "description": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that they violated the Children's Online Privacy Protection Act ...",
-      "pub_date": "Mon, 24 Aug 2026 13:56:24 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
