@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-08-26T19:02:47Z",
+  "last_updated": "2026-08-26T22:51:54Z",
   "articles": [
+    {
+      "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
+      "description": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]",
+      "pub_date": "Wed, 26 Aug 2026 17:33:20 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
       "link": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
@@ -9,6 +18,24 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "21 Critical Ubiquiti UniFi Flaws Enable Authentication Bypass, Command Injection and Privilege Escalation",
+      "link": "https://cybersecuritynews.com/21-critical-ubiquiti-unifi-flaws/",
+      "description": "Ubiquiti has patched 21 critical-severity vulnerabilities spanning nearly its entire UniFi product line, warning that attackers with only network access could chain the flaws to bypass authenticati...",
+      "pub_date": "Wed, 26 Aug 2026 18:00:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/21-Critical-Ubiquiti-UniFi-Flaws.webp"
+    },
+    {
+      "title": "Critical Next.js Vulnerabilities Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/next-js-vulnerabilities/",
+      "description": "Two critical Next.js flaws allow unauthenticated remote code execution on Windows-hosted applications using the Image Optimization API to process AVIF images. The first flaw, tracked as CVE-2026-75...",
+      "pub_date": "Wed, 26 Aug 2026 17:43:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Next.js-Vulnerabilities-Enables-Remote-Code-Execution-Attacks.webp"
     },
     {
       "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
@@ -65,6 +92,15 @@
       "image_url": ""
     },
     {
+      "title": "OpenAI Bans Russia-Linked ChatGPT Accounts Used in Covert Influence Campaign",
+      "link": "https://cybersecuritynews.com/openai-bans-russia-linked-chatgpt/",
+      "description": "OpenAI has removed a cluster of ChatGPT accounts linked to a covert influence operation from Russia. The accounts produced social-media posts and replies designed to steer people toward the Interna...",
+      "pub_date": "Wed, 26 Aug 2026 14:13:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Bans-Russia-Linked-ChatGPT-Accounts-Used-in-Covert-Influence-Campaign.webp"
+    },
+    {
       "title": "Snowflake ends service-account passwords. Now comes the hard part ",
       "link": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
       "description": "Snowflake is ending password authentication for legacy service accounts, forcing organizations to migrate them to passwordless methods. Token Security explains why the harder challenge is identifyi...",
@@ -72,6 +108,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels",
+      "link": "https://cybersecuritynews.com/iran-linked-hackers/",
+      "description": "Iran-linked hackers have expanded an espionage effort with a Windows backdoor and reverse SSH tunnelling utility. The activity is tied to Tortoiseshell, also tracked as Mirage Kitten, UNC1549 and N...",
+      "pub_date": "Wed, 26 Aug 2026 13:47:36 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Iran-Linked-Hackers-Expand-Attacks-With-New-Backdoor-and-Reverse-SSH-Tunnels.webp"
     },
     {
       "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
@@ -101,6 +146,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW3w9bF-wcalV_4xeymOZiHzRSkeBfz8Vh1B58JkthAgonYo-DGr3kWwNQ8ia760jX1kfC7NTkitD9rWxJNSNzMZWTAVWqrmJQXL7-1rOHbmC7mKSmfArdBAp5s4phuF3SlKr20agmwKrpI56a9SijzuYLnhYlb3R4l7uhb4S0Na0d3_OplvHmbC1EDCk/s1600/cisa-hack.jpg"
     },
     {
+      "title": "Hackers Use Fake Claude Desktop App to Disable Defender and Install Remote Access Malware",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-claude/",
+      "description": "Cybercriminals are using a counterfeit Claude desktop application to compromise Windows systems, disable key security checks, and install remote-access malware. The campaign turns a familiar AI sof...",
+      "pub_date": "Wed, 26 Aug 2026 12:15:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-Claude-Desktop-App-to-Disable-Defender-and-Install-Remote-Access-Malware.webp"
+    },
+    {
       "title": "Microsoft tests new privacy controls for Windows 11 desktop apps",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-privacy-controls-for-windows-11-desktop-apps/",
       "description": "Microsoft has begun testing new privacy controls that will let Windows 11 users choose which desktop applications can access their camera, microphone, and precise location. [...]",
@@ -128,6 +182,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZq8QFTxW4LuCB6uU-05X_ZcT88PxrCrq4S8Tlt-ntdFViEUD7XTOuFp0Ep2oNd61UEYcnfV0dFYW7E1jzogc2t4fm3R2CU7I45rc9bF2fAPi85MeDbxGio5jRIK_8jmMeI9A6hU_laVDVcU5yvODt55syFnI0F4cHX0N1Wul8IGg9A_PbkM_sOHoSFds/s1600/Corelight.jpg"
     },
     {
+      "title": "24 Malicious npm Packages Abuse Trusted Mirrors to Host ClickFix Phishing Pages",
+      "link": "https://cybersecuritynews.com/24-malicious-npm-packages/",
+      "description": "Twenty-four malicious npm packages have been used to turn trusted package mirrors into staging points for ClickFix phishing pages. The campaign does not infect a developer by installing a package. ...",
+      "pub_date": "Wed, 26 Aug 2026 11:19:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/24-Malicious-npm-Packages-Abuse-Trusted-Mirrors-to-Host-ClickFix-Phishing-Pages.webp"
+    },
+    {
       "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
       "description": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
@@ -146,6 +209,33 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiLH7AlxOwnKOlTs4Zi3D7tyko_H-564oFmjcBu-YP4_YR7HMgRvWhGB9r0NhXwpVoqVk82yjCt9XjEcDfo7-iSoAVduYsjNndt3gU2fHqJ7PlwnFCjRaHJSYEMuZMAZOn6M_yGZ24JuUUjVCs1hTXes8h-q4OLFj2liDETlKzvCRAqKa-jX2Yrh-iErI/s1600/claude-gym.jpg"
     },
     {
+      "title": "Hackers Abuse Legitimate RMM Tools in 46-Country Phishing Campaign to Gain Remote Access",
+      "link": "https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-3/",
+      "description": "A phishing operation is abusing legitimate remote monitoring and management tools to give attackers direct control over victim systems. The campaign uses convincing document lures, rapidly changing...",
+      "pub_date": "Wed, 26 Aug 2026 10:23:29 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Abuse-Legitimate-RMM-Tools-in-46-Country-Phishing-Campaign-to-Gain-Remote-Access.webp"
+    },
+    {
+      "title": "SonicWall NetExtender Vulnerabilities Allow an Attacker to Write Arbitrary Files as Root",
+      "link": "https://cybersecuritynews.com/sonicwall-netextender-vulnerabilities/",
+      "description": "SonicWall has disclosed two security vulnerabilities in its NetExtender Linux client, including a critical path traversal flaw that could allow an attacker to write arbitrary files with root privil...",
+      "pub_date": "Wed, 26 Aug 2026 10:04:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/SonicWall-NetExtender-vulnerabilities-allows-an-attacker-to-write-arbitrary-file-as-root.webp"
+    },
+    {
+      "title": "WordPress Plugin Vulnerability Exposes 400,000 Sites to Account Takeover Attacks",
+      "link": "https://cybersecuritynews.com/translatepress-wordpress-plugin-vulnerability/",
+      "description": "A critical vulnerability in the TranslatePress WordPress plugin could allow unauthenticated attackers to hijack administrator accounts and fully compromise affected websites. The flaw, tracked as C...",
+      "pub_date": "Wed, 26 Aug 2026 09:41:03 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/WordPress-Plugin-Vulnerability-Exposes-400000-Sites-to-Account-Takeover-Attacks.webp"
+    },
+    {
       "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
       "link": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html",
       "description": "OpenAI on Tuesday said it banned a cluster of Russian ChatGPT accounts that used VPNs to bypass access restrictions and run an influence operation, which relied on its artificial intelligence (AI) ...",
@@ -153,6 +243,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigTy6eveBIHNz8iNQ-RoRYOH0dYFTNhtA48mobGTTueVsSSQpFu7qFmSGivtklGBbQutM5ro14LI3Yzq3SxTFaTGPfq350Fe73t_FE4ehl9Y0kRnEVIYIN5K66R-sxa86YTuYDaLOyWdLSxR1AUmCx3UlEMed7dUvA-RtcVLFdmeVP2PTPyebMV-tDBuSg/s1600/chatgpt.jpg"
+    },
+    {
+      "title": "Iran-Linked Hackers Abuse Legitimate Developer Tool to Hide Dindoor Backdoor",
+      "link": "https://cybersecuritynews.com/iran-linked-hackers-abuse-developer-tool/",
+      "description": "Iran-linked operators are using a trusted developer tool to conceal a backdoor called Dindoor inside Windows environments. The malware uses the Deno JavaScript and TypeScript runtime to execute enc...",
+      "pub_date": "Wed, 26 Aug 2026 08:50:13 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Iran-Linked-Hackers-Abuse-Legitimate-Developer-Tool-to-Hide-Dindoor-Backdoor.webp"
     },
     {
       "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
@@ -252,15 +351,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMaJs9yp_YLYc3dgsmzjU4_ma-6DC3KNpG4d3KhKtoIuhtpbYSnK0Wed5_8a0Jm6epc_RdLE9PVMO0FnkH7DFwRAI7lBZBXImFEu1emv-OarT-LPYE-QymTXPMkmDsYBXsz1TB3gASsiAEgZ4Jvt1YzQM3KHYpV0HMck686hTcXB7pn7uqLu2uTLVgPyE/s1600/nvidia.jpg"
-    },
-    {
-      "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
-      "link": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
-      "description": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organiz...",
-      "pub_date": "Tue, 25 Aug 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
@@ -641,6 +731,15 @@
       "image_url": ""
     },
     {
+      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.   CVE-2015-3246 Red Hat Libuser Race Condition Vulnerability C...",
+      "pub_date": "Wed, 26 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "PayRange API",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04",
       "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote, authenticated or unauthenticated attacker to disclose sensitive information, arbitrarily modify the device to c...",
@@ -650,18 +749,18 @@
       "image_url": ""
     },
     {
-      "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
-      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
-      "description": "Advisory at a Glance    Title A Tale of Two SOCs: Insights From Two Red Team Assessments   Original Publication\u0026nbsp; August 25, 2026   Executive Summary  The Cybersecurity and Infrastructure Secur...",
+      "title": "Rently Smart Home",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to access sensitive information and override user permissions. The following versions of Rently Smart Home ar...",
       "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
     },
     {
-      "title": "Rently Smart Home",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to access sensitive information and override user permissions. The following versions of Rently Smart Home ar...",
+      "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
+      "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
+      "description": "Advisory at a Glance    Title A Tale of Two SOCs: Insights From Two Red Team Assessments   Original Publication\u0026nbsp; August 25, 2026   Executive Summary  The Cybersecurity and Infrastructure Secur...",
       "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -753,15 +852,6 @@
       "link": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-72529 TrueConf Server Missing Authentication ...",
       "pub_date": "Thu, 20 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog   ",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-64849 MLflow Server-Side Request Forgery Vulner...",
-      "pub_date": "Wed, 19 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
