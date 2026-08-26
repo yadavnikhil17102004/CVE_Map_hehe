@@ -1,50 +1,23 @@
 {
-  "last_updated": "2026-08-26T08:42:57Z",
+  "last_updated": "2026-08-26T09:41:24Z",
   "articles": [
     {
-      "title": "Mirage2FA Phishing Kit Bypasses MFA to Hijack Microsoft 365 Sessions, Targeting 3,500+ Organizations",
-      "link": "https://cybersecuritynews.com/mirage2fa-phishing-kit-bypasses-mfa-to-hijack-microsoft-365-sessions-targeting-3500-organizations/",
-      "description": "Researchers tie the LinX Coders phishing-as-a-service toolkit to 9,332 compromise events across 94 countries, with 63.7% of victims in the United States and stolen session cookies accounting for mo...",
-      "pub_date": "Wed, 26 Aug 2026 08:21:30 +0000",
-      "source": "Cyber Security News",
+      "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
+      "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
+      "description": "An eight-month INTERPOL operation targeting West African organized crime groups has led to arrests of 58 people and the identification of 263 suspects.  \"The operation, which brought together 22 co...",
+      "pub_date": "Wed, 26 Aug 2026 13:24:12 +0530",
+      "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/mirage2fa_banner_v1.webp"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYeHiMtBGSU21fSYRfXqsYMwsXlIfdl_w5goundqFoLSR1HYz30bgzdHuA1ft2gHjWiS5B-nE5ZpmY1gJiTDlsF8bwwYK9ogGAPmEHWNTA-hVLp09KaMvsu6DbcCW-ZTNtcZj2xHoH4fHhTsr7_zbUoiYKJI6Yj9YdxtbQNBEdv0apv1c3buQiaXmLeMkT/s1600/interpol.jpg"
     },
     {
-      "title": "Google Chrome 152 Released With 327 Security Fixes, Including 10 Critical Vulnerabilities",
-      "link": "https://cybersecuritynews.com/chrome-152-released-with-327-security-fixes/",
-      "description": "Google has released Chrome 152 for Windows, macOS, and Linux, delivering 327 security fixes and improvements. The update addresses 10 critical vulnerabilities, making it an important security relea...",
-      "pub_date": "Wed, 26 Aug 2026 07:50:36 +0000",
-      "source": "Cyber Security News",
+      "title": "Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
+      "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
+      "description": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the mac...",
+      "pub_date": "Wed, 26 Aug 2026 12:42:55 +0530",
+      "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Google-Chrome-152-Released-With-327-Security-Fixes-Including-10-Critical-Vulnerabilities.webp"
-    },
-    {
-      "title": "28,000 Exposed Git Repositories Reveal API Keys, Bank Details and Employee Disciplinary Files",
-      "link": "https://cybersecuritynews.com/28000-exposed-git-repositories/",
-      "description": "A routine development mistake has exposed thousands of software repositories. Researchers found 28,000 publicly reachable .git repositories containing credentials, financial information and interna...",
-      "pub_date": "Wed, 26 Aug 2026 07:49:10 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/28000-Exposed-Git-Repositories-Reveal-API-Keys-Bank-Details-and-Employee-Disciplinary-Files.webp"
-    },
-    {
-      "title": "NVIDIA NemoClaw Flaw Lets Attackers Hijack AI Agents With One Website Visit",
-      "link": "https://cybersecuritynews.com/nvidia-nemoclaw-flaw/",
-      "description": "A critical vulnerability in NVIDIA NemoClaw that could let attackers hijack an AI agent after a victim visits a malicious website. The issue, tracked as CVE-2026-65105, can expose the local Ollama ...",
-      "pub_date": "Wed, 26 Aug 2026 07:33:38 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/NVIDIA-NemoClaw-Flaw-Lets-Attackers-Hijack-AI-Agents-With-One-Website-Visit.webp"
-    },
-    {
-      "title": "Two Microsoft SharePoint Flaws Can Be Chained to Hack Servers Without a Password",
-      "link": "https://cybersecuritynews.com/sharepoint-flaws-chained-to-hack-servers/",
-      "description": "Two serious Microsoft SharePoint Server vulnerabilities can be chained to let remote attackers take control of vulnerable servers without a password. The attack combines an authentication bypass tr...",
-      "pub_date": "Wed, 26 Aug 2026 07:00:28 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Two-Microsoft-SharePoint-Flaws-Can-Be-Chained-to-Hack-Servers-Without-a-Password.webp"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSnbO35IDgg9dQouCuUCpAko8PiGwwI3lhn7I68m0Ok-PGL84lR1CU0sKk5rWfurFY7u1Fz-9U0-CXi1VCuAVpZDpKF3uDnvtyb062Kls6vW8L7xkTnZBPPJteihNrIWV3C__6JMphWMC7ER4_2bsgKDfzIuq5naTBB3pgZvKvD2v4djmpMh96F62y8Qg/s1600/sleepwalker.jpg"
     },
     {
       "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
@@ -56,15 +29,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfnIeYEGY0lITUrkeCakPqo92gxAk1t2Rduq3Vvt-EkhAxg_vRxWngUZQjifYgv1MUnKyZMOzTPFtlOpkMfpn6K5V0ofNKBc5w0y4X2Kb3Zeoal_5J-yhUX8oPUHY8KUkDHvGc7mwp5mWm1q4pS8Xssnm13SVe9Ziunr0UeNwTq2smwxIXAP7yU_iY2rtz/s1600/cisa-git.jpg"
     },
     {
-      "title": "New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems",
-      "link": "https://cybersecuritynews.com/new-corerat-malware/",
-      "description": "A new remote access trojan called CoreRAT is giving the Core Werewolf threat group a way to take over infected Windows systems. The malware appeared in campaigns observed from June through July 202...",
-      "pub_date": "Wed, 26 Aug 2026 06:02:39 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-CoreRAT-Malware-Gives-Core-Werewolf-Hackers-Full-Control-of-Compromised-Systems.webp"
-    },
-    {
       "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
       "link": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
       "description": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft...",
@@ -72,33 +36,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ7ibePn1YRPkAC27RIrMl_O-41pR7ieF0Mkpr8WUTkzCddWjpttUiIrXWI3CYGukgNR8eoppnOFUYjzSbEm66XiK4ttGge7-KicMnSf49N5L-wKXyf4NIzWi1Yi5JbKQXPYpmtWfZfMADrNswG9-ZfOOE9LjWwUFl7twHmvEskgU9iXPR5AGEQ4hUETo/s1600/iphone-passcode.jpg"
-    },
-    {
-      "title": "Linux Turns 35 – Hobby Kernel Now Powers Cloud, Android, and Global Cyber Defense",
-      "link": "https://cybersecuritynews.com/linux-turns-35/",
-      "description": "On August 25, 1991, a 21-year-old University of Helsinki student posted a modest note to the Usenet group comp.os.minix. “I’m doing a (free) operating system (just a hobby, won’t be big and p...",
-      "pub_date": "Wed, 26 Aug 2026 04:31:15 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Linux-Turns-35.webp"
-    },
-    {
-      "title": "Multiple OpenSSL Flaws Let Remote Attackers Crash Servers and Corrupt Heap Memory",
-      "link": "https://cybersecuritynews.com/openssl-patches-9-vulnerabilities/",
-      "description": "OpenSSL has issued a fresh security advisory disclosing seven vulnerabilities across its cryptographic library, ranging from a heap-corrupting write bug to memory-exhaustion flaws in its QUIC and D...",
-      "pub_date": "Wed, 26 Aug 2026 03:46:16 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenSSL-Patches-9-Vulnerabilities.webp"
-    },
-    {
-      "title": "Microsoft Teams Outage Largely Mitigated After Users Lost Access to Multiple Features",
-      "link": "https://cybersecuritynews.com/microsoft-teams-outage-multiple-features/",
-      "description": "Microsoft confirmed early Wednesday that customers may have been unable to use multiple Microsoft Teams features, then said its monitoring showed the problem was largely under control. The latest c...",
-      "pub_date": "Wed, 26 Aug 2026 02:26:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Teams-Outage-Multiple-Features-1.webp"
     },
     {
       "title": "LACMA data breach last year exposed social security and medical data",
@@ -135,15 +72,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_Uq1yn-ay_vU25xZUbhhvnVMHSWo2rQwy4HhIfNIdnk-MIF-cbtytzKqkvrcBNIGy6fDgW22x0dMZiNhTmvTY_V6SxK-FE6VificiC99BkJMHaWdJB_-tSZeNeM96lL-HaG4VvrBRuA3JmPlkL3sE_F6kfJYhW_ZaXXQK0dses4BK6A2G4yF9GsHUrgXo/s1600/iranian-hackers.jpg"
-    },
-    {
-      "title": "CISA Red Team Breaches Critical Infrastructure to Reveal SOC and Cloud Security Gaps",
-      "link": "https://cybersecuritynews.com/cisa-red-team-breaches-critical-infrastructure/",
-      "description": "CISA\u0026#8217;s latest advisory for red teams warns critical infrastructure operators that security systems can fail even if they have a lot of funding. This is because trained analysts are needed to ...",
-      "pub_date": "Tue, 25 Aug 2026 16:45:59 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Red-Team-Breaches-Critical-Infrastructure.webp"
     },
     {
       "title": "Massive DDoS attack disrupts Norway’s government digital services",
@@ -326,15 +254,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1E-F55owwrRxUZE2CT3U8U-Ibj1rhbLpTmF0diYP4-uP6clImo12GvOHx7X-W4KPLl1F_OXiXjkRqSjuAOn0Sh6kMjPFbh5c09h4Ua3TNfLI7_P87UrGtuTypzdlpgVAazbD2qXvesRgxLW1cPBkADNMaGDh06-9wPXSVwltxeR7e5ejENDWcHXssP3M/s1600/ai-webinar.jpg"
     },
     {
-      "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
-      "link": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
-      "description": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients.  McAfee Labs said it de...",
-      "pub_date": "Mon, 24 Aug 2026 23:11:11 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM9ML6Oc83309fnrqC5YOyteVjfKTYCzrm3KoKbrmts4w0P7kQoBMu9btpIWFoYZePuTnU0TL7Olt7jVqdJylmuxwKcI0_NaKNuHxe0pQwi6W2mz7D-qS4WvW1da7E-QG2eEfNf-MbqmB3GR0psJTTT8RO-NtFnx9yVe8dlItdO2G0Dh4wXFNLs_WIqAHP/s1600/mine.jpg"
-    },
-    {
       "title": "Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)",
       "link": "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520",
       "description": "",
@@ -351,15 +270,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
-      "link": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
-      "description": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet.  That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get f...",
-      "pub_date": "Mon, 24 Aug 2026 20:02:10 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBxfnZQzz7hUDdRKPJM-KWXJAJemk0-S3QlOB71Z1Bq9nVxHA4G0VtkwUUVJjgO-2gtDImMt-ktLnUQd3rkScujv0fWVlfc_tr3qO7sZ-MI2QDtoyT8pKx4q_ZCndRyxhPQcNtZB70fZ4VlaBuE3YaMcE__MWrRtngOU0rTHcSmOXsGkhlARwfUkIBUj9Q/s1600/recap-n.jpg"
     },
     {
       "title": "Microsoft Teams now lets admins block external bots from meetings",
