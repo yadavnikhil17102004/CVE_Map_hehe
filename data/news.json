@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-08-26T16:18:11Z",
+  "last_updated": "2026-08-26T19:02:47Z",
   "articles": [
+    {
+      "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
+      "link": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
+      "description": "A newly disclosed Rowhammer attack called GPUThor can bypass error-correcting code (ECC) protections on NVIDIA GPUs, enabling denial-of-service (DoS) and root-level privilege escalation. [...]",
+      "pub_date": "Wed, 26 Aug 2026 14:48:24 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
+      "link": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
+      "description": "The U.S. Department of Justice (DoJ) on Wednesday announced the disruption of two hacking platforms named QScan and QTRouter operated by Chinese threat actors to target critical infrastructure and ...",
+      "pub_date": "Wed, 26 Aug 2026 22:12:03 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRjXW8RS8eKAVsCBovWfkRO7QMTfrgvWcTQtLccJCxq6wXC4OhegU26JXGqEKA0zS951ogEjKmNugfT1jDKlC8Kff6m-LZm-AFQe8Y57c1H_d44_bJPayRw-HpXwbb_MmN3pds3BdBUziNNBlAA_nHqX-BTb6nQLQWrKgJYnpqikUzENaV68VpD9LHsQlX/s1600/chinese.jpg"
+    },
+    {
+      "title": "Meta agrees to $18 billion settlement over teen social media harms",
+      "link": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
+      "description": "Meta has reached a proposed settlement worth up to approximately $18 billion with a bipartisan coalition of 52 attorneys generals over allegations that Facebook and Instagram were deliberately des...",
+      "pub_date": "Wed, 26 Aug 2026 12:41:05 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
+      "link": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
+      "description": "Cybersecurity researchers have discovered additional infrastructure and previously undocumented malware associated with Nimbus Manticore, an Iranian state-sponsored hacking group affiliated with th...",
+      "pub_date": "Wed, 26 Aug 2026 21:05:05 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWDtkssu1a2OfGXtU3IlV8MARDVh3XpsurXStcVxASTKf_ACkwIhG6XVbR6fqqWFEFcOEOzLWpy1GGKHgTogw1hQL1O5CtLrLweaGx9GLnM-6CXDApf6VcpFzWFe0FaYgPi1TdhOotRrJ9xU39dk4efUJsMejezEs8t0v8oLyafMuVZrzgkeP-AEhls-x8/s1600/nimbus.png"
+    },
     {
       "title": "Boston Scientific says cyberattack disrupted operations globally",
       "link": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
@@ -29,15 +65,6 @@
       "image_url": ""
     },
     {
-      "title": "OpenAI Bans Russia-Linked ChatGPT Accounts Used in Covert Influence Campaign",
-      "link": "https://cybersecuritynews.com/openai-bans-russia-linked-chatgpt/",
-      "description": "OpenAI has removed a cluster of ChatGPT accounts linked to a covert influence operation from Russia. The accounts produced social-media posts and replies designed to steer people toward the Interna...",
-      "pub_date": "Wed, 26 Aug 2026 14:13:02 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Bans-Russia-Linked-ChatGPT-Accounts-Used-in-Covert-Influence-Campaign.webp"
-    },
-    {
       "title": "Snowflake ends service-account passwords. Now comes the hard part ",
       "link": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
       "description": "Snowflake is ending password authentication for legacy service accounts, forcing organizations to migrate them to passwordless methods. Token Security explains why the harder challenge is identifyi...",
@@ -45,15 +72,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels",
-      "link": "https://cybersecuritynews.com/iran-linked-hackers/",
-      "description": "Iran-linked hackers have expanded an espionage effort with a Windows backdoor and reverse SSH tunnelling utility. The activity is tied to Tortoiseshell, also tracked as Mirage Kitten, UNC1549 and N...",
-      "pub_date": "Wed, 26 Aug 2026 13:47:36 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Iran-Linked-Hackers-Expand-Attacks-With-New-Backdoor-and-Reverse-SSH-Tunnels.webp"
     },
     {
       "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
@@ -83,15 +101,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW3w9bF-wcalV_4xeymOZiHzRSkeBfz8Vh1B58JkthAgonYo-DGr3kWwNQ8ia760jX1kfC7NTkitD9rWxJNSNzMZWTAVWqrmJQXL7-1rOHbmC7mKSmfArdBAp5s4phuF3SlKr20agmwKrpI56a9SijzuYLnhYlb3R4l7uhb4S0Na0d3_OplvHmbC1EDCk/s1600/cisa-hack.jpg"
     },
     {
-      "title": "Hackers Use Fake Claude Desktop App to Disable Defender and Install Remote Access Malware",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-claude/",
-      "description": "Cybercriminals are using a counterfeit Claude desktop application to compromise Windows systems, disable key security checks, and install remote-access malware. The campaign turns a familiar AI sof...",
-      "pub_date": "Wed, 26 Aug 2026 12:15:43 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-Claude-Desktop-App-to-Disable-Defender-and-Install-Remote-Access-Malware.webp"
-    },
-    {
       "title": "Microsoft tests new privacy controls for Windows 11 desktop apps",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-privacy-controls-for-windows-11-desktop-apps/",
       "description": "Microsoft has begun testing new privacy controls that will let Windows 11 users choose which desktop applications can access their camera, microphone, and precise location. [...]",
@@ -119,15 +128,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZq8QFTxW4LuCB6uU-05X_ZcT88PxrCrq4S8Tlt-ntdFViEUD7XTOuFp0Ep2oNd61UEYcnfV0dFYW7E1jzogc2t4fm3R2CU7I45rc9bF2fAPi85MeDbxGio5jRIK_8jmMeI9A6hU_laVDVcU5yvODt55syFnI0F4cHX0N1Wul8IGg9A_PbkM_sOHoSFds/s1600/Corelight.jpg"
     },
     {
-      "title": "24 Malicious npm Packages Abuse Trusted Mirrors to Host ClickFix Phishing Pages",
-      "link": "https://cybersecuritynews.com/24-malicious-npm-packages/",
-      "description": "Twenty-four malicious npm packages have been used to turn trusted package mirrors into staging points for ClickFix phishing pages. The campaign does not infect a developer by installing a package. ...",
-      "pub_date": "Wed, 26 Aug 2026 11:19:57 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/24-Malicious-npm-Packages-Abuse-Trusted-Mirrors-to-Host-ClickFix-Phishing-Pages.webp"
-    },
-    {
       "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
       "description": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
@@ -146,33 +146,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiLH7AlxOwnKOlTs4Zi3D7tyko_H-564oFmjcBu-YP4_YR7HMgRvWhGB9r0NhXwpVoqVk82yjCt9XjEcDfo7-iSoAVduYsjNndt3gU2fHqJ7PlwnFCjRaHJSYEMuZMAZOn6M_yGZ24JuUUjVCs1hTXes8h-q4OLFj2liDETlKzvCRAqKa-jX2Yrh-iErI/s1600/claude-gym.jpg"
     },
     {
-      "title": "Hackers Abuse Legitimate RMM Tools in 46-Country Phishing Campaign to Gain Remote Access",
-      "link": "https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-3/",
-      "description": "A phishing operation is abusing legitimate remote monitoring and management tools to give attackers direct control over victim systems. The campaign uses convincing document lures, rapidly changing...",
-      "pub_date": "Wed, 26 Aug 2026 10:23:29 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Abuse-Legitimate-RMM-Tools-in-46-Country-Phishing-Campaign-to-Gain-Remote-Access.webp"
-    },
-    {
-      "title": "SonicWall NetExtender Vulnerabilities Allow an Attacker to Write Arbitrary Files as Root",
-      "link": "https://cybersecuritynews.com/sonicwall-netextender-vulnerabilities/",
-      "description": "SonicWall has disclosed two security vulnerabilities in its NetExtender Linux client, including a critical path traversal flaw that could allow an attacker to write arbitrary files with root privil...",
-      "pub_date": "Wed, 26 Aug 2026 10:04:23 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/SonicWall-NetExtender-vulnerabilities-allows-an-attacker-to-write-arbitrary-file-as-root.webp"
-    },
-    {
-      "title": "WordPress Plugin Vulnerability Exposes 400,000 Sites to Account Takeover Attacks",
-      "link": "https://cybersecuritynews.com/translatepress-wordpress-plugin-vulnerability/",
-      "description": "A critical vulnerability in the TranslatePress WordPress plugin could allow unauthenticated attackers to hijack administrator accounts and fully compromise affected websites. The flaw, tracked as C...",
-      "pub_date": "Wed, 26 Aug 2026 09:41:03 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/WordPress-Plugin-Vulnerability-Exposes-400000-Sites-to-Account-Takeover-Attacks.webp"
-    },
-    {
       "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
       "link": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html",
       "description": "OpenAI on Tuesday said it banned a cluster of Russian ChatGPT accounts that used VPNs to bypass access restrictions and run an influence operation, which relied on its artificial intelligence (AI) ...",
@@ -182,24 +155,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigTy6eveBIHNz8iNQ-RoRYOH0dYFTNhtA48mobGTTueVsSSQpFu7qFmSGivtklGBbQutM5ro14LI3Yzq3SxTFaTGPfq350Fe73t_FE4ehl9Y0kRnEVIYIN5K66R-sxa86YTuYDaLOyWdLSxR1AUmCx3UlEMed7dUvA-RtcVLFdmeVP2PTPyebMV-tDBuSg/s1600/chatgpt.jpg"
     },
     {
-      "title": "Iran-Linked Hackers Abuse Legitimate Developer Tool to Hide Dindoor Backdoor",
-      "link": "https://cybersecuritynews.com/iran-linked-hackers-abuse-developer-tool/",
-      "description": "Iran-linked operators are using a trusted developer tool to conceal a backdoor called Dindoor inside Windows environments. The malware uses the Deno JavaScript and TypeScript runtime to execute enc...",
-      "pub_date": "Wed, 26 Aug 2026 08:50:13 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Iran-Linked-Hackers-Abuse-Legitimate-Developer-Tool-to-Hide-Dindoor-Backdoor.webp"
-    },
-    {
-      "title": "Mirage2FA Phishing Kit Bypasses MFA to Hijack Microsoft 365 Sessions, Targeting 3,500+ Organizations",
-      "link": "https://cybersecuritynews.com/mirage2fa-phishing-kit-bypasses-mfa-to-hijack-microsoft-365-sessions-targeting-3500-organizations/",
-      "description": "Researchers tie the LinX Coders phishing-as-a-service toolkit to 9,332 compromise events across 94 countries, with 63.7% of victims in the United States and stolen session cookies accounting for mo...",
-      "pub_date": "Wed, 26 Aug 2026 08:21:30 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU-eNiofA16lfgGSpoEjiiAphYNAE2wceLqfErJo2meC8spjY5wHfY2H6NUYchm17cpeZDVNu77yEOO8nTVdGmNX6-lnwH9JYAD_BcFWZw-bNICrP4WNeNY0lEsMjl1hO4WPTeZ4FaNiWtyW_yqgk5RZbaDjQbeshKs-gBcFEXopOEZ3RuJJn1c15hcdg/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-26T124424.61.webp"
-    },
-    {
       "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
       "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
       "description": "An eight-month INTERPOL operation targeting West African organized crime groups has led to arrests of 58 people and the identification of 263 suspects.  \"The operation, which brought together 22 co...",
@@ -207,15 +162,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYeHiMtBGSU21fSYRfXqsYMwsXlIfdl_w5goundqFoLSR1HYz30bgzdHuA1ft2gHjWiS5B-nE5ZpmY1gJiTDlsF8bwwYK9ogGAPmEHWNTA-hVLp09KaMvsu6DbcCW-ZTNtcZj2xHoH4fHhTsr7_zbUoiYKJI6Yj9YdxtbQNBEdv0apv1c3buQiaXmLeMkT/s1600/interpol.jpg"
-    },
-    {
-      "title": "Google Chrome 152 Released With 327 Security Fixes, Including 10 Critical Vulnerabilities",
-      "link": "https://cybersecuritynews.com/chrome-152-released-with-327-security-fixes/",
-      "description": "Google has released Chrome 152 for Windows, macOS, and Linux, delivering 327 security fixes and improvements. The update addresses 10 critical vulnerabilities, making it an important security relea...",
-      "pub_date": "Wed, 26 Aug 2026 07:50:36 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Google-Chrome-152-Released-With-327-Security-Fixes-Including-10-Critical-Vulnerabilities.webp"
     },
     {
       "title": "New SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
@@ -317,15 +263,6 @@
       "image_url": ""
     },
     {
-      "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
-      "description": "Microsoft updated its Windows PowerToys toolset with a new utility dubbed \"Window Hopper\" that lets users switch between an app's windows more quickly. [...]",
-      "pub_date": "Tue, 25 Aug 2026 09:51:58 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
       "link": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
       "description": "Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their ac...",
@@ -333,33 +270,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqyjfLJEnp8xcmcz9iVBOKykdcxx36J8KgONSwImU9YSYuvWD_uzKDaGkJre9D_8P1XLdE8vPHqNyBUKOvjYPLJj_oZ1T-pfUxdOm-bZTtaz4LC2eVcuFloJTtEE7IWVnOaVJIEtFUoPKfOn9xeBASQG7e7X2-wA7P-hwGIzqP7G_-Ot2BOpj-OSO0tUBh/s1600/whatsapp.jpg"
-    },
-    {
-      "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
-      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
-      "description": "WhatsApp has started rolling out several new account security features, including support for multiple passkeys and stronger two-step verification. [...]",
-      "pub_date": "Tue, 25 Aug 2026 09:00:00 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
-      "link": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
-      "description": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted note...",
-      "pub_date": "Tue, 25 Aug 2026 18:13:51 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpC_dsMXsEscdzMT8fjZ3uZ86XgjBqYcYWA7ZodJJUvbK6vnmafx_dANiNsjoAeqYwDxzqeTerWaWEIMIZSmp7CqfynzhkfKEnuGIoizK5vihRhSJIeOVn4cK3CdIFjnURkvQvI1VX-Gm11mqNmxOQPVK5loEBRZ2ELFzLc1Y8C_z_ajrA5beUowEfwg0/s1600/marimo.jpg"
-    },
-    {
-      "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
-      "link": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
-      "description": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows ...",
-      "pub_date": "Tue, 25 Aug 2026 17:26:15 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSPS7eK6wOjr-bcJ7RjMVB4C03l21IHeGkyUQNGJANpvXsE90ssTzIlECk6HcpnLkw5_4PYTQ7ZP9k8pj2GBmvLnIfFkv6e-0NkLC4ouAf8Hn24SrQY2egjmzprIkgcvfLRHrYrzPYtx6mXKb59jjGazFjHe_7ttNqB-7AX0OB8ZvTI_QpgCA_NCEZY8Q/s1600/usa.jpg"
     },
     {
       "title": "Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)",
