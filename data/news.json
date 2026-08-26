@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-08-26T11:30:09Z",
+  "last_updated": "2026-08-26T12:51:50Z",
   "articles": [
+    {
+      "title": "Hackers Use Fake Claude Desktop App to Disable Defender and Install Remote Access Malware",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-claude/",
+      "description": "Cybercriminals are using a counterfeit Claude desktop application to compromise Windows systems, disable key security checks, and install remote-access malware. The campaign turns a familiar AI sof...",
+      "pub_date": "Wed, 26 Aug 2026 12:15:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-Claude-Desktop-App-to-Disable-Defender-and-Install-Remote-Access-Malware.webp"
+    },
+    {
+      "title": "Microsoft tests new privacy controls for Windows 11 desktop apps",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-privacy-controls-for-windows-11-desktop-apps/",
+      "description": "Microsoft has begun testing new privacy controls that will let Windows 11 users choose which desktop applications can access their camera, microphone, and precise location. [...]",
+      "pub_date": "Wed, 26 Aug 2026 08:06:28 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
+      "link": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
+      "description": "The SOC we've always known was built around a model that guarantees most of the alert queue will never receive analyst review. There's never time. In a traditional SOC, the typical progression foll...",
+      "pub_date": "Wed, 26 Aug 2026 17:06:49 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZq8QFTxW4LuCB6uU-05X_ZcT88PxrCrq4S8Tlt-ntdFViEUD7XTOuFp0Ep2oNd61UEYcnfV0dFYW7E1jzogc2t4fm3R2CU7I45rc9bF2fAPi85MeDbxGio5jRIK_8jmMeI9A6hU_laVDVcU5yvODt55syFnI0F4cHX0N1Wul8IGg9A_PbkM_sOHoSFds/s1600/Corelight.jpg"
+    },
     {
       "title": "24 Malicious npm Packages Abuse Trusted Mirrors to Host ClickFix Phishing Pages",
       "link": "https://cybersecuritynews.com/24-malicious-npm-packages/",
@@ -126,15 +153,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSnbO35IDgg9dQouCuUCpAko8PiGwwI3lhn7I68m0Ok-PGL84lR1CU0sKk5rWfurFY7u1Fz-9U0-CXi1VCuAVpZDpKF3uDnvtyb062Kls6vW8L7xkTnZBPPJteihNrIWV3C__6JMphWMC7ER4_2bsgKDfzIuq5naTBB3pgZvKvD2v4djmpMh96F62y8Qg/s1600/sleepwalker.jpg"
-    },
-    {
-      "title": "Two Microsoft SharePoint Flaws Can Be Chained to Hack Servers Without a Password",
-      "link": "https://cybersecuritynews.com/sharepoint-flaws-chained-to-hack-servers/",
-      "description": "Two serious Microsoft SharePoint Server vulnerabilities can be chained to let remote attackers take control of vulnerable servers without a password. The attack combines an authentication bypass tr...",
-      "pub_date": "Wed, 26 Aug 2026 07:00:28 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Two-Microsoft-SharePoint-Flaws-Can-Be-Chained-to-Hack-Servers-Without-a-Password.webp"
     },
     {
       "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
@@ -317,15 +335,6 @@
       "image_url": ""
     },
     {
-      "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
-      "link": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
-      "description": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as...",
-      "pub_date": "Tue, 25 Aug 2026 14:04:07 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtxn6tX1r1BmVfN_4cdoh6p5jmcAe3D9ckNhjscacXx5HpxZJAdb1SvIWo404cGlwahzCLyFIRB-MdUjGcQdBLLC5pMwaCB75e9AT5jKvC49cvIP5jGIOB4IjcQGaOpibWbIPKj929DICeMilGRZn5JmVIcVslRm2hWgz5RTXIZK5d2b2N5dlEnRBBwWVO/s1600/wordpress-hack.jpg"
-    },
-    {
       "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
       "link": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
       "description": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that ca...",
@@ -360,15 +369,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
-    },
-    {
-      "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-      "link": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-      "description": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
-      "pub_date": "Mon, 24 Aug 2026 11:17:16 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "ZDI-26-610: Apple Safari JavaScriptCore B3 ReduceStrength Phase Use-After-Free Remote Code Execution Vulnerability",
