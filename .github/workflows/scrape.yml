@@ -49,7 +49,9 @@ jobs:
         run: |
           git config --global user.name "Nikhil Yadav (Bot)"
           git config --global user.email "yadavnikhil17102004@gmail.com"
-          git add data/ web/data/ || true
+          git add data/[0-9][0-9][0-9][0-9].json data/nvd_intel_[0-9][0-9][0-9][0-9].json data/news.json 2>/dev/null || true
+          # Monolithic nvd_intel.json exceeds GitHub 100MB limit — year files only.
+          git rm -f --cached data/nvd_intel.json 2>/dev/null || true
 
           # Only commit if there are changes
           if ! git diff --cached --quiet; then

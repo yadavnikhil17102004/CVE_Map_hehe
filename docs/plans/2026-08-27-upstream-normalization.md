@@ -14,9 +14,9 @@
 
 | # | Task | Status |
 |---|------|--------|
-| U0 | P0 — Strict CVE regex in `cvemapping.go` + `validate.go` alignment | ✅ Code done (data rescrape pending) |
-| U1 | P1 — `inferred_cve_ids` + mapping metadata on repos | ⬜ |
-| U2 | P1 — NVD compact `m` (`last_modified`) | ⬜ |
+| U0 | P0 — Strict CVE regex in `cvemapping.go` + `validate.go` alignment | ✅ Shipped (`926572ab`) |
+| U1 | P1 — `inferred_cve_ids` + mapping metadata on repos | ✅ Code shipped (rescrape pending) |
+| U2 | P1 — NVD compact `m` (`last_modified`) | ✅ Code shipped (nvd regen pending) |
 | U3 | P2 — CI validation hardening (fail on bad bucket keys) | ⬜ |
 | U4 | P2 — OTHER bucket docs (+ optional `unmapped_repos_{year}.json`) | ⬜ |
 | U5 | P3 — Optional `data/exploits_{year}.json` | ⬜ |
@@ -52,50 +52,30 @@ Committed `data/YYYY.json` still contains legacy truncated keys until scrape wor
 
 ---
 
-## U1 — P1: Per-repo inferred CVE ids
+## U1 — P1a: Per-repo inferred CVE ids (SHIPPED in code)
 
-### Goal
-Expose all strict CVE ids found in repo text for downstream exploit pipelines, even when bucket key differs.
+### Bucket model (downstream-aligned)
+- **Dashboard bucket key:** strict CVE ids from `name + full_name` only
+- **Description/topics CVEs:** stay under `OTHER-{year}`; link via `inferred_cve_ids`
+- **`mapping_bucket`:** `strict` | `other` | `truncated` (legacy regex would have truncated)
 
-### How
-Extend `CVERepository` in `cvemapping.go`:
-
+### Additive repo fields
 ```json
 {
-  "inferred_cve_ids": ["CVE-2026-44289"],
-  "mapping_parent_cve_id": "CVE-2026-44289",
-  "mapping_bucket": "strict"
+  "inferred_cve_ids": ["CVE-2021-22681"],
+  "mapping_parent_cve_id": "OTHER-2026",
+  "mapping_bucket": "other"
 }
 ```
 
-| Field | Meaning |
-|-------|---------|
-| `inferred_cve_ids` | All strict CVEs from name + full_name + description + topics |
-| `mapping_parent_cve_id` | Bucket key this export pass used |
-| `mapping_bucket` | `strict` \| `other` \| `truncated` |
-
-### Test
-```bash
-go test -run TestInferredCVEIDs ./...
-# After export: jq '.cves[] | select(.repositories[0].inferred_cve_ids != null)' data/2026.json
-```
+### Test case
+`pcrosby-1990/cip-security-poc` (`github-1318671575`) → `OTHER-2026` + `inferred_cve_ids: ["CVE-2021-22681"]`
 
 ---
 
-## U2 — P1: NVD compact `last_modified`
+## U2 — P1b: NVD compact `m` (SHIPPED in code)
 
-### Goal
-Add `m` key to `CVEIntel` from NVD `lastModified` (date-truncated like `p`).
-
-### How
-`nvd_scraper.go` → `CVEIntel.LastModified` with `json:"m,omitempty"`, populate in `extractIntel()`.
-
-### Test
-```bash
-go run nvd_scraper.go   # needs NVD_API_KEY optional
-jq 'to_entries[0].value | has("m")' data/nvd_intel_2026.json
-go run validate.go
-```
+`CVEIntel` adds `m` (YYYY-MM-DD) from NVD `lastModified`. Regenerate `nvd_intel*.json` on next scrape.
 
 ---
 

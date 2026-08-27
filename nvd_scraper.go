@@ -110,6 +110,7 @@ type CVEIntel struct {
 	KEV       bool     `json:"k,omitempty"`  // true if in CISA Known Exploited Vulnerabilities
 	Source    string   `json:"r,omitempty"`  // "NIST" or "CNA"
 	Published string   `json:"p,omitempty"`  // YYYY-MM-DD
+	LastModified string `json:"m,omitempty"` // YYYY-MM-DD (NVD lastModified)
 	Status    string   `json:"u,omitempty"`  // vulnStatus
 	EPSS      float64  `json:"e,omitempty"`  // EPSS probability 0.0–1.0
 	Products  []string `json:"q,omitempty"`  // "vendor:product" pairs from CPE data
@@ -141,8 +142,47 @@ type DataFile struct {
 // writeIntelByYear — split dictionary into per-year files
 // ============================================================
 
-// writeIntelByYear splits the dictionary into data/nvd_intel_{year}.json files.
-// It also writes data/nvd_intel.json as a full fallback for the public API.
+// loadExistingIntel merges year-scoped intel files into one dictionary.
+// Falls back to legacy data/nvd_intel.json only when no year files exist.
+func loadExistingIntel(dataDir string) map[string]CVEIntel {
+	dictionary := make(map[string]CVEIntel)
+
+	files, err := filepath.Glob(filepath.Join(dataDir, "nvd_intel_[0-9][0-9][0-9][0-9].json"))
+	if err == nil && len(files) > 0 {
+		sort.Strings(files)
+		for _, f := range files {
+			raw, err := os.ReadFile(f)
+			if err != nil {
+				log.Printf("[-] Warning: could not read %s: %v", f, err)
+				continue
+			}
+			var slice map[string]CVEIntel
+			if err := json.Unmarshal(raw, &slice); err != nil {
+				log.Printf("[-] Warning: could not parse %s: %v", f, err)
+				continue
+			}
+			for id, intel := range slice {
+				dictionary[id] = intel
+			}
+		}
+		log.Printf("[i] Loaded %d existing signatures from %d year intel files.", len(dictionary), len(files))
+		return dictionary
+	}
+
+	raw, err := os.ReadFile(filepath.Join(dataDir, "nvd_intel.json"))
+	if err != nil {
+		return dictionary
+	}
+	if err := json.Unmarshal(raw, &dictionary); err != nil {
+		log.Printf("[-] Warning: legacy nvd_intel.json unparseable — rebuilding fresh.")
+		return make(map[string]CVEIntel)
+	}
+	log.Printf("[i] Loaded %d existing signatures from legacy nvd_intel.json.", len(dictionary))
+	return dictionary
+}
+
+// writeIntelByYear writes data/nvd_intel_{year}.json files only.
+// The monolithic nvd_intel.json is no longer committed (exceeds GitHub 100MB limit).
 func writeIntelByYear(dictionary map[string]CVEIntel) {
 	byYear := make(map[string]map[string]CVEIntel)
 	yearRegex := regexp.MustCompile(`^CVE-(\d{4})-`)
@@ -169,15 +209,6 @@ func writeIntelByYear(dictionary map[string]CVEIntel) {
 		} else {
 			log.Printf("[+] Wrote %s (%d CVEs, %.1f KB)", path, len(slice), float64(len(out))/1024.0)
 		}
-	}
-	// Also write full file for public API consumers
-	full, err := json.Marshal(dictionary)
-	if err != nil {
-		log.Printf("[-] Failed to marshal full intel: %v", err)
-	} else if err := os.WriteFile(filepath.Join("data", "nvd_intel.json"), full, 0644); err != nil {
-		log.Printf("[-] Failed to write nvd_intel.json fallback: %v", err)
-	} else {
-		log.Printf("[+] Wrote nvd_intel.json fallback (%.1f KB)", float64(len(full))/1024.0)
 	}
 }
 
@@ -243,15 +274,8 @@ func main() {
 
 	os.MkdirAll("data", 0755)
 
-	// Load existing dictionary (accumulate across runs)
-	dictionary := make(map[string]CVEIntel)
-	if raw, err := os.ReadFile(filepath.Join("data", "nvd_intel.json")); err == nil {
-		if err := json.Unmarshal(raw, &dictionary); err != nil {
-			log.Printf("[-] Warning: existing intel file unparseable — rebuilding fresh.")
-		} else {
-			log.Printf("[i] Loaded %d existing signatures.", len(dictionary))
-		}
-	}
+	// Load existing dictionary (accumulate across runs) from year-scoped files.
+	dictionary := loadExistingIntel("data")
 
 	// ── Phase 1: 180-day modification window ─────────────────
 	// Catches new CVEs and updated scores on existing ones.
@@ -643,6 +667,11 @@ func extractIntel(cve CVE2) CVEIntel {
 	// Published date
 	if len(cve.Published) >= 10 {
 		intel.Published = cve.Published[:10]
+	}
+
+	// Last modified date (compact key m for downstream watermark parity)
+	if len(cve.LastModified) >= 10 {
+		intel.LastModified = cve.LastModified[:10]
 	}
 
 	// Status

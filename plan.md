@@ -453,8 +453,8 @@ Scrape uses `secrets.SYNC_TOKEN` with broad `contents: write`.
 | Step | Priority | Status |
 |------|----------|--------|
 | U0. CVE id truncation fix | P0 | ✅ code |
-| U1. `inferred_cve_ids` on repos | P1 | ⬜ |
-| U2. NVD `m` (last_modified) | P1 | ⬜ |
+| U1. `inferred_cve_ids` on repos | P1 | ✅ code |
+| U2. NVD `m` (last_modified) | P1 | ✅ code |
 | U3. CI validation hardening | P2 | ⬜ |
 | U4. OTHER bucket docs | P2 | ⬜ |
 | U5. `exploits_{year}.json` | P3 | ⬜ |

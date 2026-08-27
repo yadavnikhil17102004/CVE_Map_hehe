@@ -59,17 +59,53 @@ func TestFindStrictCVEIDsNeverReturnsTruncatedBucketKey(t *testing.T) {
 	}
 }
 
-func TestExportToJSONGroupingUsesStrictCVEIDs(t *testing.T) {
-	repos := []*GitHubRepository{{
+func TestMappingBucketForOther(t *testing.T) {
+	search := "CVE-2026-442_ PoC for CVE-2026-44289"
+	inferred := findStrictCVEIDs(search)
+	got := mappingBucketForOther(search, "2026", inferred)
+	if got != "truncated" {
+		t.Fatalf("expected truncated, got %q", got)
+	}
+}
+
+func TestP1aMetadataDescriptionOnlyCVE(t *testing.T) {
+	repo := &GitHubRepository{
+		ID:          1318671575,
+		Name:        "cip-security-poc",
+		FullName:    "pcrosby-1990/cip-security-poc",
+		Description: "mapping for CVE-2021-22681 in Rockwell",
+	}
+	inferred := findStrictCVEIDs(repoSearchText(repo))
+	bucketKeys := findStrictCVEIDs(repoIdentityText(repo))
+	if len(bucketKeys) != 0 {
+		t.Fatalf("expected no identity bucket keys, got %v", bucketKeys)
+	}
+	if len(inferred) != 1 || inferred[0] != "CVE-2021-22681" {
+		t.Fatalf("unexpected inferred: %v", inferred)
+	}
+	meta := toCVERepository(repo, "OTHER-2026", mappingBucketForOther(repoSearchText(repo), "2026", inferred), inferred)
+	if meta.MappingParentCVEID != "OTHER-2026" || meta.MappingBucket != "other" {
+		t.Fatalf("unexpected mapping metadata: parent=%q bucket=%q", meta.MappingParentCVEID, meta.MappingBucket)
+	}
+	if len(meta.InferredCVEIDs) != 1 || meta.InferredCVEIDs[0] != "CVE-2021-22681" {
+		t.Fatalf("unexpected inferred on struct: %v", meta.InferredCVEIDs)
+	}
+}
+
+func TestP1aMetadataStrictIdentityBucket(t *testing.T) {
+	repo := &GitHubRepository{
 		ID:          1,
-		Name:        "CVE-2026-442_",
-		FullName:    "HORKimhab/CVE-2026-442_",
+		Name:        "CVE-2026-44289-poc",
+		FullName:    "user/CVE-2026-44289-poc",
 		Description: "PoC for CVE-2026-44289",
-		HTMLURL:     "https://github.com/HORKimhab/CVE-2026-442_",
-		CloneURL:    "https://github.com/HORKimhab/CVE-2026-442_.git",
-	}}
-	ids := findStrictCVEIDs(repoSearchText(repos[0]))
-	if len(ids) != 1 || ids[0] != "CVE-2026-44289" {
-		t.Fatalf("expected strict grouping under CVE-2026-44289, got %v", ids)
+	}
+	bucketKeys := findStrictCVEIDs(repoIdentityText(repo))
+	if len(bucketKeys) != 1 || bucketKeys[0] != "CVE-2026-44289" {
+		t.Fatalf("expected strict identity bucket CVE-2026-44289, got %v", bucketKeys)
+	}
+	inferred := findStrictCVEIDs(repoSearchText(repo))
+	meta := toCVERepository(repo, bucketKeys[0], "strict", inferred)
+	if meta.MappingBucket != "strict" || meta.MappingParentCVEID != "CVE-2026-44289" {
+		t.Fatalf("unexpected strict metadata: %+v", meta)
 	}
 }

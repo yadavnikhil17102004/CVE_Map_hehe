@@ -61,6 +61,44 @@ func findStrictCVEIDs(text string) []string {
 	return out
 }
 
+// repoIdentityText is name + full_name — used for dashboard bucket keys only.
+func repoIdentityText(repo *GitHubRepository) string {
+	return repo.Name + " " + repo.FullName
+}
+
+// findLegacyTruncatedCVEIDs reproduces pre-P0 year-scoped matching for audit tagging.
+func findLegacyTruncatedCVEIDs(text, year string) []string {
+	re := regexp.MustCompile(fmt.Sprintf(`(?i)cve-%s-\d+`, year))
+	raw := re.FindAllString(text, -1)
+	seen := make(map[string]bool)
+	out := make([]string, 0, len(raw))
+	for _, m := range raw {
+		id := strings.ToUpper(m)
+		if seen[id] {
+			continue
+		}
+		seen[id] = true
+		out = append(out, id)
+	}
+	sort.Strings(out)
+	return out
+}
+
+// mappingBucketForOther classifies OTHER-* placements (other vs truncated legacy parse).
+func mappingBucketForOther(searchText, year string, inferred []string) string {
+	for _, legacy := range findLegacyTruncatedCVEIDs(searchText, year) {
+		if validCVEIDRegex.MatchString(legacy) {
+			continue
+		}
+		for _, id := range inferred {
+			if id != legacy && strings.HasPrefix(id, legacy) {
+				return "truncated"
+			}
+		}
+	}
+	return "other"
+}
+
 type RepoDetails struct {
 	CloneURL        string
 	Description     string
@@ -111,8 +149,11 @@ type CVERepository struct {
 	Topics          []string `json:"topics"`
 	Owner           Owner    `json:"owner"`
 	CloneURL        string   `json:"clone_url"`
-	HasCode         bool     `json:"has_code"`  // true if GitHub reports a primary language
-	AgeDays         int      `json:"age_days"`  // days since repo creation at scrape time
+	HasCode             bool     `json:"has_code"` // true if GitHub reports a primary language
+	AgeDays             int      `json:"age_days"` // days since repo creation at scrape time
+	InferredCVEIDs      []string `json:"inferred_cve_ids"`
+	MappingParentCVEID  string   `json:"mapping_parent_cve_id"`
+	MappingBucket       string   `json:"mapping_bucket"` // strict | other | truncated
 }
 
 type CVEEntry struct {
@@ -656,25 +697,31 @@ func repoAgeDays(createdAt string) int {
 	return days
 }
 
-// Convert GitHubRepository to CVERepository
-func toCVERepository(repo *GitHubRepository) CVERepository {
+// toCVERepository maps GitHub API fields plus P1a CVE inference metadata.
+func toCVERepository(repo *GitHubRepository, parentBucket, mappingBucket string, inferred []string) CVERepository {
+	if inferred == nil {
+		inferred = []string{}
+	}
 	return CVERepository{
-		ID:              repo.ID,
-		Name:            repo.Name,
-		FullName:        repo.FullName,
-		HTMLURL:         repo.HTMLURL,
-		Description:     repo.Description,
-		StargazersCount: repo.StargazersCount,
-		ForksCount:      repo.ForksCount,
-		Language:        repo.Language,
-		UpdatedAt:       repo.UpdatedAt,
-		PushedAt:        repo.PushedAt,
-		CreatedAt:       repo.CreatedAt,
-		Topics:          repo.Topics,
-		Owner:           repo.Owner,
-		CloneURL:        repo.CloneURL,
-		HasCode:         repo.Language != "",
-		AgeDays:         repoAgeDays(repo.CreatedAt),
+		ID:                 repo.ID,
+		Name:               repo.Name,
+		FullName:           repo.FullName,
+		HTMLURL:            repo.HTMLURL,
+		Description:        repo.Description,
+		StargazersCount:    repo.StargazersCount,
+		ForksCount:         repo.ForksCount,
+		Language:           repo.Language,
+		UpdatedAt:          repo.UpdatedAt,
+		PushedAt:           repo.PushedAt,
+		CreatedAt:          repo.CreatedAt,
+		Topics:             repo.Topics,
+		Owner:              repo.Owner,
+		CloneURL:           repo.CloneURL,
+		HasCode:            repo.Language != "",
+		AgeDays:            repoAgeDays(repo.CreatedAt),
+		InferredCVEIDs:     inferred,
+		MappingParentCVEID: parentBucket,
+		MappingBucket:      mappingBucket,
 	}
 }
 
@@ -692,17 +739,20 @@ func exportToJSON(repos []*GitHubRepository, year string) error {
 
 	for _, repo := range repos {
 		searchText := repoSearchText(repo)
-		uniqueMatches := findStrictCVEIDs(searchText)
-		cveRepo := toCVERepository(repo)
+		inferred := findStrictCVEIDs(searchText)
+		// Dashboard buckets follow repo identity (name/full_name), not description-only CVEs.
+		bucketKeys := findStrictCVEIDs(repoIdentityText(repo))
 
-		if len(uniqueMatches) == 0 {
-			// Repository doesn't match any strict CVE pattern, add to catch-all
+		if len(bucketKeys) == 0 {
+			mappingBucket := mappingBucketForOther(searchText, year, inferred)
+			cveRepo := toCVERepository(repo, catchAllKey, mappingBucket, inferred)
 			cveMap[catchAllKey] = append(cveMap[catchAllKey], cveRepo)
-		} else {
-			// Add repository to each strictly validated CVE bucket
-			for _, cveName := range uniqueMatches {
-				cveMap[cveName] = append(cveMap[cveName], cveRepo)
-			}
+			continue
+		}
+
+		for _, cveName := range bucketKeys {
+			cveRepo := toCVERepository(repo, cveName, "strict", inferred)
+			cveMap[cveName] = append(cveMap[cveName], cveRepo)
 		}
 	}
 

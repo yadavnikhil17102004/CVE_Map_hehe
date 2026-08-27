@@ -17,6 +17,9 @@ cvemapping
 nvd_scraper
 news_scraper
 validate
+
+# Monolith exceeds GitHub 100MB file limit; use nvd_intel_YYYY.json instead.
+data/nvd_intel.json
 *.exe
 *.out
 *.test

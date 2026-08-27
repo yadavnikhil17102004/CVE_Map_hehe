@@ -93,87 +93,7 @@ func main() {
 		}
 	}
 
-	// 2) Intel map sanity
-	rawIntel, err := os.ReadFile("data/nvd_intel.json")
-	if err != nil {
-		addFail(fmt.Sprintf("missing data/nvd_intel.json: %v", err))
-	} else {
-		var intel map[string]map[string]any
-		if err := json.Unmarshal(rawIntel, &intel); err != nil {
-			addFail(fmt.Sprintf("invalid JSON in data/nvd_intel.json: %v", err))
-		} else {
-			if len(intel) == 0 {
-				addFail("nvd_intel.json has 0 records")
-			} else {
-				ok(fmt.Sprintf("nvd_intel.json loaded (%d records)", len(intel)))
-			}
-
-			kevCount := 0
-			epssCount := 0
-			requiredMissing := 0
-
-			for cveID, row := range intel {
-				_, hasS := row["s"]
-				_, hasV := row["v"]
-				_, hasD := row["d"]
-				if !(hasS && hasV && hasD) {
-					requiredMissing++
-					if requiredMissing <= 3 {
-						addFail(fmt.Sprintf("required keys missing for %s (need s,v,d)", cveID))
-					}
-				}
-
-				if kev, ok := row["k"].(bool); ok && kev {
-					kevCount++
-				}
-				if _, ok := row["e"].(float64); ok {
-					epssCount++
-				}
-			}
-
-			if requiredMissing == 0 {
-				ok("required intel fields present (s,v,d)")
-			} else {
-				addFail(fmt.Sprintf("required intel fields missing in %d records", requiredMissing))
-			}
-
-			if kevCount > 0 {
-				ok(fmt.Sprintf("KEV enrichment present (%d CVEs)", kevCount))
-			} else {
-				addFail("KEV enrichment count is 0")
-			}
-
-			epssCoverage := 0.0
-			if len(intel) > 0 {
-				epssCoverage = (float64(epssCount) / float64(len(intel))) * 100.0
-			}
-			if epssCount > 0 {
-				ok(fmt.Sprintf("EPSS enrichment present (%d CVEs, %.2f%% coverage)", epssCount, epssCoverage))
-			} else {
-				addFail("EPSS enrichment count is 0 (likely FIRST endpoint/schema drift)")
-			}
-
-			const minEpssCoverage = 90.0
-			if epssCoverage < minEpssCoverage {
-				if strings.EqualFold(os.Getenv("ALLOW_LOW_EPSS_COVERAGE"), "true") {
-					warn(fmt.Sprintf("EPSS coverage below %.2f%% (actual %.2f%%), bypassed by ALLOW_LOW_EPSS_COVERAGE=true", minEpssCoverage, epssCoverage))
-				} else {
-					addFail(fmt.Sprintf("EPSS coverage too low: %.2f%% (minimum %.2f%%)", epssCoverage, minEpssCoverage))
-				}
-			} else {
-				ok(fmt.Sprintf("EPSS coverage threshold met (>= %.2f%%)", minEpssCoverage))
-			}
-
-			fmt.Printf("\nSummary:\n")
-			fmt.Printf("CVEs processed: %d\n", len(intel))
-			fmt.Printf("NVD matched: %d\n", len(intel))
-			fmt.Printf("KEV matched: %d\n", kevCount)
-			fmt.Printf("EPSS matched: %d\n", epssCount)
-			fmt.Printf("EPSS coverage: %.2f%%\n", epssCoverage)
-		}
-	}
-
-	// 3) Year-scoped intel files exist and parse
+	// 2) Intel map sanity (year-scoped files; monolith no longer in repo)
 	yearIntelFiles, err := filepath.Glob("data/nvd_intel_[0-9][0-9][0-9][0-9].json")
 	if err != nil {
 		addFail(fmt.Sprintf("glob year-scoped intel failed: %v", err))
@@ -181,8 +101,103 @@ func main() {
 		addFail("no data/nvd_intel_YYYY.json files found")
 	} else {
 		sort.Strings(yearIntelFiles)
-		ok(fmt.Sprintf("year-scoped intel files found (%d files)", len(yearIntelFiles)))
+		intel := make(map[string]map[string]any)
 		for _, f := range yearIntelFiles {
+			raw, err := os.ReadFile(f)
+			if err != nil {
+				addFail(fmt.Sprintf("read failed for %s: %v", f, err))
+				continue
+			}
+			var slice map[string]map[string]any
+			if err := json.Unmarshal(raw, &slice); err != nil {
+				addFail(fmt.Sprintf("invalid JSON in %s: %v", f, err))
+				continue
+			}
+			for id, row := range slice {
+				intel[id] = row
+			}
+		}
+
+		if len(intel) == 0 {
+			addFail("aggregated year intel has 0 records")
+		} else {
+			ok(fmt.Sprintf("year intel loaded (%d records from %d files)", len(intel), len(yearIntelFiles)))
+		}
+
+		kevCount := 0
+		epssCount := 0
+		requiredMissing := 0
+
+		for cveID, row := range intel {
+			_, hasS := row["s"]
+			_, hasV := row["v"]
+			_, hasD := row["d"]
+			if !(hasS && hasV && hasD) {
+				requiredMissing++
+				if requiredMissing <= 3 {
+					addFail(fmt.Sprintf("required keys missing for %s (need s,v,d)", cveID))
+				}
+			}
+
+			if kev, ok := row["k"].(bool); ok && kev {
+				kevCount++
+			}
+			if _, ok := row["e"].(float64); ok {
+				epssCount++
+			}
+		}
+
+		if requiredMissing == 0 {
+			ok("required intel fields present (s,v,d)")
+		} else {
+			addFail(fmt.Sprintf("required intel fields missing in %d records", requiredMissing))
+		}
+
+		if kevCount > 0 {
+			ok(fmt.Sprintf("KEV enrichment present (%d CVEs)", kevCount))
+		} else {
+			addFail("KEV enrichment count is 0")
+		}
+
+		epssCoverage := 0.0
+		if len(intel) > 0 {
+			epssCoverage = (float64(epssCount) / float64(len(intel))) * 100.0
+		}
+		if epssCount > 0 {
+			ok(fmt.Sprintf("EPSS enrichment present (%d CVEs, %.2f%% coverage)", epssCount, epssCoverage))
+		} else {
+			addFail("EPSS enrichment count is 0 (likely FIRST endpoint/schema drift)")
+		}
+
+		const minEpssCoverage = 90.0
+		if epssCoverage < minEpssCoverage {
+			if strings.EqualFold(os.Getenv("ALLOW_LOW_EPSS_COVERAGE"), "true") {
+				warn(fmt.Sprintf("EPSS coverage below %.2f%% (actual %.2f%%), bypassed by ALLOW_LOW_EPSS_COVERAGE=true", minEpssCoverage, epssCoverage))
+			} else {
+				addFail(fmt.Sprintf("EPSS coverage too low: %.2f%% (minimum %.2f%%)", epssCoverage, minEpssCoverage))
+			}
+		} else {
+			ok(fmt.Sprintf("EPSS coverage threshold met (>= %.2f%%)", minEpssCoverage))
+		}
+
+		fmt.Printf("\nSummary:\n")
+		fmt.Printf("CVEs processed: %d\n", len(intel))
+		fmt.Printf("NVD matched: %d\n", len(intel))
+		fmt.Printf("KEV matched: %d\n", kevCount)
+		fmt.Printf("EPSS matched: %d\n", epssCount)
+		fmt.Printf("EPSS coverage: %.2f%%\n", epssCoverage)
+	}
+
+	// 3) Year-scoped intel files parse check (redundant but fast sanity)
+	yearIntelParseFiles, err := filepath.Glob("data/nvd_intel_[0-9][0-9][0-9][0-9].json")
+	if err != nil {
+		addFail(fmt.Sprintf("glob year-scoped intel parse failed: %v", err))
+	} else if len(yearIntelParseFiles) == 0 {
+		addFail("no data/nvd_intel_YYYY.json files found (parse pass)")
+	} else {
+		sort.Strings(yearIntelParseFiles)
+		ok(fmt.Sprintf("year-scoped intel files found (%d files)", len(yearIntelParseFiles)))
+		for _, f := range yearIntelParseFiles {
 			raw, err := os.ReadFile(f)
 			if err != nil {
 				addFail(fmt.Sprintf("read failed for %s: %v", f, err))
