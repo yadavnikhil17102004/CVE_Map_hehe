@@ -20,6 +20,47 @@ import (
 	"time"
 )
 
+// Strict CVE id matching — aligned with nvd_scraper.go (^CVE-\d{4}-\d{4,}$).
+var (
+	strictCVEFindRegex = regexp.MustCompile(`(?i)CVE-\d{4}-\d{4,}`)
+	validCVEIDRegex    = regexp.MustCompile(`^CVE-\d{4}-\d{4,}$`)
+)
+
+// repoSearchText builds the text used to infer CVE ids from a repository record.
+func repoSearchText(repo *GitHubRepository) string {
+	var sb strings.Builder
+	sb.WriteString(repo.Name)
+	sb.WriteString(" ")
+	sb.WriteString(repo.FullName)
+	sb.WriteString(" ")
+	sb.WriteString(repo.Description)
+	for _, topic := range repo.Topics {
+		sb.WriteString(" ")
+		sb.WriteString(topic)
+	}
+	return sb.String()
+}
+
+// findStrictCVEIDs returns unique, uppercased CVE ids that pass strict validation.
+func findStrictCVEIDs(text string) []string {
+	raw := strictCVEFindRegex.FindAllString(text, -1)
+	seen := make(map[string]bool)
+	out := make([]string, 0, len(raw))
+	for _, m := range raw {
+		id := strings.ToUpper(m)
+		if !validCVEIDRegex.MatchString(id) {
+			continue
+		}
+		if seen[id] {
+			continue
+		}
+		seen[id] = true
+		out = append(out, id)
+	}
+	sort.Strings(out)
+	return out
+}
+
 type RepoDetails struct {
 	CloneURL        string
 	Description     string
@@ -449,7 +490,6 @@ func fetchGitHubRepositories(query, token string, page int) (*GitHubSearchRespon
 // Process repositories based on filtering rules
 func processRepos(repos []*GitHubRepository, year string) []RepoDetails {
 	var reposToClone []RepoDetails
-	cveRegex := regexp.MustCompile(fmt.Sprintf(`(?i)cve-%s-\d+`, year))
 	cveMap := make(map[string]RepoDetails)
 
 	for _, repo := range repos {
@@ -457,14 +497,11 @@ func processRepos(repos []*GitHubRepository, year string) []RepoDetails {
 		description := repo.Description
 		stargazersCount := repo.StargazersCount
 
-		// Find CVE in the clone URL or description
-		matches := cveRegex.FindAllString(cloneURL+description, -1)
-		if len(matches) == 0 {
+		searchText := cloneURL + " " + description
+		uniqueMatches := findStrictCVEIDs(searchText)
+		if len(uniqueMatches) == 0 {
 			continue
 		}
-
-		// Remove duplicate CVE entries from matches
-		uniqueMatches := uniqueStrings(matches)
 
 		// Skip repos with more than one unique CVE
 		if len(uniqueMatches) > 1 {
@@ -472,7 +509,7 @@ func processRepos(repos []*GitHubRepository, year string) []RepoDetails {
 			continue
 		}
 
-		cveName := strings.ToUpper(uniqueMatches[0])
+		cveName := uniqueMatches[0]
 
 		// Clone the repo with the highest stargazers if multiple repos for the same CVE
 		if existingRepo, exists := cveMap[cveName]; exists {
@@ -651,35 +688,19 @@ func exportToJSON(repos []*GitHubRepository, year string) error {
 
 	// Group repositories by CVE ID
 	cveMap := make(map[string][]CVERepository)
-	cveRegex := regexp.MustCompile(fmt.Sprintf(`(?i)cve-%s-\d+`, year))
 	catchAllKey := fmt.Sprintf("OTHER-%s", year)
 
 	for _, repo := range repos {
-		// Use strings.Builder to completely eradicate GC allocation loops on multi-string concatenation
-		var sb strings.Builder
-		sb.WriteString(repo.Name)
-		sb.WriteString(" ")
-		sb.WriteString(repo.FullName)
-		sb.WriteString(" ")
-		sb.WriteString(repo.Description)
-		
-		for _, topic := range repo.Topics {
-			sb.WriteString(" ")
-			sb.WriteString(topic)
-		}
-
-		searchText := sb.String()
-		matches := cveRegex.FindAllString(searchText, -1)
+		searchText := repoSearchText(repo)
+		uniqueMatches := findStrictCVEIDs(searchText)
 		cveRepo := toCVERepository(repo)
 
-		if len(matches) == 0 {
-			// Repository doesn't match any CVE pattern, add to catch-all
+		if len(uniqueMatches) == 0 {
+			// Repository doesn't match any strict CVE pattern, add to catch-all
 			cveMap[catchAllKey] = append(cveMap[catchAllKey], cveRepo)
 		} else {
-			uniqueMatches := uniqueStrings(matches)
-			// Add repository to each matching CVE
-			for _, match := range uniqueMatches {
-				cveName := strings.ToUpper(match)
+			// Add repository to each strictly validated CVE bucket
+			for _, cveName := range uniqueMatches {
 				cveMap[cveName] = append(cveMap[cveName], cveRepo)
 			}
 		}

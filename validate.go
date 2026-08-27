@@ -41,7 +41,10 @@ func main() {
 		sort.Strings(yearFiles)
 		totalCVEs := 0
 		yearsWithData := 0
-		cveIDPattern := regexp.MustCompile(`^CVE-\d{4}-\d+$`)
+		cveIDPattern := regexp.MustCompile(`^CVE-\d{4}-\d{4,}$`)
+		otherBucketPattern := regexp.MustCompile(`^OTHER-\d{4}$`)
+		invalidBucketCount := 0
+		otherBucketCount := 0
 
 		for _, f := range yearFiles {
 			raw, err := os.ReadFile(f)
@@ -59,12 +62,28 @@ func main() {
 			}
 			totalCVEs += len(yd.CVEs)
 
-			if len(yd.CVEs) > 0 {
-				first := yd.CVEs[0].CVEID
-				if !cveIDPattern.MatchString(first) {
-					warn(fmt.Sprintf("%s has unusual cve_id example: %q", f, first))
+			for _, entry := range yd.CVEs {
+				id := entry.CVEID
+				switch {
+				case cveIDPattern.MatchString(id):
+					continue
+				case otherBucketPattern.MatchString(id):
+					otherBucketCount++
+					continue
+				default:
+					invalidBucketCount++
+					if invalidBucketCount <= 5 {
+						warn(fmt.Sprintf("%s has non-strict cve_id bucket %q (expect CVE-YYYY-NNNN+ or OTHER-YYYY)", f, id))
+					}
 				}
 			}
+		}
+
+		if otherBucketCount > 0 {
+			warn(fmt.Sprintf("OTHER-* catch-all buckets present (%d across year files; not CVE ids)", otherBucketCount))
+		}
+		if invalidBucketCount > 5 {
+			warn(fmt.Sprintf("%d additional non-strict cve_id buckets omitted from detailed warnings", invalidBucketCount-5))
 		}
 
 		if totalCVEs > 0 {
