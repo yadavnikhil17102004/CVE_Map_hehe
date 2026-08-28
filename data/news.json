@@ -1,6 +1,96 @@
 {
-  "last_updated": "2026-08-27T16:08:10Z",
+  "last_updated": "2026-08-28T01:17:51Z",
   "articles": [
+    {
+      "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
+      "link": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
+      "description": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
+      "pub_date": "Thu, 27 Aug 2026 17:38:53 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
+      "link": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
+      "description": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavi...",
+      "pub_date": "Fri, 28 Aug 2026 00:06:19 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpo4ImsmaHcawsJN9e4E5SzjUF-nbgOxCyybx3DIguSY_exMP1jhR2BZJ3yE2ZqGOE5c6_NvldW6id4Nm_NgcVrrRPALnw1fNbiisTiy8QFiIKriNiWRq6JMb5QcQTcDBaV_T3r6QYR9VC_FwtLg-G6lSYNM0F3n7q_HXI7aScGzMNB-OwLs6U9iqdk7Gs/s1600/openai.jpg"
+    },
+    {
+      "title": "PaperCut NG/MF Vulnerability Actively Exploited in Attack – All Versions Impacted",
+      "link": "https://cybersecuritynews.com/papercut-ng-mf-vulnerability-actively-exploited/",
+      "description": "PaperCut has confirmed that hackers are actively exploiting an unpatched vulnerability in its widely used PaperCut NG and PaperCut MF print management software, prompting the company to rush out an...",
+      "pub_date": "Thu, 27 Aug 2026 17:27:34 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/PaperCut-NGMF-Vulnerability-Actively-Exploited.png"
+    },
+    {
+      "title": "Cybercriminals Are Selling Corporate Executives’ Social Security Numbers for Just 25 Cents",
+      "link": "https://cybersecuritynews.com/executive-social-security-numbers/",
+      "description": "Corporate executives\u0026#8217; most sensitive identity data is being sold on dark web marketplaces for as little as a quarter, according to new threat intelligence from Rapid7. Unlike stolen credit ca...",
+      "pub_date": "Thu, 27 Aug 2026 16:54:31 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Executive-Social-Security-Numbers.webp"
+    },
+    {
+      "title": "CISA Warns of Citrix NetScaler ADC and Gateway Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/citrix-netscaler-adc-and-gateway-vulnerability-exploited/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency has added a critical Citrix NetScaler ADC and NetScaler Gateway security flaw, tracked as CVE-2026-8452, to its Known Exploited Vulnerabili...",
+      "pub_date": "Thu, 27 Aug 2026 16:46:55 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-Citrix-NetScaler-ADC-and-Gateway-Vulnerability-Exploited-in-Attacks-1.webp"
+    },
+    {
+      "title": "New Twitter Launches as Startup Claims Elon Musk’s X Abandoned the Twitter Name",
+      "link": "https://cybersecuritynews.com/new-twitter-launches/",
+      "description": "A startup operating as Operation Bluebird, Inc. has launched early access to a new social media service on Twitter.now, positioning itself as a revival of the Twitter brand that Elon Musk’s X Cor...",
+      "pub_date": "Thu, 27 Aug 2026 16:34:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Twitter-is-Back.webp"
+    },
+    {
+      "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
+      "description": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
+      "pub_date": "Thu, 27 Aug 2026 12:31:53 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Manchester Airports Group says hackers stole travelers' data",
+      "link": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/",
+      "description": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",
+      "pub_date": "Thu, 27 Aug 2026 12:12:26 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "GitLab Fixes Claude AI Agent Flaw That Could Execute Arbitrary Commands in CI Pipeline",
+      "link": "https://cybersecuritynews.com/gitlab-fixes-claude-ai-agent-flaw/",
+      "description": "GitLab has released security updates to fix a high-severity vulnerability in its Duo Claude AI agent that could allow authenticated developers to execute arbitrary commands within CI pipeline conte...",
+      "pub_date": "Thu, 27 Aug 2026 16:06:59 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GitLab-Fixes-Claude-AI-Agent-Flaw-That-Could-Execute-Arbitrary-Commands-in-CI-Pipelines.webp"
+    },
+    {
+      "title": "TP-Link Kasa Smart Home Devices Vulnerability Allows Attackers to Disrupt Device Functionality",
+      "link": "https://cybersecuritynews.com/tp-link-kasa-smart-home-devices-vulnerability/",
+      "description": "TP-Link has disclosed a high-severity vulnerability affecting multiple Kasa smart home devices that could allow attackers on the same local network to intercept, replay, or forge device-control com...",
+      "pub_date": "Thu, 27 Aug 2026 16:03:24 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/TP-Link-Kasa-Smart-Home-Devices-Vulnerability-Allow-Attackers-to-Disrupt-device-functionality.webp"
+    },
     {
       "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
       "link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
@@ -9,6 +99,60 @@
       "source": "GitHub Security",
       "tier": 4,
       "image_url": "https://github.blog/wp-content/uploads/2026/02/header.jpg?resize=1024%2C538"
+    },
+    {
+      "title": "CISA Warns of Microsoft SQL Server RCE Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/microsoft-sql-server-rce-vulnerability/",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency has added a Microsoft SQL Server remote code execution vulnerability, tracked as CVE-2019-1068, to its Known Exploited Vulnerabilities cata...",
+      "pub_date": "Thu, 27 Aug 2026 15:49:42 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-Microsoft-SQL-Server-RCE-Vulnerability-Exploited-in-Attacks-.webp"
+    },
+    {
+      "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
+      "description": "Credit:\u0026nbsp;Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exp...",
+      "pub_date": "Thu, 27 Aug 2026 20:43:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYbQmCgjQOeGU5sXrRRnYNbfxDed_Evv1vYrDL4L4NOguQ5wIxE6glQW7yQvhR1Dzs4Gbddc2ktadXWc2VkaGHE4pvMmjaXHMRuepjwrzefXNHb6B3Shk51VRBQw0etS5WWsS9JuNN4q_Y8lDSFtzKNEgi2X-NvAllwzw5_03HwGdC7iNJc6METEjcUNc/s1600/nodejs.gif"
+    },
+    {
+      "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
+      "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
+      "description": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine.  The rest of the week gets stranger: botnets bo...",
+      "pub_date": "Thu, 27 Aug 2026 20:42:16 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwWCb2shFhaav60Wjr2-8DoStCVaQrYqkE6EBZ8F5sREap-Khi19y-w9NVmFHyHosV6xVB0fTeN_DcSpGIyCZ621SnjqZozRVG70ceOey_D8djA5r5rpP9tFkRSESgs4kHZilTMoz2y8uqX-iTLR0JjjZkhypYjCCAEvQKzyU7xarQpt3sYvJc-fnWSWlb/s1600/threats.jpg"
+    },
+    {
+      "title": "Two Australians Charged Over TeamPCP Supply-Chain Attacks That Hit 1,000+ Organizations",
+      "link": "https://cybersecuritynews.com/two-australians-teampcp-supply-chain/",
+      "description": "Two Western Australian men have been charged over alleged TeamPCP supply-chain attacks that police say planted malicious open-source code and reached more than 1,000 organizations worldwide. The Au...",
+      "pub_date": "Thu, 27 Aug 2026 14:15:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Two-Australians-TeamPCP-Supply-Chain.webp"
+    },
+    {
+      "title": "AWS Shows How Hackers Can Turn Stolen Cloud Credentials Into Full-Scale Attacks",
+      "link": "https://cybersecuritynews.com/aws-shows-how-hackers/",
+      "description": "Stolen cloud credentials can turn an incident into a wider breach. An attacker who gets a valid AWS key or session can enter as an approved user and move toward sensitive systems. It can begin with...",
+      "pub_date": "Thu, 27 Aug 2026 14:02:20 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AWS-Shows-How-Hackers-Can-Turn-Stolen-Cloud-Credentials-Into-Full-Scale-Attacks.webp"
+    },
+    {
+      "title": "Multiple TeamViewer Vulnerabilities Enable Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/multiple-teamviewer-vulnerability/",
+      "description": "TeamViewer patched high-severity CVE-2026-16444, allowing authenticated remote-session attackers to write files to unintended locations and potentially execute code with user privileges. The issue ...",
+      "pub_date": "Thu, 27 Aug 2026 14:00:56 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Multiple-TeamViewer-Vulnerabilities-Enables-Remote-Code-Execution-Attacks.webp"
     },
     {
       "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
@@ -218,33 +362,6 @@
       "image_url": ""
     },
     {
-      "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
-      "description": "Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched servers, according to threat intelligence company Defused....",
-      "pub_date": "Wed, 26 Aug 2026 10:47:51 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "FBI disrupts proxy network enabling Chinese espionage operations",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
-      "description": "The FBI has disrupted infrastructure associated with a technical \"quartermaster\" that provided reconnaissance, proxy management, and operational routing capabilities for Chinese cyber espionage act...",
-      "pub_date": "Wed, 26 Aug 2026 10:17:59 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Snowflake ends service-account passwords. Now comes the hard part ",
-      "link": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
-      "description": "Snowflake is ending password authentication for legacy service accounts, forcing organizations to migrate them to passwordless methods. Token Security explains why the harder challenge is identifyi...",
-      "pub_date": "Wed, 26 Aug 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
       "link": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
       "description": "Cybersecurity researchers have disclosed details of a new adversary-in-the-middle (AitM) phishing toolkit called NovaCookies that's used as a proxy to redirect Microsoft 365 sign-ins, while capturi...",
@@ -261,33 +378,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW3w9bF-wcalV_4xeymOZiHzRSkeBfz8Vh1B58JkthAgonYo-DGr3kWwNQ8ia760jX1kfC7NTkitD9rWxJNSNzMZWTAVWqrmJQXL7-1rOHbmC7mKSmfArdBAp5s4phuF3SlKr20agmwKrpI56a9SijzuYLnhYlb3R4l7uhb4S0Na0d3_OplvHmbC1EDCk/s1600/cisa-hack.jpg"
-    },
-    {
-      "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
-      "link": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
-      "description": "The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from...",
-      "pub_date": "Wed, 26 Aug 2026 17:25:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4vWsyC0OylljN3m8OwCHpDKLPXe9Sw7VI5ddPEuRswkrrsHlTyfbfkXAKOTX7jemZjktTQh1IlD1hjeWsOJwZm2aSe4OtppGdqTBMUCxgFAPIfI2RY-jAdZD5hfHsj7KpRexnN4SbfUJ8nsLB8w6P_me_L8xM00ZjskYgpyEbMkDBC5hSt5FAuLbFaK0/s1600/kaltura.jpg"
-    },
-    {
-      "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
-      "link": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
-      "description": "The SOC we've always known was built around a model that guarantees most of the alert queue will never receive analyst review. There's never time. In a traditional SOC, the typical progression foll...",
-      "pub_date": "Wed, 26 Aug 2026 17:06:49 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZq8QFTxW4LuCB6uU-05X_ZcT88PxrCrq4S8Tlt-ntdFViEUD7XTOuFp0Ep2oNd61UEYcnfV0dFYW7E1jzogc2t4fm3R2CU7I45rc9bF2fAPi85MeDbxGio5jRIK_8jmMeI9A6hU_laVDVcU5yvODt55syFnI0F4cHX0N1Wul8IGg9A_PbkM_sOHoSFds/s1600/Corelight.jpg"
-    },
-    {
-      "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
-      "link": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
-      "description": "Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited ...",
-      "pub_date": "Wed, 26 Aug 2026 15:57:23 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiLH7AlxOwnKOlTs4Zi3D7tyko_H-564oFmjcBu-YP4_YR7HMgRvWhGB9r0NhXwpVoqVk82yjCt9XjEcDfo7-iSoAVduYsjNndt3gU2fHqJ7PlwnFCjRaHJSYEMuZMAZOn6M_yGZ24JuUUjVCs1hTXes8h-q4OLFj2liDETlKzvCRAqKa-jX2Yrh-iErI/s1600/claude-gym.jpg"
     },
     {
       "title": "Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)",
@@ -632,9 +722,18 @@
       "image_url": "https://github.blog/wp-content/uploads/2026/06/Screenshot-2026-06-30-at-3.28.09-PM.png?resize=1024%2C374"
     },
     {
-      "title": "Mitsubishi Electric Multiple FA Products (Update D)",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-128-03",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition, a timeout error, or a communication delay by sending a sp...",
+      "title": "Rockwell Automation OTTO Fleet Manager",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-03",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could reduce the computational cost required for an attacker to perform offline brute-force attacks against stored password hashes. T...",
+      "pub_date": "Thu, 27 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Xiiaozet LK100W",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-01",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to take control over the device. The following versions of Xiiaozet LK100W are affected:  LK100W \u0026lt;2.1.2...",
       "pub_date": "Thu, 27 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -650,10 +749,46 @@
       "image_url": ""
     },
     {
-      "title": "CISA Vulnerability Review",
-      "link": "https://www.cisa.gov/resources-tools/resources/cisa-vulnerability-review",
-      "description": "Most compromises do not rely on advanced techniques or cutting-edge tools. Cyber threat actors scan the internet looking for exposed, well-known software vulnerabilities to exploit. Basic security ...",
-      "pub_date": "Wed, 26 Aug 26 12:00:00 +0000",
+      "title": "Mitsubishi Electric Multiple FA Products (Update D)",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-128-03",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition, a timeout error, or a communication delay by sending a sp...",
+      "pub_date": "Thu, 27 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.   CVE-2023-49105 ownCloud Improper Authentication Vulnerabil...",
+      "pub_date": "Thu, 27 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Ebyte NA111-M",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-05",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to fully compromise the device. The following versions of Ebyte NA111-M are affected:  NA111-M Firmware 90...",
+      "pub_date": "Thu, 27 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "All-Line Equipment Company Fuel-Boss",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-02",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to execute arbitrary commands or code remotely on affected systems. The following versions of All-Line Equip...",
+      "pub_date": "Thu, 27 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "Applied Systems Engineering ASE2000 V2 Communications Test Set",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-04",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to read or write arbitrary local files, cause the application to issue outbound network requests, or inter...",
+      "pub_date": "Thu, 27 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
@@ -668,19 +803,10 @@
       "image_url": ""
     },
     {
-      "title": "PayRange API",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote, authenticated or unauthenticated attacker to disclose sensitive information, arbitrarily modify the device to c...",
-      "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "FURUNO FA-50 Class B AIS Transponder",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-07",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to alter device settings. The following versions of FURUNO FA-50 Class B AIS Transponder are affected:  FU...",
-      "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
+      "title": "CISA Vulnerability Review",
+      "link": "https://www.cisa.gov/resources-tools/resources/cisa-vulnerability-review",
+      "description": "Most compromises do not rely on advanced techniques or cutting-edge tools. Cyber threat actors scan the internet looking for exposed, well-known software vulnerabilities to exploit. Basic security ...",
+      "pub_date": "Wed, 26 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
@@ -704,6 +830,15 @@
       "image_url": ""
     },
     {
+      "title": "PayRange API",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote, authenticated or unauthenticated attacker to disclose sensitive information, arbitrarily modify the device to c...",
+      "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
       "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
       "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
       "description": "Advisory at a Glance    Title A Tale of Two SOCs: Insights From Two Red Team Assessments   Original Publication\u0026nbsp; August 25, 2026   Executive Summary  The Cybersecurity and Infrastructure Secur...",
@@ -717,51 +852,6 @@
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized administrative access, disclose sensitive information, modify device configuration, h...",
       "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Bendix EC80 Brake ECU",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-05",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause the loss of ABS functions, steering assist, speedometer, shifting capabilities, or disable automa...",
-      "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Rently Smart Home",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to access sensitive information and override user permissions. The following versions of Rently Smart Home ar...",
-      "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "Zoneminder",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-02",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in full Remote Code Execution (RCE) as the web server user. The following versions of Zoneminder are affected:  Zonemind...",
-      "pub_date": "Tue, 25 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-21962 Oracle HTTP Server and Oracle Weblogic Se...",
-      "pub_date": "Mon, 24 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog   ",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;  CVE-2026-73570 Zimbra Collaboration Suite (ZCS) OS Comma...",
-      "pub_date": "Fri, 21 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
       "image_url": ""
