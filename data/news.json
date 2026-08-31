@@ -1,6 +1,141 @@
 {
-  "last_updated": "2026-08-31T04:02:09Z",
+  "last_updated": "2026-08-31T11:23:44Z",
   "articles": [
+    {
+      "title": "Hackers Use Ethereum Blockchain to Steal Credit Card Data From Online Shoppers",
+      "link": "https://cybersecuritynews.com/hackers-use-ethereum-blockchain/",
+      "description": "Online shoppers can have their card details stolen without ever leaving a legitimate store. A tracked Magecart campaign plants malicious checkout code on compromised e-commerce sites, then uses Eth...",
+      "pub_date": "Mon, 31 Aug 2026 11:06:00 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Ethereum-Blockchain-to-Steal-Credit-Card-Data-From-Online-Shoppers.webp"
+    },
+    {
+      "title": "OpenClaw 2.0 Released With Major Security Upgrades for AI Agents, Plugins and Credentials",
+      "link": "https://cybersecuritynews.com/openclaw-2-0-released/",
+      "description": "OpenClaw has released version 2026.8.1, also called OpenClaw 2.0, in what the open-source AI agent platform described as its largest update to date. The release was built by 933 contributors, inclu...",
+      "pub_date": "Mon, 31 Aug 2026 10:54:46 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenClaw-2.0-Released-With-Major-Security-Upgrades-for-AI-Agents-Plugins-and-Credentials.webp"
+    },
+    {
+      "title": "Microsoft says Windows 11 KB5120998 update resets mouse settings",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/",
+      "description": "Microsoft has confirmed that mouse settings are being reverted on Windows 11 systems after installing the KB5120998 August 2026 non-security preview update. [...]",
+      "pub_date": "Mon, 31 Aug 2026 06:23:46 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "New AI-Built Malware Watches How Security Teams Remove It and Fights Back",
+      "link": "https://cybersecuritynews.com/new-ai-built-malware-watches/",
+      "description": "A new Windows malware toolkit is showing how artificial intelligence can change the economics of cybercrime. Known as Gryxa, it gives a criminal operator remote access, stays active after partial c...",
+      "pub_date": "Mon, 31 Aug 2026 09:25:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-AI-Built-Malware-Watches-How-Security-Teams-Remove-It-and-Fights-Back.webp"
+    },
+    {
+      "title": "Nigerians extradited to US for sextortion, deaths of two teens",
+      "link": "https://www.bleepingcomputer.com/news/security/nigerians-charged-US-over-sextortion-deaths-of-us-teens/",
+      "description": "Two Nigerian men extradited to the U.S. on Thursday have been charged with involvement in sextortion schemes that resulted in the deaths of two minor victims in Mississippi and North Carolina. [...]",
+      "pub_date": "Mon, 31 Aug 2026 05:22:47 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Confirms False “Defender Antivirus Turned Off” Alerts Spreading Across Windows Devices",
+      "link": "https://cybersecuritynews.com/microsoft-defender-antivirus-turned-off/",
+      "description": "Microsoft has confirmed that a wave of alarming Windows Security pop-ups telling users their antivirus protection is disabled is nothing more than a software bug, not an actual security issue. In a...",
+      "pub_date": "Mon, 31 Aug 2026 09:05:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Confirms-False-_Defender-Antivirus-Turned-Off.webp"
+    },
+    {
+      "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
+      "link": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
+      "description": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control ...",
+      "pub_date": "Mon, 31 Aug 2026 14:34:55 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxYI5Ntk3CPoEGUHNQbd80hij-0QLnz3V_HBU3aXV-mvQq98IE6xsRlbuwZ2PNbbSV7dA-HlNfqRWj0_bd3XpQCOPt9R2gS3PJMm8lfMP_9IoKyhDNbY9NOotNDHO68v2DSUT_R-0UYTqZQc16DJM7OqS8_35iVUMqyy3GrUt7iMaIWz6iW6OSP2ddiDc/s1600/cisco-creds.jpg"
+    },
+    {
+      "title": "Microsoft asks users to ignore 'Antivirus is turned off' errors",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/",
+      "description": "Microsoft asked customers this week to ignore alerts that Defender Antivirus has been turned off after installing the latest Defender updates. [...]",
+      "pub_date": "Mon, 31 Aug 2026 04:29:42 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Composer Flaw Lets Malicious Dependencies Expose SSH Keys and Sensitive Files",
+      "link": "https://cybersecuritynews.com/composer-flaw-expose-ssh-keys/",
+      "description": "A newly disclosed security flaw in Composer, the widely used dependency manager for PHP, could allow a malicious or compromised package to alter permissions on files located outside its own install...",
+      "pub_date": "Mon, 31 Aug 2026 08:11:56 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Composer-Flaw-Lets-Malicious-Dependencies-Expose-SSH-Keys-and-Sensitive-Files-.webp"
+    },
+    {
+      "title": "Hackers Use Fake Cloudflare CAPTCHA to Deploy Reverse Tunnel Into Corporate Networks",
+      "link": "https://cybersecuritynews.com/fake-cloudflare-captcha/",
+      "description": "Hackers are using a fake Cloudflare CAPTCHA to turn a routine web check into a doorway into corporate networks. The campaign, called TerminalFix, begins on compromised websites and persuades visito...",
+      "pub_date": "Mon, 31 Aug 2026 07:58:22 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-Cloudflare-CAPTCHA-to-Deploy-Reverse-Tunnel-Into-Corporate-Networks.webp"
+    },
+    {
+      "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
+      "link": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
+      "description": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now p...",
+      "pub_date": "Mon, 31 Aug 2026 13:26:53 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHmPwSKHINCGncOKbSs9X05lJ2CJQivbfLYQ6LP3njVHAc-4fgSYJz-C1u6SUiFEtcF4ddjW3PBayFsVaF2a03OOkaLfWlg8pxJelp5bEhJT0LEv8-XPs9bUf8ruFcGOzjWAbumEJ4Veirq9lAAalOThmUfD0i19Mo5X_HpDcI21_5pJp7WsA8OPh74Ad_/s1600/justice.jpg"
+    },
+    {
+      "title": "Critical Microsoft Flaw Lets Hackers Remotely Control Android Devices Without a Login",
+      "link": "https://cybersecuritynews.com/microsoft-flaw/",
+      "description": "A critical vulnerability in Microsoft’s open-source UFO automation framework, tracked as CVE-2026-73296 with a CVSS score of 9.4, could allow remote attackers to view and control Android devices ...",
+      "pub_date": "Mon, 31 Aug 2026 07:34:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Microsoft-Flaw-Lets-Hackers-Remotely-Control-Android-Devices-Without-a-Login.webp"
+    },
+    {
+      "title": "Hackers’ Own Malware Infection Exposes Their RATs, Phishing Kits and Attack Infrastructure",
+      "link": "https://cybersecuritynews.com/hackers-own-malware-infection/",
+      "description": "A malware investigation has exposed the tools and infrastructure used by suspected operators behind a Blind Eagle-linked campaign targeting Colombia and the wider region. The break came after an ap...",
+      "pub_date": "Mon, 31 Aug 2026 05:22:17 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Own-Malware-Infection-Exposes-Their-RATs-Phishing-Kits-and-Attack-Infrastructure.webp"
+    },
+    {
+      "title": "Free Router DNS Tweak Blocks Malware and Phishing Across Home Networks",
+      "link": "https://cybersecuritynews.com/router-dns-tweak-blocks-malware/",
+      "description": "A router configuration change is gaining attention as a way to add defense against phishing and malware. Cybersecurity commentator Luis Catacora urged users to replace default DNS resolvers on a ro...",
+      "pub_date": "Mon, 31 Aug 2026 03:58:08 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Router-DNS-Tweak-Blocks-Malware.webp"
+    },
+    {
+      "title": "Hackers Steal Claude Login Sessions With Infostealer Malware to Hijack Accounts",
+      "link": "https://cybersecuritynews.com/hackers-steal-claude-login-sessions/",
+      "description": "Anthropic\u0026#8217;s Claude AI platform has become an active target for cybercriminals, with two distinct attack chains now confirmed to be stealing credentials, hijacking paid usage, and reinfecting ...",
+      "pub_date": "Mon, 31 Aug 2026 02:36:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Steal-Claude-Login-Sessions.webp"
+    },
     {
       "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
       "link": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
@@ -227,15 +362,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0i2viN2zKBeSxzTqoxZkPNq_6lPMDBLb18zbLPwufsY4mFm494ydDDAWi6gGwy6PsmRGublHFmdmcEiGKViLuUgaJwWux_YUW7HQHuGbbf04HGNpoZa6QLmvf1IHE04TeTT89Yc1_jo0z6mptCbX-fIhVEVQzg5GnfU2Uya4HHASHbttTBGMxl7KMkbM/s1600/router-malware.jpg"
     },
     {
-      "title": "ServiceNow warns of three max severity security vulnerabilities",
-      "link": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
-      "description": "ServiceNow released security patches for three new maximum-severity AI Platform vulnerabilities that can be exploited in code injection, SQL injection, and privilege escalation attacks. [...]",
-      "pub_date": "Fri, 28 Aug 2026 06:29:42 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "PaperCut NG/MF Critical Zero-Day Exploited in the Wild",
       "link": "https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild",
       "description": "Overview\tOn August 27, 2026, PaperCut Software published an urgent security advisory stating that it is investigating active exploitation of a vulnerability affecting PaperCut NG and PaperCut MF. P...",
@@ -252,42 +378,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtKp2lGcxPfp8ymA88FIBXB0Bn9fcUSaU_UIl1pfAjDSC2usRwUE73vhQEeP6jar9U9k10yotgyYl_tIk6dQA-MFIr2bJ3LN_azGt9kDU6hpW448HgmBuJbc6TWSo1vfpmhoK0J3_5rhF6VIpWd7NYf0G1YSYHdqKubWgQwa1yU6KRAL-bnDGd8HmCmPk/s1600/cpanel-root.jpg"
-    },
-    {
-      "title": "Windows 11 KB5120998 update released with 35 changes and fixes",
-      "link": "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/",
-      "description": "Microsoft released the KB5120998 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 35 changes, including improvements to the Start menu, taskbar, and Windows search....",
-      "pub_date": "Fri, 28 Aug 2026 05:10:13 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
-      "link": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
-      "description": "PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks.  The ...",
-      "pub_date": "Fri, 28 Aug 2026 13:55:36 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3avAnoYOOKqF8JpZv9Lng1lKE0AqmHOqM-Mq2T297NQrtDBM90yMYIzzVMHgzqytcCvFz7LuBXoPp-d9mRh0_dywBaM8NxZaiKPG0gDuYbSt2oRJdxSkHG5tWjxAMKvWUYZe6YINf_-7i5zUS7xGrDcaXulRvT5jVihWDJzAHSlaXQ6UYlHa6cPMpxbDC/s1600/papercut.jpg"
-    },
-    {
-      "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
-      "link": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
-      "description": "Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026.  ...",
-      "pub_date": "Fri, 28 Aug 2026 13:50:59 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhjJnzm1UIfq8P7glIadtS8dGFvdsASot4sviMtZtFwpKL5B_2upZBcjMdYEBDcSnGmxpKP5LPUQ4XTpao-qCCbe6hQYF9qQBF7bhcPcZJkaz8KY9CCaKBRe-iu3ovbkZWjjtWEs_XJ9hl7D9ZRdKK9LqJynEh9XQ_7o8HZGi572pfnKyt3Yznk1QA311_/s1600/eu-meeting.jpg"
-    },
-    {
-      "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
-      "link": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
-      "description": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
-      "pub_date": "Thu, 27 Aug 2026 17:38:53 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
