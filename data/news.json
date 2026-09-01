@@ -1,14 +1,158 @@
 {
-  "last_updated": "2026-09-01T09:13:24Z",
+  "last_updated": "2026-09-01T14:33:52Z",
   "articles": [
     {
-      "title": "Popular npm Package With 150K Weekly Downloads Compromised in Mini Shai-Hulud Supply-Chain Attack",
-      "link": "https://cybersecuritynews.com/popular-npm-package-2/",
-      "description": "A JavaScript development package has been caught in a supply-chain compromise that can run malicious code when installed. The incident affects a tool with about 150,000 weekly downloads, risking de...",
-      "pub_date": "Tue, 01 Sep 2026 08:36:35 +0000",
+      "title": "Novocure data breach affects more than 1,400 cancer patients",
+      "link": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
+      "description": "Healthtech company Novocure says the data of an undisclosed number of employees and more than 1,400 U.S. cancer patients has been exposed in a mid-August cyberattack. [...]",
+      "pub_date": "Tue, 01 Sep 2026 10:28:40 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
+      "link": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
+      "description": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge security controls. Spur explains how session enrichmen...",
+      "pub_date": "Tue, 01 Sep 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Five Hackers Plead Guilty to ATM Jackpotting Attacks Using Malware to Dispense Cash",
+      "link": "https://cybersecuritynews.com/hackers-plead-guilty-to-atm-jackpotting-attacks/",
+      "description": "Five Venezuelan nationals have pleaded guilty in a U.S. federal case involving attempted ATM jackpotting attacks. This criminal technique uses malware to force cash machines to dispense money witho...",
+      "pub_date": "Tue, 01 Sep 2026 13:57:15 +0000",
       "source": "Cyber Security News",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Popular-npm-Package-With-150K-Weekly-Downloads-Compromised-in-Mini-Shai-Hulud-Supply-Chain-Attack.webp"
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Five-Hackers-Plead-Guilty-to-ATM-Jackpotting-Attacks-Using-Malware-to-Dispense-Cash-.webp"
+    },
+    {
+      "title": "Hackers Actively Exploiting Critical Langflow RCE and Rails Vulnerability",
+      "link": "https://cybersecuritynews.com/langflow-rce-and-rails-vulnerability-exploited/",
+      "description": "Two critical vulnerabilities affecting Langflow and Ruby on Rails deployments are being actively exploited, with attackers quickly moving from public disclosure to reconnaissance, secret harvesting...",
+      "pub_date": "Tue, 01 Sep 2026 13:52:27 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Actively-Exploiting-Critical-Langflow-RCE-and-Ralis-Vulnerability.webp"
+    },
+    {
+      "title": "Hackers Pose as Recruiters and Send Fake Coding Tests to Infect Software Developers",
+      "link": "https://cybersecuritynews.com/fake-coding-tests/",
+      "description": "Cybercriminals are posing as recruiters to turn routine job interviews into malware traps for software developers. Their latest campaign delivers two cross-platform remote access tools, NodeRabbit ...",
+      "pub_date": "Tue, 01 Sep 2026 13:40:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Pose-as-Recruiters-and-Send-Fake-Coding-Tests-to-Infect-Software-Developers.webp"
+    },
+    {
+      "title": "Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement",
+      "link": "https://cybersecuritynews.com/hackers-weaponize-microsoft-teams/",
+      "description": "Attackers are turning Microsoft Teams help desk calls into an entry point for malware and network compromise. A campaign tracked as Spring Ring used external accounts that resembled internal IT sup...",
+      "pub_date": "Tue, 01 Sep 2026 13:30:02 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Weaponize-Microsoft-Teams-Help-Desk-Calls-for-Malware-and-Network-Lateral-Movement.webp"
+    },
+    {
+      "title": "Boston Scientific Cyberattack Disrupts Medical Device Manufacturing and Global Operations",
+      "link": "https://cybersecuritynews.com/boston-scientific-cyberattack/",
+      "description": "Boston Scientific is investigating a cybersecurity incident that disrupted parts of its global operations, affecting manufacturing, order processing, and product shipments. The company said the inc...",
+      "pub_date": "Tue, 01 Sep 2026 13:15:21 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Boston-Scientific-Cyberattack-Disrupts-Medical-Device-Manufacturing-and-Global-Operations.webp"
+    },
+    {
+      "title": "Hackers Pose as OpenAI, Anthropic and DeepSeek to Steal Credentials and Secrets",
+      "link": "https://cybersecuritynews.com/hackers-pose-as-openai-anthropic-to-steal-secrets/",
+      "description": "Threat actors are impersonating web crawlers from OpenAI, Anthropic, DeepSeek, and other major organizations to scan websites for exposed credentials and sensitive configuration files, targeting mi...",
+      "pub_date": "Tue, 01 Sep 2026 13:10:55 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Pose-as-OpenAI-Anthropic-and-DeepSeek-to-Steal-Credentials-and-Secrets.webp"
+    },
+    {
+      "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
+      "link": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+      "description": "The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued evolution of its toolset and likely expand its targeting ...",
+      "pub_date": "Tue, 01 Sep 2026 18:38:58 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm2I0vj1ygDfFQ8UzazaxECq0aAP3UJ_VRMzeCN0MgTkWk4yLEUbKKU9dE0pIyXZIfJ0MgxjYEqAqWLAXAtuATDCdFZPI9WGkgwz04Mdd7LChIfMrWk-vhGfaHDGtySDkbIXgzBcNfh5qcobm-bz8QWuyVCcH7z9CM_RNZusA2rPEHV5g2WJ2tU6Llrdnu/s1600/iran-hacking.jpg"
+    },
+    {
+      "title": "JFrog Artifactory Auth Bypass Exploited in Attacks to Gain Admin Access",
+      "link": "https://cybersecuritynews.com/jfrog-artifactory-auth-bypass-exploited/",
+      "description": "A critical authentication bypass vulnerability in JFrog Artifactory, tracked as CVE-2026-82329, is being actively exploited, allowing unauthenticated attackers with network access to gain administr...",
+      "pub_date": "Tue, 01 Sep 2026 13:06:01 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/JFrog-Artifactory-Auth-Bypass-Exploited-in-Attacks-to-gain-Admin-Access.webp"
+    },
+    {
+      "title": "21,000+ Microsoft Exchange Servers Remain Exposed to Active CVE-2026-62911 Exploitation",
+      "link": "https://cybersecuritynews.com/exchange-servers-remain-exposed-2026-62911/",
+      "description": "Nearly 22,000 Microsoft Exchange servers worldwide are still running unpatched for CVE-2026-62911, a critical authentication-bypass vulnerability that attackers can exploit to seize control of ente...",
+      "pub_date": "Tue, 01 Sep 2026 12:51:09 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Exchange-Servers-CVE-2026-62911-Remain-Exposed.webp"
+    },
+    {
+      "title": "Hackers Abuse Real ChatGPT Links to Trick Windows Users Into Installing Malware",
+      "link": "https://cybersecuritynews.com/hackers-abuse-real-chatgpt-links/",
+      "description": "Windows users are being targeted through a malicious campaign that turns a ChatGPT shared link into the step of a malware infection. Rather than breaking into the AI platform, the operators place a...",
+      "pub_date": "Tue, 01 Sep 2026 12:45:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Abuse-Real-ChatGPT-Links-to-Trick-Windows-Users-Into-Installing-Malware.webp"
+    },
+    {
+      "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
+      "description": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]",
+      "pub_date": "Tue, 01 Sep 2026 08:38:35 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "WordPress Is Using AI to Find Security Flaws Before Hackers Can Exploit Them",
+      "link": "https://cybersecuritynews.com/wordpress-is-using-ai-to-find-security-flaws/",
+      "description": "WordPress has launched a new security effort that uses artificial intelligence to identify vulnerabilities in its core software before attackers can abuse them. The initiative comes as the project ...",
+      "pub_date": "Tue, 01 Sep 2026 12:30:59 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/WordPress-Is-Using-AI-to-Find-Security-Flaws-Before-Hackers-Can-Exploit-Them.webp"
+    },
+    {
+      "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
+      "link": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
+      "description": "The most common way into a company last year was to ask.  A web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboar...",
+      "pub_date": "Tue, 01 Sep 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXRNAAGu1amxjm97oXzRGvVBD23d-thmuPvBbQm10hKlACH58ndu51swo4ggT2P2FJw1vbmWy6qdMZSyTRrgAXoi19O0Zf0vCcS47oMuhMuPSyKc1kL7bpIySVrQwgrIaYJkc4IiavU0rucYYMYWHwXgDCmsPLanV2LZv3mt__srP93r0vLWSz8Vp_L0o/s1600/click.jpg"
+    },
+    {
+      "title": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
+      "link": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
+      "description": "Five Venezuelan nationals pleaded guilty to attempting to empty automated teller machines (ATMs) using malware in a series of ATM jackpotting attacks. [...]",
+      "pub_date": "Tue, 01 Sep 2026 05:15:07 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+      "link": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
+      "description": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-h...",
+      "pub_date": "Tue, 01 Sep 2026 14:35:30 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2b-1gQHvYc7ZLc86QFtZ2LoJ7zFalpJtSy_e_laxiM_f4Ftnhuvp5eCJZRSk2NL_0tZAZAl2z1UPYfOBSTbdGOPOZexgt3GkuUqsrZPgFB2F-qG2Ir_c7Ioj6zcJVdWjzBo90HpcObPWan5eID2df6OXyn3F7-LRpdOvO8TfiZSp8L2j89p2UbsDi3zM4/s1600/metr.jpg"
     },
     {
       "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
@@ -18,15 +162,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS-2JWiSkzpLkhR3nGp917yyeS4NATTlFhnDXcvmQdrc42BPgObEnlmwXMDP7fN8ruoEJ13Zru_lTVjPwTfU8aeSfK9uGt5H9dYK0s-STCiRMe4Wai1tgbeAU9CaaYZ9aIAZSDv3hVTD5UHKdCGNXGRkkrXDgsc0_3wHruuxZg4uRJDMhuSWSXKfgFanBb/s1600/russian.jpg"
-    },
-    {
-      "title": "Hackers Use Malicious Website Themes to Steal Crypto Wallet Seeds From iPhones",
-      "link": "https://cybersecuritynews.com/malicious-website-themes/",
-      "description": "Hackers are using booby-trapped website themes to turn visits from iPhone users into a route for spyware and cryptocurrency theft. The campaign hides harmful code inside themes used by Vietnamese m...",
-      "pub_date": "Tue, 01 Sep 2026 07:58:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Malicious-Website-Themes-to-Steal-Crypto-Wallet-Seeds-From-iPhones.webp"
     },
     {
       "title": "Recently patched PaperCut zero-days used in data theft attacks",
@@ -45,42 +180,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9_EygYWh8fZRphLL1V9dg-h1jgQ0f9xmlVuPwPAaaEUUCBkKbQ4nTaL27WIevCJg42GWtDGMKyRvzBUz9MWtD2FxPx7vCKwXLirO-N1YRcpPy0mX_B_fTG2gBS-JPRJGXfCh_I2yHJgoi1V5lve7Opcm-M0ApWs6gohPjNhBi-0CsP49guHlM2lzHLsiD/s1600/lang.jpg"
-    },
-    {
-      "title": "Hackers Compromise Cisco Routers to Spy on Networks and Reach Critical Infrastructure",
-      "link": "https://cybersecuritynews.com/hackers-compromise-cisco-routers/",
-      "description": "Fire Ant has moved beyond attacking individual systems and is now compromising network infrastructure that organizations trust to move traffic and manage access. The actor has turned Cisco IOS XR r...",
-      "pub_date": "Tue, 01 Sep 2026 07:14:27 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Compromise-Cisco-Routers-to-Spy-on-Networks-and-Reach-Critical-Infrastructure.webp"
-    },
-    {
-      "title": "Hackers Target AWS Root Accounts at 150+ Organizations in Password-Spraying Campaign",
-      "link": "https://cybersecuritynews.com/hackers-target-aws-root-accounts/",
-      "description": "Datadog Security Research observed a password-spraying campaign targeting AWS root accounts at more than 150 organizations between July 24 and August 23, 2026, with repeated failed console login at...",
-      "pub_date": "Tue, 01 Sep 2026 06:07:16 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Target-AWS-Root-Accounts-at-150-Organizations-in-Password-Spraying-Campaign-1.webp"
-    },
-    {
-      "title": "Anthropic Hardens Claude Security After AI Models Gain Unauthorized Access to Real Systems",
-      "link": "https://cybersecuritynews.com/anthropic-hardens-claude-security/",
-      "description": "Anthropic has hardened security around its Claude models after several incidents in which the systems gained unauthorized access to real computers during cybersecurity evaluations. The company said...",
-      "pub_date": "Tue, 01 Sep 2026 04:25:23 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Anthropic-Hardens-Claude-Security.webp"
-    },
-    {
-      "title": "BGP Hijack Diverts Softaculous Traffic to Deliver Malicious Virtualizor Update",
-      "link": "https://cybersecuritynews.com/virtualizor-compromise/",
-      "description": "Attackers hijacked BGP routing for Softaculous last week and delivered a malicious Virtualizor update to a handful of hypervisor servers, according to a vendor incident report. Hosting providers us...",
-      "pub_date": "Tue, 01 Sep 2026 03:59:48 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Virtualizor-Compromise.webp"
     },
     {
       "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
@@ -126,42 +225,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Broadcom Launches VMware AI Factory to Secure Enterprise AI Agents",
-      "link": "https://cybersecuritynews.com/broadcom-vmware-ai-factory/",
-      "description": "Broadcom unveiled VMware AI Factory at VMware Explore 2026 in Las Vegas, introducing a software-defined foundation within VMware Private AI Cloud designed to help enterprises deploy, govern, and se...",
-      "pub_date": "Mon, 31 Aug 2026 16:43:51 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Broadcom-VMware-AI-Factory.webp"
-    },
-    {
-      "title": "Microsoft Investigating New Exchange Online Outage Tracked as EX1464935 [Updated]",
-      "link": "https://cybersecuritynews.com/microsof-new-exchange-online/",
-      "description": "Microsoft has opened an active investigation into a new Exchange Online disruption after a wave of user reports flagged access and mail-flow problems across the cloud-based email service. The incid...",
-      "pub_date": "Mon, 31 Aug 2026 16:40:42 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Exchange-Online-Outage1.webp"
-    },
-    {
-      "title": "CISA Warns of Multiple PaperCut NG/MF Vulnerabilities Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/papercut-ng-mf-vulnerabilities-exploited/",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two vulnerabilities affecting PaperCut NG and PaperCut MF to its Known Exploited Vulnerabilities (KEV) Catalog, warning th...",
-      "pub_date": "Mon, 31 Aug 2026 15:56:28 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/PaperCut-NG_MF-Vulnerabilities-Exploited.webp"
-    },
-    {
-      "title": "D-Link Router Flaws Let Unauthenticated Attackers Change Admin Password and Steal Wi-Fi Credentials",
-      "link": "https://cybersecuritynews.com/d-link-router-flaws/",
-      "description": "D-Link has released a firmware update for critical access-control and information-disclosure flaws affecting its DIR-X1860Z router. The vulnerabilities could allow an unauthenticated attacker conne...",
-      "pub_date": "Mon, 31 Aug 2026 15:44:40 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/D-Link-Router-Flaws-Let-Unauthenticated-Attackers-Change-Admin-Password-and-Steal-Wi-Fi-Credentials-1.webp"
     },
     {
       "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
@@ -317,33 +380,6 @@
       "image_url": ""
     },
     {
-      "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
-      "link": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
-      "description": "FulcrumSec claims it stole 86 GB of data from Manchester Airports Group. BleepingComputer validated one traveller's record, while samples revealed detailed customer, booking, and travel information...",
-      "pub_date": "Sun, 30 Aug 2026 11:00:21 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
-      "description": "Anthropic is warning some Claude users that infostealer malware on their PCs has stolen active Claude login sessions, allowing attackers to access accounts and consume their usage. [...]",
-      "pub_date": "Sun, 30 Aug 2026 10:30:25 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Chrome Web Store extensions caught stealing crypto, browser data",
-      "link": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
-      "description": "Multiple extensions for Google Chrome and Microsoft Edge delivered a malware framework that deployed modules to steal cryptocurrency, sensitive data, and browser history, as well as inject ClickFix...",
-      "pub_date": "Sun, 30 Aug 2026 10:17:44 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
       "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
       "description": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell.  \"While traditional Click...",
@@ -351,15 +387,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpxriybAzLw0daA0mtL3sZd04fy8Sal4s0mrBAz2-ksjwfP2V08YK_KbCJY57hKG28Kt6gn2mKq4HFSpkG2MNvA3Oz6MhNUe77_1Nvpahn2nnCFHPpxIlp5Ix4DvAZw08qXtxt1M-4zCtSENbBkODQyP_WDp9j3PXACc0XKYk1BK1K-2Xabho1cBPqerW9/s1600/cf-clickfix.jpg"
-    },
-    {
-      "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
-      "description": "Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds. [...]",
-      "pub_date": "Sat, 29 Aug 2026 19:11:51 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
@@ -378,33 +405,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRLS8X8abAbJ9p1f1jp9VIUeKfRa4l4gAIgmCWsw1eXZuJ7SY201P6w6V8NYVf1CHpaN_pyAuLg-6h-e9RYFBlBFsl3k5egiOnoj8ZiXScxu8El1jZExmlyNYfunp0Z4j5F0PYSg4Ltu0yldY-wKmI2TC5UU-7mrasEsZ_SyEso7dGFvLIpcA8hdHqVdw/s1600/berlin.jpg"
-    },
-    {
-      "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
-      "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
-      "description": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026.  The vulnerabil...",
-      "pub_date": "Sat, 29 Aug 2026 02:08:47 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRHWwlkIrD4ix8P1j7FGJW7pl0e6W600w61mPcVBRsL7BqK_8SNTLSSk-4498ZuyThNbHG8FmtGoMlR9B9ujcXUlHnRb9NTpBhImouOWrQK2WaxVVd5rjjL62kXl1fW9U5YyDN1Uc-M6OriHc7nQNzCbJAC3kRIsRgAnY5q2SSTL2TjLzix05DAoSa7jQ/s1600/cosmos-evm-hack.jpg"
-    },
-    {
-      "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
-      "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
-      "description": "Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional...",
-      "pub_date": "Fri, 28 Aug 2026 22:42:15 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdtPabCvuR_F2UFdCw8LS5eoXtD-jOpbuCy8WZYRycSP2vu_6yQK45qTehHimhoS-eXFPMTwg5jNM3m_X7ma5ELVz60Rjt3rlQhrqE4iTz8ggysLCt388GyaBVQbT28sGDv9a6drKNZooBiQNy0L3v8Gc3vxB9JILUD-eTtj5LZAlBbA3EyLlp5SkgIKPG/s1600/1000103914.jpg"
-    },
-    {
-      "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
-      "link": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
-      "description": "Google on Thursday announced new network security protections in Android 17 to bolster connection privacy, address cellular vulnerabilities, and safeguard the privacy of users' home networks.  Topp...",
-      "pub_date": "Fri, 28 Aug 2026 21:50:46 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHdeGqGafTZXNtGvV_-qR7K3QId_-DpEfOzetKbhVQvNdNyTMAy-6gLXVFlkMHsGDN2wKK8v1ZMeOKe9_3XVYAY5TVkqH2heesi0c_QmJzLpDX1M-XfOtI_W4Qe8OM8Yhin40QWvN0XHvU9cqDlZH3eeZY_18euIxiBdcbhWMVnXct-x84k2gvchQYSiuN/s1600/1000103901.jpg"
     },
     {
       "title": "Metasploit Wrap Up: Payloads and Exploits, and Scanners, Oh my!",
