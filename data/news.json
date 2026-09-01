@@ -1,6 +1,87 @@
 {
-  "last_updated": "2026-09-01T03:52:07Z",
+  "last_updated": "2026-09-01T09:13:24Z",
   "articles": [
+    {
+      "title": "Popular npm Package With 150K Weekly Downloads Compromised in Mini Shai-Hulud Supply-Chain Attack",
+      "link": "https://cybersecuritynews.com/popular-npm-package-2/",
+      "description": "A JavaScript development package has been caught in a supply-chain compromise that can run malicious code when installed. The incident affects a tool with about 150,000 weekly downloads, risking de...",
+      "pub_date": "Tue, 01 Sep 2026 08:36:35 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Popular-npm-Package-With-150K-Weekly-Downloads-Compromised-in-Mini-Shai-Hulud-Supply-Chain-Attack.webp"
+    },
+    {
+      "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
+      "link": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
+      "description": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to int...",
+      "pub_date": "Tue, 01 Sep 2026 13:56:24 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS-2JWiSkzpLkhR3nGp917yyeS4NATTlFhnDXcvmQdrc42BPgObEnlmwXMDP7fN8ruoEJ13Zru_lTVjPwTfU8aeSfK9uGt5H9dYK0s-STCiRMe4Wai1tgbeAU9CaaYZ9aIAZSDv3hVTD5UHKdCGNXGRkkrXDgsc0_3wHruuxZg4uRJDMhuSWSXKfgFanBb/s1600/russian.jpg"
+    },
+    {
+      "title": "Hackers Use Malicious Website Themes to Steal Crypto Wallet Seeds From iPhones",
+      "link": "https://cybersecuritynews.com/malicious-website-themes/",
+      "description": "Hackers are using booby-trapped website themes to turn visits from iPhone users into a route for spyware and cryptocurrency theft. The campaign hides harmful code inside themes used by Vietnamese m...",
+      "pub_date": "Tue, 01 Sep 2026 07:58:11 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Malicious-Website-Themes-to-Steal-Crypto-Wallet-Seeds-From-iPhones.webp"
+    },
+    {
+      "title": "Recently patched PaperCut zero-days used in data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
+      "description": "Two security vulnerabilities in the PaperCut NG and MF print management software, patched last week after being exploited as zero-days, are now being abused in data theft attacks. [...]",
+      "pub_date": "Tue, 01 Sep 2026 03:48:24 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+      "description": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.  The vulnerabilities in question are listed below -     CVE-2026-0768...",
+      "pub_date": "Tue, 01 Sep 2026 12:52:30 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9_EygYWh8fZRphLL1V9dg-h1jgQ0f9xmlVuPwPAaaEUUCBkKbQ4nTaL27WIevCJg42GWtDGMKyRvzBUz9MWtD2FxPx7vCKwXLirO-N1YRcpPy0mX_B_fTG2gBS-JPRJGXfCh_I2yHJgoi1V5lve7Opcm-M0ApWs6gohPjNhBi-0CsP49guHlM2lzHLsiD/s1600/lang.jpg"
+    },
+    {
+      "title": "Hackers Compromise Cisco Routers to Spy on Networks and Reach Critical Infrastructure",
+      "link": "https://cybersecuritynews.com/hackers-compromise-cisco-routers/",
+      "description": "Fire Ant has moved beyond attacking individual systems and is now compromising network infrastructure that organizations trust to move traffic and manage access. The actor has turned Cisco IOS XR r...",
+      "pub_date": "Tue, 01 Sep 2026 07:14:27 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Compromise-Cisco-Routers-to-Spy-on-Networks-and-Reach-Critical-Infrastructure.webp"
+    },
+    {
+      "title": "Hackers Target AWS Root Accounts at 150+ Organizations in Password-Spraying Campaign",
+      "link": "https://cybersecuritynews.com/hackers-target-aws-root-accounts/",
+      "description": "Datadog Security Research observed a password-spraying campaign targeting AWS root accounts at more than 150 organizations between July 24 and August 23, 2026, with repeated failed console login at...",
+      "pub_date": "Tue, 01 Sep 2026 06:07:16 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Target-AWS-Root-Accounts-at-150-Organizations-in-Password-Spraying-Campaign-1.webp"
+    },
+    {
+      "title": "Anthropic Hardens Claude Security After AI Models Gain Unauthorized Access to Real Systems",
+      "link": "https://cybersecuritynews.com/anthropic-hardens-claude-security/",
+      "description": "Anthropic has hardened security around its Claude models after several incidents in which the systems gained unauthorized access to real computers during cybersecurity evaluations. The company said...",
+      "pub_date": "Tue, 01 Sep 2026 04:25:23 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Anthropic-Hardens-Claude-Security.webp"
+    },
+    {
+      "title": "BGP Hijack Diverts Softaculous Traffic to Deliver Malicious Virtualizor Update",
+      "link": "https://cybersecuritynews.com/virtualizor-compromise/",
+      "description": "Attackers hijacked BGP routing for Softaculous last week and delivered a malicious Virtualizor update to a handful of hypervisor servers, according to a vendor incident report. Hosting providers us...",
+      "pub_date": "Tue, 01 Sep 2026 03:59:48 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Virtualizor-Compromise.webp"
+    },
     {
       "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
       "link": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
@@ -29,7 +110,7 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg79i0RXS7ZzzPurGwbsquOv8l9-GsYQmsw9y1qCzEeDMKYNXjn84VZVfVZU9aiGqnyDyQ6ZdgKosZxn60KtJ6TgTREMyC_ZnhyCxv3kSLtAXBHA2suVHDYFdWYllL4aN0-exJxnCfjXJL5dlo08aVU1YtzJchTD7nORvsBe0oXivCBhctDCcEn85Cmjiab/s1600/1000104722.jpg"
     },
     {
-      "title": "Microsoft Exchange Online outage causes email failures, auth issues",
+      "title": "Massive Microsoft 365 outage causes auth issues, service failures",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
       "description": "Microsoft is investigating a widespread service issue causing authentication issues, email delays and failures, and various other issues for Exchange Online customers. [...]",
       "pub_date": "Mon, 31 Aug 2026 12:56:57 -0400",
@@ -83,15 +164,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/D-Link-Router-Flaws-Let-Unauthenticated-Attackers-Change-Admin-Password-and-Steal-Wi-Fi-Credentials-1.webp"
     },
     {
-      "title": "HardBreacher PoC Claims Kaspersky Endpoint 0-Day Privilege Escalation on Windows 11",
-      "link": "https://cybersecuritynews.com/hardbreacher-kaspersky-zero-day/",
-      "description": "HardBreacher’s newly published PoC claims a local privilege-escalation flaw in Kaspersky Endpoint Security on fully patched Windows 11 systems, but the issue remains unverified and has not been p...",
-      "pub_date": "Mon, 31 Aug 2026 15:16:02 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/HardBreacher-Kaspersky-Zero-Day.webp"
-    },
-    {
       "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
       "description": "The researchers discovered Fire Ant's new tactic after finding an active GRE (Generic Routing Encapsulation) tunnel interface on a Cisco IOS XR router that could not be explained by a running confi...",
@@ -99,24 +171,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Hackers Hide ValleyRAT Backdoor Inside Adware Targeting Users in China and India",
-      "link": "https://cybersecuritynews.com/hackers-hide-valleyrat-backdoor/",
-      "description": "Hackers are using adware to deliver ValleyRAT, a Windows backdoor. The campaign primarily affects users in China and India, turning a program expected to display ads into a route for spying, theft,...",
-      "pub_date": "Mon, 31 Aug 2026 14:12:41 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Hide-ValleyRAT-Backdoor-Inside-Adware-Targeting-Users-in-China-and-India.webp"
-    },
-    {
-      "title": "Security Risk Advisors Launches SCALR AI as a Free SOC AI Platform for Security Teams",
-      "link": "https://cybersecuritynews.com/security-risk-advisors-launches-scalr-ai-as-a-free-soc-ai-platform-for-security-teams/",
-      "description": "Philadelphia, Pennsylvania, United States, August 24th, 2026, CyberNewswire Security Risk Advisors (SRA), the authors of the free VECTR platform, announce today another great free platform launch: ...",
-      "pub_date": "Mon, 31 Aug 2026 14:04:18 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlNs2UqHnsAFAlqZtuvL-KE3if3sE9McjHt8EE3ugg2Emkbuo_INcKzo78XHtlW7Azmu9ClVTWjGCshYo9VBUNGaT_qIGDl8JGLYgHmhMZZLCXJCvdOnpCUud164-_Pur2lss2QUyc1MkTLOOnSPw5CQ6gWOZIf04tw8pPgz9llUedzp3o7YVcQKcgy6U/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-31T185731.35.webp"
     },
     {
       "title": "File servers are here to stay. Here’s how to manage them securely",
@@ -128,15 +182,6 @@
       "image_url": ""
     },
     {
-      "title": "Top 10 Best Cyber Threat Intelligence Companies in 2026",
-      "link": "https://cybersecuritynews.com/best-cyber-threat-intelligence-companies-2/",
-      "description": "Cybersecurity defines survival in the digital-first era, where organizations battle advanced persistent threats daily. Cyber Threat Intelligence (CTI) companies deliver real-time insights, actionab...",
-      "pub_date": "Mon, 31 Aug 2026 13:53:26 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png"
-    },
-    {
       "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
       "link": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
       "description": "The boring parts caused most of the trouble.  A router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the lo...",
@@ -146,15 +191,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEQHUlnyxCIYFLSRsvotvppFdq5zZ2BQQXJ4PI03uluqvzH3d4FhLogVr2pn0zbUGUQlQQXrk53CDaRZ3q4jC3wLxxG9NPQMtAsx0qkU4yatwjEogU-3RF4s2jpxb394Sd2JMEYhBKbv9TJd41QqI3WRZEcd5UWHXvszq1cKblrRBthblIYeefUx3wPbBM/s1600/recap.jpg"
     },
     {
-      "title": "EU Designates ChatGPT as Very Large Online Search Engine After Crossing 45 Million Users",
-      "link": "https://cybersecuritynews.com/eu-designates-chatgpt/",
-      "description": "The European Commission on Monday designated OpenAI\u0026#8217;s ChatGPT as a Very Large Online Search Engine under the Digital Services Act, after the chatbot declared that it reaches at least 45 milli...",
-      "pub_date": "Mon, 31 Aug 2026 13:36:14 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/EU-ChatGPT-Very-Large-Online-Search-Engine.webp"
-    },
-    {
       "title": "Berlin confirms data theft after Rhysida ransomware attack claims",
       "link": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
       "description": "Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]",
@@ -162,15 +198,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Brave Unveils New Email Aliases to Keep Your Personal Email Address Private",
-      "link": "https://cybersecuritynews.com/brave-unveils-new-email-aliases/",
-      "description": "Brave has introduced a new Email Aliases feature in desktop browser version 1.94, allowing users to sign up for websites without sharing their real email address. The privacy-focused feature genera...",
-      "pub_date": "Mon, 31 Aug 2026 13:02:11 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Brave-Unveils-New-Email-Aliases-to-keep-your-personal-email-address-private.webp"
     },
     {
       "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
@@ -344,15 +371,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiROOqCRPV4u9cWfJL8nvCYKi4Ake-ki3_uh8Qn8RJ0P20h3Mz_qxVfF856pJ9DQZMHy922CeLwOHDc37Gpb4p1UCTMx6cMT5HeeAP_w4RitCuQficYcGDDkqpDVfW_nA3M7qWT-WyM6A5Adk3J2e8kMWSG1GSUOatrcVBmc7fmb2-ovadVS3fOdkd1ubFx/s1600/wordpress-themes.jpg"
     },
     {
-      "title": "Brave browser adds email aliases to help users evade tracking",
-      "link": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
-      "description": "The latest version of the Brave browser, 1.94, introduces a feature called 'Email Aliases' that allows users to generate disposable email addresses when signing up to a new service. [...]",
-      "pub_date": "Sat, 29 Aug 2026 10:19:23 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
       "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
       "description": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extor...",
@@ -387,24 +405,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHdeGqGafTZXNtGvV_-qR7K3QId_-DpEfOzetKbhVQvNdNyTMAy-6gLXVFlkMHsGDN2wKK8v1ZMeOKe9_3XVYAY5TVkqH2heesi0c_QmJzLpDX1M-XfOtI_W4Qe8OM8Yhin40QWvN0XHvU9cqDlZH3eeZY_18euIxiBdcbhWMVnXct-x84k2gvchQYSiuN/s1600/1000103901.jpg"
-    },
-    {
-      "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
-      "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports...",
-      "pub_date": "Fri, 28 Aug 2026 21:26:55 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZPm0X6hW-nz0AFZIB6eOBMEssN6dF5qeh2EOIBm1-ftaBEqcvJC5M0r_g3j-6Sp9x4sUnxVeOToWN_bFbr6T9flaScRcze4DRga0nqNe3LeQSvZaNPTiZC2C8GUeWWxMmIF1mybwuDaq5ZZummYiynDkf_1evTLKPicf4f2UUUb2d-0MMG6Ix-00ImwFN/s1600/1000103895.jpg"
-    },
-    {
-      "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
-      "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
-      "description": "Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret stealing and crypto...",
-      "pub_date": "Fri, 28 Aug 2026 20:57:26 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_QtvF-9M9imh55UP7qeyFUNhKknBwEcmcbIa34vndzIHinEk754vasbvTqILRNrtp6BDpuR8VzAyk0_Wt1tJB4hjUlgaO5Rb6Wru-WoXlrCPIXLr0I_oBhA7BwQDoO3MH82uloaG-qXyHAloI7r2zuWNfygFNeiSYAZeWyDn8_smuzrgvsvk0eQEX5klW/s1600/1000103889.jpg"
     },
     {
       "title": "Metasploit Wrap Up: Payloads and Exploits, and Scanners, Oh my!",
