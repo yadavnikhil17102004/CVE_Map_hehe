@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-09-02T20:36:17Z",
+  "last_updated": "2026-09-02T23:01:35Z",
   "articles": [
+    {
+      "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
+      "description": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution. [...]",
+      "pub_date": "Wed, 02 Sep 2026 17:00:13 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
       "link": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
@@ -20,6 +29,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu5sAuC-e7tUigtaAj0gicqzy_kWZTZRujpV3IxqGW1wr_VCuXbKXG7M-nNIac5QO2GY_KtEQ8HfnUENc6JZpS8haeGQIvOH4EddDvrQTJwXY2kkZcz41JbeT1_YhVuyrArJV4sUB3hrT9dFIazMbT-_8hLxg0jrQzHLPLv_h3bNb98puP5yVwgA1zoIsQ/s1600/aiai.jpg"
     },
     {
+      "title": "WhatsApp Video Call Flaw Lets Anyone Bypass Your Android Lock Screen and View Your Photos",
+      "link": "https://cybersecuritynews.com/whatsapp-video-call-flaw/",
+      "description": "A newly disclosed WhatsApp flaw on Android is raising fresh privacy alarms, allowing anyone holding a locked phone to browse through its entire photo gallery simply by answering an incoming video c...",
+      "pub_date": "Wed, 02 Sep 2026 17:39:06 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/WhatsApp-Video-Call-Flaw.webp"
+    },
+    {
       "title": "Critical SonicWall SMA1000 Vulnerabilities CVE-2026-83548, CVE-2026-83549 Exploited in the Wild",
       "link": "https://www.rapid7.com/blog/post/etr-critical-sonicwall-sma1000-vulnerabilities-cve-2026-83548-cve-2026-83549-exploited-in-the-wild",
       "description": "OverviewOn September 1, 2026, SonicWall disclosed two vulnerabilities affecting SonicWall SMA1000 appliances that the vendor says are being actively exploited in the wild. The vulnerabilities, CVE-...",
@@ -27,6 +45,15 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+    },
+    {
+      "title": "Google Launches Gemini 3.8 Flash Cyber to Identify and Auto-Patch Security Vulnerabilities",
+      "link": "https://cybersecuritynews.com/gemini-3-8-flash-cyber/",
+      "description": "Google has unveiled Gemini 3.8, its latest reasoning and coding model family, introducing a specialized variant called Gemini 3.8 Flash Cyber that is purpose-built to autonomously discover software...",
+      "pub_date": "Wed, 02 Sep 2026 16:54:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Gemini-3.8-Flash-Cyber.webp"
     },
     {
       "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
@@ -38,6 +65,33 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhKCtgI2bIF4kLY71qjkluS80XAm5YPA9y9GzTxC8XBTaxq1d42jyZ-bxAr7OlZ-wCc4-RDp_NmUPKxd9TS1dvtjt3gysB86SkMuQ5q6vGb7HTh-DVMNC8VJcJFC2sJmiSQ740SX-miCoyiGfkAXLqO1ySH3zenWcAP7g6ilReO9jRsnl3Tnw279K7NYF3/s1600/windows-updates.jpg"
     },
     {
+      "title": "Firefox on iPhone Can Now Block Ads and Trackers Without Installing an Extension",
+      "link": "https://cybersecuritynews.com/firefox-on-iphone-block-ads/",
+      "description": "Mozilla has introduced a built-in Ad Blocker for Firefox on iOS, allowing iPhone users to block many third-party advertisements and ad-related trackers without downloading a separate browser extens...",
+      "pub_date": "Wed, 02 Sep 2026 16:38:10 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Firefox-on-iPhone-Can-Now-Block-Ads-and-Trackers-Without-Installing-an-Extension.webp"
+    },
+    {
+      "title": "GitSpawn Flaws Let Malicious Repositories Execute Code in Claude Code, Codex, Cursor, and Grok",
+      "link": "https://cybersecuritynews.com/gitspawn-flaws-execute-code/",
+      "description": "A newly disclosed class of vulnerabilities, dubbed GitSpawn, allows a booby-trapped repository to silently execute code on a developer\u0026#8217;s machine the moment it is opened with an AI coding agen...",
+      "pub_date": "Wed, 02 Sep 2026 16:29:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/GitSpawn-Flaws.webp"
+    },
+    {
+      "title": "Hackers Target US and EU Firms With Microsoft 365 Session Hijacking and RMM Abuse",
+      "link": "https://cybersecuritynews.com/microsoft-365-session-hijacking/",
+      "description": "A wave of cyberattacks across the US and Europe in August exploited the trust businesses place in everyday tools, turning Microsoft 365 logins, remote-management software, and routine business docu...",
+      "pub_date": "Wed, 02 Sep 2026 16:04:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-365-Session-Hijacking.webp"
+    },
+    {
       "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
       "description": "A critical authentication bypass vulnerability (CVE-2026-82329) in JFrog Artifactory is being exploited in attacks to create tokens that provide administrative access. [...]",
@@ -47,6 +101,24 @@
       "image_url": ""
     },
     {
+      "title": "Dropbox Says 5,000 Accounts Were Compromised Through Lenovo ID Authentication Flaw",
+      "link": "https://cybersecuritynews.com/dropbox-lenovo-id-flaw/",
+      "description": "Dropbox has disclosed that approximately 5,000 user accounts were compromised in August after attackers exploited a weakness involving its Lenovo ID sign-in integration. The incident highlights the...",
+      "pub_date": "Wed, 02 Sep 2026 14:43:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Dropbox-Lenovo-ID-Flaw.webp"
+    },
+    {
+      "title": "Russian Hacker Indicted for Using Excel Malware to Target 80,000 Freelancers With TVRAT and DarkVNC",
+      "link": "https://cybersecuritynews.com/russian-hacker-using-excel-malware/",
+      "description": "A Russian national has been indicted in the United States over an alleged malware operation that targeted roughly 80,000 freelance workers worldwide. Prosecutors say the campaign used fake accounts...",
+      "pub_date": "Wed, 02 Sep 2026 14:22:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Russian-Hacker-Indicted-for-Using-Excel-Malware-to-Target-80000-Freelancers-With-TVRAT-and-DarkVNC.webp"
+    },
+    {
       "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
       "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
       "description": "Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's ...",
@@ -54,6 +126,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlrspu4otI5zjtu2q78NDrwnqfbTv4jzqXhH-txAo8pCjXDPRJjLvfWpRyHvbimqVvAOZWI0pMVmu2jWVdETbh2csa2UkMHx0M2uu9cJkB0_E4x1mjjs_1F9RYZjozZQvIYN5Xux43DX1u0jCQE_Pk19yE8BnR_RxXN-QXmP5jf74ZQgE9uQVUONJoQKQ/s1600/aix.gif"
+    },
+    {
+      "title": "Ransomware Hackers Use New TukTuk Malware to Steal Credentials and Disable Security Tools",
+      "link": "https://cybersecuritynews.com/new-tuktuk-malware/",
+      "description": "Ransomware operators are using a previously undocumented remote-control framework called TukTuk to steal credentials, watch compromised machines, and weaken protections. The discovery links the too...",
+      "pub_date": "Wed, 02 Sep 2026 14:05:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Ransomware-Hackers-Use-New-TukTuk-Malware-to-Steal-Credentials-and-Disable-Security-Tools.webp"
     },
     {
       "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
@@ -74,6 +155,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixn-0jJvMDlL85UUyW0E5PUDeUnMbGMxZJEnJMOAXXAuiqD-e1D9IoZdYsNwwDY16NA7x7GFHzVrx6LqJU7u7ywR50UWP4DGybNAhTlLPeAiBcVwVUJPgV1KbD1u0aUNy_468Y6gMQJ8FlnfGFlz_iCJcAeOeTiPViV1195lHwovULdtSBlsvPWOGpNU8/s1600/check.jpg"
     },
     {
+      "title": "BREEZE COMET Hackers Use AI-Assisted Malware to Target Brazil Banks for Fraudulent Transfers",
+      "link": "https://cybersecuritynews.com/breeze-comet-hackers/",
+      "description": "Brazilian banks and payment companies are facing a more direct form of cybercrime. BREEZE COMET, a financially motivated group formerly tracked as UNC5669, targets the systems that move money inste...",
+      "pub_date": "Wed, 02 Sep 2026 13:23:38 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/BREEZE-COMET-Hackers-Use-AI-Assisted-Malware-to-Target-Brazil-Banks-for-Fraudulent-Transfers.webp"
+    },
+    {
       "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
       "link": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
       "description": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to s...",
@@ -81,6 +171,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjc5HwRa7RftYjoKUzpULa7DXn6tt4sZ7RrL1PNBN0Um5di5vxvgRQvmF3rF9-Xb7URM6YD9t-kEu0e3VBeERcdHio4Bz92EOYUwR2s3dosskPZbfztVyjAQ8p-h9PZ7ns3O8uOJ-DSxWPSIanM7l0lC2AZr71eXzWkSXTb_TjLmyBKvMR1KE97xp8PKJU/s1600/virtualizer.jpg"
+    },
+    {
+      "title": "Cleo Harmony Flaw Lets Remote Attackers Escalate Privileges via JWT Refresh Token",
+      "link": "https://cybersecuritynews.com/cleo-harmony-vulnerability/",
+      "description": "A newly disclosed vulnerability in Cleo Harmony, a widely deployed managed file transfer and integration platform, is putting enterprise networks at risk after security researchers confirmed that r...",
+      "pub_date": "Wed, 02 Sep 2026 13:09:26 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Cleo-Harmony-Flaw.webp"
     },
     {
       "title": "Dropbox accounts breached through Lenovo email verification flaw",
@@ -267,15 +366,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
       "description": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge security controls. Spur explains how session enrichmen...",
       "pub_date": "Tue, 01 Sep 2026 10:01:11 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
-      "description": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]",
-      "pub_date": "Tue, 01 Sep 2026 08:38:35 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
