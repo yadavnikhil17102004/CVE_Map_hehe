@@ -1,6 +1,150 @@
 {
-  "last_updated": "2026-09-02T13:18:00Z",
+  "last_updated": "2026-09-02T18:16:48Z",
   "articles": [
+    {
+      "title": "WhatsApp Video Call Flaw Lets Anyone Bypass Your Android Lock Screen and View Your Photos",
+      "link": "https://cybersecuritynews.com/whatsapp-video-call-flaw/",
+      "description": "A newly disclosed WhatsApp flaw on Android is raising fresh privacy alarms, allowing anyone holding a locked phone to browse through its entire photo gallery simply by answering an incoming video c...",
+      "pub_date": "Wed, 02 Sep 2026 17:39:06 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/WhatsApp-Video-Call-Flaw.webp"
+    },
+    {
+      "title": "Critical SonicWall SMA1000 Vulnerabilities CVE-2026-83548, CVE-2026-83549 Exploited in the Wild",
+      "link": "https://www.rapid7.com/blog/post/etr-critical-sonicwall-sma1000-vulnerabilities-cve-2026-83548-cve-2026-83549-exploited-in-the-wild",
+      "description": "OverviewOn September 1, 2026, SonicWall disclosed two vulnerabilities affecting SonicWall SMA1000 appliances that the vendor says are being actively exploited in the wild. The vulnerabilities, CVE-...",
+      "pub_date": "Wed, 02 Sep 2026 16:58:45 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
+    },
+    {
+      "title": "Google Launches Gemini 3.8 Flash Cyber to Identify and Auto-Patch Security Vulnerabilities",
+      "link": "https://cybersecuritynews.com/gemini-3-8-flash-cyber/",
+      "description": "Google has unveiled Gemini 3.8, its latest reasoning and coding model family, introducing a specialized variant called Gemini 3.8 Flash Cyber that is purpose-built to autonomously discover software...",
+      "pub_date": "Wed, 02 Sep 2026 16:54:57 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Gemini-3.8-Flash-Cyber.webp"
+    },
+    {
+      "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
+      "link": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
+      "description": "An active malware campaign is using bogus software-download websites to impersonate trusted vendors and distribute malicious installers.  \"The campaign has targeted users looking to download popula...",
+      "pub_date": "Wed, 02 Sep 2026 22:11:06 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhKCtgI2bIF4kLY71qjkluS80XAm5YPA9y9GzTxC8XBTaxq1d42jyZ-bxAr7OlZ-wCc4-RDp_NmUPKxd9TS1dvtjt3gysB86SkMuQ5q6vGb7HTh-DVMNC8VJcJFC2sJmiSQ740SX-miCoyiGfkAXLqO1ySH3zenWcAP7g6ilReO9jRsnl3Tnw279K7NYF3/s1600/windows-updates.jpg"
+    },
+    {
+      "title": "Firefox on iPhone Can Now Block Ads and Trackers Without Installing an Extension",
+      "link": "https://cybersecuritynews.com/firefox-on-iphone-block-ads/",
+      "description": "Mozilla has introduced a built-in Ad Blocker for Firefox on iOS, allowing iPhone users to block many third-party advertisements and ad-related trackers without downloading a separate browser extens...",
+      "pub_date": "Wed, 02 Sep 2026 16:38:10 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Firefox-on-iPhone-Can-Now-Block-Ads-and-Trackers-Without-Installing-an-Extension.webp"
+    },
+    {
+      "title": "GitSpawn Flaws Let Malicious Repositories Execute Code in Claude Code, Codex, Cursor, and Grok",
+      "link": "https://cybersecuritynews.com/gitspawn-flaws-execute-code/",
+      "description": "A newly disclosed class of vulnerabilities, dubbed GitSpawn, allows a booby-trapped repository to silently execute code on a developer\u0026#8217;s machine the moment it is opened with an AI coding agen...",
+      "pub_date": "Wed, 02 Sep 2026 16:29:54 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/GitSpawn-Flaws.webp"
+    },
+    {
+      "title": "Hackers Target US and EU Firms With Microsoft 365 Session Hijacking and RMM Abuse",
+      "link": "https://cybersecuritynews.com/microsoft-365-session-hijacking/",
+      "description": "A wave of cyberattacks across the US and Europe in August exploited the trust businesses place in everyday tools, turning Microsoft 365 logins, remote-management software, and routine business docu...",
+      "pub_date": "Wed, 02 Sep 2026 16:04:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-365-Session-Hijacking.webp"
+    },
+    {
+      "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
+      "description": "A critical authentication bypass vulnerability (CVE-2026-82329) in JFrog Artifactory is being exploited in attacks to create tokens that provide administrative access. [...]",
+      "pub_date": "Wed, 02 Sep 2026 11:47:08 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Dropbox Says 5,000 Accounts Were Compromised Through Lenovo ID Authentication Flaw",
+      "link": "https://cybersecuritynews.com/dropbox-lenovo-id-flaw/",
+      "description": "Dropbox has disclosed that approximately 5,000 user accounts were compromised in August after attackers exploited a weakness involving its Lenovo ID sign-in integration. The incident highlights the...",
+      "pub_date": "Wed, 02 Sep 2026 14:43:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Dropbox-Lenovo-ID-Flaw.webp"
+    },
+    {
+      "title": "Russian Hacker Indicted for Using Excel Malware to Target 80,000 Freelancers With TVRAT and DarkVNC",
+      "link": "https://cybersecuritynews.com/russian-hacker-using-excel-malware/",
+      "description": "A Russian national has been indicted in the United States over an alleged malware operation that targeted roughly 80,000 freelance workers worldwide. Prosecutors say the campaign used fake accounts...",
+      "pub_date": "Wed, 02 Sep 2026 14:22:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Russian-Hacker-Indicted-for-Using-Excel-Malware-to-Target-80000-Freelancers-With-TVRAT-and-DarkVNC.webp"
+    },
+    {
+      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+      "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+      "description": "Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's ...",
+      "pub_date": "Wed, 02 Sep 2026 19:36:59 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlrspu4otI5zjtu2q78NDrwnqfbTv4jzqXhH-txAo8pCjXDPRJjLvfWpRyHvbimqVvAOZWI0pMVmu2jWVdETbh2csa2UkMHx0M2uu9cJkB0_E4x1mjjs_1F9RYZjozZQvIYN5Xux43DX1u0jCQE_Pk19yE8BnR_RxXN-QXmP5jf74ZQgE9uQVUONJoQKQ/s1600/aix.gif"
+    },
+    {
+      "title": "Ransomware Hackers Use New TukTuk Malware to Steal Credentials and Disable Security Tools",
+      "link": "https://cybersecuritynews.com/new-tuktuk-malware/",
+      "description": "Ransomware operators are using a previously undocumented remote-control framework called TukTuk to steal credentials, watch compromised machines, and weaken protections. The discovery links the too...",
+      "pub_date": "Wed, 02 Sep 2026 14:05:53 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Ransomware-Hackers-Use-New-TukTuk-Malware-to-Steal-Credentials-and-Disable-Security-Tools.webp"
+    },
+    {
+      "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
+      "description": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across client environments, from reducing exposure and detecting att...",
+      "pub_date": "Wed, 02 Sep 2026 10:02:12 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
+      "link": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
+      "description": "A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational instituti...",
+      "pub_date": "Wed, 02 Sep 2026 19:14:16 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixn-0jJvMDlL85UUyW0E5PUDeUnMbGMxZJEnJMOAXXAuiqD-e1D9IoZdYsNwwDY16NA7x7GFHzVrx6LqJU7u7ywR50UWP4DGybNAhTlLPeAiBcVwVUJPgV1KbD1u0aUNy_468Y6gMQJ8FlnfGFlz_iCJcAeOeTiPViV1195lHwovULdtSBlsvPWOGpNU8/s1600/check.jpg"
+    },
+    {
+      "title": "BREEZE COMET Hackers Use AI-Assisted Malware to Target Brazil Banks for Fraudulent Transfers",
+      "link": "https://cybersecuritynews.com/breeze-comet-hackers/",
+      "description": "Brazilian banks and payment companies are facing a more direct form of cybercrime. BREEZE COMET, a financially motivated group formerly tracked as UNC5669, targets the systems that move money inste...",
+      "pub_date": "Wed, 02 Sep 2026 13:23:38 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/BREEZE-COMET-Hackers-Use-AI-Assisted-Malware-to-Target-Brazil-Banks-for-Fraudulent-Transfers.webp"
+    },
+    {
+      "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+      "link": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
+      "description": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to s...",
+      "pub_date": "Wed, 02 Sep 2026 18:42:45 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjc5HwRa7RftYjoKUzpULa7DXn6tt4sZ7RrL1PNBN0Um5di5vxvgRQvmF3rF9-Xb7URM6YD9t-kEu0e3VBeERcdHio4Bz92EOYUwR2s3dosskPZbfztVyjAQ8p-h9PZ7ns3O8uOJ-DSxWPSIanM7l0lC2AZr71eXzWkSXTb_TjLmyBKvMR1KE97xp8PKJU/s1600/virtualizer.jpg"
+    },
     {
       "title": "Cleo Harmony Flaw Lets Remote Attackers Escalate Privileges via JWT Refresh Token",
       "link": "https://cybersecuritynews.com/cleo-harmony-vulnerability/",
@@ -9,24 +153,6 @@
       "source": "Cyber Security News",
       "tier": 3,
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Cleo-Harmony-Flaw.webp"
-    },
-    {
-      "title": "FBI and CrowdStrike Disrupt 20-Year-Old Sality Botnet Controlling 15,000+ Infected Systems",
-      "link": "https://cybersecuritynews.com/sality-botnet/",
-      "description": "The Department of Justice has confirmed a coordinated international takedown of the Sality botnet, a peer-to-peer malware network that has plagued victims worldwide since 2003. The operation spanne...",
-      "pub_date": "Wed, 02 Sep 2026 13:04:44 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/FBI-and-CrowdStrike-Disrupt-Sality-Botnet-After-20-Years.webp"
-    },
-    {
-      "title": "Claude AI Builds Pre-Auth RCE Exploit for WAGO PLC to Execute ARM Shellcode Without Credentials",
-      "link": "https://cybersecuritynews.com/claude-ai-builds-pre-auth-rce-exploit/",
-      "description": "Researchers used Claude AI to help port a pre-authentication remote code execution exploit to a WAGO programmable logic controller, demonstrating how AI can assist with low-level operational techno...",
-      "pub_date": "Wed, 02 Sep 2026 12:37:49 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Claude-AI-Builds-Pre-Auth-RCE-Exploit-for-WAGO-PLC.webp"
     },
     {
       "title": "Dropbox accounts breached through Lenovo email verification flaw",
@@ -38,31 +164,13 @@
       "image_url": ""
     },
     {
-      "title": "FreeRDP Fixes 22 Security Flaws and Urges Users to Update Immediately",
-      "link": "https://cybersecuritynews.com/freerdp-fixes-22-security-flaws/",
-      "description": "FreeRDP released version 3.31.0, addressing 22 security flaws and multiple bugs in its open-source Remote Desktop Protocol implementation, and urges users and distributors to update promptly. FreeR...",
-      "pub_date": "Wed, 02 Sep 2026 12:10:12 +0000",
-      "source": "Cyber Security News",
+      "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+      "link": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+      "description": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta an...",
+      "pub_date": "Wed, 02 Sep 2026 17:52:02 +0530",
+      "source": "The Hacker News",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/FreeRDP-Fixes-22-Security-Flaws-and-Urges-Users-to-Update-Immediately.webp"
-    },
-    {
-      "title": "Palo Alto Networks Acquires Console to Build AI Agents for Autonomous Security Operations",
-      "link": "https://cybersecuritynews.com/palo-alto-networks-acquires-console/",
-      "description": "Palo Alto Networks has acquired Console, an AI-native platform that will strengthen Cortex by enabling AI-driven security workflows to investigate, prioritize, and remediate threats at machine spee...",
-      "pub_date": "Wed, 02 Sep 2026 12:02:15 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Palo-Alto-Networks-Acquires-Console-to-Build-AI-Agents-for-Autonomous-Security-Operations.webp"
-    },
-    {
-      "title": "Hackers Exploit LiteLLM Admin API Flaw to Steal Secrets and Target AI Gateway Servers",
-      "link": "https://cybersecuritynews.com/hackers-exploit-litellm-admin-api-flaw/",
-      "description": "Attackers are actively probing LiteLLM AI gateway deployments for a known authorization flaw that can turn a low-privilege account into full administrative control. The issue, tracked as CVE-2026-3...",
-      "pub_date": "Wed, 02 Sep 2026 11:44:12 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Exploit-LiteLLM-Admin-API-Flaw-to-Steal-Secrets-and-Target-AI-Gateway-Servers.webp"
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNhCfat7BT6m53utL9Z1iMKYQv6B3QwsQdxZBzkmr1WsJpDDdFGZgHjaLuHSXMBBJSyfxtyR750K33X3GzZwYkHac_3mpIITheSY4lh8LMK-ufnQ9htwhkmfv2MRKfZKtYdROU7VuO0HMmK7BQ7FlttrQiToqHq9zffChgBIOJT8yLL5vT7JY43_FDK-A/s1600/android-trojan.jpg"
     },
     {
       "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
@@ -92,24 +200,6 @@
       "image_url": ""
     },
     {
-      "title": "Hackers Pose as IT Support on Microsoft Teams to Take Remote Control of Windows PCs",
-      "link": "https://cybersecuritynews.com/hackers-pose-as-it-support-microsoft-teams/",
-      "description": "Cybercriminals are posing as IT technicians on Microsoft Teams and persuading employees to hand over control of their Windows computers. The campaign turns a familiar support conversation into a di...",
-      "pub_date": "Wed, 02 Sep 2026 10:00:55 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Pose-as-IT-Support-on-Microsoft-Teams-to-Take-Remote-Control-of-Windows-PCs.webp"
-    },
-    {
-      "title": "Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems",
-      "link": "https://cybersecuritynews.com/silver-fox-linked-hackers/",
-      "description": "Silver Fox-linked hackers are using counterfeit software installers to break into Windows systems and weaken the protections meant to stop them. The campaign relies on convincing download pages tha...",
-      "pub_date": "Wed, 02 Sep 2026 09:28:52 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Silver-Fox-Linked-Hackers-Use-Fake-Software-Installers-to-Disable-Microsoft-Defender-and-Compromise-Windows-Systems.webp"
-    },
-    {
       "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
       "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
       "description": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency ...",
@@ -135,24 +225,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Critical SonicWall Remote Code Execution Vulnerabilities Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/sonicwall-remote-code-execution-vulnerabilities/",
-      "description": "SonicWall has warned that attackers are actively exploiting two critical vulnerabilities affecting SMA1000 Series secure mobile access appliances. The flaws could allow unauthenticated attackers to...",
-      "pub_date": "Wed, 02 Sep 2026 08:44:59 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Critical-SonicWall-Remote-Code-Execution-Vulnerability-Actively-Exploited-in-Attacks.webp"
-    },
-    {
-      "title": "Critical HPE Fabric Composer Flaws Let Unauthenticated Attackers Execute Code and Take Over Systems",
-      "link": "https://cybersecuritynews.com/hpe-fabric-composer-flaws/",
-      "description": "HPE has released security updates for HPE Networking Fabric Composer following the discovery of a large set of vulnerabilities that could allow unauthenticated attackers to gain administrator acces...",
-      "pub_date": "Wed, 02 Sep 2026 08:35:59 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Critical-HPE-Fabric-Composer-Flaws-Let-Unauthenticated-Attackers-Execute-Code-and-Take-Over-Systems.webp"
     },
     {
       "title": "Sality botnet infrastructure dismantled in joint global takedown",
@@ -281,15 +353,6 @@
       "image_url": ""
     },
     {
-      "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
-      "link": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
-      "description": "The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued evolution of its toolset and likely expand its targeting ...",
-      "pub_date": "Tue, 01 Sep 2026 18:38:58 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm2I0vj1ygDfFQ8UzazaxECq0aAP3UJ_VRMzeCN0MgTkWk4yLEUbKKU9dE0pIyXZIfJ0MgxjYEqAqWLAXAtuATDCdFZPI9WGkgwz04Mdd7LChIfMrWk-vhGfaHDGtySDkbIXgzBcNfh5qcobm-bz8QWuyVCcH7z9CM_RNZusA2rPEHV5g2WJ2tU6Llrdnu/s1600/iran-hacking.jpg"
-    },
-    {
       "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
       "link": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
       "description": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]",
@@ -299,64 +362,10 @@
       "image_url": ""
     },
     {
-      "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
-      "link": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
-      "description": "The most common way into a company last year was to ask.  A web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboar...",
-      "pub_date": "Tue, 01 Sep 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXRNAAGu1amxjm97oXzRGvVBD23d-thmuPvBbQm10hKlACH58ndu51swo4ggT2P2FJw1vbmWy6qdMZSyTRrgAXoi19O0Zf0vCcS47oMuhMuPSyKc1kL7bpIySVrQwgrIaYJkc4IiavU0rucYYMYWHwXgDCmsPLanV2LZv3mt__srP93r0vLWSz8Vp_L0o/s1600/click.jpg"
-    },
-    {
       "title": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
       "link": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
       "description": "Five Venezuelan nationals pleaded guilty to attempting to empty automated teller machines (ATMs) using malware in a series of ATM jackpotting attacks. [...]",
       "pub_date": "Tue, 01 Sep 2026 05:15:07 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
-      "link": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
-      "description": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-h...",
-      "pub_date": "Tue, 01 Sep 2026 14:35:30 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2b-1gQHvYc7ZLc86QFtZ2LoJ7zFalpJtSy_e_laxiM_f4Ftnhuvp5eCJZRSk2NL_0tZAZAl2z1UPYfOBSTbdGOPOZexgt3GkuUqsrZPgFB2F-qG2Ir_c7Ioj6zcJVdWjzBo90HpcObPWan5eID2df6OXyn3F7-LRpdOvO8TfiZSp8L2j89p2UbsDi3zM4/s1600/metr.jpg"
-    },
-    {
-      "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
-      "link": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
-      "description": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to int...",
-      "pub_date": "Tue, 01 Sep 2026 13:56:24 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS-2JWiSkzpLkhR3nGp917yyeS4NATTlFhnDXcvmQdrc42BPgObEnlmwXMDP7fN8ruoEJ13Zru_lTVjPwTfU8aeSfK9uGt5H9dYK0s-STCiRMe4Wai1tgbeAU9CaaYZ9aIAZSDv3hVTD5UHKdCGNXGRkkrXDgsc0_3wHruuxZg4uRJDMhuSWSXKfgFanBb/s1600/russian.jpg"
-    },
-    {
-      "title": "Recently patched PaperCut zero-days used in data theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
-      "description": "Two security vulnerabilities in the PaperCut NG and MF print management software, patched last week after being exploited as zero-days, are now being abused in data theft attacks. [...]",
-      "pub_date": "Tue, 01 Sep 2026 03:48:24 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
-      "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
-      "description": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.  The vulnerabilities in question are listed below -     CVE-2026-0768...",
-      "pub_date": "Tue, 01 Sep 2026 12:52:30 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9_EygYWh8fZRphLL1V9dg-h1jgQ0f9xmlVuPwPAaaEUUCBkKbQ4nTaL27WIevCJg42GWtDGMKyRvzBUz9MWtD2FxPx7vCKwXLirO-N1YRcpPy0mX_B_fTG2gBS-JPRJGXfCh_I2yHJgoi1V5lve7Opcm-M0ApWs6gohPjNhBi-0CsP49guHlM2lzHLsiD/s1600/lang.jpg"
-    },
-    {
-      "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
-      "link": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
-      "description": "The Cronos blockchain network has resumed trading activity after a price-manipulation attack on the Tectonic cryptocurrency lending platform allowed an attacker to borrow $74 million. [...]",
-      "pub_date": "Mon, 31 Aug 2026 16:47:54 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
@@ -641,15 +650,6 @@
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
     },
     {
-      "title": "Rapid7 Analysis: Unauthenticated Remote Code Execution in JetBrains TeamCity (CVE-2026-63077)",
-      "link": "https://www.rapid7.com/blog/post/ra-unauthenticated-rce-in-jetbrains-teamcity-cve-2026-63077",
-      "description": "OverviewOn July 27, 2026, JetBrains published a security advisory for CVE-2026-63077, a critical unsafe deserialization vulnerability affecting JetBrains TeamCity. An attacker who can reach a TeamC...",
-      "pub_date": "Fri, 07 Aug 2026 14:32:47 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
-    },
-    {
       "title": "How we took malware advisories beyond npm",
       "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
       "description": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid. The post How we took malwa...",
@@ -725,6 +725,15 @@
       "title": "Communicating Under Pressure: Best Practices for Service Providers",
       "link": "https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers",
       "description": "Developed by CISA, the Federal Bureau of Investigation, and international partners, this guidance describes how organizations can plan and execute clear, timely, accurate, and audience-appropriate ...",
+      "pub_date": "Wed, 02 Sep 26 12:00:00 +0000",
+      "source": "CISA Advisories",
+      "tier": 1,
+      "image_url": ""
+    },
+    {
+      "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+      "description": "CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \u0026nbsp;   CVE-2026-9586 Sangoma Switchvox SQL Injection Vulne...",
       "pub_date": "Wed, 02 Sep 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
@@ -842,15 +851,6 @@
       "title": "Applied Systems Engineering ASE2000 V2 Communications Test Set",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-04",
       "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to read or write arbitrary local files, cause the application to issue outbound network requests, or inter...",
-      "pub_date": "Thu, 27 Aug 26 12:00:00 +0000",
-      "source": "CISA Advisories",
-      "tier": 1,
-      "image_url": ""
-    },
-    {
-      "title": "All-Line Equipment Company Fuel-Boss",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-02",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to execute arbitrary commands or code remotely on affected systems. The following versions of All-Line Equip...",
       "pub_date": "Thu, 27 Aug 26 12:00:00 +0000",
       "source": "CISA Advisories",
       "tier": 1,
