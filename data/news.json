@@ -1,6 +1,51 @@
 {
-  "last_updated": "2026-09-02T03:11:58Z",
+  "last_updated": "2026-09-02T08:27:53Z",
   "articles": [
+    {
+      "title": "Sality botnet infrastructure dismantled in joint global takedown",
+      "link": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
+      "description": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
+      "pub_date": "Wed, 02 Sep 2026 04:00:43 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+      "link": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+      "description": "Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to anothe...",
+      "pub_date": "Wed, 02 Sep 2026 13:17:13 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlWf4d2lnMsRXbG_XpDaQ8uxTM9SD8QBArFea3LdD93t2xnpO4Bw2K_iBewRfrscbj2Kfe6DSkFozbxWnHwMeR5p1cx2XksAyZD5_avLwxqx5L6tvTf_Z807niMu_uqzbslMMgMx8M1IVY9y20gbuDwbWAco96weFLycq2JCQMQ2hpcTnd2yanypqsj4k/s1600/claude.jpg"
+    },
+    {
+      "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+      "description": "Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution.  The vulnerability in questio...",
+      "pub_date": "Wed, 02 Sep 2026 12:38:50 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb9lLZ-CHEFECU3vn2ObupuzweLn7l23dnUcs2Qd1H5hsxut3nQKqe6W3lbh_cSyVF4PDgdfuSauhpeMKmW6wZGYW3kpVdhTfWhfpISTtfRzw25VOSvJNR8dnh_WWKwyZ0VnWe8nndwwfnWN-gPSdqmLBhJW2vkqjCkfMo8Eo-sucoSIr6JMT-7HxHnsCw/s1600/admin.jpg"
+    },
+    {
+      "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
+      "link": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
+      "description": "The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated law enforcement operation.  The effort w...",
+      "pub_date": "Wed, 02 Sep 2026 12:26:30 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDpXbKu79XC2ObZuqgBEMG9E1VR-SyLdDwhylzbIupomfXEbDe_gUT29NNntDVz9NtiGLhnHJdrq1GyC5RbPHozyzmCVov6JJIg2sCiCb5Jp8SHEInYNR5PRE06TrBh4Oqy8WT7GbTtGOZisMrKuCWaUWn5vaJkbHPmhTEb7O0voiiBDdYHcxc02YhLBb1/s1600/botnet-malware.jpg"
+    },
+    {
+      "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
+      "description": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
+      "pub_date": "Wed, 02 Sep 2026 02:39:29 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
     {
       "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
@@ -200,24 +245,6 @@
       "image_url": ""
     },
     {
-      "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
-      "description": "The researchers discovered Fire Ant's new tactic after finding an active GRE (Generic Routing Encapsulation) tunnel interface on a Cisco IOS XR router that could not be explained by a running confi...",
-      "pub_date": "Mon, 31 Aug 2026 10:52:03 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "File servers are here to stay. Here’s how to manage them securely",
-      "link": "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/",
-      "description": "File servers remain a critical part of many IT environments, but managing access securely can become complex as permissions accumulate. tenfold Software outlines five best practices for simplifying...",
-      "pub_date": "Mon, 31 Aug 2026 10:00:10 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
       "link": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
       "description": "The boring parts caused most of the trouble.  A router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the lo...",
@@ -243,33 +270,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHyB4qaQy8srcEIgc1oMi08PMKtoVFIsmW3ho_7f7rISFML8Kmz8jYzDE1FCN9Nfo4LvvgVFV_FEijgLbCrZcJ5zy7xlvAYTKuyGrcE0IU6yqEd-awlmOyRQ3FXcSeA5yM71NLDa5nxpj9taGnNiVXvCb_5tun5j3dfb6z8j7cmwQ2O0PE2V3y0oKWv6sB/s1600/cursor.jpg"
-    },
-    {
-      "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
-      "link": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
-      "description": "Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give security team...",
-      "pub_date": "Mon, 31 Aug 2026 17:01:47 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEithkMoEFgk1IZj_h_hGp94DwzD4UyQGh2f-epiRD6fn_XcMyB44HkXe-7XaHzviE8sImzIctDBjibyY0Gdrt_OPFFeja3KnOd9KsPFP3PeTxUzlshseSyukl0-cmQWZctAeVQHTUpvW99C8FZrhCcwPDZWoYShfC9jTGqmj1Va2K-Mo2kK6GbSksGIbM4/s1600/dan.jpg"
-    },
-    {
-      "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
-      "link": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
-      "description": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control ...",
-      "pub_date": "Mon, 31 Aug 2026 14:34:55 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxYI5Ntk3CPoEGUHNQbd80hij-0QLnz3V_HBU3aXV-mvQq98IE6xsRlbuwZ2PNbbSV7dA-HlNfqRWj0_bd3XpQCOPt9R2gS3PJMm8lfMP_9IoKyhDNbY9NOotNDHO68v2DSUT_R-0UYTqZQc16DJM7OqS8_35iVUMqyy3GrUt7iMaIWz6iW6OSP2ddiDc/s1600/cisco-creds.jpg"
-    },
-    {
-      "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
-      "link": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
-      "description": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now p...",
-      "pub_date": "Mon, 31 Aug 2026 13:26:53 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHmPwSKHINCGncOKbSs9X05lJ2CJQivbfLYQ6LP3njVHAc-4fgSYJz-C1u6SUiFEtcF4ddjW3PBayFsVaF2a03OOkaLfWlg8pxJelp5bEhJT0LEv8-XPs9bUf8ruFcGOzjWAbumEJ4Veirq9lAAalOThmUfD0i19Mo5X_HpDcI21_5pJp7WsA8OPh74Ad_/s1600/justice.jpg"
     },
     {
       "title": "ZDI-26-615: (0Day) pdfforge PDF Architect activation-service Update Service Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
