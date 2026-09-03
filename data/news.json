@@ -1,23 +1,32 @@
 {
-  "last_updated": "2026-09-03T18:01:15Z",
+  "last_updated": "2026-09-03T20:35:30Z",
   "articles": [
     {
-      "title": "LLMjacking Attack Uses Leaked AWS IAM Key to Steal Paid AI Model Access",
-      "link": "https://cybersecuritynews.com/llmjacking-attack/",
-      "description": "A newly documented cloud intrusion shows how quickly attackers can turn a single leaked AWS credential into a revenue stream by hijacking access to premium AI models, a technique researchers call L...",
-      "pub_date": "Thu, 03 Sep 2026 16:58:34 +0000",
-      "source": "Cyber Security News",
+      "title": "Coder's registry infrastructure compromised to push malicious modules",
+      "link": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
+      "description": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]",
+      "pub_date": "Thu, 03 Sep 2026 16:04:24 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/LLMjacking-Attack.webp"
+      "image_url": ""
     },
     {
-      "title": "Fewer attacks, more force: Link11’s European Cyber Report finds new DDoS records for the first half of 2026",
-      "link": "https://cybersecuritynews.com/fewer-attacks-more-force-link11s-european-cyber-report-finds-new-ddos-records-for-the-first-half-of-2026/",
-      "description": "Frankfurt am Main, Germany, September 3rd, 2026, CyberNewswire Super-botnets and hijacked cloud servers drive new bandwidth and packet-rate records as international law-enforcement pressure pushes ...",
-      "pub_date": "Thu, 03 Sep 2026 16:45:29 +0000",
-      "source": "Cyber Security News",
+      "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
+      "description": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execution. [...]",
+      "pub_date": "Thu, 03 Sep 2026 14:28:12 -0400",
+      "source": "BleepingComputer",
       "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDUmXAX7wVzSwfcgTbUZTgYacnLNw0rSJMKrs2TluvLsc0y9wIqIM1r1Qb95W2RtJesbTRAXC619iydrCeHzEj6-cY_o4hyphenhyphenhn7mwcRdktawM7682KqCOMa55qpm2nZuZIKjAHHAy4da8GWtUs4Nd6_xaAmgK__HSR63l-88at0yR8FgmkMjNPWag7TWBw/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-09-03T18340%20(1).webp"
+      "image_url": ""
+    },
+    {
+      "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
+      "link": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
+      "description": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door?  That idea runs ...",
+      "pub_date": "Thu, 03 Sep 2026 23:32:47 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUcEnh-e0_L2Oz7JQcSCFBd90F29Z7_wHbJYiWOxWeZTeLLHbRZYK6vt1PrcUOgSFei7fxLMnP2lp0QyEOW2rzfcsnBFhayNHtKLPtHJFsu55w_GxuA3XLkZf-kleynMxXjc8zELZt7FBZFdqCAtesj3Fj148fwlGitAxZxu6t1wZDb7wgZQ1MR-Vmc4FL/s1600/threats-main.jpg"
     },
     {
       "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
@@ -56,15 +65,6 @@
       "image_url": ""
     },
     {
-      "title": "OpenAI Investigates Elevated Errors Affecting ChatGPT and Codex Services",
-      "link": "https://cybersecuritynews.com/openai-investigates-elevated-errors/",
-      "description": "OpenAI has reported an ongoing service incident involving elevated errors across ChatGPT and Codex, with the company confirming that it is investigating degraded performance affecting the two platf...",
-      "pub_date": "Thu, 03 Sep 2026 15:11:46 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OpenAI-Investigates-Elevated-Errors.webp"
-    },
-    {
       "title": "Anthropic confirms Claude is down, multiple models affected",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
       "description": "Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]",
@@ -72,24 +72,6 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
-    },
-    {
-      "title": "Phantom Deal Hackers Impersonate Executives and Use Fake NDAs to Steal Corporate Wire Transfers",
-      "link": "https://cybersecuritynews.com/phantom-deal-hackers/",
-      "description": "Cybercriminals are using fake acquisition deals to steer employees toward large wire transfers. The campaign, called Phantom Deal, begins with a believable WhatsApp message from someone appearing t...",
-      "pub_date": "Thu, 03 Sep 2026 15:01:27 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Phantom-Deal-Hackers-Impersonate-Executives-and-Use-Fake-NDAs-to-Steal-Corporate-Wire-Transfers.webp"
-    },
-    {
-      "title": "Hackers Weaponize ScreenConnect to Spread Worm-Like Malware Across Windows Systems",
-      "link": "https://cybersecuritynews.com/hackers-weaponize-screenconnect/",
-      "description": "Hackers are turning rogue remote-support installations into a tool that can spread malicious code between Windows computers. The activity stands out because an infected remote-access client can pas...",
-      "pub_date": "Thu, 03 Sep 2026 14:52:58 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Weaponize-ScreenConnect-to-Spread-Worm-Like-Malware-Across-Windows-Systems.webp"
     },
     {
       "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
@@ -101,24 +83,6 @@
       "image_url": ""
     },
     {
-      "title": "Chaotic Eclipse Claims Avast Antivirus 0-Day Vulnerability – PoC Released",
-      "link": "https://cybersecuritynews.com/avast-antivirus-0-day-vulnerability-poc-released/",
-      "description": "Researcher Chaotic Eclipse has claimed to have discovered a zero-day privilege-escalation vulnerability affecting Avast Antivirus and released a public proof-of-concept repository named PrettyPragu...",
-      "pub_date": "Thu, 03 Sep 2026 14:47:29 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Chaotic-Eclipse-Claims-Avast-Antivirus-0-Day-Vulnerability-PoC-Released.webp"
-    },
-    {
-      "title": "Claude AI Faces Outage Impacting Mythos 5.1, Fable 5.1, and Opus 5",
-      "link": "https://cybersecuritynews.com/claude-ai-faces-outage/",
-      "description": "Anthropic’s Claude AI experienced a partial outage on September 3, 2026, disrupting requests across several Claude models and affecting developers, enterprise users, and individuals relying on th...",
-      "pub_date": "Thu, 03 Sep 2026 14:39:32 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Claude-AI-Faces-Outage.webp"
-    },
-    {
       "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
       "link": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
       "description": "Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by its West Publishing Corporation unit, in March 2026, affect...",
@@ -126,33 +90,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX1nx19KbhbT0_rYFjMzqgJuG35q7QvJiMrikolTZV9sWztkSoSFUr95E-h-9vHv-GBGmRHAyh5Du0DDMYMr1m0VbD5YgYO6dVoY7p8d6Z5BbORiBOGgJfZjg4euf9uwUkGO4ZX8QZXUpuU0CFUwNV46UozcdMJ9SyZ4T4cy4pAI9ho7xYQ8cDJaFdfKM/s1600/reuters.jpg"
-    },
-    {
-      "title": "Hackers Use QR Codes in Phishing Emails to Steal Login Credentials",
-      "link": "https://cybersecuritynews.com/hackers-use-qr-codes-2/",
-      "description": "Hackers are putting QR codes in phishing emails to steal login credentials. Known as quishing, the method hides a dangerous web address inside a square and persuades recipients to scan it with a ph...",
-      "pub_date": "Thu, 03 Sep 2026 14:24:47 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-QR-Codes-in-Phishing-Emails-to-Steal-Login-Credentials.webp"
-    },
-    {
-      "title": "153 Million Driver’s License Scans Surface on Dark Web as FBI Opens Investigation",
-      "link": "https://cybersecuritynews.com/153-million-driver-license-exposed/",
-      "description": "A dark web identity theft service known as Nexus has reportedly offered scans of more than 153 million driver’s licenses from people in the United States and Canada. The FBI’s New Orleans field...",
-      "pub_date": "Thu, 03 Sep 2026 14:24:36 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/153-Million-Drivers-License-Scans-Surface-on-Dark-Web-as-FBI-Opens-Investigation.webp"
-    },
-    {
-      "title": "New $7 SweepLED Device That Allows Anyone to Detect Hidden Cameras in Hotels",
-      "link": "https://cybersecuritynews.com/sweepled-gadget/",
-      "description": "Researchers have developed SweepLED, a low-cost smartphone accessory designed to help travelers find concealed cameras in hotel rooms and short-term rentals. The prototype uses an LED-equipped phon...",
-      "pub_date": "Thu, 03 Sep 2026 14:04:05 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/New-7-SweepLED-Gadget-that-Allows-Anyone-to-Detect-Hidden-Cameras-in-Hotel.webp"
     },
     {
       "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
@@ -339,33 +276,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
       "description": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to register fraudulent Lenovo IDs. [...]",
       "pub_date": "Wed, 02 Sep 2026 08:30:22 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
-      "link": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
-      "description": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta an...",
-      "pub_date": "Wed, 02 Sep 2026 17:52:02 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNhCfat7BT6m53utL9Z1iMKYQv6B3QwsQdxZBzkmr1WsJpDDdFGZgHjaLuHSXMBBJSyfxtyR750K33X3GzZwYkHac_3mpIITheSY4lh8LMK-ufnQ9htwhkmfv2MRKfZKtYdROU7VuO0HMmK7BQ7FlttrQiToqHq9zffChgBIOJT8yLL5vT7JY43_FDK-A/s1600/android-trojan.jpg"
-    },
-    {
-      "title": "Microsoft Defender flags legitimate Google search links as malicious",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
-      "description": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links. [...]",
-      "pub_date": "Wed, 02 Sep 2026 06:29:39 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "US charges Russian for infecting 80,000 freelancers with malware",
-      "link": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
-      "description": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
-      "pub_date": "Wed, 02 Sep 2026 05:06:48 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
