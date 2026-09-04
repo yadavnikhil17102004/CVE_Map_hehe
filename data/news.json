@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-09-04T00:55:38Z",
+  "last_updated": "2026-09-04T06:02:23Z",
   "articles": [
+    {
+      "title": "OpenAI GPT-6 Astra Discovers Zero-Day Flaws and Builds Working Exploits in Cyber Tests",
+      "link": "https://cybersecuritynews.com/openai-gpt-6-astra-discovers-zero-day/",
+      "description": "OpenAI has unveiled GPT-6 Astra, a frontier AI model the company says can identify zero-day vulnerabilities and create working proof-of-concept exploits during authorized cybersecurity tests. Annou...",
+      "pub_date": "Fri, 04 Sep 2026 03:33:25 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OpenAI-GPT-6-Astra-Discovers-Zero-Day.webp"
+    },
+    {
+      "title": "Botnet Takedowns Are Working — But DDoS Operators Are Already Adapting",
+      "link": "https://cybersecuritynews.com/botnet-takedowns-are-working-but-ddos-operators-are-already-adapting/",
+      "description": "Every time a major botnet is dismantled, the cybersecurity community celebrates—and rightly so. These operations are technically complex, require international cooperation, and make life consider...",
+      "pub_date": "Fri, 04 Sep 2026 03:10:15 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/qlabs.webp"
+    },
     {
       "title": "French hospital fined €500,000 after breach exposes data of 727,000",
       "link": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
@@ -173,24 +191,6 @@
       "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-QR-Codes-in-Phishing-Emails-to-Steal-Login-Credentials.webp"
     },
     {
-      "title": "153 Million Driver’s License Scans Surface on Dark Web as FBI Opens Investigation",
-      "link": "https://cybersecuritynews.com/153-million-driver-license-exposed/",
-      "description": "A dark web identity theft service known as Nexus has reportedly offered scans of more than 153 million driver’s licenses from people in the United States and Canada. The FBI’s New Orleans field...",
-      "pub_date": "Thu, 03 Sep 2026 14:24:36 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/153-Million-Drivers-License-Scans-Surface-on-Dark-Web-as-FBI-Opens-Investigation.webp"
-    },
-    {
-      "title": "New $7 SweepLED Device That Allows Anyone to Detect Hidden Cameras in Hotels",
-      "link": "https://cybersecuritynews.com/sweepled-gadget/",
-      "description": "Researchers have developed SweepLED, a low-cost smartphone accessory designed to help travelers find concealed cameras in hotel rooms and short-term rentals. The prototype uses an LED-equipped phon...",
-      "pub_date": "Thu, 03 Sep 2026 14:04:05 +0000",
-      "source": "Cyber Security News",
-      "tier": 3,
-      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/New-7-SweepLED-Gadget-that-Allows-Anyone-to-Detect-Hidden-Cameras-in-Hotel.webp"
-    },
-    {
       "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
       "link": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
       "description": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can prioritize compromised identities, determine wh...",
@@ -265,7 +265,7 @@
     {
       "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
       "link": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
-      "description": "The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank, a privilege escalation flaw impacting Cr...",
+      "description": "The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank, a proof-of-concept (PoC) for a privilege...",
       "pub_date": "Thu, 03 Sep 2026 11:56:59 +0530",
       "source": "The Hacker News",
       "tier": 3,
