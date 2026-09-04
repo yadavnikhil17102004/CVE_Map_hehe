@@ -1,6 +1,150 @@
 {
-  "last_updated": "2026-09-04T10:44:53Z",
+  "last_updated": "2026-09-04T14:50:13Z",
   "articles": [
+    {
+      "title": "Hackers Use Popular Messaging Services to Control New Windows Backdoors",
+      "link": "https://cybersecuritynews.com/popular-messaging-services/",
+      "description": "A financially motivated threat group known as Toy Ghouls has begun using two custom Windows backdoors that communicate through popular messaging and broker services. The tools give attackers a disc...",
+      "pub_date": "Fri, 04 Sep 2026 14:44:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Popular-Messaging-Services-to-Control-New-Windows-Backdoors.webp"
+    },
+    {
+      "title": "Microsoft says some users can’t open the Teams desktop client",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
+      "description": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
+      "pub_date": "Fri, 04 Sep 2026 10:30:15 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "NodeStealer Can Now Record Everything Victims Type and Steal Their Screenshots",
+      "link": "https://cybersecuritynews.com/nodestealer-record-everything/",
+      "description": "NodeStealer has returned with a more invasive toolkit. The Python-based information stealer can now record keystrokes, watch copied text, and capture victims’ screens, turning an account-stealing...",
+      "pub_date": "Fri, 04 Sep 2026 14:29:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/NodeStealer-Can-Now-Record-Everything-Victims-Type-and-Steal-Their-Screenshots.webp"
+    },
+    {
+      "title": "Hackers Use Invisible Unicode Characters to Evade Phishing Detection in Millions of Emails",
+      "link": "https://cybersecuritynews.com/hackers-use-invisible-unicode/",
+      "description": "Attackers are using invisible Unicode characters to make phishing emails appear harmless while disrupting the security systems built to spot suspicious language. The campaign pushed finance-themed ...",
+      "pub_date": "Fri, 04 Sep 2026 14:09:55 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Invisible-Unicode-Characters-to-Evade-Phishing-Detection-in-Millions-of-Emails.webp"
+    },
+    {
+      "title": "39 New Methods That Compromise Passkey Authentication",
+      "link": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
+      "description": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication p...",
+      "pub_date": "Fri, 04 Sep 2026 10:01:11 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
+      "link": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
+      "description": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets attackers escalate privileges on up-to-date Win...",
+      "pub_date": "Fri, 04 Sep 2026 09:22:01 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks",
+      "link": "https://cybersecuritynews.com/ai-agents-for-real-world-cyberattacks/",
+      "description": "Hackers have turned commercial AI models into working parts of a cyberattack operation. The campaign paired AI-directed tasking with familiar methods such as vulnerable public-facing servers, stole...",
+      "pub_date": "Fri, 04 Sep 2026 13:21:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Turn-Claude-Qwen-and-DeepSeek-Into-AI-Agents-for-Real-World-Cyberattacks.webp"
+    },
+    {
+      "title": "Microsoft Confirms New Exchange Online Outage Delaying Emails from External Domains",
+      "link": "https://cybersecuritynews.com/exchange-online-outage-delaying-emails/",
+      "description": "Microsoft has confirmed a fresh Exchange Online incident, tracked as EX1467029, causing delays for users sending and receiving email messages from external domains. The company first acknowledged t...",
+      "pub_date": "Fri, 04 Sep 2026 13:00:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Exchange-Online-Outage-Delaying-Emails.webp"
+    },
+    {
+      "title": "Exchange Online outage causes email delays, 'Server busy' errors",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
+      "description": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]",
+      "pub_date": "Fri, 04 Sep 2026 08:22:30 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Plex Urges Users to Update Media Server Immediately to Fix Multiple Security Flaws",
+      "link": "https://cybersecuritynews.com/plex-fix-multiple-security-flaws/",
+      "description": "Plex has issued an urgent security update for Plex Media Server and Plex Desktop, asking users to install the latest releases as soon as possible. The update addresses multiple undisclosed security...",
+      "pub_date": "Fri, 04 Sep 2026 12:17:49 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Plex-Urges-Users-to-Update-Media-Server-Immediately-to-Fix-Multiple-Security-Flaws-.webp"
+    },
+    {
+      "title": "Multiple TP-Link Archer Vulnerabilities Allow Attackers to Execute Remote Code",
+      "link": "https://cybersecuritynews.com/multiple-tp-link-archer-vulnerabilities/",
+      "description": "TP-Link has disclosed two security vulnerabilities in its Archer AX55 v4 router that could let attackers on the local network crash a service, steal administrator credentials, and potentially execu...",
+      "pub_date": "Fri, 04 Sep 2026 12:16:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Multiple-TP-Link-Archer-Vulnerabilities-Allow-Attackers-to-Execute-Remote-Code.webp"
+    },
+    {
+      "title": "OpenAI Agents Hijack German Wiki in AI Breakout to Share Evasion and Bypass Tactics",
+      "link": "https://cybersecuritynews.com/openai-agents-hijack-german-wiki/",
+      "description": "Autonomous AI agents that identified themselves as OpenAI systems hijacked an obscure German-language wiki this spring and turned it into a public bulletin board, according to research published at...",
+      "pub_date": "Fri, 04 Sep 2026 12:03:31 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OpenAI-Agents-Hijack-German-Wiki.webp"
+    },
+    {
+      "title": "DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors",
+      "link": "https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors",
+      "description": "OverviewA new Linux toolkit, identified by Rapid7 Labs, has been targeting organizations across South Korea’s automotive and media industries with minimal detection. The campaign made use of a HA...",
+      "pub_date": "Fri, 04 Sep 2026 12:00:00 GMT",
+      "source": "Rapid7",
+      "tier": 1,
+      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt83e3180716d766f0/69b180eb669f1ce1a02fe1aa/Purple-teaming-in-2026-hero.jpg"
+    },
+    {
+      "title": "Microsoft 365 Phishing Technique Uses Empty Envelope Sender to Evade Direct Send Blocking",
+      "link": "https://cybersecuritynews.com/microsoft-365-phishing/",
+      "description": "Microsoft 365 users are facing a phishing technique built on a small change: attackers leave the SMTP envelope sender blank. The omission can let an unauthenticated message pass a Direct Send safeg...",
+      "pub_date": "Fri, 04 Sep 2026 11:49:30 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-365-Phishing-Technique-Uses-Empty-Envelope-Sender-to-Evade-Direct-Send-Blocking.webp"
+    },
+    {
+      "title": "Google warns of new Chrome zero-day flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
+      "description": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]",
+      "pub_date": "Fri, 04 Sep 2026 07:48:17 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Trezor Confirms ShipMonk Data Breach Exposed 67,000 Additional US Customers",
+      "link": "https://cybersecuritynews.com/trezor-confirms-shipmonk-data-breach/",
+      "description": "Hardware wallet maker Trezor has confirmed that a data breach at logistics partner ShipMonk is substantially larger than first reported, after older U.S. order records that should have been deleted...",
+      "pub_date": "Fri, 04 Sep 2026 11:37:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Trezor-Confirms-ShipMonk-Data-Breach.webp"
+    },
     {
       "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
       "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
@@ -191,15 +335,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfx0JCqLgANXGkgF5NMg__RxJg5IJ8HgQcvr_2zxEM6HSYzesKdLjKbrqmtAegyIpBmLxnryF5CeJlRh4J09q3e1kOo8dEzGXjhQpunnmGoL6wzEW_6R7lsN4zE5IybADP50VCjGGrBercYm6OIMCYsSgbHJ6sN9AYY3v6kCqPof8TWzR2O_ybViE1aYo/s1600/Shai-Hulud.gif"
     },
     {
-      "title": "Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs/",
-      "description": "Microsoft is working to fix a known issue that causes crashes and launch failures for Microsoft Teams and New Outlook users after installing updates released since the August 2026 Patch Tuesday. [...]",
-      "pub_date": "Thu, 03 Sep 2026 04:55:25 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
       "link": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
       "description": "The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware, according to new findings from the Citizen Lab in collaboration with the SHARE F...",
@@ -227,24 +362,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaGEC2JQn3dU5muXzZhp9ouduHJ5hE4vWW4zHDomXp7hJ3hHafGPmMU33aKs7A8dwhvqsMiwh8PNi4GUNzH635enPZT3oPdcZejqkA9vpPYbQTLZaAhzAVAuUFksC4mCNX6SRUzUx1vhSxokKBz9RBGXXOBJshSXfYLIox2OCi2htQdcmyDJDMvWTamC8/s1600/cisa.jpg"
     },
     {
-      "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
-      "description": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution. [...]",
-      "pub_date": "Wed, 02 Sep 2026 17:00:13 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
-      "description": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress could allow unauthenticated attackers to execute remote code and take control of affected websites. [...]",
-      "pub_date": "Wed, 02 Sep 2026 15:28:46 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
       "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
       "description": "Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new initiative called...",
@@ -261,24 +378,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
-      "description": "A critical authentication bypass vulnerability (CVE-2026-82329) in JFrog Artifactory is being exploited in attacks to create tokens that provide administrative access. [...]",
-      "pub_date": "Wed, 02 Sep 2026 11:47:08 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
-      "link": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
-      "description": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across client environments, from reducing exposure and detecting att...",
-      "pub_date": "Wed, 02 Sep 2026 10:02:12 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
     },
     {
       "title": "ZDI-26-615: (0Day) pdfforge PDF Architect activation-service Update Service Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
@@ -549,15 +648,6 @@
       "source": "Rapid7",
       "tier": 1,
       "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt65a432ba319f4043/6846abddaf18306debe6cf4d/ETR.webp"
-    },
-    {
-      "title": "Rapid7 Analysis: Microsoft SharePoint JWT Token Authentication Bypass (CVE-2026-55040)",
-      "link": "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-jwt-token-authentication-bypass-cve-2026-55040",
-      "description": "OverviewOn July 14, 2026, Rapid7 and Microsoft disclosed CVE-2026-55040, an authentication bypass vulnerability affecting Microsoft SharePoint. Today we are publishing a technical analysis of the v...",
-      "pub_date": "Tue, 11 Aug 2026 13:00:00 GMT",
-      "source": "Rapid7",
-      "tier": 1,
-      "image_url": "https://images.contentstack.io/v3/assets/blte4f029e766e6b253/bltcbf09ec3af35e28e/6a15c63f08221ed5144dbf77/webinar-rapid7-logo.jpg"
     },
     {
       "title": "How we took malware advisories beyond npm",
