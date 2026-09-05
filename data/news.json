@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-09-05T08:06:48Z",
+  "last_updated": "2026-09-05T12:26:06Z",
   "articles": [
+    {
+      "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
+      "description": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as m...",
+      "pub_date": "Sat, 05 Sep 2026 07:11:50 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "Microsoft Teams Desktop Client Fails to Load on Windows System – Microsoft Investigating",
+      "link": "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails/",
+      "description": "Microsoft is investigating an ongoing issue causing some Windows users to face significant delays or outright failures when launching the Microsoft Teams desktop client. The company acknowledged th...",
+      "pub_date": "Sat, 05 Sep 2026 09:20:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Teams-Desktop-Client-Fails.webp"
+    },
+    {
+      "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+      "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+      "description": "A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 202...",
+      "pub_date": "Sat, 05 Sep 2026 13:25:10 +0530",
+      "source": "The Hacker News",
+      "tier": 3,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBL2gQMKgajDATkCjnHyMtUkVhK5mcTQ2ebqcXngB6oZ71uiJ3skI9P4zikK1s5PCH4nhPG7ZyFHHWC13OVF2KRr_pIQ2U7zFITnNc3Qc_Am3bv0E1AzL9UVmrJ9vUJzZalktYIxWGlc-d5zYdicOJexMDWQ-4NIKinC_AksG1Mepn7QmFGWC1x52gVpw/s1600/agents-openai.jpg"
+    },
+    {
+      "title": "AI Agents Breach Company Network in Under 10 Hours and Steal Root Credentials",
+      "link": "https://cybersecuritynews.com/ai-agents-breach-company-network/",
+      "description": "A human attacker armed with frontier artificial intelligence models breached an enterprise network and seized root credentials in under 10 hours, a timeline that would normally take human red teams...",
+      "pub_date": "Sat, 05 Sep 2026 07:46:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/AI-Agents-Breach-Company-Network.webp"
+    },
     {
       "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
       "link": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
@@ -18,6 +54,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Microsoft Unveils Project Zenith Windows PCs That Can Run 30B+ AI Models Locally",
+      "link": "https://cybersecuritynews.com/project-zenith-windows-pcs/",
+      "description": "Microsoft has introduced Project Zenith, a new developer-optimized Windows 11 experience built for a class of high-memory PCs capable of running large AI models directly on-device, marking a signif...",
+      "pub_date": "Fri, 04 Sep 2026 16:44:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Project-Zenith-Windows-PCs.webp"
     },
     {
       "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
@@ -56,6 +101,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzLyhHupZwRy1pOQzT93Qhs5waZ8gqtlgDJUKgt1f37dz3KqIDDZY8uNo8QguZNccBHivdA_ecnY8cQUyhZQAvLH4APu3imxP-rwo2dYLZtKnJ92IkRPFmwepmJgRk9GrLrJiN_IbInwvNXaW7N5761YfEB1IIK4uDdNBTy6Koz8uXgOSXaQWixXM1Wts/s1600/HAProxy.jpg"
     },
     {
+      "title": "Hackers Use Popular Messaging Services to Control New Windows Backdoors",
+      "link": "https://cybersecuritynews.com/popular-messaging-services/",
+      "description": "A financially motivated threat group known as Toy Ghouls has begun using two custom Windows backdoors that communicate through popular messaging and broker services. The tools give attackers a disc...",
+      "pub_date": "Fri, 04 Sep 2026 14:44:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Popular-Messaging-Services-to-Control-New-Windows-Backdoors.webp"
+    },
+    {
       "title": "Microsoft says some users can’t open the Teams desktop client",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
       "description": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
@@ -63,6 +117,24 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "NodeStealer Can Now Record Everything Victims Type and Steal Their Screenshots",
+      "link": "https://cybersecuritynews.com/nodestealer-record-everything/",
+      "description": "NodeStealer has returned with a more invasive toolkit. The Python-based information stealer can now record keystrokes, watch copied text, and capture victims’ screens, turning an account-stealing...",
+      "pub_date": "Fri, 04 Sep 2026 14:29:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/NodeStealer-Can-Now-Record-Everything-Victims-Type-and-Steal-Their-Screenshots.webp"
+    },
+    {
+      "title": "Hackers Use Invisible Unicode Characters to Evade Phishing Detection in Millions of Emails",
+      "link": "https://cybersecuritynews.com/hackers-use-invisible-unicode/",
+      "description": "Attackers are using invisible Unicode characters to make phishing emails appear harmless while disrupting the security systems built to spot suspicious language. The campaign pushed finance-themed ...",
+      "pub_date": "Fri, 04 Sep 2026 14:09:55 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Invisible-Unicode-Characters-to-Evade-Phishing-Detection-in-Millions-of-Emails.webp"
     },
     {
       "title": "39 New Methods That Compromise Passkey Authentication",
@@ -83,6 +155,24 @@
       "image_url": ""
     },
     {
+      "title": "Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks",
+      "link": "https://cybersecuritynews.com/ai-agents-for-real-world-cyberattacks/",
+      "description": "Hackers have turned commercial AI models into working parts of a cyberattack operation. The campaign paired AI-directed tasking with familiar methods such as vulnerable public-facing servers, stole...",
+      "pub_date": "Fri, 04 Sep 2026 13:21:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Turn-Claude-Qwen-and-DeepSeek-Into-AI-Agents-for-Real-World-Cyberattacks.webp"
+    },
+    {
+      "title": "Microsoft Confirms New Exchange Online Outage Delaying Emails from External Domains",
+      "link": "https://cybersecuritynews.com/exchange-online-outage-delaying-emails/",
+      "description": "Microsoft has confirmed a fresh Exchange Online incident, tracked as EX1467029, causing delays for users sending and receiving email messages from external domains. The company first acknowledged t...",
+      "pub_date": "Fri, 04 Sep 2026 13:00:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Exchange-Online-Outage-Delaying-Emails.webp"
+    },
+    {
       "title": "Exchange Online outage causes email delays, 'Server busy' errors",
       "link": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
       "description": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]",
@@ -90,6 +180,24 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Plex Urges Users to Update Media Server Immediately to Fix Multiple Security Flaws",
+      "link": "https://cybersecuritynews.com/plex-fix-multiple-security-flaws/",
+      "description": "Plex has issued an urgent security update for Plex Media Server and Plex Desktop, asking users to install the latest releases as soon as possible. The update addresses multiple undisclosed security...",
+      "pub_date": "Fri, 04 Sep 2026 12:17:49 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Plex-Urges-Users-to-Update-Media-Server-Immediately-to-Fix-Multiple-Security-Flaws-.webp"
+    },
+    {
+      "title": "Multiple TP-Link Archer Vulnerabilities Allow Attackers to Execute Remote Code",
+      "link": "https://cybersecuritynews.com/multiple-tp-link-archer-vulnerabilities/",
+      "description": "TP-Link has disclosed two security vulnerabilities in its Archer AX55 v4 router that could let attackers on the local network crash a service, steal administrator credentials, and potentially execu...",
+      "pub_date": "Fri, 04 Sep 2026 12:16:28 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Multiple-TP-Link-Archer-Vulnerabilities-Allow-Attackers-to-Execute-Remote-Code.webp"
     },
     {
       "title": "DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors",
@@ -245,15 +353,6 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX1nx19KbhbT0_rYFjMzqgJuG35q7QvJiMrikolTZV9sWztkSoSFUr95E-h-9vHv-GBGmRHAyh5Du0DDMYMr1m0VbD5YgYO6dVoY7p8d6Z5BbORiBOGgJfZjg4euf9uwUkGO4ZX8QZXUpuU0CFUwNV46UozcdMJ9SyZ4T4cy4pAI9ho7xYQ8cDJaFdfKM/s1600/reuters.jpg"
     },
     {
-      "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
-      "link": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
-      "description": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can prioritize compromised identities, determine wh...",
-      "pub_date": "Thu, 03 Sep 2026 09:50:59 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
       "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
       "link": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
       "description": "An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has turned out to be part of a broader campaign spanning 46 co...",
@@ -270,15 +369,6 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixQdi-o7wSstsDvvGluX8EDCUhGUHwpKjSkMSaigZZkFOEI_mWS0kLYvjSaG9olG2Y8GYxqH2kKRUtT82RVMLfW-FuBdrWMbGSfJMVVK3YAL3FClWT6t0Dz33NzHEYK1dL93JLl7YzyETY1i9ZYpRty-BG5Vfk_vGUggKigBtpQZxKuUW8-Jg3m9xZV8BL/s1600/jsnode.jpg"
-    },
-    {
-      "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
-      "link": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
-      "description": "In early August, GitGuardian researchers found that a recent Shai-Hulud infostealer worm variant had evolved to scan for credentials across 469 locations across developer environments, Continuous I...",
-      "pub_date": "Thu, 03 Sep 2026 16:06:39 +0530",
-      "source": "The Hacker News",
-      "tier": 3,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfx0JCqLgANXGkgF5NMg__RxJg5IJ8HgQcvr_2zxEM6HSYzesKdLjKbrqmtAegyIpBmLxnryF5CeJlRh4J09q3e1kOo8dEzGXjhQpunnmGoL6wzEW_6R7lsN4zE5IybADP50VCjGGrBercYm6OIMCYsSgbHJ6sN9AYY3v6kCqPof8TWzR2O_ybViE1aYo/s1600/Shai-Hulud.gif"
     },
     {
       "title": "Critical SonicWall SMA1000 Vulnerabilities CVE-2026-83548, CVE-2026-83549 Exploited in the Wild",
