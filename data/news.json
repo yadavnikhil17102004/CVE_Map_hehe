@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-09-06T13:58:31Z",
+  "last_updated": "2026-09-06T17:05:48Z",
   "articles": [
+    {
+      "title": "Attackers conceal phishing lures using invisible Unicode characters",
+      "link": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
+      "description": "Threat actors have adopted the ASCII smuggling technique in phishing campaigns, using invisible Unicode characters to evade email security filters. [...]",
+      "pub_date": "Sun, 06 Sep 2026 10:23:46 -0400",
+      "source": "BleepingComputer",
+      "tier": 3,
+      "image_url": ""
+    },
+    {
+      "title": "CrowdStrike Launches SafeMind – First Agentic Cybersecurity Solution Built for Defenders",
+      "link": "https://cybersecuritynews.com/crowdstrike-launches-safemind/",
+      "description": "CrowdStrike has unveiled SafeMind, a family of purpose-built security models and harnesses that the company is calling the first agentic system engineered specifically for cyber defenders. Announce...",
+      "pub_date": "Sun, 06 Sep 2026 13:03:56 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/CrowdStrike-Launches-SafeMind.webp"
+    },
+    {
+      "title": "ASUS Control Center Flaw Allows Attackers to Gain Full Admin Control of the System",
+      "link": "https://cybersecuritynews.com/asus-control-center-vulnerability/",
+      "description": "ASUS has issued an urgent security update for ASUS Control Center Enterprise (ACC) after researchers uncovered a maximum-severity vulnerability that lets remote attackers seize complete administrat...",
+      "pub_date": "Sun, 06 Sep 2026 10:57:47 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/ASUS-Control-Center-Vulnerability.webp"
+    },
+    {
+      "title": "Hackers Exploiting MikroTik RouterOS Vulnerability in the Wild to Gain Complete Network Access",
+      "link": "https://cybersecuritynews.com/mikrotik-routeros-vulnerability/",
+      "description": "Attackers are actively exploiting an unauthenticated remote access flaw in MikroTik RouterOS, and network administrators worldwide are being urged to patch their devices immediately before compromi...",
+      "pub_date": "Sun, 06 Sep 2026 10:25:15 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/MikroTik-RouterOS-Vulnerability.webp"
+    },
     {
       "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
       "link": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
@@ -18,6 +54,24 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpRcdfXd6kYnqLLWSFdzGKICUzSr90MsV2f3PXtw8VDVcT-xOP2w4HwnVzrRI4bdJqhboQMFIm9BZ393b89IOqgYx-VVmb_B8-XJCsZ9SAIymdlBpEf5ARizHvn32t8Mr9stzV6nMVcn3utUYI1xSRxhaC29QZjS-C3haNSRPfQI_eBYzXCrwn5rl18Nw/s1600/rev.jpg"
+    },
+    {
+      "title": "10 Best ZTNA Solutions (Zero Trust Network Access) In 2026",
+      "link": "https://cybersecuritynews.com/best-ztna-solutions/",
+      "description": "Zero Trust Network Access (ZTNA) anchors 2026 cybersecurity amid remote, cloud, and hybrid booms. ZTNA solutions aren\u0026#8217;t hype—they\u0026#8217;re vital for data locks, compliance wins, and borderl...",
+      "pub_date": "Sun, 06 Sep 2026 04:48:58 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/best-ztna-solutions-cloudconnexa.webp"
+    },
+    {
+      "title": "Hackers Actively Exploiting Magento and Adobe Commerce 0-Day RCE Vulnerability",
+      "link": "https://cybersecuritynews.com/magento-and-adobe-commerce-0-day-rce/",
+      "description": "A newly discovered zero-day vulnerability in Magento Open Source and Adobe Commerce is being actively exploited by attackers to seize full control of online stores, and there is still no official p...",
+      "pub_date": "Sun, 06 Sep 2026 03:52:46 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Magento-and-Adobe-Commerce-0-Day-RCE.webp"
     },
     {
       "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
@@ -74,6 +128,15 @@
       "image_url": ""
     },
     {
+      "title": "Microsoft Teams Desktop Client Fails to Load on Windows System – Microsoft Investigating",
+      "link": "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails/",
+      "description": "Microsoft is investigating an ongoing issue causing some Windows users to face significant delays or outright failures when launching the Microsoft Teams desktop client. The company acknowledged th...",
+      "pub_date": "Sat, 05 Sep 2026 09:20:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Teams-Desktop-Client-Fails.webp"
+    },
+    {
       "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
       "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
       "description": "A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 202...",
@@ -81,6 +144,15 @@
       "source": "The Hacker News",
       "tier": 3,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBL2gQMKgajDATkCjnHyMtUkVhK5mcTQ2ebqcXngB6oZ71uiJ3skI9P4zikK1s5PCH4nhPG7ZyFHHWC13OVF2KRr_pIQ2U7zFITnNc3Qc_Am3bv0E1AzL9UVmrJ9vUJzZalktYIxWGlc-d5zYdicOJexMDWQ-4NIKinC_AksG1Mepn7QmFGWC1x52gVpw/s1600/agents-openai.jpg"
+    },
+    {
+      "title": "AI Agents Breach Company Network in Under 10 Hours and Steal Root Credentials",
+      "link": "https://cybersecuritynews.com/ai-agents-breach-company-network/",
+      "description": "A human attacker armed with frontier artificial intelligence models breached an enterprise network and seized root credentials in under 10 hours, a timeline that would normally take human red teams...",
+      "pub_date": "Sat, 05 Sep 2026 07:46:07 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/AI-Agents-Breach-Company-Network.webp"
     },
     {
       "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
@@ -99,6 +171,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "Microsoft Unveils Project Zenith Windows PCs That Can Run 30B+ AI Models Locally",
+      "link": "https://cybersecuritynews.com/project-zenith-windows-pcs/",
+      "description": "Microsoft has introduced Project Zenith, a new developer-optimized Windows 11 experience built for a class of high-memory PCs capable of running large AI models directly on-device, marking a signif...",
+      "pub_date": "Fri, 04 Sep 2026 16:44:18 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Project-Zenith-Windows-PCs.webp"
     },
     {
       "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
@@ -137,6 +218,15 @@
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzLyhHupZwRy1pOQzT93Qhs5waZ8gqtlgDJUKgt1f37dz3KqIDDZY8uNo8QguZNccBHivdA_ecnY8cQUyhZQAvLH4APu3imxP-rwo2dYLZtKnJ92IkRPFmwepmJgRk9GrLrJiN_IbInwvNXaW7N5761YfEB1IIK4uDdNBTy6Koz8uXgOSXaQWixXM1Wts/s1600/HAProxy.jpg"
     },
     {
+      "title": "Hackers Use Popular Messaging Services to Control New Windows Backdoors",
+      "link": "https://cybersecuritynews.com/popular-messaging-services/",
+      "description": "A financially motivated threat group known as Toy Ghouls has begun using two custom Windows backdoors that communicate through popular messaging and broker services. The tools give attackers a disc...",
+      "pub_date": "Fri, 04 Sep 2026 14:44:43 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Popular-Messaging-Services-to-Control-New-Windows-Backdoors.webp"
+    },
+    {
       "title": "Microsoft says some users can’t open the Teams desktop client",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
       "description": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
@@ -144,6 +234,15 @@
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
+    },
+    {
+      "title": "NodeStealer Can Now Record Everything Victims Type and Steal Their Screenshots",
+      "link": "https://cybersecuritynews.com/nodestealer-record-everything/",
+      "description": "NodeStealer has returned with a more invasive toolkit. The Python-based information stealer can now record keystrokes, watch copied text, and capture victims’ screens, turning an account-stealing...",
+      "pub_date": "Fri, 04 Sep 2026 14:29:44 +0000",
+      "source": "Cyber Security News",
+      "tier": 3,
+      "image_url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/NodeStealer-Can-Now-Record-Everything-Victims-Type-and-Steal-Their-Screenshots.webp"
     },
     {
       "title": "39 New Methods That Compromise Passkey Authentication",
@@ -267,15 +366,6 @@
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
       "description": "ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]",
       "pub_date": "Thu, 03 Sep 2026 11:13:29 -0400",
-      "source": "BleepingComputer",
-      "tier": 3,
-      "image_url": ""
-    },
-    {
-      "title": "Anthropic confirms Claude is down, multiple models affected",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
-      "description": "Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]",
-      "pub_date": "Thu, 03 Sep 2026 11:02:52 -0400",
       "source": "BleepingComputer",
       "tier": 3,
       "image_url": ""
